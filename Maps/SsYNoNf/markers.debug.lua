@@ -1,0 +1,135 @@
+{
+	{
+		Groups = false,
+		LootTableIds = {
+			"SmallContainer",
+		},
+		handle = 429252608,
+		map = "SsYNoNf",
+		name = 'InventoryItemSpawn#608 "ГОРА"',
+		path = "InventoryItemSpawn ",
+		type = "InventoryItemSpawn",
+	},
+	{
+		Groups = false,
+		LootTableIds = {
+			"LargeContainer",
+		},
+		handle = 720437248,
+		map = "SsYNoNf",
+		name = 'InventoryItemSpawn#248 "КОНТЕЙНЕР"',
+		path = "InventoryItemSpawn ",
+		type = "InventoryItemSpawn",
+	},
+	{
+		Groups = false,
+		SpecificBanters = {
+			"MiddleOfXWhere_Legion",
+		},
+		handle = 1027366620,
+		map = "SsYNoNf",
+		name = "Position#620",
+		path = "Position ",
+		type = "Position",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1194446604,
+		items = {},
+		map = "SsYNoNf",
+		name = "UnitMarker#604 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1204197144,
+		items = {},
+		map = "SsYNoNf",
+		name = "UnitMarker#144 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1337390323,
+		items = {},
+		map = "SsYNoNf",
+		name = "UnitMarker#323 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		BanterGroups = {
+			"Banters_Local_MiddleOfWhere",
+		},
+		Groups = false,
+		handle = 1401615568,
+		items = {},
+		map = "SsYNoNf",
+		name = "UnitMarker#568",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1574828366,
+		items = {},
+		map = "SsYNoNf",
+		name = "UnitMarker#366 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1637053244,
+		items = {},
+		map = "SsYNoNf",
+		name = "UnitMarker#244 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1643730809,
+		items = {},
+		map = "SsYNoNf",
+		name = "UnitMarker#809 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1659812025,
+		items = {},
+		map = "SsYNoNf",
+		name = "UnitMarker#025 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1782382871,
+		items = {},
+		map = "SsYNoNf",
+		name = "UnitMarker#871 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+}
