@@ -1,0 +1,148 @@
+{
+	{
+		Groups = false,
+		LootTableIds = {
+			"SmallContainer",
+		},
+		handle = 465108992,
+		map = "I-11U - U-Bahn Station",
+		name = 'InventoryItemSpawn#992 "CONTAINER"',
+		path = "InventoryItemSpawn ",
+		type = "InventoryItemSpawn",
+	},
+	{
+		Groups = false,
+		handle = 1102565307,
+		items = {
+			{
+				editor_view_abridged = "if not MentionSurrender and not SiegfriedAttackStarted (U-Bahn)",
+				filter_type = "quest",
+				reference_id = "U-Bahn",
+				type = "QuestIsVariableBool",
+				var = set({
+	MentionSurrender = false,
+	SiegfriedAttackStarted = false,
+}),
+			},
+			{
+				editor_view_abridged = "Quest U-Bahn: I11U_Reinforcements = true",
+				filter_type = "quest",
+				reference_id = "U-Bahn",
+				type = "QuestSetVariableBool",
+				var = "I11U_Reinforcements",
+			},
+			{
+				editor_view_abridged = "Start radio conversation.",
+				filter_type = "conversation",
+				reference_id = "DrGruselheim_1",
+				type = "RadioStartConversation",
+			},
+		},
+		map = "I-11U - U-Bahn Station",
+		name = 'CustomInteractable#307 "Use Phone"',
+		path = "CustomInteractable ",
+		type = "CustomInteractable",
+	},
+	{
+		Groups = false,
+		handle = 1365812812,
+		items = {
+			{
+				editor_view_abridged = "if TunnerReinforcements1 (U-Bahn)",
+				filter_type = "quest",
+				reference_id = "U-Bahn",
+				type = "QuestIsVariableBool",
+				var = set( "TunnerReinforcements1" ),
+			},
+		},
+		map = "I-11U - U-Bahn Station",
+		name = "UnitMarker#812",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = false,
+		handle = 1445264493,
+		items = {
+			{
+				editor_view_abridged = "if TunnerReinforcements2 (U-Bahn)",
+				filter_type = "quest",
+				reference_id = "U-Bahn",
+				type = "QuestIsVariableBool",
+				var = set( "TunnerReinforcements2" ),
+			},
+		},
+		map = "I-11U - U-Bahn Station",
+		name = "UnitMarker#493",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = false,
+		handle = 1564066418,
+		items = {
+			{
+				editor_view_abridged = "if TunnerReinforcements2 (U-Bahn)",
+				filter_type = "quest",
+				reference_id = "U-Bahn",
+				type = "QuestIsVariableBool",
+				var = set( "TunnerReinforcements2" ),
+			},
+		},
+		map = "I-11U - U-Bahn Station",
+		name = "UnitMarker#418",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = false,
+		handle = 1667661837,
+		items = {
+			{
+				editor_view_abridged = "if TunnerReinforcements2 (U-Bahn)",
+				filter_type = "quest",
+				reference_id = "U-Bahn",
+				type = "QuestIsVariableBool",
+				var = set( "TunnerReinforcements2" ),
+			},
+		},
+		map = "I-11U - U-Bahn Station",
+		name = "UnitMarker#837",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = false,
+		handle = 1710453359,
+		items = {
+			{
+				editor_view_abridged = "if TunnerReinforcements1 (U-Bahn)",
+				filter_type = "quest",
+				reference_id = "U-Bahn",
+				type = "QuestIsVariableBool",
+				var = set( "TunnerReinforcements1" ),
+			},
+		},
+		map = "I-11U - U-Bahn Station",
+		name = "UnitMarker#359",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = false,
+		handle = 1781046783,
+		items = {
+			{
+				editor_view_abridged = "if TunnerReinforcements1 (U-Bahn)",
+				filter_type = "quest",
+				reference_id = "U-Bahn",
+				type = "QuestIsVariableBool",
+				var = set( "TunnerReinforcements1" ),
+			},
+		},
+		map = "I-11U - U-Bahn Station",
+		name = "UnitMarker#783",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+}
