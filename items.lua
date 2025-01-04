@@ -4954,7 +4954,7 @@ return {
 					'StickySide', true,
 					'TerrainType', "Urban",
 					'WeatherZone', "SavannahNorth",
-					'City', "bkXfKAA",
+					'City', "Pantagruel",
 					'ShowCity', true,
 					'Hospital', true,
 					'HospitalLocked', true,
@@ -5017,7 +5017,7 @@ return {
 					'display_name', T(580447225647, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E15]] "Трущобы Пантагрюэля"),
 					'TerrainType', "Urban",
 					'WeatherZone', "SavannahNorth",
-					'City', "bkXfKAA",
+					'City', "Pantagruel",
 					'ShowCity', true,
 					'Donations', true,
 					'Militia', true,
@@ -5060,7 +5060,7 @@ return {
 					'modId', "FhNNYd",
 					'display_name', T(149503142162, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E14]] "Окраины Пантагрюэля"),
 					'WeatherZone', "SavannahNorth",
-					'City', "bkXfKAA",
+					'City', "Pantagruel",
 					'ShowCity', true,
 					'Farm', true,
 					'DailyIncomeFarm', 500,
@@ -10063,6 +10063,10 @@ return {
 					'WeatherZone', "Erny",
 					'InterestingSector', true,
 					'bidirectionalRoadApply', true,
+					'Roads', set({
+	East = false,
+	West = true,
+}),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
@@ -10083,19 +10087,16 @@ return {
 					'modId', "FhNNYd",
 					'display_name', T(671411170358, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M1]] "Побережье Эрни"),
 					'TerrainType', "Jungle",
+					'ForceConflict', true,
 					'MinFlareCarriers', 3,
 					'MaxFlareCarriers', 10,
 					'bidirectionalRoadApply', true,
-					'Roads', set({
-	East = false,
-	North = true,
-}),
+					'Roads', set( "East", "North" ),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
 	West = true,
 }),
-					'warningStateEnabled', true,
 				}),
 			}),
 			}),
@@ -11301,19 +11302,19 @@ return {
 		PlaceObj('ModItemCampaignPreset', {
 			Cities = {
 				PlaceObj('CampaignCity', {
-					'Id', "ubRwFgf",
+					'Id', "ErnieVillage",
 					'DisplayName', T(796124227489, --[[ModItemCampaignPreset HotDiamonds DisplayName]] "Эрни"),
 				}),
 				PlaceObj('CampaignCity', {
-					'Id', "bkXfKAA",
+					'Id', "Pantagruel",
 					'DisplayName', T(513871369100, --[[ModItemCampaignPreset HotDiamonds DisplayName]] "Пантагрюэль"),
 				}),
 				PlaceObj('CampaignCity', {
-					'Id', "UdKjHPL",
+					'Id', "Sabra",
 					'DisplayName', T(428591598482, --[[ModItemCampaignPreset HotDiamonds DisplayName]] "Лагерь на холме"),
 				}),
 				PlaceObj('CampaignCity', {
-					'Id', "sGNAcn6",
+					'Id', "Landsbach",
 					'DisplayName', T(485077959808, --[[ModItemCampaignPreset HotDiamonds DisplayName]] "Ландсбах"),
 				}),
 				PlaceObj('CampaignCity', {
@@ -11348,18 +11349,6 @@ return {
 			DisclaimerOnStart = T(492298539842, --[[ModItemCampaignPreset HotDiamonds DisclaimerOnStart]] "Когда серия Jagged Alliance впервые увидела свет, в ней с юмором обыгрывались штампы и шаблоны кинобоевиков девяностых.<newline><newline>Jagged Alliance 3 продолжает эту традицию, не обходя вниманием и современные события, а также поп-культуру.<newline>Jagged Alliance 3 представляет собой художественный вымысел (очень взрывчатого толка), не основанный ни на каких реальных событиях, лицах и географических точках.<newline><newline>Мы призываем вас вести себя рассудительно и здраво в процессе игры<newline>(а также и при выборе, какому из отрядов противника первым прилетит граната)."),
 			DisplayName = T(570263587917, --[[ModItemCampaignPreset HotDiamonds DisplayName]] "Хот-Даймондс"),
 			EffectsOnStart = {
-				PlaceObj('SectorEnableAutoDeploy', {
-					deploy = false,
-					sector_id = "M2",
-				}),
-				PlaceObj('SectorEnableAutoDeploy', {
-					deploy = false,
-					sector_id = "M3",
-				}),
-				PlaceObj('SectorEnableAutoDeploy', {
-					deploy = false,
-					sector_id = "E14",
-				}),
 				PlaceObj('RandomEffect', {
 					Effects = {
 						PlaceObj('SectorSpawnSquad', {
@@ -11408,6 +11397,10 @@ return {
 						}),
 					},
 				}),
+				PlaceObj('SectorEnableAutoDeploy', {
+					deploy = false,
+					sector_id = "M1",
+				}),
 			},
 			FirstRunInterface = function (self, interfaceType)
 				if interfaceType == "QuickStart" then
@@ -11428,7 +11421,8 @@ return {
 			Initialize = function (self)
 				RandomizeOfflineMercs()
 				InitDiamondBriefcaseSquads()
-				AllowRevealSectors({ "I5", "M7", "I6", "I6_Underground", "I7", "M1", "M13", "M4" })
+				AllowRevealSectors({ "M1","M2","M3" })
+				--AllowRevealSectors({ "I5", "M7", "I6", "I6_Underground", "I7", "M1", "M13", "M4" })
 			end,
 			Sectors = {
 				PlaceObj('SatelliteSector', {
@@ -14840,7 +14834,7 @@ return {
 					'modId', "FhNNYd",
 					'display_name', T(149503142162, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E14]] "Окраины Пантагрюэля"),
 					'WeatherZone', "SavannahNorth",
-					'City', "bkXfKAA",
+					'City', "Pantagruel",
 					'ShowCity', true,
 					'Farm', true,
 					'DailyIncomeFarm', 500,
@@ -14883,7 +14877,7 @@ return {
 					'display_name', T(580447225647, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E15]] "Трущобы Пантагрюэля"),
 					'TerrainType', "Urban",
 					'WeatherZone', "SavannahNorth",
-					'City', "bkXfKAA",
+					'City', "Pantagruel",
 					'ShowCity', true,
 					'Donations', true,
 					'Militia', true,
@@ -14921,7 +14915,7 @@ return {
 					'display_name', T(580447225647, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E15]] "Трущобы Пантагрюэля"),
 					'TerrainType', "Urban",
 					'WeatherZone', "SavannahNorth",
-					'City', "bkXfKAA",
+					'City', "Pantagruel",
 					'ShowCity', true,
 					'Donations', true,
 					'Militia', true,
@@ -14960,7 +14954,7 @@ return {
 					'StickySide', true,
 					'TerrainType', "Urban",
 					'WeatherZone', "SavannahNorth",
-					'City', "bkXfKAA",
+					'City', "Pantagruel",
 					'ShowCity', true,
 					'Hospital', true,
 					'HospitalLocked', true,
@@ -15018,7 +15012,7 @@ return {
 					'StickySide', true,
 					'TerrainType', "Urban",
 					'WeatherZone', "SavannahNorth",
-					'City', "bkXfKAA",
+					'City', "Pantagruel",
 					'ShowCity', true,
 					'Hospital', true,
 					'HospitalLocked', true,
@@ -23565,19 +23559,16 @@ return {
 					'modId', "FhNNYd",
 					'display_name', T(671411170358, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M1]] "Побережье Эрни"),
 					'TerrainType', "Jungle",
+					'ForceConflict', true,
 					'MinFlareCarriers', 3,
 					'MaxFlareCarriers', 10,
 					'bidirectionalRoadApply', true,
-					'Roads', set({
-	East = false,
-	North = true,
-}),
+					'Roads', set( "East", "North" ),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
 	West = true,
 }),
-					'warningStateEnabled', true,
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M10",
@@ -23699,6 +23690,10 @@ return {
 					'WeatherZone', "Erny",
 					'InterestingSector', true,
 					'bidirectionalRoadApply', true,
+					'Roads', set({
+	East = false,
+	West = true,
+}),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
@@ -26507,11 +26502,13 @@ return {
 			id = "HotDiamonds",
 			map_file = "Mod/FhNNYd/Images/GrandChien2 (3).png",
 			map_size = point(9966, 5704),
+			max_hired_mercs = 50,
 			sector_bottomright = "P32",
 			sectors_offset = point(0, 0),
 			starting_day = 3,
 			starting_hour = 9,
-			starting_timestamp = 986277600,
+			starting_timestamp = 1112508000,
+			starting_year = 2005,
 			underground_file = "Mod/FhNNYd/Images/BigMap_Under_1.png",
 		}),
 		PlaceObj('ModItemQuestsDef', {
