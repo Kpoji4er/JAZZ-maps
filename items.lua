@@ -124,7 +124,7 @@ return {
 		PlaceObj('ModItemConstDef', {
 			group = "Satellite",
 			id = "StartingMoney",
-			value = 100000,
+			value = 40000,
 		}),
 		PlaceObj('ModItemConstDef', {
 			group = "Satellite",
@@ -10088,6 +10088,7 @@ return {
 					'display_name', T(671411170358, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M1]] "Побережье Эрни"),
 					'TerrainType', "Jungle",
 					'ForceConflict', true,
+					'CustomConflictDescr', "InitialConflict",
 					'MinFlareCarriers', 3,
 					'MaxFlareCarriers', 10,
 					'bidirectionalRoadApply', true,
@@ -10097,6 +10098,15 @@ return {
 	East = false,
 	West = true,
 }),
+					'Events', {
+						PlaceObj('SE_OnEnterMap', {
+							'Effects', {
+								PlaceObj('GroupAlert', {
+									TargetUnit = "any",
+								}),
+							},
+						}),
+					},
 				}),
 			}),
 			}),
@@ -23560,6 +23570,7 @@ return {
 					'display_name', T(671411170358, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M1]] "Побережье Эрни"),
 					'TerrainType', "Jungle",
 					'ForceConflict', true,
+					'CustomConflictDescr', "InitialConflict",
 					'MinFlareCarriers', 3,
 					'MaxFlareCarriers', 10,
 					'bidirectionalRoadApply', true,
@@ -23569,6 +23580,15 @@ return {
 	East = false,
 	West = true,
 }),
+					'Events', {
+						PlaceObj('SE_OnEnterMap', {
+							'Effects', {
+								PlaceObj('GroupAlert', {
+									TargetUnit = "any",
+								}),
+							},
+						}),
+					},
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M10",
@@ -26506,8 +26526,8 @@ return {
 			sector_bottomright = "P32",
 			sectors_offset = point(0, 0),
 			starting_day = 3,
-			starting_hour = 9,
-			starting_timestamp = 1112508000,
+			starting_hour = 15,
+			starting_timestamp = 1112529600,
 			starting_year = 2005,
 			underground_file = "Mod/FhNNYd/Images/BigMap_Under_1.png",
 		}),
