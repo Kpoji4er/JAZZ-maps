@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 3893,
+	'version', 3906,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -16,7 +16,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1736450552,
+	'saved', 1736460063,
 	'code_hash', 3886187561896124310,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
@@ -1326,7 +1326,7 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "QuestsDef",
-			'Id', "01_Landing_copy",
+			'Id', "01_Landing",
 			'ClassDisplayName', "QuestsEditor",
 		}),
 		PlaceObj('ModResourcePreset', {
