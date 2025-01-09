@@ -124,7 +124,7 @@ return {
 		PlaceObj('ModItemConstDef', {
 			group = "Satellite",
 			id = "StartingMoney",
-			value = 40000,
+			value = 60000,
 		}),
 		PlaceObj('ModItemConstDef', {
 			group = "Satellite",
@@ -8825,7 +8825,7 @@ return {
 					'Map', "mVm5mPU",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(504402203656, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J12]] "Пирс на побережье саванны"),
+					'display_name', T(504402203656, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J12]] "Побережье саванны"),
 					'WeatherZone', "SavannahSouth",
 					'Passability', "Land and Water",
 					'Donations', true,
@@ -10093,10 +10093,11 @@ return {
 					'MinFlareCarriers', 3,
 					'MaxFlareCarriers', 10,
 					'bidirectionalRoadApply', true,
-					'Roads', set( "East", "North" ),
+					'Roads', set( "East" ),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
+	North = true,
 	West = true,
 }),
 					'Events', {
@@ -10104,6 +10105,24 @@ return {
 							'Effects', {
 								PlaceObj('GroupAlert', {
 									TargetUnit = "any",
+								}),
+								PlaceObj('QuestSetVariableBool', {
+									Prop = "Given",
+									QuestId = "JAZZ_LegionTier",
+								}),
+							},
+						}),
+						PlaceObj('SE_OnConflictStarted', {
+							'Effects', {
+								PlaceObj('QuestSetVariableBool', {
+									Prop = "Given",
+									QuestId = "JAZZ_LegionTier",
+								}),
+								PlaceObj('QuestSetVariableNum', {
+									Amount = 1,
+									Operation = "set",
+									Prop = "JAZZ_Legion_Tier",
+									QuestId = "JAZZ_LegionTier",
 								}),
 							},
 						}),
@@ -20938,7 +20957,7 @@ return {
 					'Map', "mVm5mPU",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(504402203656, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J12]] "Пирс на побережье саванны"),
+					'display_name', T(504402203656, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J12]] "Побережье саванны"),
 					'WeatherZone', "SavannahSouth",
 					'Passability', "Land and Water",
 					'Donations', true,
@@ -20974,7 +20993,7 @@ return {
 					'Map', "mVm5mPU",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(504402203656, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J12]] "Пирс на побережье саванны"),
+					'display_name', T(504402203656, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J12]] "Побережье саванны"),
 					'WeatherZone', "SavannahSouth",
 					'Passability', "Land and Water",
 					'Donations', true,
@@ -22943,7 +22962,7 @@ return {
 					'BlockTravel', {
 						East = false,
 						North = false,
-						South = false,
+						South = true,
 						West = true,
 					},
 					'image', "UI/SatelliteView/SectorImages/_Sea",
@@ -23576,10 +23595,11 @@ return {
 					'MinFlareCarriers', 3,
 					'MaxFlareCarriers', 10,
 					'bidirectionalRoadApply', true,
-					'Roads', set( "East", "North" ),
+					'Roads', set( "East" ),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
+	North = true,
 	West = true,
 }),
 					'Events', {
@@ -23587,6 +23607,24 @@ return {
 							'Effects', {
 								PlaceObj('GroupAlert', {
 									TargetUnit = "any",
+								}),
+								PlaceObj('QuestSetVariableBool', {
+									Prop = "Given",
+									QuestId = "JAZZ_LegionTier",
+								}),
+							},
+						}),
+						PlaceObj('SE_OnConflictStarted', {
+							'Effects', {
+								PlaceObj('QuestSetVariableBool', {
+									Prop = "Given",
+									QuestId = "JAZZ_LegionTier",
+								}),
+								PlaceObj('QuestSetVariableNum', {
+									Amount = 1,
+									Operation = "set",
+									Prop = "JAZZ_Legion_Tier",
+									QuestId = "JAZZ_LegionTier",
 								}),
 							},
 						}),
@@ -26532,6 +26570,183 @@ return {
 			starting_timestamp = 1112529600,
 			starting_year = 2005,
 			underground_file = "Mod/FhNNYd/Images/BigMap_Under_1.png",
+		}),
+		PlaceObj('ModItemQuestsDef', {
+			Author = "Boyan",
+			Chapter = "Intro",
+			DevNotes = "Starting main quest. Resolved when you talk to Emma and Corazone.",
+			DisplayName = T(530296108152, --[[ModItemQuestsDef 01_Landing_copy DisplayName]] "Meeting the client"),
+			EffectOnChangeVarValue = {
+				PlaceObj('QuestEffectOnStatus', {
+					Effects = {
+						PlaceObj('SectorEnterConflict', {
+							QuestId = "01_Landing_copy",
+							conflict_mode = false,
+							sector_id = "K4",
+						}),
+					},
+					Prop = "Completed",
+					QuestId = "01_Landing_copy",
+				}),
+			},
+			LastNoteIdx = 3,
+			Main = true,
+			NoteDefs = {
+				LastNoteIdx = 6,
+				PlaceObj('QuestNote', {
+					HideConditions = {
+						PlaceObj('CheckOR', {
+							Conditions = {
+								PlaceObj('PlayerIsInSectors', {
+									QuestId = "01_Landing_copy",
+									Sectors = {
+										"K4",
+									},
+								}),
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "01_Landing",
+									Vars = set( "Completed" ),
+								}),
+							},
+							QuestId = "01_Landing_copy",
+						}),
+					},
+					QuestId = "01_Landing_copy",
+					ShowConditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "01_Landing",
+							Vars = set( "Given" ),
+						}),
+					},
+					Text = T(458983338676, --[[ModItemQuestsDef 01_Landing_copy Text]] "<em>The client</em> is waiting for us on <em>Ernie island</em>"),
+				}),
+				PlaceObj('QuestNote', {
+					Badges = {
+						PlaceObj('QuestBadgePlacement', {
+							BadgeUnit = "Emma",
+							QuestId = "01_Landing_copy",
+							Sector = "K4",
+						}),
+					},
+					HideConditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "01_Landing",
+							Vars = set( "Completed" ),
+						}),
+					},
+					Idx = 2,
+					QuestId = "01_Landing_copy",
+					ShowConditions = {
+						PlaceObj('PlayerIsInSectors', {
+							QuestId = "01_Landing_copy",
+							Sectors = {
+								"K4",
+							},
+						}),
+					},
+					Text = T(819839785186, --[[ModItemQuestsDef 01_Landing_copy Text]] "<em>The client</em> is at the nearby villa in <em><SectorName('I1')></em>"),
+				}),
+				PlaceObj('QuestNote', {
+					AddInHistory = true,
+					Badges = {
+						PlaceObj('QuestBadgePlacement', {
+							QuestId = "01_Landing_copy",
+							Sector = "I1",
+						}),
+					},
+					CompletionConditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "01_Landing",
+							Vars = set( "Completed" ),
+						}),
+					},
+					Idx = 3,
+					QuestId = "01_Landing_copy",
+					ShowConditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "01_Landing",
+							Vars = set( "Completed" ),
+						}),
+					},
+					ShowWhenCompleted = true,
+					Text = T(108893185355, --[[ModItemQuestsDef 01_Landing_copy Text]] "<em>Outcome:</em> Met with <em>Emma LaFontaine</em> and <em>Corazon Santiago</em>"),
+				}),
+			},
+			QuestGroup = "The Fate Of Grand Chien",
+			QuestId = "01_Landing_copy",
+			StoreAsTable = true,
+			TCEs = {
+				PlaceObj('TriggeredConditionalEvent', {
+					Conditions = {
+						PlaceObj('PlayerIsInSectors', {
+							QuestId = "01_Landing_copy",
+							Sectors = {
+								"K4",
+							},
+						}),
+					},
+					Effects = {
+						PlaceObj('SectorEnterConflict', {
+							QuestId = "01_Landing_copy",
+							disable_travel = true,
+							lock_conflict = true,
+							sector_id = "K4",
+						}),
+						PlaceObj('ModifySatelliteAggro', {
+							AmountIsPercent = false,
+							QuestId = "01_Landing_copy",
+						}),
+					},
+					Once = true,
+					ParamId = "TCE_InitialConflictLock",
+					QuestId = "01_Landing_copy",
+					requiredSectors = {
+						"I1",
+					},
+				}),
+			},
+			Variables = {
+				PlaceObj('QuestVarBool', {
+					Name = "Luc_rude",
+					QuestId = "01_Landing_copy",
+				}),
+				PlaceObj('QuestVarBool', {
+					Name = "Luc_attitude",
+					QuestId = "01_Landing_copy",
+				}),
+				PlaceObj('QuestVarBool', {
+					Name = "Luc_Legion",
+					QuestId = "01_Landing_copy",
+				}),
+				PlaceObj('QuestVarBool', {
+					Name = "TalkedToLuc",
+					QuestId = "01_Landing_copy",
+				}),
+				PlaceObj('QuestVarBool', {
+					Name = "Completed",
+					QuestId = "01_Landing_copy",
+				}),
+				PlaceObj('QuestVarBool', {
+					Name = "Given",
+					QuestId = "01_Landing_copy",
+					Value = true,
+				}),
+				PlaceObj('QuestVarBool', {
+					Name = "Failed",
+					QuestId = "01_Landing_copy",
+				}),
+				PlaceObj('QuestVarBool', {
+					Name = "NotStarted",
+					QuestId = "01_Landing_copy",
+					Value = true,
+				}),
+				PlaceObj('QuestVarTCEState', {
+					Name = "TCE_InitialConflictLock",
+					QuestId = "01_Landing_copy",
+				}),
+			},
+			group = "Main",
+			id = "01_Landing_copy",
 		}),
 		PlaceObj('ModItemQuestsDef', {
 			Author = "Boyan",
