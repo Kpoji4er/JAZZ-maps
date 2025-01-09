@@ -8937,7 +8937,15 @@ return {
 					'Map', "mVm5mPU",
 					'MapTier', 10,
 					'modId', "FhNNYd",
+<<<<<<< HEAD
 					'display_name', T(504402203656, "Пирс на побережье саванны"),
+=======
+<<<<<<< HEAD
+					'display_name', T(504402203656, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J12]] "Побережье саванны"),
+=======
+					'display_name', T(504402203656, "Пирс на побережье саванны"),
+>>>>>>> bc29f58 (init)
+>>>>>>> d91a75f01e87b91e6f8b8922de6c34358fed9544
 					'WeatherZone', "SavannahSouth",
 					'Passability', "Land and Water",
 					'Donations', true,
@@ -10243,8 +10251,12 @@ return {
 					'Map', "EPA7FVN",
 					'MapTier', 40,
 					'modId', "FhNNYd",
+<<<<<<< HEAD
 					'RunLoyaltyLogic', false,
 					'display_name', T(671411170358, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M1]] "Зона высадки"),
+=======
+					'display_name', T(671411170358, "Побережье Эрни"),
+>>>>>>> bc29f58 (init)
 					'TerrainType', "Jungle",
 					'ForceConflict', true,
 					'CustomConflictDescr', "InitialConflict",
