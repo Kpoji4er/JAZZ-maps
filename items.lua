@@ -7327,6 +7327,49 @@ return {
 					'bidirectionalRoadApply', true,
 				}),
 			}),
+			PlaceObj('ModItemSector', {
+				'comment', "Не существующая лока, типа Багофикс",
+				'mapName', "gmUPDxM",
+				'campaignId', "HotDiamonds",
+				'sectorId', "H4_Underground",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "H4_Underground",
+					'Map', "gmUPDxM",
+					'MapTier', 40,
+					'Label1', "Boss",
+					'modId', "FhNNYd",
+					'Label2', "Dungeon",
+					'GroundSector', "H4",
+					'display_name', T(390693010637, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H4_Underground]] "Армейский Бункер"),
+					'discovered', false,
+					'ForceConflict', true,
+					'Intel', false,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
+					'image', "UI/SatelliteView/SectorImages/H04U",
+					'Events', {
+						PlaceObj('SE_OnEnterMapVisual', {
+							'SequentialEffects', true,
+							'Effects', {
+								PlaceObj('PlaySetpiece', {
+									setpiece = "FortressBasement_FirstEnter",
+								}),
+								PlaceObj('StartDeploymentInCurrentSector', {
+									EntranceZone = "attacker",
+									WaitClicked = true,
+								}),
+								PlaceObj('GroupAlert', {
+									TargetUnit = "EnemyAll",
+								}),
+							},
+						}),
+					},
+					'awareness_sequence', "Skip All",
+					'MusicCombat', "Battle_Tough",
+					'MusicConflict', "Underground_Conflict",
+					'MusicExploration', "Underground_Exploration",
+				}),
+			}),
 			}),
 		PlaceObj('ModItemFolder', {
 			'name', "I",
@@ -8076,6 +8119,48 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
+				'mapName', "AxdjC3b",
+				'campaignId', "HotDiamonds",
+				'sectorId', "I7_Underground",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "I7_Underground",
+					'Map', "AxdjC3b",
+					'MapTier', 40,
+					'Label1', "Boss",
+					'modId', "FhNNYd",
+					'Label2', "Dungeon",
+					'GroundSector', "I7",
+					'display_name', T(386088113625, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I7_Underground]] "Армейский Бункер"),
+					'discovered', false,
+					'ForceConflict', true,
+					'Intel', false,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
+					'image', "UI/SatelliteView/SectorImages/H04U",
+					'Events', {
+						PlaceObj('SE_OnEnterMapVisual', {
+							'SequentialEffects', true,
+							'Effects', {
+								PlaceObj('PlaySetpiece', {
+									setpiece = "FortressBasement_FirstEnter",
+								}),
+								PlaceObj('StartDeploymentInCurrentSector', {
+									EntranceZone = "attacker",
+									WaitClicked = true,
+								}),
+								PlaceObj('GroupAlert', {
+									TargetUnit = "EnemyAll",
+								}),
+							},
+						}),
+					},
+					'awareness_sequence', "Skip All",
+					'MusicCombat', "Battle_Tough",
+					'MusicConflict', "Underground_Conflict",
+					'MusicExploration', "Underground_Exploration",
+				}),
+			}),
+			PlaceObj('ModItemSector', {
 				'comment', "Бункер_Жестянки",
 				'mapName', "EbAhNkL",
 				'campaignId', "HotDiamonds",
@@ -8093,7 +8178,9 @@ return {
 					'Intel', false,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
-					'BlockTravel', set( "East" ),
+					'BlockTravel', set({
+	East = false,
+}),
 					'image', "UI/SatelliteView/SectorImages/H03U",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Underground_Conflict",
@@ -11651,7 +11738,7 @@ return {
 					'DisplayName', T(132759850733, --[[ModItemCampaignPreset HotDiamonds DisplayName]] "Вассерграб"),
 				}),
 				PlaceObj('CampaignCity', {
-					'Id', "camztWx",
+					'Id', "PortDiancie",
 					'DisplayName', T(664561133619, --[[ModItemCampaignPreset HotDiamonds DisplayName]] "Порт-Какао-Центр"),
 				}),
 				PlaceObj('CampaignCity', {
@@ -19651,15 +19738,18 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "H4_Underground",
-					'Map', "H-4U - Fortress Basement",
+					'Map', "gmUPDxM",
 					'MapTier', 40,
 					'Label1', "Boss",
+					'modId', "FhNNYd",
 					'Label2', "Dungeon",
 					'GroundSector', "H4",
-					'display_name', T(275825813298, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H4_Underground]] "Армейский бункер"),
+					'display_name', T(390693010637, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H4_Underground]] "Армейский Бункер"),
 					'discovered', false,
 					'ForceConflict', true,
 					'Intel', false,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
 					'image', "UI/SatelliteView/SectorImages/H04U",
 					'Events', {
 						PlaceObj('SE_OnEnterMapVisual', {
@@ -20953,7 +21043,9 @@ return {
 					'Intel', false,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
-					'BlockTravel', set( "East" ),
+					'BlockTravel', set({
+	East = false,
+}),
 					'image', "UI/SatelliteView/SectorImages/H03U",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Underground_Conflict",
@@ -21249,6 +21341,43 @@ return {
 					'MusicExploration', "Outpost_Exploration",
 					'combatTaskGenerate', "afterFirstConflict",
 					'combatTaskAmount', 6,
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "I7_Underground",
+					'Map', "AxdjC3b",
+					'MapTier', 40,
+					'Label1', "Boss",
+					'modId', "FhNNYd",
+					'Label2', "Dungeon",
+					'GroundSector', "I7",
+					'display_name', T(386088113625, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I7_Underground]] "Армейский Бункер"),
+					'discovered', false,
+					'ForceConflict', true,
+					'Intel', false,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
+					'image', "UI/SatelliteView/SectorImages/H04U",
+					'Events', {
+						PlaceObj('SE_OnEnterMapVisual', {
+							'SequentialEffects', true,
+							'Effects', {
+								PlaceObj('PlaySetpiece', {
+									setpiece = "FortressBasement_FirstEnter",
+								}),
+								PlaceObj('StartDeploymentInCurrentSector', {
+									EntranceZone = "attacker",
+									WaitClicked = true,
+								}),
+								PlaceObj('GroupAlert', {
+									TargetUnit = "EnemyAll",
+								}),
+							},
+						}),
+					},
+					'awareness_sequence', "Skip All",
+					'MusicCombat', "Battle_Tough",
+					'MusicConflict', "Underground_Conflict",
+					'MusicExploration', "Underground_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "J1",
@@ -26015,7 +26144,7 @@ return {
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
-	North = true,
+	North = false,
 	South = false,
 	West = false,
 }),
@@ -26888,1520 +27017,6202 @@ return {
 			starting_year = 2005,
 			underground_file = "Mod/FhNNYd/Images/BigMap_Under_1.png",
 		}),
-		PlaceObj('ModItemQuestsDef', {
-			Author = "Boyan",
-			Chapter = "Intro",
-			DevNotes = "Starting main quest. Resolved when you talk to Emma and Corazone.",
-			DisplayName = T(481578963401, --[[ModItemQuestsDef 01_Landing DisplayName]] "Встреча с нанимателем"),
-			EffectOnChangeVarValue = {
-				PlaceObj('QuestEffectOnStatus', {
-					Effects = {
-						PlaceObj('SectorEnterConflict', {
-							conflict_mode = false,
-							sector_id = "I1",
-						}),
-					},
-					Prop = "Completed",
-				}),
-			},
-			Main = true,
-			NoteDefs = {
-				PlaceObj('QuestNote', {
-					HideConditions = {
-						PlaceObj('CheckOR', {
-							Conditions = {
-								PlaceObj('PlayerIsInSectors', {
-									Sectors = {
-										"M1",
-									},
-								}),
-								PlaceObj('QuestIsVariableBool', {
-									QuestId = "01_Landing",
-									Vars = set( "Completed" ),
-								}),
-							},
-						}),
-					},
-					Idx = 6,
-					ShowConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "01_Landing",
-							Vars = set( "Given" ),
-						}),
-					},
-					Text = T(194076078423, --[[ModItemQuestsDef 01_Landing Text]] "<em>Клиент</em> ждёт нас на <em>Острове Эрни</em>"),
-				}),
-				PlaceObj('QuestNote', {
-					Badges = {
-						PlaceObj('QuestBadgePlacement', {
-							BadgeUnit = "Emma",
-							Sector = "K4",
-						}),
-					},
-					HideConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "01_Landing",
-							Vars = set( "Completed" ),
-						}),
-					},
-					Idx = 4,
-					ShowConditions = {
-						PlaceObj('PlayerIsInSectors', {
-							Sectors = {
-								"I1",
-							},
-						}),
-					},
-					Text = T(829148621439, --[[ModItemQuestsDef 01_Landing Text]] "<em>Клиент</em> находится в особняке в секторе <em><SectorName('K4')></em>"),
-				}),
-				PlaceObj('QuestNote', {
-					AddInHistory = true,
-					Badges = {
-						PlaceObj('QuestBadgePlacement', {
-							Sector = "K4",
-						}),
-					},
-					CompletionConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "01_Landing",
-							Vars = set( "Completed" ),
-						}),
-					},
-					Idx = 5,
-					ShowConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "01_Landing",
-							Vars = set( "Completed" ),
-						}),
-					},
-					ShowWhenCompleted = true,
-					Text = T(861219355572, --[[ModItemQuestsDef 01_Landing Text]] "<em>Цель:</em> Встретиться с <em>Эммой ЛеФонтен</em> и <em>Корасон Сантьяго</em>"),
-				}),
-			},
-			QuestGroup = "The Fate Of Grand Chien",
-			TCEs = {
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('PlayerIsInSectors', {
-							Sectors = {
-								"I1",
-							},
-						}),
-					},
-					Effects = {
-						PlaceObj('SectorEnterConflict', {
-							disable_travel = true,
-							lock_conflict = true,
-							sector_id = "I1",
-						}),
-						PlaceObj('ModifySatelliteAggro', {
-							AmountIsPercent = false,
-							Halt = true,
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_InitialConflictLock",
-					QuestId = "01_Landing",
-					requiredSectors = {
-						"I1",
-					},
-				}),
-			},
-			Variables = {
-				PlaceObj('QuestVarBool', {
-					Name = "Luc_rude",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "Luc_attitude",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "Luc_Legion",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "TalkedToLuc",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "Completed",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "Given",
-					Value = true,
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "Failed",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "NotStarted",
-					Value = true,
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_InitialConflictLock",
-				}),
-			},
-			group = "Main",
-			id = "01_Landing",
-		}),
-		PlaceObj('ModItemQuestsDef', {
-			Author = "Boyan",
-			Chapter = "Act2",
-			DevNotes = "On world flip, named NPCs are killed and music is changed in the sector editor.",
-			DisplayName = T(544148670446, --[[ModItemQuestsDef 04_Betrayal DisplayName]] "Объяснение Корасон"),
-			EffectOnChangeVarValue = {
-				PlaceObj('QuestEffectOnStatus', {
-					Effects = {
-						PlaceObj('SectorSquadDespawn', {
-							sector_id = "E9",
-						}),
-					},
-					Prop = "Given",
-				}),
-				PlaceObj('QuestEffectOnStatus', {
-					Effects = {
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "Given",
-							QuestId = "05_TakeDownCorazon",
-						}),
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "Given",
-							QuestId = "05_TakeDownFaucheux",
-						}),
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "Given",
-							QuestId = "05_TakeDownMajor",
-						}),
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "Given",
-							QuestId = "06_Endgame",
-						}),
-					},
-					Prop = "Completed",
-				}),
-			},
-			Main = true,
-			NoteDefs = {
-				PlaceObj('QuestNote', {
-					Badges = {
-						PlaceObj('QuestBadgePlacement', {
-							Sector = "E9",
-						}),
-					},
-					CompletionConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "Given" ),
-						}),
-						PlaceObj('PlayerIsInSectors', {
-							Sectors = {
-								"E9",
-							},
-						}),
-					},
-					HideConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "FaucheuxExposed", "MentionCorazon" ),
-						}),
-					},
-					Idx = 8,
-					ShowConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "Given" ),
-						}),
-						PlaceObj('PlayerIsInSectors', {
-							Negate = true,
-							Sectors = {
-								"E9",
-							},
-						}),
-					},
-					Text = T(782365072842, --[[ModItemQuestsDef 04_Betrayal Text]] "<color EmStyle>Корасон</color> обещала объяснить всё в секторе <color EmStyle></color>"),
-				}),
-				PlaceObj('QuestNote', {
-					Badges = {
-						PlaceObj('QuestBadgePlacement', {
-							BadgeUnit = "DeadShaman_Interactable",
-							Sector = "E9",
-						}),
-						PlaceObj('QuestBadgePlacement', {
-							BadgeUnit = "DeadCivilians_Interaction",
-							Sector = "E9",
-						}),
-						PlaceObj('QuestBadgePlacement', {
-							BadgeUnit = "ExplodedGasShell",
-							Sector = "E9",
-						}),
-						PlaceObj('QuestBadgePlacement', {
-							BadgeUnit = "UnexplodedShell_Examine",
-							Sector = "E9",
-						}),
-					},
-					CompletionConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							Condition = "or",
-							QuestId = "04_Betrayal",
-							Vars = set( "BetrayalStartCombat", "ClueChemical", "ClueDeadBody", "ClueLegion", "FaucheuxAccusation" ),
-						}),
-					},
-					HideConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							Condition = "or",
-							QuestId = "04_Betrayal",
-							Vars = set( "BetryalFightSkipped", "FaucheuxExposed" ),
-						}),
-					},
-					Idx = 3,
-					ShowConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "Given" ),
-						}),
-						PlaceObj('PlayerIsInSectors', {
-							Sectors = {
-								"E9",
-							},
-						}),
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set({
+		PlaceObj('ModItemFolder', {
+			'name', "Main quests",
+			'comment', "Сюжетные",
+		}, {
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Boyan",
+				Chapter = "Act2",
+				DevNotes = "Used only for resolving the finale of the game.\n\nNeed to add to Outro in XTemplates:\n- Option for Landsbach when Outro_SuperSoldiersDone.\n- Evidence option when Corazon is killed.",
+				DisplayName = T(124836023855, --[[ModItemQuestsDef 06_Endgame DisplayName]] "Эндшпиль"),
+				EffectOnChangeVarValue = {
+					PlaceObj('QuestEffectOnStatus', {
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableNum', {
+										AgainstVar = true,
+										Amount = 5,
+										Condition = ">",
+										Prop = "Evidence",
+										Prop2 = "EvidenceRequired",
+										QuestId = "05_TakeDownCorazon",
+										QuestId2 = "05_TakeDownCorazon",
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "Outro_CorazoneGoodEnd",
+										QuestId = "06_Endgame",
+									}),
+								},
+								'EffectsElse', {
+									PlaceObj('ConditionalEffect', {
+										'Conditions', {
+											PlaceObj('QuestIsVariableNum', {
+												AgainstVar = true,
+												Amount = 2,
+												Condition = "==",
+												Prop = "Evidence",
+												Prop2 = "EvidenceRequired",
+												QuestId = "05_TakeDownCorazon",
+												QuestId2 = "05_TakeDownCorazon",
+											}),
+										},
+										'Effects', {
+											PlaceObj('QuestSetVariableBool', {
+												Prop = "Outro_CorazoneMidEnd",
+												QuestId = "06_Endgame",
+											}),
+										},
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('ItemIsInMerc', {
+										ItemId = "TheGreenDiamond",
+										Sector = "all_sectors",
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "Outro_GreenDiamondAIM",
+										QuestId = "06_Endgame",
+									}),
+								},
+								'EffectsElse', {
+									PlaceObj('ConditionalEffect', {
+										'Conditions', {
+											PlaceObj('QuestIsVariableBool', {
+												QuestId = "RescueBiff",
+												Vars = set( "EmmaGivenDiamond" ),
+											}),
+										},
+										'Effects', {
+											PlaceObj('QuestSetVariableBool', {
+												Prop = "Outro_GreenDiamondEmma",
+												QuestId = "06_Endgame",
+											}),
+										},
+										'EffectsElse', {
+											PlaceObj('ConditionalEffect', {
+												'Conditions', {
+													PlaceObj('CheckIsPersistentUnitDead', {
+														Negate = true,
+														per_ses_id = "NPC_Biff",
+													}),
+													PlaceObj('QuestIsVariableBool', {
+														QuestId = "RescueBiff",
+														Vars = set({
+	BiffDeadInCombat = false,
+	BiffDeadOnArrival = false,
+	BiffGiveDiamond = false,
+	DiamondGiven_Chimurenga = false,
+	EmmaGivenDiamond = false,
+}),
+													}),
+												},
+												'Effects', {
+													PlaceObj('QuestSetVariableBool', {
+														Prop = "Outro_GreenDiamondMERC",
+														QuestId = "06_Endgame",
+													}),
+												},
+											}),
+										},
+									}),
+								},
+							}),
+							PlaceObj('CustomCodeEffect', {
+								custom_code = "StartHotDiamondsEnding()",
+							}),
+						},
+						Prop = "Completed",
+					}),
+				},
+				Main = true,
+				NoteDefs = {
+					PlaceObj('QuestNote', {
+						HideConditions = {
+							PlaceObj('SatelliteGameplayRunning', {}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "06_Endgame",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 4,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "MajorDead", "MajorJail", "MajorRecruited" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "PresidentDead", "PresidentSaved" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "Completed", "Conv_CorazonKilled", "Conv_CorazonLeft" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set( "Completed" ),
+							}),
+							PlaceObj('SatelliteGameplayRunning', {
+								Negate = true,
+							}),
+						},
+						Text = T(606978329050, --[[ModItemQuestsDef 06_Endgame Text]] "Время открыть <color EmStyle>спутниковую карту</color>"),
+					}),
+				},
+				QuestGroup = "The Fate Of Grand Chien",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SatelliteGameplayRunning', {}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "Completed" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set( "Completed" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "05_TakeDownMajor",
+										Vars = set({
+	PresidentDead = false,
+	PresidentSaved = true,
+}),
+									}),
+								},
+								'Effects', {
+									PlaceObj('PlayBanterEffect', {
+										Banters = {
+											"Radio_EmmaFinal_PresidentSaved",
+										},
+										FallbackToMerc = true,
+										searchInMarker = false,
+									}),
+								},
+								'EffectsElse', {
+									PlaceObj('PlayBanterEffect', {
+										Banters = {
+											"Radio_EmmaFinal_PresidentDead",
+										},
+										FallbackToMerc = true,
+										searchInMarker = false,
+									}),
+								},
+							}),
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"Radio_EmmaFinal_MercInterjections",
+								},
+								FallbackToMerc = true,
+								searchInMarker = false,
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "05_TakeDownCorazon",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "06_Endgame",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_ResolveQuest",
+						QuestId = "06_Endgame",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "PierreDefeated",
+								Vars = set( "PierreJoined", "PierreReturn" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Outro_PierreLiberated",
+								QuestId = "06_Endgame",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PierreLiberated",
+						QuestId = "06_Endgame",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "PresidentLeft" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set({
+	FaucheuxDead = true,
+	FaucheuxEscaped = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Outro_PeaceRestored",
+								QuestId = "06_Endgame",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Peace",
+						QuestId = "06_Endgame",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('CheckAND', {
+										Conditions = {
+											PlaceObj('QuestIsVariableBool', {
+												QuestId = "05_TakeDownMajor",
+												Vars = set( "PresidentLeft" ),
+											}),
+											PlaceObj('QuestIsVariableBool', {
+												QuestId = "05_TakeDownFaucheux",
+												Vars = set( "FaucheuxEscaped" ),
+											}),
+										},
+									}),
+									PlaceObj('CheckAND', {
+										Conditions = {
+											PlaceObj('QuestIsVariableBool', {
+												QuestId = "05_TakeDownMajor",
+												Vars = set( "PresidentDead" ),
+											}),
+											PlaceObj('QuestIsVariableBool', {
+												QuestId = "05_TakeDownFaucheux",
+												Vars = set( "FaucheuxDead" ),
+											}),
+										},
+									}),
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Outro_CivilWar",
+								QuestId = "06_Endgame",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_CivilWar",
+						QuestId = "06_Endgame",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "PresidentDead" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set( "FaucheuxEscaped" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Outro_Coup",
+								QuestId = "06_Endgame",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Coup",
+						QuestId = "06_Endgame",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('OR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "Sanatorium",
+										Vars = set( "Completed" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "U-Bahn",
+										Vars = set( "OutcomeSanatorium" ),
+									}),
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Outro_RedRabiesDone",
+								QuestId = "06_Endgame",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_RedRabies",
+						QuestId = "06_Endgame",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "YoungHearts",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Outro_PantagruelDone",
+								QuestId = "06_Endgame",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Pantagruel",
+						QuestId = "06_Endgame",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "Completed", "Conv_CorazonKilled", "Conv_CorazonLeft" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set( "Completed" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('CustomCodeEffect', {
+								custom_code = "EndGameAutoSave()",
+							}),
+						},
+						ParamId = "TCE_FinalBattleEnded",
+						QuestId = "06_Endgame",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Landsbach",
+								Vars = set( "Completed", "Failed" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "06_Endgame",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('OR', {
+										Conditions = {
+											PlaceObj('QuestIsVariableBool', {
+												QuestId = "Landsbach",
+												Vars = set({
+	Completed = true,
+	DieselBounce = false,
+	DieselSigfried = false,
+	SecretPlan = true,
+}),
+											}),
+											PlaceObj('QuestIsVariableBool', {
+												QuestId = "U-Bahn",
+												Vars = set( "OutcomeDiesel" ),
+											}),
+										},
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "Outro_DieselStopped",
+										QuestId = "06_Endgame",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('OR', {
+										Conditions = {
+											PlaceObj('CheckOR', {
+												Conditions = {
+													PlaceObj('QuestIsVariableBool', {
+														QuestId = "Landsbach",
+														Vars = set( "Failed", "SuperSoldiersDefeated" ),
+													}),
+													PlaceObj('QuestIsVariableBool', {
+														QuestId = "Landsbach",
+														Vars = set( "BounceBattle", "Completed" ),
+													}),
+												},
+											}),
+											PlaceObj('QuestIsVariableBool', {
+												QuestId = "U-Bahn",
+												Vars = set( "SiegfriedDefeated" ),
+											}),
+										},
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "Outro_SuperSoldiersDone",
+										QuestId = "06_Endgame",
+									}),
+								},
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_DieselStopped",
+						QuestId = "06_Endgame",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Outro_PierreLiberated",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Outro_PeaceRestored",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Outro_CivilWar",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Outro_Coup",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Outro_RedRabiesDone",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Outro_PantagruelDone",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Outro_GreenDiamondAIM",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Outro_GreenDiamondEmma",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Outro_GreenDiamondMERC",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Outro_CorazoneGoodEnd",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Outro_CorazoneMidEnd",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Outro_DieselStopped",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Outro_SuperSoldiersDone",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_ResolveQuest",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PierreLiberated",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Peace",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_CivilWar",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Coup",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_RedRabies",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Pantagruel",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FinalBattleEnded",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_DieselStopped",
+					}),
+				},
+				group = "Main",
+				id = "06_Endgame",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Boyan",
+				Chapter = "Act2",
+				DevNotes = "Completed when the fate of the Major is decided in the conversation Major_1.\n\nA certain amount of Reputation is required for certain actions (conversation Major_1):\n- 50 to gain Evidence against Corazon\n- 75 to recruit the Major\n\nReputation gains:\n+5 for each taken Outpost (normally +25-30, max +35)\n-5 to -10 time penalty for more than 1 or 2 months (normally -5)\n+5 for certain story choices (normally +50, up to max +100 for overly aggressive play style)\n-5 to +15 for conversation choices (normally +5)",
+				DisplayName = T(431465051599, --[[ModItemQuestsDef 05_TakeDownMajor DisplayName]] "Нейтрализация Майора"),
+				KillTCEsConditions = {
+					PlaceObj('QuestIsVariableBool', {
+						Condition = "or",
+						QuestId = "05_TakeDownMajor",
+						Vars = set( "Completed" ),
+					}),
+				},
+				Main = true,
+				NoteDefs = {
+					PlaceObj('QuestNote', {
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('PlayerIsInSectors', {
+										Sectors = {
+											"B28",
+										},
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "03_DefeatTheLegion",
+										Vars = set( "PresidentLocation" ),
+									}),
+									PlaceObj('BanterHasPlayed', {
+										Banters = {
+											"Radio_BetrayalInvitation",
+										},
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "05_TakeDownMajor",
+										Vars = set( "Given" ),
+									}),
+								},
+							}),
+						},
+						Idx = 21,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "03A_PresidentNotes",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(397890849828, --[[ModItemQuestsDef 05_TakeDownMajor Text]] "Боевики <color EmStyle>Легиона</color> похитили <color EmStyle>отца Эммы</color>, Альфонса Лафонтена, <color EmStyle>президента</color> Гран-Шьена."),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "President",
+								Sector = "B28",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "Given" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "CombatFinished" ),
+							}),
+						},
+						Idx = 23,
+						ShowConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('PlayerIsInSectors', {
+										Sectors = {
+											"B28",
+										},
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "03_DefeatTheLegion",
+										Vars = set( "PresidentLocation" ),
+									}),
+									PlaceObj('BanterHasPlayed', {
+										Banters = {
+											"Radio_BetrayalInvitation",
+										},
+									}),
+								},
+							}),
+						},
+						Text = T(869229809153, --[[ModItemQuestsDef 05_TakeDownMajor Text]] "<color EmStyle>Майор</color> держит в заложниках <color EmStyle>отца Эммы</color>, Альфонса Лафонтена, <color EmStyle>президента</color> Гран-Шьена."),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "TheMajor",
+								Sector = "B28",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "CombatFinished" ),
+							}),
+						},
+						Idx = 22,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(925599725552, --[[ModItemQuestsDef 05_TakeDownMajor Text]] "Вам нужно победить <color EmStyle>Майора</color> и расследовать его дела с <color EmStyle>Корасон Сантьяго</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "05_TakeDownMajor",
+										Vars = set( "CombatFinished" ),
+									}),
+									PlaceObj('PlayerIsInSectors', {
+										Sectors = {
+											"B28",
+										},
+									}),
+								},
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "03_DefeatTheLegion",
+								Vars = set( "MajorLocation" ),
+							}),
+						},
+						Idx = 11,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "03_DefeatTheLegion",
+								Vars = set( "MajorLead" ),
+							}),
+						},
+						Text = T(932983786009, --[[ModItemQuestsDef 05_TakeDownMajor Text]] "Слух: <color EmStyle>Майор</color> находится где-то в <color EmStyle>горах</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Elliot",
+								Sector = "H14",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "05_TakeDownMajor",
+										Vars = set( "Completed" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "Elliot",
+										Vars = set( "ElliotDead", "ElliotExposed", "ElliotLead", "ElliotRumor", "Given" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "03_DefeatTheLegion",
+										Vars = set( "MajorLocation" ),
+									}),
+								},
+							}),
+						},
+						Idx = 18,
+						Scouting = true,
+						ShowConditions = {
+							PlaceObj('CheckAND', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "03_DefeatTheLegion",
+										Vars = set({
+	MajorLocation = false,
+}),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "Elliot",
+										Vars = set({
+	ElliotDead = false,
+	ElliotExposed = false,
+	ElliotLead = false,
+	ElliotRumor = false,
+	Given = false,
+}),
+									}),
+								},
+							}),
+						},
+						Text = T(673812884009, --[[ModItemQuestsDef 05_TakeDownMajor Text]] "Слух: <color EmStyle>Майор</color> находится в лагере <color EmStyle>Кам-дю-Крокодиль</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Elliot",
+								Sector = "P17",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "03_DefeatTheLegion",
+								Vars = set( "MajorLocation" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "05_TakeDownMajor",
+										Vars = set( "Completed" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "Elliot",
+										Vars = set( "ElliotDead", "ElliotExposed", "Given" ),
+									}),
+								},
+							}),
+						},
+						Idx = 19,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Elliot",
+								Vars = set( "ElliotLead", "ElliotRumor" ),
+							}),
+						},
+						Text = T(974732480214, --[[ModItemQuestsDef 05_TakeDownMajor Text]] "Слух: <color EmStyle>Майор</color> находится в лагере <color EmStyle>Кам-дю-Крокодиль</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "B28",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"B28",
+								},
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "CombatFinished" ),
+							}),
+						},
+						Idx = 12,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "03_DefeatTheLegion",
+								Vars = set( "MajorLocation" ),
+							}),
+						},
+						Text = T(402369312823, --[[ModItemQuestsDef 05_TakeDownMajor Text]] "Улика: <color EmStyle>Майор</color> находится в лагере «<color EmStyle>Орлиное гнездо</color>»"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueBiff",
+								Vars = set( "MERC_Scallion" ),
+							}),
+						},
+						Idx = 20,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueBiff",
+								Vars = set( "MERC_Scallion" ),
+							}),
+						},
+						Text = T(510437059155, --[[ModItemQuestsDef 05_TakeDownMajor Text]] "Таинственный Майор оказался бывшим наемником, <color EmStyle>майором Спайком Скэллионом</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "TheMajor",
+								Sector = "B28",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "President",
+								Sector = "B28",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "CombatFinished" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('GroupIsDead', {
+								Group = "President",
+							}),
+						},
+						Idx = 15,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "TCE_ShootPresident" ),
+							}),
+						},
+						Text = T(661487924137, --[[ModItemQuestsDef 05_TakeDownMajor Text]] "<color EmStyle>Майор</color> приказал войскам расстрелять <color EmStyle>президента</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "TheMajor",
+								Sector = "B28",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "MajorDead", "MajorJail", "MajorRecruited" ),
+							}),
+						},
+						Idx = 16,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "CombatFinished" ),
+							}),
+						},
+						Text = T(969822923322, --[[ModItemQuestsDef 05_TakeDownMajor Text]] "Пора поговорить с <color EmStyle>Майором</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "MajorDead" ),
+							}),
+						},
+						Idx = 4,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "MajorDead" ),
+							}),
+						},
+						Text = T(249802297924, --[[ModItemQuestsDef 05_TakeDownMajor Text]] "<color EmStyle>Результат:</color> <color EmStyle>Майор Спайк Скэллион</color>, предводитель Легиона, казнен"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "MajorJail" ),
+							}),
+						},
+						Idx = 5,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "MajorJail" ),
+							}),
+						},
+						Text = T(466557496124, --[[ModItemQuestsDef 05_TakeDownMajor Text]] "<color EmStyle>Результат:</color> <color EmStyle>Майор Спайк Скэллион</color>, предводитель Легиона, осужден за военные преступления и отправлен в тюрьму особого режима"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "MajorJail" ),
+							}),
+						},
+						Idx = 6,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "MajorRecruited" ),
+							}),
+						},
+						Text = T(567743408746, --[[ModItemQuestsDef 05_TakeDownMajor Text]] "<color EmStyle>Результат:</color> <color EmStyle>Майор Спайк Скэллион</color>, предводитель Легиона, поступил к вам на службу"),
+					}),
+				},
+				QuestGroup = "The Fate Of Grand Chien",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"B28",
+								},
+							}),
+							PlaceObj('CombatIsActive', {}),
+							PlaceObj('PlayerIsPlayerTurn', {}),
+						},
+						Effects = {
+							PlaceObj('SectorEnterConflict', {
+								disable_travel = true,
+								lock_conflict = true,
+								sector_id = "B28",
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('BanterHasPlayed', {
+										Banters = {
+											"President01_Combat_Approach",
+										},
+										Negate = true,
+									}),
+								},
+								'Effects', {
+									PlaceObj('PlayBanterEffect', {
+										Banters = {
+											"Major01_StartBattle_Radio",
+										},
+										banterSequentialWaitFor = "BanterStart",
+										searchInMap = true,
+										searchInMarker = false,
+									}),
+								},
+							}),
+							PlaceObj('GroupAlert', {
+								TargetUnit = "EnemySquad",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_StartCombat_A20",
+						QuestId = "05_TakeDownMajor",
+						requiredSectors = {
+							"A20",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"B28",
+								},
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 12,
+								SecondTargetUnit = "TheMajor",
+								TargetUnit = "any merc",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "CombatFinished" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"Major03_Defeated_Approach",
+								},
+								banterSequentialWaitFor = "BanterStart",
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_MajorApproachCombat",
+						QuestId = "05_TakeDownMajor",
+						requiredSectors = {
+							"A20",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"B28",
+								},
+							}),
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "05_TakeDownMajor",
+										Vars = set( "MercNearPlaza" ),
+									}),
+									PlaceObj('CombatTurn', {
+										Amount = 4,
+										Condition = ">=",
+									}),
+									PlaceObj('VillainIsDefeated', {
+										Group = "TheMajor",
+									}),
+								},
+							}),
+							PlaceObj('CombatIsActive', {}),
+							PlaceObj('CheckIsPersistentUnitDead', {
+								Negate = true,
+								per_ses_id = "NPC_President",
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetAITargetModifier', {
+								Group = "EnemySquad",
+								Modifier = 500,
+								Target = "President",
+							}),
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"Major02_ShootingOrder_Radio",
+								},
+								banterSequentialWaitFor = "BanterStart",
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_ShootPresident",
+						QuestId = "05_TakeDownMajor",
+						requiredSectors = {
+							"A20",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('VillainIsDefeated', {
+								Group = "TheMajor",
+							}),
+						},
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "E10",
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableNum', {
+										Amount = 5,
+										Prop = "Reputation",
+										QuestId = "05_TakeDownMajor",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "F19",
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableNum', {
+										Amount = 5,
+										Prop = "Reputation",
+										QuestId = "05_TakeDownMajor",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "H14",
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableNum', {
+										Amount = 5,
+										Prop = "Reputation",
+										QuestId = "05_TakeDownMajor",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "D10",
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableNum', {
+										Amount = 5,
+										Prop = "Reputation",
+										QuestId = "05_TakeDownMajor",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "H4",
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableNum', {
+										Amount = 5,
+										Prop = "Reputation",
+										QuestId = "05_TakeDownMajor",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "E16",
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableNum', {
+										Amount = 5,
+										Prop = "Reputation",
+										QuestId = "05_TakeDownMajor",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "F7",
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableNum', {
+										Amount = 5,
+										Prop = "Reputation",
+										QuestId = "05_TakeDownMajor",
+									}),
+								},
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Reputation_OutpostsTaken",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('VillainIsDefeated', {
+								Group = "TheMajor",
+							}),
+						},
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('CheckSatelliteTimeRange', {
+										TimeMaxH = 100000,
+										TimeMinH = 1440,
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableNum', {
+										Amount = -10,
+										Prop = "Reputation",
+										QuestId = "05_TakeDownMajor",
+									}),
+								},
+								'EffectsElse', {
+									PlaceObj('ConditionalEffect', {
+										'Conditions', {
+											PlaceObj('CheckSatelliteTimeRange', {
+												TimeMaxH = 100000,
+												TimeMinH = 720,
+											}),
+										},
+										'Effects', {
+											PlaceObj('QuestSetVariableNum', {
+												Amount = -5,
+												Prop = "Reputation",
+												QuestId = "05_TakeDownMajor",
+											}),
+										},
+									}),
+								},
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Reputation_TimePenalty",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JoseFamily",
+								Vars = set( "JoseKilled" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableNum', {
+								Amount = 5,
+								Prop = "Reputation",
+								QuestId = "05_TakeDownMajor",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Reputation_BastienKilled",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "DiamondRed",
+								Vars = set( "GraafDead" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableNum', {
+								Amount = 10,
+								Prop = "Reputation",
+								QuestId = "05_TakeDownMajor",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Reputation_GraafKilled",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "PierreDefeated",
+								Vars = set( "PierreDead", "PierreJoined", "PierreReturn" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "PierreDefeated",
+										Vars = set( "PierreJoined" ),
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableNum', {
+										Amount = 25,
+										Prop = "Reputation",
+										QuestId = "05_TakeDownMajor",
+									}),
+								},
+								'EffectsElse', {
+									PlaceObj('QuestSetVariableNum', {
+										Amount = 10,
+										Prop = "Reputation",
+										QuestId = "05_TakeDownMajor",
+									}),
+								},
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Reputation_PierreDone",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Elliot",
+								Vars = set( "ElliotDead", "ElliotInPrison" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableNum', {
+								Amount = 5,
+								Prop = "Reputation",
+								QuestId = "05_TakeDownMajor",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Reputation_ElliotDone",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('GroupIsDead', {
+								Group = "DrMangel",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableNum', {
+								Amount = 5,
+								Prop = "Reputation",
+								QuestId = "05_TakeDownMajor",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Reputation_DrMangelKilled",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "PantagruelDramas",
+								Vars = set( "ChimurengaDead" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableNum', {
+								Amount = 5,
+								Prop = "Reputation",
+								QuestId = "05_TakeDownMajor",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Reputation_ChimurengaKilled",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "Smiley",
+										Vars = set( "BossDead" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "Luigi",
+										Vars = set( "LuigiDead" ),
+									}),
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableNum', {
+								Amount = 5,
+								Prop = "Reputation",
+								QuestId = "05_TakeDownMajor",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Reputation_RimvilleDone",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Luigi",
+								Vars = set( "JackhammerDead" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableNum', {
+								Amount = 10,
+								Prop = "Reputation",
+								QuestId = "05_TakeDownMajor",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Reputation_JackhammerKilled",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set( "FaucheuxDead" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableNum', {
+								Amount = 10,
+								Prop = "Reputation",
+								QuestId = "05_TakeDownMajor",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Reputation_FaucheuxKilled",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableNum', {
+								Amount = 20,
+								Prop = "Reputation",
+								QuestId = "05_TakeDownMajor",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Reputation_CorazonDone",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastDead", "BeastRecruited" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableNum', {
+								Amount = 5,
+								Prop = "Reputation",
+								QuestId = "05_TakeDownMajor",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Reputation_BeastDone",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "HunterHunted",
+								Vars = set( "FlayHunting", "FlayRecruited" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableNum', {
+								Amount = 5,
+								Prop = "Reputation",
+								QuestId = "05_TakeDownMajor",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Reputation_FlayRecruited",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"B28",
+								},
+							}),
+							PlaceObj('VillainIsDefeated', {
+								Group = "TheMajor",
+							}),
+							PlaceObj('CombatIsActive', {
+								Negate = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "CombatFinished",
+								QuestId = "05_TakeDownMajor",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PresidentDone",
+						QuestId = "05_TakeDownMajor",
+						requiredSectors = {
+							"A20",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"B28",
+								},
+							}),
+							PlaceObj('CheckIsPersistentUnitDead', {
+								per_ses_id = "NPC_President",
+							}),
+						},
+						Effects = {
+							PlaceObj('SectorSetCustomConflictDesc', {
+								descr_id = "A20_AfterMajorFight_PresidentDead",
+								sector_id = "B28",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "PresidentDead",
+								QuestId = "05_TakeDownMajor",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Failed",
+								QuestId = "03A_PresidentNotes",
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "_GroupsAttacked",
+										Vars = set( "President_Killed" ),
+									}),
+								},
+								'Effects', {
+									PlaceObj('ApplyGuiltyOrRighteous', {
+										effectType = "negative",
+									}),
+								},
+							}),
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Tough",
+								MusicConflict = "Wasteland_Conflict",
+								MusicExploration = "Sector_Failed",
+								SectorID = "B28",
+							}),
+							PlaceObj('MusicSetTrack', {
+								Playlist = "Scripted",
+								Track = "Music/Senzeni Na",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PresidentDead",
+						QuestId = "05_TakeDownMajor",
+						requiredSectors = {
+							"A20",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set({
+	PresidentDead = false,
+	PresidentLeft = false,
+	PresidentSaved = true,
+}),
+							}),
+							PlaceObj('SatelliteGameplayRunning', {}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "PresidentLeft",
+								QuestId = "05_TakeDownMajor",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PresidentLeft",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"B28",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "CombatFinished" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "MajorDead", "MajorJail", "MajorRecruited" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "PresidentDead", "PresidentSaved" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('SectorEnterConflict', {
+								conflict_mode = false,
+								sector_id = "A20",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_RemoveConflict",
+						QuestId = "05_TakeDownMajor",
+						requiredSectors = {
+							"A20",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"B28",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "MajorJail" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('PlaySetpiece', {
+								setpiece = "MajorArrested_Main",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_MajorArrestedSetPiece",
+						QuestId = "05_TakeDownMajor",
+						requiredSectors = {
+							"A20",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "F19",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "PierreDefeated",
+								Vars = set({
+	PierreDead = false,
+	PierrePrisoner = false,
+	PierreSpared = true,
+}),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set({
+	MajorDead = false,
+	MajorJail = false,
+	MajorRecruited = false,
+}),
+							}),
+							PlaceObj('SatelliteGameplayRunning', {}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"Radio_Major_CampBienChien",
+								},
+								FallbackToMerc = true,
+								banterSequentialWaitFor = "BanterLineStart",
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Radio_CampBienChien",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Luigi",
+								Vars = set( "LuigiRewardGiven" ),
+							}),
+							PlaceObj('CheckIsPersistentUnitDead', {
+								Negate = true,
+								per_ses_id = "NPC_Luigi",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set({
+	MajorDead = false,
+	MajorJail = false,
+	MajorRecruited = false,
+}),
+							}),
+							PlaceObj('SatelliteGameplayRunning', {}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"Radio_Major_Fleatown",
+								},
+								FallbackToMerc = true,
+								banterSequentialWaitFor = "BanterLineStart",
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Radio_Fleatown",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set( "FaucheuxDead", "FaucheuxEscaped" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownCorazon",
+								Vars = set({
+	Conv_CorazonKilled = false,
+	Conv_CorazonLeft = false,
+	Conv_Cornered = false,
+}),
+							}),
+							PlaceObj('CheckIsPersistentUnitDead', {
+								Negate = true,
+								per_ses_id = "NPC_Corazon",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set({
+	MajorDead = false,
+	MajorJail = false,
+	MajorRecruited = false,
+}),
+							}),
+							PlaceObj('SatelliteGameplayRunning', {}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"Radio_Major_Flowers",
+								},
+								FallbackToMerc = true,
+								banterSequentialWaitFor = "BanterLineStart",
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Radio_Flowers",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "F28",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastMet" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set({
+	MajorDead = false,
+	MajorJail = false,
+	MajorRecruited = false,
+}),
+							}),
+							PlaceObj('SatelliteGameplayRunning', {}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"Radio_Major_IlleMorat",
+								},
+								FallbackToMerc = true,
+								banterSequentialWaitFor = "BanterLineStart",
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Radio_IlleMorat",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Landsbach",
+								Vars = set({
+	BounceBattle = false,
+	BounceSigfriedBattle = false,
+	Completed = false,
+	Diesel = true,
+	DieselBounce = false,
+	DieselSigfried = false,
+	Failed = false,
+	SigfriedBattle = false,
+}),
+							}),
+							PlaceObj('CheckIsPersistentUnitDead', {
+								Negate = true,
+								per_ses_id = "NPC_Siegfried",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set({
+	MajorDead = false,
+	MajorJail = false,
+	MajorRecruited = false,
+}),
+							}),
+							PlaceObj('SatelliteGameplayRunning', {}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"Radio_Major_Landsbach",
+								},
+								FallbackToMerc = true,
+								banterSequentialWaitFor = "BanterLineStart",
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Radio_Landsbach",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "E16",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "PantagruelDramas",
+								Vars = set({
+	ChimurengaEnemy = false,
+	ChimurengaLeave = false,
+	RetireChimurenga = false,
+	YoungHearts = false,
+}),
+							}),
+							PlaceObj('CheckIsPersistentUnitDead', {
+								Negate = true,
+								per_ses_id = "NPC_Chimurenga",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "PantagruelRebels",
+								Vars = set({
+	MaquieEnemies = false,
+}),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set({
+	MajorDead = false,
+	MajorJail = false,
+	MajorRecruited = false,
+}),
+							}),
+							PlaceObj('SatelliteGameplayRunning', {}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"Radio_Major_Pantagruel",
+								},
+								FallbackToMerc = true,
+								banterSequentialWaitFor = "BanterLineStart",
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Radio_Pantagruel",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "N12",
+							}),
+							PlaceObj('CheckIsPersistentUnitDead', {
+								Negate = true,
+								per_ses_id = "NPC_Emma",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set({
+	MajorDead = false,
+	MajorJail = false,
+	MajorRecruited = false,
+}),
+							}),
+							PlaceObj('SatelliteGameplayRunning', {}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"Radio_Major_PortCacao",
+								},
+								FallbackToMerc = true,
+								banterSequentialWaitFor = "BanterLineStart",
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Radio_PortCacao",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Sanatorium",
+								Vars = set({
+	Completed = false,
+	MangelKilled = true,
+}),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set({
+	MajorDead = false,
+	MajorJail = false,
+	MajorRecruited = false,
+}),
+							}),
+							PlaceObj('SatelliteGameplayRunning', {}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"Radio_Major_Sanatorium",
+								},
+								FallbackToMerc = true,
+								banterSequentialWaitFor = "BanterLineStart",
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Radio_Sanatorium",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "D9",
+									}),
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "E10",
+									}),
+								},
+							}),
+							PlaceObj('SectorCheckOwner', {
+								Negate = true,
+								sector_id = "F19",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "PierreDefeated",
+								Vars = set({
+	PierreDead = false,
+	PierrePrisoner = false,
+	PierreSpared = true,
+}),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CampBienChien",
+								Vars = set({
+	KingChickenPierre = false,
+}),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "DiamondRed",
+								Vars = set({
+	BadWin = false,
+	GoodWin = false,
+	GraafDead = false,
+}),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set({
+	MajorDead = false,
+	MajorJail = false,
+	MajorRecruited = false,
+}),
+							}),
+							PlaceObj('SatelliteGameplayRunning', {}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"Radio_Major_Savanna",
+								},
+								FallbackToMerc = true,
+								banterSequentialWaitFor = "BanterLineStart",
+								searchInMarker = false,
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "PierreLead_DiamondRed",
+								QuestId = "PierreDefeated",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Radio_Savanna",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "MajorDead", "MajorJail", "MajorRecruited" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "PresidentDead", "PresidentLeft" ),
+							}),
+							PlaceObj('SatelliteGameplayRunning', {}),
+						},
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "05_TakeDownMajor",
+										Vars = set( "MajorJail" ),
+									}),
+								},
+								'Effects', {
+									PlaceObj('ExecuteCode', {
+										FuncCode = 'local major = g_Units[table.find(g_Units, "PersistentSessionId", "NPC_TheMajor")]\nmajor = gv_UnitData[major.session_id]\nif major then\n	RemoveUnitFromSquad(major)\nend',
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "05_TakeDownMajor",
+										Vars = set( "PresidentDead" ),
+									}),
+								},
+								'Effects', {
+									PlaceObj('PlayBanterEffect', {
+										Banters = {
+											"Radio_EmmaPresidentDead",
+										},
+										FallbackToMerc = true,
+										searchInMarker = false,
+									}),
+								},
+								'EffectsElse', {
+									PlaceObj('PlayBanterEffect', {
+										Banters = {
+											"Radio_EmmaPresidentSaved",
+										},
+										FallbackToMerc = true,
+										searchInMarker = false,
+									}),
+									PlaceObj('CityGrantLoyalty', {
+										Amount = 20,
+										City = "PortDiancie",
+										SpecialConversationMessage = T(269228742506, --[[ModItemQuestsDef 05_TakeDownMajor SpecialConversationMessage]] "<color EmStyle>Президент Лафонтен</color> спасен"),
+									}),
+								},
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "05_TakeDownMajor",
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Large",
+								logImportant = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Resolve",
+						QuestId = "05_TakeDownMajor",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"B28",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set({
+	CombatFinished = true,
+	PresidentDead = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('UnitSetConflictIgnore', {
+								TargetUnit = "President",
+							}),
+							PlaceObj('GroupSetBehaviorRoam', {
+								MarkerGroup = "President",
+								MarkerType = "UnitMarker",
+								TargetUnit = "President",
+							}),
+							PlaceObj('SetBehaviorVisitAL', {
+								ActorGroup = "President",
+								MarkerGroup = "AL_President",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PresidentConflictIgnore",
+						QuestId = "05_TakeDownMajor",
+						requiredSectors = {
+							"A20",
+						},
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MentionAdonis",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "CorazonMajorBusiness",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "LegionBeatenByMilitia",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "Reputation",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MajorDead",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "CombatFinished",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MajorJail",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MajorRecruited",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PresidentSaved",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PresidentLeft",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PresidentDead",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PresidentMentionMercs",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MoneyLootedByNPCs",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Reputation_TimePenalty",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Reputation_OutpostsTaken",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Reputation_BastienKilled",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Reputation_GraafKilled",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Reputation_PierreDone",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Reputation_ElliotDone",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Reputation_DrMangelKilled",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Reputation_ChimurengaKilled",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Reputation_RimvilleDone",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Reputation_JackhammerKilled",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Reputation_FaucheuxKilled",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Reputation_CorazonDone",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Reputation_BeastDone",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Reputation_FlayRecruited",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_StartCombat_A20",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_MajorApproachCombat",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_ShootPresident",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MercNearPlaza",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PresidentDone",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PresidentDead",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_RemoveConflict",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_MajorArrestedSetPiece",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Radio_CampBienChien",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Radio_Fleatown",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Radio_Flowers",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Radio_IlleMorat",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Radio_Landsbach",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Radio_Pantagruel",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Radio_PortCacao",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Radio_Sanatorium",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Radio_Savanna",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Resolve",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PresidentConflictIgnore",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PresidentLeft",
+					}),
+				},
+				group = "Main",
+				id = "05_TakeDownMajor",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Boyan",
+				Chapter = "Act2",
+				DevNotes = "To Do - on betrayal remember to flip k16 to enemy set it as a guardpost, foce conflict, add squad and add militia option. Also probabaly a destination for diamond shipments.\n\nThe bools for Faucheux are here, but some of the Notes are in 03_DefeatTheLegion in order to avoid spoilers.",
+				DisplayName = T(765682144269, --[[ModItemQuestsDef 05_TakeDownFaucheux DisplayName]] "Нейтрализация полковника Фошо"),
+				Main = true,
+				NoteDefs = {
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "L17",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 2,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(509014585147, --[[ModItemQuestsDef 05_TakeDownFaucheux Text]] "<color EmStyle></color>: вам нужно победить <color EmStyle>полковника Фошо</color> и его войска"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Underground",
+								Sector = "H16",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set( "TCE_FaucheuxCombatBanter", "TCE_GuardCombatBanter" ),
+							}),
+						},
+						Idx = 7,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set( "FaucheuxSecretEntrance" ),
+							}),
+						},
+						Text = T(853020507615, --[[ModItemQuestsDef 05_TakeDownFaucheux Text]] "<color EmStyle></color>: на базу полковника ведет <color EmStyle>тайный ход</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "FaucheuxEnemy",
+								Sector = "L17",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "05_TakeDownFaucheux",
+										Vars = set( "FaucheuxDead", "FaucheuxEscaped" ),
+									}),
+									PlaceObj('CheckIsPersistentUnitDead', {
+										per_ses_id = "NPC_Faucheux",
+									}),
+								},
+							}),
+						},
+						Idx = 4,
+						ShowConditions = {
+							PlaceObj('VillainIsDefeated', {
+								Group = "Faucheux",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(837874234628, --[[ModItemQuestsDef 05_TakeDownFaucheux Text]] "<color EmStyle></color>: <color EmStyle>полковник Фошо</color> пытается <color EmStyle>скрыться</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('CheckIsPersistentUnitDead', {
+								per_ses_id = "NPC_Faucheux",
+							}),
+						},
+						Idx = 8,
+						ShowConditions = {
+							PlaceObj('CheckIsPersistentUnitDead', {
+								per_ses_id = "NPC_Faucheux",
+							}),
+						},
+						Text = T(828970664810, --[[ModItemQuestsDef 05_TakeDownFaucheux Text]] "<color EmStyle>Результат:</color> <color EmStyle>полковник Фошо</color> мертв"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set( "FaucheuxEscaped" ),
+							}),
+						},
+						Idx = 9,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set( "FaucheuxEscaped" ),
+							}),
+						},
+						Text = T(695152375936, --[[ModItemQuestsDef 05_TakeDownFaucheux Text]] "<color EmStyle>Результат:</color> <color EmStyle>полковник Фошо</color> потерпел поражение, но смог сбежать"),
+					}),
+				},
+				QuestGroup = "The Fate Of Grand Chien",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set( "Given" ),
+							}),
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "L17",
+							}),
+						},
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "05_TakeDownMajor",
+										Vars = set({
+	Completed = false,
+}),
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "PresidentStillMissing",
+										QuestId = "05_TakeDownFaucheux",
+									}),
+								},
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Large",
+								logImportant = true,
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "05_TakeDownFaucheux",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FaucheuxDone",
+						QuestId = "05_TakeDownFaucheux",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"L17",
+								},
+							}),
+							PlaceObj('UnitIsAroundMarkerOfGroup', {
+								MarkerGroup = "WallAreaBanter",
+								TargetUnit = "any merc",
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								AnyActorOverrideGroup = "WallAreaBanter",
+								Banters = {
+									"WallSkillCheck_Area",
+								},
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_WallAreaBanter",
+						QuestId = "05_TakeDownFaucheux",
+						requiredSectors = {
+							"K16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"FortBrigandGuard_01_beforeBetrayal",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set({
+	WorldFlipDone = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "FaucheuxInvite",
+								QuestId = "05_TakeDownFaucheux",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GiveInvite",
+						QuestId = "05_TakeDownFaucheux",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"L17",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "_GroupsAttacked",
+								Vars = set( "AllAllies" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set({
+	WorldFlipDone = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"FortBrigandGuard_02_failedattack",
+								},
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_AllyAttackBanter",
+						QuestId = "05_TakeDownFaucheux",
+						requiredSectors = {
+							"K16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "WorldFlipDone" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"L17",
+								},
+							}),
+							PlaceObj('UnitIsAware', {
+								TargetUnit = "EnemySquad",
+							}),
+							PlaceObj('UnitIsAroundMarkerOfGroup', {
+								DisableContextModification = true,
+								MarkerGroup = "FaucheuxRoom",
+								Negate = true,
+								TargetUnit = "any merc",
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"FortBrigandGuard_02_attacked",
+								},
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GuardCombatBanter",
+						QuestId = "05_TakeDownFaucheux",
+						requiredSectors = {
+							"K16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "WorldFlipDone" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set({
+	FaucheuxDead = false,
+}),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"L17",
+								},
+							}),
+							PlaceObj('CombatIsActive', {
+								Negate = true,
+							}),
+							PlaceObj('UnitIsAroundMarkerOfGroup', {
+								DisableContextModification = true,
+								MarkerGroup = "FaucheuxRoom",
+								TargetUnit = "any merc",
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"FortBrigandFaucheux_03_sneak",
+								},
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+							PlaceObj('GroupAlert', {
+								TargetUnit = "FaucheuxEnemy",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FaucheuxSneakBanter",
+						QuestId = "05_TakeDownFaucheux",
+						requiredSectors = {
+							"K16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "WorldFlipDone" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set({
+	FaucheuxDead = false,
+}),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"K16",
+								},
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 10,
+								SecondTargetUnit = "FaucheuxEnemy",
+								TargetUnit = "any merc",
+							}),
+							PlaceObj('CombatIsActive', {}),
+							PlaceObj('CombatTurn', {
+								Amount = 2,
+								Condition = ">=",
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"FortBrigandFaucheux_02_battle",
+								},
+								banterSequentialWaitFor = "BanterStart",
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FaucheuxCombatBanter",
+						QuestId = "05_TakeDownFaucheux",
+						requiredSectors = {
+							"K16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set( "Given" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"L17",
+								},
+							}),
+							PlaceObj('CheckExpression', {
+								Expression = function (self, obj) return IsKindOf(g_Encounter, "BossfightFaucheaux") and g_Encounter.run_away end,
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"FortBrigandFaucheux_04_defeated",
+								},
+								banterSequentialWaitFor = "BanterLineStart",
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FuacheuxRetreatStart",
+						QuestId = "05_TakeDownFaucheux",
+						requiredSectors = {
+							"K16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set( "Given" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"L17",
+								},
+							}),
+							PlaceObj('CheckExpression', {
+								Expression = function (self, obj) return IsKindOf(g_Encounter, "BossfightFaucheaux") and g_Encounter.escaped end,
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set({
+	FaucheuxDead = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "FaucheuxEscaped",
+								QuestId = "05_TakeDownFaucheux",
+							}),
+							PlaceObj('PlaySetpiece', {
+								setpiece = "FaucheuxRetreat",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FuacheuxRetreatEnd",
+						QuestId = "05_TakeDownFaucheux",
+						requiredSectors = {
+							"K16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"L17",
+								},
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "FaucheuxEnemy",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "FaucheuxDead",
+								QuestId = "05_TakeDownFaucheux",
+							}),
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"FortBrigandFaucheux_05_killed",
+								},
+								banterSequentialWaitFor = "BanterLineStart",
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FuacheuxKilled",
+						QuestId = "05_TakeDownFaucheux",
+						requiredSectors = {
+							"K16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"K16_Underground",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set( "K16U_KillSwitchTriggered" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set({
+	Completed = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('SectorEnterConflict', {
+								disable_travel = true,
+								lock_conflict = true,
+								sector_id = "K16_Underground",
+							}),
+							PlaceObj('SetTimer', {
+								Label = T(286145078501, --[[ModItemQuestsDef 05_TakeDownFaucheux Label]] "Поднята тревога"),
+								Name = "KillSwitch_Counter",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "K16U_KillSwitchFailed",
+								QuestId = "05_TakeDownFaucheux",
+							}),
+							PlaceObj('GroupAlert', {
+								TargetUnit = "KillSwitch_Reinforcements",
+							}),
+							PlaceObj('SectorEnterConflict', {
+								conflict_mode = false,
+								sector_id = "K16_Underground",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_KillSwitch_StartCountdown",
+						QuestId = "05_TakeDownFaucheux",
+						requiredSectors = {
+							"K16_Underground",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"K16_Underground",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set( "K16U_KillSwitchEndCountdown" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('KillTimer', {
+								Name = "KillSwitch_Counter",
+								StopTCE = true,
+							}),
+							PlaceObj('SectorEnterConflict', {
+								conflict_mode = false,
+								sector_id = "K16_Underground",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_KillSwitch_StopCountdown",
+						QuestId = "05_TakeDownFaucheux",
+						requiredSectors = {
+							"K16_Underground",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"K16_Underground",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "WorldFlipDone" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetSide', {
+								Side = "enemy1",
+								TargetUnit = "InnerGuards",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_UndergroundEnemies",
+						QuestId = "05_TakeDownFaucheux",
+						requiredSectors = {
+							"K16_Underground",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"L17",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownFaucheux",
+								Vars = set( "K16U_KillSwitchEndCountdown" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('LightsSetState', {
+								MarkerGroup = "KillSwitch_Lights",
+								TurnOn = false,
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Minor",
+								logImportant = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_KillSwitchEffects",
+						QuestId = "05_TakeDownFaucheux",
+						requiredSectors = {
+							"K16",
+						},
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "K16U_KillSwitchTriggered",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "K16U_KillSwitchEndCountdown",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "K16U_KillSwitchFailed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PresidentStillMissing",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FaucheuxDone",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_WallAreaBanter",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "FaucheuxInvite",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "FaucheuxTaunted",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "FaucheuxMission",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "FaucheuxArt",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "FaucheuxArtLooted",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "FaucheuxEscaped",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "FaucheuxDead",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "FaucheuxSecretEntrance",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "Clues",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "CluesRequired",
+						Value = 4,
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GiveInvite",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_AllyAttackBanter",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GuardCombatBanter",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FaucheuxSneakBanter",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FaucheuxCombatBanter",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FuacheuxRetreatStart",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FuacheuxRetreatEnd",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FuacheuxKilled",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_KillSwitch_StartCountdown",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_KillSwitch_StopCountdown",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_UndergroundEnemies",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_KillSwitchEffects",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Quartermaster_Yav_SuppliesTaken",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Quartermaster_Lenge_SuppliesTaken",
+					}),
+				},
+				group = "Main",
+				id = "05_TakeDownFaucheux",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Boyan",
+				Chapter = "Act2",
+				DevNotes = "",
+				DisplayName = T(544897209319, --[[ModItemQuestsDef 05_TakeDownCorazon DisplayName]] "Нейтрализация Корасон"),
+				Main = true,
+				NoteDefs = {
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "Conv_CorazonKilled", "Conv_CorazonLeft", "Conv_CorazonStay" ),
+							}),
+						},
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(372590946431, --[[ModItemQuestsDef 05_TakeDownCorazon Text]] "Вам нужно победить <color EmStyle>Корасон Сантьяго</color>, чтобы снять с A.I.M. обвинения в <color EmStyle>военных преступлениях</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "I7",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('PlayerIsInSectors', {
+										Sectors = {
+											"I7",
+										},
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "05_TakeDownCorazon",
+										Vars = set( "Completed", "CorazonLocation" ),
+									}),
+								},
+							}),
+						},
+						Idx = 17,
+						Scouting = true,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownCorazon",
+								Vars = set({
+	CorazonLocation = false,
+	Given = true,
+}),
+							}),
+						},
+						Text = T(906904656215, --[[ModItemQuestsDef 05_TakeDownCorazon Text]] "Корасон развернула свой штаб в секторе <color EmStyle></color>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "I7",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "I7",
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "05_TakeDownCorazon",
+										Vars = set( "Conv_CorazonKilled", "Conv_CorazonLeft" ),
+									}),
+								},
+							}),
+						},
+						Idx = 16,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "Given" ),
+							}),
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('PlayerIsInSectors', {
+										Sectors = {
+											"I7",
+										},
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "05_TakeDownCorazon",
+										Vars = set( "CorazonLocation" ),
+									}),
+								},
+							}),
+						},
+						Text = T(904937249733, --[[ModItemQuestsDef 05_TakeDownCorazon Text]] "Корасон развернула свой штаб в секторе <color EmStyle></color>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Pierre",
+								Sector = "I7",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ErnieSideQuests_WorldFlip",
+								Vars = set( "FortAttackStarted" ),
+							}),
+						},
+						Idx = 18,
+						ShowConditions = {
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"ErnieWorldFlip04_FortEntered",
+								},
+							}),
+						},
+						Text = T(376995318484, --[[ModItemQuestsDef 05_TakeDownCorazon Text]] "<color EmStyle>Пьер</color> и его рейнджеры Эрни ждут сигнала к атаке"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "I7_Underground",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Underground",
+								Sector = "I7",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('PlayerIsInSectors', {
+										Sectors = {
+											"I7_Underground",
+										},
+									}),
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "H4_Underground",
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "05_TakeDownCorazon",
+										Vars = set( "Conv_CorazonKilled", "Conv_CorazonLeft" ),
+									}),
+								},
+							}),
+						},
+						Idx = 14,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "Given" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I7",
+								},
+							}),
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "H4",
+							}),
+						},
+						Text = T(534409403286, --[[ModItemQuestsDef 05_TakeDownCorazon Text]] "В форте не оказалось никаких следов <color EmStyle>Корасон</color> - скорее всего, она прячется в этом секторе<color EmStyle>, но где-то <color EmStyle>под землей</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "CorazonSantiago",
+								Sector = "H4",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "H4_Underground",
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "05_TakeDownCorazon",
+										Vars = set( "Conv_CorazonKilled", "Conv_CorazonLeft" ),
+									}),
+								},
+							}),
+						},
+						Idx = 23,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "Given" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I7_Underground",
+								},
+							}),
+						},
+						Text = T(464925069113, --[[ModItemQuestsDef 05_TakeDownCorazon Text]] "<color EmStyle>Корасон</color> скрылась под землей, туда, где находится <color EmStyle></color>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "CorazonSantiago",
+								Sector = "H4_Underground",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "Conv_CorazonKilled", "Conv_CorazonLeft", "Conv_CorazonStay" ),
+							}),
+						},
+						Idx = 15,
+						ShowConditions = {
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "H4_Underground",
+							}),
+						},
+						Text = T(693920729779, --[[ModItemQuestsDef 05_TakeDownCorazon Text]] "Пора поговорить с <color EmStyle>Корасон Сантьяго</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "Conv_CorazonLeft" ),
+							}),
+						},
+						Idx = 21,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "Conv_CorazonLeft" ),
+							}),
+						},
+						Text = T(894016712409, --[[ModItemQuestsDef 05_TakeDownCorazon Text]] "<color EmStyle>Результат:</color> <color EmStyle>Корасон Сантьяго</color> потерпела поражение и предстанет перед судом"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "Conv_CorazonKilled" ),
+							}),
+						},
+						Idx = 22,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "Conv_CorazonKilled" ),
+							}),
+						},
+						Text = T(409236094711, --[[ModItemQuestsDef 05_TakeDownCorazon Text]] "<color EmStyle>Результат:</color> <color EmStyle>Корасон Сантьяго</color> казнена"),
+					}),
+				},
+				QuestGroup = "The Fate Of Grand Chien",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "Given" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "Conv_CorazonKilled", "Conv_CorazonLeft", "Conv_CorazonStay" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "05_TakeDownMajor",
+										Vars = set({
+	Completed = false,
+}),
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "PresidentStillMissing",
+										QuestId = "05_TakeDownCorazon",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "05_TakeDownCorazon",
+										Vars = set( "Conv_BribeIntel" ),
+									}),
+									PlaceObj('CheckIsPersistentUnitDead', {
+										Negate = true,
+										per_ses_id = "NPC_Corazon",
+									}),
+								},
+								'Effects', {
+									PlaceObj('SectorGrantIntel', {
+										sector_id = "H16",
+									}),
+									PlaceObj('SectorGrantIntel', {
+										sector_id = "K16",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "05_TakeDownCorazon",
+										Vars = set( "Conv_BribeMoney" ),
+									}),
+									PlaceObj('CheckIsPersistentUnitDead', {
+										Negate = true,
+										per_ses_id = "NPC_Corazon",
+									}),
+								},
+								'Effects', {
+									PlaceObj('PlayerGrantMoney', {
+										Amount = 30000,
+									}),
+								},
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "05_TakeDownCorazon",
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Large",
+								logImportant = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_CorazoneDone",
+						QuestId = "05_TakeDownCorazon",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "CorazonEvidence_Hermit" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableNum', {
+								Amount = 1,
+								Prop = "Evidence",
+								QuestId = "05_TakeDownCorazon",
+							}),
+							PlaceObj('LogMessageAdd', {
+								message = T(542628995091, --[[ModItemQuestsDef 05_TakeDownCorazon message]] "получен <color EmStyle>компромат</color> на Корасон"),
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GainEvidence_Hermit",
+						QuestId = "05_TakeDownCorazon",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "CorazonEvidence_Biff" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableNum', {
+								Amount = 1,
+								Prop = "Evidence",
+								QuestId = "05_TakeDownCorazon",
+							}),
+							PlaceObj('LogMessageAdd', {
+								message = T(697203515107, --[[ModItemQuestsDef 05_TakeDownCorazon message]] "получен <color EmStyle>компромат</color> на Корасон"),
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GainEvidence_Biff",
+						QuestId = "05_TakeDownCorazon",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "CorazonEvidence_RefugeeCamp" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableNum', {
+								Amount = 1,
+								Prop = "Evidence",
+								QuestId = "05_TakeDownCorazon",
+							}),
+							PlaceObj('LogMessageAdd', {
+								message = T(538516283209, --[[ModItemQuestsDef 05_TakeDownCorazon message]] "получен <color EmStyle>компромат</color> на Корасон"),
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GainEvidence_RefugeeCamp",
+						QuestId = "05_TakeDownCorazon",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "CorazonEvidence_Major" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableNum', {
+								Amount = 1,
+								Prop = "Evidence",
+								QuestId = "05_TakeDownCorazon",
+							}),
+							PlaceObj('LogMessageAdd', {
+								message = T(607101189934, --[[ModItemQuestsDef 05_TakeDownCorazon message]] "получен <color EmStyle>компромат</color> на Корасон"),
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GainEvidence_Major",
+						QuestId = "05_TakeDownCorazon",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "CorazonEvidence_FortBrigand" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableNum', {
+								Amount = 1,
+								Prop = "Evidence",
+								QuestId = "05_TakeDownCorazon",
+							}),
+							PlaceObj('LogMessageAdd', {
+								message = T(816935932690, --[[ModItemQuestsDef 05_TakeDownCorazon message]] "получен <color EmStyle>компромат</color> на Корасон"),
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GainEvidence_FortBrigand",
+						QuestId = "05_TakeDownCorazon",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "CorazonEvidence_ErnieFort" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableNum', {
+								Amount = 1,
+								Prop = "Evidence",
+								QuestId = "05_TakeDownCorazon",
+							}),
+							PlaceObj('LogMessageAdd', {
+								message = T(810147819731, --[[ModItemQuestsDef 05_TakeDownCorazon message]] "получен <color EmStyle>компромат</color> на Корасон"),
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GainEvidence_ErnieFort",
+						QuestId = "05_TakeDownCorazon",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableNum', {
+								AgainstVar = true,
+								Amount = 4,
+								Condition = ">",
+								Prop = "Evidence",
+								Prop2 = "EvidenceRequired",
+								QuestId = "05_TakeDownCorazon",
+								QuestId2 = "05_TakeDownCorazon",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "Evidence",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_CompleteEvidence",
+						QuestId = "05_TakeDownCorazon",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "Given" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"H4",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"FortCorazon01_radio",
+								},
+								FallbackToMerc = true,
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_CorazonBanterOnEnter",
+						QuestId = "05_TakeDownCorazon",
+						requiredSectors = {
+							"H4",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "Given" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"H4",
+								},
+							}),
+							PlaceObj('SectorIsInConflict', {
+								Negate = true,
+								sector_id = "H4",
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"FortCorazon02_radio",
+								},
+								FallbackToMerc = true,
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_CorazonBanterOnFortCaptured",
+						QuestId = "05_TakeDownCorazon",
+						requiredSectors = {
+							"H4",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I7_Underground",
+								},
+							}),
+							PlaceObj('CombatIsActive', {}),
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"FortCorazon04_setpiece",
+								},
+								WaitOver = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"FortCorazon04a_reactions",
+								},
+								banterSequentialWaitFor = "BanterStart",
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_MercCommentsOnDeploy",
+						QuestId = "05_TakeDownCorazon",
+						requiredSectors = {
+							"H4_Underground",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('UnitIsAroundMarkerOfGroup', {
+								DisableContextModification = true,
+								MarkerGroup = "Room1_Left",
+								TargetUnit = "any merc",
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"FortCorazonSoldiers02_dining",
+								},
+								banterSequentialWaitFor = "BanterStart",
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GuardsOnEnterDiningRoom",
+						QuestId = "05_TakeDownCorazon",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownCorazon",
+								Vars = set( "Given" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I7_Underground",
+								},
+							}),
+							PlaceObj('VillainIsDefeated', {
+								Group = "CorazonSantiagoEnemy",
+								Negate = true,
+							}),
+							PlaceObj('UnitIsAroundMarkerOfGroup', {
+								MarkerGroup = "FinalRoom_Corazon",
+								TargetUnit = "CorazonSantiagoEnemy",
+							}),
+							PlaceObj('UnitIsAroundMarkerOfGroup', {
+								MarkerGroup = "FinalRoom_Corazon",
+								TargetUnit = "any merc",
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"FortCorazon05_command",
+								},
+								FallbackToMerc = true,
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_CorazonBanterOnEnterCommandRoom",
+						QuestId = "05_TakeDownCorazon",
+						requiredSectors = {
+							"H4_Underground",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I7_Underground",
+								},
+							}),
+							PlaceObj('CheckExpression', {
+								Expression = function (self, obj) return IsKindOf(g_Encounter, "BossfightCorazon") and g_Encounter.right_gas_trigger end,
+							}),
+						},
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('CombatIsActive', {}),
+									PlaceObj('BanterHasPlayed', {
+										Banters = {
+											"FortCorazonSoldiers01_gas",
+										},
+										Negate = true,
+									}),
+								},
+								'Effects', {
+									PlaceObj('PlayBanterEffect', {
+										Banters = {
+											"FortCorazonSoldiers01_gas",
+										},
+										banterSequentialWaitFor = "BanterStart",
+										searchInMap = true,
+										searchInMarker = false,
+									}),
+								},
+							}),
+							PlaceObj('Explosion', {
+								Damage = 0,
+								ExplosionType = "ToxicGasGrenade",
+								LocationGroup = "Gas_2",
+								aoeType = "toxicgas",
+							}),
+							PlaceObj('Explosion', {
+								Damage = 0,
+								ExplosionType = "ToxicGasGrenade",
+								LocationGroup = "Gas_1",
+								aoeType = "toxicgas",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FightGasTrigger_Right",
+						QuestId = "05_TakeDownCorazon",
+						requiredSectors = {
+							"H4_Underground",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I7_Underground",
+								},
+							}),
+							PlaceObj('CheckExpression', {
+								Expression = function (self, obj) return IsKindOf(g_Encounter, "BossfightCorazon") and g_Encounter.hallway_smoke_trigger end,
+							}),
+						},
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('CombatIsActive', {}),
+								},
+							}),
+							PlaceObj('Explosion', {
+								Damage = 0,
+								ExplosionType = "SmokeGrenade",
+								LocationGroup = "Smoke_1",
+								aoeType = "smoke",
+							}),
+							PlaceObj('Explosion', {
+								Damage = 0,
+								ExplosionType = "SmokeGrenade",
+								LocationGroup = "Smoke_2",
+								aoeType = "smoke",
+							}),
+							PlaceObj('Explosion', {
+								Damage = 0,
+								ExplosionType = "SmokeGrenade",
+								LocationGroup = "Smoke_3",
+								aoeType = "smoke",
+							}),
+							PlaceObj('Explosion', {
+								Damage = 0,
+								ExplosionType = "SmokeGrenade",
+								LocationGroup = "Smoke_4",
+								aoeType = "smoke",
+							}),
+							PlaceObj('Explosion', {
+								Damage = 0,
+								ExplosionType = "SmokeGrenade",
+								LocationGroup = "Smoke_5",
+								aoeType = "smoke",
+							}),
+							PlaceObj('Explosion', {
+								Damage = 0,
+								ExplosionType = "SmokeGrenade",
+								LocationGroup = "Smoke_6",
+								aoeType = "smoke",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FightSmokeTrigger_Hallway",
+						QuestId = "05_TakeDownCorazon",
+						requiredSectors = {
+							"H4_Underground",
+						},
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "CorazonLeave",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "CorazonLocation",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "Evidence",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "EvidenceRequired",
+						Value = 4,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "CorazonEvidence_Hermit",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GainEvidence_Hermit",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "CorazonEvidence_Biff",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GainEvidence_Biff",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "CorazonEvidence_RefugeeCamp",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GainEvidence_RefugeeCamp",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "CorazonEvidence_Major",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GainEvidence_Major",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "CorazonEvidence_FortBrigand",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GainEvidence_FortBrigand",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "CorazonEvidence_ErnieFort",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GainEvidence_ErnieFort",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PresidentStillMissing",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Conv_Progress",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Conv_Cornered",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Conv_BribeMoney",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Conv_BribeIntel",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Conv_CorazonKilled",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Conv_CorazonLeft",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Conv_CorazonStay",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_CorazoneDone",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_CorazonBanterOnEnter",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_CorazonBanterOnFortCaptured",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_MercCommentsOnDeploy",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GuardsOnEnterDiningRoom",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_CorazonBanterOnEnterCommandRoom",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_CompleteEvidence",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FightGasTrigger_Right",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FightSmokeTrigger_Hallway",
+					}),
+				},
+				group = "Main",
+				id = "05_TakeDownCorazon",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Boyan",
+				Chapter = "Act2",
+				DevNotes = "On world flip, named NPCs are killed and music is changed in the sector editor.",
+				DisplayName = T(544148670446, --[[ModItemQuestsDef 04_Betrayal DisplayName]] "Объяснение Корасон"),
+				EffectOnChangeVarValue = {
+					PlaceObj('QuestEffectOnStatus', {
+						Effects = {
+							PlaceObj('SectorSquadDespawn', {
+								sector_id = "F13",
+							}),
+						},
+						Prop = "Given",
+					}),
+					PlaceObj('QuestEffectOnStatus', {
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Given",
+								QuestId = "05_TakeDownCorazon",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Given",
+								QuestId = "05_TakeDownFaucheux",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Given",
+								QuestId = "05_TakeDownMajor",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Given",
+								QuestId = "06_Endgame",
+							}),
+						},
+						Prop = "Completed",
+					}),
+				},
+				Main = true,
+				NoteDefs = {
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "F13",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "Given" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"F13",
+								},
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "FaucheuxExposed", "MentionCorazon" ),
+							}),
+						},
+						Idx = 8,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "Given" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Negate = true,
+								Sectors = {
+									"F13",
+								},
+							}),
+						},
+						Text = T(782365072842, --[[ModItemQuestsDef 04_Betrayal Text]] "<color EmStyle>Корасон</color> обещала объяснить всё в секторе <color EmStyle></color>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "DeadShaman_Interactable",
+								Sector = "F13",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "DeadCivilians_Interaction",
+								Sector = "F13",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "ExplodedGasShell",
+								Sector = "F13",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "UnexplodedShell_Examine",
+								Sector = "F13",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "04_Betrayal",
+								Vars = set( "BetrayalStartCombat", "ClueChemical", "ClueDeadBody", "ClueLegion", "FaucheuxAccusation" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "04_Betrayal",
+								Vars = set( "BetryalFightSkipped", "FaucheuxExposed" ),
+							}),
+						},
+						Idx = 3,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "Given" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"E9",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set({
 	BetryalFightSkipped = false,
 }),
-						}),
-					},
-					Text = T(912303953320, --[[ModItemQuestsDef 04_Betrayal Text]] "В секторе <color EmStyle></color> случилось нечто ужасное"),
-				}),
-				PlaceObj('QuestNote', {
-					CompletionConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							Condition = "or",
-							QuestId = "04_Betrayal",
-							Vars = set( "ClueDeadBody", "ClueLegion" ),
-						}),
-					},
-					Idx = 9,
-					ShowConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							Condition = "or",
-							QuestId = "04_Betrayal",
-							Vars = set( "ClueDeadBody", "ClueLegion" ),
-						}),
-					},
-					Text = T(263271908770, --[[ModItemQuestsDef 04_Betrayal Text]] "Улика: сектор <color EmStyle></color> подвергся химической атаке"),
-				}),
-				PlaceObj('QuestNote', {
-					CompletionConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "ClueChemical" ),
-						}),
-					},
-					Idx = 15,
-					ShowConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "ClueChemical" ),
-						}),
-					},
-					Text = T(621209369041, --[[ModItemQuestsDef 04_Betrayal Text]] "Улика: сектор <color EmStyle></color> подвергся обстрелу горчичным газом"),
-				}),
-				PlaceObj('QuestNote', {
-					Badges = {
-						PlaceObj('QuestBadgePlacement', {
-							BadgeUnit = "Faucheux",
-							Sector = "E9",
-						}),
-					},
-					CompletionConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "ClueChemical" ),
-						}),
-						PlaceObj('QuestIsVariableBool', {
-							Condition = "or",
-							QuestId = "04_Betrayal",
-							Vars = set( "ClueDeadBody", "ClueLegion" ),
-						}),
-					},
-					HideConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							Condition = "or",
-							QuestId = "04_Betrayal",
-							Vars = set( "BetrayalStartCombat", "BetryalFightDone", "BetryalFightSkipped", "FaucheuxAccusation" ),
-						}),
-					},
-					Idx = 18,
-					ShowConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "ClueChemical" ),
-						}),
-						PlaceObj('QuestIsVariableBool', {
-							Condition = "or",
-							QuestId = "04_Betrayal",
-							Vars = set( "ClueDeadBody", "ClueLegion" ),
-						}),
-					},
-					Text = T(399694507219, --[[ModItemQuestsDef 04_Betrayal Text]] "Пора потребовать кое у кого <color EmStyle>объяснений</color>!"),
-				}),
-				PlaceObj('QuestNote', {
-					CompletionConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "FaucheuxExposed" ),
-						}),
-					},
-					Idx = 10,
-					ShowConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "FaucheuxExposed" ),
-						}),
-					},
-					Text = T(362305418477, --[[ModItemQuestsDef 04_Betrayal Text]] "Улика: сектор <color EmStyle></color> подвергся химической атаке по приказу <color EmStyle>полковника Фошо</color>"),
-				}),
-				PlaceObj('QuestNote', {
-					Badges = {
-						PlaceObj('QuestBadgePlacement', {
-							Sector = "E9",
-						}),
-					},
-					CompletionConditions = {
-						PlaceObj('SectorCheckOwner', {}),
-						PlaceObj('PlayerIsInSectors', {
-							Sectors = {
-								"E9",
-							},
-						}),
-					},
-					HideConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "Completed" ),
-						}),
-					},
-					Idx = 6,
-					ShowConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "BetrayalStartCombat" ),
-						}),
-						PlaceObj('PlayerIsInSectors', {
-							Sectors = {
-								"E9",
-							},
-						}),
-					},
-					Text = T(420090123469, --[[ModItemQuestsDef 04_Betrayal Text]] "Это <color EmStyle>засада</color>!"),
-				}),
-				PlaceObj('QuestNote', {
-					AddInHistory = true,
-					CompletionConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							Condition = "or",
-							QuestId = "04_Betrayal",
-							Vars = set( "BetrayalSquadDefeated", "BetryalFightDone" ),
-						}),
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "Given" ),
-						}),
-					},
-					Idx = 19,
-					ShowConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							Condition = "or",
-							QuestId = "04_Betrayal",
-							Vars = set( "BetrayalSquadDefeated", "BetryalFightDone" ),
-						}),
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "Given" ),
-						}),
-					},
-					ShowWhenCompleted = true,
-					Text = T(136915608458, --[[ModItemQuestsDef 04_Betrayal Text]] "<color EmStyle>Результат:</color> в секторе <color EmStyle></color> <color EmStyle>Корасон</color> не оказалось"),
-				}),
-				PlaceObj('QuestNote', {
-					AddInHistory = true,
-					Badges = {
-						PlaceObj('QuestBadgePlacement', {
-							Sector = "E9",
-						}),
-					},
-					CompletionConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							Condition = "or",
-							QuestId = "04_Betrayal",
-							Vars = set( "BetryalFightDone" ),
-						}),
-					},
-					Idx = 20,
-					ShowConditions = {
-						PlaceObj('QuestIsVariableBool', {
-							Condition = "or",
-							QuestId = "04_Betrayal",
-							Vars = set( "BetryalFightDone" ),
-						}),
-					},
-					ShowWhenCompleted = true,
-					Text = T(329339297670, --[[ModItemQuestsDef 04_Betrayal Text]] "<color EmStyle>Результат:</color> вы пережили <color EmStyle>засаду</color>"),
-				}),
-			},
-			QuestGroup = "The Fate Of Grand Chien",
-			TCEs = {
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "BetrayalStartCombat" ),
-						}),
-					},
-					Effects = {
-						PlaceObj('GroupSetSide', {
-							Side = "enemy2",
-							TargetUnit = "Betrayal_EnemyAll",
-						}),
-						PlaceObj('GroupAlert', {
-							TargetUnit = "Betrayal_EnemyAll",
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_BetrayalFight",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('PlayerIsInSectors', {
-							Sectors = {
-								"E9",
-							},
-						}),
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set({
+							}),
+						},
+						Text = T(912303953320, --[[ModItemQuestsDef 04_Betrayal Text]] "В секторе <color EmStyle></color> случилось нечто ужасное"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "04_Betrayal",
+								Vars = set( "ClueDeadBody", "ClueLegion" ),
+							}),
+						},
+						Idx = 9,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "04_Betrayal",
+								Vars = set( "ClueDeadBody", "ClueLegion" ),
+							}),
+						},
+						Text = T(263271908770, --[[ModItemQuestsDef 04_Betrayal Text]] "Улика: сектор <color EmStyle></color> подвергся химической атаке"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "ClueChemical" ),
+							}),
+						},
+						Idx = 15,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "ClueChemical" ),
+							}),
+						},
+						Text = T(621209369041, --[[ModItemQuestsDef 04_Betrayal Text]] "Улика: сектор <color EmStyle></color> подвергся обстрелу горчичным газом"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Faucheux",
+								Sector = "F13",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "ClueChemical" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "04_Betrayal",
+								Vars = set( "ClueDeadBody", "ClueLegion" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "04_Betrayal",
+								Vars = set( "BetrayalStartCombat", "BetryalFightDone", "BetryalFightSkipped", "FaucheuxAccusation" ),
+							}),
+						},
+						Idx = 18,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "ClueChemical" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "04_Betrayal",
+								Vars = set( "ClueDeadBody", "ClueLegion" ),
+							}),
+						},
+						Text = T(399694507219, --[[ModItemQuestsDef 04_Betrayal Text]] "Пора потребовать кое у кого <color EmStyle>объяснений</color>!"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "FaucheuxExposed" ),
+							}),
+						},
+						Idx = 10,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "FaucheuxExposed" ),
+							}),
+						},
+						Text = T(362305418477, --[[ModItemQuestsDef 04_Betrayal Text]] "Улика: сектор <color EmStyle></color> подвергся химической атаке по приказу <color EmStyle>полковника Фошо</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "F13",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('SectorCheckOwner', {}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"F13",
+								},
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 6,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "BetrayalStartCombat" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"F13",
+								},
+							}),
+						},
+						Text = T(420090123469, --[[ModItemQuestsDef 04_Betrayal Text]] "Это <color EmStyle>засада</color>!"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "04_Betrayal",
+								Vars = set( "BetrayalSquadDefeated", "BetryalFightDone" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "Given" ),
+							}),
+						},
+						Idx = 19,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "04_Betrayal",
+								Vars = set( "BetrayalSquadDefeated", "BetryalFightDone" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "Given" ),
+							}),
+						},
+						ShowWhenCompleted = true,
+						Text = T(136915608458, --[[ModItemQuestsDef 04_Betrayal Text]] "<color EmStyle>Результат:</color> в секторе <color EmStyle></color> <color EmStyle>Корасон</color> не оказалось"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "F13",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "04_Betrayal",
+								Vars = set( "BetryalFightDone" ),
+							}),
+						},
+						Idx = 20,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "04_Betrayal",
+								Vars = set( "BetryalFightDone" ),
+							}),
+						},
+						ShowWhenCompleted = true,
+						Text = T(329339297670, --[[ModItemQuestsDef 04_Betrayal Text]] "<color EmStyle>Результат:</color> вы пережили <color EmStyle>засаду</color>"),
+					}),
+				},
+				QuestGroup = "The Fate Of Grand Chien",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "BetrayalStartCombat" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetSide', {
+								Side = "enemy2",
+								TargetUnit = "Betrayal_EnemyAll",
+							}),
+							PlaceObj('GroupAlert', {
+								TargetUnit = "Betrayal_EnemyAll",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_BetrayalFight",
+						QuestId = "04_Betrayal",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"E9",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set({
 	BetrayalStartCombat = false,
 	Given = true,
 }),
-						}),
-						PlaceObj('UnitIsOnMap', {
-							TargetUnit = "Soldier01",
-						}),
-					},
-					Effects = {
-						PlaceObj('GroupSetImmortal', {
-							TargetUnit = "Soldier01",
-							setImmortal = true,
-						}),
-						PlaceObj('GroupSetImmortal', {
-							TargetUnit = "Soldier02",
-							setImmortal = true,
-						}),
-						PlaceObj('GroupSetImmortal', {
-							TargetUnit = "Faucheux",
-							setImmortal = true,
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_E9SetpieceOneShotPrevention",
-					QuestId = "04_Betrayal",
-					requiredSectors = {
-						"E9",
-					},
-				}),
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('PlayerIsInSectors', {
-							Sectors = {
-								"E9",
-							},
-						}),
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set({
+							}),
+							PlaceObj('UnitIsOnMap', {
+								TargetUnit = "Soldier01",
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetImmortal', {
+								TargetUnit = "Soldier01",
+								setImmortal = true,
+							}),
+							PlaceObj('GroupSetImmortal', {
+								TargetUnit = "Soldier02",
+								setImmortal = true,
+							}),
+							PlaceObj('GroupSetImmortal', {
+								TargetUnit = "Faucheux",
+								setImmortal = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_E9SetpieceOneShotPrevention",
+						QuestId = "04_Betrayal",
+						requiredSectors = {
+							"E9",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"E9",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set({
 	BetrayalStartCombat = false,
 	Given = true,
 }),
-						}),
-						PlaceObj('CheckOR', {
-							Conditions = {
-								PlaceObj('QuestIsVariableBool', {
-									QuestId = "_GroupsAttacked",
-									Vars = set( "Betrayal_EnemyAll" ),
-								}),
-								PlaceObj('CheckAND', {
-									Conditions = {
-										PlaceObj('SectorIsInConflict', {}),
-										PlaceObj('CheckExpression', {
-											Expression = function (self, obj)
-												-- NetSyncEvents.ExplorationStartCombat
-												return g_StartingCombat
-											end,
-										}),
-									},
-								}),
-							},
-						}),
-					},
-					Effects = {
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "BetrayalStartCombat",
-							QuestId = "04_Betrayal",
-						}),
-						PlaceObj('PlaySetpiece', {
-							setpiece = "FaucheuxLeave",
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_BetrayalPreemptiveCombat",
-					QuestId = "04_Betrayal",
-					SequentialEffects = false,
-					requiredSectors = {
-						"E9",
-					},
-				}),
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('PlayerIsInSectors', {
-							Sectors = {
-								"E9",
-							},
-						}),
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set({
+							}),
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "_GroupsAttacked",
+										Vars = set( "Betrayal_EnemyAll" ),
+									}),
+									PlaceObj('CheckAND', {
+										Conditions = {
+											PlaceObj('SectorIsInConflict', {}),
+											PlaceObj('CheckExpression', {
+												Expression = function (self, obj)
+													-- NetSyncEvents.ExplorationStartCombat
+													return g_StartingCombat
+												end,
+											}),
+										},
+									}),
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BetrayalStartCombat",
+								QuestId = "04_Betrayal",
+							}),
+							PlaceObj('PlaySetpiece', {
+								setpiece = "FaucheuxLeave",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_BetrayalPreemptiveCombat",
+						QuestId = "04_Betrayal",
+						SequentialEffects = false,
+						requiredSectors = {
+							"E9",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"E9",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set({
 	BetrayalStartCombat = true,
 	BetryalFightDone = false,
 	BetryalFightSkipped = false,
 }),
-						}),
-						PlaceObj('CombatTurn', {
-							Amount = 2,
-						}),
-					},
-					Effects = {
-						PlaceObj('BombardEffect', {
-							AreaRadius = 5,
-							BombardId = "Bombard1",
-							LaunchAngle = 1800,
-							LaunchOffset = 15000,
-							NumShots = 4,
-							Ordnance = "MortarShell_Gas",
-							Side = "enemy2",
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_BetrayalFight_Bombard1",
-					QuestId = "04_Betrayal",
-					SequentialEffects = false,
-					requiredSectors = {
-						"E9",
-					},
-				}),
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('PlayerIsInSectors', {
-							Sectors = {
-								"E9",
-							},
-						}),
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set({
+							}),
+							PlaceObj('CombatTurn', {
+								Amount = 2,
+							}),
+						},
+						Effects = {
+							PlaceObj('BombardEffect', {
+								AreaRadius = 5,
+								BombardId = "Bombard1",
+								LaunchAngle = 1800,
+								LaunchOffset = 15000,
+								NumShots = 4,
+								Ordnance = "MortarShell_Gas",
+								Side = "enemy2",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_BetrayalFight_Bombard1",
+						QuestId = "04_Betrayal",
+						SequentialEffects = false,
+						requiredSectors = {
+							"E9",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"E9",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set({
 	BetrayalStartCombat = true,
 	BetryalFightDone = false,
 	BetryalFightSkipped = false,
 }),
-						}),
-						PlaceObj('CombatTurn', {
-							Amount = 4,
-						}),
-					},
-					Effects = {
-						PlaceObj('BombardEffect', {
-							AreaRadius = 5,
-							BombardId = "Bombard1",
-							LaunchAngle = 1800,
-							LaunchOffset = 15000,
-							NumShots = 4,
-							Ordnance = "MortarShell_Gas",
-							Side = "enemy2",
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_BetrayalFight_Bombard2",
-					QuestId = "04_Betrayal",
-					SequentialEffects = false,
-					requiredSectors = {
-						"E9",
-					},
-				}),
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set({
+							}),
+							PlaceObj('CombatTurn', {
+								Amount = 4,
+							}),
+						},
+						Effects = {
+							PlaceObj('BombardEffect', {
+								AreaRadius = 5,
+								BombardId = "Bombard1",
+								LaunchAngle = 1800,
+								LaunchOffset = 15000,
+								NumShots = 4,
+								Ordnance = "MortarShell_Gas",
+								Side = "enemy2",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_BetrayalFight_Bombard2",
+						QuestId = "04_Betrayal",
+						SequentialEffects = false,
+						requiredSectors = {
+							"E9",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set({
 	BetryalFightSkipped = false,
 	ClueChemical = true,
 	FaucheuxExposed = true,
 }),
-						}),
-						PlaceObj('QuestIsVariableBool', {
-							Condition = "or",
-							QuestId = "04_Betrayal",
-							Vars = set( "ClueDeadBody", "ClueLegion" ),
-						}),
-					},
-					Effects = {
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "CorazonEvidence_RefugeeCamp",
-							QuestId = "05_TakeDownCorazon",
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_GatherEvidence",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set({
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "04_Betrayal",
+								Vars = set( "ClueDeadBody", "ClueLegion" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "CorazonEvidence_RefugeeCamp",
+								QuestId = "05_TakeDownCorazon",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GatherEvidence",
+						QuestId = "04_Betrayal",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set({
 	BetrayalStartCombat = true,
 	TriggerWorldFlip = false,
 }),
-						}),
-						PlaceObj('GroupIsDead', {
-							Group = "Betrayal_EnemyAll",
-						}),
-					},
-					Effects = {
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "BetryalFightDone",
-							QuestId = "04_Betrayal",
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_BetrayalFightDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('CheckOR', {
-							Conditions = {
-								PlaceObj('PlayerSquadPresentInSectors', {
-									Sector = "A18",
-								}),
-								PlaceObj('PlayerSquadPresentInSectors', {
-									Sector = "B18",
-								}),
-								PlaceObj('PlayerSquadPresentInSectors', {
-									Sector = "B19",
-								}),
-								PlaceObj('PlayerSquadPresentInSectors', {
-									Sector = "B20",
-								}),
-							},
-						}),
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set({
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "Betrayal_EnemyAll",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BetryalFightDone",
+								QuestId = "04_Betrayal",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_BetrayalFightDone",
+						QuestId = "04_Betrayal",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('PlayerSquadPresentInSectors', {
+										Sector = "A18",
+									}),
+									PlaceObj('PlayerSquadPresentInSectors', {
+										Sector = "B18",
+									}),
+									PlaceObj('PlayerSquadPresentInSectors', {
+										Sector = "B19",
+									}),
+									PlaceObj('PlayerSquadPresentInSectors', {
+										Sector = "B20",
+									}),
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set({
 	TriggerWorldFlip = false,
 }),
-						}),
-					},
-					Effects = {
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "BetryalFightSkipped",
-							QuestId = "04_Betrayal",
-						}),
-						PlaceObj('SectorSquadDespawn', {
-							sector_id = "E9",
-						}),
-						PlaceObj('ConditionalEffect', {
-							'Conditions', {
-								PlaceObj('SectorCheckOwner', {
-									owner = "enemy1",
-									sector_id = "E9",
-								}),
-							},
-							'Effects', {
-								PlaceObj('QuestSetVariableBool', {
-									Prop = "RefugeCampEnemyControl",
-									QuestId = "04_Betrayal",
-								}),
-							},
-						}),
-						PlaceObj('TriggerSquadAttack', {
-							Squad = "E9_BetraylSkippedSquad",
-							custom_quest_id = "E9_BetraylSkippedSquad",
-							effect_target_sector_ids = {
-								"E9",
-							},
-							source_sector_id = "E9",
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_SkipFight",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('SquadDefeated', {
-							custom_squad_id = "E9_BetraylSkippedSquad",
-						}),
-					},
-					Effects = {
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "BetrayalSquadDefeated",
-							QuestId = "04_Betrayal",
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_DefeatSkipFightSquad",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('PlayerSquadPresentInSectors', {
-							Sector = "E9",
-						}),
-						PlaceObj('QuestIsVariableBool', {
-							Condition = "or",
-							QuestId = "04_Betrayal",
-							Vars = set( "BetrayalSquadDefeated", "BetryalFightDone" ),
-						}),
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "Given" ),
-						}),
-					},
-					Effects = {
-						PlaceObj('SectorEnterConflict', {
-							conflict_mode = false,
-							sector_id = "E9",
-						}),
-						PlaceObj('SectorEnableAutoDeploy', {
-							sector_id = "E9",
-						}),
-						PlaceObj('GrantExperienceSector', {
-							Amount = "XPQuestReward_Medium",
-							logImportant = true,
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_SectorControl",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('SatelliteGameplayRunning', {}),
-						PlaceObj('QuestIsVariableBool', {
-							Condition = "or",
-							QuestId = "04_Betrayal",
-							Vars = set( "BetryalFightDone", "BetryalFightSkipped" ),
-						}),
-					},
-					Effects = {
-						PlaceObj('PlayBanterEffect', {
-							Banters = {
-								"Radio_EmmaWorldFlip",
-							},
-							FallbackToMerc = true,
-							anyFallback = true,
-							banterSequentialWaitFor = "BanterLineStart",
-							searchInMarker = false,
-						}),
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "TriggerWorldFlip",
-							QuestId = "04_Betrayal",
-						}),
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "MajorLocation",
-							QuestId = "03_DefeatTheLegion",
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_ShowBetrayalCutScene",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "TriggerWorldFlip" ),
-						}),
-					},
-					Effects = {
-						PlaceObj('CustomCodeEffect', {
-							custom_code = "WorldFlipRecordState()",
-						}),
-						PlaceObj('CustomCodeEffect', {
-							custom_code = 'UninterruptableSquadTravel({"I5", "I6", "I7", "M1", "M2", "M3", "M4", "M5"}, "G2", "G8")',
-						}),
-						PlaceObj('CustomCodeEffect', {
-							custom_code = "gv_Sectors.H4.HideUnderground = false",
-						}),
-						PlaceObj('CustomCodeEffect', {
-							custom_code = 'gv_Sectors.H4.EnemySquadsList = { "AdonisAttackSquad_Ernie_1" }',
-						}),
-						PlaceObj('QuestSetVariableTimer', {
-							Prop = "EmmaTimer",
-							QuestId = "04_Betrayal",
-							TimeAmount = 12,
-						}),
-						PlaceObj('SectorSquadDespawn', {
-							sector_id = "H2",
-						}),
-						PlaceObj('SectorSquadDespawn', {
-							sector_id = "H4",
-						}),
-						PlaceObj('SectorSquadDespawn', {
-							sector_id = "I2",
-						}),
-						PlaceObj('MusicSetSectorPlaylist', {
-							MusicCombat = "Battle_Normal",
-							MusicConflict = "ErnieFlip_Conflict",
-							MusicExploration = "ErnieFlip_Exploration",
-							SectorID = "I1",
-						}),
-						PlaceObj('MusicSetSectorPlaylist', {
-							MusicCombat = "Battle_Normal",
-							MusicConflict = "ErnieFlip_Conflict",
-							MusicExploration = "ErnieFlip_Exploration",
-							SectorID = "I2",
-						}),
-						PlaceObj('MusicSetSectorPlaylist', {
-							MusicCombat = "Battle_Normal",
-							MusicConflict = "ErnieFlip_Conflict",
-							MusicExploration = "ErnieFlip_Exploration",
-							SectorID = "I3",
-						}),
-						PlaceObj('MusicSetSectorPlaylist', {
-							MusicCombat = "Battle_Normal",
-							MusicConflict = "ErnieFlip_Conflict",
-							MusicExploration = "ErnieFlip_Exploration",
-							SectorID = "H3",
-						}),
-						PlaceObj('MusicSetSectorPlaylist', {
-							MusicCombat = "Battle_Normal",
-							MusicConflict = "ErnieFlip_Conflict",
-							MusicExploration = "ErnieFlip_Exploration",
-							SectorID = "H2",
-						}),
-						PlaceObj('MusicSetSectorPlaylist', {
-							MusicCombat = "Battle_Normal",
-							MusicConflict = "SpecificSpooky_Conflict",
-							MusicExploration = "SpecificSpooky_Exploration",
-							SectorID = "E9",
-						}),
-						PlaceObj('SectorSetSide', {
-							sector_id = "H2",
-							side = "enemy1",
-						}),
-						PlaceObj('SectorSetSide', {
-							sector_id = "H3",
-							side = "enemy1",
-						}),
-						PlaceObj('SectorSetSide', {
-							sector_id = "H4",
-							side = "enemy1",
-						}),
-						PlaceObj('SectorSetSide', {
-							sector_id = "I1",
-							side = "enemy1",
-						}),
-						PlaceObj('SectorSetForceConflict', {
-							force = true,
-							sector_id = "I1",
-						}),
-						PlaceObj('SectorSetSide', {
-							sector_id = "I2",
-							side = "enemy1",
-						}),
-						PlaceObj('SectorSetSide', {
-							sector_id = "I3",
-							side = "enemy1",
-						}),
-						PlaceObj('CityGrantLoyalty', {
-							Amount = -10,
-							City = "ErnieVillage",
-						}),
-						PlaceObj('SectorSpawnSquad', {
-							sector_id = "I5",
-							squad_def_id = "Adonis_Ernie_VillageSquad",
-						}),
-						PlaceObj('SectorSpawnSquad', {
-							sector_id = "I6",
-							squad_def_id = "Adonis_Ernie_RustSquad",
-						}),
-						PlaceObj('SectorSpawnSquad', {
-							sector_id = "I7",
-							squad_def_id = "Adonis_Ernie_FortressSquad",
-						}),
-						PlaceObj('SectorSpawnSquad', {
-							sector_id = "M4",
-							squad_def_id = "Adonis_Ernie_OutlookSquad",
-						}),
-						PlaceObj('SectorSpawnSquad', {
-							sector_id = "M7",
-							squad_def_id = "Adonis_Ernie_EmeraldSquad",
-						}),
-						PlaceObj('SectorDisableAutoResolve', {
-							sector_id = "I5",
-							value = false,
-						}),
-						PlaceObj('SectorDisableAutoResolve', {
-							sector_id = "M1",
-							value = false,
-						}),
-						PlaceObj('SectorDisableAutoResolve', {
-							sector_id = "I7",
-							value = false,
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_FlipErnie",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "TriggerWorldFlip" ),
-						}),
-					},
-					Effects = {
-						PlaceObj('CustomCodeEffect', {
-							custom_code = 'UninterruptableSquadTravel({"K16"}, "K15", "K14")',
-						}),
-						PlaceObj('SectorSetSide', {
-							disable_sticky = true,
-							sector_id = "K16",
-							side = "enemy1",
-						}),
-						PlaceObj('CustomCodeEffect', {
-							custom_code = 'MakeSectorGuardpost("K16")',
-						}),
-						PlaceObj('SectorReplaceEnemySquadList', {
-							EnemySquadsList = {
-								"ArmyAttackers_Balanced_Easy",
-							},
-							ExtraDefenderSquads = {
-								"ArmyExtraDefenders_Balanced",
-							},
-							StrongEnemySquadsList = {
-								"ArmyAttackers_Balanced_Hard",
-							},
-							sector_id = "K16",
-						}),
-						PlaceObj('SectorReplaceTargetSectors', {
-							TargetSectors = {
-								"L18",
-								"I18",
-								"I19",
-								"H14",
-								"K10",
-								"L8",
-								"K9",
-							},
-							sector_id = "K16",
-						}),
-						PlaceObj('SectorSpawnSquad', {
-							sector_id = "K16",
-							squad_def_id = "K16_FortBridgand",
-						}),
-						PlaceObj('SectorSetForceConflict', {
-							force = true,
-							sector_id = "K16",
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_FlipFortBrigand",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "TriggerWorldFlip" ),
-						}),
-					},
-					Effects = {
-						PlaceObj('ExecuteCode', {
-							FuncCode = "SetDisableWorldFlipGuardpostObjectives(false)",
-						}),
-						PlaceObj('SectorReplaceEnemySquadList', {
-							EnemySquadsList = {
-								"AdonisAttackers_ShockAttack_Easy",
-								"AdonisAttackers_Demolitions_Easy",
-								"AdonisAttackers_SpecOps_Easy",
-							},
-							ExtraDefenderSquads = {
-								"AdonisExtraDefenders_Shock",
-								"AdonisExtraDefenders_SpecOps",
-								"AdonisExtraDefenders_Demolitions",
-							},
-							StrongEnemySquadsList = {
-								"AdonisAttackers_Demolitions_Hard",
-								"AdonisAttackers_ShockAttack_Hard",
-								"AdonisAttackers_SpecOps_Hard",
-							},
-							sector_id = "H4",
-						}),
-						PlaceObj('SectorReplaceEnemySquadList', {
-							EnemySquadsList = {
-								"AdonisAttackers_ShockAttack_Easy",
-								"AdonisAttackers_Demolitions_Easy",
-								"AdonisAttackers_SpecOps_Easy",
-							},
-							ExtraDefenderSquads = {
-								"AdonisExtraDefenders_Demolitions",
-								"AdonisExtraDefenders_Shock",
-							},
-							StrongEnemySquadsList = {
-								"AdonisAttackers_Demolitions_Hard",
-								"AdonisAttackers_ShockAttack_Hard",
-								"AdonisAttackers_SpecOps_Hard",
-							},
-							sector_id = "F7",
-						}),
-						PlaceObj('SectorReplaceEnemySquadList', {
-							EnemySquadsList = {
-								"AdonisAttackers_ShockAttack_Easy",
-								"AdonisAttackers_Demolitions_Easy",
-								"AdonisAttackers_SpecOps_Easy",
-							},
-							ExtraDefenderSquads = {
-								"AdonisExtraDefenders_SpecOps",
-								"AdonisExtraDefenders_Shock",
-							},
-							StrongEnemySquadsList = {
-								"AdonisAttackers_Demolitions_Hard",
-								"AdonisAttackers_ShockAttack_Hard",
-								"AdonisAttackers_SpecOps_Hard",
-							},
-							sector_id = "D10",
-						}),
-						PlaceObj('SectorReplaceEnemySquadList', {
-							EnemySquadsList = {
-								"AdonisAttackers_ShockAttack_Easy",
-								"AdonisAttackers_Demolitions_Easy",
-								"AdonisAttackers_SpecOps_Easy",
-							},
-							ExtraDefenderSquads = {
-								"AdonisExtraDefenders_SpecOps",
-								"AdonisExtraDefenders_Shock",
-								"AdonisExtraDefenders_Demolitions",
-							},
-							StrongEnemySquadsList = {
-								"AdonisAttackers_Demolitions_Hard",
-								"AdonisAttackers_ShockAttack_Hard",
-								"AdonisAttackers_SpecOps_Hard",
-							},
-							sector_id = "G10",
-						}),
-						PlaceObj('SectorReplaceEnemySquadList', {
-							EnemySquadsList = {
-								"ArmyAttackers_Balanced_Easy",
-								"ArmyAttackers_Shock_Easy",
-								"ArmyAttackers_Siege_Easy",
-							},
-							ExtraDefenderSquads = {
-								"ArmyExtraDefenders_Balanced",
-								"ArmyExtraDefenders_LongRange",
-								"ArmyExtraDefenders_ShortRange",
-							},
-							StrongEnemySquadsList = {
-								"ArmyAttackers_Balanced_Hard",
-								"ArmyAttackers_Shock_Hard",
-								"ArmyAttackers_Siege_Hard",
-							},
-							sector_id = "H14",
-						}),
-						PlaceObj('SectorReplaceEnemySquadList', {
-							EnemySquadsList = {
-								"ArmyAttackers_Balanced_Easy",
-								"ArmyAttackers_Shock_Easy",
-								"ArmyAttackers_Siege_Easy",
-							},
-							ExtraDefenderSquads = {
-								"ArmyExtraDefenders_Balanced",
-								"ArmyExtraDefenders_LongRange",
-								"ArmyExtraDefenders_ShortRange",
-							},
-							StrongEnemySquadsList = {
-								"ArmyAttackers_Balanced_Hard",
-								"ArmyAttackers_Shock_Hard",
-								"ArmyAttackers_Siege_Hard",
-							},
-							sector_id = "F19",
-						}),
-						PlaceObj('SectorReplaceEnemySquadList', {
-							EnemySquadsList = {
-								"ArmyAttackers_Balanced_Easy",
-								"ArmyAttackers_Shock_Easy",
-								"ArmyAttackers_Siege_Easy",
-							},
-							ExtraDefenderSquads = {
-								"ArmyExtraDefenders_Balanced",
-								"ArmyExtraDefenders_LongRange",
-								"ArmyExtraDefenders_ShortRange",
-							},
-							StrongEnemySquadsList = {
-								"ArmyAttackers_Balanced_Hard",
-								"ArmyAttackers_Shock_Hard",
-								"ArmyAttackers_Siege_Hard",
-							},
-							sector_id = "E16",
-						}),
-						PlaceObj('ModifySatelliteAggro', {
-							Halt = true,
-							HaltDays = 12,
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_SwitchGuardpostAttackSquads",
-					QuestId = "04_Betrayal",
-					SequentialEffects = false,
-				}),
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "TriggerWorldFlip" ),
-						}),
-					},
-					Effects = {
-						PlaceObj('ExecuteCode', {
-							FuncCode = "SpawnWorldFlipAttackSquads()",
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_SpawnCaptureSquads",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "TriggerWorldFlip" ),
-						}),
-					},
-					Effects = {
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "Completed",
-							QuestId = "JoseFamily",
-						}),
-						PlaceObj('ConditionalEffect', {
-							'Conditions', {
-								PlaceObj('QuestIsVariableBool', {
-									QuestId = "RefugeeBlues",
-									Vars = set({
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BetryalFightSkipped",
+								QuestId = "04_Betrayal",
+							}),
+							PlaceObj('SectorSquadDespawn', {
+								sector_id = "E9",
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('SectorCheckOwner', {
+										owner = "enemy1",
+										sector_id = "E9",
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "RefugeCampEnemyControl",
+										QuestId = "04_Betrayal",
+									}),
+								},
+							}),
+							PlaceObj('TriggerSquadAttack', {
+								Squad = "E9_BetraylSkippedSquad",
+								custom_quest_id = "E9_BetraylSkippedSquad",
+								effect_target_sector_ids = {
+									"E9",
+								},
+								source_sector_id = "E9",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_SkipFight",
+						QuestId = "04_Betrayal",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SquadDefeated', {
+								custom_squad_id = "E9_BetraylSkippedSquad",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BetrayalSquadDefeated",
+								QuestId = "04_Betrayal",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_DefeatSkipFightSquad",
+						QuestId = "04_Betrayal",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerSquadPresentInSectors', {
+								Sector = "E9",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "04_Betrayal",
+								Vars = set( "BetrayalSquadDefeated", "BetryalFightDone" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "Given" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('SectorEnterConflict', {
+								conflict_mode = false,
+								sector_id = "E9",
+							}),
+							PlaceObj('SectorEnableAutoDeploy', {
+								sector_id = "E9",
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Medium",
+								logImportant = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_SectorControl",
+						QuestId = "04_Betrayal",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SatelliteGameplayRunning', {}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "04_Betrayal",
+								Vars = set( "BetryalFightDone", "BetryalFightSkipped" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"Radio_EmmaWorldFlip",
+								},
+								FallbackToMerc = true,
+								anyFallback = true,
+								banterSequentialWaitFor = "BanterLineStart",
+								searchInMarker = false,
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "TriggerWorldFlip",
+								QuestId = "04_Betrayal",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "MajorLocation",
+								QuestId = "03_DefeatTheLegion",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_ShowBetrayalCutScene",
+						QuestId = "04_Betrayal",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "TriggerWorldFlip" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('CustomCodeEffect', {
+								custom_code = "WorldFlipRecordState()",
+							}),
+							PlaceObj('CustomCodeEffect', {
+								custom_code = 'UninterruptableSquadTravel({"I5", "I6", "I7", "M1", "M2", "M3", "M4", "M5"}, "G2", "G8")',
+							}),
+							PlaceObj('CustomCodeEffect', {
+								custom_code = "gv_Sectors.H4.HideUnderground = false",
+							}),
+							PlaceObj('CustomCodeEffect', {
+								custom_code = 'gv_Sectors.H4.EnemySquadsList = { "AdonisAttackSquad_Ernie_1" }',
+							}),
+							PlaceObj('QuestSetVariableTimer', {
+								Prop = "EmmaTimer",
+								QuestId = "04_Betrayal",
+								TimeAmount = 12,
+							}),
+							PlaceObj('SectorSquadDespawn', {
+								sector_id = "H2",
+							}),
+							PlaceObj('SectorSquadDespawn', {
+								sector_id = "H4",
+							}),
+							PlaceObj('SectorSquadDespawn', {
+								sector_id = "I2",
+							}),
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "ErnieFlip_Conflict",
+								MusicExploration = "ErnieFlip_Exploration",
+								SectorID = "I1",
+							}),
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "ErnieFlip_Conflict",
+								MusicExploration = "ErnieFlip_Exploration",
+								SectorID = "I2",
+							}),
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "ErnieFlip_Conflict",
+								MusicExploration = "ErnieFlip_Exploration",
+								SectorID = "I3",
+							}),
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "ErnieFlip_Conflict",
+								MusicExploration = "ErnieFlip_Exploration",
+								SectorID = "H3",
+							}),
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "ErnieFlip_Conflict",
+								MusicExploration = "ErnieFlip_Exploration",
+								SectorID = "H2",
+							}),
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "SpecificSpooky_Conflict",
+								MusicExploration = "SpecificSpooky_Exploration",
+								SectorID = "E9",
+							}),
+							PlaceObj('SectorSetSide', {
+								sector_id = "H2",
+								side = "enemy1",
+							}),
+							PlaceObj('SectorSetSide', {
+								sector_id = "H3",
+								side = "enemy1",
+							}),
+							PlaceObj('SectorSetSide', {
+								sector_id = "H4",
+								side = "enemy1",
+							}),
+							PlaceObj('SectorSetSide', {
+								sector_id = "I1",
+								side = "enemy1",
+							}),
+							PlaceObj('SectorSetForceConflict', {
+								force = true,
+								sector_id = "I1",
+							}),
+							PlaceObj('SectorSetSide', {
+								sector_id = "I2",
+								side = "enemy1",
+							}),
+							PlaceObj('SectorSetSide', {
+								sector_id = "I3",
+								side = "enemy1",
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = -10,
+								City = "ErnieVillage",
+							}),
+							PlaceObj('SectorSpawnSquad', {
+								sector_id = "I5",
+								squad_def_id = "Adonis_Ernie_VillageSquad",
+							}),
+							PlaceObj('SectorSpawnSquad', {
+								sector_id = "I6",
+								squad_def_id = "Adonis_Ernie_RustSquad",
+							}),
+							PlaceObj('SectorSpawnSquad', {
+								sector_id = "I7",
+								squad_def_id = "Adonis_Ernie_FortressSquad",
+							}),
+							PlaceObj('SectorSpawnSquad', {
+								sector_id = "M4",
+								squad_def_id = "Adonis_Ernie_OutlookSquad",
+							}),
+							PlaceObj('SectorSpawnSquad', {
+								sector_id = "M7",
+								squad_def_id = "Adonis_Ernie_EmeraldSquad",
+							}),
+							PlaceObj('SectorDisableAutoResolve', {
+								sector_id = "I5",
+								value = false,
+							}),
+							PlaceObj('SectorDisableAutoResolve', {
+								sector_id = "M1",
+								value = false,
+							}),
+							PlaceObj('SectorDisableAutoResolve', {
+								sector_id = "I7",
+								value = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FlipErnie",
+						QuestId = "04_Betrayal",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "TriggerWorldFlip" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('CustomCodeEffect', {
+								custom_code = 'UninterruptableSquadTravel({"K16"}, "K15", "K14")',
+							}),
+							PlaceObj('SectorSetSide', {
+								disable_sticky = true,
+								sector_id = "K16",
+								side = "enemy1",
+							}),
+							PlaceObj('CustomCodeEffect', {
+								custom_code = 'MakeSectorGuardpost("K16")',
+							}),
+							PlaceObj('SectorReplaceEnemySquadList', {
+								EnemySquadsList = {
+									"ArmyAttackers_Balanced_Easy",
+								},
+								ExtraDefenderSquads = {
+									"ArmyExtraDefenders_Balanced",
+								},
+								StrongEnemySquadsList = {
+									"ArmyAttackers_Balanced_Hard",
+								},
+								sector_id = "K16",
+							}),
+							PlaceObj('SectorReplaceTargetSectors', {
+								TargetSectors = {
+									"L18",
+									"I18",
+									"I19",
+									"H14",
+									"K10",
+									"L8",
+									"K9",
+								},
+								sector_id = "K16",
+							}),
+							PlaceObj('SectorSpawnSquad', {
+								sector_id = "K16",
+								squad_def_id = "K16_FortBridgand",
+							}),
+							PlaceObj('SectorSetForceConflict', {
+								force = true,
+								sector_id = "K16",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FlipFortBrigand",
+						QuestId = "04_Betrayal",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "TriggerWorldFlip" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('ExecuteCode', {
+								FuncCode = "SetDisableWorldFlipGuardpostObjectives(false)",
+							}),
+							PlaceObj('SectorReplaceEnemySquadList', {
+								EnemySquadsList = {
+									"AdonisAttackers_ShockAttack_Easy",
+									"AdonisAttackers_Demolitions_Easy",
+									"AdonisAttackers_SpecOps_Easy",
+								},
+								ExtraDefenderSquads = {
+									"AdonisExtraDefenders_Shock",
+									"AdonisExtraDefenders_SpecOps",
+									"AdonisExtraDefenders_Demolitions",
+								},
+								StrongEnemySquadsList = {
+									"AdonisAttackers_Demolitions_Hard",
+									"AdonisAttackers_ShockAttack_Hard",
+									"AdonisAttackers_SpecOps_Hard",
+								},
+								sector_id = "H4",
+							}),
+							PlaceObj('SectorReplaceEnemySquadList', {
+								EnemySquadsList = {
+									"AdonisAttackers_ShockAttack_Easy",
+									"AdonisAttackers_Demolitions_Easy",
+									"AdonisAttackers_SpecOps_Easy",
+								},
+								ExtraDefenderSquads = {
+									"AdonisExtraDefenders_Demolitions",
+									"AdonisExtraDefenders_Shock",
+								},
+								StrongEnemySquadsList = {
+									"AdonisAttackers_Demolitions_Hard",
+									"AdonisAttackers_ShockAttack_Hard",
+									"AdonisAttackers_SpecOps_Hard",
+								},
+								sector_id = "F7",
+							}),
+							PlaceObj('SectorReplaceEnemySquadList', {
+								EnemySquadsList = {
+									"AdonisAttackers_ShockAttack_Easy",
+									"AdonisAttackers_Demolitions_Easy",
+									"AdonisAttackers_SpecOps_Easy",
+								},
+								ExtraDefenderSquads = {
+									"AdonisExtraDefenders_SpecOps",
+									"AdonisExtraDefenders_Shock",
+								},
+								StrongEnemySquadsList = {
+									"AdonisAttackers_Demolitions_Hard",
+									"AdonisAttackers_ShockAttack_Hard",
+									"AdonisAttackers_SpecOps_Hard",
+								},
+								sector_id = "D10",
+							}),
+							PlaceObj('SectorReplaceEnemySquadList', {
+								EnemySquadsList = {
+									"AdonisAttackers_ShockAttack_Easy",
+									"AdonisAttackers_Demolitions_Easy",
+									"AdonisAttackers_SpecOps_Easy",
+								},
+								ExtraDefenderSquads = {
+									"AdonisExtraDefenders_SpecOps",
+									"AdonisExtraDefenders_Shock",
+									"AdonisExtraDefenders_Demolitions",
+								},
+								StrongEnemySquadsList = {
+									"AdonisAttackers_Demolitions_Hard",
+									"AdonisAttackers_ShockAttack_Hard",
+									"AdonisAttackers_SpecOps_Hard",
+								},
+								sector_id = "G10",
+							}),
+							PlaceObj('SectorReplaceEnemySquadList', {
+								EnemySquadsList = {
+									"ArmyAttackers_Balanced_Easy",
+									"ArmyAttackers_Shock_Easy",
+									"ArmyAttackers_Siege_Easy",
+								},
+								ExtraDefenderSquads = {
+									"ArmyExtraDefenders_Balanced",
+									"ArmyExtraDefenders_LongRange",
+									"ArmyExtraDefenders_ShortRange",
+								},
+								StrongEnemySquadsList = {
+									"ArmyAttackers_Balanced_Hard",
+									"ArmyAttackers_Shock_Hard",
+									"ArmyAttackers_Siege_Hard",
+								},
+								sector_id = "H14",
+							}),
+							PlaceObj('SectorReplaceEnemySquadList', {
+								EnemySquadsList = {
+									"ArmyAttackers_Balanced_Easy",
+									"ArmyAttackers_Shock_Easy",
+									"ArmyAttackers_Siege_Easy",
+								},
+								ExtraDefenderSquads = {
+									"ArmyExtraDefenders_Balanced",
+									"ArmyExtraDefenders_LongRange",
+									"ArmyExtraDefenders_ShortRange",
+								},
+								StrongEnemySquadsList = {
+									"ArmyAttackers_Balanced_Hard",
+									"ArmyAttackers_Shock_Hard",
+									"ArmyAttackers_Siege_Hard",
+								},
+								sector_id = "F19",
+							}),
+							PlaceObj('SectorReplaceEnemySquadList', {
+								EnemySquadsList = {
+									"ArmyAttackers_Balanced_Easy",
+									"ArmyAttackers_Shock_Easy",
+									"ArmyAttackers_Siege_Easy",
+								},
+								ExtraDefenderSquads = {
+									"ArmyExtraDefenders_Balanced",
+									"ArmyExtraDefenders_LongRange",
+									"ArmyExtraDefenders_ShortRange",
+								},
+								StrongEnemySquadsList = {
+									"ArmyAttackers_Balanced_Hard",
+									"ArmyAttackers_Shock_Hard",
+									"ArmyAttackers_Siege_Hard",
+								},
+								sector_id = "E16",
+							}),
+							PlaceObj('ModifySatelliteAggro', {
+								Halt = true,
+								HaltDays = 12,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_SwitchGuardpostAttackSquads",
+						QuestId = "04_Betrayal",
+						SequentialEffects = false,
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "TriggerWorldFlip" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('ExecuteCode', {
+								FuncCode = "SpawnWorldFlipAttackSquads()",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_SpawnCaptureSquads",
+						QuestId = "04_Betrayal",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "TriggerWorldFlip" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "JoseFamily",
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "RefugeeBlues",
+										Vars = set({
 	Completed = false,
 }),
-								}),
-							},
-							'Effects', {
-								PlaceObj('QuestSetVariableBool', {
-									Prop = "Failed",
-									QuestId = "RefugeeBlues",
-								}),
-							},
-						}),
-						PlaceObj('ConditionalEffect', {
-							'Conditions', {
-								PlaceObj('QuestIsVariableBool', {
-									QuestId = "PierreDefeated",
-									Vars = set({
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "Failed",
+										QuestId = "RefugeeBlues",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "PierreDefeated",
+										Vars = set({
 	Completed = false,
 }),
-								}),
-							},
-							'Effects', {
-								PlaceObj('ConditionalEffect', {
-									'Conditions', {
-										PlaceObj('QuestIsVariableBool', {
-											QuestId = "PierreDefeated",
-											Vars = set( "PierreInactive" ),
-										}),
-									},
-									'Effects', {
-										PlaceObj('ExecuteCode', {
-											FuncCode = '-- Remove the Pierre squad from the satellite gameplay\nDespawnUnitData("H4", "Pierre")',
-										}),
-									},
-								}),
-								PlaceObj('QuestSetVariableBool', {
-									Prop = "Completed",
-									QuestId = "PierreDefeated",
-								}),
-							},
-						}),
-						PlaceObj('ConditionalEffect', {
-							'Conditions', {
-								PlaceObj('QuestIsVariableBool', {
-									QuestId = "ReduceFortressStrength",
-									Vars = set({
+									}),
+								},
+								'Effects', {
+									PlaceObj('ConditionalEffect', {
+										'Conditions', {
+											PlaceObj('QuestIsVariableBool', {
+												QuestId = "PierreDefeated",
+												Vars = set( "PierreInactive" ),
+											}),
+										},
+										'Effects', {
+											PlaceObj('ExecuteCode', {
+												FuncCode = '-- Remove the Pierre squad from the satellite gameplay\nDespawnUnitData("H4", "Pierre")',
+											}),
+										},
+									}),
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "Completed",
+										QuestId = "PierreDefeated",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "ReduceFortressStrength",
+										Vars = set({
 	Completed = false,
 }),
-								}),
-							},
-							'Effects', {
-								PlaceObj('QuestSetVariableBool', {
-									Prop = "Completed",
-									QuestId = "ReduceFortressStrength",
-								}),
-							},
-						}),
-						PlaceObj('ConditionalEffect', {
-							'Conditions', {
-								PlaceObj('QuestIsVariableBool', {
-									QuestId = "Ernie_CounterAttack",
-									Vars = set({
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "Completed",
+										QuestId = "ReduceFortressStrength",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "Ernie_CounterAttack",
+										Vars = set({
 	Completed = false,
 }),
-								}),
-							},
-							'Effects', {
-								PlaceObj('QuestSetVariableBool', {
-									Prop = "Completed",
-									QuestId = "Ernie_CounterAttack",
-								}),
-							},
-						}),
-						PlaceObj('ConditionalEffect', {
-							'Conditions', {
-								PlaceObj('QuestIsVariableBool', {
-									Condition = "or",
-									QuestId = "LegionFlag",
-									Vars = set({
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "Completed",
+										QuestId = "Ernie_CounterAttack",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "LegionFlag",
+										Vars = set({
 	Completed = false,
 	Failed = false,
 }),
-								}),
-							},
-							'Effects', {
-								PlaceObj('QuestSetVariableBool', {
-									Prop = "Failed",
-									QuestId = "LegionFlag",
-								}),
-							},
-						}),
-						PlaceObj('ConditionalEffect', {
-							'Conditions', {
-								PlaceObj('QuestIsVariableBool', {
-									Condition = "or",
-									QuestId = "DiamondRed",
-									Vars = set({
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "Failed",
+										QuestId = "LegionFlag",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "DiamondRed",
+										Vars = set({
 	Completed = false,
 }),
-								}),
-							},
-							'Effects', {
-								PlaceObj('QuestSetVariableBool', {
-									Prop = "Failed",
-									QuestId = "DiamondRed",
-								}),
-							},
-						}),
-						PlaceObj('GroupSetImmortal', {
-							TargetUnit = "GreasyBasil",
-						}),
-						PlaceObj('GroupSetImmortal', {
-							TargetUnit = "Martha",
-						}),
-						PlaceObj('GroupSetImmortal', {
-							TargetUnit = "Herman",
-						}),
-						PlaceObj('GroupSetImmortal', {
-							TargetUnit = "Luc",
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_RemoveQuests",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "TCE_FlipErnie", "TCE_RemoveQuests", "TCE_SpawnCaptureSquads" ),
-						}),
-					},
-					Effects = {
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "Completed",
-							QuestId = "04_Betrayal",
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_ResolveQuest",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "04_Betrayal",
-							Vars = set( "TCE_FlipErnie", "TCE_SpawnCaptureSquads", "TriggerWorldFlip" ),
-						}),
-					},
-					Effects = {
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "WorldFlipDone",
-							QuestId = "04_Betrayal",
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('TriggeredConditionalEvent', {
-					Conditions = {
-						PlaceObj('PlayerIsInSectors', {
-							Sectors = {
-								"I1",
-							},
-						}),
-						PlaceObj('UnitIsOnMap', {
-							TargetUnit = "AmbushWave",
-						}),
-					},
-					Effects = {
-						PlaceObj('GroupAlert', {
-							TargetUnit = "AmbushWave",
-						}),
-					},
-					Once = true,
-					ParamId = "TCE_FlagHillAmbushAware",
-					QuestId = "04_Betrayal",
-					requiredSectors = {
-						"I1",
-					},
-				}),
-			},
-			Variables = {
-				PlaceObj('QuestVarBool', {
-					Name = "FaucheuxMet",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "MentionCorazon",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "FaucheuxAccusation",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "FaucheuxExposed",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "BetrayalStartCombat",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "BetryalFightDone",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "BetryalFightSkipped",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "BetrayalSquadDefeated",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "TriggerWorldFlip",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "RefugeCampEnemyControl",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "ClueLegion",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "ClueDeadBody",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "ClueChemical",
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_RemoveQuests",
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_BetrayalFight",
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_BetrayalFight_Bombard1",
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_BetrayalFight_Bombard2",
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_BetrayalFightDone",
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_SectorControl",
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_SkipFight",
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_DefeatSkipFightSquad",
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_ShowBetrayalCutScene",
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_FlipErnie",
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_FlipFortBrigand",
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_SpawnCaptureSquads",
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_SwitchGuardpostAttackSquads",
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_ResolveQuest",
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_GatherEvidence",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "Completed",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "Given",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "Failed",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "NotStarted",
-					Value = true,
-				}),
-				PlaceObj('QuestVarNum', {
-					Name = "EmmaTimer",
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_WorldFlipDone",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "WorldFlipDone",
-				}),
-				PlaceObj('QuestVarBool', {
-					Name = "AdonisAmbushFlagHill",
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_FlagHillAmbushAware",
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_BetrayalPreemptiveCombat",
-				}),
-				PlaceObj('QuestVarTCEState', {
-					Name = "TCE_E9SetpieceOneShotPrevention",
-				}),
-			},
-			group = "Main",
-			id = "04_Betrayal",
-		}),
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "Failed",
+										QuestId = "DiamondRed",
+									}),
+								},
+							}),
+							PlaceObj('GroupSetImmortal', {
+								TargetUnit = "GreasyBasil",
+							}),
+							PlaceObj('GroupSetImmortal', {
+								TargetUnit = "Martha",
+							}),
+							PlaceObj('GroupSetImmortal', {
+								TargetUnit = "Herman",
+							}),
+							PlaceObj('GroupSetImmortal', {
+								TargetUnit = "Luc",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_RemoveQuests",
+						QuestId = "04_Betrayal",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "TCE_FlipErnie", "TCE_RemoveQuests", "TCE_SpawnCaptureSquads" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "04_Betrayal",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_ResolveQuest",
+						QuestId = "04_Betrayal",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "TCE_FlipErnie", "TCE_SpawnCaptureSquads", "TriggerWorldFlip" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "WorldFlipDone",
+								QuestId = "04_Betrayal",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_WorldFlipDone",
+						QuestId = "04_Betrayal",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I1",
+								},
+							}),
+							PlaceObj('UnitIsOnMap', {
+								TargetUnit = "AmbushWave",
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupAlert', {
+								TargetUnit = "AmbushWave",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FlagHillAmbushAware",
+						QuestId = "04_Betrayal",
+						requiredSectors = {
+							"I1",
+						},
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "FaucheuxMet",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MentionCorazon",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "FaucheuxAccusation",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "FaucheuxExposed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BetrayalStartCombat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BetryalFightDone",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BetryalFightSkipped",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BetrayalSquadDefeated",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "TriggerWorldFlip",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "RefugeCampEnemyControl",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ClueLegion",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ClueDeadBody",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ClueChemical",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_RemoveQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BetrayalFight",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BetrayalFight_Bombard1",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BetrayalFight_Bombard2",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BetrayalFightDone",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_SectorControl",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_SkipFight",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_DefeatSkipFightSquad",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_ShowBetrayalCutScene",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FlipErnie",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FlipFortBrigand",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_SpawnCaptureSquads",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_SwitchGuardpostAttackSquads",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_ResolveQuest",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GatherEvidence",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "EmmaTimer",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_WorldFlipDone",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "WorldFlipDone",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "AdonisAmbushFlagHill",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FlagHillAmbushAware",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BetrayalPreemptiveCombat",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_E9SetpieceOneShotPrevention",
+					}),
+				},
+				group = "Main",
+				id = "04_Betrayal",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Vlad",
+				Chapter = "Act1",
+				DevNotes = "Completed when the player received a radio call with an invitattion from Corazon to come to the Refugee Camp.\nAfter the situation there is resolved OR the player didn't come, the world flip happens and the player receives the 3 final quests - to defeat Corazon, Faucheux and the Major. At this point saving the President is now a side goal to defeating the Major.\n\n-- BoyanNote - I made the quest note hidden so it doesn't show up as a checkmarck completed objective.\n\nWill actually resolve as the player progresses in the game. The betrayal happens at the end of this quest.\n\nCurrently it check total territory controlled by the player. \nIf the player has control of enough mines or cities.\nIf the player is getting close to the Major.\nIf time has passed since the start of the campaign.\nIf you have completed Biff quest.\n\nAll conditions are OR\n\nSome of these conditions have a timed delay.",
+				EffectOnChangeVarValue = {
+					PlaceObj('QuestEffectOnStatus', {
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Given",
+								QuestId = "04_Betrayal",
+							}),
+							PlaceObj('CustomCodeEffect', {
+								custom_code = 'ChangeAIMPremiumState("grant")',
+							}),
+						},
+						Prop = "Completed",
+					}),
+				},
+				Hidden = true,
+				Main = true,
+				QuestGroup = "The Fate Of Grand Chien",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SatelliteGameplayRunning', {}),
+							PlaceObj('OR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "03_DefeatTheLegion",
+										Vars = set( "StartBetrayal" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "04_Betrayal",
+										Vars = set( "WorldFlipDone" ),
+									}),
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "RescueBiff",
+										Vars = set( "Completed", "Failed" ),
+									}),
+								},
+								'Effects', {
+									PlaceObj('ConditionalEffect', {
+										'Conditions', {
+											PlaceObj('QuestIsVariableBool', {
+												Condition = "or",
+												QuestId = "RescueBiff",
+												Vars = set( "BiffDeadInCombat", "BiffDeadOnArrival" ),
+											}),
+										},
+										'Effects', {
+											PlaceObj('PlayBanterEffect', {
+												Banters = {
+													"Radio_Biff4_Dead",
+												},
+												FallbackToMerc = true,
+												searchInMarker = false,
+											}),
+											PlaceObj('QuestSetVariableBool', {
+												Prop = "MERC_LegionAdonis",
+												QuestId = "RescueBiff",
+											}),
+										},
+										'EffectsElse', {
+											PlaceObj('PlayBanterEffect', {
+												Banters = {
+													"Radio_Biff4_Saved",
+												},
+												FallbackToMerc = true,
+												searchInMarker = false,
+											}),
+											PlaceObj('QuestSetVariableBool', {
+												Prop = "MERC_LegionAdonis",
+												QuestId = "RescueBiff",
+											}),
+										},
+									}),
+								},
+								'EffectsElse', {
+									PlaceObj('PlayBanterEffect', {
+										Banters = {
+											"Radio_BetrayalInvitation",
+										},
+										FallbackToMerc = true,
+										searchInMarker = false,
+									}),
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "CorazonMajorBusiness",
+										QuestId = "05_TakeDownMajor",
+									}),
+								},
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "03_DefeatTheLegion",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_ResolveQuest",
+						QuestId = "03_DefeatTheLegion",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('PlayerControlCities', {
+										Amount = 20,
+										CitySectors = true,
+										Condition = ">=",
+									}),
+									PlaceObj('PlayerControlSectors', {
+										Amount = 5,
+										Condition = ">=",
+										POIs = "Mine",
+									}),
+									PlaceObj('PlayerControlSectors', {
+										Amount = 120,
+										Condition = ">=",
+									}),
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableTimer', {
+								Prop = "TimeToBetrayal",
+								QuestId = "03_DefeatTheLegion",
+								TimeAmount = 72,
+								TimeAmountRangeMax = 120,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_CheckMinesORCities",
+						QuestId = "03_DefeatTheLegion",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "03_DefeatTheLegion",
+								Vars = set({
+	StartBetrayal = false,
+}),
+							}),
+							PlaceObj('QuestHasTimerPassed', {
+								QuestId = "03_DefeatTheLegion",
+								TimerVariable = "TimeToBetrayal",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "StartBetrayal",
+								QuestId = "03_DefeatTheLegion",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_CheckTimeToBetray",
+						QuestId = "03_DefeatTheLegion",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "B27",
+									}),
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "C27",
+									}),
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "C26",
+									}),
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "C25",
+									}),
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "C27",
+									}),
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "D27",
+									}),
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "D26",
+									}),
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "StartBetrayal",
+								QuestId = "03_DefeatTheLegion",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_CheckCloseToMajor",
+						QuestId = "03_DefeatTheLegion",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "RescueBiff",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "StartBetrayal",
+								QuestId = "03_DefeatTheLegion",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_CheckBiffCompleted",
+						QuestId = "03_DefeatTheLegion",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PortCacaoUnderAttack",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "StartBetrayal",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BetrayalTimeShortActivated",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_ResolveQuest",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_CheckMinesORCities",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_CheckCloseToMajor",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_CheckBiffCompleted",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_CheckTimeToBetray",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "TimeToBetrayal",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "SinceMinesCapturedTimer",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PresidentLocation",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MajorLead",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MajorLocation",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "Taken_Sectors",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "Taken_Cities",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "Taken_Mines",
+					}),
+				},
+				group = "Main",
+				id = "03_DefeatTheLegion",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Radomir",
+				DevNotes = "Most scripting is in 05_TakeDownMajor.",
+				DisplayName = T(462687065834, --[[ModItemQuestsDef 03A_PresidentNotes DisplayName]] "Спасение президента"),
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {}),
+				},
+				LineVisibleOnGive = 1,
+				Main = true,
+				NoteDefs = {
+					PlaceObj('QuestNote', {
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('PlayerIsInSectors', {
+										Sectors = {
+											"B28",
+										},
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "03_DefeatTheLegion",
+										Vars = set( "PresidentLocation" ),
+									}),
+									PlaceObj('BanterHasPlayed', {
+										Banters = {
+											"Radio_BetrayalInvitation",
+										},
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "05_TakeDownMajor",
+										Vars = set( "PresidentDead", "PresidentSaved" ),
+									}),
+								},
+							}),
+						},
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "03_DefeatTheLegion",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(202920554704, --[[ModItemQuestsDef 03A_PresidentNotes Text]] "Нужно спасти <color EmStyle>президента Лафонтена</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Emma",
+								Sector = "N12",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "02_LiberateErnie",
+								Vars = set( "Completed" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "03_DefeatTheLegion",
+										Vars = set( "PortCacaoUnderAttack" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "PortCacaoSideQuests",
+										Vars = set( "EmmaFleePortCacao", "LiberatedPortCacao" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "05_TakeDownMajor",
+										Vars = set( "PresidentDead", "PresidentSaved" ),
+									}),
+								},
+							}),
+						},
+						Idx = 4,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "02_LiberateErnie",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Text = T(991220259267, --[[ModItemQuestsDef 03A_PresidentNotes Text]] "<color EmStyle>Эмма</color> будет ждать информации о местонахождении своего отца в <color EmStyle>Порт-Какао</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('PlayerIsInSectors', {
+										Sectors = {
+											"B28",
+										},
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "03_DefeatTheLegion",
+										Vars = set( "PresidentLocation" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "05_TakeDownMajor",
+										Vars = set( "PresidentDead", "PresidentSaved" ),
+									}),
+								},
+							}),
+						},
+						Idx = 8,
+						ShowConditions = {
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"Radio_BetrayalInvitation",
+								},
+							}),
+						},
+						Text = T(483551212310, --[[ModItemQuestsDef 03A_PresidentNotes Text]] "Нужно спасти <color EmStyle>президента Лафонтена</color>, которого держит в плену <color EmStyle>Майор</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "President",
+								Sector = "B28",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "CombatFinished", "PresidentDead", "PresidentSaved" ),
+							}),
+						},
+						Idx = 3,
+						ShowConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('PlayerIsInSectors', {
+										Sectors = {
+											"B28",
+										},
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "03_DefeatTheLegion",
+										Vars = set( "PresidentLocation" ),
+									}),
+								},
+							}),
+						},
+						Text = T(211698784060, --[[ModItemQuestsDef 03A_PresidentNotes Text]] "Нужно спасти <color EmStyle>президента Лафонтена</color> из лагеря <color EmStyle>Майора</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "President",
+								Sector = "B28",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "05_TakeDownMajor",
+										Vars = set( "PresidentDead", "PresidentSaved" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "03A_PresidentNotes",
+										Vars = set( "Completed", "Failed" ),
+									}),
+								},
+							}),
+						},
+						Idx = 5,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set({
+	CombatFinished = true,
+	PresidentDead = false,
+}),
+							}),
+						},
+						Text = T(414700095663, --[[ModItemQuestsDef 03A_PresidentNotes Text]] "Пора встретиться с <color EmStyle>президентом</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "PresidentSaved" ),
+							}),
+						},
+						Idx = 6,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "PresidentSaved" ),
+							}),
+						},
+						ShowWhenCompleted = true,
+						Text = T(989002386653, --[[ModItemQuestsDef 03A_PresidentNotes Text]] "<color EmStyle>Результат:</color> <color EmStyle>президент Лафонтен</color> спасен"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "PresidentDead" ),
+							}),
+						},
+						Idx = 7,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "05_TakeDownMajor",
+								Vars = set( "PresidentDead" ),
+							}),
+						},
+						ShowWhenCompleted = true,
+						Text = T(331540174004, --[[ModItemQuestsDef 03A_PresidentNotes Text]] "<color EmStyle>Результат:</color> <color EmStyle>президент Лафонтен</color> мертв"),
+					}),
+				},
+				QuestGroup = "The Fate Of Grand Chien",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"President01_Combat_Approach",
+									"President02_Saved_Approach",
+								},
+								WaitOver = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Minor",
+								logImportant = true,
+							}),
+							PlaceObj('ApplyGuiltyOrRighteous', {}),
+						},
+						Once = true,
+						ParamId = "TCE_PresidentReached",
+						QuestId = "03A_PresidentNotes",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PresidentReached",
+					}),
+				},
+				group = "Main",
+				id = "03A_PresidentNotes",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Boyan",
+				Chapter = "Intro",
+				DevNotes = "Resolved when you capture Ernie. Has a ton of effect in the TCE that resolves the quest such as unlocking the port in Ernie village and showing all the icons on the sat view map.\n\nOn resolution I moved all quest variables to switch before the delay and Emma banter to avoid the player breaking the entire quest line by moving away from the sector during the delay.",
+				DisplayName = T(309758246879, --[[ModItemQuestsDef 02_LiberateErnie DisplayName]] "Освободить деревню Эрни"),
+				EffectOnChangeVarValue = {
+					PlaceObj('QuestEffectOnStatus', {
+						Effects = {
+							PlaceObj('SectorSetCustomConflictDesc', {
+								descr_id = "H2_TownOfErnie_Initial",
+								sector_id = "I5",
+							}),
+							PlaceObj('SectorSetCustomConflictDesc', {
+								descr_id = "H2_TownOfErnie_Initial",
+								sector_id = "J5",
+							}),
+						},
+						Prop = "Given",
+					}),
+					PlaceObj('QuestEffectOnStatus', {
+						Prop = "Completed",
+					}),
+				},
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {}),
+				},
+				Main = true,
+				NoteDefs = {
+					PlaceObj('QuestNote', {
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "02_LiberateErnie",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 9,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "02_LiberateErnie",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(576404756411, --[[ModItemQuestsDef 02_LiberateErnie Text]] "Жители деревни могут вывезти вас с острова <color EmStyle>по морю</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "I5",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "J5",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "02_LiberateErnie",
+										Vars = set( "Completed" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "Ernie_CounterAttack",
+										Vars = set( "Given" ),
+									}),
+								},
+							}),
+						},
+						Idx = 3,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "02_LiberateErnie",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(380070137419, --[[ModItemQuestsDef 02_LiberateErnie Text]] "<color EmStyle></color> оккупирована <color EmStyle>Легионом</color>"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "I5",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "J5",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "02_LiberateErnie",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 6,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "02_LiberateErnie",
+								Vars = set( "Completed" ),
+							}),
+						},
+						ShowWhenCompleted = true,
+						Text = T(226108088689, --[[ModItemQuestsDef 02_LiberateErnie Text]] "<color EmStyle>Результат:</color> <color EmStyle></color> освобождена"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "02_LiberateErnie",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 8,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "02_LiberateErnie",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Text = T(877140852159, --[[ModItemQuestsDef 02_LiberateErnie Text]] "<color EmStyle>Результат:</color> доступен <color EmStyle>морской транспорт</color> на <color EmStyle>материк</color>"),
+					}),
+				},
+				QuestGroup = "The Fate Of Grand Chien",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "02_LiberateErnie",
+								Vars = set( "Given" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I5",
+									"J5",
+								},
+							}),
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "I5",
+							}),
+						},
+						Effects = {
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "Village_Conflict",
+								MusicExploration = "Village_Complete",
+								SectorID = "I5",
+							}),
+							PlaceObj('GroupSetBehaviorIdle', {
+								IdleStance = "Standing",
+								RestoreDefault = true,
+								TargetUnit = "Luc",
+							}),
+							PlaceObj('SetBehaviorVisitAL', {
+								ActorGroup = "Luc",
+								MarkerGroup = "LucALTalk",
+							}),
+							PlaceObj('SetBehaviorVisitAL', {
+								ActorGroup = "GreasyBasil",
+								MarkerGroup = "GreasyBasilALTalk",
+							}),
+							PlaceObj('SetBehaviorVisitAL', {
+								ActorGroup = "BillyBoy",
+								MarkerGroup = "BillyBoy",
+							}),
+							PlaceObj('EffectsWithCondition', {
+								Conditions = {
+									PlaceObj('SectorCheckOwner', {
+										owner = "any enemy",
+										sector_id = "I7",
+									}),
+								},
+								Effects = {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "Given",
+										QuestId = "Ernie_CounterAttack",
+									}),
+								},
+							}),
+							PlaceObj('SectorEnableAutoDeploy', {
+								sector_id = "I5",
+							}),
+							PlaceObj('SectorSetPort', {
+								sector_id = "I5",
+							}),
+							PlaceObj('CustomCodeEffect', {
+								custom_code = "RevealAllSectors()",
+							}),
+							PlaceObj('CustomCodeEffect', {
+								custom_code = 'ChangeAIMPremiumState("offer")',
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Given",
+								QuestId = "03_DefeatTheLegion",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Given",
+								QuestId = "CorazonCaptureMine",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Given",
+								QuestId = "TakeTheFortress",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "02_LiberateErnie",
+							}),
+							PlaceObj('SleepEffect', {
+								Sleep = 3000,
+							}),
+							PlaceObj('MusicSetTrack', {
+								Playlist = "Scripted",
+								Track = "Music/Magcina",
+							}),
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"CorazonRadio_CapturedErnie",
+								},
+								FallbackToMerc = true,
+								searchInMarker = false,
+							}),
+							PlaceObj('GrantExperienceSector', {}),
+							PlaceObj('PlayerGrantMoney', {
+								Amount = 30000,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_ResolveQuest",
+						QuestId = "02_LiberateErnie",
+						requiredSectors = {
+							"H2",
+						},
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_ResolveQuest",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PierreMet",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PierreLucSetpiece_Done",
+					}),
+				},
+				group = "Main",
+				id = "02_LiberateErnie",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Boyan",
+				Chapter = "Intro",
+				DevNotes = "Starting main quest. Resolved when you talk to Emma and Corazone.",
+				DisplayName = T(481578963401, --[[ModItemQuestsDef 01_Landing DisplayName]] "Встреча с нанимателем"),
+				EffectOnChangeVarValue = {
+					PlaceObj('QuestEffectOnStatus', {
+						Effects = {
+							PlaceObj('SectorEnterConflict', {
+								conflict_mode = false,
+								sector_id = "M1",
+							}),
+						},
+						Prop = "Completed",
+					}),
+				},
+				Main = true,
+				NoteDefs = {
+					PlaceObj('QuestNote', {
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('PlayerIsInSectors', {
+										Sectors = {
+											"M1",
+										},
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "01_Landing",
+										Vars = set( "Completed" ),
+									}),
+								},
+							}),
+						},
+						Idx = 6,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "01_Landing",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(194076078423, --[[ModItemQuestsDef 01_Landing Text]] "<em>Клиент</em> ждёт нас на <em>Острове Эрни</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Emma",
+								Sector = "K4",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "01_Landing",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 4,
+						ShowConditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I1",
+								},
+							}),
+						},
+						Text = T(829148621439, --[[ModItemQuestsDef 01_Landing Text]] "<em>Клиент</em> находится в особняке в секторе <em><SectorName('K4')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "K4",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "01_Landing",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 5,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "01_Landing",
+								Vars = set( "Completed" ),
+							}),
+						},
+						ShowWhenCompleted = true,
+						Text = T(861219355572, --[[ModItemQuestsDef 01_Landing Text]] "<em>Цель:</em> Встретиться с <em>Эммой ЛеФонтен</em> и <em>Корасон Сантьяго</em>"),
+					}),
+				},
+				QuestGroup = "The Fate Of Grand Chien",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I1",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('SectorEnterConflict', {
+								disable_travel = true,
+								lock_conflict = true,
+								sector_id = "I1",
+							}),
+							PlaceObj('ModifySatelliteAggro', {
+								AmountIsPercent = false,
+								Halt = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_InitialConflictLock",
+						QuestId = "01_Landing",
+						requiredSectors = {
+							"I1",
+						},
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Luc_rude",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Luc_attitude",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Luc_Legion",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "TalkedToLuc",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_InitialConflictLock",
+					}),
+				},
+				group = "Main",
+				id = "01_Landing",
+			}),
+			}),
 		PlaceObj('ModItemQuestsDef', {
 			DisplayName = T(156911420607, --[[ModItemQuestsDef Docks DisplayName]] "Доки"),
 			EffectOnChangeVarValue = {
@@ -29211,7 +34022,7 @@ return {
 						}),
 						PlaceObj('CityGrantLoyalty', {
 							Amount = -10,
-							City = "camztWx",
+							City = "PortDiancie",
 							SpecialConversationMessage = T(911820358036, --[[ModItemQuestsDef Docks SpecialConversationMessage]] 'операция <color EmStyle>«Ночь "Н"»</color> прошла успешно'),
 						}),
 					},
@@ -29481,7 +34292,7 @@ return {
 						}),
 						PlaceObj('CityGrantLoyalty', {
 							Amount = 5,
-							City = "camztWx",
+							City = "PortDiancie",
 							SpecialConversationMessage = T(743056658175, --[[ModItemQuestsDef Docks SpecialConversationMessage]] "обезвредили бомбы"),
 						}),
 					},
@@ -29583,7 +34394,7 @@ return {
 							'Effects', {
 								PlaceObj('CityGrantLoyalty', {
 									Amount = 10,
-									City = "camztWx",
+									City = "PortDiancie",
 									SpecialConversationMessage = T(872216840378, --[[ModItemQuestsDef Docks SpecialConversationMessage]] "сорвали операцию <color EmStyle>Ночь «Н»</color>"),
 								}),
 							},
