@@ -9064,6 +9064,7 @@ return {
 				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
 					'Id', "J5",
 					'Map', "adviFCb",
+					'MapTier', 10,
 					'modId', "FhNNYd",
 					'display_name', T(336479618775, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J5]] "Фермы Эрни"),
 					'TerrainType', "Urban",
@@ -9072,6 +9073,9 @@ return {
 					'ShowCity', true,
 					'Farm', true,
 					'DailyIncomeFarm', 100,
+					'Militia', true,
+					'MaxMilitia', 20,
+					'MilitiaTrainingCost', 600,
 					'MinFlareCarriers', 7,
 					'MaxFlareCarriers', 11,
 					'bidirectionalRoadApply', true,
@@ -11722,19 +11726,19 @@ return {
 					'DisplayName', T(736389183763, --[[ModItemCampaignPreset HotDiamonds DisplayName]] "Блёмстед"),
 				}),
 				PlaceObj('CampaignCity', {
-					'Id', "paiiCHH",
+					'Id', "IlleMorat",
 					'DisplayName', T(730224640479, --[[ModItemCampaignPreset HotDiamonds DisplayName]] "Иль-Мора"),
 				}),
 				PlaceObj('CampaignCity', {
-					'Id', "cUsGPkp",
+					'Id', "Chalet",
 					'DisplayName', T(615276795848, --[[ModItemCampaignPreset HotDiamonds DisplayName]] "Шале-де-ла-Пе"),
 				}),
 				PlaceObj('CampaignCity', {
-					'Id', "jCUGgPT",
+					'Id', "Fleatown",
 					'DisplayName', T(320319861537, --[[ModItemCampaignPreset HotDiamonds DisplayName]] "Флитаун"),
 				}),
 				PlaceObj('CampaignCity', {
-					'Id', "tEbUqLn",
+					'Id', "Payak",
 					'DisplayName', T(132759850733, --[[ModItemCampaignPreset HotDiamonds DisplayName]] "Вассерграб"),
 				}),
 				PlaceObj('CampaignCity', {
@@ -11742,7 +11746,7 @@ return {
 					'DisplayName', T(664561133619, --[[ModItemCampaignPreset HotDiamonds DisplayName]] "Порт-Какао-Центр"),
 				}),
 				PlaceObj('CampaignCity', {
-					'Id', "EtnVji3",
+					'Id', "RefugeeCamp",
 					'DisplayName', T(672959575424, --[[ModItemCampaignPreset HotDiamonds DisplayName]] "Лагерь беженцев"),
 				}),
 			},
@@ -22413,6 +22417,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "J5",
 					'Map', "adviFCb",
+					'MapTier', 10,
 					'modId', "FhNNYd",
 					'display_name', T(336479618775, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J5]] "Фермы Эрни"),
 					'TerrainType', "Urban",
@@ -22421,6 +22426,9 @@ return {
 					'ShowCity', true,
 					'Farm', true,
 					'DailyIncomeFarm', 100,
+					'Militia', true,
+					'MaxMilitia', 20,
+					'MilitiaTrainingCost', 600,
 					'MinFlareCarriers', 7,
 					'MaxFlareCarriers', 11,
 					'bidirectionalRoadApply', true,
