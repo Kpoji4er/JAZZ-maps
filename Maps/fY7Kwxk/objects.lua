@@ -8254,7 +8254,7 @@ PlaceObj('GridMarker', {
 	'Type', "DefenderPriority",
 }, nil, 1673552945)
 PlaceObj('ShowHideCollectionMarker', {
-	'Pos', point(172200, 161400),
+	'Pos', point(172200, 161400, 44100),
 	'CollectionIndex', 1987,
 	'AllowedMask', 4294966497,
 	'ID', "SecretDoor",
@@ -8282,6 +8282,22 @@ PlaceObj('GridMarker', {
 	'ArchetypesTriState', set( "Heavy" ),
 }, nil, 1249478632)
 PlaceObj('GridMarker', {
+	'Pos', point(172200, 163800, 44100),
+	'Groups', {
+		"Underground",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Entrance",
+	'AreaWidth', 3,
+	'AreaHeight', 4,
+	'EnabledConditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "04_Betrayal",
+			Vars = set( "WorldFlipDone" ),
+		}),
+	},
+}, nil, 1321566504)
+PlaceObj('GridMarker', {
 	'Pos', point(172200, 163800, 47600),
 	'Groups', {
 		"Adonis",
@@ -8297,22 +8313,6 @@ PlaceObj('GridMarker', {
 	},
 	'ArchetypesTriState', set( "Heavy" ),
 }, nil, 1206806813)
-PlaceObj('GridMarker', {
-	'Pos', point(172200, 163800),
-	'Groups', {
-		"Underground",
-	},
-	'AllowedMask', 4294966497,
-	'Type', "Entrance",
-	'AreaWidth', 3,
-	'AreaHeight', 4,
-	'EnabledConditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "04_Betrayal",
-			Vars = set( "WorldFlipDone" ),
-		}),
-	},
-}, nil, 1321566504)
 PlaceObj('GridMarker', {
 	'Pos', point(179400, 156600),
 	'Groups', {
@@ -29938,7 +29938,7 @@ PlaceObj('MachineGunEmplacement', {
 	'CollectionIndex', 2618,
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 }, nil, 1055366417)
 PlaceObj('FloorSlab', {
 	'Pos', point(157800, 139800, 46200),
@@ -70539,7 +70539,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 	'appeal_optimal_dist', 24000,
 }, nil, 1614558190)
 PlaceObj('FloorSlab', {
@@ -94769,7 +94769,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 }, nil, 1638148231)
 PlaceObj('FloorSlab', {
 	'Pos', point(217800, 141000, 50400),
@@ -107989,7 +107989,7 @@ PlaceObj('MachineGunEmplacement', {
 	'DestructionOverrideMask', 1,
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 }, nil, 1254849263)
 PlaceObj('MilitaryCamp_PowerGenerator', {
 	'ColorizationPalette', "",
@@ -135577,7 +135577,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 }, nil, 1266482769)
 PlaceObj('JungleCamp_FoodCanPile_04', {
 	'Pos', point(210479, 215712, 47575),
@@ -228135,7 +228135,7 @@ p("Floor_MetalScaff_Parapet_01",173400,161400,47600,16200,514,3292,2150911028,""
 p("TropicalPlant_Vines_10",173478,161358,47601,11746,825,2097409)
 p("DecWallLeak_04",173933,160773,49217,10800,178,-2896,0,2896,32,2097237)
 p("TropicalPlant_Vines_06",173825,161027,49498,10904,1316,2097409)
-p("Bunker_ConcretePile_01",172472,162175,44100,7983,1987,"terrainchunk",10,0,0,78,100,10,40,60,2228481)
+p("Bunker_ConcretePile_01",172362,162087,44100,7983,1987,"terrainchunk",10,0,0,78,100,10,40,60,2228481)
 p("BrokenOff_Concrete_02",173000,162200,47596,5402,73,4280492835,32,32,2173,2097613)
 p("TropicalPlant_Vines_09",172714,163102,47601,18440,825,2097409)
 p("TropicalPlant_Vines_10",173378,161944,47601,11746,825,2097409)
