@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 3951,
+	'version', 3983,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -16,7 +16,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1736494022,
+	'saved', 1736788022,
 	'code_hash', 3886187561896124310,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
@@ -606,12 +606,12 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
-			'Id', "HotDiamonds_G6",
+			'Id', "HotDiamonds_G9",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
-			'Id', "HotDiamonds_G9",
+			'Id', "HotDiamonds_G6",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -1226,6 +1226,11 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_O20",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_O19",
 			'ClassDisplayName', "Satellite sector",
 		}),
@@ -1386,7 +1391,7 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "LootDef",
-			'Id', "Jazz_Random_Ammo_Drop_T1",
+			'Id', "IndustrialContainer_Upgrades",
 			'ClassDisplayName', "LootDef",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -1396,8 +1401,13 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "LootDef",
-			'Id', "IndustrialContainer_Upgrades",
+			'Id', "Jazz_Random_Ammo_Drop_T1",
 			'ClassDisplayName', "LootDef",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "MapDataPreset",
+			'Id', "gsSMikN",
+			'Prop', "MapOrientation",
 		}),
 	},
 	'steam_id', "3322285655",
