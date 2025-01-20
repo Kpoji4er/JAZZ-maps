@@ -49,6 +49,14 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Name', "col_TropicalRockSharp_01",
+	'Index', 1463,
+	'HideFromCamera', true,
+}, nil, 1480567652)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_Debris_Sticks_03",
 	'Index', 2980,
 }, nil, 1605418950)
@@ -25163,7 +25171,7 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 	'AllowedMask', 4294967279,
 }, nil, 1839411153)
 PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(31000, 174000),
+	'Pos', point(31013, 173966),
 	'Angle', 4344,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -59391,9 +59399,10 @@ PlaceObj('Shanty_BottleCrate_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1886319974)
 PlaceObj('Shanty_Bed_Mattress', {
-	'Pos', point(167365, 201309, 15412),
-	'Angle', 9787,
+	'Pos', point(167381, 201254, 15412),
+	'Angle', 9789,
 	'Scale', 101,
+	'Axis', point(-41, 277, 4086),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
@@ -59407,7 +59416,7 @@ PlaceObj('TropicalFillerPlants_03', {
 	'AllowedMask', 0,
 }, nil, 1305631615)
 PlaceObj('Shanty_Bed_Mattress', {
-	'Pos', point(168618, 200037, 15347),
+	'Pos', point(168618, 200037, 15335),
 	'Angle', 6721,
 	'Scale', 95,
 	'Axis', point(240, 44, 4088),
@@ -59415,6 +59424,15 @@ PlaceObj('Shanty_Bed_Mattress', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1070898662)
+PlaceObj('Shanty_Bed_Mattress', {
+	'Pos', point(169532, 202322, 15280),
+	'Angle', 3047,
+	'Scale', 99,
+	'Axis', point(-639, 516, 4012),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1508398535)
 PlaceObj('TropicalFillerPlants_08', {
 	'Pos', point(169000, 204000),
 	'Angle', 19293,
@@ -59423,15 +59441,6 @@ PlaceObj('TropicalFillerPlants_08', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1028010047)
-PlaceObj('Shanty_Bed_Mattress', {
-	'Pos', point(170033, 201900),
-	'Angle', 3028,
-	'Scale', 99,
-	'Axis', point(452, 8, 4070),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1508398535)
 PlaceObj('TropicalFillerPlants_05', {
 	'Pos', point(170000, 204000),
 	'Angle', 19431,
@@ -85669,7 +85678,7 @@ p("TropicalRockSharp_01",115358,218162,22313,6926,250,179,131,4089,"terrainchunk
 p("TropicalRockSharp_02",118737,223285,30235,15377,250,-2348,-2423,2321,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharp_02",120010,225606,29754,16260,250,-1611,-1952,3220,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharp_02",120019,228265,29367,16783,250,115,-621,4047,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
-p("TropicalRockSharp_01",125870,219364,20753,6926,250,179,131,4089,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
+p("TropicalRockSharp_01",125870,219364,20753,6926,250,179,131,4089,1463,"terrainchunk",10,0,0,84,100,10,40,60,2228501)
 p("TropicalRockSharp_02",129948,216210,16376,8180,250,-2316,-2296,2477,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharp_02",128652,223862,31239,15377,250,-2348,-2423,2321,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharp_02",129925,226608,30334,16260,250,-1611,-1952,3220,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
@@ -86426,7 +86435,7 @@ p("SavannaPlant_Bush_07",144392,93019,16961,44,4281347887,2097164)
 p("SavannaPlant_Bush_06",144443,93532,10541,43,4280954933,2097164)
 p("SavannaPlant_Bush_06",145073,93853,13058,35,4280825136,2097164)
 p("ParSystem",145927,90395,"Env_Fire1x1",268435456)
-p("Grease",147406,90334,15577,16200,4096,0,0,3,2033,2097553)
+p("Grease",147406,90334,15577,16200,4096,0,0,4,2033,2097553)
 p("SavannaPlant_Bush_08",145487,93344,9864,46,4281479213,2097164)
 p("SavannaPlant_Bush_04",145576,93686,1056,37,4280890673,2097164)
 p("SavannaPlant_Bush_04",145821,93405,17946,35,4280824116,2097164)
@@ -88110,7 +88119,7 @@ p("TropicalPlant_Grass_02",151000,245000,18386,101,4281086510,2097164)
 p("TropicalPlant_Grass_01",152000,238000,19595,98,4281610286,2097164)
 p("TropicalPlant_Grass_02",152000,239000,19489,104,4280824106,2097164)
 p("TropicalPlant_Grass_01",153000,238000,19447,4281149485,2097160)
-p("TropicalPlant_Grass_03",153000,239000,2548,98,4281020712,2097164)
+p("TropicalPlant_Grass_03",153017,239007,2548,98,4281020712,2097164)
 p("TropicalPlant_Grass_03",152000,240000,2411,97,4281413425,2097164)
 p("TropicalPlant_Grass_03",152000,241000,2460,4281283381,2097160)
 p("TropicalPlant_Grass_03",153000,240000,18062,99,4281087022,2097164)

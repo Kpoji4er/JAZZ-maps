@@ -16,7 +16,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1736788022,
+	'saved', 1737237424,
 	'code_hash', 3886187561896124310,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
