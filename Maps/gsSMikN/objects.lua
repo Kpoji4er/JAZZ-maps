@@ -2545,15 +2545,24 @@ PlaceObj('Collection', {
 }, nil, 1895712523)
 SetNextSyncHandle(2000000001)
 PlaceObj('GridMarker', {
-	'Pos', point(43800, 123000, 8400),
+	'Pos', point(40200, 125400, 7000),
 	'Groups', {
-		"East",
+		"west",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Entrance",
 	'AreaWidth', 5,
 	'AreaHeight', 12,
-}, nil, 1224798295)
+}, nil, 1686910424)
+PlaceObj('ExitZoneInteractable', {
+	'Pos', point(41907, 125488, 6674),
+	'Angle', 5400,
+	'Groups', {
+		"west",
+	},
+	'AllowedMask', 4294966497,
+	'entity', "TravelMarker_06",
+}, nil, 1760053883)
 PlaceObj('UnitMarker', {
 	'Pos', point(93000, 94200, 7700),
 	'Groups', {
@@ -3213,6 +3222,40 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 780001280)
+PlaceObj('GridMarker', {
+	'Pos', point(63000, 220200, 8400),
+	'Angle', 5400,
+	'Groups', {
+		"South",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Entrance",
+	'AreaWidth', 10,
+	'AreaHeight', 10,
+	'EnabledConditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "01_Landing",
+			Vars = set( "Completed" ),
+		}),
+	},
+}, nil, 1519745362)
+PlaceObj('ExitZoneInteractable', {
+	'Pos', point(63579, 220544, 7982),
+	'Groups', {
+		"South",
+	},
+	'CollectionIndex', 1385,
+	'AllowedMask', 4294966497,
+	'AreaWidth', 7,
+	'AreaHeight', 7,
+	'EnabledConditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "01_Landing",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'HideVisualWhenDisabled', true,
+}, nil, 1727780384)
 PlaceObj('UnitMarker', {
 	'Pos', point(75000, 133800, 7000),
 	'Groups', {
@@ -3600,15 +3643,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1321829224)
-PlaceObj('ExitZoneInteractable', {
-	'Pos', point(93531, 172767),
-	'Angle', 5400,
-	'Groups', {
-		"East",
-	},
-	'AllowedMask', 4294966497,
-	'entity', "TravelMarker_06",
-}, nil, 1307266540)
 PlaceObj('UnitMarker', {
 	'Pos', point(93000, 174600),
 	'Groups', {
@@ -7437,40 +7471,25 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 333357056)
-PlaceObj('GridMarker', {
-	'Pos', point(255000, 204600, 7700),
+PlaceObj('ExitZoneInteractable', {
+	'Pos', point(267003, 187966, 6750),
 	'Angle', 5400,
 	'Groups', {
-		"South",
+		"East",
+	},
+	'AllowedMask', 4294966497,
+	'entity', "TravelMarker_06",
+}, nil, 1307266540)
+PlaceObj('GridMarker', {
+	'Pos', point(267000, 189000, 7000),
+	'Groups', {
+		"East",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Entrance",
-	'AreaWidth', 10,
-	'AreaHeight', 10,
-	'EnabledConditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "01_Landing",
-			Vars = set( "Completed" ),
-		}),
-	},
-}, nil, 1519745362)
-PlaceObj('ExitZoneInteractable', {
-	'Pos', point(262144, 194791, 6806),
-	'Groups', {
-		"South",
-	},
-	'CollectionIndex', 1385,
-	'AllowedMask', 4294966497,
-	'AreaWidth', 7,
-	'AreaHeight', 7,
-	'EnabledConditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "01_Landing",
-			Vars = set( "Completed" ),
-		}),
-	},
-	'HideVisualWhenDisabled', true,
-}, nil, 1727780384)
+	'AreaWidth', 5,
+	'AreaHeight', 12,
+}, nil, 1224798295)
 -- end of objects of class GridMarker
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(4223, 7934, 6343),

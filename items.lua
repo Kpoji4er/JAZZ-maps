@@ -6667,21 +6667,6 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
-				'comment', "Море",
-				'mapName', "SsYNoNf",
-				'campaignId', "HotDiamonds",
-				'sectorId', "G6",
-				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "G6",
-					'Map', "SsYNoNf",
-					'MapTier', 10,
-					'modId', "FhNNYd",
-					'display_name', T(500565997037, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G6]] "Море"),
-					'TerrainType', "Water",
-					'Passability', "Water",
-				}),
-			}),
-			PlaceObj('ModItemSector', {
 				'comment', "Кот дАзур",
 				'mapName', "GhT3nho",
 				'campaignId', "HotDiamonds",
@@ -6732,6 +6717,21 @@ return {
 					'MusicConflict', "Savanna_Conflict",
 					'MusicExploration', "Savanna_Exploration",
 					'combatTaskAmount', 3,
+				}),
+			}),
+			PlaceObj('ModItemSector', {
+				'comment', "Море",
+				'mapName', "SsYNoNf",
+				'campaignId', "HotDiamonds",
+				'sectorId', "G6",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "G6",
+					'Map', "SsYNoNf",
+					'MapTier', 10,
+					'modId', "FhNNYd",
+					'display_name', T(500565997037, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G6]] "Море"),
+					'TerrainType', "Water",
+					'Passability', "Water",
 				}),
 			}),
 			}),
@@ -9545,6 +9545,11 @@ return {
 					'display_name', T(828240037474, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K5]] "Пока пусто"),
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	North = false,
+	South = false,
+	West = false,
+}),
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -9961,20 +9966,36 @@ return {
 					'display_name', T(695455219538, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L9]] "Море"),
 					'TerrainType', "Water",
 					'Passability', "Water",
+					'discovered', false,
 					'bidirectionalRoadApply', true,
 				}),
 			}),
 			PlaceObj('ModItemSector', {
-				'comment', "Филер",
+				'comment', "Походный Лагерь Легиона",
 				'mapName', "ATJYR57",
 				'campaignId', "HotDiamonds",
 				'sectorId', "L5",
 				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
 					'Id', "L5",
 					'Map', "ATJYR57",
+					'MapTier', 10,
 					'modId', "FhNNYd",
+					'display_name', T(760738486642, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L5]] "Походный Лагерь Легиона"),
+					'TerrainType', "Jungle",
+					'WeatherZone', "Erny",
+					'City', "ErnieVillage",
+					'MinFlareCarriers', 6,
+					'MaxFlareCarriers', 9,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	North = false,
+	South = true,
+	West = false,
+}),
+					'BlockTravelRiver', set( "South" ),
+					'image', "UI/SatelliteView/SectorImages/E11",
+					'combatTaskAmount', 4,
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -9988,6 +10009,12 @@ return {
 					'modId', "FhNNYd",
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = false,
+	North = false,
+	South = false,
+	West = false,
+}),
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -10242,6 +10269,11 @@ return {
 					'modId', "FhNNYd",
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = false,
+	North = true,
+	West = false,
+}),
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -10874,6 +10906,37 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
+				'comment', "Берег реки в джунглях",
+				'mapName', "NYrtAxS",
+				'campaignId', "HotDiamonds",
+				'sectorId', "O20",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "O20",
+					'Map', "NYrtAxS",
+					'MapTier', 20,
+					'modId', "FhNNYd",
+					'display_name', T(788666771457, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O20]] "Берег реки в джунглях"),
+					'TerrainType', "Jungle",
+					'WeatherZone', "SouthJungle",
+					'Passability', "Land and Water",
+					'bidirectionalRoadApply', true,
+					'Roads', {
+						East = false,
+						South = true,
+						West = false,
+					},
+					'bidirectionalBlockApply', true,
+					'BlockTravel', {
+						East = false,
+						South = false,
+						West = false,
+					},
+					'image', "UI/SatelliteView/SectorImages/L07",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Jungle_Conflict",
+				}),
+			}),
+			PlaceObj('ModItemSector', {
 				'comment', "Филер",
 				'mapName', "FrxvGHX",
 				'campaignId', "HotDiamonds",
@@ -11261,11 +11324,13 @@ return {
 					'bidirectionalRoadApply', true,
 					'Roads', {
 						East = false,
+						North = true,
 						West = true,
 					},
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
 						East = false,
+						North = false,
 						South = false,
 						West = false,
 					},
@@ -11756,15 +11821,15 @@ return {
 				PlaceObj('RandomEffect', {
 					Effects = {
 						PlaceObj('SectorSpawnSquad', {
-							sector_id = "C5",
-							squad_def_id = "StartingShipments",
-						}),
-						PlaceObj('SectorSpawnSquad', {
 							sector_id = "D9",
 							squad_def_id = "StartingShipments",
 						}),
 						PlaceObj('SectorSpawnSquad', {
-							sector_id = "G7",
+							sector_id = "E12",
+							squad_def_id = "StartingShipments",
+						}),
+						PlaceObj('SectorSpawnSquad', {
+							sector_id = "G27",
 							squad_def_id = "StartingShipments",
 						}),
 					},
@@ -11772,15 +11837,15 @@ return {
 				PlaceObj('RandomEffect', {
 					Effects = {
 						PlaceObj('SectorSpawnSquad', {
-							sector_id = "L12",
+							sector_id = "F28",
 							squad_def_id = "StartingShipments",
 						}),
 						PlaceObj('SectorSpawnSquad', {
-							sector_id = "L15",
+							sector_id = "D22",
 							squad_def_id = "StartingShipments",
 						}),
 						PlaceObj('SectorSpawnSquad', {
-							sector_id = "G15",
+							sector_id = "E15",
 							squad_def_id = "StartingShipments",
 						}),
 					},
@@ -11788,15 +11853,15 @@ return {
 				PlaceObj('RandomEffect', {
 					Effects = {
 						PlaceObj('SectorSpawnSquad', {
-							sector_id = "C14",
+							sector_id = "B17",
 							squad_def_id = "StartingShipments",
 						}),
 						PlaceObj('SectorSpawnSquad', {
-							sector_id = "F13",
+							sector_id = "H19",
 							squad_def_id = "StartingShipments",
 						}),
 						PlaceObj('SectorSpawnSquad', {
-							sector_id = "F19",
+							sector_id = "J12",
 							squad_def_id = "StartingShipments",
 						}),
 					},
@@ -14552,6 +14617,7 @@ return {
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = false,
+	North = false,
 	South = false,
 	West = true,
 }),
@@ -18584,7 +18650,7 @@ return {
 }),
 					'BlockTravel', {
 						North = false,
-						South = true,
+						South = false,
 					},
 					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
@@ -19791,7 +19857,7 @@ return {
 }),
 					'BlockTravel', set({
 	South = false,
-	West = true,
+	West = false,
 }),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
@@ -23364,6 +23430,11 @@ return {
 					'display_name', T(828240037474, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K5]] "Пока пусто"),
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	North = false,
+	South = false,
+	West = false,
+}),
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "K6",
@@ -23982,13 +24053,34 @@ return {
 					'modId', "FhNNYd",
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = false,
+	North = false,
+	South = false,
+	West = false,
+}),
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L5",
 					'Map', "ATJYR57",
+					'MapTier', 10,
 					'modId', "FhNNYd",
+					'display_name', T(760738486642, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L5]] "Походный Лагерь Легиона"),
+					'TerrainType', "Jungle",
+					'WeatherZone', "Erny",
+					'City', "ErnieVillage",
+					'MinFlareCarriers', 6,
+					'MaxFlareCarriers', 9,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	North = false,
+	South = true,
+	West = false,
+}),
+					'BlockTravelRiver', set( "South" ),
+					'image', "UI/SatelliteView/SectorImages/E11",
+					'combatTaskAmount', 4,
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L6",
@@ -23998,6 +24090,10 @@ return {
 					'TerrainType', "Highlands",
 					'Passability', "Blocked",
 					'Intel', false,
+					'BlockTravel', set({
+	South = false,
+	West = false,
+}),
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -24018,28 +24114,6 @@ return {
 					'combatTaskGenerate', "afterFirstConflict",
 				}),
 				PlaceObj('SatelliteSector', {
-					'Id', "L7",
-					'Map', "L-7 - Jungle Road",
-					'MapTier', 20,
-					'display_name', T(788666771457, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L7]] "Берег реки в джунглях"),
-					'TerrainType', "Jungle",
-					'WeatherZone', "SouthJungle",
-					'Passability', "Land and Water",
-					'Roads', {
-						East = true,
-						South = true,
-						West = true,
-					},
-					'BlockTravel', {
-						East = false,
-						South = false,
-						West = false,
-					},
-					'image', "UI/SatelliteView/SectorImages/L07",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Jungle_Conflict",
-				}),
-				PlaceObj('SatelliteSector', {
 					'Id', "L8",
 					'Label1', "Blocked",
 					'Side', "neutral",
@@ -24058,6 +24132,7 @@ return {
 					'display_name', T(695455219538, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L9]] "Море"),
 					'TerrainType', "Water",
 					'Passability', "Water",
+					'discovered', false,
 					'bidirectionalRoadApply', true,
 				}),
 				PlaceObj('SatelliteSector', {
@@ -24433,6 +24508,11 @@ return {
 					'modId', "FhNNYd",
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = false,
+	North = true,
+	West = false,
+}),
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M6",
@@ -25695,15 +25775,53 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "O20",
-					'Label1', "Blocked",
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
-					'Intel', false,
+					'Map', "NYrtAxS",
+					'MapTier', 20,
+					'modId', "FhNNYd",
+					'display_name', T(788666771457, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O20]] "Берег реки в джунглях"),
+					'TerrainType', "Jungle",
+					'WeatherZone', "SouthJungle",
+					'Passability', "Land and Water",
+					'bidirectionalRoadApply', true,
+					'Roads', {
+						East = false,
+						South = true,
+						West = false,
+					},
+					'bidirectionalBlockApply', true,
+					'BlockTravel', {
+						East = false,
+						South = false,
+						West = false,
+					},
+					'image', "UI/SatelliteView/SectorImages/L07",
 					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
+					'MusicConflict', "Jungle_Conflict",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "O20",
+					'Map', "NYrtAxS",
+					'MapTier', 20,
+					'modId', "FhNNYd",
+					'display_name', T(788666771457, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O20]] "Берег реки в джунглях"),
+					'TerrainType', "Jungle",
+					'WeatherZone', "SouthJungle",
+					'Passability', "Land and Water",
+					'bidirectionalRoadApply', true,
+					'Roads', {
+						East = false,
+						South = true,
+						West = false,
+					},
+					'bidirectionalBlockApply', true,
+					'BlockTravel', {
+						East = false,
+						South = false,
+						West = false,
+					},
+					'image', "UI/SatelliteView/SectorImages/L07",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Jungle_Conflict",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "O21",
@@ -26561,11 +26679,13 @@ return {
 					'bidirectionalRoadApply', true,
 					'Roads', {
 						East = false,
+						North = true,
 						West = true,
 					},
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
 						East = false,
+						North = false,
 						South = false,
 						West = false,
 					},
@@ -26584,11 +26704,13 @@ return {
 					'bidirectionalRoadApply', true,
 					'Roads', {
 						East = false,
+						North = true,
 						West = true,
 					},
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
 						East = false,
+						North = false,
 						South = false,
 						West = false,
 					},
@@ -27016,7 +27138,7 @@ return {
 			id = "HotDiamonds",
 			map_file = "Mod/FhNNYd/Images/GrandChien2 (3).png",
 			map_size = point(9966, 5704),
-			max_hired_mercs = 50,
+			max_hired_mercs = 100,
 			sector_bottomright = "P32",
 			sectors_offset = point(0, 0),
 			starting_day = 3,
@@ -35026,6 +35148,32 @@ return {
 		'name', "Containers",
 	}, {
 		PlaceObj('ModItemLootDef', {
+			group = "MapContainers",
+			id = "IndustrialContainer_Upgrades",
+			PlaceObj('LootEntryLootDef', {
+				loot_def = "Container_RandomCombinationItem",
+				weight = 5000000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				loot_def = "Container_WeaponUpgradeKit",
+				weight = 2000000,
+			}),
+		}),
+		PlaceObj('ModItemLootDef', {
+			group = "MapContainers",
+			id = "IndustrialContainer_Explosives",
+			PlaceObj('LootEntryLootDef', {
+				loot_def = "Container_Explosives_Batch",
+				weight = 2000000,
+			}),
+			PlaceObj('LootEntryInventoryItem', {
+				item = "GasMask",
+				stack_max = 1,
+				stack_min = 1,
+				weight = 1000000,
+			}),
+		}),
+		PlaceObj('ModItemLootDef', {
 			Comment = "container",
 			group = "MapContainers",
 			id = "Jazz_Random_Ammo_Drop_T1",
@@ -35060,26 +35208,6 @@ return {
 				stack_min = 30,
 				weight = 500000,
 			}),
-			PlaceObj('LootEntryLootDef', {
-				amount_modifier = 5000000,
-				loot_def = "Drop_762WP_Varied",
-				weight = 500000,
-			}),
-			PlaceObj('LootEntryLootDef', {
-				amount_modifier = 2000000,
-				loot_def = "Drop_44cal_Varied_Legion",
-				weight = 500000,
-			}),
-			PlaceObj('LootEntryLootDef', {
-				amount_modifier = 2000000,
-				loot_def = "Drop_50cal_Varied",
-				weight = 500000,
-			}),
-			PlaceObj('LootEntryLootDef', {
-				amount_modifier = 2000000,
-				loot_def = "Drop_12gauge_Varied",
-				weight = 500000,
-			}),
 			PlaceObj('LootEntryInventoryItem', {
 				item = "JAZZ_AMMO_762x51_FMJ",
 				stack_max = 40,
@@ -35087,13 +35215,13 @@ return {
 				weight = 500000,
 			}),
 			PlaceObj('LootEntryInventoryItem', {
-				item = "_40mmFragGrenade",
+				item = "JAZZ_AMMO_40mmFragGrenade",
 				stack_max = 7,
 				stack_min = 5,
 				weight = 400000,
 			}),
 			PlaceObj('LootEntryInventoryItem', {
-				item = "_40mmFlashbangGrenade",
+				item = "JAZZ_AMMO_40mmFlashbangGrenade",
 				stack_max = 7,
 				stack_min = 5,
 				weight = 500000,
@@ -35118,30 +35246,11 @@ return {
 			}),
 		}),
 		}),
-	PlaceObj('ModItemLootDef', {
-		group = "MapContainers",
-		id = "IndustrialContainer_Explosives",
-		PlaceObj('LootEntryLootDef', {
-			loot_def = "Container_Explosives_Batch",
-			weight = 2000000,
-		}),
-		PlaceObj('LootEntryInventoryItem', {
-			item = "GasMask",
-			stack_max = 1,
-			stack_min = 1,
-			weight = 1000000,
-		}),
-	}),
-	PlaceObj('ModItemLootDef', {
-		group = "MapContainers",
-		id = "IndustrialContainer_Upgrades",
-		PlaceObj('LootEntryLootDef', {
-			loot_def = "Container_RandomCombinationItem",
-			weight = 5000000,
-		}),
-		PlaceObj('LootEntryLootDef', {
-			loot_def = "Container_WeaponUpgradeKit",
-			weight = 2000000,
-		}),
+	PlaceObj('ModItemChangeProp', {
+		'name', "ChangeProperty",
+		'TargetClass', "MapDataPreset",
+		'TargetId', "gsSMikN",
+		'TargetProp', "MapOrientation",
+		'TargetValue', 180,
 	}),
 }
