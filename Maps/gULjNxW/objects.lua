@@ -4302,7 +4302,7 @@ PlaceObj('ShowHideCollectionMarker', {
 	},
 }, nil, 1502138518)
 PlaceObj('CustomInteractable', {
-	'Pos', point(160200, 193800, 17500),
+	'Pos', point(160200, 193800, 18200),
 	'Groups', {
 		"Collection Altar Closed",
 	},
@@ -6364,7 +6364,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 }, nil, 1673537431)
 PlaceObj('JungleCamp_GraveyardCross_01', {
 	'Pos', point(62123, 102287),
@@ -8584,7 +8584,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 }, nil, 1092247721)
 PlaceObj('FloorSlab', {
 	'Pos', point(70200, 89400, 31500),
@@ -10699,7 +10699,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 }, nil, 1137368418)
 PlaceObj('FloorSlab', {
 	'Pos', point(96600, 66600, 23100),
@@ -47185,6 +47185,7 @@ PlaceObj('MajorTent_Edge_01', {
 PlaceObj('Shanty_WoodenFence_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(59, 50, 42, 255),
+	'DetailClass', "Eye Candy",
 	'Pos', point(105901, 195579, 17907),
 	'Angle', 18023,
 	'Scale', 170,
@@ -47198,6 +47199,7 @@ PlaceObj('City_Plywood_03', {
 	'EditableColor1', RGBA(41, 36, 34, 255),
 	'EditableColor2', RGBA(36, 29, 28, 255),
 	'EditableColor3', RGBA(49, 37, 30, 255),
+	'DetailClass', "Eye Candy",
 	'Pos', point(105609, 196094, 17970),
 	'Angle', 21446,
 	'Axis', point(-2, 4093, 133),
@@ -47208,6 +47210,7 @@ PlaceObj('City_Plywood_03', {
 PlaceObj('Shanty_BucketPlastic_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(11, 28, 31, 255),
+	'DetailClass', "Eye Candy",
 	'Pos', point(106278, 195893, 18090),
 	'Angle', 19784,
 	'Axis', point(2535, -1025, 3049),
@@ -47219,6 +47222,7 @@ PlaceObj('Shanty_BucketPlastic_02', {
 PlaceObj('Shanty_BucketPlastic_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(11, 28, 31, 255),
+	'DetailClass', "Eye Candy",
 	'Pos', point(106124, 196326, 18152),
 	'Angle', 14248,
 	'Saturation', 0,
@@ -47930,6 +47934,7 @@ PlaceObj('SoundSource', {
 PlaceObj('Shanty_BucketPlastic_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(11, 28, 31, 255),
+	'DetailClass', "Eye Candy",
 	'Pos', point(106701, 196101, 18152),
 	'Angle', 15928,
 	'Saturation', 0,
@@ -47949,6 +47954,7 @@ PlaceObj('SoundSource', {
 PlaceObj('Shanty_WoodenFence_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(59, 50, 42, 255),
+	'DetailClass', "Eye Candy",
 	'Pos', point(108651, 194442, 18019),
 	'Angle', 287,
 	'Saturation', 0,
@@ -47965,6 +47971,7 @@ PlaceObj('Shanty_BucketMetal_01', {
 PlaceObj('Shanty_WoodenFence_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(59, 50, 42, 255),
+	'DetailClass', "Eye Candy",
 	'Pos', point(109184, 195132),
 	'Angle', 5400,
 	'Saturation', 0,
@@ -47974,6 +47981,7 @@ PlaceObj('Shanty_WoodenFence_02', {
 PlaceObj('Shanty_WoodenFence_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(59, 50, 42, 255),
+	'DetailClass', "Eye Candy",
 	'Pos', point(109184, 196263, 17881),
 	'Angle', 5400,
 	'Saturation', 0,
@@ -67012,6 +67020,7 @@ PlaceObj('City_Plywood_02', {
 	'EditableColor1', RGBA(58, 43, 38, 255),
 	'EditableColor2', RGBA(42, 33, 31, 255),
 	'EditableColor3', RGBA(46, 35, 29, 255),
+	'DetailClass', "Eye Candy",
 	'Pos', point(105621, 197300),
 	'Angle', 252,
 	'Axis', point(-114, -4093, 62),
@@ -67024,6 +67033,7 @@ PlaceObj('Shanty_PlasticBarrel_01', {
 	'EditableColor1', RGBA(21, 51, 57, 255),
 	'EditableColor2', RGBA(30, 20, 12, 255),
 	'EditableColor3', RGBA(149, 127, 105, 255),
+	'DetailClass', "Eye Candy",
 	'Pos', point(106071, 196995, 18052),
 	'Angle', 4108,
 	'Saturation', 0,
@@ -67036,6 +67046,7 @@ PlaceObj('Shanty_PlasticBarrel_01', {
 	'EditableColor1', RGBA(21, 51, 57, 255),
 	'EditableColor2', RGBA(30, 20, 12, 255),
 	'EditableColor3', RGBA(149, 127, 105, 255),
+	'DetailClass', "Eye Candy",
 	'Pos', point(106358, 197558, 18052),
 	'Angle', 20908,
 	'Saturation', 0,
@@ -67046,6 +67057,7 @@ PlaceObj('Shanty_PlasticBarrel_01', {
 PlaceObj('Shanty_WoodenFence_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(59, 50, 42, 255),
+	'DetailClass', "Eye Candy",
 	'Pos', point(105635, 197986, 17227),
 	'Angle', 18029,
 	'Scale', 170,
@@ -67068,7 +67080,7 @@ PlaceObj('Shanty_PlasticBarrel_01', {
 PlaceObj('Shanty_Canvas_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(64, 105, 113, 255),
-	'DetailClass', "Essential",
+	'DetailClass', "Eye Candy",
 	'Pos', point(106042, 197972, 20184),
 	'Angle', 16108,
 	'Scale', 46,
@@ -67082,6 +67094,7 @@ PlaceObj('City_Plywood_03', {
 	'EditableColor1', RGBA(41, 36, 34, 255),
 	'EditableColor2', RGBA(36, 29, 28, 255),
 	'EditableColor3', RGBA(49, 37, 30, 255),
+	'DetailClass', "Eye Candy",
 	'Pos', point(106379, 198091, 20175),
 	'Angle', 10691,
 	'Axis', point(2848, -2942, 66),
@@ -67118,6 +67131,7 @@ PlaceObj('Shanty_PlasticBarrel_01', {
 	'EditableColor1', RGBA(21, 51, 57, 255),
 	'EditableColor2', RGBA(30, 20, 12, 255),
 	'EditableColor3', RGBA(149, 127, 105, 255),
+	'DetailClass', "Eye Candy",
 	'Pos', point(106648, 196627, 18052),
 	'Angle', 7204,
 	'Saturation', 0,
@@ -67134,6 +67148,7 @@ PlaceObj('Shanty_BucketMetal_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1423070858)
 PlaceObj('Shanty_LaverMetal_01', {
+	'DetailClass', "Eye Candy",
 	'Pos', point(107208, 197231, 18152),
 	'Angle', 21088,
 	'Scale', 134,
@@ -67145,7 +67160,7 @@ PlaceObj('Shanty_LaverMetal_01', {
 PlaceObj('Shanty_Canvas_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(112, 48, 46, 255),
-	'DetailClass', "Essential",
+	'DetailClass', "Eye Candy",
 	'Pos', point(106559, 197955, 20184),
 	'Angle', 16108,
 	'Scale', 44,
@@ -67225,6 +67240,7 @@ PlaceObj('City_Plywood_07', {
 PlaceObj('Shanty_WoodenFence_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(59, 50, 42, 255),
+	'DetailClass', "Eye Candy",
 	'Pos', point(109184, 197414, 18042),
 	'Angle', 5400,
 	'Saturation', 0,
@@ -67235,6 +67251,7 @@ PlaceObj('Farmland_WaterCan', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(59, 84, 88, 255),
 	'EditableColor2', RGBA(155, 155, 155, 255),
+	'DetailClass', "Eye Candy",
 	'Pos', point(109187, 197530, 20075),
 	'Angle', 7881,
 	'Axis', point(-1963, -17, 3594),
@@ -73326,7 +73343,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 2116,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1310796372)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
@@ -73340,7 +73357,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 2116,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1180472272)
 PlaceObj('Pottery_08', {
@@ -73364,7 +73381,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 2116,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1796336770)
 PlaceObj('FlyingGrass', {
@@ -73382,7 +73399,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 597,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1798339779)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
@@ -73396,7 +73413,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 597,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1243230722)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
@@ -73410,7 +73427,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 2116,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1093014156)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
@@ -73424,7 +73441,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 597,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1386471540)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
@@ -73438,7 +73455,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 597,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1483038309)
 PlaceObj('Village_VoodooSkullPile_02', {
@@ -73505,7 +73522,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 2116,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1362106640)
 PlaceObj('Shanty_TeddyBear_01', {
@@ -73529,7 +73546,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 2116,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1298320430)
 PlaceObj('FlyingPetals', {
@@ -73547,7 +73564,7 @@ PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 2116,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 }, nil, 1647200619)
 PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
 	'ColorizationPalette', "",
@@ -73560,7 +73577,7 @@ PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 2116,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 }, nil, 1765929964)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'ColorizationPalette', "",
@@ -73573,7 +73590,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 597,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1660021768)
 PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
@@ -73587,7 +73604,7 @@ PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 597,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 }, nil, 1259567244)
 PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
 	'ColorizationPalette', "",
@@ -73600,7 +73617,7 @@ PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 597,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 }, nil, 1424847412)
 PlaceObj('Pottery_10', {
 	'Pos', point(189665, 127223, 17001),
@@ -73623,7 +73640,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 597,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1831891388)
 PlaceObj('FlyingGrass', {
@@ -78911,7 +78928,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3790,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1022078462)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
@@ -78925,7 +78942,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3790,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1039740702)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
@@ -78939,7 +78956,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3703,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1669937691)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
@@ -78953,7 +78970,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3703,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1163487332)
 PlaceObj('AnimalBones_VultureSkull', {
@@ -79069,7 +79086,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3790,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1451090674)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
@@ -79083,7 +79100,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3790,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1445310915)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
@@ -79097,7 +79114,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3790,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1099734702)
 PlaceObj('JungleCamp_Skeleton_04', {
@@ -79129,7 +79146,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3703,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1801316944)
 PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
@@ -79143,7 +79160,7 @@ PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3790,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 }, nil, 1220929309)
 PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
 	'ColorizationPalette', "",
@@ -79156,7 +79173,7 @@ PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3790,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 }, nil, 1420132502)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'ColorizationPalette', "",
@@ -79169,7 +79186,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3703,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1442292084)
 PlaceObj('Shanty_TeddyBear_01', {
@@ -79193,7 +79210,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3790,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1754685408)
 PlaceObj('Pottery_10', {
@@ -79217,7 +79234,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3703,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1615336375)
 PlaceObj('Shanty_WoodenFence_03', {
@@ -79245,7 +79262,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3703,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1279144758)
 PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
@@ -79259,7 +79276,7 @@ PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3703,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 }, nil, 1159804736)
 PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
 	'ColorizationPalette', "",
@@ -79272,7 +79289,7 @@ PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3703,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 }, nil, 1423399562)
 PlaceObj('Shanty_WoodenFence_03', {
 	'ColorizationPalette', "",
@@ -80060,7 +80077,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3534,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1888407044)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
@@ -80074,7 +80091,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3534,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1237388032)
 PlaceObj('Pottery_08', {
@@ -80098,7 +80115,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3534,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1424917234)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
@@ -80112,7 +80129,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3534,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1086458416)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
@@ -80126,7 +80143,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 1896,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1691390456)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
@@ -80140,7 +80157,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 1896,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1675517946)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
@@ -80154,7 +80171,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 1896,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1271144997)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
@@ -80168,7 +80185,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 1896,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1466216872)
 PlaceObj('JungleCamp_Skeleton_04', {
@@ -80200,7 +80217,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3534,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1395175727)
 PlaceObj('Shanty_TeddyBear_01', {
@@ -80224,7 +80241,7 @@ PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3534,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 }, nil, 1868804181)
 PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
 	'ColorizationPalette', "",
@@ -80237,7 +80254,7 @@ PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3534,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 }, nil, 1778746386)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'ColorizationPalette', "",
@@ -80250,7 +80267,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 3534,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1283595873)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
@@ -80264,7 +80281,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 1896,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1662982612)
 PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
@@ -80278,7 +80295,7 @@ PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 1896,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 }, nil, 1234347405)
 PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
 	'ColorizationPalette', "",
@@ -80291,7 +80308,7 @@ PlaceObj('WallDec_Colonial_Column_Body_Broken_T_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 1896,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 }, nil, 1736387229)
 PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'ColorizationPalette', "",
@@ -80304,7 +80321,7 @@ PlaceObj('WallDec_Colonial_Column_Body_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', true,
 	'CollectionIndex', 1896,
-	'AllowedMask', 0,
+	'AllowedMask', 782,
 	'managed_by_slab', false,
 }, nil, 1801352607)
 PlaceObj('Pottery_10', {
@@ -85061,7 +85078,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 }, nil, 1062897428)
 PlaceObj('FloorSlab', {
 	'Pos', point(191400, 221400, 21700),
@@ -91150,7 +91167,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 }, nil, 1377948666)
 PlaceObj('FlyingDustRoad', {
 	'Pos', point(221476, 170046, 20640),
@@ -91167,7 +91184,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 }, nil, 1586512133)
 PlaceObj('StairSlab', {
 	'Pos', point(217800, 180600, 21700),

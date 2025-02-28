@@ -3857,7 +3857,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1229938759)
 PlaceObj('WaterPlane', {
@@ -3865,7 +3865,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1603233976)
 PlaceObj('WaterPlane', {
@@ -3873,7 +3873,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1179941542)
 PlaceObj('WaterPlane', {
@@ -3881,7 +3881,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1045611507)
 PlaceObj('WaterPlane', {
@@ -3889,7 +3889,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1451284779)
 PlaceObj('WaterPlane', {
@@ -3897,7 +3897,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1156493994)
 PlaceObj('WaterPlane', {
@@ -3905,7 +3905,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1766324277)
 PlaceObj('WaterPlane', {
@@ -3913,7 +3913,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1321155551)
 PlaceObj('WaterPlane', {
@@ -3921,7 +3921,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1269610412)
 PlaceObj('WaterPlane', {
@@ -3929,7 +3929,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1233635267)
 PlaceObj('WaterPlane', {
@@ -3937,7 +3937,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1329327860)
 PlaceObj('WaterPlane', {
@@ -3945,7 +3945,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1441193408)
 PlaceObj('WaterPlane', {
@@ -3953,7 +3953,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1743048020)
 PlaceObj('WaterPlane', {
@@ -3961,7 +3961,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1138936625)
 PlaceObj('WaterPlane', {
@@ -3969,7 +3969,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1069542078)
 PlaceObj('WaterPlane', {
@@ -3977,7 +3977,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1553657032)
 PlaceObj('WaterPlane', {
@@ -3985,7 +3985,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1791948374)
 PlaceObj('WaterPlane', {
@@ -3993,7 +3993,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1601657470)
 PlaceObj('WaterPlane', {
@@ -4001,7 +4001,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1137176393)
 PlaceObj('WaterPlane', {
@@ -4009,7 +4009,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1362093395)
 PlaceObj('WaterPlane', {
@@ -4017,7 +4017,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1698413370)
 PlaceObj('WaterPlane', {
@@ -4025,7 +4025,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1452786240)
 PlaceObj('WaterPlane', {
@@ -4033,7 +4033,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1672463253)
 PlaceObj('WaterPlane', {
@@ -4041,7 +4041,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1355082167)
 PlaceObj('WaterPlane', {
@@ -4049,7 +4049,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1197097257)
 PlaceObj('WaterPlane', {
@@ -4057,7 +4057,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1623467435)
 PlaceObj('WaterPlane', {
@@ -4065,7 +4065,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1003845599)
 PlaceObj('WaterPlane', {
@@ -4073,7 +4073,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1865159701)
 PlaceObj('WaterPlane', {
@@ -4081,7 +4081,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1297767313)
 PlaceObj('WaterPlane', {
@@ -4089,7 +4089,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1236805352)
 PlaceObj('WaterPlane', {
@@ -4097,7 +4097,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1656217183)
 PlaceObj('WaterPlane', {
@@ -4105,7 +4105,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1770536492)
 PlaceObj('WaterPlane', {
@@ -4113,7 +4113,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1075347370)
 PlaceObj('WaterPlane', {
@@ -4121,7 +4121,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1585973610)
 PlaceObj('WaterPlane', {
@@ -4129,7 +4129,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1596750428)
 PlaceObj('SavannaPlant_03_Candelabra_01', {
@@ -4146,7 +4146,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1480902707)
 PlaceObj('WaterPlane', {
@@ -4154,7 +4154,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1035329286)
 PlaceObj('WaterPlane', {
@@ -4162,7 +4162,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1867986582)
 PlaceObj('WaterPlane', {
@@ -4170,7 +4170,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1561939439)
 PlaceObj('WaterPlane', {
@@ -4178,7 +4178,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1155929106)
 PlaceObj('WaterPlane', {
@@ -4186,7 +4186,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1148413625)
 PlaceObj('WaterPlane', {
@@ -4194,7 +4194,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1358045943)
 PlaceObj('WaterPlane', {
@@ -4202,7 +4202,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1254992243)
 PlaceObj('WaterPlane', {
@@ -4210,7 +4210,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1856383097)
 PlaceObj('WaterPlane', {
@@ -4218,7 +4218,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1013123167)
 PlaceObj('WaterPlane', {
@@ -4226,7 +4226,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1092065174)
 PlaceObj('WaterPlane', {
@@ -4234,7 +4234,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1284673792)
 PlaceObj('CameraCollider', {
@@ -4251,7 +4251,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1088957950)
 PlaceObj('CameraCollider', {
@@ -4277,7 +4277,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1752699799)
 PlaceObj('WaterPlane', {
@@ -4285,7 +4285,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1426207909)
 PlaceObj('WaterPlane', {
@@ -4293,7 +4293,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1566971263)
 PlaceObj('CameraCollider', {
@@ -4319,7 +4319,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1119068949)
 PlaceObj('CameraCollider', {
@@ -4363,7 +4363,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1162835309)
 PlaceObj('CameraCollider', {
@@ -4416,7 +4416,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1200302440)
 PlaceObj('CameraCollider', {
@@ -4460,7 +4460,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1681727095)
 PlaceObj('CameraCollider', {
@@ -4504,7 +4504,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1154238331)
 PlaceObj('CameraCollider', {
@@ -4539,7 +4539,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1534435640)
 PlaceObj('CameraCollider', {
@@ -4565,7 +4565,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1285598888)
 PlaceObj('CameraCollider', {
@@ -4582,7 +4582,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1377002825)
 PlaceObj('WaterPlane', {
@@ -4590,7 +4590,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1216630273)
 PlaceObj('WaterPlane', {
@@ -4598,7 +4598,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1520815315)
 PlaceObj('CameraCollider', {
@@ -4624,7 +4624,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1453814156)
 PlaceObj('CameraCollider', {
@@ -4641,7 +4641,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1699145254)
 PlaceObj('CameraCollider', {
@@ -4658,7 +4658,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1863925710)
 PlaceObj('CameraCollider', {
@@ -4693,7 +4693,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1198527706)
 PlaceObj('CameraCollider', {
@@ -4737,7 +4737,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1552134860)
 PlaceObj('CameraCollider', {
@@ -4763,7 +4763,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1506703424)
 PlaceObj('CameraCollider', {
@@ -4789,7 +4789,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1142387094)
 PlaceObj('CameraCollider', {
@@ -4833,7 +4833,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1705418985)
 PlaceObj('CameraCollider', {
@@ -4886,7 +4886,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1878858374)
 PlaceObj('CameraCollider', {
@@ -4903,7 +4903,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1397713529)
 PlaceObj('WaterPlane', {
@@ -4911,7 +4911,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1657777504)
 PlaceObj('WaterPlane', {
@@ -4919,7 +4919,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1308267535)
 PlaceObj('WaterPlane', {
@@ -4927,7 +4927,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1467032590)
 PlaceObj('WaterPlane', {
@@ -4935,7 +4935,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1415001775)
 PlaceObj('WaterPlane', {
@@ -4943,7 +4943,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1583586829)
 PlaceObj('WaterPlane', {
@@ -4951,7 +4951,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1825950998)
 PlaceObj('WaterPlane', {
@@ -4959,7 +4959,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1401618303)
 PlaceObj('WaterPlane', {
@@ -4967,7 +4967,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1011381067)
 PlaceObj('WaterPlane', {
@@ -4975,7 +4975,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1608231908)
 PlaceObj('WaterPlane', {
@@ -4983,7 +4983,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1460108165)
 PlaceObj('WaterPlane', {
@@ -4991,7 +4991,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1357775321)
 PlaceObj('WaterPlane', {
@@ -4999,7 +4999,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1343642814)
 PlaceObj('WaterPlane', {
@@ -5007,7 +5007,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1366533667)
 PlaceObj('WaterPlane', {
@@ -5015,7 +5015,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1555528476)
 PlaceObj('WaterPlane', {
@@ -5023,7 +5023,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1589325259)
 PlaceObj('WaterPlane', {
@@ -5031,7 +5031,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1559795236)
 PlaceObj('WaterPlane', {
@@ -5039,7 +5039,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1361725447)
 PlaceObj('WaterPlane', {
@@ -5047,7 +5047,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1529891983)
 PlaceObj('WaterPlane', {
@@ -5055,7 +5055,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1559157629)
 PlaceObj('WaterPlane', {
@@ -5063,7 +5063,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1068227365)
 PlaceObj('WaterPlane', {
@@ -5071,7 +5071,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1333347178)
 PlaceObj('WaterPlane', {
@@ -5079,7 +5079,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1695734954)
 PlaceObj('WaterPlane', {
@@ -5087,7 +5087,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1592356425)
 PlaceObj('WaterPlane', {
@@ -5095,7 +5095,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1103892756)
 PlaceObj('WaterPlane', {
@@ -5103,7 +5103,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1586169099)
 PlaceObj('WaterPlane', {
@@ -5111,7 +5111,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1226515170)
 PlaceObj('WaterPlane', {
@@ -5119,7 +5119,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1374734303)
 PlaceObj('WaterPlane', {
@@ -5127,7 +5127,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1062713222)
 PlaceObj('WaterPlane', {
@@ -5135,7 +5135,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1422173336)
 PlaceObj('WaterPlane', {
@@ -5143,7 +5143,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1848851298)
 PlaceObj('WindMarker', {
@@ -5160,7 +5160,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1534150197)
 PlaceObj('WaterPlane', {
@@ -5168,7 +5168,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1457001075)
 PlaceObj('SavannaPlant_04_Umbrella_02', {
@@ -5248,7 +5248,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1280641936)
 PlaceObj('CameraCollider', {
@@ -5373,7 +5373,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1784152189)
 PlaceObj('CameraCollider', {
@@ -5417,7 +5417,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1065344666)
 PlaceObj('CameraCollider', {
@@ -5470,7 +5470,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1285544136)
 PlaceObj('CameraCollider', {
@@ -5514,7 +5514,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1281069500)
 PlaceObj('CameraCollider', {
@@ -5558,7 +5558,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1446251358)
 PlaceObj('CameraCollider', {
@@ -5584,7 +5584,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1575366044)
 PlaceObj('CameraCollider', {
@@ -5628,7 +5628,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1557720474)
 PlaceObj('CameraCollider', {
@@ -5681,7 +5681,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1623374806)
 PlaceObj('CameraCollider', {
@@ -5761,7 +5761,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1416871383)
 PlaceObj('CameraCollider', {
@@ -5796,7 +5796,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1686773802)
 PlaceObj('CameraCollider', {
@@ -5894,7 +5894,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1611054907)
 PlaceObj('CameraCollider', {
@@ -5947,7 +5947,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1890329469)
 PlaceObj('CameraCollider', {
@@ -5973,7 +5973,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1332230241)
 PlaceObj('CameraCollider', {
@@ -5999,7 +5999,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1520816340)
 PlaceObj('CameraCollider', {
@@ -6085,7 +6085,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1387934335)
 PlaceObj('Shanty_TirePainted_01', {
@@ -6156,7 +6156,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1035007054)
 PlaceObj('Shanty_TirePainted_01', {
@@ -6288,7 +6288,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1450290868)
 PlaceObj('SoundSource', {
@@ -6405,7 +6405,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1334467625)
 PlaceObj('CameraCollider', {
@@ -6494,7 +6494,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1256320117)
 PlaceObj('CameraCollider', {
@@ -6520,7 +6520,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1203715956)
 PlaceObj('SavannaPlant_04_Umbrella_01', {
@@ -8124,7 +8124,7 @@ PlaceObj('JungleCamp_Skeleton_01', {
 	'Axis', point(-1261, -9, 3897),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1672989621)
 PlaceObj('Shanty_TirePainted_01', {
 	'ColorizationPalette', "",
@@ -9219,7 +9219,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1244230257)
 PlaceObj('WaterPlane', {
@@ -9227,7 +9227,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1472220319)
 PlaceObj('WaterPlane', {
@@ -9235,7 +9235,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1802335089)
 PlaceObj('WaterPlane', {
@@ -9243,7 +9243,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1232624574)
 PlaceObj('WaterPlane', {
@@ -9251,7 +9251,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1899056699)
 PlaceObj('WaterPlane', {
@@ -9259,7 +9259,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1102969562)
 PlaceObj('WaterPlane', {
@@ -9267,7 +9267,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1431001372)
 PlaceObj('WaterPlane', {
@@ -9275,7 +9275,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1671776448)
 PlaceObj('WaterPlane', {
@@ -9283,7 +9283,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1572340318)
 PlaceObj('WaterPlane', {
@@ -9291,7 +9291,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1770056591)
 PlaceObj('WaterPlane', {
@@ -9299,7 +9299,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1299720616)
 PlaceObj('WaterPlane', {
@@ -9307,7 +9307,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1039986802)
 PlaceObj('WaterPlane', {
@@ -9315,7 +9315,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1551465140)
 PlaceObj('WaterPlane', {
@@ -9323,7 +9323,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1829845982)
 PlaceObj('WaterPlane', {
@@ -9331,7 +9331,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1341990385)
 PlaceObj('WaterPlane', {
@@ -9339,7 +9339,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1821774406)
 PlaceObj('WaterPlane', {
@@ -9347,7 +9347,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1564798961)
 PlaceObj('WaterPlane', {
@@ -9355,7 +9355,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1591834068)
 PlaceObj('WaterPlane', {
@@ -9363,7 +9363,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1046206604)
 PlaceObj('WaterPlane', {
@@ -9371,7 +9371,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1026783175)
 PlaceObj('CameraCollider', {
@@ -9397,7 +9397,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1551627624)
 PlaceObj('CameraCollider', {
@@ -9423,7 +9423,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1716253339)
 PlaceObj('WaterPlane', {
@@ -9431,7 +9431,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1239539915)
 PlaceObj('CameraCollider', {
@@ -9448,7 +9448,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1480357608)
 PlaceObj('WaterPlane', {
@@ -9456,7 +9456,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1350503559)
 PlaceObj('CameraCollider', {
@@ -9482,7 +9482,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1875522331)
 PlaceObj('CameraCollider', {
@@ -9526,7 +9526,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1671583183)
 PlaceObj('CameraCollider', {
@@ -9561,7 +9561,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1508216301)
 PlaceObj('CameraCollider', {
@@ -9587,7 +9587,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1799759532)
 PlaceObj('CameraCollider', {
@@ -9622,7 +9622,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1415886018)
 PlaceObj('WaterPlane', {
@@ -9630,7 +9630,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1016119902)
 PlaceObj('CameraCollider', {
@@ -9647,7 +9647,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1187309088)
 PlaceObj('WaterPlane', {
@@ -9655,7 +9655,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1802708269)
 PlaceObj('WaterPlane', {
@@ -9663,7 +9663,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1201046793)
 PlaceObj('WaterPlane', {
@@ -9671,7 +9671,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1182005834)
 PlaceObj('WaterPlane', {
@@ -9679,7 +9679,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1419959629)
 PlaceObj('WaterPlane', {
@@ -9687,7 +9687,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1059979231)
 PlaceObj('WaterPlane', {
@@ -9695,7 +9695,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1060212895)
 PlaceObj('WaterPlane', {
@@ -9703,7 +9703,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1141214507)
 PlaceObj('WaterPlane', {
@@ -9711,7 +9711,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1208485895)
 PlaceObj('WaterPlane', {
@@ -9719,7 +9719,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1219597587)
 PlaceObj('WaterPlane', {
@@ -9727,7 +9727,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1578988942)
 PlaceObj('Shanty_Planks_Float_02', {
@@ -9742,7 +9742,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1319122974)
 PlaceObj('FloatingDummy', {
@@ -9779,7 +9779,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1076712666)
 PlaceObj('Scaffolding_Planks_04', {
@@ -9791,7 +9791,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3683,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1830351776)
 PlaceObj('Shanty_Planks_Float_01', {
 	'Pos', point(57455, 193184, 6110),
@@ -9810,7 +9810,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2814,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1484484751)
 PlaceObj('FloatingDummy', {
 	'Pos', point(64034, 188567, 5664),
@@ -9824,7 +9824,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1862959099)
 PlaceObj('WaterPlane', {
@@ -9832,7 +9832,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1356163173)
 PlaceObj('WaterPlane', {
@@ -9840,7 +9840,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1642622113)
 PlaceObj('WaterPlane', {
@@ -9848,7 +9848,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1735395818)
 PlaceObj('WaterPlane', {
@@ -9856,7 +9856,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1498461183)
 PlaceObj('WaterPlane', {
@@ -9864,7 +9864,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1462596269)
 PlaceObj('WaterPlane', {
@@ -9872,7 +9872,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1007598987)
 PlaceObj('WaterPlane', {
@@ -9880,7 +9880,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1695389623)
 PlaceObj('WaterPlane', {
@@ -9888,7 +9888,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1235498991)
 PlaceObj('WaterPlane', {
@@ -9896,7 +9896,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1505376635)
 PlaceObj('WaterPlane', {
@@ -9904,7 +9904,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1276978615)
 PlaceObj('WaterPlane', {
@@ -9912,7 +9912,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1158142123)
 PlaceObj('WaterPlane', {
@@ -9920,7 +9920,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1874361591)
 PlaceObj('WaterPlane', {
@@ -9928,7 +9928,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1696238264)
 PlaceObj('WaterPlane', {
@@ -9936,7 +9936,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1360327559)
 PlaceObj('WaterPlane', {
@@ -9944,7 +9944,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1476283744)
 PlaceObj('WaterPlane', {
@@ -9952,7 +9952,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1193050094)
 PlaceObj('WindMarker', {
@@ -9969,7 +9969,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1333381512)
 PlaceObj('WaterPlane', {
@@ -9977,7 +9977,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1831972715)
 PlaceObj('WaterPlane', {
@@ -9985,7 +9985,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1369833546)
 PlaceObj('WaterPlane', {
@@ -9993,7 +9993,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1347886565)
 PlaceObj('WaterPlane', {
@@ -10001,7 +10001,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1598723810)
 PlaceObj('WaterPlane', {
@@ -10009,7 +10009,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1707831510)
 PlaceObj('CameraCollider', {
@@ -10071,7 +10071,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1337,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1045049590)
 PlaceObj('Scaffolding_Planks_03', {
 	'ColorizationPalette', "",
@@ -10083,7 +10083,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1337,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1566108545)
 PlaceObj('FloatingDummy', {
 	'Pos', point(72612, 138854, 5624),
@@ -10102,7 +10102,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1337,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1094053155)
 PlaceObj('CameraCollider', {
 	'Pos', point(66400, 141000, 6300),
@@ -10130,7 +10130,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 520,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1369429616)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -10142,7 +10142,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 520,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1828766792)
 PlaceObj('FloatingDummy', {
 	'Pos', point(66908, 142882, 5664),
@@ -10160,7 +10160,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 520,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1367907770)
 PlaceObj('Shanty_Tire', {
 	'Pos', point(69378, 142795, 6012),
@@ -10199,7 +10199,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2580,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1561198848)
 PlaceObj('Shanty_Tire', {
 	'Pos', point(69460, 144969, 4886),
@@ -10307,7 +10307,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1624089047)
 PlaceObj('CameraCollider', {
@@ -10480,7 +10480,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1471539494)
 PlaceObj('CameraCollider', {
@@ -10756,7 +10756,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2818,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1420114844)
 PlaceObj('Scaffolding_Planks_04', {
 	'ColorizationPalette', "",
@@ -10767,7 +10767,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2818,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1035465103)
 PlaceObj('Scaffolding_Planks_03', {
 	'ColorizationPalette', "",
@@ -10779,7 +10779,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2818,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1760136741)
 PlaceObj('FloatingDummy', {
 	'Pos', point(76670, 148244, 5664),
@@ -10802,7 +10802,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1766766138)
 PlaceObj('City_Plywood_02', {
@@ -10835,7 +10835,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1523099259)
 PlaceObj('Vehicle_LuxuryCar_Old', {
@@ -10899,7 +10899,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1076247626)
 PlaceObj('Shanty_Barrel_Float', {
@@ -11001,7 +11001,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1715980946)
 PlaceObj('RoomCorner', {
@@ -12618,7 +12618,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1326283788)
 PlaceObj('SoundSource', {
@@ -12650,7 +12650,7 @@ PlaceObj('Village_Flag_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'DestructionOverrideMask', 3,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1894595574)
 PlaceObj('Shanty_TirePainted_01', {
 	'ColorizationPalette', "",
@@ -12962,7 +12962,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1605003503)
 PlaceObj('Shanty_TirePainted_01', {
@@ -13783,7 +13783,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2225,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1132458831)
 PlaceObj('MilitaryCamp_Pallete_02', {
 	'Pos', point(85901, 156618, 9130),
@@ -13850,7 +13850,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2225,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1667136907)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(85776, 158504),
@@ -13858,7 +13858,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2225,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1880784663)
 PlaceObj('Shanty_TireHorizontal', {
 	'Pos', point(82224, 160069, 9277),
@@ -14152,7 +14152,7 @@ PlaceObj('MilitaryCamp_FlagPole_Checkered', {
 	'StateText', "idle_Wind",
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1685974246)
 PlaceObj('Shanty_Barrel_Float', {
 	'ColorizationPalette', "",
@@ -14206,7 +14206,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3223,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1891339758)
 PlaceObj('FloatingDummy', {
 	'Pos', point(69269, 176842, 5630),
@@ -14243,7 +14243,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 818,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1098189423)
 PlaceObj('MilitaryCamp_Pallete_03', {
 	'Pos', point(70882, 175449, 6012),
@@ -14272,7 +14272,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 818,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1778302231)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -14284,7 +14284,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 818,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1234772955)
 PlaceObj('Scaffolding_Planks_03', {
 	'ColorizationPalette', "",
@@ -14295,7 +14295,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 818,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1035415766)
 PlaceObj('FloatingDummy', {
 	'Pos', point(72622, 174116, 5722),
@@ -14330,7 +14330,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 818,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1229009648)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(70228, 178004, 6182),
@@ -14340,7 +14340,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3040,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1447984110)
 PlaceObj('FloatingDummy', {
 	'Pos', point(70615, 177889, 5323),
@@ -14359,7 +14359,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1934,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1603482420)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(70846, 177791, 6182),
@@ -14368,7 +14368,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3040,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1609494331)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(69947, 178495, 6182),
@@ -14377,7 +14377,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3040,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1158109394)
 PlaceObj('Shanty_CardboardBox_04', {
 	'ColorizationPalette', "",
@@ -14457,7 +14457,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1285445339)
 PlaceObj('BunkerInterior_AmmoBox_02', {
@@ -14522,7 +14522,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3683,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1576704630)
 PlaceObj('FloatingDummy', {
 	'Pos', point(65618, 186754, 5664),
@@ -14555,7 +14555,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1439717683)
 PlaceObj('WW2_SandBag_05', {
@@ -14661,7 +14661,7 @@ PlaceObj('JungleCamp_Lantern_01', {
 	'Pos', point(89226, 179601, 9824),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'AutoAttachMode', "Warm light A Strong",
 	'AllAttachedLightsToDetailLevel', "Essential",
 }, nil, 1037630066)
@@ -14680,7 +14680,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 }, nil, 1959979606)
 PlaceObj('NoteMarker', {
 	'Pos', point(95101, 176390),
@@ -14863,7 +14863,7 @@ PlaceObj('Village_Flag_01', {
 	'Scale', 181,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1719798690)
 PlaceObj('WW2_SandBag_05', {
 	'ColorizationPalette', "",
@@ -15012,7 +15012,7 @@ PlaceObj('City_CarnivalFlags_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2374,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1850557856)
 PlaceObj('Scaffolding_Planks_03', {
 	'ColorizationPalette', "",
@@ -15023,7 +15023,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2374,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1899587233)
 PlaceObj('Scaffolding_Planks_04', {
 	'ColorizationPalette', "",
@@ -15034,7 +15034,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2374,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1578371060)
 PlaceObj('Shanty_Tire', {
 	'Pos', point(102600, 146375, 9275),
@@ -15055,7 +15055,7 @@ PlaceObj('Shanty_TeddyBear_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2374,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1284842601)
 PlaceObj('Scaffolding_Planks_04', {
 	'ColorizationPalette', "",
@@ -15066,7 +15066,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2374,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1042133788)
 PlaceObj('BunkerInterior_GasCan_01', {
 	'ColorizationPalette', "",
@@ -15478,7 +15478,7 @@ PlaceObj('Village_Flag_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2374,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1472067193)
 PlaceObj('Village_Flag_01', {
 	'ColorizationPalette', "",
@@ -15490,7 +15490,7 @@ PlaceObj('Village_Flag_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2374,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1176630864)
 PlaceObj('Shanty_TireHorizontal', {
 	'Pos', point(104923, 148635, 9048),
@@ -15507,7 +15507,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 352,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1352521126)
 PlaceObj('FlyingDustRoad', {
 	'Pos', point(105872, 152186),
@@ -15731,7 +15731,7 @@ PlaceObj('City_DrainPipe_05', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 293,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1750818408)
 PlaceObj('BunkerInterior_WaterPipesVert_02', {
 	'ColorizationPalette', "",
@@ -15769,7 +15769,7 @@ PlaceObj('City_DrainPipe_05', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 293,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1213416783)
 PlaceObj('Shanty_TirePainted_01', {
 	'ColorizationPalette', "",
@@ -15795,7 +15795,7 @@ PlaceObj('World_RacingBanner_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2650,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1004489341)
 PlaceObj('FlyingGrass', {
 	'Pos', point(122051, 131893, 9053),
@@ -15808,7 +15808,7 @@ PlaceObj('Colonial_Trophy_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3387,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1420322045)
 PlaceObj('WW2_SandBag_06', {
 	'ColorizationPalette', "",
@@ -15910,7 +15910,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Scale', 118,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1622175907)
 PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Pos', point(118210, 141970),
@@ -15918,7 +15918,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Scale', 118,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1515014857)
 PlaceObj('WW2_SandBag_06', {
 	'ColorizationPalette', "",
@@ -15941,7 +15941,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 352,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1639543193)
 PlaceObj('Shanty_TirePainted_01', {
 	'ColorizationPalette', "",
@@ -16032,7 +16032,7 @@ PlaceObj('Village_Flag_01', {
 	'Axis', point(-1, -4, 4096),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1600741148)
 PlaceObj('WW2_SandBag_03', {
 	'ColorizationPalette', "",
@@ -16196,7 +16196,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 577,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1186558967)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(116278, 148687, 9050),
@@ -16204,7 +16204,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2064,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1706662193)
 PlaceObj('Shanty_TirePainted_01', {
 	'ColorizationPalette', "",
@@ -16231,7 +16231,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Angle', 15241,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1664607019)
 PlaceObj('Scaffolding_Planks_02', {
 	'ColorizationPalette', "",
@@ -16239,7 +16239,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Angle', 14694,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1336428002)
 PlaceObj('BunkerInterior_Barrel_02', {
 	'ColorizationPalette', "",
@@ -16561,7 +16561,7 @@ PlaceObj('BunkerInterior_PlatePile_05', {
 	'Angle', 15851,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1284302352)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(122187, 156581, 10388),
@@ -16588,7 +16588,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 507,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1857286179)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(122116, 156837, 10388),
@@ -16602,7 +16602,7 @@ PlaceObj('BunkerInterior_PlatePile_04', {
 	'Pos', point(122145, 157140, 10390),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1021107265)
 PlaceObj('Scaffolding_Planks_02', {
 	'ColorizationPalette', "",
@@ -16612,13 +16612,13 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 507,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1297856849)
 PlaceObj('BunkerInterior_PlatePile_03', {
 	'Pos', point(122113, 157534, 10390),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1623201489)
 PlaceObj('Shanty_Table_03', {
 	'ColorizationPalette', "",
@@ -16651,7 +16651,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Scale', 124,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1617720007)
 PlaceObj('Scaffolding_Wall_02', {
 	'ColorizationPalette', "",
@@ -16688,7 +16688,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Scale', 124,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1099982884)
 PlaceObj('Scaffolding_Wall_02', {
 	'ColorizationPalette', "",
@@ -16820,7 +16820,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 599,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1643436329)
 PlaceObj('Shanty_Sack_02', {
 	'ColorizationPalette', "",
@@ -17267,7 +17267,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Axis', point(-4090, -99, 183),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1480195952)
 PlaceObj('Scaffolding_Planks_02', {
 	'ColorizationPalette', "",
@@ -17276,7 +17276,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Axis', point(920, -2007, 3449),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1319750748)
 PlaceObj('BunkerInterior_Barrel_02', {
 	'ColorizationPalette', "",
@@ -17533,7 +17533,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBRM(100, 100, 100, -30, 50),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1388911823)
 PlaceObj('Shanty_LaverMetal_01', {
 	'Pos', point(98795, 173508, 9148),
@@ -17610,7 +17610,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBRM(100, 100, 100, -30, 50),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1711923199)
 PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Pos', point(99425, 174360),
@@ -17620,7 +17620,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'ColorModifier', RGBRM(100, 100, 100, -30, 50),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1897377542)
 PlaceObj('Shanty_PlasticBarrel_01', {
 	'ColorizationPalette', "",
@@ -17683,7 +17683,7 @@ PlaceObj('Shanty_WallDecorPlanks_02', {
 	'Angle', 7035,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1455412485)
 PlaceObj('Shanty_PlasticBarrel_01', {
 	'ColorizationPalette', "",
@@ -17724,7 +17724,7 @@ PlaceObj('Scaffolding_Planks_05', {
 	'Scale', 150,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1062315705)
 PlaceObj('Shanty_WaterPump', {
 	'Pos', point(103800, 172200),
@@ -18075,7 +18075,7 @@ PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Angle', 13191,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1404899770)
 PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Pos', point(109137, 178617, 9085),
@@ -18083,7 +18083,7 @@ PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Axis', point(3374, -2022, 1141),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1451425719)
 PlaceObj('Shanty_BucketMetal_01', {
 	'Pos', point(109308, 179462, 9463),
@@ -18125,7 +18125,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBA(46, 44, 44, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1161218927)
 PlaceObj('Shanty_CardboardBox_04', {
 	'ColorizationPalette', "",
@@ -18172,7 +18172,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'ColorModifier', RGBA(46, 44, 44, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1627841143)
 PlaceObj('Scaffolding_Wall_01', {
 	'ColorizationPalette', "",
@@ -18460,7 +18460,7 @@ PlaceObj('Scaffolding_Planks_05', {
 	'Angle', 1589,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1119181673)
 PlaceObj('Shanty_WhiskeyBottle_01', {
 	'Pos', point(110717, 176188, 9824),
@@ -18484,7 +18484,7 @@ PlaceObj('JungleCamp_Lantern_01', {
 	'Pos', point(111370, 176172, 9841),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'AssociatedLights', {o(1273027355),},
 	'AutoAttachMode', "Warm light A Strong",
 	'AllAttachedLightsToDetailLevel', "Essential",
@@ -18893,7 +18893,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBA(46, 44, 44, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1118933221)
 PlaceObj('WW2_SandBag_01', {
 	'ColorizationPalette', "",
@@ -18924,7 +18924,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBRM(100, 100, 100, -30, 50),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1383886338)
 PlaceObj('WW2_SandBag_05', {
 	'ColorizationPalette', "",
@@ -19434,7 +19434,7 @@ PlaceObj('JungleCamp_Lantern_01', {
 	'Pos', point(105174, 195435, 9741),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'AutoAttachMode', "Warm light A Strong",
 	'AllAttachedLightsToDetailLevel', "Essential",
 }, nil, 1657784246)
@@ -19796,7 +19796,7 @@ PlaceObj('Shanty_Canvas_02', {
 	'OnRoof', true,
 	'SkewX', -259,
 	'CollectionIndex', 2392,
-	'AllowedMask', 4294966433,
+	'AllowedMask', 0,
 	'SwayType', "Next To Wall",
 }, nil, 1053212413)
 PlaceObj('Shanty_WoodenFence_01', {
@@ -20337,7 +20337,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1906,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1596283939)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -20347,7 +20347,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1906,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1176440004)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -20357,7 +20357,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1906,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1680179506)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -20367,7 +20367,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1906,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1213911341)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -20377,7 +20377,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1906,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1123823511)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -20387,7 +20387,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1906,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1014321166)
 PlaceObj('MilitaryCamp_Canopy_03', {
 	'ColorizationPalette', "",
@@ -20481,7 +20481,7 @@ PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Axis', point(6, -39, 4095),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1430148180)
 PlaceObj('WW2_SandBag_03', {
 	'ColorizationPalette', "",
@@ -20514,21 +20514,21 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 17988,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1020532135)
 PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Pos', point(116632, 170566),
 	'Angle', 20563,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1122055422)
 PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Pos', point(116575, 170996),
 	'Angle', 1071,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1698471666)
 PlaceObj('Shanty_TirePainted_01', {
 	'ColorizationPalette', "",
@@ -20548,7 +20548,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 10901,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1088107761)
 PlaceObj('Scaffolding_Planks_03', {
 	'ColorizationPalette', "",
@@ -20557,7 +20557,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'Scale', 150,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1690686690)
 PlaceObj('Shanty_TirePainted_01', {
 	'ColorizationPalette', "",
@@ -20624,7 +20624,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Scale', 114,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1138415693)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -20633,7 +20633,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Scale', 114,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1755427410)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -20642,7 +20642,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Scale', 114,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1589294457)
 PlaceObj('BunkerInterior_AmmoBox_02', {
 	'ColorizationPalette', "",
@@ -20700,7 +20700,7 @@ PlaceObj('Shanty_TeddyBear_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3461,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1584269434)
 PlaceObj('WW2_SandBag_03', {
 	'ColorizationPalette', "",
@@ -20821,7 +20821,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3892,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1074847727)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -20831,7 +20831,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3892,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1054044962)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -20841,7 +20841,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3892,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1895507728)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -20851,7 +20851,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3892,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1763352459)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -20861,7 +20861,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3892,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1417254875)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -20871,7 +20871,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3892,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1085713533)
 PlaceObj('MilitaryCamp_Canopy_02', {
 	'ColorizationPalette', "",
@@ -20891,7 +20891,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(1858, 2548, 2614),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1176914705)
 PlaceObj('MilitaryCamp_Grenade_01', {
 	'Pos', point(119206, 170244, 9168),
@@ -20899,7 +20899,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(3884, 846, 985),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1344348204)
 PlaceObj('Shanty_TirePainted_01', {
 	'ColorizationPalette', "",
@@ -21014,7 +21014,7 @@ PlaceObj('JungleCamp_Boots_01', {
 	'Angle', 14721,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1670045302)
 PlaceObj('MilitaryCamp_Pallete_01', {
 	'Pos', point(121627, 171886),
@@ -21196,7 +21196,7 @@ PlaceObj('Shanty_Canvas_06', {
 	'OnRoof', true,
 	'SkewX', -259,
 	'CollectionIndex', 2392,
-	'AllowedMask', 4294966433,
+	'AllowedMask', 0,
 	'SwayType', "Next To Wall",
 }, nil, 1255196153)
 PlaceObj('JungleCamp_FoodCanPile_07', {
@@ -21205,7 +21205,7 @@ PlaceObj('JungleCamp_FoodCanPile_07', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 533,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1099042329)
 PlaceObj('Mine_WoodenBeam_Vertical_01', {
 	'ColorizationPalette', "",
@@ -21261,7 +21261,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 533,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1450591294)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -21271,7 +21271,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 533,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1610789429)
 PlaceObj('Shanty_BottleCrate_01', {
 	'ColorizationPalette', "",
@@ -21296,7 +21296,7 @@ PlaceObj('Shanty_Canvas_02', {
 	'OnRoof', true,
 	'SkewY', 259,
 	'CollectionIndex', 2392,
-	'AllowedMask', 4294966433,
+	'AllowedMask', 0,
 	'SwayType', "Next To Wall",
 }, nil, 1118142904)
 PlaceObj('Shanty_WoodenFence_03', {
@@ -21326,7 +21326,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 533,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1842810322)
 PlaceObj('Shanty_WoodenFence_01', {
 	'ColorizationPalette', "",
@@ -21392,7 +21392,7 @@ PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Angle', 18014,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1361016779)
 PlaceObj('Mine_WoodenBeam_Assembly_05', {
 	'ColorizationPalette', "",
@@ -21430,7 +21430,7 @@ PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Angle', 9994,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1065380770)
 PlaceObj('BunkerInterior_AmmoBox_01', {
 	'ColorizationPalette', "",
@@ -21480,7 +21480,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(-2827, 892, 2827),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1236031261)
 PlaceObj('MilitaryCamp_Grenade_02', {
 	'Pos', point(119664, 172766, 9184),
@@ -21488,7 +21488,7 @@ PlaceObj('MilitaryCamp_Grenade_02', {
 	'Axis', point(-2292, 2503, 2292),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1506356756)
 PlaceObj('MilitaryCamp_Grenade_01', {
 	'Pos', point(119716, 172605, 9168),
@@ -21496,7 +21496,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(-4092, 161, 15),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1587914789)
 PlaceObj('MilitaryCamp_Grenade_01', {
 	'Pos', point(119683, 173371, 9168),
@@ -21504,7 +21504,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(1286, 2726, 2773),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1317344828)
 PlaceObj('MilitaryCamp_Grenade_01', {
 	'Pos', point(119821, 173094, 9168),
@@ -21512,7 +21512,7 @@ PlaceObj('MilitaryCamp_Grenade_01', {
 	'Axis', point(-2167, 2721, 2164),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1816311772)
 PlaceObj('Mine_WoodenBeam_Assembly_04', {
 	'ColorizationPalette', "",
@@ -21635,7 +21635,7 @@ PlaceObj('JungleCamp_Radio_01', {
 	'Angle', 8277,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1192520049)
 PlaceObj('Shanty_TirePainted_01', {
 	'ColorizationPalette', "",
@@ -21656,7 +21656,7 @@ PlaceObj('Shanty_WallDecorPlanks_02', {
 	'Scale', 72,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1515220766)
 PlaceObj('Shanty_TirePainted_01', {
 	'ColorizationPalette', "",
@@ -21768,7 +21768,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 }, nil, 1920857784)
 PlaceObj('WW2_SandBag_04', {
 	'ColorizationPalette', "",
@@ -22154,7 +22154,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 1613,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1603795349)
 PlaceObj('BunkerInterior_AmmoBox_02', {
 	'ColorizationPalette', "",
@@ -22288,7 +22288,7 @@ PlaceObj('Shanty_WallDecorPlanks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2989,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1211211631)
 PlaceObj('WW2_SandBag_03', {
 	'ColorizationPalette', "",
@@ -22544,7 +22544,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Scale', 150,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1244955053)
 PlaceObj('BunkerInterior_GasCan_01', {
 	'ColorizationPalette', "",
@@ -23259,7 +23259,7 @@ PlaceObj('Shanty_Canvas_05', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'CollectionIndex', 3458,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'SwayType', "Next To Wall",
 }, nil, 1084353400)
 PlaceObj('BunkerInterior_Barrel_02', {
@@ -24267,7 +24267,7 @@ PlaceObj('World_RacingBanner_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3533,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1738063181)
 PlaceObj('Shanty_BurningBarrel_01', {
 	'ColorizationPalette', "",
@@ -25931,7 +25931,7 @@ PlaceObj('Shanty_TirePainted_01', {
 	'EditableColor1', RGBA(22, 16, 8, 255),
 	'EditableColor2', RGBA(46, 14, 14, 255),
 	'EditableColor3', RGBA(110, 44, 42, 255),
-	'Pos', point(145478, 111445, 6520),
+	'Pos', point(145475, 111445, 6520),
 	'Angle', 14303,
 	'Scale', 110,
 	'Axis', point(-2809, 2745, 1162),
@@ -26839,7 +26839,7 @@ PlaceObj('MilitaryCamp_FlagPole_Checkered', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'DestructionOverrideMask', 3,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1001687982)
 PlaceObj('WallSlab', {
 	'Pos', point(142800, 121800, 9100),
@@ -26981,7 +26981,7 @@ PlaceObj('Shanty_Canvas_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3341,
 	'DestructionOverrideMask', 3,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1542729475)
 PlaceObj('Shanty_TirePainted_01', {
 	'ColorizationPalette', "",
@@ -27984,7 +27984,7 @@ PlaceObj('Shanty_Canvas_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3341,
 	'DestructionOverrideMask', 3,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1034744304)
 PlaceObj('Shanty_TirePainted_01', {
 	'ColorizationPalette', "",
@@ -28318,7 +28318,7 @@ PlaceObj('Shanty_Canvas_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3341,
 	'DestructionOverrideMask', 3,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1352604848)
 PlaceObj('WallSlab', {
 	'Pos', point(142800, 124200, 9100),
@@ -29560,7 +29560,7 @@ PlaceObj('Shanty_Canvas_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3341,
 	'DestructionOverrideMask', 3,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1074468000)
 PlaceObj('Shanty_Canvas_04', {
 	'ColorizationPalette', "",
@@ -29571,7 +29571,7 @@ PlaceObj('Shanty_Canvas_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3341,
 	'DestructionOverrideMask', 3,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1136836031)
 PlaceObj('Shanty_Chair_02', {
 	'ColorizationPalette', "",
@@ -32261,7 +32261,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'ColorModifier', RGBA(87, 74, 59, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1363794080)
 PlaceObj('Shanty_TireHorizontal', {
 	'Pos', point(163460, 112844, 6539),
@@ -33118,7 +33118,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'ColorModifier', RGBA(127, 106, 83, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1875223547)
 PlaceObj('Scaffolding_Planks_05', {
 	'ColorizationPalette', "",
@@ -33128,7 +33128,7 @@ PlaceObj('Scaffolding_Planks_05', {
 	'ColorModifier', RGBA(87, 74, 59, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1455364261)
 PlaceObj('Scaffolding_Pillar_01', {
 	'Pos', point(157860, 118474, 5201),
@@ -33163,7 +33163,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 284,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1755956689)
 PlaceObj('Scaffolding_Pillar_01', {
 	'Pos', point(158167, 119609, 5458),
@@ -33223,7 +33223,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 284,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1636689513)
 PlaceObj('Scaffolding_Pillar_01', {
 	'Pos', point(158777, 121865, 6070),
@@ -33245,7 +33245,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 284,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1096794933)
 PlaceObj('Scaffolding_Pillar_01', {
 	'Pos', point(160173, 117847, 5201),
@@ -33265,7 +33265,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'ColorModifier', RGBA(87, 74, 59, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1445456120)
 PlaceObj('City_Plywood_02', {
 	'ColorizationPalette', "",
@@ -33288,7 +33288,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'ColorModifier', RGBA(127, 106, 83, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1179621782)
 PlaceObj('Shanty_TireHorizontal', {
 	'Pos', point(163305, 116444, 6394),
@@ -33311,7 +33311,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 284,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1425901538)
 PlaceObj('Scaffolding_Pillar_01', {
 	'Pos', point(160481, 118983, 5457),
@@ -33384,7 +33384,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'ColorModifier', RGBA(127, 106, 83, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1490714978)
 PlaceObj('Shanty_TirePainted_01', {
 	'ColorizationPalette', "",
@@ -33424,7 +33424,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 284,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1583597399)
 PlaceObj('City_Plywood_03', {
 	'ColorizationPalette', "",
@@ -33515,7 +33515,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 284,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1603020864)
 PlaceObj('Scaffolding_Pillar_01', {
 	'Pos', point(161398, 122375, 6326),
@@ -33546,7 +33546,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'ColorModifier', RGBA(127, 106, 83, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1245503040)
 PlaceObj('Scaffolding_Planks_02', {
 	'ColorizationPalette', "",
@@ -33557,7 +33557,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'ColorModifier', RGBA(127, 106, 83, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1076220030)
 PlaceObj('Shanty_TirePainted_01', {
 	'ColorizationPalette', "",
@@ -37817,7 +37817,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 }, nil, 1971868846)
 PlaceObj('MilitaryCamp_MachinegunNest', {
 	'ColorizationPalette', "",
@@ -39087,7 +39087,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 955,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1135503809)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -39097,7 +39097,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 955,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1597226661)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -39107,7 +39107,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 955,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1356644258)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -39117,7 +39117,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 955,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1614962476)
 PlaceObj('Shanty_CardboardBox_03', {
 	'ColorizationPalette', "",
@@ -39153,7 +39153,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 955,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1171362484)
 PlaceObj('Shanty_BucketPlastic_02', {
 	'ColorizationPalette', "",
@@ -39183,7 +39183,7 @@ PlaceObj('Village_Flag_01', {
 	'Scale', 181,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1552921217)
 PlaceObj('SoundSource', {
 	'Pos', point(145308, 161668, 11250),
@@ -39250,7 +39250,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 955,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1389063469)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -39260,7 +39260,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 955,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1692843002)
 PlaceObj('Shanty_CardboardBox_04', {
 	'ColorizationPalette', "",
@@ -40246,7 +40246,7 @@ PlaceObj('Scaffolding_Planks_05', {
 	'ColorModifier', RGBA(87, 74, 59, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1626649068)
 PlaceObj('FlyingDustRoad', {
 	'Pos', point(158298, 139050),
@@ -40274,7 +40274,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'ColorModifier', RGBA(127, 106, 83, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1265133701)
 PlaceObj('Scaffolding_Pillar_01', {
 	'Pos', point(160800, 138300, 7400),
@@ -40304,7 +40304,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 284,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1100070624)
 PlaceObj('Scaffolding_Planks_02', {
 	'ColorizationPalette', "",
@@ -40315,7 +40315,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'ColorModifier', RGBA(127, 106, 83, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1020405929)
 PlaceObj('Scaffolding_Planks_02', {
 	'ColorizationPalette', "",
@@ -40327,7 +40327,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 284,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1647283042)
 PlaceObj('Scaffolding_Planks_02', {
 	'ColorizationPalette', "",
@@ -40339,7 +40339,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 284,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1862102628)
 PlaceObj('Scaffolding_Planks_03', {
 	'ColorizationPalette', "",
@@ -40350,7 +40350,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'ColorModifier', RGBA(87, 74, 59, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1758122517)
 PlaceObj('Scaffolding_Planks_05', {
 	'ColorizationPalette', "",
@@ -40362,7 +40362,7 @@ PlaceObj('Scaffolding_Planks_05', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 284,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1648089896)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -40374,7 +40374,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 284,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1880795674)
 PlaceObj('Scaffolding_Planks_03', {
 	'ColorizationPalette', "",
@@ -40385,7 +40385,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'ColorModifier', RGBA(58, 56, 52, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1121674310)
 PlaceObj('Scaffolding_Pillar_01', {
 	'Pos', point(163200, 138300, 8800),
@@ -40404,7 +40404,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'ColorModifier', RGBA(127, 106, 83, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1891744486)
 PlaceObj('Scaffolding_Planks_04', {
 	'ColorizationPalette', "",
@@ -40415,7 +40415,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'ColorModifier', RGBA(127, 106, 83, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1349315833)
 PlaceObj('Scaffolding_Pillar_01', {
 	'Pos', point(160800, 139500, 8700),
@@ -40450,7 +40450,7 @@ PlaceObj('Village_Flag_01', {
 	'Scale', 114,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1082148744)
 PlaceObj('Scaffolding_Pillar_01', {
 	'Pos', point(160800, 143100, 8300),
@@ -40483,7 +40483,7 @@ PlaceObj('Scaffolding_Planks_05', {
 	'ColorModifier', RGBA(71, 67, 59, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1409850515)
 PlaceObj('Scaffolding_Pillar_01', {
 	'Pos', point(163200, 139500, 8700),
@@ -40511,7 +40511,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2397,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1832377475)
 PlaceObj('Scaffolding_Planks_02', {
 	'ColorizationPalette', "",
@@ -40523,7 +40523,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2397,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1051969732)
 PlaceObj('Scaffolding_Pillar_01', {
 	'Pos', point(163200, 141900, 8400),
@@ -40543,7 +40543,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2397,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1040533598)
 PlaceObj('Scaffolding_Pillar_01', {
 	'Pos', point(163200, 143100, 8300),
@@ -40563,7 +40563,7 @@ PlaceObj('Scaffolding_Planks_05', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2397,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1847771904)
 PlaceObj('Scaffolding_Planks_03', {
 	'ColorizationPalette', "",
@@ -40575,7 +40575,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2397,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1089809068)
 PlaceObj('Scaffolding_Planks_05', {
 	'ColorizationPalette', "",
@@ -40586,7 +40586,7 @@ PlaceObj('Scaffolding_Planks_05', {
 	'ColorModifier', RGBA(87, 74, 59, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1616782955)
 PlaceObj('Scaffolding_Planks_05', {
 	'ColorizationPalette', "",
@@ -40598,7 +40598,7 @@ PlaceObj('Scaffolding_Planks_05', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2397,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1498327089)
 PlaceObj('Scaffolding_Planks_04', {
 	'ColorizationPalette', "",
@@ -40610,7 +40610,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2397,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1463636007)
 PlaceObj('Scaffolding_Planks_03', {
 	'ColorizationPalette', "",
@@ -40622,7 +40622,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2397,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1433476592)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
@@ -40633,7 +40633,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'ColorModifier', RGBA(87, 74, 59, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1312320838)
 PlaceObj('Scaffolding_Planks_05', {
 	'ColorizationPalette', "",
@@ -40645,7 +40645,7 @@ PlaceObj('Scaffolding_Planks_05', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2397,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1654979261)
 PlaceObj('FlyingDustRoad', {
 	'Pos', point(155504, 151901),
@@ -40768,7 +40768,7 @@ PlaceObj('World_RacingBanner_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 796,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1773669845)
 PlaceObj('Shanty_TirePainted_01', {
 	'ColorizationPalette', "",
@@ -42319,7 +42319,7 @@ PlaceObj('MilitaryCamp_FlagPole_Checkered', {
 	'StateText', "idle_Wind",
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1384140717)
 PlaceObj('Shanty_Barrel_02', {
 	'ColorizationPalette', "",
@@ -42381,7 +42381,7 @@ PlaceObj('JungleCamp_Lantern_01', {
 	'Angle', 2157,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'AssociatedLights', {o(1342767796),o(1576788441),},
 	'AutoAttachMode', "Warm light A Strong",
 	'AllAttachedLightsToDetailLevel', "Essential",
@@ -42432,7 +42432,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 }, nil, 1906028051)
 PlaceObj('Scaffolding_Planks_05', {
 	'ColorizationPalette', "",
@@ -42441,7 +42441,7 @@ PlaceObj('Scaffolding_Planks_05', {
 	'Scale', 150,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1603446966)
 PlaceObj('WallSlab', {
 	'Pos', point(131400, 183600, 14700),
@@ -42599,7 +42599,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Scale', 83,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1820234770)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(133553, 183818, 14579),
@@ -42608,7 +42608,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Axis', point(-36, 86, 4094),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1737498611)
 PlaceObj('WallSlab', {
 	'Pos', point(133800, 183600, 14700),
@@ -43900,7 +43900,7 @@ PlaceObj('Shanty_Canvas_06', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'CollectionIndex', 3458,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1056452765)
 PlaceObj('WallSlab', {
 	'Pos', point(132600, 189600, 14700),
@@ -44039,7 +44039,7 @@ PlaceObj('Shanty_WallDecor_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'CollectionIndex', 3458,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1401934834)
 PlaceObj('FloorSlab', {
 	'Pos', point(135000, 189000, 14700),
@@ -44301,7 +44301,7 @@ PlaceObj('Shanty_Canvas_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'CollectionIndex', 3458,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1136700828)
 PlaceObj('WallSlab', {
 	'Pos', point(139200, 189000, 14700),
@@ -45501,7 +45501,7 @@ PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Pos', point(175892, 131278, 11050),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1834872602)
 PlaceObj('JungleCamp_FirePlace_01', {
 	'Pos', point(175298, 137872, 11304),
@@ -45562,7 +45562,7 @@ PlaceObj('Colonial_Carpet_01', {
 	'Axis', point(-15, -86, 4095),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1728772237)
 PlaceObj('MilitaryCamp_Tent', {
 	'ColorizationPalette', "",
@@ -45588,7 +45588,7 @@ PlaceObj('JungleCamp_Boots_01', {
 	'Angle', 12521,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1772470514)
 PlaceObj('Bunker_MetalBed_01', {
 	'ColorizationPalette', "",
@@ -45617,7 +45617,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'ColorModifier', RGBRM(100, 100, 100, -30, 50),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1241844868)
 PlaceObj('Shanty_BucketPlastic_02', {
 	'ColorizationPalette', "",
@@ -45656,7 +45656,7 @@ PlaceObj('Shanty_WallDecorPlanks_02', {
 	'Angle', 7035,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1799725207)
 PlaceObj('Shanty_PlasticBarrel_01', {
 	'ColorizationPalette', "",
@@ -45675,7 +45675,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBRM(100, 100, 100, -30, 50),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1058485664)
 PlaceObj('Shanty_BucketPlastic_02', {
 	'ColorizationPalette', "",
@@ -46591,7 +46591,7 @@ PlaceObj('Shanty_Canvas_09', {
 	'Axis', point(0, 4096, 0),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1358742934)
 PlaceObj('Shanty_Barrel_03', {
 	'ColorizationPalette', "",
@@ -46838,13 +46838,13 @@ PlaceObj('JungleCamp_Radio_01', {
 	'Angle', 1699,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1607208055)
 PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Pos', point(155064, 203918),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1600114384)
 PlaceObj('Mine_WoodenBeam_Assembly_01', {
 	'ColorizationPalette', "",
@@ -46923,7 +46923,7 @@ PlaceObj('Shanty_Canvas_09', {
 	'Axis', point(-3752, -1640, 88),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1653027299)
 PlaceObj('Shanty_BucketMetal_01', {
 	'Pos', point(150534, 207870, 11144),
@@ -47042,7 +47042,7 @@ PlaceObj('Farmland_TaroFruits_02', {
 	'Pos', point(155461, 206143, 11850),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1085906634)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(155454, 206608, 11845),
@@ -47076,7 +47076,7 @@ PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Pos', point(158141, 196766),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1823775469)
 PlaceObj('Shanty_RagPile_01', {
 	'ColorizationPalette', "",
@@ -47125,7 +47125,7 @@ PlaceObj('JungleCamp_Radio_01', {
 	'Angle', 12455,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1073140632)
 PlaceObj('WeaponProp_Box_02', {
 	'Pos', point(159407, 199632),
@@ -47144,27 +47144,27 @@ PlaceObj('Shanty_Canvas_09', {
 	'Axis', point(0, 4096, 0),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1649507347)
 PlaceObj('JungleCamp_Flashlight_01', {
 	'Pos', point(158212, 202565),
 	'Angle', 12945,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1643357849)
 PlaceObj('JungleCamp_Flashlight_01', {
 	'Pos', point(158409, 202736),
 	'Angle', 9290,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1185695034)
 PlaceObj('Colonial_Carpet_01', {
 	'Pos', point(159590, 200735, 11150),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1354601528)
 PlaceObj('JungleCamp_Backpack_01', {
 	'Pos', point(158424, 203494),
@@ -47182,7 +47182,7 @@ PlaceObj('Colonial_Carpet_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1836412064)
 PlaceObj('MilitaryCamp_Tent', {
 	'ColorizationPalette', "",
@@ -47208,7 +47208,7 @@ PlaceObj('JungleCamp_Boots_01', {
 	'Angle', 12521,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1201136091)
 PlaceObj('Bunker_MetalBed_01', {
 	'ColorizationPalette', "",
@@ -47225,7 +47225,7 @@ PlaceObj('JungleCamp_Boots_02', {
 	'Angle', 9784,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1637559370)
 PlaceObj('Bunker_MetalBed_01', {
 	'ColorizationPalette', "",
@@ -47276,7 +47276,7 @@ PlaceObj('JungleCamp_Boots_01', {
 	'Angle', 11768,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1129473206)
 PlaceObj('MilitaryCamp_Tent', {
 	'ColorizationPalette', "",
@@ -47301,7 +47301,7 @@ PlaceObj('Colonial_Carpet_01', {
 	'Pos', point(161636, 200800, 11150),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1235529718)
 PlaceObj('Shanty_Bed_01', {
 	'ColorizationPalette', "",
@@ -47381,7 +47381,7 @@ PlaceObj('Farmland_TaroFruits_01', {
 	'Angle', 10705,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1374154812)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(155841, 206161, 11851),
@@ -47422,7 +47422,7 @@ PlaceObj('Shanty_Canvas_09', {
 	'Axis', point(-3752, -1640, 88),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1738686739)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(156304, 207073, 11843),
@@ -47477,7 +47477,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'ColorModifier', RGBRM(100, 100, 100, -30, 50),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1331199225)
 PlaceObj('Shanty_BucketPlastic_02', {
 	'ColorizationPalette', "",
@@ -47497,7 +47497,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'ColorModifier', RGBRM(100, 100, 100, -30, 50),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1564089148)
 PlaceObj('Shanty_PlasticBarrel_01', {
 	'ColorizationPalette', "",
@@ -47526,7 +47526,7 @@ PlaceObj('Shanty_WallDecorPlanks_02', {
 	'Angle', 7035,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1584750994)
 PlaceObj('Shanty_PlasticBarrel_01', {
 	'ColorizationPalette', "",
@@ -47565,13 +47565,13 @@ PlaceObj('JungleCamp_Boots_02', {
 	'Angle', 14183,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1160748913)
 PlaceObj('JungleCamp_Boots_01', {
 	'Pos', point(160212, 205933),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1844688570)
 PlaceObj('Bunker_MetalBed_01', {
 	'ColorizationPalette', "",
@@ -47587,7 +47587,7 @@ PlaceObj('JungleCamp_FoodCanPile_07', {
 	'Pos', point(161412, 205760),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1210548835)
 PlaceObj('WW2_SandBag_03', {
 	'ColorizationPalette', "",
@@ -47651,7 +47651,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1377468392)
 PlaceObj('WaterPlane', {
@@ -47659,7 +47659,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1082734451)
 PlaceObj('WaterPlane', {
@@ -47667,7 +47667,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1402458627)
 PlaceObj('WaterPlane', {
@@ -47675,7 +47675,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1547738904)
 PlaceObj('WaterPlane', {
@@ -47683,7 +47683,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1853321751)
 PlaceObj('WaterPlane', {
@@ -47691,7 +47691,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1680812809)
 PlaceObj('WaterPlane', {
@@ -47699,7 +47699,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1651946545)
 PlaceObj('WaterPlane', {
@@ -47707,7 +47707,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1494639828)
 PlaceObj('WaterPlane', {
@@ -47715,7 +47715,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1502255894)
 PlaceObj('WaterPlane', {
@@ -47723,7 +47723,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1043867364)
 PlaceObj('WaterPlane', {
@@ -47731,7 +47731,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1625909776)
 PlaceObj('WaterPlane', {
@@ -47739,7 +47739,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1480612602)
 PlaceObj('WaterPlane', {
@@ -47747,7 +47747,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1166973962)
 PlaceObj('WaterPlane', {
@@ -47755,7 +47755,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1111473222)
 PlaceObj('WaterPlane', {
@@ -47763,7 +47763,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1277229547)
 PlaceObj('SavannaPlant_04_Umbrella_01', {
@@ -47780,7 +47780,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1265555426)
 PlaceObj('WaterPlane', {
@@ -47788,7 +47788,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1001967624)
 PlaceObj('WaterPlane', {
@@ -47796,7 +47796,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1273310258)
 PlaceObj('WaterPlane', {
@@ -47804,7 +47804,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1581252319)
 PlaceObj('WaterPlane', {
@@ -47812,7 +47812,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1702635848)
 PlaceObj('WaterPlane', {
@@ -47820,7 +47820,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1490632649)
 PlaceObj('WaterPlane', {
@@ -47828,7 +47828,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1767927508)
 PlaceObj('WaterPlane', {
@@ -47836,7 +47836,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1035996989)
 PlaceObj('WaterPlane', {
@@ -47844,7 +47844,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1382989600)
 PlaceObj('WaterPlane', {
@@ -47852,7 +47852,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1461447173)
 PlaceObj('WaterPlane', {
@@ -47860,7 +47860,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1802003733)
 PlaceObj('WaterPlane', {
@@ -47868,7 +47868,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1263180027)
 PlaceObj('WaterPlane', {
@@ -47876,7 +47876,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1222119959)
 PlaceObj('WaterPlane', {
@@ -47884,7 +47884,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1091574130)
 PlaceObj('WaterPlane', {
@@ -47892,7 +47892,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1615499580)
 PlaceObj('WaterPlane', {
@@ -47900,7 +47900,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1799868030)
 PlaceObj('WaterPlane', {
@@ -47908,7 +47908,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1749401417)
 PlaceObj('WaterPlane', {
@@ -47916,7 +47916,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1293346181)
 PlaceObj('WaterPlane', {
@@ -47924,7 +47924,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1087511946)
 PlaceObj('WaterPlane', {
@@ -47932,7 +47932,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1828334018)
 PlaceObj('WaterPlane', {
@@ -47940,7 +47940,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1112297630)
 PlaceObj('WaterPlane', {
@@ -47948,7 +47948,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1404321023)
 PlaceObj('WaterPlane', {
@@ -47956,7 +47956,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1236408708)
 PlaceObj('WaterPlane', {
@@ -47964,7 +47964,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1413089708)
 PlaceObj('WaterPlane', {
@@ -47972,7 +47972,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1085246314)
 PlaceObj('WaterPlane', {
@@ -47980,7 +47980,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1256221104)
 PlaceObj('WaterPlane', {
@@ -47988,7 +47988,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1104164784)
 PlaceObj('WaterPlane', {
@@ -47996,7 +47996,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1880866924)
 PlaceObj('WaterPlane', {
@@ -48004,7 +48004,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1217511426)
 PlaceObj('WaterPlane', {
@@ -48012,7 +48012,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1149606444)
 PlaceObj('WaterPlane', {
@@ -48020,7 +48020,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1878579792)
 PlaceObj('WaterPlane', {
@@ -48028,7 +48028,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1837374270)
 PlaceObj('WaterPlane', {
@@ -48036,7 +48036,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1046838812)
 PlaceObj('WaterPlane', {
@@ -48044,7 +48044,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1310443037)
 PlaceObj('WaterPlane', {
@@ -48052,7 +48052,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1161748966)
 PlaceObj('WaterPlane', {
@@ -48060,7 +48060,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1281677935)
 PlaceObj('WaterPlane', {
@@ -48068,7 +48068,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1149907746)
 PlaceObj('WaterPlane', {
@@ -48076,7 +48076,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1067537288)
 PlaceObj('WaterPlane', {
@@ -48084,7 +48084,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1430365616)
 PlaceObj('WaterPlane', {
@@ -48092,7 +48092,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1153631875)
 PlaceObj('WaterPlane', {
@@ -48100,7 +48100,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1631773595)
 PlaceObj('WaterPlane', {
@@ -48108,7 +48108,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1387619124)
 PlaceObj('WaterPlane', {
@@ -48116,7 +48116,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1718394820)
 PlaceObj('WaterPlane', {
@@ -48124,7 +48124,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1786291737)
 PlaceObj('WaterPlane', {
@@ -48132,7 +48132,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1707977077)
 PlaceObj('WaterPlane', {
@@ -48140,7 +48140,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1785807442)
 PlaceObj('WaterPlane', {
@@ -48148,7 +48148,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1682258974)
 PlaceObj('WaterPlane', {
@@ -48156,7 +48156,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1077766758)
 PlaceObj('WaterPlane', {
@@ -48164,7 +48164,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1188381490)
 PlaceObj('WaterPlane', {
@@ -48172,7 +48172,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1213232754)
 PlaceObj('WaterPlane', {
@@ -48180,7 +48180,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1165742931)
 PlaceObj('WaterPlane', {
@@ -48188,7 +48188,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1470649555)
 PlaceObj('WaterPlane', {
@@ -48196,7 +48196,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1870925538)
 PlaceObj('WaterPlane', {
@@ -48204,7 +48204,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1586947708)
 PlaceObj('WaterPlane', {
@@ -48212,7 +48212,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1824051030)
 PlaceObj('WaterPlane', {
@@ -48220,7 +48220,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1661478587)
 PlaceObj('WaterPlane', {
@@ -48228,7 +48228,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1220930949)
 PlaceObj('WaterPlane', {
@@ -48236,7 +48236,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1325252060)
 PlaceObj('WaterPlane', {
@@ -48244,7 +48244,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1162369333)
 PlaceObj('WaterPlane', {
@@ -48252,7 +48252,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1044303768)
 PlaceObj('WaterPlane', {
@@ -48260,7 +48260,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1179951319)
 PlaceObj('WaterPlane', {
@@ -48268,7 +48268,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1220512820)
 PlaceObj('WaterPlane', {
@@ -48276,7 +48276,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1405446503)
 PlaceObj('WaterPlane', {
@@ -48284,7 +48284,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1815369868)
 PlaceObj('WaterPlane', {
@@ -48292,7 +48292,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1542733650)
 PlaceObj('WaterPlane', {
@@ -48300,7 +48300,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1152730385)
 PlaceObj('WaterPlane', {
@@ -48308,7 +48308,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1694057050)
 PlaceObj('WaterPlane', {
@@ -48316,7 +48316,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1635141381)
 PlaceObj('WaterPlane', {
@@ -48324,7 +48324,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1335760478)
 PlaceObj('WaterPlane', {
@@ -48332,7 +48332,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1262822848)
 PlaceObj('WaterPlane', {
@@ -48340,7 +48340,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1732879177)
 PlaceObj('WaterPlane', {
@@ -48348,7 +48348,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1065990705)
 PlaceObj('WaterPlane', {
@@ -48356,7 +48356,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1528497496)
 PlaceObj('WaterPlane', {
@@ -48364,7 +48364,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1043621168)
 PlaceObj('WaterPlane', {
@@ -48372,7 +48372,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1168211542)
 PlaceObj('WaterPlane', {
@@ -48380,7 +48380,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1715340077)
 PlaceObj('WaterPlane', {
@@ -48388,7 +48388,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1383776773)
 PlaceObj('WaterPlane', {
@@ -48396,7 +48396,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1388059557)
 PlaceObj('WaterPlane', {
@@ -48404,7 +48404,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1194354901)
 PlaceObj('WaterPlane', {
@@ -48412,7 +48412,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1785826796)
 PlaceObj('WaterPlane', {
@@ -48420,7 +48420,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1734403517)
 PlaceObj('WaterPlane', {
@@ -48428,7 +48428,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1080971894)
 PlaceObj('WaterPlane', {
@@ -48436,7 +48436,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1266367780)
 PlaceObj('WaterPlane', {
@@ -48444,7 +48444,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1616722358)
 PlaceObj('WaterPlane', {
@@ -48452,7 +48452,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1361045070)
 PlaceObj('WaterPlane', {
@@ -48460,7 +48460,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1745010609)
 PlaceObj('WaterPlane', {
@@ -48468,7 +48468,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1031843731)
 PlaceObj('WaterPlane', {
@@ -48476,7 +48476,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1218277028)
 PlaceObj('WaterPlane', {
@@ -48484,7 +48484,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1200766904)
 PlaceObj('WaterPlane', {
@@ -48492,7 +48492,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1691655493)
 PlaceObj('WaterPlane', {
@@ -48500,7 +48500,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1431509110)
 PlaceObj('WaterPlane', {
@@ -48508,7 +48508,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1257066632)
 PlaceObj('WaterPlane', {
@@ -48516,7 +48516,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1671287739)
 PlaceObj('WaterPlane', {
@@ -48524,7 +48524,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1503757432)
 PlaceObj('WaterPlane', {
@@ -48532,7 +48532,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1360718300)
 PlaceObj('WaterPlane', {
@@ -48540,7 +48540,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1620328771)
 PlaceObj('WaterPlane', {
@@ -48548,7 +48548,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1383167789)
 PlaceObj('WaterPlane', {
@@ -48556,7 +48556,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1244299096)
 PlaceObj('WaterPlane', {
@@ -48564,7 +48564,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1660399118)
 PlaceObj('WaterPlane', {
@@ -48572,7 +48572,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1595145712)
 PlaceObj('WaterPlane', {
@@ -48580,7 +48580,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1754050139)
 PlaceObj('WaterPlane', {
@@ -48588,7 +48588,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1249385938)
 PlaceObj('WaterPlane', {
@@ -48596,7 +48596,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1350422291)
 PlaceObj('WaterPlane', {
@@ -48604,7 +48604,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1476033407)
 PlaceObj('WaterPlane', {
@@ -48612,7 +48612,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1077988509)
 PlaceObj('WaterPlane', {
@@ -48620,7 +48620,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1274171748)
 PlaceObj('WaterPlane', {
@@ -48628,7 +48628,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1202137845)
 PlaceObj('WaterPlane', {
@@ -48636,7 +48636,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1574639445)
 PlaceObj('WaterPlane', {
@@ -48644,7 +48644,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1593906958)
 PlaceObj('WaterPlane', {
@@ -48652,7 +48652,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1581226070)
 PlaceObj('WaterPlane', {
@@ -48660,7 +48660,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1142959029)
 PlaceObj('WaterPlane', {
@@ -48668,7 +48668,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1879952227)
 PlaceObj('WaterPlane', {
@@ -48676,7 +48676,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1175547190)
 PlaceObj('WaterPlane', {
@@ -48684,7 +48684,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1424419498)
 PlaceObj('WaterPlane', {
@@ -48692,7 +48692,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1071734551)
 PlaceObj('WaterPlane', {
@@ -48700,7 +48700,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1148332805)
 PlaceObj('WaterPlane', {
@@ -48708,7 +48708,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1125843223)
 PlaceObj('WaterPlane', {
@@ -48716,7 +48716,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1354714634)
 PlaceObj('WaterPlane', {
@@ -48724,7 +48724,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1546124886)
 PlaceObj('WaterPlane', {
@@ -48732,7 +48732,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1437371724)
 PlaceObj('WaterPlane', {
@@ -48740,7 +48740,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1437081776)
 PlaceObj('WaterPlane', {
@@ -48748,7 +48748,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1554293798)
 PlaceObj('WaterPlane', {
@@ -48756,7 +48756,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1309875386)
 PlaceObj('WaterPlane', {
@@ -48764,7 +48764,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1488421802)
 PlaceObj('WaterPlane', {
@@ -48772,7 +48772,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1209400498)
 PlaceObj('WaterPlane', {
@@ -48780,7 +48780,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1330224515)
 PlaceObj('WaterPlane', {
@@ -48788,7 +48788,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1545307664)
 PlaceObj('WaterPlane', {
@@ -48796,7 +48796,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1339448728)
 PlaceObj('WaterPlane', {
@@ -48804,7 +48804,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1247497718)
 PlaceObj('WaterPlane', {
@@ -48812,7 +48812,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1540250181)
 PlaceObj('WaterPlane', {
@@ -48820,7 +48820,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1744707868)
 PlaceObj('WaterPlane', {
@@ -48828,7 +48828,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1160937854)
 PlaceObj('WaterPlane', {
@@ -48836,7 +48836,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1567994853)
 PlaceObj('WaterPlane', {
@@ -48844,7 +48844,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1262596764)
 PlaceObj('WaterPlane', {
@@ -48852,7 +48852,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1588890005)
 PlaceObj('WaterPlane', {
@@ -48860,7 +48860,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1199988765)
 PlaceObj('WaterPlane', {
@@ -48868,7 +48868,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1599872737)
 PlaceObj('WaterPlane', {
@@ -48876,7 +48876,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1892927696)
 PlaceObj('WaterPlane', {
@@ -48884,7 +48884,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1555251207)
 PlaceObj('WaterPlane', {
@@ -48892,7 +48892,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1803930186)
 PlaceObj('WaterPlane', {
@@ -48900,7 +48900,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1554040792)
 PlaceObj('WaterPlane', {
@@ -48908,7 +48908,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1063758679)
 PlaceObj('WaterPlane', {
@@ -48916,7 +48916,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1627761993)
 PlaceObj('WaterPlane', {
@@ -48924,7 +48924,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1031019185)
 PlaceObj('WaterPlane', {
@@ -48932,7 +48932,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1427208459)
 PlaceObj('WaterPlane', {
@@ -48940,7 +48940,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1873371267)
 PlaceObj('WaterPlane', {
@@ -48948,7 +48948,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1813531832)
 PlaceObj('WaterPlane', {
@@ -48956,7 +48956,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1576114013)
 PlaceObj('WaterPlane', {
@@ -48964,7 +48964,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1422415067)
 PlaceObj('WaterPlane', {
@@ -48972,7 +48972,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1121218921)
 PlaceObj('WaterPlane', {
@@ -48980,7 +48980,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1166710397)
 PlaceObj('WaterPlane', {
@@ -48988,7 +48988,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1692737038)
 PlaceObj('WaterPlane', {
@@ -48996,7 +48996,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1679622246)
 PlaceObj('WaterPlane', {
@@ -49004,7 +49004,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1447900636)
 PlaceObj('WaterPlane', {
@@ -49012,7 +49012,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1065256554)
 PlaceObj('WaterPlane', {
@@ -49020,7 +49020,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1797336878)
 PlaceObj('WaterPlane', {
@@ -49028,7 +49028,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1666243040)
 PlaceObj('WaterPlane', {
@@ -49036,7 +49036,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1254293661)
 PlaceObj('WaterPlane', {
@@ -49044,7 +49044,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1266837803)
 PlaceObj('WaterPlane', {
@@ -49052,7 +49052,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1575975006)
 PlaceObj('WaterPlane', {
@@ -49060,7 +49060,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1056455723)
 PlaceObj('WaterPlane', {
@@ -49068,7 +49068,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1188949620)
 PlaceObj('WaterPlane', {
@@ -49076,7 +49076,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1320304164)
 PlaceObj('WaterPlane', {
@@ -49084,7 +49084,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1557263830)
 PlaceObj('WaterPlane', {
@@ -49092,7 +49092,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1472017375)
 PlaceObj('WaterPlane', {
@@ -49100,7 +49100,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1789424404)
 PlaceObj('WaterPlane', {
@@ -49108,7 +49108,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1253015371)
 PlaceObj('WaterPlane', {
@@ -49116,7 +49116,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1473643469)
 PlaceObj('WaterPlane', {
@@ -49124,7 +49124,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1100351309)
 PlaceObj('SavannaPlant_04_Umbrella_02', {
@@ -49141,7 +49141,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1745739248)
 PlaceObj('WaterPlane', {
@@ -49149,7 +49149,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1592373518)
 PlaceObj('WaterPlane', {
@@ -49157,7 +49157,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1488608366)
 PlaceObj('WaterPlane', {
@@ -49165,7 +49165,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1682186194)
 PlaceObj('WaterPlane', {
@@ -49173,7 +49173,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1564377568)
 PlaceObj('WaterPlane', {
@@ -49181,7 +49181,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1065386086)
 PlaceObj('WaterPlane', {
@@ -49189,7 +49189,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1686368073)
 PlaceObj('WaterPlane', {
@@ -49197,7 +49197,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1288037303)
 PlaceObj('WaterPlane', {
@@ -49205,7 +49205,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1471883797)
 PlaceObj('WaterPlane', {
@@ -49213,7 +49213,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1466121631)
 PlaceObj('WaterPlane', {
@@ -49221,7 +49221,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1457639662)
 PlaceObj('WaterPlane', {
@@ -49229,7 +49229,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1748956336)
 PlaceObj('WaterPlane', {
@@ -49237,7 +49237,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1630171848)
 PlaceObj('WaterPlane', {
@@ -49245,7 +49245,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1217404250)
 PlaceObj('WaterPlane', {
@@ -49253,7 +49253,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1576809787)
 PlaceObj('WaterPlane', {
@@ -49261,7 +49261,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1729037563)
 PlaceObj('WaterPlane', {
@@ -49269,7 +49269,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1409391806)
 PlaceObj('WaterPlane', {
@@ -49277,7 +49277,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1300401535)
 PlaceObj('WaterPlane', {
@@ -49285,7 +49285,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1050279429)
 PlaceObj('SavannaPlant_04_Umbrella_01', {
@@ -49302,7 +49302,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1496639990)
 PlaceObj('WaterPlane', {
@@ -49310,7 +49310,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1486021215)
 PlaceObj('WaterPlane', {
@@ -49318,7 +49318,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1850659232)
 PlaceObj('WaterPlane', {
@@ -49326,7 +49326,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1713659276)
 PlaceObj('WaterPlane', {
@@ -49334,7 +49334,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1082287448)
 PlaceObj('WaterPlane', {
@@ -49342,7 +49342,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1608459134)
 PlaceObj('WaterPlane', {
@@ -49350,7 +49350,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1360483148)
 PlaceObj('WaterPlane', {
@@ -49358,7 +49358,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1234097797)
 PlaceObj('WaterPlane', {
@@ -49366,7 +49366,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1579211725)
 PlaceObj('WaterPlane', {
@@ -49374,7 +49374,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1506472992)
 PlaceObj('WaterPlane', {
@@ -49382,7 +49382,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1145096001)
 PlaceObj('WaterPlane', {
@@ -49390,7 +49390,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1265227876)
 PlaceObj('WaterPlane', {
@@ -49398,7 +49398,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1422455735)
 PlaceObj('WaterPlane', {
@@ -49406,7 +49406,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1199816453)
 PlaceObj('WaterPlane', {
@@ -49414,7 +49414,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1268043189)
 PlaceObj('WaterPlane', {
@@ -49422,7 +49422,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1074227790)
 PlaceObj('WaterPlane', {
@@ -49430,7 +49430,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1599757330)
 PlaceObj('WaterPlane', {
@@ -49438,7 +49438,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1427191901)
 PlaceObj('WaterPlane', {
@@ -49446,7 +49446,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1613827433)
 PlaceObj('WaterPlane', {
@@ -49454,7 +49454,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1745242188)
 PlaceObj('WaterPlane', {
@@ -49462,7 +49462,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1120826755)
 PlaceObj('WaterPlane', {
@@ -49470,7 +49470,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1454876525)
 PlaceObj('WaterPlane', {
@@ -49478,7 +49478,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1290830758)
 PlaceObj('WaterPlane', {
@@ -49486,7 +49486,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1687853603)
 PlaceObj('WaterPlane', {
@@ -49494,7 +49494,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1291884410)
 PlaceObj('WaterPlane', {
@@ -49502,7 +49502,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1376916815)
 PlaceObj('WaterPlane', {
@@ -49510,7 +49510,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1260520450)
 PlaceObj('WaterPlane', {
@@ -49518,7 +49518,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1424103930)
 PlaceObj('WaterPlane', {
@@ -49526,7 +49526,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1053738455)
 PlaceObj('WaterPlane', {
@@ -49534,7 +49534,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1062448561)
 PlaceObj('WaterPlane', {
@@ -49542,7 +49542,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1054324856)
 PlaceObj('WaterPlane', {
@@ -49550,7 +49550,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1506553367)
 PlaceObj('WaterPlane', {
@@ -49558,7 +49558,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1633914854)
 PlaceObj('WaterPlane', {
@@ -49566,7 +49566,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1004781155)
 PlaceObj('WaterPlane', {
@@ -49574,7 +49574,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1767237515)
 PlaceObj('WaterPlane', {
@@ -49582,7 +49582,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1881908877)
 PlaceObj('WaterPlane', {
@@ -49590,7 +49590,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1888788987)
 PlaceObj('WaterPlane', {
@@ -49598,7 +49598,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1465454410)
 PlaceObj('WaterPlane', {
@@ -49606,7 +49606,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1614917526)
 PlaceObj('WaterPlane', {
@@ -49614,7 +49614,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1740083353)
 PlaceObj('WaterPlane', {
@@ -49622,7 +49622,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1670794793)
 PlaceObj('WaterPlane', {
@@ -49630,7 +49630,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1291385004)
 PlaceObj('WaterPlane', {
@@ -49638,7 +49638,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1339984683)
 PlaceObj('WaterPlane', {
@@ -49646,7 +49646,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1141526739)
 PlaceObj('WaterPlane', {
@@ -49654,7 +49654,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1529249446)
 PlaceObj('WaterPlane', {
@@ -49662,7 +49662,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1165776007)
 PlaceObj('WaterPlane', {
@@ -49670,7 +49670,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1084694294)
 PlaceObj('WaterPlane', {
@@ -49678,7 +49678,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1222125368)
 PlaceObj('WaterPlane', {
@@ -49686,7 +49686,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1236378085)
 PlaceObj('WaterPlane', {
@@ -49694,7 +49694,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1330709378)
 PlaceObj('WaterPlane', {
@@ -49702,7 +49702,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1123933218)
 PlaceObj('WaterPlane', {
@@ -49710,7 +49710,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1706268137)
 PlaceObj('WaterPlane', {
@@ -49718,7 +49718,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1469817066)
 PlaceObj('WaterPlane', {
@@ -49726,7 +49726,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1105786805)
 PlaceObj('WaterPlane', {
@@ -49734,7 +49734,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1281530290)
 PlaceObj('WaterPlane', {
@@ -49742,7 +49742,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1476568164)
 PlaceObj('WaterPlane', {
@@ -49750,7 +49750,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1157796610)
 PlaceObj('WaterPlane', {
@@ -49758,7 +49758,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1396365903)
 PlaceObj('WaterPlane', {
@@ -49766,7 +49766,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1409109011)
 PlaceObj('WaterPlane', {
@@ -49774,7 +49774,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1456249693)
 PlaceObj('WaterPlane', {
@@ -49782,7 +49782,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1579734741)
 PlaceObj('WaterPlane', {
@@ -49790,7 +49790,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1217207095)
 PlaceObj('WaterPlane', {
@@ -49798,7 +49798,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1005319563)
 PlaceObj('WaterPlane', {
@@ -49806,7 +49806,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1322183052)
 PlaceObj('WaterPlane', {
@@ -49814,7 +49814,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1591228862)
 PlaceObj('WaterPlane', {
@@ -49822,7 +49822,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1608797901)
 PlaceObj('WaterPlane', {
@@ -49830,7 +49830,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1359076068)
 PlaceObj('WaterPlane', {
@@ -49838,7 +49838,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1292749879)
 PlaceObj('WaterPlane', {
@@ -49846,7 +49846,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1584787127)
 PlaceObj('WaterPlane', {
@@ -49854,7 +49854,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1047989525)
 PlaceObj('WaterPlane', {
@@ -49862,7 +49862,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1233825827)
 PlaceObj('WaterPlane', {
@@ -49870,7 +49870,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1373822906)
 PlaceObj('WaterPlane', {
@@ -49878,7 +49878,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1074530014)
 PlaceObj('WaterPlane', {
@@ -49886,7 +49886,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1211456572)
 PlaceObj('WaterPlane', {
@@ -49894,7 +49894,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1347521502)
 PlaceObj('WaterPlane', {
@@ -49902,7 +49902,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1508292283)
 PlaceObj('WaterPlane', {
@@ -49910,7 +49910,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1188373575)
 PlaceObj('WaterPlane', {
@@ -49918,7 +49918,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1515700386)
 PlaceObj('WaterPlane', {
@@ -49926,7 +49926,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1427220810)
 PlaceObj('WaterPlane', {
@@ -49934,7 +49934,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1443786610)
 PlaceObj('WaterPlane', {
@@ -49942,7 +49942,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1624004999)
 PlaceObj('WaterPlane', {
@@ -49950,7 +49950,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1473370153)
 PlaceObj('WaterPlane', {
@@ -49958,7 +49958,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1786506553)
 PlaceObj('WaterPlane', {
@@ -49966,7 +49966,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1556405066)
 PlaceObj('WaterPlane', {
@@ -49974,7 +49974,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1636883138)
 PlaceObj('WaterPlane', {
@@ -49982,7 +49982,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1424489033)
 PlaceObj('WaterPlane', {
@@ -49990,7 +49990,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1871982243)
 PlaceObj('WaterPlane', {
@@ -49998,7 +49998,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1826938720)
 PlaceObj('WaterPlane', {
@@ -50006,7 +50006,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1445202153)
 PlaceObj('WaterPlane', {
@@ -50014,7 +50014,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1637442969)
 PlaceObj('WaterPlane', {
@@ -50022,7 +50022,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1549121705)
 PlaceObj('WaterPlane', {
@@ -50030,7 +50030,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1123408893)
 PlaceObj('WaterPlane', {
@@ -50038,7 +50038,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1604082507)
 PlaceObj('WaterPlane', {
@@ -50046,7 +50046,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1758399711)
 PlaceObj('WaterPlane', {
@@ -50054,7 +50054,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1050820805)
 PlaceObj('WaterPlane', {
@@ -50062,7 +50062,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1179750552)
 PlaceObj('WaterPlane', {
@@ -50070,7 +50070,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1432092189)
 PlaceObj('WaterPlane', {
@@ -50078,7 +50078,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1669129730)
 PlaceObj('WaterPlane', {
@@ -50086,7 +50086,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1348155204)
 PlaceObj('WaterPlane', {
@@ -50094,7 +50094,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1623511190)
 PlaceObj('WaterPlane', {
@@ -50102,7 +50102,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1493697734)
 PlaceObj('WaterPlane', {
@@ -50110,7 +50110,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1694062480)
 PlaceObj('WaterPlane', {
@@ -50118,7 +50118,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1817618518)
 PlaceObj('WaterPlane', {
@@ -50126,7 +50126,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1831053885)
 PlaceObj('WaterPlane', {
@@ -50134,7 +50134,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1221131730)
 PlaceObj('WaterPlane', {
@@ -50142,7 +50142,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1484244816)
 PlaceObj('WaterPlane', {
@@ -50150,7 +50150,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1427826226)
 PlaceObj('WaterPlane', {
@@ -50158,7 +50158,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1635503024)
 PlaceObj('WaterPlane', {
@@ -50166,7 +50166,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1867701976)
 PlaceObj('WaterPlane', {
@@ -50174,7 +50174,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1491078905)
 PlaceObj('WaterPlane', {
@@ -50182,7 +50182,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1070688736)
 PlaceObj('WaterPlane', {
@@ -50190,7 +50190,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1256944751)
 PlaceObj('WaterPlane', {
@@ -50198,7 +50198,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1795208724)
 PlaceObj('WaterPlane', {
@@ -50206,7 +50206,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1224212994)
 PlaceObj('WaterPlane', {
@@ -50214,7 +50214,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1391890161)
 PlaceObj('WaterPlane', {
@@ -50222,7 +50222,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1679267078)
 PlaceObj('WaterPlane', {
@@ -50230,7 +50230,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1777739665)
 PlaceObj('WaterPlane', {
@@ -50238,7 +50238,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1139303255)
 PlaceObj('WaterPlane', {
@@ -50246,7 +50246,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1510962666)
 PlaceObj('WaterPlane', {
@@ -50254,7 +50254,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1321947711)
 PlaceObj('WaterPlane', {
@@ -50262,7 +50262,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1562869746)
 PlaceObj('WaterPlane', {
@@ -50270,7 +50270,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1355638663)
 PlaceObj('WaterPlane', {
@@ -50278,7 +50278,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1669575063)
 PlaceObj('WaterPlane', {
@@ -50286,7 +50286,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1680672669)
 PlaceObj('WaterPlane', {
@@ -50294,7 +50294,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1449749912)
 PlaceObj('WaterPlane', {
@@ -50302,7 +50302,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1420738231)
 PlaceObj('WaterPlane', {
@@ -50310,7 +50310,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1077098545)
 PlaceObj('WaterPlane', {
@@ -50318,7 +50318,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1793739056)
 PlaceObj('WaterPlane', {
@@ -50326,7 +50326,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1012296238)
 PlaceObj('WaterPlane', {
@@ -50334,7 +50334,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1242650802)
 PlaceObj('WaterPlane', {
@@ -50342,7 +50342,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1677277440)
 PlaceObj('WaterPlane', {
@@ -50350,7 +50350,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1432760334)
 PlaceObj('WaterPlane', {
@@ -50358,7 +50358,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1119978277)
 PlaceObj('WaterPlane', {
@@ -50366,7 +50366,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1203760312)
 PlaceObj('WaterPlane', {
@@ -50374,7 +50374,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1516936095)
 PlaceObj('WaterPlane', {
@@ -50382,7 +50382,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1552401895)
 PlaceObj('WaterPlane', {
@@ -50390,7 +50390,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1268851111)
 PlaceObj('WaterPlane', {
@@ -50398,7 +50398,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1792109310)
 PlaceObj('WaterPlane', {
@@ -50406,7 +50406,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1849107697)
 PlaceObj('WaterPlane', {
@@ -50414,7 +50414,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1230643563)
 PlaceObj('WaterPlane', {
@@ -50422,7 +50422,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1009224361)
 PlaceObj('WaterPlane', {
@@ -50430,7 +50430,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1483174560)
 PlaceObj('WaterPlane', {
@@ -50438,7 +50438,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1257236402)
 PlaceObj('WaterPlane', {
@@ -50446,7 +50446,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1884241096)
 PlaceObj('WaterPlane', {
@@ -50454,7 +50454,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1447235088)
 PlaceObj('SavannaPlant_Knobthorn_03', {
@@ -50489,7 +50489,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1449823830)
 PlaceObj('WaterPlane', {
@@ -50497,7 +50497,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1102223616)
 PlaceObj('WaterPlane', {
@@ -50505,7 +50505,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1557848909)
 PlaceObj('WaterPlane', {
@@ -50513,7 +50513,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1529813759)
 PlaceObj('WaterPlane', {
@@ -50521,7 +50521,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1009049598)
 PlaceObj('WaterPlane', {
@@ -50529,7 +50529,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1075484630)
 PlaceObj('WaterPlane', {
@@ -50537,7 +50537,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1478692926)
 PlaceObj('WaterPlane', {
@@ -50545,7 +50545,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1350635426)
 PlaceObj('WaterPlane', {
@@ -50553,7 +50553,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1644521119)
 PlaceObj('WaterPlane', {
@@ -50561,7 +50561,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1150318876)
 PlaceObj('WaterPlane', {
@@ -50569,7 +50569,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1664222567)
 PlaceObj('WaterPlane', {
@@ -50577,7 +50577,7 @@ PlaceObj('WaterPlane', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3363,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'waterpreset', "River_Jungle",
 }, nil, 1851221111)
 
