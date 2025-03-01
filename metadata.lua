@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 3983,
+	'version', 3987,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -16,7 +16,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1737237424,
+	'saved', 1737658547,
 	'code_hash', 3886187561896124310,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
@@ -602,6 +602,11 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
 			'Id', "HotDiamonds_G10",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_G6",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -1405,9 +1410,15 @@ return PlaceObj('ModDef', {
 			'ClassDisplayName', "LootDef",
 		}),
 		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "JazzMapContainer_M2_LootGraves",
+			'ClassDisplayName', "LootDef",
+		}),
+		PlaceObj('ModResourcePreset', {
 			'Class', "MapDataPreset",
 			'Id', "gsSMikN",
 			'Prop', "MapOrientation",
+			'ClassDisplayName', "Map",
 		}),
 	},
 	'steam_id', "3322285655",
