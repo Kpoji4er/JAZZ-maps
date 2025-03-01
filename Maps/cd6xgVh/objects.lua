@@ -826,6 +826,18 @@ PlaceObj('ExitZoneInteractable', {
 	'entity', "TravelMarker_02",
 }, nil, 1052976974)
 PlaceObj('GridMarker', {
+	'Pos', point(71400, 133800, 7000),
+	'Angle', 10800,
+	'Groups', {
+		"East",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Entrance",
+	'AreaWidth', 8,
+	'AreaHeight', 20,
+	'GroundVisuals', true,
+}, nil, 1319576383)
+PlaceObj('GridMarker', {
 	'Pos', point(99000, 141000, 7000),
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
@@ -2185,7 +2197,7 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 2,
 }, nil, 1559603262)
 PlaceObj('ExitZoneInteractable', {
-	'Pos', point(172544, 230996, 7897),
+	'Pos', point(172544, 230996, 8112),
 	'Groups', {
 		"North",
 	},
@@ -2444,7 +2456,7 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1518247786)
 PlaceObj('GridMarker', {
-	'Pos', point(229800, 172200, 6300),
+	'Pos', point(229800, 172200, 7000),
 	'Angle', 10800,
 	'Groups', {
 		"West",
@@ -47671,7 +47683,7 @@ p("DecSteps_03",57199,145839,7344,174,-3,13,4096,3200,45,2098260)
 p("DecSteps_03",57632,134270,13880,174,27,37,4096,3200,50,2098260)
 p("DecSteps_03",60083,132995,11477,174,149,138,4090,3200,50,2098260)
 p("DecSteps_03",59353,138696,20707,174,1405,-826,3757,3200,50,2098260)
-p("DecSteps_01",61954,133431,3241,133,3200,44,2098244)
+p("DecSteps_01",61954,133431,3241,133,128,44,2098244)
 p("DecSteps_03",64221,135241,5369,174,-83,252,4087,3200,50,2098260)
 p("DecSteps_03",59705,143508,409,174,-2860,2141,2003,3200,50,2098260)
 p("TropicalPlant_Grass_03",65245,145412,6960,1139,109,3232,2097221)

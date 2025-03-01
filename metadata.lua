@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 3987,
+	'version', 4265,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -16,7 +16,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1737658547,
+	'saved', 1740406819,
 	'code_hash', 3886187561896124310,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
@@ -53,71 +53,6 @@ return PlaceObj('ModDef', {
 			'Class', "BanterDef",
 			'Id', "Stall_Barter_762x25_Knife",
 			'ClassDisplayName', "Banter",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ConstDef",
-			'Id', "CitySectorEnemyTakeOverLoyaltyLoss",
-			'ClassDisplayName', "Constant",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ConstDef",
-			'Id', "ConflictRetreatPenalty",
-			'ClassDisplayName', "Constant",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ConstDef",
-			'Id', "ConflictDefeatedLoyaltyLoss",
-			'ClassDisplayName', "Constant",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ConstDef",
-			'Id', "CivilianDeathPenaltyCityCap",
-			'ClassDisplayName', "Constant",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ConstDef",
-			'Id', "CivilianDeathPenalty",
-			'ClassDisplayName', "Constant",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ConstDef",
-			'Id', "MineDepletingDays",
-			'ClassDisplayName', "Constant",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ConstDef",
-			'Id', "MaxHiredMercs",
-			'ClassDisplayName', "Constant",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ConstDef",
-			'Id', "StartingMoney",
-			'ClassDisplayName', "Constant",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ConstDef",
-			'Id', "MercSquadMaxPeople",
-			'ClassDisplayName', "Constant",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "XTemplate",
-			'Id', "SatelliteConflictSquadsAndEnemies",
-			'ClassDisplayName', "UI Template (XTemplate)",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "XTemplate",
-			'Id', "SatelliteConflictSquadsAndMercs",
-			'ClassDisplayName', "UI Template (XTemplate)",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "XTemplate",
-			'Id', "SquadsAndMercs_old",
-			'ClassDisplayName', "UI Template (XTemplate)",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "XTemplate",
-			'Id', "PDASquadManagement",
-			'ClassDisplayName', "UI Template (XTemplate)",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
@@ -931,6 +866,11 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_J6",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_J5",
 			'ClassDisplayName', "Satellite sector",
 		}),
@@ -1006,7 +946,7 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
-			'Id', "HotDiamonds_K3",
+			'Id', "HotDiamonds_K6",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -1017,6 +957,11 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
 			'Id', "HotDiamonds_K4",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_K3",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -1086,6 +1031,11 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_L7",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_L5",
 			'ClassDisplayName', "Satellite sector",
 		}),
@@ -1097,6 +1047,16 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
 			'Id', "HotDiamonds_L3",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_L2",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_L1",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -1340,9 +1300,44 @@ return PlaceObj('ModDef', {
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_P8_Underground",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "XTemplate",
+			'Id', "SatelliteConflictSquadsAndEnemies",
+			'ClassDisplayName', "UI Template (XTemplate)",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "XTemplate",
+			'Id', "SatelliteConflictSquadsAndMercs",
+			'ClassDisplayName', "UI Template (XTemplate)",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "XTemplate",
+			'Id', "SquadsAndMercs_old",
+			'ClassDisplayName', "UI Template (XTemplate)",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "XTemplate",
+			'Id', "PDASquadManagement",
+			'ClassDisplayName', "UI Template (XTemplate)",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "SoundPreset",
+			'Id', "AK_50_Music",
+			'ClassDisplayName', "Sound",
+		}),
+		PlaceObj('ModResourcePreset', {
 			'Class', "CampaignPreset",
 			'Id', "HotDiamonds",
 			'ClassDisplayName', "Campaign",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "Conversation",
+			'Id', "Ernie_LegionCamp5_Rebels",
+			'ClassDisplayName', "Conversation",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "QuestsDef",
@@ -1381,12 +1376,27 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "QuestsDef",
+			'Id', "02A_LiberateErnie_2",
+			'ClassDisplayName', "QuestsEditor",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "QuestsDef",
 			'Id', "02_LiberateErnie",
 			'ClassDisplayName', "QuestsEditor",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "QuestsDef",
 			'Id', "01_Landing",
+			'ClassDisplayName', "QuestsEditor",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "QuestsDef",
+			'Id', "RescueTeam",
+			'ClassDisplayName', "QuestsEditor",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "QuestsDef",
+			'Id', "RebelsSavior",
 			'ClassDisplayName', "QuestsEditor",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -1413,12 +1423,62 @@ return PlaceObj('ModDef', {
 			'Class', "LootDef",
 			'Id', "JazzMapContainer_M2_LootGraves",
 			'ClassDisplayName', "LootDef",
+			}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "RebelHostage",
+			'ClassDisplayName', "Banter",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "MapDataPreset",
 			'Id', "gsSMikN",
 			'Prop', "MapOrientation",
 			'ClassDisplayName', "Map",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ConstDef",
+			'Id', "CitySectorEnemyTakeOverLoyaltyLoss",
+			'ClassDisplayName', "Constant",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ConstDef",
+			'Id', "ConflictRetreatPenalty",
+			'ClassDisplayName', "Constant",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ConstDef",
+			'Id', "ConflictDefeatedLoyaltyLoss",
+			'ClassDisplayName', "Constant",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ConstDef",
+			'Id', "CivilianDeathPenaltyCityCap",
+			'ClassDisplayName', "Constant",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ConstDef",
+			'Id', "CivilianDeathPenalty",
+			'ClassDisplayName', "Constant",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ConstDef",
+			'Id', "MineDepletingDays",
+			'ClassDisplayName', "Constant",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ConstDef",
+			'Id', "MaxHiredMercs",
+			'ClassDisplayName', "Constant",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ConstDef",
+			'Id', "StartingMoney",
+			'ClassDisplayName', "Constant",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ConstDef",
+			'Id', "MercSquadMaxPeople",
+			'ClassDisplayName', "Constant",
 		}),
 	},
 	'steam_id', "3322285655",

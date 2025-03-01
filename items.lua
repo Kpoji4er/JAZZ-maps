@@ -82,2914 +82,6 @@ return {
 		}),
 		}),
 	PlaceObj('ModItemFolder', {
-		'name', "CONSTANTS",
-	}, {
-		PlaceObj('ModItemConstDef', {
-			group = "Loyalty",
-			id = "CitySectorEnemyTakeOverLoyaltyLoss",
-			value = -20,
-		}),
-		PlaceObj('ModItemConstDef', {
-			group = "Loyalty",
-			id = "ConflictRetreatPenalty",
-			value = -30,
-		}),
-		PlaceObj('ModItemConstDef', {
-			Comment = "When losing a conflict in a sector that's not a result of a retreat (losing all mercs in that sector for example) AND that sector doesn't have a city",
-			group = "Loyalty",
-			id = "ConflictDefeatedLoyaltyLoss",
-			value = -15,
-		}),
-		PlaceObj('ModItemConstDef', {
-			group = "Loyalty",
-			id = "CivilianDeathPenaltyCityCap",
-			value = 91,
-		}),
-		PlaceObj('ModItemConstDef', {
-			group = "Loyalty",
-			id = "CivilianDeathPenalty",
-			value = 7,
-		}),
-		PlaceObj('ModItemConstDef', {
-			Comment = "Days during which mine's income gets lower until in reaches 0",
-			group = "Satellite",
-			id = "MineDepletingDays",
-			value = 500,
-		}),
-		PlaceObj('ModItemConstDef', {
-			group = "Satellite",
-			id = "MaxHiredMercs",
-			value = 240,
-		}),
-		PlaceObj('ModItemConstDef', {
-			group = "Satellite",
-			id = "StartingMoney",
-			value = 60000,
-		}),
-		PlaceObj('ModItemConstDef', {
-			group = "Satellite",
-			id = "MercSquadMaxPeople",
-			value = 12,
-		}),
-		}),
-	PlaceObj('ModItemFolder', {
-		'name', "UI",
-	}, {
-		PlaceObj('ModItemXTemplate', {
-			__is_kind_of = "SatelliteConflictSquadsAndMercsClass",
-			group = "Zulu Satellite UI",
-			id = "SatelliteConflictSquadsAndEnemies",
-			PlaceObj('XTemplateWindow', {
-				'__class', "SatelliteConflictSquadsAndMercsClass",
-				'IdNode', false,
-				'Padding', box(0, 30, 0, 30),
-				'MinWidth', 498,
-				'MaxWidth', 498,
-				'LayoutMethod', "VWrap",
-				'LayoutVSpacing', 30,
-				'ContextUpdateOnOpen', true,
-				'OnContextUpdate', function (self, context, ...)
-					self.currentSquadIndex = table.find(self.context, self.selected_squad)
-					self[1].idTitle:SetContext(self.selected_squad, true)
-					SquadsAndMercsClass.OnContextUpdate(self, ...)
-				end,
-			}, {
-				PlaceObj('XTemplateForEach', {
-					'__context', function (parent, context, item, i, n) return item end,
-				}, {
-					PlaceObj('XTemplateWindow', {
-						'__class', "XContextWindow",
-						'IdNode', true,
-						'Padding', box(10, 0, 10, 0),
-						'LayoutMethod', "VWrap",
-						'ContextUpdateOnOpen', true,
-						'OnContextUpdate', function (self, context, ...)
-							local squad = context.arriving and context[1] or context
-							local is_squad_defeated = SatelliteConflict_IsSquadDefeated(squad)
-							self:ResolveId("idName"):SetContext(SubContext(context,{defeated = is_squad_defeated}), true)
-							self:ResolveId("idSquadImage"):SetContext(context, true)
-							self:ResolveId("idSquadImage"):SetEnabled(not is_squad_defeated)
-						end,
-					}, {
-						PlaceObj('XTemplateWindow', {
-							'__class', "XContextWindow",
-							'Id', "idTitle",
-							'VAlign', "top",
-							'ContextUpdateOnOpen', true,
-						}, {
-							PlaceObj('XTemplateWindow', {
-								'__class', "XText",
-								'Id', "idName",
-								'Padding', box(4, 2, 2, 2),
-								'Dock', "left",
-								'HandleMouse', false,
-								'TextStyle', "ConflictSquadName",
-								'ContextUpdateOnOpen', true,
-								'OnContextUpdate', function (self, context, ...)
-									local text							
-									if context and context.Name then
-										text = IsT(context.Name) and context.Name or Untranslated(context.Name)
-									else
-										text = T(496804530535, "UNKNOWN ENEMIES")
-									end
-									local dlg_context = GetDialog(self).context
-									local color = TLookupTag("<GameColorI>")
-									if dlg_context.autoResolve then
-										if context.defeated then
-											self:SetText(color..T{705494748778, "<squadName> <style ConflictSquadNamePosition>/ exterminated</style>", squadName = text})
-										else
-											self:SetText(color..text)												
-										end
-									elseif context.arriving then
-										self:SetText(T{426342230032, "<time(value)> <color><squadName> <style ConflictSquadNamePosition>/ arriving</style>", squadName = text, value = context.arriving, color = color})							
-									else
-										self:SetText(color..T{484322448915, "<squadName> <style ConflictSquadNamePosition>/ in sector</style>", squadName = text})							
-									end
-									XContextControl.OnContextUpdate(self, context)
-								end,
-								'Translate', true,
-								'WordWrap', false,
-							}),
-							PlaceObj('XTemplateWindow', {
-								'__class', "XFrame",
-								'Margins', box(5, 0, 0, 0),
-								'BorderWidth', 1,
-								'VAlign', "center",
-								'Image', "UI/PDA/separate_line_vertical",
-								'FrameBox', box(3, 3, 3, 3),
-								'TileFrame', true,
-							}),
-							}),
-						PlaceObj('XTemplateWindow', {
-							'comment', "Mercs Themselves (Updates on Sel Squad Change)",
-							'__context', function (parent, context) return context and context.arriving and context[1] or  context end,
-							'__condition', function (parent, context) return context end,
-							'__class', "XContentTemplate",
-							'Id', "idParty",
-							'IdNode', false,
-							'LayoutMethod', "HWrap",
-						}, {
-							PlaceObj('XTemplateWindow', nil, {
-								PlaceObj('XTemplateWindow', {
-									'comment', "logo",
-									'__class', "XContextImage",
-									'Id', "idSquadImage",
-									'Margins', box(0, 10, 0, 0),
-									'HAlign', "left",
-									'VAlign', "top",
-									'Image', "UI/Icons/SateliteView/enemy_squad",
-									'OnContextUpdate', function (self, context, ...)
-										if context.image then
-											self:SetImage(context.image)
-										end
-										if context.Villain then
-											self:SetImage("UI/Icons/SateliteView/enemy_boss")
-										end
-									end,
-								}),
-								}),
-							PlaceObj('XTemplateWindow', {
-								'__condition', function (parent, context) return context and context.arriving and context[1].units or  context.units end,
-								'__class', "XContextWindow",
-								'GridStretchY', false,
-								'LayoutMethod', "Grid",
-								'LayoutVSpacing', 60,
-								'ContextUpdateOnOpen', true,
-							}, {
-								PlaceObj('XTemplateForEach', {
-									'comment', "Mercs in the Current Team",
-									'array', function (parent, context) return GroupEnemyMercs({context}, "separateDead" and true) end,
-									'__context', function (parent, context, item, i, n) return item end,
-									'run_after', function (child, context, item, i, n, last)
-										local row_count = 6
-										local i = i-1
-										child:SetGridX(i%row_count + 1)
-										child:SetGridY(i/row_count + 1)
-										
-										if context.count and context.count>1 then
-											child.idName:SetTextHAlign("center")
-											local color = context.is_dead and GameColors.F or GameColors.I 
-											child.idBottomPart[1]:SetBackground(color)										
-											child.idName:SetScaleModifier(point(1333,1333))
-											child.idBottomPart:SetMinHeight(0)
-											child.idName:SetTextStyle("PDAMercNameCard_Large")
-											child.idName:SetPadding(box(0,-2,0,-2))
-											child.idName:SetText(Untranslated(context.count))									
-										else
-											child.idName:SetText(context.DisplayName)	
-										end
-										
-										if context.hasShipment then
-											child.idShipment:SetVisible(true)
-											child.idShipment:SetImage(context.hasShipment)
-										end
-										
-										child.idBar:SetVisible(false)
-										child.idBottomBar:SetVisible(false)
-										if not context.count or context.count==1 then
-											child.idBottomPart:SetVisible(false)
-											child.idName:SetText(context.DisplayName)
-										end
-									end,
-								}, {
-									PlaceObj('XTemplateTemplate', {
-										'__context', function (parent, context) return context.template end,
-										'__template', "HUDMerc",
-										'RolloverTemplate', "SmallRolloverLine",
-										'RolloverAnchor', "center-bottom",
-										'RolloverAnchorId', "idPortraitBG",
-										'RolloverText', T(845823474288, --[[ModItemXTemplate SatelliteConflictSquadsAndEnemies RolloverText]] "<DisplayName>"),
-										'Margins', box(0, 7, 0, 0),
-										'ScaleModifier', point(750, 750),
-										'LayoutMethod', "Box",
-										'ChildrenHandleMouse', false,
-									}, {
-										PlaceObj('XTemplateWindow', {
-											'comment', "diamond shipment icon",
-											'__class', "XImage",
-											'Id', "idShipment",
-											'IdNode', false,
-											'ZOrder', 0,
-											'Margins', box(0, -16, 0, 0),
-											'HAlign', "right",
-											'VAlign', "top",
-											'MinWidth', 46,
-											'MaxWidth', 46,
-											'UseClipBox', false,
-											'Visible', false,
-											'DrawOnTop', true,
-											'ImageFit', "width",
-										}),
-										}),
-									}),
-								}),
-							PlaceObj('XTemplateWindow', {
-								'__condition', function (parent, context) return not next(context) or not context.units end,
-								'Margins', box(0, 7, 0, 0),
-								'HAlign', "left",
-								'VAlign', "top",
-								'MinWidth', 80,
-								'MinHeight', 118,
-								'MaxWidth', 80,
-								'MaxHeight', 118,
-								'ScaleModifier', point(700, 700),
-							}, {
-								PlaceObj('XTemplateWindow', {
-									'Dock', "bottom",
-									'VAlign', "bottom",
-									'MinHeight', 30,
-									'MaxHeight', 30,
-									'Visible', false,
-									'Background', RGBA(32, 35, 47, 255),
-								}),
-								PlaceObj('XTemplateWindow', {
-									'__class', "XImage",
-									'IdNode', false,
-									'Margins', box(0, 10, 0, 0),
-									'Dock', "box",
-									'Image', "UI/Hud/portrait_background",
-									'ImageFit', "largest",
-								}),
-								PlaceObj('XTemplateWindow', {
-									'__class', "XImage",
-									'IdNode', false,
-									'Margins', box(0, 0, 0, -10),
-									'Dock', "box",
-									'Image', "UI/EnemiesPortraits/Unknown",
-									'ImageFit', "largest",
-								}),
-								}),
-							}),
-						}),
-					}),
-				}),
-		}),
-		PlaceObj('ModItemXTemplate', {
-			__is_kind_of = "SatelliteConflictSquadsAndMercsClass",
-			group = "Zulu Satellite UI",
-			id = "SatelliteConflictSquadsAndMercs",
-			PlaceObj('XTemplateWindow', {
-				'__class', "SatelliteConflictSquadsAndMercsClass",
-				'Id', "idMercs",
-				'Padding', box(0, 30, 0, 30),
-				'MinWidth', 498,
-				'MaxWidth', 498,
-				'LayoutMethod', "VList",
-				'LayoutVSpacing', 30,
-				'ContextUpdateOnOpen', true,
-			}, {
-				PlaceObj('XTemplateForEach', {
-					'__context', function (parent, context, item, i, n) return item end,
-				}, {
-					PlaceObj('XTemplateWindow', {
-						'__class', "XContextWindow",
-						'IdNode', true,
-						'Padding', box(10, 0, 10, 0),
-						'LayoutMethod', "VList",
-						'ContextUpdateOnOpen', true,
-						'OnContextUpdate', function (self, context, ...)
-							local is_squad_defeated = SatelliteConflict_IsSquadDefeated(context)
-							self:ResolveId("idName"):SetContext(SubContext(context,{defeated = is_squad_defeated}), true)
-							local sq_image= self:ResolveId("idSquadImage")
-							sq_image:SetContext(context, true)
-							-- are all squad dead
-							local logo = self:ResolveId("idLogo")
-							logo:SetEnabled(not is_squad_defeated)
-							if context.militia then
-								logo[1]:SetImage("")
-								sq_image:SetScaleModifier(point(1000, 1000))
-								sq_image:SetMargins(box(0,0,0,0))
-							end
-						end,
-					}, {
-						PlaceObj('XTemplateWindow', {
-							'__class', "XContextWindow",
-							'Id', "idTitle",
-							'VAlign', "top",
-						}, {
-							PlaceObj('XTemplateWindow', {
-								'__class', "XText",
-								'Id', "idName",
-								'Padding', box(4, 2, 2, 2),
-								'Dock', "left",
-								'HandleMouse', false,
-								'TextStyle', "ConflictSquadName",
-								'OnContextUpdate', function (self, context, ...)
-									local dlg_context = GetDialog(self).context
-									local squadName = context.militia and T(977391598484, "Militia") or Untranslated(context.Name)
-									local color = TLookupTag("<GameColorJ>")
-									if dlg_context.autoResolve then
-										if context.defeated then
-											self:SetText(color..T{611090141279, "<squadName> <style ConflictSquadNamePosition>/ killed in action</style>", squadName = squadName})
-										else
-											self:SetText(color..squadName)						
-										end
-									else															
-										self:SetText(color..T{484322448915, "<squadName> <style ConflictSquadNamePosition>/ in sector</style>", squadName = squadName})							
-									end	
-									XContextControl.OnContextUpdate(self, context)								
-								end,
-								'Translate', true,
-								'Text', T(229449529062, --[[ModItemXTemplate SatelliteConflictSquadsAndMercs Text]] "<color 61 122 153>"),
-								'WordWrap', false,
-							}),
-							PlaceObj('XTemplateWindow', {
-								'__class', "XFrame",
-								'Margins', box(5, 0, 0, 0),
-								'BorderWidth', 1,
-								'VAlign', "center",
-								'Image', "UI/PDA/separate_line_vertical",
-								'FrameBox', box(3, 3, 3, 3),
-								'TileFrame', true,
-							}),
-							}),
-						PlaceObj('XTemplateWindow', {
-							'comment', "Mercs Themselves (Updates on Sel Squad Change)",
-							'__class', "XContentTemplate",
-							'Id', "idParty",
-							'IdNode', false,
-							'HandleMouse', true,
-						}, {
-							PlaceObj('XTemplateWindow', {
-								'GridStretchX', false,
-								'GridStretchY', false,
-								'LayoutMethod', "HList",
-								'FillOverlappingSpace', true,
-							}, {
-								PlaceObj('XTemplateWindow', {
-									'__class', "XControl",
-									'Id', "idLogo",
-									'IdNode', false,
-									'Margins', box(0, 10, 4, 0),
-								}, {
-									PlaceObj('XTemplateWindow', {
-										'comment', "logo background",
-										'__class', "XImage",
-										'VAlign', "top",
-										'Image', "UI/Icons/SateliteView/merc_squad",
-										'DisabledImageColor', RGBA(130, 128, 120, 255),
-									}),
-									PlaceObj('XTemplateWindow', {
-										'comment', "logo",
-										'__class', "XContextImage",
-										'Id', "idSquadImage",
-										'HAlign', "center",
-										'VAlign', "top",
-										'Image', "UI/Icons/SquadLogo/squad_logo_01_s.png",
-										'ImageColor', RGBA(230, 222, 202, 255),
-										'DisabledImageColor', RGBA(130, 128, 120, 255),
-										'OnContextUpdate', function (self, context, ...)
-											if context.militia then
-												self:SetImage("UI/Icons/SateliteView/militia")
-											else
-												self:SetImage( context.image.."_s")
-												self:SetScaleModifier(point(840,840))
-											end
-										end,
-									}),
-									}),
-								PlaceObj('XTemplateWindow', {
-									'__condition', function (parent, context) return not context.militia end,
-									'Margins', box(0, 0, 20, 0),
-									'LayoutMethod', "HWrap",
-									'LayoutHSpacing', 5,
-								}, {
-									PlaceObj('XTemplateForEach', {
-										'comment', "mercs",
-										'array', function (parent, context) return GetDialog(parent).context.autoResolve and table.find_value(GetDialog(parent).context.allySquads, "UniqueId", context.UniqueId).units or context.units end,
-										'__context', function (parent, context, item, i, n) return gv_UnitData[item] end,
-										'run_after', function (child, context, item, i, n, last)
-											if context:IsDead() then
-												child.idName:SetText(Untranslated("<center>")..TLookupTag("<GameColorI>")..T(617663398594, "K.I.A."))	
-											end
-										end,
-									}, {
-										PlaceObj('XTemplateTemplate', {
-											'__context', function (parent, context) return context end,
-											'__template', "HUDMerc",
-											'GridStretchX', false,
-											'ScaleModifier', point(750, 750),
-											'LayoutMethod', "VList",
-											'HandleMouse', false,
-											'ChildrenHandleMouse', false,
-											'OnContextUpdate', function (self, context, ...)
-												self.idLevelUp:SetVisible(false)
-											end,
-										}),
-										}),
-									}),
-								PlaceObj('XTemplateWindow', {
-									'__condition', function (parent, context) return context.militia end,
-									'LayoutMethod', "HList",
-									'LayoutHSpacing', 8,
-								}, {
-									PlaceObj('XTemplateForEach', {
-										'comment', "militia",
-										'array', function (parent, context)
-											local squad = GetDialog(parent).context.autoResolve and table.find_value(GetDialog(parent).context.allySquads, "UniqueId", context.UniqueId) or context  
-											return GroupEnemyMercs({squad}, "separateDead")
-										end,
-										'__context', function (parent, context, item, i, n) return item end,
-										'run_after', function (child, context, item, i, n, last)
-											child.idName:SetText(context.DisplayName)	
-											
-											if context.count and context.count>1 then
-												child.idName:SetTextHAlign("center")
-												local color = context.is_dead and GameColors.F or GameColors.J 
-												child.idBottomPart[1]:SetBackground(color)										
-												--child.idName.scale = point(1000,1000)
-											
-												child.idName:SetScaleModifier(point(1333,1333))
-												child.idBottomPart:SetMinHeight(0)
-												child.idName:SetTextStyle("PDAMercNameCard_Large")
-												child.idName:SetPadding(box(0,-2,0,-2))
-												child.idName:SetText(Untranslated(context.count))	
-											end
-											--child:SetEnabled(not context.is_dead)
-										end,
-									}, {
-										PlaceObj('XTemplateTemplate', {
-											'__template', "HUDMerc",
-											'RolloverTemplate', "SmallRolloverLine",
-											'RolloverAnchor', "center-bottom",
-											'RolloverAnchorId', "idPortraitBG",
-											'RolloverText', T(900985004543, --[[ModItemXTemplate SatelliteConflictSquadsAndMercs RolloverText]] "<DisplayName>"),
-											'ScaleModifier', point(750, 750),
-											'ChildrenHandleMouse', false,
-										}),
-										}),
-									}),
-								}),
-							}),
-						}),
-					}),
-				}),
-		}),
-		PlaceObj('ModItemXTemplate', {
-			__is_kind_of = "XContextWindow",
-			group = "Zulu Satellite UI",
-			id = "SquadsAndMercs_old",
-			PlaceObj('XTemplateWindow', {
-				'__class', "SquadsAndMercsClass",
-				'RolloverAnchor', "top",
-				'Id', "idPartyContainer",
-				'HAlign', "left",
-				'VAlign', "bottom",
-			}, {
-				PlaceObj('XTemplateWindow', {
-					'__class', "XContextWindow",
-					'Dock', "top",
-				}, {
-					PlaceObj('XTemplateWindow', {
-						'__context', function (parent, context)
-							return context
-						end,
-						'__class', "XContextWindow",
-						'Id', "idTitle",
-						'Margins', box(-1, -5, 0, 0),
-						'VAlign', "top",
-						'LayoutMethod', "VList",
-						'ContextUpdateOnOpen', true,
-						'OnContextUpdate', function (self, context, ...)
-							local node = self:ResolveId("node")
-							local selectedSquad = node.selected_squad
-							local nameWnd = node.idName
-							nameWnd:SetContext(selectedSquad)
-							nameWnd:SetText(T{183209563903, "<u(Name)> [<u(SquadMemberCount())>]", selectedSquad})
-							
-							local moraleUI = self:ResolveId("idMorale")
-							
-							local selScale = point(670, 670)
-							local unSelScale = point(670, 670)
-							local transSel = 0
-							local transUnSel = 100
-							for i, sB in ipairs(node.idSquadButtons) do
-								if sB == moraleUI then goto continue end
-							
-								local selected = sB.context and sB.context.UniqueId == g_CurrentSquad
-								
-								sB.OnSetRollover = function(s, r)
-									if not selected then
-										s:SetTransparency(r and 0 or transUnSel)
-									end
-								end
-								
-								if not sB.idSelected then goto continue end
-								
-								sB.idSelected:SetVisible(selected)
-								sB:SetTransparency(selected and transSel or transUnSel)
-								sB:SetScaleModifier(selected and selScale or unSelScale)
-								
-								::continue::
-							end
-						end,
-					}, {
-						PlaceObj('XTemplateWindow', {
-							'__context', function (parent, context)
-								return context
-							end,
-							'__class', "XText",
-							'Id', "idName",
-							'Margins', box(5, 0, 0, 0),
-							'Clip', false,
-							'UseClipBox', false,
-							'TextStyle', "PartyUISelectedSquad",
-							'OnContextUpdate', function (self, context, ...)
-								local limit = self.UpdateTimeLimit
-								if limit == 0 or (RealTime() - self.last_update_time) >= limit then
-									self:SetText(self.Text)
-								elseif not self:GetThread("ContextUpdate") then
-									self:CreateThread("ContextUpdate", function(self)
-										Sleep(self.last_update_time + self.UpdateTimeLimit - RealTime())
-										self:OnContextUpdate()
-									end, self)
-								end
-							end,
-							'Translate', true,
-						}),
-						PlaceObj('XTemplateWindow', {
-							'Id', "idSquadButtons",
-							'LayoutMethod', "HList",
-							'LayoutHSpacing', -10,
-						}, {
-							PlaceObj('XTemplateWindow', {
-								'comment', "morale icon container",
-								'__context', function (parent, context) return Selection end,
-								'__condition', function (parent, context) return IsKindOf(GetDialog(parent), "IModeCommonUnitControl") or IsKindOf(GetDialog(parent), "IModeDeployment") end,
-								'__class', "XContextWindow",
-								'RolloverTemplate', "RolloverGeneric",
-								'RolloverTitle', T(214056593531, --[[ModItemXTemplate SquadsAndMercs_old RolloverTitle]] "Боевой дух"),
-								'Id', "idMorale",
-								'Margins', box(7, 1, 0, 0),
-								'Dock', "left",
-								'VAlign', "top",
-								'FoldWhenHidden', true,
-								'BackgroundRectGlowSize', 1,
-								'BackgroundRectGlowColor', RGBA(32, 35, 47, 255),
-								'HandleMouse', true,
-								'MouseCursor', "UI/Cursors/Hand.tga",
-								'ContextUpdateOnOpen', true,
-								'OnContextUpdate', function (self, context, ...)
-									local icon = self:ResolveId("idMoraleIcon")
-									local team = GetPoVTeam()
-									local morale = team and team.morale or 0
-									
-									local text = self:ResolveId("idMoraleText")
-									text:SetText(morale)
-									text:SetVisible(morale ~= 0)
-									
-									--icon:SetImage(MoraleLevelIcon[morale])
-									if team then
-										self:SetRolloverText(team:GetMoraleLevelAndEffectsText())
-										self.OnMouseButtonDown = function() return "break" end
-									end
-									self:SetVisible(not not g_Combat)
-								end,
-							}, {
-								PlaceObj('XTemplateWindow', {
-									'BorderWidth', 2,
-									'MinWidth', 80,
-									'MinHeight', 46,
-									'MaxWidth', 80,
-									'MaxHeight', 46,
-									'BorderColor', RGBA(52, 55, 61, 230),
-									'Background', RGBA(32, 35, 47, 215),
-								}, {
-									PlaceObj('XTemplateWindow', {
-										'comment', "morale indicator",
-										'__class', "XImage",
-										'RolloverTemplate', "RolloverGeneric",
-										'RolloverOffset', box(10, 0, 0, 0),
-										'RolloverTitle', T(405072605817, --[[ModItemXTemplate SquadsAndMercs_old RolloverTitle]] "Боевой дух"),
-										'Id', "idMoraleIcon",
-										'IdNode', false,
-										'HAlign', "center",
-										'VAlign', "center",
-										'Image', "UI/Hud/morale_normal",
-									}, {
-										PlaceObj('XTemplateWindow', {
-											'__class', "XText",
-											'Id', "idMoraleText",
-											'Margins', box(-2, -2, 0, 0),
-											'HAlign', "center",
-											'VAlign', "center",
-											'TextStyle', "PartyUIMoraleText",
-										}),
-										}),
-									}),
-								}),
-							PlaceObj('XTemplateForEach', {
-								'__context', function (parent, context, item, i, n) return item end,
-								'run_after', function (child, context, item, i, n, last)
-									local image = item.image or "UI/Icons/SquadLogo/squad_logo_01"
-									child.idSquadIcon:SetImage(image .. "_s")
-									child.drop_reason = false
-								end,
-							}, {
-								PlaceObj('XTemplateWindow', {
-									'comment', "inventory",
-									'__condition', function (parent, context) return GetDialog(GetDialog(parent).parent) == GetDialog("FullscreenGameDialogs") end,
-									'__class', "XButton",
-									'VAlign', "top",
-									'BorderColor', RGBA(0, 0, 0, 0),
-									'Background', RGBA(0, 0, 0, 0),
-									'BackgroundRectGlowColor', RGBA(0, 0, 0, 0),
-									'OnContextUpdate', function (self, context, ...)
-										
-									end,
-									'FocusedBorderColor', RGBA(0, 0, 0, 0),
-									'FocusedBackground', RGBA(0, 0, 0, 0),
-									'DisabledBorderColor', RGBA(0, 0, 0, 0),
-									'OnPress', function (self, gamepad)
-										local dlg = GetDialog(self)
-										InventoryClosePopup(dlg)
-										local deploymentOrCommonUnit = IsKindOf(dlg, "IModeCommonUnitControl") or
-											   														IsKindOf(dlg, "IModeDeployment")
-										
-										if deploymentOrCommonUnit and self.context.UniqueId == g_CurrentSquad then
-											ToggleAllUnitsSelectionInSquad(true)
-										else
-											local node = self:ResolveId("node")
-											node:SelectSquad(self.context)
-											ObjModified(self.context)
-										end
-									end,
-									'RolloverBackground', RGBA(0, 0, 0, 0),
-									'PressedBackground', RGBA(0, 0, 0, 0),
-								}, {
-									PlaceObj('XTemplateWindow', {
-										'__class', "XImage",
-										'Image', "UI/Icons/SateliteView/merc_squad_2",
-									}),
-									PlaceObj('XTemplateWindow', {
-										'__class', "XImage",
-										'Id', "idSquadIcon",
-										'Margins', box(0, 4, 0, 0),
-										'HAlign', "center",
-										'VAlign', "top",
-										'ScaleModifier', point(800, 800),
-									}),
-									PlaceObj('XTemplateWindow', {
-										'__class', "XImage",
-										'Id', "idSelected",
-										'HAlign', "center",
-										'VAlign', "center",
-										'Visible', false,
-										'Image', "UI/Icons/SateliteView/squad_selection",
-									}),
-									PlaceObj('XTemplateFunc', {
-										'name', "OnMouseButtonDoubleClick(self, pt, button)",
-										'func', function (self, pt, button)
-											if not IsKindOf(GetDialog(self), "XSatelliteDialog") then return end
-											
-											local squad = self.context
-											SatelliteSetCameraDest(squad.CurrentSector, 300)
-										end,
-									}),
-									PlaceObj('XTemplateFunc', {
-										'name', "IsDropTarget(self, draw_win, pt)",
-										'func', function (self, draw_win, pt)
-											if InventoryIsCombatMode() 
-												or not InventoryStartDragContext 
-												or InventoryStartDragContext.Squad == self.context.UniqueId 
-											then
-												return false
-											end										
-											local cur_sector
-											if IsKindOf(InventoryStartDragContext, "SectorStash") then
-												cur_sector = InventoryStartDragContext.sector_id
-											elseif IsKindOf(InventoryStartDragContext, "ItemContainer") then	
-												cur_sector = self:GetContext().CurrentSector
-											else									
-												local squad_id = IsKindOf(InventoryStartDragContext, "SquadBag") and InventoryStartDragContext.squad_id or InventoryStartDragContext.Squad
-												cur_sector = squad_id and gv_Squads[squad_id].CurrentSector or self.context.CurrentSector
-											end
-											local drag_sector = self.context.CurrentSector
-											return cur_sector==drag_sector
-										end,
-									}),
-									PlaceObj('XTemplateFunc', {
-										'name', "OnDropEnter(self, draw_win, pt, drag_source)",
-										'func', function (self, draw_win, pt, drag_source)
-											self:SetRollover(true)
-											local squad = self:GetContext()
-											local mouse_text 
-											mouse_text =  T{386181237071, "Give to <merc>",merc = squad.Name}
-											local r1 = InventoryDropMoveItemsToSquad(squad, "check_only")
-											self.drop_reason = r1 or "ok" 
-											if r1 then
-												mouse_text = mouse_text.."\n".. Untranslated("<style InventoryHintTextRed>")..T(719913116871, "Not enough space")										
-											end
-											InventoryShowMouseText(not not mouse_text,mouse_text)
-										end,
-									}),
-									PlaceObj('XTemplateFunc', {
-										'name', "OnDropLeave(self, drag_win)",
-										'func', function (self, drag_win)
-											self:SetRollover(false)
-											InventoryShowMouseText(false)
-											self.drop_reason = false
-										end,
-									}),
-									PlaceObj('XTemplateFunc', {
-										'name', "OnDrop(self, drag_win, pt, drag_source_win)",
-										'func', function (self, drag_win, pt, drag_source_win)
-											self.drop_reason = self.drop_reason or InventoryDropMoveItemsToSquad(self.context, "check_only")
-											if self.drop_reason=="ok" then 	
-												InventoryDropMoveItemsToSquad(self.context)
-												self.drop_reason = false
-											end
-											return "not valid target"
-										end,
-									}),
-									}),
-								PlaceObj('XTemplateWindow', {
-									'__condition', function (parent, context) return GetDialog(GetDialog(parent).parent) ~= GetDialog("FullscreenGameDialogs") end,
-									'__class', "XButton",
-									'VAlign', "top",
-									'BorderColor', RGBA(0, 0, 0, 0),
-									'Background', RGBA(0, 0, 0, 0),
-									'BackgroundRectGlowColor', RGBA(0, 0, 0, 0),
-									'OnContextUpdate', function (self, context, ...)
-										
-									end,
-									'FocusedBorderColor', RGBA(0, 0, 0, 0),
-									'FocusedBackground', RGBA(0, 0, 0, 0),
-									'DisabledBorderColor', RGBA(0, 0, 0, 0),
-									'OnPress', function (self, gamepad)
-										local dlg = GetDialog(self)
-										local deploymentOrCommonUnit = IsKindOf(dlg, "IModeCommonUnitControl") or
-											   														IsKindOf(dlg, "IModeDeployment")
-										
-										if deploymentOrCommonUnit and self.context.UniqueId == g_CurrentSquad then
-											ToggleAllUnitsSelectionInSquad(true)
-										else
-											local node = self:ResolveId("node")
-											node:SelectSquad(self.context)
-											ObjModified(self.context)
-										end
-									end,
-									'RolloverBackground', RGBA(0, 0, 0, 0),
-									'PressedBackground', RGBA(0, 0, 0, 0),
-								}, {
-									PlaceObj('XTemplateWindow', {
-										'__class', "XImage",
-										'Image', "UI/Icons/SateliteView/merc_squad_2",
-									}),
-									PlaceObj('XTemplateWindow', {
-										'__class', "XImage",
-										'Id', "idSquadIcon",
-										'Margins', box(0, 4, 0, 0),
-										'HAlign', "center",
-										'VAlign', "top",
-										'ScaleModifier', point(800, 800),
-									}),
-									PlaceObj('XTemplateWindow', {
-										'__class', "XImage",
-										'Id', "idSelected",
-										'HAlign', "center",
-										'VAlign', "center",
-										'Visible', false,
-										'Image', "UI/Icons/SateliteView/squad_selection",
-									}),
-									PlaceObj('XTemplateFunc', {
-										'name', "OnMouseButtonDoubleClick(self, pt, button)",
-										'func', function (self, pt, button)
-											if not IsKindOf(GetDialog(self), "XSatelliteDialog") then return end
-											
-											local squad = self.context
-											SatelliteSetCameraDest(squad.CurrentSector, 300)
-										end,
-									}),
-									}),
-								}),
-							PlaceObj('XTemplateWindow', {
-								'comment', "add squad",
-								'__condition', function (parent, context) return not IsKindOf(GetDialog(parent), "IModeDeployment") and not (GetDialog(GetDialog(parent).parent) == GetDialog("FullscreenGameDialogs")) end,
-								'__class', "XButton",
-								'VAlign', "top",
-								'ScaleModifier', point(666, 666),
-								'BorderColor', RGBA(0, 0, 0, 0),
-								'Background', RGBA(0, 0, 0, 0),
-								'BackgroundRectGlowColor', RGBA(0, 0, 0, 0),
-								'Transparency', 100,
-								'FocusedBorderColor', RGBA(0, 0, 0, 0),
-								'FocusedBackground', RGBA(0, 0, 0, 0),
-								'DisabledBorderColor', RGBA(0, 0, 0, 0),
-								'OnPress', function (self, gamepad)
-									InvokeShortcutAction(GetDialog("PDADialogSatellite"), "idSquadManagement", false, true)
-								end,
-								'RolloverBackground', RGBA(0, 0, 0, 0),
-								'PressedBackground', RGBA(0, 0, 0, 0),
-							}, {
-								PlaceObj('XTemplateWindow', {
-									'__class', "XImage",
-									'Image', "UI/Icons/SateliteView/merc_squad_add_2",
-								}),
-								}),
-							}),
-						}),
-					}),
-				PlaceObj('XTemplateWindow', {
-					'__class', "XFitContent",
-					'IdNode', false,
-					'Dock', "box",
-					'Fit', "height",
-				}, {
-					PlaceObj('XTemplateWindow', {
-						'comment', "Mercs Themselves (Updates on Sel Squad Change)",
-						'__context', function (parent, context) return parent.parent.selected_squad end,
-						'__class', "XContentTemplate",
-						'Id', "idParty",
-						'HAlign', "left",
-						'VAlign', "top",
-						'LayoutMethod', "VWrap",
-					}, {
-						PlaceObj('XTemplateWindow', {
-							'Margins', box(0, 0, 25, 0),
-							'Dock', "box",
-							'HandleMouse', true,
-						}, {
-							PlaceObj('XTemplateFunc', {
-								'name', "OnMouseButtonDown(self, pos, button)",
-								'func', function (self, pos, button)
-									-- click eater for misclick prevention
-									return "break"
-								end,
-							}),
-							}),
-						PlaceObj('XTemplateWindow', {
-							'Id', "idContainer",
-							'MaxWidth', 100000,
-							'MaxHeight', 100000,
-							'ScaleModifier', point(700, 700),
-							'LayoutMethod', "VWrap",
-							'FillOverlappingSpace', true,
-							'UseClipBox', false,
-							'BorderColor', RGBA(0, 0, 0, 0),
-						}, {
-							PlaceObj('XTemplateGroup', {
-								'__condition', function (parent, context) return context and IsKindOf(GetDialog(parent), "XSatelliteDialog") end,
-							}, {
-								PlaceObj('XTemplateForEach', {
-									'comment', "Mercs in the Current Team",
-									'array', function (parent, context) return context and context.units end,
-									'__context', function (parent, context, item, i, n) return gv_UnitData[item] end,
-								}, {
-									PlaceObj('XTemplateTemplate', {
-										'__template', "HUDMerc",
-										'LayoutMethod', "HWrap",
-										'OnContextUpdate', function (self, context, ...)
-											self.idOperationContainer.idProgressBarContainer:SetVisible(context.Operation~="Idle")
-										end,
-										'FXMouseIn', "MercPortraitRolloverPDA",
-										'FXPress', "MercPortraitPressPDA",
-										'OnPress', function (self, gamepad)
-											local prev
-											if g_SatelliteUI.context_menu then
-												local prev_context = g_SatelliteUI.context_menu[1].context
-												prev = prev_context and prev_context.unit_id
-												g_SatelliteUI:RemoveContextMenu()
-											end
-										end,
-										'AltPress', true,
-										'OnAltPress', function (self, gamepad)
-											local prev
-											if g_SatelliteUI.context_menu then
-												local prev_context = g_SatelliteUI.context_menu[1].context
-												prev = prev_context and prev_context.unit_id
-												g_SatelliteUI:RemoveContextMenu()
-											end
-											local unit = self.context
-											if prev and prev==unit.session_id then
-												return
-											end	
-											local squad_id = unit.Squad
-											local squad = gv_Squads[squad_id]
-											local sector_id = squad and squad.CurrentSector
-											if not sector_id then
-												return
-											end	
-											self:SetRollover(false)
-											g_SatelliteUI:OpenContextMenu(self, sector_id, unit.Squad, unit.session_id)
-										end,
-										'ClassIconOnRollover', true,
-									}, {
-										PlaceObj('XTemplateFunc', {
-											'name', "OnMouseButtonDoubleClick(self, pt, button)",
-											'func', function (self, pt, button)
-												local selectedUnit = self.context
-												if not IsKindOf(selectedUnit, "UnitData") or not g_SatelliteUI then return end
-												
-												local squad = selectedUnit.Squad
-												squad = squad and gv_Squads[squad]
-												SatelliteSetCameraDest(squad.CurrentSector, 300)
-											end,
-										}),
-										PlaceObj('XTemplateWindow', {
-											'comment', "context menu observer",
-											'__context', function (parent, context) return "satellite_context_menu" end,
-											'__class', "XContextWindow",
-											'ContextUpdateOnOpen', true,
-											'OnContextUpdate', function (self, context, ...)
-												local hasMenu = g_SatelliteUI and g_SatelliteUI.context_menu
-												hasMenu = hasMenu and hasMenu.window_state ~= "destroying" and hasMenu.idContent
-												local isOnMe = hasMenu and hasMenu.context.unit_id == self.parent.context.session_id
-												self.parent:SetSelected(isOnMe)
-											end,
-										}),
-										PlaceObj('XTemplateWindow', {
-											'HAlign', "right",
-											'MaxHeight', 105,
-											'LayoutMethod', "VList",
-										}, {
-											PlaceObj('XTemplateWindow', {
-												'comment', "only shows wounded and tired effect",
-												'__context', function (parent, context) return context.StatusEffects end,
-												'__class', "XContentTemplate",
-												'Id', "idStatusEffectsContainer",
-												'Margins', box(-3, 5, 0, 0),
-												'Dock', "top",
-												'HAlign', "left",
-												'VAlign', "top",
-												'MaxHeight', 80,
-												'LayoutMethod', "VList",
-												'LayoutVSpacing', -2,
-												'UseClipBox', false,
-												'FoldWhenHidden', true,
-												'HandleMouse', true,
-												'MouseCursor', "UI/Cursors/Cursor.tga",
-											}, {
-												PlaceObj('XTemplateForEach', {
-													'comment', "status effect",
-													'array', function (parent, context) return table.ifilter(context or empty_table, "ShownSatelliteView") end,
-													'__context', function (parent, context, item, i, n) return item end,
-												}, {
-													PlaceObj('XTemplateTemplate', {
-														'__template', "StatusEffectIcon",
-													}),
-													}),
-												PlaceObj('XTemplateFunc', {
-													'name', "OnMouseButtonDown(self, pos, button)",
-													'func', function (self, pos, button)
-														return "break"
-													end,
-												}),
-												PlaceObj('XTemplateTemplate', {
-													'comment', "contract warning",
-													'__context', function (parent, context) return parent:ResolveId("node").context end,
-													'__template', "MercContractWarningIcon",
-													'Dock', "left",
-												}),
-												}),
-											PlaceObj('XTemplateWindow', {
-												'Dock', "bottom",
-												'HAlign', "left",
-												'VAlign', "bottom",
-												'LayoutMethod', "VList",
-												'LayoutVSpacing', 2,
-											}, {
-												PlaceObj('XTemplateWindow', {
-													'__class', "XButton",
-													'RolloverTemplate', "PDAOperationRollover",
-													'RolloverAnchor', "right",
-													'RolloverAnchorId', "idContent",
-													'RolloverText', T(965623560296, --[[ModItemXTemplate SquadsAndMercs_old RolloverText]] "затычка"),
-													'Id', "idOperationContainer",
-													'Margins', box(-5, 4, 0, 0),
-													'Dock', "bottom",
-													'HAlign', "left",
-													'VAlign', "bottom",
-													'MinWidth', 30,
-													'MinHeight', 30,
-													'MaxWidth', 30,
-													'MaxHeight', 30,
-													'Background', RGBA(30, 37, 47, 255),
-													'BackgroundRectGlowSize', 1,
-													'BackgroundRectGlowColor', RGBA(30, 37, 47, 255),
-													'OnContextUpdate', function (self, context, ...)
-														local sector = context:GetSector()
-														self:SetVisible(true)
-														local operation_id = self.context.Operation
-														local is_operation_started = operation_id=="Idle" or operation_id=="Traveling" or operation_id=="Arriving" or sector and sector.started_operations and sector.started_operations[operation_id]
-														
-														if not is_operation_started then
-															self:SetVisible(false)
-															return
-														end
-														local operation = SectorOperations[self.context.Operation]
-														local icon = operation and operation.icon or ""
-														if self.idOperation.Image ~= icon then
-															self.idOperation:SetImage(icon)
-														end
-														self.idOperation:SetImageColor(GameColors.J)
-														-- Released merc.
-														if not context.Squad then return end
-																									
-														-- top parts are 1/8; side and bottom - 1/4
-														local progress_top_left, progress_top_right, progress_left, progress_right, progress_bottom = 0, 0, 0, 0, 0
-														local max_progress = context.OperationInitialETA or 0
-														if max_progress > 0 then
-															local current = max_progress -  GetOperationTimerETA(context, "prediction")--GetOperationTimeLeft(context, context.Operation)
-															local perc = MulDivRound(current or 0, 100, max_progress)
-															progress_top_right = Min(perc, 12)
-															perc = Max(perc - progress_top_right, 0)
-															progress_right = Min(perc, 25)
-															perc = Max(perc - progress_right, 0)
-															progress_bottom = Min(perc, 25)
-															perc = Max(perc - progress_bottom, 0)
-															progress_left = Min(perc, 25)
-															perc = Max(perc - progress_left, 0)
-															progress_top_left = Min(perc, 13)
-														end
-														self.idTopLeft:SetProgress(progress_top_left)
-														self.idTopRight:SetProgress(progress_top_right)
-														self.idLeft:SetProgress(progress_left)
-														self.idRight:SetProgress(progress_right)
-														self.idBottom:SetProgress(progress_bottom)
-													end,
-													'FocusedBackground', RGBA(30, 37, 47, 255),
-													'OnPress', function (self, gamepad)
-														InvokeShortcutAction(false, "idOperations")
-													end,
-													'RolloverBackground', RGBA(30, 37, 47, 255),
-													'PressedBackground', RGBA(30, 37, 47, 255),
-												}, {
-													PlaceObj('XTemplateWindow', {
-														'comment', "operation icon",
-														'__class', "XImage",
-														'Id', "idOperation",
-														'HAlign', "center",
-														'VAlign', "center",
-														'MinWidth', 24,
-														'MinHeight', 24,
-														'MaxWidth', 24,
-														'MaxHeight', 24,
-														'Image', "UI/Icons/unknown_add",
-														'ImageFit', "stretch",
-														'ImageColor', RGBA(61, 122, 153, 255),
-													}),
-													PlaceObj('XTemplateWindow', {
-														'Id', "idProgressBarContainer",
-														'MouseCursor', "UI/Cursors/Pda_Hand.tga",
-													}, {
-														PlaceObj('XTemplateWindow', {
-															'__class', "OperationProgressBarSection",
-															'Id', "idTopLeft",
-															'HAlign', "left",
-															'VAlign', "top",
-															'MinWidth', 15,
-															'MinHeight', 2,
-															'MaxWidth', 15,
-															'MaxHeight', 2,
-															'UseClipBox', false,
-															'MaxProgress', 13,
-														}),
-														PlaceObj('XTemplateWindow', {
-															'__class', "OperationProgressBarSection",
-															'Id', "idTopRight",
-															'Margins', box(15, 0, 0, 0),
-															'HAlign', "left",
-															'VAlign', "top",
-															'MinWidth', 15,
-															'MinHeight', 2,
-															'MaxWidth', 15,
-															'MaxHeight', 2,
-															'UseClipBox', false,
-															'MaxProgress', 12,
-														}),
-														PlaceObj('XTemplateWindow', {
-															'__class', "OperationProgressBarSection",
-															'Id', "idRight",
-															'HAlign', "right",
-															'VAlign', "top",
-															'MinWidth', 2,
-															'MinHeight', 30,
-															'MaxWidth', 2,
-															'MaxHeight', 30,
-															'UseClipBox', false,
-															'Horizontal', false,
-															'MaxProgress', 25,
-														}),
-														PlaceObj('XTemplateWindow', {
-															'__class', "OperationProgressBarSection",
-															'Id', "idBottom",
-															'HAlign', "right",
-															'VAlign', "bottom",
-															'MinWidth', 30,
-															'MinHeight', 2,
-															'MaxWidth', 30,
-															'MaxHeight', 2,
-															'UseClipBox', false,
-															'MaxProgress', 25,
-														}),
-														PlaceObj('XTemplateWindow', {
-															'__class', "OperationProgressBarSection",
-															'Id', "idLeft",
-															'HAlign', "left",
-															'VAlign', "bottom",
-															'MinWidth', 2,
-															'MinHeight', 30,
-															'MaxWidth', 2,
-															'MaxHeight', 30,
-															'UseClipBox', false,
-															'Horizontal', false,
-															'MaxProgress', 25,
-														}),
-														}),
-													PlaceObj('XTemplateFunc', {
-														'name', "OnMousePos",
-														'func', function (self, ...)
-															return "break"
-														end,
-													}),
-													PlaceObj('XTemplateFunc', {
-														'name', "Open(self)",
-														'func', function (self)
-															self.idTopLeft:SetProgress(0)
-															self.idTopRight:SetProgress(0)
-															self.idLeft:SetProgress(0)
-															self.idRight:SetProgress(0)
-															self.idBottom:SetProgress(0)
-															XContextWindow.Open(self)
-														end,
-													}),
-													}),
-												}),
-											}),
-										}),
-									}),
-								}),
-							PlaceObj('XTemplateGroup', {
-								'__condition', function (parent, context) return GetDialog(GetDialog(parent).parent) == GetDialog("FullscreenGameDialogs") end,
-							}, {
-								PlaceObj('XTemplateForEach', {
-									'comment', "Mercs in the Current Team",
-									'array', function (parent, context) return context and context.units end,
-									'__context', function (parent, context, item, i, n)
-										local unit = g_Units[item]
-										if unit and InventoryIsCombatMode(unit) then 
-											return unit
-										end
-										return gv_SatelliteView and  gv_UnitData[item] or g_Units[item] or gv_UnitData[item]
-									end,
-									'run_after', function (child, context, item, i, n, last)
-										child.unit = context
-										child:SetContext(child.unit)
-										child.idx = i
-									end,
-								}, {
-									PlaceObj('XTemplateTemplate', {
-										'__template', "HUDMerc",
-										'RolloverAnchorId', "idParty",
-										'LayoutMethod', "HWrap",
-										'OnContextUpdate', function (self, context, ...)
-											HUDMercClass.OnContextUpdate(self, context, ...)
-											self.unit = context
-										end,
-										'OnPress', function (self, gamepad)
-											self:SelectUnit()
-										end,
-									}, {
-										PlaceObj('XTemplateFunc', {
-											'name', "Open(self)",
-											'func', function (self)
-												local noClr = const.PDAUIColors.noClr
-												self.idContent:SetBackground(noClr)
-												self.idContent:SetBackgroundRectGlowSize(0)
-												local dlg = GetDialog(self)
-												local ctx = self:GetContext()
-												if ctx and dlg.selected_unit and dlg.selected_unit.session_id == ctx.session_id then
-													self:SetSelected(true)
-												end
-												HUDMercClass.Open(self)
-											end,
-										}),
-										PlaceObj('XTemplateFunc', {
-											'name', "SelectUnit(self)",
-											'func', function (self)
-												local dlg = GetDialog(self)
-												local myUnit = self.unit
-												local invUnit = dlg.selected_unit
-												if IsCoOpGame() then
-													if not myUnit:IsLocalPlayerControlled() then											
-														if InventoryIsValidGiveDistance(InventoryStartDragContext, myUnit)then
-															local args = { src_container = InventoryStartDragContext, src_slot = InventoryStartDragSlotName,
-																			dest_container = myUnit, dest_slot = GetContainerInventorySlotName(myUnit)}
-															if InventoryDragItems then
-																args.multi_items = true
-																for i, item in ipairs(InventoryDragItems) do		
-																	args.item = item
-																	args.no_ui_respawn = i~=#InventoryDragItems
-																	local r1, r2  = MoveItem(args) --this will merge stacks and move, if you want only move use amount = item.Amount				
-																	--		print(item.class, r1, r2)
-																end															
-																InventoryDeselectMultiItems()
-																PlayFX("GiveItem", "start",  GetInventoryItemDragDropFXActor(item))
-															elseif InventoryDragItem then
-																--give drag item
-																args.item = InventoryDragItem
-																MoveItem(args)
-															end
-															--CancelDrag(dlg)
-															return
-														end
-													end
-												end
-												
-												self:SetSelected(true)
-												if myUnit and invUnit and myUnit.session_id == invUnit.session_id then
-													return
-												end
-												
-												local tacticalUnit = g_Units[myUnit.session_id]
-												if tacticalUnit and tacticalUnit:CanBeControlled() then
-													SelectObj(g_Units[myUnit.session_id])
-												end
-												
-												local win, button 
-												if IsEquipSlot(InventoryStartDragSlotName) then
-													local slot_ctrl = dlg:GetSlotByName(InventoryStartDragSlotName)
-													win  = slot_ctrl.drag_win
-													button = slot_ctrl.drag_button
-													slot_ctrl.drag_win = false
-													local desktop = slot_ctrl.desktop
-													if desktop:GetMouseCapture()==slot_ctrl then
-														desktop:SetMouseCapture(false)	
-													end
-												end
-												
-												local prev_unit_id = invUnit.session_id
-												dlg.selected_unit = myUnit
-												dlg.compare_mode_weaponslot = self.unit.current_weapon=="Handheld A" and 1 or 2
-												local context = dlg:GetContext()
-												context.unit = myUnit
-												InventoryClosePopup(dlg)
-												dlg:SetContext(context)
-												dlg:OnContextUpdate(context)
-												dlg.idUnitInfo:RespawnContent()
-												dlg:CompareWeaponSetUI()
-												--dlg:ActionsUpdated()
-												-- move selected unit backpack into view
-												local ctrl_right_area = dlg.idScrollArea --= ScrollIntoView
-												for _, wnd in ipairs(ctrl_right_area) do
-													local wcontext = wnd:GetContext()
-													local wnd_id = wnd:GetContext().session_id
-													local is_grayouted = InventoryUIGrayOut(wcontext)
-													wnd:SetTransparency(is_grayouted and 150 or 0)
-													if wnd and wnd_id then
-														if wnd_id==prev_unit_id then
-															wnd.idName:SetHightlighted(false)
-														end	
-														if wnd_id==context.unit.session_id then
-															ctrl_right_area:ScrollIntoView(wnd)
-															wnd.idName:SetHightlighted(true)
-														end
-													end	
-												end
-												
-												for _, wnd in ipairs(self.parent) do
-													wnd:SetSelected(self==wnd)
-												end
-												
-												if IsEquipSlot(InventoryStartDragSlotName) then
-													local dlg = GetDialog(self)
-													local slot_ctrl = dlg:GetSlotByName(InventoryStartDragSlotName)
-													slot_ctrl.drag_win = win
-													slot_ctrl.drag_button = button
-													DragSource = slot_ctrl
-													slot_ctrl.desktop:SetMouseCapture(slot_ctrl)
-												end
-												if InventoryDragItem and not InventoryDragItems then
-													HighlightEquipSlots(InventoryDragItem, true)
-													HighlightWeaponsForAmmo(InventoryDragItem, true)
-													--HighlightAPCost(InventoryDragItem, true, StartDragSource)
-												end
-											end,
-										}),
-										PlaceObj('XTemplateFunc', {
-											'name', "IsDropTarget(self, draw_win, pt)",
-											'func', function (self, draw_win, pt)
-												return true
-											end,
-										}),
-										PlaceObj('XTemplateFunc', {
-											'name', "OnDropEnter(self, draw_win, pt, drag_source)",
-											'func', function (self, draw_win, pt, drag_source)
-												self:SetRollover(true)
-												local valid, mouse_text = InventoryIsValidGiveDistance(InventoryStartDragContext, self:GetContext())
-												if (not gv_SatelliteView or InventoryIsCombatMode()) and not valid then
-													InventoryShowMouseText(true,mouse_text)
-													return
-												end
-												if InventoryDragItem and g_Combat and IsCoOpGame() and not self.context:IsLocalPlayerControlled() then
-													mouse_text = T(406257152368, "Cannot pick").."\n"..T(341907478094, "Controlled by <OtherPlayerName()>")
-												elseif InventoryDragItem then											
-													mouse_text = InventoryGetMoveIsInvalidReason(self.context, InventoryStartDragContext)
-													if not mouse_text then
-														local ap_cost, unit_ap, action_name = InventoryItemsAPCost(self.context, "Inventory", false, false)
-														mouse_text = action_name or ""
-														if InventoryIsCombatMode() and ap_cost and ap_cost>0 then
-															mouse_text = InventoryFormatAPMouseText(unit_ap, ap_cost, mouse_text)
-														end
-													end
-												end	
-												InventoryShowMouseText(not not mouse_text,mouse_text)
-											end,
-										}),
-										PlaceObj('XTemplateFunc', {
-											'name', "OnDropLeave(self, drag_win)",
-											'func', function (self, drag_win)
-												self:SetRollover(false)
-												InventoryShowMouseText(false)
-											end,
-										}),
-										PlaceObj('XTemplateFunc', {
-											'name', "OnDrop(self, drag_win, pt, drag_source_win)",
-											'func', function (self, drag_win, pt, drag_source_win)
-												self:SelectUnit()
-												return "not valid target"
-											end,
-										}),
-										PlaceObj('XTemplateFunc', {
-											'name', "SetHighlighted(self, selected)",
-											'func', function (self, selected)
-												if type(selected) == "string" then
-													local stat = Presets.MercStat.Default[selected]
-													if stat then
-														local icon = stat.Icon
-														local value = self.context[selected]
-														self.idStatIcon:SetImage(icon)
-														self.idStatCount:SetText(value)
-													else
-														selected = true
-													end
-												end
-												
-												self.highlighted = selected
-												--self:OnSetRollover()
-												if self.ClassIconOnRollover then
-													self.idClass:SetVisible(self.rollover or selected)
-												end	
-												self:SetupStyle(self.rollover or selected)
-											end,
-										}),
-										PlaceObj('XTemplateFunc', {
-											'name', "SetHighlightedStatOrIcon(self, selected)",
-											'func', function (self, selected)
-												if type(selected) == "string" then
-													local stat = Presets.MercStat.Default[selected]
-													if stat then
-														local icon = stat.Icon
-														local value = self.context[selected]
-														self.idStatIcon:SetImage(icon)
-														self.idStatCount:SetText(value)
-														self.idStatIcon:SetImageColor(GameColors.J)
-													else
-														self.idStatIcon:SetImage(selected)
-														self.idStatCount.parent:SetVisible(false)
-														self.idStatIcon:SetImageColor(GameColors.J)
-													end
-												end
-												
-												self.highlighted = selected
-												if self.ClassIconOnRollover then
-													self.idClass:SetVisible(self.rollover or selected)
-												end	
-												
-												if type(self.highlighted) == "string" then
-													self.idBar:SetVisible(false)
-													self.idStatHighlight:SetVisible(true)
-												else
-													self.idBar:SetVisible(true)
-													self.idStatCount.parent:SetVisible(true)
-													self.idStatHighlight:SetVisible(false)
-												end
-											end,
-										}),
-										PlaceObj('XTemplateFunc', {
-											'name', "SetupStyle(self, rollover)",
-											'func', function (self, rollover)
-												if not self.idContent then
-													return
-												end
-												local hightlighted_string = type(self.highlighted) == "string"
-												local selected = self.selected or (self.highlighted and not hightlighted_string)or rollover
-												local noClr = const.PDAUIColors.noClr
-												local selectedColored =const.HUDUIColors.selectedColored
-												local defaultColor = const.HUDUIColors.defaultColor
-												self.idContent:SetImage(selected and "UI/PDA/os_portrait_selection" or "")
-												self.idBottomPart:SetBackground(selected and noClr or defaultColor)
-												self.idBottomPart:SetBackgroundRectGlowColor(selected and noClr or defaultColor)
-												self.idContent:SetBackground(selected and RGBA(255,255,255,255) or noClr)
-												
-												if hightlighted_string then
-													self.idBar:SetVisible(false)
-													self.idStatHighlight:SetVisible(true)
-												else
-													self.idBar:SetVisible(true)
-													self.idStatHighlight:SetVisible(false)
-												end
-												--self.idContent:SetFocusedBackground(noClr)
-												--self.idContent:SetBackgroundRectGlowColor(selected and selectedColored or noClr)
-												local name = self:ResolveId("idName")
-												if name then
-													self.idName:SetTextStyle(selected and "PDAMercNameCard" or "PDAMercNameCard_Light")
-												end
-												
-												if self.idAPIndicator then
-													self.idAPIndicator:SetBackground(selected and selectedColored or defaultColor)
-													self.idAPIndicator:SetBackgroundRectGlowSize(selected and 0 or 1)
-													self.idAPIndicator:SetBackgroundRectGlowColor(selected and selectedColored or defaultColor)
-													self.idAPText:SetTextStyle(selected and "HUDHeaderDark" or "HUDHeader")
-												end
-											end,
-										}),
-										PlaceObj('XTemplateFunc', {
-											'name', "SetSelected(self, selected)",
-											'func', function (self, selected)
-												--if self.selected == selected then return false end
-												self.selected = selected
-												self:SetupStyle()
-											end,
-										}),
-										PlaceObj('XTemplateFunc', {
-											'name', "OnSetRollover(self, rollover)",
-											'func', function (self, rollover)
-												HUDMercClass.OnSetRollover(self, rollover)
-												self:SetupStyle(rollover)
-											end,
-										}),
-										PlaceObj('XTemplateCode', {
-											'comment', "OnMsg.StatusEffectAdded/Removed",
-											'run', function (self, parent, context)
-												function OnMsg.StatusEffectAdded(unit, status, stacks, reason)
-													if status ~= "Hidden" then return end
-													if parent.context ~= unit then return end
-													HUDMercClass.SetupStyle(parent)
-												end
-												
-												function OnMsg.StatusEffectRemoved(unit, status, stacks, reason)
-													if status ~= "Hidden" then return end
-													if parent.context ~= unit then return end
-													HUDMercClass.SetupStyle(parent)
-												end
-											end,
-										}),
-										PlaceObj('XTemplateWindow', {
-											'__parent', function (parent, context) return parent.idPortraitBG end,
-											'Id', "idStatHighlight",
-											'Dock', "box",
-											'VAlign', "bottom",
-											'FoldWhenHidden', true,
-											'DrawOnTop', true,
-										}, {
-											PlaceObj('XTemplateWindow', {
-												'HAlign', "left",
-												'VAlign', "bottom",
-												'LayoutMethod', "HList",
-											}, {
-												PlaceObj('XTemplateWindow', {
-													'Padding', box(2, 2, 2, 2),
-													'HAlign', "right",
-													'VAlign', "bottom",
-													'MinWidth', 24,
-													'MinHeight', 24,
-													'MaxWidth', 24,
-													'MaxHeight', 24,
-													'Background', RGBA(32, 35, 47, 255),
-													'BackgroundRectGlowColor', RGBA(32, 35, 47, 255),
-												}, {
-													PlaceObj('XTemplateWindow', {
-														'__class', "XImage",
-														'Id', "idStatIcon",
-														'Image', "UI/Icons/st_marksmanship",
-														'ImageFit', "stretch",
-														'ImageColor', RGBA(130, 128, 120, 255),
-													}),
-													}),
-												PlaceObj('XTemplateWindow', {
-													'HAlign', "right",
-													'VAlign', "bottom",
-													'MinWidth', 24,
-													'MinHeight', 24,
-													'MaxHeight', 24,
-													'Background', RGBA(32, 35, 47, 255),
-													'BackgroundRectGlowColor', RGBA(32, 35, 47, 255),
-												}, {
-													PlaceObj('XTemplateWindow', {
-														'__class', "XText",
-														'Id', "idStatCount",
-														'HAlign', "center",
-														'VAlign', "center",
-														'FoldWhenHidden', true,
-														'TextStyle', "HUDHeaderSmallLight",
-														'ContextUpdateOnOpen', true,
-													}),
-													}),
-												}),
-											}),
-										PlaceObj('XTemplateWindow', {
-											'HAlign', "right",
-										}, {
-											PlaceObj('XTemplateWindow', {
-												'Id', "idStatusHighlighter",
-												'VAlign', "top",
-												'LayoutMethod', "VList",
-												'Visible', false,
-												'FoldWhenHidden', true,
-											}, {
-												PlaceObj('XTemplateWindow', {
-													'comment', "only shows wounded effect",
-													'__context', function (parent, context) return context.StatusEffects end,
-													'__class', "XContentTemplate",
-													'Id', "idStatusEffectsContainer",
-													'Margins', box(0, 5, 0, 0),
-													'HAlign', "left",
-													'VAlign', "top",
-													'LayoutMethod', "VWrap",
-													'LayoutVSpacing', -2,
-													'UseClipBox', false,
-													'FoldWhenHidden', true,
-												}, {
-													PlaceObj('XTemplateForEach', {
-														'comment', "status effect",
-														'array', function (parent, context) return context.Wounded and { context[context.Wounded] } or empty_table end,
-														'condition', function (parent, context, item, i) return item end,
-														'__context', function (parent, context, item, i, n) return item end,
-													}, {
-														PlaceObj('XTemplateTemplate', {
-															'__condition', function (parent, context) return context end,
-															'__template', "StatusEffectIcon",
-															'VAlign', "top",
-														}),
-														}),
-													}),
-												}),
-											PlaceObj('XTemplateWindow', {
-												'__condition', function (parent, context) return IsKindOf(context, "Unit") and g_Combat end,
-												'VAlign', "bottom",
-												'LayoutMethod', "VList",
-												'LayoutVSpacing', 2,
-											}, {
-												PlaceObj('XTemplateWindow', {
-													'Id', "idAPIndicator",
-													'Margins', box(-5, 0, 0, 0),
-													'Padding', box(2, 2, 2, 2),
-													'HAlign', "left",
-													'VAlign', "bottom",
-													'MinWidth', 30,
-													'MinHeight', 30,
-													'MaxWidth', 30,
-													'MaxHeight', 30,
-													'Background', RGBA(230, 222, 203, 255),
-													'BackgroundRectGlowColor', RGBA(230, 222, 203, 255),
-												}, {
-													PlaceObj('XTemplateWindow', {
-														'__class', "XText",
-														'Id', "idAPText",
-														'HAlign', "center",
-														'VAlign', "center",
-														'FoldWhenHidden', true,
-														'TextStyle', "HUDHeaderDark",
-														'ContextUpdateOnOpen', true,
-														'OnContextUpdate', function (self, context, ...)
-															if not IsKindOf(context, "Unit") then return end
-															self.parent:SetVisible(not not g_Combat and not context:IsDead() and not context:IsDowned())
-															self:SetText(self.Text)
-															XContextControl.OnContextUpdate(self, context)
-														end,
-														'Translate', true,
-													}),
-													}),
-												}),
-											}),
-										}),
-									}),
-								}),
-							PlaceObj('XTemplateGroup', {
-								'__condition', function (parent, context) return IsKindOf(GetDialog(parent), "IModeCommonUnitControl") or IsKindOf(GetDialog(parent), "IModeDeployment") end,
-							}, {
-								PlaceObj('XTemplateForEach', {
-									'comment', "Mercs in the Current Team",
-									'array', function (parent, context) return context and context.units end,
-									'condition', function (parent, context, item, i) return IsKindOf(item, "Unit") and item.team and item.team.control == "UI" end,
-									'__context', function (parent, context, item, i, n) return item end,
-								}, {
-									PlaceObj('XTemplateTemplate', {
-										'__template', "HUDMerc",
-										'LayoutMethod', "HWrap",
-										'OnContextUpdate', function (self, context, ...)
-											local unit = self.context
-											local unitSelected = not not table.find(Selection, unit)
-											self:SetSelected(Selection[1] == unit and "full" or unitSelected)
-											self:SetupStyle()
-											local showActionInfo = SelectedObj and IsCombatActionForAlly(GetDialog(self).action)
-											self.dontShowRollover = showActionInfo
-										end,
-										'OnPress', function (self, gamepad)
-											local selectedUnit = self.context
-											local igim = GetInGameInterfaceModeDlg()
-											
-											if IsCombatActionForAlly(igim.action) and (igim.action.ActionType ~= "Ranged Attack") and (igim.action.ActionType ~= "Melee Attack") then
-												if SelectedObj and not SelectedObj.move_attack_target then
-													local targets = igim.action:GetTargets({SelectedObj})
-													if table.find(targets, selectedUnit) then
-														local _, err = CanBandageUI(SelectedObj, { target = selectedUnit })
-														if igim.action:GetUIState({SelectedObj}) == "enabled" and not err then
-															igim:StartMoveAndAttack(SelectedObj, igim.action, selectedUnit, SelectedObj:GetClosestMeleeRangePos(selectedUnit), {target = selectedUnit})
-														end
-													end
-												end
-												return "break"
-											end
-											
-											local canBeControlled, reason = selectedUnit:CanBeControlled()
-											if not canBeControlled and reason ~= "not_local_turn" then
-												return "break"
-											end
-											
-											if selectedUnit == SelectedObj and not IsPointInsidePoly2D(selectedUnit:GetVisualPos(), CalcCombatZone()) or
-												cameraTac.GetFloor() ~= GetStepFloor(selectedUnit) then
-												SnapCameraToObj(selectedUnit, nil, GetStepFloor(selectedUnit))
-											end
-											
-											if g_Combat and not gv_DeploymentStarted and not IsKindOf(igim, "IModeCombatMovement") then
-												SetInGameInterfaceMode("IModeCombatMovement")
-												SelectObj(selectedUnit)
-											elseif IsKindOf(igim, "IModeExploration") then
-												igim:HandleUnitSelection({selectedUnit})
-											else -- Deployment
-												SelectObj(selectedUnit)
-											end
-											
-											return "break"
-										end,
-										'AltPress', true,
-										'OnAltPress', function (self, gamepad)
-											local selectedUnit = self.context						
-											local igim = GetInGameInterfaceModeDlg()
-											
-											local squad = gv_Squads[self.context.Squad]	
-											local context = {
-												sector_id = squad.CurrentSector,
-												squad_id = squad.UniqueId,
-												actions = { "idInventory", "actionOpenCharacterContextMenu", "actionLevelUpViewContextMenu" },
-												unit_id = selectedUnit.session_id
-											}
-											local ctxMenu = XTemplateSpawn("SatelliteViewMapContextMenu", igim, context)
-											ctxMenu:SetZOrder(999)
-											ctxMenu:SetAnchor(self.box)
-											ctxMenu:Open()
-											self.desktop:SetModalWindow(ctxMenu)
-										end,
-										'ClassIconOnRollover', true,
-									}, {
-										PlaceObj('XTemplateFunc', {
-											'name', "OnMouseButtonDoubleClick(self, pt, button)",
-											'func', function (self, pt, button)
-												local selectedUnit = self.context
-												if not IsKindOf(selectedUnit, "Unit") or ActionCameraPlaying then return end
-												
-												SnapCameraToObj(selectedUnit, "force", GetStepFloor(selectedUnit))
-											end,
-										}),
-										PlaceObj('XTemplateFunc', {
-											'name', "OnSetRollover(self, rollover)",
-											'func', function (self, rollover)
-												local context = self.context								
-												
-												local igim = GetInGameInterfaceModeDlg()
-												if igim and IsCombatActionForAlly(igim.action) then
-													if igim.action.id == "Bandage" then
-														local _, err = CanBandageUI(SelectedObj, { target = context })
-														local bandageError = err and Untranslated(_InternalTranslate(err, { ["flavor"] = "", ["/flavor"] = "" }))
-														SetAPIndicator(bandageError and 0 or false, "bandage-error", bandageError, nil, "force")
-														context:SetHighlightReason("bandage-target", not err)
-													end
-													SetAPIndicator(false, "melee-attack")
-													SetAPIndicator(false, "unreachable")
-												end
-												
-												local noRollover = context:IsDead() or not context:IsLocalPlayerControlled()
-												if rollover and not noRollover then
-													SetActiveBadgeExclusive(self.context)
-												elseif context.ui_badge then
-													context.ui_badge:SetActive(false, "exclusive")
-													context:SetHighlightReason("bandage-target", false)
-												end
-												
-												if noRollover then
-													rollover = false
-												end
-												
-												HUDMercClass.OnSetRollover(self, rollover)
-											end,
-										}),
-										PlaceObj('XTemplateFunc', {
-											'name', "SetupStyle(self, ...)",
-											'func', function (self, ...)
-												if IsKindOf(GetDialog(self.parent), "IModeDeployment") then
-													local deployed = IsUnitDeployed(self.context)
-													if not deployed then
-														self.idPortrait:SetEnabled(false)
-														self.idBar.HPColor = GameColors.D
-													else
-														self.idPortrait:SetEnabled(true)
-														self.idBar.HPColor = GameColors.Player
-													end
-												end
-												HUDMercClass.SetupStyle(self, ...)
-											end,
-										}),
-										PlaceObj('XTemplateFunc', {
-											'name', "GetMouseCursor(self)",
-											'func', function (self)
-												local igim = GetInGameInterfaceModeDlg()
-												if igim.action and igim.action.id == "Bandage" then
-													if CanBandageUI(SelectedObj, { target = self.context }) then
-														return "UI/Cursors/Healing_on.tga"
-													else
-														return "UI/Cursors/Healing_off.tga"
-													end
-												end
-												
-												return "UI/Cursors/Hand.tga"
-											end,
-										}),
-										PlaceObj('XTemplateCode', {
-											'comment', "OnMsg.StatusEffectAdded/Removed",
-											'run', function (self, parent, context)
-												function OnMsg.StatusEffectAdded(unit, status, stacks, reasons)
-													if status ~= "Hidden" then return end
-													if parent.context ~= unit then return end
-													HUDMercClass.SetupStyle(parent)
-												end
-												
-												function OnMsg.StatusEffectRemoved(unit, status, stacks, reason)
-													if status ~= "Hidden" then return end
-													if parent.context ~= unit then return end
-													HUDMercClass.SetupStyle(parent)
-												end
-											end,
-										}),
-										PlaceObj('XTemplateWindow', {
-											'HAlign', "right",
-											'VAlign', "bottom",
-											'LayoutMethod', "VList",
-										}, {
-											PlaceObj('XTemplateWindow', nil, {
-												PlaceObj('XTemplateWindow', {
-													'__class', "XImage",
-													'RolloverTemplate', "RolloverGeneric",
-													'RolloverAnchor', "right",
-													'RolloverText', T(299219879155, --[[ModItemXTemplate SquadsAndMercs_old RolloverText]] "Идёт перевязка."),
-													'RolloverOffset', box(15, 0, 0, 0),
-													'Id', "idBeingBandagedIndicator",
-													'HAlign', "center",
-													'VAlign', "top",
-													'MinWidth', 25,
-													'MinHeight', 25,
-													'MaxWidth', 25,
-													'MaxHeight', 25,
-													'Visible', false,
-													'HandleMouse', true,
-													'Image', "UI/Hud/hud_bandaging",
-													'ImageFit', "stretch",
-													'ImageScale', point(900, 900),
-												}),
-												PlaceObj('XTemplateWindow', {
-													'__context', function (parent, context) return context.StatusEffects end,
-													'__class', "XContentTemplate",
-													'Id', "idWounded",
-													'Margins', box(3, 0, 0, 0),
-													'LayoutMethod', "HList",
-													'HandleMouse', true,
-													'MouseCursor', "UI/Cursors/Cursor.tga",
-												}, {
-													PlaceObj('XTemplateTemplate', {
-														'__context', function (parent, context) return table.find_value(context, "class", "Wounded") end,
-														'__condition', function (parent, context) return not not context end,
-														'__template', "StatusEffectIcon",
-													}),
-													PlaceObj('XTemplateTemplate', {
-														'__context', function (parent, context) return table.find_value(context, "class", "Tired") or table.find_value(context, "class", "Exhausted") end,
-														'__condition', function (parent, context) return not not context end,
-														'__template', "StatusEffectIcon",
-													}),
-													PlaceObj('XTemplateFunc', {
-														'name', "OnMouseButtonDown(self, pos, button)",
-														'func', function (self, pos, button)
-															return "break"
-														end,
-													}),
-													}),
-												}),
-											PlaceObj('XTemplateWindow', {
-												'__context', function (parent, context) return "combat_bar_enemies" end,
-												'__condition', function (parent, context) return not IsKindOf(GetDialog(parent), "IModeDeployment") end,
-												'__class', "XContextWindow",
-												'RolloverTemplate', "RolloverGeneric",
-												'RolloverAnchor', "right",
-												'RolloverOffset', box(10, 0, 0, 0),
-												'IdNode', true,
-												'HAlign', "left",
-												'VAlign', "bottom",
-												'ContextUpdateOnOpen', true,
-												'OnContextUpdate', function (self, context, ...)
-													local partyMemberWnd = self:ResolveId("node")
-													local member = partyMemberWnd.context
-													local targets = GetTargetsToShowInPartyUI(member)
-													local targetCount = #targets
-													self:SetVisible(targetCount > 0 and not gv_Deployment)
-													rawset(self[1], "enemies", targets)
-													self:SetRolloverText(T{914820786173, "Visible Enemies: <enemyCount>", enemyCount = targetCount})
-													self.idCount:SetText(targetCount)
-												end,
-											}, {
-												PlaceObj('XTemplateWindow', {
-													'__class', "XImage",
-													'IdNode', false,
-													'HandleMouse', true,
-													'Image', "UI/Hud/enemies_in_range",
-													'Columns', 2,
-													'ImageScale', point(900, 900),
-												}, {
-													PlaceObj('XTemplateFunc', {
-														'name', "OnMouseButtonDown(self, pos, button)",
-														'func', function (self, pos, button)
-															local enemies = rawget(self, "enemies")
-															if not enemies or #enemies == 0 then return end
-															local lastTarget = rawget(self, "target")
-															if not lastTarget or lastTarget == #enemies then lastTarget = 0 end
-															lastTarget = lastTarget + 1
-															rawset(self, "target", lastTarget)
-															SnapCameraToObj(enemies[lastTarget], nil, GetStepFloor(enemies[lastTarget]))
-															return "break"
-														end,
-													}),
-													PlaceObj('XTemplateWindow', {
-														'__class', "XText",
-														'Id', "idCount",
-														'HAlign', "right",
-														'VAlign', "top",
-														'Clip', false,
-														'UseClipBox', false,
-														'FoldWhenHidden', true,
-														'TextStyle', "VisibleEnemiesUICount",
-													}),
-													}),
-												}),
-											PlaceObj('XTemplateWindow', {
-												'Id', "idAPIndicator",
-												'Margins', box(-5, 0, 0, 0),
-												'Padding', box(2, 2, 2, 2),
-												'HAlign', "left",
-												'VAlign', "bottom",
-												'MinWidth', 30,
-												'MinHeight', 30,
-												'MaxWidth', 30,
-												'MaxHeight', 30,
-												'Background', RGBA(230, 222, 203, 255),
-												'BackgroundRectGlowColor', RGBA(230, 222, 203, 255),
-											}, {
-												PlaceObj('XTemplateWindow', {
-													'__class', "XText",
-													'Id', "idAPText",
-													'HAlign', "center",
-													'VAlign', "center",
-													'FoldWhenHidden', true,
-													'TextStyle', "HUDHeaderDark",
-													'ContextUpdateOnOpen', true,
-													'OnContextUpdate', function (self, context, ...)
-														if not IsKindOf(context, "Unit") then return end
-														self.parent:SetVisible(not not g_Combat and not context:IsDead() and not context:IsDowned())
-														self:SetText(self.Text)
-														XContextControl.OnContextUpdate(self, context)
-													end,
-													'Translate', true,
-												}),
-												PlaceObj('XTemplateWindow', {
-													'__class', "XImage",
-													'Id', "idBandageIndicator",
-													'Visible', false,
-													'Image', "UI/Hud/Status effects/treating",
-													'ImageFit', "stretch",
-												}),
-												}),
-											PlaceObj('XTemplateWindow', {
-												'__condition', function (parent, context) return IsKindOf(GetDialog(parent), "IModeDeployment") end,
-												'RolloverTemplate', "SmallRolloverGeneric",
-												'RolloverAnchor', "top",
-												'RolloverText', T(346949314253, --[[ModItemXTemplate SquadsAndMercs_old RolloverText]] "Развёртывание не завершено"),
-												'RolloverOffset', box(-15, 0, 0, -15),
-												'Id', "idDeployed",
-												'Margins', box(-5, 0, 0, -5),
-												'HAlign', "right",
-												'VAlign', "bottom",
-												'HandleMouse', true,
-											}, {
-												PlaceObj('XTemplateWindow', {
-													'__class', "XContextImage",
-													'FoldWhenHidden', true,
-													'Image', "UI/Hud/notification",
-													'ContextUpdateOnOpen', true,
-													'OnContextUpdate', function (self, context, ...)
-														if not IsKindOf(context, "Unit") then return end
-														local deployed = IsUnitDeployed(context)
-														self.parent:SetVisible(not deployed)
-														XContextControl.OnContextUpdate(self, context)
-													end,
-												}),
-												}),
-											}),
-										PlaceObj('XTemplateWindow', {
-											'comment', "sus bar",
-											'__parent', function (parent, context) return parent.idBottomPart end,
-											'__condition', function (parent, context) return not g_Combat end,
-											'__class', "SmoothBar",
-											'Margins', box(0, 0, 0, -3),
-											'Dock', "top",
-											'VAlign', "top",
-											'MinHeight', 3,
-											'MaxHeight', 3,
-											'Background', RGBA(52, 55, 61, 255),
-											'BindTo', "suspicion",
-											'FillColor', RGBA(222, 60, 75, 255),
-										}, {
-											PlaceObj('XTemplateFunc', {
-												'name', "Open(self)",
-												'func', function (self)
-													self.MaxValue = SuspicionThreshold
-													SmoothBar.Open(self)
-												end,
-											}),
-											}),
-										PlaceObj('XTemplateWindow', {
-											'comment', "sus indicator",
-											'__context', function (parent, context) return "UnitsSusBeingRaised" end,
-											'__parent', function (parent, context) return parent.idPortraitBG end,
-											'__condition', function (parent, context) return not g_Combat end,
-											'__class', "XContextImage",
-											'Id', "idSusIndicator",
-											'Margins', box(0, 0, 5, 0),
-											'HAlign', "right",
-											'MinWidth', 15,
-											'MinHeight', 20,
-											'MaxWidth', 15,
-											'MaxHeight', 20,
-											'Visible', false,
-											'DrawOnTop', true,
-											'Image', "UI/Hud/enemy_detection",
-											'ImageFit', "width",
-											'ContextUpdateOnOpen', true,
-											'OnContextUpdate', function (self, context, ...)
-												local obj = self:ResolveId("node")
-												obj = obj and obj.context
-												self:SetVisible(UnitsSusBeingRaised and obj and UnitsSusBeingRaised[obj.handle])
-											end,
-										}),
-										}),
-									}),
-								}),
-							}),
-						PlaceObj('XTemplateFunc', {
-							'name', "RespawnContent(self, ...)",
-							'func', function (self, ...)
-								-- This will prevent the tactical view party from updating during satellite gameplay.
-								-- The UI is then refreshed upon exiting satellite view.
-								if not self:IsVisible() and not GetParentOfKind(self, "PDAClass") then return end
-								if UIRebuildSpam then
-									DbgUIRebuild("party inner")
-								end
-								XContentTemplate.RespawnContent(self)
-							end,
-						}),
-						}),
-					PlaceObj('XTemplateFunc', {
-						'name', "UpdateMeasure(self, max_width, max_height)",
-						'func', function (self, max_width, max_height)
-							if not self.measure_update then return end
-							
-							self:SetScaleModifier(point(1000, 1000))
-							local _, yM = ScaleXY(self.parent.scale, 0, 150) -- command button and snype roughly
-							max_height = max_height - yM
-							
-							XControl.UpdateMeasure(self, max_width, max_height)
-							if self.measure_height < max_height then
-								return
-							end
-							
-							local one = point(1000, 1000)
-							for _, child in ipairs(self) do
-								child:SetOutsideScale(one)
-							end
-							self.scale = one
-							XControl.UpdateMeasure(self, 1000000, 1000000)
-							local content_width, content_height = ScaleXY(self.parent.scale, self.measure_width, self.measure_height)
-							assert(content_width > 0 and content_height > 0)
-							if content_width == 0 or content_height == 0 then
-								XControl.UpdateMeasure(self, max_width, max_height)
-								return
-							end
-							local scale_x = max_width * 1000 / content_width
-							local scale_y = max_height * 1000 / content_height
-							scale_x = scale_y
-							
-							self:SetScaleModifier(point(scale_x, scale_y))
-							XControl.UpdateMeasure(self, max_width, max_height)
-						end,
-					}),
-					}),
-				}),
-		}),
-		PlaceObj('ModItemXTemplate', {
-			group = "Zulu Satellite UI",
-			id = "PDASquadManagement",
-			PlaceObj('XTemplateWindow', {
-				'__class', "ZuluModalDialog",
-				'ZOrder', 5,
-				'ScaleModifier', point(1500, 1500),
-				'Background', RGBA(30, 30, 35, 115),
-				'FadeInTime', 200,
-				'FadeOutTime', 200,
-				'GamepadVirtualCursor', true,
-			}, {
-				PlaceObj('XTemplateFunc', {
-					'name', "Open",
-					'func', function (self, ...)
-						SetCampaignSpeed(0, GetUICampaignPauseReason("SquadManagement"))
-						if g_SatelliteUI then
-							g_SatelliteUI:SetSuppressSectorVisualUpdates(true)
-						end
-						-- Stats etc. shown are done using UnitData
-						if not gv_SatelliteView then
-							SyncUnitProperties("map")
-						end
-						self.selected_merc = false
-						self.selected_merc_ctrl = false
-						self:SetFilter("Salary")
-						ZuluModalDialog.Open(self, ...)
-					end,
-				}),
-				PlaceObj('XTemplateFunc', {
-					'name', "Close",
-					'func', function (self, ...)
-						XDialog.Close(self, ...)
-						SetCampaignSpeed(nil, GetUICampaignPauseReason("SquadManagement"))
-						if g_SatelliteUI then
-							g_SatelliteUI:SetSuppressSectorVisualUpdates(false)
-							ObjModified("ui_player_squads")
-						else
-							ObjModified("hud_squads")
-						end
-					end,
-				}),
-				PlaceObj('XTemplateFunc', {
-					'name', "SelectMerc(self, merc, ctrl)",
-					'func', function (self, merc, ctrl)
-						if self.selected_merc_ctrl and self.selected_merc_ctrl.window_state ~= "destroying" and self.selected_merc_ctrl ~= ctrl then
-							self.selected_merc_ctrl:SetSelected(false)
-						end
-						self.selected_merc = merc and merc.session_id or false
-						self.selected_merc_ctrl = ctrl or false
-						if ctrl then
-							ctrl:SetSelected("full")
-						end
-						--self.idContent.idSelectedMercData:SetContext(merc)
-					end,
-				}),
-				PlaceObj('XTemplateWindow', {
-					'__class', "XContextWindow",
-					'HAlign', "center",
-					'VAlign', "center",
-					'MinWidth', 1090,
-					'MinHeight', 650,
-					'MaxWidth', 1090,
-					'MaxHeight', 650,
-				}, {
-					PlaceObj('XTemplateWindow', {
-						'__class', "XFrame",
-						'IdNode', false,
-						'Dock', "top",
-						'MinHeight', 32,
-						'MaxHeight', 32,
-						'Image', "UI/PDA/os_header",
-						'FrameBox', box(5, 5, 5, 5),
-						'SqueezeY', false,
-					}, {
-						PlaceObj('XTemplateWindow', {
-							'__class', "XText",
-							'Id', "idHeaderText",
-							'Margins', box(16, 0, 0, 0),
-							'Padding', box(0, 0, 0, 2),
-							'VAlign', "center",
-							'TextStyle', "UIDlgTitle",
-							'Translate', true,
-							'Text', T(224986453949, --[[ModItemXTemplate PDASquadManagement Text]] "УПРАВЛЕНИЕ ОТРЯДАМИ"),
-						}),
-						PlaceObj('XTemplateWindow', {
-							'__class', "XText",
-							'Margins', box(0, 0, 16, 0),
-							'HAlign', "right",
-							'VAlign', "center",
-							'TextStyle', "UIDlgTitleLogo",
-							'Text', "V1.1B",
-						}),
-						}),
-					PlaceObj('XTemplateWindow', nil, {
-						PlaceObj('XTemplateWindow', {
-							'__class', "XFrame",
-							'Margins', box(0, -5, 0, 0),
-							'Dock', "box",
-							'Image', "UI/PDA/os_background",
-							'FrameBox', box(5, 5, 5, 5),
-						}),
-						PlaceObj('XTemplateWindow', {
-							'__context', function (parent, context) return GetSquadManagementSquads() end,
-							'__class', "XContentTemplate",
-							'Id', "idContent",
-							'Margins', box(20, 16, 20, 0),
-							'OnContextUpdate', function (self, context, ...)
-								local squadList = self.idSquadManage
-								squadList = squadList and squadList.idSquadsList
-								local scroll = squadList and squadList:GetVScroll()
-								scroll = scroll and squadList:ResolveId(scroll)
-								local scrollValue = scroll and scroll:GetScroll()
-								
-								if self.RespawnOnContext then
-									if self.window_state == "open" then
-										self:RespawnContent()
-									end
-								else
-									local respawn_value = self:RespawnExpression(context)
-									if rawget(self, "respawn_value") ~= respawn_value then
-										self.respawn_value = respawn_value
-										if self.window_state == "open" then
-											self:RespawnContent()
-										end
-									end
-								end
-								
-								local dlg = GetDialog(self)
-								dlg:SetFilter(dlg:GetFilter())
-								
-								if scrollValue then
-									local newScroll = self:ResolveId("idSquadManage")
-									newScroll = newScroll and newScroll.idSquadsList
-									if newScroll then newScroll:ScrollTo(0, scrollValue) end
-								end
-							end,
-						}, {
-							PlaceObj('XTemplateWindow', {
-								'__class', "XFrame",
-								'Dock', "box",
-								'ScaleModifier', point(2000, 2000),
-								'Image', "UI/PDA/os_background",
-								'FrameBox', box(5, 5, 5, 5),
-							}),
-							PlaceObj('XTemplateWindow', {
-								'Margins', box(16, 16, 20, 16),
-							}, {
-								PlaceObj('XTemplateWindow', {
-									'comment', "squad list",
-									'Dock', "left",
-									'HAlign', "left",
-									'MinWidth', 742,
-									'MaxWidth', 742,
-								}, {
-									PlaceObj('XTemplateWindow', {
-										'__class', "XFrame",
-										'Dock', "box",
-										'Image', "UI/PDA/os_background_2",
-										'FrameBox', box(5, 5, 5, 5),
-									}),
-									PlaceObj('XTemplateWindow', {
-										'__class', "SquadManagementDragAndDrop",
-										'Id', "idSquadManage",
-										'MouseCursor', "UI/Cursors/Pda_Cursor.tga",
-										'ChildrenHandleMouse', true,
-										'NavigateScrollArea', false,
-									}, {
-										PlaceObj('XTemplateWindow', {
-											'__class', "SnappingScrollArea",
-											'Id', "idSquadsList",
-											'Margins', box(15, 0, 0, 0),
-											'Dock', "box",
-											'LayoutVSpacing', 10,
-											'VScroll', "idMercScroll",
-										}, {
-											PlaceObj('XTemplateFunc', {
-												'name', "OnMouseButtonDown(self, pos, button)",
-												'func', function (self, pos, button)
-													return "continue"
-												end,
-											}),
-											PlaceObj('XTemplateFunc', {
-												'name', "OnMouseButtonUp(self, pos, button)",
-												'func', function (self, pos, button)
-													return "continue"
-												end,
-											}),
-											PlaceObj('XTemplateFunc', {
-												'name', "RecalcVisibility(self)",
-												'func', function (self)
-													local UIRefreshModifiers = false
-													UIRefreshModifiers = function(self)
-														for i, w in ipairs(self) do
-															CallMember(w.modifiers, "OnLayoutComplete", w)
-															UIRefreshModifiers(w)
-														end
-													end
-													
-													XContentTemplateList.RecalcVisibility(self)
-													UIRefreshModifiers(self)
-												end,
-											}),
-											PlaceObj('XTemplateForEach', {
-												'comment', "player squad",
-												'__context', function (parent, context, item, i, n) return item end,
-												'run_after', function (child, context, item, i, n, last)
-													child:SetId("idSquad_" .. context.squad.UniqueId)
-												end,
-											}, {
-												PlaceObj('XTemplateWindow', {
-													'__class', "XContextWindow",
-													'IdNode', true,
-													'ScaleModifier', point(600, 600),
-													'LayoutMethod', "HWrap",
-													'LayoutHSpacing', 1,
-												}, {
-													PlaceObj('XTemplateWindow', {
-														'__class', "XButton",
-														'IdNode', false,
-														'Background', RGBA(255, 255, 255, 0),
-														'FocusedBackground', RGBA(255, 255, 255, 0),
-														'OnPress', function (self, gamepad)
-															local squad = self:GetContext().squad
-															OpenSquadCreation(squad.UniqueId)
-														end,
-														'RolloverBackground', RGBA(255, 255, 255, 0),
-														'PressedBackground', RGBA(255, 255, 255, 0),
-													}, {
-														PlaceObj('XTemplateWindow', {
-															'__class', "XContextWindow",
-															'Id', "idSquad",
-															'Margins', box(0, 13, 8, 4),
-															'HAlign', "left",
-															'MinWidth', 80,
-															'MaxWidth', 80,
-															'Background', RGBA(32, 35, 47, 255),
-															'BackgroundRectGlowSize', 1,
-															'BackgroundRectGlowColor', RGBA(32, 35, 47, 255),
-														}, {
-															PlaceObj('XTemplateWindow', {
-																'Id', "idSectorBG",
-																'HAlign', "left",
-																'VAlign', "top",
-																'MinWidth', 21,
-																'MinHeight', 21,
-																'MaxHeight', 21,
-																'DrawOnTop', true,
-															}, {
-																PlaceObj('XTemplateWindow', {
-																	'__class', "XText",
-																	'Id', "idSector",
-																	'Padding', box(4, 2, 4, 2),
-																	'HAlign', "center",
-																	'VAlign', "center",
-																	'FoldWhenHidden', true,
-																	'TextStyle', "PDASM_SectorName",
-																	'Translate', true,
-																	'TextHAlign', "center",
-																	'TextVAlign', "center",
-																}),
-																}),
-															PlaceObj('XTemplateWindow', {
-																'__context', function (parent, context) return context.squad end,
-																'__class', "XContextWindow",
-																'HAlign', "center",
-																'VAlign', "bottom",
-																'LayoutMethod', "VList",
-																'ContextUpdateOnOpen', true,
-																'OnContextUpdate', function (self, context, ...)
-																	local sector = context.CurrentSector
-																	local sectorColor = GetSectorControlColor(gv_Sectors[sector].Side)
-																	
-																	local node = self:ResolveId("node")
-																	node.idSector:SetText(T{764093693143, "<SectorIdColored(id)>", id = sector})
-																	node.idSectorBG:SetBackground(sectorColor)
-																end,
-															}, {
-																PlaceObj('XTemplateWindow', {
-																	'__class', "XContextImage",
-																	'Id', "idCenter",
-																	'IdNode', false,
-																	'UseClipBox', false,
-																	'Image', "UI/PDA/T_Icon_EnemySquadPlaceholder_L",
-																	'ImageScale', point(900, 900),
-																	'ImageColor', RGBA(195, 189, 172, 255),
-																	'ContextUpdateOnOpen', true,
-																	'OnContextUpdate', function (self, context, ...)
-																		self:SetImage(context.image)
-																	end,
-																}),
-																PlaceObj('XTemplateWindow', {
-																	'__class', "AutoFitText",
-																	'Id', "idSquadName",
-																	'Margins', box(5, 5, 5, 0),
-																	'HAlign', "center",
-																	'FoldWhenHidden', true,
-																	'TextStyle', "PDASM_SectorName",
-																	'ContextUpdateOnOpen', true,
-																	'OnContextUpdate', function (self, context, ...)
-																		self:SetText(context.ShortName or SquadName:GetShortNameFromName(context.Name))
-																	end,
-																	'Translate', true,
-																}),
-																PlaceObj('XTemplateWindow', {
-																	'__class', "XText",
-																	'Id', "idPower",
-																	'Margins', box(0, 0, -3, 0),
-																	'HAlign', "center",
-																	'Visible', false,
-																	'FoldWhenHidden', true,
-																	'TextStyle', "PDASM_SectorName",
-																	'ContextUpdateOnOpen', true,
-																	'OnContextUpdate', function (self, context, ...)
-																		local power = GetSquadPower(context)
-																		self:SetText(T{597346735330, "<power> <style PDASM_PowerFlavor>P</style>", power = power})
-																		self:SetVisible(gv_Cheats.ShowSquadsPower)
-																	end,
-																	'Translate', true,
-																}),
-																}),
-															}),
-														}),
-													PlaceObj('XTemplateForEach', {
-														'map', function (parent, context, array, i) return array and gv_UnitData[array[i]] or "empty" end,
-														'__context', function (parent, context, item, i, n) return item end,
-														'run_after', function (child, context, item, i, n, last)
-															if context == "empty" then
-																child:SetHandleMouse(false)
-															end
-															local node = child:ResolveId("node")
-															child:SetEnabled(not node.disabled)
-														end,
-													}, {
-														PlaceObj('XTemplateTemplate', {
-															'__template', "HUDMerc",
-															'Margins', box(0, 7, 0, 0),
-															'OnLayoutComplete', function (self)
-																if rawget(self, "dragging") then return end
-																local dlg = GetDialog(self)
-																if self.context ~= "empty" and (not dlg.selected_merc or dlg.selected_merc == self.context.session_id) then
-																	dlg:SelectMerc(self.context, self)
-																end
-															end,
-															'MouseCursor', "UI/Cursors/Pda_Hand.tga",
-														}, {
-															PlaceObj('XTemplateCode', {
-																'run', function (self, parent, context)
-																	parent.idBar:SetVisible(false)
-																	parent.idContent.RolloverTemplate = ""
-																end,
-															}),
-															PlaceObj('XTemplateFunc', {
-																'name', "OnMouseButtonDown(self, pos, button)",
-																'func', function (self, pos, button)
-																	local dlg = GetDialog(self)
-																	if self.context ~= "empty" then
-																		if self.context and not self.context:IsLocalPlayerControlled() then
-																			return "break"
-																		end
-																		dlg:SelectMerc(self.context, self)
-																	end
-																	XButton.OnMouseButtonDown(self, pos, button)
-																	return "continue"
-																end,
-															}),
-															PlaceObj('XTemplateFunc', {
-																'name', "OnMouseButtonUp(self, pos, button)",
-																'func', function (self, pos, button)
-																	XButton.OnMouseButtonUp(self, pos, button)
-																	return "continue"
-																end,
-															}),
-															PlaceObj('XTemplateFunc', {
-																'name', "Filter(self, filter)",
-																'func', function (self, filter)
-																	local context = self:GetContext()
-																	if IsKindOf(context, "UnitData") then
-																		if filter == "Professions" then
-																			self.idClassIconBg:SetVisible(true)
-																			self.idStatHighlight:SetVisible(false)
-																		elseif filter == "Salary" then
-																			self.idClassIconBg:SetVisible(false)
-																			self.idStatIconBg:SetVisible(false)
-																	
-																			local salary = GetMercCurrentDailySalary(context.session_id)
-																			if salary > 0 then
-																				local value = T{418564557177, "<money(salary)>", salary = salary}
-																				self.idStatHighlight:SetVisible(true)
-																				self.idStatCount:SetText(value)
-																			else
-																				self.idStatHighlight:SetVisible(false)
-																			end
-																		else -- any Stat
-																			self.idStatHighlight:SetVisible(true)
-																			self.idStatIconBg:SetVisible(true)
-																			self.idClassIconBg:SetVisible(false)
-																			
-																			local stat = Presets.MercStat.Default[filter]
-																			if stat then
-																				local icon = stat.Icon
-																				local value = T{115341592558, "<statValue>", statValue = context[filter]}
-																				self.idStatIcon:SetImage(icon)
-																				self.idStatCount:SetText(value)
-																			end
-																		end
-																	end
-																end,
-															}),
-															PlaceObj('XTemplateWindow', {
-																'__parent', function (parent, context) return parent.idPortraitBG end,
-																'Id', "idStatHighlight",
-																'VAlign', "bottom",
-																'Visible', false,
-																'FoldWhenHidden', true,
-																'DrawOnTop', true,
-															}, {
-																PlaceObj('XTemplateWindow', {
-																	'HAlign', "left",
-																	'VAlign', "bottom",
-																	'LayoutMethod', "HList",
-																}, {
-																	PlaceObj('XTemplateWindow', {
-																		'Id', "idStatIconBg",
-																		'Padding', box(2, 2, 2, 2),
-																		'HAlign', "right",
-																		'VAlign', "bottom",
-																		'MinWidth', 24,
-																		'MinHeight', 24,
-																		'MaxWidth', 24,
-																		'MaxHeight', 24,
-																		'FoldWhenHidden', true,
-																		'Background', RGBA(32, 35, 47, 255),
-																		'BackgroundRectGlowColor', RGBA(32, 35, 47, 255),
-																	}, {
-																		PlaceObj('XTemplateWindow', {
-																			'__class', "XImage",
-																			'Id', "idStatIcon",
-																			'FoldWhenHidden', true,
-																			'Image', "UI/Icons/st_marksmanship",
-																			'ImageFit', "stretch",
-																			'ImageColor', RGBA(130, 128, 120, 255),
-																		}),
-																		}),
-																	PlaceObj('XTemplateWindow', {
-																		'HAlign', "right",
-																		'VAlign', "bottom",
-																		'MinWidth', 24,
-																		'MinHeight', 24,
-																		'MaxHeight', 24,
-																		'Background', RGBA(32, 35, 47, 255),
-																		'BackgroundRectGlowColor', RGBA(32, 35, 47, 255),
-																	}, {
-																		PlaceObj('XTemplateWindow', {
-																			'__class', "XText",
-																			'Id', "idStatCount",
-																			'HAlign', "center",
-																			'VAlign', "center",
-																			'FoldWhenHidden', true,
-																			'TextStyle', "HUDHeaderSmallLight",
-																			'ContextUpdateOnOpen', true,
-																			'Translate', true,
-																		}),
-																		}),
-																	}),
-																}),
-															PlaceObj('XTemplateWindow', {
-																'__parent', function (parent, context) return parent.idPortraitBG end,
-																'__class', "XContextWindow",
-																'Id', "idClassIconBg",
-																'IdNode', true,
-																'ZOrder', 3,
-																'Dock', "box",
-																'HAlign', "right",
-																'VAlign', "bottom",
-																'MinWidth', 28,
-																'MinHeight', 28,
-																'MaxWidth', 28,
-																'MaxHeight', 28,
-																'Background', RGBA(27, 31, 45, 255),
-																'ContextUpdateOnOpen', true,
-																'OnContextUpdate', function (self, context, ...)
-																	if not IsKindOfClasses(context, "Unit", "UnitData") then 
-																		self:SetVisible(false)
-																	else
-																		self.idClassIcon:SetImage(GetMercSpecIcon(context))
-																	end
-																end,
-															}, {
-																PlaceObj('XTemplateWindow', {
-																	'__class', "XImage",
-																	'Id', "idClassIcon",
-																	'HAlign', "center",
-																	'VAlign', "center",
-																	'MinWidth', 20,
-																	'MinHeight', 20,
-																	'MaxWidth', 20,
-																	'MaxHeight', 20,
-																	'ImageFit', "stretch",
-																	'ImageColor', RGBA(195, 189, 172, 255),
-																}),
-																}),
-															}),
-														}),
-													}),
-												}),
-											PlaceObj('XTemplateWindow', {
-												'comment', "new squad",
-												'Id', "idNewSquad",
-											}, {
-												PlaceObj('XTemplateWindow', {
-													'__context', function (parent, context) return { squad = "empty" } end,
-													'__class', "XContextWindow",
-													'Id', "idNewSquadList",
-													'IdNode', true,
-													'ScaleModifier', point(650, 600),
-													'LayoutMethod', "HList",
-													'LayoutHSpacing', 10,
-												}, {
-													PlaceObj('XTemplateWindow', {
-														'__class', "XContextWindow",
-														'Id', "idSquad",
-														'Margins', box(0, 13, 8, 4),
-														'HAlign', "left",
-														'MinWidth', 80,
-														'MaxWidth', 80,
-														'Background', RGBA(32, 35, 47, 255),
-														'BackgroundRectGlowSize', 1,
-														'BackgroundRectGlowColor', RGBA(32, 35, 47, 255),
-													}, {
-														PlaceObj('XTemplateWindow', {
-															'Id', "idSectorBG",
-															'HAlign', "left",
-															'VAlign', "top",
-															'MinWidth', 21,
-															'MinHeight', 21,
-															'MaxHeight', 21,
-														}, {
-															PlaceObj('XTemplateWindow', {
-																'__class', "XText",
-																'Id', "idSector",
-																'HAlign', "center",
-																'VAlign', "center",
-																'FoldWhenHidden', true,
-																'TextStyle', "PDASM_SectorName",
-																'Translate', true,
-																'TextHAlign', "center",
-																'TextVAlign', "center",
-															}),
-															}),
-														PlaceObj('XTemplateWindow', {
-															'HAlign', "center",
-															'VAlign', "bottom",
-															'LayoutMethod', "VList",
-														}, {
-															PlaceObj('XTemplateWindow', {
-																'__class', "XImage",
-																'Id', "idCenter",
-																'IdNode', false,
-																'UseClipBox', false,
-																'Image', "UI/PDA/T_Icon_EnemySquadPlaceholder_L",
-																'ImageScale', point(900, 900),
-																'ImageColor', RGBA(130, 128, 120, 255),
-															}),
-															PlaceObj('XTemplateWindow', {
-																'__class', "XText",
-																'HAlign', "center",
-																'TextStyle', "PDASM_NewSquadLabel",
-																'Translate', true,
-																'Text', T(122343863763, --[[ModItemXTemplate PDASquadManagement Text]] "НОВЫЙ ОТРЯД"),
-															}),
-															}),
-														}),
-													PlaceObj('XTemplateForEach', {
-														'array', function (parent, context) return { "empty", "empty", "empty", "empty", "empty", "empty" } end,
-														'__context', function (parent, context, item, i, n) return item end,
-														'run_after', function (child, context, item, i, n, last)
-															child.idDragAMerc:SetVisible(i == 1)
-														end,
-													}, {
-														PlaceObj('XTemplateWindow', {
-															'__class', "XContextWindow",
-															'IdNode', true,
-															'Margins', box(0, 7, 0, 0),
-															'HAlign', "left",
-															'VAlign', "top",
-															'MinWidth', 90,
-															'MaxWidth', 90,
-															'UseClipBox', false,
-															'BorderColor', RGBA(255, 255, 255, 0),
-															'Background', RGBA(255, 255, 255, 0),
-														}, {
-															PlaceObj('XTemplateWindow', {
-																'comment', "fake HUDMerc template to keep space taken",
-																'__class', "XContextWindow",
-																'Id', "idContent",
-																'MinHeight', 105,
-																'MaxHeight', 105,
-																'LayoutMethod', "VList",
-																'HandleMouse', true,
-															}, {
-																PlaceObj('XTemplateWindow', {
-																	'__class', "XImage",
-																	'Id', "idPortraitBG",
-																	'IdNode', false,
-																	'Margins', box(5, 5, 5, 0),
-																	'HAlign', "center",
-																	'VAlign', "top",
-																	'Visible', false,
-																	'Image', "UI/Hud/portrait_background",
-																}, {
-																	PlaceObj('XTemplateWindow', {
-																		'__class', "XImage",
-																		'UIEffectModifierId', "Default",
-																		'Id', "idPortrait",
-																		'IdNode', false,
-																		'ZOrder', 2,
-																		'Margins', box(0, -10, 0, 0),
-																		'ImageFit', "stretch",
-																		'ImageRect', box(36, 0, 264, 246),
-																		'ImageScale', point(300, 300),
-																	}, {
-																		PlaceObj('XTemplateWindow', {
-																			'__class', "XImage",
-																			'Id', "idSkull",
-																			'Margins', box(0, 0, 2, 2),
-																			'HAlign', "right",
-																			'VAlign', "bottom",
-																			'Visible', false,
-																			'Image', "UI/Hud/dead_merc",
-																			'ImageScale', point(600, 600),
-																		}),
-																		}),
-																	}),
-																PlaceObj('XTemplateWindow', {
-																	'Id', "idBottomPart",
-																	'Margins', box(5, 0, 5, 0),
-																	'VAlign', "bottom",
-																	'LayoutMethod', "VList",
-																	'Background', RGBA(32, 35, 47, 255),
-																	'BackgroundRectGlowSize', 1,
-																	'BackgroundRectGlowColor', RGBA(32, 35, 47, 255),
-																}, {
-																	PlaceObj('XTemplateWindow', {
-																		'__class', "XText",
-																		'Id', "idName",
-																		'Margins', box(2, 0, 0, 0),
-																		'HAlign', "left",
-																		'VAlign', "bottom",
-																		'Clip', false,
-																		'UseClipBox', false,
-																		'HandleMouse', false,
-																		'ChildrenHandleMouse', false,
-																		'TextStyle', "PDAMercNameCard_Light",
-																		'Translate', true,
-																		'Text', T(259468933010, --[[ModItemXTemplate PDASquadManagement Text]] " "),
-																		'TextVAlign', "bottom",
-																	}),
-																	}),
-																PlaceObj('XTemplateWindow', {
-																	'Margins', box(5, 6, 5, 6),
-																	'Dock', "box",
-																	'Background', RGBA(32, 35, 47, 255),
-																	'BackgroundRectGlowSize', 1,
-																	'BackgroundRectGlowColor', RGBA(32, 35, 47, 255),
-																}),
-																}),
-															PlaceObj('XTemplateWindow', {
-																'__class', "XText",
-																'RolloverTranslate', false,
-																'Id', "idDragAMerc",
-																'Margins', box(3, 0, 0, 0),
-																'HAlign', "center",
-																'VAlign', "center",
-																'MaxWidth', 80,
-																'Clip', false,
-																'UseClipBox', false,
-																'Transparency', 180,
-																'HandleMouse', false,
-																'ChildrenHandleMouse', false,
-																'TextStyle', "PDASM_DragAMerc",
-																'Translate', true,
-																'Text', T(178664289716, --[[ModItemXTemplate PDASquadManagement Text]] "ПЕРЕТАЩ. НАЁМНИКА"),
-																'TextHAlign', "center",
-																'TextVAlign', "center",
-															}),
-															}),
-														}),
-													}),
-												}),
-											PlaceObj('XTemplateWindow', {
-												'__class', "MessengerScrollbar",
-												'Id', "idMercScroll",
-												'Margins', box(20, 0, 0, 0),
-												'Dock', "right",
-												'FoldWhenHidden', false,
-												'Target', "node",
-												'AutoHide', true,
-												'UnscaledWidth', 16,
-											}),
-											}),
-										PlaceObj('XTemplateWindow', {
-											'comment', "gamepad logic changer",
-											'__context', function (parent, context) return "GamepadStyleChanged" end,
-											'__class', "XContextWindow",
-											'ContextUpdateOnOpen', true,
-											'OnContextUpdate', function (self, context, ...)
-												self.parent.ClickToDrop = GetUIStyleGamepad()
-												self.parent.ClickToDrag = self.parent.ClickToDrop
-											end,
-										}),
-										}),
-									}),
-								PlaceObj('XTemplateTemplate', {
-									'__template', "PDAFinances",
-									'GridStretchX', false,
-									'GridStretchY', false,
-									'ScaleModifier', point(600, 800),
-								}),
-								}),
-							}),
-						PlaceObj('XTemplateWindow', {
-							'Margins', box(20, 0, 20, 0),
-							'Dock', "bottom",
-							'MinHeight', 57,
-							'MaxHeight', 57,
-						}, {
-							PlaceObj('XTemplateWindow', {
-								'__class', "XText",
-								'HAlign', "left",
-								'VAlign', "center",
-								'TextStyle', "AimCopyrightText",
-								'Translate', true,
-								'Text', T(483378573996, --[[ModItemXTemplate PDASquadManagement Text]] "<style AimCopyrightTextC>©</style> A.I.M. 2001"),
-							}),
-							PlaceObj('XTemplateWindow', {
-								'GridX', 2,
-							}),
-							PlaceObj('XTemplateWindow', {
-								'__class', "XToolBarList",
-								'Id', "idToolBar",
-								'Dock', "right",
-								'HAlign', "right",
-								'VAlign', "center",
-								'ScaleModifier', point(750, 750),
-								'LayoutHSpacing', 20,
-								'Background', RGBA(255, 255, 255, 0),
-								'Toolbar', "ActionBar",
-								'Show', "text",
-								'ButtonTemplate', "PDACommonButton",
-							}, {
-								PlaceObj('XTemplateAction', {
-									'ActionId', "idFilters",
-									'ActionName', T(454997674460, --[[ModItemXTemplate PDASquadManagement ActionName]] "Смотреть"),
-									'ActionToolbar', "ActionBar",
-									'ActionShortcut', "V",
-									'ActionGamepad', "ButtonY",
-									'OnAction', function (self, host, source, ...)
-										local dlg = host
-										local button = dlg and dlg.idToolBar and dlg.idToolBar.ididFilters
-										if not dlg or not button then return end
-										
-										local ctxMenu = dlg:ResolveId("idFilterMenu")
-										if ctxMenu then
-											ctxMenu:Close()
-										else
-											ctxMenu = XTemplateSpawn("PDASquadManagementFilterMenu", dlg, dlg)
-											ctxMenu:SetAnchor(button.box)
-											--ctxMenu:SetMaxWidth(button.MaxWidth)
-											ctxMenu:SetMinWidth(button.MinWidth)
-											ctxMenu:Open()
-										end
-									end,
-								}),
-								PlaceObj('XTemplateAction', {
-									'ActionId', "idClose",
-									'ActionName', T(544583683405, --[[ModItemXTemplate PDASquadManagement ActionName]] "Закрыть"),
-									'ActionToolbar', "ActionBar",
-									'ActionShortcut', "Escape",
-									'ActionGamepad', "ButtonB",
-									'OnActionEffect', "close",
-								}),
-								PlaceObj('XTemplateFunc', {
-									'name', "RebuildActions(self, ...)",
-									'func', function (self, ...)
-										XToolBarList.RebuildActions(self, ...)
-										
-										self.ididFilters:SetMinWidth(144)
-										self.ididFilters:SetMaxWidth(144)
-									end,
-								}),
-								}),
-							}),
-						}),
-					PlaceObj('XTemplateFunc', {
-						'name', "Open(self)",
-						'func', function (self)
-							XWindow.Open(self)
-							
-							RunWhenXWindowIsReady(self, function()
-								local popUpTime = 200
-								local fadeInTime = 200
-								self:AddInterpolation{
-									id = "size",
-									type = const.intRect,
-									duration = popUpTime,
-									originalRect = self.box,
-									targetRect = self:CalcZoomedBox(800),
-									flags = const.intfInverse
-								}
-								self:AddInterpolation{
-									id = "alpha",
-									type = const.intAlpha,
-									duration = popUpTime,
-									startValue = 0,
-									endValue = 255
-								}
-							end)
-						end,
-					}),
-					}),
-				}),
-			PlaceObj('XTemplateProperty', {
-				'id', "Filter",
-				'editor', "text",
-				'default', "Salary",
-				'translate', false,
-				'Set', function (self, value)
-					self.Filter = value
-					local squadsList = self.idContent.idSquadManage.idSquadsList
-					for _, squad in ipairs(squadsList) do
-						if string.starts_with(squad.Id, "idSquad") then
-							for _, hudMerc in ipairs(squad) do
-								if IsKindOf(hudMerc, "HUDMercClass") then
-									hudMerc:Filter(value)
-								end
-							end
-						end
-					end
-				end,
-				'Get', function (self)
-					return self.Filter
-				end,
-			}),
-		}),
-		}),
-	PlaceObj('ModItemFolder', {
 		'name', "Maps",
 	}, {
 		PlaceObj('ModItemFolder', {
@@ -5610,7 +2702,7 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
-				'comment', "Проклятый лес",
+				'comment', "Проклятый лес (Хижина ведьмы)",
 				'mapName', "XnEjf6n",
 				'campaignId', "HotDiamonds",
 				'sectorId', "F22",
@@ -9072,6 +6164,18 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
+				'mapName', "NrofrcM",
+				'campaignId', "HotDiamonds",
+				'sectorId', "J6",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "J6",
+					'Map', "NrofrcM",
+					'modId', "FhNNYd",
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
+				}),
+			}),
+			PlaceObj('ModItemSector', {
 				'comment', "Фермы Эрни",
 				'mapName', "adviFCb",
 				'campaignId', "HotDiamonds",
@@ -9084,7 +6188,7 @@ return {
 					'display_name', T(336479618775, "Фермы Эрни"),
 					'TerrainType', "Urban",
 					'WeatherZone', "Erny",
-					'City', "ubRwFgf",
+					'City', "ErnieVillage",
 					'ShowCity', true,
 					'Farm', true,
 					'DailyIncomeFarm', 100,
@@ -9097,10 +6201,15 @@ return {
 					'Roads', set({
 	East = true,
 	North = false,
-	South = false,
+	South = true,
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	North = false,
+	South = false,
+	West = false,
+}),
 					'image', "UI/SatelliteView/SectorImages/H02",
 					'MusicCombat', "Ernie_Conflict",
 					'combatTaskAmount', 3,
@@ -9130,6 +6239,11 @@ return {
 					'modId', "FhNNYd",
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = false,
+	North = false,
+	South = false,
+}),
 				}),
 			}),
 			}),
@@ -9536,35 +6650,55 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
-				'comment', "Филер",
-				'mapName', "Vgwwieh",
+				'comment', "Перевалочная база, немного домиков",
+				'mapName', "bVp47D",
 				'campaignId', "HotDiamonds",
-				'sectorId', "K3",
+				'sectorId', "K6",
 				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "K3",
-					'Map', "Vgwwieh",
+					'Id', "K6",
+					'Map', "bVp47D",
+					'MapTier', 10,
 					'modId', "FhNNYd",
+					'display_name', T(484479696515, "Перевалочная база"),
+					'TerrainType', "Jungle",
+					'City', "ErnieVillage",
+					'ShowCity', true,
+					'MinFlareCarriers', 2,
+					'MaxFlareCarriers', 7,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 				}),
 			}),
 			PlaceObj('ModItemSector', {
-				'comment', "Филер",
+				'comment', "Походный лагерь Легиона 5",
 				'mapName', "YWtYj6q",
 				'campaignId', "HotDiamonds",
 				'sectorId', "K5",
 				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
 					'Id', "K5",
 					'Map', "YWtYj6q",
+					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(828240037474, "Пока пусто"),
+					'display_name', T(828240037474, "Походный лагерь Легиона"),
+					'TerrainType', "Jungle",
+					'MinFlareCarriers', 5,
+					'MaxFlareCarriers', 11,
 					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
-					'BlockTravel', set({
-	North = false,
+					'Roads', set({
+	East = false,
+	North = true,
 	South = false,
 	West = false,
 }),
+					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = false,
+	North = false,
+	South = false,
+	West = true,
+}),
+					'BlockTravelRiver', set( "West" ),
+					'combatTaskAmount', 3,
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -9598,10 +6732,10 @@ return {
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
-						East = false,
+						East = true,
 						North = false,
 						South = false,
-						West = false,
+						West = true,
 					},
 					'image', "UI/SatelliteView/SectorImages/I01",
 					'Events', {
@@ -9618,6 +6752,30 @@ return {
 					'MusicConflict', "Ernie_Conflict",
 					'MusicExploration', "Ernie_Exploration",
 					'combatTaskAmount', 3,
+				}),
+			}),
+			PlaceObj('ModItemSector', {
+				'comment', "Походный лагерь Легиона 1",
+				'mapName', "Vgwwieh",
+				'campaignId', "HotDiamonds",
+				'sectorId', "K3",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "K3",
+					'Map', "Vgwwieh",
+					'MapTier', 10,
+					'modId', "FhNNYd",
+					'display_name', T(839602336017, "Походный лагерь Легиона"),
+					'TerrainType', "Jungle",
+					'MinFlareCarriers', 4,
+					'MaxFlareCarriers', 10,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = true,
+	North = false,
+	South = false,
+}),
+					'BlockTravelRiver', set( "East" ),
 				}),
 			}),
 			}),
@@ -9964,6 +7122,7 @@ return {
 					'display_name', T(269336985998, "Море"),
 					'TerrainType', "Water",
 					'Passability', "Water",
+					'discovered', false,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'combatTaskGenerate', "never",
@@ -9986,7 +7145,28 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
-				'comment', "Походный Лагерь Легиона",
+				'comment', "Небольшая рыбацкая деревня",
+				'mapName', "UxRaASA",
+				'campaignId', "HotDiamonds",
+				'sectorId', "L7",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "L7",
+					'Map', "UxRaASA",
+					'MapTier', 10,
+					'modId', "FhNNYd",
+					'display_name', T(672915928785, "Рыбацкая деревня"),
+					'TerrainType', "Jungle",
+					'Passability', "Land and Water",
+					'City', "ErnieVillage",
+					'ShowCity', true,
+					'MinFlareCarriers', 4,
+					'MaxFlareCarriers', 9,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
+				}),
+			}),
+			PlaceObj('ModItemSector', {
+				'comment', "Походный Лагерь Легиона 4",
 				'mapName', "ATJYR57",
 				'campaignId', "HotDiamonds",
 				'sectorId', "L5",
@@ -10014,14 +7194,19 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
-				'comment', "Филер",
+				'comment', "Походный лагерь Легиона 3",
 				'mapName', "q5EJDsP",
 				'campaignId', "HotDiamonds",
 				'sectorId', "L4",
 				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
 					'Id', "L4",
 					'Map', "q5EJDsP",
+					'MapTier', 10,
 					'modId', "FhNNYd",
+					'display_name', T(193876396815, "Походный лагерь Легиона"),
+					'TerrainType', "Jungle",
+					'MinFlareCarriers', 5,
+					'MaxFlareCarriers', 11,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
@@ -10033,16 +7218,97 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
-				'comment', "Филер",
+				'comment', "Походный лагерь Легиона 2",
 				'mapName', "pdCpnL",
 				'campaignId', "HotDiamonds",
 				'sectorId', "L3",
 				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
 					'Id', "L3",
 					'Map', "pdCpnL",
+					'MapTier', 10,
 					'modId', "FhNNYd",
+					'display_name', T(890190423953, "Походный лагерь Легиона"),
+					'TerrainType', "Jungle",
 					'bidirectionalRoadApply', true,
+					'Roads', set({
+	East = false,
+	North = false,
+	South = false,
+	West = false,
+}),
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = false,
+	North = false,
+	South = true,
+	West = false,
+}),
+					'BlockTravelRiver', set( "South" ),
+				}),
+			}),
+			PlaceObj('ModItemSector', {
+				'comment', "Река, дебри",
+				'mapName', "PYgh6US",
+				'campaignId', "HotDiamonds",
+				'sectorId', "L2",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "L2",
+					'Map', "PYgh6US",
+					'MapTier', 10,
+					'modId', "FhNNYd",
+					'display_name', T(733530482848, "Непроходимая местность"),
+					'Side', "neutral",
+					'StickySide', true,
+					'TerrainType', "Jungle",
+					'WeatherZone', "CursedForest",
+					'City', "Rebels_Ernie",
+					'MinFlareCarriers', 5,
+					'MaxFlareCarriers', 15,
+					'bidirectionalRoadApply', true,
+					'Roads', set( "West" ),
+					'bidirectionalBlockApply', true,
+					'BlockTravel', set( "South" ),
+					'BlockTravelRiver', set( "South" ),
+				}),
+			}),
+			PlaceObj('ModItemSector', {
+				'comment', "База партизан на острове",
+				'mapName', "a4wbe6N",
+				'campaignId', "HotDiamonds",
+				'sectorId', "L1",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "L1",
+					'Map', "a4wbe6N",
+					'MapTier', 10,
+					'modId', "FhNNYd",
+					'display_name', T(380204237490, "База партизан на острове Эрни"),
+					'Side', "neutral",
+					'StickySide', true,
+					'TerrainType', "Jungle",
+					'WeatherZone', "SouthJungle",
+					'Passability', "Land and Water",
+					'City', "Rebels_Ernie",
+					'ShowCity', true,
+					'Bunker', true,
+					'MinFlareCarriers', 3,
+					'MaxFlareCarriers', 13,
+					'RAndRAllowed', true,
+					'RepairShop', true,
+					'bidirectionalRoadApply', true,
+					'Roads', set({
+	East = false,
+	South = false,
+}),
+					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = false,
+	South = true,
+	West = true,
+}),
+					'BlockTravelRiver', set( "South", "West" ),
+					'Port', true,
+					'CanBeUsedForArrival', true,
+					'BobbyRayDeliveryCostMultiplier', 300,
 				}),
 			}),
 			}),
@@ -10191,7 +7457,7 @@ return {
 					'InterestingSector', true,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	North = true,
+	North = false,
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
@@ -10344,6 +7610,8 @@ return {
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
+	East = false,
+	North = true,
 	West = false,
 }),
 				}),
@@ -10363,7 +7631,11 @@ return {
 					'ForceConflict', true,
 					'InterestingSector', true,
 					'bidirectionalRoadApply', true,
-					'Roads', set( "West" ),
+					'Roads', set({
+	East = false,
+	North = false,
+	West = true,
+}),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
@@ -10392,7 +7664,10 @@ return {
 					'MinFlareCarriers', 3,
 					'MaxFlareCarriers', 10,
 					'bidirectionalRoadApply', true,
-					'Roads', set( "East" ),
+					'Roads', set({
+	East = true,
+	North = false,
+}),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
@@ -11765,24 +9040,2944 @@ return {
 					'combatTaskGenerate', "afterFirstConflict",
 				}),
 			}),
+			PlaceObj('ModItemSector', {
+				'mapName', "UgSe5Pc",
+				'campaignId', "HotDiamonds",
+				'sectorId', "P8_Underground",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "P8_Underground",
+					'Map', "UgSe5Pc",
+					'MapTier', 20,
+					'Label1', "Dungeon",
+					'modId', "FhNNYd",
+					'GroundSector', "P8",
+					'display_name', T(100373069792, "«Хорошее место» (подземелье)"),
+					'discovered', false,
+					'Intel', false,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
+					'image', "UI/SatelliteView/SectorImages/L06U",
+					'MusicCombat', "Battle_Tough",
+					'MusicConflict', "Underground_Conflict",
+					'MusicExploration', "Underground_Exploration",
+					'combatTaskGenerate', "afterFirstConflict",
+				}),
+			}),
 			}),
 		}),
-	PlaceObj('ModItemConvertAsset', {
-		'name', "AK-50",
-		'assetType', "Sound",
-		'allowedExt', ".wav",
-		'destFolder', "Mod/FhNNYd/Sounds",
-	}),
-	PlaceObj('ModItemCode', {
-		'name', "Disable Attack CAP",
-		'comment', "-- Отключение капа на количество одновременно атакующих отрядов",
-		'CodeFileName', "Code/Disable Attack CAP.lua",
-	}),
-	PlaceObj('ModItemCode', {
-		'name', "Rendomization Attack Time",
-		'comment', "-- Временной разброс атак секторов",
-		'CodeFileName', "Code/Rendomization Attack Time.lua",
-	}),
+	PlaceObj('ModItemFolder', {
+		'name', "Code",
+		'comment', "Коды доступа ядерного чемоданчика",
+	}, {
+		PlaceObj('ModItemFolder', {
+			'name', "UI",
+		}, {
+			PlaceObj('ModItemXTemplate', {
+				__is_kind_of = "SatelliteConflictSquadsAndMercsClass",
+				group = "Zulu Satellite UI",
+				id = "SatelliteConflictSquadsAndEnemies",
+				PlaceObj('XTemplateWindow', {
+					'__class', "SatelliteConflictSquadsAndMercsClass",
+					'IdNode', false,
+					'Padding', box(0, 30, 0, 30),
+					'MinWidth', 498,
+					'MaxWidth', 498,
+					'LayoutMethod', "VWrap",
+					'LayoutVSpacing', 30,
+					'ContextUpdateOnOpen', true,
+					'OnContextUpdate', function (self, context, ...)
+						self.currentSquadIndex = table.find(self.context, self.selected_squad)
+						self[1].idTitle:SetContext(self.selected_squad, true)
+						SquadsAndMercsClass.OnContextUpdate(self, ...)
+					end,
+				}, {
+					PlaceObj('XTemplateForEach', {
+						'__context', function (parent, context, item, i, n) return item end,
+					}, {
+						PlaceObj('XTemplateWindow', {
+							'__class', "XContextWindow",
+							'IdNode', true,
+							'Padding', box(10, 0, 10, 0),
+							'LayoutMethod', "VWrap",
+							'ContextUpdateOnOpen', true,
+							'OnContextUpdate', function (self, context, ...)
+								local squad = context.arriving and context[1] or context
+								local is_squad_defeated = SatelliteConflict_IsSquadDefeated(squad)
+								self:ResolveId("idName"):SetContext(SubContext(context,{defeated = is_squad_defeated}), true)
+								self:ResolveId("idSquadImage"):SetContext(context, true)
+								self:ResolveId("idSquadImage"):SetEnabled(not is_squad_defeated)
+							end,
+						}, {
+							PlaceObj('XTemplateWindow', {
+								'__class', "XContextWindow",
+								'Id', "idTitle",
+								'VAlign', "top",
+								'ContextUpdateOnOpen', true,
+							}, {
+								PlaceObj('XTemplateWindow', {
+									'__class', "XText",
+									'Id', "idName",
+									'Padding', box(4, 2, 2, 2),
+									'Dock', "left",
+									'HandleMouse', false,
+									'TextStyle', "ConflictSquadName",
+									'ContextUpdateOnOpen', true,
+									'OnContextUpdate', function (self, context, ...)
+										local text							
+										if context and context.Name then
+											text = IsT(context.Name) and context.Name or Untranslated(context.Name)
+										else
+											text = T(496804530535, "UNKNOWN ENEMIES")
+										end
+										local dlg_context = GetDialog(self).context
+										local color = TLookupTag("<GameColorI>")
+										if dlg_context.autoResolve then
+											if context.defeated then
+												self:SetText(color..T{705494748778, "<squadName> <style ConflictSquadNamePosition>/ exterminated</style>", squadName = text})
+											else
+												self:SetText(color..text)												
+											end
+										elseif context.arriving then
+											self:SetText(T{426342230032, "<time(value)> <color><squadName> <style ConflictSquadNamePosition>/ arriving</style>", squadName = text, value = context.arriving, color = color})							
+										else
+											self:SetText(color..T{484322448915, "<squadName> <style ConflictSquadNamePosition>/ in sector</style>", squadName = text})							
+										end
+										XContextControl.OnContextUpdate(self, context)
+									end,
+									'Translate', true,
+									'WordWrap', false,
+								}),
+								PlaceObj('XTemplateWindow', {
+									'__class', "XFrame",
+									'Margins', box(5, 0, 0, 0),
+									'BorderWidth', 1,
+									'VAlign', "center",
+									'Image', "UI/PDA/separate_line_vertical",
+									'FrameBox', box(3, 3, 3, 3),
+									'TileFrame', true,
+								}),
+								}),
+							PlaceObj('XTemplateWindow', {
+								'comment', "Mercs Themselves (Updates on Sel Squad Change)",
+								'__context', function (parent, context) return context and context.arriving and context[1] or  context end,
+								'__condition', function (parent, context) return context end,
+								'__class', "XContentTemplate",
+								'Id', "idParty",
+								'IdNode', false,
+								'LayoutMethod', "HWrap",
+							}, {
+								PlaceObj('XTemplateWindow', nil, {
+									PlaceObj('XTemplateWindow', {
+										'comment', "logo",
+										'__class', "XContextImage",
+										'Id', "idSquadImage",
+										'Margins', box(0, 10, 0, 0),
+										'HAlign', "left",
+										'VAlign', "top",
+										'Image', "UI/Icons/SateliteView/enemy_squad",
+										'OnContextUpdate', function (self, context, ...)
+											if context.image then
+												self:SetImage(context.image)
+											end
+											if context.Villain then
+												self:SetImage("UI/Icons/SateliteView/enemy_boss")
+											end
+										end,
+									}),
+									}),
+								PlaceObj('XTemplateWindow', {
+									'__condition', function (parent, context) return context and context.arriving and context[1].units or  context.units end,
+									'__class', "XContextWindow",
+									'GridStretchY', false,
+									'LayoutMethod', "Grid",
+									'LayoutVSpacing', 60,
+									'ContextUpdateOnOpen', true,
+								}, {
+									PlaceObj('XTemplateForEach', {
+										'comment', "Mercs in the Current Team",
+										'array', function (parent, context) return GroupEnemyMercs({context}, "separateDead" and true) end,
+										'__context', function (parent, context, item, i, n) return item end,
+										'run_after', function (child, context, item, i, n, last)
+											local row_count = 6
+											local i = i-1
+											child:SetGridX(i%row_count + 1)
+											child:SetGridY(i/row_count + 1)
+											
+											if context.count and context.count>1 then
+												child.idName:SetTextHAlign("center")
+												local color = context.is_dead and GameColors.F or GameColors.I 
+												child.idBottomPart[1]:SetBackground(color)										
+												child.idName:SetScaleModifier(point(1333,1333))
+												child.idBottomPart:SetMinHeight(0)
+												child.idName:SetTextStyle("PDAMercNameCard_Large")
+												child.idName:SetPadding(box(0,-2,0,-2))
+												child.idName:SetText(Untranslated(context.count))									
+											else
+												child.idName:SetText(context.DisplayName)	
+											end
+											
+											if context.hasShipment then
+												child.idShipment:SetVisible(true)
+												child.idShipment:SetImage(context.hasShipment)
+											end
+											
+											child.idBar:SetVisible(false)
+											child.idBottomBar:SetVisible(false)
+											if not context.count or context.count==1 then
+												child.idBottomPart:SetVisible(false)
+												child.idName:SetText(context.DisplayName)
+											end
+										end,
+									}, {
+										PlaceObj('XTemplateTemplate', {
+											'__context', function (parent, context) return context.template end,
+											'__template', "HUDMerc",
+											'RolloverTemplate', "SmallRolloverLine",
+											'RolloverAnchor', "center-bottom",
+											'RolloverAnchorId', "idPortraitBG",
+											'RolloverText', T(845823474288, --[[ModItemXTemplate SatelliteConflictSquadsAndEnemies RolloverText]] "<DisplayName>"),
+											'Margins', box(0, 7, 0, 0),
+											'ScaleModifier', point(750, 750),
+											'LayoutMethod', "Box",
+											'ChildrenHandleMouse', false,
+										}, {
+											PlaceObj('XTemplateWindow', {
+												'comment', "diamond shipment icon",
+												'__class', "XImage",
+												'Id', "idShipment",
+												'IdNode', false,
+												'ZOrder', 0,
+												'Margins', box(0, -16, 0, 0),
+												'HAlign', "right",
+												'VAlign', "top",
+												'MinWidth', 46,
+												'MaxWidth', 46,
+												'UseClipBox', false,
+												'Visible', false,
+												'DrawOnTop', true,
+												'ImageFit', "width",
+											}),
+											}),
+										}),
+									}),
+								PlaceObj('XTemplateWindow', {
+									'__condition', function (parent, context) return not next(context) or not context.units end,
+									'Margins', box(0, 7, 0, 0),
+									'HAlign', "left",
+									'VAlign', "top",
+									'MinWidth', 80,
+									'MinHeight', 118,
+									'MaxWidth', 80,
+									'MaxHeight', 118,
+									'ScaleModifier', point(700, 700),
+								}, {
+									PlaceObj('XTemplateWindow', {
+										'Dock', "bottom",
+										'VAlign', "bottom",
+										'MinHeight', 30,
+										'MaxHeight', 30,
+										'Visible', false,
+										'Background', RGBA(32, 35, 47, 255),
+									}),
+									PlaceObj('XTemplateWindow', {
+										'__class', "XImage",
+										'IdNode', false,
+										'Margins', box(0, 10, 0, 0),
+										'Dock', "box",
+										'Image', "UI/Hud/portrait_background",
+										'ImageFit', "largest",
+									}),
+									PlaceObj('XTemplateWindow', {
+										'__class', "XImage",
+										'IdNode', false,
+										'Margins', box(0, 0, 0, -10),
+										'Dock', "box",
+										'Image', "UI/EnemiesPortraits/Unknown",
+										'ImageFit', "largest",
+									}),
+									}),
+								}),
+							}),
+						}),
+					}),
+			}),
+			PlaceObj('ModItemXTemplate', {
+				__is_kind_of = "SatelliteConflictSquadsAndMercsClass",
+				group = "Zulu Satellite UI",
+				id = "SatelliteConflictSquadsAndMercs",
+				PlaceObj('XTemplateWindow', {
+					'__class', "SatelliteConflictSquadsAndMercsClass",
+					'Id', "idMercs",
+					'Padding', box(0, 30, 0, 30),
+					'MinWidth', 498,
+					'MaxWidth', 498,
+					'LayoutMethod', "VList",
+					'LayoutVSpacing', 30,
+					'ContextUpdateOnOpen', true,
+				}, {
+					PlaceObj('XTemplateForEach', {
+						'__context', function (parent, context, item, i, n) return item end,
+					}, {
+						PlaceObj('XTemplateWindow', {
+							'__class', "XContextWindow",
+							'IdNode', true,
+							'Padding', box(10, 0, 10, 0),
+							'LayoutMethod', "VList",
+							'ContextUpdateOnOpen', true,
+							'OnContextUpdate', function (self, context, ...)
+								local is_squad_defeated = SatelliteConflict_IsSquadDefeated(context)
+								self:ResolveId("idName"):SetContext(SubContext(context,{defeated = is_squad_defeated}), true)
+								local sq_image= self:ResolveId("idSquadImage")
+								sq_image:SetContext(context, true)
+								-- are all squad dead
+								local logo = self:ResolveId("idLogo")
+								logo:SetEnabled(not is_squad_defeated)
+								if context.militia then
+									logo[1]:SetImage("")
+									sq_image:SetScaleModifier(point(1000, 1000))
+									sq_image:SetMargins(box(0,0,0,0))
+								end
+							end,
+						}, {
+							PlaceObj('XTemplateWindow', {
+								'__class', "XContextWindow",
+								'Id', "idTitle",
+								'VAlign', "top",
+							}, {
+								PlaceObj('XTemplateWindow', {
+									'__class', "XText",
+									'Id', "idName",
+									'Padding', box(4, 2, 2, 2),
+									'Dock', "left",
+									'HandleMouse', false,
+									'TextStyle', "ConflictSquadName",
+									'OnContextUpdate', function (self, context, ...)
+										local dlg_context = GetDialog(self).context
+										local squadName = context.militia and T(977391598484, "Militia") or Untranslated(context.Name)
+										local color = TLookupTag("<GameColorJ>")
+										if dlg_context.autoResolve then
+											if context.defeated then
+												self:SetText(color..T{611090141279, "<squadName> <style ConflictSquadNamePosition>/ killed in action</style>", squadName = squadName})
+											else
+												self:SetText(color..squadName)						
+											end
+										else															
+											self:SetText(color..T{484322448915, "<squadName> <style ConflictSquadNamePosition>/ in sector</style>", squadName = squadName})							
+										end	
+										XContextControl.OnContextUpdate(self, context)								
+									end,
+									'Translate', true,
+									'Text', T(229449529062, --[[ModItemXTemplate SatelliteConflictSquadsAndMercs Text]] "<color 61 122 153>"),
+									'WordWrap', false,
+								}),
+								PlaceObj('XTemplateWindow', {
+									'__class', "XFrame",
+									'Margins', box(5, 0, 0, 0),
+									'BorderWidth', 1,
+									'VAlign', "center",
+									'Image', "UI/PDA/separate_line_vertical",
+									'FrameBox', box(3, 3, 3, 3),
+									'TileFrame', true,
+								}),
+								}),
+							PlaceObj('XTemplateWindow', {
+								'comment', "Mercs Themselves (Updates on Sel Squad Change)",
+								'__class', "XContentTemplate",
+								'Id', "idParty",
+								'IdNode', false,
+								'HandleMouse', true,
+							}, {
+								PlaceObj('XTemplateWindow', {
+									'GridStretchX', false,
+									'GridStretchY', false,
+									'LayoutMethod', "HList",
+									'FillOverlappingSpace', true,
+								}, {
+									PlaceObj('XTemplateWindow', {
+										'__class', "XControl",
+										'Id', "idLogo",
+										'IdNode', false,
+										'Margins', box(0, 10, 4, 0),
+									}, {
+										PlaceObj('XTemplateWindow', {
+											'comment', "logo background",
+											'__class', "XImage",
+											'VAlign', "top",
+											'Image', "UI/Icons/SateliteView/merc_squad",
+											'DisabledImageColor', RGBA(130, 128, 120, 255),
+										}),
+										PlaceObj('XTemplateWindow', {
+											'comment', "logo",
+											'__class', "XContextImage",
+											'Id', "idSquadImage",
+											'HAlign', "center",
+											'VAlign', "top",
+											'Image', "UI/Icons/SquadLogo/squad_logo_01_s.png",
+											'ImageColor', RGBA(230, 222, 202, 255),
+											'DisabledImageColor', RGBA(130, 128, 120, 255),
+											'OnContextUpdate', function (self, context, ...)
+												if context.militia then
+													self:SetImage("UI/Icons/SateliteView/militia")
+												else
+													self:SetImage( context.image.."_s")
+													self:SetScaleModifier(point(840,840))
+												end
+											end,
+										}),
+										}),
+									PlaceObj('XTemplateWindow', {
+										'__condition', function (parent, context) return not context.militia end,
+										'Margins', box(0, 0, 20, 0),
+										'LayoutMethod', "HWrap",
+										'LayoutHSpacing', 5,
+									}, {
+										PlaceObj('XTemplateForEach', {
+											'comment', "mercs",
+											'array', function (parent, context) return GetDialog(parent).context.autoResolve and table.find_value(GetDialog(parent).context.allySquads, "UniqueId", context.UniqueId).units or context.units end,
+											'__context', function (parent, context, item, i, n) return gv_UnitData[item] end,
+											'run_after', function (child, context, item, i, n, last)
+												if context:IsDead() then
+													child.idName:SetText(Untranslated("<center>")..TLookupTag("<GameColorI>")..T(617663398594, "K.I.A."))	
+												end
+											end,
+										}, {
+											PlaceObj('XTemplateTemplate', {
+												'__context', function (parent, context) return context end,
+												'__template', "HUDMerc",
+												'GridStretchX', false,
+												'ScaleModifier', point(750, 750),
+												'LayoutMethod', "VList",
+												'HandleMouse', false,
+												'ChildrenHandleMouse', false,
+												'OnContextUpdate', function (self, context, ...)
+													self.idLevelUp:SetVisible(false)
+												end,
+											}),
+											}),
+										}),
+									PlaceObj('XTemplateWindow', {
+										'__condition', function (parent, context) return context.militia end,
+										'LayoutMethod', "HList",
+										'LayoutHSpacing', 8,
+									}, {
+										PlaceObj('XTemplateForEach', {
+											'comment', "militia",
+											'array', function (parent, context)
+												local squad = GetDialog(parent).context.autoResolve and table.find_value(GetDialog(parent).context.allySquads, "UniqueId", context.UniqueId) or context  
+												return GroupEnemyMercs({squad}, "separateDead")
+											end,
+											'__context', function (parent, context, item, i, n) return item end,
+											'run_after', function (child, context, item, i, n, last)
+												child.idName:SetText(context.DisplayName)	
+												
+												if context.count and context.count>1 then
+													child.idName:SetTextHAlign("center")
+													local color = context.is_dead and GameColors.F or GameColors.J 
+													child.idBottomPart[1]:SetBackground(color)										
+													--child.idName.scale = point(1000,1000)
+												
+													child.idName:SetScaleModifier(point(1333,1333))
+													child.idBottomPart:SetMinHeight(0)
+													child.idName:SetTextStyle("PDAMercNameCard_Large")
+													child.idName:SetPadding(box(0,-2,0,-2))
+													child.idName:SetText(Untranslated(context.count))	
+												end
+												--child:SetEnabled(not context.is_dead)
+											end,
+										}, {
+											PlaceObj('XTemplateTemplate', {
+												'__template', "HUDMerc",
+												'RolloverTemplate', "SmallRolloverLine",
+												'RolloverAnchor', "center-bottom",
+												'RolloverAnchorId', "idPortraitBG",
+												'RolloverText', T(900985004543, --[[ModItemXTemplate SatelliteConflictSquadsAndMercs RolloverText]] "<DisplayName>"),
+												'ScaleModifier', point(750, 750),
+												'ChildrenHandleMouse', false,
+											}),
+											}),
+										}),
+									}),
+								}),
+							}),
+						}),
+					}),
+			}),
+			PlaceObj('ModItemXTemplate', {
+				__is_kind_of = "XContextWindow",
+				group = "Zulu Satellite UI",
+				id = "SquadsAndMercs_old",
+				PlaceObj('XTemplateWindow', {
+					'__class', "SquadsAndMercsClass",
+					'RolloverAnchor', "top",
+					'Id', "idPartyContainer",
+					'HAlign', "left",
+					'VAlign', "bottom",
+				}, {
+					PlaceObj('XTemplateWindow', {
+						'__class', "XContextWindow",
+						'Dock', "top",
+					}, {
+						PlaceObj('XTemplateWindow', {
+							'__context', function (parent, context)
+								return context
+							end,
+							'__class', "XContextWindow",
+							'Id', "idTitle",
+							'Margins', box(-1, -5, 0, 0),
+							'VAlign', "top",
+							'LayoutMethod', "VList",
+							'ContextUpdateOnOpen', true,
+							'OnContextUpdate', function (self, context, ...)
+								local node = self:ResolveId("node")
+								local selectedSquad = node.selected_squad
+								local nameWnd = node.idName
+								nameWnd:SetContext(selectedSquad)
+								nameWnd:SetText(T{183209563903, "<u(Name)> [<u(SquadMemberCount())>]", selectedSquad})
+								
+								local moraleUI = self:ResolveId("idMorale")
+								
+								local selScale = point(670, 670)
+								local unSelScale = point(670, 670)
+								local transSel = 0
+								local transUnSel = 100
+								for i, sB in ipairs(node.idSquadButtons) do
+									if sB == moraleUI then goto continue end
+								
+									local selected = sB.context and sB.context.UniqueId == g_CurrentSquad
+									
+									sB.OnSetRollover = function(s, r)
+										if not selected then
+											s:SetTransparency(r and 0 or transUnSel)
+										end
+									end
+									
+									if not sB.idSelected then goto continue end
+									
+									sB.idSelected:SetVisible(selected)
+									sB:SetTransparency(selected and transSel or transUnSel)
+									sB:SetScaleModifier(selected and selScale or unSelScale)
+									
+									::continue::
+								end
+							end,
+						}, {
+							PlaceObj('XTemplateWindow', {
+								'__context', function (parent, context)
+									return context
+								end,
+								'__class', "XText",
+								'Id', "idName",
+								'Margins', box(5, 0, 0, 0),
+								'Clip', false,
+								'UseClipBox', false,
+								'TextStyle', "PartyUISelectedSquad",
+								'OnContextUpdate', function (self, context, ...)
+									local limit = self.UpdateTimeLimit
+									if limit == 0 or (RealTime() - self.last_update_time) >= limit then
+										self:SetText(self.Text)
+									elseif not self:GetThread("ContextUpdate") then
+										self:CreateThread("ContextUpdate", function(self)
+											Sleep(self.last_update_time + self.UpdateTimeLimit - RealTime())
+											self:OnContextUpdate()
+										end, self)
+									end
+								end,
+								'Translate', true,
+							}),
+							PlaceObj('XTemplateWindow', {
+								'Id', "idSquadButtons",
+								'LayoutMethod', "HList",
+								'LayoutHSpacing', -10,
+							}, {
+								PlaceObj('XTemplateWindow', {
+									'comment', "morale icon container",
+									'__context', function (parent, context) return Selection end,
+									'__condition', function (parent, context) return IsKindOf(GetDialog(parent), "IModeCommonUnitControl") or IsKindOf(GetDialog(parent), "IModeDeployment") end,
+									'__class', "XContextWindow",
+									'RolloverTemplate', "RolloverGeneric",
+									'RolloverTitle', T(214056593531, --[[ModItemXTemplate SquadsAndMercs_old RolloverTitle]] "Боевой дух"),
+									'Id', "idMorale",
+									'Margins', box(7, 1, 0, 0),
+									'Dock', "left",
+									'VAlign', "top",
+									'FoldWhenHidden', true,
+									'BackgroundRectGlowSize', 1,
+									'BackgroundRectGlowColor', RGBA(32, 35, 47, 255),
+									'HandleMouse', true,
+									'MouseCursor', "UI/Cursors/Hand.tga",
+									'ContextUpdateOnOpen', true,
+									'OnContextUpdate', function (self, context, ...)
+										local icon = self:ResolveId("idMoraleIcon")
+										local team = GetPoVTeam()
+										local morale = team and team.morale or 0
+										
+										local text = self:ResolveId("idMoraleText")
+										text:SetText(morale)
+										text:SetVisible(morale ~= 0)
+										
+										--icon:SetImage(MoraleLevelIcon[morale])
+										if team then
+											self:SetRolloverText(team:GetMoraleLevelAndEffectsText())
+											self.OnMouseButtonDown = function() return "break" end
+										end
+										self:SetVisible(not not g_Combat)
+									end,
+								}, {
+									PlaceObj('XTemplateWindow', {
+										'BorderWidth', 2,
+										'MinWidth', 80,
+										'MinHeight', 46,
+										'MaxWidth', 80,
+										'MaxHeight', 46,
+										'BorderColor', RGBA(52, 55, 61, 230),
+										'Background', RGBA(32, 35, 47, 215),
+									}, {
+										PlaceObj('XTemplateWindow', {
+											'comment', "morale indicator",
+											'__class', "XImage",
+											'RolloverTemplate', "RolloverGeneric",
+											'RolloverOffset', box(10, 0, 0, 0),
+											'RolloverTitle', T(405072605817, --[[ModItemXTemplate SquadsAndMercs_old RolloverTitle]] "Боевой дух"),
+											'Id', "idMoraleIcon",
+											'IdNode', false,
+											'HAlign', "center",
+											'VAlign', "center",
+											'Image', "UI/Hud/morale_normal",
+										}, {
+											PlaceObj('XTemplateWindow', {
+												'__class', "XText",
+												'Id', "idMoraleText",
+												'Margins', box(-2, -2, 0, 0),
+												'HAlign', "center",
+												'VAlign', "center",
+												'TextStyle', "PartyUIMoraleText",
+											}),
+											}),
+										}),
+									}),
+								PlaceObj('XTemplateForEach', {
+									'__context', function (parent, context, item, i, n) return item end,
+									'run_after', function (child, context, item, i, n, last)
+										local image = item.image or "UI/Icons/SquadLogo/squad_logo_01"
+										child.idSquadIcon:SetImage(image .. "_s")
+										child.drop_reason = false
+									end,
+								}, {
+									PlaceObj('XTemplateWindow', {
+										'comment', "inventory",
+										'__condition', function (parent, context) return GetDialog(GetDialog(parent).parent) == GetDialog("FullscreenGameDialogs") end,
+										'__class', "XButton",
+										'VAlign', "top",
+										'BorderColor', RGBA(0, 0, 0, 0),
+										'Background', RGBA(0, 0, 0, 0),
+										'BackgroundRectGlowColor', RGBA(0, 0, 0, 0),
+										'OnContextUpdate', function (self, context, ...)
+											
+										end,
+										'FocusedBorderColor', RGBA(0, 0, 0, 0),
+										'FocusedBackground', RGBA(0, 0, 0, 0),
+										'DisabledBorderColor', RGBA(0, 0, 0, 0),
+										'OnPress', function (self, gamepad)
+											local dlg = GetDialog(self)
+											InventoryClosePopup(dlg)
+											local deploymentOrCommonUnit = IsKindOf(dlg, "IModeCommonUnitControl") or
+												   														IsKindOf(dlg, "IModeDeployment")
+											
+											if deploymentOrCommonUnit and self.context.UniqueId == g_CurrentSquad then
+												ToggleAllUnitsSelectionInSquad(true)
+											else
+												local node = self:ResolveId("node")
+												node:SelectSquad(self.context)
+												ObjModified(self.context)
+											end
+										end,
+										'RolloverBackground', RGBA(0, 0, 0, 0),
+										'PressedBackground', RGBA(0, 0, 0, 0),
+									}, {
+										PlaceObj('XTemplateWindow', {
+											'__class', "XImage",
+											'Image', "UI/Icons/SateliteView/merc_squad_2",
+										}),
+										PlaceObj('XTemplateWindow', {
+											'__class', "XImage",
+											'Id', "idSquadIcon",
+											'Margins', box(0, 4, 0, 0),
+											'HAlign', "center",
+											'VAlign', "top",
+											'ScaleModifier', point(800, 800),
+										}),
+										PlaceObj('XTemplateWindow', {
+											'__class', "XImage",
+											'Id', "idSelected",
+											'HAlign', "center",
+											'VAlign', "center",
+											'Visible', false,
+											'Image', "UI/Icons/SateliteView/squad_selection",
+										}),
+										PlaceObj('XTemplateFunc', {
+											'name', "OnMouseButtonDoubleClick(self, pt, button)",
+											'func', function (self, pt, button)
+												if not IsKindOf(GetDialog(self), "XSatelliteDialog") then return end
+												
+												local squad = self.context
+												SatelliteSetCameraDest(squad.CurrentSector, 300)
+											end,
+										}),
+										PlaceObj('XTemplateFunc', {
+											'name', "IsDropTarget(self, draw_win, pt)",
+											'func', function (self, draw_win, pt)
+												if InventoryIsCombatMode() 
+													or not InventoryStartDragContext 
+													or InventoryStartDragContext.Squad == self.context.UniqueId 
+												then
+													return false
+												end										
+												local cur_sector
+												if IsKindOf(InventoryStartDragContext, "SectorStash") then
+													cur_sector = InventoryStartDragContext.sector_id
+												elseif IsKindOf(InventoryStartDragContext, "ItemContainer") then	
+													cur_sector = self:GetContext().CurrentSector
+												else									
+													local squad_id = IsKindOf(InventoryStartDragContext, "SquadBag") and InventoryStartDragContext.squad_id or InventoryStartDragContext.Squad
+													cur_sector = squad_id and gv_Squads[squad_id].CurrentSector or self.context.CurrentSector
+												end
+												local drag_sector = self.context.CurrentSector
+												return cur_sector==drag_sector
+											end,
+										}),
+										PlaceObj('XTemplateFunc', {
+											'name', "OnDropEnter(self, draw_win, pt, drag_source)",
+											'func', function (self, draw_win, pt, drag_source)
+												self:SetRollover(true)
+												local squad = self:GetContext()
+												local mouse_text 
+												mouse_text =  T{386181237071, "Give to <merc>",merc = squad.Name}
+												local r1 = InventoryDropMoveItemsToSquad(squad, "check_only")
+												self.drop_reason = r1 or "ok" 
+												if r1 then
+													mouse_text = mouse_text.."\n".. Untranslated("<style InventoryHintTextRed>")..T(719913116871, "Not enough space")										
+												end
+												InventoryShowMouseText(not not mouse_text,mouse_text)
+											end,
+										}),
+										PlaceObj('XTemplateFunc', {
+											'name', "OnDropLeave(self, drag_win)",
+											'func', function (self, drag_win)
+												self:SetRollover(false)
+												InventoryShowMouseText(false)
+												self.drop_reason = false
+											end,
+										}),
+										PlaceObj('XTemplateFunc', {
+											'name', "OnDrop(self, drag_win, pt, drag_source_win)",
+											'func', function (self, drag_win, pt, drag_source_win)
+												self.drop_reason = self.drop_reason or InventoryDropMoveItemsToSquad(self.context, "check_only")
+												if self.drop_reason=="ok" then 	
+													InventoryDropMoveItemsToSquad(self.context)
+													self.drop_reason = false
+												end
+												return "not valid target"
+											end,
+										}),
+										}),
+									PlaceObj('XTemplateWindow', {
+										'__condition', function (parent, context) return GetDialog(GetDialog(parent).parent) ~= GetDialog("FullscreenGameDialogs") end,
+										'__class', "XButton",
+										'VAlign', "top",
+										'BorderColor', RGBA(0, 0, 0, 0),
+										'Background', RGBA(0, 0, 0, 0),
+										'BackgroundRectGlowColor', RGBA(0, 0, 0, 0),
+										'OnContextUpdate', function (self, context, ...)
+											
+										end,
+										'FocusedBorderColor', RGBA(0, 0, 0, 0),
+										'FocusedBackground', RGBA(0, 0, 0, 0),
+										'DisabledBorderColor', RGBA(0, 0, 0, 0),
+										'OnPress', function (self, gamepad)
+											local dlg = GetDialog(self)
+											local deploymentOrCommonUnit = IsKindOf(dlg, "IModeCommonUnitControl") or
+												   														IsKindOf(dlg, "IModeDeployment")
+											
+											if deploymentOrCommonUnit and self.context.UniqueId == g_CurrentSquad then
+												ToggleAllUnitsSelectionInSquad(true)
+											else
+												local node = self:ResolveId("node")
+												node:SelectSquad(self.context)
+												ObjModified(self.context)
+											end
+										end,
+										'RolloverBackground', RGBA(0, 0, 0, 0),
+										'PressedBackground', RGBA(0, 0, 0, 0),
+									}, {
+										PlaceObj('XTemplateWindow', {
+											'__class', "XImage",
+											'Image', "UI/Icons/SateliteView/merc_squad_2",
+										}),
+										PlaceObj('XTemplateWindow', {
+											'__class', "XImage",
+											'Id', "idSquadIcon",
+											'Margins', box(0, 4, 0, 0),
+											'HAlign', "center",
+											'VAlign', "top",
+											'ScaleModifier', point(800, 800),
+										}),
+										PlaceObj('XTemplateWindow', {
+											'__class', "XImage",
+											'Id', "idSelected",
+											'HAlign', "center",
+											'VAlign', "center",
+											'Visible', false,
+											'Image', "UI/Icons/SateliteView/squad_selection",
+										}),
+										PlaceObj('XTemplateFunc', {
+											'name', "OnMouseButtonDoubleClick(self, pt, button)",
+											'func', function (self, pt, button)
+												if not IsKindOf(GetDialog(self), "XSatelliteDialog") then return end
+												
+												local squad = self.context
+												SatelliteSetCameraDest(squad.CurrentSector, 300)
+											end,
+										}),
+										}),
+									}),
+								PlaceObj('XTemplateWindow', {
+									'comment', "add squad",
+									'__condition', function (parent, context) return not IsKindOf(GetDialog(parent), "IModeDeployment") and not (GetDialog(GetDialog(parent).parent) == GetDialog("FullscreenGameDialogs")) end,
+									'__class', "XButton",
+									'VAlign', "top",
+									'ScaleModifier', point(666, 666),
+									'BorderColor', RGBA(0, 0, 0, 0),
+									'Background', RGBA(0, 0, 0, 0),
+									'BackgroundRectGlowColor', RGBA(0, 0, 0, 0),
+									'Transparency', 100,
+									'FocusedBorderColor', RGBA(0, 0, 0, 0),
+									'FocusedBackground', RGBA(0, 0, 0, 0),
+									'DisabledBorderColor', RGBA(0, 0, 0, 0),
+									'OnPress', function (self, gamepad)
+										InvokeShortcutAction(GetDialog("PDADialogSatellite"), "idSquadManagement", false, true)
+									end,
+									'RolloverBackground', RGBA(0, 0, 0, 0),
+									'PressedBackground', RGBA(0, 0, 0, 0),
+								}, {
+									PlaceObj('XTemplateWindow', {
+										'__class', "XImage",
+										'Image', "UI/Icons/SateliteView/merc_squad_add_2",
+									}),
+									}),
+								}),
+							}),
+						}),
+					PlaceObj('XTemplateWindow', {
+						'__class', "XFitContent",
+						'IdNode', false,
+						'Dock', "box",
+						'Fit', "height",
+					}, {
+						PlaceObj('XTemplateWindow', {
+							'comment', "Mercs Themselves (Updates on Sel Squad Change)",
+							'__context', function (parent, context) return parent.parent.selected_squad end,
+							'__class', "XContentTemplate",
+							'Id', "idParty",
+							'HAlign', "left",
+							'VAlign', "top",
+							'LayoutMethod', "VWrap",
+						}, {
+							PlaceObj('XTemplateWindow', {
+								'Margins', box(0, 0, 25, 0),
+								'Dock', "box",
+								'HandleMouse', true,
+							}, {
+								PlaceObj('XTemplateFunc', {
+									'name', "OnMouseButtonDown(self, pos, button)",
+									'func', function (self, pos, button)
+										-- click eater for misclick prevention
+										return "break"
+									end,
+								}),
+								}),
+							PlaceObj('XTemplateWindow', {
+								'Id', "idContainer",
+								'MaxWidth', 100000,
+								'MaxHeight', 100000,
+								'ScaleModifier', point(700, 700),
+								'LayoutMethod', "VWrap",
+								'FillOverlappingSpace', true,
+								'UseClipBox', false,
+								'BorderColor', RGBA(0, 0, 0, 0),
+							}, {
+								PlaceObj('XTemplateGroup', {
+									'__condition', function (parent, context) return context and IsKindOf(GetDialog(parent), "XSatelliteDialog") end,
+								}, {
+									PlaceObj('XTemplateForEach', {
+										'comment', "Mercs in the Current Team",
+										'array', function (parent, context) return context and context.units end,
+										'__context', function (parent, context, item, i, n) return gv_UnitData[item] end,
+									}, {
+										PlaceObj('XTemplateTemplate', {
+											'__template', "HUDMerc",
+											'LayoutMethod', "HWrap",
+											'OnContextUpdate', function (self, context, ...)
+												self.idOperationContainer.idProgressBarContainer:SetVisible(context.Operation~="Idle")
+											end,
+											'FXMouseIn', "MercPortraitRolloverPDA",
+											'FXPress', "MercPortraitPressPDA",
+											'OnPress', function (self, gamepad)
+												local prev
+												if g_SatelliteUI.context_menu then
+													local prev_context = g_SatelliteUI.context_menu[1].context
+													prev = prev_context and prev_context.unit_id
+													g_SatelliteUI:RemoveContextMenu()
+												end
+											end,
+											'AltPress', true,
+											'OnAltPress', function (self, gamepad)
+												local prev
+												if g_SatelliteUI.context_menu then
+													local prev_context = g_SatelliteUI.context_menu[1].context
+													prev = prev_context and prev_context.unit_id
+													g_SatelliteUI:RemoveContextMenu()
+												end
+												local unit = self.context
+												if prev and prev==unit.session_id then
+													return
+												end	
+												local squad_id = unit.Squad
+												local squad = gv_Squads[squad_id]
+												local sector_id = squad and squad.CurrentSector
+												if not sector_id then
+													return
+												end	
+												self:SetRollover(false)
+												g_SatelliteUI:OpenContextMenu(self, sector_id, unit.Squad, unit.session_id)
+											end,
+											'ClassIconOnRollover', true,
+										}, {
+											PlaceObj('XTemplateFunc', {
+												'name', "OnMouseButtonDoubleClick(self, pt, button)",
+												'func', function (self, pt, button)
+													local selectedUnit = self.context
+													if not IsKindOf(selectedUnit, "UnitData") or not g_SatelliteUI then return end
+													
+													local squad = selectedUnit.Squad
+													squad = squad and gv_Squads[squad]
+													SatelliteSetCameraDest(squad.CurrentSector, 300)
+												end,
+											}),
+											PlaceObj('XTemplateWindow', {
+												'comment', "context menu observer",
+												'__context', function (parent, context) return "satellite_context_menu" end,
+												'__class', "XContextWindow",
+												'ContextUpdateOnOpen', true,
+												'OnContextUpdate', function (self, context, ...)
+													local hasMenu = g_SatelliteUI and g_SatelliteUI.context_menu
+													hasMenu = hasMenu and hasMenu.window_state ~= "destroying" and hasMenu.idContent
+													local isOnMe = hasMenu and hasMenu.context.unit_id == self.parent.context.session_id
+													self.parent:SetSelected(isOnMe)
+												end,
+											}),
+											PlaceObj('XTemplateWindow', {
+												'HAlign', "right",
+												'MaxHeight', 105,
+												'LayoutMethod', "VList",
+											}, {
+												PlaceObj('XTemplateWindow', {
+													'comment', "only shows wounded and tired effect",
+													'__context', function (parent, context) return context.StatusEffects end,
+													'__class', "XContentTemplate",
+													'Id', "idStatusEffectsContainer",
+													'Margins', box(-3, 5, 0, 0),
+													'Dock', "top",
+													'HAlign', "left",
+													'VAlign', "top",
+													'MaxHeight', 80,
+													'LayoutMethod', "VList",
+													'LayoutVSpacing', -2,
+													'UseClipBox', false,
+													'FoldWhenHidden', true,
+													'HandleMouse', true,
+													'MouseCursor', "UI/Cursors/Cursor.tga",
+												}, {
+													PlaceObj('XTemplateForEach', {
+														'comment', "status effect",
+														'array', function (parent, context) return table.ifilter(context or empty_table, "ShownSatelliteView") end,
+														'__context', function (parent, context, item, i, n) return item end,
+													}, {
+														PlaceObj('XTemplateTemplate', {
+															'__template', "StatusEffectIcon",
+														}),
+														}),
+													PlaceObj('XTemplateFunc', {
+														'name', "OnMouseButtonDown(self, pos, button)",
+														'func', function (self, pos, button)
+															return "break"
+														end,
+													}),
+													PlaceObj('XTemplateTemplate', {
+														'comment', "contract warning",
+														'__context', function (parent, context) return parent:ResolveId("node").context end,
+														'__template', "MercContractWarningIcon",
+														'Dock', "left",
+													}),
+													}),
+												PlaceObj('XTemplateWindow', {
+													'Dock', "bottom",
+													'HAlign', "left",
+													'VAlign', "bottom",
+													'LayoutMethod', "VList",
+													'LayoutVSpacing', 2,
+												}, {
+													PlaceObj('XTemplateWindow', {
+														'__class', "XButton",
+														'RolloverTemplate', "PDAOperationRollover",
+														'RolloverAnchor', "right",
+														'RolloverAnchorId', "idContent",
+														'RolloverText', T(965623560296, --[[ModItemXTemplate SquadsAndMercs_old RolloverText]] "затычка"),
+														'Id', "idOperationContainer",
+														'Margins', box(-5, 4, 0, 0),
+														'Dock', "bottom",
+														'HAlign', "left",
+														'VAlign', "bottom",
+														'MinWidth', 30,
+														'MinHeight', 30,
+														'MaxWidth', 30,
+														'MaxHeight', 30,
+														'Background', RGBA(30, 37, 47, 255),
+														'BackgroundRectGlowSize', 1,
+														'BackgroundRectGlowColor', RGBA(30, 37, 47, 255),
+														'OnContextUpdate', function (self, context, ...)
+															local sector = context:GetSector()
+															self:SetVisible(true)
+															local operation_id = self.context.Operation
+															local is_operation_started = operation_id=="Idle" or operation_id=="Traveling" or operation_id=="Arriving" or sector and sector.started_operations and sector.started_operations[operation_id]
+															
+															if not is_operation_started then
+																self:SetVisible(false)
+																return
+															end
+															local operation = SectorOperations[self.context.Operation]
+															local icon = operation and operation.icon or ""
+															if self.idOperation.Image ~= icon then
+																self.idOperation:SetImage(icon)
+															end
+															self.idOperation:SetImageColor(GameColors.J)
+															-- Released merc.
+															if not context.Squad then return end
+																										
+															-- top parts are 1/8; side and bottom - 1/4
+															local progress_top_left, progress_top_right, progress_left, progress_right, progress_bottom = 0, 0, 0, 0, 0
+															local max_progress = context.OperationInitialETA or 0
+															if max_progress > 0 then
+																local current = max_progress -  GetOperationTimerETA(context, "prediction")--GetOperationTimeLeft(context, context.Operation)
+																local perc = MulDivRound(current or 0, 100, max_progress)
+																progress_top_right = Min(perc, 12)
+																perc = Max(perc - progress_top_right, 0)
+																progress_right = Min(perc, 25)
+																perc = Max(perc - progress_right, 0)
+																progress_bottom = Min(perc, 25)
+																perc = Max(perc - progress_bottom, 0)
+																progress_left = Min(perc, 25)
+																perc = Max(perc - progress_left, 0)
+																progress_top_left = Min(perc, 13)
+															end
+															self.idTopLeft:SetProgress(progress_top_left)
+															self.idTopRight:SetProgress(progress_top_right)
+															self.idLeft:SetProgress(progress_left)
+															self.idRight:SetProgress(progress_right)
+															self.idBottom:SetProgress(progress_bottom)
+														end,
+														'FocusedBackground', RGBA(30, 37, 47, 255),
+														'OnPress', function (self, gamepad)
+															InvokeShortcutAction(false, "idOperations")
+														end,
+														'RolloverBackground', RGBA(30, 37, 47, 255),
+														'PressedBackground', RGBA(30, 37, 47, 255),
+													}, {
+														PlaceObj('XTemplateWindow', {
+															'comment', "operation icon",
+															'__class', "XImage",
+															'Id', "idOperation",
+															'HAlign', "center",
+															'VAlign', "center",
+															'MinWidth', 24,
+															'MinHeight', 24,
+															'MaxWidth', 24,
+															'MaxHeight', 24,
+															'Image', "UI/Icons/unknown_add",
+															'ImageFit', "stretch",
+															'ImageColor', RGBA(61, 122, 153, 255),
+														}),
+														PlaceObj('XTemplateWindow', {
+															'Id', "idProgressBarContainer",
+															'MouseCursor', "UI/Cursors/Pda_Hand.tga",
+														}, {
+															PlaceObj('XTemplateWindow', {
+																'__class', "OperationProgressBarSection",
+																'Id', "idTopLeft",
+																'HAlign', "left",
+																'VAlign', "top",
+																'MinWidth', 15,
+																'MinHeight', 2,
+																'MaxWidth', 15,
+																'MaxHeight', 2,
+																'UseClipBox', false,
+																'MaxProgress', 13,
+															}),
+															PlaceObj('XTemplateWindow', {
+																'__class', "OperationProgressBarSection",
+																'Id', "idTopRight",
+																'Margins', box(15, 0, 0, 0),
+																'HAlign', "left",
+																'VAlign', "top",
+																'MinWidth', 15,
+																'MinHeight', 2,
+																'MaxWidth', 15,
+																'MaxHeight', 2,
+																'UseClipBox', false,
+																'MaxProgress', 12,
+															}),
+															PlaceObj('XTemplateWindow', {
+																'__class', "OperationProgressBarSection",
+																'Id', "idRight",
+																'HAlign', "right",
+																'VAlign', "top",
+																'MinWidth', 2,
+																'MinHeight', 30,
+																'MaxWidth', 2,
+																'MaxHeight', 30,
+																'UseClipBox', false,
+																'Horizontal', false,
+																'MaxProgress', 25,
+															}),
+															PlaceObj('XTemplateWindow', {
+																'__class', "OperationProgressBarSection",
+																'Id', "idBottom",
+																'HAlign', "right",
+																'VAlign', "bottom",
+																'MinWidth', 30,
+																'MinHeight', 2,
+																'MaxWidth', 30,
+																'MaxHeight', 2,
+																'UseClipBox', false,
+																'MaxProgress', 25,
+															}),
+															PlaceObj('XTemplateWindow', {
+																'__class', "OperationProgressBarSection",
+																'Id', "idLeft",
+																'HAlign', "left",
+																'VAlign', "bottom",
+																'MinWidth', 2,
+																'MinHeight', 30,
+																'MaxWidth', 2,
+																'MaxHeight', 30,
+																'UseClipBox', false,
+																'Horizontal', false,
+																'MaxProgress', 25,
+															}),
+															}),
+														PlaceObj('XTemplateFunc', {
+															'name', "OnMousePos",
+															'func', function (self, ...)
+																return "break"
+															end,
+														}),
+														PlaceObj('XTemplateFunc', {
+															'name', "Open(self)",
+															'func', function (self)
+																self.idTopLeft:SetProgress(0)
+																self.idTopRight:SetProgress(0)
+																self.idLeft:SetProgress(0)
+																self.idRight:SetProgress(0)
+																self.idBottom:SetProgress(0)
+																XContextWindow.Open(self)
+															end,
+														}),
+														}),
+													}),
+												}),
+											}),
+										}),
+									}),
+								PlaceObj('XTemplateGroup', {
+									'__condition', function (parent, context) return GetDialog(GetDialog(parent).parent) == GetDialog("FullscreenGameDialogs") end,
+								}, {
+									PlaceObj('XTemplateForEach', {
+										'comment', "Mercs in the Current Team",
+										'array', function (parent, context) return context and context.units end,
+										'__context', function (parent, context, item, i, n)
+											local unit = g_Units[item]
+											if unit and InventoryIsCombatMode(unit) then 
+												return unit
+											end
+											return gv_SatelliteView and  gv_UnitData[item] or g_Units[item] or gv_UnitData[item]
+										end,
+										'run_after', function (child, context, item, i, n, last)
+											child.unit = context
+											child:SetContext(child.unit)
+											child.idx = i
+										end,
+									}, {
+										PlaceObj('XTemplateTemplate', {
+											'__template', "HUDMerc",
+											'RolloverAnchorId', "idParty",
+											'LayoutMethod', "HWrap",
+											'OnContextUpdate', function (self, context, ...)
+												HUDMercClass.OnContextUpdate(self, context, ...)
+												self.unit = context
+											end,
+											'OnPress', function (self, gamepad)
+												self:SelectUnit()
+											end,
+										}, {
+											PlaceObj('XTemplateFunc', {
+												'name', "Open(self)",
+												'func', function (self)
+													local noClr = const.PDAUIColors.noClr
+													self.idContent:SetBackground(noClr)
+													self.idContent:SetBackgroundRectGlowSize(0)
+													local dlg = GetDialog(self)
+													local ctx = self:GetContext()
+													if ctx and dlg.selected_unit and dlg.selected_unit.session_id == ctx.session_id then
+														self:SetSelected(true)
+													end
+													HUDMercClass.Open(self)
+												end,
+											}),
+											PlaceObj('XTemplateFunc', {
+												'name', "SelectUnit(self)",
+												'func', function (self)
+													local dlg = GetDialog(self)
+													local myUnit = self.unit
+													local invUnit = dlg.selected_unit
+													if IsCoOpGame() then
+														if not myUnit:IsLocalPlayerControlled() then											
+															if InventoryIsValidGiveDistance(InventoryStartDragContext, myUnit)then
+																local args = { src_container = InventoryStartDragContext, src_slot = InventoryStartDragSlotName,
+																				dest_container = myUnit, dest_slot = GetContainerInventorySlotName(myUnit)}
+																if InventoryDragItems then
+																	args.multi_items = true
+																	for i, item in ipairs(InventoryDragItems) do		
+																		args.item = item
+																		args.no_ui_respawn = i~=#InventoryDragItems
+																		local r1, r2  = MoveItem(args) --this will merge stacks and move, if you want only move use amount = item.Amount				
+																		--		print(item.class, r1, r2)
+																	end															
+																	InventoryDeselectMultiItems()
+																	PlayFX("GiveItem", "start",  GetInventoryItemDragDropFXActor(item))
+																elseif InventoryDragItem then
+																	--give drag item
+																	args.item = InventoryDragItem
+																	MoveItem(args)
+																end
+																--CancelDrag(dlg)
+																return
+															end
+														end
+													end
+													
+													self:SetSelected(true)
+													if myUnit and invUnit and myUnit.session_id == invUnit.session_id then
+														return
+													end
+													
+													local tacticalUnit = g_Units[myUnit.session_id]
+													if tacticalUnit and tacticalUnit:CanBeControlled() then
+														SelectObj(g_Units[myUnit.session_id])
+													end
+													
+													local win, button 
+													if IsEquipSlot(InventoryStartDragSlotName) then
+														local slot_ctrl = dlg:GetSlotByName(InventoryStartDragSlotName)
+														win  = slot_ctrl.drag_win
+														button = slot_ctrl.drag_button
+														slot_ctrl.drag_win = false
+														local desktop = slot_ctrl.desktop
+														if desktop:GetMouseCapture()==slot_ctrl then
+															desktop:SetMouseCapture(false)	
+														end
+													end
+													
+													local prev_unit_id = invUnit.session_id
+													dlg.selected_unit = myUnit
+													dlg.compare_mode_weaponslot = self.unit.current_weapon=="Handheld A" and 1 or 2
+													local context = dlg:GetContext()
+													context.unit = myUnit
+													InventoryClosePopup(dlg)
+													dlg:SetContext(context)
+													dlg:OnContextUpdate(context)
+													dlg.idUnitInfo:RespawnContent()
+													dlg:CompareWeaponSetUI()
+													--dlg:ActionsUpdated()
+													-- move selected unit backpack into view
+													local ctrl_right_area = dlg.idScrollArea --= ScrollIntoView
+													for _, wnd in ipairs(ctrl_right_area) do
+														local wcontext = wnd:GetContext()
+														local wnd_id = wnd:GetContext().session_id
+														local is_grayouted = InventoryUIGrayOut(wcontext)
+														wnd:SetTransparency(is_grayouted and 150 or 0)
+														if wnd and wnd_id then
+															if wnd_id==prev_unit_id then
+																wnd.idName:SetHightlighted(false)
+															end	
+															if wnd_id==context.unit.session_id then
+																ctrl_right_area:ScrollIntoView(wnd)
+																wnd.idName:SetHightlighted(true)
+															end
+														end	
+													end
+													
+													for _, wnd in ipairs(self.parent) do
+														wnd:SetSelected(self==wnd)
+													end
+													
+													if IsEquipSlot(InventoryStartDragSlotName) then
+														local dlg = GetDialog(self)
+														local slot_ctrl = dlg:GetSlotByName(InventoryStartDragSlotName)
+														slot_ctrl.drag_win = win
+														slot_ctrl.drag_button = button
+														DragSource = slot_ctrl
+														slot_ctrl.desktop:SetMouseCapture(slot_ctrl)
+													end
+													if InventoryDragItem and not InventoryDragItems then
+														HighlightEquipSlots(InventoryDragItem, true)
+														HighlightWeaponsForAmmo(InventoryDragItem, true)
+														--HighlightAPCost(InventoryDragItem, true, StartDragSource)
+													end
+												end,
+											}),
+											PlaceObj('XTemplateFunc', {
+												'name', "IsDropTarget(self, draw_win, pt)",
+												'func', function (self, draw_win, pt)
+													return true
+												end,
+											}),
+											PlaceObj('XTemplateFunc', {
+												'name', "OnDropEnter(self, draw_win, pt, drag_source)",
+												'func', function (self, draw_win, pt, drag_source)
+													self:SetRollover(true)
+													local valid, mouse_text = InventoryIsValidGiveDistance(InventoryStartDragContext, self:GetContext())
+													if (not gv_SatelliteView or InventoryIsCombatMode()) and not valid then
+														InventoryShowMouseText(true,mouse_text)
+														return
+													end
+													if InventoryDragItem and g_Combat and IsCoOpGame() and not self.context:IsLocalPlayerControlled() then
+														mouse_text = T(406257152368, "Cannot pick").."\n"..T(341907478094, "Controlled by <OtherPlayerName()>")
+													elseif InventoryDragItem then											
+														mouse_text = InventoryGetMoveIsInvalidReason(self.context, InventoryStartDragContext)
+														if not mouse_text then
+															local ap_cost, unit_ap, action_name = InventoryItemsAPCost(self.context, "Inventory", false, false)
+															mouse_text = action_name or ""
+															if InventoryIsCombatMode() and ap_cost and ap_cost>0 then
+																mouse_text = InventoryFormatAPMouseText(unit_ap, ap_cost, mouse_text)
+															end
+														end
+													end	
+													InventoryShowMouseText(not not mouse_text,mouse_text)
+												end,
+											}),
+											PlaceObj('XTemplateFunc', {
+												'name', "OnDropLeave(self, drag_win)",
+												'func', function (self, drag_win)
+													self:SetRollover(false)
+													InventoryShowMouseText(false)
+												end,
+											}),
+											PlaceObj('XTemplateFunc', {
+												'name', "OnDrop(self, drag_win, pt, drag_source_win)",
+												'func', function (self, drag_win, pt, drag_source_win)
+													self:SelectUnit()
+													return "not valid target"
+												end,
+											}),
+											PlaceObj('XTemplateFunc', {
+												'name', "SetHighlighted(self, selected)",
+												'func', function (self, selected)
+													if type(selected) == "string" then
+														local stat = Presets.MercStat.Default[selected]
+														if stat then
+															local icon = stat.Icon
+															local value = self.context[selected]
+															self.idStatIcon:SetImage(icon)
+															self.idStatCount:SetText(value)
+														else
+															selected = true
+														end
+													end
+													
+													self.highlighted = selected
+													--self:OnSetRollover()
+													if self.ClassIconOnRollover then
+														self.idClass:SetVisible(self.rollover or selected)
+													end	
+													self:SetupStyle(self.rollover or selected)
+												end,
+											}),
+											PlaceObj('XTemplateFunc', {
+												'name', "SetHighlightedStatOrIcon(self, selected)",
+												'func', function (self, selected)
+													if type(selected) == "string" then
+														local stat = Presets.MercStat.Default[selected]
+														if stat then
+															local icon = stat.Icon
+															local value = self.context[selected]
+															self.idStatIcon:SetImage(icon)
+															self.idStatCount:SetText(value)
+															self.idStatIcon:SetImageColor(GameColors.J)
+														else
+															self.idStatIcon:SetImage(selected)
+															self.idStatCount.parent:SetVisible(false)
+															self.idStatIcon:SetImageColor(GameColors.J)
+														end
+													end
+													
+													self.highlighted = selected
+													if self.ClassIconOnRollover then
+														self.idClass:SetVisible(self.rollover or selected)
+													end	
+													
+													if type(self.highlighted) == "string" then
+														self.idBar:SetVisible(false)
+														self.idStatHighlight:SetVisible(true)
+													else
+														self.idBar:SetVisible(true)
+														self.idStatCount.parent:SetVisible(true)
+														self.idStatHighlight:SetVisible(false)
+													end
+												end,
+											}),
+											PlaceObj('XTemplateFunc', {
+												'name', "SetupStyle(self, rollover)",
+												'func', function (self, rollover)
+													if not self.idContent then
+														return
+													end
+													local hightlighted_string = type(self.highlighted) == "string"
+													local selected = self.selected or (self.highlighted and not hightlighted_string)or rollover
+													local noClr = const.PDAUIColors.noClr
+													local selectedColored =const.HUDUIColors.selectedColored
+													local defaultColor = const.HUDUIColors.defaultColor
+													self.idContent:SetImage(selected and "UI/PDA/os_portrait_selection" or "")
+													self.idBottomPart:SetBackground(selected and noClr or defaultColor)
+													self.idBottomPart:SetBackgroundRectGlowColor(selected and noClr or defaultColor)
+													self.idContent:SetBackground(selected and RGBA(255,255,255,255) or noClr)
+													
+													if hightlighted_string then
+														self.idBar:SetVisible(false)
+														self.idStatHighlight:SetVisible(true)
+													else
+														self.idBar:SetVisible(true)
+														self.idStatHighlight:SetVisible(false)
+													end
+													--self.idContent:SetFocusedBackground(noClr)
+													--self.idContent:SetBackgroundRectGlowColor(selected and selectedColored or noClr)
+													local name = self:ResolveId("idName")
+													if name then
+														self.idName:SetTextStyle(selected and "PDAMercNameCard" or "PDAMercNameCard_Light")
+													end
+													
+													if self.idAPIndicator then
+														self.idAPIndicator:SetBackground(selected and selectedColored or defaultColor)
+														self.idAPIndicator:SetBackgroundRectGlowSize(selected and 0 or 1)
+														self.idAPIndicator:SetBackgroundRectGlowColor(selected and selectedColored or defaultColor)
+														self.idAPText:SetTextStyle(selected and "HUDHeaderDark" or "HUDHeader")
+													end
+												end,
+											}),
+											PlaceObj('XTemplateFunc', {
+												'name', "SetSelected(self, selected)",
+												'func', function (self, selected)
+													--if self.selected == selected then return false end
+													self.selected = selected
+													self:SetupStyle()
+												end,
+											}),
+											PlaceObj('XTemplateFunc', {
+												'name', "OnSetRollover(self, rollover)",
+												'func', function (self, rollover)
+													HUDMercClass.OnSetRollover(self, rollover)
+													self:SetupStyle(rollover)
+												end,
+											}),
+											PlaceObj('XTemplateCode', {
+												'comment', "OnMsg.StatusEffectAdded/Removed",
+												'run', function (self, parent, context)
+													function OnMsg.StatusEffectAdded(unit, status, stacks, reason)
+														if status ~= "Hidden" then return end
+														if parent.context ~= unit then return end
+														HUDMercClass.SetupStyle(parent)
+													end
+													
+													function OnMsg.StatusEffectRemoved(unit, status, stacks, reason)
+														if status ~= "Hidden" then return end
+														if parent.context ~= unit then return end
+														HUDMercClass.SetupStyle(parent)
+													end
+												end,
+											}),
+											PlaceObj('XTemplateWindow', {
+												'__parent', function (parent, context) return parent.idPortraitBG end,
+												'Id', "idStatHighlight",
+												'Dock', "box",
+												'VAlign', "bottom",
+												'FoldWhenHidden', true,
+												'DrawOnTop', true,
+											}, {
+												PlaceObj('XTemplateWindow', {
+													'HAlign', "left",
+													'VAlign', "bottom",
+													'LayoutMethod', "HList",
+												}, {
+													PlaceObj('XTemplateWindow', {
+														'Padding', box(2, 2, 2, 2),
+														'HAlign', "right",
+														'VAlign', "bottom",
+														'MinWidth', 24,
+														'MinHeight', 24,
+														'MaxWidth', 24,
+														'MaxHeight', 24,
+														'Background', RGBA(32, 35, 47, 255),
+														'BackgroundRectGlowColor', RGBA(32, 35, 47, 255),
+													}, {
+														PlaceObj('XTemplateWindow', {
+															'__class', "XImage",
+															'Id', "idStatIcon",
+															'Image', "UI/Icons/st_marksmanship",
+															'ImageFit', "stretch",
+															'ImageColor', RGBA(130, 128, 120, 255),
+														}),
+														}),
+													PlaceObj('XTemplateWindow', {
+														'HAlign', "right",
+														'VAlign', "bottom",
+														'MinWidth', 24,
+														'MinHeight', 24,
+														'MaxHeight', 24,
+														'Background', RGBA(32, 35, 47, 255),
+														'BackgroundRectGlowColor', RGBA(32, 35, 47, 255),
+													}, {
+														PlaceObj('XTemplateWindow', {
+															'__class', "XText",
+															'Id', "idStatCount",
+															'HAlign', "center",
+															'VAlign', "center",
+															'FoldWhenHidden', true,
+															'TextStyle', "HUDHeaderSmallLight",
+															'ContextUpdateOnOpen', true,
+														}),
+														}),
+													}),
+												}),
+											PlaceObj('XTemplateWindow', {
+												'HAlign', "right",
+											}, {
+												PlaceObj('XTemplateWindow', {
+													'Id', "idStatusHighlighter",
+													'VAlign', "top",
+													'LayoutMethod', "VList",
+													'Visible', false,
+													'FoldWhenHidden', true,
+												}, {
+													PlaceObj('XTemplateWindow', {
+														'comment', "only shows wounded effect",
+														'__context', function (parent, context) return context.StatusEffects end,
+														'__class', "XContentTemplate",
+														'Id', "idStatusEffectsContainer",
+														'Margins', box(0, 5, 0, 0),
+														'HAlign', "left",
+														'VAlign', "top",
+														'LayoutMethod', "VWrap",
+														'LayoutVSpacing', -2,
+														'UseClipBox', false,
+														'FoldWhenHidden', true,
+													}, {
+														PlaceObj('XTemplateForEach', {
+															'comment', "status effect",
+															'array', function (parent, context) return context.Wounded and { context[context.Wounded] } or empty_table end,
+															'condition', function (parent, context, item, i) return item end,
+															'__context', function (parent, context, item, i, n) return item end,
+														}, {
+															PlaceObj('XTemplateTemplate', {
+																'__condition', function (parent, context) return context end,
+																'__template', "StatusEffectIcon",
+																'VAlign', "top",
+															}),
+															}),
+														}),
+													}),
+												PlaceObj('XTemplateWindow', {
+													'__condition', function (parent, context) return IsKindOf(context, "Unit") and g_Combat end,
+													'VAlign', "bottom",
+													'LayoutMethod', "VList",
+													'LayoutVSpacing', 2,
+												}, {
+													PlaceObj('XTemplateWindow', {
+														'Id', "idAPIndicator",
+														'Margins', box(-5, 0, 0, 0),
+														'Padding', box(2, 2, 2, 2),
+														'HAlign', "left",
+														'VAlign', "bottom",
+														'MinWidth', 30,
+														'MinHeight', 30,
+														'MaxWidth', 30,
+														'MaxHeight', 30,
+														'Background', RGBA(230, 222, 203, 255),
+														'BackgroundRectGlowColor', RGBA(230, 222, 203, 255),
+													}, {
+														PlaceObj('XTemplateWindow', {
+															'__class', "XText",
+															'Id', "idAPText",
+															'HAlign', "center",
+															'VAlign', "center",
+															'FoldWhenHidden', true,
+															'TextStyle', "HUDHeaderDark",
+															'ContextUpdateOnOpen', true,
+															'OnContextUpdate', function (self, context, ...)
+																if not IsKindOf(context, "Unit") then return end
+																self.parent:SetVisible(not not g_Combat and not context:IsDead() and not context:IsDowned())
+																self:SetText(self.Text)
+																XContextControl.OnContextUpdate(self, context)
+															end,
+															'Translate', true,
+														}),
+														}),
+													}),
+												}),
+											}),
+										}),
+									}),
+								PlaceObj('XTemplateGroup', {
+									'__condition', function (parent, context) return IsKindOf(GetDialog(parent), "IModeCommonUnitControl") or IsKindOf(GetDialog(parent), "IModeDeployment") end,
+								}, {
+									PlaceObj('XTemplateForEach', {
+										'comment', "Mercs in the Current Team",
+										'array', function (parent, context) return context and context.units end,
+										'condition', function (parent, context, item, i) return IsKindOf(item, "Unit") and item.team and item.team.control == "UI" end,
+										'__context', function (parent, context, item, i, n) return item end,
+									}, {
+										PlaceObj('XTemplateTemplate', {
+											'__template', "HUDMerc",
+											'LayoutMethod', "HWrap",
+											'OnContextUpdate', function (self, context, ...)
+												local unit = self.context
+												local unitSelected = not not table.find(Selection, unit)
+												self:SetSelected(Selection[1] == unit and "full" or unitSelected)
+												self:SetupStyle()
+												local showActionInfo = SelectedObj and IsCombatActionForAlly(GetDialog(self).action)
+												self.dontShowRollover = showActionInfo
+											end,
+											'OnPress', function (self, gamepad)
+												local selectedUnit = self.context
+												local igim = GetInGameInterfaceModeDlg()
+												
+												if IsCombatActionForAlly(igim.action) and (igim.action.ActionType ~= "Ranged Attack") and (igim.action.ActionType ~= "Melee Attack") then
+													if SelectedObj and not SelectedObj.move_attack_target then
+														local targets = igim.action:GetTargets({SelectedObj})
+														if table.find(targets, selectedUnit) then
+															local _, err = CanBandageUI(SelectedObj, { target = selectedUnit })
+															if igim.action:GetUIState({SelectedObj}) == "enabled" and not err then
+																igim:StartMoveAndAttack(SelectedObj, igim.action, selectedUnit, SelectedObj:GetClosestMeleeRangePos(selectedUnit), {target = selectedUnit})
+															end
+														end
+													end
+													return "break"
+												end
+												
+												local canBeControlled, reason = selectedUnit:CanBeControlled()
+												if not canBeControlled and reason ~= "not_local_turn" then
+													return "break"
+												end
+												
+												if selectedUnit == SelectedObj and not IsPointInsidePoly2D(selectedUnit:GetVisualPos(), CalcCombatZone()) or
+													cameraTac.GetFloor() ~= GetStepFloor(selectedUnit) then
+													SnapCameraToObj(selectedUnit, nil, GetStepFloor(selectedUnit))
+												end
+												
+												if g_Combat and not gv_DeploymentStarted and not IsKindOf(igim, "IModeCombatMovement") then
+													SetInGameInterfaceMode("IModeCombatMovement")
+													SelectObj(selectedUnit)
+												elseif IsKindOf(igim, "IModeExploration") then
+													igim:HandleUnitSelection({selectedUnit})
+												else -- Deployment
+													SelectObj(selectedUnit)
+												end
+												
+												return "break"
+											end,
+											'AltPress', true,
+											'OnAltPress', function (self, gamepad)
+												local selectedUnit = self.context						
+												local igim = GetInGameInterfaceModeDlg()
+												
+												local squad = gv_Squads[self.context.Squad]	
+												local context = {
+													sector_id = squad.CurrentSector,
+													squad_id = squad.UniqueId,
+													actions = { "idInventory", "actionOpenCharacterContextMenu", "actionLevelUpViewContextMenu" },
+													unit_id = selectedUnit.session_id
+												}
+												local ctxMenu = XTemplateSpawn("SatelliteViewMapContextMenu", igim, context)
+												ctxMenu:SetZOrder(999)
+												ctxMenu:SetAnchor(self.box)
+												ctxMenu:Open()
+												self.desktop:SetModalWindow(ctxMenu)
+											end,
+											'ClassIconOnRollover', true,
+										}, {
+											PlaceObj('XTemplateFunc', {
+												'name', "OnMouseButtonDoubleClick(self, pt, button)",
+												'func', function (self, pt, button)
+													local selectedUnit = self.context
+													if not IsKindOf(selectedUnit, "Unit") or ActionCameraPlaying then return end
+													
+													SnapCameraToObj(selectedUnit, "force", GetStepFloor(selectedUnit))
+												end,
+											}),
+											PlaceObj('XTemplateFunc', {
+												'name', "OnSetRollover(self, rollover)",
+												'func', function (self, rollover)
+													local context = self.context								
+													
+													local igim = GetInGameInterfaceModeDlg()
+													if igim and IsCombatActionForAlly(igim.action) then
+														if igim.action.id == "Bandage" then
+															local _, err = CanBandageUI(SelectedObj, { target = context })
+															local bandageError = err and Untranslated(_InternalTranslate(err, { ["flavor"] = "", ["/flavor"] = "" }))
+															SetAPIndicator(bandageError and 0 or false, "bandage-error", bandageError, nil, "force")
+															context:SetHighlightReason("bandage-target", not err)
+														end
+														SetAPIndicator(false, "melee-attack")
+														SetAPIndicator(false, "unreachable")
+													end
+													
+													local noRollover = context:IsDead() or not context:IsLocalPlayerControlled()
+													if rollover and not noRollover then
+														SetActiveBadgeExclusive(self.context)
+													elseif context.ui_badge then
+														context.ui_badge:SetActive(false, "exclusive")
+														context:SetHighlightReason("bandage-target", false)
+													end
+													
+													if noRollover then
+														rollover = false
+													end
+													
+													HUDMercClass.OnSetRollover(self, rollover)
+												end,
+											}),
+											PlaceObj('XTemplateFunc', {
+												'name', "SetupStyle(self, ...)",
+												'func', function (self, ...)
+													if IsKindOf(GetDialog(self.parent), "IModeDeployment") then
+														local deployed = IsUnitDeployed(self.context)
+														if not deployed then
+															self.idPortrait:SetEnabled(false)
+															self.idBar.HPColor = GameColors.D
+														else
+															self.idPortrait:SetEnabled(true)
+															self.idBar.HPColor = GameColors.Player
+														end
+													end
+													HUDMercClass.SetupStyle(self, ...)
+												end,
+											}),
+											PlaceObj('XTemplateFunc', {
+												'name', "GetMouseCursor(self)",
+												'func', function (self)
+													local igim = GetInGameInterfaceModeDlg()
+													if igim.action and igim.action.id == "Bandage" then
+														if CanBandageUI(SelectedObj, { target = self.context }) then
+															return "UI/Cursors/Healing_on.tga"
+														else
+															return "UI/Cursors/Healing_off.tga"
+														end
+													end
+													
+													return "UI/Cursors/Hand.tga"
+												end,
+											}),
+											PlaceObj('XTemplateCode', {
+												'comment', "OnMsg.StatusEffectAdded/Removed",
+												'run', function (self, parent, context)
+													function OnMsg.StatusEffectAdded(unit, status, stacks, reasons)
+														if status ~= "Hidden" then return end
+														if parent.context ~= unit then return end
+														HUDMercClass.SetupStyle(parent)
+													end
+													
+													function OnMsg.StatusEffectRemoved(unit, status, stacks, reason)
+														if status ~= "Hidden" then return end
+														if parent.context ~= unit then return end
+														HUDMercClass.SetupStyle(parent)
+													end
+												end,
+											}),
+											PlaceObj('XTemplateWindow', {
+												'HAlign', "right",
+												'VAlign', "bottom",
+												'LayoutMethod', "VList",
+											}, {
+												PlaceObj('XTemplateWindow', nil, {
+													PlaceObj('XTemplateWindow', {
+														'__class', "XImage",
+														'RolloverTemplate', "RolloverGeneric",
+														'RolloverAnchor', "right",
+														'RolloverText', T(299219879155, --[[ModItemXTemplate SquadsAndMercs_old RolloverText]] "Идёт перевязка."),
+														'RolloverOffset', box(15, 0, 0, 0),
+														'Id', "idBeingBandagedIndicator",
+														'HAlign', "center",
+														'VAlign', "top",
+														'MinWidth', 25,
+														'MinHeight', 25,
+														'MaxWidth', 25,
+														'MaxHeight', 25,
+														'Visible', false,
+														'HandleMouse', true,
+														'Image', "UI/Hud/hud_bandaging",
+														'ImageFit', "stretch",
+														'ImageScale', point(900, 900),
+													}),
+													PlaceObj('XTemplateWindow', {
+														'__context', function (parent, context) return context.StatusEffects end,
+														'__class', "XContentTemplate",
+														'Id', "idWounded",
+														'Margins', box(3, 0, 0, 0),
+														'LayoutMethod', "HList",
+														'HandleMouse', true,
+														'MouseCursor', "UI/Cursors/Cursor.tga",
+													}, {
+														PlaceObj('XTemplateTemplate', {
+															'__context', function (parent, context) return table.find_value(context, "class", "Wounded") end,
+															'__condition', function (parent, context) return not not context end,
+															'__template', "StatusEffectIcon",
+														}),
+														PlaceObj('XTemplateTemplate', {
+															'__context', function (parent, context) return table.find_value(context, "class", "Tired") or table.find_value(context, "class", "Exhausted") end,
+															'__condition', function (parent, context) return not not context end,
+															'__template', "StatusEffectIcon",
+														}),
+														PlaceObj('XTemplateFunc', {
+															'name', "OnMouseButtonDown(self, pos, button)",
+															'func', function (self, pos, button)
+																return "break"
+															end,
+														}),
+														}),
+													}),
+												PlaceObj('XTemplateWindow', {
+													'__context', function (parent, context) return "combat_bar_enemies" end,
+													'__condition', function (parent, context) return not IsKindOf(GetDialog(parent), "IModeDeployment") end,
+													'__class', "XContextWindow",
+													'RolloverTemplate', "RolloverGeneric",
+													'RolloverAnchor', "right",
+													'RolloverOffset', box(10, 0, 0, 0),
+													'IdNode', true,
+													'HAlign', "left",
+													'VAlign', "bottom",
+													'ContextUpdateOnOpen', true,
+													'OnContextUpdate', function (self, context, ...)
+														local partyMemberWnd = self:ResolveId("node")
+														local member = partyMemberWnd.context
+														local targets = GetTargetsToShowInPartyUI(member)
+														local targetCount = #targets
+														self:SetVisible(targetCount > 0 and not gv_Deployment)
+														rawset(self[1], "enemies", targets)
+														self:SetRolloverText(T{914820786173, "Visible Enemies: <enemyCount>", enemyCount = targetCount})
+														self.idCount:SetText(targetCount)
+													end,
+												}, {
+													PlaceObj('XTemplateWindow', {
+														'__class', "XImage",
+														'IdNode', false,
+														'HandleMouse', true,
+														'Image', "UI/Hud/enemies_in_range",
+														'Columns', 2,
+														'ImageScale', point(900, 900),
+													}, {
+														PlaceObj('XTemplateFunc', {
+															'name', "OnMouseButtonDown(self, pos, button)",
+															'func', function (self, pos, button)
+																local enemies = rawget(self, "enemies")
+																if not enemies or #enemies == 0 then return end
+																local lastTarget = rawget(self, "target")
+																if not lastTarget or lastTarget == #enemies then lastTarget = 0 end
+																lastTarget = lastTarget + 1
+																rawset(self, "target", lastTarget)
+																SnapCameraToObj(enemies[lastTarget], nil, GetStepFloor(enemies[lastTarget]))
+																return "break"
+															end,
+														}),
+														PlaceObj('XTemplateWindow', {
+															'__class', "XText",
+															'Id', "idCount",
+															'HAlign', "right",
+															'VAlign', "top",
+															'Clip', false,
+															'UseClipBox', false,
+															'FoldWhenHidden', true,
+															'TextStyle', "VisibleEnemiesUICount",
+														}),
+														}),
+													}),
+												PlaceObj('XTemplateWindow', {
+													'Id', "idAPIndicator",
+													'Margins', box(-5, 0, 0, 0),
+													'Padding', box(2, 2, 2, 2),
+													'HAlign', "left",
+													'VAlign', "bottom",
+													'MinWidth', 30,
+													'MinHeight', 30,
+													'MaxWidth', 30,
+													'MaxHeight', 30,
+													'Background', RGBA(230, 222, 203, 255),
+													'BackgroundRectGlowColor', RGBA(230, 222, 203, 255),
+												}, {
+													PlaceObj('XTemplateWindow', {
+														'__class', "XText",
+														'Id', "idAPText",
+														'HAlign', "center",
+														'VAlign', "center",
+														'FoldWhenHidden', true,
+														'TextStyle', "HUDHeaderDark",
+														'ContextUpdateOnOpen', true,
+														'OnContextUpdate', function (self, context, ...)
+															if not IsKindOf(context, "Unit") then return end
+															self.parent:SetVisible(not not g_Combat and not context:IsDead() and not context:IsDowned())
+															self:SetText(self.Text)
+															XContextControl.OnContextUpdate(self, context)
+														end,
+														'Translate', true,
+													}),
+													PlaceObj('XTemplateWindow', {
+														'__class', "XImage",
+														'Id', "idBandageIndicator",
+														'Visible', false,
+														'Image', "UI/Hud/Status effects/treating",
+														'ImageFit', "stretch",
+													}),
+													}),
+												PlaceObj('XTemplateWindow', {
+													'__condition', function (parent, context) return IsKindOf(GetDialog(parent), "IModeDeployment") end,
+													'RolloverTemplate', "SmallRolloverGeneric",
+													'RolloverAnchor', "top",
+													'RolloverText', T(346949314253, --[[ModItemXTemplate SquadsAndMercs_old RolloverText]] "Развёртывание не завершено"),
+													'RolloverOffset', box(-15, 0, 0, -15),
+													'Id', "idDeployed",
+													'Margins', box(-5, 0, 0, -5),
+													'HAlign', "right",
+													'VAlign', "bottom",
+													'HandleMouse', true,
+												}, {
+													PlaceObj('XTemplateWindow', {
+														'__class', "XContextImage",
+														'FoldWhenHidden', true,
+														'Image', "UI/Hud/notification",
+														'ContextUpdateOnOpen', true,
+														'OnContextUpdate', function (self, context, ...)
+															if not IsKindOf(context, "Unit") then return end
+															local deployed = IsUnitDeployed(context)
+															self.parent:SetVisible(not deployed)
+															XContextControl.OnContextUpdate(self, context)
+														end,
+													}),
+													}),
+												}),
+											PlaceObj('XTemplateWindow', {
+												'comment', "sus bar",
+												'__parent', function (parent, context) return parent.idBottomPart end,
+												'__condition', function (parent, context) return not g_Combat end,
+												'__class', "SmoothBar",
+												'Margins', box(0, 0, 0, -3),
+												'Dock', "top",
+												'VAlign', "top",
+												'MinHeight', 3,
+												'MaxHeight', 3,
+												'Background', RGBA(52, 55, 61, 255),
+												'BindTo', "suspicion",
+												'FillColor', RGBA(222, 60, 75, 255),
+											}, {
+												PlaceObj('XTemplateFunc', {
+													'name', "Open(self)",
+													'func', function (self)
+														self.MaxValue = SuspicionThreshold
+														SmoothBar.Open(self)
+													end,
+												}),
+												}),
+											PlaceObj('XTemplateWindow', {
+												'comment', "sus indicator",
+												'__context', function (parent, context) return "UnitsSusBeingRaised" end,
+												'__parent', function (parent, context) return parent.idPortraitBG end,
+												'__condition', function (parent, context) return not g_Combat end,
+												'__class', "XContextImage",
+												'Id', "idSusIndicator",
+												'Margins', box(0, 0, 5, 0),
+												'HAlign', "right",
+												'MinWidth', 15,
+												'MinHeight', 20,
+												'MaxWidth', 15,
+												'MaxHeight', 20,
+												'Visible', false,
+												'DrawOnTop', true,
+												'Image', "UI/Hud/enemy_detection",
+												'ImageFit', "width",
+												'ContextUpdateOnOpen', true,
+												'OnContextUpdate', function (self, context, ...)
+													local obj = self:ResolveId("node")
+													obj = obj and obj.context
+													self:SetVisible(UnitsSusBeingRaised and obj and UnitsSusBeingRaised[obj.handle])
+												end,
+											}),
+											}),
+										}),
+									}),
+								}),
+							PlaceObj('XTemplateFunc', {
+								'name', "RespawnContent(self, ...)",
+								'func', function (self, ...)
+									-- This will prevent the tactical view party from updating during satellite gameplay.
+									-- The UI is then refreshed upon exiting satellite view.
+									if not self:IsVisible() and not GetParentOfKind(self, "PDAClass") then return end
+									if UIRebuildSpam then
+										DbgUIRebuild("party inner")
+									end
+									XContentTemplate.RespawnContent(self)
+								end,
+							}),
+							}),
+						PlaceObj('XTemplateFunc', {
+							'name', "UpdateMeasure(self, max_width, max_height)",
+							'func', function (self, max_width, max_height)
+								if not self.measure_update then return end
+								
+								self:SetScaleModifier(point(1000, 1000))
+								local _, yM = ScaleXY(self.parent.scale, 0, 150) -- command button and snype roughly
+								max_height = max_height - yM
+								
+								XControl.UpdateMeasure(self, max_width, max_height)
+								if self.measure_height < max_height then
+									return
+								end
+								
+								local one = point(1000, 1000)
+								for _, child in ipairs(self) do
+									child:SetOutsideScale(one)
+								end
+								self.scale = one
+								XControl.UpdateMeasure(self, 1000000, 1000000)
+								local content_width, content_height = ScaleXY(self.parent.scale, self.measure_width, self.measure_height)
+								assert(content_width > 0 and content_height > 0)
+								if content_width == 0 or content_height == 0 then
+									XControl.UpdateMeasure(self, max_width, max_height)
+									return
+								end
+								local scale_x = max_width * 1000 / content_width
+								local scale_y = max_height * 1000 / content_height
+								scale_x = scale_y
+								
+								self:SetScaleModifier(point(scale_x, scale_y))
+								XControl.UpdateMeasure(self, max_width, max_height)
+							end,
+						}),
+						}),
+					}),
+			}),
+			PlaceObj('ModItemXTemplate', {
+				group = "Zulu Satellite UI",
+				id = "PDASquadManagement",
+				PlaceObj('XTemplateWindow', {
+					'__class', "ZuluModalDialog",
+					'ZOrder', 5,
+					'ScaleModifier', point(1500, 1500),
+					'Background', RGBA(30, 30, 35, 115),
+					'FadeInTime', 200,
+					'FadeOutTime', 200,
+					'GamepadVirtualCursor', true,
+				}, {
+					PlaceObj('XTemplateFunc', {
+						'name', "Open",
+						'func', function (self, ...)
+							SetCampaignSpeed(0, GetUICampaignPauseReason("SquadManagement"))
+							if g_SatelliteUI then
+								g_SatelliteUI:SetSuppressSectorVisualUpdates(true)
+							end
+							-- Stats etc. shown are done using UnitData
+							if not gv_SatelliteView then
+								SyncUnitProperties("map")
+							end
+							self.selected_merc = false
+							self.selected_merc_ctrl = false
+							self:SetFilter("Salary")
+							ZuluModalDialog.Open(self, ...)
+						end,
+					}),
+					PlaceObj('XTemplateFunc', {
+						'name', "Close",
+						'func', function (self, ...)
+							XDialog.Close(self, ...)
+							SetCampaignSpeed(nil, GetUICampaignPauseReason("SquadManagement"))
+							if g_SatelliteUI then
+								g_SatelliteUI:SetSuppressSectorVisualUpdates(false)
+								ObjModified("ui_player_squads")
+							else
+								ObjModified("hud_squads")
+							end
+						end,
+					}),
+					PlaceObj('XTemplateFunc', {
+						'name', "SelectMerc(self, merc, ctrl)",
+						'func', function (self, merc, ctrl)
+							if self.selected_merc_ctrl and self.selected_merc_ctrl.window_state ~= "destroying" and self.selected_merc_ctrl ~= ctrl then
+								self.selected_merc_ctrl:SetSelected(false)
+							end
+							self.selected_merc = merc and merc.session_id or false
+							self.selected_merc_ctrl = ctrl or false
+							if ctrl then
+								ctrl:SetSelected("full")
+							end
+							--self.idContent.idSelectedMercData:SetContext(merc)
+						end,
+					}),
+					PlaceObj('XTemplateWindow', {
+						'__class', "XContextWindow",
+						'HAlign', "center",
+						'VAlign', "center",
+						'MinWidth', 1090,
+						'MinHeight', 650,
+						'MaxWidth', 1090,
+						'MaxHeight', 650,
+					}, {
+						PlaceObj('XTemplateWindow', {
+							'__class', "XFrame",
+							'IdNode', false,
+							'Dock', "top",
+							'MinHeight', 32,
+							'MaxHeight', 32,
+							'Image', "UI/PDA/os_header",
+							'FrameBox', box(5, 5, 5, 5),
+							'SqueezeY', false,
+						}, {
+							PlaceObj('XTemplateWindow', {
+								'__class', "XText",
+								'Id', "idHeaderText",
+								'Margins', box(16, 0, 0, 0),
+								'Padding', box(0, 0, 0, 2),
+								'VAlign', "center",
+								'TextStyle', "UIDlgTitle",
+								'Translate', true,
+								'Text', T(224986453949, --[[ModItemXTemplate PDASquadManagement Text]] "УПРАВЛЕНИЕ ОТРЯДАМИ"),
+							}),
+							PlaceObj('XTemplateWindow', {
+								'__class', "XText",
+								'Margins', box(0, 0, 16, 0),
+								'HAlign', "right",
+								'VAlign', "center",
+								'TextStyle', "UIDlgTitleLogo",
+								'Text', "V1.1B",
+							}),
+							}),
+						PlaceObj('XTemplateWindow', nil, {
+							PlaceObj('XTemplateWindow', {
+								'__class', "XFrame",
+								'Margins', box(0, -5, 0, 0),
+								'Dock', "box",
+								'Image', "UI/PDA/os_background",
+								'FrameBox', box(5, 5, 5, 5),
+							}),
+							PlaceObj('XTemplateWindow', {
+								'__context', function (parent, context) return GetSquadManagementSquads() end,
+								'__class', "XContentTemplate",
+								'Id', "idContent",
+								'Margins', box(20, 16, 20, 0),
+								'OnContextUpdate', function (self, context, ...)
+									local squadList = self.idSquadManage
+									squadList = squadList and squadList.idSquadsList
+									local scroll = squadList and squadList:GetVScroll()
+									scroll = scroll and squadList:ResolveId(scroll)
+									local scrollValue = scroll and scroll:GetScroll()
+									
+									if self.RespawnOnContext then
+										if self.window_state == "open" then
+											self:RespawnContent()
+										end
+									else
+										local respawn_value = self:RespawnExpression(context)
+										if rawget(self, "respawn_value") ~= respawn_value then
+											self.respawn_value = respawn_value
+											if self.window_state == "open" then
+												self:RespawnContent()
+											end
+										end
+									end
+									
+									local dlg = GetDialog(self)
+									dlg:SetFilter(dlg:GetFilter())
+									
+									if scrollValue then
+										local newScroll = self:ResolveId("idSquadManage")
+										newScroll = newScroll and newScroll.idSquadsList
+										if newScroll then newScroll:ScrollTo(0, scrollValue) end
+									end
+								end,
+							}, {
+								PlaceObj('XTemplateWindow', {
+									'__class', "XFrame",
+									'Dock', "box",
+									'ScaleModifier', point(2000, 2000),
+									'Image', "UI/PDA/os_background",
+									'FrameBox', box(5, 5, 5, 5),
+								}),
+								PlaceObj('XTemplateWindow', {
+									'Margins', box(16, 16, 20, 16),
+								}, {
+									PlaceObj('XTemplateWindow', {
+										'comment', "squad list",
+										'Dock', "left",
+										'HAlign', "left",
+										'MinWidth', 742,
+										'MaxWidth', 742,
+									}, {
+										PlaceObj('XTemplateWindow', {
+											'__class', "XFrame",
+											'Dock', "box",
+											'Image', "UI/PDA/os_background_2",
+											'FrameBox', box(5, 5, 5, 5),
+										}),
+										PlaceObj('XTemplateWindow', {
+											'__class', "SquadManagementDragAndDrop",
+											'Id', "idSquadManage",
+											'MouseCursor', "UI/Cursors/Pda_Cursor.tga",
+											'ChildrenHandleMouse', true,
+											'NavigateScrollArea', false,
+										}, {
+											PlaceObj('XTemplateWindow', {
+												'__class', "SnappingScrollArea",
+												'Id', "idSquadsList",
+												'Margins', box(15, 0, 0, 0),
+												'Dock', "box",
+												'LayoutVSpacing', 10,
+												'VScroll', "idMercScroll",
+											}, {
+												PlaceObj('XTemplateFunc', {
+													'name', "OnMouseButtonDown(self, pos, button)",
+													'func', function (self, pos, button)
+														return "continue"
+													end,
+												}),
+												PlaceObj('XTemplateFunc', {
+													'name', "OnMouseButtonUp(self, pos, button)",
+													'func', function (self, pos, button)
+														return "continue"
+													end,
+												}),
+												PlaceObj('XTemplateFunc', {
+													'name', "RecalcVisibility(self)",
+													'func', function (self)
+														local UIRefreshModifiers = false
+														UIRefreshModifiers = function(self)
+															for i, w in ipairs(self) do
+																CallMember(w.modifiers, "OnLayoutComplete", w)
+																UIRefreshModifiers(w)
+															end
+														end
+														
+														XContentTemplateList.RecalcVisibility(self)
+														UIRefreshModifiers(self)
+													end,
+												}),
+												PlaceObj('XTemplateForEach', {
+													'comment', "player squad",
+													'__context', function (parent, context, item, i, n) return item end,
+													'run_after', function (child, context, item, i, n, last)
+														child:SetId("idSquad_" .. context.squad.UniqueId)
+													end,
+												}, {
+													PlaceObj('XTemplateWindow', {
+														'__class', "XContextWindow",
+														'IdNode', true,
+														'ScaleModifier', point(600, 600),
+														'LayoutMethod', "HWrap",
+														'LayoutHSpacing', 1,
+													}, {
+														PlaceObj('XTemplateWindow', {
+															'__class', "XButton",
+															'IdNode', false,
+															'Background', RGBA(255, 255, 255, 0),
+															'FocusedBackground', RGBA(255, 255, 255, 0),
+															'OnPress', function (self, gamepad)
+																local squad = self:GetContext().squad
+																OpenSquadCreation(squad.UniqueId)
+															end,
+															'RolloverBackground', RGBA(255, 255, 255, 0),
+															'PressedBackground', RGBA(255, 255, 255, 0),
+														}, {
+															PlaceObj('XTemplateWindow', {
+																'__class', "XContextWindow",
+																'Id', "idSquad",
+																'Margins', box(0, 13, 8, 4),
+																'HAlign', "left",
+																'MinWidth', 80,
+																'MaxWidth', 80,
+																'Background', RGBA(32, 35, 47, 255),
+																'BackgroundRectGlowSize', 1,
+																'BackgroundRectGlowColor', RGBA(32, 35, 47, 255),
+															}, {
+																PlaceObj('XTemplateWindow', {
+																	'Id', "idSectorBG",
+																	'HAlign', "left",
+																	'VAlign', "top",
+																	'MinWidth', 21,
+																	'MinHeight', 21,
+																	'MaxHeight', 21,
+																	'DrawOnTop', true,
+																}, {
+																	PlaceObj('XTemplateWindow', {
+																		'__class', "XText",
+																		'Id', "idSector",
+																		'Padding', box(4, 2, 4, 2),
+																		'HAlign', "center",
+																		'VAlign', "center",
+																		'FoldWhenHidden', true,
+																		'TextStyle', "PDASM_SectorName",
+																		'Translate', true,
+																		'TextHAlign', "center",
+																		'TextVAlign', "center",
+																	}),
+																	}),
+																PlaceObj('XTemplateWindow', {
+																	'__context', function (parent, context) return context.squad end,
+																	'__class', "XContextWindow",
+																	'HAlign', "center",
+																	'VAlign', "bottom",
+																	'LayoutMethod', "VList",
+																	'ContextUpdateOnOpen', true,
+																	'OnContextUpdate', function (self, context, ...)
+																		local sector = context.CurrentSector
+																		local sectorColor = GetSectorControlColor(gv_Sectors[sector].Side)
+																		
+																		local node = self:ResolveId("node")
+																		node.idSector:SetText(T{764093693143, "<SectorIdColored(id)>", id = sector})
+																		node.idSectorBG:SetBackground(sectorColor)
+																	end,
+																}, {
+																	PlaceObj('XTemplateWindow', {
+																		'__class', "XContextImage",
+																		'Id', "idCenter",
+																		'IdNode', false,
+																		'UseClipBox', false,
+																		'Image', "UI/PDA/T_Icon_EnemySquadPlaceholder_L",
+																		'ImageScale', point(900, 900),
+																		'ImageColor', RGBA(195, 189, 172, 255),
+																		'ContextUpdateOnOpen', true,
+																		'OnContextUpdate', function (self, context, ...)
+																			self:SetImage(context.image)
+																		end,
+																	}),
+																	PlaceObj('XTemplateWindow', {
+																		'__class', "AutoFitText",
+																		'Id', "idSquadName",
+																		'Margins', box(5, 5, 5, 0),
+																		'HAlign', "center",
+																		'FoldWhenHidden', true,
+																		'TextStyle', "PDASM_SectorName",
+																		'ContextUpdateOnOpen', true,
+																		'OnContextUpdate', function (self, context, ...)
+																			self:SetText(context.ShortName or SquadName:GetShortNameFromName(context.Name))
+																		end,
+																		'Translate', true,
+																	}),
+																	PlaceObj('XTemplateWindow', {
+																		'__class', "XText",
+																		'Id', "idPower",
+																		'Margins', box(0, 0, -3, 0),
+																		'HAlign', "center",
+																		'Visible', false,
+																		'FoldWhenHidden', true,
+																		'TextStyle', "PDASM_SectorName",
+																		'ContextUpdateOnOpen', true,
+																		'OnContextUpdate', function (self, context, ...)
+																			local power = GetSquadPower(context)
+																			self:SetText(T{597346735330, "<power> <style PDASM_PowerFlavor>P</style>", power = power})
+																			self:SetVisible(gv_Cheats.ShowSquadsPower)
+																		end,
+																		'Translate', true,
+																	}),
+																	}),
+																}),
+															}),
+														PlaceObj('XTemplateForEach', {
+															'map', function (parent, context, array, i) return array and gv_UnitData[array[i]] or "empty" end,
+															'__context', function (parent, context, item, i, n) return item end,
+															'run_after', function (child, context, item, i, n, last)
+																if context == "empty" then
+																	child:SetHandleMouse(false)
+																end
+																local node = child:ResolveId("node")
+																child:SetEnabled(not node.disabled)
+															end,
+														}, {
+															PlaceObj('XTemplateTemplate', {
+																'__template', "HUDMerc",
+																'Margins', box(0, 7, 0, 0),
+																'OnLayoutComplete', function (self)
+																	if rawget(self, "dragging") then return end
+																	local dlg = GetDialog(self)
+																	if self.context ~= "empty" and (not dlg.selected_merc or dlg.selected_merc == self.context.session_id) then
+																		dlg:SelectMerc(self.context, self)
+																	end
+																end,
+																'MouseCursor', "UI/Cursors/Pda_Hand.tga",
+															}, {
+																PlaceObj('XTemplateCode', {
+																	'run', function (self, parent, context)
+																		parent.idBar:SetVisible(false)
+																		parent.idContent.RolloverTemplate = ""
+																	end,
+																}),
+																PlaceObj('XTemplateFunc', {
+																	'name', "OnMouseButtonDown(self, pos, button)",
+																	'func', function (self, pos, button)
+																		local dlg = GetDialog(self)
+																		if self.context ~= "empty" then
+																			if self.context and not self.context:IsLocalPlayerControlled() then
+																				return "break"
+																			end
+																			dlg:SelectMerc(self.context, self)
+																		end
+																		XButton.OnMouseButtonDown(self, pos, button)
+																		return "continue"
+																	end,
+																}),
+																PlaceObj('XTemplateFunc', {
+																	'name', "OnMouseButtonUp(self, pos, button)",
+																	'func', function (self, pos, button)
+																		XButton.OnMouseButtonUp(self, pos, button)
+																		return "continue"
+																	end,
+																}),
+																PlaceObj('XTemplateFunc', {
+																	'name', "Filter(self, filter)",
+																	'func', function (self, filter)
+																		local context = self:GetContext()
+																		if IsKindOf(context, "UnitData") then
+																			if filter == "Professions" then
+																				self.idClassIconBg:SetVisible(true)
+																				self.idStatHighlight:SetVisible(false)
+																			elseif filter == "Salary" then
+																				self.idClassIconBg:SetVisible(false)
+																				self.idStatIconBg:SetVisible(false)
+																		
+																				local salary = GetMercCurrentDailySalary(context.session_id)
+																				if salary > 0 then
+																					local value = T{418564557177, "<money(salary)>", salary = salary}
+																					self.idStatHighlight:SetVisible(true)
+																					self.idStatCount:SetText(value)
+																				else
+																					self.idStatHighlight:SetVisible(false)
+																				end
+																			else -- any Stat
+																				self.idStatHighlight:SetVisible(true)
+																				self.idStatIconBg:SetVisible(true)
+																				self.idClassIconBg:SetVisible(false)
+																				
+																				local stat = Presets.MercStat.Default[filter]
+																				if stat then
+																					local icon = stat.Icon
+																					local value = T{115341592558, "<statValue>", statValue = context[filter]}
+																					self.idStatIcon:SetImage(icon)
+																					self.idStatCount:SetText(value)
+																				end
+																			end
+																		end
+																	end,
+																}),
+																PlaceObj('XTemplateWindow', {
+																	'__parent', function (parent, context) return parent.idPortraitBG end,
+																	'Id', "idStatHighlight",
+																	'VAlign', "bottom",
+																	'Visible', false,
+																	'FoldWhenHidden', true,
+																	'DrawOnTop', true,
+																}, {
+																	PlaceObj('XTemplateWindow', {
+																		'HAlign', "left",
+																		'VAlign', "bottom",
+																		'LayoutMethod', "HList",
+																	}, {
+																		PlaceObj('XTemplateWindow', {
+																			'Id', "idStatIconBg",
+																			'Padding', box(2, 2, 2, 2),
+																			'HAlign', "right",
+																			'VAlign', "bottom",
+																			'MinWidth', 24,
+																			'MinHeight', 24,
+																			'MaxWidth', 24,
+																			'MaxHeight', 24,
+																			'FoldWhenHidden', true,
+																			'Background', RGBA(32, 35, 47, 255),
+																			'BackgroundRectGlowColor', RGBA(32, 35, 47, 255),
+																		}, {
+																			PlaceObj('XTemplateWindow', {
+																				'__class', "XImage",
+																				'Id', "idStatIcon",
+																				'FoldWhenHidden', true,
+																				'Image', "UI/Icons/st_marksmanship",
+																				'ImageFit', "stretch",
+																				'ImageColor', RGBA(130, 128, 120, 255),
+																			}),
+																			}),
+																		PlaceObj('XTemplateWindow', {
+																			'HAlign', "right",
+																			'VAlign', "bottom",
+																			'MinWidth', 24,
+																			'MinHeight', 24,
+																			'MaxHeight', 24,
+																			'Background', RGBA(32, 35, 47, 255),
+																			'BackgroundRectGlowColor', RGBA(32, 35, 47, 255),
+																		}, {
+																			PlaceObj('XTemplateWindow', {
+																				'__class', "XText",
+																				'Id', "idStatCount",
+																				'HAlign', "center",
+																				'VAlign', "center",
+																				'FoldWhenHidden', true,
+																				'TextStyle', "HUDHeaderSmallLight",
+																				'ContextUpdateOnOpen', true,
+																				'Translate', true,
+																			}),
+																			}),
+																		}),
+																	}),
+																PlaceObj('XTemplateWindow', {
+																	'__parent', function (parent, context) return parent.idPortraitBG end,
+																	'__class', "XContextWindow",
+																	'Id', "idClassIconBg",
+																	'IdNode', true,
+																	'ZOrder', 3,
+																	'Dock', "box",
+																	'HAlign', "right",
+																	'VAlign', "bottom",
+																	'MinWidth', 28,
+																	'MinHeight', 28,
+																	'MaxWidth', 28,
+																	'MaxHeight', 28,
+																	'Background', RGBA(27, 31, 45, 255),
+																	'ContextUpdateOnOpen', true,
+																	'OnContextUpdate', function (self, context, ...)
+																		if not IsKindOfClasses(context, "Unit", "UnitData") then 
+																			self:SetVisible(false)
+																		else
+																			self.idClassIcon:SetImage(GetMercSpecIcon(context))
+																		end
+																	end,
+																}, {
+																	PlaceObj('XTemplateWindow', {
+																		'__class', "XImage",
+																		'Id', "idClassIcon",
+																		'HAlign', "center",
+																		'VAlign', "center",
+																		'MinWidth', 20,
+																		'MinHeight', 20,
+																		'MaxWidth', 20,
+																		'MaxHeight', 20,
+																		'ImageFit', "stretch",
+																		'ImageColor', RGBA(195, 189, 172, 255),
+																	}),
+																	}),
+																}),
+															}),
+														}),
+													}),
+												PlaceObj('XTemplateWindow', {
+													'comment', "new squad",
+													'Id', "idNewSquad",
+												}, {
+													PlaceObj('XTemplateWindow', {
+														'__context', function (parent, context) return { squad = "empty" } end,
+														'__class', "XContextWindow",
+														'Id', "idNewSquadList",
+														'IdNode', true,
+														'ScaleModifier', point(650, 600),
+														'LayoutMethod', "HList",
+														'LayoutHSpacing', 10,
+													}, {
+														PlaceObj('XTemplateWindow', {
+															'__class', "XContextWindow",
+															'Id', "idSquad",
+															'Margins', box(0, 13, 8, 4),
+															'HAlign', "left",
+															'MinWidth', 80,
+															'MaxWidth', 80,
+															'Background', RGBA(32, 35, 47, 255),
+															'BackgroundRectGlowSize', 1,
+															'BackgroundRectGlowColor', RGBA(32, 35, 47, 255),
+														}, {
+															PlaceObj('XTemplateWindow', {
+																'Id', "idSectorBG",
+																'HAlign', "left",
+																'VAlign', "top",
+																'MinWidth', 21,
+																'MinHeight', 21,
+																'MaxHeight', 21,
+															}, {
+																PlaceObj('XTemplateWindow', {
+																	'__class', "XText",
+																	'Id', "idSector",
+																	'HAlign', "center",
+																	'VAlign', "center",
+																	'FoldWhenHidden', true,
+																	'TextStyle', "PDASM_SectorName",
+																	'Translate', true,
+																	'TextHAlign', "center",
+																	'TextVAlign', "center",
+																}),
+																}),
+															PlaceObj('XTemplateWindow', {
+																'HAlign', "center",
+																'VAlign', "bottom",
+																'LayoutMethod', "VList",
+															}, {
+																PlaceObj('XTemplateWindow', {
+																	'__class', "XImage",
+																	'Id', "idCenter",
+																	'IdNode', false,
+																	'UseClipBox', false,
+																	'Image', "UI/PDA/T_Icon_EnemySquadPlaceholder_L",
+																	'ImageScale', point(900, 900),
+																	'ImageColor', RGBA(130, 128, 120, 255),
+																}),
+																PlaceObj('XTemplateWindow', {
+																	'__class', "XText",
+																	'HAlign', "center",
+																	'TextStyle', "PDASM_NewSquadLabel",
+																	'Translate', true,
+																	'Text', T(122343863763, --[[ModItemXTemplate PDASquadManagement Text]] "НОВЫЙ ОТРЯД"),
+																}),
+																}),
+															}),
+														PlaceObj('XTemplateForEach', {
+															'array', function (parent, context) return { "empty", "empty", "empty", "empty", "empty", "empty" } end,
+															'__context', function (parent, context, item, i, n) return item end,
+															'run_after', function (child, context, item, i, n, last)
+																child.idDragAMerc:SetVisible(i == 1)
+															end,
+														}, {
+															PlaceObj('XTemplateWindow', {
+																'__class', "XContextWindow",
+																'IdNode', true,
+																'Margins', box(0, 7, 0, 0),
+																'HAlign', "left",
+																'VAlign', "top",
+																'MinWidth', 90,
+																'MaxWidth', 90,
+																'UseClipBox', false,
+																'BorderColor', RGBA(255, 255, 255, 0),
+																'Background', RGBA(255, 255, 255, 0),
+															}, {
+																PlaceObj('XTemplateWindow', {
+																	'comment', "fake HUDMerc template to keep space taken",
+																	'__class', "XContextWindow",
+																	'Id', "idContent",
+																	'MinHeight', 105,
+																	'MaxHeight', 105,
+																	'LayoutMethod', "VList",
+																	'HandleMouse', true,
+																}, {
+																	PlaceObj('XTemplateWindow', {
+																		'__class', "XImage",
+																		'Id', "idPortraitBG",
+																		'IdNode', false,
+																		'Margins', box(5, 5, 5, 0),
+																		'HAlign', "center",
+																		'VAlign', "top",
+																		'Visible', false,
+																		'Image', "UI/Hud/portrait_background",
+																	}, {
+																		PlaceObj('XTemplateWindow', {
+																			'__class', "XImage",
+																			'UIEffectModifierId', "Default",
+																			'Id', "idPortrait",
+																			'IdNode', false,
+																			'ZOrder', 2,
+																			'Margins', box(0, -10, 0, 0),
+																			'ImageFit', "stretch",
+																			'ImageRect', box(36, 0, 264, 246),
+																			'ImageScale', point(300, 300),
+																		}, {
+																			PlaceObj('XTemplateWindow', {
+																				'__class', "XImage",
+																				'Id', "idSkull",
+																				'Margins', box(0, 0, 2, 2),
+																				'HAlign', "right",
+																				'VAlign', "bottom",
+																				'Visible', false,
+																				'Image', "UI/Hud/dead_merc",
+																				'ImageScale', point(600, 600),
+																			}),
+																			}),
+																		}),
+																	PlaceObj('XTemplateWindow', {
+																		'Id', "idBottomPart",
+																		'Margins', box(5, 0, 5, 0),
+																		'VAlign', "bottom",
+																		'LayoutMethod', "VList",
+																		'Background', RGBA(32, 35, 47, 255),
+																		'BackgroundRectGlowSize', 1,
+																		'BackgroundRectGlowColor', RGBA(32, 35, 47, 255),
+																	}, {
+																		PlaceObj('XTemplateWindow', {
+																			'__class', "XText",
+																			'Id', "idName",
+																			'Margins', box(2, 0, 0, 0),
+																			'HAlign', "left",
+																			'VAlign', "bottom",
+																			'Clip', false,
+																			'UseClipBox', false,
+																			'HandleMouse', false,
+																			'ChildrenHandleMouse', false,
+																			'TextStyle', "PDAMercNameCard_Light",
+																			'Translate', true,
+																			'Text', T(259468933010, --[[ModItemXTemplate PDASquadManagement Text]] " "),
+																			'TextVAlign', "bottom",
+																		}),
+																		}),
+																	PlaceObj('XTemplateWindow', {
+																		'Margins', box(5, 6, 5, 6),
+																		'Dock', "box",
+																		'Background', RGBA(32, 35, 47, 255),
+																		'BackgroundRectGlowSize', 1,
+																		'BackgroundRectGlowColor', RGBA(32, 35, 47, 255),
+																	}),
+																	}),
+																PlaceObj('XTemplateWindow', {
+																	'__class', "XText",
+																	'RolloverTranslate', false,
+																	'Id', "idDragAMerc",
+																	'Margins', box(3, 0, 0, 0),
+																	'HAlign', "center",
+																	'VAlign', "center",
+																	'MaxWidth', 80,
+																	'Clip', false,
+																	'UseClipBox', false,
+																	'Transparency', 180,
+																	'HandleMouse', false,
+																	'ChildrenHandleMouse', false,
+																	'TextStyle', "PDASM_DragAMerc",
+																	'Translate', true,
+																	'Text', T(178664289716, --[[ModItemXTemplate PDASquadManagement Text]] "ПЕРЕТАЩ. НАЁМНИКА"),
+																	'TextHAlign', "center",
+																	'TextVAlign', "center",
+																}),
+																}),
+															}),
+														}),
+													}),
+												PlaceObj('XTemplateWindow', {
+													'__class', "MessengerScrollbar",
+													'Id', "idMercScroll",
+													'Margins', box(20, 0, 0, 0),
+													'Dock', "right",
+													'FoldWhenHidden', false,
+													'Target', "node",
+													'AutoHide', true,
+													'UnscaledWidth', 16,
+												}),
+												}),
+											PlaceObj('XTemplateWindow', {
+												'comment', "gamepad logic changer",
+												'__context', function (parent, context) return "GamepadStyleChanged" end,
+												'__class', "XContextWindow",
+												'ContextUpdateOnOpen', true,
+												'OnContextUpdate', function (self, context, ...)
+													self.parent.ClickToDrop = GetUIStyleGamepad()
+													self.parent.ClickToDrag = self.parent.ClickToDrop
+												end,
+											}),
+											}),
+										}),
+									PlaceObj('XTemplateTemplate', {
+										'__template', "PDAFinances",
+										'GridStretchX', false,
+										'GridStretchY', false,
+										'ScaleModifier', point(600, 800),
+									}),
+									}),
+								}),
+							PlaceObj('XTemplateWindow', {
+								'Margins', box(20, 0, 20, 0),
+								'Dock', "bottom",
+								'MinHeight', 57,
+								'MaxHeight', 57,
+							}, {
+								PlaceObj('XTemplateWindow', {
+									'__class', "XText",
+									'HAlign', "left",
+									'VAlign', "center",
+									'TextStyle', "AimCopyrightText",
+									'Translate', true,
+									'Text', T(483378573996, --[[ModItemXTemplate PDASquadManagement Text]] "<style AimCopyrightTextC>©</style> A.I.M. 2001"),
+								}),
+								PlaceObj('XTemplateWindow', {
+									'GridX', 2,
+								}),
+								PlaceObj('XTemplateWindow', {
+									'__class', "XToolBarList",
+									'Id', "idToolBar",
+									'Dock', "right",
+									'HAlign', "right",
+									'VAlign', "center",
+									'ScaleModifier', point(750, 750),
+									'LayoutHSpacing', 20,
+									'Background', RGBA(255, 255, 255, 0),
+									'Toolbar', "ActionBar",
+									'Show', "text",
+									'ButtonTemplate', "PDACommonButton",
+								}, {
+									PlaceObj('XTemplateAction', {
+										'ActionId', "idFilters",
+										'ActionName', T(454997674460, --[[ModItemXTemplate PDASquadManagement ActionName]] "Смотреть"),
+										'ActionToolbar', "ActionBar",
+										'ActionShortcut', "V",
+										'ActionGamepad', "ButtonY",
+										'OnAction', function (self, host, source, ...)
+											local dlg = host
+											local button = dlg and dlg.idToolBar and dlg.idToolBar.ididFilters
+											if not dlg or not button then return end
+											
+											local ctxMenu = dlg:ResolveId("idFilterMenu")
+											if ctxMenu then
+												ctxMenu:Close()
+											else
+												ctxMenu = XTemplateSpawn("PDASquadManagementFilterMenu", dlg, dlg)
+												ctxMenu:SetAnchor(button.box)
+												--ctxMenu:SetMaxWidth(button.MaxWidth)
+												ctxMenu:SetMinWidth(button.MinWidth)
+												ctxMenu:Open()
+											end
+										end,
+									}),
+									PlaceObj('XTemplateAction', {
+										'ActionId', "idClose",
+										'ActionName', T(544583683405, --[[ModItemXTemplate PDASquadManagement ActionName]] "Закрыть"),
+										'ActionToolbar', "ActionBar",
+										'ActionShortcut', "Escape",
+										'ActionGamepad', "ButtonB",
+										'OnActionEffect', "close",
+									}),
+									PlaceObj('XTemplateFunc', {
+										'name', "RebuildActions(self, ...)",
+										'func', function (self, ...)
+											XToolBarList.RebuildActions(self, ...)
+											
+											self.ididFilters:SetMinWidth(144)
+											self.ididFilters:SetMaxWidth(144)
+										end,
+									}),
+									}),
+								}),
+							}),
+						PlaceObj('XTemplateFunc', {
+							'name', "Open(self)",
+							'func', function (self)
+								XWindow.Open(self)
+								
+								RunWhenXWindowIsReady(self, function()
+									local popUpTime = 200
+									local fadeInTime = 200
+									self:AddInterpolation{
+										id = "size",
+										type = const.intRect,
+										duration = popUpTime,
+										originalRect = self.box,
+										targetRect = self:CalcZoomedBox(800),
+										flags = const.intfInverse
+									}
+									self:AddInterpolation{
+										id = "alpha",
+										type = const.intAlpha,
+										duration = popUpTime,
+										startValue = 0,
+										endValue = 255
+									}
+								end)
+							end,
+						}),
+						}),
+					}),
+				PlaceObj('XTemplateProperty', {
+					'id', "Filter",
+					'editor', "text",
+					'default', "Salary",
+					'translate', false,
+					'Set', function (self, value)
+						self.Filter = value
+						local squadsList = self.idContent.idSquadManage.idSquadsList
+						for _, squad in ipairs(squadsList) do
+							if string.starts_with(squad.Id, "idSquad") then
+								for _, hudMerc in ipairs(squad) do
+									if IsKindOf(hudMerc, "HUDMercClass") then
+										hudMerc:Filter(value)
+									end
+								end
+							end
+						end
+					end,
+					'Get', function (self)
+						return self.Filter
+					end,
+				}),
+			}),
+			}),
+		PlaceObj('ModItemCode', {
+			'name', "Disable Attack CAP",
+			'comment', "-- Отключение капа на количество одновременно атакующих отрядов",
+			'CodeFileName', "Code/Disable Attack CAP.lua",
+		}),
+		PlaceObj('ModItemCode', {
+			'name', "Rendomization Attack Time",
+			'comment', "-- Временной разброс атак секторов",
+			'CodeFileName', "Code/Rendomization Attack Time.lua",
+		}),
+		}),
+	PlaceObj('ModItemFolder', {
+		'name', "Sounds",
+		'comment', "Звуки, всяко разно для локаций и эмбианта",
+	}, {
+		PlaceObj('ModItemSoundPreset', {
+			Regions = {
+				"CursedForest",
+			},
+			TimeOfDay = {
+				"Day",
+				"Sunrise",
+			},
+			group = "Default",
+			id = "AK_50_Music",
+			looping = true,
+			loud_distance = 75638,
+			type = "EnvironmentRadioTV",
+			volume = 300,
+			PlaceObj('SoundFile', {
+				GetFileExt = function ()
+					return "opus"
+				end,
+				GetFileFilter = function ()
+					return "Sample File|*.opus;*.wav"
+				end,
+				Getpath = function ()
+					if sample.file == "" then
+						return ".opus"
+					elseif string.ends_with(sample.file, ".opus") or string.ends_with(sample.file, ".wav") then
+						return sample.file
+					else
+						return sample.file .. ".wav"
+					end
+				end,
+				Setpath = function (obj, path)
+					sample.file = path
+				end,
+				file = "Mod/FhNNYd/Sounds/AK50.opus",
+			}),
+		}),
+		}),
 	PlaceObj('ModItemFolder', {
 		'name', "Quests_&_Campaign",
 	}, {
@@ -11831,6 +12026,10 @@ return {
 				PlaceObj('CampaignCity', {
 					'Id', "RefugeeCamp",
 					'DisplayName', T(672959575424, --[[ModItemCampaignPreset HotDiamonds DisplayName]] "Лагерь беженцев"),
+				}),
+				PlaceObj('CampaignCity', {
+					'Id', "Rebels_Ernie",
+					'DisplayName', T(944601464939, --[[ModItemCampaignPreset HotDiamonds DisplayName]] "База повстанцев острова Эрни"),
 				}),
 			},
 			DisclaimerOnStart = T(492298539842, --[[ModItemCampaignPreset HotDiamonds DisclaimerOnStart]] "Когда серия Jagged Alliance впервые увидела свет, в ней с юмором обыгрывались штампы и шаблоны кинобоевиков девяностых.<newline><newline>Jagged Alliance 3 продолжает эту традицию, не обходя вниманием и современные события, а также поп-культуру.<newline>Jagged Alliance 3 представляет собой художественный вымысел (очень взрывчатого толка), не основанный ни на каких реальных событиях, лицах и географических точках.<newline><newline>Мы призываем вас вести себя рассудительно и здраво в процессе игры<newline>(а также и при выборе, какому из отрядов противника первым прилетит граната)."),
@@ -22459,6 +22658,11 @@ return {
 					'modId', "FhNNYd",
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = false,
+	North = false,
+	South = false,
+}),
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "J30",
@@ -22506,7 +22710,7 @@ return {
 					'display_name', T(336479618775, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J5]] "Фермы Эрни"),
 					'TerrainType', "Urban",
 					'WeatherZone', "Erny",
-					'City', "ubRwFgf",
+					'City', "ErnieVillage",
 					'ShowCity', true,
 					'Farm', true,
 					'DailyIncomeFarm', 100,
@@ -22519,26 +22723,25 @@ return {
 					'Roads', set({
 	East = true,
 	North = false,
-	South = false,
+	South = true,
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	North = false,
+	South = false,
+	West = false,
+}),
 					'image', "UI/SatelliteView/SectorImages/H02",
 					'MusicCombat', "Ernie_Conflict",
 					'combatTaskAmount', 3,
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "J6",
-					'Label1', "Blocked",
-					'display_name', T(246275584503, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J6]] "Море"),
-					'Side', "neutral",
-					'StickySide', true,
-					'Passability', "Water",
-					'Intel', false,
-					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
+					'Map', "NrofrcM",
+					'modId', "FhNNYd",
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "J7",
@@ -22858,6 +23061,10 @@ return {
 					'StickySide', true,
 					'Passability', "Water",
 					'Intel', false,
+					'BlockTravel', set({
+	East = false,
+	South = false,
+}),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
@@ -23267,9 +23474,20 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "K3",
 					'Map', "Vgwwieh",
+					'MapTier', 10,
 					'modId', "FhNNYd",
+					'display_name', T(839602336017, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K3]] "Походный лагерь Легиона"),
+					'TerrainType', "Jungle",
+					'MinFlareCarriers', 4,
+					'MaxFlareCarriers', 10,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = true,
+	North = false,
+	South = false,
+}),
+					'BlockTravelRiver', set( "East" ),
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "K30",
@@ -23373,10 +23591,10 @@ return {
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
-						East = false,
+						East = true,
 						North = false,
 						South = false,
-						West = false,
+						West = true,
 					},
 					'image', "UI/SatelliteView/SectorImages/I01",
 					'Events', {
@@ -23420,7 +23638,7 @@ return {
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
-						East = false,
+						East = true,
 						North = false,
 						South = false,
 						West = false,
@@ -23444,32 +23662,42 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "K5",
 					'Map', "YWtYj6q",
+					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(828240037474, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K5]] "Пока пусто"),
+					'display_name', T(828240037474, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K5]] "Походный лагерь Легиона"),
+					'TerrainType', "Jungle",
+					'MinFlareCarriers', 5,
+					'MaxFlareCarriers', 11,
 					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
-					'BlockTravel', set({
-	North = false,
+					'Roads', set({
+	East = false,
+	North = true,
 	South = false,
 	West = false,
 }),
+					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = false,
+	North = false,
+	South = false,
+	West = true,
+}),
+					'BlockTravelRiver', set( "West" ),
+					'combatTaskAmount', 3,
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "K6",
-					'Label1', "Blocked",
-					'display_name', T(671649966043, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K6]] "Море"),
-					'Side', "neutral",
-					'StickySide', true,
-					'Passability', "Water",
-					'Intel', false,
-					'BlockTravel', set({
-	South = false,
-	West = false,
-}),
-					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
+					'Map', "bVp47D",
+					'MapTier', 10,
+					'modId', "FhNNYd",
+					'display_name', T(484479696515, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K6]] "Перевалочная база"),
+					'TerrainType', "Jungle",
+					'City', "ErnieVillage",
+					'ShowCity', true,
+					'MinFlareCarriers', 2,
+					'MaxFlareCarriers', 7,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "K7",
@@ -23481,6 +23709,7 @@ return {
 					'Intel', false,
 					'Roads', set({
 	South = false,
+	West = false,
 }),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
@@ -23519,22 +23748,37 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L1",
-					'Label1', "Blocked",
-					'display_name', T(347402086199, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L1]] "Море"),
+					'Map', "a4wbe6N",
+					'MapTier', 10,
+					'modId', "FhNNYd",
+					'display_name', T(380204237490, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L1]] "База партизан на острове Эрни"),
 					'Side', "neutral",
 					'StickySide', true,
-					'Passability', "Water",
-					'Intel', false,
-					'BlockTravel', {
-						East = false,
-						North = false,
-						South = true,
-						West = true,
-					},
-					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
+					'TerrainType', "Jungle",
+					'WeatherZone', "SouthJungle",
+					'Passability', "Land and Water",
+					'City', "Rebels_Ernie",
+					'ShowCity', true,
+					'Bunker', true,
+					'MinFlareCarriers', 3,
+					'MaxFlareCarriers', 13,
+					'RAndRAllowed', true,
+					'RepairShop', true,
+					'bidirectionalRoadApply', true,
+					'Roads', set({
+	East = false,
+	South = false,
+}),
+					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = false,
+	South = true,
+	West = true,
+}),
+					'BlockTravelRiver', set( "South", "West" ),
+					'Port', true,
+					'CanBeUsedForArrival', true,
+					'BobbyRayDeliveryCostMultiplier', 300,
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L10",
@@ -23543,6 +23787,7 @@ return {
 					'display_name', T(269336985998, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L10]] "Море"),
 					'TerrainType', "Water",
 					'Passability', "Water",
+					'discovered', false,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'combatTaskGenerate', "never",
@@ -23900,21 +24145,28 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L2",
-					'Label1', "Blocked",
-					'display_name', T(782436935970, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L2]] "Море"),
+					'Map', "PYgh6US",
+					'MapTier', 10,
+					'modId', "FhNNYd",
+					'display_name', T(733530482848, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L2]] "Непроходимая местность"),
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
 					'Intel', false,
-					'BlockTravel', {
-						East = false,
-						South = true,
-						West = false,
-					},
 					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
+					'TerrainType', "Jungle",
+					'WeatherZone', "CursedForest",
+					'City', "Rebels_Ernie",
+					'MinFlareCarriers', 5,
+					'MaxFlareCarriers', 15,
+					'bidirectionalRoadApply', true,
+					'Roads', set( "West" ),
+					'bidirectionalBlockApply', true,
+					'BlockTravel', set( "South" ),
+					'BlockTravelRiver', set( "South" ),
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L20",
@@ -24016,9 +24268,25 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "L3",
 					'Map', "pdCpnL",
+					'MapTier', 10,
 					'modId', "FhNNYd",
+					'display_name', T(890190423953, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L3]] "Походный лагерь Легиона"),
+					'TerrainType', "Jungle",
 					'bidirectionalRoadApply', true,
+					'Roads', set({
+	East = false,
+	North = false,
+	South = false,
+	West = false,
+}),
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = false,
+	North = false,
+	South = true,
+	West = false,
+}),
+					'BlockTravelRiver', set( "South" ),
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L30",
@@ -24068,7 +24336,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "L4",
 					'Map', "q5EJDsP",
+					'MapTier', 10,
 					'modId', "FhNNYd",
+					'display_name', T(193876396815, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L4]] "Походный лагерь Легиона"),
+					'TerrainType', "Jungle",
+					'MinFlareCarriers', 5,
+					'MaxFlareCarriers', 11,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
@@ -24109,6 +24382,8 @@ return {
 					'Passability', "Blocked",
 					'Intel', false,
 					'BlockTravel', set({
+	East = false,
+	North = false,
 	South = false,
 	West = false,
 }),
@@ -24117,19 +24392,19 @@ return {
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
-					'Id', "L6_Underground",
-					'Map', "L-6U - Underground Prison",
-					'MapTier', 20,
-					'Label1', "Dungeon",
-					'GroundSector', "L6",
-					'display_name', T(100373069792, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L6_Underground]] "«Хорошее место» (подземелье)"),
-					'discovered', false,
-					'Intel', false,
-					'image', "UI/SatelliteView/SectorImages/L06U",
-					'MusicCombat', "Battle_Tough",
-					'MusicConflict', "Underground_Conflict",
-					'MusicExploration', "Underground_Exploration",
-					'combatTaskGenerate', "afterFirstConflict",
+					'Id', "L7",
+					'Map', "UxRaASA",
+					'MapTier', 10,
+					'modId', "FhNNYd",
+					'display_name', T(672915928785, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L7]] "Рыбацкая деревня"),
+					'TerrainType', "Jungle",
+					'Passability', "Land and Water",
+					'City', "ErnieVillage",
+					'ShowCity', true,
+					'MinFlareCarriers', 4,
+					'MaxFlareCarriers', 9,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L8",
@@ -24166,7 +24441,10 @@ return {
 					'MinFlareCarriers', 3,
 					'MaxFlareCarriers', 10,
 					'bidirectionalRoadApply', true,
-					'Roads', set( "East" ),
+					'Roads', set({
+	East = true,
+	North = false,
+}),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
@@ -24322,7 +24600,11 @@ return {
 					'ForceConflict', true,
 					'InterestingSector', true,
 					'bidirectionalRoadApply', true,
-					'Roads', set( "West" ),
+					'Roads', set({
+	East = false,
+	North = false,
+	West = true,
+}),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
@@ -24407,6 +24689,8 @@ return {
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
+	East = false,
+	North = true,
 	West = false,
 }),
 				}),
@@ -24557,7 +24841,7 @@ return {
 					'InterestingSector', true,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	North = true,
+	North = false,
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
@@ -27086,6 +27370,24 @@ return {
 					'combatTaskGenerate', "afterFirstConflict",
 				}),
 				PlaceObj('SatelliteSector', {
+					'Id', "P8_Underground",
+					'Map', "UgSe5Pc",
+					'MapTier', 20,
+					'Label1', "Dungeon",
+					'modId', "FhNNYd",
+					'GroundSector', "P8",
+					'display_name', T(100373069792, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P8_Underground]] "«Хорошее место» (подземелье)"),
+					'discovered', false,
+					'Intel', false,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
+					'image', "UI/SatelliteView/SectorImages/L06U",
+					'MusicCombat', "Battle_Tough",
+					'MusicConflict', "Underground_Conflict",
+					'MusicExploration', "Underground_Exploration",
+					'combatTaskGenerate', "afterFirstConflict",
+				}),
+				PlaceObj('SatelliteSector', {
 					'Id', "P9",
 					'Map', "PciM4k",
 					'MapTier', 20,
@@ -27169,6 +27471,290 @@ return {
 			starting_year = 2005,
 			underground_file = "Mod/FhNNYd/Images/BigMap_Under_1.png",
 		}),
+		PlaceObj('ModItemFolder', {
+			'name', "Conversations",
+			'comment', "---Диалоги",
+		}, {
+			PlaceObj('ModItemConversation', {
+				AssignToGroup = "Rebels_Squad_LegionCamp5",
+				DefaultActor = "RebelSergant_Immortal",
+				group = "Ernie",
+				id = "Ernie_LegionCamp5_Rebels",
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "RescueTeam",
+							Vars = set( "NotStarted" ),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "RebelSergant_Immortal",
+							Text = T(712802681829, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Greeting]] "Здравствуйте наёмники."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "RebelSergant_Immortal",
+							Text = T(424647158478, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Greeting]] "Я никогда не думал, что буду просить о помощи боевых псов капитала, но выходит что враг моего врага - мой друг. А выбирать нам не из чего, у меня тут куча раненых и изнуренных бойцов, у нас почти нет патронов, а оружие, что удалось унести, да это практически и не оружие уже..."),
+							param_bindings = false,
+						}),
+					},
+					id = "Greeting",
+					param_bindings = false,
+					PlaceObj('ConversationPhrase', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueTeam",
+								Vars = {
+									NotStarted = true,
+								},
+								param_bindings = false,
+							}),
+						},
+						Effects = {
+							PlaceObj('SectorsGrantIntel', {
+								param_bindings = false,
+								sector_id = {
+									"K5",
+								},
+							}),
+						},
+						Keyword = "Что тут случилось?",
+						KeywordT = T(592834310034, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Что тут случилось?"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "RebelSergant_Immortal",
+								Text = T(766138274062, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Что тут случилось?]] "Приятно слышать, что вам не безразлично происходящее. Рассказывать всё с самого начала нет времени, но если коротко, то Легион расплодился и захватил всю страну, ячейки партизан раздроблены по стране, наша пыталась отбить остров, но нас выдавили с наших позиций и мы вынуждены ютиться тут, надеюсь у остальных дела идут получше. Вы наверное видели тела внизу. Нам практически нечем стрелять. У нас нет медикаментов, да даже еды уже практически нет."),
+								param_bindings = false,
+							}),
+						},
+						id = "What hepened",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueTeam",
+								Vars = {
+									NotStarted = true,
+								},
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Итак, какая помощь вам нужна",
+						KeywordT = T(680417461250, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Итак, какая помощь вам нужна"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "RebelSergant_Immortal",
+								Text = T(122539962745, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Итак, какая помощь вам нужна]] "Как я уже сказал, нам нужно оружие, патроны и медикаменты, если вы готовы зачистить Легионовских псов, то я даже дам вам огневую поддержку. Но для начала... Надо спасти нашего бойца, который ещё должен быть жив, он должен быть на пирсе. Эти собаки собираются казнить его, это один из наших бойцов, который прикрывал отход из второго лагеря. Пожалуйста спасите его."),
+								param_bindings = false,
+							}),
+						},
+						id = "2",
+						param_bindings = false,
+						PlaceObj('ConversationPhrase', {
+							Align = "right",
+							Conditions = {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "RescueTeam",
+									Vars = {
+										NotStarted = true,
+									},
+									param_bindings = false,
+								}),
+							},
+							Effects = {
+								PlaceObj('QuestSetVariableBool', {
+									Prop = "Given",
+									QuestId = "RescueTeam",
+									param_bindings = false,
+								}),
+							},
+							GiveQuests = {
+								"RescueTeam",
+							},
+							GoTo = "<end conversation>",
+							Keyword = "Мы берёмся",
+							KeywordT = T(672560155733, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Мы берёмся"),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "RebelSergant_Immortal",
+									Text = T(924519361059, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Мы берёмся]] "Поспешите..."),
+									param_bindings = false,
+								}),
+							},
+							id = "Mission",
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationPhrase', {
+							Align = "right",
+							Conditions = {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "RescueTeam",
+									Vars = {
+										NotStarted = true,
+									},
+									param_bindings = false,
+								}),
+							},
+							GoTo = "<end conversation>",
+							Keyword = "Не, сами крутитесь.",
+							KeywordT = T(546142027509, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Не, сами крутитесь."),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "RebelSergant_Immortal",
+									Text = T(560698081650, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Не, сами крутитесь.]] "Жаль, тогда идите своей дорогой и не мешайтесь."),
+									param_bindings = false,
+								}),
+							},
+							id = "3",
+							param_bindings = false,
+						}),
+					}),
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					CompleteQuests = {
+						"RescueTeam",
+					},
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "RescueTeam",
+							Vars = set( "Rescued" ),
+							param_bindings = false,
+						}),
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "RebelsSavior",
+							Vars = set( "NotStarted" ),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "RebelSergant_Immortal",
+							Text = T(157083449193, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Greeting3]] "Спасибо, что спасли нашего товарища."),
+							param_bindings = false,
+						}),
+					},
+					id = "Greeting3",
+					param_bindings = false,
+					PlaceObj('ConversationPhrase', {
+						CompleteQuests = {
+							"RescueTeam",
+						},
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueTeam",
+								Vars = set( "Rescued" ),
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Всегда пожалуйста",
+						KeywordT = T(996024122128, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Всегда пожалуйста"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "RebelSergant_Immortal",
+								Text = T(624365836328, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Всегда пожалуйста]] "Есть ещё одно дело, если всё ещё готовы помогать"),
+								param_bindings = false,
+							}),
+						},
+						id = "2",
+						param_bindings = false,
+						PlaceObj('ConversationPhrase', {
+							Keyword = "Оружие?",
+							KeywordT = T(261552674871, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Оружие?"),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "RebelSergant_Immortal",
+									Text = T(603947439256, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Оружие?]] "Оружие, нам нужно снаряжение из старого лагеря, также там должны были быть медикаменты, мне послать некого, бойцы изнурены и ранены, оружие наладом дышит, если что-то там пойдет не так, в общем потери у нас итак слишком большие, и надеюсь у вас есть сапер, мы заминировали подходы. В общем принисите нам снаряжение и у меня найдется чем с вами поделиться."),
+									param_bindings = false,
+								}),
+							},
+							id = "2",
+							param_bindings = false,
+							PlaceObj('ConversationPhrase', {
+								GiveQuests = {
+									"RebelsSavior",
+								},
+								GoTo = "<end conversation>",
+								Keyword = "Мы готовы",
+								KeywordT = T(327289513734, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Мы готовы"),
+								Lines = {
+									PlaceObj('ConversationLine', {
+										Character = "RebelSergant_Immortal",
+										Text = T(344685080092, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Мы готовы]] "Отлично."),
+										param_bindings = false,
+									}),
+								},
+								id = "2",
+								param_bindings = false,
+							}),
+						}),
+					}),
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "RebelsSavior",
+							Vars = set( "All_Found" ),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Мы счастливы?",
+					KeywordT = T(407342596203, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Мы счастливы?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "RebelSergant_Immortal",
+							Text = T(468486052663, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Мы счастливы?]] "Тут всё?"),
+							param_bindings = false,
+						}),
+					},
+					id = "2",
+					param_bindings = false,
+					PlaceObj('ConversationPhrase', {
+						CompleteQuests = {
+							"RebelsSavior",
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "RebelsSavior",
+								param_bindings = false,
+							}),
+							PlaceObj('UnitTakeItem', {
+								Amount = 4,
+								ItemId = "ZastavaM76",
+								param_bindings = false,
+							}),
+							PlaceObj('UnitTakeItem', {
+								Amount = 4,
+								ItemId = "Medkit",
+								param_bindings = false,
+							}),
+						},
+						GoTo = "<end conversation>",
+						Keyword = "Да мы счастливы",
+						KeywordT = T(403161852547, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Да мы счастливы"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "RebelSergant_Immortal",
+								Text = T(480799336285, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Да мы счастливы]] "Вы очень сильно помогли нам, спасибо наемники, у нас тут затесался ваш колега по опасному бизнессу, такой же солдат удачи, думаю он с радостью пойдёт с вами, по началу бредил про какую-то несуществующую страну, под названием Арулько, но вроде отпустило. Он вроде как потерял память, но боевые навыки точно не растерял. Вон он стоит у палаток."),
+								param_bindings = false,
+							}),
+						},
+						id = "2",
+						param_bindings = false,
+					}),
+				}),
+			}),
+			}),
 		PlaceObj('ModItemFolder', {
 			'name', "Main quests",
 			'comment', "Сюжетные",
@@ -32955,6 +33541,33 @@ return {
 				id = "03A_PresidentNotes",
 			}),
 			PlaceObj('ModItemQuestsDef', {
+				DevNotes = "Освобождение острова Эрни, дают партизаны или Эмма.",
+				DisplayName = T(758754456728, --[[ModItemQuestsDef 02A_LiberateErnie_2 DisplayName]] "Освобождение острова Эрни"),
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {}),
+				},
+				Main = true,
+				QuestGroup = "The Fate Of Grand Chien",
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+				},
+				comment = "---------Освобождение острова Эрни------",
+				group = "Main",
+				id = "02A_LiberateErnie_2",
+			}),
+			PlaceObj('ModItemQuestsDef', {
 				Author = "Boyan",
 				Chapter = "Intro",
 				DevNotes = "Resolved when you capture Ernie. Has a ton of effect in the TCE that resolves the quest such as unlocking the port in Ernie village and showing all the icons on the sat view map.\n\nOn resolution I moved all quest variables to switch before the delay and Emma banter to avoid the player breaking the entire quest line by moving away from the sector during the delay.",
@@ -32982,6 +33595,7 @@ return {
 				},
 				Main = true,
 				NoteDefs = {
+					LastNoteIdx = 1,
 					PlaceObj('QuestNote', {
 						HideConditions = {
 							PlaceObj('QuestIsVariableBool', {
@@ -33089,6 +33703,9 @@ return {
 							}),
 							PlaceObj('SectorCheckOwner', {
 								sector_id = "I5",
+							}),
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "J5",
 							}),
 						},
 						Effects = {
@@ -33229,6 +33846,7 @@ return {
 				},
 				Main = true,
 				NoteDefs = {
+					LastNoteIdx = 1,
 					PlaceObj('QuestNote', {
 						HideConditions = {
 							PlaceObj('CheckOR', {
@@ -33253,6 +33871,39 @@ return {
 							}),
 						},
 						Text = T(194076078423, --[[ModItemQuestsDef 01_Landing Text]] "<em>Клиент</em> ждёт нас на <em>Острове Эрни</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						HideConditions = {
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "I2",
+							}),
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "I5",
+							}),
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "J5",
+							}),
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "K4",
+							}),
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "K6",
+							}),
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "L7",
+							}),
+						},
+						Scouting = true,
+						ShowConditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"M3",
+								},
+							}),
+						},
+						ShowWhenCompleted = true,
+						Text = T(504955124255, --[[ModItemQuestsDef 01_Landing Text]] "Похоже остров оккупирован <color EmStyle>Легионом</color>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -33363,6 +34014,203 @@ return {
 				},
 				group = "Main",
 				id = "01_Landing",
+			}),
+			}),
+		PlaceObj('ModItemFolder', {
+			'name', "Jazz side",
+			'comment', "Джазовые сайды",
+		}, {
+			PlaceObj('ModItemQuestsDef', {
+				DevNotes = "Спасение Партизан на острове, Легион растрепал их в щи, Выполнение этого квеста даст многое в дальнейшем. И частично поможет в прохождении игры. Он не основной, но вспомогательный.",
+				DisplayName = T(805716788538, --[[ModItemQuestsDef RescueTeam DisplayName]] "Мы в спасатели нанимались"),
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {}),
+				},
+				NoteDefs = {
+					LastNoteIdx = 2,
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgePreset = "NpcBadge",
+								BadgeUnit = "Rebel_Hostage",
+								Sector = "K5",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueTeam",
+								Vars = set( "Rescued" ),
+							}),
+						},
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueTeam",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(191474319874, --[[ModItemQuestsDef RescueTeam Text]] "Приговоренный <em>Партизан</em> находится где-то на <em>пирсе</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Rebels_Camp_LegionCamp5",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueTeam",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 2,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueTeam",
+								Vars = set( "Rescued" ),
+							}),
+						},
+						Text = T(724348814002, --[[ModItemQuestsDef RescueTeam Text]] "<em>Спасенный</em> должен вернуться в лагерь, надо бы вернуться туда тоже."),
+					}),
+				},
+				QuestGroup = "Ernie Island",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('GroupIsDead', {
+								Group = "Legion_Hostage_Killer",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Rescued",
+								QuestId = "RescueTeam",
+							}),
+						},
+						ParamId = "TCE_Rescued",
+						QuestId = "RescueTeam",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Rescued",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Rescued",
+					}),
+				},
+				group = "Ernie",
+				id = "RescueTeam",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				DevNotes = "Важный сайд квест, который будет крепиться к другим квестам партизан на острове, также у него есть серьезная награда",
+				DisplayName = T(995472785344, --[[ModItemQuestsDef RebelsSavior DisplayName]] "Маленькая спасательная операция"),
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {}),
+				},
+				NoteDefs = {
+					LastNoteIdx = 2,
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RebelsSavior",
+								Vars = set( "All_Found" ),
+							}),
+						},
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RebelsSavior",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(484530953168, --[[ModItemQuestsDef RebelsSavior Text]] "Необходимо забрать из старого лагеря <em>4 Винтовки Zastava M76 и 4 Комплекта оказания мед помощи</em>."),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Rebels_Camp_LegionCamp5",
+								Sector = "K5",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RebelsSavior",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 2,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RebelsSavior",
+								Vars = set( "All_Found" ),
+							}),
+						},
+						Text = T(998362596439, --[[ModItemQuestsDef RebelsSavior Text]] "Надо отдать <em>это добро партизанам</em>."),
+					}),
+				},
+				QuestGroup = "Ernie Island",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('AND', {
+								Conditions = {
+									PlaceObj('UnitSquadHasItem', {
+										Amount = 4,
+										ItemId = "ZastavaM76",
+									}),
+									PlaceObj('UnitSquadHasItem', {
+										Amount = 4,
+										ItemId = "Medkit",
+									}),
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "All_Found",
+								QuestId = "RebelsSavior",
+							}),
+						},
+						ParamId = "TCE_All_Found",
+						QuestId = "RebelsSavior",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "All_Found",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_All_Found",
+					}),
+				},
+				group = "Ernie",
+				id = "RebelsSavior",
 			}),
 			}),
 		PlaceObj('ModItemQuestsDef', {
@@ -35336,11 +36184,88 @@ return {
 			}),
 		}),
 		}),
-	PlaceObj('ModItemChangeProp', {
-		'name', "ChangeProperty",
-		'TargetClass', "MapDataPreset",
-		'TargetId', "gsSMikN",
-		'TargetProp', "MapOrientation",
-		'TargetValue', 180,
-	}),
+	PlaceObj('ModItemFolder', {
+		'name', "Quest Banters",
+		'comment', "Бантеры для квестов",
+	}, {
+		PlaceObj('ModItemBanterDef', {
+			Lines = {
+				PlaceObj('BanterLine', {
+					'Character', "Rebel_Hostage",
+					'AnimationStyle', "Idle",
+					'Text', T(131645275533, --[[ModItemBanterDef RebelHostage Text section:Ernie_Rebels/RebelHostage voice:Rebel_Hostage]] "Спасибо вам наемники и потише, через дорогу прорва этих мудаков, я возвращаюсь в лагерь к нашим."),
+				}),
+			},
+			conditions = {
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "RescueTeam",
+					Vars = set( "Rescued" ),
+				}),
+			},
+			group = "Ernie_Rebels",
+			id = "RebelHostage",
+		}),
+		}),
+	PlaceObj('ModItemFolder', {
+		'name', "Для переореинтации карт",
+	}, {
+		PlaceObj('ModItemChangeProp', {
+			'name', "ChangeProperty",
+			'TargetClass', "MapDataPreset",
+			'TargetId', "gsSMikN",
+			'TargetProp', "MapOrientation",
+			'TargetValue', 180,
+		}),
+		}),
+	PlaceObj('ModItemFolder', {
+		'name', "CONSTANTS",
+	}, {
+		PlaceObj('ModItemConstDef', {
+			group = "Loyalty",
+			id = "CitySectorEnemyTakeOverLoyaltyLoss",
+			value = -20,
+		}),
+		PlaceObj('ModItemConstDef', {
+			group = "Loyalty",
+			id = "ConflictRetreatPenalty",
+			value = -30,
+		}),
+		PlaceObj('ModItemConstDef', {
+			Comment = "When losing a conflict in a sector that's not a result of a retreat (losing all mercs in that sector for example) AND that sector doesn't have a city",
+			group = "Loyalty",
+			id = "ConflictDefeatedLoyaltyLoss",
+			value = -15,
+		}),
+		PlaceObj('ModItemConstDef', {
+			group = "Loyalty",
+			id = "CivilianDeathPenaltyCityCap",
+			value = 91,
+		}),
+		PlaceObj('ModItemConstDef', {
+			group = "Loyalty",
+			id = "CivilianDeathPenalty",
+			value = 7,
+		}),
+		PlaceObj('ModItemConstDef', {
+			Comment = "Days during which mine's income gets lower until in reaches 0",
+			group = "Satellite",
+			id = "MineDepletingDays",
+			value = 500,
+		}),
+		PlaceObj('ModItemConstDef', {
+			group = "Satellite",
+			id = "MaxHiredMercs",
+			value = 240,
+		}),
+		PlaceObj('ModItemConstDef', {
+			group = "Satellite",
+			id = "StartingMoney",
+			value = 60000,
+		}),
+		PlaceObj('ModItemConstDef', {
+			group = "Satellite",
+			id = "MercSquadMaxPeople",
+			value = 12,
+		}),
+		}),
 }

@@ -35536,7 +35536,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 	'appeal_optimal_dist', 50000,
 	'appeal_per_meter', -5,
 	'exploration_manned', true,
