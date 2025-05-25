@@ -20178,7 +20178,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 	'appeal_per_target', 1005,
 	'appeal_optimal_dist', 45000,
 	'appeal_per_meter', 0,
@@ -22558,7 +22558,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 	'appeal_per_target', 1005,
 	'appeal_optimal_dist', 45000,
 	'appeal_per_meter', 0,
@@ -63785,7 +63785,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 }, nil, 1521644207)
 PlaceObj('SavannaPlant_03_Candelabra_01', {
 	'Pos', point(236399, 158871, 10818),
@@ -64271,7 +64271,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 78000,
+	'target_dist', 114000,
 }, nil, 1275931329)
 PlaceObj('FloorSlab', {
 	'Pos', point(203400, 249000, 15400),

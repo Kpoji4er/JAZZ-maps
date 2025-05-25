@@ -406,32 +406,6 @@
 	},
 	{
 		Groups = {
-			"BunkerReinforcements",
-		},
-		handle = 1072442653,
-		items = {
-			{
-				editor_view_abridged = "if RustReinforcmentsSpawn",
-				filter_type = "quest",
-				reference_id = "ErnieSideQuests",
-				type = "QuestIsVariableBool",
-				var = set( "RustReinforcmentsSpawn" ),
-			},
-			{
-				editor_view_abridged = "if TCE_WorldFlipDone",
-				filter_type = "quest",
-				reference_id = "04_Betrayal",
-				type = "QuestIsVariableBool",
-				var = set( "TCE_WorldFlipDone" ),
-			},
-		},
-		map = "MQKjj5A",
-		name = "UnitMarker#653 (BunkerReinforcements)",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
-	{
-		Groups = {
 			"Adonis",
 			"Road_Patrol",
 		},
@@ -699,32 +673,6 @@
 	},
 	{
 		Groups = {
-			"BunkerReinforcements",
-		},
-		handle = 1139530389,
-		items = {
-			{
-				editor_view_abridged = "if RustReinforcmentsSpawn",
-				filter_type = "quest",
-				reference_id = "ErnieSideQuests",
-				type = "QuestIsVariableBool",
-				var = set( "RustReinforcmentsSpawn" ),
-			},
-			{
-				editor_view_abridged = "if TCE_WorldFlipDone",
-				filter_type = "quest",
-				reference_id = "04_Betrayal",
-				type = "QuestIsVariableBool",
-				var = set( "TCE_WorldFlipDone" ),
-			},
-		},
-		map = "MQKjj5A",
-		name = "UnitMarker#389 (BunkerReinforcements)",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
-	{
-		Groups = {
 			"BunkerEntrance_Guards",
 		},
 		handle = 1158665960,
@@ -822,6 +770,58 @@
 	},
 	{
 		Groups = {
+			"BunkerReinforcements",
+		},
+		handle = 1190695476,
+		items = {
+			{
+				editor_view_abridged = "if RustReinforcmentsSpawn",
+				filter_type = "quest",
+				reference_id = "ErnieSideQuests",
+				type = "QuestIsVariableBool",
+				var = set( "RustReinforcmentsSpawn" ),
+			},
+			{
+				editor_view_abridged = "if TCE_WorldFlipDone",
+				filter_type = "quest",
+				reference_id = "04_Betrayal",
+				type = "QuestIsVariableBool",
+				var = set( "TCE_WorldFlipDone" ),
+			},
+		},
+		map = "MQKjj5A",
+		name = "UnitMarker#476 (BunkerReinforcements)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"BunkerReinforcements",
+		},
+		handle = 1191672022,
+		items = {
+			{
+				editor_view_abridged = "if RustReinforcmentsSpawn",
+				filter_type = "quest",
+				reference_id = "ErnieSideQuests",
+				type = "QuestIsVariableBool",
+				var = set( "RustReinforcmentsSpawn" ),
+			},
+			{
+				editor_view_abridged = "if TCE_WorldFlipDone",
+				filter_type = "quest",
+				reference_id = "04_Betrayal",
+				type = "QuestIsVariableBool",
+				var = set( "TCE_WorldFlipDone" ),
+			},
+		},
+		map = "MQKjj5A",
+		name = "UnitMarker#022 (BunkerReinforcements)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
 			"BunkerEntrance_Guards",
 		},
 		handle = 1191911076,
@@ -836,6 +836,32 @@
 		},
 		map = "MQKjj5A",
 		name = "UnitMarker#076 (BunkerEntrance_Guards)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"BunkerReinforcements",
+		},
+		handle = 1200719656,
+		items = {
+			{
+				editor_view_abridged = "if RustReinforcmentsSpawn",
+				filter_type = "quest",
+				reference_id = "ErnieSideQuests",
+				type = "QuestIsVariableBool",
+				var = set( "RustReinforcmentsSpawn" ),
+			},
+			{
+				editor_view_abridged = "if TCE_WorldFlipDone",
+				filter_type = "quest",
+				reference_id = "04_Betrayal",
+				type = "QuestIsVariableBool",
+				var = set( "TCE_WorldFlipDone" ),
+			},
+		},
+		map = "MQKjj5A",
+		name = "UnitMarker#656 (BunkerReinforcements)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
@@ -1020,6 +1046,32 @@
 		name = "DefenderPriority#177 (Adonis, Fortress_Guards)",
 		path = "DefenderPriority ",
 		type = "DefenderPriority",
+	},
+	{
+		Groups = {
+			"BunkerReinforcements",
+		},
+		handle = 1254399609,
+		items = {
+			{
+				editor_view_abridged = "if RustReinforcmentsSpawn",
+				filter_type = "quest",
+				reference_id = "ErnieSideQuests",
+				type = "QuestIsVariableBool",
+				var = set( "RustReinforcmentsSpawn" ),
+			},
+			{
+				editor_view_abridged = "if TCE_WorldFlipDone",
+				filter_type = "quest",
+				reference_id = "04_Betrayal",
+				type = "QuestIsVariableBool",
+				var = set( "TCE_WorldFlipDone" ),
+			},
+		},
+		map = "MQKjj5A",
+		name = "UnitMarker#609 (BunkerReinforcements)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
 	},
 	{
 		BanterTriggerEffects = {
@@ -1272,6 +1324,32 @@
 	},
 	{
 		Groups = {
+			"BunkerReinforcements",
+		},
+		handle = 1323395424,
+		items = {
+			{
+				editor_view_abridged = "if RustReinforcmentsSpawn",
+				filter_type = "quest",
+				reference_id = "ErnieSideQuests",
+				type = "QuestIsVariableBool",
+				var = set( "RustReinforcmentsSpawn" ),
+			},
+			{
+				editor_view_abridged = "if TCE_WorldFlipDone",
+				filter_type = "quest",
+				reference_id = "04_Betrayal",
+				type = "QuestIsVariableBool",
+				var = set( "TCE_WorldFlipDone" ),
+			},
+		},
+		map = "MQKjj5A",
+		name = "UnitMarker#424 (BunkerReinforcements)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
 			"WorldFlip_Intel",
 		},
 		handle = 1327299636,
@@ -1450,6 +1528,32 @@
 		name = "DefenderPriority#978 (Adonis, Road_Guard)",
 		path = "DefenderPriority ",
 		type = "DefenderPriority",
+	},
+	{
+		Groups = {
+			"BunkerReinforcements",
+		},
+		handle = 1381469220,
+		items = {
+			{
+				editor_view_abridged = "if RustReinforcmentsSpawn",
+				filter_type = "quest",
+				reference_id = "ErnieSideQuests",
+				type = "QuestIsVariableBool",
+				var = set( "RustReinforcmentsSpawn" ),
+			},
+			{
+				editor_view_abridged = "if TCE_WorldFlipDone",
+				filter_type = "quest",
+				reference_id = "04_Betrayal",
+				type = "QuestIsVariableBool",
+				var = set( "TCE_WorldFlipDone" ),
+			},
+		},
+		map = "MQKjj5A",
+		name = "UnitMarker#220 (BunkerReinforcements)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
 	},
 	{
 		Groups = {
@@ -1762,32 +1866,6 @@
 		name = "DefenderPriority#528 (Adonis, Fortress_Guards)",
 		path = "DefenderPriority ",
 		type = "DefenderPriority",
-	},
-	{
-		Groups = {
-			"BunkerReinforcements",
-		},
-		handle = 1476868778,
-		items = {
-			{
-				editor_view_abridged = "if RustReinforcmentsSpawn",
-				filter_type = "quest",
-				reference_id = "ErnieSideQuests",
-				type = "QuestIsVariableBool",
-				var = set( "RustReinforcmentsSpawn" ),
-			},
-			{
-				editor_view_abridged = "if TCE_WorldFlipDone",
-				filter_type = "quest",
-				reference_id = "04_Betrayal",
-				type = "QuestIsVariableBool",
-				var = set( "TCE_WorldFlipDone" ),
-			},
-		},
-		map = "MQKjj5A",
-		name = "UnitMarker#778 (BunkerReinforcements)",
-		path = "UnitMarker ",
-		type = "UnitMarker",
 	},
 	{
 		Groups = {
@@ -2137,32 +2215,6 @@
 	},
 	{
 		Groups = {
-			"BunkerReinforcements",
-		},
-		handle = 1620607656,
-		items = {
-			{
-				editor_view_abridged = "if RustReinforcmentsSpawn",
-				filter_type = "quest",
-				reference_id = "ErnieSideQuests",
-				type = "QuestIsVariableBool",
-				var = set( "RustReinforcmentsSpawn" ),
-			},
-			{
-				editor_view_abridged = "if TCE_WorldFlipDone",
-				filter_type = "quest",
-				reference_id = "04_Betrayal",
-				type = "QuestIsVariableBool",
-				var = set( "TCE_WorldFlipDone" ),
-			},
-		},
-		map = "MQKjj5A",
-		name = "UnitMarker#656 (BunkerReinforcements)",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
-	{
-		Groups = {
 			"Adonis",
 			"Fortress_Guards",
 		},
@@ -2283,32 +2335,6 @@
 		Groups = {
 			"BunkerReinforcements",
 		},
-		handle = 1651317735,
-		items = {
-			{
-				editor_view_abridged = "if RustReinforcmentsSpawn",
-				filter_type = "quest",
-				reference_id = "ErnieSideQuests",
-				type = "QuestIsVariableBool",
-				var = set( "RustReinforcmentsSpawn" ),
-			},
-			{
-				editor_view_abridged = "if TCE_WorldFlipDone",
-				filter_type = "quest",
-				reference_id = "04_Betrayal",
-				type = "QuestIsVariableBool",
-				var = set( "TCE_WorldFlipDone" ),
-			},
-		},
-		map = "MQKjj5A",
-		name = "UnitMarker#735 (BunkerReinforcements)",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
-	{
-		Groups = {
-			"BunkerReinforcements",
-		},
 		handle = 1665812271,
 		items = {
 			{
@@ -2347,6 +2373,32 @@
 		},
 		map = "MQKjj5A",
 		name = "UnitMarker#336 (BunkerEntrance_Guards)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"BunkerReinforcements",
+		},
+		handle = 1668679170,
+		items = {
+			{
+				editor_view_abridged = "if RustReinforcmentsSpawn",
+				filter_type = "quest",
+				reference_id = "ErnieSideQuests",
+				type = "QuestIsVariableBool",
+				var = set( "RustReinforcmentsSpawn" ),
+			},
+			{
+				editor_view_abridged = "if TCE_WorldFlipDone",
+				filter_type = "quest",
+				reference_id = "04_Betrayal",
+				type = "QuestIsVariableBool",
+				var = set( "TCE_WorldFlipDone" ),
+			},
+		},
+		map = "MQKjj5A",
+		name = "UnitMarker#170 (BunkerReinforcements)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
@@ -2504,7 +2556,7 @@
 		Groups = {
 			"BunkerReinforcements",
 		},
-		handle = 1744749964,
+		handle = 1748342658,
 		items = {
 			{
 				editor_view_abridged = "if RustReinforcmentsSpawn",
@@ -2522,7 +2574,7 @@
 			},
 		},
 		map = "MQKjj5A",
-		name = "UnitMarker#964 (BunkerReinforcements)",
+		name = "UnitMarker#658 (BunkerReinforcements)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
@@ -2696,32 +2748,6 @@
 	},
 	{
 		Groups = {
-			"BunkerReinforcements",
-		},
-		handle = 1861292795,
-		items = {
-			{
-				editor_view_abridged = "if RustReinforcmentsSpawn",
-				filter_type = "quest",
-				reference_id = "ErnieSideQuests",
-				type = "QuestIsVariableBool",
-				var = set( "RustReinforcmentsSpawn" ),
-			},
-			{
-				editor_view_abridged = "if TCE_WorldFlipDone",
-				filter_type = "quest",
-				reference_id = "04_Betrayal",
-				type = "QuestIsVariableBool",
-				var = set( "TCE_WorldFlipDone" ),
-			},
-		},
-		map = "MQKjj5A",
-		name = "UnitMarker#795 (BunkerReinforcements)",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
-	{
-		Groups = {
 			"Adonis",
 			"Fortress_Guards",
 		},
@@ -2739,32 +2765,6 @@
 		name = "DefenderPriority#107 (Adonis, Fortress_Guards)",
 		path = "DefenderPriority ",
 		type = "DefenderPriority",
-	},
-	{
-		Groups = {
-			"BunkerReinforcements",
-		},
-		handle = 1865322060,
-		items = {
-			{
-				editor_view_abridged = "if RustReinforcmentsSpawn",
-				filter_type = "quest",
-				reference_id = "ErnieSideQuests",
-				type = "QuestIsVariableBool",
-				var = set( "RustReinforcmentsSpawn" ),
-			},
-			{
-				editor_view_abridged = "if TCE_WorldFlipDone",
-				filter_type = "quest",
-				reference_id = "04_Betrayal",
-				type = "QuestIsVariableBool",
-				var = set( "TCE_WorldFlipDone" ),
-			},
-		},
-		map = "MQKjj5A",
-		name = "UnitMarker#060 (BunkerReinforcements)",
-		path = "UnitMarker ",
-		type = "UnitMarker",
 	},
 	{
 		Groups = {

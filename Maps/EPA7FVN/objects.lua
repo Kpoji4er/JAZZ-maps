@@ -88,6 +88,60 @@ PlaceObj('ConditionalSpawnMarker', {
 	'Pos', point(97800, 112200),
 	'AllowedMask', 4294966497,
 }, nil, 1332613941)
+PlaceObj('UnitMarker', {
+	'Pos', point(84600, 124200, 14700),
+	'AllowedMask', 4294966497,
+	'Trigger', "activation",
+	'Routine', "AdvanceTo",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('SectorIsInConflict', {}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorCheckOwner', {}),
+				PlaceObj('GroupIsDead', {
+					Group = "Start_Legion",
+				}),
+			},
+		}),
+	},
+	'Appearance', "Soldier_Rebels_02",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "RebelSoldier",
+		}),
+	},
+}, nil, 1878959805)
+PlaceObj('UnitMarker', {
+	'Pos', point(88200, 125400, 14700),
+	'AllowedMask', 4294966497,
+	'Trigger', "activation",
+	'Routine', "AdvanceTo",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('SectorIsInConflict', {}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorCheckOwner', {}),
+				PlaceObj('GroupIsDead', {
+					Group = "Start_Legion",
+				}),
+			},
+		}),
+	},
+	'Appearance', "Soldier_Rebels_02",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "RebelSoldier",
+		}),
+	},
+}, nil, 1241602659)
 PlaceObj('GridMarker', {
 	'Pos', point(118200, 91800),
 	'AllowedMask', 4294966497,
@@ -98,6 +152,214 @@ PlaceObj('GridMarker', {
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
 }, nil, 1785668006)
+PlaceObj('ExitZoneInteractable', {
+	'Pos', point(40404, 158269, 14730),
+	'Groups', {
+		"East",
+	},
+	'AllowedMask', 4294966497,
+}, nil, 1786313394)
+PlaceObj('GridMarker', {
+	'Pos', point(40200, 159000),
+	'Groups', {
+		"East",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Entrance",
+	'AreaWidth', 5,
+	'AreaHeight', 5,
+}, nil, 1246071164)
+PlaceObj('UnitMarker', {
+	'Pos', point(94200, 163800, 13300),
+	'AllowedMask', 4294966497,
+	'Trigger', "activation",
+	'Routine', "AdvanceTo",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('SectorIsInConflict', {}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorCheckOwner', {}),
+				PlaceObj('GroupIsDead', {
+					Group = "Start_Legion",
+				}),
+			},
+		}),
+	},
+	'Appearance', "Recon_Rebels_02",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "RebelFlanker",
+		}),
+	},
+}, nil, 1005081538)
+PlaceObj('UnitMarker', {
+	'Pos', point(89400, 167400, 13300),
+	'AllowedMask', 4294966497,
+	'Trigger', "activation",
+	'Routine', "AdvanceTo",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('SectorIsInConflict', {}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorCheckOwner', {}),
+				PlaceObj('GroupIsDead', {
+					Group = "Start_Legion",
+				}),
+			},
+		}),
+	},
+	'Appearance', "Recon_Rebels_02",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "RebelFlanker",
+		}),
+	},
+}, nil, 1168567411)
+PlaceObj('UnitMarker', {
+	'Pos', point(89400, 172200, 12600),
+	'AllowedMask', 4294966497,
+	'Trigger', "activation",
+	'Routine', "AdvanceTo",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('SectorIsInConflict', {}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorCheckOwner', {}),
+				PlaceObj('GroupIsDead', {
+					Group = "Start_Legion",
+				}),
+			},
+		}),
+	},
+	'Appearance', "Recon_Rebels_02",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "RebelFlanker",
+		}),
+	},
+}, nil, 1016198287)
+PlaceObj('UnitMarker', {
+	'Pos', point(89400, 174600, 11900),
+	'AllowedMask', 4294966497,
+	'Trigger', "activation",
+	'Routine', "AdvanceTo",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('SectorIsInConflict', {}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorCheckOwner', {}),
+				PlaceObj('GroupIsDead', {
+					Group = "Start_Legion",
+				}),
+			},
+		}),
+	},
+	'Appearance', "Soldier_Rebels_02",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "RebelSoldier",
+		}),
+	},
+}, nil, 1241021501)
+PlaceObj('UnitMarker', {
+	'Pos', point(93000, 168600, 12600),
+	'AllowedMask', 4294966497,
+	'Trigger', "activation",
+	'Routine', "AdvanceTo",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('SectorIsInConflict', {}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorCheckOwner', {}),
+				PlaceObj('GroupIsDead', {
+					Group = "Start_Legion",
+				}),
+			},
+		}),
+	},
+	'Appearance', "Soldier_Rebels_02",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "RebelSoldier",
+		}),
+	},
+}, nil, 1594627775)
+PlaceObj('UnitMarker', {
+	'Pos', point(93000, 175800, 11200),
+	'AllowedMask', 4294966497,
+	'Trigger', "activation",
+	'Routine', "AdvanceTo",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('SectorIsInConflict', {}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorCheckOwner', {}),
+				PlaceObj('GroupIsDead', {
+					Group = "Start_Legion",
+				}),
+			},
+		}),
+	},
+	'Appearance', "Soldier_Rebels_02",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "RebelSoldier",
+		}),
+	},
+}, nil, 1214126951)
+PlaceObj('UnitMarker', {
+	'Pos', point(95400, 173400, 11200),
+	'AllowedMask', 4294966497,
+	'Trigger', "activation",
+	'TriggerConditions', {},
+	'EnabledConditions', {},
+	'Routine', "AdvanceTo",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('SectorIsInConflict', {}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorCheckOwner', {}),
+				PlaceObj('GroupIsDead', {
+					Group = "Start_Legion",
+				}),
+			},
+		}),
+	},
+	'Appearance', "Commander_Rebels",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "RebelSergant",
+		}),
+	},
+}, nil, 1311705110)
 PlaceObj('GridMarker', {
 	'Pos', point(103800, 142200),
 	'Angle', 5400,
@@ -105,7 +367,10 @@ PlaceObj('GridMarker', {
 	'Type', "Defender",
 }, nil, 1479636693)
 PlaceObj('UnitMarker', {
-	'Pos', point(113400, 138600, 17500),
+	'Pos', point(113400, 138600, 16800),
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -136,12 +401,15 @@ PlaceObj('GridMarker', {
 	'Type', "Defender",
 }, nil, 1625529848)
 PlaceObj('GridMarker', {
-	'Pos', point(119400, 135000),
+	'Pos', point(119400, 135000, 17500),
 	'AllowedMask', 4294966497,
 	'Type', "DefenderPriority",
 }, nil, 1296495938)
 PlaceObj('UnitMarker', {
 	'Pos', point(120600, 135000, 17500),
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -175,6 +443,9 @@ PlaceObj('GridMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(129000, 179400, 11200),
 	'Angle', 16200,
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -191,7 +462,6 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Suspicious', true,
 	'Appearance', "LegionGoon_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -203,6 +473,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(132600, 90600, 15400),
 	'Angle', 10800,
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -221,7 +494,6 @@ PlaceObj('UnitMarker', {
 	},
 	'Routine', "AdvanceTo",
 	'RoutineArea', "AL_Defender",
-	'Suspicious', true,
 	'Appearance', "Legion_Recon03",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -238,6 +510,9 @@ PlaceObj('GridMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(143400, 88200),
 	'Angle', 10800,
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -254,7 +529,6 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Suspicious', true,
 	'Appearance', "Legion_WitchDoctor03",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -271,6 +545,9 @@ PlaceObj('GridMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(145800, 93000),
 	'Angle', 5400,
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -287,7 +564,6 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Suspicious', true,
 	'Appearance', "Legion_Shaman",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -319,6 +595,9 @@ PlaceObj('ContainerMarker', {
 }, nil, 718258176)
 PlaceObj('UnitMarker', {
 	'Pos', point(149400, 90600),
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -335,7 +614,6 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Suspicious', true,
 	'Appearance', "Legion_Soldier04",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -376,6 +654,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1757522979)
 PlaceObj('UnitMarker', {
 	'Pos', point(171000, 121800, 4900),
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -392,7 +673,6 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Suspicious', true,
 	'Appearance', "Legion_Recon02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -401,26 +681,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1537374737)
-PlaceObj('GridMarker', {
-	'Pos', point(202200, 130200, 6300),
-	'Angle', 5400,
-	'Groups', {
-		"GameIntro",
-	},
-	'AllowedMask', 4294966497,
-	'Type', "Defender",
-	'ID', "Start",
-	'AreaWidth', 10,
-	'AreaHeight', 10,
-	'EnabledConditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "01_Landing",
-			Vars = set({
-	Completed = false,
-}),
-		}),
-	},
-}, nil, 1024113627)
 PlaceObj('GridMarker', {
 	'Pos', point(139800, 153000, 7700),
 	'Angle', 5400,
@@ -433,6 +693,9 @@ PlaceObj('GridMarker', {
 }, nil, 1834157092)
 PlaceObj('UnitMarker', {
 	'Pos', point(148200, 139800, 6300),
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -449,7 +712,6 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Suspicious', true,
 	'Appearance', "Legion_Recon",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -460,6 +722,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1110500275)
 PlaceObj('UnitMarker', {
 	'Pos', point(161400, 139800, 5600),
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -476,7 +741,6 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Suspicious', true,
 	'Appearance', "Legion_Demolishion",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -518,6 +782,9 @@ PlaceObj('GridMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(155400, 185400, 10500),
 	'Angle', 16200,
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -534,7 +801,6 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Suspicious', true,
 	'Appearance', "LegionSharpShooter_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -546,6 +812,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(161400, 186600, 11200),
 	'Angle', 16200,
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -562,7 +831,6 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Suspicious', true,
 	'Appearance', "LegionSharpShooter_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -573,6 +841,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1329537883)
 PlaceObj('UnitMarker', {
 	'Pos', point(163800, 187800, 11200),
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -589,7 +860,6 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Suspicious', true,
 	'Appearance', "LegionGoon_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -600,6 +870,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1392157727)
 PlaceObj('UnitMarker', {
 	'Pos', point(171000, 144600),
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -616,7 +889,6 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Suspicious', true,
 	'Appearance', "LegionRaider_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -627,6 +899,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1194912357)
 PlaceObj('UnitMarker', {
 	'Pos', point(185400, 157800, 4900),
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -643,7 +918,6 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Suspicious', true,
 	'Appearance', "LegionButcher",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -660,6 +934,9 @@ PlaceObj('GridMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(143400, 197400, 15400),
 	'Angle', 16200,
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -676,7 +953,6 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Suspicious', true,
 	'Appearance', "LegionSniper",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -693,6 +969,9 @@ PlaceObj('GridMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(148200, 204600, 15400),
 	'Angle', 16200,
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -709,7 +988,6 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Suspicious', true,
 	'Appearance', "Legion_Stormer",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -721,6 +999,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(149400, 204600, 15400),
 	'Angle', 16200,
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -737,7 +1018,6 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Suspicious', true,
 	'Appearance', "Legion_Recon",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -758,6 +1038,9 @@ PlaceObj('GridMarker', {
 }, nil, 1199176982)
 PlaceObj('UnitMarker', {
 	'Pos', point(181800, 201000, 11200),
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -774,7 +1057,6 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Suspicious', true,
 	'Appearance', "LegionGoon_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -784,6 +1066,46 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1795965709)
 PlaceObj('GridMarker', {
+	'Pos', point(207000, 135000, 4900),
+	'Angle', 5400,
+	'Groups', {
+		"GameIntro",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'ID', "Start",
+	'AreaWidth', 5,
+	'AreaHeight', 5,
+	'EnabledConditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "01_Landing",
+			Vars = set({
+	Completed = false,
+}),
+		}),
+	},
+}, nil, 1024113627)
+PlaceObj('GridMarker', {
+	'Pos', point(209400, 167400, 4900),
+	'Angle', 5400,
+	'Groups', {
+		"GameIntro",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'ID', "Start",
+	'AreaWidth', 5,
+	'AreaHeight', 5,
+	'EnabledConditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "01_Landing",
+			Vars = set({
+	Completed = false,
+}),
+		}),
+	},
+}, nil, 1524623434)
+PlaceObj('GridMarker', {
 	'Pos', point(207000, 217800),
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
@@ -791,6 +1113,9 @@ PlaceObj('GridMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(213000, 216600, 11200),
 	'Angle', 16200,
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -807,7 +1132,6 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Suspicious', true,
 	'Appearance', "LegionButcher_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -824,6 +1148,9 @@ PlaceObj('GridMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(215400, 216600, 11200),
 	'Angle', 16200,
+	'Groups', {
+		"Start_Legion",
+	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
 	'TriggerConditions', {
@@ -840,7 +1167,6 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Suspicious', true,
 	'Appearance', "Legion_Stormer",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -857,7 +1183,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1143981045)
 PlaceObj('WaterPlaneWaves', {
@@ -867,7 +1192,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1036425425)
 PlaceObj('WaterPlaneWaves', {
@@ -877,7 +1201,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1243945936)
 PlaceObj('WaterPlaneWaves', {
@@ -887,7 +1210,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1630938159)
 PlaceObj('WaterPlaneWaves', {
@@ -897,7 +1219,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1020884565)
 PlaceObj('WaterPlaneWaves', {
@@ -907,7 +1228,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1370912894)
 PlaceObj('WaterPlaneWaves', {
@@ -917,7 +1237,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1533513795)
 PlaceObj('WaterPlaneWaves', {
@@ -927,7 +1246,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1267815973)
 PlaceObj('WaterPlaneWaves', {
@@ -937,7 +1255,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1167695298)
 PlaceObj('WaterPlaneWaves', {
@@ -947,7 +1264,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1184316581)
 PlaceObj('WaterPlaneWaves', {
@@ -957,7 +1273,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1394867335)
 PlaceObj('WaterPlaneWaves', {
@@ -967,7 +1282,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1403507316)
 PlaceObj('TropicalPlant_02_Tree_01', {
@@ -1275,7 +1589,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1498989257)
 PlaceObj('TropicalPlant_04_Tree_02', {
@@ -1397,7 +1710,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1561070696)
 PlaceObj('TropicalPlant_04_Tree_01', {
@@ -1431,7 +1743,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1668924963)
 PlaceObj('WaterPlaneWaves', {
@@ -1441,7 +1752,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1834049857)
 PlaceObj('WaterPlaneWaves', {
@@ -1451,7 +1761,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1123181677)
 PlaceObj('WaterPlaneWaves', {
@@ -1461,7 +1770,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1194442107)
 PlaceObj('WaterPlaneWaves', {
@@ -1471,7 +1779,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1539196835)
 PlaceObj('WaterPlaneWaves', {
@@ -1481,7 +1788,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1736078775)
 PlaceObj('WaterPlaneWaves', {
@@ -1491,7 +1797,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1203266750)
 PlaceObj('WaterPlaneWaves', {
@@ -1501,7 +1806,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1467304003)
 PlaceObj('WaterPlaneWaves', {
@@ -1511,7 +1815,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1226002918)
 PlaceObj('WaterPlaneWaves', {
@@ -1521,7 +1824,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1147493454)
 PlaceObj('WaterPlaneWaves', {
@@ -1531,7 +1833,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1860986415)
 PlaceObj('TropicalPlant_02_Tree_02', {
@@ -1564,7 +1865,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1144514779)
 PlaceObj('WaterPlaneWaves', {
@@ -1574,7 +1874,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1739741776)
 PlaceObj('TropicalPlant_02_Tree_01', {
@@ -1612,7 +1911,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1513212870)
 PlaceObj('TropicalPlant_03_Tree_02', {
@@ -1674,7 +1972,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1524839284)
 PlaceObj('TropicalFillerPlants_03', {
@@ -1936,7 +2233,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1029426411)
 PlaceObj('TropicalFillerPlants_04', {
@@ -2023,7 +2319,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1740471790)
 PlaceObj('TropicalFillerPlants_01', {
@@ -2292,7 +2587,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1294294091)
 PlaceObj('TropicalPlant_06_Tree_01', {
@@ -2309,7 +2603,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1051592281)
 PlaceObj('WaterPlaneWaves', {
@@ -2319,7 +2612,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1876777958)
 PlaceObj('TropicalFillerPlants_08', {
@@ -2476,7 +2768,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1136914550)
 PlaceObj('TropicalFillerPlants_01', {
@@ -2500,7 +2791,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1730910722)
 PlaceObj('TropicalFillerPlants_01', {
@@ -3039,7 +3329,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1164811632)
 PlaceObj('TropicalPlant_03_Tree_01', {
@@ -4072,7 +4361,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1780967957)
 PlaceObj('TropicalFillerPlants_06', {
@@ -4397,7 +4685,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1751041492)
 PlaceObj('TropicalPlant_04_Tree_02', {
@@ -4571,14 +4858,6 @@ PlaceObj('TropicalFillerPlants_05', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1806650360)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(39976, 88122),
-	'Angle', 17020,
-	'Scale', 135,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1656318145)
 PlaceObj('TropicalFillerPlants_03', {
 	'Pos', point(40871, 88726),
 	'Angle', 11797,
@@ -4962,13 +5241,6 @@ PlaceObj('TropicalFillerPlants_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1867427718)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(47966, 85380),
-	'Angle', 15151,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1127989200)
 PlaceObj('TropicalFillerPlants_08', {
 	'Pos', point(45565, 86310),
 	'Angle', 17704,
@@ -6103,7 +6375,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1587738400)
 PlaceObj('TropicalFillerPlants_06', {
@@ -6254,14 +6525,6 @@ PlaceObj('TropicalPlant_07_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1503349623)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(56867, 91623),
-	'Angle', 7444,
-	'Scale', 87,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1197735833)
 PlaceObj('TropicalPlant_03_Tree_02', {
 	'Pos', point(57273, 95204),
 	'Angle', 6393,
@@ -7254,13 +7517,6 @@ PlaceObj('TropicalFillerPlants_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1158418568)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(41223, 112543),
-	'Angle', 3598,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1342683766)
 PlaceObj('TropicalPlant_04_Tree_01', {
 	'Pos', point(42960, 111493),
 	'Angle', 2503,
@@ -7317,13 +7573,6 @@ PlaceObj('TropicalFillerPlants_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1722296296)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(49073, 108817),
-	'Angle', 8580,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1059153499)
 PlaceObj('TropicalPlant_02_Tree_02', {
 	'Pos', point(48401, 110899),
 	'Angle', 2008,
@@ -7856,13 +8105,6 @@ PlaceObj('TropicalFillerPlants_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1296606298)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(44708, 124313),
-	'Angle', 7513,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1347675845)
 PlaceObj('TropicalFillerPlants_01', {
 	'Pos', point(43274, 125918),
 	'Angle', 12365,
@@ -8357,14 +8599,6 @@ PlaceObj('TropicalFillerPlants_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1633576763)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(55149, 107000),
-	'Angle', 18355,
-	'Scale', 86,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1532235637)
 PlaceObj('TropicalFillerPlants_08', {
 	'Pos', point(55212, 106795),
 	'Angle', 905,
@@ -9975,13 +10209,6 @@ PlaceObj('TropicalFillerPlants_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1715219859)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(63388, 116785),
-	'Angle', 7353,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1432724316)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(63625, 115259),
 	'Angle', 15906,
@@ -10343,7 +10570,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1300825159)
 PlaceObj('WaterPlaneWaves', {
@@ -10353,7 +10579,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1115507800)
 PlaceObj('WaterPlaneWaves', {
@@ -10363,7 +10588,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1864760156)
 PlaceObj('WaterPlaneWaves', {
@@ -10373,7 +10597,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1265892172)
 PlaceObj('WaterPlaneWaves', {
@@ -10383,7 +10606,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1416327575)
 PlaceObj('WaterPlaneWaves', {
@@ -10393,7 +10615,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1759974233)
 PlaceObj('WaterPlaneWaves', {
@@ -10403,7 +10624,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1047698534)
 PlaceObj('WaterPlaneWaves', {
@@ -10413,7 +10633,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1773734996)
 PlaceObj('WaterPlaneWaves', {
@@ -10423,7 +10642,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1230632576)
 PlaceObj('WaterPlaneWaves', {
@@ -10433,7 +10651,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1332613721)
 PlaceObj('WaterPlaneWaves', {
@@ -10443,7 +10660,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1315722751)
 PlaceObj('WaterPlaneWaves', {
@@ -10453,7 +10669,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1540159591)
 PlaceObj('WaterPlaneWaves', {
@@ -10463,7 +10678,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1536645219)
 PlaceObj('WaterPlaneWaves', {
@@ -10473,7 +10687,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1251324517)
 PlaceObj('CoastalPlant_01_Tree_01', {
@@ -10491,7 +10704,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1543239303)
 PlaceObj('TropicalPlant_05_Tree_01', {
@@ -10509,7 +10721,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1061711428)
 PlaceObj('TropicalPlant_07_Tree_01', {
@@ -10527,7 +10738,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1773469377)
 PlaceObj('CoastalPlant_01_Tree_01', {
@@ -10545,7 +10755,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1242881954)
 PlaceObj('WaterPlaneWaves', {
@@ -10555,7 +10764,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1894443813)
 PlaceObj('WaterPlaneWaves', {
@@ -10565,7 +10773,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1371342615)
 PlaceObj('WaterPlaneWaves', {
@@ -10575,7 +10782,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1223942365)
 PlaceObj('WaterPlaneWaves', {
@@ -10585,7 +10791,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1146395120)
 PlaceObj('WaterPlaneWaves', {
@@ -10595,7 +10800,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1220242205)
 PlaceObj('WaterPlaneWaves', {
@@ -10605,7 +10809,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1050674176)
 PlaceObj('WaterPlaneWaves', {
@@ -10615,7 +10818,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1858402971)
 PlaceObj('WaterPlaneWaves', {
@@ -10625,7 +10827,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1355021292)
 PlaceObj('WaterPlaneWaves', {
@@ -10635,7 +10836,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1715919035)
 PlaceObj('WaterPlaneWaves', {
@@ -10645,7 +10845,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1882798903)
 PlaceObj('WaterPlaneWaves', {
@@ -10655,7 +10854,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1754197883)
 PlaceObj('WaterPlaneWaves', {
@@ -10665,7 +10863,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1803718497)
 PlaceObj('WaterPlaneWaves', {
@@ -10675,7 +10872,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1846785808)
 PlaceObj('WaterPlaneWaves', {
@@ -10685,7 +10881,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1111783206)
 PlaceObj('WaterPlaneWaves', {
@@ -10695,7 +10890,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1311468529)
 PlaceObj('WaterPlaneWaves', {
@@ -10705,7 +10899,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1628150049)
 PlaceObj('WaterPlaneWaves', {
@@ -10715,7 +10908,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1419719718)
 PlaceObj('WaterPlaneWaves', {
@@ -10725,7 +10917,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1003769003)
 PlaceObj('WaterPlaneWaves', {
@@ -10735,7 +10926,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1875610886)
 PlaceObj('WaterPlaneWaves', {
@@ -10745,7 +10935,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1753000370)
 PlaceObj('WaterPlaneWaves', {
@@ -10755,7 +10944,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1832708258)
 PlaceObj('WaterPlaneWaves', {
@@ -10765,7 +10953,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1695329630)
 PlaceObj('WaterPlaneWaves', {
@@ -10775,7 +10962,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1143735616)
 PlaceObj('WaterPlaneWaves', {
@@ -10785,7 +10971,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1380895289)
 PlaceObj('WaterPlaneWaves', {
@@ -10795,7 +10980,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1149072237)
 PlaceObj('WaterPlaneWaves', {
@@ -10805,7 +10989,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1121888111)
 PlaceObj('WaterPlaneWaves', {
@@ -10815,7 +10998,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1419283073)
 PlaceObj('WaterPlaneWaves', {
@@ -10825,7 +11007,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1603012914)
 PlaceObj('WaterPlaneWaves', {
@@ -10835,7 +11016,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1829711077)
 PlaceObj('WaterPlaneWaves', {
@@ -10845,7 +11025,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1188588941)
 PlaceObj('WaterPlaneWaves', {
@@ -10855,7 +11034,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1486868065)
 PlaceObj('TropicalPlant_03_Tree_01', {
@@ -10946,7 +11124,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1442947004)
 PlaceObj('TropicalPlant_02_Tree_01', {
@@ -11398,7 +11575,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1481647127)
 PlaceObj('TropicalFillerPlants_02', {
@@ -12938,7 +13114,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1517385616)
 PlaceObj('TropicalFillerPlants_08', {
@@ -13711,13 +13886,6 @@ PlaceObj('TropicalFillerPlants_08', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1371628316)
-PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(83871, 92503),
-	'Angle', 3144,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1491545888)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(83902, 93682),
 	'Angle', 21563,
@@ -13774,13 +13942,6 @@ PlaceObj('TropicalFillerPlants_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1493753269)
-PlaceObj('CoastalPlant_01_Tree_01', {
-	'Pos', point(83005, 96499),
-	'Angle', 7456,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1199573709)
 PlaceObj('TropicalFillerPlants_08', {
 	'Pos', point(84060, 94867),
 	'Angle', 13196,
@@ -14397,13 +14558,6 @@ PlaceObj('TropicalFillerPlants_08', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1809958958)
-PlaceObj('CoastalPlant_01_Tree_01', {
-	'Pos', point(96392, 90149),
-	'Angle', 1787,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1580368865)
 PlaceObj('TropicalFillerPlants_01', {
 	'Pos', point(97257, 91294),
 	'Angle', 20298,
@@ -16260,7 +16414,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1313464121)
 PlaceObj('TropicalFillerPlants_02', {
@@ -16375,7 +16528,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1450992317)
 PlaceObj('CoastalPlant_01_Tree_01', {
@@ -17754,7 +17906,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1832492418)
 PlaceObj('WaterPlaneWaves', {
@@ -17764,7 +17915,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1322123107)
 PlaceObj('TropicalFillerPlants_06', {
@@ -19285,7 +19435,7 @@ PlaceObj('TropicalFillerPlants_03', {
 	'AllowedMask', 0,
 }, nil, 1133240821)
 PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(112103, 120161),
+	'Pos', point(112228, 120608, 14540),
 	'Angle', 3301,
 	'Scale', 127,
 	'Saturation', 0,
@@ -28539,13 +28689,6 @@ PlaceObj('TropicalFillerPlants_05', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1488843424)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(59374, 140920),
-	'Angle', 683,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1868596470)
 PlaceObj('TropicalFillerPlants_03', {
 	'Pos', point(57637, 141606),
 	'Angle', 12639,
@@ -29029,7 +29172,7 @@ PlaceObj('TropicalFillerPlants_02', {
 	'AllowedMask', 0,
 }, nil, 1806428376)
 PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(56637, 149227),
+	'Pos', point(56618, 149238),
 	'Angle', 4113,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -29432,13 +29575,6 @@ PlaceObj('TropicalFillerPlants_05', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1218850409)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(58948, 147786),
-	'Angle', 15531,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1743699885)
 PlaceObj('TropicalFillerPlants_06', {
 	'Pos', point(58835, 148739),
 	'Angle', 18498,
@@ -29579,13 +29715,6 @@ PlaceObj('TropicalFillerPlants_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1282038165)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(60349, 153274),
-	'Angle', 4822,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1837708967)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(61138, 152492),
 	'Angle', 21409,
@@ -33629,14 +33758,6 @@ PlaceObj('TropicalFillerPlants_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1195483667)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(54215, 192021),
-	'Angle', 4790,
-	'Scale', 106,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1854307053)
 PlaceObj('TropicalFillerPlants_06', {
 	'Pos', point(53939, 193280),
 	'Angle', 10566,
@@ -35295,7 +35416,7 @@ PlaceObj('CoastalPlant_01_Tree_03', {
 	'AllowedMask', 4294967279,
 }, nil, 1058065560)
 PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(39148, 207379),
+	'Pos', point(39143, 207379),
 	'Angle', 19070,
 	'Scale', 90,
 	'Saturation', 0,
@@ -35350,14 +35471,6 @@ PlaceObj('TropicalPlant_04_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1207333435)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(44562, 204206),
-	'Angle', 2283,
-	'Scale', 114,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1164214811)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(45579, 196884),
 	'Angle', 9752,
@@ -35445,14 +35558,6 @@ PlaceObj('TropicalPlant_03_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1198424674)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(47581, 203759),
-	'Angle', 18413,
-	'Scale', 115,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1385781671)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(41965, 207165),
 	'Angle', 10894,
@@ -35477,14 +35582,6 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1261805114)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(44892, 210202),
-	'Angle', 1794,
-	'Scale', 116,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1697553261)
 PlaceObj('TropicalPlant_03_Tree_02', {
 	'Pos', point(44633, 212967),
 	'Angle', 5160,
@@ -35666,14 +35763,6 @@ PlaceObj('TropicalFillerPlants_08', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1553538732)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(50505, 198249),
-	'Angle', 797,
-	'Scale', 101,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1322493344)
 PlaceObj('TropicalFillerPlants_03', {
 	'Pos', point(49233, 199161),
 	'Angle', 5951,
@@ -38009,14 +38098,6 @@ PlaceObj('TropicalFillerPlants_06', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1055813423)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(68228, 156523),
-	'Angle', 14841,
-	'Scale', 69,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1205025583)
 PlaceObj('TropicalFillerPlants_05', {
 	'Pos', point(68418, 157119),
 	'Angle', 14802,
@@ -38563,14 +38644,6 @@ PlaceObj('TropicalFillerPlants_08', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1728379974)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(75812, 160444),
-	'Angle', 7721,
-	'Scale', 79,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1303120841)
 PlaceObj('TropicalFillerPlants_06', {
 	'Pos', point(77940, 155998),
 	'Angle', 16646,
@@ -38678,7 +38751,7 @@ PlaceObj('TropicalFillerPlants_06', {
 	'AllowedMask', 0,
 }, nil, 1894934393)
 PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(80545, 159574),
+	'Pos', point(80866, 159530, 14730),
 	'Angle', 20584,
 	'Scale', 109,
 	'Saturation', 0,
@@ -39287,13 +39360,6 @@ PlaceObj('TropicalFillerPlants_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1470707816)
-PlaceObj('CoastalPlant_01_Tree_01', {
-	'Pos', point(87145, 147379),
-	'Angle', 18026,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1380860118)
 PlaceObj('TropicalFillerPlants_06', {
 	'Pos', point(88883, 143900),
 	'Angle', 19056,
@@ -39665,13 +39731,6 @@ PlaceObj('TropicalFillerPlants_05', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1797172110)
-PlaceObj('CoastalPlant_01_Tree_01', {
-	'Pos', point(90878, 140653),
-	'Angle', 14882,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1649285571)
 PlaceObj('TropicalFillerPlants_03', {
 	'Pos', point(91156, 140385),
 	'Angle', 4063,
@@ -39784,13 +39843,6 @@ PlaceObj('TropicalFillerPlants_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1427993483)
-PlaceObj('CoastalPlant_01_Tree_01', {
-	'Pos', point(93472, 143820),
-	'Angle', 9959,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1760439177)
 PlaceObj('TropicalFillerPlants_04', {
 	'Pos', point(93524, 144008),
 	'Angle', 19005,
@@ -40205,13 +40257,6 @@ PlaceObj('TropicalFillerPlants_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1646244506)
-PlaceObj('CoastalPlant_01_Tree_03', {
-	'Pos', point(87577, 150700),
-	'Angle', 1184,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1488249896)
 PlaceObj('TropicalFillerPlants_05', {
 	'Pos', point(87637, 151106),
 	'Angle', 13099,
@@ -40766,13 +40811,6 @@ PlaceObj('TropicalFillerPlants_05', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1685403763)
-PlaceObj('CoastalPlant_01_Tree_01', {
-	'Pos', point(92603, 149833),
-	'Angle', 3635,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1577272427)
 PlaceObj('TropicalFillerPlants_05', {
 	'Pos', point(92339, 151280),
 	'Angle', 12958,
@@ -40850,13 +40888,6 @@ PlaceObj('TropicalFillerPlants_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1748283661)
-PlaceObj('CoastalPlant_01_Tree_01', {
-	'Pos', point(92526, 155609),
-	'Angle', 4241,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1048955809)
 PlaceObj('TropicalFillerPlants_01', {
 	'Pos', point(93519, 153694),
 	'Angle', 12079,
@@ -40976,13 +41007,6 @@ PlaceObj('TropicalFillerPlants_06', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1866102735)
-PlaceObj('CoastalPlant_01_Tree_02', {
-	'Pos', point(95091, 153604),
-	'Angle', 15279,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1465469229)
 PlaceObj('TropicalFillerPlants_01', {
 	'Pos', point(94757, 154719),
 	'Angle', 7569,
@@ -45544,7 +45568,8 @@ PlaceObj('TropicalFillerPlants_08', {
 }, nil, 1172443504)
 PlaceObj('TropicalFillerPlants_05', {
 	'Pos', point(111636, 153659),
-	'Angle', 15770,
+	'Angle', 14857,
+	'Axis', point(1499, 232, 3804),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
@@ -45613,7 +45638,7 @@ PlaceObj('TropicalFillerPlants_02', {
 	'AllowedMask', 0,
 }, nil, 1604793288)
 PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(107944, 159697),
+	'Pos', point(107945, 159697),
 	'Angle', 15558,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -45675,13 +45700,6 @@ PlaceObj('TropicalFillerPlants_05', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1722511815)
-PlaceObj('CoastalPlant_01_Tree_03', {
-	'Pos', point(107207, 159872),
-	'Angle', 16513,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1291251846)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(106741, 160887),
 	'Angle', 1343,
@@ -45703,13 +45721,6 @@ PlaceObj('TropicalFillerPlants_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1849889523)
-PlaceObj('CoastalPlant_01_Tree_03', {
-	'Pos', point(107063, 162601),
-	'Angle', 20722,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1397377883)
 PlaceObj('TropicalFillerPlants_04', {
 	'Pos', point(108005, 161988),
 	'Angle', 16776,
@@ -45724,13 +45735,6 @@ PlaceObj('TropicalFillerPlants_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1778425683)
-PlaceObj('CoastalPlant_01_Tree_01', {
-	'Pos', point(110479, 159845),
-	'Angle', 10,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1470877644)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(110341, 160765),
 	'Angle', 16652,
@@ -45801,13 +45805,21 @@ PlaceObj('TropicalFillerPlants_05', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1134300886)
-PlaceObj('CoastalPlant_01_Tree_02', {
-	'Pos', point(111040, 162163),
-	'Angle', 11360,
+PlaceObj('CoastalPlant_01_Tree_03', {
+	'Pos', point(110598, 162918, 8776),
+	'Angle', 16513,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1557199924)
+}, nil, 1202171841)
+PlaceObj('CoastalPlant_01_Tree_03', {
+	'Pos', point(114056, 162897),
+	'Angle', 19953,
+	'Axis', point(2289, -1856, 2845),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1766072605)
 PlaceObj('CoastalPlant_01_Tree_01', {
 	'Pos', point(125990, 144790),
 	'Angle', 12056,
@@ -45949,6 +45961,27 @@ PlaceObj('TreeAttach_06', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, nil)
+PlaceObj('CoastalPlant_01_Tree_02', {
+	'Pos', point(117042, 162476, 6518),
+	'Angle', 7805,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1380794936)
+PlaceObj('CoastalPlant_01_Tree_02', {
+	'Pos', point(116890, 163102, 6776),
+	'Angle', 19632,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1298501799)
+PlaceObj('CoastalPlant_01_Tree_01', {
+	'Pos', point(120978, 160521, 6459),
+	'Angle', 10,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1516624267)
 PlaceObj('TreeAttach_04', {
 	'Pos', point(126922, 148293),
 	'Angle', 8845,
@@ -46136,6 +46169,13 @@ PlaceObj('TreeAttach_05', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, nil)
+PlaceObj('CoastalPlant_01_Tree_03', {
+	'Pos', point(129272, 155561, 6145),
+	'Angle', 21010,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1667482696)
 PlaceObj('CoastalPlant_01_Tree_01', {
 	'Pos', point(99788, 164441),
 	'Angle', 3189,
@@ -46150,13 +46190,6 @@ PlaceObj('CoastalPlant_01_Tree_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1671991222)
-PlaceObj('CoastalPlant_01_Tree_02', {
-	'Pos', point(104217, 164808),
-	'Angle', 2333,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1722130714)
 PlaceObj('TropicalFillerPlants_06', {
 	'Pos', point(98353, 176477),
 	'Angle', 17064,
@@ -46325,13 +46358,6 @@ PlaceObj('TropicalFillerPlants_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1200393310)
-PlaceObj('CoastalPlant_01_Tree_02', {
-	'Pos', point(108070, 164007),
-	'Angle', 19632,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1577020385)
 PlaceObj('CoastalPlant_01_Tree_04', {
 	'Pos', point(98993, 180616),
 	'Angle', 13598,
@@ -46577,13 +46603,6 @@ PlaceObj('TropicalFillerPlants_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1344442572)
-PlaceObj('CoastalPlant_01_Tree_01', {
-	'Pos', point(105909, 180638),
-	'Angle', 11762,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1356635340)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(105509, 181146),
 	'Angle', 20217,
@@ -47081,13 +47100,6 @@ PlaceObj('TropicalFillerPlants_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1272075076)
-PlaceObj('CoastalPlant_01_Tree_01', {
-	'Pos', point(107366, 180884),
-	'Angle', 3112,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1543991610)
 PlaceObj('TropicalFillerPlants_06', {
 	'Pos', point(108010, 181141),
 	'Angle', 7543,
@@ -47481,6 +47493,21 @@ PlaceObj('CoastalPlant_01_Tree_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1733071326)
+PlaceObj('CoastalPlant_01_Tree_01', {
+	'Pos', point(127403, 173435, 6872),
+	'Angle', 3112,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1227869992)
+PlaceObj('CoastalPlant_01_Tree_01', {
+	'Pos', point(128148, 172917, 6774),
+	'Angle', 11695,
+	'Axis', point(118, -283, 4084),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1014660416)
 PlaceObj('CoastalPlant_01_Tree_04', {
 	'Pos', point(120947, 186297),
 	'Angle', 8604,
@@ -48252,14 +48279,6 @@ PlaceObj('TropicalFillerPlants_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1588832196)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(84114, 207425),
-	'Angle', 15820,
-	'Scale', 124,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1854524805)
 PlaceObj('TropicalPlant_07_Tree_02', {
 	'Pos', point(84116, 210196),
 	'Angle', 17249,
@@ -50301,7 +50320,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1079989656)
 PlaceObj('WaterPlaneWaves', {
@@ -50311,7 +50329,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1806200866)
 PlaceObj('WaterPlaneWaves', {
@@ -50321,7 +50338,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1883520626)
 PlaceObj('WaterPlaneWaves', {
@@ -50331,7 +50347,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1369121586)
 PlaceObj('WaterPlaneWaves', {
@@ -50341,7 +50356,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1029679937)
 PlaceObj('WaterPlaneWaves', {
@@ -50351,7 +50365,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1224856169)
 PlaceObj('WaterPlaneWaves', {
@@ -50361,7 +50374,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1440049061)
 PlaceObj('WaterPlaneWaves', {
@@ -50371,7 +50383,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1388183221)
 PlaceObj('WaterPlaneWaves', {
@@ -50381,7 +50392,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1457030639)
 PlaceObj('WaterPlaneWaves', {
@@ -50391,7 +50401,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1809037552)
 PlaceObj('WaterPlaneWaves', {
@@ -50401,7 +50410,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1869611154)
 PlaceObj('WaterPlaneWaves', {
@@ -50411,7 +50419,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1889407468)
 PlaceObj('WaterPlaneWaves', {
@@ -50421,7 +50428,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1700769038)
 PlaceObj('WaterPlaneWaves', {
@@ -50431,7 +50437,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1382150092)
 PlaceObj('WaterPlaneWaves', {
@@ -50441,7 +50446,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1803783481)
 PlaceObj('WaterPlaneWaves', {
@@ -50451,7 +50455,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1305709538)
 PlaceObj('WaterPlaneWaves', {
@@ -50461,7 +50464,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1145581715)
 PlaceObj('WaterPlaneWaves', {
@@ -50471,7 +50473,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1811714797)
 PlaceObj('WaterPlaneWaves', {
@@ -50481,7 +50482,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1284185497)
 PlaceObj('WaterPlaneWaves', {
@@ -50491,7 +50491,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1001970242)
 PlaceObj('WaterPlaneWaves', {
@@ -50501,7 +50500,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1050615262)
 PlaceObj('WaterPlaneWaves', {
@@ -50511,7 +50509,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1130489123)
 PlaceObj('WaterPlaneWaves', {
@@ -50521,7 +50518,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1255343485)
 PlaceObj('WaterPlaneWaves', {
@@ -50531,7 +50527,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1525337256)
 PlaceObj('WaterPlaneWaves', {
@@ -50541,7 +50536,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1293300770)
 PlaceObj('WaterPlaneWaves', {
@@ -50551,7 +50545,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1231904323)
 PlaceObj('WaterPlaneWaves', {
@@ -50561,7 +50554,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1891599751)
 PlaceObj('WaterPlaneWaves', {
@@ -50571,7 +50563,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1357271374)
 PlaceObj('WaterPlaneWaves', {
@@ -50581,7 +50572,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1658480503)
 PlaceObj('WaterPlaneWaves', {
@@ -50591,7 +50581,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1250482641)
 PlaceObj('WaterPlaneWaves', {
@@ -50601,7 +50590,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1473231688)
 PlaceObj('WaterPlaneWaves', {
@@ -50611,7 +50599,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1684192373)
 PlaceObj('WaterPlaneWaves', {
@@ -50621,7 +50608,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1442963765)
 PlaceObj('WaterPlaneWaves', {
@@ -50631,7 +50617,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1273874726)
 PlaceObj('WaterPlaneWaves', {
@@ -50641,7 +50626,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1653837549)
 PlaceObj('WaterPlaneWaves', {
@@ -50651,7 +50635,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1330691927)
 PlaceObj('WaterPlaneWaves', {
@@ -50661,7 +50644,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1075948667)
 PlaceObj('WaterPlaneWaves', {
@@ -50671,7 +50653,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1466437348)
 PlaceObj('WaterPlaneWaves', {
@@ -50681,7 +50662,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1390447996)
 PlaceObj('WaterPlaneWaves', {
@@ -50691,7 +50671,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1125660085)
 PlaceObj('WaterPlaneWaves', {
@@ -50701,7 +50680,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1350385662)
 PlaceObj('WaterPlaneWaves', {
@@ -50711,7 +50689,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1597527220)
 PlaceObj('WaterPlaneWaves', {
@@ -50721,7 +50698,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1788135356)
 PlaceObj('CoastalPlant_01_Tree_01', {
@@ -51821,7 +51797,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1717396911)
 PlaceObj('WaterPlaneWaves', {
@@ -51831,7 +51806,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1236913699)
 PlaceObj('TropicalFillerPlants_03', {
@@ -52344,7 +52318,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1317317038)
 PlaceObj('CoastalPlant_01_Tree_02', {
@@ -52372,7 +52345,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1846788009)
 PlaceObj('CoastalPlant_01_Tree_02', {
@@ -52455,6 +52427,13 @@ PlaceObj('CoastalPlant_01_Tree_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1457161647)
+PlaceObj('TropicalPlant_02_Tree_01', {
+	'Pos', point(132730, 129035, 7192),
+	'Angle', 7353,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1093375162)
 PlaceObj('CoastalPlant_01_Tree_01', {
 	'Pos', point(150415, 106480),
 	'Angle', 8455,
@@ -52545,7 +52524,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1112784465)
 PlaceObj('CoastalPlant_01_Tree_02', {
@@ -52606,7 +52584,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1249631438)
 PlaceObj('CoastalPlant_01_Tree_03', {
@@ -52651,6 +52628,14 @@ PlaceObj('BeachMarker', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
 }, nil, 1469120879)
+PlaceObj('CoastalPlant_01_Tree_01', {
+	'Pos', point(156164, 123378, 5796),
+	'Angle', 15271,
+	'Axis', point(308, -25, 4084),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1299805334)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(157800, 124200, 5600),
 	'ForcedLODState', "Minimum",
@@ -52658,7 +52643,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1447379448)
 PlaceObj('WaterPlaneWaves', {
@@ -52668,7 +52652,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1619429813)
 PlaceObj('WaterPlaneWaves', {
@@ -52678,7 +52661,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1323628652)
 PlaceObj('WaterPlaneWaves', {
@@ -52688,7 +52670,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1640318965)
 PlaceObj('WaterPlaneWaves', {
@@ -52698,7 +52679,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1892870523)
 PlaceObj('WaterPlaneWaves', {
@@ -52708,7 +52688,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1158870226)
 PlaceObj('WaterPlaneWaves', {
@@ -52718,7 +52697,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1435302242)
 PlaceObj('WaterPlaneWaves', {
@@ -52728,7 +52706,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1897311231)
 PlaceObj('WaterPlaneWaves', {
@@ -52738,7 +52715,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1445877537)
 PlaceObj('WaterPlaneWaves', {
@@ -52748,7 +52724,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1415552162)
 PlaceObj('CoastalPlant_01_Tree_04', {
@@ -52768,7 +52743,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1719707005)
 PlaceObj('WaterPlaneWaves', {
@@ -52778,7 +52752,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1716881984)
 PlaceObj('WaterPlaneWaves', {
@@ -52788,7 +52761,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1146171676)
 PlaceObj('WaterPlaneWaves', {
@@ -52798,7 +52770,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1884571153)
 PlaceObj('WaterPlaneWaves', {
@@ -52808,7 +52779,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1586045600)
 PlaceObj('WaterPlaneWaves', {
@@ -52818,7 +52788,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1811937135)
 PlaceObj('WaterPlaneWaves', {
@@ -52828,7 +52797,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1698341310)
 PlaceObj('WaterPlaneWaves', {
@@ -52838,7 +52806,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1854114819)
 PlaceObj('WaterPlaneWaves', {
@@ -52848,9 +52815,29 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1490384001)
+PlaceObj('Shanty_PlasticBarrel_Float', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(32, 35, 47, 255),
+	'EditableColor2', RGBA(52, 45, 41, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(192693, 124074, 5562),
+	'Angle', 12600,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1105026819)
+PlaceObj('Shanty_PlasticBarrel_Float', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(32, 35, 47, 255),
+	'EditableColor2', RGBA(52, 45, 41, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(194921, 127821, 5562),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1691586070)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(198103, 4253, 5600),
 	'ForcedLODState', "Minimum",
@@ -52858,7 +52845,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1293367670)
 PlaceObj('WaterPlaneWaves', {
@@ -52868,7 +52854,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1653919648)
 PlaceObj('WaterPlaneWaves', {
@@ -52878,7 +52863,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1658900393)
 PlaceObj('WaterPlaneWaves', {
@@ -52888,7 +52872,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1569822477)
 PlaceObj('WaterPlaneWaves', {
@@ -52898,7 +52881,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1028670300)
 PlaceObj('WaterPlaneWaves', {
@@ -52908,7 +52890,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1627256669)
 PlaceObj('WaterPlaneWaves', {
@@ -52918,7 +52899,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1898896286)
 PlaceObj('WaterPlaneWaves', {
@@ -52928,7 +52908,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1409364775)
 PlaceObj('WaterPlaneWaves', {
@@ -52938,7 +52917,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1433269980)
 PlaceObj('WaterPlaneWaves', {
@@ -52948,7 +52926,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1330112942)
 PlaceObj('WaterPlaneWaves', {
@@ -52958,7 +52935,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1129687698)
 PlaceObj('WaterPlaneWaves', {
@@ -52968,7 +52944,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1661533339)
 PlaceObj('WaterPlaneWaves', {
@@ -52978,7 +52953,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1186485909)
 PlaceObj('WaterPlaneWaves', {
@@ -52988,7 +52962,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1875047172)
 PlaceObj('WaterPlaneWaves', {
@@ -52998,7 +52971,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1114269099)
 PlaceObj('WaterPlaneWaves', {
@@ -53008,7 +52980,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1653855065)
 PlaceObj('WaterPlaneWaves', {
@@ -53018,7 +52989,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1210091619)
 PlaceObj('WaterPlaneWaves', {
@@ -53028,7 +52998,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1318489548)
 PlaceObj('WaterPlaneWaves', {
@@ -53038,7 +53007,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1331756716)
 PlaceObj('WaterPlaneWaves', {
@@ -53048,7 +53016,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1376222652)
 PlaceObj('WaterPlaneWaves', {
@@ -53058,7 +53025,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1093938950)
 PlaceObj('WaterPlaneWaves', {
@@ -53068,7 +53034,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1101143794)
 PlaceObj('WaterPlaneWaves', {
@@ -53078,7 +53043,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1449630680)
 PlaceObj('WaterPlaneWaves', {
@@ -53088,7 +53052,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1637554878)
 PlaceObj('WaterPlaneWaves', {
@@ -53098,7 +53061,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1290303789)
 PlaceObj('WaterPlaneWaves', {
@@ -53108,7 +53070,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1776066659)
 PlaceObj('WaterPlaneWaves', {
@@ -53118,7 +53079,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1864341152)
 PlaceObj('WaterPlaneWaves', {
@@ -53128,7 +53088,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1414198863)
 PlaceObj('WaterPlaneWaves', {
@@ -53138,7 +53097,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1443522979)
 PlaceObj('WaterPlaneWaves', {
@@ -53148,7 +53106,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1292079091)
 PlaceObj('WaterPlaneWaves', {
@@ -53158,7 +53115,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1729211612)
 PlaceObj('WaterPlaneWaves', {
@@ -53168,7 +53124,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1072741462)
 PlaceObj('WaterPlaneWaves', {
@@ -53178,7 +53133,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1606710176)
 PlaceObj('WaterPlaneWaves', {
@@ -53188,7 +53142,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1003793712)
 PlaceObj('WaterPlaneWaves', {
@@ -53198,7 +53151,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1787246066)
 PlaceObj('WaterPlaneWaves', {
@@ -53208,7 +53160,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1558687556)
 PlaceObj('WaterPlaneWaves', {
@@ -53218,7 +53169,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1896469151)
 PlaceObj('WaterPlaneWaves', {
@@ -53228,7 +53178,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1169484329)
 PlaceObj('WaterPlaneWaves', {
@@ -53238,7 +53187,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1686986246)
 PlaceObj('WaterPlaneWaves', {
@@ -53248,7 +53196,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1495637967)
 PlaceObj('WaterPlaneWaves', {
@@ -53258,7 +53205,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1568020281)
 PlaceObj('WaterPlaneWaves', {
@@ -53268,7 +53214,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1034282170)
 PlaceObj('WaterPlaneWaves', {
@@ -53278,7 +53223,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1530386748)
 PlaceObj('WaterPlaneWaves', {
@@ -53288,7 +53232,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1557765389)
 PlaceObj('WaterPlaneWaves', {
@@ -53298,7 +53241,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1243987924)
 PlaceObj('WaterPlaneWaves', {
@@ -53308,7 +53250,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1885798182)
 PlaceObj('WaterPlaneWaves', {
@@ -53318,7 +53259,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1763515834)
 PlaceObj('WaterPlaneWaves', {
@@ -53328,7 +53268,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1575284481)
 PlaceObj('WaterPlaneWaves', {
@@ -53338,7 +53277,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1369167710)
 PlaceObj('WaterPlaneWaves', {
@@ -53348,7 +53286,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1415405834)
 PlaceObj('WaterPlaneWaves', {
@@ -53358,7 +53295,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1091570212)
 PlaceObj('WaterPlaneWaves', {
@@ -53368,7 +53304,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1061823866)
 PlaceObj('WaterPlaneWaves', {
@@ -53378,7 +53313,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1175352711)
 PlaceObj('WaterPlaneWaves', {
@@ -53388,7 +53322,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1771156198)
 PlaceObj('WaterPlaneWaves', {
@@ -53398,7 +53331,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1119539731)
 PlaceObj('WaterPlaneWaves', {
@@ -53408,7 +53340,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1648538270)
 PlaceObj('WaterPlaneWaves', {
@@ -53418,7 +53349,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1088556325)
 PlaceObj('CoastalPlant_01_Tree_04', {
@@ -53438,7 +53368,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1327894221)
 PlaceObj('WaterPlaneWaves', {
@@ -53448,7 +53377,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1510926942)
 PlaceObj('CoastalPlant_01_Tree_04', {
@@ -53477,7 +53405,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1742926362)
 PlaceObj('WaterPlaneWaves', {
@@ -53487,7 +53414,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1552009708)
 PlaceObj('WaterPlaneWaves', {
@@ -53497,7 +53423,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1498152830)
 PlaceObj('WaterPlaneWaves', {
@@ -53507,7 +53432,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1411122258)
 PlaceObj('WaterPlaneWaves', {
@@ -53517,7 +53441,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1360314422)
 PlaceObj('WaterPlaneWaves', {
@@ -53527,15 +53450,8 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1174547114)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(197861, 124157, 6195),
-	'Angle', 5687,
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc1_GoTo",
-}, nil, 1296697173)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(197800, 124200, 5600),
 	'ForcedLODState', "Minimum",
@@ -53543,21 +53459,8 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1437434683)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(199040, 125644, 6281),
-	'Angle', 5412,
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc1_Start",
-}, nil, 1194123457)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(200300, 125294, 6274),
-	'Angle', 5532,
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc2_Start",
-}, nil, 1145433719)
 PlaceObj('Vehicle_Boat', {
 	'Pos', point(201578, 130685, 4252),
 	'Angle', 7650,
@@ -53573,7 +53476,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1332584260)
 PlaceObj('Mist', {
@@ -53581,18 +53483,18 @@ PlaceObj('Mist', {
 	'AllowedMask', 4294966497,
 	'Preset', "Jungle_Mist",
 }, nil, 1567623030)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(204919, 130722, 6261),
-	'Angle', 5488,
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc5_Start",
-}, nil, 1741528390)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(206957, 129328, 6147),
-	'Angle', 5547,
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc3_GoTo",
-}, nil, 1816566194)
+PlaceObj('Shanty_PlasticBarrel_Float', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(32, 35, 47, 255),
+	'EditableColor2', RGBA(52, 45, 41, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(205964, 129205, 5738),
+	'Angle', 15699,
+	'Axis', point(3983, 620, 726),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1609280959)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(217800, 104200, 5600),
 	'ForcedLODState', "Minimum",
@@ -53600,7 +53502,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1359169862)
 PlaceObj('WaterPlaneWaves', {
@@ -53610,7 +53511,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1548969947)
 PlaceObj('WaterPlaneWaves', {
@@ -53620,7 +53520,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1007446475)
 PlaceObj('WaterPlaneWaves', {
@@ -53630,7 +53529,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1005059431)
 PlaceObj('WaterPlaneWaves', {
@@ -53640,7 +53538,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1368225193)
 PlaceObj('WaterPlaneWaves', {
@@ -53650,7 +53547,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1356194818)
 PlaceObj('WaterPlaneWaves', {
@@ -53660,7 +53556,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1014037030)
 PlaceObj('WaterPlaneWaves', {
@@ -53670,7 +53565,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1257478731)
 PlaceObj('WaterPlaneWaves', {
@@ -53680,7 +53574,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1631313011)
 PlaceObj('WaterPlaneWaves', {
@@ -53690,7 +53583,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1776143276)
 PlaceObj('WaterPlaneWaves', {
@@ -53700,7 +53592,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1541358691)
 PlaceObj('WaterPlaneWaves', {
@@ -53710,7 +53601,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1559445332)
 PlaceObj('WaterPlaneWaves', {
@@ -53720,7 +53610,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1094896477)
 PlaceObj('WaterPlaneWaves', {
@@ -53730,7 +53619,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1590479504)
 PlaceObj('WaterPlaneWaves', {
@@ -53740,7 +53628,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1578758014)
 PlaceObj('WaterPlaneWaves', {
@@ -53750,7 +53637,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1089693872)
 PlaceObj('WaterPlaneWaves', {
@@ -53760,7 +53646,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1427372942)
 PlaceObj('WaterPlaneWaves', {
@@ -53770,7 +53655,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1853551289)
 PlaceObj('WaterPlaneWaves', {
@@ -53780,7 +53664,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1713562820)
 PlaceObj('WaterPlaneWaves', {
@@ -53790,7 +53673,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1803559639)
 PlaceObj('WaterPlaneWaves', {
@@ -53800,7 +53682,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1543033925)
 PlaceObj('WaterPlaneWaves', {
@@ -53810,7 +53691,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1874643414)
 PlaceObj('WaterPlaneWaves', {
@@ -53820,7 +53700,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1078740024)
 PlaceObj('WaterPlaneWaves', {
@@ -53830,7 +53709,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1326402521)
 PlaceObj('TreeAttach_05', {
@@ -54023,7 +53901,7 @@ PlaceObj('TreeAttach_04', {
 	'AllowedMask', 0,
 }, nil, nil)
 PlaceObj('CoastalPlant_01_Tree_02', {
-	'Pos', point(131300, 140354),
+	'Pos', point(131311, 140358),
 	'Angle', 6550,
 	'ColorModifier', RGBA(51, 41, 40, 255),
 	'Saturation', 0,
@@ -54114,6 +53992,13 @@ PlaceObj('CoastalPlant_01_Tree_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1792260841)
+PlaceObj('CoastalPlant_01_Tree_01', {
+	'Pos', point(141538, 133564, 5682),
+	'Angle', 9959,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1039241454)
 PlaceObj('CoastalPlant_01_Tree_03', {
 	'Pos', point(139902, 138409),
 	'Angle', 18320,
@@ -54168,6 +54053,20 @@ PlaceObj('CoastalPlant_01_Tree_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1417816989)
+PlaceObj('CoastalPlant_01_Tree_03', {
+	'Pos', point(151136, 139491, 6192),
+	'Angle', 1184,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1662863881)
+PlaceObj('CoastalPlant_01_Tree_01', {
+	'Pos', point(154764, 145449, 6004),
+	'Angle', 3635,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1115325288)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(157800, 134200, 5600),
 	'ForcedLODState', "Minimum",
@@ -54175,9 +54074,14 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1235231302)
+PlaceObj('Shanty_Planks_Float_01', {
+	'Pos', point(161403, 134347, 5708),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1363752395)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(157800, 144200, 5600),
 	'ForcedLODState', "Minimum",
@@ -54185,9 +54089,22 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1194302335)
+PlaceObj('CoastalPlant_01_Tree_01', {
+	'Pos', point(148234, 156162, 6239),
+	'Angle', 3635,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1710141374)
+PlaceObj('CoastalPlant_01_Tree_01', {
+	'Pos', point(149994, 159988),
+	'Angle', 18026,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1420248139)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(132132, 181427),
 	'Angle', 7289,
@@ -54790,6 +54707,13 @@ PlaceObj('TropicalFillerPlants_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1449132307)
+PlaceObj('CoastalPlant_01_Tree_02', {
+	'Pos', point(148685, 168073),
+	'Angle', 2333,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1691759558)
 PlaceObj('MachineGunEmplacement', {
 	'Pos', point(153000, 177000, 11200),
 	'Angle', 15643,
@@ -55614,9 +55538,18 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1448402637)
+PlaceObj('Shanty_Barrel_Float', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(52, 45, 41, 255),
+	'EditableColor2', RGBA(220, 140, 28, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(167304, 136407, 5675),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1642764403)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(167800, 144200, 5600),
 	'ForcedLODState', "Minimum",
@@ -55624,7 +55557,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1846303513)
 PlaceObj('WaterPlaneWaves', {
@@ -55634,9 +55566,14 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1079267345)
+PlaceObj('Shanty_Planks_Float_02', {
+	'Pos', point(178235, 133775, 5627),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1279977938)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(177800, 144200, 5600),
 	'ForcedLODState', "Minimum",
@@ -55644,7 +55581,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1483480716)
 PlaceObj('WaterPlaneWaves', {
@@ -55654,9 +55590,24 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1729901650)
+PlaceObj('CoastalPlant_01_Tree_01', {
+	'Pos', point(164741, 156633, 6005),
+	'Angle', 3714,
+	'Axis', point(-172, -247, 4084),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1309661081)
+PlaceObj('CoastalPlant_01_Tree_02', {
+	'Pos', point(164954, 156217, 5823),
+	'Angle', 8082,
+	'Axis', point(-202, -84, 4090),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1306657888)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(177800, 154200, 5600),
 	'ForcedLODState', "Minimum",
@@ -55664,7 +55615,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1758968256)
 PlaceObj('WaterPlaneWaves', {
@@ -55674,7 +55624,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1615794182)
 PlaceObj('WaterPlaneWaves', {
@@ -55684,7 +55633,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1503783526)
 PlaceObj('WaterPlaneWaves', {
@@ -55694,9 +55642,25 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1541022996)
+PlaceObj('CoastalPlant_01_Tree_02', {
+	'Pos', point(164685, 165588, 6228),
+	'Angle', 16578,
+	'ColorModifier', RGBA(51, 41, 40, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1406709040)
+PlaceObj('WaterPlaneWaves', {
+	'Pos', point(167928, 164200, 5600),
+	'ForcedLODState', "Minimum",
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 888,
+	'AllowedMask', 4294967279,
+	'waterpreset', "Ocean_Fortress",
+}, nil, 1458650600)
 PlaceObj('CoastalPlant_01_Tree_01', {
 	'Pos', point(165491, 177296, 9943),
 	'Angle', 1411,
@@ -55713,7 +55677,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1603010524)
 PlaceObj('CoastalPlant_01_Tree_04', {
@@ -55732,7 +55695,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1082432370)
 PlaceObj('TropicalFillerPlants_06', {
@@ -56549,7 +56511,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1419010811)
 PlaceObj('WaterPlaneWaves', {
@@ -56559,7 +56520,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1868284644)
 PlaceObj('WaterPlaneWaves', {
@@ -56569,7 +56529,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1346326161)
 PlaceObj('TropicalFillerPlants_02', {
@@ -58998,7 +58957,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1533173586)
 PlaceObj('TropicalFillerPlants_01', {
@@ -59200,7 +59158,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1266027639)
 PlaceObj('TropicalPlant_03_Tree_02', {
@@ -59237,7 +59194,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1433706802)
 PlaceObj('TropicalPlant_06_Tree_01', {
@@ -59602,7 +59558,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1451816225)
 PlaceObj('TropicalPlant_02_Tree_02', {
@@ -59639,7 +59594,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1416621607)
 PlaceObj('TropicalPlant_07_Tree_01', {
@@ -59837,7 +59791,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1394356662)
 PlaceObj('TropicalPlant_03_Tree_02', {
@@ -59919,7 +59872,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1821855600)
 PlaceObj('Debris_Sticks_04', {
@@ -60177,8 +60129,20 @@ PlaceObj('Debris_Planks_05', {
 	'CollectionIndex', 2980,
 	'AllowedMask', 0,
 }, nil, 1322390084)
+PlaceObj('Shanty_PlasticBarrel_Float', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(32, 35, 47, 255),
+	'EditableColor2', RGBA(52, 45, 41, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(202417, 134127, 5564),
+	'Angle', 4339,
+	'Axis', point(-1429, 3656, 1168),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1620993602)
 PlaceObj('SetpiecePosMarker', {
-	'Pos', point(203606, 134116, 6254),
+	'Pos', point(204602, 135004, 5142),
 	'Angle', 5691,
 	'AllowedMask', 4294966497,
 	'Name', "SP_Merc6_Start",
@@ -60190,21 +60154,14 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1595180195)
 PlaceObj('SetpiecePosMarker', {
-	'Pos', point(206534, 131872, 6182),
-	'Angle', 5557,
+	'Pos', point(208121, 132601, 5035),
+	'Angle', 5547,
 	'AllowedMask', 4294966497,
-	'Name', "SP_Merc3_Start",
-}, nil, 1158036528)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(205338, 133658, 6199),
-	'Angle', 5356,
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc4_Start",
-}, nil, 1437846946)
+	'Name', "SP_Merc3_GoTo",
+}, nil, 1816566194)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(207800, 134200, 5600),
 	'ForcedLODState', "Minimum",
@@ -60212,9 +60169,20 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1826480144)
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(208071, 135022, 5070),
+	'Angle', 5557,
+	'AllowedMask', 4294966497,
+	'Name', "SP_Merc3_Start",
+}, nil, 1158036528)
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(205696, 136214, 5149),
+	'Angle', 5488,
+	'AllowedMask', 4294966497,
+	'Name', "SP_Merc5_Start",
+}, nil, 1741528390)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(207800, 144200, 5600),
 	'ForcedLODState', "Minimum",
@@ -60222,7 +60190,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1693134123)
 PlaceObj('WaterPlaneWaves', {
@@ -60232,7 +60199,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1368248586)
 PlaceObj('WaterPlaneWaves', {
@@ -60242,7 +60208,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1271267752)
 PlaceObj('WaterPlaneWaves', {
@@ -60252,7 +60217,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1659292320)
 PlaceObj('WaterPlaneWaves', {
@@ -60262,7 +60226,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1104136799)
 PlaceObj('WaterPlaneWaves', {
@@ -60272,7 +60235,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1393171641)
 PlaceObj('WaterPlaneWaves', {
@@ -60282,7 +60244,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1637425318)
 PlaceObj('WaterPlaneWaves', {
@@ -60292,7 +60253,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1320522717)
 PlaceObj('WaterPlaneWaves', {
@@ -60302,7 +60262,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1263458214)
 PlaceObj('WaterPlaneWaves', {
@@ -60312,9 +60271,20 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1862417564)
+PlaceObj('Vehicle_Boat', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(52, 45, 41, 255),
+	'EditableColor2', RGBA(48, 25, 14, 255),
+	'EditableColor3', RGBA(69, 58, 39, 255),
+	'Pos', point(200955, 165122, 4293),
+	'Angle', 8571,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'DestructionOverrideMask', 1,
+	'AllowedMask', 782,
+}, nil, 1347545529)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(197800, 174200, 5600),
 	'ForcedLODState', "Minimum",
@@ -60322,7 +60292,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1713926726)
 PlaceObj('WaterPlaneWaves', {
@@ -60332,9 +60301,32 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1034202985)
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(208019, 166050, 5050),
+	'Angle', 5687,
+	'AllowedMask', 4294966497,
+	'Name', "SP_Merc1_GoTo",
+}, nil, 1806257000)
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(209932, 165422, 5050),
+	'Angle', 5356,
+	'AllowedMask', 4294966497,
+	'Name', "SP_Merc4_Start",
+}, nil, 1696243195)
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(209198, 167537, 5136),
+	'Angle', 5412,
+	'AllowedMask', 4294966497,
+	'Name', "SP_Merc1_Start",
+}, nil, 1012470340)
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(210458, 167187, 5129),
+	'Angle', 5532,
+	'AllowedMask', 4294966497,
+	'Name', "SP_Merc2_Start",
+}, nil, 1638028841)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(207800, 174200, 5600),
 	'ForcedLODState', "Minimum",
@@ -60342,7 +60334,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1831033988)
 PlaceObj('WaterPlaneWaves', {
@@ -60352,7 +60343,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1094091336)
 PlaceObj('WaterPlaneWaves', {
@@ -60362,7 +60352,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1257131670)
 PlaceObj('WaterPlaneWaves', {
@@ -60372,9 +60361,22 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1645110582)
+PlaceObj('CoastalPlant_01_Tree_04', {
+	'Pos', point(212910, 188501, 5845),
+	'Angle', 3144,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1311467586)
+PlaceObj('CoastalPlant_01_Tree_01', {
+	'Pos', point(211801, 194050, 7895),
+	'Angle', 7456,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1364121199)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(217800, 164200, 5600),
 	'ForcedLODState', "Minimum",
@@ -60382,7 +60384,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1831312875)
 PlaceObj('WaterPlaneWaves', {
@@ -60392,7 +60393,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1281001813)
 PlaceObj('WaterPlaneWaves', {
@@ -60402,7 +60402,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1613433028)
 PlaceObj('WaterPlaneWaves', {
@@ -60412,7 +60411,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1419217336)
 PlaceObj('WaterPlaneWaves', {
@@ -60422,7 +60420,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1825675986)
 PlaceObj('WaterPlaneWaves', {
@@ -60432,7 +60429,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1096088672)
 PlaceObj('WaterPlaneWaves', {
@@ -60442,7 +60438,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1366152282)
 PlaceObj('WaterPlaneWaves', {
@@ -60452,7 +60447,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1194530877)
 PlaceObj('WaterPlaneWaves', {
@@ -60462,7 +60456,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1626397442)
 PlaceObj('WaterPlaneWaves', {
@@ -60472,7 +60465,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1784637574)
 PlaceObj('WaterPlaneWaves', {
@@ -60482,7 +60474,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1183773699)
 PlaceObj('WaterPlaneWaves', {
@@ -60492,7 +60483,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1492740972)
 PlaceObj('WaterPlaneWaves', {
@@ -60502,7 +60492,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1474049575)
 PlaceObj('WaterPlaneWaves', {
@@ -60512,7 +60501,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1268789917)
 PlaceObj('WaterPlaneWaves', {
@@ -60522,7 +60510,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1002278323)
 PlaceObj('WaterPlaneWaves', {
@@ -60532,7 +60519,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1412863444)
 PlaceObj('WaterPlaneWaves', {
@@ -60542,7 +60528,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1471875597)
 PlaceObj('WaterPlaneWaves', {
@@ -60552,7 +60537,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1839156967)
 PlaceObj('WaterPlaneWaves', {
@@ -60562,7 +60546,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1034598512)
 PlaceObj('WaterPlaneWaves', {
@@ -60572,7 +60555,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1198033862)
 PlaceObj('WaterPlaneWaves', {
@@ -60582,7 +60564,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1024053494)
 PlaceObj('WaterPlaneWaves', {
@@ -60592,7 +60573,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1490731000)
 PlaceObj('WaterPlaneWaves', {
@@ -60602,7 +60582,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1685867842)
 PlaceObj('WaterPlaneWaves', {
@@ -60612,7 +60591,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1456083789)
 PlaceObj('WaterPlaneWaves', {
@@ -60622,7 +60600,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1712266987)
 PlaceObj('WaterPlaneWaves', {
@@ -60632,7 +60609,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1099595470)
 PlaceObj('WaterPlaneWaves', {
@@ -60642,7 +60618,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1393729936)
 PlaceObj('WaterPlaneWaves', {
@@ -60652,7 +60627,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1442225778)
 PlaceObj('WaterPlaneWaves', {
@@ -60662,7 +60636,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1249298286)
 PlaceObj('CoastalPlant_01_Tree_04', {
@@ -60985,7 +60958,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1363232802)
 PlaceObj('TropicalFillerPlants_01', {
@@ -61247,7 +61219,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1115856693)
 PlaceObj('CoastalPlant_01_Tree_02', {
@@ -61266,7 +61237,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1729222850)
 PlaceObj('TropicalFillerPlants_03', {
@@ -61495,7 +61465,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1468227970)
 PlaceObj('TropicalFillerPlants_05', {
@@ -61604,6 +61573,13 @@ PlaceObj('TropicalFillerPlants_05', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1366215653)
+PlaceObj('CoastalPlant_01_Tree_01', {
+	'Pos', point(219122, 201632, 5750),
+	'Angle', 1787,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1570230391)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(217800, 204200, 5600),
 	'ForcedLODState', "Minimum",
@@ -61611,7 +61587,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1101938652)
 PlaceObj('WaterPlaneWaves', {
@@ -61621,7 +61596,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1023225856)
 PlaceObj('TropicalFillerPlants_02', {
@@ -61678,25 +61652,14 @@ PlaceObj('TropicalFillerPlants_08', {
 	'AllowedMask', 0,
 }, nil, 1333054434)
 PlaceObj('WaterPlaneWaves', {
-	'Pos', point(227815, 204058, 5599),
+	'Pos', point(227815, 204199, 5599),
 	'ForcedLODState', "Minimum",
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1467517866)
-PlaceObj('WaterPlaneWaves', {
-	'Pos', point(227800, 204200, 5600),
-	'ForcedLODState', "Minimum",
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'CollectionIndex', 888,
-	'AllowedMask', 4294967279,
-	'Passability', 0,
-	'waterpreset', "Ocean_Fortress",
-}, nil, 1828320736)
 PlaceObj('CoastalPlant_01_Tree_04', {
 	'Pos', point(213158, 213038),
 	'Angle', 10767,
@@ -62012,7 +61975,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1490188502)
 PlaceObj('TropicalFillerPlants_05', {
@@ -62473,7 +62435,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1688816571)
 PlaceObj('TropicalFillerPlants_08', {
@@ -62875,7 +62836,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1374277409)
 PlaceObj('TropicalFillerPlants_02', {
@@ -63209,7 +63169,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1480124815)
 PlaceObj('CoastalPlant_01_Tree_04', {
@@ -63236,7 +63195,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1176032014)
 PlaceObj('TropicalPlant_04_Tree_02', {
@@ -63264,7 +63222,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1575160093)
 PlaceObj('TropicalPlant_04_Tree_01', {
@@ -63337,7 +63294,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1349519591)
 PlaceObj('TropicalPlant_04_Tree_01', {
@@ -63365,7 +63321,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1641138718)
 PlaceObj('TropicalPlant_06_Tree_01', {
@@ -63456,7 +63411,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1391122313)
 PlaceObj('TropicalPlant_03_Tree_01', {
@@ -63538,7 +63492,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1004811918)
 PlaceObj('TropicalPlant_01_Tree_02', {
@@ -63619,7 +63572,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1225895104)
 PlaceObj('TropicalPlant_03_Tree_01', {
@@ -63656,7 +63608,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1436838871)
 PlaceObj('TropicalPlant_03_Tree_01', {
@@ -63684,7 +63635,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1734450369)
 PlaceObj('TropicalPlant_03_Tree_01', {
@@ -63703,7 +63653,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1629741240)
 PlaceObj('TropicalPlant_07_Tree_02', {
@@ -63775,7 +63724,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1749196049)
 PlaceObj('TropicalPlant_05_Tree_01', {
@@ -63874,7 +63822,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1711936090)
 PlaceObj('TropicalPlant_02_Tree_02', {
@@ -63887,35 +63834,23 @@ PlaceObj('TropicalPlant_02_Tree_02', {
 	'AllowedMask', 4294967279,
 }, nil, 1704974031)
 PlaceObj('WaterPlaneWaves', {
-	'Pos', point(237815, 204058, 5599),
+	'Pos', point(237815, 204199, 5599),
 	'ForcedLODState', "Minimum",
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1653179904)
 PlaceObj('WaterPlaneWaves', {
-	'Pos', point(237800, 204200, 5600),
+	'Pos', point(237815, 214102, 5599),
 	'ForcedLODState', "Minimum",
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
-}, nil, 1694573648)
-PlaceObj('WaterPlaneWaves', {
-	'Pos', point(237815, 214058, 5599),
-	'ForcedLODState', "Minimum",
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'CollectionIndex', 3978,
-	'AllowedMask', 4294967279,
-	'Passability', 0,
-	'waterpreset', "Ocean_Fortress",
-}, nil, 1335044780)
+}, nil, 1449848385)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(237815, 224058, 5599),
 	'ForcedLODState', "Minimum",
@@ -63923,7 +63858,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1537946779)
 PlaceObj('WaterPlaneWaves', {
@@ -63933,19 +63867,8 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1019439266)
-PlaceObj('WaterPlaneWaves', {
-	'Pos', point(247800, 204200, 5600),
-	'ForcedLODState', "Minimum",
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'CollectionIndex', 888,
-	'AllowedMask', 4294967279,
-	'Passability', 0,
-	'waterpreset', "Ocean_Fortress",
-}, nil, 1427880701)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(257766, 204058, 5599),
 	'ForcedLODState', "Minimum",
@@ -63953,7 +63876,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1062254057)
 PlaceObj('WaterPlaneWaves', {
@@ -63963,7 +63885,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1111748775)
 PlaceObj('WaterPlaneWaves', {
@@ -63973,7 +63894,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1788929641)
 PlaceObj('WaterPlaneWaves', {
@@ -63983,7 +63903,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1257639646)
 PlaceObj('WaterPlaneWaves', {
@@ -63993,7 +63912,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1607237952)
 PlaceObj('WaterPlaneWaves', {
@@ -64003,7 +63921,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1261802963)
 PlaceObj('WaterPlaneWaves', {
@@ -64013,7 +63930,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1623372257)
 PlaceObj('WaterPlaneWaves', {
@@ -64023,7 +63939,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1533153488)
 PlaceObj('TropicalPlant_01_Tree_01', {
@@ -64078,7 +63993,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1229406677)
 PlaceObj('WaterPlaneWaves', {
@@ -64088,7 +64002,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1280518875)
 PlaceObj('WaterPlaneWaves', {
@@ -64098,7 +64011,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1278188989)
 PlaceObj('WaterPlaneWaves', {
@@ -64108,7 +64020,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1470077582)
 PlaceObj('WaterPlaneWaves', {
@@ -64118,7 +64029,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1807892945)
 PlaceObj('WaterPlaneWaves', {
@@ -64128,7 +64038,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1882625419)
 PlaceObj('WaterPlaneWaves', {
@@ -64138,7 +64047,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1132362838)
 PlaceObj('TropicalPlant_04_Tree_01', {
@@ -68328,7 +68236,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1084336919)
 PlaceObj('TropicalPlant_04_Tree_01', {
@@ -68363,7 +68270,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1438897819)
 PlaceObj('TropicalPlant_01_Tree_01', {
@@ -68462,7 +68368,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1493975115)
 PlaceObj('TropicalPlant_03_Tree_01', {
@@ -68526,7 +68431,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1131125932)
 PlaceObj('TropicalPlant_04_Tree_01', {
@@ -68811,7 +68715,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1528424065)
 PlaceObj('TropicalPlant_08_Tree_01', {
@@ -68856,7 +68759,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1415298613)
 PlaceObj('TropicalPlant_04_Tree_01', {
@@ -68893,7 +68795,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1855489432)
 PlaceObj('TropicalPlant_07_Tree_02', {
@@ -68948,7 +68849,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1016264905)
 PlaceObj('TropicalPlant_06_Tree_02', {
@@ -68993,7 +68893,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1420770855)
 PlaceObj('TropicalPlant_04_Tree_01', {
@@ -69039,7 +68938,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1586990491)
 PlaceObj('TropicalPlant_07_Tree_02', {
@@ -69094,7 +68992,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1022803471)
 PlaceObj('TropicalPlant_03_Tree_02', {
@@ -69157,7 +69054,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1515766344)
 PlaceObj('TropicalPlant_07_Tree_02', {
@@ -69203,7 +69099,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1077156301)
 PlaceObj('TropicalPlant_02_Tree_01', {
@@ -69258,7 +69153,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1510965399)
 PlaceObj('TropicalPlant_01_Tree_02', {
@@ -69302,7 +69196,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1504179324)
 PlaceObj('TropicalPlant_01_Tree_02', {
@@ -69339,7 +69232,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1862161462)
 PlaceObj('TropicalPlant_06_Tree_02', {
@@ -69394,7 +69286,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1559849235)
 PlaceObj('TropicalPlant_02_Tree_01', {
@@ -69440,7 +69331,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1800766724)
 PlaceObj('TropicalPlant_03_Tree_01', {
@@ -69494,7 +69384,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1227807926)
 PlaceObj('TropicalPlant_06_Tree_02', {
@@ -69540,7 +69429,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1169805660)
 PlaceObj('TropicalPlant_06_Tree_01', {
@@ -69861,7 +69749,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1697724222)
 PlaceObj('TropicalPlant_01_Tree_02', {
@@ -69925,7 +69812,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1440817638)
 PlaceObj('TropicalPlant_04_Tree_02', {
@@ -70068,7 +69954,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1581883657)
 PlaceObj('TropicalPlant_03_Tree_02', {
@@ -70132,7 +70017,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1129954526)
 PlaceObj('TropicalPlant_03_Tree_01', {
@@ -70160,7 +70044,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1186986814)
 PlaceObj('WaterPlaneWaves', {
@@ -70170,7 +70053,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1469830630)
 PlaceObj('WaterPlaneWaves', {
@@ -70180,7 +70062,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1706987499)
 PlaceObj('WaterPlaneWaves', {
@@ -70190,7 +70071,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1733526858)
 PlaceObj('TropicalPlant_02_Tree_02', {
@@ -70218,7 +70098,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1880230094)
 PlaceObj('TropicalPlant_01_Tree_01', {
@@ -70263,7 +70142,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1316472389)
 PlaceObj('TropicalPlant_02_Tree_01', {
@@ -70317,7 +70195,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1113630088)
 PlaceObj('TropicalPlant_05_Tree_01', {
@@ -70344,7 +70221,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3978,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1524310347)
 PlaceObj('TropicalPlant_08_Tree_01', {
@@ -70613,7 +70489,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1079430914)
 PlaceObj('WaterPlaneWaves', {
@@ -70623,7 +70498,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1703330580)
 PlaceObj('WaterPlaneWaves', {
@@ -70633,7 +70507,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1301207980)
 PlaceObj('WaterPlaneWaves', {
@@ -70643,7 +70516,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1667507690)
 PlaceObj('WaterPlaneWaves', {
@@ -70653,7 +70525,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1564996957)
 PlaceObj('WaterPlaneWaves', {
@@ -70663,7 +70534,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1202845105)
 PlaceObj('WaterPlaneWaves', {
@@ -70673,7 +70543,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1227912095)
 PlaceObj('WaterPlaneWaves', {
@@ -70683,7 +70552,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1844436303)
 PlaceObj('WaterPlaneWaves', {
@@ -70693,7 +70561,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1442049651)
 PlaceObj('WaterPlaneWaves', {
@@ -70703,7 +70570,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1361220891)
 PlaceObj('WaterPlaneWaves', {
@@ -70713,7 +70579,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1888894085)
 PlaceObj('WaterPlaneWaves', {
@@ -70723,7 +70588,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1360577639)
 PlaceObj('WaterPlaneWaves', {
@@ -70733,7 +70597,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1290884452)
 PlaceObj('WaterPlaneWaves', {
@@ -70743,7 +70606,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1782916995)
 PlaceObj('WaterPlaneWaves', {
@@ -70753,7 +70615,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1453603842)
 PlaceObj('WaterPlaneWaves', {
@@ -70763,7 +70624,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1638657116)
 PlaceObj('WaterPlaneWaves', {
@@ -70773,7 +70633,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1290260150)
 PlaceObj('WaterPlaneWaves', {
@@ -70783,7 +70642,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1474085348)
 PlaceObj('WaterPlaneWaves', {
@@ -70793,7 +70651,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1485486712)
 PlaceObj('WaterPlaneWaves', {
@@ -70803,7 +70660,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1553109491)
 PlaceObj('WaterPlaneWaves', {
@@ -70813,7 +70669,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1861617661)
 PlaceObj('WaterPlaneWaves', {
@@ -70823,7 +70678,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1317338378)
 PlaceObj('WaterPlaneWaves', {
@@ -70833,7 +70687,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1603130947)
 PlaceObj('WaterPlaneWaves', {
@@ -70843,7 +70696,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1496551448)
 PlaceObj('WaterPlaneWaves', {
@@ -70853,7 +70705,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1778157987)
 PlaceObj('WaterPlaneWaves', {
@@ -70863,7 +70714,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1692090321)
 PlaceObj('WaterPlaneWaves', {
@@ -70873,7 +70723,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1220732651)
 PlaceObj('WaterPlaneWaves', {
@@ -70883,7 +70732,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1415853464)
 PlaceObj('WaterPlaneWaves', {
@@ -70893,7 +70741,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1746580953)
 PlaceObj('WaterPlaneWaves', {
@@ -70903,7 +70750,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1815548032)
 PlaceObj('WaterPlaneWaves', {
@@ -70913,7 +70759,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1011642259)
 PlaceObj('WaterPlaneWaves', {
@@ -70923,7 +70768,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1053594881)
 PlaceObj('WaterPlaneWaves', {
@@ -70933,7 +70777,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1572948677)
 PlaceObj('WaterPlaneWaves', {
@@ -70943,7 +70786,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1086013590)
 PlaceObj('WaterPlaneWaves', {
@@ -70953,7 +70795,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1700605139)
 PlaceObj('WaterPlaneWaves', {
@@ -70963,7 +70804,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1399232668)
 PlaceObj('WaterPlaneWaves', {
@@ -70973,7 +70813,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1899186806)
 PlaceObj('WaterPlaneWaves', {
@@ -70983,7 +70822,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1240342556)
 PlaceObj('WaterPlaneWaves', {
@@ -70993,7 +70831,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1873507281)
 PlaceObj('WaterPlaneWaves', {
@@ -71003,7 +70840,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1092401469)
 PlaceObj('WaterPlaneWaves', {
@@ -71013,7 +70849,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1418530428)
 PlaceObj('WaterPlaneWaves', {
@@ -71023,7 +70858,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1480933540)
 PlaceObj('WaterPlaneWaves', {
@@ -71033,7 +70867,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1258581126)
 PlaceObj('WaterPlaneWaves', {
@@ -71043,7 +70876,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1091484921)
 PlaceObj('WaterPlaneWaves', {
@@ -71053,7 +70885,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1640132398)
 PlaceObj('WaterPlaneWaves', {
@@ -71063,7 +70894,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1378459561)
 PlaceObj('WaterPlaneWaves', {
@@ -71073,7 +70903,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1629755987)
 PlaceObj('WaterPlaneWaves', {
@@ -71083,7 +70912,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1040173859)
 PlaceObj('WaterPlaneWaves', {
@@ -71093,7 +70921,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1082136871)
 PlaceObj('WaterPlaneWaves', {
@@ -71103,7 +70930,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1859197628)
 PlaceObj('WaterPlaneWaves', {
@@ -71113,7 +70939,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1261485446)
 PlaceObj('WaterPlaneWaves', {
@@ -71123,7 +70948,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1245364034)
 PlaceObj('WaterPlaneWaves', {
@@ -71133,7 +70957,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1677165087)
 PlaceObj('WaterPlaneWaves', {
@@ -71143,7 +70966,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1765685221)
 PlaceObj('WaterPlaneWaves', {
@@ -71153,7 +70975,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1638122104)
 PlaceObj('WaterPlaneWaves', {
@@ -71163,7 +70984,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1442823624)
 PlaceObj('WaterPlaneWaves', {
@@ -71173,7 +70993,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1204639975)
 PlaceObj('WaterPlaneWaves', {
@@ -71183,7 +71002,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1420156684)
 PlaceObj('WaterPlaneWaves', {
@@ -71193,7 +71011,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1491012172)
 PlaceObj('WaterPlaneWaves', {
@@ -71203,7 +71020,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1295858436)
 PlaceObj('WaterPlaneWaves', {
@@ -71213,7 +71029,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1424262838)
 PlaceObj('WaterPlaneWaves', {
@@ -71223,7 +71038,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1219101725)
 PlaceObj('WaterPlaneWaves', {
@@ -71233,7 +71047,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1555514821)
 PlaceObj('WaterPlaneWaves', {
@@ -71243,7 +71056,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1282104678)
 PlaceObj('WaterPlaneWaves', {
@@ -71253,7 +71065,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1774185278)
 PlaceObj('WaterPlaneWaves', {
@@ -71263,7 +71074,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1789612347)
 PlaceObj('WaterPlaneWaves', {
@@ -71273,7 +71083,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1809967809)
 PlaceObj('WaterPlaneWaves', {
@@ -71283,7 +71092,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1516787533)
 PlaceObj('WaterPlaneWaves', {
@@ -71293,7 +71101,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1660735324)
 PlaceObj('WaterPlaneWaves', {
@@ -71303,7 +71110,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1474235454)
 PlaceObj('WaterPlaneWaves', {
@@ -71313,7 +71119,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1801173160)
 PlaceObj('WaterPlaneWaves', {
@@ -71323,7 +71128,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1150368504)
 PlaceObj('WaterPlaneWaves', {
@@ -71333,7 +71137,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1022078846)
 PlaceObj('WaterPlaneWaves', {
@@ -71343,7 +71146,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1829742747)
 PlaceObj('WaterPlaneWaves', {
@@ -71353,7 +71155,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1500360929)
 PlaceObj('WaterPlaneWaves', {
@@ -71363,7 +71164,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1637478576)
 PlaceObj('WaterPlaneWaves', {
@@ -71373,7 +71173,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1126412877)
 PlaceObj('WaterPlaneWaves', {
@@ -71383,7 +71182,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1817148137)
 PlaceObj('WaterPlaneWaves', {
@@ -71393,7 +71191,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1331761614)
 PlaceObj('WaterPlaneWaves', {
@@ -71403,7 +71200,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1765730060)
 PlaceObj('WaterPlaneWaves', {
@@ -71413,7 +71209,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1402788787)
 PlaceObj('WaterPlaneWaves', {
@@ -71423,7 +71218,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1681408608)
 PlaceObj('WaterPlaneWaves', {
@@ -71433,7 +71227,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1213634525)
 PlaceObj('WaterPlaneWaves', {
@@ -71443,7 +71236,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1334408448)
 PlaceObj('WaterPlaneWaves', {
@@ -71453,7 +71245,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1674184158)
 PlaceObj('WaterPlaneWaves', {
@@ -71463,7 +71254,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1896353682)
 PlaceObj('WaterPlaneWaves', {
@@ -71473,7 +71263,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1155226285)
 PlaceObj('WaterPlaneWaves', {
@@ -71483,7 +71272,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1864817835)
 PlaceObj('WaterPlaneWaves', {
@@ -71493,7 +71281,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1893798757)
 PlaceObj('WaterPlaneWaves', {
@@ -71503,7 +71290,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1361505129)
 PlaceObj('WaterPlaneWaves', {
@@ -71513,7 +71299,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1860823552)
 PlaceObj('WaterPlaneWaves', {
@@ -71523,7 +71308,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1768440597)
 PlaceObj('WaterPlaneWaves', {
@@ -71533,7 +71317,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1701089489)
 PlaceObj('WaterPlaneWaves', {
@@ -71543,7 +71326,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1804597603)
 PlaceObj('WaterPlaneWaves', {
@@ -71553,7 +71335,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1249913536)
 PlaceObj('WaterPlaneWaves', {
@@ -71563,7 +71344,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1223864801)
 PlaceObj('WaterPlaneWaves', {
@@ -71573,7 +71353,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1786402424)
 PlaceObj('WaterPlaneWaves', {
@@ -71583,7 +71362,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1106741577)
 PlaceObj('WaterPlaneWaves', {
@@ -71593,7 +71371,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1867754113)
 PlaceObj('WaterPlaneWaves', {
@@ -71603,7 +71380,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1521373165)
 PlaceObj('WaterPlaneWaves', {
@@ -71613,7 +71389,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1020621911)
 PlaceObj('WaterPlaneWaves', {
@@ -71623,7 +71398,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1851356739)
 PlaceObj('WaterPlaneWaves', {
@@ -71633,7 +71407,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1056690959)
 PlaceObj('WaterPlaneWaves', {
@@ -71643,7 +71416,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1069997674)
 PlaceObj('WaterPlaneWaves', {
@@ -71653,7 +71425,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1585757224)
 PlaceObj('WaterPlaneWaves', {
@@ -71663,7 +71434,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1144887110)
 PlaceObj('WaterPlaneWaves', {
@@ -71673,7 +71443,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1222505031)
 PlaceObj('WaterPlaneWaves', {
@@ -71683,7 +71452,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1272475619)
 PlaceObj('WaterPlaneWaves', {
@@ -71693,7 +71461,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1881987181)
 PlaceObj('WaterPlaneWaves', {
@@ -71703,7 +71470,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1435858898)
 PlaceObj('WaterPlaneWaves', {
@@ -71713,7 +71479,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1000452042)
 PlaceObj('WaterPlaneWaves', {
@@ -71723,7 +71488,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1639912427)
 PlaceObj('WaterPlaneWaves', {
@@ -71733,7 +71497,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1290712703)
 PlaceObj('WaterPlaneWaves', {
@@ -71743,7 +71506,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1553265063)
 PlaceObj('WaterPlaneWaves', {
@@ -71753,7 +71515,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1592661394)
 PlaceObj('WaterPlaneWaves', {
@@ -71763,7 +71524,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1854441638)
 PlaceObj('WaterPlaneWaves', {
@@ -71773,7 +71533,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1752467443)
 PlaceObj('WaterPlaneWaves', {
@@ -71783,7 +71542,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1269142662)
 PlaceObj('WaterPlaneWaves', {
@@ -71793,7 +71551,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1807582008)
 PlaceObj('WaterPlaneWaves', {
@@ -71803,7 +71560,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1898722694)
 PlaceObj('WaterPlaneWaves', {
@@ -71813,7 +71569,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1434664447)
 PlaceObj('WaterPlaneWaves', {
@@ -71823,7 +71578,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1813938520)
 PlaceObj('WaterPlaneWaves', {
@@ -71833,7 +71587,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1400336579)
 PlaceObj('WaterPlaneWaves', {
@@ -71843,7 +71596,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1747453296)
 PlaceObj('WaterPlaneWaves', {
@@ -71853,7 +71605,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1272314903)
 PlaceObj('WaterPlaneWaves', {
@@ -71863,7 +71614,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1736326042)
 PlaceObj('WaterPlaneWaves', {
@@ -71873,7 +71623,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1685483694)
 PlaceObj('WaterPlaneWaves', {
@@ -71883,7 +71632,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1254587175)
 PlaceObj('WaterPlaneWaves', {
@@ -71893,7 +71641,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1490504557)
 PlaceObj('WaterPlaneWaves', {
@@ -71903,7 +71650,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1332129161)
 PlaceObj('WaterPlaneWaves', {
@@ -71913,7 +71659,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1211813211)
 PlaceObj('WaterPlaneWaves', {
@@ -71923,7 +71668,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1217464277)
 PlaceObj('WaterPlaneWaves', {
@@ -71933,7 +71677,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1716931702)
 PlaceObj('WaterPlaneWaves', {
@@ -71943,7 +71686,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1410178216)
 PlaceObj('WaterPlaneWaves', {
@@ -71953,7 +71695,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1006052644)
 PlaceObj('WaterPlaneWaves', {
@@ -71963,7 +71704,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1231067021)
 PlaceObj('WaterPlaneWaves', {
@@ -71973,7 +71713,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1072037513)
 PlaceObj('WaterPlaneWaves', {
@@ -71983,7 +71722,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1803812167)
 PlaceObj('WaterPlaneWaves', {
@@ -71993,7 +71731,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1087497272)
 PlaceObj('WaterPlaneWaves', {
@@ -72003,7 +71740,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1333319051)
 PlaceObj('WaterPlaneWaves', {
@@ -72013,7 +71749,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1722259043)
 PlaceObj('WaterPlaneWaves', {
@@ -72023,7 +71758,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1289953699)
 PlaceObj('WaterPlaneWaves', {
@@ -72033,7 +71767,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1188676711)
 PlaceObj('WaterPlaneWaves', {
@@ -72043,7 +71776,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1066887169)
 PlaceObj('WaterPlaneWaves', {
@@ -72053,7 +71785,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1051138876)
 PlaceObj('WaterPlaneWaves', {
@@ -72063,7 +71794,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1667598823)
 PlaceObj('WaterPlaneWaves', {
@@ -72073,7 +71803,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1330566275)
 PlaceObj('WaterPlaneWaves', {
@@ -72083,7 +71812,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1070091768)
 PlaceObj('WaterPlaneWaves', {
@@ -72093,7 +71821,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1474816011)
 PlaceObj('WaterPlaneWaves', {
@@ -72103,7 +71830,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1807377640)
 PlaceObj('WaterPlaneWaves', {
@@ -72113,7 +71839,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1278905225)
 PlaceObj('WaterPlaneWaves', {
@@ -72123,7 +71848,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1721985489)
 PlaceObj('WaterPlaneWaves', {
@@ -72133,7 +71857,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1317975803)
 PlaceObj('WaterPlaneWaves', {
@@ -72143,7 +71866,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1121294088)
 PlaceObj('WaterPlaneWaves', {
@@ -72153,7 +71875,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1150454217)
 PlaceObj('WaterPlaneWaves', {
@@ -72163,7 +71884,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1390600833)
 PlaceObj('WaterPlaneWaves', {
@@ -72173,7 +71893,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1498421433)
 PlaceObj('WaterPlaneWaves', {
@@ -72183,7 +71902,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1798536443)
 PlaceObj('WaterPlaneWaves', {
@@ -72193,7 +71911,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1865985769)
 PlaceObj('WaterPlaneWaves', {
@@ -72203,7 +71920,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1732791981)
 PlaceObj('WaterPlaneWaves', {
@@ -72213,7 +71929,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1414970510)
 PlaceObj('WaterPlaneWaves', {
@@ -72223,7 +71938,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1542548198)
 PlaceObj('WaterPlaneWaves', {
@@ -72233,7 +71947,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1386154485)
 PlaceObj('WaterPlaneWaves', {
@@ -72243,7 +71956,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1043199650)
 PlaceObj('WaterPlaneWaves', {
@@ -72253,7 +71965,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1080064434)
 PlaceObj('WaterPlaneWaves', {
@@ -72263,7 +71974,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1312590446)
 PlaceObj('WaterPlaneWaves', {
@@ -72273,7 +71983,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1573700567)
 PlaceObj('WaterPlaneWaves', {
@@ -72283,7 +71992,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1427829724)
 PlaceObj('WaterPlaneWaves', {
@@ -72293,7 +72001,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1111583663)
 PlaceObj('WaterPlaneWaves', {
@@ -72303,7 +72010,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1020019947)
 PlaceObj('WaterPlaneWaves', {
@@ -72313,7 +72019,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1004968231)
 PlaceObj('WaterPlaneWaves', {
@@ -72323,7 +72028,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1071163605)
 PlaceObj('WaterPlaneWaves', {
@@ -72333,7 +72037,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1128127119)
 PlaceObj('WaterPlaneWaves', {
@@ -72343,7 +72046,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1188607862)
 PlaceObj('WaterPlaneWaves', {
@@ -72353,7 +72055,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1383013404)
 PlaceObj('WaterPlaneWaves', {
@@ -72363,7 +72064,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1049088071)
 PlaceObj('WaterPlaneWaves', {
@@ -72373,7 +72073,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1309934625)
 PlaceObj('WaterPlaneWaves', {
@@ -72383,7 +72082,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1497436178)
 PlaceObj('WaterPlaneWaves', {
@@ -72393,7 +72091,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1379359094)
 PlaceObj('WaterPlaneWaves', {
@@ -72403,7 +72100,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1467070369)
 PlaceObj('WaterPlaneWaves', {
@@ -72413,7 +72109,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1586891914)
 PlaceObj('WaterPlaneWaves', {
@@ -72423,7 +72118,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1688725624)
 PlaceObj('WaterPlaneWaves', {
@@ -72433,7 +72127,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1812321425)
 PlaceObj('WaterPlaneWaves', {
@@ -72443,7 +72136,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1111873429)
 PlaceObj('WaterPlaneWaves', {
@@ -72453,7 +72145,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1088509428)
 PlaceObj('WaterPlaneWaves', {
@@ -72463,7 +72154,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1267584967)
 PlaceObj('WaterPlaneWaves', {
@@ -72473,7 +72163,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1762955587)
 PlaceObj('WaterPlaneWaves', {
@@ -72483,7 +72172,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1147152694)
 PlaceObj('WaterPlaneWaves', {
@@ -72493,7 +72181,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1801010784)
 PlaceObj('WaterPlaneWaves', {
@@ -72503,7 +72190,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1270589982)
 PlaceObj('WaterPlaneWaves', {
@@ -72513,7 +72199,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1522223299)
 PlaceObj('WaterPlaneWaves', {
@@ -72523,7 +72208,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1704789497)
 PlaceObj('WaterPlaneWaves', {
@@ -72533,7 +72217,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1727499187)
 PlaceObj('WaterPlaneWaves', {
@@ -72543,7 +72226,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1349578613)
 PlaceObj('WaterPlaneWaves', {
@@ -72553,7 +72235,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1580025609)
 PlaceObj('WaterPlaneWaves', {
@@ -72563,7 +72244,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1470662058)
 PlaceObj('WaterPlaneWaves', {
@@ -72573,7 +72253,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1690108492)
 PlaceObj('WaterPlaneWaves', {
@@ -72583,7 +72262,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1068876595)
 PlaceObj('WaterPlaneWaves', {
@@ -72593,7 +72271,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1120632194)
 PlaceObj('WaterPlaneWaves', {
@@ -72603,7 +72280,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1111669328)
 PlaceObj('WaterPlaneWaves', {
@@ -72613,7 +72289,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1016906853)
 PlaceObj('WaterPlaneWaves', {
@@ -72623,7 +72298,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 949,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1423579550)
 PlaceObj('WaterPlaneWaves', {
@@ -72633,7 +72307,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1756526969)
 PlaceObj('WaterPlaneWaves', {
@@ -72643,7 +72316,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1797288527)
 PlaceObj('WaterPlaneWaves', {
@@ -72653,7 +72325,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1012379551)
 PlaceObj('WaterPlaneWaves', {
@@ -72663,7 +72334,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1764593348)
 PlaceObj('WaterPlaneWaves', {
@@ -72673,7 +72343,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1181745239)
 PlaceObj('WaterPlaneWaves', {
@@ -72683,7 +72352,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1414334472)
 PlaceObj('WaterPlaneWaves', {
@@ -72693,7 +72361,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1502957985)
 PlaceObj('WaterPlaneWaves', {
@@ -72703,7 +72370,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1552984062)
 PlaceObj('WaterPlaneWaves', {
@@ -72713,7 +72379,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1230320109)
 PlaceObj('WaterPlaneWaves', {
@@ -72723,7 +72388,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1094291539)
 PlaceObj('WaterPlaneWaves', {
@@ -72733,7 +72397,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1004765253)
 PlaceObj('WaterPlaneWaves', {
@@ -72743,7 +72406,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1837612376)
 PlaceObj('WaterPlaneWaves', {
@@ -72753,7 +72415,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1786388853)
 PlaceObj('WaterPlaneWaves', {
@@ -72763,7 +72424,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1252630731)
 PlaceObj('WaterPlaneWaves', {
@@ -72773,7 +72433,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1094743825)
 PlaceObj('WaterPlaneWaves', {
@@ -72783,7 +72442,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1047962914)
 PlaceObj('WaterPlaneWaves', {
@@ -72793,7 +72451,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1252230046)
 PlaceObj('WaterPlaneWaves', {
@@ -72803,7 +72460,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1338018405)
 PlaceObj('WaterPlaneWaves', {
@@ -72813,7 +72469,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1174327268)
 PlaceObj('WaterPlaneWaves', {
@@ -72823,7 +72478,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1757631843)
 PlaceObj('WaterPlaneWaves', {
@@ -72833,7 +72487,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1442439596)
 PlaceObj('WaterPlaneWaves', {
@@ -72843,7 +72496,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1402803748)
 PlaceObj('WaterPlaneWaves', {
@@ -72853,7 +72505,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1562172936)
 PlaceObj('WaterPlaneWaves', {
@@ -72863,7 +72514,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1571605122)
 PlaceObj('WaterPlaneWaves', {
@@ -72873,7 +72523,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1867824788)
 PlaceObj('WaterPlaneWaves', {
@@ -72883,7 +72532,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1413726472)
 PlaceObj('WaterPlaneWaves', {
@@ -72893,7 +72541,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1279697914)
 PlaceObj('WaterPlaneWaves', {
@@ -72903,7 +72550,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1344940875)
 PlaceObj('WaterPlaneWaves', {
@@ -72913,7 +72559,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1546984093)
 PlaceObj('WaterPlaneWaves', {
@@ -72923,7 +72568,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1173674442)
 PlaceObj('WaterPlaneWaves', {
@@ -72933,7 +72577,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1615158298)
 PlaceObj('WaterPlaneWaves', {
@@ -72943,7 +72586,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1529214961)
 PlaceObj('WaterPlaneWaves', {
@@ -72953,7 +72595,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1834478240)
 PlaceObj('WaterPlaneWaves', {
@@ -72963,7 +72604,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1880268202)
 PlaceObj('WaterPlaneWaves', {
@@ -72973,7 +72613,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1058774801)
 PlaceObj('WaterPlaneWaves', {
@@ -72983,7 +72622,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1440828626)
 PlaceObj('WaterPlaneWaves', {
@@ -72993,7 +72631,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1160473367)
 PlaceObj('WaterPlaneWaves', {
@@ -73003,7 +72640,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1859219427)
 PlaceObj('WaterPlaneWaves', {
@@ -73013,7 +72649,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1672381693)
 PlaceObj('WaterPlaneWaves', {
@@ -73023,7 +72658,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1228545571)
 PlaceObj('WaterPlaneWaves', {
@@ -73033,7 +72667,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1846254752)
 PlaceObj('WaterPlaneWaves', {
@@ -73043,7 +72676,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1253319317)
 PlaceObj('WaterPlaneWaves', {
@@ -73053,7 +72685,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1519106428)
 PlaceObj('WaterPlaneWaves', {
@@ -73063,7 +72694,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1120357460)
 PlaceObj('WaterPlaneWaves', {
@@ -73073,7 +72703,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1350151078)
 PlaceObj('WaterPlaneWaves', {
@@ -73083,7 +72712,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1530571420)
 PlaceObj('WaterPlaneWaves', {
@@ -73093,7 +72721,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1771075917)
 PlaceObj('WaterPlaneWaves', {
@@ -73103,7 +72730,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1533930302)
 PlaceObj('WaterPlaneWaves', {
@@ -73113,7 +72739,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1483950983)
 PlaceObj('WaterPlaneWaves', {
@@ -73123,7 +72748,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1229945795)
 PlaceObj('WaterPlaneWaves', {
@@ -73133,7 +72757,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1881989211)
 PlaceObj('WaterPlaneWaves', {
@@ -73143,7 +72766,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1352568521)
 PlaceObj('WaterPlaneWaves', {
@@ -73153,7 +72775,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1102852118)
 PlaceObj('WaterPlaneWaves', {
@@ -73163,7 +72784,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1722156666)
 PlaceObj('WaterPlaneWaves', {
@@ -73173,7 +72793,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1517452231)
 PlaceObj('WaterPlaneWaves', {
@@ -73183,7 +72802,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1485603267)
 PlaceObj('WaterPlaneWaves', {
@@ -73193,7 +72811,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1390423243)
 PlaceObj('WaterPlaneWaves', {
@@ -73203,7 +72820,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1287122541)
 PlaceObj('WaterPlaneWaves', {
@@ -73213,7 +72829,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1115115137)
 PlaceObj('WaterPlaneWaves', {
@@ -73223,7 +72838,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1093338497)
 PlaceObj('WaterPlaneWaves', {
@@ -73233,7 +72847,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1892423863)
 PlaceObj('WaterPlaneWaves', {
@@ -73243,7 +72856,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1479559923)
 PlaceObj('WaterPlaneWaves', {
@@ -73253,7 +72865,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1229962576)
 PlaceObj('WaterPlaneWaves', {
@@ -73263,7 +72874,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1258055534)
 PlaceObj('WaterPlaneWaves', {
@@ -73273,7 +72883,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1131105641)
 PlaceObj('WaterPlaneWaves', {
@@ -73283,7 +72892,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1116146999)
 PlaceObj('WaterPlaneWaves', {
@@ -73293,7 +72901,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1671364681)
 PlaceObj('WaterPlaneWaves', {
@@ -73303,7 +72910,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1003671403)
 PlaceObj('WaterPlaneWaves', {
@@ -73313,7 +72919,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1570894105)
 PlaceObj('WaterPlaneWaves', {
@@ -73323,7 +72928,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1588698100)
 PlaceObj('WaterPlaneWaves', {
@@ -73333,7 +72937,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1703714347)
 PlaceObj('WaterPlaneWaves', {
@@ -73343,7 +72946,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1484930904)
 PlaceObj('WaterPlaneWaves', {
@@ -73353,7 +72955,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1687776402)
 PlaceObj('WaterPlaneWaves', {
@@ -73363,7 +72964,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1006092027)
 PlaceObj('WaterPlaneWaves', {
@@ -73373,7 +72973,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1530691634)
 PlaceObj('WaterPlaneWaves', {
@@ -73383,7 +72982,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1834797831)
 PlaceObj('WaterPlaneWaves', {
@@ -73393,7 +72991,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1375270521)
 PlaceObj('WaterPlaneWaves', {
@@ -73403,7 +73000,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1431693679)
 PlaceObj('WaterPlaneWaves', {
@@ -73413,7 +73009,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1682645221)
 PlaceObj('WaterPlaneWaves', {
@@ -73423,7 +73018,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1576320671)
 PlaceObj('WaterPlaneWaves', {
@@ -73433,7 +73027,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1496095625)
 PlaceObj('WaterPlaneWaves', {
@@ -73443,7 +73036,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1493162747)
 PlaceObj('WaterPlaneWaves', {
@@ -73453,7 +73045,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1776952231)
 PlaceObj('WaterPlaneWaves', {
@@ -73463,7 +73054,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1496631777)
 PlaceObj('WaterPlaneWaves', {
@@ -73473,7 +73063,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1418723093)
 PlaceObj('WaterPlaneWaves', {
@@ -73483,7 +73072,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1154486255)
 PlaceObj('WaterPlaneWaves', {
@@ -73493,7 +73081,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1470410199)
 PlaceObj('WaterPlaneWaves', {
@@ -73503,7 +73090,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1147779825)
 PlaceObj('WaterPlaneWaves', {
@@ -73513,7 +73099,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1137806760)
 PlaceObj('WaterPlaneWaves', {
@@ -73523,7 +73108,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1147422412)
 PlaceObj('WaterPlaneWaves', {
@@ -73533,7 +73117,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1682803944)
 PlaceObj('WaterPlaneWaves', {
@@ -73543,7 +73126,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 923,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1076128244)
 PlaceObj('WaterPlaneWaves', {
@@ -73553,7 +73135,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1109551667)
 PlaceObj('WaterPlaneWaves', {
@@ -73563,7 +73144,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1013582070)
 PlaceObj('WaterPlaneWaves', {
@@ -73573,7 +73153,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1355943539)
 PlaceObj('WaterPlaneWaves', {
@@ -73583,7 +73162,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1761998216)
 PlaceObj('WaterPlaneWaves', {
@@ -73593,7 +73171,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1124733717)
 PlaceObj('WaterPlaneWaves', {
@@ -73603,7 +73180,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1010386938)
 PlaceObj('WaterPlaneWaves', {
@@ -73613,7 +73189,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1747162720)
 PlaceObj('WaterPlaneWaves', {
@@ -73623,7 +73198,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1819463428)
 PlaceObj('WaterPlaneWaves', {
@@ -73633,7 +73207,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1629810113)
 PlaceObj('WaterPlaneWaves', {
@@ -73643,7 +73216,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1631988634)
 PlaceObj('WaterPlaneWaves', {
@@ -73653,7 +73225,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1413741378)
 PlaceObj('WaterPlaneWaves', {
@@ -73663,7 +73234,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1267375678)
 PlaceObj('WaterPlaneWaves', {
@@ -73673,7 +73243,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1898039671)
 PlaceObj('WaterPlaneWaves', {
@@ -73683,7 +73252,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1166434534)
 PlaceObj('WaterPlaneWaves', {
@@ -73693,7 +73261,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1805757225)
 PlaceObj('WaterPlaneWaves', {
@@ -73703,7 +73270,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1646043638)
 PlaceObj('WaterPlaneWaves', {
@@ -73713,7 +73279,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1783253236)
 PlaceObj('WaterPlaneWaves', {
@@ -73723,7 +73288,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1040524154)
 PlaceObj('WaterPlaneWaves', {
@@ -73733,7 +73297,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1639318585)
 PlaceObj('WaterPlaneWaves', {
@@ -73743,7 +73306,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1891459127)
 PlaceObj('WaterPlaneWaves', {
@@ -73753,7 +73315,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1810369880)
 PlaceObj('WaterPlaneWaves', {
@@ -73763,7 +73324,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1451947316)
 PlaceObj('WaterPlaneWaves', {
@@ -73773,7 +73333,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1778866604)
 PlaceObj('WaterPlaneWaves', {
@@ -73783,7 +73342,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1387613000)
 PlaceObj('WaterPlaneWaves', {
@@ -73793,7 +73351,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1524225698)
 PlaceObj('WaterPlaneWaves', {
@@ -73803,7 +73360,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1280925507)
 PlaceObj('WaterPlaneWaves', {
@@ -73813,7 +73369,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1656094953)
 PlaceObj('WaterPlaneWaves', {
@@ -73823,7 +73378,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1206194765)
 PlaceObj('WaterPlaneWaves', {
@@ -73833,7 +73387,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 718,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1420790368)
 PlaceObj('WaterPlaneWaves', {
@@ -73843,7 +73396,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1826762449)
 PlaceObj('WaterPlaneWaves', {
@@ -73853,7 +73405,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1660577345)
 PlaceObj('WaterPlaneWaves', {
@@ -73863,7 +73414,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1480635776)
 PlaceObj('WaterPlaneWaves', {
@@ -73873,7 +73423,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1519928317)
 PlaceObj('WaterPlaneWaves', {
@@ -73883,7 +73432,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1248444216)
 PlaceObj('WaterPlaneWaves', {
@@ -73893,7 +73441,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1894634416)
 PlaceObj('WaterPlaneWaves', {
@@ -73903,7 +73450,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1524027449)
 PlaceObj('WaterPlaneWaves', {
@@ -73913,7 +73459,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1251841585)
 PlaceObj('WaterPlaneWaves', {
@@ -73923,7 +73468,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1584825577)
 PlaceObj('WaterPlaneWaves', {
@@ -73933,7 +73477,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1861163077)
 PlaceObj('WaterPlaneWaves', {
@@ -73943,7 +73486,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1581700449)
 PlaceObj('WaterPlaneWaves', {
@@ -73953,7 +73495,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1514886313)
 PlaceObj('WaterPlaneWaves', {
@@ -73963,7 +73504,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1147372977)
 PlaceObj('WaterPlaneWaves', {
@@ -73973,7 +73513,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1462979951)
 PlaceObj('WaterPlaneWaves', {
@@ -73983,7 +73522,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1282246164)
 PlaceObj('WaterPlaneWaves', {
@@ -73993,7 +73531,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1557201306)
 PlaceObj('WaterPlaneWaves', {
@@ -74003,7 +73540,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1096691140)
 PlaceObj('WaterPlaneWaves', {
@@ -74013,7 +73549,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1574857818)
 PlaceObj('WaterPlaneWaves', {
@@ -74023,7 +73558,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1544028011)
 PlaceObj('WaterPlaneWaves', {
@@ -74033,7 +73567,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1822152338)
 PlaceObj('WaterPlaneWaves', {
@@ -74043,7 +73576,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1112560500)
 PlaceObj('WaterPlaneWaves', {
@@ -74053,7 +73585,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1855950501)
 PlaceObj('WaterPlaneWaves', {
@@ -74063,7 +73594,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1080829665)
 PlaceObj('WaterPlaneWaves', {
@@ -74073,7 +73603,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1885401333)
 PlaceObj('WaterPlaneWaves', {
@@ -74083,7 +73612,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1236933261)
 PlaceObj('WaterPlaneWaves', {
@@ -74093,7 +73621,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1629434413)
 PlaceObj('WaterPlaneWaves', {
@@ -74103,7 +73630,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1446566405)
 PlaceObj('WaterPlaneWaves', {
@@ -74113,7 +73639,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1613918627)
 PlaceObj('WaterPlaneWaves', {
@@ -74123,7 +73648,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1030948104)
 PlaceObj('WaterPlaneWaves', {
@@ -74133,7 +73657,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1063112575)
 PlaceObj('WaterPlaneWaves', {
@@ -74143,7 +73666,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1139123463)
 PlaceObj('WaterPlaneWaves', {
@@ -74153,7 +73675,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1006399116)
 PlaceObj('WaterPlaneWaves', {
@@ -74163,7 +73684,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1752297051)
 PlaceObj('WaterPlaneWaves', {
@@ -74173,7 +73693,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1767800742)
 PlaceObj('WaterPlaneWaves', {
@@ -74183,7 +73702,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1739536955)
 PlaceObj('WaterPlaneWaves', {
@@ -74193,7 +73711,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1659730126)
 PlaceObj('WaterPlaneWaves', {
@@ -74203,7 +73720,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1184094691)
 PlaceObj('WaterPlaneWaves', {
@@ -74213,7 +73729,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1079134704)
 PlaceObj('WaterPlaneWaves', {
@@ -74223,7 +73738,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1335039698)
 PlaceObj('WaterPlaneWaves', {
@@ -74233,7 +73747,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1641345591)
 PlaceObj('WaterPlaneWaves', {
@@ -74243,7 +73756,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1766193230)
 PlaceObj('WaterPlaneWaves', {
@@ -74253,7 +73765,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1587011973)
 PlaceObj('WaterPlaneWaves', {
@@ -74263,7 +73774,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1436179731)
 PlaceObj('WaterPlaneWaves', {
@@ -74273,7 +73783,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1765049843)
 PlaceObj('WaterPlaneWaves', {
@@ -74283,7 +73792,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1494327433)
 PlaceObj('WaterPlaneWaves', {
@@ -74293,7 +73801,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1475946935)
 PlaceObj('WaterPlaneWaves', {
@@ -74303,7 +73810,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1320758416)
 PlaceObj('WaterPlaneWaves', {
@@ -74313,7 +73819,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1213735927)
 PlaceObj('WaterPlaneWaves', {
@@ -74323,7 +73828,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1767770802)
 PlaceObj('WaterPlaneWaves', {
@@ -74333,7 +73837,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1382666329)
 PlaceObj('WaterPlaneWaves', {
@@ -74343,7 +73846,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1240045415)
 PlaceObj('WaterPlaneWaves', {
@@ -74353,7 +73855,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1592071361)
 PlaceObj('WaterPlaneWaves', {
@@ -74363,7 +73864,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1495657019)
 PlaceObj('WaterPlaneWaves', {
@@ -74373,7 +73873,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1266557896)
 PlaceObj('WaterPlaneWaves', {
@@ -74383,7 +73882,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1425555733)
 PlaceObj('WaterPlaneWaves', {
@@ -74393,7 +73891,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1086552298)
 PlaceObj('WaterPlaneWaves', {
@@ -74403,7 +73900,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1684541804)
 PlaceObj('WaterPlaneWaves', {
@@ -74413,7 +73909,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1336044676)
 PlaceObj('WaterPlaneWaves', {
@@ -74423,7 +73918,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1816237955)
 PlaceObj('WaterPlaneWaves', {
@@ -74433,7 +73927,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1380979128)
 PlaceObj('WaterPlaneWaves', {
@@ -74443,7 +73936,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1704284263)
 PlaceObj('WaterPlaneWaves', {
@@ -74453,7 +73945,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1315421515)
 PlaceObj('WaterPlaneWaves', {
@@ -74463,7 +73954,6 @@ PlaceObj('WaterPlaneWaves', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1915,
 	'AllowedMask', 4294967279,
-	'Passability', 0,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1175025265)
 
@@ -77142,7 +76632,6 @@ p("TropicalPlant_04_Sapling_06",120041,98428,1460,2097152)
 p("TropicalPlant_04_Sapling_01",120687,100683,3602,2097152)
 p("TropicalPlant_04_Sapling_03",121202,98479,8054,2097152)
 p("TropicalPlant_04_Sapling_04",122476,98336,16664,2097152)
-p("TropicalRockAssemblySand_01",120089,110731,9098,96,2097156)
 p("TropicalPlant_Grass_02",123039,98630,16217,2097152)
 p("TropicalPlant_05_Shrub_01",123680,98416,9164,2097152)
 p("TropicalPlant_01_Sapling",124267,98553,21206,2097152)
@@ -77150,25 +76639,14 @@ p("TropicalPlant_Grass_03",126198,98680,12729,2097152)
 p("TropicalPlant_Grass_01",125979,102027,20878,2097152)
 p("TropicalPlant_Grass_04",128561,101536,11137,2097152)
 p("TropicalPlant_Grass_03",129372,98682,3547,2097152)
-p("TropicalRockAssemblySand_01",124920,110273,3104,95,2097156)
 p("TropicalRockSharp_01",129551,108724,8536,19207,250,4,4051,600,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
-p("TropicalRockAssemblySand_01",130545,110355,10786,125,2097156)
-p("TropicalRockAssemblySand_02",129754,114423,19283,34,2097156)
-p("TropicalRockAssemblySand_03",120209,115244,9905,80,2097156)
-p("TropicalRockAssemblySand_02",120525,119409,8030,69,2097156)
-p("TropicalCliffSharp_03",118200,124200,12600,16200,2097153)
-p("TropicalCliffSharp_03",118200,125400,13300,16200,2097153)
-p("TropicalRockSharpWalk_02",118200,130200,16100,5400,2097153)
+p("TropicalCliffSharp_03",118200,124200,12600,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalCliffSharp_03",118200,125400,13300,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalRockSharpWalk_02",118200,130200,16100,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalRockSharp_03",120450,128373,15494,7889,144,1091,1572,3621,2097173)
-p("TropicalCliffSharp_04",120600,129000,14700,16200,2097153)
-p("TropicalCliffSharp_04",120600,130200,14700,16200,2097153)
-p("TropicalRockSharp_03",120926,127921,15330,7144,144,-254,878,3992,2097173)
-p("TropicalRockAssemblySand_03",125595,115214,13130,143,2097156)
-p("TropicalRockAssemblySand_01",124773,120444,1138,34,2097156)
-p("TropicalRockAssemblySand_04",130767,120169,8650,4785,140,527,645,4010,2097173)
-p("TropicalRockAssemblySand_01",125503,124318,21580,14,2097156)
-p("TropicalRockAssemblySand_01",129972,124175,8642,13696,153,500,-302,4054,2097173)
-p("TropicalRockAssemblySand_04",130155,124310,8650,4785,140,527,645,4010,2097173)
+p("TropicalCliffSharp_04",120600,129000,14700,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalCliffSharp_04",120600,130200,14700,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalRockSharp_03",120926,127921,15330,7144,144,-254,878,3992,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_04_Shrub_02",1158,131391,79,4)
 p("TropicalPlant_02_Shrub",3670,131492,18108,112,2097156)
 p("TropicalPlant_04_Shrub_02",593,136447,105,4)
@@ -82158,7 +81636,7 @@ p("TropicalPlant_05_Shrub_01",91215,172787,540,2097152)
 p("TropicalPlant_04_Sapling_06",90886,174221,17384,2097152)
 p("TropicalPlant_04_Sapling_06",92415,172852,2611,2097152)
 p("TropicalPlant_04_Sapling_03",92411,173918,2446,2097152)
-p("TropicalPlant_04_Sapling_06",93685,172778,17372,2097152)
+p("TropicalPlant_04_Sapling_06",93685,172788,17372,2097152)
 p("TropicalPlant_05_Shrub_01",93693,173940,10035,2097152)
 p("TropicalPlant_05_Shrub_01",92470,175261,18252,2097152)
 p("TropicalPlant_04_Sapling_05",93527,175284,2026,2097152)
@@ -82413,7 +81891,7 @@ p("TropicalPlant_04_Sapling_06",104359,142889,7709,2097152)
 p("TropicalPlant_04_Shrub_02",104943,139339,5269,2097152)
 p("TropicalPlant_04_Sapling_04",104494,140336,13927,2097152)
 p("TropicalPlant_Grass_01",105052,140565,1130,2097152)
-p("TropicalRockSharp_03",105588,139621,12768,2830,239,0,4096,0,2097173)
+p("TropicalRockSharp_03",105588,139621,12768,2830,239,0,4096,0,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_04_Sapling_06",105536,140415,19595,2097152)
 p("TropicalPlant_03_Sapling_02",105438,142931,1840,2097152)
 p("TropicalPlant_04_Sapling_03",105684,141508,15253,2097152)
@@ -82432,7 +81910,7 @@ p("TropicalPlant_04_Sapling_04",104495,146489,13805,2097152)
 p("TropicalPlant_Grass_01",104904,146680,20665,2097152)
 p("TropicalPlant_05_Shrub_01",105591,146499,1417,2097152)
 p("TropicalPlant_Grass_02",107524,131981,15566,2097152)
-p("TropicalRockSharp_03",107108,134703,14081,3817,203,-1762,3331,1603,2097173)
+p("TropicalRockSharp_03",107108,134703,14081,3817,203,-1762,3331,1603,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_04_Shrub_02",106900,135898,12734,2097152)
 p("TropicalPlant_Grass_01",107930,135202,19403,2097152)
 p("TropicalPlant_05_Shrub_01",106804,137968,13594,2097152)
@@ -82444,13 +81922,13 @@ p("TropicalPlant_04_Sapling_03",109119,139160,265,2097152)
 p("TropicalPlant_Grass_01",110989,131826,5388,2097152)
 p("TropicalPlant_Grass_04",110808,134977,21239,2097152)
 p("TropicalRockSharp_03",112249,133636,0)
-p("TropicalRockSharp_02",113817,131237,16124,2735,1141,-3278,2173,2097169)
+p("TropicalRockSharp_02",113817,131237,16124,2735,1141,-3278,2173,"terrainchunk",10,0,0,40,60,10,40,60,2228241)
 p("TropicalPlant_Grass_01",113846,131864,8576,2097152)
-p("TropicalRockSharp_03",112674,134847,15495,2470,180,4096,0,0,2097173)
+p("TropicalRockSharp_03",112674,134847,15495,2470,180,4096,0,0,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",113976,133593,16398,3638,35,-3830,-1439,188,2097173)
-p("TropicalRockSharpWalk_02",114600,135000,16100,1)
+p("TropicalRockSharpWalk_02",114600,135000,16100,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalRockSharp_01",112868,136498,10198,1889,250,1293,-1803,3442,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
-p("TropicalRockSharpWalk_02",113400,137400,16100,1)
+p("TropicalRockSharpWalk_02",113400,137400,16100,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalPlant_04_Sapling_03",106806,140445,12848,2097152)
 p("TropicalPlant_04_Shrub_02",107922,140079,15791,2097152)
 p("TropicalPlant_04_Sapling_05",107927,140482,10895,2097152)
@@ -82522,37 +82000,38 @@ p("TropicalPlant_04_Sapling_03",98436,160878,12320,2097152)
 p("TropicalPlant_04_Shrub_02",98962,160937,17769,2097152)
 p("TropicalPlant_04_Shrub_02",98629,162669,5750,2097152)
 p("TropicalPlant_04_Sapling_06",98875,163761,11542,2097152)
-p("TropicalPlant_Grass_01",105305,156289,11595,2097152)
+p("TropicalPlant_Grass_01",105304,156290,11595,2097152)
 p("TropicalPlant_05_Sapling_01",106826,148909,5928,2097152)
-p("TropicalRockSharp_03",108353,148769,14414,16361,172,-1235,-2653,2865,2097173)
+p("TropicalRockSharp_03",108353,148769,14414,16361,172,-1235,-2653,2865,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_01_Shrub",108447,151056,10687,2097152)
 p("TropicalPlant_04_Shrub_01",108917,148111,19994,2097152)
-p("TropicalRockSharp_03",109573,147887,15309,16036,172,-1702,-2866,2379,2097173)
+p("TropicalRockSharp_03",109573,147887,15309,16036,172,-1702,-2866,2379,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_07_Sapling_01",106670,152800,8134,2097152)
 p("TropicalPlant_06_Sapling_02",107530,155509,2987,2097152)
 p("TropicalPlant_04_Shrub_02",108515,155441,20583,2097152)
-p("TropicalPlant_04_Shrub_01",110511,152558,6837,2097152)
+p("TropicalPlant_04_Shrub_01",110509,152555,6824,5,1322,3876,2097168)
 p("TropicalPlant_04_Shrub_02",112238,149360,19370,2097152)
 p("TropicalRockSharp_01",112297,159342,10654,8961,223,2249,-3395,442,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
+p("TropicalRockSharp_01",114589,158329,10654,9778,223,1128,-3894,578,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharp_01",114980,132470,16398,3638,35,-3830,-1439,188,2097173)
-p("TropicalRockSharpWalk_02",117000,133800,16100,1)
+p("TropicalRockSharpWalk_02",117000,133800,16100,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalRockSharp_01",117568,133233,16398,1618,40,-932,-2160,3352,2097173)
-p("TropicalRockSharp_01",117643,134279,17665,1289,52,893,-521,3963,2097173)
-p("TropicalRockSharp_01",118132,133282,16727,2920,52,391,-2300,3367,2097173)
-p("TropicalRockSharp_03",118087,134696,15494,2867,180,3471,764,2035,2097173)
+p("TropicalRockSharp_01",117643,134279,17665,1289,52,893,-521,3963,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",118132,133282,16727,2920,52,391,-2300,3367,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_03",118087,134696,15494,2867,180,3471,764,2035,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_03",116445,136608,14758,2260,142,3056,1233,2433,2097173)
 p("TropicalCliffSharp_04",115800,137400,14700,16200,2097153)
 p("TropicalRockSharp_01",117079,135271,16398,1618,40,-932,-2160,3352,2097173)
-p("TropicalCliffSharp_04",118200,136200,14700,16200,2097153)
-p("TropicalCliffSharp_04",119400,131400,14700,16200,2097153)
-p("TropicalCliffSharp_04",119400,132600,14700,16200,2097153)
-p("TropicalCliffSharp_04",119400,133800,14700,16200,2097153)
+p("TropicalCliffSharp_04",118200,136200,14700,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalCliffSharp_04",119400,131400,14700,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalCliffSharp_04",119400,132600,14700,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalCliffSharp_04",119400,133800,14700,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalCliffSharp_04",119400,135000,14700,16200,2097153)
-p("TropicalRockSharp_03",119643,136925,17399,8870,203,-753,4003,426,2097173)
+p("TropicalRockSharp_03",119643,136925,17399,8870,203,-753,4003,426,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",121617,137464,10198,1982,250,1262,-1702,3505,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharp_01",123655,131085,16314,19569,68,42,4035,701,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharp_01",126692,136673,8536,19207,250,4,4051,600,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
-p("TropicalRockSharp_01",127886,133931,-388,6058,231,-476,18,4068,3200,2097237)
+p("TropicalRockSharp_01",127886,133931,-388,6058,231,-476,18,4068,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",129168,135525,10654,8727,223,-1017,-3967,2,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalPlant_Grass_01",126945,142225,9982,4281479727,2097160)
 p("TropicalPlant_Grass_02",126494,142642,4731,4281283632,2097160)
@@ -82605,10 +82084,9 @@ p("TropicalPlant_Grass_02",129425,148975,13086,109,4281674800,2097164)
 p("TropicalPlant_Grass_02",130333,149022,3675,4281283633,2097160)
 p("TropicalPlant_Grass_02",131047,148903,13401,4280822313,2097160)
 p("TropicalPlant_Grass_04",129485,149775,3735,4281412652,2097160)
-p("TropicalRockSharp_01",130136,149589,3190,15295,231,299,2148,3474,3200,2097237)
+p("TropicalRockSharp_01",130136,149589,3190,15295,231,299,2148,3474,3200,"terrainchunk",10,0,0,40,60,10,40,60,2228309)
 p("TropicalPlant_Grass_04",130135,149762,9149,4280954673,2097160)
-p("TropicalRockSharp_01",123021,158923,3190,5722,231,2306,-323,3370,3200,2097237)
-p("TropicalRockAssemblySand_02",129917,160563,16544,145,2097156)
+p("TropicalRockSharp_01",123021,158923,3190,5722,231,2306,-323,3370,3200,"terrainchunk",10,0,0,40,60,10,40,60,2228309)
 p("TropicalPlant_04_Sapling_04",98847,164974,6038,2097152)
 p("TropicalPlant_04_Sapling_04",100114,165082,6742,2097152)
 p("TropicalPlant_04_Sapling_06",98877,166383,9467,2097152)
@@ -82821,16 +82299,10 @@ p("TropicalPlant_08_Sapling_01",109204,189017,20461,2097152)
 p("TropicalPlant_08_Sapling_02",107340,192806,18512,2097152)
 p("TropicalPlant_04_Sapling_01",113385,188481,10835,2097152)
 p("TropicalPlant_08_Sapling_01",112815,192914,3014,2097152)
-p("TropicalRockAssemblySand_04",125894,164950,6085,152,2097156)
-p("TropicalRockAssemblySand_01",124815,169162,21249,178,2097156)
-p("TropicalRockAssemblySand_03",129951,164463,20218,173,2097156)
-p("TropicalRockAssemblySand_04",129934,169450,1707,57,2097156)
-p("TropicalRockAssemblySand_01",125303,174161,9961,94,2097156)
 p("TropicalRockSharp_01",124017,177773,10499,5270,33,-1232,1232,3706,2097173)
 p("TropicalRockSharp_01",126035,177718,11249,6898,33,540,2540,3167,2097173)
 p("TropicalRockSharpWalk_02",126600,179400,10500,16200,2097153)
-p("TropicalRockAssemblySand_02",129599,174089,9167,61,2097156)
-p("TropicalRockSharp_01",127798,177503,10499,5183,40,-1416,1053,3696,2097173)
+p("TropicalRockSharp_01",127798,177503,10499,5183,40,-1416,1053,3696,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",130111,177503,10499,5270,40,-1232,1232,3706,2097173)
 p("TropicalPlant_Grass_04",119000,196000,13478,103,2097156)
 p("TropicalPlant_Grass_02",120000,196000,13247,97,2097156)
@@ -84796,7 +84268,7 @@ p("SavannaPlant_Bush_07",144392,93019,16961,44,4281347887,2097164)
 p("SavannaPlant_Bush_06",144443,93532,10541,43,4280954933,2097164)
 p("SavannaPlant_Bush_06",145073,93853,13058,35,4280825136,2097164)
 p("ParSystem",145927,90395,"Env_Fire1x1",268435456)
-p("Grease",147406,90334,15577,16200,4096,0,0,4,2033,2097553)
+p("Grease",147406,90334,15577,16200,4096,0,0,3,2033,2097553)
 p("SavannaPlant_Bush_08",145487,93344,9864,46,4281479213,2097164)
 p("SavannaPlant_Bush_04",145576,93686,1056,37,4280890673,2097164)
 p("SavannaPlant_Bush_04",145821,93405,17946,35,4280824116,2097164)
@@ -84942,17 +84414,7 @@ p("TropicalPlant_Grass_02",145000,109000,16865,2097152)
 p("TropicalPlant_Grass_02",146000,109000,882,2097152)
 p("TropicalPlant_Grass_04",146000,110000,163,2097152)
 p("TropicalPlant_Grass_04",147000,109000,5378,2097152)
-p("TropicalRockAssemblySand_04",134194,120960,4635,20,2097156)
-p("TropicalRockAssemblySand_03",135621,115318,20971,32,2097156)
 p("TropicalRockSharp_02",137541,115756,7160,9190,63,3272,-1597,1875,2097173)
-p("TropicalRockAssemblySand_03",135716,125611,5502,77,2097156)
-p("TropicalRockAssemblySand_01",139309,115933,2119,10,2097156)
-p("TropicalRockAssemblySand_03",140264,119225,20789,10,2097156)
-p("TropicalRockAssemblySand_04",144813,119217,6225,7180,187,2097157)
-p("TropicalRockAssemblySand_03",140146,124964,1992,142,2097156)
-p("TropicalRockAssemblySand_02",140954,130080,14954,175,2097156)
-p("TropicalRockAssemblySand_03",144830,125939,18516,133,2097156)
-p("TropicalRockAssemblySand_01",145226,129778,13273,171,2097156)
 p("TropicalPlant_05_Sapling_01",149878,106282,13552,123,2097156)
 p("TropicalRockSharp_01",155089,101970,6715,8567,223,2107,-3463,589,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalPlant_04_Sapling_04",148000,107000,15840,2097152)
@@ -84964,7 +84426,7 @@ p("TropicalPlant_Grass_01",149000,110000,13760,2097152)
 p("TropicalPlant_06_Sapling_02",149870,106576,4569,88,2097156)
 p("TropicalPlant_Grass_03",150000,107000,1811,2097152)
 p("TropicalPlant_Grass_03",150000,108000,13331,2097152)
-p("TropicalRockSharp_02",150549,106570,6419,8668,231,2822,-1624,2484,3200,2097237)
+p("TropicalRockSharp_02",150549,106570,6419,8668,231,2822,-1624,2484,2097173)
 p("TropicalPlant_Grass_02",150000,110000,2320,2097152)
 p("TropicalPlant_Grass_04",150000,111000,3691,2097152)
 p("TropicalPlant_Grass_01",151000,112000,9474,2097152)
@@ -84981,7 +84443,7 @@ p("TropicalPlant_Grass_02",155000,110000,17620,2097152)
 p("TropicalPlant_Grass_02",152000,112000,4037,2097152)
 p("TropicalPlant_Grass_02",153000,111000,10269,2097152)
 p("TropicalPlant_Grass_02",154000,112000,1415,2097152)
-p("TropicalRockSharp_02",158134,98979,3220,11394,250,2982,-441,2772,3200,2097237)
+p("TropicalRockSharp_02",158134,98979,3220,11394,250,2982,-441,2772,2097173)
 p("TropicalPlant_Grass_01",156000,109000,2626,2097152)
 p("TropicalPlant_04_Shrub_02",155857,109630,11370,130,2097156)
 p("TropicalPlant_04_Sapling_06",156000,110000,11219,66,2097156)
@@ -84999,7 +84461,6 @@ p("TropicalPlant_Grass_03",157000,113000,17386,2097152)
 p("TropicalPlant_04_Shrub_01",158855,110981,5354,126,2097156)
 p("TropicalPlant_04_Sapling_04",151000,118000,872,119,2097156)
 p("TropicalPlant_03_Sapling_02",151338,118294,13004,69,2097156)
-p("TropicalRockAssemblySand_01",149785,120770,2950,78,2097156)
 p("TropicalPlant_Grass_01",152000,116000,19693,2097152)
 p("TropicalPlant_04_Sapling_01",151651,117120,3344,137,2097156)
 p("TropicalPlant_Grass_02",152000,117000,10718,2097152)
@@ -85007,63 +84468,18 @@ p("TropicalPlant_04_Sapling_05",154000,116000,16018,93,2097156)
 p("TropicalPlant_Grass_03",154000,116000,5944,2097152)
 p("TropicalPlant_Grass_01",155000,115000,14035,2097152)
 p("TropicalPlant_04_Sapling_02",154678,115281,20948,122,2097156)
-p("TropicalRockAssemblySand_04",150966,125818,16644,140,2097156)
-p("TropicalRockAssemblySand_03",150120,129506,17982,42,2097156)
-p("TropicalRockAssemblySand_01",155019,125800,5684,2775,93,237,561,4050,2097173)
-p("TropicalRockAssemblySand_02",153669,129676,5827,16201,156,78,-78,4094,2097173)
-p("TropicalRockSharp_02",156296,122595,6419,6271,207,1237,-3721,1183,3200,2097237)
-p("TropicalRockAssemblySand_01",160605,120897,2338,168,2097156)
-p("TropicalRockAssemblySand_02",160429,125290,21586,102,2097156)
-p("TropicalRockAssemblySand_03",160613,130253,5137,16362,228,2097157)
+p("TropicalRockSharp_02",156296,122595,6419,6271,207,1237,-3721,1183,2097173)
+p("TropicalRockAssembly_02",156706,122529,5526,663,174,-1309,3444,1789,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_02",159230,119621,5296,663,174,-1309,3444,1789,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_02",161349,116677,5068,11341,174,630,160,4044,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",166545,95696,1238,19569,250,42,4035,701,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
-p("TropicalRockAssemblySand_02",170000,95572,13561,68,2097156)
 p("TropicalRockSharp_03",175294,94280,3216,13314,250,"terrainchunk",10,0,0,84,100,10,40,60,2228229)
-p("TropicalRockAssemblySand_02",175340,95986,10181,181,2097156)
 p("TropicalRockSharp_01",177582,93848,-276,18844,250,3277,2213,1069,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
-p("TropicalRockAssemblySand_02",179801,95991,11606,151,2097156)
 p("TropicalRockSharp_04",193467,89247,7078,16833,153,125,787,4017,3200,"terrainchunk",10,0,0,84,100,10,40,60,2228309)
-p("TropicalRockAssemblySand_02",165978,99937,14346,181,2097156)
-p("TropicalRockAssemblySand_04",169599,99971,6316,67,2097156)
-p("TropicalRockAssemblySand_04",170953,105415,14842,10,2097156)
-p("TropicalRockAssemblySand_02",169452,110691,10055,86,2097156)
-p("TropicalRockAssemblySand_02",175459,100711,6513,153,2097156)
-p("TropicalRockAssemblySand_02",174919,104214,9158,147,2097156)
-p("TropicalRockAssemblySand_04",179677,105277,11494,80,2097156)
-p("TropicalRockSharp_02",172551,114654,-5395,7119,213,-3175,-1908,1746,3200,2097237)
-p("TropicalRockAssemblySand_04",175378,110773,564,132,2097156)
-p("TropicalRockAssemblySand_01",175701,114314,2801,177,2097156)
-p("TropicalRockAssemblySand_03",179956,109727,950,29,2097156)
-p("TropicalRockAssemblySand_04",165012,114764,9564,46,2097156)
-p("TropicalRockAssemblySand_01",165589,120997,3885,174,2097156)
-p("TropicalRockAssemblySand_02",169199,114742,15282,133,2097156)
-p("TropicalRockAssemblySand_02",169461,119765,13959,70,2097156)
-p("TropicalRockAssemblySand_01",164630,124472,1220,121,2097156)
-p("TropicalRockAssemblySand_01",164978,129917,6862,10,2097156)
-p("TropicalRockAssemblySand_03",170179,125883,12233,14,2097156)
-p("TropicalRockAssemblySand_02",169678,130576,14495,115,2097156)
-p("TropicalRockSharp_02",173070,120862,-5395,6463,213,-2695,-1419,2739,3200,2097237)
-p("TropicalRockAssemblySand_03",175066,120874,19288,22,2097156)
-p("TropicalRockAssemblySand_02",175409,129773,11535,116,2097156)
-p("TropicalRockAssemblySand_03",179338,125335,12920,151,2097156)
-p("TropicalRockSharp_02",179062,128663,2202,17686,136,2724,3057,87,3200,2097237)
-p("TropicalRockAssemblySand_01",179919,130444,6793,15,2097156)
-p("TropicalRockAssemblySand_02",180334,100599,1995,113,2097156)
-p("TropicalRockAssemblySand_04",184310,104815,19586,142,2097156)
-p("TropicalRockAssemblySand_03",184152,110370,3017,176,2097156)
-p("TropicalRockAssemblySand_03",185643,110334,18756,10,2097156)
-p("TropicalRockAssemblySand_03",189165,110804,13573,105,2097156)
-p("TropicalRockAssemblySand_04",194186,110905,18403,14,2097156)
-p("TropicalRockAssemblySand_03",180791,115403,11729,152,2097156)
-p("TropicalRockAssemblySand_03",180455,120444,14024,144,2097156)
-p("TropicalRockAssemblySand_02",185528,114959,18449,154,2097156)
-p("TropicalRockAssemblySand_03",185624,120355,17121,64,2097156)
-p("TropicalRockAssemblySand_03",184115,125820,11809,57,2097156)
-p("TropicalRockAssemblySand_01",184529,130421,5926,159,2097156)
-p("TropicalRockAssemblySand_02",190254,114689,10211,48,2097156)
-p("TropicalRockAssemblySand_02",189140,119321,9243,169,2097156)
-p("TropicalRockAssemblySand_04",195538,115481,16733,118,2097156)
-p("TropicalRockAssemblySand_03",194824,120538,16436,124,2097156)
-p("TropicalRockAssemblySand_01",190922,124577,18316,86,2097156)
+p("TropicalRockSharp_02",172551,114654,-5395,7119,213,-3175,-1908,1746,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_02",173070,120862,-5395,6463,213,-2695,-1419,2739,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_02",179062,128663,2202,17686,136,2724,3057,87,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_04",186701,130245,4829,146,"terrainchunk",10,0,0,40,60,10,40,60,131077)
 p("TropicalRockSharp_01",200997,81629,733,13449,215,-975,-462,3951,3200,"terrainchunk",10,0,0,84,100,10,40,60,2228309)
 p("TropicalRockSharp_01",204775,88829,2035,4212,176,184,-1061,3951,3200,"terrainchunk",10,0,0,84,100,10,40,60,2228309)
 p("TropicalRockSharp_01",212087,83138,1580,16716,215,-716,-881,3935,3200,2097237)
@@ -85076,8 +84492,6 @@ p("TropicalRockSharp_01",222712,85765,1765,18595,176,-506,-1154,3897,3200,"terra
 p("TropicalRockSharp_02",226643,86730,1537,14578,243,1423,-3574,1406,3200,"terrainchunk",10,0,0,84,100,10,40,60,2228309)
 p("TropicalRockSharp_01",222429,90321,1343,4738,243,945,-3002,2620,3200,"terrainchunk",10,0,0,84,100,10,40,60,2228309)
 p("TropicalRockSharp_01",229189,90368,2032,4024,243,266,-3556,2014,3200,"terrainchunk",10,0,0,84,100,10,40,60,2228309)
-p("TropicalRockAssemblySand_04",200079,110481,10624,71,2097156)
-p("TropicalRockAssemblySand_01",199271,114356,7792,99,2097156)
 p("ParSystem",199716,130637,5948,"Env_Fire1x2_Moving",268435457)
 p("ParSystem",202923,128383,8878,"Env_Fire1x2_Moving",268435457)
 p("TropicalRockSharp_01",229525,80372,6218,16577,176,402,-2667,3083,3200,2097237)
@@ -85096,7 +84510,7 @@ p("TropicalPlant_Grass_01",135363,137988,5298,4281676596,2097160)
 p("TropicalPlant_Grass_02",135962,137721,14505,4281543727,2097160)
 p("TropicalPlant_05_Sapling_01",135938,138507,20967,112,4280955699,2097164)
 p("TropicalPlant_Grass_02",135864,138829,4631,4281675829,2097160)
-p("TropicalRockSharp_01",137069,137834,3190,8672,231,1695,627,3675,3200,2097237)
+p("TropicalRockSharp_01",137069,137834,3190,8672,231,1695,627,3675,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_04",137260,138046,16702,4281087025,2097160)
 p("TropicalPlant_Grass_01",137286,139262,14538,4281478705,2097160)
 p("TropicalPlant_Grass_04",138128,139156,19742,4281218097,2097160)
@@ -85115,62 +84529,32 @@ p("TropicalPlant_Grass_02",136232,144361,897,4281086763,2097160)
 p("TropicalPlant_Grass_02",136871,144415,19515,4281676076,2097160)
 p("TropicalPlant_Grass_01",140028,138398,2095,58,4281215529,2097164)
 p("TropicalPlant_Grass_02",140072,138796,14711,71,4281215027,2097164)
-p("TropicalRockAssemblySand_04",145416,134686,9532,11,2097156)
 p("TropicalPlant_Grass_01",139600,140032,18474,67,4281414187,2097164)
-p("TropicalRockAssemblySand_01",140490,145839,19596,2097152)
-p("TropicalRockSharp_01",140760,146938,3638,13392,167,-1973,-523,3551,3200,2097237)
-p("TropicalRockAssemblySand_01",145457,144973,14308,162,2097156)
+p("TropicalRockSharp_01",140760,146938,3638,13392,167,-1973,-523,3551,3200,"terrainchunk",10,0,0,40,60,10,40,60,2228309)
 p("TropicalPlant_06_Sapling_01",131180,148097,1922,107,4281480498,2097164)
 p("TropicalPlant_Grass_03",131347,148388,8718,4281545516,2097160)
 p("TropicalPlant_Grass_02",131646,148901,762,4280888111,2097160)
 p("TropicalRockSharp_01",134008,148403,3190,14521,231,535,1936,3569,3200,2097237)
-p("TropicalRockAssemblySand_02",134865,150934,788,44,2097156)
-p("TropicalRockAssemblySand_01",139081,155455,9102,170,2097156)
-p("TropicalRockAssemblySand_03",135791,159812,8501,48,2097156)
-p("TropicalRockAssemblySand_04",139216,160962,5470,34,2097156)
-p("TropicalRockAssemblySand_04",139425,150263,19350,58,2097156)
-p("TropicalRockAssemblySand_03",145508,150850,5040,22,2097156)
-p("TropicalRockAssemblySand_03",145272,154869,15865,161,2097156)
-p("TropicalRockAssemblySand_04",144833,160020,17539,20,2097156)
-p("TropicalRockAssemblySand_04",149227,133724,5976,11040,139,2097157)
-p("TropicalRockAssemblySand_04",150148,134341,5976,8005,142,2097157)
-p("TropicalRockAssemblySand_04",150933,135160,5976,13740,139,2097157)
-p("TropicalRockAssemblySand_04",150975,136627,5976,11040,139,2097157)
-p("TropicalRockAssemblySand_04",150609,138534,5837,11040,237,2097157)
-p("TropicalRockAssemblySand_01",155635,135280,5961,21183,156,2097157)
-p("TropicalRockAssemblySand_02",150727,140900,2165,132,2097156)
-p("TropicalRockAssemblySand_03",150636,145584,10906,55,2097156)
-p("TropicalRockAssemblySand_02",154213,139965,8777,108,2097156)
-p("TropicalRockSharp_01",151584,146067,2527,1485,128,-1326,-2792,2687,3200,2097237)
-p("TropicalRockSharp_02",155115,145594,6551,10605,63,2885,-257,2895,2097173)
-p("TropicalRockAssemblySand_02",156949,137694,5788,16891,116,2097157)
-p("TropicalRockAssemblySand_03",157993,137608,5802,11987,181,2097157)
-p("TropicalRockAssemblySand_02",160592,135393,10383,63,2097156)
-p("TropicalRockSharp_02",162621,136667,5598,9783,63,2854,239,2928,2097173)
-p("TropicalRockAssemblySand_03",160357,145636,18937,156,2097156)
-p("TropicalRockAssemblySand_03",149088,149435,7768,49,2097156)
-p("TropicalRockAssemblySand_04",150749,149312,6222,19320,171,-95,-518,4061,2097173)
-p("TropicalRockAssemblySand_02",154458,150214,51,45,2097156)
-p("TropicalRockSharp_01",155292,155416,2528,19445,128,1621,1408,3487,3200,2097237)
-p("TropicalRockAssemblySand_03",149752,155830,6371,20,2097156)
-p("TropicalRockAssemblySand_04",150274,160514,6809,172,2097156)
-p("TropicalRockSharp_01",151670,159509,-1376,19445,231,1621,1408,3487,3200,2097237)
-p("TropicalRockAssemblySand_03",154805,159432,9709,86,2097156)
-p("TropicalRockAssemblySand_02",155689,154498,3307,131,2097156)
-p("TropicalRockAssemblySand_04",159685,155410,3738,2097152)
-p("TropicalRockAssemblySand_02",160003,149671,17244,98,2097156)
-p("TropicalRockAssemblySand_03",160593,159444,10413,123,2097156)
-p("TropicalRockSharp_01",161893,162758,-388,12941,231,671,-186,4036,3200,2097237)
-p("TropicalRockAssemblySand_03",135082,169669,21025,19,2097156)
-p("TropicalRockAssemblySand_04",135787,165293,10176,13,2097156)
+p("TropicalRockAssembly_01",147376,159385,6189,141,"terrainchunk",10,0,0,40,60,10,40,60,131077)
+p("TropicalRockAssembly_02",150667,145847,6158,21439,-1607,-1947,3225,"terrainchunk",10,0,0,40,60,10,40,60,2228241)
+p("TropicalRockSharp_01",151584,146067,2527,1485,128,-1326,-2792,2687,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_02",155115,145594,6551,10605,63,2885,-257,2895,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("DecFloatersTrashGround_03",159599,133494,5619,19827,19,-613,4049,2097169)
+p("DecFloatersTrashGround_01",159611,137401,856,891,1927,3502,2097168)
+p("Shanty_BucketPlastic_Float",163166,132491,5655,2147885066,"",1073742337)
+p("TropicalRockSharp_02",162621,136667,5598,9783,63,2854,239,2928,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",155292,155416,2528,19445,128,1621,1408,3487,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",151670,159509,-1376,19445,231,1621,1408,3487,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_01",154445,155932,6171,"terrainchunk",10,0,0,40,60,10,40,60,131073)
+p("TropicalRockAssembly_02",160263,147529,5994,21439,-1607,-1947,3225,"terrainchunk",10,0,0,40,60,10,40,60,2228241)
+p("TropicalRockAssembly_03",161919,154066,6138,"terrainchunk",10,0,0,40,60,10,40,60,131073)
+p("TropicalRockSharp_01",161893,162758,-388,12941,231,671,-186,4036,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",132505,174797,3830,15849,250,343,735,4014,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharpWalk_02",131400,179400,10500,16200,2097153)
 p("TropicalRockSharp_01",133515,177099,10499,16290,40,-1054,-1374,3711,2097173)
 p("TropicalRockSharp_01",137120,174136,3830,15849,228,343,735,4014,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
-p("TropicalRockAssemblySand_03",140405,165453,497,29,2097156)
-p("TropicalRockAssemblySand_01",139981,170020,3364,23,2097156)
-p("TropicalRockAssemblySand_03",144013,164808,12495,71,2097156)
-p("TropicalRockSharp_01",146843,168287,-899,2469,199,-856,-1700,3626,3200,2097237)
+p("TropicalRockAssembly_01",146629,164724,6189,"terrainchunk",10,0,0,40,60,10,40,60,131073)
+p("TropicalRockSharp_01",146843,168287,-899,2469,199,-856,-1700,3626,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_02",147417,170380,11061,11257,101,102,3494,2134,2097173)
 p("TropicalRockSharp_01",140955,176095,8296,15849,141,343,735,4014,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharp_01",142209,173764,3830,15849,228,343,735,4014,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
@@ -85383,18 +84767,18 @@ p("TropicalRockSharp_01",146558,194533,14298,15966,58,2097157)
 p("SavannaPlant_Bush_08",147097,193652,3323,34,4280952873,2097164)
 p("TropicalPlant_03_Sapling_02",147404,194109,15364,45,4280822576,2097164)
 p("TropicalPlant_04_Sapling_02",145634,194615,7321,34,4281019444,2097164)
-p("TropicalRockSharp_02",147798,167208,6925,11275,101,65,3186,2572,2097173)
-p("TropicalRockAssemblySand_01",150737,165430,214,14,2097156)
-p("TropicalRockAssemblySand_02",155606,165635,15390,96,2097156)
+p("TropicalRockSharp_02",147798,167208,6925,11275,101,65,3186,2572,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_02",147892,172562,11920,11303,172,89,2931,2859,2097173)
 p("TropicalRockSharpWalk_01",148200,177000,10500,16200,2097153)
 p("TropicalRockSharpWalk_01",150600,177000,10500,16200,2097153)
 p("TropicalRockSharp_01",153983,172230,3830,15849,250,343,735,4014,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharpWalk_02",155400,178200,10500,16200,2097153)
-p("TropicalRockSharp_01",163554,168285,-388,2432,231,-511,-1843,3621,3200,2097237)
-p("TropicalRockSharp_02",155913,173347,3444,5335,172,-4071,428,128,2097173)
+p("TropicalRockAssembly_02",160711,165200,6100,21439,155,-1607,-1947,3225,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",163554,168285,-388,2432,231,-511,-1843,3621,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_02",155913,173347,3444,5335,172,-4071,428,128,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("SavannaPlant_Bush_06",159346,177225,4272,39,4280888623,2097164)
 p("SavannaPlant_Bush_05",159422,177688,16567,36,4281087275,2097164)
+p("TropicalRockAssembly_02",163480,172078,6146,21439,155,-1607,-1947,3225,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("SavannaPlant_Bush_09",159827,177485,15603,42,4281020201,2097164)
 p("SavannaPlant_Bush_01",160417,177659,1578,46,4281281581,2097164)
 p("SavannaPlant_Bush_03",160523,177327,20947,44,4281413683,2097164)
@@ -85587,62 +84971,24 @@ p("SavannaPlant_Bush_05",161175,192814,12250,40,4280822313,2097164)
 p("TropicalPlant_04_Sapling_02",161923,192861,2853,46,4281545781,2097164)
 p("TropicalPlant_04_Sapling_02",163123,192672,9235,46,4281543209,2097164)
 p("TropicalRockSharp_01",162859,196173,7823,16225,250,-108,243,4087,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
-p("TropicalRockAssemblySand_03",164189,134208,14212,68,2097156)
-p("TropicalRockAssemblySand_02",166529,134346,13988,143,2097156)
-p("TropicalRockAssemblySand_03",169099,135027,6861,173,2097156)
-p("TropicalRockAssemblySand_01",165653,139462,7007,10,2097156)
-p("TropicalRockAssemblySand_03",164775,144063,5181,19864,185,2097157)
-p("TropicalRockAssemblySand_04",165344,145317,5395,10414,163,2097157)
-p("TropicalRockAssemblySand_02",171068,140352,8732,135,2097156)
-p("TropicalRockAssemblySand_04",171684,141726,4926,17667,202,2097157)
-p("TropicalRockSharp_02",171665,143027,5188,8729,63,2687,-1404,2753,2097173)
-p("TropicalRockAssemblySand_03",174174,134059,8929,58,2097156)
-p("TropicalRockAssemblySand_03",179066,134861,7916,85,2097156)
-p("TropicalRockSharp_02",177656,137950,5279,15371,63,-1952,-3120,1797,2097173)
-p("TropicalRockAssemblySand_04",172893,143295,1292,131,2097156)
-p("TropicalRockAssemblySand_04",174146,144006,5050,13345,162,2097157)
-p("TropicalRockAssemblySand_02",174720,144864,2536,85,2097156)
-p("TropicalRockAssemblySand_04",180168,144646,5050,18705,125,2097157)
-p("TropicalRockAssemblySand_04",180168,144646,5050,18705,128,2097157)
-p("TropicalRockAssemblySand_04",164711,148110,5200,20854,195,2097157)
-p("TropicalRockAssemblySand_04",164428,149958,5200,9381,250,2097157)
-p("TropicalRockAssemblySand_01",164525,151299,5855,10321,166,83,-25,4095,2097173)
-p("TropicalRockAssemblySand_04",164366,152115,5200,7490,191,2097157)
-p("TropicalRockAssemblySand_04",165018,154990,447,56,2097156)
-p("TropicalRockAssemblySand_02",169620,150091,5053,15906,106,2097157)
-p("TropicalRockAssemblySand_03",169323,150885,11073,15,2097156)
-p("TropicalRockSharp_01",168255,153262,852,2432,141,-511,-1843,3621,3200,2097237)
-p("TropicalRockAssemblySand_04",169731,155211,5200,9381,182,2097157)
-p("TropicalRockAssemblySand_04",165510,160274,1914,40,2097156)
-p("TropicalRockAssemblySand_04",175317,149065,15889,48,2097156)
-p("TropicalRockAssemblySand_03",175124,155291,588,37,2097156)
-p("TropicalRockAssemblySand_04",176285,152475,4903,14343,210,2097157)
-p("TropicalRockAssemblySand_02",179624,154848,4470,43,2097156)
-p("TropicalRockAssemblySand_04",172896,159921,4916,1452,210,2097157)
-p("TropicalRockAssemblySand_01",175635,160813,9503,84,2097156)
-p("TropicalRockSharp_02",183545,137868,3879,10624,231,3547,-1058,1752,3200,2097237)
-p("TropicalRockAssemblySand_04",184362,135553,10590,85,2097156)
-p("TropicalRockAssemblySand_02",180413,139630,3292,68,2097156)
-p("TropicalRockAssemblySand_02",184285,145569,1230,150,2097156)
-p("TropicalRockAssemblySand_02",185420,140843,20356,102,2097156)
-p("TropicalRockSharp_01",188212,143496,-3976,9403,231,-136,-1066,3952,3200,2097237)
-p("TropicalRockSharp_02",194345,132941,1290,13592,231,3168,-743,2487,3200,2097237)
-p("TropicalRockAssemblySand_02",180842,150643,1645,135,2097156)
-p("TropicalRockSharp_01",182992,148598,-3976,9444,231,-244,-540,4052,3200,2097237)
-p("TropicalRockAssemblySand_01",184393,149519,19682,24,2097156)
-p("TropicalRockAssemblySand_02",184400,154652,11452,107,2097156)
-p("TropicalRockAssemblySand_01",184834,155419,20524,10,2097156)
-p("TropicalRockSharp_01",182286,158301,-388,12941,190,671,-186,4036,3200,2097237)
-p("TropicalRockAssemblySand_04",180805,160860,2598,89,2097156)
-p("TropicalRockAssemblySand_02",185803,160419,11740,163,2097156)
+p("TropicalRockAssembly_04",168574,133771,4852,138,"terrainchunk",10,0,0,40,60,10,40,60,131077)
+p("TropicalRockSharp_02",171665,143027,5188,8729,63,2687,-1404,2753,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_02",177656,137950,5279,15371,63,-1952,-3120,1797,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",168255,153262,2807,2254,141,1154,-2179,3270,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_03",168190,158536,5884,21095,-1845,-3626,466,"terrainchunk",10,0,0,40,60,10,40,60,2228241)
+p("TropicalRockAssembly_02",168252,159099,5745,21013,155,-461,-3340,2326,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_03",168285,159039,5900,20958,175,-1581,-3122,2127,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_04",178256,148129,4829,146,"terrainchunk",10,0,0,40,60,10,40,60,131077)
+p("TropicalRockAssembly_04",177340,157800,4839,138,"terrainchunk",10,0,0,40,60,10,40,60,131077)
+p("TropicalRockSharp_02",183545,137868,3879,10624,231,3547,-1058,1752,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",188212,143496,-3976,9403,231,-136,-1066,3952,2097173)
+p("TropicalRockSharp_02",194345,132941,1290,13592,231,3168,-743,2487,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",195166,144959,1078,9772,250,-1279,1259,3681,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
+p("TropicalRockSharp_01",182992,148598,-3976,9444,231,-244,-540,4052,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",182286,158301,-388,12941,190,671,-186,4036,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("ParSystem",191517,152122,5522,1437,119,"Splashes_Waves",270532613)
-p("TropicalRockSharp_01",192371,152267,-1492,8051,250,-685,723,3973,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
-p("TropicalRockAssemblySand_04",189120,159278,3752,98,2097156)
-p("TropicalRockAssemblySand_03",194704,159468,413,30,2097156)
-p("TropicalRockAssemblySand_04",165741,165866,9636,105,2097156)
-p("TropicalRockAssemblySand_04",165001,169185,693,72,2097156)
-p("TropicalRockAssemblySand_01",169416,165889,9100,40,2097156)
-p("TropicalRockAssemblySand_02",169226,170454,5106,159,2097156)
+p("Shanty_BucketPlastic_Float",191991,160226,5753,2147885066,"",1073742337)
+p("TropicalRockAssembly_02",164407,165910,6098,21439,155,-1607,-1947,3225,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",166695,175196,4142,16160,250,321,782,4007,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharpWalk_01",165000,179400,10500,16200,2097153)
 p("SavannaPlant_Bush_01",166254,178252,20164,36,4281543213,2097164)
@@ -85654,14 +85000,10 @@ p("SavannaPlant_Bush_08",167737,178263,2890,42,4281281834,2097164)
 p("SavannaPlant_Bush_04",167835,178831,4764,45,4281610804,2097164)
 p("SavannaPlant_Bush_06",167052,179588,1679,39,4281610802,2097164)
 p("SavannaPlant_Bush_02",167544,179506,267,36,4281216303,2097164)
-p("TropicalRockAssemblySand_01",175489,164649,9906,96,2097156)
-p("TropicalRockAssemblySand_03",174843,169689,15908,50,2097156)
-p("TropicalRockSharp_01",178183,164332,-388,12941,231,671,-186,4036,3200,2097237)
-p("TropicalRockAssemblySand_01",179220,165812,4940,20,2097156)
-p("TropicalRockSharp_01",176977,168113,-388,15105,231,817,40,4013,3200,2097237)
-p("TropicalRockSharp_01",175188,175618,-388,9090,231,457,-508,4038,3200,2097237)
+p("TropicalRockSharp_01",178183,164332,-388,12941,231,671,-186,4036,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",176977,168113,-388,15105,231,817,40,4013,2097173)
+p("TropicalRockSharp_01",175188,175618,-388,9090,231,457,-508,4038,2097173)
 p("TropicalRockSharp_01",172600,176932,4142,8051,250,-685,723,3973,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
-p("TropicalRockAssemblySand_03",179752,175838,15278,26,2097156)
 p("SavannaPlant_Bush_06",164537,182828,11734,42,4281610290,2097164)
 p("SavannaPlant_Bush_04",164967,182422,18969,35,4281675828,2097164)
 p("SavannaPlant_Bush_09",165839,183372,3328,46,4281281580,2097164)
@@ -85820,20 +85162,11 @@ p("SavannaPlant_Bush_04",179742,195442,9707,36,4281348402,2097164)
 p("SavannaPlant_Bush_03",179633,195700,11042,41,4281084970,2097164)
 p("SavannaPlant_Bush_03",179238,196517,20449,41,4280824363,2097164)
 p("TropicalPlant_06_Sapling_02",179507,196279,7014,35,4281216811,2097164)
-p("TropicalRockAssemblySand_02",180669,170441,4057,10,2097156)
-p("TropicalRockSharp_01",185065,164116,-1464,9635,231,719,-419,4010,3200,2097237)
-p("TropicalRockAssemblySand_04",185662,165924,9558,54,2097156)
-p("TropicalRockAssemblySand_02",185912,169446,6175,36,2097156)
-p("TropicalRockAssemblySand_04",185650,175414,7561,28,2097156)
-p("TropicalRockAssemblySand_01",189190,164945,3896,147,2097156)
-p("TropicalRockAssemblySand_02",189086,169601,632,159,2097156)
-p("TropicalRockSharp_01",188652,171833,-389,11454,231,587,-313,4041,3200,2097237)
-p("TropicalRockAssemblySand_04",195307,165684,4987,9413,211,2097157)
-p("TropicalRockAssemblySand_03",194605,169411,2483,27,2097156)
-p("TropicalRockAssemblySand_01",190724,174903,16427,92,2097156)
-p("TropicalRockAssemblySand_04",194281,175083,5850,9697,215,2097157)
-p("TropicalRockSharp_02",180452,180481,13646,5400,133,4096,0,0,2097173)
-p("TropicalRockSharp_02",180392,185887,133,4)
+p("TropicalRockSharp_01",188652,171833,-389,11454,231,587,-313,4041,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",192940,168388,278,12603,231,1309,-221,3874,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",190404,177033,1492,12317,231,913,-825,3906,3200,"terrainchunk",10,0,0,40,60,10,40,60,2228309)
+p("TropicalRockSharp_02",180452,180481,13646,5400,133,4096,0,0,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_02",180392,185887,133,"terrainchunk",10,0,0,40,60,10,40,60,131076)
 p("TropicalRockSharp_01",183389,186745,4142,8051,250,-685,723,3973,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharp_01",188250,183747,4142,8051,250,-685,723,3973,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("SavannaPlant_Bush_06",180486,189160,830,45,4281414704,2097164)
@@ -85861,7 +85194,7 @@ p("SavannaPlant_Bush_08",180899,195751,2736,36,4281152809,2097164)
 p("TropicalPlant_04_Sapling_02",187465,194992,16711,83,2097156)
 p("SavannaPlant_Bush_03",187622,195169,19616,47,4281480493,2097164)
 p("SavannaPlant_Bush_02",188293,195317,21165,40,4281611053,2097164)
-p("TropicalRockSharp_01",191017,187592,13516,9741,132,3138,-2627,151,3200,2097237)
+p("TropicalRockSharp_01",191017,187592,13516,9741,132,3138,-2627,151,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("SavannaPlant_Bush_05",188825,194820,9076,46,4281611568,2097164)
 p("SavannaPlant_Bush_02",188477,195484,5831,39,4280822827,2097164)
 p("TropicalPlant_07_Sapling_01",189065,194870,20989,64,2097156)
@@ -86957,6 +86290,7 @@ p("TropicalPlant_04_Sapling_04",181000,212000,11540,56,2097156)
 p("SavannaPlant_Bush_07",192488,202016,16359,37,4281149736,2097164)
 p("SavannaPlant_Bush_09",191598,202955,1726,41,4281543211,2097164)
 p("SavannaPlant_Bush_07",191925,203702,14444,36,4281087025,2097164)
+p("TropicalRockAssembly_03",192723,198795,10634,422,163,1747,3025,2138,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("SavannaPlant_Bush_06",195438,197485,14039,44,4281281585,2097164)
 p("SavannaPlant_Bush_04",195454,198393,11538,39,4281545780,2097164)
 p("SavannaPlant_Bush_09",195852,198061,2618,43,4280952874,2097164)
@@ -87533,75 +86867,34 @@ p("TropicalPlant_Grass_01",193757,248899,1189,102,4281280553,2097164)
 p("TropicalPlant_Grass_01",194676,247674,3887,102,4281610549,2097164)
 p("TropicalPlant_Grass_01",196342,246028,19385,103,4281085485,2097164)
 p("TropicalPlant_Grass_04",192769,250039,764,101,4281347124,2097164)
-p("ParSystem",199521,133224,6015,10800,"Env_Fire1x2_Moving",270532609)
-p("TropicalRockSharp_01",198007,135211,-388,12941,231,671,-186,4036,3200,2097237)
-p("TropicalRockAssemblySand_02",205244,145625,1217,49,2097156)
-p("TropicalRockAssemblySand_01",209639,140835,7725,41,2097156)
-p("TropicalRockAssemblySand_02",205731,150680,6376,48,2097156)
-p("TropicalRockAssemblySand_03",205885,154860,16699,83,2097156)
-p("TropicalRockAssemblySand_03",209409,149994,12020,71,2097156)
-p("TropicalRockAssemblySand_04",210859,154617,6339,124,2097156)
-p("TropicalRockAssemblySand_02",205828,159140,9582,146,2097156)
-p("TropicalRockAssemblySand_01",210433,160376,10586,46,2097156)
-p("TropicalRockAssemblySand_01",215824,145729,17342,48,2097156)
-p("TropicalRockAssemblySand_02",220381,144863,11586,39,2097156)
-p("TropicalRockAssemblySand_03",224080,144370,7285,10,2097156)
-p("TropicalRockAssemblySand_03",214302,154854,18466,103,2097156)
-p("TropicalRockAssemblySand_01",215692,159376,18841,20,2097156)
-p("TropicalRockAssemblySand_03",220618,160754,6997,29,2097156)
-p("TropicalRockAssemblySand_04",224728,154400,7844,76,2097156)
-p("TropicalRockAssemblySand_04",225355,149670,2197,46,2097156)
-p("TropicalRockSharp_01",198450,166606,-4117,9384,231,-23,-1573,3781,3200,2097237)
-p("TropicalRockAssemblySand_04",200076,169310,15112,49,2097156)
-p("TropicalRockAssemblySand_04",199758,175083,5537,4364,215,399,-103,4075,2097173)
-p("TropicalRockAssemblySand_04",204263,175141,17317,194,2097156)
-p("TropicalRockSharp_01",202001,178689,-1667,9444,231,-244,-540,4052,3200,2097237)
-p("TropicalRockAssemblySand_01",210679,165752,16622,185,2097156)
-p("TropicalRockAssemblySand_03",210981,169445,16455,54,2097156)
-p("TropicalRockAssemblySand_03",211312,171484,9583,187,2097156)
-p("TropicalRockAssemblySand_02",206535,174789,12198,51,2097156)
-p("TropicalRockAssemblySand_04",210526,175695,6550,101,2097156)
-p("TropicalRockAssemblySand_04",211246,178847,8242,198,2097156)
-p("TropicalRockAssemblySand_02",211195,179228,12709,181,2097156)
-p("TropicalCliffSharp_03",201000,184200,5600,16200,2097153)
-p("TropicalCliffSharp_03",201000,187800,7700,16200,2097153)
-p("TropicalRockSharp_01",203570,187643,11123,12720,132,-1929,3340,1378,3200,2097237)
+p("ParSystem",199543,133212,6015,10800,"Env_Fire1x2_Moving",270532609)
+p("TropicalRockSharp_01",198007,135211,-388,12941,231,671,-186,4036,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_02",197656,162612,5584,10671,63,3702,625,1637,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("ParSystem",201997,162752,5819,10800,250,"Env_Fire1x2_Moving",270532613)
+p("ParSystem",198242,167272,5977,10800,250,"Env_Fire1x2_Moving",270532613)
+p("TropicalRockAssembly_03",199269,175955,5734,91,166,0,4096,0,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",203494,172652,-3976,8976,231,-1506,-334,3794,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalPlant_06_Sapling_01",201178,178736,5848,19212,133,2097157)
+p("TropicalRockSharp_01",202001,178689,-1667,9444,231,-244,-540,4052,3200,"terrainchunk",10,0,0,40,60,10,40,60,2228309)
+p("TropicalRockAssembly_01",199815,185334,8382,5076,136,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
+p("TropicalCliffSharp_03",201000,184200,5600,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalRockAssembly_01",201655,185252,8382,5076,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalCliffSharp_03",201000,187800,7700,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalRockSharp_01",203570,187643,11123,12720,132,-1929,3340,1378,3200,"terrainchunk",10,0,0,40,60,10,40,60,2228309)
+p("TropicalRockAssembly_01",199515,188931,10482,5076,136,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
+p("TropicalRockAssembly_01",201991,192185,10482,10855,126,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
 p("TropicalCliffSharp_03",203400,191400,7700,1)
 p("TropicalRockSharp_01",206794,187963,1030,8051,250,-685,723,3973,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
-p("TropicalRockAssemblySand_01",209761,181182,5235,3357,148,2097157)
-p("TropicalRockSharp_01",209798,181095,4353,12941,81,671,-186,4036,3200,2097237)
-p("TropicalRockAssemblySand_04",210649,180401,3925,32,2097156)
-p("TropicalRockAssemblySand_01",210419,184189,13845,134,2097156)
-p("TropicalRockAssemblySand_03",214047,164886,9328,152,2097156)
-p("TropicalRockAssemblySand_04",215898,167031,5050,14638,250,2097157)
-p("TropicalRockAssemblySand_03",216792,167928,21343,169,2097156)
-p("TropicalRockAssemblySand_03",219250,165784,2978,57,2097156)
-p("TropicalRockAssemblySand_02",217576,170846,4380,197,2097156)
-p("TropicalRockAssemblySand_03",219771,171008,14765,187,2097156)
-p("TropicalRockAssemblySand_03",214190,175646,15682,12,2097156)
-p("TropicalRockAssemblySand_04",214855,179645,8242,155,2097156)
-p("TropicalRockAssemblySand_03",220255,175562,7792,31,2097156)
-p("TropicalRockAssemblySand_01",225274,164867,5673,51,2097156)
-p("TropicalRockAssemblySand_02",222242,172958,12274,132,2097156)
-p("TropicalRockAssemblySand_04",224490,175710,6587,10,2097156)
-p("TropicalRockAssemblySand_03",227373,176769,10630,216,2097156)
-p("TropicalRockAssemblySand_04",229228,179862,14032,46,2097156)
-p("TropicalRockAssemblySand_03",215125,185014,15217,56,2097156)
-p("TropicalRockAssemblySand_04",220526,180437,6449,175,2097156)
-p("TropicalRockAssemblySand_03",219395,187472,6787,191,2097156)
-p("TropicalRockAssemblySand_04",220451,189231,11944,103,2097156)
-p("TropicalRockAssemblySand_04",220330,193921,5643,19834,180,2097157)
-p("TropicalRockAssemblySand_02",224738,182633,7317,103,2097156)
-p("TropicalRockAssemblySand_01",225642,184631,8179,33,2097156)
-p("TropicalRockAssemblySand_04",229021,185665,14357,157,2097156)
-p("TropicalRockAssemblySand_02",221480,195567,5743,18878,93,2097157)
-p("TropicalRockAssemblySand_01",225518,194866,7721,36,2097156)
-p("TropicalRockAssemblySand_02",235242,184093,17268,124,2097156)
-p("TropicalRockAssemblySand_04",230457,194802,11971,51,2097156)
-p("TropicalRockAssemblySand_03",235994,194748,4000,26,2097156)
-p("TropicalRockAssemblySand_04",239986,185692,5837,157,2097156)
-p("TropicalRockAssemblySand_01",240428,190370,3963,40,2097156)
-p("TropicalRockAssemblySand_01",239540,194644,15935,128,2097156)
+p("TropicalRockSharp_01",209798,181095,4353,12941,81,671,-186,4036,3200,"terrainchunk",10,0,0,40,60,10,40,60,2228309)
+p("TropicalRockAssembly_02",204853,190313,8394,546,-3844,-1388,266,"terrainchunk",10,0,0,40,60,10,40,60,2228241)
+p("SavannaPlant_Bush_01",206522,190986,8363,3733,43,4280954163,2097165)
+p("SavannaPlant_Bush_05",207426,191486,8292,12165,37,4280823592,2097165)
+p("TropicalRockAssembly_02",208279,191702,8302,546,-3844,-1388,266,"terrainchunk",10,0,0,40,60,10,40,60,2228241)
+p("TropicalRockAssembly_02",210571,192973,8166,546,-3844,-1388,266,"terrainchunk",10,0,0,40,60,10,40,60,2228241)
+p("TropicalRockAssembly_02",211580,194160,8176,21439,-1607,-1947,3225,"terrainchunk",10,0,0,40,60,10,40,60,2228241)
+p("TropicalRockAssembly_02",212042,193615,8140,21207,2659,-2904,1125,"terrainchunk",10,0,0,40,60,10,40,60,2228241)
+p("TropicalRockAssembly_02",212848,194918,8065,829,-637,4000,605,"terrainchunk",10,0,0,40,60,10,40,60,2228241)
+p("TropicalRockAssembly_01",213813,195638,7682,11421,126,398,239,4069,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("SavannaPlant_Bush_03",196955,198306,12379,44,4281674285,2097164)
 p("SavannaPlant_Bush_04",201341,204666,7071,44,4280823343,2097164)
 p("SavannaPlant_Bush_08",197637,205033,5762,41,4280954155,2097164)
@@ -87767,7 +87060,8 @@ p("TropicalPlant_Grass_02",212743,224574,7423,110,4281676335,2097164)
 p("TropicalPlant_Grass_02",211162,225630,15036,94,4281086256,2097164)
 p("TropicalPlant_Grass_02",212235,226143,15814,90,4281084213,2097164)
 p("TropicalPlant_Grass_02",212775,225925,12906,89,4280955438,2097164)
-p("TropicalCliffSharp_03",215400,197400,4900,1)
+p("TropicalRockAssembly_01",213859,198056,7682,10280,126,52,-140,4093,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalCliffSharp_03",215400,197400,4900,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalRockSharp_01",217350,203339,3987,17601,250,190,1080,3946,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockAssembly_04",216519,207370,5090,6562,116,4284044629,3200,"terrainchunk",0,0,0,86,100,6,40,60,47,27,10616909)
 p("TropicalRockAssembly_04",216939,208353,5023,11348,128,4284044629,3200,"terrainchunk",0,0,0,86,100,6,40,60,47,27,10616909)
@@ -87805,7 +87099,7 @@ p("TropicalPlant_Grass_04",218285,212867,11979,89,4281152297,2097164)
 p("TropicalPlant_Grass_04",218633,212897,9066,92,4281478955,2097164)
 p("TropicalPlant_Grass_02",219534,212374,6594,104,4280955690,2097164)
 p("TropicalRockSharp_01",224182,203739,-940,12335,231,842,338,3994,3200,2097237)
-p("TropicalRockSharp_01",225167,202802,6112,11922,139,-917,3947,597,3200,2097237)
+p("TropicalRockSharp_01",225167,202802,6112,11922,139,-917,3947,597,3200,"terrainchunk",10,0,0,40,60,10,40,60,2228309)
 p("ParSystem",227986,201250,5800,20128,111,"Splashes_Waves",270532613)
 p("TropicalPlant_Grass_01",213158,213978,4927,89,4280955433,2097164)
 p("TropicalPlant_Grass_04",213812,214214,1492,85,4281674029,2097164)
@@ -88677,7 +87971,7 @@ p("TropicalPlant_Grass_01",228000,262000,18607,103,4281281841,2097164)
 p("TropicalPlant_Grass_01",229000,261000,20051,95,4280822831,2097164)
 p("TropicalPlant_Grass_01",229000,262000,17737,4280953388,2097160)
 p("ParSystem",232800,209343,5800,20413,130,"Splashes_Waves",270532613)
-p("TropicalRockSharp_01",234465,205291,-1640,15566,231,2863,373,2905,3200,2097237)
+p("TropicalRockSharp_01",234465,205291,-1640,15566,231,2863,373,2905,3200,"terrainchunk",10,0,0,40,60,10,40,60,2228309)
 p("TropicalRockSharp_02",240257,209687,4843,13864,231,2998,-1957,1989,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharp_01",241802,210402,10614,7264,231,-1868,1291,3408,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharp_02",230811,213562,13186,8507,231,-2138,3197,1407,"terrainchunk",10,0,0,84,100,10,40,60,2228245)

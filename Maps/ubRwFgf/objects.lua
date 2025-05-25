@@ -4227,8 +4227,8 @@ PlaceObj('AmbientZoneMarker', {
 	'SpawnDefs', {
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerFemale",
-			'CountMin', 4,
-			'CountMax', 4,
+			'CountMin', 1,
+			'CountMax', 2,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerFemale_2",
@@ -4776,8 +4776,8 @@ PlaceObj('AmbientZoneMarker', {
 	'SpawnDefs', {
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerFemale",
-			'CountMin', 4,
-			'CountMax', 4,
+			'CountMin', 2,
+			'CountMax', 2,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerFemale_2",
@@ -4786,8 +4786,8 @@ PlaceObj('AmbientZoneMarker', {
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerMale_2",
-			'CountMin', 3,
-			'CountMax', 3,
+			'CountMin', 1,
+			'CountMax', 1,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerMale",
@@ -5479,7 +5479,7 @@ PlaceObj('CustomInteractable', {
 	},
 }, nil, 1415793634)
 PlaceObj('AmbientZoneMarker', {
-	'Pos', point(84600, 221400, 6300),
+	'Pos', point(85800, 222600, 6300),
 	'Groups', {
 		"AmbietLife_North",
 	},
@@ -5490,18 +5490,18 @@ PlaceObj('AmbientZoneMarker', {
 	'SpawnDefs', {
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerFemale",
-			'CountMin', 4,
-			'CountMax', 4,
+			'CountMin', 1,
+			'CountMax', 2,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerFemale_2",
-			'CountMin', 2,
+			'CountMin', 1,
 			'CountMax', 2,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerMale_2",
-			'CountMin', 3,
-			'CountMax', 3,
+			'CountMin', 1,
+			'CountMax', 2,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerMale",
@@ -6203,7 +6203,7 @@ PlaceObj('AmbientZoneMarker', {
 	'SpawnDefs', {
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerFemale",
-			'CountMin', 4,
+			'CountMin', 1,
 			'CountMax', 4,
 		}),
 		PlaceObj('AmbientSpawnDef', {
@@ -6213,8 +6213,8 @@ PlaceObj('AmbientZoneMarker', {
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerMale_2",
-			'CountMin', 3,
-			'CountMax', 3,
+			'CountMin', 1,
+			'CountMax', 2,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerMale",
@@ -6558,18 +6558,18 @@ PlaceObj('AmbientZoneMarker', {
 	'SpawnDefs', {
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerFemale",
-			'CountMin', 4,
-			'CountMax', 4,
+			'CountMin', 1,
+			'CountMax', 1,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerFemale_2",
-			'CountMin', 2,
-			'CountMax', 2,
+			'CountMin', 1,
+			'CountMax', 1,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerMale_2",
-			'CountMin', 3,
-			'CountMax', 3,
+			'CountMin', 1,
+			'CountMax', 2,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerMale",
@@ -7521,12 +7521,12 @@ PlaceObj('AmbientZoneMarker', {
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerFemale_2",
-			'CountMin', 2,
+			'CountMin', 1,
 			'CountMax', 2,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerMale_2",
-			'CountMin', 3,
+			'CountMin', 1,
 			'CountMax', 3,
 		}),
 		PlaceObj('AmbientSpawnDef', {
@@ -7613,8 +7613,8 @@ PlaceObj('AmbientZoneMarker', {
 	'SpawnDefs', {
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerFemale",
-			'CountMin', 4,
-			'CountMax', 4,
+			'CountMin', 1,
+			'CountMax', 3,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerFemale_2",
@@ -7695,13 +7695,13 @@ PlaceObj('AmbientZoneMarker', {
 	'SpawnDefs', {
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerFemale",
-			'CountMin', 4,
-			'CountMax', 4,
+			'CountMin', 1,
+			'CountMax', 1,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerFemale_2",
-			'CountMin', 2,
-			'CountMax', 2,
+			'CountMin', 1,
+			'CountMax', 1,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerMale_2",
@@ -7887,8 +7887,8 @@ PlaceObj('AmbientZoneMarker', {
 	'SpawnDefs', {
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerFemale",
-			'CountMin', 4,
-			'CountMax', 4,
+			'CountMin', 1,
+			'CountMax', 1,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerFemale_2",
@@ -7897,13 +7897,13 @@ PlaceObj('AmbientZoneMarker', {
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerMale_2",
-			'CountMin', 3,
-			'CountMax', 3,
+			'CountMin', 1,
+			'CountMax', 1,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerMale",
 			'CountMin', 1,
-			'CountMax', 1,
+			'CountMax', 2,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerMale_3",
@@ -7967,8 +7967,8 @@ PlaceObj('AmbientZoneMarker', {
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerFemale_2",
-			'CountMin', 2,
-			'CountMax', 2,
+			'CountMin', 1,
+			'CountMax', 1,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerMale_2",
@@ -8131,17 +8131,17 @@ PlaceObj('AmbientZoneMarker', {
 	'SpawnDefs', {
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerFemale",
-			'CountMin', 4,
+			'CountMin', 1,
 			'CountMax', 4,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerFemale_2",
-			'CountMin', 2,
+			'CountMin', 1,
 			'CountMax', 2,
 		}),
 		PlaceObj('AmbientSpawnDef', {
 			'UnitDef', "VillagerMale_2",
-			'CountMin', 3,
+			'CountMin', 1,
 			'CountMax', 3,
 		}),
 		PlaceObj('AmbientSpawnDef', {
@@ -90877,21 +90877,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "West",
 }, nil, 1547363177)
-PlaceObj('AL_PlayAnimVariation', {
-	'Entity', "Male_Body_01",
-	'Pos', point(196217, 124166, 6912),
-	'Angle', 21414,
-	'Groups', {
-		"Ambient_Seawalk",
-	},
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'ApplyToGrids', true,
-	'AllowedMask', 4294966497,
-	'anim', "civ_Ambient_LookingWall",
-	'VisitIdle', "civ_Ambient_LookingWall",
-	'AttractGender', "Male",
-}, nil, 1440723473)
 PlaceObj('WallSlab', {
 	'Pos', point(192600, 128400, 7000),
 	'Angle', 16200,
@@ -135282,18 +135267,6 @@ PlaceObj('Shanty_WallDecorTin_01', {
 	'CollectionIndex', 2799,
 	'AllowedMask', 4294967215,
 }, nil, 1153576486)
-PlaceObj('AL_Roam', {
-	'Entity', "NPCCostumeFemale_Shirt_01",
-	'Pos', point(150695, 186415, 6946),
-	'Angle', 13226,
-	'ColorModifier', RGBA(0, 255, 0, 255),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'anim', "civ_Ambient_LookingWall",
-	'VisitIdle', "civ_Ambient_LookingWall",
-	'VisitMinDuration', 30000,
-}, nil, 1776327174)
 PlaceObj('Shanty_WallDecorTin_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(27, 24, 24, 255),
@@ -136597,6 +136570,9 @@ PlaceObj('AL_WallLean', {
 	'Entity', "Male_Body_01",
 	'Pos', point(162600, 192600),
 	'Angle', 5400,
+	'Groups', {
+		"Closest AmbientZoneMarker",
+	},
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
