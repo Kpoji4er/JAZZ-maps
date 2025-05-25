@@ -979,6 +979,96 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 20,
 }, nil, 1042368594)
 PlaceObj('UnitMarker', {
+	'Pos', point(90600, 111000, 7000),
+	'Angle', 5400,
+	'Groups', {
+		"BunkerReinforcements",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "West",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "ErnieSideQuests",
+			Vars = set( "RustReinforcmentsSpawn" ),
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "04_Betrayal",
+			Vars = set( "TCE_WorldFlipDone" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionManiac_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionManiac",
+		}),
+	},
+}, nil, 1668679170)
+PlaceObj('UnitMarker', {
+	'Pos', point(90600, 113400, 7000),
+	'Angle', 5400,
+	'Groups', {
+		"BunkerReinforcements",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "West",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "ErnieSideQuests",
+			Vars = set( "RustReinforcmentsSpawn" ),
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "04_Betrayal",
+			Vars = set( "TCE_WorldFlipDone" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionGoon",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionGoon",
+		}),
+	},
+}, nil, 1190695476)
+PlaceObj('UnitMarker', {
+	'Pos', point(91800, 113400, 7000),
+	'Angle', 5400,
+	'Groups', {
+		"BunkerReinforcements",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "West",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "ErnieSideQuests",
+			Vars = set( "RustReinforcmentsSpawn" ),
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "04_Betrayal",
+			Vars = set( "TCE_WorldFlipDone" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionGrenadir",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionGrenadier",
+		}),
+	},
+}, nil, 1748342658)
+PlaceObj('UnitMarker', {
 	'Pos', point(93000, 111000, 7000),
 	'Groups', {
 		"BunkerReinforcements",
@@ -1890,266 +1980,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1247255740)
-PlaceObj('ExitZoneInteractable', {
-	'Pos', point(146873, 71053, 7924),
-	'Angle', 10800,
-	'Groups', {
-		"South",
-	},
-	'AllowedMask', 4294966497,
-	'entity', "TravelMarker_05",
-}, nil, 1344336968)
-PlaceObj('GridMarker', {
-	'Pos', point(147000, 75000, 7700),
-	'Angle', 5400,
-	'Groups', {
-		"South",
-	},
-	'AllowedMask', 4294966497,
-	'Type', "Entrance",
-	'AreaWidth', 4,
-	'AreaHeight', 10,
-}, nil, 1655026465)
-PlaceObj('UnitMarker', {
-	'Pos', point(144600, 85800, 7000),
-	'Angle', 5400,
-	'Groups', {
-		"BunkerReinforcements",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
-	'Spawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "ErnieSideQuests",
-			Vars = set( "RustReinforcmentsSpawn" ),
-		}),
-	},
-	'Despawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "04_Betrayal",
-			Vars = set( "TCE_WorldFlipDone" ),
-		}),
-	},
-	'CollectionRange', 15000,
-	'Appearance', "Legion_Stormer",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
-		}),
-	},
-}, nil, 1865322060)
-PlaceObj('UnitMarker', {
-	'Pos', point(145800, 82200, 7000),
-	'Angle', 5400,
-	'Groups', {
-		"BunkerReinforcements",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
-	'Spawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "ErnieSideQuests",
-			Vars = set( "RustReinforcmentsSpawn" ),
-		}),
-	},
-	'Despawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "04_Betrayal",
-			Vars = set( "TCE_WorldFlipDone" ),
-		}),
-	},
-	'CollectionRange', 15000,
-	'Appearance', "LegionManiac_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
-		}),
-	},
-}, nil, 1620607656)
-PlaceObj('UnitMarker', {
-	'Pos', point(147000, 84600, 7000),
-	'Angle', 5400,
-	'Groups', {
-		"BunkerReinforcements",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
-	'Spawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "ErnieSideQuests",
-			Vars = set( "RustReinforcmentsSpawn" ),
-		}),
-	},
-	'Despawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "04_Betrayal",
-			Vars = set( "TCE_WorldFlipDone" ),
-		}),
-	},
-	'CollectionRange', 15000,
-	'Appearance', "LegionSniper_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSniper",
-		}),
-	},
-}, nil, 1861292795)
-PlaceObj('UnitMarker', {
-	'Pos', point(150600, 81000, 7000),
-	'Angle', 5400,
-	'Groups', {
-		"BunkerReinforcements",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
-	'Spawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "ErnieSideQuests",
-			Vars = set( "RustReinforcmentsSpawn" ),
-		}),
-	},
-	'Despawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "04_Betrayal",
-			Vars = set( "TCE_WorldFlipDone" ),
-		}),
-	},
-	'CollectionRange', 15000,
-	'Appearance', "LegionManiac_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
-		}),
-	},
-}, nil, 1139530389)
-PlaceObj('UnitMarker', {
-	'Pos', point(148200, 83400, 7000),
-	'Angle', 5400,
-	'Groups', {
-		"BunkerReinforcements",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
-	'Spawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "ErnieSideQuests",
-			Vars = set( "RustReinforcmentsSpawn" ),
-		}),
-	},
-	'Despawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "04_Betrayal",
-			Vars = set( "TCE_WorldFlipDone" ),
-		}),
-	},
-	'CollectionRange', 15000,
-	'Appearance', "LegionGrenadir",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGrenadier",
-		}),
-	},
-}, nil, 1476868778)
-PlaceObj('UnitMarker', {
-	'Pos', point(150600, 83400, 7000),
-	'Angle', 5400,
-	'Groups', {
-		"BunkerReinforcements",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
-	'Spawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "ErnieSideQuests",
-			Vars = set( "RustReinforcmentsSpawn" ),
-		}),
-	},
-	'Despawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "04_Betrayal",
-			Vars = set( "TCE_WorldFlipDone" ),
-		}),
-	},
-	'CollectionRange', 15000,
-	'Appearance', "LegionGoon",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
-		}),
-	},
-}, nil, 1072442653)
-PlaceObj('UnitMarker', {
-	'Pos', point(148200, 87000, 7000),
-	'Angle', 5400,
-	'Groups', {
-		"BunkerReinforcements",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
-	'Spawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "ErnieSideQuests",
-			Vars = set( "RustReinforcmentsSpawn" ),
-		}),
-	},
-	'Despawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "04_Betrayal",
-			Vars = set( "TCE_WorldFlipDone" ),
-		}),
-	},
-	'CollectionRange', 15000,
-	'Appearance', "LegionScout_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
-		}),
-	},
-}, nil, 1651317735)
-PlaceObj('UnitMarker', {
-	'Pos', point(151800, 83400, 7000),
-	'Angle', 5400,
-	'Groups', {
-		"BunkerReinforcements",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
-	'Spawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "ErnieSideQuests",
-			Vars = set( "RustReinforcmentsSpawn" ),
-		}),
-	},
-	'Despawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "04_Betrayal",
-			Vars = set( "TCE_WorldFlipDone" ),
-		}),
-	},
-	'CollectionRange', 15000,
-	'Appearance', "LegionGrenadir",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGrenadier",
-		}),
-	},
-}, nil, 1744749964)
 PlaceObj('HerbMarker', {
 	'Pos', point(142200, 123000),
 	'Angle', 5400,
@@ -2527,6 +2357,36 @@ PlaceObj('TrapSpawnMarker', {
 	'triggerChance', "Hard",
 }, nil, 1475262968)
 PlaceObj('UnitMarker', {
+	'Pos', point(216600, 103800, 7000),
+	'Angle', 5400,
+	'Groups', {
+		"BunkerReinforcements",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "West",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "ErnieSideQuests",
+			Vars = set( "RustReinforcmentsSpawn" ),
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "04_Betrayal",
+			Vars = set( "TCE_WorldFlipDone" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionManiac_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionManiac",
+		}),
+	},
+}, nil, 1254399609)
+PlaceObj('UnitMarker', {
 	'Pos', point(220200, 106200, 7000),
 	'Angle', 10800,
 	'Groups', {
@@ -2556,6 +2416,66 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1743120849)
+PlaceObj('UnitMarker', {
+	'Pos', point(215400, 107400, 7000),
+	'Angle', 5400,
+	'Groups', {
+		"BunkerReinforcements",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "West",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "ErnieSideQuests",
+			Vars = set( "RustReinforcmentsSpawn" ),
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "04_Betrayal",
+			Vars = set( "TCE_WorldFlipDone" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Stormer",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionButcher",
+		}),
+	},
+}, nil, 1381469220)
+PlaceObj('UnitMarker', {
+	'Pos', point(219000, 108600, 7000),
+	'Angle', 5400,
+	'Groups', {
+		"BunkerReinforcements",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "West",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "ErnieSideQuests",
+			Vars = set( "RustReinforcmentsSpawn" ),
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "04_Betrayal",
+			Vars = set( "TCE_WorldFlipDone" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionScout_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionScout",
+		}),
+	},
+}, nil, 1200719656)
 PlaceObj('UnitMarker', {
 	'Pos', point(220200, 108600, 7000),
 	'Angle', 10800,
@@ -2676,6 +2596,66 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1701083714)
+PlaceObj('UnitMarker', {
+	'Pos', point(222600, 106200, 7000),
+	'Angle', 5400,
+	'Groups', {
+		"BunkerReinforcements",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "West",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "ErnieSideQuests",
+			Vars = set( "RustReinforcmentsSpawn" ),
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "04_Betrayal",
+			Vars = set( "TCE_WorldFlipDone" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionSniper_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionSniper",
+		}),
+	},
+}, nil, 1191672022)
+PlaceObj('UnitMarker', {
+	'Pos', point(223800, 105000, 7000),
+	'Angle', 5400,
+	'Groups', {
+		"BunkerReinforcements",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "West",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "ErnieSideQuests",
+			Vars = set( "RustReinforcmentsSpawn" ),
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "04_Betrayal",
+			Vars = set( "TCE_WorldFlipDone" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionGrenadir",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionGrenadier",
+		}),
+	},
+}, nil, 1323395424)
 PlaceObj('UnitMarker', {
 	'Pos', point(221400, 107400, 7000),
 	'Angle', 10800,
@@ -19912,6 +19892,12 @@ PlaceObj('TropicalFillerPlants_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1162266094)
+PlaceObj('TropicalPlant_02_Tree_01', {
+	'Pos', point(144910, 79681),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1787381418)
 PlaceObj('TropicalPlant_04_Tree_01', {
 	'Pos', point(131122, 87801),
 	'Angle', 3116,
@@ -20193,8 +20179,22 @@ PlaceObj('TropicalFillerPlants_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1145496776)
+PlaceObj('TropicalPlant_02_Tree_02', {
+	'Pos', point(144478, 86942, 6950),
+	'Scale', 97,
+	'ForcedLODState', "Minimum",
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1451108221)
 PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(139810, 90146, 7000),
+	'Pos', point(145463, 89429, 6950),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1352857989)
+PlaceObj('TropicalPlant_02_Tree_01', {
+	'Pos', point(139796, 90146, 7000),
 	'Scale', 72,
 	'ForcedLODState', "Minimum",
 	'Saturation', 0,
@@ -20227,6 +20227,23 @@ PlaceObj('TropicalFillerPlants_01', {
 	'AllowedMask', 0,
 }, nil, 1466880876)
 PlaceObj('TropicalPlant_02_Tree_01', {
+	'Pos', point(144512, 90637, 6602),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1822430575)
+PlaceObj('TropicalPlant_02_Tree_01', {
+	'Pos', point(145837, 95835, 6950),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1204444354)
+PlaceObj('Mist', {
+	'Pos', point(147199, 95989, 6693),
+	'AllowedMask', 4294966497,
+	'Preset', "Jungle_Mist",
+}, nil, 1807001338)
+PlaceObj('TropicalPlant_02_Tree_01', {
 	'Pos', point(151081, 69477),
 	'Angle', 16603,
 	'Scale', 84,
@@ -20235,6 +20252,21 @@ PlaceObj('TropicalPlant_02_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1170995535)
+PlaceObj('TropicalPlant_04_Tree_02', {
+	'Pos', point(148103, 81165),
+	'Angle', 16200,
+	'Scale', 138,
+	'ForcedLODState', "Minimum",
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1378468330)
+PlaceObj('TropicalPlant_02_Tree_01', {
+	'Pos', point(150505, 79592),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1845423377)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(154333, 75957),
 	'Angle', 16860,
@@ -20412,6 +20444,36 @@ PlaceObj('TropicalPlant_02_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1468998143)
+PlaceObj('TropicalFillerPlants_02', {
+	'Pos', point(148275, 85144, 6693),
+	'Angle', 10396,
+	'Axis', point(345, -319, 4068),
+	'ForcedLODState', "Minimum",
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1507410298)
+PlaceObj('TropicalFillerPlants_01', {
+	'Pos', point(149931, 86196, 6693),
+	'Angle', 19031,
+	'ForcedLODState', "Minimum",
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1711118215)
+PlaceObj('Mist', {
+	'Pos', point(151204, 88253, 6693),
+	'AllowedMask', 4294966497,
+	'Preset', "Jungle_Mist",
+}, nil, 1005865233)
+PlaceObj('TropicalPlant_02_Tree_01', {
+	'Pos', point(151652, 82230, 7026),
+	'Scale', 72,
+	'ForcedLODState', "Minimum",
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1800476644)
 PlaceObj('TropicalFillerPlants_01', {
 	'Pos', point(151956, 87401, 6950),
 	'Angle', 1080,
@@ -20431,6 +20493,23 @@ PlaceObj('TropicalFillerPlants_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1231106107)
+PlaceObj('TropicalFillerPlants_01', {
+	'Pos', point(149557, 95446, 6693),
+	'Angle', 3957,
+	'ForcedLODState', "Minimum",
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1130692899)
+PlaceObj('TropicalFillerPlants_02', {
+	'Pos', point(151086, 94216, 6693),
+	'Angle', 16864,
+	'Axis', point(724, 149, 4029),
+	'ForcedLODState', "Minimum",
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1764617166)
 PlaceObj('TropicalFillerPlants_01', {
 	'DetailClass', "Eye Candy",
 	'Pos', point(152096, 93396, 6950),
@@ -21312,6 +21391,12 @@ PlaceObj('TropicalPlant_Liana_04', {
 	'CollectionIndex', 507,
 	'AllowedMask', 0,
 }, nil, 1723938466)
+PlaceObj('TropicalPlant_02_Tree_01', {
+	'Pos', point(150190, 103553, 6950),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1790865415)
 PlaceObj('TropicalPlant_02_Tree_01', {
 	'Pos', point(152025, 98837),
 	'Saturation', 0,
@@ -31744,6 +31829,17 @@ PlaceObj('Shanty_OvenProp_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1597628721)
+PlaceObj('WW2_SandBag_07', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(52, 45, 41, 255),
+	'EditableColor2', RGBA(69, 58, 39, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(147136, 158833, 6847),
+	'Angle', 6300,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1667760057)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(145628, 162317, 7648),
 	'Angle', 17040,
@@ -36305,6 +36401,17 @@ PlaceObj('Shanty_WallDecor_04', {
 	'CollectionIndex', 854,
 	'AllowedMask', 0,
 }, nil, 1064091205)
+PlaceObj('WW2_SandBag_07', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(52, 45, 41, 255),
+	'EditableColor2', RGBA(69, 58, 39, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(161278, 167373, 6948),
+	'Angle', 5645,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1483579686)
 PlaceObj('BunkerInterior_Desk_01', {
 	'Pos', point(160200, 168600),
 	'Angle', 16200,
@@ -49751,9 +49858,6 @@ p("TropicalPlant_04_Shrub_02",132685,40774,2100,151,-1001,1263,3766,3264,2097236
 p("TropicalPlant_04_Shrub_02",134566,38112,19260,161,3264,1564,2097476)
 p("TropicalPlant_04_Shrub_01",138504,37862,20269,148,3264,2097220)
 p("TropicalPlant_04_Shrub_01",137463,40405,3420,195,-705,1238,3840,3264,2097236)
-p("DecTyreTracksBrown_01",132038,45281,14534,3200,2097216)
-p("DecTyreTracksBrown_01",133447,47944,3187,111,3200,2097220)
-p("DecTyreTracksBrown_01",133663,48022,4033,111,3200,2097220)
 p("TropicalPlant_04_Shrub_01",138539,42701,11640,103,3264,3320,2097476)
 p("TropicalPlant_04_Shrub_01",139892,34638,20520,108,-1322,3470,1730,3264,2097236)
 p("TropicalPlant_04_Shrub_01",140297,35962,469,145,3264,2097220)
@@ -49794,9 +49898,6 @@ p("TropicalPlant_04_Sapling_04",133247,57048,6060,67,560,-425,4035,3200,2097236)
 p("TropicalPlant_04_Sapling_04",133752,56619,20520,76,-2716,-783,2965,3200,2097236)
 p("TropicalPlant_04_Sapling_04",133820,57185,16440,78,-383,-612,4032,3200,2097236)
 p("TropicalPlant_04_Sapling_04",134793,57090,1140,67,2178,130,3466,3200,2097236)
-p("DecTyreTracksBrown_01",135191,50155,3107,113,3200,2097220)
-p("DecTyreTracksBrown_03",137244,52469,4277,123,-320,4082,3200,2097232)
-p("DecTyreTracksBrown_03",138850,54820,15325,3200,2097216)
 p("TropicalPlant_04_Sapling_04",132451,57654,5400,74,1175,-527,3888,3200,2097236)
 p("TropicalPlant_04_Sapling_04",132770,60348,2700,73,3841,1320,532,3200,2097236)
 p("TropicalPlant_04_Sapling_04",133166,58341,11580,81,304,-954,3972,3200,2097236)
@@ -49823,7 +49924,6 @@ p("TropicalPlant_04_Shrub_02",138180,62380,0)
 p("TropicalPlant_04_Shrub_01",137870,63007,0)
 p("TropicalPlant_04_Shrub_02",138659,62319,0)
 p("TropicalPlant_04_Shrub_02",138433,63818,0)
-p("DecTyreTracksBrown_01",140297,56982,14918,3200,2097216)
 p("TropicalRockSharp_01",143024,53317,6479,8472,200,253,741,4020,3200,2097237)
 p("TropicalPlant_04_Shrub_01",144355,49992,11640,110,3264,3320,2097476)
 p("TropicalRockSharp_04",146082,50667,13140,116,3200,3320,2097476)
@@ -49834,12 +49934,7 @@ p("TropicalPlant_04_Sapling_01",145751,56455,127,4)
 p("TropicalPlant_04_Shrub_01",146039,57251,181,4)
 p("TropicalPlant_04_Shrub_01",146624,56384,58,4)
 p("TropicalPlant_04_Shrub_01",146799,57191,52,4)
-p("DecTyreTracksBrown_03",141500,59272,6517,3200,2097216)
-p("DecTyreTracksBrown_05",141496,60196,4404,3200,2097216)
-p("DecTyreTracksBrown_01",141857,61128,14777,3200,2097216)
 p("TropicalPlant_04_Shrub_01",139395,62865,0)
-p("DecTyreTracksBrown_06",142080,63220,4510,3200,2097216)
-p("DecTyreTracksBrown_01",142836,63624,14777,3200,2097216)
 p("TropicalPlant_04_Sapling_01",144609,57521,69,4)
 p("TropicalPlant_04_Shrub_01",144736,59115,45,4)
 p("TropicalPlant_01_Sapling",145150,60026,51,4)
@@ -50178,6 +50273,7 @@ p("TropicalPlant_04_Shrub_02",137008,74539,0)
 p("TropicalPlant_04_Shrub_02",136339,74975,0)
 p("TropicalPlant_04_Shrub_02",137633,74065,0)
 p("TropicalPlant_04_Shrub_01",139163,74085,0)
+p("TropicalRockSharp_02",138250,75203,8438,6038,200,-589,2155,3432,2097173)
 p("TropicalPlant_04_Shrub_02",138315,75190,0)
 p("TropicalPlant_04_Shrub_02",137705,76210,0)
 p("TropicalPlant_01_Sapling",135480,78608,63,4)
@@ -50201,7 +50297,6 @@ p("TropicalPlant_04_Shrub_01",139407,69601,0)
 p("TropicalPlant_04_Shrub_01",140027,69501,0)
 p("TropicalPlant_04_Shrub_02",140409,69486,0)
 p("TropicalPlant_04_Shrub_02",140616,69381,0)
-p("TropicalRockSharp_02",139317,70289,8438,10260,200,-1414,988,3714,2097173)
 p("TropicalPlant_04_Shrub_01",140988,69919,0)
 p("TropicalPlant_04_Shrub_01",141170,70274,0)
 p("TropicalPlant_04_Shrub_01",140459,71170,0)
@@ -50216,25 +50311,17 @@ p("TropicalPlant_04_Shrub_01",141518,70463,0)
 p("TropicalPlant_04_Shrub_02",141827,71212,0)
 p("TropicalPlant_04_Shrub_01",142181,72003,0)
 p("TropicalPlant_04_Shrub_01",142015,73453,0)
-p("DecTyreTracksBrown_01",144053,66381,3430,111,3200,2097220)
-p("DecTyreTracksBrown_01",144266,66475,4276,111,3200,2097220)
 p("TropicalPlant_04_Shrub_01",146266,65600,150,4)
 p("TropicalPlant_01_Sapling",147177,65587,92,4)
 p("TropicalPlant_04_Sapling_04",147419,67318,120,4)
-p("DecTyreTracksBrown_01",145639,68711,3350,113,3200,2097220)
-p("DecTyreTracksBrown_03",144552,69835,17702,104,3200,2097220)
-p("DecTyreTracksBrown_03",144700,73051,6953,104,3200,2097220)
-p("DecTyreTracksBrown_03",146716,71959,17114,98,3200,2097220)
+p("TropicalRockSharp_02",145328,71842,4238,4979,200,-2274,643,3346,2097173)
 p("TropicalPlant_04_Shrub_01",141766,74135,0)
 p("TropicalPlant_04_Shrub_01",141418,74391,0)
 p("TropicalPlant_04_Shrub_02",142574,73981,0)
 p("TropicalPlant_04_Shrub_02",140595,80200,143,4)
 p("TropicalPlant_04_Shrub_01",141520,81228,180,4)
-p("DecTyreTracksBrown_01",146801,75145,16587,104,3200,2097220)
-p("DecTyreTracksBrown_03",145717,76259,4711,104,3200,2097220)
 p("DecJungleMud_02",146620,77692,16330,215,183,4086,3232,2097232)
 p("TropicalPlant_04_Sapling_04",143642,81065,12080,106,683,81,4038,3200,2097236)
-p("DecTyreTracksBrown_03",146823,78966,6494,104,3200,2097220)
 p("TropicalPlant_04_Shrub_01",132187,82606,41,4)
 p("TropicalPlant_04_Sapling_04",132364,83862,114,4)
 p("TropicalPlant_04_Shrub_01",132796,83424,163,4)
@@ -50358,9 +50445,6 @@ p("TropicalPlant_01_Sapling",141598,89650,95,4)
 p("DecBunker_ConcretePile_04",144019,83440,12572,3200,"terrainchunk",10,0,0,40,100,10,40,60,2228288)
 p("DecBunker_ConcretePile_05",145219,83440,6728,3200,"terrainchunk",10,0,0,40,100,10,40,60,2228288)
 p("DecPuddle_09",146418,83523,21175,128,4285019683,32,6,69206092)
-p("DecTyreTracksBrown_03",147088,82307,16971,104,3200,2097220)
-p("DecTyreTracksBrown_01",147358,85406,5649,101,3200,2097220)
-p("DecTyreTracksBrown_01",147141,88140,16332,104,3200,2097220)
 p("TropicalPlant_01_Sapling",139585,90507,38,4)
 p("TropicalPlant_04_Shrub_02",141011,91318,97,4)
 p("TropicalPlant_04_Sapling_01",140056,92984,144,4)
@@ -50385,16 +50469,23 @@ p("TropicalPlant_04_Sapling_04",143096,95557,14040,108,3200,2097220)
 p("TropicalPlant_04_Shrub_01",141476,96646,93,4)
 p("TropicalPlant_01_Sapling",141794,98023,54,4)
 p("TropicalPlant_04_Shrub_02",143416,91564,36,4)
+p("TropicalPlant_04_Shrub_01",144847,93342,6693,140,5)
 p("DecPuddle_09",145800,91974,10004,88,4285019683,32,6,69206092)
-p("DecTyreTracksBrown_01",146962,90458,16332,104,3200,2097220)
 p("DecPuddle_10",147316,90605,11955,88,4285019683,32,6,69206092)
-p("DecTyreTracksBrown_03",146731,91201,7020,104,3200,2097220)
-p("DecTyreTracksBrown_01",146794,92960,16332,104,3200,2097220)
-p("DecTyreTracksBrown_01",146716,94022,4865,104,3200,2097220)
+p("TropicalPlant_01_Sapling",146028,92507,6693,123,5)
+p("TropicalPlant_04_Sapling_01",145878,93513,6693,117,5)
+p("TropicalPlant_04_Shrub_01",146814,92528,6693,175,5)
 p("TropicalPlant_04_Shrub_01",143416,96764,6950,6000,89,3200,2097221)
+p("TropicalPlant_04_Sapling_01",144893,96638,6693,133,5)
 p("TropicalPlant_04_Sapling_04",144737,96933,15900,71,3200,2097220)
 p("TropicalPlant_04_Sapling_04",144535,98107,4560,80,3200,2097220)
-p("DecTyreTracksBrown_05",147440,97049,6950,4669,3200,2097217)
+p("TropicalPlant_04_Sapling_01",145668,94742,6693,144,5)
+p("TropicalPlant_04_Sapling_04",145942,95419,6693,4053,98,-101,50,4094,3200,2097237)
+p("TropicalPlant_01_Sapling",146800,94230,6693,62,5)
+p("TropicalPlant_04_Shrub_01",146943,94481,6693,72,5)
+p("TropicalPlant_04_Sapling_04",147176,94291,6693,3180,73,-2086,-270,3515,3200,2097237)
+p("TropicalPlant_04_Sapling_04",147400,94303,6693,8400,67,-699,687,3977,3200,2097237)
+p("TropicalPlant_01_Sapling",145643,96434,6693,96,5)
 p("TropicalPlant_04_Sapling_01",148424,66039,154,4)
 p("TropicalPlant_04_Sapling_04",148504,65666,85,4)
 p("TropicalPlant_04_Sapling_04",148484,66678,108,4)
@@ -50433,7 +50524,6 @@ p("TropicalPlant_04_Shrub_01",151240,74011,66,4)
 p("TropicalPlant_04_Shrub_01",151197,75592,56,4)
 p("TropicalPlant_04_Shrub_01",150099,75970,91,4)
 p("TropicalPlant_04_Shrub_01",150079,77143,137,4)
-p("DecTyreTracksBrown_03",147843,79334,15197,104,3200,2097220)
 p("TropicalPlant_04_Shrub_01",151213,78205,60,4)
 p("TropicalPlant_04_Shrub_01",152341,74452,72,4)
 p("TropicalPlant_04_Shrub_01",152180,75465,173,4)
@@ -50488,26 +50578,58 @@ p("TropicalPlant_04_Shrub_01",163422,79847,157,4)
 p("TropicalPlant_04_Shrub_01",161923,80358,97,4)
 p("TropicalRockSharp_04",162230,81148,6949,11040,174,-2565,-2918,1295,2,"terrainchunk",10,0,0,48,100,10,40,60,2228373)
 p("TropicalPlant_04_Shrub_01",163750,80211,175,4)
-p("DecTyreTracksBrown_03",148927,82531,17710,104,3200,2097220)
-p("DecTyreTracksBrown_04",147967,86932,6808,3200,2097216)
+p("TropicalPlant_04_Shrub_01",147702,85768,6693,15074,39,2097157)
+p("TropicalPlant_04_Sapling_04",148948,84787,6693,9652,106,348,-228,4074,3200,2097237)
+p("TropicalPlant_04_Shrub_01",149121,84494,6693,15074,63,2097157)
+p("TropicalPlant_04_Shrub_01",147899,86452,6693,15074,146,2097157)
+p("TropicalPlant_04_Sapling_04",149340,87976,6693,16678,76,706,-1162,3863,3200,2097237)
+p("TropicalPlant_04_Sapling_04",147734,88298,6693,15074,172,2097157)
+p("TropicalPlant_04_Sapling_04",148172,88308,6693,15074,167,2097157)
+p("TropicalPlant_04_Shrub_01",148051,89731,6693,15074,175,2097157)
+p("TropicalPlant_04_Shrub_01",150364,87352,6693,15074,173,2097157)
+p("TropicalPlant_01_Sapling",151289,87506,6693,15074,85,2097157)
+p("TropicalPlant_04_Shrub_02",149536,88071,6693,15074,138,2097157)
+p("TropicalPlant_04_Sapling_04",149888,88130,6693,12179,78,995,-270,3964,3200,2097237)
+p("TropicalPlant_04_Sapling_04",149544,88605,6693,2375,67,420,2686,3063,3200,2097237)
+p("TropicalPlant_04_Sapling_04",149603,88821,6693,17562,73,1154,-1238,3729,3200,2097237)
+p("TropicalPlant_04_Shrub_01",149858,88980,6693,15074,72,2097157)
+p("TropicalPlant_01_Sapling",149666,89197,6693,15074,62,2097157)
+p("TropicalPlant_04_Sapling_01",150515,90104,6693,15074,144,2097157)
 p("TropicalPlant_04_Sapling_04",151527,88628,6950,14052,103,3200,2097221)
 p("TropicalPlant_04_Sapling_04",150651,90007,6950,7307,102,3200,2097221)
+p("TropicalPlant_04_Sapling_04",151068,89626,6693,19124,98,28,-175,4092,3200,2097237)
 p("DecBunker_ConcretePile_05",152419,82240,6736,-296,-34,4085,3200,"terrainchunk",10,0,0,40,100,10,40,60,2228304)
 p("TropicalPlant_04_Sapling_04",154577,83021,7208,18659,126,301,141,4083,3200,2097237)
 p("TropicalPlant_04_Sapling_04",152503,86111,6950,14520,119,3200,2097221)
 p("TropicalPlant_04_Sapling_02",153365,86827,6950,5760,108,3200,2097221)
 p("TropicalPlant_04_Sapling_01",153237,87297,6950,10140,108,3200,2097221)
+p("TropicalPlant_01_Sapling",152126,89583,6693,15074,96,2097157)
 p("TropicalPlant_04_Shrub_01",152705,88675,130,4)
 p("TropicalPlant_04_Shrub_01",152711,89199,121,4)
 p("TropicalPlant_01_Sapling",155067,87446,6950,6180,116,3232,2097221)
 p("TropicalPlant_01_Sapling",154648,87710,6950,6120,101,3232,2097221)
 p("TropicalPlant_04_Shrub_02",155108,89120,150,4)
+p("TropicalPlant_01_Sapling",148284,90482,6693,15074,123,2097157)
+p("TropicalPlant_04_Sapling_01",149285,90300,6693,15074,117,2097157)
+p("TropicalPlant_04_Shrub_01",149455,91331,6693,15074,140,2097157)
+p("TropicalPlant_04_Sapling_04",148122,93100,6693,167,5)
+p("TropicalPlant_04_Sapling_04",148273,92689,6693,172,5)
+p("TropicalPlant_04_Shrub_01",149968,93439,6693,146,5)
+p("TropicalPlant_04_Shrub_01",150680,93472,6693,39,5)
+p("TropicalPlant_04_Shrub_02",147909,94468,6693,138,5)
+p("TropicalPlant_04_Sapling_04",147740,94783,6693,18300,78,1698,1383,3462,3200,2097237)
+p("TropicalPlant_04_Sapling_04",148062,94313,6693,2340,76,-2667,201,3102,3200,2097237)
+p("TropicalPlant_04_Shrub_01",148323,95484,6693,173,5)
+p("TropicalPlant_01_Sapling",147880,96311,6693,85,5)
 p("TropicalPlant_04_Shrub_01",150508,95252,6950,15080,118,2097157)
 p("TropicalPlant_04_Sapling_04",150969,94676,6950,8100,75,3200,2097221)
+p("TropicalPlant_04_Sapling_04",151207,94968,6693,16138,106,537,207,4055,3200,2097237)
+p("TropicalPlant_04_Shrub_01",151429,95226,6693,63,5)
 p("TropicalPlant_04_Sapling_04",150631,96260,6950,17760,80,3200,2097221)
 p("TropicalPlant_04_Sapling_04",151156,96322,12265,103,3200,2097220)
 p("TropicalPlant_04_Sapling_04",151080,97955,6950,5520,102,3200,2097221)
 p("TropicalPlant_04_Shrub_01",151631,90231,156,4)
+p("TropicalPlant_04_Sapling_01",152560,90228,6693,15074,133,2097157)
 p("TropicalPlant_04_Sapling_04",152248,91561,6950,10459,102,3200,2097221)
 p("TropicalPlant_04_Shrub_01",152800,91432,49,4)
 p("TropicalPlant_04_Shrub_02",151861,93225,6950,4280,118,2097157)
@@ -50699,6 +50821,7 @@ p("TropicalPlant_04_Shrub_01",140366,104724,79,4)
 p("TropicalPlant_01_Sapling",141992,102905,173,4)
 p("TropicalPlant_01_Sapling",142966,102987,104,4)
 p("TropicalPlant_01_Sapling",142796,103709,45,4)
+p("TropicalPlant_04_Shrub_01",144899,98602,6950,87,5)
 p("TropicalPlant_04_Sapling_04",144455,99581,6950,20160,76,3200,2097221)
 p("TropicalPlant_04_Sapling_04",143620,101471,159,4)
 p("DecPuddle_10",145914,99859,6950,20,88,4285019683,32,6,69206093)
@@ -50867,12 +50990,9 @@ p("TropicalPlant_04_Shrub_01",143458,129760,6950,17640,110,2097157)
 p("TropicalPlant_04_Sapling_04",145831,129239,13376,103,28,-176,4092,2097172)
 p("TropicalPlant_04_Sapling_04",147217,130346,20807,96,-3015,-2302,1544,2097172)
 p("DecPuddle_10",149330,99702,20849,124,4285019683,32,6,69206092)
-p("DecTyreTracksBrown_06",147612,101311,4775,3200,2097216)
 p("TropicalPlant_04_Sapling_04",151398,99074,14940,89,3200,2097220)
 p("DecBunker_ConcretePile_03",150670,101658,6948,6728,3200,"terrainchunk",10,0,0,40,100,10,40,60,2228289)
-p("DecTyreTracksBrown_01",147921,103107,6950,5217,3200,2097217)
-p("DecTyreTracksBrown_03",147739,105069,18061,2097152)
-p("DecTyreTracksBrown_03",148248,105901,6950,6288,86,2097157)
+p("DecPuddle_10",147725,105218,6950,20849,124,4285019683,32,6,69206093)
 p("TropicalPlant_04_Shrub_02",152835,98398,0)
 p("TropicalPlant_04_Shrub_01",152958,98681,177,4)
 p("TropicalPlant_01_Sapling",153224,100729,5860,9600,3200,2097217)
@@ -54453,10 +54573,10 @@ p("TropicalPlant_04_Shrub_01",154682,153295,6950,2160,73,2097157)
 p("TropicalPlant_01_Sapling",155451,152821,6174,15403,114,653,2097413)
 p("TropicalPlant_04_Shrub_01",155014,155643,6950,4920,64,2097157)
 p("TropicalPlant_04_Shrub_01",147754,157513,11520,88,2097156)
+p("TropicalPlant_04_Shrub_01",148030,156786,6952,2160,59,-313,102,4083,2097173)
 p("TropicalPlant_04_Shrub_01",148405,158095,2160,83,-112,36,4094,2097172)
 p("World_RockAssembly_03",148404,158791,6853,11029,-81,-113,4093,"terrainchunk",10,0,0,40,60,10,40,60,2228241)
 p("TropicalPlant_04_Sapling_04",148158,159359,6906,3684,98,2097157)
-p("TropicalPlant_04_Shrub_01",148671,158660,2160,59,-313,102,4083,2097172)
 p("World_RockAssembly_03",149282,158182,6945,16510,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("World_RockAssembly_03",149679,155803,6945,15739,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("DecTyreTracksBrown_04",151227,159727,15910,2097152)

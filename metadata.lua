@@ -7,17 +7,18 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4265,
+	'version', 4302,
 	'lua_revision', 233360,
-	'saved_with_revision', 350233,
+	'saved_with_revision', 366685,
 	'code', {
 		"Code/Disable Attack CAP.lua",
 		"Code/Rendomization Attack Time.lua",
+		"MapPatches/SetPieces/NewSetpiece_CPeNF5Y/FlagHillLanding.lua",
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1740406819,
-	'code_hash', 3886187561896124310,
+	'saved', 1748028889,
+	'code_hash', 7737044059959539532,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
@@ -1095,6 +1096,11 @@ return PlaceObj('ModDef', {
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
+			'Class', "MapDataPreset",
+			'Id', "pSwGPnp",
+			'Prop', "MapOrientation",
+		}),
+		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
 			'Id', "HotDiamonds_M4",
 			'ClassDisplayName', "Satellite sector",
@@ -1423,7 +1429,7 @@ return PlaceObj('ModDef', {
 			'Class', "LootDef",
 			'Id', "JazzMapContainer_M2_LootGraves",
 			'ClassDisplayName', "LootDef",
-			}),
+		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
 			'Id', "RebelHostage",
@@ -1433,7 +1439,6 @@ return PlaceObj('ModDef', {
 			'Class', "MapDataPreset",
 			'Id', "gsSMikN",
 			'Prop', "MapOrientation",
-			'ClassDisplayName', "Map",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ConstDef",
@@ -1479,6 +1484,19 @@ return PlaceObj('ModDef', {
 			'Class', "ConstDef",
 			'Id', "MercSquadMaxPeople",
 			'ClassDisplayName', "Constant",
+		}),
+		PlaceObj('ModResourceMap', {
+			'Map', "EPA7FVN",
+			'Objects', {
+				-7060595492719604132,
+				-5204600026592515455,
+				1340843430289419221,
+			},
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "SetpiecePrg",
+			'Id', "FlagHillLanding",
+			'ClassDisplayName', "Setpiece",
 		}),
 	},
 	'steam_id', "3322285655",

@@ -1,0 +1,38 @@
+{
+	{
+		Groups = false,
+		handle = 1064255835,
+		items = {},
+		map = "FEMnhRu",
+		name = "UnitMarker#835",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = false,
+		handle = 1119213603,
+		items = {},
+		map = "FEMnhRu",
+		name = "UnitMarker#603",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = false,
+		handle = 1122400112,
+		items = {},
+		map = "FEMnhRu",
+		name = "UnitMarker#112",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = false,
+		handle = 1151867212,
+		items = {},
+		map = "FEMnhRu",
+		name = "UnitMarker#212",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+}
