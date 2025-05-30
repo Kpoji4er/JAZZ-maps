@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4306,
+	'version', 4307,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
@@ -17,8 +17,8 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1748271938,
-	'code_hash', 7737044059959539532,
+	'saved', 1748634102,
+	'code_hash', 7746808801626206096,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
