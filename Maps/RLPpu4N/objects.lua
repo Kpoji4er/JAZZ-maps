@@ -1,14 +1,6 @@
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'CollectionIndex', 3838,
-	'AllowedMask', 4294966497,
-	'Name', "col_WeaponAttA_BipodMG42",
-	'Index', 919,
-}, nil, 1001282833)
-PlaceObj('Collection', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
 	'Name', "col_TropicalRockSharp_3",
 	'Index', 90,
@@ -135,9 +127,9 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-	'Name', "col_WeaponAttA_BipodMG42_1",
-	'Index', 3838,
-}, nil, 1685208089)
+	'Name', "col_ContainerMarker",
+	'Index', 576,
+}, nil, 1715199847)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -146,123 +138,58 @@ PlaceObj('Collection', {
 	'Index', 1912,
 }, nil, 1745591823)
 SetNextSyncHandle(2000000001)
-PlaceObj('UnitMarker', {
-	'Pos', point(55800, 78600, 19600),
-	'Angle', 16200,
+PlaceObj('GridMarker', {
+	'Pos', point(57000, 78600, 19600),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Recon",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
-		}),
-	},
-}, nil, 1544214068)
-PlaceObj('UnitMarker', {
-	'Pos', point(55800, 79800, 19600),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1770228128)
+PlaceObj('GridMarker', {
+	'Pos', point(57000, 79800, 19600),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Recon02",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
-		}),
-	},
-}, nil, 1592608081)
-PlaceObj('UnitMarker', {
+	'Type', "Defender",
+}, nil, 1335456589)
+PlaceObj('GridMarker', {
 	'Pos', point(63000, 81000, 25200),
-	'Angle', 16200,
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Soldier",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter_Stronger",
-		}),
-	},
-}, nil, 1838195214)
-PlaceObj('UnitMarker', {
-	'Pos', point(71400, 69000, 19600),
-	'Angle', 16200,
+	'Type', "Defender",
+	'ArchetypesTriState', set( "Artillery", "Heavy", "Marksman", "Militia", "Soldier" ),
+}, nil, 1328695043)
+PlaceObj('GridMarker', {
+	'Pos', point(71400, 70200, 19600),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionScout_alt_2",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
-		}),
-	},
-}, nil, 1804127701)
-PlaceObj('UnitMarker', {
-	'Pos', point(71400, 76200, 19600),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1735309599)
+PlaceObj('GridMarker', {
+	'Pos', point(67800, 76200, 19600),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Stormer",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
-		}),
-	},
-}, nil, 1562748335)
-PlaceObj('UnitMarker', {
-	'Pos', point(69000, 87000, 27300),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1844064164)
+PlaceObj('GridMarker', {
+	'Pos', point(70200, 87000, 27300),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionSniper_Stronger_Elite_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSniper_Stronger_Elite",
-		}),
-	},
-}, nil, 1430454532)
-PlaceObj('UnitMarker', {
-	'Pos', point(76200, 94200, 19600),
-	'Angle', 16200,
+	'Type', "Defender",
+	'ArchetypesTriState', set( "Artillery", "Heavy", "Marksman", "Militia", "Soldier" ),
+}, nil, 1612382024)
+PlaceObj('GridMarker', {
+	'Pos', point(77400, 94200, 19600),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Stormer",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
-		}),
-	},
-}, nil, 1649343261)
-PlaceObj('UnitMarker', {
-	'Pos', point(71400, 103800, 19600),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1789120549)
+PlaceObj('GridMarker', {
+	'Pos', point(72600, 103800, 19600),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Demolishion02",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGrenadier",
-		}),
-	},
-}, nil, 1508386229)
-PlaceObj('UnitMarker', {
-	'Pos', point(77400, 109800, 20300),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1865510140)
+PlaceObj('GridMarker', {
+	'Pos', point(76200, 109800, 20300),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionManiac_alt_2",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
-		}),
-	},
-}, nil, 1133781971)
+	'Type', "Defender",
+}, nil, 1711208867)
+PlaceObj('GridMarker', {
+	'Pos', point(70200, 130200),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+}, nil, 1338284798)
 PlaceObj('GridMarker', {
 	'Pos', point(35400, 150600),
 	'Groups', {
@@ -280,32 +207,6 @@ PlaceObj('ExitZoneInteractable', {
 	},
 	'AllowedMask', 4294966497,
 }, nil, 1496472809)
-PlaceObj('UnitMarker', {
-	'Pos', point(59400, 135000, 13300),
-	'Angle', 16200,
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Stormer",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
-		}),
-	},
-}, nil, 1627661743)
-PlaceObj('UnitMarker', {
-	'Pos', point(59400, 137400, 13300),
-	'Angle', 16200,
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Stormer",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
-		}),
-	},
-}, nil, 1214759629)
 PlaceObj('GridMarker', {
 	'Pos', point(35400, 186600),
 	'Groups', {
@@ -316,83 +217,38 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 5,
 	'AreaHeight', 5,
 }, nil, 1758848763)
-PlaceObj('UnitMarker', {
+PlaceObj('GridMarker', {
+	'Pos', point(71400, 133800),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+}, nil, 1496023663)
+PlaceObj('GridMarker', {
 	'Pos', point(88200, 147000, 18200),
-	'Angle', 16200,
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Recon",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
-		}),
-	},
-}, nil, 1697594582)
-PlaceObj('UnitMarker', {
+	'Type', "Defender",
+}, nil, 1349412729)
+PlaceObj('GridMarker', {
 	'Pos', point(84600, 153000, 18900),
-	'Angle', 16200,
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionSniper_alt_2",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSniper",
-		}),
-	},
-}, nil, 1073102035)
-PlaceObj('UnitMarker', {
+	'Type', "Defender",
+	'ArchetypesTriState', set( "Artillery", "Heavy", "Marksman", "Militia", "Soldier" ),
+}, nil, 1132134528)
+PlaceObj('GridMarker', {
 	'Pos', point(84600, 157800, 18900),
-	'Angle', 16200,
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionSharpShooter_alt_1",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter",
-		}),
-	},
-}, nil, 1884051060)
-PlaceObj('UnitMarker', {
-	'Pos', point(93000, 149400, 18200),
-	'Angle', 16200,
+	'Type', "Defender",
+	'ArchetypesTriState', set( "Artillery", "Heavy", "Marksman", "Militia", "Soldier" ),
+}, nil, 1870813292)
+PlaceObj('GridMarker', {
+	'Pos', point(91800, 149400, 18200),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Stormer",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
-		}),
-	},
-}, nil, 1779111152)
-PlaceObj('UnitMarker', {
-	'Pos', point(96600, 151800),
+	'Type', "Defender",
+}, nil, 1456901047)
+PlaceObj('GridMarker', {
+	'Pos', point(95400, 151800, 18200),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Recon02",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
-		}),
-	},
-}, nil, 1471500327)
-PlaceObj('UnitMarker', {
-	'Pos', point(97800, 153000),
-	'Angle', 16200,
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Recon02",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
-		}),
-	},
-}, nil, 1179281148)
+	'Type', "Defender",
+}, nil, 1626816201)
 PlaceObj('ContainerMarker', {
 	'Pos', point(97800, 155400),
 	'CollectionIndex', 1124,
@@ -406,18 +262,21 @@ PlaceObj('ContainerMarker', {
 	},
 	'DespawnIfEmpty', true,
 }, nil, 194805760)
-PlaceObj('UnitMarker', {
-	'Pos', point(101400, 150600, 18200),
-	'Angle', 5400,
+PlaceObj('GridMarker', {
+	'Pos', point(79800, 183000),
 	'AllowedMask', 4294966497,
-	'Appearance', "Legion_Recon03",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon_Stronger_Elite",
-		}),
-	},
-}, nil, 1529033251)
+	'Type', "Defender",
+}, nil, 1815312586)
+PlaceObj('GridMarker', {
+	'Pos', point(79800, 191400),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+}, nil, 1790043516)
+PlaceObj('GridMarker', {
+	'Pos', point(99000, 153000, 18200),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+}, nil, 1253366615)
 PlaceObj('CustomInteractable', {
 	'Pos', point(99000, 155400),
 	'CollectionIndex', 2366,
@@ -430,42 +289,37 @@ PlaceObj('CustomInteractable', {
 	},
 	'Visuals', "UI/Hud/iw_diamond_briefcases",
 }, nil, 1739878973)
-PlaceObj('UnitMarker', {
-	'Pos', point(100200, 157800, 18200),
-	'Angle', 16200,
+PlaceObj('GridMarker', {
+	'Pos', point(101400, 151800, 18200),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Recon",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon_Stronger",
-		}),
-	},
-}, nil, 1469762920)
+	'Type', "Defender",
+}, nil, 1193939002)
+PlaceObj('GridMarker', {
+	'Pos', point(101400, 157800, 18200),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+}, nil, 1508872546)
 PlaceObj('ContainerMarker', {
 	'Pos', point(101400, 159000),
-	'CollectionIndex', 3838,
+	'CollectionIndex', 576,
 	'AllowedMask', 4294966497,
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'ItemId', "MG42",
+			'LootTableId', "MedsDrop",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "MedsDrop",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "MedsDrop",
 		}),
 	},
 }, nil, 594108416)
-PlaceObj('UnitMarker', {
-	'Pos', point(107400, 156600, 18200),
-	'Angle', 16200,
+PlaceObj('GridMarker', {
+	'Pos', point(106200, 156600, 18200),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Stormer",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
-		}),
-	},
-}, nil, 1151671198)
+	'Type', "Defender",
+}, nil, 1286812392)
 PlaceObj('ContainerMarker', {
 	'Pos', point(79800, 222600, 16100),
 	'CollectionIndex', 1912,
@@ -508,213 +362,86 @@ PlaceObj('ContainerMarker', {
 	},
 	'DespawnIfEmpty', true,
 }, nil, 250732544)
-PlaceObj('UnitMarker', {
-	'Pos', point(139800, 61800, 18200),
-	'Angle', 16200,
+PlaceObj('GridMarker', {
+	'Pos', point(141000, 61800),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Soldier03",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
-		}),
-	},
-}, nil, 1088383232)
-PlaceObj('UnitMarker', {
-	'Pos', point(144600, 61800, 18200),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1313812661)
+PlaceObj('GridMarker', {
+	'Pos', point(144600, 60600),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionRaider_Stronger_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider_Stronger",
-		}),
-	},
-}, nil, 1858092125)
-PlaceObj('UnitMarker', {
-	'Pos', point(151800, 61800, 18200),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1768839807)
+PlaceObj('GridMarker', {
+	'Pos', point(150600, 61800),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Soldier03",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
-		}),
-	},
-}, nil, 1118784541)
-PlaceObj('UnitMarker', {
-	'Pos', point(161400, 60600, 18200),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1270574701)
+PlaceObj('GridMarker', {
+	'Pos', point(160200, 60600),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Stormer",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
-		}),
-	},
-}, nil, 1256087582)
-PlaceObj('UnitMarker', {
-	'Pos', point(147000, 67800, 18200),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1107443080)
+PlaceObj('GridMarker', {
+	'Pos', point(148200, 66600),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Soldier03",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
-		}),
-	},
-}, nil, 1442667831)
-PlaceObj('UnitMarker', {
-	'Pos', point(203400, 83400, 18200),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1092081962)
+PlaceObj('GridMarker', {
+	'Pos', point(209400, 81000),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionGunner",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGunner",
-		}),
-	},
-}, nil, 1283872256)
-PlaceObj('UnitMarker', {
-	'Pos', point(209400, 83400, 18200),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1741310878)
+PlaceObj('GridMarker', {
+	'Pos', point(203400, 84600),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionRaider",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
-		}),
-	},
-}, nil, 1028547087)
-PlaceObj('UnitMarker', {
-	'Pos', point(217800, 83400, 18200),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1844901583)
+PlaceObj('GridMarker', {
+	'Pos', point(217800, 84600),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionRaider",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
-		}),
-	},
-}, nil, 1871713511)
-PlaceObj('UnitMarker', {
-	'Pos', point(199800, 100200, 16800),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1878535143)
+PlaceObj('GridMarker', {
+	'Pos', point(199800, 102600),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionGunner",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGunner",
-		}),
-	},
-}, nil, 1496512976)
-PlaceObj('UnitMarker', {
-	'Pos', point(204600, 102600, 16800),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1655099725)
+PlaceObj('GridMarker', {
+	'Pos', point(203400, 103800),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Recon02",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
-		}),
-	},
-}, nil, 1309102222)
-PlaceObj('UnitMarker', {
-	'Pos', point(205800, 103800, 16800),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1627564864)
+PlaceObj('GridMarker', {
+	'Pos', point(205800, 105000),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Recon02",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
-		}),
-	},
-}, nil, 1740613156)
-PlaceObj('UnitMarker', {
-	'Pos', point(207000, 102600, 16800),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1793191487)
+PlaceObj('GridMarker', {
+	'Pos', point(209400, 101400),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionManiac_alt_2",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
-		}),
-	},
-}, nil, 1544307259)
-PlaceObj('UnitMarker', {
-	'Pos', point(211800, 107400, 16800),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1421815080)
+PlaceObj('GridMarker', {
+	'Pos', point(210600, 107400),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Demolishion02",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGrenadier",
-		}),
-	},
-}, nil, 1705577276)
-PlaceObj('UnitMarker', {
-	'Pos', point(209400, 111000, 16800),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1750105068)
+PlaceObj('GridMarker', {
+	'Pos', point(209400, 109800),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Demolishion02",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGrenadier",
-		}),
-	},
-}, nil, 1818742565)
-PlaceObj('UnitMarker', {
-	'Pos', point(214200, 105000, 17500),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1163772158)
+PlaceObj('GridMarker', {
+	'Pos', point(214200, 105000, 16800),
 	'AllowedMask', 4294966497,
-	'Appearance', "LegionRaidLeader_Stronger_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaidLeader_Stronger",
-		}),
-	},
-}, nil, 1894925335)
-PlaceObj('UnitMarker', {
-	'Pos', point(220200, 107400, 17500),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1095286639)
+PlaceObj('GridMarker', {
+	'Pos', point(220200, 108600),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Stormer",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
-		}),
-	},
-}, nil, 1582406530)
+	'Type', "Defender",
+}, nil, 1012207868)
 PlaceObj('GridMarker', {
 	'Pos', point(153000, 145800, 14000),
 	'Groups', {
@@ -738,6 +465,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 16200,
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
+	'CollectionRange', 15000,
 	'Appearance', "LegionScout",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -751,6 +479,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 16200,
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
+	'CollectionRange', 15000,
 	'Appearance', "Legion_Stormer",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -759,58 +488,34 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1504916549)
-PlaceObj('UnitMarker', {
-	'Pos', point(245400, 160200, 20300),
-	'Angle', 16200,
+PlaceObj('GridMarker', {
+	'Pos', point(245400, 161400, 20300),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionSharpShooter_Stronger_alt_2",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter_Stronger",
-		}),
-	},
-}, nil, 1083404385)
-PlaceObj('UnitMarker', {
-	'Pos', point(247800, 154200, 20300),
-	'Angle', 16200,
+	'Type', "Defender",
+	'ArchetypesTriState', set( "Artillery", "Marksman", "Militia", "Soldier" ),
+}, nil, 1212398835)
+PlaceObj('GridMarker', {
+	'Pos', point(249000, 154200, 20300),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Heavy",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGunner",
-		}),
-	},
-}, nil, 1628868564)
-PlaceObj('UnitMarker', {
-	'Pos', point(251400, 155400, 20300),
-	'Angle', 16200,
+	'Type', "Defender",
+	'ArchetypesTriState', set( "Heavy", "Marksman" ),
+}, nil, 1170813971)
+PlaceObj('GridMarker', {
+	'Pos', point(246600, 157800, 20300),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Stormer",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
-		}),
-	},
-}, nil, 1361842173)
-PlaceObj('UnitMarker', {
-	'Pos', point(247800, 165000, 20300),
-	'Angle', 16200,
+	'Type', "Defender",
+}, nil, 1241885913)
+PlaceObj('GridMarker', {
+	'Pos', point(250200, 156600),
 	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Marksman",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSniper_Stronger",
-		}),
-	},
-}, nil, 1496930451)
+	'Type', "Defender",
+}, nil, 1783449414)
+PlaceObj('GridMarker', {
+	'Pos', point(246600, 167400, 20300),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'ArchetypesTriState', set( "Marksman" ),
+}, nil, 1751392924)
 PlaceObj('ExitZoneInteractable', {
 	'Pos', point(293426, 154372, 13763),
 	'Groups', {
@@ -843,13 +548,6 @@ PlaceObj('TropicalPlant_06_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1437477644)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(1431, 51),
-	'Angle', 302,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1584617427)
 PlaceObj('TropicalPlant_02_Tree_02', {
 	'Pos', point(23, 14239),
 	'Angle', 18644,
@@ -858,264 +556,12 @@ PlaceObj('TropicalPlant_02_Tree_02', {
 	'AllowedMask', 4294967279,
 }, nil, 1149755991)
 PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(1436, 14211),
-	'Angle', 1502,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1875826071)
-PlaceObj('TropicalPlant_03_Tree_02', {
 	'Pos', point(8, 15699),
 	'Angle', 7123,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1446413127)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(1277, 15503),
-	'Angle', 12928,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1743628824)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(2628, 14155),
-	'Angle', 16297,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1648552911)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(3932, 14320),
-	'Angle', 19344,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1476945784)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(3889, 15455),
-	'Angle', 21080,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1464881073)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(5297, 14239),
-	'Angle', 15196,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1438868982)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(5255, 15726),
-	'Angle', 8279,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1135454489)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(7813, 14167),
-	'Angle', 11281,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1712304966)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(6641, 14406),
-	'Angle', 15324,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1726592131)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(7877, 15713),
-	'Angle', 13587,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1399607220)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(13100, 126),
-	'Angle', 13869,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1199749231)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(15461, 65),
-	'Angle', 9673,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1228769389)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(9058, 14293),
-	'Angle', 2122,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1040196200)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(11710, 13062),
-	'Angle', 6215,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1184714683)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(10313, 15648),
-	'Angle', 4633,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1355007516)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(11678, 14380),
-	'Angle', 19561,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1524231751)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(11819, 15744),
-	'Angle', 10086,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1742574019)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(12877, 12875),
-	'Angle', 5042,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1195352541)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(12986, 14444),
-	'Angle', 10501,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1814130390)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(12968, 15570),
-	'Angle', 14736,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1537786533)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(14160, 15559),
-	'Angle', 21428,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1174012266)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(14395, 12936),
-	'Angle', 10915,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1620653563)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(15548, 14200),
-	'Angle', 20858,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1281229606)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(14389, 14341),
-	'Angle', 7074,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1152015569)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(15638, 15563),
-	'Angle', 6010,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1172521283)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(99, 16764),
-	'Angle', 1501,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1364391627)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(149, 18220),
-	'Angle', 13576,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1439921057)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(1264, 16791),
-	'Angle', 18439,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1034256353)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(1276, 18081),
-	'Angle', 674,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1149109957)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(1406, 19486),
-	'Angle', 13164,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1449220497)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(2606, 16789),
-	'Angle', 10871,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1009986706)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(2481, 18339),
-	'Angle', 3651,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1854901249)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(3950, 16792),
-	'Angle', 10562,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1602734238)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(3946, 18176),
-	'Angle', 15378,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1134746032)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(2683, 19468),
-	'Angle', 13214,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1809332658)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(3847, 19360),
-	'Angle', 12534,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1256465546)
 PlaceObj('TropicalPlant_04_Tree_02', {
 	'Pos', point(102, 20930),
 	'Angle', 9841,
@@ -1200,62 +646,6 @@ PlaceObj('TropicalPlant_04_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1659037719)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(5285, 17037),
-	'Angle', 8891,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1699238282)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(5213, 18128),
-	'Angle', 801,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1243192498)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(5318, 19364),
-	'Angle', 11776,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1680850077)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(6360, 18112),
-	'Angle', 15289,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1045432829)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(7879, 16895),
-	'Angle', 11217,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1104079320)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(7748, 18137),
-	'Angle', 12754,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1312612424)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(6575, 19427),
-	'Angle', 388,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1212549626)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(7887, 19488),
-	'Angle', 9,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1839668793)
 PlaceObj('TropicalPlant_05_Tree_01', {
 	'Pos', point(5326, 20673),
 	'Angle', 15678,
@@ -1388,41 +778,6 @@ PlaceObj('TropicalPlant_04_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1386036410)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(9038, 16953),
-	'Angle', 4177,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1110626764)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(8986, 18144),
-	'Angle', 16719,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1135557144)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(9102, 19387),
-	'Angle', 6256,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1017399587)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(11669, 16909),
-	'Angle', 2829,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1129300992)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(10542, 19431),
-	'Angle', 16041,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1120474975)
 PlaceObj('TropicalPlant_03_Tree_01', {
 	'Pos', point(9083, 20729),
 	'Angle', 19869,
@@ -1479,69 +834,6 @@ PlaceObj('TropicalPlant_02_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1083905804)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(12891, 16979),
-	'Angle', 2812,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1018516063)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(13000, 18332),
-	'Angle', 10526,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1083619854)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(14268, 16794),
-	'Angle', 2183,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1042075325)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(14281, 18216),
-	'Angle', 177,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1270512086)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(12976, 19440),
-	'Angle', 19879,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1090523942)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(15665, 16934),
-	'Angle', 12355,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1800746355)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(15486, 18236),
-	'Angle', 9923,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1553250965)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(14399, 19587),
-	'Angle', 17461,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1112444805)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(15484, 19369),
-	'Angle', 1278,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1405944098)
 PlaceObj('TropicalPlant_02_Tree_01', {
 	'Pos', point(13129, 22098),
 	'Angle', 4334,
@@ -1709,335 +1001,6 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1171318400)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(17008, 12903),
-	'Angle', 2967,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1504809891)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(16890, 14252),
-	'Angle', 3503,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1060191761)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(18154, 13037),
-	'Angle', 18969,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1864346190)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(18339, 14327),
-	'Angle', 251,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1305181980)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(17042, 15730),
-	'Angle', 4211,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1737624693)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(18180, 15560),
-	'Angle', 6538,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1809710685)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(19435, 13036),
-	'Angle', 14470,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1263311331)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(19515, 14317),
-	'Angle', 2132,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1298935855)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(19463, 15517),
-	'Angle', 72,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1404075683)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(21994, 14273),
-	'Angle', 14697,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1636716810)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(20711, 14417),
-	'Angle', 10233,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1484748538)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(20794, 15457),
-	'Angle', 19061,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1319896521)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(22005, 15655),
-	'Angle', 21089,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1052366755)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(23296, 13000),
-	'Angle', 938,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1880693086)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(23314, 14288),
-	'Angle', 14450,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1401649062)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(23501, 15455),
-	'Angle', 16597,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1603899765)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(24787, 12883),
-	'Angle', 12090,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1082279384)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(26083, 12931),
-	'Angle', 7001,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1892229586)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(25980, 14170),
-	'Angle', 3900,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1674118316)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(24584, 15680),
-	'Angle', 6158,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1244930955)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(26063, 15711),
-	'Angle', 17154,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1294894716)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(27280, 12935),
-	'Angle', 14332,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1215761609)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(28540, 13119),
-	'Angle', 9507,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1633702600)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(28566, 14153),
-	'Angle', 403,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1620977821)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(27240, 14435),
-	'Angle', 14984,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1507549529)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(27341, 15729),
-	'Angle', 423,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1702053835)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(31093, 9124),
-	'Angle', 4418,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1256645234)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(32356, 9206),
-	'Angle', 15613,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1357614394)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(32630, 10468),
-	'Angle', 2274,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1109126917)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(32395, 11813),
-	'Angle', 18614,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1127490378)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(29973, 13084),
-	'Angle', 8498,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1488001328)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(29843, 14270),
-	'Angle', 19402,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1693595027)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(28682, 15597),
-	'Angle', 14956,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1445081893)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(29855, 15711),
-	'Angle', 20621,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1421722063)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(31058, 12940),
-	'Angle', 16742,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1780882997)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(31087, 14184),
-	'Angle', 1459,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1098814100)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(32643, 13060),
-	'Angle', 667,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1263877509)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(31082, 15555),
-	'Angle', 8069,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1317977020)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(32548, 14435),
-	'Angle', 1294,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1634670278)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(32596, 15456),
-	'Angle', 3916,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1292984984)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(16993, 16921),
-	'Angle', 6248,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1228116643)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(18330, 16912),
-	'Angle', 14264,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1212036562)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(18096, 18255),
-	'Angle', 8316,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1848164255)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(16931, 19368),
-	'Angle', 10763,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1342343076)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(18140, 19568),
-	'Angle', 15036,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1103802460)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(19446, 18080),
-	'Angle', 5656,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1752421803)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(19518, 19587),
-	'Angle', 8045,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1036014700)
 PlaceObj('TropicalPlant_01_Tree_02', {
 	'Pos', point(16753, 20800),
 	'Angle', 15925,
@@ -2087,55 +1050,6 @@ PlaceObj('TropicalPlant_06_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1543368408)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(20660, 17030),
-	'Angle', 18142,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1680994895)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(20740, 18127),
-	'Angle', 7414,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1082336993)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(22146, 18250),
-	'Angle', 21060,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1090353389)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(22071, 19564),
-	'Angle', 11259,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1452853952)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(23417, 16788),
-	'Angle', 3546,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1481565477)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(23299, 18066),
-	'Angle', 5843,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1834087933)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(23266, 19571),
-	'Angle', 6846,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1694081050)
 PlaceObj('TropicalPlant_08_Tree_02', {
 	'Pos', point(20860, 20880),
 	'Angle', 13634,
@@ -2337,69 +1251,6 @@ PlaceObj('TropicalPlant_02_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1192805548)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(24758, 18302),
-	'Angle', 9337,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1301730077)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(25954, 17027),
-	'Angle', 18143,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1605123387)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(25983, 18115),
-	'Angle', 11652,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1896817623)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(24734, 19398),
-	'Angle', 10067,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1303542696)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(25938, 19554),
-	'Angle', 12836,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1581592779)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(27211, 17036),
-	'Angle', 2873,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1115655468)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(27357, 18131),
-	'Angle', 18190,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1444322381)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(28650, 18294),
-	'Angle', 11669,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1488323432)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(27173, 19539),
-	'Angle', 12454,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1452119422)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(24809, 20689),
 	'Angle', 14087,
@@ -2470,76 +1321,6 @@ PlaceObj('TropicalPlant_06_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1354136172)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(28719, 16935),
-	'Angle', 20939,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1430116788)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(29862, 16858),
-	'Angle', 15730,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1217701914)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(29782, 18239),
-	'Angle', 13269,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1653910252)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(29806, 19568),
-	'Angle', 13783,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1649954901)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(31071, 16964),
-	'Angle', 9768,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1298510044)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(31090, 18072),
-	'Angle', 6678,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1177494759)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(32416, 16924),
-	'Angle', 20215,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1107482269)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(32529, 18238),
-	'Angle', 7464,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1676544733)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(31102, 19506),
-	'Angle', 20738,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1643576353)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(32530, 19558),
-	'Angle', 6127,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1351523835)
 PlaceObj('TropicalPlant_08_Tree_01', {
 	'Pos', point(30020, 20757),
 	'Angle', 10654,
@@ -3995,14 +2776,6 @@ PlaceObj('TropicalPlant_07_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1282356436)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(27548, 53567),
-	'Angle', 15088,
-	'Scale', 96,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1363643218)
 PlaceObj('TropicalFillerPlants_08', {
 	'Pos', point(29000, 50000),
 	'Angle', 372,
@@ -4091,482 +2864,6 @@ PlaceObj('TropicalPlant_Liana_05', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1141184659)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(33943, 9193),
-	'Angle', 15302,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1439358932)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(33706, 10378),
-	'Angle', 15869,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1099461337)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(33696, 11769),
-	'Angle', 1076,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1867623407)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(35025, 9188),
-	'Angle', 1717,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1895103173)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(36415, 9237),
-	'Angle', 10467,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1280915810)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(35109, 10360),
-	'Angle', 18029,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1030936512)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(36424, 10320),
-	'Angle', 13667,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1239814864)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(36452, 11600),
-	'Angle', 19054,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1048213756)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(33720, 14235),
-	'Angle', 1671,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1244320114)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(33886, 12934),
-	'Angle', 18304,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1532331550)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(33945, 15661),
-	'Angle', 1284,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1498215801)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(34976, 14281),
-	'Angle', 18776,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1653540571)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(36436, 13149),
-	'Angle', 19772,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1673651921)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(35027, 15676),
-	'Angle', 307,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1448254651)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(36431, 15456),
-	'Angle', 5389,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1614290149)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(37646, 9088),
-	'Angle', 4155,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1580198077)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(37726, 10370),
-	'Angle', 13638,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1455856874)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(37677, 11666),
-	'Angle', 18690,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1102526200)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(38969, 9194),
-	'Angle', 8980,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1301813592)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(40276, 8961),
-	'Angle', 20615,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1144796659)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(39065, 10342),
-	'Angle', 3122,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1315217080)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(39109, 11678),
-	'Angle', 4989,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1287323288)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(37780, 12999),
-	'Angle', 10956,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1887016454)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(37551, 14231),
-	'Angle', 2039,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1279055519)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(38861, 12865),
-	'Angle', 11791,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1553892782)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(37560, 15692),
-	'Angle', 7467,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1409975464)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(40300, 13129),
-	'Angle', 11058,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1457807057)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(40210, 14163),
-	'Angle', 17648,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1788811824)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(39029, 14423),
-	'Angle', 1277,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1744829203)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(39011, 15721),
-	'Angle', 5795,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1104406226)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(40371, 15471),
-	'Angle', 12312,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1786980257)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(48037, 7879),
-	'Angle', 8646,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1216454708)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(41568, 8975),
-	'Angle', 19840,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1753991747)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(42997, 9075),
-	'Angle', 8584,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1232407152)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(41578, 10261),
-	'Angle', 19308,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1352893087)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(42785, 11631),
-	'Angle', 873,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1356482983)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(44164, 9016),
-	'Angle', 787,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1552666488)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(44147, 10340),
-	'Angle', 8644,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1487841399)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(44212, 11791),
-	'Angle', 5553,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1102247075)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(41513, 12930),
-	'Angle', 21572,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1271318207)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(41452, 14205),
-	'Angle', 15491,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1604073049)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(42910, 14374),
-	'Angle', 18394,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1439261628)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(44302, 12983),
-	'Angle', 17754,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1174375058)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(44221, 14170),
-	'Angle', 18995,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1438460369)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(43049, 15746),
-	'Angle', 2538,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1646988794)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(44062, 15728),
-	'Angle', 3597,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1682270394)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(46852, 9151),
-	'Angle', 3566,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1054084678)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(45572, 10257),
-	'Angle', 10643,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1255512187)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(45564, 11627),
-	'Angle', 16721,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1206551542)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(46878, 10254),
-	'Angle', 17687,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1111968668)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(46652, 11818),
-	'Angle', 20383,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1025597754)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(47958, 9109),
-	'Angle', 13312,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1129323300)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(48123, 10378),
-	'Angle', 20952,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1425865856)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(48165, 11729),
-	'Angle', 9793,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1597751724)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(45597, 13015),
-	'Angle', 4905,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1004357409)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(46866, 13094),
-	'Angle', 19759,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1055302270)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(46913, 14252),
-	'Angle', 12148,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1327672072)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(45562, 14359),
-	'Angle', 20060,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1215024362)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(45583, 15722),
-	'Angle', 4506,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1395754568)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(46920, 15623),
-	'Angle', 8164,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1600334751)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(48170, 12953),
-	'Angle', 4972,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1817877606)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(48129, 14270),
-	'Angle', 14368,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1341454553)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(48130, 15619),
-	'Angle', 6871,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1642709077)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(33856, 16777),
-	'Angle', 17973,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1461580119)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(35038, 18090),
-	'Angle', 13913,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1554463290)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(36365, 16899),
-	'Angle', 12767,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1552192552)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(36380, 18087),
-	'Angle', 18759,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1567237420)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(35089, 19499),
-	'Angle', 21328,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1618844714)
 PlaceObj('TropicalPlant_07_Tree_02', {
 	'Pos', point(33835, 22015),
 	'Angle', 10138,
@@ -4616,104 +2913,6 @@ PlaceObj('TropicalPlant_07_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1528344044)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(37615, 16786),
-	'Angle', 10678,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1803141483)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(37732, 18093),
-	'Angle', 2696,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1110997044)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(38906, 18197),
-	'Angle', 20781,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1418157374)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(37648, 19627),
-	'Angle', 13287,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1585207328)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(40166, 18242),
-	'Angle', 19737,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1106490775)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(39106, 19603),
-	'Angle', 5234,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1463684146)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(37785, 20922),
-	'Angle', 3046,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1634915142)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(37551, 22216),
-	'Angle', 519,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1334581446)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(37842, 23250),
-	'Angle', 2281,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1624313156)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(38866, 23538),
-	'Angle', 21156,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1062340277)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(39001, 22194),
-	'Angle', 4969,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1018056945)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(40325, 20666),
-	'Angle', 8156,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1387161807)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(40300, 22005),
-	'Angle', 630,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1679435238)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(40253, 23474),
-	'Angle', 21155,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1864820757)
 PlaceObj('TropicalPlant_04_Tree_01', {
 	'Pos', point(33943, 25948),
 	'Angle', 11296,
@@ -4833,13 +3032,6 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1726333892)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(37758, 24599),
-	'Angle', 10314,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1179826141)
 PlaceObj('TropicalPlant_08_Tree_01', {
 	'Pos', point(37727, 26148),
 	'Angle', 3526,
@@ -4861,13 +3053,6 @@ PlaceObj('TropicalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1733964179)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(39036, 24693),
-	'Angle', 17413,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1780713247)
 PlaceObj('TropicalPlant_07_Tree_01', {
 	'Pos', point(39099, 25896),
 	'Angle', 1245,
@@ -4966,244 +3151,6 @@ PlaceObj('TropicalPlant_07_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1679898622)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(41573, 18276),
-	'Angle', 17658,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1301883475)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(42842, 16847),
-	'Angle', 20587,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1360989338)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(42761, 18164),
-	'Angle', 15580,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1358671238)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(41520, 19606),
-	'Angle', 4856,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1751102345)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(42969, 19645),
-	'Angle', 18519,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1317975934)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(44325, 16887),
-	'Angle', 3191,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1555710669)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(44152, 18157),
-	'Angle', 6523,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1051666196)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(41563, 20943),
-	'Angle', 2952,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1492312442)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(41558, 22070),
-	'Angle', 14307,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1533653017)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(42914, 22082),
-	'Angle', 4461,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1471777241)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(41558, 23281),
-	'Angle', 6289,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1351876130)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(44083, 20833),
-	'Angle', 19212,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1073902806)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(44144, 22118),
-	'Angle', 15959,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1896102099)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(43014, 23401),
-	'Angle', 17066,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1733235404)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(44087, 23379),
-	'Angle', 6431,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1769706250)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(45523, 17033),
-	'Angle', 1298,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1105444636)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(45610, 18126),
-	'Angle', 12214,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1140202012)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(46769, 16945),
-	'Angle', 6439,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1483421668)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(46805, 18345),
-	'Angle', 2730,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1634241775)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(45362, 19633),
-	'Angle', 2335,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1627816054)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(46849, 19480),
-	'Angle', 4681,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1757445133)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(48110, 17002),
-	'Angle', 7342,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1657072185)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(48014, 18302),
-	'Angle', 7235,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1750295577)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(48218, 19623),
-	'Angle', 8697,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1037402359)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(45623, 20732),
-	'Angle', 18752,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1525464190)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(45593, 22144),
-	'Angle', 2720,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1801505594)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(46656, 20779),
-	'Angle', 20454,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1373495899)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(46879, 22103),
-	'Angle', 18153,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1739014983)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(45556, 23445),
-	'Angle', 12957,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1389886701)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(46919, 23549),
-	'Angle', 13174,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1027768038)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(48221, 20819),
-	'Angle', 14748,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1386039238)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(48211, 22216),
-	'Angle', 9745,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1685560072)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(48149, 23293),
-	'Angle', 4080,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1005227168)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(41498, 24674),
-	'Angle', 18037,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1527669864)
 PlaceObj('TropicalPlant_08_Tree_02', {
 	'Pos', point(41664, 26078),
 	'Angle', 3204,
@@ -5232,20 +3179,6 @@ PlaceObj('TropicalPlant_08_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1691557317)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(43035, 24780),
-	'Angle', 14162,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1283943521)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(44332, 24599),
-	'Angle', 1137,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1800006950)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(44244, 25952),
 	'Angle', 15209,
@@ -5365,13 +3298,6 @@ PlaceObj('TropicalPlant_06_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1532996744)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(47980, 24620),
-	'Angle', 16758,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1743327617)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(45526, 29849),
 	'Angle', 16331,
@@ -5428,741 +3354,6 @@ PlaceObj('TropicalPlant_07_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1557069325)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(50682, 7949),
-	'Angle', 16308,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1754330664)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(51866, 7760),
-	'Angle', 1507,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1437465539)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(54565, 7810),
-	'Angle', 4958,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1739019162)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(57117, 7760),
-	'Angle', 21450,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1154163037)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(49295, 8988),
-	'Angle', 8275,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1541901873)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(50661, 9000),
-	'Angle', 13142,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1547798050)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(49356, 11602),
-	'Angle', 3585,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1300184656)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(50631, 10363),
-	'Angle', 8175,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1355569672)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(50792, 11609),
-	'Angle', 6281,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1670232085)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(51850, 9080),
-	'Angle', 10017,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1092063208)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(52016, 10542),
-	'Angle', 6948,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1380102490)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(52040, 11651),
-	'Angle', 17648,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1355963504)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(53239, 10337),
-	'Angle', 5043,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1535606001)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(53190, 11706),
-	'Angle', 2105,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1042735749)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(49377, 13123),
-	'Angle', 17779,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1007216964)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(50732, 13127),
-	'Angle', 3607,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1302054496)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(49546, 14420),
-	'Angle', 2693,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1310476755)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(50840, 14419),
-	'Angle', 8168,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1028764820)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(50825, 15698),
-	'Angle', 17931,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1890378301)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(52113, 13048),
-	'Angle', 16070,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1795911003)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(52102, 14395),
-	'Angle', 13662,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1009758978)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(52105, 15662),
-	'Angle', 18586,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1407159661)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(53302, 9141),
-	'Angle', 9341,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1860025954)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(54603, 9169),
-	'Angle', 2108,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1489772766)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(54659, 11788),
-	'Angle', 12811,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1803674668)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(55868, 9209),
-	'Angle', 3556,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1500463247)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(57167, 9124),
-	'Angle', 9598,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1858045935)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(55915, 10418),
-	'Angle', 20504,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1803029210)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(55758, 11802),
-	'Angle', 15004,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1091752137)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(57253, 10380),
-	'Angle', 13146,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1866667894)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(57121, 11840),
-	'Angle', 3403,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1213987385)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(53328, 14238),
-	'Angle', 18819,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1513475836)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(54716, 12867),
-	'Angle', 21513,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1491968009)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(54722, 14187),
-	'Angle', 18017,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1117723378)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(53325, 15728),
-	'Angle', 7900,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1851614996)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(54686, 15585),
-	'Angle', 10866,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1347710883)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(57146, 12936),
-	'Angle', 657,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1359200113)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(57227, 14189),
-	'Angle', 13876,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1103817707)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(55969, 14348),
-	'Angle', 1068,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1417252487)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(55778, 15562),
-	'Angle', 2173,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1350207232)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(58561, 7844),
-	'Angle', 20797,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1797117279)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(61013, 7864),
-	'Angle', 6584,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1136519273)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(62299, 7760),
-	'Angle', 1738,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1700447290)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(63657, 7791),
-	'Angle', 12177,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1698701653)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(58568, 9243),
-	'Angle', 6238,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1071947405)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(58527, 10380),
-	'Angle', 9859,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1437014143)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(58640, 11693),
-	'Angle', 20011,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1719392114)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(59776, 9036),
-	'Angle', 656,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1606201562)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(61040, 9206),
-	'Angle', 15423,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1353130569)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(59903, 10352),
-	'Angle', 17430,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1691105788)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(59892, 11644),
-	'Angle', 10389,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1653438243)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(61219, 10458),
-	'Angle', 20743,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1830483906)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(61158, 11769),
-	'Angle', 17368,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1293446927)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(58496, 13027),
-	'Angle', 12677,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1168186910)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(58476, 14269),
-	'Angle', 8855,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1845588599)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(58369, 15516),
-	'Angle', 17098,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1686387638)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(59856, 12851),
-	'Angle', 16110,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1093445701)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(59738, 14199),
-	'Angle', 19337,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1320495031)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(61105, 13068),
-	'Angle', 2148,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1830073825)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(60963, 14342),
-	'Angle', 7631,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1895664682)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(60994, 15708),
-	'Angle', 9529,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1596517278)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(62272, 9003),
-	'Angle', 5411,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1703793093)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(62531, 10331),
-	'Angle', 2680,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1467088101)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(65011, 9182),
-	'Angle', 8856,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1338368116)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(63687, 10452),
-	'Angle', 2795,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1533487606)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(63616, 11725),
-	'Angle', 16160,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1815424756)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(64855, 10506),
-	'Angle', 5453,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1682841127)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(65137, 11804),
-	'Angle', 5412,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1069404687)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(62350, 12905),
-	'Angle', 9214,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1894141952)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(62498, 14407),
-	'Angle', 8634,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1396944139)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(62509, 15545),
-	'Angle', 12748,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1507096655)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(63645, 14296),
-	'Angle', 11412,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1849952172)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(63625, 15499),
-	'Angle', 12782,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1144591762)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(65058, 14438),
-	'Angle', 16493,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1896859404)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(65058, 15590),
-	'Angle', 3654,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1541419550)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(49258, 16766),
-	'Angle', 6941,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1864138353)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(49455, 18282),
-	'Angle', 19882,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1679103103)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(50623, 16819),
-	'Angle', 6281,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1632061613)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(50660, 18116),
-	'Angle', 16037,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1761154465)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(49286, 19475),
-	'Angle', 18902,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1340884266)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(51972, 16823),
-	'Angle', 4805,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1766012800)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(52122, 18137),
-	'Angle', 623,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1111541872)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(52149, 19566),
-	'Angle', 4734,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1819439125)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(49420, 20709),
-	'Angle', 3954,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1734930200)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(50554, 20893),
-	'Angle', 6855,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1252519728)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(52127, 20733),
-	'Angle', 18012,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1243418347)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(53167, 20869),
-	'Angle', 16100,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1224296633)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(53179, 22237),
-	'Angle', 4594,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1852403306)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(52076, 23365),
-	'Angle', 7084,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1745257270)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(53412, 17009),
-	'Angle', 8691,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1555079286)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(53298, 18346),
-	'Angle', 10238,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1077723944)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(54586, 16992),
-	'Angle', 790,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1819608453)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(54569, 18345),
-	'Angle', 3832,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1817590426)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(54592, 19522),
-	'Angle', 7123,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1217399709)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(55925, 16815),
-	'Angle', 18979,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1534811362)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(55806, 18235),
-	'Angle', 17645,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1814025340)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(57193, 16778),
-	'Angle', 18965,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1256822253)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(57131, 18234),
-	'Angle', 1620,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1326588963)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(55755, 19433),
-	'Angle', 7870,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1783108815)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(57106, 19571),
-	'Angle', 18307,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1216868957)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(54727, 20881),
-	'Angle', 8983,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1232170228)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(53275, 23527),
-	'Angle', 15280,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1305590568)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(55949, 22224),
-	'Angle', 18059,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1556464315)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(55873, 23546),
-	'Angle', 18268,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1523676961)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(57128, 23517),
-	'Angle', 12918,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1723259547)
 PlaceObj('TropicalPlant_02_Tree_01', {
 	'Pos', point(50608, 24742),
 	'Angle', 21466,
@@ -6226,209 +3417,6 @@ PlaceObj('TropicalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1069897725)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(58528, 16984),
-	'Angle', 10595,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1749990445)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(58524, 18103),
-	'Angle', 15976,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1652412669)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(58396, 19355),
-	'Angle', 223,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1730887766)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(59814, 16974),
-	'Angle', 6531,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1504833964)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(59905, 18058),
-	'Angle', 16646,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1340647663)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(61247, 16989),
-	'Angle', 15624,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1417257864)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(59837, 19485),
-	'Angle', 10871,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1606396301)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(58399, 20919),
-	'Angle', 8288,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1350907665)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(58541, 22134),
-	'Angle', 19920,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1742941389)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(58458, 23526),
-	'Angle', 12411,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1184812265)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(59854, 20764),
-	'Angle', 11372,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1107356022)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(59698, 22150),
-	'Angle', 8476,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1787294081)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(61216, 20844),
-	'Angle', 10001,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1297223536)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(62329, 16825),
-	'Angle', 14399,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1350869731)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(62334, 18102),
-	'Angle', 15511,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1651390869)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(62509, 19470),
-	'Angle', 11088,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1459343284)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(63801, 16811),
-	'Angle', 14388,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1864115352)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(65040, 16831),
-	'Angle', 8279,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1814066599)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(65118, 18343),
-	'Angle', 20189,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1332968714)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(63568, 19536),
-	'Angle', 16889,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1542103058)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(64895, 19544),
-	'Angle', 21009,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1814338891)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(62270, 20767),
-	'Angle', 7557,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1270198613)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(62381, 22045),
-	'Angle', 17805,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1763990688)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(62302, 23338),
-	'Angle', 8070,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1578942558)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(63705, 20733),
-	'Angle', 652,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1743857730)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(63800, 22097),
-	'Angle', 11969,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1642309518)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(64966, 20892),
-	'Angle', 8167,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1816535991)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(65018, 22231),
-	'Angle', 2320,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1743291161)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(63751, 23367),
-	'Angle', 13126,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1899996879)
 PlaceObj('TropicalPlant_08_Tree_01', {
 	'Pos', point(58584, 24584),
 	'Angle', 1344,
@@ -12894,7 +9882,7 @@ PlaceObj('TropicalFillerPlants_08', {
 	'AllowedMask', 0,
 }, nil, 1359687506)
 PlaceObj('TropicalPlant_Liana_05', {
-	'Pos', point(54432, 74710),
+	'Pos', point(54433, 74712),
 	'Angle', 3966,
 	'Scale', 74,
 	'Saturation', 0,
@@ -13388,13 +10376,6 @@ PlaceObj('CoastalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1546027620)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(48412, 112583),
-	'Angle', 16960,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1627917987)
 PlaceObj('TropicalFillerPlants_05', {
 	'Pos', point(34145, 115329),
 	'Angle', 15552,
@@ -13663,13 +10644,6 @@ PlaceObj('TropicalFillerPlants_05', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1184961315)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(59833, 116970),
-	'Angle', 18287,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1207263708)
 PlaceObj('TropicalFillerPlants_01', {
 	'Pos', point(59516, 121160),
 	'Angle', 73,
@@ -13685,13 +10659,6 @@ PlaceObj('TropicalPlant_02_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1049093613)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(63260, 115374),
-	'Angle', 16872,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1137249424)
 PlaceObj('TropicalPlant_06_Tree_02', {
 	'Pos', point(62557, 121317),
 	'Angle', 8366,
@@ -13729,13 +10696,6 @@ PlaceObj('TropicalFillerPlants_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1204610871)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(65127, 123739),
-	'Angle', 20782,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1519334487)
 PlaceObj('TropicalPlant_06_Tree_02', {
 	'Pos', point(64090, 128033),
 	'Angle', 21118,
@@ -13743,314 +10703,6 @@ PlaceObj('TropicalPlant_06_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1799316277)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(66438, 7803),
-	'Angle', 14879,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1690687178)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(67631, 7662),
-	'Angle', 2015,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1051506868)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(68933, 7807),
-	'Angle', 11968,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1360690722)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(66439, 9136),
-	'Angle', 20669,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1334796553)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(66318, 10292),
-	'Angle', 2056,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1097679871)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(67648, 8996),
-	'Angle', 4623,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1832318778)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(68875, 9116),
-	'Angle', 10518,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1692730198)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(68781, 11772),
-	'Angle', 19910,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1268498256)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(66349, 13010),
-	'Angle', 9318,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1366481534)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(66152, 14331),
-	'Angle', 15850,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1578020932)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(66182, 15475),
-	'Angle', 7510,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1068438307)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(67537, 15703),
-	'Angle', 4748,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1707537977)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(67693, 12939),
-	'Angle', 1015,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1101889634)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(68942, 13107),
-	'Angle', 17719,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1138087947)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(67728, 14378),
-	'Angle', 20936,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1720877399)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(68841, 14422),
-	'Angle', 13840,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1870460909)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(69021, 15670),
-	'Angle', 21344,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1099102669)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(70127, 12929),
-	'Angle', 6875,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1017675802)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(70184, 15586),
-	'Angle', 6822,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1621699331)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(71628, 15472),
-	'Angle', 9422,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1344936103)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(72744, 15694),
-	'Angle', 21462,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1396361510)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(73988, 14276),
-	'Angle', 14200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1727134680)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(75443, 14194),
-	'Angle', 3860,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1399088885)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(74229, 15676),
-	'Angle', 7011,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1124155989)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(75346, 15661),
-	'Angle', 15196,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1438972724)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(76668, 14422),
-	'Angle', 11405,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1730967539)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(76600, 15670),
-	'Angle', 4241,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1298848460)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(77912, 14327),
-	'Angle', 8154,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1844969485)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(79366, 14322),
-	'Angle', 3356,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1177936626)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(78101, 15564),
-	'Angle', 666,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1810632803)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(79152, 15720),
-	'Angle', 6022,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1676623732)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(80740, 14181),
-	'Angle', 18321,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1104414999)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(81882, 14248),
-	'Angle', 11851,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1870211575)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(80715, 15473),
-	'Angle', 19580,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1185613690)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(81907, 15689),
-	'Angle', 11401,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1674393681)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(66201, 18205),
-	'Angle', 20394,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1669548234)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(67580, 16812),
-	'Angle', 18213,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1362947520)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(66422, 19488),
-	'Angle', 9274,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1781027438)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(68784, 16808),
-	'Angle', 18975,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1163686256)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(68855, 18186),
-	'Angle', 4220,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1678804053)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(67707, 19488),
-	'Angle', 19469,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1327343813)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(68851, 19636),
-	'Angle', 5647,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1660566780)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(66226, 21958),
-	'Angle', 4718,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1850611062)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(67569, 22197),
-	'Angle', 17700,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1096467687)
 PlaceObj('TropicalPlant_06_Tree_01', {
 	'Pos', point(66405, 23347),
 	'Angle', 363,
@@ -14058,20 +10710,6 @@ PlaceObj('TropicalPlant_06_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1479649839)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(67704, 20815),
-	'Angle', 4924,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1585355024)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(68979, 20918),
-	'Angle', 11376,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1288112864)
 PlaceObj('TropicalPlant_06_Tree_01', {
 	'Pos', point(67722, 23344),
 	'Angle', 15875,
@@ -14086,90 +10724,6 @@ PlaceObj('TropicalPlant_02_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1329424167)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(70340, 16975),
-	'Angle', 18971,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1196301254)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(70317, 18194),
-	'Angle', 8525,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1675652603)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(71559, 16811),
-	'Angle', 7097,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1215972822)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(71488, 18103),
-	'Angle', 5133,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1411313656)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(70100, 19421),
-	'Angle', 13389,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1780835053)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(71357, 19641),
-	'Angle', 1497,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1561419017)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(72699, 16980),
-	'Angle', 501,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1851901098)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(72814, 18149),
-	'Angle', 1719,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1189779537)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(72663, 19401),
-	'Angle', 14398,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1084729688)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(70176, 20725),
-	'Angle', 10356,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1188057614)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(70144, 22097),
-	'Angle', 9234,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1026742324)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(71592, 21956),
-	'Angle', 13046,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1589678046)
 PlaceObj('TropicalPlant_07_Tree_01', {
 	'Pos', point(70069, 23403),
 	'Angle', 17870,
@@ -14184,13 +10738,6 @@ PlaceObj('TropicalPlant_03_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1119084560)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(72663, 20936),
-	'Angle', 14181,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1080576133)
 PlaceObj('TropicalPlant_02_Tree_02', {
 	'Pos', point(72914, 23495),
 	'Angle', 13151,
@@ -14422,97 +10969,6 @@ PlaceObj('TropicalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1589251388)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(73977, 16976),
-	'Angle', 4508,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1116410802)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(74006, 18277),
-	'Angle', 20677,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1839126760)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(75362, 16846),
-	'Angle', 9274,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1043261333)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(75526, 18205),
-	'Angle', 15810,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1543419910)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(74033, 19362),
-	'Angle', 12370,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1611388186)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(75376, 19392),
-	'Angle', 19502,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1660339210)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(76601, 16960),
-	'Angle', 2700,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1499074199)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(76831, 18085),
-	'Angle', 7752,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1589250381)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(76602, 19593),
-	'Angle', 11033,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1710366382)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(74104, 20784),
-	'Angle', 1880,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1585492449)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(74078, 22108),
-	'Angle', 935,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1306923517)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(75478, 20741),
-	'Angle', 10251,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1278198874)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(75259, 22046),
-	'Angle', 13660,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1672989076)
 PlaceObj('TropicalPlant_07_Tree_01', {
 	'Pos', point(74136, 23283),
 	'Angle', 20959,
@@ -14527,20 +10983,6 @@ PlaceObj('TropicalPlant_08_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1081893546)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(76744, 20764),
-	'Angle', 4779,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1763752298)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(76714, 21961),
-	'Angle', 14921,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1748053679)
 PlaceObj('TropicalPlant_03_Tree_02', {
 	'Pos', point(76650, 23471),
 	'Angle', 3691,
@@ -14548,55 +10990,6 @@ PlaceObj('TropicalPlant_03_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1897641443)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(78097, 16825),
-	'Angle', 21474,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1062459414)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(77850, 18122),
-	'Angle', 2641,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1652871153)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(79294, 16847),
-	'Angle', 12769,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1152727443)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(79288, 18096),
-	'Angle', 20817,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1322410206)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(78069, 19377),
-	'Angle', 8052,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1120920571)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(79165, 19602),
-	'Angle', 6168,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1711000728)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(80555, 16834),
-	'Angle', 14396,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1505016302)
 PlaceObj('TropicalPlant_02_Tree_02', {
 	'Pos', point(80716, 18344),
 	'Angle', 7636,
@@ -14604,13 +10997,6 @@ PlaceObj('TropicalPlant_02_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1514597415)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(81821, 16765),
-	'Angle', 17016,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1564373972)
 PlaceObj('TropicalPlant_01_Tree_02', {
 	'Pos', point(80551, 19592),
 	'Angle', 13399,
@@ -14618,34 +11004,6 @@ PlaceObj('TropicalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1495213086)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(77902, 20710),
-	'Angle', 4276,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1128624656)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(78018, 22210),
-	'Angle', 5546,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1076693855)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(79387, 20811),
-	'Angle', 4828,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1489552443)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(79391, 22153),
-	'Angle', 13177,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1457918765)
 PlaceObj('TropicalPlant_04_Tree_02', {
 	'Pos', point(77901, 23418),
 	'Angle', 13505,
@@ -14947,76 +11305,6 @@ PlaceObj('TropicalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1453378048)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(83127, 15659),
-	'Angle', 12244,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1486180253)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(85770, 14201),
-	'Angle', 5935,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1832665180)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(84515, 15545),
-	'Angle', 10374,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1259053835)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(85655, 15547),
-	'Angle', 4488,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1596826061)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(86980, 15473),
-	'Angle', 6832,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1558321624)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(87084, 14418),
-	'Angle', 6261,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1059962282)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(88529, 14159),
-	'Angle', 707,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1472547969)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(89662, 14188),
-	'Angle', 13005,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1349369132)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(88291, 15593),
-	'Angle', 16384,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1801765977)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(89580, 15492),
-	'Angle', 9589,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1102854162)
 PlaceObj('TropicalPlant_05_Tree_01', {
 	'Pos', point(97368, 10),
 	'Angle', 5391,
@@ -15024,167 +11312,6 @@ PlaceObj('TropicalPlant_05_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1393849894)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(97453, 1160),
-	'Angle', 10264,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1452598346)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(97601, 2635),
-	'Angle', 20823,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1327411140)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(97383, 3823),
-	'Angle', 13704,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1774207170)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(97584, 5090),
-	'Angle', 825,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1554275957)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(97581, 6450),
-	'Angle', 16017,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1722823460)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(97530, 7781),
-	'Angle', 4190,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1806840638)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(91091, 14330),
-	'Angle', 20215,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1090855563)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(90858, 15521),
-	'Angle', 4961,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1564959852)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(92355, 14154),
-	'Angle', 8021,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1052810491)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(92264, 15711),
-	'Angle', 17555,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1854523320)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(93464, 14386),
-	'Angle', 16178,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1280329360)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(93582, 15708),
-	'Angle', 10521,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1346616296)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(97545, 9146),
-	'Angle', 2173,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1130603547)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(97495, 10374),
-	'Angle', 1332,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1611524503)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(97552, 11603),
-	'Angle', 11936,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1575913864)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(94942, 14155),
-	'Angle', 11541,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1477696640)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(96246, 13017),
-	'Angle', 921,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1584095935)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(96136, 14252),
-	'Angle', 15731,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1027904316)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(94985, 15742),
-	'Angle', 510,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1735505623)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(96188, 15477),
-	'Angle', 300,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1762736494)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(97352, 13073),
-	'Angle', 20928,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1162007624)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(97511, 14173),
-	'Angle', 3331,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1750826150)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(97396, 15542),
-	'Angle', 13924,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1370461526)
 PlaceObj('TropicalPlant_08_Tree_01', {
 	'Pos', point(82024, 18339),
 	'Angle', 10612,
@@ -15192,13 +11319,6 @@ PlaceObj('TropicalPlant_08_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1074725160)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(83052, 16983),
-	'Angle', 3291,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1769956806)
 PlaceObj('TropicalPlant_08_Tree_01', {
 	'Pos', point(83189, 18298),
 	'Angle', 16504,
@@ -15220,13 +11340,6 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1230240224)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(84351, 16878),
-	'Angle', 14956,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1804012746)
 PlaceObj('TropicalPlant_06_Tree_01', {
 	'Pos', point(84598, 18255),
 	'Angle', 2476,
@@ -15234,13 +11347,6 @@ PlaceObj('TropicalPlant_06_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1716328197)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(85696, 17024),
-	'Angle', 8280,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1137699666)
 PlaceObj('TropicalPlant_04_Tree_01', {
 	'Pos', point(85774, 18317),
 	'Angle', 8920,
@@ -15332,13 +11438,6 @@ PlaceObj('TropicalPlant_08_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1250584883)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(87003, 16842),
-	'Angle', 5815,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1801850980)
 PlaceObj('TropicalPlant_04_Tree_02', {
 	'Pos', point(86953, 18212),
 	'Angle', 13608,
@@ -15703,13 +11802,6 @@ PlaceObj('TropicalPlant_06_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1280301299)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(91061, 17022),
-	'Angle', 1938,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1476945674)
 PlaceObj('TropicalPlant_01_Tree_02', {
 	'Pos', point(91041, 18139),
 	'Angle', 6824,
@@ -15724,13 +11816,6 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1562372377)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(92324, 16915),
-	'Angle', 11409,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1845746104)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(92448, 18242),
 	'Angle', 18380,
@@ -15738,13 +11823,6 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1036366541)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(93745, 16854),
-	'Angle', 8401,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1684058185)
 PlaceObj('TropicalPlant_08_Tree_02', {
 	'Pos', point(93615, 18290),
 	'Angle', 18160,
@@ -15829,13 +11907,6 @@ PlaceObj('TropicalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1460752737)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(94873, 16890),
-	'Angle', 13800,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1790966084)
 PlaceObj('TropicalPlant_06_Tree_02', {
 	'Pos', point(94836, 18293),
 	'Angle', 12752,
@@ -15843,20 +11914,6 @@ PlaceObj('TropicalPlant_06_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1855422163)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(96169, 16984),
-	'Angle', 19509,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1590476097)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(97484, 16798),
-	'Angle', 7855,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1382096786)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(97645, 18058),
 	'Angle', 16667,
@@ -17746,20 +13803,6 @@ PlaceObj('TropicalPlant_02_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1266914801)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(83574, 54089),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
-}, nil, 1485528484)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(81999, 57082),
-	'Angle', 6210,
-	'Scale', 90,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1898309904)
 PlaceObj('TropicalFillerPlants_08', {
 	'Pos', point(83000, 57000),
 	'Angle', 21029,
@@ -17797,6 +13840,12 @@ PlaceObj('TropicalFillerPlants_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1459056723)
+PlaceObj('TropicalPlant_04_Tree_02', {
+	'Pos', point(82267, 58284, 19550),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1485528484)
 PlaceObj('TropicalFillerPlants_03', {
 	'Pos', point(83000, 58000),
 	'Angle', 816,
@@ -17805,14 +13854,6 @@ PlaceObj('TropicalFillerPlants_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1082018161)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(84037, 57467),
-	'Angle', 1291,
-	'Scale', 94,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1393195378)
 PlaceObj('TropicalFillerPlants_05', {
 	'Pos', point(84000, 58000),
 	'Angle', 1478,
@@ -17952,33 +13993,12 @@ PlaceObj('TropicalPlant_08_Tree_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1291326583)
 PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(98796, 1373),
-	'Angle', 13239,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1344619977)
-PlaceObj('TropicalPlant_02_Tree_01', {
 	'Pos', point(100112, 59),
 	'Angle', 21222,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1103638424)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(98797, 2535),
-	'Angle', 751,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1360599910)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(98823, 4011),
-	'Angle', 2222,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1349527882)
 PlaceObj('TropicalPlant_08_Tree_01', {
 	'Pos', point(100157, 2739),
 	'Angle', 2917,
@@ -18021,13 +14041,6 @@ PlaceObj('TropicalPlant_08_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1840348088)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(98916, 5123),
-	'Angle', 9103,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1719168142)
 PlaceObj('TropicalPlant_07_Tree_01', {
 	'Pos', point(100027, 5287),
 	'Angle', 5160,
@@ -18035,20 +14048,6 @@ PlaceObj('TropicalPlant_07_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1484661664)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(98882, 6462),
-	'Angle', 7780,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1449665302)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(98805, 7737),
-	'Angle', 20658,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1484156550)
 PlaceObj('TropicalPlant_05_Tree_01', {
 	'Pos', point(100054, 7694),
 	'Angle', 9072,
@@ -18126,20 +14125,6 @@ PlaceObj('TropicalPlant_04_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1513913729)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(98830, 9112),
-	'Angle', 9974,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1461240658)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(98715, 10464),
-	'Angle', 1497,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1388112223)
 PlaceObj('TropicalPlant_06_Tree_02', {
 	'Pos', point(99974, 10520),
 	'Angle', 20644,
@@ -18175,20 +14160,6 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1322087288)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(98918, 13112),
-	'Angle', 2920,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1895612572)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(98899, 14256),
-	'Angle', 9505,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1184637744)
 PlaceObj('TropicalPlant_02_Tree_01', {
 	'Pos', point(100136, 12861),
 	'Angle', 11230,
@@ -18203,13 +14174,6 @@ PlaceObj('TropicalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1242456918)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(98677, 15742),
-	'Angle', 19317,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1618955742)
 PlaceObj('TropicalPlant_06_Tree_01', {
 	'Pos', point(100125, 15646),
 	'Angle', 2378,
@@ -18421,13 +14385,6 @@ PlaceObj('WaterPlane', {
 	'WaterParam13', 18963,
 	'WaterParam14', 4740,
 }, nil, 1571082263)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(98887, 17039),
-	'Angle', 10221,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1060782502)
 PlaceObj('TropicalPlant_08_Tree_01', {
 	'Pos', point(98926, 18068),
 	'Angle', 4363,
@@ -27297,7 +23254,7 @@ PlaceObj('TropicalFillerPlants_03', {
 	'AllowedMask', 0,
 }, nil, 1325606792)
 PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(60298, 146759),
+	'Pos', point(60298, 146759, 14414),
 	'Angle', 7879,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -32573,6 +28530,14 @@ PlaceObj('TropicalPlant_04_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1513265754)
+PlaceObj('TropicalPlant_04_Tree_02', {
+	'Pos', point(93062, 137383, 18850),
+	'Angle', 1624,
+	'Scale', 98,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1021917697)
 PlaceObj('TropicalFillerPlants_08', {
 	'Pos', point(95252, 137100),
 	'Angle', 9620,
@@ -32597,14 +28562,6 @@ PlaceObj('TropicalFillerPlants_06', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1590892865)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(96122, 138383),
-	'Angle', 1624,
-	'Scale', 98,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1496594149)
 PlaceObj('TreeAttach_05', {
 	'Pos', point(95946, 139171),
 	'Angle', 9108,
@@ -33254,14 +29211,6 @@ PlaceObj('TreeAttach_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, nil)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(94272, 160282),
-	'Angle', 16393,
-	'Scale', 88,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1736404392)
 PlaceObj('TropicalFillerPlants_03', {
 	'Pos', point(95000, 160000),
 	'Angle', 7422,
@@ -33318,6 +29267,14 @@ PlaceObj('TreeAttach_05', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, nil)
+PlaceObj('TropicalPlant_04_Tree_02', {
+	'Pos', point(95529, 161376, 18080),
+	'Angle', 1624,
+	'Scale', 98,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1695807986)
 PlaceObj('TreeAttach_01', {
 	'Pos', point(95953, 161275),
 	'Angle', 11007,
@@ -33366,14 +29323,6 @@ PlaceObj('TropicalFillerPlants_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1172909031)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(96750, 162568, 18062),
-	'Angle', 312,
-	'Scale', 99,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1845669864)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(96706, 163256),
 	'Angle', 8830,
@@ -33447,14 +29396,14 @@ PlaceObj('TropicalFillerPlants_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1143674605)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(97863, 164077, 18048),
-	'Angle', 4283,
-	'Scale', 95,
+PlaceObj('TropicalPlant_01_Tree_01', {
+	'Pos', point(97790, 164950),
+	'Angle', 9186,
+	'Scale', 127,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1600598667)
+	'AllowedMask', 4294967279,
+}, nil, 1197166441)
 PlaceObj('CoastalPlant_01_Tree_02', {
 	'Pos', point(84612, 195027),
 	'Angle', 6907,
@@ -33501,14 +29450,6 @@ PlaceObj('TropicalFillerPlants_08', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1244196120)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(100156, 137335),
-	'Angle', 21566,
-	'Scale', 85,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1553850471)
 PlaceObj('TropicalFillerPlants_04', {
 	'Pos', point(101169, 139102),
 	'Angle', 5473,
@@ -33525,14 +29466,6 @@ PlaceObj('TropicalFillerPlants_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1830204597)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(102405, 139829),
-	'Angle', 11294,
-	'Scale', 55,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1351889170)
 PlaceObj('TropicalFillerPlants_08', {
 	'Pos', point(103225, 140257),
 	'Angle', 20733,
@@ -33550,9 +29483,9 @@ PlaceObj('TropicalFillerPlants_06', {
 	'AllowedMask', 0,
 }, nil, 1071962432)
 PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(103752, 142064, 17888),
+	'Pos', point(103870, 142263, 17888),
 	'Angle', 1076,
-	'Scale', 48,
+	'Scale', 74,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
@@ -33566,7 +29499,7 @@ PlaceObj('TropicalFillerPlants_01', {
 	'AllowedMask', 0,
 }, nil, 1403318416)
 PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(105705, 144428),
+	'Pos', point(106041, 144536, 17449),
 	'Angle', 12563,
 	'Scale', 70,
 	'Saturation', 0,
@@ -33859,23 +29792,28 @@ PlaceObj('Bunker_MetalBed_01', {
 	'AllowedMask', 782,
 }, nil, 1040396485)
 PlaceObj('WeaponAttA_BipodMG42', {
-	'Pos', point(100574, 158849, 18811),
+	'Pos', point(100518, 156288, 17738),
 	'Angle', 2891,
 	'Axis', point(0, 4096, 0),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'CollectionIndex', 919,
 	'AllowedMask', 0,
-}, nil, 1868164223)
+}, nil, 1440962185)
 PlaceObj('Weapon_MG42', {
-	'Pos', point(101052, 158846, 18255),
+	'Pos', point(100996, 156285, 17182),
 	'Angle', 10800,
 	'Axis', point(1554, 0, 3789),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'CollectionIndex', 919,
 	'AllowedMask', 0,
-}, nil, 1040753678)
+}, nil, 1805352418)
+PlaceObj('JungleCamp_Backpack_01', {
+	'Pos', point(100837, 158847),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 576,
+	'AllowedMask', 782,
+}, nil, 1301021485)
 PlaceObj('AL_Roam', {
 	'Entity', "NPCCostumeFemale_Shirt_01",
 	'Pos', point(102399, 159268),
@@ -34014,13 +29952,6 @@ PlaceObj('TropicalFillerPlants_06', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1825224546)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(106293, 161798, 18160),
-	'Angle', 17054,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1571994086)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(106230, 162871),
 	'Angle', 8883,
@@ -34154,14 +30085,6 @@ PlaceObj('TropicalFillerPlants_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1123401835)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(109912, 160354),
-	'Angle', 14501,
-	'Scale', 69,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1533882925)
 PlaceObj('TreeAttach_06', {
 	'Pos', point(109750, 161288),
 	'Angle', 8774,
@@ -34397,6 +30320,14 @@ PlaceObj('TropicalFillerPlants_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1852478841)
+PlaceObj('TropicalPlant_04_Tree_02', {
+	'Pos', point(100283, 169688),
+	'Angle', 7939,
+	'Scale', 136,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1235270266)
 PlaceObj('TreeAttach_06', {
 	'Pos', point(102230, 168968),
 	'Angle', 649,
@@ -34437,14 +30368,6 @@ PlaceObj('TropicalFillerPlants_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1092590650)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(102533, 168447, 17698),
-	'Angle', 7321,
-	'Scale', 56,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1829158370)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(103025, 169099),
 	'Angle', 6488,
@@ -34453,13 +30376,6 @@ PlaceObj('TropicalFillerPlants_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1705745057)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(103803, 169802),
-	'Angle', 922,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1522860529)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(103293, 170129),
 	'Angle', 21136,
@@ -34532,14 +30448,6 @@ PlaceObj('TropicalFillerPlants_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1844954867)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(102367, 172381),
-	'Angle', 18802,
-	'Scale', 76,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1241053518)
 PlaceObj('TropicalFillerPlants_01', {
 	'Pos', point(102293, 172829),
 	'Angle', 18551,
@@ -36453,153 +32361,6 @@ PlaceObj('TropicalFillerPlants_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1037286033)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(131184, 82),
-	'Angle', 2210,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1576539891)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(131395, 1166),
-	'Angle', 13522,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1741858331)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(132639, 64),
-	'Angle', 8426,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1026392077)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(132698, 1240),
-	'Angle', 10391,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1241346127)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(131154, 2566),
-	'Angle', 18313,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1899679982)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(131396, 4047),
-	'Angle', 12502,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1822488013)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(133787, 4),
-	'Angle', 17055,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1616078445)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(133857, 1264),
-	'Angle', 9663,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1360486340)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(131367, 5303),
-	'Angle', 14113,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1515873710)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(131231, 6433),
-	'Angle', 15795,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1163600892)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(131346, 7696),
-	'Angle', 3823,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1683800088)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(135211, 1421),
-	'Angle', 21077,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1382260150)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(136573, 1205),
-	'Angle', 18830,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1287308169)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(137918, 77),
-	'Angle', 9597,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1030582044)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(137899, 1383),
-	'Angle', 13203,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1888079607)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(139209, 102),
-	'Angle', 4631,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1543223665)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(139238, 1273),
-	'Angle', 2935,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1055127515)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(131349, 9210),
-	'Angle', 18372,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1153436789)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(131251, 10361),
-	'Angle', 3872,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1453179537)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(131252, 11810),
-	'Angle', 6233,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1384574400)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(131393, 13081),
-	'Angle', 1468,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1836797887)
 PlaceObj('TropicalPlant_07_Tree_02', {
 	'Pos', point(132704, 15681),
 	'Angle', 19184,
@@ -36621,160 +32382,6 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1367430574)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(136494, 14423),
-	'Angle', 11055,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1221669211)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(137881, 15720),
-	'Angle', 20037,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1589054196)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(138986, 15703),
-	'Angle', 18028,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1575133273)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(140328, 121),
-	'Angle', 18318,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1620215377)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(140414, 1222),
-	'Angle', 1560,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1513345435)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(141751, 31),
-	'Angle', 12473,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1257279558)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(141770, 1264),
-	'Angle', 4350,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1076096329)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(143124, 81),
-	'Angle', 20615,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1121368724)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(142991, 1399),
-	'Angle', 13576,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1529810764)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(146770, 24),
-	'Angle', 5047,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1644563770)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(146814, 1225),
-	'Angle', 19973,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1232400663)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(140489, 14229),
-	'Angle', 19984,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1680302510)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(140334, 15600),
-	'Angle', 10271,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1702105393)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(141788, 14326),
-	'Angle', 12852,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1690654840)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(142927, 14257),
-	'Angle', 2162,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1100080040)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(141795, 15491),
-	'Angle', 7758,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1894110514)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(143050, 15613),
-	'Angle', 6157,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1560167515)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(144205, 14291),
-	'Angle', 12968,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1215254734)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(144310, 15477),
-	'Angle', 3019,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1241197306)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(145463, 14419),
-	'Angle', 1024,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1304053969)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(146973, 14340),
-	'Angle', 13308,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1631617240)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(147014, 15486),
-	'Angle', 15437,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1475060421)
 PlaceObj('TropicalPlant_01_Tree_02', {
 	'Pos', point(131449, 16887),
 	'Angle', 4401,
@@ -36902,13 +32509,6 @@ PlaceObj('TropicalPlant_03_Tree_02', {
 	'AllowedMask', 4294967279,
 }, nil, 1013103755)
 PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(136384, 17031),
-	'Angle', 20369,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1337451961)
-PlaceObj('TropicalPlant_03_Tree_01', {
 	'Pos', point(136633, 18228),
 	'Angle', 13110,
 	'Saturation', 0,
@@ -36929,13 +32529,6 @@ PlaceObj('TropicalPlant_07_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1881258716)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(137757, 16920),
-	'Angle', 11884,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1327074017)
 PlaceObj('TropicalPlant_06_Tree_02', {
 	'Pos', point(137800, 18317),
 	'Angle', 21286,
@@ -36943,13 +32536,6 @@ PlaceObj('TropicalPlant_06_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1587726977)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(139223, 16900),
-	'Angle', 17900,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1581570273)
 PlaceObj('TropicalPlant_04_Tree_01', {
 	'Pos', point(139011, 18256),
 	'Angle', 9463,
@@ -37300,13 +32886,6 @@ PlaceObj('TropicalPlant_06_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1469121735)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(141609, 16829),
-	'Angle', 14584,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1204339065)
 PlaceObj('TropicalPlant_03_Tree_01', {
 	'Pos', point(141750, 18184),
 	'Angle', 8305,
@@ -37314,13 +32893,6 @@ PlaceObj('TropicalPlant_03_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1436369273)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(143026, 16772),
-	'Angle', 14362,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1704404985)
 PlaceObj('TropicalPlant_03_Tree_01', {
 	'Pos', point(143009, 18101),
 	'Angle', 15420,
@@ -37405,13 +32977,6 @@ PlaceObj('TropicalPlant_08_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1155673469)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(145487, 17031),
-	'Angle', 14222,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1108761248)
 PlaceObj('TropicalPlant_04_Tree_01', {
 	'Pos', point(145490, 18310),
 	'Angle', 15059,
@@ -37419,13 +32984,6 @@ PlaceObj('TropicalPlant_04_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1624096965)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(146930, 17038),
-	'Angle', 9550,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1753897643)
 PlaceObj('TropicalPlant_02_Tree_02', {
 	'Pos', point(146911, 18175),
 	'Angle', 639,
@@ -37588,258 +33146,6 @@ PlaceObj('TropicalPlant_03_Tree_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1407807397)
 PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(148140, 140),
-	'Angle', 16191,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1487126923)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(148290, 1180),
-	'Angle', 11888,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1536687927)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(149624, 42),
-	'Angle', 16919,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1568136074)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(150764, 138),
-	'Angle', 2750,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1235574369)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(152155, 85),
-	'Angle', 12886,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1375729390)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(153357, 78),
-	'Angle', 18928,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1701967948)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(154796, 8),
-	'Angle', 1809,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1592725112)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(148256, 14251),
-	'Angle', 2536,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1563523025)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(149373, 14319),
-	'Angle', 1086,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1632996119)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(148212, 15528),
-	'Angle', 12571,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1013308259)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(149512, 15604),
-	'Angle', 505,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1035490180)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(150792, 14419),
-	'Angle', 12338,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1291169327)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(150766, 15744),
-	'Angle', 349,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1019377266)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(152029, 14445),
-	'Angle', 11255,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1441455021)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(152243, 15539),
-	'Angle', 9491,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1534484370)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(153299, 14410),
-	'Angle', 17720,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1348176391)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(153447, 15688),
-	'Angle', 6910,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1582350919)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(154817, 14362),
-	'Angle', 8304,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1184967656)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(154737, 15609),
-	'Angle', 21178,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1864022466)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(155905, 29),
-	'Angle', 8972,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1700931649)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(157159, 112),
-	'Angle', 5024,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1629552059)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(158577, 36),
-	'Angle', 9588,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1560940052)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(159820, 56),
-	'Angle', 5718,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1778082768)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(161269, 107),
-	'Angle', 10192,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1256066447)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(155997, 14364),
-	'Angle', 11787,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1109660591)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(155903, 15602),
-	'Angle', 2227,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1861801919)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(157389, 14360),
-	'Angle', 19053,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1535610488)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(157373, 15591),
-	'Angle', 7614,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1230221316)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(158683, 14181),
-	'Angle', 1071,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1578524334)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(158666, 15524),
-	'Angle', 8806,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1407781037)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(159943, 14269),
-	'Angle', 17017,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1106698481)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(159857, 15696),
-	'Angle', 1320,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1678966324)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(161239, 15738),
-	'Angle', 18063,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1135396464)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(162641, 14375),
-	'Angle', 15938,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1899641632)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(163822, 14353),
-	'Angle', 2164,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1249018323)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(148124, 16763),
-	'Angle', 18410,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1485936232)
-PlaceObj('TropicalPlant_08_Tree_01', {
 	'Pos', point(148277, 18210),
 	'Angle', 21050,
 	'Saturation', 0,
@@ -37853,13 +33159,6 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1325369176)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(150652, 16881),
-	'Angle', 10950,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1643804367)
 PlaceObj('TropicalPlant_07_Tree_02', {
 	'Pos', point(150857, 18257),
 	'Angle', 7972,
@@ -37930,13 +33229,6 @@ PlaceObj('TropicalPlant_03_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1672945355)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(152086, 16822),
-	'Angle', 6709,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1167678620)
 PlaceObj('TropicalPlant_03_Tree_02', {
 	'Pos', point(152209, 18145),
 	'Angle', 14625,
@@ -37944,13 +33236,6 @@ PlaceObj('TropicalPlant_03_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1451788780)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(153430, 17013),
-	'Angle', 12157,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1301151447)
 PlaceObj('TropicalPlant_08_Tree_01', {
 	'Pos', point(153498, 18279),
 	'Angle', 799,
@@ -37972,13 +33257,6 @@ PlaceObj('TropicalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1171178426)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(154648, 16935),
-	'Angle', 16761,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1121416151)
 PlaceObj('TropicalPlant_06_Tree_01', {
 	'Pos', point(154709, 18149),
 	'Angle', 6806,
@@ -38196,13 +33474,6 @@ PlaceObj('TropicalPlant_07_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1069374253)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(156109, 16864),
-	'Angle', 20406,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1646530075)
 PlaceObj('TropicalPlant_08_Tree_01', {
 	'Pos', point(156094, 18239),
 	'Angle', 3266,
@@ -38210,13 +33481,6 @@ PlaceObj('TropicalPlant_08_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1795873513)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(157219, 16907),
-	'Angle', 11464,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1102770897)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(157290, 18323),
 	'Angle', 50,
@@ -38238,13 +33502,6 @@ PlaceObj('TropicalPlant_04_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1185239042)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(158547, 16891),
-	'Angle', 14928,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1853460372)
 PlaceObj('TropicalPlant_06_Tree_02', {
 	'Pos', point(158555, 18161),
 	'Angle', 14884,
@@ -38301,20 +33558,6 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1105564639)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(160026, 17037),
-	'Angle', 5942,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1711445624)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(161216, 16816),
-	'Angle', 813,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1193136383)
 PlaceObj('TropicalPlant_07_Tree_01', {
 	'Pos', point(161320, 18176),
 	'Angle', 18232,
@@ -38336,13 +33579,6 @@ PlaceObj('TropicalPlant_08_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1318890150)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(162601, 16819),
-	'Angle', 13912,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1746196321)
 PlaceObj('TropicalPlant_01_Tree_02', {
 	'Pos', point(162527, 18327),
 	'Angle', 1832,
@@ -38350,13 +33586,6 @@ PlaceObj('TropicalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1251257714)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(163829, 16779),
-	'Angle', 15289,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1819007054)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(163657, 19520),
 	'Angle', 9635,
@@ -40133,13 +35362,6 @@ PlaceObj('TropicalPlant_08_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1036679642)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(157363, 37730),
-	'Angle', 10592,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1852834481)
 PlaceObj('TropicalPlant_08_Tree_02', {
 	'Pos', point(157173, 38873),
 	'Angle', 996,
@@ -40498,195 +35720,6 @@ PlaceObj('CoastalPlant_01_Tree_04', {
 	'AllowedMask', 4294967279,
 }, nil, 1702879493)
 PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(163844, 82),
-	'Angle', 7466,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1310106785)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(164979, 126),
-	'Angle', 15251,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1532338649)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(166462, 146),
-	'Angle', 1361,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1885998324)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(167829, 57),
-	'Angle', 7529,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1841367842)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(170330, 56),
-	'Angle', 7892,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1249440520)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(170190, 1243),
-	'Angle', 13845,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1190675193)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(170392, 2694),
-	'Angle', 5351,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1115972460)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(170421, 3971),
-	'Angle', 4780,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1134755159)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(170323, 5205),
-	'Angle', 7064,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1582057888)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(163912, 13045),
-	'Angle', 3977,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1180385266)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(165028, 14244),
-	'Angle', 5385,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1403494924)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(163849, 15491),
-	'Angle', 18417,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1672602131)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(165068, 15459),
-	'Angle', 2759,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1869613563)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(166541, 12984),
-	'Angle', 20368,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1603225870)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(166374, 14307),
-	'Angle', 7174,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1552252252)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(167816, 13132),
-	'Angle', 21530,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1645164066)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(167836, 14168),
-	'Angle', 9942,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1081007429)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(166441, 15737),
-	'Angle', 21453,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1422058382)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(167752, 15603),
-	'Angle', 12244,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1211671483)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(171483, 11578),
-	'Angle', 15337,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1263088812)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(168928, 12905),
-	'Angle', 19201,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1532345703)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(168930, 14168),
-	'Angle', 19106,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1017640524)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(168902, 15600),
-	'Angle', 7017,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1073321397)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(171601, 13068),
-	'Angle', 3930,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1433742258)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(170272, 14410),
-	'Angle', 5147,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1142509450)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(171615, 14371),
-	'Angle', 20851,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1756459996)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(165073, 16927),
-	'Angle', 19601,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1830993405)
-PlaceObj('TropicalPlant_08_Tree_02', {
 	'Pos', point(165172, 18120),
 	'Angle', 12507,
 	'Saturation', 0,
@@ -40707,13 +35740,6 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1157681307)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(167694, 17002),
-	'Angle', 5793,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1621000898)
 PlaceObj('TropicalPlant_01_Tree_02', {
 	'Pos', point(167786, 18223),
 	'Angle', 7706,
@@ -40777,20 +35803,6 @@ PlaceObj('TropicalPlant_04_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1018428260)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(169145, 16778),
-	'Angle', 17057,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1282287523)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(171580, 16958),
-	'Angle', 21515,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1816176728)
 PlaceObj('TropicalPlant_01_Tree_02', {
 	'Pos', point(163905, 25972),
 	'Angle', 13619,
@@ -40924,13 +35936,6 @@ PlaceObj('TropicalPlant_02_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1545106784)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(171667, 28682),
-	'Angle', 18547,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1013615736)
 PlaceObj('TropicalPlant_07_Tree_02', {
 	'Pos', point(171745, 29961),
 	'Angle', 19978,
@@ -41372,13 +36377,6 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1315196984)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(183165, 23298),
-	'Angle', 21547,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1818107266)
 PlaceObj('TropicalPlant_04_Tree_02', {
 	'Pos', point(184647, 18248),
 	'Angle', 13599,
@@ -41932,13 +36930,6 @@ PlaceObj('TropicalPlant_06_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1431926488)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(191212, 26146),
-	'Angle', 18292,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1428259834)
 PlaceObj('TropicalPlant_08_Tree_02', {
 	'Pos', point(192376, 24792),
 	'Angle', 1831,
@@ -42471,13 +37462,6 @@ PlaceObj('TropicalPlant_02_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1542486098)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(173005, 36386),
-	'Angle', 12633,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1475578228)
 PlaceObj('TropicalPlant_04_Tree_01', {
 	'Pos', point(175531, 33808),
 	'Angle', 21469,
@@ -42709,13 +37693,6 @@ PlaceObj('TropicalPlant_07_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1825728274)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(176878, 41590),
-	'Angle', 20238,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1297541402)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(179415, 41696),
 	'Angle', 5692,
@@ -42931,13 +37908,6 @@ PlaceObj('TropicalPlant_08_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1870907151)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(187245, 36316),
-	'Angle', 10837,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1545683899)
 PlaceObj('TropicalPlant_04_Tree_01', {
 	'Pos', point(184563, 37814),
 	'Angle', 16647,
@@ -43197,13 +38167,6 @@ PlaceObj('TropicalPlant_03_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1013132649)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(195025, 35212),
-	'Angle', 7523,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1393023688)
 PlaceObj('TropicalPlant_05_Tree_01', {
 	'Pos', point(193660, 37745),
 	'Angle', 13017,
@@ -45021,14 +39984,6 @@ PlaceObj('CoastalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1615537399)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(160618, 100900),
-	'Angle', 11391,
-	'Scale', 154,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1790115610)
 PlaceObj('TropicalFillerPlants_01', {
 	'Pos', point(163753, 103936),
 	'Angle', 11916,
@@ -45479,14 +40434,6 @@ PlaceObj('TropicalFillerPlants_04', {
 	'AllowedMask', 0,
 }, nil, 1526428954)
 PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(172900, 100719),
-	'Angle', 13105,
-	'Scale', 122,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1038420370)
-PlaceObj('TropicalPlant_08_Tree_02', {
 	'Pos', point(175325, 99654),
 	'Angle', 6823,
 	'Scale', 120,
@@ -45638,14 +40585,6 @@ PlaceObj('CoastalPlant_01_Tree_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1462340005)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(176704, 119246),
-	'Angle', 5885,
-	'Scale', 115,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1140232709)
 PlaceObj('TropicalPlant_06_Tree_02', {
 	'Pos', point(187722, 99284),
 	'Angle', 16233,
@@ -45928,13 +40867,6 @@ PlaceObj('TropicalPlant_08_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1744576475)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(200087, 23426),
-	'Angle', 20182,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1018792811)
 PlaceObj('TropicalPlant_03_Tree_01', {
 	'Pos', point(201583, 18152),
 	'Angle', 19260,
@@ -45956,20 +40888,6 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1514545467)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(204092, 16851),
-	'Angle', 3646,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1069104360)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(204218, 18098),
-	'Angle', 17567,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1087684339)
 PlaceObj('TropicalPlant_01_Tree_02', {
 	'Pos', point(204170, 19421),
 	'Angle', 2291,
@@ -46103,13 +41021,6 @@ PlaceObj('TropicalPlant_03_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1712721146)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(198792, 28528),
-	'Angle', 9286,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1896059435)
 PlaceObj('TropicalPlant_04_Tree_02', {
 	'Pos', point(200249, 27256),
 	'Angle', 1095,
@@ -46327,20 +41238,6 @@ PlaceObj('TropicalPlant_07_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1147743081)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(205402, 16769),
-	'Angle', 19501,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1436999939)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(205422, 18330),
-	'Angle', 14572,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1511152712)
 PlaceObj('TropicalPlant_08_Tree_01', {
 	'Pos', point(205536, 19381),
 	'Angle', 20385,
@@ -46355,62 +41252,6 @@ PlaceObj('TropicalPlant_03_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1731940924)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(209154, 16838),
-	'Angle', 17596,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1550254712)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(209414, 18056),
-	'Angle', 16897,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1645614856)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(210577, 17049),
-	'Angle', 19123,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1768164984)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(210723, 18261),
-	'Angle', 11491,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1249677278)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(209334, 19360),
-	'Angle', 4800,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1399818923)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(210580, 19382),
-	'Angle', 11721,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1251460489)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(211963, 16911),
-	'Angle', 21448,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1356611093)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(211970, 18100),
-	'Angle', 17384,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1540967424)
 PlaceObj('TropicalPlant_02_Tree_02', {
 	'Pos', point(211810, 19627),
 	'Angle', 11234,
@@ -46516,69 +41357,6 @@ PlaceObj('TropicalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1871782506)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(223606, 15733),
-	'Angle', 1205,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1800130448)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(225048, 15616),
-	'Angle', 15672,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1797785183)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(226133, 15578),
-	'Angle', 4889,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1170655299)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(227461, 15520),
-	'Angle', 3919,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1137671561)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(228666, 15555),
-	'Angle', 598,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1574652142)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(213222, 16754),
-	'Angle', 18412,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1756478164)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(213236, 18104),
-	'Angle', 13585,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1697804686)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(214622, 16902),
-	'Angle', 1540,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1791540357)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(214498, 18065),
-	'Angle', 2633,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1090620147)
 PlaceObj('TropicalPlant_04_Tree_01', {
 	'Pos', point(213242, 19429),
 	'Angle', 10972,
@@ -46593,27 +41371,6 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1336344654)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(215947, 17027),
-	'Angle', 3479,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1029867403)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(215661, 18149),
-	'Angle', 1158,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1101891515)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(217026, 16895),
-	'Angle', 11933,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1293469381)
 PlaceObj('TropicalPlant_02_Tree_02', {
 	'Pos', point(215873, 19547),
 	'Angle', 10622,
@@ -46684,27 +41441,6 @@ PlaceObj('TropicalPlant_04_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1228815616)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(217225, 18073),
-	'Angle', 16089,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1078273036)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(218448, 16806),
-	'Angle', 4109,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1331065659)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(218272, 18090),
-	'Angle', 20305,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1796673864)
 PlaceObj('TropicalPlant_03_Tree_01', {
 	'Pos', point(218369, 19587),
 	'Angle', 2212,
@@ -46712,41 +41448,6 @@ PlaceObj('TropicalPlant_03_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1389820974)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(219555, 16929),
-	'Angle', 6097,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1429094873)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(219721, 18249),
-	'Angle', 14527,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1013036644)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(221069, 16904),
-	'Angle', 15590,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1180050193)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(220853, 18090),
-	'Angle', 2457,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1204992165)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(219576, 19439),
-	'Angle', 17801,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1317365395)
 PlaceObj('TropicalPlant_06_Tree_02', {
 	'Pos', point(220944, 19523),
 	'Angle', 1080,
@@ -47013,13 +41714,6 @@ PlaceObj('TropicalPlant_05_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1459001268)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(222210, 18301),
-	'Angle', 8874,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1627478925)
 PlaceObj('TropicalPlant_08_Tree_02', {
 	'Pos', point(222237, 19641),
 	'Angle', 10193,
@@ -47027,41 +41721,6 @@ PlaceObj('TropicalPlant_08_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1897413538)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(223730, 16807),
-	'Angle', 1049,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1853593990)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(223471, 18166),
-	'Angle', 1349,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1591256458)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(224767, 16775),
-	'Angle', 18221,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1144452622)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(224891, 18155),
-	'Angle', 18256,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1892920799)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(223582, 19474),
-	'Angle', 15297,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1378536172)
 PlaceObj('TropicalPlant_08_Tree_01', {
 	'Pos', point(225042, 19635),
 	'Angle', 11267,
@@ -47097,48 +41756,6 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1675212525)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(226087, 18102),
-	'Angle', 1907,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1785443491)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(227502, 16854),
-	'Angle', 8428,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1339348761)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(227578, 18087),
-	'Angle', 18209,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1373249702)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(228655, 16980),
-	'Angle', 2249,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1193472320)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(228866, 18224),
-	'Angle', 17748,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1469222230)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(228656, 19587),
-	'Angle', 18027,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1510433693)
 PlaceObj('TropicalPlant_06_Tree_01', {
 	'Pos', point(226126, 23274),
 	'Angle', 7472,
@@ -47146,34 +41763,6 @@ PlaceObj('TropicalPlant_06_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1385094424)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(227377, 22064),
-	'Angle', 1633,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1023975241)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(228673, 22208),
-	'Angle', 4879,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1146748604)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(227592, 23409),
-	'Angle', 3327,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1419958590)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(228713, 23413),
-	'Angle', 5635,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1564545839)
 PlaceObj('TropicalPlant_03_Tree_02', {
 	'Pos', point(222431, 24767),
 	'Angle', 1275,
@@ -47321,41 +41910,6 @@ PlaceObj('TropicalPlant_02_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1008482725)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(227630, 24806),
-	'Angle', 3103,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1511988012)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(228732, 24831),
-	'Angle', 20732,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1416531348)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(228888, 25933),
-	'Angle', 1327,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1230467842)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(227593, 27156),
-	'Angle', 5523,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1740350258)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(228753, 27385),
-	'Angle', 2402,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1744170627)
 PlaceObj('TropicalPlant_03_Tree_02', {
 	'Pos', point(226248, 28723),
 	'Angle', 231,
@@ -47377,48 +41931,6 @@ PlaceObj('TropicalPlant_04_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1472650593)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(227617, 28704),
-	'Angle', 15607,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1322884637)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(227467, 29908),
-	'Angle', 10265,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1231059240)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(228851, 28694),
-	'Angle', 16528,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1463254351)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(228703, 29897),
-	'Angle', 10329,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1682120002)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(227441, 31320),
-	'Angle', 20662,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1832869887)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(228931, 31083),
-	'Angle', 446,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1635613164)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(228807, 32595),
 	'Angle', 20778,
@@ -49018,286 +43530,6 @@ PlaceObj('TropicalPlant_07_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1860545551)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(230205, 15512),
-	'Angle', 6845,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1377056384)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(231288, 15673),
-	'Angle', 532,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1174534749)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(235251, 15499),
-	'Angle', 16284,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1565729263)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(236627, 15521),
-	'Angle', 1186,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1389019798)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(238006, 15636),
-	'Angle', 19010,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1310299249)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(239291, 15573),
-	'Angle', 10455,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1807592484)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(241754, 15677),
-	'Angle', 15735,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1734849766)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(244427, 15584),
-	'Angle', 1983,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1553506825)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(245621, 15747),
-	'Angle', 8406,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1271065065)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(230202, 16890),
-	'Angle', 1464,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1714489820)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(230235, 18158),
-	'Angle', 21142,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1203896235)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(231274, 16999),
-	'Angle', 3014,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1024869514)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(230149, 19534),
-	'Angle', 20070,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1410677761)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(231367, 19580),
-	'Angle', 14947,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1045539376)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(231450, 18173),
-	'Angle', 20791,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1057118652)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(232620, 17042),
-	'Angle', 8807,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1665658487)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(231494, 21957),
-	'Angle', 20933,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1781490391)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(232701, 23265),
-	'Angle', 6452,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1416908205)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(233854, 17024),
-	'Angle', 19896,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1464376136)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(235222, 17030),
-	'Angle', 14437,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1312587376)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(235354, 18278),
-	'Angle', 6581,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1579945231)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(236516, 16889),
-	'Angle', 11935,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1775072194)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(236730, 18130),
-	'Angle', 6713,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1314747440)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(236620, 19513),
-	'Angle', 4705,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1826654143)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(234091, 23525),
-	'Angle', 17018,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1816612988)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(236509, 22221),
-	'Angle', 15420,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1612253499)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(236690, 20941),
-	'Angle', 14187,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1837817199)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(230230, 24770),
-	'Angle', 4626,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1356299770)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(230179, 25984),
-	'Angle', 10407,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1668263161)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(231403, 24589),
-	'Angle', 174,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1160989866)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(230040, 27395),
-	'Angle', 16697,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1654406725)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(230134, 28476),
-	'Angle', 5181,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1373606934)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(231278, 27427),
-	'Angle', 19476,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1141493599)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(232744, 24639),
-	'Angle', 4208,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1893168567)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(232601, 26093),
-	'Angle', 5092,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1498768632)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(231485, 28595),
-	'Angle', 7763,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1339982588)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(232687, 27305),
-	'Angle', 18155,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1595269746)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(230174, 29773),
-	'Angle', 3581,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1108069648)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(231397, 29862),
-	'Angle', 14568,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1727210474)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(230121, 31150),
-	'Angle', 21302,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1069610349)
 PlaceObj('TropicalPlant_02_Tree_01', {
 	'Pos', point(230243, 32523),
 	'Angle', 20361,
@@ -49305,13 +43537,6 @@ PlaceObj('TropicalPlant_02_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1091915176)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(231269, 31289),
-	'Angle', 17723,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1644490022)
 PlaceObj('TropicalPlant_06_Tree_01', {
 	'Pos', point(231307, 32408),
 	'Angle', 2185,
@@ -49319,83 +43544,6 @@ PlaceObj('TropicalPlant_06_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1226012688)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(232827, 29954),
-	'Angle', 5090,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1156051061)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(232586, 31227),
-	'Angle', 3452,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1426939947)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(233994, 24795),
-	'Angle', 8394,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1435403769)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(233882, 25972),
-	'Angle', 10116,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1290287786)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(235258, 25856),
-	'Angle', 5420,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1117224216)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(234038, 27294),
-	'Angle', 9486,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1796335498)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(234129, 28668),
-	'Angle', 6315,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1682170922)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(235337, 27436),
-	'Angle', 16581,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1110092478)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(235243, 28530),
-	'Angle', 19442,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1360791496)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(233928, 29892),
-	'Angle', 10004,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1808730422)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(233950, 31098),
-	'Angle', 6671,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1157477327)
 PlaceObj('TropicalPlant_07_Tree_01', {
 	'Pos', point(234092, 32391),
 	'Angle', 466,
@@ -49403,20 +43551,6 @@ PlaceObj('TropicalPlant_07_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1301678822)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(235257, 31284),
-	'Angle', 4702,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1158648167)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(236670, 31173),
-	'Angle', 5597,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1081129226)
 PlaceObj('TropicalPlant_07_Tree_02', {
 	'Pos', point(236722, 32615),
 	'Angle', 15088,
@@ -49424,272 +43558,6 @@ PlaceObj('TropicalPlant_07_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1547580074)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(237756, 16883),
-	'Angle', 11013,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1207996208)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(237822, 18090),
-	'Angle', 18974,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1064613662)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(239312, 16777),
-	'Angle', 8550,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1266988296)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(239079, 18174),
-	'Angle', 2281,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1005003225)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(237806, 19604),
-	'Angle', 20791,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1050361358)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(239303, 19563),
-	'Angle', 18652,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1466610011)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(240374, 16787),
-	'Angle', 13163,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1775279471)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(240441, 18060),
-	'Angle', 3559,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1697931046)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(237994, 20728),
-	'Angle', 16383,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1149912048)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(237943, 21989),
-	'Angle', 2242,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1277259633)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(239304, 20898),
-	'Angle', 7074,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1250991989)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(239180, 22108),
-	'Angle', 18523,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1180482203)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(237997, 23282),
-	'Angle', 1497,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1164572219)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(239284, 23323),
-	'Angle', 16633,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1024272913)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(240525, 20741),
-	'Angle', 20776,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1619940279)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(240380, 22199),
-	'Angle', 1397,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1808815743)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(240355, 23366),
-	'Angle', 275,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1616746561)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(241873, 17005),
-	'Angle', 3137,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1728389537)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(241866, 18171),
-	'Angle', 8703,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1794299512)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(243172, 16970),
-	'Angle', 1516,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1497064751)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(243000, 18314),
-	'Angle', 16272,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1078174654)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(241814, 19529),
-	'Angle', 16922,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1684154345)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(243076, 19515),
-	'Angle', 11418,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1296934639)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(244285, 16877),
-	'Angle', 16309,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1754564641)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(244394, 18171),
-	'Angle', 19137,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1431757492)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(245668, 16965),
-	'Angle', 20681,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1876781927)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(244352, 19551),
-	'Angle', 12106,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1041358772)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(245638, 19637),
-	'Angle', 20887,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1462080153)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(241711, 20753),
-	'Angle', 13186,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1489877300)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(241796, 22213),
-	'Angle', 17544,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1694977370)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(243120, 20884),
-	'Angle', 17542,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1758882263)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(242982, 22181),
-	'Angle', 16407,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1339318547)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(241778, 23494),
-	'Angle', 13551,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1747435945)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(243028, 23326),
-	'Angle', 17768,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1767437332)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(244423, 20921),
-	'Angle', 14117,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1081973497)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(244256, 22035),
-	'Angle', 13486,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1380696919)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(245616, 22151),
-	'Angle', 11622,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1768155695)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(240637, 24663),
-	'Angle', 18563,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1015327564)
 PlaceObj('TropicalPlant_02_Tree_02', {
 	'Pos', point(238030, 32423),
 	'Angle', 9634,
@@ -49704,27 +43572,6 @@ PlaceObj('TropicalPlant_02_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1811386825)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(240610, 31207),
-	'Angle', 20652,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1163120885)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(241727, 24585),
-	'Angle', 10746,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1016473562)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(241834, 31132),
-	'Angle', 18611,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1160879585)
 PlaceObj('TropicalPlant_08_Tree_01', {
 	'Pos', point(241892, 32538),
 	'Angle', 10266,
@@ -49740,13 +43587,6 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 	'AllowedMask', 4294967279,
 }, nil, 1545136114)
 PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(244426, 31342),
-	'Angle', 20073,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1763508943)
-PlaceObj('TropicalPlant_04_Tree_02', {
 	'Pos', point(244365, 32399),
 	'Angle', 8380,
 	'Saturation', 0,
@@ -49760,370 +43600,6 @@ PlaceObj('TropicalPlant_03_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1416371810)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(248274, 15508),
-	'Angle', 19816,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1567631946)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(249725, 15559),
-	'Angle', 11894,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1473654649)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(250955, 15527),
-	'Angle', 16434,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1322287610)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(252159, 15497),
-	'Angle', 8154,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1503112030)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(253430, 15621),
-	'Angle', 14219,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1302641749)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(254713, 15634),
-	'Angle', 21223,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1809285275)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(256249, 15717),
-	'Angle', 8056,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1453995072)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(257326, 15734),
-	'Angle', 16795,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1746731506)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(259915, 15709),
-	'Angle', 18304,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1860535781)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(260109, 14410),
-	'Angle', 1213,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1864446763)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(261184, 15539),
-	'Angle', 7308,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1781788179)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(245822, 18173),
-	'Angle', 10325,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1137044294)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(247038, 16938),
-	'Angle', 15352,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1199879185)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(246995, 18068),
-	'Angle', 4271,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1212130702)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(248287, 16761),
-	'Angle', 620,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1093907978)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(248260, 18137),
-	'Angle', 2813,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1230487252)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(249521, 18320),
-	'Angle', 9189,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1468442725)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(248200, 19507),
-	'Angle', 16745,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1156204927)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(249466, 19618),
-	'Angle', 10549,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1342251611)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(245819, 20858),
-	'Angle', 18842,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1379533706)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(247134, 22244),
-	'Angle', 20305,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1556864989)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(248388, 20896),
-	'Angle', 10157,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1138315920)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(248162, 21980),
-	'Angle', 7023,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1721169098)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(249715, 20847),
-	'Angle', 14070,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1272540401)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(249700, 22222),
-	'Angle', 19848,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1863938142)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(248256, 23422),
-	'Angle', 16798,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1317381197)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(249588, 23502),
-	'Angle', 9473,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1044592533)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(250867, 16922),
-	'Angle', 16156,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1871337270)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(250784, 18268),
-	'Angle', 8054,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1202529417)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(250979, 19554),
-	'Angle', 4569,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1457369199)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(252105, 16836),
-	'Angle', 7072,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1645626676)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(252151, 18147),
-	'Angle', 7907,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1110893289)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(253440, 17020),
-	'Angle', 8446,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1588487486)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(253544, 18240),
-	'Angle', 911,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1384417664)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(252248, 19516),
-	'Angle', 16327,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1205565270)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(253471, 19628),
-	'Angle', 15243,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1460237497)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(251043, 20915),
-	'Angle', 14647,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1158123518)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(250972, 22091),
-	'Angle', 14298,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1231270072)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(250870, 23447),
-	'Angle', 14431,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1240072465)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(250959, 24556),
-	'Angle', 20949,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1807818883)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(252156, 20675),
-	'Angle', 4451,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1195970365)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(252149, 22008),
-	'Angle', 2801,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1742956603)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(253363, 20665),
-	'Angle', 8023,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1372943133)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(253624, 21990),
-	'Angle', 19776,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1189215795)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(252139, 23343),
-	'Angle', 10953,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1220310056)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(253359, 23372),
-	'Angle', 14644,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1363415586)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(253522, 24556),
-	'Angle', 8116,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1110109720)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(248185, 24588),
-	'Angle', 10588,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1682098398)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(249569, 24746),
-	'Angle', 3293,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1884369249)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(249623, 25888),
-	'Angle', 20289,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1593873064)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(245846, 31312),
-	'Angle', 13,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1654880671)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(246857, 31128),
-	'Angle', 15287,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1179687019)
 PlaceObj('TropicalPlant_03_Tree_01', {
 	'Pos', point(247096, 32409),
 	'Angle', 15609,
@@ -50131,13 +43607,6 @@ PlaceObj('TropicalPlant_03_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1570041363)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(248196, 31245),
-	'Angle', 2751,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1308612801)
 PlaceObj('TropicalPlant_04_Tree_02', {
 	'Pos', point(248377, 32554),
 	'Angle', 13826,
@@ -50145,13 +43614,6 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1213247601)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(249694, 31241),
-	'Angle', 12425,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1215969584)
 PlaceObj('TropicalPlant_07_Tree_01', {
 	'Pos', point(249532, 32597),
 	'Angle', 15379,
@@ -50159,34 +43621,6 @@ PlaceObj('TropicalPlant_07_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1562768412)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(250853, 27258),
-	'Angle', 12141,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1357915127)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(252332, 24720),
-	'Angle', 14014,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1268485695)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(253592, 25984),
-	'Angle', 13417,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1314752444)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(252169, 27357),
-	'Angle', 9512,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1624449944)
 PlaceObj('TropicalPlant_06_Tree_02', {
 	'Pos', point(250858, 32615),
 	'Angle', 10400,
@@ -50194,34 +43628,6 @@ PlaceObj('TropicalPlant_06_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1668023973)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(250930, 31347),
-	'Angle', 6193,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1469750372)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(252197, 31275),
-	'Angle', 13247,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1538589721)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(252143, 32362),
-	'Angle', 530,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1694463241)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(253640, 31181),
-	'Angle', 19739,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1393386610)
 PlaceObj('TropicalPlant_02_Tree_02', {
 	'Pos', point(253379, 32608),
 	'Angle', 21193,
@@ -50229,286 +43635,6 @@ PlaceObj('TropicalPlant_02_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1706663439)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(254826, 16857),
-	'Angle', 13806,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1305102689)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(254834, 18296),
-	'Angle', 17713,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1377108181)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(254795, 19380),
-	'Angle', 9362,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1253634476)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(255991, 19529),
-	'Angle', 9930,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1570959924)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(256127, 16823),
-	'Angle', 17807,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1277429866)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(256016, 18180),
-	'Angle', 18715,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1833206911)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(257266, 16991),
-	'Angle', 15502,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1890876837)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(257458, 18170),
-	'Angle', 20295,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1010560093)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(257433, 19410),
-	'Angle', 3166,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1626160987)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(254718, 20660),
-	'Angle', 690,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1804436186)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(254898, 22079),
-	'Angle', 9617,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1272199012)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(254890, 23291),
-	'Angle', 93,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1861375812)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(256193, 20725),
-	'Angle', 1187,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1536733058)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(257512, 20837),
-	'Angle', 19982,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1019948248)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(257511, 22110),
-	'Angle', 10024,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1704767454)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(257542, 23514),
-	'Angle', 2937,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1875020765)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(258765, 18279),
-	'Angle', 16197,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1878637946)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(259915, 16890),
-	'Angle', 3508,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1597119368)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(260029, 18133),
-	'Angle', 10018,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1889820959)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(258770, 19529),
-	'Angle', 5198,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1775558206)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(259942, 19533),
-	'Angle', 10205,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1884080426)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(261160, 16873),
-	'Angle', 15253,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1594487408)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(261298, 18146),
-	'Angle', 11434,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1711761855)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(261302, 19412),
-	'Angle', 3353,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1735716574)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(258556, 20663),
-	'Angle', 17935,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1513760617)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(258818, 22203),
-	'Angle', 6626,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1835248580)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(259949, 23534),
-	'Angle', 994,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1435836827)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(261433, 20676),
-	'Angle', 5725,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1200072922)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(261438, 22193),
-	'Angle', 21320,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1129791766)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(261362, 23415),
-	'Angle', 12063,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1789352661)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(254887, 24796),
-	'Angle', 3781,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1561327348)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(255958, 24603),
-	'Angle', 12283,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1445502514)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(254921, 27312),
-	'Angle', 5964,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1036113051)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(256116, 26113),
-	'Angle', 10016,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1512089812)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(257402, 24733),
-	'Angle', 5592,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1445411003)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(257368, 25937),
-	'Angle', 18158,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1063890612)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(256232, 27422),
-	'Angle', 13651,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1329389124)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(257481, 27287),
-	'Angle', 18640,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1306597273)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(257546, 28591),
-	'Angle', 19820,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1632894706)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(254861, 31175),
-	'Angle', 2000,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1833733426)
 PlaceObj('TropicalPlant_06_Tree_01', {
 	'Pos', point(254871, 32567),
 	'Angle', 10295,
@@ -50516,34 +43642,6 @@ PlaceObj('TropicalPlant_06_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1388222691)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(255994, 31232),
-	'Angle', 17637,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1317380280)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(256215, 28707),
-	'Angle', 14713,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1242690154)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(256131, 29912),
-	'Angle', 19165,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1779765832)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(257298, 29830),
-	'Angle', 19937,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1082670736)
 PlaceObj('TropicalPlant_06_Tree_01', {
 	'Pos', point(256093, 32554),
 	'Angle', 2862,
@@ -50551,13 +43649,6 @@ PlaceObj('TropicalPlant_06_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1586543161)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(257406, 31191),
-	'Angle', 4182,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1458775022)
 PlaceObj('TropicalPlant_01_Tree_02', {
 	'Pos', point(257441, 32475),
 	'Angle', 18910,
@@ -50565,104 +43656,6 @@ PlaceObj('TropicalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1892583009)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(258607, 25912),
-	'Angle', 2957,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1092204309)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(259851, 25975),
-	'Angle', 13777,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1652512696)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(258697, 27234),
-	'Angle', 2394,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1509774124)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(258665, 28538),
-	'Angle', 10128,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1149314165)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(261269, 24831),
-	'Angle', 6176,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1484040376)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(261444, 26003),
-	'Angle', 15634,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1156784921)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(261292, 28585),
-	'Angle', 12568,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1063826451)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(258736, 29836),
-	'Angle', 12234,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1346873811)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(260088, 30018),
-	'Angle', 18636,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1690255500)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(258625, 31231),
-	'Angle', 6491,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1337741549)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(258629, 32386),
-	'Angle', 8607,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1396205584)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(261380, 29931),
-	'Angle', 3237,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1702965134)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(260139, 32436),
-	'Angle', 2614,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1248895440)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(261225, 31309),
-	'Angle', 13322,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1340909451)
 PlaceObj('TropicalPlant_02_Tree_01', {
 	'Pos', point(261274, 32541),
 	'Angle', 17623,
@@ -52484,13 +45477,6 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1036993023)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(254717, 41640),
-	'Angle', 15499,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1705241474)
 PlaceObj('TropicalPlant_07_Tree_01', {
 	'Pos', point(255994, 42856),
 	'Angle', 3412,
@@ -56130,13 +49116,6 @@ PlaceObj('TropicalFillerPlants_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1528994539)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(151187, 136977, 13978),
-	'Angle', 16524,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1639202570)
 PlaceObj('CoastalPlant_01_Tree_03', {
 	'Pos', point(152422, 135352, 13987),
 	'Angle', 17673,
@@ -61060,7 +54039,7 @@ PlaceObj('TropicalPlant_04_Tree_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1721566436)
+}, nil, 1061152184)
 PlaceObj('CoastalPlant_01_Tree_03', {
 	'Pos', point(247259, 156606),
 	'Angle', 11895,
@@ -62670,818 +55649,6 @@ PlaceObj('WaterFill', {
 	'waterpreset', "Ocean_2",
 	'applied_area', 9927,
 }, nil, 1771818061)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(263840, 14251),
-	'Angle', 16540,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1393240298)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(262680, 14436),
-	'Angle', 7311,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1723880085)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(262561, 15541),
-	'Angle', 4471,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1242010531)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(263834, 15527),
-	'Angle', 17669,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1791078362)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(265060, 15703),
-	'Angle', 5546,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1865992329)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(266506, 14287),
-	'Angle', 21430,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1527263456)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(267652, 14158),
-	'Angle', 7762,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1809435999)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(266573, 15744),
-	'Angle', 15417,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1131322882)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(267668, 15473),
-	'Angle', 19441,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1624143896)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(268983, 14214),
-	'Angle', 492,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1811763316)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(270261, 14231),
-	'Angle', 14832,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1465422018)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(270345, 15727),
-	'Angle', 20856,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1555656089)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(271587, 15472),
-	'Angle', 17311,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1571661222)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(273069, 14281),
-	'Angle', 7212,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1836626355)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(274416, 14158),
-	'Angle', 14746,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1383131107)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(272869, 15669),
-	'Angle', 12243,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1483054868)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(274254, 15677),
-	'Angle', 5031,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1395254350)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(275681, 14315),
-	'Angle', 9354,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1452251168)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(275477, 15558),
-	'Angle', 12866,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1316226291)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(276802, 14412),
-	'Angle', 7664,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1896765653)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(276924, 15671),
-	'Angle', 14352,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1082223046)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(278135, 15507),
-	'Angle', 15845,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1101337973)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(262486, 16750),
-	'Angle', 14553,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1457142864)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(262641, 18096),
-	'Angle', 8135,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1667308874)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(262460, 19403),
-	'Angle', 2051,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1085765671)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(265108, 16901),
-	'Angle', 20189,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1559192027)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(265128, 18142),
-	'Angle', 11418,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1662988446)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(265192, 19493),
-	'Angle', 20685,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1022173789)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(262619, 20818),
-	'Angle', 12361,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1887394259)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(262581, 22205),
-	'Angle', 10913,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1071584449)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(263777, 20792),
-	'Angle', 15054,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1160474446)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(263851, 22020),
-	'Angle', 19555,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1510117644)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(262527, 23292),
-	'Angle', 4713,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1441320313)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(265196, 22118),
-	'Angle', 3101,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1096436581)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(266420, 16912),
-	'Angle', 15053,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1862011825)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(266560, 18311),
-	'Angle', 16637,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1855939721)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(267899, 17040),
-	'Angle', 309,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1822227468)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(267769, 18052),
-	'Angle', 4928,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1017604058)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(266518, 19512),
-	'Angle', 13280,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1019945531)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(267861, 19388),
-	'Angle', 5358,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1694642406)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(269170, 16793),
-	'Angle', 2906,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1393747487)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(270263, 18232),
-	'Angle', 19397,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1078643752)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(270310, 19430),
-	'Angle', 15117,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1249255728)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(266534, 20882),
-	'Angle', 1593,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1030409462)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(266601, 23518),
-	'Angle', 12507,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1869488457)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(269049, 20837),
-	'Angle', 6637,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1335625548)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(262648, 24660),
-	'Angle', 19879,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1559767349)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(262694, 26034),
-	'Angle', 14582,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1542540114)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(263805, 25958),
-	'Angle', 8030,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1390983861)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(263875, 27246),
-	'Angle', 5832,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1208141059)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(263758, 28587),
-	'Angle', 12772,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1858097172)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(265127, 24745),
-	'Angle', 14173,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1246179571)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(265122, 28530),
-	'Angle', 9550,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1685632004)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(262663, 28749),
-	'Angle', 9746,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1846432718)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(262621, 29771),
-	'Angle', 5145,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1091718290)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(263859, 30022),
-	'Angle', 666,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1469750922)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(264019, 31050),
-	'Angle', 10856,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1236558418)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(263776, 32442),
-	'Angle', 2044,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1332196216)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(265109, 30049),
-	'Angle', 16878,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1276253681)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(265175, 31108),
-	'Angle', 11225,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1126717345)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(265057, 32455),
-	'Angle', 249,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1513788469)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(266646, 31336),
-	'Angle', 19250,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1808284712)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(267939, 32538),
-	'Angle', 13696,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1543395525)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(269129, 31265),
-	'Angle', 6814,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1362117107)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(269177, 32489),
-	'Angle', 14800,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1161498100)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(270421, 16915),
-	'Angle', 1499,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1596667881)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(271748, 16881),
-	'Angle', 1430,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1660776559)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(271834, 18101),
-	'Angle', 9962,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1790635486)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(272982, 18053),
-	'Angle', 19023,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1230056673)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(274150, 16973),
-	'Angle', 18879,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1345072827)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(272918, 19440),
-	'Angle', 21490,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1133485411)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(274356, 19482),
-	'Angle', 18867,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1897573952)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(271784, 20698),
-	'Angle', 1578,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1218812580)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(271761, 23372),
-	'Angle', 20460,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1275939831)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(272942, 20796),
-	'Angle', 18393,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1382873178)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(272906, 22141),
-	'Angle', 4963,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1841550691)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(274230, 20712),
-	'Angle', 6678,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1604748881)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(274168, 22105),
-	'Angle', 12187,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1158546504)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(272935, 23344),
-	'Angle', 11439,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1588348420)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(274331, 23462),
-	'Angle', 14072,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1885132204)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(274439, 18098),
-	'Angle', 15891,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1439750577)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(275575, 18319),
-	'Angle', 2912,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1841621222)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(275461, 19370),
-	'Angle', 6543,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1440535048)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(276789, 16886),
-	'Angle', 12645,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1669031420)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(277024, 18331),
-	'Angle', 19143,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1555682057)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(278134, 16836),
-	'Angle', 5909,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1635669513)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(278092, 18284),
-	'Angle', 15578,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1189790123)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(276835, 19396),
-	'Angle', 2553,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1616982571)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(278283, 19488),
-	'Angle', 20353,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1238297450)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(275540, 20701),
-	'Angle', 10463,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1194877336)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(275719, 22049),
-	'Angle', 15164,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1659274610)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(275690, 23300),
-	'Angle', 6442,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1715639691)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(277030, 20860),
-	'Angle', 19962,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1882989886)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(278316, 20737),
-	'Angle', 16535,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1066360168)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(278270, 22069),
-	'Angle', 7,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1251444073)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(276948, 23353),
-	'Angle', 20859,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1589095398)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(278057, 23253),
-	'Angle', 20325,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1710187578)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(271686, 24810),
-	'Angle', 129,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1060785996)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(271780, 26039),
-	'Angle', 16546,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1785660356)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(270393, 28535),
-	'Angle', 14427,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1391646119)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(271712, 27440),
-	'Angle', 19953,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1168821962)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(273101, 24612),
-	'Angle', 20999,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1636919223)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(273049, 26023),
-	'Angle', 17796,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1710041876)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(274357, 24817),
-	'Angle', 20521,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1420352826)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(274338, 25990),
-	'Angle', 2973,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1616549769)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(272888, 27338),
-	'Angle', 20629,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1718558655)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(272877, 28549),
-	'Angle', 5075,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1246950765)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(274222, 28559),
-	'Angle', 20218,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1762910970)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(270439, 30046),
-	'Angle', 5790,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1734656103)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(270400, 32379),
-	'Angle', 8682,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1542069590)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(271584, 31164),
-	'Angle', 2644,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1212852964)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(273146, 29914),
-	'Angle', 15097,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1509045808)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(274343, 29944),
-	'Angle', 12031,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1829550126)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(272926, 31197),
-	'Angle', 10360,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1773408488)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(272938, 32547),
-	'Angle', 9109,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1035790310)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(274196, 31326),
-	'Angle', 16895,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1605594951)
 PlaceObj('TropicalPlant_03_Tree_02', {
 	'Pos', point(274256, 32587),
 	'Angle', 3717,
@@ -63489,986 +55656,6 @@ PlaceObj('TropicalPlant_03_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1518492160)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(275706, 24678),
-	'Angle', 3841,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1037056191)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(275719, 25942),
-	'Angle', 10713,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1089221019)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(274448, 27216),
-	'Angle', 3358,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1187122985)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(277013, 24693),
-	'Angle', 10078,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1258805084)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(276750, 25975),
-	'Angle', 17997,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1820925564)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(278088, 24789),
-	'Angle', 11590,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1397527627)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(278344, 25975),
-	'Angle', 3146,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1658764256)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(276818, 27377),
-	'Angle', 463,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1614208346)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(278106, 27241),
-	'Angle', 19219,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1419320971)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(275456, 28737),
-	'Angle', 14296,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1350095929)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(275491, 29958),
-	'Angle', 7090,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1537762764)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(275662, 31085),
-	'Angle', 17898,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1770693853)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(275678, 32462),
-	'Angle', 3634,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1139219222)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(276911, 28729),
-	'Angle', 569,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1156425459)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(276890, 29804),
-	'Angle', 18362,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1494194661)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(278083, 28672),
-	'Angle', 1702,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1304243223)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(276923, 31181),
-	'Angle', 20190,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1755181809)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(276963, 32376),
-	'Angle', 18293,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1899591023)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(278317, 31075),
-	'Angle', 809,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1499112419)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(278201, 32542),
-	'Angle', 1713,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1645331161)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(279589, 14309),
-	'Angle', 11846,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1227036582)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(279585, 15637),
-	'Angle', 6849,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1010715997)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(280885, 15649),
-	'Angle', 18324,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1766312265)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(282000, 14365),
-	'Angle', 4718,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1143046604)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(282176, 15674),
-	'Angle', 16314,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1410909749)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(283413, 14406),
-	'Angle', 14062,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1811851905)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(283338, 15722),
-	'Angle', 20793,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1364725424)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(285920, 14188),
-	'Angle', 13873,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1822930498)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(284758, 14448),
-	'Angle', 4859,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1820609750)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(284763, 15453),
-	'Angle', 18364,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1602950015)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(285906, 15698),
-	'Angle', 5981,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1350323491)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(287420, 14236),
-	'Angle', 16920,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1731837596)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(288746, 14278),
-	'Angle', 18427,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1335217871)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(287156, 15642),
-	'Angle', 7471,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1505187348)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(289919, 14284),
-	'Angle', 14955,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1514059715)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(289753, 15457),
-	'Angle', 9371,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1227243883)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(291209, 14419),
-	'Angle', 10312,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1315059805)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(291288, 15646),
-	'Angle', 20820,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1584739961)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(292473, 15738),
-	'Angle', 5358,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1610717269)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(293906, 13000),
-	'Angle', 2088,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1408689292)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(279443, 16800),
-	'Angle', 10795,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1731528571)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(279561, 18072),
-	'Angle', 20644,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1707227556)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(279404, 19561),
-	'Angle', 12118,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1202555795)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(280810, 16803),
-	'Angle', 10076,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1671591514)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(280881, 18335),
-	'Angle', 20062,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1167052804)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(282181, 16800),
-	'Angle', 18813,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1799419619)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(282172, 18203),
-	'Angle', 5916,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1514530339)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(280708, 19431),
-	'Angle', 4118,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1401484881)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(282162, 19468),
-	'Angle', 17099,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1851028414)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(279443, 20653),
-	'Angle', 12866,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1521891333)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(279619, 22142),
-	'Angle', 1363,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1123946992)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(280824, 20863),
-	'Angle', 5527,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1893802553)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(280928, 21988),
-	'Angle', 19199,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1307093782)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(281964, 20844),
-	'Angle', 10211,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1712579463)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(282049, 22089),
-	'Angle', 9624,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1255661327)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(280846, 23467),
-	'Angle', 18514,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1355865553)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(283306, 16898),
-	'Angle', 15735,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1763650798)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(283281, 18297),
-	'Angle', 12472,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1637280464)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(283414, 19407),
-	'Angle', 18111,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1109742779)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(284708, 16980),
-	'Angle', 729,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1552056857)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(284829, 18060),
-	'Angle', 17449,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1225961938)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(285876, 16829),
-	'Angle', 4991,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1379733591)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(285851, 18147),
-	'Angle', 14827,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1293543373)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(284838, 19458),
-	'Angle', 7007,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1416159013)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(285972, 19423),
-	'Angle', 20562,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1035255291)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(283545, 20697),
-	'Angle', 12520,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1200567843)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(283382, 21973),
-	'Angle', 10503,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1017732148)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(284660, 20891),
-	'Angle', 12699,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1517305040)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(283260, 23327),
-	'Angle', 13062,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1225107818)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(283272, 24569),
-	'Angle', 19034,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1128124613)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(284786, 22120),
-	'Angle', 17461,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1801757150)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(286093, 20865),
-	'Angle', 10107,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1615226765)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(285907, 21962),
-	'Angle', 19134,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1003550526)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(284770, 23286),
-	'Angle', 17987,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1636155229)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(285889, 23388),
-	'Angle', 3729,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1103988453)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(279521, 24736),
-	'Angle', 10861,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1041813028)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(279533, 26130),
-	'Angle', 17501,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1671107757)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(279540, 27249),
-	'Angle', 17834,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1062436914)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(280930, 26149),
-	'Angle', 3088,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1188236059)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(281955, 25959),
-	'Angle', 682,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1711585855)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(280793, 28625),
-	'Angle', 2391,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1383164324)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(279537, 28743),
-	'Angle', 19670,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1719457092)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(279473, 31307),
-	'Angle', 17341,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1867546562)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(279372, 32401),
-	'Angle', 19987,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1558158787)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(280811, 31181),
-	'Angle', 7067,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1459111372)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(280677, 32549),
-	'Angle', 12312,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1091441109)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(283256, 26040),
-	'Angle', 3691,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1517948961)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(284646, 25997),
-	'Angle', 18225,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1082943457)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(283320, 27289),
-	'Angle', 19454,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1157616963)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(287266, 16907),
-	'Angle', 711,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1877612552)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(287287, 18347),
-	'Angle', 650,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1287102576)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(288505, 16990),
-	'Angle', 19618,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1073512242)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(289987, 16977),
-	'Angle', 17420,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1142763675)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(290011, 18345),
-	'Angle', 772,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1874396616)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(287301, 20887),
-	'Angle', 12286,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1436753494)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(288596, 20817),
-	'Angle', 1978,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1052604160)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(288582, 22169),
-	'Angle', 15255,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1307362791)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(287443, 23447),
-	'Angle', 13168,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1300356188)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(288520, 23518),
-	'Angle', 8637,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1289108421)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(289857, 20864),
-	'Angle', 6590,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1490444847)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(291182, 16894),
-	'Angle', 2137,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1223083915)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(291124, 18144),
-	'Angle', 3032,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1466922646)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(292420, 16946),
-	'Angle', 5278,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1212208806)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(292535, 19555),
-	'Angle', 16838,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1137788350)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(293770, 18131),
-	'Angle', 10419,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1725758008)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(293757, 19404),
-	'Angle', 7987,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1246681807)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(291065, 20786),
-	'Angle', 9281,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1501220463)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(292607, 20759),
-	'Angle', 14119,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1133088625)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(292582, 22248),
-	'Angle', 18635,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1462349145)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(292439, 23367),
-	'Angle', 8055,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1505922844)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(293801, 20893),
-	'Angle', 15649,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1541837820)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(293837, 22211),
-	'Angle', 7785,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1809952451)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(293883, 23390),
-	'Angle', 11395,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1052991437)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(287158, 24842),
-	'Angle', 16892,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1344614910)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(288528, 24666),
-	'Angle', 3907,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1104463448)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(288585, 26004),
-	'Angle', 17609,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1120141481)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(288661, 27232),
-	'Angle', 8340,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1738455767)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(289937, 25904),
-	'Angle', 7426,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1126379075)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(289920, 28607),
-	'Angle', 2380,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1599357115)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(289996, 29894),
-	'Angle', 19336,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1355075450)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(289755, 32485),
-	'Angle', 13569,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1473042565)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(289898, 31206),
-	'Angle', 14168,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1845262225)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(291349, 25966),
-	'Angle', 19241,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1523651940)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(292617, 24776),
-	'Angle', 6188,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1251034679)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(291307, 28561),
-	'Angle', 8798,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1466322582)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(292466, 27416),
-	'Angle', 20773,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1147857457)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(292503, 28627),
-	'Angle', 14831,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1755543598)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(293711, 25956),
-	'Angle', 10204,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1105436196)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(293919, 24796),
-	'Angle', 6659,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1863370896)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(293883, 27422),
-	'Angle', 7248,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1507897338)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(293859, 28540),
-	'Angle', 722,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1066097497)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(291180, 29849),
-	'Angle', 12788,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1517709498)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(292405, 29921),
-	'Angle', 2893,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1080169438)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(291243, 31268),
-	'Angle', 21225,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1417844703)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(291063, 32570),
-	'Angle', 7698,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1111237129)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(292549, 31277),
-	'Angle', 2247,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1674545452)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(292473, 32508),
-	'Angle', 8615,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1010574185)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(293938, 29986),
-	'Angle', 10067,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1599513671)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(293745, 31147),
-	'Angle', 12767,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1588243088)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(293667, 32625),
-	'Angle', 21101,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1695614195)
 PlaceObj('TropicalPlant_03_Tree_01', {
 	'Pos', point(263925, 33667),
 	'Angle', 13927,
@@ -64756,13 +55943,6 @@ PlaceObj('TropicalPlant_08_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1898650681)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(266523, 41740),
-	'Angle', 1296,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1832315825)
 PlaceObj('TropicalPlant_02_Tree_02', {
 	'Pos', point(267653, 42871),
 	'Angle', 1913,
@@ -66350,657 +57530,6 @@ PlaceObj('TropicalPlant_02_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1520747100)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(306854, 13016),
-	'Angle', 548,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1792955709)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(295121, 18327),
-	'Angle', 805,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1539281135)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(295125, 19436),
-	'Angle', 8255,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1603521859)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(295231, 20935),
-	'Angle', 15002,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1562006885)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(295196, 22237),
-	'Angle', 21560,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1828570711)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(296427, 21986),
-	'Angle', 20708,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1618217233)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(295208, 23518),
-	'Angle', 10206,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1066158421)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(295205, 24561),
-	'Angle', 5222,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1372758807)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(296510, 23349),
-	'Angle', 21109,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1789648389)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(297712, 22048),
-	'Angle', 18543,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1598049027)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(297626, 23255),
-	'Angle', 14357,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1714668557)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(298861, 23290),
-	'Angle', 11238,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1831242743)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(299038, 22245),
-	'Angle', 19677,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1613433375)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(300284, 20775),
-	'Angle', 8888,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1734464507)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(300341, 22146),
-	'Angle', 1923,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1855685203)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(300255, 23425),
-	'Angle', 8116,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1414657469)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(301530, 20796),
-	'Angle', 12073,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1623218303)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(301743, 22019),
-	'Angle', 306,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1898167072)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(303003, 20808),
-	'Angle', 20697,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1248919074)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(302783, 22184),
-	'Angle', 19492,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1406072346)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(301642, 23410),
-	'Angle', 17439,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1236028977)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(302785, 23314),
-	'Angle', 13772,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1079929103)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(295239, 26075),
-	'Angle', 19516,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1015827427)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(296364, 24721),
-	'Angle', 5616,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1775402133)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(296371, 26134),
-	'Angle', 14631,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1040841363)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(295227, 27339),
-	'Angle', 1520,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1249000353)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(296480, 27265),
-	'Angle', 1703,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1022869511)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(296449, 28555),
-	'Angle', 12185,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1071832309)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(297799, 25961),
-	'Angle', 12064,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1870999309)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(298955, 24639),
-	'Angle', 10108,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1147232929)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(297713, 27426),
-	'Angle', 6824,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1846799192)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(297633, 28485),
-	'Angle', 11948,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1513381812)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(295168, 30020),
-	'Angle', 13019,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1436472011)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(296508, 29989),
-	'Angle', 3695,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1029579452)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(295173, 31222),
-	'Angle', 18478,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1547016243)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(295224, 32560),
-	'Angle', 12501,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1040015255)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(296300, 31080),
-	'Angle', 2334,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1203655651)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(297772, 29851),
-	'Angle', 6973,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1276542623)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(298882, 29765),
-	'Angle', 17716,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1608655737)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(297730, 31147),
-	'Angle', 3885,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1319173344)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(297721, 32480),
-	'Angle', 2918,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1349908242)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(299041, 25927),
-	'Angle', 20301,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1580275058)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(300422, 24615),
-	'Angle', 6710,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1528850075)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(300260, 26124),
-	'Angle', 16461,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1735743038)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(299111, 27356),
-	'Angle', 9196,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1474874205)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(299011, 28664),
-	'Angle', 6226,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1403403558)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(300209, 27320),
-	'Angle', 21430,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1649526659)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(301611, 24738),
-	'Angle', 21497,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1723233395)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(301485, 25994),
-	'Angle', 20187,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1233067879)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(302848, 24739),
-	'Angle', 6377,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1103257946)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(302840, 26133),
-	'Angle', 9744,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1651899899)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(301659, 27338),
-	'Angle', 8263,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1462050538)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(301659, 28509),
-	'Angle', 2713,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1050556325)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(302821, 27169),
-	'Angle', 5289,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1711821834)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(302942, 28479),
-	'Angle', 16534,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1785757671)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(300166, 28686),
-	'Angle', 261,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1243202209)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(300162, 29989),
-	'Angle', 17185,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1307669989)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(299139, 32442),
-	'Angle', 6523,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1541719550)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(300388, 31058),
-	'Angle', 21246,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1348490954)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(300162, 32546),
-	'Angle', 9689,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1732654790)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(301726, 29908),
-	'Angle', 2010,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1453083370)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(302751, 29880),
-	'Angle', 11979,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1629335300)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(301749, 31131),
-	'Angle', 6544,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1259649567)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(301484, 32398),
-	'Angle', 15305,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1244997875)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(302913, 31243),
-	'Angle', 13429,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1223696548)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(304102, 20824),
-	'Angle', 2307,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1271834897)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(304205, 21998),
-	'Angle', 490,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1063648775)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(304289, 23532),
-	'Angle', 8177,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1577176376)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(305491, 20765),
-	'Angle', 11117,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1671397349)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(305353, 22009),
-	'Angle', 13508,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1028768221)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(306802, 22159),
-	'Angle', 20977,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1545672292)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(305583, 23325),
-	'Angle', 16066,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1332401776)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(306699, 23304),
-	'Angle', 3994,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1638542689)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(304097, 25917),
-	'Angle', 21249,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1676846252)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(304179, 24652),
-	'Angle', 14006,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1083935789)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(304306, 27426),
-	'Angle', 15296,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1102830078)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(305558, 24771),
-	'Angle', 6809,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1682944955)
-PlaceObj('TropicalPlant_05_Tree_01', {
-	'Pos', point(305395, 26113),
-	'Angle', 8239,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1807590515)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(306845, 24652),
-	'Angle', 18441,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1842741423)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(306805, 25989),
-	'Angle', 80,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1655280264)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(305621, 27249),
-	'Angle', 3700,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1817069561)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(305533, 28512),
-	'Angle', 15538,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1064119520)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(306783, 27278),
-	'Angle', 8408,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1341162750)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(306891, 28518),
-	'Angle', 5168,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1236137760)
-PlaceObj('TropicalPlant_03_Tree_02', {
-	'Pos', point(304115, 30008),
-	'Angle', 12565,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1624795654)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(304176, 31071),
-	'Angle', 10820,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1890328019)
-PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(304300, 32575),
-	'Angle', 9680,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1826299276)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(305433, 29883),
-	'Angle', 9386,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1336578375)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(306713, 29980),
-	'Angle', 17500,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1374569711)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(305376, 31193),
-	'Angle', 1309,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1672623993)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(305393, 32445),
-	'Angle', 17421,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1296184556)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(306882, 31073),
-	'Angle', 17146,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1138448986)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(306869, 32460),
-	'Angle', 16502,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1053250066)
 PlaceObj('TropicalPlant_07_Tree_01', {
 	'Pos', point(294960, 33688),
 	'Angle', 7494,
@@ -71766,25 +62295,13 @@ PlaceObj('CoastalPlant_01_Tree_03', {
 LoadPersistFlagTables({8388608,16384,1048576,4096,256,18014398509481984,36028797018963968,1152921504606846976,2147483648,4294967296,2305843009213693952,4611686018427387904},{16384,524288,1048576,8,32,16,8388608,65536})
 local p = PlaceAndInit_v5
 
-p("TropicalPlant_02_Shrub",2521,128,18595,2097152)
-p("TropicalPlant_02_Shrub",6447,15686,14235,2097152)
-p("TropicalPlant_02_Shrub",10270,14386,7634,2097152)
-p("TropicalPlant_02_Shrub",19,19385,3866,2097152)
-p("TropicalPlant_02_Shrub",6584,16896,7116,2097152)
 p("TropicalPlant_02_Shrub",6625,22003,19492,2097152)
 p("TropicalRockSharp_01",3588,29557,19999,5458,250,158,375,4075,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_02_Shrub",7859,24773,7570,2097152)
-p("TropicalPlant_02_Shrub",11645,18324,5100,2097152)
 p("TropicalPlant_02_Shrub",10491,23377,4850,2097152)
 p("TropicalPlant_02_Shrub",13124,27421,15073,2097152)
 p("TropicalPlant_02_Shrub",15456,26018,15154,2097152)
 p("TropicalPlant_02_Shrub",15650,27346,13828,2097152)
-p("TropicalPlant_02_Shrub",21973,12893,17044,2097152)
-p("TropicalPlant_02_Shrub",17035,18207,5834,2097152)
-p("TropicalPlant_02_Shrub",19529,16816,18813,2097152)
-p("TropicalPlant_02_Shrub",22144,17046,17692,2097152)
-p("TropicalPlant_02_Shrub",20795,19409,5589,2097152)
-p("TropicalPlant_02_Shrub",24570,17000,10605,2097152)
 p("TropicalPlant_02_Shrub",20658,23497,7299,2097152)
 p("TropicalPlant_02_Shrub",16930,24783,7462,2097152)
 p("TropicalRockSharp_01",17862,29717,19999,6572,250,83,345,4080,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -71873,8 +62390,6 @@ p("TropicalPlant_06_Sapling_02",9000,52000,17429,103,2097156)
 p("TropicalPlant_Grass_02",11000,50000,4300,109,2097156)
 p("TropicalPlant_01_Sapling",12000,51000,7377,105,2097156)
 p("TropicalPlant_04_Sapling_06",12000,51000,4837,94,2097156)
-p("DecTerrainStones_01",8679,54375,16255,98,4281545007,2097164)
-p("DecTerrainStones_01",9888,56517,19376,106,4281545007,2097164)
 p("TropicalPlant_03_Sapling_02",13000,51000,14532,104,2097156)
 p("TropicalPlant_04_Sapling_05",13000,51000,20678,95,2097156)
 p("TropicalPlant_07_Sapling_01",14000,50000,8270,105,2097156)
@@ -71885,8 +62400,6 @@ p("TropicalPlant_06_Sapling_02",13000,52000,19787,106,2097156)
 p("TropicalPlant_05_Sapling_01",14000,52000,3624,101,2097156)
 p("TropicalPlant_05_Shrub_01",16000,51000,4282,102,2097156)
 p("TropicalPlant_04_Sapling_05",16000,52000,20957,103,2097156)
-p("DecTerrainStones_01",12312,57100,2762,93,4281545007,2097164)
-p("DecTerrainStones_03",14319,57186,19957,96,4281545007,2097164)
 p("TropicalPlant_04_Sapling_06",9000,63000,18393,91,2097156)
 p("TropicalPlant_Grass_02",9000,63000,243,95,2097156)
 p("TropicalPlant_05_Shrub_01",10000,63000,4159,93,2097156)
@@ -71966,7 +62479,6 @@ p("TropicalPlant_Grass_02",17000,65000,20444,95,2097156)
 p("TropicalPlant_04_Sapling_04",18000,65000,19626,92,2097156)
 p("TropicalPlant_04_Shrub_01",18000,65000,4022,103,2097156)
 p("TropicalPlant_04_Sapling_06",19000,65000,2774,95,2097156)
-p("DecTerrainStones_02",23381,59176,328,108,4281545007,2097164)
 p("TropicalPlant_08_Sapling_01",26000,51000,15025,94,2097156)
 p("TropicalPlant_05_Sapling_01",25000,52000,14012,97,2097156)
 p("TropicalPlant_08_Sapling_01",25000,53000,4998,93,2097156)
@@ -71980,7 +62492,6 @@ p("TropicalPlant_04_Sapling_04",27000,52000,16298,94,2097156)
 p("TropicalPlant_03_Sapling_01",27000,53000,4276,106,2097156)
 p("TropicalPlant_04_Sapling_05",28000,52000,1881,92,2097156)
 p("TropicalPlant_08_Sapling_02",28000,53000,20684,94,2097156)
-p("DecTerrainStones_01",27268,54519,20127,90,4281545007,2097164)
 p("TropicalPlant_01_Sapling",28000,54000,15698,105,2097156)
 p("TropicalPlant_04_Sapling_03",30000,51000,16663,78,2097156)
 p("TropicalPlant_Grass_04",29016,51951,20372,78,2097156)
@@ -71990,25 +62501,10 @@ p("TropicalPlant_06_Sapling_01",29000,54000,2326,101,2097156)
 p("TropicalPlant_04_Sapling_01",30000,54000,20087,97,2097156)
 p("TropicalPlant_04_Sapling_03",25000,65000,3162,82,2097156)
 p("TropicalPlant_Grass_04",27765,65158,4932,82,2097156)
-p("TropicalPlant_02_Shrub",36442,14257,14294,2097152)
-p("TropicalPlant_02_Shrub",40207,11825,13096,2097152)
-p("TropicalPlant_02_Shrub",42894,13124,6438,2097152)
-p("TropicalPlant_02_Shrub",45633,9237,2703,2097152)
-p("TropicalPlant_02_Shrub",33684,18288,1559,2097152)
 p("TropicalPlant_02_Shrub",33904,20770,20866,2097152)
 p("TropicalPlant_02_Shrub",36455,26048,17330,2097152)
 p("TropicalPlant_02_Shrub",39059,27426,16105,2097152)
-p("TropicalPlant_02_Shrub",44145,19555,10593,2097152)
-p("TropicalPlant_02_Shrub",53229,7829,16597,2097152)
-p("TropicalPlant_02_Shrub",55993,12908,18119,2097152)
-p("TropicalPlant_02_Shrub",59738,7714,11343,2097152)
-p("TropicalPlant_02_Shrub",62251,11663,7757,2097152)
-p("TropicalPlant_02_Shrub",63599,9211,6054,2097152)
-p("TropicalPlant_02_Shrub",50792,22040,12372,2097152)
-p("TropicalPlant_02_Shrub",51886,22202,1684,2097152)
 p("TropicalPlant_02_Shrub",51892,24839,267,2097152)
-p("TropicalPlant_02_Shrub",60974,18262,19936,2097152)
-p("TropicalPlant_02_Shrub",59889,23288,3256,2097152)
 p("TropicalPlant_02_Shrub",58379,26093,21434,2097152)
 p("TropicalPlant_02_Shrub",58519,31057,12594,2097152)
 p("TropicalPlant_02_Shrub",60950,29982,5202,2097152)
@@ -72038,7 +62534,6 @@ p("DecForestMoss_01",36210,53334,512,95,4281545007,2097164)
 p("TropicalPlant_05_Shrub_01",36000,54000,3647,109,2097156)
 p("TropicalPlant_05_Shrub_01",35000,57000,2278,92,2097156)
 p("TropicalPlant_04_Sapling_04",36000,57000,3586,108,2097156)
-p("DecTerrainStones_02",36604,56532,5053,108,4281545007,2097164)
 p("TropicalPlant_04_Sapling_05",37000,53000,19822,101,2097156)
 p("TropicalPlant_Grass_03",37000,53000,1148,93,2097156)
 p("TropicalPlant_08_Sapling_02",37530,52626,10195,91,2097156)
@@ -72073,7 +62568,6 @@ p("TropicalPlant_04_Shrub_02",37000,61000,15053,91,2097156)
 p("TropicalPlant_04_Shrub_02",38000,61000,21400,98,2097156)
 p("TropicalPlant_Grass_02",38533,60452,5156,80,2097156)
 p("TropicalPlant_Flowers_03",38428,60933,558,82,2097156)
-p("DecTerrainStones_01",39724,57477,3801,104,4281545007,2097164)
 p("TropicalPlant_05_Shrub_01",37000,62000,2979,108,2097156)
 p("TropicalPlant_08_Sapling_02",37000,62000,16333,102,2097156)
 p("TropicalPlant_Grass_04",37000,62000,4883,101,2097156)
@@ -72093,7 +62587,6 @@ p("TropicalPlant_04_Sapling_04",48000,55000,3885,98,2097156)
 p("TropicalPlant_04_Sapling_04",48000,56000,18372,109,2097156)
 p("DecTree_02",47260,56531,16331,91,4281545007,2097164)
 p("TropicalPlant_05_Shrub_01",49000,56000,20607,91,2097156)
-p("DecTerrainStones_02",48888,57768,1104,103,4281545007,2097164)
 p("TropicalRockSharp_04",45687,62914,0)
 p("DecForestMoss_06",45772,65271,18434,94,4281545007,2097164)
 p("TropicalRockSharp_04",47152,62252,19905,20240,122,2097157)
@@ -76699,12 +67192,9 @@ p("TropicalRockSharp_02",60899,73806,19550,19800,2097153)
 p("TropicalPlant_04_Sapling_04",61000,75000,17110,96,2097156)
 p("TropicalPlant_04_Sapling_06",60000,76000,3834,2097152)
 p("TropicalPlant_05_Shrub_01",61000,76000,1537,108,2097156)
-p("DecTerrainStones_02",57777,78004,19884,98,4281545007,2097164)
-p("DecTerrainStones_03",60441,78219,20563,91,4281545007,2097164)
 p("TropicalPlant_04_Sapling_05",62000,75000,18319,104,2097156)
 p("TropicalPlant_04_Sapling_04",62000,76000,16916,107,2097156)
 p("TropicalPlant_05_Shrub_01",63000,76000,2732,98,2097156)
-p("DecTerrainStones_01",63299,77704,21482,90,4281545007,2097164)
 p("TropicalRockSharp_02",62388,81089,22764,6517,532,387,4042,2097169)
 p("TropicalRockSharpWalk_02",52200,82200,19600,16200,2097153)
 p("TropicalPlant_05_Shrub_01",53000,82000,18285,86,2097156)
@@ -77576,19 +68066,13 @@ p("TropicalPlant_04_Sapling_03",62018,130497,11388,96,2097156)
 p("TropicalPlant_Grass_04",63607,127851,18768,95,2097156)
 p("TropicalPlant_04_Sapling_06",64005,129463,7145,98,2097156)
 p("TropicalPlant_Grass_04",63742,130239,21133,101,2097156)
-p("TropicalPlant_02_Shrub",67704,11836,18386,2097152)
-p("TropicalPlant_02_Shrub",66358,20900,13197,2097152)
-p("TropicalPlant_02_Shrub",68867,22101,10801,2097152)
-p("TropicalPlant_02_Shrub",72839,22075,3259,2097152)
 p("TropicalPlant_02_Shrub",70055,26014,12181,2097152)
 p("TropicalPlant_02_Shrub",71481,30040,13870,2097152)
 p("TropicalPlant_02_Shrub",74125,27348,6361,2097152)
 p("TropicalPlant_02_Shrub",74028,31232,10907,2097152)
 p("TropicalPlant_02_Shrub",76741,32582,8359,2097152)
 p("TropicalPlant_02_Shrub",79421,29935,2715,2097152)
-p("TropicalPlant_02_Shrub",84618,14261,8373,2097152)
 p("TropicalPlant_02_Shrub",81943,22228,15935,2097152)
-p("TropicalPlant_02_Shrub",89843,16959,1649,2097152)
 p("TropicalPlant_02_Shrub",87214,28670,18272,2097152)
 p("TropicalPlant_02_Shrub",93674,24645,14062,2097152)
 p("TropicalPlant_02_Shrub",96324,27155,8678,2097152)
@@ -77637,7 +68121,6 @@ p("DecTerrainStones_03",71000,65000,5255,108,4281545007,2097164)
 p("DecTerrainStones_03",73000,63000,694,98,4281545007,2097164)
 p("TropicalRockSharp_01",73275,62624,22627,11446,203,3265,2097413)
 p("DecTerrainStones_02",72000,64000,20040,90,4281545007,2097164)
-p("DecTerrainStones_02",72000,65000,17585,103,4281545007,2097164)
 p("TropicalRockSharp_01",72000,65000,20762,10,"terrainchunk",10,0,0,40,60,10,40,60,2228228)
 p("TropicalRockSharp_02",73000,64000,16876,10,2097156)
 p("TropicalRockSharp_01",73000,65000,2583,10,"terrainchunk",10,0,0,40,60,10,40,60,2228228)
@@ -77647,28 +68130,17 @@ p("TropicalPlant_06_Sapling_02",81094,51598,3572,71,2097156)
 p("TropicalPlant_01_Shrub",77872,56212,7599,92,2097156)
 p("TropicalPlant_01_Sapling",80123,56222,11153,103,2097156)
 p("TropicalRockSharp_03",74000,58000,20988,10,2097156)
-p("DecTerrainStones_01",74000,59000,5329,108,4281545007,2097164)
 p("TropicalRockSharp_04",74000,59000,16344,10,2097156)
-p("DecTerrainStones_01",75000,58000,3238,94,4281545007,2097164)
 p("TropicalRockSharp_04",75000,58000,206,10,2097156)
 p("TropicalRockAssembly_01",75649,57849,17952,11,2097156)
-p("DecTerrainStones_03",75000,59000,431,98,4281545007,2097164)
 p("TropicalRockSharp_02",75000,59000,204,10,2097156)
 p("TropicalRockSharp_04",74000,60000,19711,10,2097156)
 p("TropicalRockSharp_02",75000,60000,18220,10,2097156)
 p("TropicalRockAssembly_03",75693,60022,3703,10,2097156)
 p("TropicalRockAssembly_03",75237,60841,16245,10,2097156)
-p("DecTerrainStones_03",75000,61000,16936,106,4281545007,2097164)
-p("TropicalRockSharp_03",75000,61000,2531,10,2097156)
-p("DecTerrainStones_03",76000,58000,16296,90,4281545007,2097164)
-p("DecTerrainStones_03",76000,59000,17921,104,4281545007,2097164)
 p("TropicalRockAssembly_01",77409,57365,20664,10,2097156)
-p("DecTerrainStones_03",77000,59000,2064,96,4281545007,2097164)
-p("DecTerrainStones_03",76000,60000,3024,92,4281545007,2097164)
-p("TropicalRockSharp_01",76000,60000,19745,10,"terrainchunk",10,0,0,40,60,10,40,60,2228228)
-p("DecTerrainStones_03",76000,61000,3590,97,4281545007,2097164)
+p("TropicalRockSharp_01",76000,60000,19550,19745,10,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
 p("TropicalRockSharp_04",76000,61000,20918,10,2097156)
-p("DecTerrainStones_03",77000,60000,3751,94,4281545007,2097164)
 p("TropicalRockAssembly_04",77366,59725,198,10,2097156)
 p("DecTerrainStones_01",74000,63000,3105,97,4281545007,2097164)
 p("World_CaveFormation_10",75968,65362,18684,3904,94,4281545007,2097165)
@@ -77702,7 +68174,6 @@ p("TropicalPlant_04_Sapling_04",82000,58000,2431,107,2097156)
 p("TropicalPlant_07_Sapling_02",82012,58053,82,101,2097156)
 p("TropicalPlant_05_Shrub_01",83000,58000,17789,91,2097156)
 p("TropicalPlant_07_Sapling_02",83563,58048,5443,93,2097156)
-p("DecTerrainStones_03",83741,60407,18855,90,4281545007,2097164)
 p("TropicalPlant_04_Shrub_01",84391,57664,7937,107,2097156)
 p("TropicalPlant_04_Sapling_05",84000,58000,1731,99,2097156)
 p("TropicalPlant_Grass_02",84732,57583,21438,72,2097156)
@@ -77733,18 +68204,15 @@ p("TropicalPlant_04_Sapling_02",90432,57588,13533,98,2097156)
 p("TropicalPlant_04_Sapling_04",91000,58000,18681,91,2097156)
 p("TropicalPlant_05_Sapling_01",91966,57643,19871,94,2097156)
 p("TropicalPlant_05_Shrub_01",92000,58000,4669,102,2097156)
-p("DecTerrainStones_01",90785,59532,3029,109,4281545007,2097164)
 p("TropicalPlant_04_Sapling_06",93000,58000,2479,101,2097156)
 p("TropicalPlant_06_Sapling_01",93843,57674,10785,108,2097156)
 p("TropicalPlant_04_Sapling_05",94000,58000,5299,91,2097156)
-p("DecTerrainStones_02",93278,60842,18735,95,4281545007,2097164)
 p("TropicalPlant_01_Sapling",90411,61892,9429,97,2097156)
 p("TropicalRockSharpWalk_01",91800,64200,18900,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalRockSharp_01",96388,58156,18625,5410,106,158,372,4076,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharpWalk_01",95400,64200,18900,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalPlant_02_Shrub",100181,1305,10859,2097152)
 p("TropicalPlant_02_Shrub",99964,6489,2819,2097152)
-p("TropicalPlant_02_Shrub",98938,11726,852,2097152)
 p("TropicalPlant_02_Shrub",102664,13142,5073,2097152)
 p("TropicalPlant_02_Shrub",105201,13031,8228,2097152)
 p("TropicalRockSharp_01",107088,11767,19999,20593,250,-1902,-498,3593,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -77794,7 +68262,6 @@ p("TropicalPlant_08_Sapling_01",106095,55737,14997,93,2097156)
 p("TropicalPlant_05_Shrub_01",106000,56000,18167,108,2097156)
 p("TropicalPlant_04_Sapling_04",106000,57000,17332,92,2097156)
 p("TropicalPlant_04_Sapling_01",102245,57781,4291,91,2097156)
-p("DecTerrainStones_03",102323,60162,3430,105,4281545007,2097164)
 p("TropicalPlant_04_Sapling_04",103000,58000,16795,96,2097156)
 p("TropicalPlant_04_Sapling_03",104000,58000,20283,98,2097156)
 p("TropicalPlant_05_Shrub_01",103000,60000,19102,101,2097156)
@@ -77802,7 +68269,6 @@ p("TropicalPlant_05_Shrub_01",103000,61000,18701,108,2097156)
 p("TropicalPlant_04_Sapling_04",104000,60000,4891,2097152)
 p("TropicalPlant_04_Sapling_03",104000,61000,965,98,2097156)
 p("TropicalPlant_Grass_01",104651,59372,5106,82,2097156)
-p("DecTerrainStones_02",105647,57862,3967,109,4281545007,2097164)
 p("TropicalPlant_05_Shrub_01",105000,61000,376,2097152)
 p("TropicalPlant_Flowers_06",105973,59727,3170,83,2097156)
 p("TropicalPlant_08_Sapling_01",106283,60268,21075,96,2097156)
@@ -77829,7 +68295,6 @@ p("TropicalRockSharpWalk_01",111000,55800,18200,10800,"terrainchunk",10,0,0,40,6
 p("TropicalRockSharpWalk_01",111000,55800,18900,10800,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalRockSharpWalk_01",113400,54600,18200,10800,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalRockSharp_01",113682,53498,7429,5287,250,168,377,4075,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
-p("DecTerrainStones_02",107441,57631,950,107,4281545007,2097164)
 p("TropicalPlant_05_Shrub_01",107000,60000,19662,2097152)
 p("TropicalPlant_Grass_04",107012,59435,16438,85,2097156)
 p("TropicalPlant_04_Sapling_06",107000,61000,20512,90,2097156)
@@ -78001,13 +68466,9 @@ p("TropicalRockSharp_02",72000,66000,19865,10,2097156)
 p("TropicalRockSharp_03",72000,67000,20972,10,2097156)
 p("DecTerrainStones_01",72599,66729,17969,90,4281545007,2097164)
 p("TropicalRockSharp_02",72000,68000,16229,10,2097156)
-p("DecTerrainStones_02",72539,69815,2893,102,4281545007,2097164)
-p("DecTerrainStones_03",66614,77638,20126,92,4281545007,2097164)
-p("DecTerrainStones_02",69451,75843,19686,98,4281545007,2097164)
+p("DecTerrainStones_02",72539,69815,2893,25,4281545007,2097164)
 p("TropicalRockSharp_02",67438,81802,19550,16375,2097153)
 p("TropicalRockSharp_02",67438,81802,21163,16375,2097153)
-p("DecTerrainStones_02",68802,80543,4538,93,4281545007,2097164)
-p("DecTerrainStones_03",72152,75570,21268,105,4281545007,2097164)
 p("TropicalRockSharp_01",77884,67523,13804,5674,250,140,367,4077,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",77102,79305,13247,766,250,2313,1174,3169,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharpWalk_01",81000,75000,18900,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
@@ -79254,7 +69715,7 @@ p("TropicalPlant_Grass_01",108000,113000,5512,202,2097156)
 p("TropicalPlant_Grass_01",108000,114000,11844,200,2097156)
 p("TropicalPlant_01_Shrub",107719,114350,9178,137,2097156)
 p("TropicalPlant_Grass_03",109000,111000,11090,204,2097156)
-p("TropicalPlant_Grass_01",109000,112000,10085,202,2097156)
+p("TropicalPlant_Grass_01",109025,112014,10085,202,2097156)
 p("TropicalPlant_Grass_03",110000,111000,1590,192,2097156)
 p("TropicalPlant_Grass_01",110000,112000,6335,190,2097156)
 p("TropicalPlant_Grass_03",109000,113000,5442,194,2097156)
@@ -89705,11 +80166,9 @@ p("DecForestMoss_02",95897,138105,18766,5223,-4045,-638,0,2097169)
 p("DecForestMoss_02",95877,138137,19444,5223,-4045,-638,0,2097169)
 p("DecForestMoss_02",95960,138123,18936,5223,-4045,-638,0,2097169)
 p("DecForestMoss_02",95548,138370,18451,908,1670,-3740,0,2097169)
-p("TropicalPlant_Dead_13",96081,138354,19099,21332,69,0,-4096,0,2793,0,2098453)
 p("DecForestMoss_01",96164,138325,18909,52,2097156)
 p("TropicalPlant_Grass_03",96000,139000,16128,2097152)
 p("DecForestMoss_02",97794,137117,18599,4759,-3749,-1649,0,2097169)
-p("TropicalPlant_Dead_13",97637,137467,2793,0,1280)
 p("DecForestMoss_02",97940,137248,18493,4744,-1521,-3803,0,2097169)
 p("DecForestMoss_02",98008,137320,18306,4744,-1521,-3803,0,2097169)
 p("TropicalPlant_05_Shrub_01",97945,137875,10748,78,2097156)
@@ -89896,10 +80355,6 @@ p("DecForestMoss_01",97528,159087,18402,851,2241,-3428,0,2097169)
 p("TropicalPlant_05_Sapling_01",97764,159190,20221,39,2097156)
 p("DecForestMoss_01",97339,159368,18368,988,4024,764,0,2097169)
 p("TropicalPlant_Grass_02",98133,159353,19063,2097152)
-p("TropicalPlant_Dead_13",94220,160252,18180,69,2793,0,1285)
-p("TropicalPlant_Dead_13",94220,160252,18659,69,2793,0,1285)
-p("TropicalPlant_Dead_13",94220,160252,18963,69,2793,0,1285)
-p("TropicalPlant_Dead_13",94220,160252,19442,69,2793,0,1285)
 p("TropicalPlant_Grass_02",94385,160271,9216,2097152)
 p("TropicalPlant_Grass_01",95030,159777,20669,2097152)
 p("TropicalPlant_Grass_04",95161,161336,13531,2097152)
@@ -89910,9 +80365,6 @@ p("TropicalPlant_Grass_02",95105,161850,14635,2097152)
 p("TropicalPlant_05_Shrub_01",96993,161108,586,37,2097156)
 p("DecJungleForest_03",97623,160455,14455,97,2097156)
 p("TropicalPlant_04_Sapling_04",97750,161720,12157,49,2097156)
-p("TropicalPlant_Dead_13",96661,162627,18982,69,2793,0,1285)
-p("TropicalPlant_Dead_13",96764,162627,18054,69,2793,0,1285)
-p("TropicalPlant_Dead_13",96764,162627,18517,69,2793,0,1285)
 p("TropicalPlant_01_Shrub",97103,162263,9171,36,2097156)
 p("TropicalPlant_04_Sapling_06",97047,162858,16004,68,2097156)
 p("TropicalPlant_Grass_03",97229,162902,18075,2097152)
@@ -90308,11 +80760,6 @@ p("TropicalPlant_Grass_02",90000,180000,14892,82,2097156)
 p("TropicalCliffSharp_04",90600,165000,16100,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalRockSharpWalk_01",90600,167400,18200,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalRockSharp_01",91712,170506,9201,7939,250,-512,258,4055,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
-p("TropicalPlant_03_Sapling_02",97180,164265,10505,2097152)
-p("TropicalPlant_Dead_13",97824,163999,17694,69,2793,0,1285)
-p("TropicalPlant_Dead_13",97824,163999,18140,69,2793,0,1285)
-p("TropicalPlant_Dead_13",97824,163999,18598,69,2793,0,1285)
-p("TropicalPlant_Dead_13",97824,163999,19096,69,2793,0,1285)
 p("TropicalPlant_03_Sapling_02",98187,164076,14686,76,2097156)
 p("TropicalPlant_01_Shrub",98207,165015,1619,53,2097156)
 p("TropicalPlant_04_Shrub_02",98100,166010,2778,43,2097156)
@@ -90531,9 +80978,6 @@ p("TropicalPlant_04_Sapling_02",99293,137083,2914,39,2097156)
 p("DecForestMoss_02",100064,137062,18187,4800,-3785,1565,0,2097169)
 p("TropicalPlant_08_Sapling_01",100149,137039,9950,62,2097156)
 p("DecForestMoss_02",100325,137107,18285,4777,-3764,-1614,0,2097169)
-p("TropicalPlant_Dead_13",100187,137381,18180,69,2793,0,1285)
-p("TropicalPlant_Dead_13",100187,137381,18622,69,2793,0,1285)
-p("TropicalPlant_Dead_13",100187,137381,19006,69,2793,0,1285)
 p("DecForestMoss_02",100390,137160,18322,4741,-1524,-3801,0,2097169)
 p("TropicalCliffSharp_04",103800,135000,13300,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalCliffSharp_04",103800,135000,14700,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
@@ -90571,18 +81015,9 @@ p("DecForestMoss_02",101666,145825,18271,21511,216,1004,3966,2097169)
 p("DecForestMoss_02",101692,145853,18270,5158,-15,-137,4094,2097169)
 p("DecForestMoss_02",101826,146013,18346,21449,285,711,4024,2097169)
 p("DecForestMoss_02",102082,146172,18186,5149,2497,3247,0,2097169)
-p("TropicalPlant_Dead_13",102417,139783,17968,50,2793,0,1285)
-p("TropicalPlant_Dead_13",102417,139783,18359,50,2793,0,1285)
-p("TropicalPlant_Dead_13",102417,139783,18725,50,2793,0,1285)
-p("TropicalPlant_Dead_13",102417,139783,19147,50,2793,0,1285)
 p("TropicalPlant_04_Sapling_06",103059,139840,17634,75,2097156)
 p("TropicalPlant_05_Shrub_01",102817,141139,14855,78,2097156)
 p("TropicalPlant_03_Sapling_01",103284,143058,14138,86,2097156)
-p("TropicalPlant_Dead_13",103827,142041,17872,54,2793,0,1285)
-p("TropicalPlant_Dead_13",103827,142041,18263,54,2793,0,1285)
-p("TropicalPlant_Dead_13",103827,142041,18689,54,2793,0,1285)
-p("TropicalPlant_Dead_13",103827,142041,18997,54,2793,0,1285)
-p("TropicalPlant_Dead_13",103827,142041,19228,54,2793,0,1285)
 p("DecForestMoss_02",104031,142018,18070,4790,-1639,-3753,0,2097169)
 p("DecForestMoss_02",104187,142749,18068,20495,24,-392,4077,2097169)
 p("TropicalPlant_06_Sapling_02",104076,142885,16643,47,2097156)
@@ -90628,10 +81063,6 @@ p("TropicalPlant_04_Sapling_03",104295,146290,7470,86,2097156)
 p("TropicalPlant_Grass_01",103870,146687,14751,2097152)
 p("TropicalPlant_01_Sapling",105252,144170,16951,90,2097156)
 p("TropicalPlant_05_Sapling_01",104843,144773,14833,37,2097156)
-p("TropicalPlant_Dead_13",105775,144303,17666,69,2793,0,1285)
-p("TropicalPlant_Dead_13",105775,144303,18125,69,2793,0,1285)
-p("TropicalPlant_Dead_13",105775,144303,18602,69,2793,0,1285)
-p("TropicalPlant_Dead_13",105775,144303,18915,69,2793,0,1285)
 p("TropicalPlant_04_Sapling_06",105965,144845,16824,90,2097156)
 p("TropicalPlant_05_Sapling_01",105810,145090,17018,55,2097156)
 p("DecForestMoss_01",105699,146183,20028,46,2097156)
@@ -90771,10 +81202,6 @@ p("TropicalPlant_04_Sapling_05",106151,159141,13885,56,2097156)
 p("TropicalPlant_01_Shrub",105091,161246,8939,103,2097156)
 p("TropicalPlant_07_Sapling_02",105849,161238,16740,36,2097156)
 p("DecJungleForest_02",106286,161755,11762,82,2097156)
-p("TropicalPlant_Dead_13",106322,161743,18134,69,2793,0,1285)
-p("TropicalPlant_Dead_13",106322,161743,18609,69,2793,0,1285)
-p("TropicalPlant_Dead_13",106322,161743,18926,69,2793,0,1285)
-p("TropicalPlant_Dead_13",106322,161743,19091,69,2793,0,1285)
 p("TropicalPlant_01_Shrub",104931,161954,11121,75,2097156)
 p("TropicalPlant_07_Sapling_02",104866,163008,12787,74,2097156)
 p("TropicalPlant_04_Sapling_06",105151,163123,10639,39,2097156)
@@ -90820,8 +81247,6 @@ p("TropicalPlant_Grass_04",109499,160527,16641,2097152)
 p("TropicalPlant_04_Sapling_03",108886,161176,19418,79,2097156)
 p("TropicalPlant_Grass_02",109136,161535,20322,2097152)
 p("DecForestMoss_05",109506,161664,17922,43,2097156)
-p("TropicalPlant_Dead_13",109988,160392,18778,69,2793,0,1285)
-p("TropicalPlant_Dead_13",109988,160392,19326,69,2793,0,1285)
 p("TropicalPlant_Grass_04",109587,161078,21530,2097152)
 p("DecForestMoss_02",110486,160838,18488,3517,26,-109,4094,2097169)
 p("DecForestMoss_02",110349,161174,18499,1)
@@ -91126,18 +81551,10 @@ p("TropicalPlant_04_Sapling_05",105109,164097,14292,94,2097156)
 p("TropicalPlant_06_Sapling_02",105884,164074,2965,56,2097156)
 p("TropicalPlant_04_Sapling_04",104709,166126,13044,43,2097156)
 p("DecForestMoss_06",102418,168050,6854,67,2097156)
-p("TropicalPlant_Dead_13",102672,168545,17694,69,2793,0,1285)
-p("TropicalPlant_Dead_13",102695,168561,18042,69,2793,0,1285)
-p("TropicalPlant_Dead_13",102695,168561,18408,69,2793,0,1285)
 p("TropicalPlant_04_Sapling_05",102977,168884,18170,57,2097156)
 p("TropicalPlant_06_Sapling_02",102951,169252,2786,64,2097156)
-p("TropicalPlant_03_Sapling_02",103280,169716,15993,81,2097156)
 p("TropicalPlant_04_Sapling_04",103829,168151,8498,79,2097156)
 p("DecForestMoss_06",103902,168315,11015,66,2097156)
-p("TropicalPlant_Dead_13",103882,169810,18135,69,2793,0,1285)
-p("TropicalPlant_Dead_13",103882,169810,18569,69,2793,0,1285)
-p("TropicalPlant_Dead_13",103882,169810,19050,69,2793,0,1285)
-p("TropicalPlant_Dead_13",103882,169810,69,2793,0,1284)
 p("TropicalPlant_04_Sapling_05",104144,169042,7941,80,2097156)
 p("TropicalPlant_Grass_01",103043,170103,13474,2097152)
 p("TropicalPlant_Grass_01",103201,171473,6336,2097152)
@@ -91155,8 +81572,6 @@ p("TropicalPlant_Grass_03",105507,170208,13746,2097152)
 p("TropicalPlant_Grass_01",105533,170877,4455,2097152)
 p("DecForestMoss_02",106194,170313,7119,43,2097156)
 p("TropicalRockSharpWalk_01",99000,175800,16800,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
-p("TropicalPlant_Dead_13",102362,172324,17684,69,2793,0,1285)
-p("TropicalPlant_Dead_13",102362,172324,18190,69,2793,0,1285)
 p("TropicalPlant_01_Sapling",101987,172740,4250,85,2097156)
 p("TropicalRockSharp_01",100634,175708,9839,5488,250,-338,1453,3814,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_02",98768,179816,14883,16492,87,-3819,-164,1469,2097173)
@@ -93153,8 +83568,6 @@ p("TropicalRockSharp_01",130118,249952,6948,1492,250,1127,745,3866,"terrainchunk
 p("TropicalRockSharp_01",130118,249952,6948,1649,250,4291676360,162,84,4091,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_02_Shrub",131321,14328,8631,2097152)
 p("TropicalPlant_02_Shrub",131187,15578,8512,2097152)
-p("TropicalPlant_02_Shrub",136545,15540,11247,2097152)
-p("TropicalPlant_02_Shrub",144253,1256,18302,2097152)
 p("TropicalPlant_02_Shrub",133942,17008,4653,2097152)
 p("TropicalPlant_02_Shrub",133859,22146,9227,2097152)
 p("TropicalPlant_02_Shrub",135299,16909,17614,2097152)
@@ -93720,12 +84133,9 @@ p("TropicalPlant_Grass_04",163290,64463,7762,66,2097156)
 p("TropicalPlant_Grass_04",163719,63744,8810,66,2097156)
 p("TropicalPlant_Grass_03",163198,65461,17029,72,2097156)
 p("TropicalPlant_Grass_01",163638,64751,2955,68,2097156)
-p("TropicalPlant_02_Shrub",170387,12973,11463,2097152)
-p("TropicalPlant_02_Shrub",170359,15573,6828,2097152)
 p("TropicalPlant_02_Shrub",163847,18315,18831,2097152)
 p("TropicalPlant_02_Shrub",167761,19363,1547,2097152)
 p("TropicalPlant_02_Shrub",169057,18066,2945,2097152)
-p("TropicalPlant_02_Shrub",170311,16963,12982,2097152)
 p("TropicalPlant_02_Shrub",170247,18101,2419,2097152)
 p("TropicalPlant_02_Shrub",167721,29951,4952,2097152)
 p("TropicalPlant_02_Shrub",170179,28670,4778,2097152)
@@ -94349,6 +84759,10 @@ p("TropicalRockSharp_01",161561,89730,5527,1290,250,31,378,4078,"terrainchunk",1
 p("TropicalRockSharp_02",163092,86234,14383,6526,101,3036,-2133,1734,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalRockSharpWalk_01",156600,94200,13300,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalRockSharpWalk_01",157800,91800,13300,"terrainchunk",10,0,0,40,60,10,40,60,131073)
+p("TropicalPlant_04_Shrub_02",158778,96782,14252,2692,131,-3224,1515,2020,2097173)
+p("TropicalPlant_04_Shrub_02",158778,96782,14252,5905,131,-1771,-295,3681,2097173)
+p("TropicalPlant_04_Shrub_02",158778,96782,14252,8721,131,2097157)
+p("TropicalPlant_04_Shrub_02",158778,96782,14252,14306,131,-150,-1550,3788,2097173)
 p("TropicalRockSharp_01",160509,90794,12190,8689,101,558,65,4057,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalRockSharp_01",159950,94379,12190,1673,101,1310,-1793,3441,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalPlant_Grass_02",132000,99000,18075,116,2097156)
@@ -95833,8 +86247,6 @@ p("TropicalPlant_Grass_04",196000,128000,2887,104,2097156)
 p("TropicalPlant_Grass_04",196000,129000,16399,101,2097156)
 p("TropicalPlant_Grass_01",195461,129197,19313,202,2097156)
 p("TropicalPlant_02_Shrub",200202,20747,6852,2097152)
-p("TropicalPlant_02_Shrub",202904,17005,5330,2097152)
-p("TropicalPlant_02_Shrub",202821,18308,2299,2097152)
 p("TropicalPlant_02_Shrub",198821,30039,2255,2097152)
 p("TropicalPlant_02_Shrub",205307,20923,9,2097152)
 p("TropicalPlant_02_Shrub",205364,24835,17867,2097152)
@@ -95843,9 +86255,6 @@ p("TropicalPlant_02_Shrub",213052,23478,18949,2097152)
 p("TropicalPlant_02_Shrub",219649,20920,15638,2097152)
 p("TropicalPlant_02_Shrub",217188,26103,20365,2097152)
 p("TropicalPlant_02_Shrub",218447,28702,5986,2097152)
-p("TropicalPlant_02_Shrub",222164,16870,15572,2097152)
-p("TropicalPlant_02_Shrub",226270,16968,18726,2097152)
-p("TropicalPlant_02_Shrub",227369,25978,3278,2097152)
 p("TropicalPlant_02_Shrub",227600,32425,10485,2097152)
 p("TropicalPlant_02_Shrub",197525,36414,13269,2097152)
 p("TropicalPlant_02_Shrub",204011,35224,2617,2097152)
@@ -96023,21 +86432,7 @@ p("TropicalRockSharp_01",225861,60813,19999,6423,250,86,344,4080,"terrainchunk",
 p("TropicalPlant_Grass_01",225613,62926,7060,2097152)
 p("TropicalPlant_Grass_03",227182,63464,15042,2097152)
 p("TropicalPlant_Grass_03",228258,63958,5097,2097152)
-p("TropicalPlant_02_Shrub",232812,15694,10316,2097152)
-p("TropicalPlant_02_Shrub",243010,15466,16065,2097152)
-p("TropicalPlant_02_Shrub",232828,18238,12273,2097152)
-p("TropicalPlant_02_Shrub",230028,21998,20586,2097152)
-p("TropicalPlant_02_Shrub",232765,22152,4789,2097152)
-p("TropicalPlant_02_Shrub",232739,28650,585,2097152)
 p("TropicalPlant_02_Shrub",235291,32587,4892,2097152)
-p("TropicalPlant_02_Shrub",240561,19462,18507,2097152)
-p("TropicalPlant_02_Shrub",244456,23257,16660,2097152)
-p("TropicalPlant_02_Shrub",252168,26096,19996,2097152)
-p("TropicalPlant_02_Shrub",256214,22232,10783,2097152)
-p("TropicalPlant_02_Shrub",256197,23298,3034,2097152)
-p("TropicalPlant_02_Shrub",258692,16896,2902,2097152)
-p("TropicalPlant_02_Shrub",259912,22212,6348,2097152)
-p("TropicalPlant_02_Shrub",254758,25934,10412,2097152)
 p("TropicalPlant_02_Shrub",232559,35237,14380,2097152)
 p("TropicalPlant_02_Shrub",235380,33650,11578,2097152)
 p("TropicalPlant_02_Shrub",235170,35243,8561,2097152)
@@ -105339,31 +95734,6 @@ p("TropicalRockSharp_01",15537,265878,6949,3727,250,4288584860,"terrainchunk",10
 p("TropicalPlant_Grass_03",16421,263026,12179,2097152)
 p("TropicalPlant_Grass_04",17394,262214,21234,2097152)
 p("TropicalRockSharp_01",65987,263070,6949,4770,250,4291676360,41,56,4095,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
-p("TropicalPlant_02_Shrub",265175,14336,2387,2097152)
-p("TropicalPlant_02_Shrub",268954,15713,9337,2097152)
-p("TropicalPlant_02_Shrub",271644,14343,621,2097152)
-p("TropicalPlant_02_Shrub",278063,14183,15025,2097152)
-p("TropicalPlant_02_Shrub",263876,16798,21001,2097152)
-p("TropicalPlant_02_Shrub",263761,18213,1485,2097152)
-p("TropicalPlant_02_Shrub",263856,19534,3558,2097152)
-p("TropicalPlant_02_Shrub",269230,18115,13147,2097152)
-p("TropicalPlant_02_Shrub",267943,20727,14361,2097152)
-p("TropicalPlant_02_Shrub",267813,22220,14548,2097152)
-p("TropicalPlant_02_Shrub",262631,27442,13080,2097152)
-p("TropicalPlant_02_Shrub",262703,32471,4910,2097152)
-p("TropicalPlant_02_Shrub",266447,32449,7110,2097152)
-p("TropicalPlant_02_Shrub",270380,31142,11476,2097152)
-p("TropicalPlant_02_Shrub",275500,27297,9649,2097152)
-p("TropicalPlant_02_Shrub",280796,14286,1034,2097152)
-p("TropicalPlant_02_Shrub",287245,19462,7788,2097152)
-p("TropicalPlant_02_Shrub",288669,19627,3861,2097152)
-p("TropicalPlant_02_Shrub",289774,19464,16579,2097152)
-p("TropicalPlant_02_Shrub",289901,22203,19304,2097152)
-p("TropicalPlant_02_Shrub",289912,23380,21143,2097152)
-p("TropicalPlant_02_Shrub",289940,24564,10407,2097152)
-p("TropicalPlant_02_Shrub",291158,23340,19028,2097152)
-p("TropicalPlant_02_Shrub",289827,27350,7313,2097152)
-p("TropicalPlant_02_Shrub",291286,27158,21265,2097152)
 p("TropicalPlant_02_Shrub",262735,33682,3114,2097152)
 p("TropicalPlant_02_Shrub",262587,37687,15737,2097152)
 p("TropicalPlant_02_Shrub",269044,34986,9838,2097152)
@@ -105405,10 +95775,6 @@ p("TropicalPlant_02_Shrub",284045,59472,7084,131,2097156)
 p("TropicalPlant_04_Shrub_02",285094,61190,5,127,2097156)
 p("TropicalPlant_05_Sapling_01",288016,56875,10134,130,2097156)
 p("TropicalPlant_07_Sapling_01",292028,56110,832,131,2097156)
-p("TropicalPlant_02_Shrub",297693,24796,11260,2097152)
-p("TropicalPlant_02_Shrub",296426,32552,6725,2097152)
-p("TropicalPlant_02_Shrub",302815,32472,2874,2097152)
-p("TropicalPlant_02_Shrub",304254,28588,8190,2097152)
 p("TropicalPlant_02_Shrub",300228,40160,5803,2097152)
 p("TropicalPlant_02_Shrub",295202,41636,21495,2097152)
 p("TropicalPlant_02_Shrub",299124,42972,6702,2097152)

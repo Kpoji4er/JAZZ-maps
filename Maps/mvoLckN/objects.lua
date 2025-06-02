@@ -21289,7 +21289,7 @@ PlaceObj('CoastalPlant_01_Tree_04', {
 	'AllowedMask', 4294967279,
 }, nil, 1461079931)
 PlaceObj('CoastalPlant_01_Tree_02', {
-	'Pos', point(243119, 109075),
+	'Pos', point(243166, 109056),
 	'Angle', 7928,
 	'ForcedLODState', "Minimum",
 	'Saturation', 0,

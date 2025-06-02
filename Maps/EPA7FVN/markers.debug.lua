@@ -56,27 +56,6 @@
 	},
 	{
 		Groups = {
-			"GameIntro",
-		},
-		handle = 1024113627,
-		items = {
-			{
-				editor_view_abridged = "if not Completed",
-				filter_type = "quest",
-				reference_id = "01_Landing",
-				type = "QuestIsVariableBool",
-				var = set({
-	Completed = false,
-}),
-			},
-		},
-		map = "EPA7FVN",
-		name = "Defender#627 Start (GameIntro)",
-		path = "Defender Start",
-		type = "Defender",
-	},
-	{
-		Groups = {
 			"Start_Legion",
 		},
 		handle = 1066578729,
