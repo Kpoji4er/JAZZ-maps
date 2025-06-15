@@ -176,7 +176,9 @@
 		type = "DefenderPriority",
 	},
 	{
-		Groups = false,
+		Groups = {
+			"AL_Defender",
+		},
 		handle = 1128479163,
 		items = {
 			{
@@ -190,7 +192,7 @@
 			},
 		},
 		map = "cd6xgVh",
-		name = "DefenderPriority#163",
+		name = "DefenderPriority#163 (AL_Defender)",
 		path = "DefenderPriority ",
 		type = "DefenderPriority",
 	},
@@ -589,7 +591,9 @@
 		type = "Position",
 	},
 	{
-		Groups = false,
+		Groups = {
+			"AL_Defender",
+		},
 		handle = 1450657410,
 		items = {
 			{
@@ -603,7 +607,7 @@
 			},
 		},
 		map = "cd6xgVh",
-		name = "DefenderPriority#410",
+		name = "DefenderPriority#410 (AL_Defender)",
 		path = "DefenderPriority ",
 		type = "DefenderPriority",
 	},
