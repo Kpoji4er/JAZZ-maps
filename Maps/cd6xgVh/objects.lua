@@ -761,6 +761,9 @@ PlaceObj('Collection', {
 SetNextSyncHandle(2000000001)
 PlaceObj('GridMarker', {
 	'Pos', point(111000, 120600, 12600),
+	'Groups', {
+		"AL_Defender",
+	},
 	'AllowedMask', 4294966497,
 	'Type', "DefenderPriority",
 	'Trigger', "always",
@@ -768,12 +771,14 @@ PlaceObj('GridMarker', {
 	'Name', T(152613376937, "Sniper\n"),
 	'Archetypes', {
 		"Marksman",
-		"Soldier",
 	},
 	'ArchetypesTriState', set( "Marksman" ),
 }, nil, 1627382739)
 PlaceObj('GridMarker', {
 	'Pos', point(124200, 108600, 9800),
+	'Groups', {
+		"AL_Defender",
+	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
 	'AreaWidth', 15,
@@ -791,6 +796,9 @@ PlaceObj('ContainerMarker', {
 }, nil, 409018368)
 PlaceObj('GridMarker', {
 	'Pos', point(129000, 114600, 9800),
+	'Groups', {
+		"AL_Defender",
+	},
 	'AllowedMask', 4294966497,
 	'Type', "DefenderPriority",
 	'Trigger', "always",
@@ -839,6 +847,9 @@ PlaceObj('GridMarker', {
 }, nil, 1319576383)
 PlaceObj('GridMarker', {
 	'Pos', point(99000, 141000, 7000),
+	'Groups', {
+		"AL_Defender",
+	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
 	'AreaWidth', 4,
@@ -857,6 +868,9 @@ PlaceObj('HerbMarker', {
 }, nil, 1070703813)
 PlaceObj('GridMarker', {
 	'Pos', point(119400, 132600, 6300),
+	'Groups', {
+		"AL_Defender",
+	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
 	'AreaWidth', 11,
@@ -876,6 +890,9 @@ PlaceObj('IntelMarker', {
 }, nil, 1508945310)
 PlaceObj('GridMarker', {
 	'Pos', point(127800, 150600, 7000),
+	'Groups', {
+		"AL_Defender",
+	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
 	'AreaWidth', 5,
@@ -938,6 +955,9 @@ PlaceObj('ContainerMarker', {
 }, nil, 991748096)
 PlaceObj('GridMarker', {
 	'Pos', point(137400, 100200, 14700),
+	'Groups', {
+		"AL_Defender",
+	},
 	'AllowedMask', 4294966497,
 	'Type', "DefenderPriority",
 	'Trigger', "always",
@@ -1240,6 +1260,9 @@ PlaceObj('TrapSpawnMarker', {
 }, nil, 1620576534)
 PlaceObj('GridMarker', {
 	'Pos', point(149400, 109800),
+	'Groups', {
+		"AL_Defender",
+	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
 	'AreaWidth', 15,
@@ -1339,6 +1362,9 @@ PlaceObj('GridMarker', {
 }, nil, 1732046801)
 PlaceObj('GridMarker', {
 	'Pos', point(163800, 120600, 18900),
+	'Groups', {
+		"AL_Defender",
+	},
 	'AllowedMask', 4294966497,
 	'Type', "DefenderPriority",
 	'Trigger', "always",
@@ -1383,10 +1409,14 @@ PlaceObj('ContainerIntelMarker', {
 }, nil, 804257792)
 PlaceObj('GridMarker', {
 	'Pos', point(171000, 111000, 11900),
+	'Groups', {
+		"AL_Defender",
+	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
 	'AreaWidth', 3,
 	'AreaHeight', 15,
+	'ArchetypesTriState', set( "Marksman", "Soldier" ),
 }, nil, 1895420336)
 PlaceObj('TrapSpawnMarker', {
 	'Pos', point(165000, 117000),
@@ -1456,6 +1486,9 @@ PlaceObj('ContainerMarker', {
 }, nil, 108306432)
 PlaceObj('GridMarker', {
 	'Pos', point(184200, 112200, 12600),
+	'Groups', {
+		"AL_Defender",
+	},
 	'AllowedMask', 4294966497,
 	'Type', "DefenderPriority",
 	'AreaWidth', 2,
@@ -1471,9 +1504,13 @@ PlaceObj('GridMarker', {
 	'Routine', "Patrol",
 	'RoutineArea', "UP_Sniper_WP",
 	'Archetypes', {},
+	'ArchetypesTriState', set( "Recon", "Soldier" ),
 }, nil, 1450657410)
 PlaceObj('GridMarker', {
 	'Pos', point(187800, 107400, 12600),
+	'Groups', {
+		"AL_Defender",
+	},
 	'AllowedMask', 4294966497,
 	'Type', "DefenderPriority",
 	'AreaWidth', 2,
@@ -1520,6 +1557,9 @@ PlaceObj('HackMarker', {
 PlaceObj('GridMarker', {
 	'Pos', point(180600, 118200, 12600),
 	'Angle', 5400,
+	'Groups', {
+		"AL_Defender",
+	},
 	'AllowedMask', 4294966497,
 	'Type', "DefenderPriority",
 	'AreaWidth', 3,
@@ -1912,12 +1952,14 @@ PlaceObj('GridMarker', {
 }, nil, 1824721869)
 PlaceObj('GridMarker', {
 	'Pos', point(179400, 135000, 14700),
+	'Groups', {
+		"AL_Defender",
+	},
 	'AllowedMask', 4294966497,
 	'Type', "DefenderPriority",
 	'Routine', "StandStill",
 	'Archetypes', {
 		"Marksman",
-		"Soldier",
 	},
 	'ArchetypesTriState', set({
 	Artillery = false,
@@ -2147,6 +2189,15 @@ PlaceObj('GridMarker', {
 		}),
 	},
 }, nil, 1689367842)
+PlaceObj('GridMarker', {
+	'Pos', point(161400, 210600, 7000),
+	'Groups', {
+		"AL_Defender",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "DefenderPriority",
+	'ArchetypesTriState', set( "Demolitions", "Militia", "Recon", "Soldier", "Stormer" ),
+}, nil, 1588776648)
 PlaceObj('IntelMarker', {
 	'Pos', point(162600, 214200),
 	'AllowedMask', 4294966497,
@@ -2167,16 +2218,22 @@ PlaceObj('ContainerIntelMarker', {
 	'DespawnIfEmpty', true,
 }, nil, 740179968)
 PlaceObj('GridMarker', {
-	'Pos', point(171000, 209400),
+	'Pos', point(165000, 213000, 7000),
+	'Groups', {
+		"AL_Defender",
+	},
 	'AllowedMask', 4294966497,
 	'Type', "DefenderPriority",
-	'AreaWidth', 2,
-}, nil, 1588776648)
+	'ArchetypesTriState', set( "Demolitions", "Militia", "Recon", "Soldier", "Stormer" ),
+}, nil, 1559603262)
 PlaceObj('GridMarker', {
-	'Pos', point(171000, 220200),
+	'Pos', point(166200, 219000, 7000),
+	'Groups', {
+		"AL_Defender",
+	},
 	'AllowedMask', 4294966497,
 	'Type', "DefenderPriority",
-	'AreaHeight', 2,
+	'ArchetypesTriState', set( "Demolitions", "Militia", "Recon", "Soldier", "Stormer" ),
 }, nil, 1360578940)
 PlaceObj('GridMarker', {
 	'Pos', point(172200, 228600, 7700),
@@ -2190,12 +2247,6 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 10,
 	'GroundVisuals', true,
 }, nil, 1009933352)
-PlaceObj('GridMarker', {
-	'Pos', point(181800, 214200, 7000),
-	'AllowedMask', 4294966497,
-	'Type', "DefenderPriority",
-	'AreaWidth', 2,
-}, nil, 1559603262)
 PlaceObj('ExitZoneInteractable', {
 	'Pos', point(172544, 230996, 8112),
 	'Groups', {
@@ -32008,7 +32059,7 @@ PlaceObj('RoofCornerWallSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-}, nil, 1507266376)
+}, nil, 1658798992)
 PlaceObj('RoofCorner', {
 	'Pos', point(159600, 207600, 9863),
 	'Angle', 10800,
@@ -32017,9 +32068,9 @@ PlaceObj('RoofCorner', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1151159674)
+}, nil, 1422870753)
 PlaceObj('WallSlab', {
 	'Pos', point(159600, 208200, 7000),
 	'Angle', 10800,
@@ -32078,7 +32129,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1083847404)
+}, nil, 1654679432)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(159600, 208200, 9863),
 	'Angle', 10800,
@@ -32086,10 +32137,10 @@ PlaceObj('RoofEdgeSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "PalmLeaves",
+	'subvariant', 2,
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1194525756)
+}, nil, 1706710912)
 PlaceObj('WallSlab', {
 	'Pos', point(159600, 209400, 7000),
 	'Angle', 10800,
@@ -32148,7 +32199,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 4,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1719505160)
+}, nil, 1382745250)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(159600, 209400, 9863),
 	'Angle', 10800,
@@ -32157,9 +32208,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1233619745)
+}, nil, 1515872383)
 PlaceObj('EditorLineGuide', {
 	'Pos', point(159500, 209900, 9100),
 	'Angle', 16200,
@@ -32229,7 +32280,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 2,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1535663021)
+}, nil, 1204141107)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(159600, 210600, 9863),
 	'Angle', 10800,
@@ -32237,10 +32288,10 @@ PlaceObj('RoofEdgeSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "PalmLeaves",
+	'subvariant', 2,
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1833643582)
+}, nil, 1394335178)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(159142, 211526),
 	'Angle', 19500,
@@ -32338,14 +32389,14 @@ PlaceObj('RoofCornerWallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 16,
-}, nil, 1038478271)
+}, nil, 1214827029)
 PlaceObj('RoofCornerWallSlab', {
 	'Pos', point(159600, 211200, 9800),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 16,
-}, nil, 1073527515)
+}, nil, 1306765761)
 PlaceObj('RoofCorner', {
 	'Pos', point(159600, 211200, 9863),
 	'Angle', 10800,
@@ -32354,9 +32405,9 @@ PlaceObj('RoofCorner', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1455984506)
+}, nil, 1533318894)
 PlaceObj('RoofCorner', {
 	'Pos', point(159600, 211200, 9863),
 	'Angle', 10800,
@@ -32365,9 +32416,9 @@ PlaceObj('RoofCorner', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1559564587)
+}, nil, 1542370433)
 PlaceObj('WallSlab', {
 	'Pos', point(159600, 211800, 7000),
 	'Angle', 10800,
@@ -32426,7 +32477,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1221837462)
+}, nil, 1337596572)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(159600, 211800, 9863),
 	'Angle', 10800,
@@ -32435,9 +32486,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1021587437)
+}, nil, 1141688519)
 PlaceObj('WallSlab', {
 	'Pos', point(160200, 207600, 7000),
 	'Angle', 16200,
@@ -32496,7 +32547,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 3,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1626964512)
+}, nil, 1762829163)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(160200, 207600, 10117),
 	'Angle', 16200,
@@ -32505,9 +32556,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1726055636)
+}, nil, 1440418701)
 PlaceObj('FloorSlab', {
 	'Pos', point(160200, 208200, 7000),
 	'Saturation', 0,
@@ -32523,7 +32574,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1395297375)
+}, nil, 1738962679)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(160200, 208200, 10117),
 	'Angle', 10800,
@@ -32532,9 +32583,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1021082351)
+}, nil, 1184191578)
 PlaceObj('WallSlab', {
 	'Pos', point(161400, 207600, 7000),
 	'Angle', 16200,
@@ -32593,7 +32644,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 2,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1667514337)
+}, nil, 1714280991)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(161400, 207600, 10500),
 	'Angle', 16200,
@@ -32604,7 +32655,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 2,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1748320696)
+}, nil, 1069846735)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(161400, 207600, 10626),
 	'Angle', 16200,
@@ -32612,10 +32663,10 @@ PlaceObj('RoofEdgeSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "PalmLeaves",
+	'subvariant', 1,
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1115746022)
+}, nil, 1365341602)
 PlaceObj('FloorSlab', {
 	'Pos', point(161400, 208200, 7000),
 	'Saturation', 0,
@@ -32631,7 +32682,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1382274290)
+}, nil, 1733940378)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(161400, 208200, 10626),
 	'Angle', 10800,
@@ -32640,9 +32691,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1306996372)
+}, nil, 1489255138)
 PlaceObj('GableCapRoofCorner', {
 	'Pos', point(162000, 207600, 10809),
 	'Angle', 16200,
@@ -32651,8 +32702,8 @@ PlaceObj('GableCapRoofCorner', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
-}, nil, 1084392826)
+	'material', "Straw",
+}, nil, 1247867809)
 PlaceObj('WallSlab', {
 	'Pos', point(162600, 207600, 7000),
 	'Angle', 16200,
@@ -32711,7 +32762,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1888177131)
+}, nil, 1693867010)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(162600, 207600, 10500),
 	'Angle', 16200,
@@ -32722,7 +32773,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1388340465)
+}, nil, 1030635468)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(162600, 207600, 10626),
 	'Angle', 16200,
@@ -32730,10 +32781,10 @@ PlaceObj('RoofEdgeSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "PalmLeaves",
+	'subvariant', 1,
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1009874072)
+}, nil, 1281066685)
 PlaceObj('GableCapRoofEdgeSlab', {
 	'Pos', point(162000, 208200, 10809),
 	'Angle', 10800,
@@ -32742,8 +32793,8 @@ PlaceObj('GableCapRoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
-}, nil, 1306028851)
+	'material', "Straw",
+}, nil, 1649672704)
 PlaceObj('FloorSlab', {
 	'Pos', point(162600, 208200, 7000),
 	'Saturation', 0,
@@ -32759,7 +32810,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1531721232)
+}, nil, 1375509337)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(162600, 208200, 10626),
 	'Saturation', 0,
@@ -32767,9 +32818,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1662841760)
+}, nil, 1636418498)
 PlaceObj('WallSlab', {
 	'Pos', point(163800, 207600, 7000),
 	'Angle', 16200,
@@ -32828,7 +32879,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1208527184)
+}, nil, 1255920204)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(163800, 207600, 10117),
 	'Angle', 16200,
@@ -32837,9 +32888,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1255438879)
+}, nil, 1099738282)
 PlaceObj('FloorSlab', {
 	'Pos', point(163800, 208200, 7000),
 	'Saturation', 0,
@@ -32855,7 +32906,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1255761028)
+}, nil, 1156912245)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(163800, 208200, 10117),
 	'Saturation', 0,
@@ -32863,9 +32914,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1789125584)
+}, nil, 1145536921)
 PlaceObj('FloorSlab', {
 	'Pos', point(160200, 209400, 7000),
 	'Saturation', 0,
@@ -32888,7 +32939,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1036631719)
+}, nil, 1718505556)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(160200, 209400, 10117),
 	'Angle', 10800,
@@ -32897,9 +32948,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1499916830)
+}, nil, 1428674935)
 PlaceObj('FloorSlab', {
 	'Pos', point(160200, 210600, 7000),
 	'Saturation', 0,
@@ -32923,7 +32974,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1029415564)
+}, nil, 1104949733)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(160200, 210600, 10117),
 	'Angle', 10800,
@@ -32932,9 +32983,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1756876422)
+}, nil, 1031466452)
 PlaceObj('FloorSlab', {
 	'Pos', point(161400, 209400, 7000),
 	'Saturation', 0,
@@ -32950,7 +33001,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1191573660)
+}, nil, 1671000145)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(161400, 209400, 10626),
 	'Angle', 10800,
@@ -32959,9 +33010,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1053300427)
+}, nil, 1392662146)
 PlaceObj('FloorSlab', {
 	'Pos', point(161400, 210600, 7000),
 	'Saturation', 0,
@@ -32984,7 +33035,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1351320183)
+}, nil, 1564965042)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(161400, 210600, 10626),
 	'Angle', 10800,
@@ -32993,9 +33044,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1081783292)
+}, nil, 1380003093)
 PlaceObj('WallSlab', {
 	'Pos', point(160200, 211200, 7000),
 	'Angle', 5400,
@@ -33054,7 +33105,7 @@ PlaceObj('RoofWallSlab', {
 	'material', "none",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1431192590)
+}, nil, 1227632758)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(160200, 211200, 9800),
 	'Angle', 16200,
@@ -33065,7 +33116,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 4,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1856012287)
+}, nil, 1485192101)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(160200, 211200, 10117),
 	'Angle', 5400,
@@ -33074,9 +33125,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1589734082)
+}, nil, 1162459277)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(160200, 211200, 10117),
 	'Angle', 16200,
@@ -33085,9 +33136,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1875968686)
+}, nil, 1551291967)
 PlaceObj('FloorSlab', {
 	'Pos', point(160200, 211800, 7000),
 	'Saturation', 0,
@@ -33103,7 +33154,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1254384067)
+}, nil, 1281443339)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(160200, 211800, 10117),
 	'Angle', 10800,
@@ -33112,9 +33163,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1376568926)
+}, nil, 1614952563)
 PlaceObj('WallSlab', {
 	'Pos', point(161400, 211200, 7000),
 	'Angle', 5400,
@@ -33165,26 +33216,37 @@ PlaceObj('WallSlab', {
 }, nil, 1848355202)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(161400, 211200, 9800),
-	'Angle', 5400,
+	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 16,
-	'material', "none",
+	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1414134043)
+}, nil, 1726168960)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(161400, 211200, 9800),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'indoor_material_1', "Planks",
+}, nil, 1881047397)
+PlaceObj('RoofWallSlab', {
+	'Pos', point(161400, 211200, 10500),
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 16,
-	'subvariant', 1,
+	'subvariant', 2,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1741798628)
+}, nil, 1446149297)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(161400, 211200, 10500),
 	'Angle', 5400,
@@ -33195,18 +33257,7 @@ PlaceObj('RoofWallSlab', {
 	'material', "none",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1355668294)
-PlaceObj('RoofWallSlab', {
-	'Pos', point(161400, 211200, 10500),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'subvariant', 2,
-	'variant', "OutdoorIndoor",
-	'indoor_material_1', "Planks",
-}, nil, 1726141633)
+}, nil, 1479788781)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(161400, 211200, 10626),
 	'Angle', 5400,
@@ -33215,9 +33266,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1167087847)
+}, nil, 1280859833)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(161400, 211200, 10626),
 	'Angle', 16200,
@@ -33225,10 +33276,10 @@ PlaceObj('RoofEdgeSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 16,
-	'subvariant', 2,
-	'material', "PalmLeaves",
+	'subvariant', 1,
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1360293789)
+}, nil, 1367182644)
 PlaceObj('FloorSlab', {
 	'Pos', point(161400, 211800, 7000),
 	'Saturation', 0,
@@ -33244,7 +33295,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1215137193)
+}, nil, 1238121585)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(161400, 211800, 10626),
 	'Angle', 10800,
@@ -33253,21 +33304,21 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1361735722)
+}, nil, 1241178979)
 PlaceObj('Room', {
 	'roof_type', "Gable",
-	'roof_mat', "PalmLeaves",
+	'roof_mat', "Straw",
 	'roof_direction', "North-South",
 	'roof_inclination', 1380,
 	'roof_additional_height', 63,
 	'build_ceiling', true,
 	'ceiling_mat', "Planks",
 	'roof_colors', PlaceObj('ColorizationPropSet', {
-		'EditableColor1', RGBA(81, 47, 45, 255),
+		'EditableColor1', RGBA(189, 171, 149, 255),
 	}),
-	'roof_objs', {o(1021082351),o(1499916830),o(1756876422),o(1306996372),o(1053300427),o(1081783292),o(1589734082),o(1167087847),o(1194525756),o(1233619745),o(1833643582),o(1726055636),o(1115746022),o(1455984506),o(1151159674),o(1431192590),o(1414134043),o(1355668294),o(1083847404),o(1719505160),o(1535663021),o(1626964512),o(1667514337),o(1748320696),o(1038478271),o(1507266376),o(1588641861),o(1335119890),o(1789125584),o(1466133565),o(1570987462),o(1662841760),o(1255438879),o(1009874072),o(1790201832),o(1796716227),o(1077659074),o(1087358574),o(1358067887),o(1203430624),o(1804688095),o(1208527184),o(1888177131),o(1388340465),o(1194311915),o(1349516465),o(1421160388),o(1222123277),o(1323335254),o(1658790299),o(1191923249),o(1008036324),o(1084392826),o(1237317903),o(1306028851),o(1280124193),o(1591361039),o(1395297375),o(1036631719),o(1029415564),o(1382274290),o(1191573660),o(1351320183),o(1531721232),o(1735417315),o(1758609706),o(1255761028),o(1616333035),o(1408930981),},
+	'roof_objs', {o(1184191578),o(1428674935),o(1031466452),o(1489255138),o(1392662146),o(1380003093),o(1162459277),o(1280859833),o(1706710912),o(1515872383),o(1394335178),o(1440418701),o(1365341602),o(1533318894),o(1422870753),o(1227632758),o(1881047397),o(1479788781),o(1654679432),o(1382745250),o(1204141107),o(1762829163),o(1714280991),o(1069846735),o(1306765761),o(1658798992),o(1747119260),o(1708717301),o(1145536921),o(1228311853),o(1472656878),o(1636418498),o(1099738282),o(1281066685),o(1566432042),o(1180479499),o(1439145657),o(1828320751),o(1396270228),o(1798553104),o(1675535734),o(1255920204),o(1693867010),o(1030635468),o(1655404484),o(1593315868),o(1805540676),o(1616451754),o(1468287766),o(1442278286),o(1279398442),o(1743396211),o(1247867809),o(1365365517),o(1649672704),o(1728587545),o(1308352038),o(1738962679),o(1718505556),o(1104949733),o(1733940378),o(1671000145),o(1564965042),o(1375509337),o(1654385602),o(1388366411),o(1156912245),o(1876827325),o(1702699877),},
 	'keep_roof_passable', true,
 	'AllowedMask', 4294966497,
 	'box', box(159600, 207600, 7000, 164400, 211200, 9800),
@@ -33311,8 +33362,8 @@ PlaceObj('GableCapRoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
-}, nil, 1280124193)
+	'material', "Straw",
+}, nil, 1728587545)
 PlaceObj('FloorSlab', {
 	'Pos', point(162600, 209400, 7000),
 	'Saturation', 0,
@@ -33328,7 +33379,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1735417315)
+}, nil, 1654385602)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(162600, 209400, 10626),
 	'Saturation', 0,
@@ -33336,9 +33387,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1570987462)
+}, nil, 1472656878)
 PlaceObj('GableCapRoofEdgeSlab', {
 	'Pos', point(162000, 210600, 10809),
 	'Angle', 10800,
@@ -33347,8 +33398,8 @@ PlaceObj('GableCapRoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
-}, nil, 1591361039)
+	'material', "Straw",
+}, nil, 1308352038)
 PlaceObj('FloorSlab', {
 	'Pos', point(162600, 210600, 7000),
 	'Saturation', 0,
@@ -33364,7 +33415,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1758609706)
+}, nil, 1388366411)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(162600, 210600, 10626),
 	'Saturation', 0,
@@ -33372,9 +33423,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1466133565)
+}, nil, 1228311853)
 PlaceObj('FloorSlab', {
 	'Pos', point(163800, 209400, 7000),
 	'Saturation', 0,
@@ -33390,7 +33441,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1616333035)
+}, nil, 1876827325)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(163800, 209400, 10117),
 	'Saturation', 0,
@@ -33398,9 +33449,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1335119890)
+}, nil, 1708717301)
 PlaceObj('EditorLineGuide', {
 	'Pos', point(163200, 210000, 0),
 	'Angle', 16200,
@@ -33449,7 +33500,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1408930981)
+}, nil, 1702699877)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(163800, 210600, 10117),
 	'Saturation', 0,
@@ -33457,9 +33508,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1588641861)
+}, nil, 1747119260)
 PlaceObj('GableCapRoofCorner', {
 	'Pos', point(162000, 211200, 10809),
 	'Angle', 5400,
@@ -33468,8 +33519,8 @@ PlaceObj('GableCapRoofCorner', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
-}, nil, 1237317903)
+	'material', "Straw",
+}, nil, 1365365517)
 PlaceObj('WallSlab', {
 	'Pos', point(162600, 211200, 7000),
 	'Angle', 5400,
@@ -33520,17 +33571,6 @@ PlaceObj('WallSlab', {
 }, nil, 1845509708)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(162600, 211200, 9800),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'variant', "OutdoorIndoor",
-	'indoor_material_1', "Planks",
-}, nil, 1323335254)
-PlaceObj('RoofWallSlab', {
-	'Pos', point(162600, 211200, 9800),
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -33539,7 +33579,18 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1587266782)
+}, nil, 1162228996)
+PlaceObj('RoofWallSlab', {
+	'Pos', point(162600, 211200, 9800),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'indoor_material_1', "Planks",
+}, nil, 1468287766)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(162600, 211200, 10500),
 	'Angle', 5400,
@@ -33550,7 +33601,7 @@ PlaceObj('RoofWallSlab', {
 	'material', "none",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1658790299)
+}, nil, 1442278286)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(162600, 211200, 10500),
 	'Angle', 16200,
@@ -33561,7 +33612,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 2,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1775667033)
+}, nil, 1575250469)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(162600, 211200, 10626),
 	'Angle', 5400,
@@ -33569,10 +33620,10 @@ PlaceObj('RoofEdgeSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 16,
-	'subvariant', 2,
-	'material', "PalmLeaves",
+	'subvariant', 1,
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1358067887)
+}, nil, 1396270228)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(162600, 211200, 11135),
 	'Angle', 16200,
@@ -33581,9 +33632,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1128652276)
+}, nil, 1671571941)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(162600, 211200, 11200),
 	'Angle', 16200,
@@ -33594,7 +33645,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 3,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1770254220)
+}, nil, 1270082654)
 PlaceObj('Shanty_Table_02', {
 	'Pos', point(162600, 211800, 7000),
 	'StateText', "broken",
@@ -33618,7 +33669,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1339319812)
+}, nil, 1140651828)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(162600, 211800, 11135),
 	'Angle', 10800,
@@ -33627,9 +33678,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1120717133)
+}, nil, 1225519524)
 PlaceObj('Colonial_Table_02', {
 	'Pos', point(162562, 212707, 7000),
 	'StateText', "broken",
@@ -33645,8 +33696,8 @@ PlaceObj('GableCapRoofCorner', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
-}, nil, 1040752480)
+	'material', "Straw",
+}, nil, 1555179931)
 PlaceObj('GableCapRoofEdgeSlab', {
 	'Pos', point(163200, 211800, 11318),
 	'Angle', 10800,
@@ -33654,9 +33705,9 @@ PlaceObj('GableCapRoofEdgeSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "PalmLeaves",
-}, nil, 1857132294)
+	'subvariant', 2,
+	'material', "Straw",
+}, nil, 1555148914)
 PlaceObj('WallSlab', {
 	'Pos', point(163800, 211200, 7000),
 	'Angle', 5400,
@@ -33715,7 +33766,7 @@ PlaceObj('RoofWallSlab', {
 	'material', "none",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1222123277)
+}, nil, 1616451754)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(163800, 211200, 9800),
 	'Angle', 16200,
@@ -33726,7 +33777,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 2,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1354759332)
+}, nil, 1763174639)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(163800, 211200, 10117),
 	'Angle', 5400,
@@ -33735,9 +33786,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1087358574)
+}, nil, 1828320751)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(163800, 211200, 10500),
 	'Angle', 16200,
@@ -33748,7 +33799,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 4,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1445165735)
+}, nil, 1371581424)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(163800, 211200, 11135),
 	'Angle', 16200,
@@ -33757,9 +33808,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1399489839)
+}, nil, 1585016246)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(163800, 211200, 11200),
 	'Angle', 16200,
@@ -33770,7 +33821,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 2,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1024608012)
+}, nil, 1860573993)
 PlaceObj('FloorSlab', {
 	'Pos', point(163800, 211800, 7000),
 	'Saturation', 0,
@@ -33786,7 +33837,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1676108734)
+}, nil, 1276516980)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(163800, 211800, 11135),
 	'Saturation', 0,
@@ -33794,9 +33845,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1692606758)
+}, nil, 1003600123)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(153586, 213471),
 	'Angle', 15900,
@@ -33908,7 +33959,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 3,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1610515317)
+}, nil, 1457093830)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(159600, 213000, 9863),
 	'Angle', 10800,
@@ -33916,10 +33967,10 @@ PlaceObj('RoofEdgeSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "PalmLeaves",
+	'subvariant', 3,
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1246828434)
+}, nil, 1886895569)
 PlaceObj('WallSlab', {
 	'Pos', point(159600, 214200, 7000),
 	'Angle', 10800,
@@ -33978,7 +34029,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1506800693)
+}, nil, 1535597686)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(159600, 214200, 9863),
 	'Angle', 10800,
@@ -33987,9 +34038,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1386597438)
+}, nil, 1190297960)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(158194, 216029),
 	'Angle', 13440,
@@ -34057,7 +34108,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1822741528)
+}, nil, 1879416424)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(159600, 215400, 9863),
 	'Angle', 10800,
@@ -34065,10 +34116,10 @@ PlaceObj('RoofEdgeSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "PalmLeaves",
+	'subvariant', 3,
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1679033767)
+}, nil, 1010890587)
 PlaceObj('EditorLineGuide', {
 	'Pos', point(159700, 215400, 10500),
 	'Angle', 16200,
@@ -34138,7 +34189,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 2,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1871346862)
+}, nil, 1142932389)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(159600, 216600, 9863),
 	'Angle', 10800,
@@ -34147,9 +34198,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1627576798)
+}, nil, 1100751195)
 PlaceObj('WallSlab', {
 	'Pos', point(159600, 217800, 7000),
 	'Angle', 10800,
@@ -34208,7 +34259,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 2,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1049417333)
+}, nil, 1773132879)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(159600, 217800, 9863),
 	'Angle', 10800,
@@ -34217,9 +34268,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1196438482)
+}, nil, 1054938744)
 PlaceObj('WallSlab', {
 	'Pos', point(159600, 219000, 7000),
 	'Angle', 10800,
@@ -34278,7 +34329,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 2,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1575705818)
+}, nil, 1513641990)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(159600, 219000, 9863),
 	'Angle', 10800,
@@ -34286,10 +34337,10 @@ PlaceObj('RoofEdgeSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "PalmLeaves",
+	'subvariant', 3,
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1230484823)
+}, nil, 1704190278)
 PlaceObj('City_Plywood_09', {
 	'Pos', point(159689, 220081, 7007),
 	'ColorModifier', RGBA(35, 26, 29, 255),
@@ -34356,7 +34407,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1618304955)
+}, nil, 1457812118)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(159600, 220200, 9863),
 	'Angle', 10800,
@@ -34365,9 +34416,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1456147098)
+}, nil, 1516535625)
 PlaceObj('EditorLineGuide', {
 	'Pos', point(159500, 220900, 9100),
 	'Angle', 14399,
@@ -34438,7 +34489,7 @@ PlaceObj('RoofCornerWallSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-}, nil, 1886105503)
+}, nil, 1610439695)
 PlaceObj('RoofCorner', {
 	'Pos', point(159600, 220800, 9863),
 	'Angle', 10800,
@@ -34447,9 +34498,9 @@ PlaceObj('RoofCorner', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1678469474)
+}, nil, 1546307799)
 PlaceObj('FloorSlab', {
 	'Pos', point(160200, 213000, 7000),
 	'Saturation', 0,
@@ -34465,7 +34516,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1478088823)
+}, nil, 1648481407)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(160200, 213000, 10117),
 	'Angle', 10800,
@@ -34474,9 +34525,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1411608153)
+}, nil, 1070222587)
 PlaceObj('Shanty_Table_02', {
 	'Pos', point(160200, 214200, 7000),
 	'StateText', "broken",
@@ -34500,7 +34551,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1176775364)
+}, nil, 1356654129)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(160200, 214200, 10117),
 	'Angle', 10800,
@@ -34509,9 +34560,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1350181397)
+}, nil, 1717284464)
 PlaceObj('Shanty_Bed_Mattress', {
 	'Pos', point(161325, 213078, 6921),
 	'Angle', 19029,
@@ -34542,7 +34593,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1032481221)
+}, nil, 1710646543)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(161400, 213000, 10626),
 	'Angle', 10800,
@@ -34551,9 +34602,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1579608072)
+}, nil, 1336659513)
 PlaceObj('FloorSlab', {
 	'Pos', point(161400, 214200, 7000),
 	'Saturation', 0,
@@ -34577,7 +34628,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1545009369)
+}, nil, 1177680277)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(161400, 214200, 10626),
 	'Angle', 10800,
@@ -34586,9 +34637,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1799453637)
+}, nil, 1564112821)
 PlaceObj('Colonial_Bed_01', {
 	'Pos', point(160200, 215400, 7000),
 	'Saturation', 0,
@@ -34618,7 +34669,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1760087208)
+}, nil, 1716908256)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(160200, 215400, 10117),
 	'Angle', 10800,
@@ -34627,9 +34678,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1859639712)
+}, nil, 1249754333)
 PlaceObj('Shanty_Bed_Mattress', {
 	'Pos', point(160261, 215222, 7344),
 	'Angle', 3613,
@@ -34652,7 +34703,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1021333621)
+}, nil, 1285664182)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(160200, 216600, 10117),
 	'Angle', 10800,
@@ -34661,9 +34712,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1111180182)
+}, nil, 1772317887)
 PlaceObj('Shanty_Table_02', {
 	'Pos', point(161400, 215400, 7000),
 	'StateText', "broken",
@@ -34687,7 +34738,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1180268944)
+}, nil, 1671205062)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(161400, 215400, 10626),
 	'Angle', 10800,
@@ -34696,9 +34747,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1681100833)
+}, nil, 1406707665)
 PlaceObj('Shanty_Table_02', {
 	'Pos', point(161400, 216600, 7000),
 	'StateText', "broken",
@@ -34722,7 +34773,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1843240701)
+}, nil, 1321372011)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(161400, 216600, 10626),
 	'Angle', 10800,
@@ -34731,9 +34782,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1010523450)
+}, nil, 1601412175)
 PlaceObj('FloorSlab', {
 	'Pos', point(162600, 213000, 7000),
 	'Saturation', 0,
@@ -34749,7 +34800,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1534026397)
+}, nil, 1026260553)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(162600, 213000, 11135),
 	'Angle', 10800,
@@ -34758,9 +34809,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1081583058)
+}, nil, 1878144593)
 PlaceObj('FloorSlab', {
 	'Pos', point(162600, 214200, 7000),
 	'Saturation', 0,
@@ -34776,7 +34827,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1823003518)
+}, nil, 1860170752)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(162600, 214200, 11135),
 	'Angle', 10800,
@@ -34785,9 +34836,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1707317709)
+}, nil, 1417030478)
 PlaceObj('GableCapRoofEdgeSlab', {
 	'Pos', point(163200, 213000, 11318),
 	'Angle', 10800,
@@ -34796,8 +34847,8 @@ PlaceObj('GableCapRoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
-}, nil, 1494463700)
+	'material', "Straw",
+}, nil, 1301859820)
 PlaceObj('Colonial_Bed_01', {
 	'Pos', point(163800, 213000, 7000),
 	'StateText', "broken",
@@ -34820,7 +34871,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1470811394)
+}, nil, 1337646782)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(163800, 213000, 11135),
 	'Saturation', 0,
@@ -34828,9 +34879,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1483256578)
+}, nil, 1657293381)
 PlaceObj('Marketplace_Table_01', {
 	'Pos', point(163794, 213941, 7000),
 	'StateText', "broken",
@@ -34845,9 +34896,9 @@ PlaceObj('GableCapRoofEdgeSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "PalmLeaves",
-}, nil, 1551955747)
+	'subvariant', 2,
+	'material', "Straw",
+}, nil, 1355834952)
 PlaceObj('FloorSlab', {
 	'Pos', point(163800, 214200, 7000),
 	'Saturation', 0,
@@ -34863,7 +34914,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1136411443)
+}, nil, 1099906029)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(163800, 214200, 11135),
 	'Saturation', 0,
@@ -34871,9 +34922,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1817890807)
+}, nil, 1637532416)
 PlaceObj('FloorSlab', {
 	'Pos', point(162600, 215400, 7000),
 	'Saturation', 0,
@@ -34889,7 +34940,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1404414847)
+}, nil, 1438737361)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(162600, 215400, 11135),
 	'Angle', 10800,
@@ -34898,9 +34949,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1166976225)
+}, nil, 1515859202)
 PlaceObj('Marketplace_Table_01', {
 	'Pos', point(162802, 215331, 7000),
 	'Angle', 15745,
@@ -34925,7 +34976,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1022942665)
+}, nil, 1399751456)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(162600, 216600, 11135),
 	'Angle', 10800,
@@ -34934,9 +34985,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1822460640)
+}, nil, 1480347138)
 PlaceObj('GableCapRoofEdgeSlab', {
 	'Pos', point(163200, 215400, 11318),
 	'Angle', 10800,
@@ -34945,20 +34996,20 @@ PlaceObj('GableCapRoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
-}, nil, 1592664363)
+	'material', "Straw",
+}, nil, 1340654088)
 PlaceObj('Room', {
 	'roof_type', "Gable",
-	'roof_mat', "PalmLeaves",
+	'roof_mat', "Straw",
 	'roof_direction', "North-South",
 	'roof_inclination', 1380,
 	'roof_additional_height', 63,
 	'build_ceiling', true,
 	'ceiling_mat', "Planks",
 	'roof_colors', PlaceObj('ColorizationPropSet', {
-		'EditableColor1', RGBA(81, 47, 45, 255),
+		'EditableColor1', RGBA(189, 171, 149, 255),
 	}),
-	'roof_objs', {o(1376568926),o(1411608153),o(1350181397),o(1859639712),o(1111180182),o(1517518340),o(1674354916),o(1479327443),o(1361735722),o(1579608072),o(1799453637),o(1681100833),o(1010523450),o(1366199512),o(1299252640),o(1603793026),o(1120717133),o(1081583058),o(1707317709),o(1166976225),o(1822460640),o(1016332913),o(1735120324),o(1029484264),o(1681848088),o(1515365139),o(1505301714),o(1021587437),o(1246828434),o(1386597438),o(1679033767),o(1627576798),o(1196438482),o(1230484823),o(1456147098),o(1875968686),o(1360293789),o(1128652276),o(1678469474),o(1559564587),o(1425620217),o(1535993985),o(1008101511),o(1857079946),o(1549485526),o(1787880879),o(1221837462),o(1610515317),o(1506800693),o(1822741528),o(1871346862),o(1049417333),o(1575705818),o(1618304955),o(1856012287),o(1741798628),o(1726141633),o(1587266782),o(1775667033),o(1770254220),o(1886105503),o(1073527515),o(1139184927),o(1253670008),o(1111352874),o(1075209977),o(1486602570),o(1014254936),o(1126828846),o(1559173917),o(1756239942),o(1364421013),o(1619577897),o(1300462791),o(1755690775),o(1864118141),o(1665285384),o(1407121255),o(1826743086),o(1645597588),o(1867910119),o(1277040666),o(1566240013),o(1817890807),o(1483256578),o(1692606758),o(1736916039),o(1038327261),o(1399489839),o(1739402862),o(1154083579),o(1621629009),o(1249282635),o(1143492285),o(1437628679),o(1766925521),o(1183659281),o(1642710983),o(1578596112),o(1085313329),o(1690283093),o(1554497537),o(1475607149),o(1877702671),o(1607429094),o(1354759332),o(1445165735),o(1024608012),o(1818535845),o(1056795708),o(1651400574),o(1890462822),o(1373521876),o(1270821335),o(1163766085),o(1130633164),o(1134089836),o(1605754021),o(1430093764),o(1541555760),o(1072439610),o(1826883615),o(1531382046),o(1669776771),o(1040752480),o(1858097085),o(1857132294),o(1494463700),o(1551955747),o(1592664363),o(1357338049),o(1081616897),o(1212554509),o(1186524190),o(1254384067),o(1478088823),o(1176775364),o(1760087208),o(1021333621),o(1842968118),o(1073371220),o(1392274167),o(1215137193),o(1032481221),o(1545009369),o(1180268944),o(1843240701),o(1263377112),o(1075685608),o(1808230937),o(1339319812),o(1534026397),o(1823003518),o(1404414847),o(1022942665),o(1477601574),o(1007815786),o(1569255817),o(1676108734),o(1470811394),o(1136411443),o(1667189010),o(1862301787),o(1757808646),o(1145924829),o(1008673462),o(1641568344),o(1070521077),o(1676172548),o(1625972134),o(1476067522),o(1714022870),o(1181061355),o(1398515672),o(1037480000),o(1181550782),o(1560941416),o(1424971337),o(1050536139),o(1427106691),o(1263748046),o(1564619995),},
+	'roof_objs', {o(1614952563),o(1070222587),o(1717284464),o(1249754333),o(1772317887),o(1788818810),o(1514310542),o(1352828231),o(1241178979),o(1336659513),o(1564112821),o(1406707665),o(1601412175),o(1399995777),o(1511287497),o(1006858725),o(1225519524),o(1878144593),o(1417030478),o(1515859202),o(1480347138),o(1790139565),o(1877868343),o(1544316194),o(1856877056),o(1225494627),o(1443396287),o(1141688519),o(1886895569),o(1190297960),o(1010890587),o(1100751195),o(1054938744),o(1704190278),o(1516535625),o(1551291967),o(1367182644),o(1671571941),o(1546307799),o(1542370433),o(1609509062),o(1030937180),o(1062528827),o(1787256265),o(1593284244),o(1242344357),o(1337596572),o(1457093830),o(1535597686),o(1879416424),o(1142932389),o(1773132879),o(1513641990),o(1457812118),o(1485192101),o(1726168960),o(1446149297),o(1162228996),o(1575250469),o(1270082654),o(1610439695),o(1214827029),o(1890991435),o(1365884792),o(1721079462),o(1277898892),o(1217763003),o(1889158813),o(1488105458),o(1013915098),o(1704989643),o(1339451331),o(1601942721),o(1412421066),o(1285917327),o(1836194846),o(1053352912),o(1857696793),o(1442999989),o(1254557753),o(1803640987),o(1427526018),o(1359480855),o(1637532416),o(1657293381),o(1003600123),o(1423843000),o(1095811630),o(1585016246),o(1143264104),o(1301620251),o(1785084158),o(1506384152),o(1547873563),o(1187772811),o(1013618658),o(1713272873),o(1829404679),o(1156797678),o(1737296116),o(1040141424),o(1480032531),o(1257262086),o(1082074262),o(1696848515),o(1763174639),o(1371581424),o(1860573993),o(1380321694),o(1758320850),o(1851572227),o(1283370124),o(1794725668),o(1841130394),o(1624206175),o(1130451426),o(1890120340),o(1705057420),o(1187363055),o(1494913176),o(1148132045),o(1313814194),o(1015214548),o(1511212908),o(1555179931),o(1206249616),o(1555148914),o(1301859820),o(1355834952),o(1340654088),o(1494771112),o(1616569338),o(1281485351),o(1056395662),o(1281443339),o(1648481407),o(1356654129),o(1716908256),o(1285664182),o(1526220682),o(1466136607),o(1742908422),o(1238121585),o(1710646543),o(1177680277),o(1671205062),o(1321372011),o(1092732541),o(1822936374),o(1882227789),o(1140651828),o(1026260553),o(1860170752),o(1438737361),o(1399751456),o(1270798841),o(1691134574),o(1352958843),o(1276516980),o(1337646782),o(1099906029),o(1849856441),o(1642160375),o(1842488492),o(1121539578),o(1544551533),o(1359823825),o(1665747142),o(1695963869),o(1788863675),o(1860370397),o(1735413754),o(1609330725),o(1265259942),o(1219728263),o(1112904213),o(1050294493),o(1087508450),o(1337533225),o(1711863938),o(1780313573),o(1417027800),},
 	'keep_roof_passable', true,
 	'AllowedMask', 4294966497,
 	'box', box(159600, 211200, 7000, 166800, 220800, 9800),
@@ -35017,7 +35068,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1667189010)
+}, nil, 1849856441)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(163800, 215400, 11135),
 	'Saturation', 0,
@@ -35025,9 +35076,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1566240013)
+}, nil, 1359480855)
 PlaceObj('GableCapRoofEdgeSlab', {
 	'Pos', point(163200, 216600, 11318),
 	'Angle', 10800,
@@ -35035,9 +35086,9 @@ PlaceObj('GableCapRoofEdgeSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "PalmLeaves",
-}, nil, 1357338049)
+	'subvariant', 2,
+	'material', "Straw",
+}, nil, 1494771112)
 PlaceObj('FloorSlab', {
 	'Pos', point(163800, 216600, 7000),
 	'Saturation', 0,
@@ -35053,7 +35104,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1862301787)
+}, nil, 1642160375)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(163800, 216600, 11135),
 	'Saturation', 0,
@@ -35061,9 +35112,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1277040666)
+}, nil, 1427526018)
 PlaceObj('FloorSlab', {
 	'Pos', point(160200, 217800, 7000),
 	'Saturation', 0,
@@ -35079,7 +35130,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1842968118)
+}, nil, 1526220682)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(160200, 217800, 10117),
 	'Angle', 10800,
@@ -35088,9 +35139,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1517518340)
+}, nil, 1788818810)
 PlaceObj('FloorSlab', {
 	'Pos', point(160200, 219000, 7000),
 	'Saturation', 0,
@@ -35106,7 +35157,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1073371220)
+}, nil, 1466136607)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(160200, 219000, 10117),
 	'Angle', 10800,
@@ -35115,9 +35166,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1674354916)
+}, nil, 1514310542)
 PlaceObj('FloorSlab', {
 	'Pos', point(161400, 217800, 7000),
 	'Saturation', 0,
@@ -35133,7 +35184,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1263377112)
+}, nil, 1092732541)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(161400, 217800, 10626),
 	'Angle', 10800,
@@ -35142,9 +35193,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1366199512)
+}, nil, 1399995777)
 PlaceObj('Colonial_Bed_01', {
 	'Pos', point(161400, 219000, 7000),
 	'StateText', "broken",
@@ -35167,7 +35218,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1075685608)
+}, nil, 1822936374)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(161400, 219000, 10626),
 	'Angle', 10800,
@@ -35176,9 +35227,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1299252640)
+}, nil, 1511287497)
 PlaceObj('Colonial_Closet_01', {
 	'Pos', point(161556, 218955, 6999),
 	'Angle', 18229,
@@ -35201,7 +35252,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1392274167)
+}, nil, 1742908422)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(160200, 220200, 10117),
 	'Angle', 10800,
@@ -35210,9 +35261,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1479327443)
+}, nil, 1352828231)
 PlaceObj('WallSlab', {
 	'Pos', point(160200, 220800, 7000),
 	'Angle', 5400,
@@ -35271,7 +35322,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 2,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1425620217)
+}, nil, 1609509062)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(160200, 220800, 10117),
 	'Angle', 5400,
@@ -35280,9 +35331,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1681848088)
+}, nil, 1856877056)
 PlaceObj('FloorSlab', {
 	'Pos', point(161400, 220200, 7000),
 	'Saturation', 0,
@@ -35298,7 +35349,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1808230937)
+}, nil, 1882227789)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(161400, 220200, 10626),
 	'Angle', 10800,
@@ -35307,9 +35358,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1603793026)
+}, nil, 1006858725)
 PlaceObj('WallSlab', {
 	'Pos', point(161400, 220800, 7000),
 	'Angle', 5400,
@@ -35368,7 +35419,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 3,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1535993985)
+}, nil, 1030937180)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(161400, 220800, 10500),
 	'Angle', 5400,
@@ -35379,7 +35430,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 4,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1008101511)
+}, nil, 1062528827)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(161400, 220800, 10626),
 	'Angle', 5400,
@@ -35388,9 +35439,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1515365139)
+}, nil, 1225494627)
 PlaceObj('FloorSlab', {
 	'Pos', point(162600, 217800, 7000),
 	'Saturation', 0,
@@ -35414,7 +35465,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1477601574)
+}, nil, 1270798841)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(162600, 217800, 11135),
 	'Angle', 10800,
@@ -35423,9 +35474,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1016332913)
+}, nil, 1790139565)
 PlaceObj('FloorSlab', {
 	'Pos', point(162600, 219000, 7000),
 	'Saturation', 0,
@@ -35441,7 +35492,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1007815786)
+}, nil, 1691134574)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(162600, 219000, 11135),
 	'Angle', 10800,
@@ -35450,9 +35501,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1735120324)
+}, nil, 1877868343)
 PlaceObj('GableCapRoofEdgeSlab', {
 	'Pos', point(163200, 217800, 11318),
 	'Angle', 10800,
@@ -35461,8 +35512,8 @@ PlaceObj('GableCapRoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
-}, nil, 1081616897)
+	'material', "Straw",
+}, nil, 1616569338)
 PlaceObj('FloorSlab', {
 	'Pos', point(163800, 217800, 7000),
 	'Saturation', 0,
@@ -35478,7 +35529,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1757808646)
+}, nil, 1842488492)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(163800, 217800, 11135),
 	'Saturation', 0,
@@ -35486,9 +35537,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1867910119)
+}, nil, 1803640987)
 PlaceObj('GableCapRoofEdgeSlab', {
 	'Pos', point(163200, 219000, 11318),
 	'Angle', 10800,
@@ -35497,8 +35548,8 @@ PlaceObj('GableCapRoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
-}, nil, 1212554509)
+	'material', "Straw",
+}, nil, 1281485351)
 PlaceObj('Mist', {
 	'Pos', point(163791, 218984),
 	'AllowedMask', 4294966497,
@@ -35519,7 +35570,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1145924829)
+}, nil, 1121539578)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(163800, 219000, 11135),
 	'Saturation', 0,
@@ -35527,9 +35578,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1645597588)
+}, nil, 1254557753)
 PlaceObj('FloorSlab', {
 	'Pos', point(162600, 220200, 7000),
 	'Saturation', 0,
@@ -35545,7 +35596,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1569255817)
+}, nil, 1352958843)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(162600, 220200, 11135),
 	'Angle', 10800,
@@ -35554,9 +35605,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1029484264)
+}, nil, 1544316194)
 PlaceObj('WallSlab', {
 	'Pos', point(162600, 220800, 7000),
 	'Angle', 5400,
@@ -35615,7 +35666,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1857079946)
+}, nil, 1787256265)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(162600, 220800, 10500),
 	'Angle', 5400,
@@ -35626,7 +35677,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 2,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1549485526)
+}, nil, 1593284244)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(162600, 220800, 11135),
 	'Angle', 5400,
@@ -35635,9 +35686,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "East",
-}, nil, 1505301714)
+}, nil, 1443396287)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(162600, 220800, 11200),
 	'Angle', 5400,
@@ -35648,7 +35699,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 2,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1787880879)
+}, nil, 1242344357)
 PlaceObj('GableCapRoofEdgeSlab', {
 	'Pos', point(163200, 220200, 11318),
 	'Angle', 10800,
@@ -35656,9 +35707,9 @@ PlaceObj('GableCapRoofEdgeSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "PalmLeaves",
-}, nil, 1186524190)
+	'subvariant', 2,
+	'material', "Straw",
+}, nil, 1056395662)
 PlaceObj('EditorLineGuide', {
 	'Pos', point(163200, 220700, 10500),
 	'Angle', 14399,
@@ -35700,8 +35751,8 @@ PlaceObj('GableCapRoofCorner', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
-}, nil, 1858097085)
+	'material', "Straw",
+}, nil, 1206249616)
 PlaceObj('FloorSlab', {
 	'Pos', point(163800, 220200, 7000),
 	'Saturation', 0,
@@ -35717,7 +35768,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1008673462)
+}, nil, 1544551533)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(163800, 220200, 11135),
 	'Saturation', 0,
@@ -35725,9 +35776,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1826743086)
+}, nil, 1442999989)
 PlaceObj('WallSlab', {
 	'Pos', point(163800, 220800, 7000),
 	'Angle', 5400,
@@ -35786,7 +35837,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 2,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1541555760)
+}, nil, 1494913176)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(163800, 220800, 10500),
 	'Angle', 5400,
@@ -35797,7 +35848,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1072439610)
+}, nil, 1148132045)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(163800, 220800, 11135),
 	'Angle', 5400,
@@ -35805,10 +35856,10 @@ PlaceObj('RoofEdgeSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "PalmLeaves",
+	'subvariant', 1,
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1085313329)
+}, nil, 1737296116)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(163800, 220800, 11200),
 	'Angle', 5400,
@@ -35819,7 +35870,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1826883615)
+}, nil, 1313814194)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(160391, 221466),
 	'Angle', 21000,
@@ -36187,7 +36238,7 @@ PlaceObj('RoofCornerWallSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-}, nil, 1191923249)
+}, nil, 1279398442)
 PlaceObj('RoofCorner', {
 	'Pos', point(164400, 207600, 9863),
 	'Saturation', 0,
@@ -36195,9 +36246,9 @@ PlaceObj('RoofCorner', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1203430624)
+}, nil, 1798553104)
 PlaceObj('WallSlab', {
 	'Pos', point(164400, 208200, 7000),
 	'Saturation', 0,
@@ -36251,7 +36302,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 2,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1421160388)
+}, nil, 1805540676)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(164400, 208200, 9863),
 	'Saturation', 0,
@@ -36259,9 +36310,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1077659074)
+}, nil, 1439145657)
 PlaceObj('WallSlab', {
 	'Pos', point(164400, 209400, 7000),
 	'Saturation', 0,
@@ -36330,7 +36381,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1349516465)
+}, nil, 1593315868)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(164400, 209400, 9863),
 	'Saturation', 0,
@@ -36338,9 +36389,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1796716227)
+}, nil, 1180479499)
 PlaceObj('WallSlab', {
 	'Pos', point(164400, 210600, 7000),
 	'Saturation', 0,
@@ -36394,17 +36445,17 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 4,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1194311915)
+}, nil, 1655404484)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(164400, 210600, 9863),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "PalmLeaves",
+	'subvariant', 3,
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1790201832)
+}, nil, 1566432042)
 PlaceObj('RoomCorner', {
 	'Pos', point(164400, 211200, 7000),
 	'Angle', 5400,
@@ -36463,7 +36514,7 @@ PlaceObj('RoofCornerWallSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'material', "none",
-}, nil, 1008036324)
+}, nil, 1743396211)
 PlaceObj('RoofCorner', {
 	'Pos', point(164400, 211200, 9863),
 	'Saturation', 0,
@@ -36471,9 +36522,9 @@ PlaceObj('RoofCorner', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1804688095)
+}, nil, 1675535734)
 PlaceObj('WallSlab', {
 	'Pos', point(165000, 211200, 7000),
 	'Angle', 16200,
@@ -36532,7 +36583,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1877702671)
+}, nil, 1082074262)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(165000, 211200, 10500),
 	'Angle', 16200,
@@ -36543,7 +36594,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1607429094)
+}, nil, 1696848515)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(165000, 211200, 10626),
 	'Angle', 16200,
@@ -36551,10 +36602,10 @@ PlaceObj('RoofEdgeSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "PalmLeaves",
+	'subvariant', 1,
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1038327261)
+}, nil, 1095811630)
 PlaceObj('FloorSlab', {
 	'Pos', point(165000, 211800, 7000),
 	'Saturation', 0,
@@ -36570,7 +36621,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1641568344)
+}, nil, 1359823825)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(165000, 211800, 10626),
 	'Saturation', 0,
@@ -36578,9 +36629,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1407121255)
+}, nil, 1857696793)
 PlaceObj('EditorLineGuide', {
 	'Pos', point(166900, 209900, 9100),
 	'Angle', 7201,
@@ -36650,7 +36701,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 4,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1475607149)
+}, nil, 1257262086)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(166200, 211200, 10117),
 	'Angle', 16200,
@@ -36658,10 +36709,10 @@ PlaceObj('RoofEdgeSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "PalmLeaves",
+	'subvariant', 1,
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1736916039)
+}, nil, 1423843000)
 PlaceObj('FloorSlab', {
 	'Pos', point(166200, 211800, 7000),
 	'Saturation', 0,
@@ -36677,7 +36728,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1037480000)
+}, nil, 1219728263)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(166200, 211800, 10117),
 	'Saturation', 0,
@@ -36685,9 +36736,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1559173917)
+}, nil, 1013915098)
 PlaceObj('RoomCorner', {
 	'Pos', point(166800, 211200, 7000),
 	'Angle', 16200,
@@ -36747,7 +36798,7 @@ PlaceObj('RoofCornerWallSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-}, nil, 1531382046)
+}, nil, 1015214548)
 PlaceObj('RoofCorner', {
 	'Pos', point(166800, 211200, 9863),
 	'Saturation', 0,
@@ -36755,9 +36806,9 @@ PlaceObj('RoofCorner', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1690283093)
+}, nil, 1040141424)
 PlaceObj('WallSlab', {
 	'Pos', point(166800, 211800, 7000),
 	'Saturation', 0,
@@ -36811,7 +36862,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1130633164)
+}, nil, 1130451426)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(166800, 211800, 9863),
 	'Saturation', 0,
@@ -36819,9 +36870,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1183659281)
+}, nil, 1713272873)
 PlaceObj('Shanty_WallDecor_03', {
 	'Pos', point(166534, 212982, 7332),
 	'Saturation', 0,
@@ -37385,7 +37436,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1070521077)
+}, nil, 1665747142)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(165000, 213000, 10626),
 	'Saturation', 0,
@@ -37393,9 +37444,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1665285384)
+}, nil, 1053352912)
 PlaceObj('FloorSlab', {
 	'Pos', point(165000, 214200, 7000),
 	'Saturation', 0,
@@ -37411,7 +37462,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1676172548)
+}, nil, 1695963869)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(165000, 214200, 10626),
 	'Saturation', 0,
@@ -37419,9 +37470,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1864118141)
+}, nil, 1836194846)
 PlaceObj('FloorSlab', {
 	'Pos', point(165000, 215400, 7000),
 	'Saturation', 0,
@@ -37437,7 +37488,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1625972134)
+}, nil, 1788863675)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(165000, 215400, 10626),
 	'Saturation', 0,
@@ -37445,9 +37496,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1755690775)
+}, nil, 1285917327)
 PlaceObj('FloorSlab', {
 	'Pos', point(165000, 216600, 7000),
 	'Saturation', 0,
@@ -37463,7 +37514,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1476067522)
+}, nil, 1860370397)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(165000, 216600, 10626),
 	'Saturation', 0,
@@ -37471,9 +37522,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1300462791)
+}, nil, 1412421066)
 PlaceObj('FloorSlab', {
 	'Pos', point(166200, 213000, 7000),
 	'Saturation', 0,
@@ -37489,7 +37540,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1181550782)
+}, nil, 1112904213)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(166200, 213000, 10117),
 	'Saturation', 0,
@@ -37497,9 +37548,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1126828846)
+}, nil, 1488105458)
 PlaceObj('WallSlab', {
 	'Pos', point(166800, 213000, 7000),
 	'Saturation', 0,
@@ -37563,7 +37614,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 4,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1163766085)
+}, nil, 1624206175)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(166800, 213000, 9863),
 	'Saturation', 0,
@@ -37571,9 +37622,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1766925521)
+}, nil, 1013618658)
 PlaceObj('FloorSlab', {
 	'Pos', point(166200, 214200, 7000),
 	'Saturation', 0,
@@ -37589,7 +37640,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1560941416)
+}, nil, 1050294493)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(166200, 214200, 10117),
 	'Saturation', 0,
@@ -37597,9 +37648,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1014254936)
+}, nil, 1889158813)
 PlaceObj('WallSlab', {
 	'Pos', point(166800, 214200, 7000),
 	'Saturation', 0,
@@ -37653,17 +37704,17 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 4,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1270821335)
+}, nil, 1841130394)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(166800, 214200, 9863),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "PalmLeaves",
+	'subvariant', 2,
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1437628679)
+}, nil, 1187772811)
 PlaceObj('FloorSlab', {
 	'Pos', point(166200, 215400, 7000),
 	'Saturation', 0,
@@ -37679,7 +37730,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1424971337)
+}, nil, 1087508450)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(166200, 215400, 10117),
 	'Saturation', 0,
@@ -37687,9 +37738,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1486602570)
+}, nil, 1217763003)
 PlaceObj('EditorLineGuide', {
 	'Pos', point(166700, 215400, 10500),
 	'Angle', 16200,
@@ -37754,17 +37805,17 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1373521876)
+}, nil, 1794725668)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(166800, 215400, 9863),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "PalmLeaves",
+	'subvariant', 3,
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1143492285)
+}, nil, 1547873563)
 PlaceObj('FloorSlab', {
 	'Pos', point(166200, 216600, 7000),
 	'Saturation', 0,
@@ -37780,7 +37831,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1050536139)
+}, nil, 1337533225)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(166200, 216600, 10117),
 	'Saturation', 0,
@@ -37788,9 +37839,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1075209977)
+}, nil, 1277898892)
 PlaceObj('WallSlab', {
 	'Pos', point(166800, 216600, 7000),
 	'Saturation', 0,
@@ -37844,17 +37895,17 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1890462822)
+}, nil, 1283370124)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(166800, 216600, 9863),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "PalmLeaves",
+	'subvariant', 3,
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1249282635)
+}, nil, 1506384152)
 PlaceObj('Colonial_Bed_01', {
 	'Pos', point(165000, 217800, 7000),
 	'Angle', 16200,
@@ -37878,7 +37929,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1714022870)
+}, nil, 1735413754)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(165000, 217800, 10626),
 	'Saturation', 0,
@@ -37886,9 +37937,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1619577897)
+}, nil, 1601942721)
 PlaceObj('FloorSlab', {
 	'Pos', point(165000, 219000, 7000),
 	'Saturation', 0,
@@ -37904,7 +37955,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1181061355)
+}, nil, 1609330725)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(165000, 219000, 10626),
 	'Saturation', 0,
@@ -37912,9 +37963,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1364421013)
+}, nil, 1339451331)
 PlaceObj('FloorSlab', {
 	'Pos', point(165000, 220200, 7000),
 	'Saturation', 0,
@@ -37938,7 +37989,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1398515672)
+}, nil, 1265259942)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(165000, 220200, 10626),
 	'Saturation', 0,
@@ -37946,9 +37997,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1756239942)
+}, nil, 1704989643)
 PlaceObj('WallSlab', {
 	'Pos', point(165000, 220800, 7000),
 	'Angle', 5400,
@@ -38007,7 +38058,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 3,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1605754021)
+}, nil, 1705057420)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(165000, 220800, 10500),
 	'Angle', 5400,
@@ -38018,7 +38069,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1430093764)
+}, nil, 1187363055)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(165000, 220800, 10626),
 	'Angle', 5400,
@@ -38026,10 +38077,10 @@ PlaceObj('RoofEdgeSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "PalmLeaves",
+	'subvariant', 1,
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1578596112)
+}, nil, 1156797678)
 PlaceObj('FloorSlab', {
 	'Pos', point(166200, 217800, 7000),
 	'Saturation', 0,
@@ -38045,7 +38096,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1427106691)
+}, nil, 1711863938)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(166200, 217800, 10117),
 	'Saturation', 0,
@@ -38053,9 +38104,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1111352874)
+}, nil, 1721079462)
 PlaceObj('WallSlab', {
 	'Pos', point(166800, 217800, 7000),
 	'Saturation', 0,
@@ -38109,17 +38160,17 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 2,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1651400574)
+}, nil, 1851572227)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(166800, 217800, 9863),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "PalmLeaves",
+	'subvariant', 3,
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1621629009)
+}, nil, 1785084158)
 PlaceObj('FloorSlab', {
 	'Pos', point(166200, 219000, 7000),
 	'Saturation', 0,
@@ -38135,7 +38186,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1263748046)
+}, nil, 1780313573)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(166200, 219000, 10117),
 	'Saturation', 0,
@@ -38143,9 +38194,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1253670008)
+}, nil, 1365884792)
 PlaceObj('Shanty_WallDecor_03', {
 	'Pos', point(166521, 218980, 7332),
 	'Saturation', 0,
@@ -38215,7 +38266,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 1,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1056795708)
+}, nil, 1758320850)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(166800, 219000, 9863),
 	'Saturation', 0,
@@ -38223,9 +38274,9 @@ PlaceObj('RoofEdgeSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1154083579)
+}, nil, 1301620251)
 PlaceObj('FloorSlab', {
 	'Pos', point(166200, 220200, 7000),
 	'Saturation', 0,
@@ -38241,7 +38292,7 @@ PlaceObj('CeilingSlab', {
 	'Warped', true,
 	'AllowedMask', 4294966497,
 	'subvariant', 1,
-}, nil, 1564619995)
+}, nil, 1417027800)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(166200, 220200, 10117),
 	'Saturation', 0,
@@ -38249,9 +38300,9 @@ PlaceObj('RoofPlaneSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1139184927)
+}, nil, 1890991435)
 PlaceObj('WallSlab', {
 	'Pos', point(166200, 220800, 7000),
 	'Angle', 5400,
@@ -38310,7 +38361,7 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 2,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1134089836)
+}, nil, 1890120340)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(166200, 220800, 10117),
 	'Angle', 5400,
@@ -38318,10 +38369,10 @@ PlaceObj('RoofEdgeSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "PalmLeaves",
+	'subvariant', 1,
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1642710983)
+}, nil, 1829404679)
 PlaceObj('WallSlab', {
 	'Pos', point(166800, 220200, 7000),
 	'Saturation', 0,
@@ -38375,17 +38426,17 @@ PlaceObj('RoofWallSlab', {
 	'subvariant', 2,
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Planks",
-}, nil, 1818535845)
+}, nil, 1380321694)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(166800, 220200, 9863),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "PalmLeaves",
+	'subvariant', 3,
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1739402862)
+}, nil, 1143264104)
 PlaceObj('RoomCorner', {
 	'Pos', point(166800, 220800, 7000),
 	'Saturation', 0,
@@ -38439,7 +38490,7 @@ PlaceObj('RoofCornerWallSlab', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-}, nil, 1669776771)
+}, nil, 1511212908)
 PlaceObj('RoofCorner', {
 	'Pos', point(166800, 220800, 9863),
 	'Saturation', 0,
@@ -38447,9 +38498,9 @@ PlaceObj('RoofCorner', {
 	'Warped', true,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
-	'material', "PalmLeaves",
+	'material', "Straw",
 	'dir', "West",
-}, nil, 1554497537)
+}, nil, 1480032531)
 PlaceObj('EditorLineGuide', {
 	'Pos', point(166900, 220900, 9100),
 	'Angle', 16200,
@@ -50561,7 +50612,7 @@ p("DecShantyRubbish_03",176182,118694,21327,166,4280557082,2097164)
 p("JungleCamp_TrenchFloor_02",180174,115019,12442,21271,4290225048,-1453,-3829,65,2097177)
 p("DecSteps_02",178953,117751,18458,165,2097408)
 p("JungleCamp_TrenchFloor_02",179759,117784,12494,1231,4290225048,2097161)
-p("THOMPSON_SMG",176992,119244,13262,5400,4096,0,0,7,2348,2097553)
+p("THOMPSON_SMG",176992,119244,13262,5400,4096,0,0,2348,2097425)
 p("MilitaryCamp_GrenadePile_01",176931,119609,13226,1)
 p("WeaponProp_AK47_01",177292,118898,13257,4704,4096,0,0,2348,2097425)
 p("DecSteps_02",177160,122696,14056,99,165,2097412)
@@ -50611,7 +50662,7 @@ p("TropicalPlant_04_Shrub_02",195124,104900,0)
 p("Bar_Cup_01",188462,107776,13240,9721,2097153)
 p("Bar_Cup_01",188550,108023,13240,1654,2097153)
 p("Bar_Cup_01",188729,107765,13240,21319,2097153)
-p("THOMPSON_SMG",189974,108425,12940,7795,1912,-2561,2561,2097169)
+p("THOMPSON_SMG",189974,108425,12940,7795,1912,-2561,2561,7,2097297)
 p("TropicalRockSharp_01",188557,112197,5844,10911,170,216,-2394,-3314,244,3145749)
 p("DecShantyRubbish_02",189860,111113,20258,133,2097156)
 p("TropicalPlant_04_Shrub_01",188755,113542,11773,10800,152,2097157)

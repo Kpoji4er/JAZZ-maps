@@ -32,22 +32,4 @@
 		path = "InventoryItemSpawn ",
 		type = "InventoryItemSpawn",
 	},
-	{
-		Groups = false,
-		handle = 1504916549,
-		items = {},
-		map = "RLPpu4N",
-		name = "UnitMarker#549",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
-	{
-		Groups = false,
-		handle = 1532612264,
-		items = {},
-		map = "RLPpu4N",
-		name = "UnitMarker#264",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
 }

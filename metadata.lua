@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4320,
+	'version', 4338,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
@@ -17,7 +17,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1748890234,
+	'saved', 1750015395,
 	'code_hash', 7737044059959539532,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
@@ -1022,6 +1022,16 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_L10",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_L9",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_L7",
 			'ClassDisplayName', "Satellite sector",
 		}),
@@ -1301,6 +1311,11 @@ return PlaceObj('ModDef', {
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_P1",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
 			'Class', "XTemplate",
 			'Id', "SatelliteConflictSquadsAndEnemies",
 			'ClassDisplayName', "UI Template (XTemplate)",
@@ -1418,6 +1433,16 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "LootDef",
 			'Id', "JazzMapContainer_M2_LootGraves",
+			'ClassDisplayName', "LootDef",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "JazzContainer_3006",
+			'ClassDisplayName', "LootDef",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "JazzContainer_Minomet_Famas_DMR",
 			'ClassDisplayName', "LootDef",
 		}),
 		PlaceObj('ModResourcePreset', {
