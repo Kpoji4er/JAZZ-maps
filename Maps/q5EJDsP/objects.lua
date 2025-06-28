@@ -1717,6 +1717,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'UnitDef', "RebelRPG",
 	'Appearance', "Demolitions_Rebels_03",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelRPG_Immortal",
@@ -1731,6 +1732,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'UnitDef', "RebelHeavy_Mortar",
 	'Appearance', "Demolitions_Rebels_02",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelHeavy_Mortar_Immortal",
@@ -1744,6 +1746,7 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Appearance', "Marksman_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSniper",
@@ -1757,6 +1760,7 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Appearance', "Commander_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSentry",
@@ -1771,6 +1775,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'UnitDef', "RebelGunner",
 	'Appearance', "Heavy_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelGunner",
@@ -1785,6 +1790,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSoldier",
@@ -1799,6 +1805,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSoldier",
@@ -1814,6 +1821,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels_02",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSoldier",
@@ -1849,6 +1857,7 @@ PlaceObj('UnitMarker', {
 	'Routine', "Ambient",
 	'RoutineArea', "Partizan_Ambiant_Ernie_LegionCamp",
 	'Appearance', "Commander_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSergant_Immortal",
@@ -1863,6 +1872,7 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Appearance', "Recon_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelFlanker",
@@ -5066,7 +5076,7 @@ PlaceObj('TropicalPlant_LianaArc_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3698,
-	'AllowedMask', 64,
+	'AllowedMask', 0,
 }, nil, 1594595755)
 PlaceObj('TropicalPlant_LianaArc_01', {
 	'Pos', point(129205, 137130, 16843),
@@ -5077,7 +5087,7 @@ PlaceObj('TropicalPlant_LianaArc_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3698,
-	'AllowedMask', 64,
+	'AllowedMask', 0,
 }, nil, 1286886584)
 PlaceObj('TropicalPlant_LianaArc_02', {
 	'Pos', point(129393, 137139, 16447),
@@ -5088,7 +5098,7 @@ PlaceObj('TropicalPlant_LianaArc_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3698,
-	'AllowedMask', 64,
+	'AllowedMask', 0,
 }, nil, 1742022905)
 PlaceObj('TropicalPlant_Ivy_Plane_02', {
 	'Pos', point(129783, 138355, 13532),
@@ -5097,7 +5107,7 @@ PlaceObj('TropicalPlant_Ivy_Plane_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3698,
-	'AllowedMask', 64,
+	'AllowedMask', 0,
 }, nil, 1544544787)
 PlaceObj('TropicalPlant_Liana_02', {
 	'Pos', point(130342, 139983, 12406),
@@ -17196,7 +17206,7 @@ PlaceObj('TropicalPlant_LianaArc_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3698,
-	'AllowedMask', 64,
+	'AllowedMask', 0,
 }, nil, 1076187632)
 PlaceObj('TropicalPlant_LianaArc_01', {
 	'Pos', point(133404, 133102, 15363),
@@ -17207,7 +17217,7 @@ PlaceObj('TropicalPlant_LianaArc_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3698,
-	'AllowedMask', 64,
+	'AllowedMask', 0,
 }, nil, 1022881144)
 PlaceObj('TropicalPlant_LianaArc_02', {
 	'Pos', point(134185, 134088, 16615),
@@ -17218,7 +17228,7 @@ PlaceObj('TropicalPlant_LianaArc_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3698,
-	'AllowedMask', 64,
+	'AllowedMask', 0,
 }, nil, 1007338007)
 PlaceObj('TropicalPlant_LianaArc_01', {
 	'Pos', point(131588, 136954, 17636),
@@ -17229,7 +17239,7 @@ PlaceObj('TropicalPlant_LianaArc_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3698,
-	'AllowedMask', 64,
+	'AllowedMask', 0,
 }, nil, 1583368725)
 PlaceObj('TropicalPlant_Ivy_Plane_02', {
 	'Pos', point(132521, 136514, 17357),
@@ -17238,7 +17248,7 @@ PlaceObj('TropicalPlant_Ivy_Plane_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3698,
-	'AllowedMask', 64,
+	'AllowedMask', 0,
 }, nil, 1698218028)
 PlaceObj('TropicalPlant_LianaArc_01', {
 	'Pos', point(131755, 137973, 17636),
@@ -17249,7 +17259,7 @@ PlaceObj('TropicalPlant_LianaArc_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3698,
-	'AllowedMask', 64,
+	'AllowedMask', 0,
 }, nil, 1872719023)
 PlaceObj('TropicalPlant_LianaArc_01', {
 	'Pos', point(142939, 131083, 8308),
@@ -19658,7 +19668,11 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 1,
+	'destroyed_neighbours', 8,
+	'destroyed_entity', "WallExt_Tin_Wall_ExIn_Broken_R_03",
+	'destroyed_entity_side', 8,
+	'pre_destruction_subvariant', 1,
+	'subvariant', 3,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
@@ -19671,7 +19685,11 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'subvariant', 2,
+	'destroyed_neighbours', 8,
+	'destroyed_entity', "WallExt_Tin_Wall_ExIn_Broken_R_03",
+	'destroyed_entity_side', 8,
+	'pre_destruction_subvariant', 2,
+	'subvariant', 3,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
@@ -19684,6 +19702,7 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'destroyed_neighbours', 8,
 	'subvariant', 1,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
@@ -19752,8 +19771,9 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
+	'AllowedMask', 0,
+	'is_destroyed', true,
+	'destroyed_neighbours', 1,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
@@ -19765,8 +19785,10 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
+	'AllowedMask', 0,
+	'is_destroyed', true,
+	'destroyed_neighbours', 3,
+	'pre_destruction_subvariant', 1,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
@@ -19778,8 +19800,9 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
+	'AllowedMask', 0,
+	'is_destroyed', true,
+	'destroyed_neighbours', 2,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
@@ -19792,6 +19815,10 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'destroyed_neighbours', 2,
+	'destroyed_entity', "WallExt_Tin_Wall_ExIn_Broken_B_01",
+	'destroyed_entity_side', 2,
+	'pre_destruction_subvariant', 1,
 	'subvariant', 1,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
@@ -23129,7 +23156,11 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 16,
-	'subvariant', 1,
+	'destroyed_neighbours', 12,
+	'destroyed_entity', "WallExt_Tin_Wall_ExIn_Broken_R_04",
+	'destroyed_entity_side', 4,
+	'pre_destruction_subvariant', 1,
+	'subvariant', 4,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
@@ -23142,6 +23173,10 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 16,
+	'destroyed_neighbours', 12,
+	'destroyed_entity', "WallExt_Tin_Wall_ExIn_Broken_R_01",
+	'destroyed_entity_side', 4,
+	'pre_destruction_subvariant', 1,
 	'subvariant', 1,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
@@ -23155,6 +23190,7 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 16,
+	'destroyed_neighbours', 12,
 	'subvariant', 1,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
@@ -23241,7 +23277,9 @@ PlaceObj('Door_Planks_Single_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 0,
+	'is_destroyed', true,
+	'pre_destruction_subvariant', 1,
 	'randomDifficulty', false,
 	'HitPoints', 25,
 }, nil, 1880078835)
@@ -23278,6 +23316,7 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'destroyed_neighbours', 2,
 	'subvariant', 1,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
@@ -23386,6 +23425,7 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'destroyed_neighbours', 4,
 	'subvariant', 1,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
@@ -23399,6 +23439,7 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'destroyed_neighbours', 4,
 	'subvariant', 1,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
@@ -23412,6 +23453,7 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'destroyed_neighbours', 4,
 	'subvariant', 1,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
@@ -24522,6 +24564,7 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 16,
+	'destroyed_neighbours', 1,
 	'subvariant', 1,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
@@ -24533,12 +24576,23 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 16,
-	'destroyed_neighbours', 4,
-	'subvariant', 1,
+	'AllowedMask', 0,
+	'is_destroyed', true,
+	'destroyed_neighbours', 5,
+	'pre_destruction_subvariant', 1,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
+	'interior_attach_colors', PlaceObj('ColorizationPropSet', {
+		'EditableColor1', RGBA(64, 84, 64, 255),
+		'EditableRoughness1', -42,
+		'EditableMetallic1', 5,
+		'EditableColor2', RGBA(63, 45, 23, 255),
+		'EditableRoughness2', 4,
+		'EditableMetallic2', 29,
+		'EditableColor3', RGBA(64, 24, 24, 255),
+		'EditableRoughness3', -11,
+	}),
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1329536752)
 PlaceObj('WallSlab', {
@@ -24546,8 +24600,10 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 16,
-	'subvariant', 2,
+	'AllowedMask', 0,
+	'is_destroyed', true,
+	'destroyed_neighbours', 7,
+	'pre_destruction_subvariant', 2,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
@@ -24558,8 +24614,9 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
+	'AllowedMask', 0,
+	'is_destroyed', true,
+	'destroyed_neighbours', 6,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
@@ -24571,6 +24628,7 @@ PlaceObj('RoofWallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'destroyed_neighbours', 2,
 	'subvariant', 1,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
@@ -24709,6 +24767,7 @@ PlaceObj('WallSlab', {
 	'Warped', true,
 	'AllowedMask', 0,
 	'is_destroyed', true,
+	'destroyed_neighbours', 9,
 	'pre_destruction_subvariant', 1,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
@@ -24720,12 +24779,10 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
-	'destroyed_neighbours', 2,
-	'destroyed_entity', "WallExt_Tin_Wall_ExIn_Broken_B_02",
-	'destroyed_entity_side', 2,
-	'pre_destruction_subvariant', 1,
-	'subvariant', 2,
+	'AllowedMask', 0,
+	'is_destroyed', true,
+	'destroyed_neighbours', 11,
+	'pre_destruction_subvariant', 2,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
@@ -24736,11 +24793,23 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
+	'AllowedMask', 0,
+	'is_destroyed', true,
+	'destroyed_neighbours', 10,
+	'pre_destruction_subvariant', 1,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
+	'interior_attach_colors', PlaceObj('ColorizationPropSet', {
+		'EditableColor1', RGBA(64, 84, 64, 255),
+		'EditableRoughness1', -42,
+		'EditableMetallic1', 5,
+		'EditableColor2', RGBA(63, 45, 23, 255),
+		'EditableRoughness2', 4,
+		'EditableMetallic2', 29,
+		'EditableColor3', RGBA(64, 24, 24, 255),
+		'EditableRoughness3', -11,
+	}),
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1542551820)
 PlaceObj('RoofWallSlab', {
@@ -24749,6 +24818,10 @@ PlaceObj('RoofWallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'destroyed_neighbours', 2,
+	'destroyed_entity', "WallExt_Tin_Wall_ExIn_Broken_B_01",
+	'destroyed_entity_side', 2,
+	'pre_destruction_subvariant', 1,
 	'subvariant', 1,
 	'material', "Tin",
 	'variant', "OutdoorIndoor",
@@ -29437,7 +29510,7 @@ PlaceObj('Shanty_Canvas_02', {
 	'SkewY', -309,
 	'Warped', true,
 	'CollectionIndex', 1658,
-	'AllowedMask', 64,
+	'AllowedMask', 0,
 }, nil, 1040850388)
 PlaceObj('Shanty_WallDecorTin_01', {
 	'ColorizationPalette', "",
@@ -46384,7 +46457,7 @@ p("TropicalPlant_Grass_01",119274,116230,40,4)
 p("JungleCamp_TrenchFloor_02",121776,115434,16072,16156,75,4288770388,2148932642,"",1075841037)
 p("Shanty_Carpet_01",121614,116202,0)
 p("JungleCamp_TrenchFloor_02",121823,117881,16072,16156,75,4288770388,2148932642,"",1075841037)
-p("Garand",122732,120532,16378,16136,-4021,551,551,1,2097297)
+p("Garand",122732,120532,16378,16136,-4021,551,551,6,2097297)
 p("Shanty_Carpet_02",117429,124574,16462,1)
 p("TropicalPlant_Grass_04",114872,128115,10,4)
 p("TropicalPlant_Grass_04",115173,128870,82,4)
@@ -46396,16 +46469,16 @@ p("TropicalPlant_Grass_04",116948,131051,122,4)
 p("TropicalPlant_Grass_04",117692,130295,136,4)
 p("TropicalPlant_Grass_04",118066,130744,62,4)
 p("TropicalPlant_Grass_04",118717,130735,173,4)
-p("cartridge_box",119366,124378,16287,4279307531,9)
-p("cartridge_box",119366,124378,16478,4279307531,1,137)
-p("cartridge_box",119366,124378,16663,4279307531,1,137)
-p("cartridge_box",119366,124378,16856,4279307531,1,137)
-p("cartridge_box",119366,124378,17049,4279307531,1,137)
+p("cartridge_box",119366,124378,16287,4279307531,1,137)
+p("cartridge_box",119366,124378,16478,4279307531,9)
+p("cartridge_box",119366,124378,16663,4279307531,9)
+p("cartridge_box",119366,124378,16856,4279307531,9)
+p("cartridge_box",119366,124378,17049,4279307531,9)
 p("TropicalPlant_Grass_03",118957,130353,161,4)
 p("TropicalPlant_Grass_01",120695,130997,55,4)
 p("JungleCamp_TrenchFloor_02",126960,115278,16072,16156,75,4288770388,2148932642,"",1075841037)
-p("Garand",122913,120650,16378,16043,-3912,857,857,2097169)
-p("Garand",123219,120806,16378,15681,-3520,1480,1480,1,2097297)
+p("Garand",122913,120650,16378,16043,-3912,857,857,7,2097297)
+p("Garand",123219,120806,16378,15681,-3520,1480,1480,6,2097297)
 p("TropicalPlant_Grass_04",126150,119319,10,4)
 p("TropicalPlant_Grass_04",127397,115900,71,4)
 p("JungleCamp_TrenchFloor_02",127020,117151,16072,16156,75,4288770388,2148932642,"",1075841037)
@@ -52394,9 +52467,9 @@ p("Scaffolding_Bridge_Wood_02",108600,231000,10800,2150182196,2150054469,2150182
 p("Scaffolding_Bridge_Wood_01",109800,231000,10800,2150182196,2150054469,2150182196,"",1075845632)
 p("Bar_Cup_01",109552,234327,13156,1)
 p("Bar_Cup_01",109515,234496,13156,15649,2097153)
-p("M70_Grenade",109589,234060,13164,7,129)
-p("M70_Grenade",109589,234076,13199,7,129)
-p("M70_Grenade",109589,234098,13169,7,129)
+p("M70_Grenade",109589,234060,13164,1)
+p("M70_Grenade",109589,234076,13199,1)
+p("M70_Grenade",109589,234098,13169,1)
 p("MilitaryCamp_GrenadePile_02",110079,234473,13163,1)
 p("JungleCamp_CigareteBox_01",111768,233012,12739,18181,2097153)
 p("TropicalPlant_Grass_01",114380,230818,12546,10717,2097153)
@@ -52410,8 +52483,8 @@ p("TropicalPlant_Dead_02",107965,237909,12661,9401,133,4280560149,393,4,4077,320
 p("TropicalPlant_Dead_02",107903,238899,12844,19370,109,4280560149,112,-1392,3850,3200,3550,2097501)
 p("TropicalPlant_Dead_02",108832,238335,12727,15418,133,4280560149,222,-273,4080,3200,3550,2097501)
 p("TropicalPlant_Dead_02",108831,238868,12825,18204,133,4280560149,158,-632,4043,3200,3550,2097501)
-p("AK74_Backelite_45",112243,244158,13399,16200,4096,0,0,7,2097297)
-p("AK74_Backelite_45",112554,244184,13399,14894,2776,-2130,2130,7,2097297)
+p("AK74_Backelite_45",112243,244158,13399,16200,4096,0,0,2097169)
+p("AK74_Backelite_45",112554,244184,13399,14894,2776,-2130,2130,2097169)
 p("TropicalPlant_Dead_09",112241,244347,12542,5745,118,-84,-11,4095,3200,2097237)
 p("JungleCamp_TrenchFloor_02",100342,248159,12546,8284,75,4288770388,2148932642,"",1075841037)
 p("Scaffolding_Bridge_Wood_02",101400,246600,12600,10800,2150182196,2150054469,2150182196,"",1075845633)
@@ -59840,8 +59913,8 @@ p("TropicalPlant_Grass_04",208838,138253,250,4)
 p("TropicalPlant_Vines_10",210693,131642,15775,21072,0,4096,0,3437,2097425)
 p("TropicalPlant_Vines_10",211497,132152,15934,21072,0,4096,0,3437,2097425)
 p("TropicalPlant_Vines_10",212333,131811,16074,21072,0,4096,0,343,2097425)
-p("THOMPSON_SMG",212049,132324,13733,15694,-1463,3534,1463,7,1379,2097553)
-p("THOMPSON_SMG",212220,132324,13733,15694,-1463,3534,1463,7,1379,2097553)
+p("THOMPSON_SMG",212049,132324,13733,15694,-1463,3534,1463,1379,2097425)
+p("THOMPSON_SMG",212220,132324,13733,15694,-1463,3534,1463,1379,2097425)
 p("MilitaryCamp_GrenadePile_01",212700,132317,13439,74,1379,261)
 p("TropicalPlant_Vines_09",211323,133444,15901,20967,0,4096,0,3437,2097425)
 p("DecBunkerFloor_02",209400,136200,12600,17917,2352,2097409)
@@ -59942,8 +60015,8 @@ p("TropicalPlant_Vines_09",213620,133232,16254,21024,0,4096,0,1356,2097425)
 p("TropicalPlant_Vines_09",213214,134738,16206,21024,0,4096,0,3437,2097425)
 p("DecBunkerFloor_02",214200,133800,12600,12786,2352,2097409)
 p("TropicalPlant_Vines_09",214785,133265,16453,21024,0,4096,0,3437,2097425)
-p("Garand",215004,133920,12633,5478,4004,610,610,7,2097297)
-p("Garand",214958,134228,12633,5400,4096,0,0,7,2097297)
+p("Garand",215004,133920,12633,5478,4004,610,610,2097169)
+p("Garand",214958,134228,12633,5400,4096,0,0,2097169)
 p("DecBunkerFloor_02",215905,131400,12600,7835,2571,1884,2571,3695,2097425)
 p("DecBunkerFloor_02",215905,131400,14700,16189,225,-4083,225,3695,2097425)
 p("DecBunkerFloor_02",216095,131400,12600,13886,2538,-1972,2538,3855,2097425)

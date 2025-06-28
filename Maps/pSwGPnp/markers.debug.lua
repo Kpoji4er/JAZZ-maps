@@ -37,6 +37,15 @@
 		type = "CustomInteractable",
 	},
 	{
+		Groups = false,
+		handle = 1130357722,
+		items = {},
+		map = "pSwGPnp",
+		name = "UnitMarker#722",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
 		BanterTriggerEffects = {
 			PlaceObj('PlayBanterEffect', {
 				Banters = {
@@ -104,6 +113,24 @@
 		items = {},
 		map = "pSwGPnp",
 		name = "UnitMarker#099",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = false,
+		handle = 1414885351,
+		items = {},
+		map = "pSwGPnp",
+		name = "UnitMarker#351",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = false,
+		handle = 1471548677,
+		items = {},
+		map = "pSwGPnp",
+		name = "UnitMarker#677",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
