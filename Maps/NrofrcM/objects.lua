@@ -4972,45 +4972,87 @@ PlaceObj('Collection', {
 }, nil, 1899254366)
 SetNextSyncHandle(2000000001)
 PlaceObj('UnitMarker', {
-	'Pos', point(105000, 125400, 7700),
+	'Pos', point(105000, 125400, 7000),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Legion_Stormer",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionManiac",
+		}),
+	},
 }, nil, 1395369354)
 PlaceObj('UnitMarker', {
 	'Pos', point(111000, 125400, 8400),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Heavy",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGunner_Stronger",
+		}),
+	},
 }, nil, 1800920050)
 PlaceObj('UnitMarker', {
 	'Pos', point(129000, 114600, 8400),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Soldier_1",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGoon_Stronger",
+		}),
+	},
 }, nil, 1739369622)
 PlaceObj('UnitMarker', {
 	'Pos', point(118200, 130200, 8400),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Officer",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugBoss",
+		}),
+	},
 }, nil, 1718532328)
 PlaceObj('UnitMarker', {
 	'Pos', point(129000, 119400, 8400),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Soldier",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGoon_Stronger",
+		}),
+	},
 }, nil, 1207355512)
 PlaceObj('UnitMarker', {
 	'Pos', point(129000, 124200, 8400),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Soldier_1",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGoon_Stronger",
+		}),
+	},
 }, nil, 1445491195)
 PlaceObj('UnitMarker', {
 	'Pos', point(130200, 130200, 8400),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Soldier",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGoon_Stronger",
+		}),
+	},
 }, nil, 1866331349)
 PlaceObj('ExitZoneInteractable', {
 	'Pos', point(81001, 156118, 6950),
@@ -5020,230 +5062,811 @@ PlaceObj('ExitZoneInteractable', {
 	'AllowedMask', 4294966497,
 }, nil, 1496472809)
 PlaceObj('UnitMarker', {
+	'Pos', point(95400, 136200, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "LegionRaider_Stronger_alt_3",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionRaider_Stronger",
+		}),
+	},
+}, nil, 1454578213)
+PlaceObj('UnitMarker', {
+	'Pos', point(97800, 139800, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "LegionRaider_Stronger_alt_3",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionRaider_Stronger",
+		}),
+	},
+}, nil, 1232212095)
+PlaceObj('UnitMarker', {
 	'Pos', point(97800, 163800, 7000),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Legion_Marksman02",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionSniper",
+		}),
+	},
 }, nil, 1489788190)
+PlaceObj('GridMarker', {
+	'Pos', point(82200, 169800, 6300),
+	'Groups', {
+		"West",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Entrance",
+	'AreaWidth', 6,
+	'AreaHeight', 35,
+}, nil, 1256204835)
 PlaceObj('UnitMarker', {
 	'Pos', point(105000, 132600, 7000),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "LegionManiac_alt_2",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionManiac",
+		}),
+	},
 }, nil, 1027748526)
+PlaceObj('UnitMarker', {
+	'Pos', point(100200, 142200, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "LegionRaider_Stronger_alt_3",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionRaider_Stronger",
+		}),
+	},
+}, nil, 1743844361)
+PlaceObj('UnitMarker', {
+	'Pos', point(112200, 143400, 7700),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "LegionGoon_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionGoon",
+		}),
+	},
+}, nil, 1540190738)
+PlaceObj('UnitMarker', {
+	'Pos', point(111000, 147000, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "LegionGoon_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionGoon",
+		}),
+	},
+}, nil, 1345940182)
 PlaceObj('UnitMarker', {
 	'Pos', point(106200, 148200, 7000),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Routine', "Ambient",
+	'Appearance', "LegionGoon_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionGoon",
+		}),
+	},
 }, nil, 1120249429)
 PlaceObj('UnitMarker', {
 	'Pos', point(106200, 149400, 7000),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Routine', "Ambient",
+	'Appearance', "LegionManiac_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionManiac",
+		}),
+	},
 }, nil, 1254466737)
 PlaceObj('UnitMarker', {
 	'Pos', point(103800, 154200),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Routine', "Ambient",
+	'Appearance', "LegionRaider_Stronger_alt_3",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionRaider_Stronger",
+		}),
+	},
 }, nil, 1332750613)
 PlaceObj('UnitMarker', {
 	'Pos', point(103800, 155400),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Routine', "Ambient",
+	'Appearance', "Legion_Soldier",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionRaider",
+		}),
+	},
 }, nil, 1517865766)
+PlaceObj('UnitMarker', {
+	'Pos', point(102600, 163800, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Legion_Stormer",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionManiac",
+		}),
+	},
+}, nil, 1243176025)
 PlaceObj('UnitMarker', {
 	'Pos', point(106200, 163800, 7000),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "LegionScout_Stronger_alt_2",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionScout_Stronger",
+		}),
+	},
 }, nil, 1205474145)
 PlaceObj('UnitMarker', {
 	'Pos', point(107400, 150600, 7000),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Routine', "Ambient",
+	'Appearance', "Legion_Stormer",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionManiac",
+		}),
+	},
 }, nil, 1471645493)
 PlaceObj('UnitMarker', {
 	'Pos', point(108600, 153000, 7000),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Routine', "Ambient",
+	'Appearance', "LegionGoon_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionGoon",
+		}),
+	},
 }, nil, 1249150449)
+PlaceObj('UnitMarker', {
+	'Pos', point(114600, 155400, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Legion_Stormer",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionManiac",
+		}),
+	},
+}, nil, 1425792024)
+PlaceObj('UnitMarker', {
+	'Pos', point(112200, 157800, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Legion_Stormer",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionManiac",
+		}),
+	},
+}, nil, 1562257575)
+PlaceObj('UnitMarker', {
+	'Pos', point(114600, 162600, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Legion_Stormer",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionManiac",
+		}),
+	},
+}, nil, 1432055680)
 PlaceObj('UnitMarker', {
 	'Pos', point(118200, 133800, 8400),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Marksman",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugSniper",
+		}),
+	},
 }, nil, 1515715036)
+PlaceObj('UnitMarker', {
+	'Pos', point(118200, 137400, 11200),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
+	'Appearance', "Thug_Marksman",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugSniper",
+		}),
+	},
+}, nil, 1839057468)
 PlaceObj('UnitMarker', {
 	'Pos', point(120600, 156600),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Heavy_1",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGunner_Stronger",
+		}),
+	},
 }, nil, 1347524539)
 PlaceObj('UnitMarker', {
 	'Pos', point(120600, 159000),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Heavy_1",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGunner_Stronger",
+		}),
+	},
 }, nil, 1390425778)
 PlaceObj('UnitMarker', {
 	'Pos', point(130200, 148200, 7000),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Soldier",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGoon_Stronger_Elite",
+		}),
+	},
 }, nil, 1183092933)
+PlaceObj('UnitMarker', {
+	'Pos', point(124200, 163800, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Legion_Stormer",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionManiac",
+		}),
+	},
+}, nil, 1726896474)
 PlaceObj('UnitMarker', {
 	'Pos', point(127800, 157800),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Officer",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugBoss",
+		}),
+	},
 }, nil, 1722782352)
 PlaceObj('UnitMarker', {
 	'Pos', point(101400, 167400, 7000),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "LegionGunner_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionGunner",
+		}),
+	},
 }, nil, 1696393376)
 PlaceObj('UnitMarker', {
 	'Pos', point(101400, 168600, 7000),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Legion_Heavy03",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionGunner",
+		}),
+	},
 }, nil, 1263977740)
 PlaceObj('UnitMarker', {
 	'Pos', point(105000, 165000, 7000),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Legion_Recon02",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionScout_Stronger",
+		}),
+	},
 }, nil, 1820771494)
+PlaceObj('UnitMarker', {
+	'Pos', point(101400, 172200, 7000),
+	'AllowedMask', 4294966497,
+	'Appearance', "LegionGunner_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionGunner",
+		}),
+	},
+}, nil, 1388035772)
+PlaceObj('UnitMarker', {
+	'Pos', point(101400, 173400, 7000),
+	'AllowedMask', 4294966497,
+	'Appearance', "Legion_Heavy03",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionGunner",
+		}),
+	},
+}, nil, 1182803665)
+PlaceObj('UnitMarker', {
+	'Pos', point(106200, 172200, 7000),
+	'AllowedMask', 4294966497,
+	'Appearance', "Legion_Recon02",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionScout_Stronger",
+		}),
+	},
+}, nil, 1871568362)
 PlaceObj('UnitMarker', {
 	'Pos', point(106200, 179400, 9800),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Recon",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugCutter",
+		}),
+	},
 }, nil, 1257002935)
+PlaceObj('UnitMarker', {
+	'Pos', point(109800, 166200, 7000),
+	'AllowedMask', 4294966497,
+	'Appearance', "Legion_Recon02",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionScout_Stronger",
+		}),
+	},
+}, nil, 1425840750)
+PlaceObj('UnitMarker', {
+	'Pos', point(108600, 169800, 7000),
+	'AllowedMask', 4294966497,
+	'Appearance', "LegionScout_Stronger_alt_2",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionScout_Stronger",
+		}),
+	},
+}, nil, 1562690472)
 PlaceObj('UnitMarker', {
 	'Pos', point(112200, 166200, 7000),
 	'Angle', 16200,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Recon",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugCutter",
+		}),
+	},
 }, nil, 1887519799)
 PlaceObj('UnitMarker', {
 	'Pos', point(108600, 179400, 9800),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Recon",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugCutter",
+		}),
+	},
 }, nil, 1152332254)
+PlaceObj('UnitMarker', {
+	'Pos', point(100200, 181800, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Legion_Soldier",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionRaider",
+		}),
+	},
+}, nil, 1535512144)
+PlaceObj('UnitMarker', {
+	'Pos', point(100200, 189000, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "LegionRaider_Stronger_alt_3",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionRaider_Stronger",
+		}),
+	},
+}, nil, 1869659736)
+PlaceObj('UnitMarker', {
+	'Pos', point(100200, 190200, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Legion_Soldier",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionRaider",
+		}),
+	},
+}, nil, 1638109761)
 PlaceObj('UnitMarker', {
 	'Pos', point(108600, 181800, 7000),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Stormer_1",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugEnforcer",
+		}),
+	},
 }, nil, 1306740155)
 PlaceObj('UnitMarker', {
 	'Pos', point(109800, 183000, 7000),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Stormer_1",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugEnforcer",
+		}),
+	},
 }, nil, 1174791744)
+PlaceObj('UnitMarker', {
+	'Pos', point(108600, 189000, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Legion_Soldier",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionRaider",
+		}),
+	},
+}, nil, 1594842183)
 PlaceObj('UnitMarker', {
 	'Pos', point(115800, 171000, 7000),
 	'Angle', 16200,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Marksman",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugSniper",
+		}),
+	},
 }, nil, 1808863669)
 PlaceObj('UnitMarker', {
 	'Pos', point(130200, 168600),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Soldier_1",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGoon_Stronger",
+		}),
+	},
 }, nil, 1042976148)
 PlaceObj('UnitMarker', {
 	'Pos', point(124200, 173400, 7000),
 	'Angle', 16200,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Soldier",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGoon_Stronger",
+		}),
+	},
 }, nil, 1601828097)
 PlaceObj('UnitMarker', {
 	'Pos', point(123000, 174600),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Soldier_1",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGoon_Stronger",
+		}),
+	},
 }, nil, 1736509812)
 PlaceObj('UnitMarker', {
 	'Pos', point(124200, 175800),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Heavy_1",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGunner",
+		}),
+	},
 }, nil, 1805284636)
 PlaceObj('UnitMarker', {
 	'Pos', point(126600, 175800),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Soldier",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGoon_Stronger",
+		}),
+	},
 }, nil, 1572491603)
+PlaceObj('UnitMarker', {
+	'Pos', point(115800, 186600, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Legion_Soldier",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionRaider",
+		}),
+	},
+}, nil, 1288594978)
 PlaceObj('UnitMarker', {
 	'Pos', point(119400, 180600),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Officer",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugBoss_Stronger",
+		}),
+	},
 }, nil, 1133664155)
+PlaceObj('UnitMarker', {
+	'Pos', point(119400, 195000, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "LegionGoon_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionGoon",
+		}),
+	},
+}, nil, 1226937517)
+PlaceObj('UnitMarker', {
+	'Pos', point(129000, 196200, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Legion_Soldier",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionRaider",
+		}),
+	},
+}, nil, 1036509637)
+PlaceObj('UnitMarker', {
+	'Pos', point(121800, 198600, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Legion_Soldier",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionRaider",
+		}),
+	},
+}, nil, 1012665140)
 PlaceObj('UnitMarker', {
 	'Pos', point(132600, 121800, 8400),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Recon_1",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugCutter",
+		}),
+	},
 }, nil, 1462422488)
 PlaceObj('UnitMarker', {
 	'Pos', point(138600, 121800, 8400),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Recon",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugCutter",
+		}),
+	},
 }, nil, 1339786529)
 PlaceObj('UnitMarker', {
 	'Pos', point(141000, 121800, 8400),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Stormer",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugEnforcer_Stronger",
+		}),
+	},
 }, nil, 1746694448)
 PlaceObj('UnitMarker', {
 	'Pos', point(139800, 129000, 8400),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Soldier",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGoon_Stronger",
+		}),
+	},
 }, nil, 1069874867)
 PlaceObj('UnitMarker', {
 	'Pos', point(174600, 114600, 9800),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Routine', "Ambient",
+	'Appearance', "Thug_Marksman_1",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugSniper_Stronger",
+		}),
+	},
 }, nil, 1032893302)
 PlaceObj('UnitMarker', {
 	'Pos', point(168600, 120600, 9800),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Routine', "Ambient",
+	'Appearance', "Thug_Marksman",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugSniper_Stronger",
+		}),
+	},
 }, nil, 1318533539)
 PlaceObj('UnitMarker', {
 	'Pos', point(180600, 118200, 9800),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Routine', "Ambient",
+	'Appearance', "Thug_Marksman",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugSniper_Stronger",
+		}),
+	},
 }, nil, 1688535292)
+PlaceObj('UnitMarker', {
+	'Pos', point(131400, 133800, 11200),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
+	'Appearance', "Thug_Heavy_1",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGunner_Stronger",
+		}),
+	},
+}, nil, 1123145255)
+PlaceObj('UnitMarker', {
+	'Pos', point(132600, 141000),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
+	'Appearance', "Thug_Heavy_1",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGunner_Stronger",
+		}),
+	},
+}, nil, 1056096036)
 PlaceObj('UnitMarker', {
 	'Pos', point(131400, 145800, 11200),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Soldier",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGoon_Stronger_Elite",
+		}),
+	},
 }, nil, 1551134090)
 PlaceObj('UnitMarker', {
 	'Pos', point(136200, 145800, 11200),
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Soldier_1",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGoon_Stronger_Elite",
+		}),
+	},
 }, nil, 1213968775)
 PlaceObj('UnitMarker', {
 	'Pos', point(136200, 148200, 7000),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Soldier",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGoon_Stronger_Elite",
+		}),
+	},
 }, nil, 1597207706)
 PlaceObj('UnitMarker', {
 	'Pos', point(139800, 149400, 7000),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Routine', "Ambient",
+	'Appearance', "Thug_Marksman",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugSniper",
+		}),
+	},
 }, nil, 1072989893)
+PlaceObj('GridMarker', {
+	'Pos', point(144600, 151800, 6300),
+	'AllowedMask', 4294966497,
+	'Type', "AmbientZone",
+	'AreaWidth', 80,
+	'AreaHeight', 80,
+}, nil, 1697900416)
 PlaceObj('UnitMarker', {
 	'Pos', point(145800, 163800, 6300),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Routine', "Ambient",
+	'Appearance', "Thug_Stormer",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugEnforcer",
+		}),
+	},
 }, nil, 1668705966)
 PlaceObj('ContainerMarker', {
 	'Pos', point(154200, 135000, 8400),
@@ -5281,61 +5904,122 @@ PlaceObj('UnitMarker', {
 	'Pos', point(131400, 168600),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Soldier",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGoon_Stronger",
+		}),
+	},
 }, nil, 1589471785)
 PlaceObj('UnitMarker', {
 	'Pos', point(145800, 166200, 6300),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Routine', "Ambient",
+	'Appearance', "Thug_Stormer",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugEnforcer",
+		}),
+	},
 }, nil, 1191768026)
 PlaceObj('UnitMarker', {
 	'Pos', point(148200, 187800),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Soldier_1",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGoon_Stronger_Elite",
+		}),
+	},
 }, nil, 1287047327)
 PlaceObj('UnitMarker', {
 	'Pos', point(150600, 187800),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Officer",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugBoss_Stronger",
+		}),
+	},
 }, nil, 1170831341)
 PlaceObj('UnitMarker', {
 	'Pos', point(159000, 180600, 7000),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Officer",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugBoss_Stronger",
+		}),
+	},
 }, nil, 1854197218)
 PlaceObj('UnitMarker', {
 	'Pos', point(168600, 165000),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Heavy",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGunner_Stronger",
+		}),
+	},
 }, nil, 1764103838)
 PlaceObj('UnitMarker', {
 	'Pos', point(168600, 166200),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Marksman",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugSniper",
+		}),
+	},
 }, nil, 1696842250)
 PlaceObj('UnitMarker', {
 	'Pos', point(167400, 175800, 7000),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Demolishion",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGrenadier",
+		}),
+	},
 }, nil, 1377796133)
 PlaceObj('UnitMarker', {
 	'Pos', point(175800, 165000),
 	'Angle', 16200,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Heavy",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGunner_Stronger",
+		}),
+	},
 }, nil, 1407211187)
 PlaceObj('UnitMarker', {
 	'Pos', point(177000, 165000),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "Thug_Marksman",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugSniper",
+		}),
+	},
 }, nil, 1585927473)
 PlaceObj('SalvageMarker', {
 	'Pos', point(183000, 169800, 7000),
@@ -5345,6 +6029,54 @@ PlaceObj('SalvageMarker', {
 	'range_in_tiles', 1,
 	'Difficulty', "Hard",
 }, nil, 1185237577)
+PlaceObj('UnitMarker', {
+	'Pos', point(131400, 198600, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "LegionGoon_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionGoon",
+		}),
+	},
+}, nil, 1268570840)
+PlaceObj('UnitMarker', {
+	'Pos', point(133800, 199800, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "LegionGoon_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionGoon",
+		}),
+	},
+}, nil, 1585290363)
+PlaceObj('UnitMarker', {
+	'Pos', point(135000, 201000, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "LegionGoon_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionGoon",
+		}),
+	},
+}, nil, 1595171396)
+PlaceObj('UnitMarker', {
+	'Pos', point(137400, 203400, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "LegionGoon_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionGoon",
+		}),
+	},
+}, nil, 1862257636)
 PlaceObj('ExitZoneInteractable', {
 	'Pos', point(152511, 226082, 6950),
 	'Groups', {
@@ -5352,6 +6084,16 @@ PlaceObj('ExitZoneInteractable', {
 	},
 	'AllowedMask', 4294966497,
 }, nil, 1175658043)
+PlaceObj('GridMarker', {
+	'Pos', point(153000, 226200, 7000),
+	'Groups', {
+		"South",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Entrance",
+	'AreaWidth', 20,
+	'AreaHeight', 6,
+}, nil, 1188835290)
 PlaceObj('ExitZoneInteractable', {
 	'Pos', point(219072, 165250, 6950),
 	'Groups', {
@@ -5359,6 +6101,16 @@ PlaceObj('ExitZoneInteractable', {
 	},
 	'AllowedMask', 4294966497,
 }, nil, 1845227466)
+PlaceObj('GridMarker', {
+	'Pos', point(219000, 169800, 6300),
+	'Groups', {
+		"East",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Entrance",
+	'AreaWidth', 6,
+	'AreaHeight', 35,
+}, nil, 1231974328)
 -- end of objects of class GridMarker
 PlaceObj('TropicalPlant_03_Tree_02', {
 	'Pos', point(29722, 117488, 6858),
@@ -120250,7 +121002,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'AllowedMask', 4294967279,
 }, nil, 1215039175)
 PlaceObj('JungleCamp_NewspaperPile_02', {
-	'Pos', point(158058, 161133),
+	'Pos', point(158058, 161133, 6248),
 	'Angle', 10685,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -125515,6 +126267,21 @@ PlaceObj('Colonial_Statue_David', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1081423130)
+PlaceObj('JungleCamp_NewspaperPile_02', {
+	'Pos', point(168370, 145984, 6946),
+	'Angle', 10685,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1338252754)
+PlaceObj('Scaffolding_Planks_02', {
+	'Pos', point(169311, 145458, 6935),
+	'Angle', 17150,
+	'Scale', 130,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1304400988)
 PlaceObj('Column_Colonial_Bottom_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(95, 90, 65, 255),
@@ -126374,6 +127141,14 @@ PlaceObj('Column_Colonial_Body_01', {
 	'CollectionIndex', 2336,
 	'AllowedMask', 4294967279,
 }, nil, 1412340342)
+PlaceObj('Scaffolding_Planks_02', {
+	'Pos', point(166558, 148824, 6916),
+	'Angle', 1497,
+	'Scale', 163,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1738906082)
 PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Pos', point(171666, 147637),
 	'Angle', 16200,
@@ -147050,14 +147825,14 @@ p("Bar_Barrel_01",119190,137045,8400,1)
 p("Bar_Barrel_01",119549,136953,8400,1)
 p("Bar_Barrel_04",119164,137538,8400,1)
 p("Bar_Barrel_01",119722,137335,8400,13986,2097153)
-p("M16bayonet_weapon",119406,138553,11698,12619,-1293,2678,2817,7,2097297)
+p("M16bayonet_weapon",119406,138553,11698,12619,-1293,2678,2817,2097169)
 p("DecBunkerFloor_02",119400,138600,11200,14776,3709,2097409)
 p("WeaponProp_Bullets_01",119640,138615,11200,7909,2097153)
 p("DecBunkerFloor_02",121100,136200,8400,13174,-2702,1473,2702,2761,2097425)
 p("DecBunkerFloor_02",121100,136200,10500,13259,-2686,1531,2686,2761,2097425)
 p("DecBunkerFloor_02",121100,136200,13300,15904,-1152,3757,1152,2761,2097425)
 p("DecShantyRubbish_03",121403,136300,11200,1)
-p("Grease",120977,137880,12710,7739,1953,2546,2546,7,2097297)
+p("Grease",120977,137880,12710,7739,1953,2546,2546,2097169)
 p("Art_Painting_04",121300,138031,12929,2391,257)
 p("Art_Painting_03",121270,138404,12467,1)
 p("DecBunkerFloor_02",121300,138600,9100,16187,250,-4080,250,2761,2097425)
@@ -147074,7 +147849,7 @@ p("Faction_Bag_05",119893,140258,11294,15333,2150054469,2152221268,"",1075841537
 p("JungleCamp_GraveyardRifle_01",119965,140111,11593,8797,-256,151,4085,2097169)
 p("Faction_Bag_04",119998,140192,11294,2997,2150054469,2152221268,"",1075841537)
 p("EquipmentMale_WW2Helmet",120050,140175,11846,13262,-1365,-853,3766,2097169)
-p("G18",120201,140101,11644,15816,3663,-1295,1295,7,2097297)
+p("G18",120201,140101,11644,15816,3663,-1295,1295,2097169)
 p("DecBunkerFloor_02",120600,140500,8400,6762,-2728,2161,2161,2761,2097425)
 p("DecBunkerFloor_02",120600,140500,11200,15470,3307,1708,1708,2761,2097425)
 p("TropicalPlant_Flowers_02",120711,141328,13095,2097152)
@@ -147201,13 +147976,13 @@ p("TropicalPlant_Grass_03",128009,152077,6950,5281,137,2097157)
 p("TropicalPlant_Grass_03",123055,160552,6949,3555,202,2097157)
 p("TropicalPlant_Grass_03",123369,162251,6949,3555,202,2097157)
 p("TropicalPlant_Grass_03",126895,163138,6949,11655,202,2097157)
-p("TT33f",99780,164697,7661,6268,3173,1831,1831,7,2097297)
+p("TT33f",99780,164697,7661,6268,3173,1831,1831,2097169)
 p("TropicalRockAssembly_02",100625,164762,6752,19152,138,-231,167,4086,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockAssembly_02",100853,167651,6752,10782,138,27,96,4094,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
-p("cartridge_box",98845,169598,7283,16754,4279372545,2097161)
-p("cartridge_box",98840,169606,7086,16868,4279372545,1,2097289)
-p("cartridge_box",99425,169667,7086,5773,4279372545,2097161)
-p("cartridge_box",99427,169667,7275,373,4279372545,2097161)
+p("cartridge_box",98845,169598,7283,16754,4279372545,1,2097289)
+p("cartridge_box",98840,169606,7086,16868,4279372545,2097161)
+p("cartridge_box",99425,169667,7086,5773,4279372545,1,2097289)
+p("cartridge_box",99427,169667,7275,373,4279372545,1,2097289)
 p("TropicalRockAssembly_02",98307,170543,6833,7634,97,74,82,4094,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockAssembly_02",100821,168149,6752,19152,138,-231,167,4086,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockAssembly_02",100622,170543,6833,14380,97,-28,111,4094,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -147219,7 +147994,7 @@ p("DecBunkerFloor_02",103800,172900,7000,10693,63,-2896,2896,3651,2097425)
 p("DecBunkerFloor_02",103800,173400,9800,20412,3213,2097409)
 p("DecWallBrickConcrete_01",103100,174600,8400,5651,4280096533,-1066,-3808,1066,2151,2097433)
 p("DecBunkerFloor_02",103300,175800,7000,13252,-2688,1526,2688,3651,2097425)
-p("SVT_Byonet_Weapon",104397,174263,10460,12351,0,4096,0,2097169)
+p("SVT_Byonet_Weapon",104397,174263,10460,12351,0,4096,0,7,2097297)
 p("DecBunkerFloor_02",105000,172700,8400,5443,4044,-458,458,3937,2097425)
 p("DecWallBrickConcrete_01",106200,172700,8400,14468,4280096533,-2418,-2337,2337,2151,2097433)
 p("DecBunkerFloor_02",106200,172900,8400,6589,2877,-2062,2062,3651,2097425)
@@ -147395,7 +148170,7 @@ p("DecBunkerFloor_02",103800,188300,9100,15889,3741,1178,1178,119,2097425)
 p("DecBunkerFloor_02",103800,188300,11900,8056,-1726,2626,2626,143,2097425)
 p("DecBunkerFloor_04",105000,186600,7000,4561,2421,2097409)
 p("DecBunkerFloor_02",105000,188300,9800,5786,-3660,1299,1299,143,2097425)
-p("stoeger_outback",106269,187303,7716,8314,1548,2681,2681,2097169)
+p("stoeger_outback",106269,187303,7716,8314,1548,2681,2681,7,2097297)
 p("DecBunkerFloor_02",106200,187800,7000,16307,949,2097409)
 p("DecBunkerFloor_02",106200,187800,9800,4880,636,2097409)
 p("DecBunkerFloor_02",106200,188300,11900,15463,3301,1714,1714,143,2097425)
@@ -147425,11 +148200,11 @@ p("DecBunkerFloor_02",107400,181800,7000,17095,949,2097409)
 p("DecBunkerFloor_02",107400,181800,9800,3260,636,2097409)
 p("DecBunkerFloor_04",108600,183000,9800,10500,1580,2097409)
 p("DecShantyRubbish_02",107766,185056,9810,1)
-p("Garand",108376,185553,10262,15711,-3396,1688,1547,2097169)
-p("TT33f",106542,187236,7696,5797,3647,1318,1317,1,2097297)
+p("Garand",108376,185553,10262,15711,-3396,1688,1547,7,2097297)
+p("TT33f",106542,187236,7696,5797,3647,1318,1317,6,2097297)
 p("DecShantyRubbish_02",106840,187097,7000,17285,2097153)
 p("Prison_Decoration_05",107401,186485,8324,10800,4282726951,2097161)
-p("TT33f",106681,187505,7696,9534,762,2846,2846,2097169)
+p("TT33f",106681,187505,7696,9534,762,2846,2846,7,2097297)
 p("DecBunkerFloor_04",107400,187800,7000,19419,3113,2097409)
 p("DecBunkerFloor_02",107400,188300,8400,15136,2991,1978,1978,119,2097425)
 p("WallExt_Colonial_Stairs_01",109207,185401,7003,10800,1,2153028863,2153028863,2153028863,"",1075845697)
@@ -148212,7 +148987,7 @@ p("NPCHerman_Hat_01",140905,137353,11899,1030,610,3856,1239,2150182196,215005446
 p("NPCHyenaGilbert_Hat_01",141267,137371,11899,15834,2097153)
 p("DecBunkerFloor_02",141000,138100,11200,15733,3575,1413,1413,2761,2097425)
 p("DecWallLeak_02",141595,138100,8790,14399,43,-2365,-2365,2365,3099,2097429)
-p("cartridge_box",142076,137503,12014,13319,4280160512,-14,-85,4095,1,2097305)
+p("cartridge_box",142076,137503,12014,13319,4280160512,-14,-85,4095,2097177)
 p("DecBunkerFloor_02",142200,138100,9100,11269,279,2889,2889,2761,2097425)
 p("Prison_LaundryPile_06",141801,139101,11200,2150182196,2148407600,2150976820,"",1073748481)
 p("DecBunkerFloor_02",142200,138600,11200,16739,3709,2097409)
@@ -148247,8 +149022,8 @@ p("Bunker_ConcretePile_01",140374,144507,7082,10171,143,-189,799,4012,"terrainch
 p("Bunker_ConcretePile_01",140374,144507,7082,12528,143,-495,605,4020,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("DecBunkerFloor_02",145100,139800,9800,10202,-2885,-357,2885,2761,2097425)
 p("DecWallLeak_02",143411,142900,11744,14399,21,-2365,-2365,2365,1797,2097429)
-p("12Gauge_Ammo",144196,142370,11836,1)
-p("stoeger_outback",144548,141887,11845,9833,652,2851,2867,2097169)
+p("12Gauge_Ammo",144196,142370,11836,7,129)
+p("stoeger_outback",144548,141887,11845,9833,652,2851,2867,7,2097297)
 p("DecBunkerFloor_02",144600,142200,11200,3621,3709,2097409)
 p("DecBunkerFloor_02",144600,142900,12600,16199,4095,8,8,2761,2097425)
 p("Prison_LaundryPile_06",146493,140011,11200,5723,2150182196,2148407600,2150976820,"",1075845633)
@@ -148445,7 +149220,7 @@ p("Shanty_BrickSingle_03",138856,167160,7009,13601,2150182196,2150054469,"",1075
 p("Shanty_BrickSingle_02",138996,167629,7009,3350,2150182196,2150054469,"",1075841537)
 p("Farmland_Saw",137421,175516,7721,16099,-687,-3979,687,2097169)
 p("DecWallDirt_05",140407,164098,0)
-p("Spectr_M4",141251,164137,7126,6145,-3292,-1723,1723,7,2097297)
+p("Spectr_M4",141251,164137,7126,6145,-3292,-1723,1723,2097169)
 p("DecWallDirt_06",139303,166820,6455,10799,162,2896,0,2896,2097173)
 p("DecShantyRubbish_02",139810,169189,0)
 p("TropicalRockAssembly_01",140197,169073,5814,7060,221,"terrainchunk",10,0,0,70,91,10,40,60,2228229)
@@ -148690,10 +149465,10 @@ p("DecFloatersTrash3D_03",170198,168169,0)
 p("MilitaryCamp_Canopy_03Top",170482,169425,8772,5436,-422,422,4052,3658,2148017724,2148276751,2150054469,"",1075845905)
 p("Flashlight",170505,171114,7717,9423,139,-16,4093,2097169)
 p("DecShantyRubbish_03",167594,174567,0)
-p("Stanag",168216,174414,7799,7377,-2227,-2431,2431,7,2097297)
-p("Stanag",168335,174534,7799,6018,-3419,-1594,1595,6,2097297)
-p("TT33f",168263,174678,7806,5905,3534,1463,1463,7,2097297)
-p("Stanag",168216,174861,7799,15583,-3419,1595,1594,6,2097297)
+p("Stanag",168216,174414,7799,7377,-2227,-2431,2431,2097169)
+p("Stanag",168335,174534,7799,6018,-3419,-1594,1595,1,2097297)
+p("TT33f",168263,174678,7806,5905,3534,1463,1463,2097169)
+p("Stanag",168216,174861,7799,15583,-3419,1595,1594,1,2097297)
 p("DecShantyRubbish_02",168622,174300,12598,2097152)
 p("MilitaryCamp_Canopy_03Top",171803,174073,8772,16162,-425,-425,4051,3658,2148017724,2148276751,2150054469,"",1075845905)
 p("DecShantyRubbish_01",170256,178617,6901,6793,149,469,2097413)

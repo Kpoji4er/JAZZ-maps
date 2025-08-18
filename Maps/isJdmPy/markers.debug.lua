@@ -445,17 +445,6 @@
 	},
 	{
 		Groups = {
-			"AL_Defender_Closer_1",
-		},
-		handle = 1657973813,
-		items = {},
-		map = "isJdmPy",
-		name = "UnitMarker#813 (AL_Defender_Closer_1)",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
-	{
-		Groups = {
 			"Legion_Talking_5",
 		},
 		handle = 1691666326,
