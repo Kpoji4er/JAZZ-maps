@@ -7,18 +7,16 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4374,
+	'version', 4379,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
-		"Code/Disable Attack CAP.lua",
-		"Code/Rendomization Attack Time.lua",
 		"MapPatches/SetPieces/NewSetpiece_CPeNF5Y/FlagHillLanding.lua",
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1750794633,
-	'code_hash', 7737044059959539532,
+	'saved', 1753770060,
+	'code_hash', 1345675170524483864,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
