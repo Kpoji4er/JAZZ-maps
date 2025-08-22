@@ -6731,7 +6731,7 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
-				'comment', "Перевалочная база, немного домиков",
+				'comment', "Запасной лагерь Контрабандистов",
 				'mapName', "bVp47D",
 				'campaignId', "HotDiamonds",
 				'sectorId', "K6",
@@ -6740,7 +6740,7 @@ return {
 					'Map', "bVp47D",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(484479696515, "Перевалочная база"),
+					'display_name', T(484479696515, "Запасной лагерь Контрабандистов"),
 					'TerrainType', "Jungle",
 					'City', "ErnieVillage",
 					'ShowCity', true,
@@ -7615,7 +7615,7 @@ return {
 					'Id', "M6",
 					'Map', "qzVESk5",
 					'modId', "FhNNYd",
-					'display_name', T(649552238374, "Скалистый берег"),
+					'display_name', T(649552238374, "Старый порт"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "Erny",
 					'InitialSquads', {
@@ -23471,7 +23471,7 @@ return {
 					'Map', "bVp47D",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(484479696515, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K6]] "Перевалочная база"),
+					'display_name', T(484479696515, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K6]] "Запасной лагерь Контрабандистов"),
 					'TerrainType', "Jungle",
 					'City', "ErnieVillage",
 					'ShowCity', true,
@@ -24596,7 +24596,7 @@ return {
 					'Id', "M6",
 					'Map', "qzVESk5",
 					'modId', "FhNNYd",
-					'display_name', T(649552238374, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M6]] "Скалистый берег"),
+					'display_name', T(649552238374, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M6]] "Старый порт"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "Erny",
 					'InitialSquads', {
@@ -35777,6 +35777,17 @@ return {
 	PlaceObj('ModItemFolder', {
 		'name', "Containers",
 	}, {
+		PlaceObj('ModItemLootDef', {
+			group = "Default",
+			id = "Jazz_Drop_9mm_Match",
+			loot = "all",
+			PlaceObj('LootEntryInventoryItem', {
+				guaranteed = true,
+				item = "JAZZ_AMMO_9x19_Match",
+				stack_max = 50,
+				stack_min = 10,
+			}),
+		}),
 		PlaceObj('ModItemLootDef', {
 			group = "MapContainers",
 			id = "IndustrialContainer_Upgrades",
