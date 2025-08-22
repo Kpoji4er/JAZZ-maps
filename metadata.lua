@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4374,
+	'version', 4391,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
@@ -17,7 +17,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1750794633,
+	'saved', 1754860886,
 	'code_hash', 7737044059959539532,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
@@ -1389,6 +1389,11 @@ return PlaceObj('ModDef', {
 			'Class', "QuestsDef",
 			'Id', "Docks",
 			'ClassDisplayName', "QuestsEditor",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "Jazz_Drop_9mm_Match",
+			'ClassDisplayName', "LootDef",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "LootDef",
