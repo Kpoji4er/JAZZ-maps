@@ -12086,44 +12086,7 @@ return {
 	PlaceObj('ModItemFolder', {
 		'name', "Sounds",
 		'comment', "Звуки, всяко разно для локаций и эмбианта",
-	}, {
-		PlaceObj('ModItemSoundPreset', {
-			Regions = {
-				"CursedForest",
-			},
-			TimeOfDay = {
-				"Day",
-				"Sunrise",
-			},
-			group = "Default",
-			id = "AK_50_Music",
-			looping = true,
-			loud_distance = 75638,
-			type = "EnvironmentRadioTV",
-			volume = 300,
-			PlaceObj('SoundFile', {
-				GetFileExt = function ()
-					return "opus"
-				end,
-				GetFileFilter = function ()
-					return "Sample File|*.opus;*.wav"
-				end,
-				Getpath = function ()
-					if sample.file == "" then
-						return ".opus"
-					elseif string.ends_with(sample.file, ".opus") or string.ends_with(sample.file, ".wav") then
-						return sample.file
-					else
-						return sample.file .. ".wav"
-					end
-				end,
-				Setpath = function (obj, path)
-					sample.file = path
-				end,
-				file = "Mod/FhNNYd/Sounds/AK50.opus",
-			}),
-		}),
-		}),
+	}),
 	PlaceObj('ModItemFolder', {
 		'name', "Quests_&_Campaign",
 	}, {
