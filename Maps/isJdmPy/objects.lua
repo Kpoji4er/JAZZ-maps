@@ -17,8 +17,30 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Name', "col_World_MoneyPile_3",
+	'Index', 1404,
+}, nil, 1159312377)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Name', "col_WaterPlane_2",
+	'Index', 2668,
+}, nil, 1204484937)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Name', "col_WaterPlane",
+	'Index', 154,
+}, nil, 1362428697)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_TropicalRockSharp_4",
 	'Index', 3372,
+	'HideFromCamera', true,
 }, nil, 1558292905)
 PlaceObj('Collection', {
 	'Saturation', 0,
@@ -41,6 +63,14 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Name', "col_WaterPlane_1",
+	'Index', 423,
+}, nil, 1858773003)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1404,
+	'AllowedMask', 4294966497,
 	'Name', "col_World_MoneyPile_02",
 	'Index', 2145,
 }, nil, 1881298304)
@@ -54,23 +84,13 @@ PlaceObj('GridMarker', {
 	'Type', "Entrance",
 	'AreaWidth', 5,
 	'AreaHeight', 5,
-	'TriggerConditions', {
+	'TriggerConditions', {},
+	'EnabledConditions', {
 		PlaceObj('SectorHasIntel', {}),
 	},
 }, nil, 1806154082)
-PlaceObj('GridMarker', {
-	'Pos', point(71400, 97800, 19600),
-	'Angle', 10800,
-	'Groups', {
-		"Legion_Shooters_Ambient",
-	},
-	'AllowedMask', 4294966497,
-	'Type', "AmbientZone",
-	'AreaWidth', 24,
-	'AreaHeight', 36,
-}, nil, 1796292646)
 PlaceObj('UnitMarker', {
-	'Pos', point(94200, 78600, 14000),
+	'Pos', point(61800, 61800, 19600),
 	'Angle', 10800,
 	'Groups', {
 		"Legion_Shooters",
@@ -86,55 +106,7 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1100578679)
 PlaceObj('UnitMarker', {
-	'Pos', point(93000, 81000, 14000),
-	'Angle', 10800,
-	'Groups', {
-		"Legion_Shooters",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionRaider_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
-		}),
-	},
-}, nil, 1641457294)
-PlaceObj('UnitMarker', {
-	'Pos', point(94200, 81000, 14000),
-	'Angle', 10800,
-	'Groups', {
-		"Legion_Shooters",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionSniper_alt_2",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSniper",
-		}),
-	},
-}, nil, 1814161523)
-PlaceObj('UnitMarker', {
-	'Pos', point(96600, 77400, 14000),
-	'Angle', 10800,
-	'Groups', {
-		"Legion_Shooters",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionRaider_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
-		}),
-	},
-}, nil, 1395444420)
-PlaceObj('UnitMarker', {
-	'Pos', point(95400, 81000, 14000),
+	'Pos', point(60600, 77400, 19600),
 	'Angle', 5400,
 	'Groups', {
 		"Legion_Shooters",
@@ -150,23 +122,98 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1288481629)
 PlaceObj('UnitMarker', {
-	'Pos', point(94200, 82200, 14000),
+	'Pos', point(61800, 78600, 19600),
 	'Angle', 10800,
 	'Groups', {
 		"Legion_Shooters",
 	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "Legion_Heavy02",
+	'Appearance', "LegionSniper_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGunner_Stronger",
+			'UnitDataDefId', "LegionSniper",
 		}),
 	},
-}, nil, 1180634458)
+}, nil, 1814161523)
 PlaceObj('UnitMarker', {
-	'Pos', point(94200, 83400, 14000),
+	'Pos', point(75000, 81000, 24500),
+	'Angle', 10800,
+	'Groups', {
+		"Legion_Shooters",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "LegionRaider_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionRaider",
+		}),
+	},
+}, nil, 1641457294)
+PlaceObj('UnitMarker', {
+	'Pos', point(71400, 82200, 23800),
+	'Angle', 5400,
+	'Groups', {
+		"Legion_Shooters",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Legion_Marksman",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionSniper",
+		}),
+	},
+}, nil, 1636492997)
+PlaceObj('UnitMarker', {
+	'Pos', point(72600, 83400, 23800),
+	'Angle', 10800,
+	'Groups', {
+		"Legion_Shooters",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "LegionRaider_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionRaider",
+		}),
+	},
+}, nil, 1395444420)
+PlaceObj('UnitMarker', {
+	'Pos', point(67800, 97800, 19600),
+	'Angle', 5400,
+	'Groups', {
+		"Legion_Shooters",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "LegionButcher",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionButcher",
+		}),
+	},
+}, nil, 1014322205)
+PlaceObj('GridMarker', {
+	'Pos', point(71400, 97800, 19600),
+	'Angle', 10800,
+	'Groups', {
+		"Legion_Shooters_Ambient",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "AmbientZone",
+	'AreaWidth', 24,
+	'AreaHeight', 36,
+}, nil, 1796292646)
+PlaceObj('UnitMarker', {
+	'Pos', point(77400, 103800, 23100),
 	'Angle', 10800,
 	'Groups', {
 		"Legion_Shooters",
@@ -182,23 +229,7 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1792753973)
 PlaceObj('UnitMarker', {
-	'Pos', point(95400, 82200, 14000),
-	'Angle', 5400,
-	'Groups', {
-		"Legion_Shooters",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionButcher",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
-		}),
-	},
-}, nil, 1014322205)
-PlaceObj('UnitMarker', {
-	'Pos', point(95400, 83400, 14000),
+	'Pos', point(77400, 108600, 19600),
 	'Angle', 5400,
 	'Groups', {
 		"Legion_Shooters",
@@ -214,21 +245,21 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1141711261)
 PlaceObj('UnitMarker', {
-	'Pos', point(96600, 82200, 14000),
-	'Angle', 5400,
+	'Pos', point(77400, 109800, 19600),
+	'Angle', 10800,
 	'Groups', {
 		"Legion_Shooters",
 	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "Legion_Marksman",
+	'Appearance', "Legion_Heavy02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSniper",
+			'UnitDataDefId', "LegionGunner_Stronger",
 		}),
 	},
-}, nil, 1636492997)
+}, nil, 1180634458)
 PlaceObj('UnitMarker', {
 	'Pos', point(73800, 129000),
 	'Angle', 10800,
@@ -416,17 +447,17 @@ PlaceObj('ContainerMarker', {
 	'DespawnIfEmpty', true,
 }, nil, 517103616)
 PlaceObj('CustomInteractable', {
-	'Pos', point(99000, 154200, 18200),
-	'CollectionIndex', 2145,
+	'Pos', point(99000, 154200),
+	'CollectionIndex', 1404,
 	'AllowedMask', 4294966497,
-	'DisplayName', T(547976940038, "Забрать"),
-	'TriggerEffects', {
+	'BurnGround', false,
+	'DisplayName', T(390900258374, "Бабки"),
+	'ConditionalEffects', {
 		PlaceObj('PlayerGrantMoney', {
-			Amount = 2000,
+			Amount = 2500,
 		}),
 	},
-	'Visuals', "UI/Hud/iw_diamond_briefcases",
-}, nil, 1639473425)
+}, nil, 1634946518)
 PlaceObj('GridMarker', {
 	'Pos', point(101400, 154200),
 	'Angle', 10800,
@@ -512,6 +543,14 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1716595822)
+PlaceObj('GridMarker', {
+	'Pos', point(123000, 141000, 14700),
+	'AllowedMask', 4294966497,
+	'Type', "BorderArea",
+	'AreaWidth', 150,
+	'AreaHeight', 150,
+	'Reachable', false,
+}, nil, 1426845562)
 PlaceObj('UnitMarker', {
 	'Pos', point(127800, 142200),
 	'Angle', 10800,
@@ -619,6 +658,71 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1565558141)
+PlaceObj('UnitMarker', {
+	'Pos', point(171000, 71400),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "LegionRaidLeader_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionRaidLeader",
+		}),
+	},
+}, nil, 1071213434)
+PlaceObj('UnitMarker', {
+	'Pos', point(171000, 73800),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Legion_Marksman",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionSharpShooter",
+		}),
+	},
+}, nil, 1812690265)
+PlaceObj('UnitMarker', {
+	'Pos', point(172200, 67800),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Legion_Heavy02",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionGunner",
+		}),
+	},
+}, nil, 1614904693)
+PlaceObj('UnitMarker', {
+	'Pos', point(172200, 70200),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Legion_Heavy02",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionGunner",
+		}),
+	},
+}, nil, 1722749382)
+PlaceObj('UnitMarker', {
+	'Pos', point(172200, 72600),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Legion_Marksman",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionSharpShooter",
+		}),
+	},
+}, nil, 1298173686)
 PlaceObj('UnitMarker', {
 	'Pos', point(184200, 107400),
 	'Angle', 10800,
@@ -793,7 +897,7 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1573572658)
 PlaceObj('UnitMarker', {
-	'Pos', point(211800, 112200),
+	'Pos', point(207000, 108600, 16800),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
@@ -911,14 +1015,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1643570624)
-PlaceObj('GridMarker', {
-	'Pos', point(165000, 160200, 14700),
-	'AllowedMask', 4294966497,
-	'Type', "BorderArea",
-	'AreaWidth', 220,
-	'AreaHeight', 180,
-	'Reachable', false,
-}, nil, 1426845562)
 PlaceObj('UnitMarker', {
 	'Pos', point(189000, 166200),
 	'Angle', 10800,
@@ -981,6 +1077,23 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1050290307)
+PlaceObj('ExitZoneInteractable', {
+	'Pos', point(209914, 143343, 16223),
+	'Groups', {
+		"East",
+	},
+	'AllowedMask', 4294966497,
+}, nil, 1544838144)
+PlaceObj('GridMarker', {
+	'Pos', point(209400, 143400, 16100),
+	'Groups', {
+		"East",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Entrance",
+	'AreaWidth', 5,
+	'AreaHeight', 5,
+}, nil, 1198620269)
 PlaceObj('UnitMarker', {
 	'Pos', point(203400, 162600),
 	'Angle', 10800,
@@ -1015,80 +1128,8 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1533814600)
-PlaceObj('UnitMarker', {
-	'Pos', point(247800, 155400),
-	'Angle', 10800,
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionRaidLeader_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaidLeader",
-		}),
-	},
-}, nil, 1460254836)
-PlaceObj('UnitMarker', {
-	'Pos', point(249000, 151800),
-	'Angle', 10800,
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Heavy02",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGunner",
-		}),
-	},
-}, nil, 1779274822)
-PlaceObj('UnitMarker', {
-	'Pos', point(249000, 154200),
-	'Angle', 10800,
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Heavy02",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGunner",
-		}),
-	},
-}, nil, 1398669664)
-PlaceObj('UnitMarker', {
-	'Pos', point(247800, 157800),
-	'Angle', 10800,
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Marksman",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter",
-		}),
-	},
-}, nil, 1838108598)
-PlaceObj('UnitMarker', {
-	'Pos', point(249000, 156600),
-	'Angle', 10800,
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Legion_Marksman",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter",
-		}),
-	},
-}, nil, 1213189546)
-PlaceObj('ExitZoneInteractable', {
-	'Pos', point(293446, 161298, 13763),
-	'Groups', {
-		"East",
-	},
-	'AllowedMask', 4294966497,
-}, nil, 1544604047)
 PlaceObj('GridMarker', {
-	'Pos', point(293400, 162600, 14000),
+	'Pos', point(209400, 184200, 13300),
 	'Groups', {
 		"East",
 	},
@@ -1096,7 +1137,14 @@ PlaceObj('GridMarker', {
 	'Type', "Entrance",
 	'AreaWidth', 5,
 	'AreaHeight', 5,
-}, nil, 1705208642)
+}, nil, 1535857628)
+PlaceObj('ExitZoneInteractable', {
+	'Pos', point(209914, 183479, 13823),
+	'Groups', {
+		"East",
+	},
+	'AllowedMask', 4294966497,
+}, nil, 1077802321)
 -- end of objects of class GridMarker
 PlaceObj('TropicalPlant_Liana_05', {
 	'Pos', point(29081, 60646, 19548),
@@ -1242,798 +1290,6 @@ PlaceObj('TreeAttach_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, nil)
-PlaceObj('RoofCorner', {
-	'Pos', point(60000, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1877337579)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(60000, 49800, 26600),
-	'Angle', 10800,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1499665452)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(60000, 51000, 26600),
-	'Angle', 10800,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1776327743)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(60600, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1424179065)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(60600, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1854867462)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(60600, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1839909925)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(60000, 52200, 26600),
-	'Angle', 10800,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1031665733)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(60600, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1521353139)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(60000, 53400, 26600),
-	'Angle', 10800,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1189483544)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(60000, 54600, 26600),
-	'Angle', 10800,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1668544799)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(60600, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1669876732)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(60600, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1022201440)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(60000, 55800, 26600),
-	'Angle', 10800,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1787650545)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(60000, 57000, 26600),
-	'Angle', 10800,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1360087619)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(60600, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1729065621)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(60600, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1838134609)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(61800, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 3,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1208197727)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(61800, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1658686446)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(61800, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1048735374)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(63000, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1678997019)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(63000, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1373699580)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(63000, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1436469681)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(61800, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1112497047)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(63000, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1498347197)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(64200, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1494025031)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(64200, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1512929700)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(64200, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1133824054)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(65400, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1157867292)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(65400, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1616245632)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(65400, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1289882727)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(64200, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1613849321)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(65400, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1525132440)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(61800, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1145587649)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(61800, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1309003494)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(63000, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1469971302)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(63000, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1274913038)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(61800, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1426756799)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(61800, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1138876917)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(63000, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1676482346)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(63000, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1753524808)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(64200, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1648954194)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(64200, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1218857093)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(65400, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1724111187)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(65400, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1192022996)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(64200, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1716979973)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(64200, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1391876181)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(65400, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1878645045)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(65400, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1818480085)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(60000, 58200, 26600),
-	'Angle', 10800,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1668131467)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(60600, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1476941712)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(60000, 59400, 26600),
-	'Angle', 10800,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1462464447)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(60000, 60600, 26600),
-	'Angle', 10800,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 3,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1031343567)
-PlaceObj('RoofCorner', {
-	'Pos', point(60000, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1063977739)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(60600, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1276489901)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(60600, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1626935185)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(60600, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1658651729)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(61800, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1142407984)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(63000, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1536631007)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(61800, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1167068962)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(61800, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1269916428)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(61800, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1034566156)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(63000, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1154464929)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(63000, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1051911125)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(63000, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1627096405)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(64200, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1723974954)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(65400, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1609041891)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(64200, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1786506346)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(64200, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1337530135)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(64200, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 3,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1866641708)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(65400, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1553393865)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(65400, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1096332059)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(65400, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1459403366)
 PlaceObj('TropicalFillerPlants_03', {
 	'Pos', point(3141, 73125),
 	'Angle', 17978,
@@ -6080,1722 +5336,6 @@ PlaceObj('TropicalPlant_05_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1441711824)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(66600, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 3,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1017763331)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(66600, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1263662799)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(66600, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1422459473)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(66600, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1883713697)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(67800, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1620564401)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(67800, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1319937150)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(67800, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1569324460)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(69000, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1437982500)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(69000, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1232281118)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(69000, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1870395200)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(67800, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1421919118)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(69000, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1346306955)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(66600, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1287917766)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(66600, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1506308763)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(66600, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1149046668)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(66600, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1630283570)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(67800, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1370871989)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(67800, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1871560022)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(69000, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1813176481)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(69000, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1180994627)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(67800, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1707819187)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(67800, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1627409711)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(69000, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1489033522)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(69000, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1575305479)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(70200, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1842633722)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(70200, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1878416357)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(70200, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1860288902)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(71400, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1226684286)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(71400, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1211035136)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(71400, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1004170062)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(70200, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1316798670)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(71400, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1578395014)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(72600, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1203110073)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(72600, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1260075530)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(72600, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1272416848)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(72600, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1798497781)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(70200, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1070255425)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(70200, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1808832486)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(71400, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1396486760)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(71400, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1083120636)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(70200, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1249505846)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(70200, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1374217912)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(71400, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1654140961)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(71400, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1401652312)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(72600, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1506865562)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(72600, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1104356779)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(72600, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1296756014)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(72600, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1012686137)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(66600, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1287669215)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(66600, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1475947867)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(66600, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1358575690)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(66600, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1672339852)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(67800, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1730778241)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(69000, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1564797526)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(67800, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1230262240)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(67800, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1299653704)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(67800, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1165124209)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(69000, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1008899205)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(69000, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1000657637)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(69000, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1535622830)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(70200, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1536563217)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(71400, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1068234097)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(70200, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1018711867)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(70200, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1329525306)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(70200, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1775844822)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(71400, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1237704839)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(71400, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1651642945)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(71400, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1600167512)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(72600, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1338407918)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(72600, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1585333773)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(72600, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1849476655)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(72600, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 3,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1535716292)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(73800, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1381163422)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(73800, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1063230803)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(73800, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1615714312)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(75000, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1108982998)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(75000, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1886464145)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(75000, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1214469771)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(73800, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1320382495)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(75000, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1791771927)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(76200, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 3,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1875225039)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(76200, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1864109147)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(76200, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1144261333)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(77400, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1174797039)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(77400, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1180782284)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(77400, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1437293758)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(76200, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1701202535)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(77400, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1785878895)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(73800, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1001396708)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(73800, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1176495611)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(75000, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1566034035)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(75000, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1784289371)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(73800, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1596114965)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(73800, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1262658221)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(75000, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1083212634)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(75000, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1659333265)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(76200, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1262484554)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(76200, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1102661985)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(77400, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1286298960)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(77400, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1367056749)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(76200, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1100932907)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(76200, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1765631722)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(77400, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1810262912)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(77400, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1874742722)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(78600, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1368496139)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(78600, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1429567356)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(78600, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1385533808)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(79800, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1307474997)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(79800, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1140330728)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(79800, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1601426464)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(78600, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1677007646)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(79800, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1837230803)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(81000, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1888730313)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(81000, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1457473141)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(81000, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1536329362)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(81000, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1252514019)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(78600, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1879718275)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(78600, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1712866681)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(79800, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1680380350)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(79800, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1152129347)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(78600, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1286035095)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(78600, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1376789583)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(79800, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1631012240)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(79800, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1613863842)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(81000, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1832141243)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(81000, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1279714178)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(81000, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1050469309)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(81000, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1359914474)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(73800, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1739659998)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(75000, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1693872699)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(73800, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1417609017)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(73800, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1079687331)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(73800, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1362279443)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(75000, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1639939267)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(75000, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1406150130)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(75000, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1224081460)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(76200, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1860639511)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(77400, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1484515480)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(76200, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1467821647)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(76200, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1522004305)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(76200, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 3,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1682084466)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(77400, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1116453833)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(77400, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1342892065)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(77400, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1885577645)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(78600, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1351582974)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(79800, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1235315581)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(78600, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1002914676)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(78600, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1300338219)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(78600, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1408433460)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(79800, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1108451654)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(79800, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1077902219)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(79800, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1533560913)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(81000, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1497526191)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(81000, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1259906543)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(81000, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1787242258)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(81000, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1472404916)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(97417, 35095),
 	'Angle', 9945,
@@ -7803,351 +5343,6 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1107612419)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(82200, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1076839949)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(82200, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1262617643)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(82200, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1236155558)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(83400, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1884583860)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(83400, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1799311637)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(83400, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1832673755)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(82200, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1889396698)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(83400, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1673990047)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(84600, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1313073103)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(84600, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1886513557)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(84600, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1826666224)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(85800, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1725275297)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(85800, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1582866132)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(85800, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1656502149)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(84600, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1787421671)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(85800, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1182283139)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(82200, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1349033527)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(82200, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1565986469)
-PlaceObj('Room', {
-	'roof_type', "Flat",
-	'roof_mat', "Concrete",
-	'roof_colors', PlaceObj('ColorizationPropSet', {
-		'EditableColor1', RGBA(52, 45, 41, 255),
-	}),
-	'roof_objs', {o(1626935185),o(1269916428),o(1051911125),o(1337530135),o(1096332059),o(1358575690),o(1299653704),o(1000657637),o(1329525306),o(1651642945),o(1849476655),o(1079687331),o(1406150130),o(1522004305),o(1342892065),o(1300338219),o(1077902219),o(1787242258),o(1116374399),o(1699463702),o(1539399089),o(1047129562),o(1608358548),o(1830843544),o(1738679188),o(1463933151),o(1552688362),o(1573312591),o(1727638020),o(1497476143),o(1724875183),o(1196720595),o(1756909265),o(1609060579),o(1078778435),o(1048313651),o(1390098816),o(1276489901),o(1167068962),o(1154464929),o(1786506346),o(1553393865),o(1475947867),o(1230262240),o(1008899205),o(1018711867),o(1237704839),o(1585333773),o(1417609017),o(1639939267),o(1467821647),o(1116453833),o(1002914676),o(1108451654),o(1259906543),o(1789417980),o(1637776044),o(1232365618),o(1181851763),o(1026435264),o(1287930030),o(1135988190),o(1578720399),o(1844339694),o(1266259176),o(1006240385),o(1144599881),o(1485300318),o(1535313442),o(1807238454),o(1443125604),o(1298079520),o(1338030684),o(1885028697),o(1476941712),o(1142407984),o(1536631007),o(1723974954),o(1609041891),o(1287669215),o(1730778241),o(1564797526),o(1536563217),o(1068234097),o(1338407918),o(1739659998),o(1693872699),o(1860639511),o(1484515480),o(1351582974),o(1235315581),o(1497526191),o(1797737013),o(1653811484),o(1508675416),o(1768029401),o(1549048214),o(1225204363),o(1860296357),o(1851351644),o(1036997869),o(1526381801),o(1832996622),o(1697587882),o(1461344208),o(1516922687),o(1697330707),o(1563478790),o(1784090572),o(1581715887),o(1825362304),o(1838134609),o(1138876917),o(1753524808),o(1391876181),o(1818480085),o(1630283570),o(1627409711),o(1575305479),o(1374217912),o(1401652312),o(1012686137),o(1262658221),o(1659333265),o(1765631722),o(1874742722),o(1376789583),o(1613863842),o(1359914474),o(1818689329),o(1700965053),o(1816159518),o(1131123667),o(1058205222),o(1259784635),o(1861098540),o(1673284050),o(1024531932),o(1892895039),o(1544984945),o(1485581691),o(1577045916),o(1332338484),o(1547613912),o(1812842463),o(1596117070),o(1229758662),o(1369937309),o(1729065621),o(1426756799),o(1676482346),o(1716979973),o(1878645045),o(1149046668),o(1707819187),o(1489033522),o(1249505846),o(1654140961),o(1296756014),o(1596114965),o(1083212634),o(1100932907),o(1810262912),o(1286035095),o(1631012240),o(1050469309),o(1763841472),o(1830643010),o(1126420374),o(1280822554),o(1521080627),o(1072581601),o(1306724098),o(1716712017),o(1453076180),o(1024144987),o(1520307308),o(1398397781),o(1749389475),o(1627711023),o(1715511829),o(1533023354),o(1827146572),o(1535639792),o(1602822440),o(1022201440),o(1309003494),o(1274913038),o(1218857093),o(1192022996),o(1506308763),o(1871560022),o(1180994627),o(1808832486),o(1083120636),o(1104356779),o(1176495611),o(1784289371),o(1102661985),o(1367056749),o(1712866681),o(1152129347),o(1279714178),o(1565986469),o(1170637508),o(1369405257),o(1362266055),o(1693748300),o(1227861201),o(1474064872),o(1796344108),o(1878717981),o(1833197931),o(1433307069),o(1712246369),o(1288741876),o(1028505352),o(1140503297),o(1535626135),o(1792109214),o(1117329716),o(1606966905),o(1669876732),o(1145587649),o(1469971302),o(1648954194),o(1724111187),o(1287917766),o(1370871989),o(1813176481),o(1070255425),o(1396486760),o(1506865562),o(1001396708),o(1566034035),o(1262484554),o(1286298960),o(1879718275),o(1680380350),o(1832141243),o(1349033527),o(1681855882),o(1600741163),o(1812954363),o(1000902457),o(1871357831),o(1650194145),o(1049517191),o(1544496508),o(1871598488),o(1011966557),o(1538727829),o(1256387451),o(1474577427),o(1045430978),o(1257706362),o(1271753798),o(1007139742),o(1109830800),o(1521353139),o(1112497047),o(1498347197),o(1613849321),o(1525132440),o(1883713697),o(1421919118),o(1346306955),o(1316798670),o(1578395014),o(1798497781),o(1320382495),o(1791771927),o(1701202535),o(1785878895),o(1677007646),o(1837230803),o(1252514019),o(1889396698),o(1673990047),o(1787421671),o(1182283139),o(1369187938),o(1259193749),o(1024114710),o(1662395034),o(1822103473),o(1383275231),o(1209452562),o(1487594035),o(1555594732),o(1615619075),o(1390309942),o(1129146059),o(1643527652),o(1013868395),o(1125651133),o(1839909925),o(1048735374),o(1436469681),o(1133824054),o(1289882727),o(1422459473),o(1569324460),o(1870395200),o(1860288902),o(1004170062),o(1272416848),o(1615714312),o(1214469771),o(1144261333),o(1437293758),o(1385533808),o(1601426464),o(1536329362),o(1236155558),o(1832673755),o(1826666224),o(1656502149),o(1373130384),o(1169649890),o(1499583228),o(1574360224),o(1038258859),o(1662182194),o(1411672938),o(1382015744),o(1225852381),o(1857518816),o(1472737229),o(1050569110),o(1121549056),o(1713739513),o(1837739489),o(1854867462),o(1658686446),o(1373699580),o(1512929700),o(1616245632),o(1263662799),o(1319937150),o(1232281118),o(1878416357),o(1211035136),o(1260075530),o(1063230803),o(1886464145),o(1864109147),o(1180782284),o(1429567356),o(1140330728),o(1457473141),o(1262617643),o(1799311637),o(1886513557),o(1582866132),o(1544195554),o(1175943168),o(1416827664),o(1336973579),o(1149811458),o(1815816565),o(1437892868),o(1507326733),o(1430220940),o(1122486620),o(1839958624),o(1442214772),o(1325128379),o(1397158062),o(1717207726),o(1424179065),o(1208197727),o(1678997019),o(1494025031),o(1157867292),o(1017763331),o(1620564401),o(1437982500),o(1842633722),o(1226684286),o(1203110073),o(1381163422),o(1108982998),o(1875225039),o(1174797039),o(1368496139),o(1307474997),o(1888730313),o(1076839949),o(1884583860),o(1313073103),o(1725275297),o(1335811270),o(1275563517),o(1038816167),o(1848415399),o(1360970521),o(1198264690),o(1558104231),o(1885988152),o(1085483382),o(1631382018),o(1273177700),o(1201182145),o(1009344026),o(1377123260),o(1236243085),o(1782244936),o(1495298819),o(1866893835),o(1569012476),o(1755738896),o(1168946701),o(1400392967),o(1659647308),o(1715704823),o(1121340982),o(1658651729),o(1034566156),o(1627096405),o(1866641708),o(1459403366),o(1672339852),o(1165124209),o(1535622830),o(1775844822),o(1600167512),o(1535716292),o(1362279443),o(1224081460),o(1682084466),o(1885577645),o(1408433460),o(1533560913),o(1472404916),o(1676490426),o(1309733812),o(1534495874),o(1276167178),o(1789769693),o(1672826759),o(1790522284),o(1172063705),o(1326253960),o(1738466732),o(1374167332),o(1535274102),o(1043703015),o(1556166794),o(1685815067),o(1248789935),o(1333309649),o(1650416882),o(1777921589),o(1031343567),o(1462464447),o(1668131467),o(1360087619),o(1787650545),o(1668544799),o(1189483544),o(1031665733),o(1776327743),o(1499665452),o(1877337579),o(1588900418),o(1570599257),o(1063977739),},
-	'AllowedMask', 4294966497,
-	'box', box(60000, 49200, 26600, 104400, 61200, 26600),
-	'seed', 628920856608828,
-	'position', point(60000, 49200, 26600),
-	'size', point(37, 10, 0),
-	'override_terrain_z', 21184,
-	'name', "Room 1443633987 - Roof only",
-	'spawned_floors', {},
-	'spawned_walls', {
-        East = {},
-        North = {},
-        South = {},
-        West = {},},
-	'spawned_corners', {
-        East = {},
-        North = {},
-        South = {},
-        West = {},},
-}, nil, 1443633987)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(83400, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1681855882)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(83400, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1170637508)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(82200, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1763841472)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(82200, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1818689329)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(83400, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1830643010)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(83400, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1700965053)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(84600, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1600741163)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(84600, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1369405257)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(85800, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1812954363)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(85800, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1362266055)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(84600, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1126420374)
 PlaceObj('TropicalFillerPlants_03', {
 	'Pos', point(84000, 57000),
 	'Angle', 2371,
@@ -8156,842 +5351,6 @@ PlaceObj('TropicalFillerPlants_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1236204122)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(84600, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1816159518)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(85800, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1280822554)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(85800, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1131123667)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(87000, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1335811270)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(87000, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1544195554)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(87000, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1373130384)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(87000, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1369187938)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(88200, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1275563517)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(88200, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1175943168)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(88200, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1169649890)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(89400, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1038816167)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(89400, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1416827664)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(89400, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1499583228)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(88200, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1259193749)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(89400, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1024114710)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(87000, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1000902457)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(87000, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1693748300)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(87000, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1521080627)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(87000, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1058205222)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(88200, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1871357831)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(88200, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1227861201)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(89400, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1650194145)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(89400, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1474064872)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(88200, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1072581601)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(88200, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1259784635)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(89400, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1306724098)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(89400, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1861098540)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(82200, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1797737013)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(83400, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1653811484)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(82200, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1789417980)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(82200, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1116374399)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(82200, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1676490426)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(83400, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1637776044)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(83400, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1699463702)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(83400, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1309733812)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(84600, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1508675416)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(85800, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1768029401)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(84600, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1232365618)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(84600, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1539399089)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(84600, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 3,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1534495874)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(85800, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1181851763)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(85800, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1047129562)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(85800, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1276167178)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(87000, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1549048214)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(87000, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1026435264)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(87000, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1608358548)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(87000, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1789769693)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(88200, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1225204363)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(89400, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1860296357)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(88200, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1287930030)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(88200, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1830843544)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(88200, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1672826759)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(89400, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1135988190)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(89400, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1738679188)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(89400, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1790522284)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(90600, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1848415399)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(90600, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1336973579)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(90600, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1574360224)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(91800, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1360970521)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(91800, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1149811458)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(91800, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1038258859)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(90600, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1662395034)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(91800, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1822103473)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(93000, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1198264690)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(93000, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1815816565)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(93000, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1662182194)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(94200, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1558104231)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(94200, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1437892868)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(94200, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1411672938)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(93000, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1383275231)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(94200, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1209452562)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(90600, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1049517191)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(90600, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1796344108)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(91800, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1544496508)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(91800, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1878717981)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(90600, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1716712017)
 PlaceObj('TropicalFillerPlants_06', {
 	'Pos', point(91000, 56000),
 	'Angle', 2066,
@@ -9000,17 +5359,6 @@ PlaceObj('TropicalFillerPlants_06', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1357894495)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(90600, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1673284050)
 PlaceObj('TropicalFillerPlants_05', {
 	'Pos', point(91000, 57000),
 	'Angle', 1496,
@@ -9019,17 +5367,6 @@ PlaceObj('TropicalFillerPlants_05', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1879918715)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(91800, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1453076180)
 PlaceObj('TropicalFillerPlants_08', {
 	'Pos', point(92000, 56000),
 	'Angle', 18171,
@@ -9038,17 +5375,6 @@ PlaceObj('TropicalFillerPlants_08', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1589026908)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(91800, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1024531932)
 PlaceObj('TropicalFillerPlants_04', {
 	'Pos', point(92000, 57000),
 	'Angle', 16827,
@@ -9057,446 +5383,6 @@ PlaceObj('TropicalFillerPlants_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1032216476)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(93000, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1871598488)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(93000, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1833197931)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(94200, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1011966557)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(94200, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1433307069)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(93000, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1024144987)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(93000, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1892895039)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(94200, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1520307308)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(94200, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1544984945)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(95400, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1885988152)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(95400, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1507326733)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(95400, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1382015744)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(95400, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1487594035)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(96600, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1085483382)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(96600, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1430220940)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(96600, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1225852381)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(97800, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1631382018)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(97800, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1122486620)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(97800, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1857518816)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(96600, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1555594732)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(97800, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1615619075)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(95400, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1538727829)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(95400, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1712246369)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(95400, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1398397781)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(95400, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1485581691)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(96600, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1256387451)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(96600, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1288741876)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(97800, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1474577427)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(97800, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1028505352)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(96600, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1749389475)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(96600, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1577045916)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(97800, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1627711023)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(97800, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1332338484)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(90600, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1851351644)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(91800, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1036997869)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(90600, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1578720399)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(90600, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1463933151)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(90600, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 3,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1172063705)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(91800, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1844339694)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(91800, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1552688362)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(91800, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1326253960)
 PlaceObj('TropicalFillerPlants_05', {
 	'Pos', point(93000, 58000),
 	'Angle', 21236,
@@ -9505,17 +5391,6 @@ PlaceObj('TropicalFillerPlants_05', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1890584074)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(93000, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1526381801)
 PlaceObj('TropicalFillerPlants_01', {
 	'Pos', point(94000, 58000),
 	'Angle', 2717,
@@ -9524,215 +5399,6 @@ PlaceObj('TropicalFillerPlants_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1137202489)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(94200, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1832996622)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(93000, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1266259176)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(93000, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1573312591)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(93000, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1738466732)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(94200, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1006240385)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(94200, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1727638020)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(94200, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1374167332)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(95400, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1697587882)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(95400, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1144599881)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(95400, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1497476143)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(95400, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1535274102)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(96600, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1461344208)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(97800, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1516922687)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(96600, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1485300318)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(96600, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1724875183)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(96600, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1043703015)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(97800, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1535313442)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(97800, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1196720595)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(97800, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1556166794)
 PlaceObj('TropicalPlant_08_Tree_01', {
 	'Pos', point(98877, 11),
 	'Angle', 20651,
@@ -12322,463 +7988,6 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1511591407)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(99000, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1273177700)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(99000, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1839958624)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(99000, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1472737229)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(100200, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1201182145)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(100200, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1442214772)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(100200, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1050569110)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(99000, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1390309942)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(100200, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1129146059)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(101400, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1009344026)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(101400, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1325128379)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(101400, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1121549056)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(101400, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1643527652)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(99000, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1045430978)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(99000, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1140503297)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(100200, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1257706362)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(100200, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1535626135)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(99000, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1715511829)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(99000, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1547613912)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(100200, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1533023354)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(100200, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1812842463)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(101400, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1271753798)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(101400, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1792109214)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(101400, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1827146572)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(101400, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1596117070)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(102600, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1377123260)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(102600, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1397158062)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(102600, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1713739513)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(103800, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1236243085)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(103800, 49800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1717207726)
-PlaceObj('RoofCorner', {
-	'Pos', point(104400, 49200, 26600),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1588900418)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(104400, 49800, 26600),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1121340982)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(103800, 51000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1837739489)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(104400, 51000, 26600),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1715704823)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(102600, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1013868395)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(103800, 52200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1125651133)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(104400, 52200, 26600),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1659647308)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(102600, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1007139742)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(102600, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1117329716)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(103800, 53400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1109830800)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(104400, 53400, 26600),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1400392967)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(103800, 54600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1606966905)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(104400, 54600, 26600),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1168946701)
 PlaceObj('TropicalFillerPlants_08', {
 	'Pos', point(104000, 55000),
 	'Angle', 21184,
@@ -12787,49 +7996,6 @@ PlaceObj('TropicalFillerPlants_08', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1324919891)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(102600, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1535639792)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(102600, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1229758662)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(103800, 55800, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1602822440)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(104400, 55800, 26600),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1755738896)
 PlaceObj('TropicalFillerPlants_04', {
 	'Pos', point(104000, 56000),
 	'Angle', 19659,
@@ -12838,27 +8004,6 @@ PlaceObj('TropicalFillerPlants_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1140889112)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(103800, 57000, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1369937309)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(104400, 57000, 26600),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1569012476)
 PlaceObj('TropicalFillerPlants_08', {
 	'Pos', point(105000, 55000),
 	'Angle', 20606,
@@ -12875,267 +8020,6 @@ PlaceObj('TropicalFillerPlants_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1444462711)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(99000, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1697330707)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(100200, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1563478790)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(99000, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1807238454)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(99000, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1756909265)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(99000, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1685815067)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(100200, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1443125604)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(100200, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1609060579)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(100200, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1248789935)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(101400, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1784090572)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(101400, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1298079520)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(101400, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1078778435)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(101400, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1333309649)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(102600, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1581715887)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(103800, 58200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1825362304)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(104400, 58200, 26600),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1866893835)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(102600, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1338030684)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(102600, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1048313651)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(102600, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1650416882)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(103800, 59400, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1885028697)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(104400, 59400, 26600),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1495298819)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(103800, 60600, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1390098816)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(103800, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1777921589)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(104400, 60600, 26600),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1782244936)
-PlaceObj('RoofCorner', {
-	'Pos', point(104400, 61200, 26600),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "Concrete",
-	'dir', "North",
-}, nil, 1570599257)
 PlaceObj('TropicalFillerPlants_04', {
 	'Pos', point(107000, 55000),
 	'Angle', 2007,
@@ -14035,6 +8919,18 @@ PlaceObj('TreeAttach_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, nil)
+PlaceObj('AL_WallLean_NoSnap', {
+	'Entity', "Male_Body_01",
+	'Pos', point(66580, 97009, 19517),
+	'Angle', 11554,
+	'Groups', {
+		"Closest AmbientZoneMarker",
+	},
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'anim', "editorMarkerAnim_Wall",
+}, nil, 1054617624)
 PlaceObj('TreeAttach_06', {
 	'Pos', point(67000, 97000),
 	'Angle', 19106,
@@ -14058,18 +8954,6 @@ PlaceObj('TreeAttach_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, nil)
-PlaceObj('AL_WallLean_NoSnap', {
-	'Entity', "Male_Body_01",
-	'Pos', point(69091, 95652, 19517),
-	'Angle', 17854,
-	'Groups', {
-		"Closest AmbientZoneMarker",
-	},
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'anim', "editorMarkerAnim_Wall",
-}, nil, 1054617624)
 PlaceObj('AL_Talk', {
 	'Entity', "NPCCostumeMale_Shirt_01",
 	'Pos', point(74027, 110508),
@@ -23245,21 +18129,6 @@ PlaceObj('TropicalPlant_02_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1125995226)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(40912, 225421),
-	'Angle', 1603,
-	'Scale', 106,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1274059718)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(40466, 227443),
-	'Angle', 15924,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1042216549)
 PlaceObj('TropicalFillerPlants_06', {
 	'Pos', point(41560, 214443),
 	'Angle', 16551,
@@ -23290,13 +18159,6 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1540776082)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(45342, 229194),
-	'Angle', 20317,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1036723144)
 PlaceObj('TropicalPlant_08_Tree_01', {
 	'Pos', point(57440, 198557),
 	'Angle', 6809,
@@ -23386,36 +18248,6 @@ PlaceObj('TropicalPlant_04_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1457614638)
-PlaceObj('TropicalFillerPlants_05', {
-	'Pos', point(36979, 229397),
-	'Angle', 19209,
-	'Scale', 98,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1089006167)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(37225, 230600),
-	'Angle', 17744,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1621312087)
-PlaceObj('TropicalFillerPlants_02', {
-	'Pos', point(39340, 231642),
-	'Angle', 10335,
-	'Scale', 118,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1488605245)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(39620, 233323),
-	'Angle', 6746,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1556564525)
 PlaceObj('CoastalPlant_01_Tree_04', {
 	'Pos', point(39520, 237264),
 	'Angle', 8356,
@@ -23469,99 +18301,6 @@ PlaceObj('TropicalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1206531256)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(36092, 245157),
-	'Angle', 12349,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1614308118)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(40199, 240091),
-	'Angle', 12712,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1646437837)
-PlaceObj('CoastalPlant_01_Tree_03', {
-	'Pos', point(38862, 242703),
-	'Angle', 20442,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1814711082)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(39013, 245295),
-	'Angle', 14744,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1164969236)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(43198, 232972),
-	'Angle', 21022,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1227496789)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(44497, 236942),
-	'Angle', 4413,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1861106764)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(47026, 233452),
-	'Angle', 12622,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1681332190)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(46989, 236458),
-	'Angle', 5246,
-	'Scale', 97,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1385161658)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(48218, 237166),
-	'Angle', 11127,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1252315466)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(44791, 244698),
-	'Angle', 3367,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1373667450)
-PlaceObj('TropicalFillerPlants_08', {
-	'Pos', point(46814, 240745),
-	'Angle', 11079,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1136016300)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(46462, 243076),
-	'Angle', 8060,
-	'Scale', 133,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1726172181)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(46992, 244279),
-	'Angle', 14736,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1700485258)
 PlaceObj('TropicalFillerPlants_01', {
 	'Pos', point(33152, 245973),
 	'Angle', 17680,
@@ -23577,13 +18316,6 @@ PlaceObj('TropicalPlant_02_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1534750478)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(36337, 247402),
-	'Angle', 18426,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1670333114)
 PlaceObj('TropicalFillerPlants_03', {
 	'Pos', point(36706, 249641),
 	'Angle', 17196,
@@ -23599,393 +18331,6 @@ PlaceObj('CoastalPlant_01_Tree_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1188423375)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(40116, 248115),
-	'Angle', 8730,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1574724845)
-PlaceObj('TropicalFillerPlants_03', {
-	'Pos', point(40655, 249624),
-	'Angle', 5854,
-	'Scale', 119,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1495260722)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(38618, 252571),
-	'Angle', 5472,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1126078084)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(43552, 247665),
-	'Angle', 10155,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1455901871)
-PlaceObj('TropicalFillerPlants_08', {
-	'Pos', point(41505, 250063),
-	'Angle', 6026,
-	'Scale', 122,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1617247381)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(45109, 246835),
-	'Angle', 8213,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1547762872)
-PlaceObj('TropicalFillerPlants_03', {
-	'Pos', point(46289, 251606),
-	'Angle', 12649,
-	'Scale', 96,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1760752594)
-PlaceObj('CoastalPlant_01_Tree_03', {
-	'Pos', point(47153, 252785),
-	'Angle', 14972,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1832143704)
-PlaceObj('TropicalFillerPlants_03', {
-	'Pos', point(41495, 255186),
-	'Angle', 6551,
-	'Scale', 139,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1640547499)
-PlaceObj('CoastalPlant_01_Tree_03', {
-	'Pos', point(50660, 231012),
-	'Angle', 342,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1772135928)
-PlaceObj('TropicalFillerPlants_04', {
-	'Pos', point(50322, 236843),
-	'Angle', 16176,
-	'Scale', 107,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1774299991)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(52267, 235540),
-	'Angle', 15807,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1246693446)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(55339, 233452),
-	'Angle', 17342,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1752958794)
-PlaceObj('TropicalFillerPlants_02', {
-	'Pos', point(54136, 236825),
-	'Angle', 10992,
-	'Scale', 134,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1210948013)
-PlaceObj('TropicalFillerPlants_08', {
-	'Pos', point(49781, 238112),
-	'Angle', 6244,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1394888404)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(49438, 240015),
-	'Angle', 10611,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1426222866)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(49707, 244397),
-	'Angle', 7237,
-	'Scale', 138,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1776145572)
-PlaceObj('TropicalFillerPlants_04', {
-	'Pos', point(51870, 244499),
-	'Angle', 19255,
-	'Scale', 134,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1340734790)
-PlaceObj('TropicalFillerPlants_02', {
-	'Pos', point(54440, 238131),
-	'Angle', 17694,
-	'Scale', 132,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1513671864)
-PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(53457, 240714),
-	'Angle', 20685,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1318526983)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(56560, 239114),
-	'Angle', 5108,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1035316494)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(54701, 241928),
-	'Angle', 2010,
-	'Scale', 108,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1443116301)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(53307, 244474),
-	'Angle', 14404,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1070315330)
-PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(55327, 244102),
-	'Angle', 20111,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1335932237)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(58369, 236997),
-	'Angle', 15442,
-	'Scale', 125,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1740239932)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(58896, 237385),
-	'Angle', 10404,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1423330846)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(63803, 237393),
-	'Angle', 6584,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1248824986)
-PlaceObj('TropicalFillerPlants_05', {
-	'Pos', point(59055, 241169),
-	'Angle', 7471,
-	'Scale', 110,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1391455180)
-PlaceObj('CoastalPlant_01_Tree_02', {
-	'Pos', point(58615, 245289),
-	'Angle', 13408,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1799103616)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(64774, 239674),
-	'Angle', 505,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1413343792)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(64404, 244173),
-	'Angle', 13356,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1808834194)
-PlaceObj('CoastalPlant_01_Tree_02', {
-	'Pos', point(49453, 246913),
-	'Angle', 8902,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1765106083)
-PlaceObj('TropicalFillerPlants_03', {
-	'Pos', point(49300, 249600),
-	'Angle', 20494,
-	'Scale', 102,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1164760686)
-PlaceObj('CoastalPlant_01_Tree_03', {
-	'Pos', point(50661, 253109),
-	'Angle', 14545,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1369139598)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(51728, 250969),
-	'Angle', 19818,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1893746158)
-PlaceObj('TropicalFillerPlants_04', {
-	'Pos', point(56608, 246104),
-	'Angle', 14036,
-	'Scale', 109,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1439518693)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(56665, 248529),
-	'Angle', 14565,
-	'Scale', 126,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1573523037)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(54606, 251403),
-	'Angle', 16082,
-	'Scale', 126,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1716354844)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(56805, 252478),
-	'Angle', 11403,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1043417773)
-PlaceObj('TropicalFillerPlants_02', {
-	'Pos', point(51722, 254898),
-	'Angle', 19074,
-	'Scale', 136,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1690867269)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(55924, 254346),
-	'Angle', 2287,
-	'Scale', 120,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1172108273)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(59294, 247354),
-	'Angle', 16772,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1281481036)
-PlaceObj('TropicalFillerPlants_03', {
-	'Pos', point(59936, 246091),
-	'Angle', 9371,
-	'Scale', 101,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1540819791)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(61137, 249469),
-	'Angle', 2469,
-	'Scale', 137,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1620717712)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(61296, 252820),
-	'Angle', 4101,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1028117721)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(65030, 246482),
-	'Angle', 7395,
-	'Scale', 139,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1084188766)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(64101, 248915),
-	'Angle', 19509,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1487355487)
-PlaceObj('CoastalPlant_01_Tree_02', {
-	'Pos', point(65380, 252565),
-	'Angle', 1281,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1205082928)
-PlaceObj('TropicalFillerPlants_02', {
-	'Pos', point(60505, 254640),
-	'Angle', 11722,
-	'Scale', 127,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1508035356)
-PlaceObj('CoastalPlant_01_Tree_01', {
-	'Pos', point(60953, 255436),
-	'Angle', 19243,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1432517456)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(64047, 255572),
-	'Angle', 12214,
-	'Scale', 130,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1127565881)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(65394, 254598),
-	'Angle', 7796,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1889089526)
 PlaceObj('CoastalPlant_01_Tree_02', {
 	'Pos', point(72290, 137447),
 	'Angle', 3072,
@@ -24574,20 +18919,21 @@ PlaceObj('Shanty_PlasticChair_Sit_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1325069882)
+PlaceObj('Weapon_MP40', {
+	'Pos', point(97063, 154969, 18738),
+	'Angle', 5400,
+	'Axis', point(4096, 0, 0),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2454,
+	'AllowedMask', 0,
+}, nil, 1274320476)
 PlaceObj('Bar_Bottle_02', {
 	'Pos', point(97247, 154900, 18658),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1084928450)
-PlaceObj('World_MoneyPile_02', {
-	'Pos', point(97231, 155186, 18702),
-	'Angle', 7761,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'CollectionIndex', 2145,
-	'AllowedMask', 4294967279,
-}, nil, 1252361797)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(97111, 155620, 18741),
 	'Angle', 11885,
@@ -24613,15 +18959,6 @@ PlaceObj('Shanty_BeerBottle_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1116994002)
-PlaceObj('Weapon_MP40', {
-	'Pos', point(97509, 154849, 18738),
-	'Angle', 5400,
-	'Axis', point(4096, 0, 0),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'CollectionIndex', 2454,
-	'AllowedMask', 0,
-}, nil, 1274320476)
 PlaceObj('Marketplace_Table_01', {
 	'Pos', point(97361, 155235),
 	'Saturation', 0,
@@ -24657,14 +18994,6 @@ PlaceObj('AL_SitChair', {
 	'VisitAlternateChance', 29,
 	'EmotionChance', 11,
 }, nil, 1060577610)
-PlaceObj('World_MoneyPile_02', {
-	'Pos', point(98115, 155145, 18700),
-	'Angle', 3492,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'CollectionIndex', 2145,
-	'AllowedMask', 4294967279,
-}, nil, 1318629608)
 PlaceObj('Bunker_MetalBed_mattress', {
 	'Pos', point(93834, 156948, 18098),
 	'Angle', 1177,
@@ -25299,6 +19628,14 @@ PlaceObj('Shanty_Chair_02', {
 	'AllowedMask', 782,
 }, nil, 1617687392)
 PlaceObj('World_MoneyPile_02', {
+	'Pos', point(98489, 154853, 18700),
+	'Angle', 3492,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2145,
+	'AllowedMask', 4294967279,
+}, nil, 1318629608)
+PlaceObj('World_MoneyPile_02', {
 	'Pos', point(98620, 155057, 18741),
 	'Angle', 15900,
 	'Saturation', 0,
@@ -25306,6 +19643,14 @@ PlaceObj('World_MoneyPile_02', {
 	'CollectionIndex', 2145,
 	'AllowedMask', 4294967279,
 }, nil, 1797387082)
+PlaceObj('Shanty_BottleCrate_01', {
+	'Pos', point(98815, 155002, 18043),
+	'Angle', 21384,
+	'Axis', point(0, 4096, 0),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1052682571)
 PlaceObj('Bar_Bottles_04', {
 	'Pos', point(98320, 155191, 18723),
 	'Saturation', 0,
@@ -25343,13 +19688,21 @@ PlaceObj('World_MoneyPile_02', {
 	'AllowedMask', 4294967279,
 }, nil, 1190100466)
 PlaceObj('Shanty_BottleCrate_01', {
-	'Pos', point(99066, 154985, 18164),
+	'Pos', point(99066, 155002, 18301),
 	'Angle', 6811,
 	'Axis', point(0, 4096, 0),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1800318013)
+PlaceObj('World_MoneyPile_02', {
+	'Pos', point(98962, 155117, 18702),
+	'Angle', 7761,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2145,
+	'AllowedMask', 4294967279,
+}, nil, 1252361797)
 PlaceObj('Fire_1x2', {
 	'Pos', point(101190, 154809),
 	'AllowedMask', 4294966497,
@@ -26268,6 +20621,14 @@ PlaceObj('TropicalFillerPlants_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1030640122)
+PlaceObj('TropicalPlant_Liana_05', {
+	'Pos', point(124857, 172358, 13838),
+	'Angle', 16634,
+	'Scale', 82,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1291458986)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(115642, 190891),
 	'Angle', 2709,
@@ -26574,407 +20935,6 @@ PlaceObj('TropicalPlant_07_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1278782190)
-PlaceObj('CoastalPlant_01_Tree_01', {
-	'Pos', point(68086, 237095),
-	'Angle', 9596,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1602113485)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(73364, 236451),
-	'Angle', 2919,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1172490367)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(67668, 238836),
-	'Angle', 2482,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1838227752)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(68940, 243170),
-	'Angle', 1445,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1388788459)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(72892, 241460),
-	'Angle', 4987,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1831269345)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(72264, 243820),
-	'Angle', 7848,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1190387851)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(77268, 237308),
-	'Angle', 20397,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1282035009)
-PlaceObj('CoastalPlant_01_Tree_03', {
-	'Pos', point(79013, 237155),
-	'Angle', 12124,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1227325761)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(76842, 238682),
-	'Angle', 20757,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1350438206)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(74908, 245198),
-	'Angle', 17107,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1502376224)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(80749, 240794),
-	'Angle', 8615,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1857854606)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(81215, 244394),
-	'Angle', 7125,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1582080861)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(66662, 248216),
-	'Angle', 12950,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1610418217)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(68175, 249722),
-	'Angle', 229,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1785514868)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(65645, 251341),
-	'Angle', 16676,
-	'Scale', 101,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1658113724)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(68310, 251316),
-	'Angle', 2631,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1230110163)
-PlaceObj('TropicalFillerPlants_05', {
-	'Pos', point(68244, 253876),
-	'Angle', 5190,
-	'Scale', 138,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1216404130)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(72693, 246754),
-	'Angle', 2438,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1244073203)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(73126, 246919),
-	'Angle', 21361,
-	'Scale', 140,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1354960397)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(71186, 250637),
-	'Angle', 5775,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1197226062)
-PlaceObj('CoastalPlant_01_Tree_03', {
-	'Pos', point(69479, 255021),
-	'Angle', 20484,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1197383856)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(71895, 254626),
-	'Angle', 20316,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1207436571)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(75118, 246683),
-	'Angle', 15169,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1485649521)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(75325, 251199),
-	'Angle', 11141,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1645592740)
-PlaceObj('TropicalFillerPlants_02', {
-	'Pos', point(75009, 253599),
-	'Angle', 2387,
-	'Scale', 110,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1355133538)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(76176, 251664),
-	'Angle', 12604,
-	'Scale', 119,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1868489137)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(78229, 249708),
-	'Angle', 8452,
-	'Scale', 131,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1644234957)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(80892, 246703),
-	'Angle', 14877,
-	'Scale', 118,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1139898228)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(80578, 247497),
-	'Angle', 10130,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1762583630)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(79845, 251585),
-	'Angle', 17205,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1221512230)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(80764, 251394),
-	'Angle', 4660,
-	'Scale', 116,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1236076743)
-PlaceObj('CoastalPlant_01_Tree_02', {
-	'Pos', point(84689, 241347),
-	'Angle', 21415,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1509399065)
-PlaceObj('CoastalPlant_01_Tree_01', {
-	'Pos', point(84645, 245215),
-	'Angle', 17736,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1331012960)
-PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(86551, 241034),
-	'Angle', 6254,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1808704615)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(87949, 244350),
-	'Angle', 15730,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1639052246)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(90505, 241294),
-	'Angle', 9357,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1455391680)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(90997, 243736),
-	'Angle', 2342,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1061494516)
-PlaceObj('CoastalPlant_01_Tree_03', {
-	'Pos', point(95139, 244571),
-	'Angle', 7417,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1084112170)
-PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(84981, 249087),
-	'Angle', 13123,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1184316853)
-PlaceObj('TropicalFillerPlants_05', {
-	'Pos', point(83912, 251554),
-	'Angle', 3498,
-	'Scale', 126,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1713958543)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(85308, 252070),
-	'Angle', 1456,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1800049106)
-PlaceObj('TropicalFillerPlants_02', {
-	'Pos', point(85280, 253650),
-	'Angle', 19984,
-	'Scale', 137,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1380311840)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(87199, 246589),
-	'Angle', 15836,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1495109526)
-PlaceObj('TropicalPlant_Dead_07', {
-	'Pos', point(87918, 248507),
-	'Angle', 20908,
-	'Scale', 116,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1257012506)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(88592, 249786),
-	'Angle', 19211,
-	'Scale', 133,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1203746604)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(86639, 251915),
-	'Angle', 17604,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1510767503)
-PlaceObj('TropicalFillerPlants_02', {
-	'Pos', point(81990, 255260),
-	'Angle', 17709,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1201137937)
-PlaceObj('CoastalPlant_01_Tree_02', {
-	'Pos', point(90787, 248592),
-	'Angle', 5428,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1412938199)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(93235, 250735),
-	'Angle', 10182,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1235422888)
-PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(97193, 248122),
-	'Angle', 15634,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1489641635)
-PlaceObj('TropicalFillerPlants_08', {
-	'Pos', point(95141, 250840),
-	'Angle', 19266,
-	'Scale', 120,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1025160948)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(95127, 253174),
-	'Angle', 14697,
-	'Scale', 125,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1625442478)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(97080, 250523),
-	'Angle', 8959,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1387372141)
-PlaceObj('TropicalFillerPlants_03', {
-	'Pos', point(98059, 251228),
-	'Angle', 14024,
-	'Scale', 138,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1540534892)
-PlaceObj('TropicalFillerPlants_05', {
-	'Pos', point(90933, 254327),
-	'Angle', 4402,
-	'Scale', 142,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1886614998)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(99644, 197183),
 	'Angle', 16551,
@@ -27191,6 +21151,14 @@ PlaceObj('TropicalFillerPlants_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1592381887)
+PlaceObj('TropicalPlant_04_Tree_01', {
+	'Pos', point(124168, 210561, 13681),
+	'Angle', 11032,
+	'Scale', 131,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1169806819)
 PlaceObj('TropicalPlant_04_Tree_02', {
 	'Pos', point(128960, 207079),
 	'Angle', 5705,
@@ -27198,161 +21166,6 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1688834741)
-PlaceObj('TropicalFillerPlants_08', {
-	'Pos', point(127982, 211689),
-	'Angle', 20986,
-	'Scale', 109,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1336961653)
-PlaceObj('CoastalPlant_01_Tree_01', {
-	'Pos', point(128860, 212764),
-	'Angle', 14422,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1058110353)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(116208, 223372),
-	'Angle', 11941,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1595814052)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(115982, 229046),
-	'Angle', 1870,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1814071792)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(121158, 224579),
-	'Angle', 8538,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1448693265)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(122979, 216628),
-	'Angle', 5883,
-	'Scale', 133,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1006835047)
-PlaceObj('TropicalFillerPlants_04', {
-	'Pos', point(124938, 213258),
-	'Angle', 12478,
-	'Scale', 143,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1180545077)
-PlaceObj('TropicalFillerPlants_03', {
-	'Pos', point(126564, 215877),
-	'Angle', 2057,
-	'Scale', 140,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1175219596)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(125042, 221065),
-	'Angle', 21416,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1872531860)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(129199, 217149),
-	'Angle', 3486,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1410959886)
-PlaceObj('TropicalFillerPlants_04', {
-	'Pos', point(129937, 218481),
-	'Angle', 20982,
-	'Scale', 133,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1807405481)
-PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(129392, 219974),
-	'Angle', 7410,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1793296699)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(130662, 220301),
-	'Angle', 20436,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1356519961)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(124111, 223679),
-	'Angle', 21004,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1811166385)
-PlaceObj('TropicalFillerPlants_05', {
-	'Pos', point(126344, 221936),
-	'Angle', 7768,
-	'Scale', 113,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1428094733)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(123829, 228974),
-	'Angle', 8160,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1081718756)
-PlaceObj('TropicalFillerPlants_05', {
-	'Pos', point(124481, 227660),
-	'Angle', 2065,
-	'Scale', 116,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1587588421)
-PlaceObj('TropicalFillerPlants_05', {
-	'Pos', point(129771, 223725),
-	'Angle', 5921,
-	'Scale', 126,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1626569105)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(129168, 224629),
-	'Angle', 15643,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1874239588)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(129115, 227670),
-	'Angle', 8458,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1731412222)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(100043, 236686),
-	'Angle', 5627,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1657312520)
 PlaceObj('CoastalPlant_01_Tree_01', {
 	'Pos', point(103447, 231112),
 	'Angle', 1186,
@@ -27360,55 +21173,6 @@ PlaceObj('CoastalPlant_01_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1837290359)
-PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(105153, 233192),
-	'Angle', 15868,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1629249077)
-PlaceObj('CoastalPlant_01_Tree_02', {
-	'Pos', point(103811, 237265),
-	'Angle', 15565,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1248673633)
-PlaceObj('CoastalPlant_01_Tree_03', {
-	'Pos', point(99560, 238729),
-	'Angle', 10083,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1201819556)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(100059, 244151),
-	'Angle', 8608,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1268073457)
-PlaceObj('CoastalPlant_01_Tree_03', {
-	'Pos', point(104729, 241400),
-	'Angle', 20401,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1254651802)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(104143, 243110),
-	'Angle', 11872,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1407538936)
-PlaceObj('TropicalFillerPlants_08', {
-	'Pos', point(105410, 243446),
-	'Angle', 3060,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1335522363)
 PlaceObj('CoastalPlant_01_Tree_02', {
 	'Pos', point(108382, 232264),
 	'Angle', 9102,
@@ -27416,546 +21180,6 @@ PlaceObj('CoastalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1504301652)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(109172, 237294),
-	'Angle', 4186,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1162681417)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(111179, 236880),
-	'Angle', 19877,
-	'Scale', 124,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1211809863)
-PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(112259, 236896),
-	'Angle', 2864,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1355783811)
-PlaceObj('TropicalFillerPlants_04', {
-	'Pos', point(106913, 240664),
-	'Angle', 723,
-	'Scale', 132,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1259829025)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(108988, 240464),
-	'Angle', 13424,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1488054504)
-PlaceObj('TropicalFillerPlants_04', {
-	'Pos', point(108507, 244263),
-	'Angle', 12105,
-	'Scale', 96,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1216458272)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(107629, 245382),
-	'Angle', 18784,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1296811553)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(111447, 238578),
-	'Angle', 21464,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1783585610)
-PlaceObj('TropicalFillerPlants_05', {
-	'Pos', point(111351, 240991),
-	'Angle', 2738,
-	'Scale', 126,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1014910815)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(112863, 243449),
-	'Angle', 4711,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1055698630)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(112650, 243807),
-	'Angle', 19628,
-	'Scale', 142,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1573068567)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(100539, 247918),
-	'Angle', 7858,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1689747710)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(101432, 251649),
-	'Angle', 17564,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1195964922)
-PlaceObj('TropicalFillerPlants_08', {
-	'Pos', point(101876, 253721),
-	'Angle', 20795,
-	'Scale', 103,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1817475845)
-PlaceObj('TropicalFillerPlants_02', {
-	'Pos', point(105168, 246535),
-	'Angle', 12302,
-	'Scale', 126,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1590756185)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(105263, 248471),
-	'Angle', 11896,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1524655426)
-PlaceObj('CoastalPlant_01_Tree_01', {
-	'Pos', point(103661, 250636),
-	'Angle', 15143,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1288850318)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(104928, 250665),
-	'Angle', 1087,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1348669717)
-PlaceObj('CoastalPlant_01_Tree_03', {
-	'Pos', point(99601, 254716),
-	'Angle', 14511,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1470384268)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(102601, 254934),
-	'Angle', 14149,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1730677991)
-PlaceObj('TropicalFillerPlants_08', {
-	'Pos', point(104060, 255910),
-	'Angle', 19679,
-	'Scale', 138,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1763947868)
-PlaceObj('TropicalFillerPlants_03', {
-	'Pos', point(109336, 247275),
-	'Angle', 15221,
-	'Scale', 124,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1667888748)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(106664, 250906),
-	'Angle', 12535,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1341723686)
-PlaceObj('TropicalFillerPlants_02', {
-	'Pos', point(108539, 251526),
-	'Angle', 14750,
-	'Scale', 143,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1023281487)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(111704, 247866),
-	'Angle', 12686,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1138063220)
-PlaceObj('TropicalFillerPlants_04', {
-	'Pos', point(112809, 246730),
-	'Angle', 13418,
-	'Scale', 128,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1221778631)
-PlaceObj('TropicalFillerPlants_04', {
-	'Pos', point(111019, 251485),
-	'Angle', 12898,
-	'Scale', 119,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1724823433)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(112443, 251035),
-	'Angle', 9409,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1479813045)
-PlaceObj('TropicalFillerPlants_04', {
-	'Pos', point(112596, 251407),
-	'Angle', 19978,
-	'Scale', 136,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1871207969)
-PlaceObj('TropicalFillerPlants_02', {
-	'Pos', point(111619, 255869),
-	'Angle', 9856,
-	'Scale', 140,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1551866616)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(113190, 255078),
-	'Angle', 5336,
-	'Scale', 106,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1480070381)
-PlaceObj('CoastalPlant_01_Tree_03', {
-	'Pos', point(115451, 232226),
-	'Angle', 14209,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1587099884)
-PlaceObj('TropicalFillerPlants_02', {
-	'Pos', point(118520, 230893),
-	'Angle', 6870,
-	'Scale', 130,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1312705549)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(117057, 236057),
-	'Angle', 14398,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1045589053)
-PlaceObj('TropicalFillerPlants_05', {
-	'Pos', point(118886, 229427),
-	'Angle', 12579,
-	'Scale', 133,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1135187150)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(120263, 230554),
-	'Angle', 7497,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1251875600)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(120707, 231118),
-	'Angle', 808,
-	'Scale', 137,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1079820559)
-PlaceObj('CoastalPlant_01_Tree_03', {
-	'Pos', point(120944, 229452),
-	'Angle', 11275,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1350734457)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(120744, 236254),
-	'Angle', 1184,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1810761794)
-PlaceObj('TropicalFillerPlants_03', {
-	'Pos', point(121464, 234518),
-	'Angle', 16512,
-	'Scale', 106,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1069713218)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(115679, 240625),
-	'Angle', 7417,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1165484425)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(116481, 245104),
-	'Angle', 19025,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1206297425)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(116893, 242776),
-	'Angle', 3306,
-	'Scale', 112,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1622858564)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(120015, 241070),
-	'Angle', 13204,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1618451190)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(118939, 242875),
-	'Angle', 38,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1023293716)
-PlaceObj('TropicalFillerPlants_08', {
-	'Pos', point(120608, 243682),
-	'Angle', 13402,
-	'Scale', 96,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1326094426)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(122614, 244623),
-	'Angle', 20216,
-	'Scale', 130,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1327381423)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(123140, 232270),
-	'Angle', 11655,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1647038320)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(126271, 229877),
-	'Angle', 1054,
-	'Scale', 104,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1646677848)
-PlaceObj('TropicalFillerPlants_08', {
-	'Pos', point(125465, 232535),
-	'Angle', 11489,
-	'Scale', 132,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1664797456)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(123539, 236994),
-	'Angle', 16965,
-	'Scale', 101,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1539113932)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(123903, 236944),
-	'Angle', 2227,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1630928648)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(127890, 231411),
-	'Angle', 2465,
-	'Scale', 139,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1074670627)
-PlaceObj('TropicalFillerPlants_08', {
-	'Pos', point(128338, 233396),
-	'Angle', 13982,
-	'Scale', 142,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1309657199)
-PlaceObj('TropicalFillerPlants_02', {
-	'Pos', point(129311, 231312),
-	'Angle', 8090,
-	'Scale', 136,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1254506536)
-PlaceObj('CoastalPlant_01_Tree_02', {
-	'Pos', point(127428, 235508),
-	'Angle', 11649,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1066987645)
-PlaceObj('TropicalFillerPlants_02', {
-	'Pos', point(128018, 234622),
-	'Angle', 7530,
-	'Scale', 124,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1449500650)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(124282, 239866),
-	'Angle', 3763,
-	'Scale', 121,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1489128918)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(124181, 243289),
-	'Angle', 9134,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1427489503)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(128512, 240473),
-	'Angle', 19742,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1479501090)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(128097, 243239),
-	'Angle', 20003,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1073508714)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(127508, 244746),
-	'Angle', 3577,
-	'Scale', 120,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1274319368)
-PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(115007, 247675),
-	'Angle', 12180,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1095436851)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(116820, 248244),
-	'Angle', 1047,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1488030236)
-PlaceObj('TropicalFillerPlants_05', {
-	'Pos', point(117043, 252102),
-	'Angle', 6376,
-	'Scale', 119,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1153659630)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(119587, 247066),
-	'Angle', 14945,
-	'Scale', 103,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1791939843)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(119112, 248891),
-	'Angle', 1072,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1736863793)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(119685, 252175),
-	'Angle', 14561,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1470622827)
-PlaceObj('TropicalFillerPlants_05', {
-	'Pos', point(114735, 255893),
-	'Angle', 7863,
-	'Scale', 97,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1589515794)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(124431, 247249),
-	'Angle', 20240,
-	'Scale', 108,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1602533341)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(126934, 247650),
-	'Angle', 1380,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1170806780)
-PlaceObj('TropicalFillerPlants_02', {
-	'Pos', point(126682, 249403),
-	'Angle', 17538,
-	'Scale', 127,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1555859307)
 PlaceObj('TropicalPlant_07_Tree_02', {
 	'Pos', point(132704, 15681),
 	'Angle', 19184,
@@ -34246,6 +27470,14 @@ PlaceObj('Marshland_AzollaPinnata_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1201588336)
+PlaceObj('CoastalPlant_01_Tree_03', {
+	'Pos', point(163070, 93383, 14376),
+	'Angle', 4704,
+	'Scale', 113,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1381963132)
 PlaceObj('TropicalFillerPlants_01', {
 	'Pos', point(132690, 100254),
 	'Angle', 18416,
@@ -34930,14 +28162,14 @@ PlaceObj('CoastalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1527915690)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(163753, 103936),
-	'Angle', 11916,
-	'Scale', 95,
+PlaceObj('TropicalPlant_06_Tree_01', {
+	'Pos', point(156681, 105604, 14618),
+	'Angle', 12608,
+	'Scale', 152,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1422525828)
+	'AllowedMask', 4294967279,
+}, nil, 1134600169)
 PlaceObj('TropicalFillerPlants_03', {
 	'Pos', point(160876, 107922),
 	'Angle', 4324,
@@ -35236,7 +28468,7 @@ PlaceObj('CoastalPlant_01_Tree_02', {
 	'AllowedMask', 4294967279,
 }, nil, 1454239275)
 PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(185025, 76852),
+	'Pos', point(186611, 77396, 18558),
 	'Angle', 16898,
 	'Scale', 120,
 	'Saturation', 0,
@@ -35299,22 +28531,22 @@ PlaceObj('CoastalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1276184527)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(182910, 90687),
-	'Angle', 3230,
-	'Scale', 114,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1754051289)
 PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(185345, 90461),
+	'Pos', point(185290, 88276, 17622),
 	'Angle', 9021,
 	'Scale', 109,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1522661102)
+PlaceObj('TropicalPlant_01_Tree_01', {
+	'Pos', point(183002, 90466, 17628),
+	'Angle', 3230,
+	'Scale', 114,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1754051289)
 PlaceObj('CoastalPlant_01_Tree_04', {
 	'Pos', point(185618, 96902),
 	'Angle', 20759,
@@ -35331,14 +28563,14 @@ PlaceObj('TropicalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1516166418)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(165561, 107618),
-	'Angle', 6890,
-	'Scale', 102,
+PlaceObj('TropicalPlant_02_Tree_01', {
+	'Pos', point(165140, 100318, 13734),
+	'Angle', 9122,
+	'Scale', 131,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1822544631)
+	'AllowedMask', 4294967279,
+}, nil, 1766443306)
 PlaceObj('TropicalFillerPlants_05', {
 	'Pos', point(167122, 107001),
 	'Angle', 7050,
@@ -35363,22 +28595,6 @@ PlaceObj('TropicalFillerPlants_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1231061859)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(174849, 104966, 13734),
-	'Angle', 9122,
-	'Scale', 131,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1766443306)
-PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(174608, 108046, 13754),
-	'Angle', 12608,
-	'Scale', 121,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1768581236)
 PlaceObj('TropicalFillerPlants_05', {
 	'Pos', point(163842, 115317),
 	'Angle', 21099,
@@ -35436,7 +28652,7 @@ PlaceObj('TropicalFillerPlants_01', {
 	'AllowedMask', 0,
 }, nil, 1436169156)
 PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(167825, 123768),
+	'Pos', point(167822, 123772),
 	'Angle', 1499,
 	'Scale', 138,
 	'Saturation', 0,
@@ -35491,14 +28707,14 @@ PlaceObj('TropicalFillerPlants_08', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1713125862)
-PlaceObj('CoastalPlant_01_Tree_03', {
-	'Pos', point(175206, 116563, 13758),
-	'Angle', 4704,
-	'Scale', 113,
+PlaceObj('CoastalPlant_01_Tree_01', {
+	'Pos', point(179334, 125288, 13920),
+	'Angle', 17269,
+	'Scale', 84,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1038427294)
+}, nil, 1212189706)
 PlaceObj('TropicalPlant_06_Tree_02', {
 	'Pos', point(187722, 99284),
 	'Angle', 16233,
@@ -35515,6 +28731,14 @@ PlaceObj('CoastalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1734766287)
+PlaceObj('TropicalPlant_Liana_05', {
+	'Pos', point(183505, 111346, 17313),
+	'Angle', 16634,
+	'Scale', 129,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1209659766)
 PlaceObj('TropicalPlant_04_Tree_02', {
 	'Pos', point(187839, 108285),
 	'Angle', 2692,
@@ -35523,6 +28747,14 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1746008217)
+PlaceObj('TropicalPlant_01_Tree_01', {
+	'Pos', point(196270, 105947, 17128),
+	'Angle', 20304,
+	'Scale', 119,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1426518770)
 PlaceObj('CoastalPlant_01_Tree_04', {
 	'Pos', point(192182, 112984),
 	'Angle', 3658,
@@ -35563,14 +28795,6 @@ PlaceObj('TropicalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1408111196)
-PlaceObj('CoastalPlant_01_Tree_01', {
-	'Pos', point(180354, 128146),
-	'Angle', 17269,
-	'Scale', 84,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1212189706)
 PlaceObj('CoastalPlant_01_Tree_04', {
 	'Pos', point(186627, 123746),
 	'Angle', 14379,
@@ -35620,7 +28844,7 @@ PlaceObj('TropicalFillerPlants_04', {
 	'AllowedMask', 0,
 }, nil, 1051998811)
 PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(189587, 125165),
+	'Pos', point(189589, 125170),
 	'Angle', 16911,
 	'Scale', 127,
 	'Saturation', 0,
@@ -37794,9 +31018,10 @@ PlaceObj('CoastalPlant_01_Tree_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1539441199)
 PlaceObj('CoastalPlant_01_Tree_02', {
-	'Pos', point(200134, 87591),
-	'Angle', 1927,
+	'Pos', point(197868, 86956, 18246),
+	'Angle', 2034,
 	'Scale', 120,
+	'Axis', point(-844, -1937, 3508),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
@@ -37824,8 +31049,9 @@ PlaceObj('MilitaryCamp_Tent', {
 	'EditableMetallic1', 32,
 	'EditableColor2', RGBA(5, 15, 8, 255),
 	'EditableColor3', RGBA(32, 50, 38, 255),
-	'Pos', point(207732, 97190, 17160),
+	'Pos', point(208199, 96744, 17160),
 	'Angle', 5457,
+	'Axis', point(17, -38, 4095),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
@@ -37917,18 +31143,40 @@ PlaceObj('MilitaryCamp_Tent', {
 	'EditableMetallic1', 32,
 	'EditableColor2', RGBA(5, 15, 8, 255),
 	'EditableColor3', RGBA(32, 50, 38, 255),
-	'Pos', point(202592, 98795, 17160),
-	'Angle', 3189,
+	'Pos', point(202602, 98932, 17160),
+	'Angle', 4240,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1851480703)
+PlaceObj('Shanty_Barrel_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(225, 29, 19, 255),
+	'EditableColor2', RGBA(33, 2, 2, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(202985, 105775, 17068),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1711596044)
 PlaceObj('Explosive_Barrel', {
-	'Pos', point(203400, 105000),
+	'Pos', point(203400, 106200),
+	'ColorModifier', RGBA(38, 4, 4, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1580506577)
+PlaceObj('Shanty_Barrel_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(225, 29, 19, 255),
+	'EditableColor2', RGBA(33, 2, 2, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(203946, 105858, 17091),
+	'Angle', 13490,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1741568262)
 PlaceObj('CoastalPlant_01_Tree_04', {
 	'Pos', point(198670, 111251),
 	'Angle', 10065,
@@ -37937,6 +31185,16 @@ PlaceObj('CoastalPlant_01_Tree_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1076150398)
+PlaceObj('Shanty_Barrel_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(225, 29, 19, 255),
+	'EditableColor2', RGBA(33, 2, 2, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(202937, 106532),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1822548128)
 PlaceObj('MilitaryCamp_Canopy_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(10, 23, 14, 255),
@@ -37971,32 +31229,14 @@ PlaceObj('Shanty_TirePile_01', {
 PlaceObj('Shanty_Chair_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(69, 58, 39, 255),
-	'Pos', point(207664, 103025, 17108),
+	'Pos', point(205434, 103489, 17108),
 	'Angle', 2521,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1384080262)
-PlaceObj('Shanty_Chair_01', {
-	'ColorizationPalette', "",
-	'EditableColor1', RGBA(69, 58, 39, 255),
-	'Pos', point(207707, 104203, 17108),
-	'Angle', 18984,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
-}, nil, 1662185075)
-PlaceObj('Shanty_Chair_01', {
-	'ColorizationPalette', "",
-	'EditableColor1', RGBA(69, 58, 39, 255),
-	'Pos', point(208719, 102965, 17108),
-	'Angle', 7743,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
-}, nil, 1406401678)
 PlaceObj('Marketplace_Table_01', {
-	'Pos', point(208286, 103610, 17080),
+	'Pos', point(206056, 104074, 17080),
 	'Angle', 2700,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -38005,69 +31245,90 @@ PlaceObj('Marketplace_Table_01', {
 PlaceObj('Shanty_BottleCrate_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 77, 53, 255),
-	'Pos', point(208230, 103822),
+	'Pos', point(206000, 104286, 17090),
 	'Angle', 1635,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1674812612)
+PlaceObj('Shanty_Chair_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(69, 58, 39, 255),
+	'Pos', point(206489, 103429, 17108),
+	'Angle', 7743,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1406401678)
+PlaceObj('Shanty_Chair_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(69, 58, 39, 255),
+	'Pos', point(205477, 104667, 17108),
+	'Angle', 18984,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1662185075)
 PlaceObj('Shanty_BottleCrate_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 77, 53, 255),
-	'Pos', point(208489, 104239),
+	'Pos', point(206259, 104703, 17092),
 	'Angle', 19101,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1400289664)
 PlaceObj('Shanty_Basket_Carry_05', {
-	'Pos', point(207033, 105527),
+	'Pos', point(206746, 104857, 17729),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1310659653)
+PlaceObj('Shanty_BottleCrate_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(32, 35, 47, 255),
+	'Pos', point(206708, 105086, 17096),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1682384614)
 PlaceObj('Shanty_Chair_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(69, 58, 39, 255),
-	'Pos', point(208472, 105059),
+	'Pos', point(206242, 105523, 17110),
 	'Angle', 18984,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1610150204)
+PlaceObj('Shanty_Chair_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(69, 58, 39, 255),
+	'Pos', point(207213, 104081, 17108),
+	'Angle', 7743,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1142407906)
 PlaceObj('Village_Basket_04', {
 	'Pos', point(212560, 101496),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1798741996)
-PlaceObj('Shanty_Chair_01', {
+PlaceObj('MilitaryCamp_Tent', {
 	'ColorizationPalette', "",
-	'EditableColor1', RGBA(69, 58, 39, 255),
-	'Pos', point(209443, 103617, 17108),
-	'Angle', 7743,
+	'EditableColor1', RGBA(26, 40, 30, 255),
+	'EditableRoughness1', 35,
+	'EditableMetallic1', 32,
+	'EditableColor2', RGBA(5, 15, 8, 255),
+	'EditableColor3', RGBA(32, 50, 38, 255),
+	'Pos', point(212947, 103867, 17160),
+	'Angle', 10857,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
-}, nil, 1142407906)
-PlaceObj('Shanty_BottleCrate_01', {
-	'ColorizationPalette', "",
-	'EditableColor1', RGBA(32, 35, 47, 255),
-	'Pos', point(208938, 104622),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
-}, nil, 1682384614)
-PlaceObj('Shanty_CauldronSoup', {
-	'ColorizationPalette', "",
-	'EditableColor1', RGBA(52, 45, 41, 255),
-	'EditableColor2', RGBA(48, 25, 14, 255),
-	'EditableColor3', RGBA(69, 58, 39, 255),
-	'Pos', point(210209, 105508),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
-}, nil, 1668664434)
+}, nil, 1557623418)
 PlaceObj('Shanty_TirePile_01', {
 	'Pos', point(204998, 109618, 17662),
 	'Angle', 3600,
@@ -38082,6 +31343,30 @@ PlaceObj('Shanty_TirePile_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1148467931)
+PlaceObj('Shanty_CauldronSoup', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(52, 45, 41, 255),
+	'EditableColor2', RGBA(48, 25, 14, 255),
+	'EditableColor3', RGBA(69, 58, 39, 255),
+	'Pos', point(209418, 107473, 17126),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1668664434)
+PlaceObj('MilitaryCamp_Tent', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(26, 40, 30, 255),
+	'EditableRoughness1', 35,
+	'EditableMetallic1', 32,
+	'EditableColor2', RGBA(5, 15, 8, 255),
+	'EditableColor3', RGBA(32, 50, 38, 255),
+	'Pos', point(209583, 113486, 17112),
+	'Angle', 15863,
+	'Axis', point(51, 60, 4095),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1173319561)
 PlaceObj('TropicalPlant_02_Tree_01', {
 	'Pos', point(202209, 126543, 16375),
 	'Angle', 18752,
@@ -38090,6 +31375,15 @@ PlaceObj('TropicalPlant_02_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1609978359)
+PlaceObj('TropicalPlant_Liana_05', {
+	'Pos', point(206981, 125284, 16349),
+	'Angle', 16560,
+	'Scale', 129,
+	'Axis', point(-80, 51, 4094),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1014127210)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(208687, 127391),
 	'Angle', 12248,
@@ -38147,23 +31441,12 @@ PlaceObj('TropicalPlant_Dead_03', {
 }, nil, 1632617890)
 PlaceObj('Farmland_CornBag_01', {
 	'Pos', point(213686, 100425),
+	'Angle', 15842,
+	'Axis', point(-2643, 3128, 60),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1463480885)
-PlaceObj('MilitaryCamp_Tent', {
-	'ColorizationPalette', "",
-	'EditableColor1', RGBA(26, 40, 30, 255),
-	'EditableRoughness1', 35,
-	'EditableMetallic1', 32,
-	'EditableColor2', RGBA(5, 15, 8, 255),
-	'EditableColor3', RGBA(32, 50, 38, 255),
-	'Pos', point(215473, 104933, 17160),
-	'Angle', 10857,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
-}, nil, 1557623418)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(220957, 101146),
 	'Angle', 8609,
@@ -38172,73 +31455,14 @@ PlaceObj('TropicalFillerPlants_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1816660500)
-PlaceObj('TropicalFillerPlants_05', {
-	'Pos', point(219261, 104017),
-	'Angle', 21071,
-	'Scale', 133,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1603843021)
 PlaceObj('Shanty_LaverMetal_01', {
-	'Pos', point(213023, 107354),
+	'Pos', point(213925, 108334, 17295),
+	'Angle', 3028,
+	'Axis', point(1775, -2811, 2391),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1777793365)
-PlaceObj('MilitaryCamp_Tent', {
-	'ColorizationPalette', "",
-	'EditableColor1', RGBA(26, 40, 30, 255),
-	'EditableRoughness1', 35,
-	'EditableMetallic1', 32,
-	'EditableColor2', RGBA(5, 15, 8, 255),
-	'EditableColor3', RGBA(32, 50, 38, 255),
-	'Pos', point(215563, 110955, 17160),
-	'Angle', 10857,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
-}, nil, 1173319561)
-PlaceObj('TropicalFillerPlants_04', {
-	'Pos', point(218765, 108288),
-	'Angle', 21047,
-	'Scale', 97,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1699894566)
-PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(218778, 111340),
-	'Angle', 15690,
-	'Scale', 124,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1288519012)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(218360, 113863),
-	'Angle', 11029,
-	'Scale', 101,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1648395398)
-PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(218809, 113867),
-	'Angle', 20555,
-	'Scale', 119,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1861745809)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(223475, 101333),
-	'Angle', 17542,
-	'Scale', 127,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1687911289)
 PlaceObj('TropicalFillerPlants_05', {
 	'Pos', point(225327, 104690),
 	'Angle', 7666,
@@ -38247,12 +31471,6 @@ PlaceObj('TropicalFillerPlants_05', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1422439279)
-PlaceObj('Marshland_AzollaPinnata_01', {
-	'Pos', point(222884, 110285),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1141243658)
 PlaceObj('TropicalFillerPlants_01', {
 	'Pos', point(223603, 107721),
 	'Angle', 17593,
@@ -38269,22 +31487,6 @@ PlaceObj('TropicalFillerPlants_08', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1680948105)
-PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(221878, 114086),
-	'Angle', 5035,
-	'Scale', 115,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1189753399)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(223930, 112118, 17226),
-	'Angle', 20304,
-	'Scale', 119,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1326284505)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(215391, 121647),
 	'Angle', 18847,
@@ -38293,14 +31495,6 @@ PlaceObj('TropicalFillerPlants_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1521728661)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(217233, 117093),
-	'Angle', 14105,
-	'Scale', 121,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1479880719)
 PlaceObj('TropicalFillerPlants_03', {
 	'Pos', point(218974, 118889),
 	'Angle', 15555,
@@ -40751,12 +33945,20 @@ PlaceObj('CoastalPlant_01_Tree_02', {
 	'AllowedMask', 4294967279,
 }, nil, 1422214569)
 PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(151269, 152611),
+	'Pos', point(151181, 152964, 13988),
 	'Angle', 4236,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1294874948)
+PlaceObj('TropicalPlant_02_Tree_01', {
+	'Pos', point(155375, 152886, 13946),
+	'Angle', 18752,
+	'Scale', 132,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1253051660)
 PlaceObj('TropicalPlant_03_Tree_02', {
 	'Pos', point(158808, 148517, 12966),
 	'Angle', 19661,
@@ -40862,6 +34064,14 @@ PlaceObj('TropicalFillerPlants_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1345783260)
+PlaceObj('TropicalPlant_Liana_05', {
+	'Pos', point(136311, 165148, 13543),
+	'Angle', 16634,
+	'Scale', 129,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1575554440)
 PlaceObj('TropicalFillerPlants_04', {
 	'Pos', point(135512, 166051),
 	'Angle', 13779,
@@ -42139,6 +35349,14 @@ PlaceObj('TropicalFillerPlants_06', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1366621189)
+PlaceObj('TropicalPlant_Liana_05', {
+	'Pos', point(185310, 149715, 13565),
+	'Angle', 16634,
+	'Scale', 129,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1678500804)
 PlaceObj('TropicalFillerPlants_01', {
 	'Pos', point(187307, 149874),
 	'Angle', 6884,
@@ -42155,6 +35373,14 @@ PlaceObj('TropicalFillerPlants_05', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1584305871)
+PlaceObj('TropicalFillerPlants_05', {
+	'Pos', point(184533, 155054, 13678),
+	'Angle', 10861,
+	'Scale', 118,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1257139207)
 PlaceObj('TropicalFillerPlants_04', {
 	'Pos', point(185981, 155151),
 	'Angle', 15586,
@@ -42171,6 +35397,14 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1808472937)
+PlaceObj('TropicalPlant_Dead_07', {
+	'Pos', point(184188, 161995, 13092),
+	'Angle', 5110,
+	'Scale', 114,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1855390774)
 PlaceObj('TropicalPlant_02_Tree_01', {
 	'Pos', point(187811, 157890, 13548),
 	'Angle', 10341,
@@ -42283,14 +35517,6 @@ PlaceObj('TropicalPlant_Ivy_Plane_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1411829506)
-PlaceObj('TropicalFillerPlants_05', {
-	'Pos', point(168656, 167714),
-	'Angle', 10861,
-	'Scale', 118,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1416548919)
 PlaceObj('TropicalFillerPlants_08', {
 	'Pos', point(168997, 166825),
 	'Angle', 14663,
@@ -42488,6 +35714,14 @@ PlaceObj('TropicalFillerPlants_08', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1801119858)
+PlaceObj('TropicalPlant_04_Tree_01', {
+	'Pos', point(175798, 192479, 14138),
+	'Angle', 11032,
+	'Scale', 131,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1722923658)
 PlaceObj('TropicalFillerPlants_01', {
 	'Pos', point(173194, 193402),
 	'Angle', 20963,
@@ -42640,6 +35874,15 @@ PlaceObj('TropicalPlant_04_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1742817002)
+PlaceObj('WaterPlane', {
+	'Pos', point(182676, 195716, 12891),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 154,
+	'AllowedMask', 0,
+	'Passability', 0,
+	'waterpreset', "Lake_Rimville",
+}, nil, 1775680767)
 PlaceObj('TropicalFillerPlants_01', {
 	'Pos', point(185603, 189497),
 	'Angle', 20631,
@@ -42664,14 +35907,6 @@ PlaceObj('TropicalFillerPlants_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1438826519)
-PlaceObj('WaterPlane', {
-	'Pos', point(187569, 195183, 12891),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-	'Passability', 0,
-	'waterpreset', "Lake_Rimville",
-}, nil, 1775680767)
 PlaceObj('TropicalPlant_04_Tree_02', {
 	'Pos', point(188692, 180267),
 	'Angle', 1424,
@@ -42728,13 +35963,14 @@ PlaceObj('TropicalPlant_04_Tree_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1599175573)
 PlaceObj('WaterPlane', {
-	'Pos', point(193029, 192604, 12891),
+	'Pos', point(192655, 195716, 12891),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 423,
 	'AllowedMask', 0,
 	'Passability', 0,
 	'waterpreset', "Lake_Rimville",
-}, nil, 1417826931)
+}, nil, 1089591454)
 PlaceObj('TropicalPlant_07_Tree_01', {
 	'Pos', point(132338, 200500),
 	'Angle', 10981,
@@ -42809,14 +36045,6 @@ PlaceObj('TropicalPlant_08_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1814825434)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(132741, 208658),
-	'Angle', 2018,
-	'Scale', 133,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1137330013)
 PlaceObj('TropicalFillerPlants_08', {
 	'Pos', point(134464, 208393),
 	'Angle', 3054,
@@ -42847,14 +36075,6 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1887239267)
-PlaceObj('TropicalFillerPlants_04', {
-	'Pos', point(137548, 211830),
-	'Angle', 15319,
-	'Scale', 142,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1087419845)
 PlaceObj('TropicalFillerPlants_03', {
 	'Pos', point(140842, 197617),
 	'Angle', 985,
@@ -42870,6 +36090,14 @@ PlaceObj('TropicalPlant_07_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1371110875)
+PlaceObj('TropicalFillerPlants_08', {
+	'Pos', point(143135, 202100, 13684),
+	'Angle', 4985,
+	'Scale', 113,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1087378892)
 PlaceObj('TropicalPlant_02_Tree_02', {
 	'Pos', point(142222, 203371),
 	'Angle', 5254,
@@ -42877,6 +36105,14 @@ PlaceObj('TropicalPlant_02_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1509895803)
+PlaceObj('TropicalFillerPlants_03', {
+	'Pos', point(145085, 201540, 13686),
+	'Angle', 7240,
+	'Scale', 115,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1779331691)
 PlaceObj('CoastalPlant_01_Tree_01', {
 	'Pos', point(146954, 203169, 14132),
 	'Angle', 17633,
@@ -42893,6 +36129,14 @@ PlaceObj('TropicalFillerPlants_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1448015232)
+PlaceObj('TropicalFillerPlants_03', {
+	'Pos', point(143273, 206880, 13684),
+	'Angle', 2192,
+	'Scale', 130,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1120352893)
 PlaceObj('TropicalPlant_Dead_03', {
 	'Pos', point(140958, 209201, 14868),
 	'Angle', 1376,
@@ -42916,125 +36160,22 @@ PlaceObj('CoastalPlant_01_Tree_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1798515730)
-PlaceObj('TropicalFillerPlants_04', {
-	'Pos', point(131357, 213429),
-	'Angle', 5234,
-	'Scale', 97,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1602612482)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(133045, 214025),
-	'Angle', 15692,
-	'Scale', 122,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1199087667)
-PlaceObj('TropicalPlant_04_Tree_02', {
-	'Pos', point(132611, 215261),
-	'Angle', 12996,
+PlaceObj('TropicalPlant_02_Tree_02', {
+	'Pos', point(137448, 221251, 14866),
+	'Angle', 14636,
+	'Scale', 144,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1274705884)
-PlaceObj('TropicalFillerPlants_05', {
-	'Pos', point(134350, 216746),
-	'Angle', 13312,
-	'Scale', 128,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1466244384)
-PlaceObj('CoastalPlant_01_Tree_01', {
-	'Pos', point(137283, 215747),
-	'Angle', 5078,
+}, nil, 1574143484)
+PlaceObj('TropicalPlant_01_Tree_01', {
+	'Pos', point(140804, 216676, 14816),
+	'Angle', 12792,
+	'Scale', 109,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1205459403)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(137338, 219243),
-	'Angle', 4907,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1244121927)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(131152, 222779),
-	'Angle', 8634,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1060726619)
-PlaceObj('TropicalFillerPlants_05', {
-	'Pos', point(132684, 224181),
-	'Angle', 19238,
-	'Scale', 127,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1642134449)
-PlaceObj('TropicalFillerPlants_01', {
-	'Pos', point(132587, 227715),
-	'Angle', 17407,
-	'Scale', 136,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1453723573)
-PlaceObj('TropicalPlant_06_Tree_02', {
-	'Pos', point(132917, 227496),
-	'Angle', 21465,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1260999325)
-PlaceObj('TropicalFillerPlants_03', {
-	'Pos', point(136339, 223930),
-	'Angle', 18152,
-	'Scale', 118,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1629596541)
-PlaceObj('TropicalPlant_08_Tree_01', {
-	'Pos', point(137098, 224717),
-	'Angle', 11631,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1390885366)
-PlaceObj('TropicalPlant_07_Tree_02', {
-	'Pos', point(137193, 228660),
-	'Angle', 17935,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1411947397)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(141621, 216575),
-	'Angle', 12593,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1732444189)
-PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(139526, 218169),
-	'Angle', 7732,
-	'Scale', 131,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1567878180)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(140121, 218555),
-	'Angle', 14565,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1539015179)
+}, nil, 1864761501)
 PlaceObj('WaterPlane', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 76, 52, 255),
@@ -43593,44 +36734,6 @@ PlaceObj('TropicalPlant_07_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1479039950)
-PlaceObj('TropicalFillerPlants_02', {
-	'Pos', point(131532, 233012),
-	'Angle', 14359,
-	'Scale', 115,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1788007338)
-PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(135157, 232327),
-	'Angle', 17557,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1221731052)
-PlaceObj('TropicalFillerPlants_02', {
-	'Pos', point(134515, 232556),
-	'Angle', 10135,
-	'Scale', 136,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1195733022)
-PlaceObj('TropicalFillerPlants_08', {
-	'Pos', point(136679, 229434),
-	'Angle', 3367,
-	'Scale', 132,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1258037302)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(131288, 240588),
-	'Angle', 11279,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1775953235)
 PlaceObj('Village_Boat_01', {
 	'Pos', point(149559, 232610, 5972),
 	'Angle', 9307,
@@ -43855,7 +36958,7 @@ PlaceObj('TropicalFillerPlants_01', {
 	'AllowedMask', 0,
 }, nil, 1357874012)
 PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(172502, 220802),
+	'Pos', point(172498, 220815),
 	'Angle', 12792,
 	'Scale', 109,
 	'Saturation', 0,
@@ -43936,45 +37039,32 @@ PlaceObj('TropicalFillerPlants_03', {
 	'AllowedMask', 0,
 }, nil, 1452004333)
 PlaceObj('WaterPlane', {
-	'Pos', point(182796, 201841, 12891),
+	'Pos', point(182687, 205693, 12891),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 154,
 	'AllowedMask', 0,
 	'Passability', 0,
 	'waterpreset', "Lake_Rimville",
-}, nil, 1167266832)
+}, nil, 1670885942)
 PlaceObj('WaterPlane', {
-	'Pos', point(181696, 209368, 12891),
+	'Pos', point(192666, 205693, 12891),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 423,
 	'AllowedMask', 0,
 	'Passability', 0,
 	'waterpreset', "Lake_Rimville",
-}, nil, 1000549397)
+}, nil, 1205770874)
 PlaceObj('WaterPlane', {
-	'Pos', point(192338, 202201, 12890),
+	'Pos', point(182687, 215690, 12891),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 154,
 	'AllowedMask', 0,
 	'Passability', 0,
 	'waterpreset', "Lake_Rimville",
-}, nil, 1059378851)
-PlaceObj('WaterPlane', {
-	'Pos', point(190820, 209675, 12890),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-	'Passability', 0,
-	'waterpreset', "Lake_Rimville",
-}, nil, 1563666057)
-PlaceObj('WaterPlane', {
-	'Pos', point(181669, 217555, 12891),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-	'Passability', 0,
-	'waterpreset', "Lake_Rimville",
-}, nil, 1805354757)
+}, nil, 1104922381)
 PlaceObj('TropicalFillerPlants_06', {
 	'Pos', point(183561, 228775),
 	'Angle', 1298,
@@ -43984,37 +37074,22 @@ PlaceObj('TropicalFillerPlants_06', {
 	'AllowedMask', 0,
 }, nil, 1456830959)
 PlaceObj('WaterPlane', {
-	'Pos', point(184426, 222454, 12891),
+	'Pos', point(192666, 215690, 12891),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 423,
 	'AllowedMask', 0,
 	'Passability', 0,
 	'waterpreset', "Lake_Rimville",
-}, nil, 1118099196)
+}, nil, 1716738213)
 PlaceObj('WaterPlane', {
-	'Pos', point(191076, 214577, 12891),
+	'Pos', point(192666, 225626, 12891),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 	'Passability', 0,
 	'waterpreset', "Lake_Rimville",
-}, nil, 1861792815)
-PlaceObj('WaterPlane', {
-	'Pos', point(193064, 219774, 12890),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-	'Passability', 0,
-	'waterpreset', "Lake_Rimville",
-}, nil, 1530733315)
-PlaceObj('WaterPlane', {
-	'Pos', point(193540, 226545, 12890),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-	'Passability', 0,
-	'waterpreset', "Lake_Rimville",
-}, nil, 1459202893)
+}, nil, 1463035677)
 PlaceObj('TropicalPlant_06_Tree_02', {
 	'Pos', point(165466, 229398, 13860),
 	'Angle', 7233,
@@ -44097,6 +37172,14 @@ PlaceObj('TropicalPlant_07_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1569403443)
+PlaceObj('TropicalFillerPlants_03', {
+	'Pos', point(175114, 235131, 13700),
+	'Angle', 14861,
+	'Scale', 107,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1471462431)
 PlaceObj('TropicalFillerPlants_01', {
 	'Pos', point(177731, 230166),
 	'Angle', 1160,
@@ -44172,6 +37255,14 @@ PlaceObj('TropicalFillerPlants_08', {
 	'AllowedMask', 0,
 }, nil, 1262446823)
 PlaceObj('TropicalFillerPlants_08', {
+	'Pos', point(181918, 235502, 13028),
+	'Angle', 15791,
+	'Scale', 134,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1195902319)
+PlaceObj('TropicalFillerPlants_08', {
 	'Pos', point(183449, 234183),
 	'Angle', 2977,
 	'Scale', 134,
@@ -44219,14 +37310,6 @@ PlaceObj('CoastalPlant_01_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1573883604)
-PlaceObj('CoastalPlant_01_Tree_01', {
-	'Pos', point(194792, 242916),
-	'Angle', 19246,
-	'Scale', 127,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1021490835)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(197256, 133929),
 	'Angle', 2929,
@@ -44748,6 +37831,15 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1243134642)
+PlaceObj('WaterPlane', {
+	'Pos', point(202654, 195716, 12891),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2668,
+	'AllowedMask', 0,
+	'Passability', 0,
+	'waterpreset', "Lake_Rimville",
+}, nil, 1896728121)
 PlaceObj('TropicalFillerPlants_06', {
 	'Pos', point(205963, 187485),
 	'Angle', 1147,
@@ -45779,85 +38871,57 @@ PlaceObj('TropicalPlant_07_Tree_01', {
 	'AllowedMask', 0,
 }, nil, 1309035686)
 PlaceObj('WaterPlane', {
-	'Pos', point(198389, 196785, 12890),
+	'Pos', point(202665, 205693, 12891),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2668,
 	'AllowedMask', 0,
 	'Passability', 0,
 	'waterpreset', "Lake_Rimville",
-}, nil, 1210349603)
+}, nil, 1737767877)
 PlaceObj('WaterPlane', {
-	'Pos', point(203428, 201158, 12890),
+	'Pos', point(212654, 205693, 12891),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2668,
 	'AllowedMask', 0,
 	'Passability', 0,
 	'waterpreset', "Lake_Rimville",
-}, nil, 1419250945)
+}, nil, 1729417880)
 PlaceObj('WaterPlane', {
-	'Pos', point(198919, 206147, 12890),
+	'Pos', point(202665, 215690, 12891),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2668,
 	'AllowedMask', 0,
 	'Passability', 0,
 	'waterpreset', "Lake_Rimville",
-}, nil, 1169548128)
+}, nil, 1112336092)
 PlaceObj('WaterPlane', {
-	'Pos', point(200942, 212650, 12891),
+	'Pos', point(202665, 225626, 12891),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 	'Passability', 0,
 	'waterpreset', "Lake_Rimville",
-}, nil, 1287259305)
+}, nil, 1552533605)
 PlaceObj('WaterPlane', {
-	'Pos', point(208420, 206041, 12890),
+	'Pos', point(212654, 215690, 12891),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2668,
 	'AllowedMask', 0,
 	'Passability', 0,
 	'waterpreset', "Lake_Rimville",
-}, nil, 1318101211)
+}, nil, 1254691690)
 PlaceObj('WaterPlane', {
-	'Pos', point(209187, 212780, 12892),
+	'Pos', point(212654, 225626, 12891),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 	'Passability', 0,
 	'waterpreset', "Lake_Rimville",
-}, nil, 1406334285)
-PlaceObj('WaterPlane', {
-	'Pos', point(201176, 218831, 12892),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-	'Passability', 0,
-	'waterpreset', "Lake_Rimville",
-}, nil, 1532590201)
-PlaceObj('WaterPlane', {
-	'Pos', point(202906, 226324, 12890),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-	'Passability', 0,
-	'waterpreset', "Lake_Rimville",
-}, nil, 1022856341)
-PlaceObj('WaterPlane', {
-	'Pos', point(208700, 219085, 12892),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-	'Passability', 0,
-	'waterpreset', "Lake_Rimville",
-}, nil, 1628593605)
-PlaceObj('WaterPlane', {
-	'Pos', point(212293, 226117, 12890),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-	'Passability', 0,
-	'waterpreset', "Lake_Rimville",
-}, nil, 1732335737)
+}, nil, 1019708730)
 PlaceObj('TropicalFillerPlants_03', {
 	'Pos', point(213586, 197295),
 	'Angle', 6993,
@@ -45913,14 +38977,6 @@ PlaceObj('TropicalFillerPlants_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1507128060)
-PlaceObj('WaterPlane', {
-	'Pos', point(217232, 210637, 12890),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-	'Passability', 0,
-	'waterpreset', "Lake_Rimville",
-}, nil, 1694831022)
 PlaceObj('TropicalFillerPlants_05', {
 	'Pos', point(225632, 202791),
 	'Angle', 19943,
@@ -45946,37 +39002,31 @@ PlaceObj('TropicalFillerPlants_01', {
 	'AllowedMask', 0,
 }, nil, 1813004463)
 PlaceObj('WaterPlane', {
-	'Pos', point(214482, 217967, 12892),
+	'Pos', point(222622, 205693, 12891),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2668,
 	'AllowedMask', 0,
 	'Passability', 0,
 	'waterpreset', "Lake_Rimville",
-}, nil, 1305111161)
+}, nil, 1359674113)
 PlaceObj('WaterPlane', {
-	'Pos', point(223878, 216313, 12890),
+	'Pos', point(222622, 215690, 12891),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2668,
 	'AllowedMask', 0,
 	'Passability', 0,
 	'waterpreset', "Lake_Rimville",
-}, nil, 1295918932)
+}, nil, 1550208643)
 PlaceObj('WaterPlane', {
-	'Pos', point(222107, 225445, 12890),
+	'Pos', point(222622, 225626, 12891),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 	'Passability', 0,
 	'waterpreset', "Lake_Rimville",
-}, nil, 1549326298)
-PlaceObj('WaterPlane', {
-	'Pos', point(228670, 222058, 12890),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-	'Passability', 0,
-	'waterpreset', "Lake_Rimville",
-}, nil, 1622967955)
+}, nil, 1145478841)
 PlaceObj('TropicalFillerPlants_06', {
 	'Pos', point(200328, 236059),
 	'Angle', 14020,
@@ -46008,38 +39058,6 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1715253778)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(212779, 235714),
-	'Angle', 15114,
-	'Scale', 108,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1235636516)
-PlaceObj('TropicalFillerPlants_04', {
-	'Pos', point(208793, 237646),
-	'Angle', 17284,
-	'Scale', 130,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1496979387)
-PlaceObj('TropicalPlant_08_Tree_02', {
-	'Pos', point(205875, 245607),
-	'Angle', 206,
-	'Scale', 113,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1510984279)
-PlaceObj('TropicalPlant_07_Tree_01', {
-	'Pos', point(210045, 244366),
-	'Angle', 10613,
-	'Scale', 131,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1416836854)
 PlaceObj('TropicalFillerPlants_01', {
 	'Pos', point(213061, 233156),
 	'Angle', 13545,
@@ -46963,7 +39981,7 @@ PlaceObj('WaterFill', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 	'waterpreset', "Ocean_2",
-	'applied_area', 10372,
+	'applied_area', 12851,
 }, nil, 1540666282)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(264454, 92430),
@@ -50370,13 +43388,6 @@ PlaceObj('CoastalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1521212097)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1443633987),
-	'Roof', {o(1558292905),o(1773913983),o(1726888350),o(1004795543),},
-}, nil, 1689684571)
 
 
 -- objects without Lua object
@@ -63832,6 +56843,7 @@ p("TropicalPlant_04_Sapling_04",31102,256067,16941,2097152)
 p("TropicalPlant_Grass_03",31061,256875,13080,2097152)
 p("TropicalPlant_Grass_01",32164,256319,8474,2097152)
 p("TropicalPlant_Grass_04",32168,256616,20651,2097152)
+p("TropicalRockSharp_01",32268,258284,8154,7566,250,4291676360,959,-601,3936,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_Grass_02",33000,197000,17987,250,2097156)
 p("TropicalPlant_Grass_03",33000,197000,19906,2097152)
 p("TropicalPlant_Grass_04",33000,197000,16631,2097152)
@@ -64208,7 +57220,6 @@ p("TropicalPlant_05_Sapling_01",32775,225563,5696,2097152)
 p("TropicalPlant_04_Sapling_06",33376,228194,19469,2097152)
 p("TropicalPlant_04_Sapling_02",33746,228955,21072,101,2097156)
 p("TropicalPlant_Grass_03",33724,229135,3434,2097152)
-p("TropicalPlant_Grass_01",35626,226094,20768,104,2097156)
 p("TropicalPlant_Grass_02",37000,223000,16765,250,2097156)
 p("TropicalPlant_06_Sapling_01",38097,221593,18983,142,2097156)
 p("TropicalPlant_Grass_02",38000,222000,1662,238,2097156)
@@ -64217,7 +57228,6 @@ p("TropicalPlant_Grass_02",38000,223000,8096,250,2097156)
 p("TropicalPlant_05_Shrub_01",37402,224222,14818,2097152)
 p("TropicalPlant_06_Sapling_02",38039,223919,20668,107,2097156)
 p("TropicalPlant_Grass_02",38000,224000,11148,243,2097156)
-p("TropicalPlant_Grass_02",38000,225000,17568,243,2097156)
 p("TropicalPlant_Grass_02",39000,222000,2891,250,2097156)
 p("TropicalPlant_Grass_02",39000,223000,14103,250,2097156)
 p("TropicalPlant_04_Sapling_01",40166,221714,21578,112,2097156)
@@ -64225,41 +57235,7 @@ p("TropicalPlant_Grass_02",40000,222000,6232,250,2097156)
 p("TropicalPlant_Grass_03",40000,222000,12267,243,2097156)
 p("TropicalPlant_Grass_02",40000,223000,11414,250,2097156)
 p("TropicalPlant_Grass_03",40000,223000,14410,250,2097156)
-p("TropicalPlant_Grass_02",39000,224000,1514,240,2097156)
-p("TropicalPlant_Grass_02",39000,225000,11107,250,2097156)
-p("TropicalPlant_Grass_03",39000,225000,6412,248,2097156)
 p("TropicalPlant_07_Sapling_02",39945,223686,2709,137,2097156)
-p("TropicalPlant_Grass_02",40000,224000,16554,250,2097156)
-p("TropicalPlant_Grass_03",40000,224000,1370,245,2097156)
-p("TropicalPlant_04_Shrub_01",40577,224123,9366,95,2097156)
-p("TropicalPlant_Grass_02",40000,225000,13084,240,2097156)
-p("TropicalPlant_Grass_03",40000,225000,16103,250,2097156)
-p("TropicalPlant_Grass_02",37000,226000,1138,250,2097156)
-p("TropicalPlant_04_Sapling_02",37646,226071,3011,119,2097156)
-p("TropicalPlant_Grass_02",38000,226000,19957,248,2097156)
-p("TropicalPlant_Grass_03",38442,226050,11057,95,2097156)
-p("TropicalPlant_Grass_02",38000,227000,14549,250,2097156)
-p("TropicalPlant_04_Sapling_03",38559,227099,18032,2097152)
-p("TropicalPlant_Grass_02",37000,229000,15660,250,2097156)
-p("TropicalPlant_Grass_02",38000,228000,14976,250,2097156)
-p("TropicalPlant_Grass_03",37959,228287,14809,2097152)
-p("TropicalPlant_Grass_02",38000,229000,17774,250,2097156)
-p("TropicalPlant_04_Sapling_03",39032,225973,1232,101,2097156)
-p("TropicalPlant_Grass_02",39000,226000,13093,245,2097156)
-p("TropicalPlant_Grass_02",39000,227000,19850,250,2097156)
-p("TropicalPlant_Grass_02",40000,226000,13738,250,2097156)
-p("TropicalPlant_05_Sapling_01",40041,226375,11916,101,2097156)
-p("TropicalPlant_Grass_02",40000,227000,19620,240,2097156)
-p("TropicalPlant_Grass_02",39000,228000,9998,250,2097156)
-p("TropicalPlant_Grass_02",39000,229000,19540,250,2097156)
-p("TropicalPlant_Grass_03",39000,229000,3514,250,2097156)
-p("TropicalPlant_Grass_04",40067,227635,12717,96,2097156)
-p("TropicalPlant_08_Sapling_02",40006,227976,1597,2097152)
-p("TropicalPlant_Grass_02",40000,228000,19800,245,2097156)
-p("TropicalPlant_Grass_03",40000,228000,4299,250,2097156)
-p("TropicalPlant_Grass_02",40000,229000,18461,245,2097156)
-p("TropicalPlant_Grass_03",40000,229000,14483,243,2097156)
-p("TropicalPlant_04_Shrub_02",40490,228855,17058,97,2097156)
 p("TropicalPlant_Grass_02",41000,213000,395,238,2097156)
 p("TropicalPlant_Grass_02",41000,214000,9642,250,2097156)
 p("TropicalPlant_Grass_02",41000,215000,5332,250,2097156)
@@ -64346,58 +57322,27 @@ p("TropicalPlant_Grass_03",42000,223000,20403,245,2097156)
 p("TropicalPlant_Grass_03",43000,223000,17624,250,2097156)
 p("TropicalPlant_Grass_02",41000,224000,12493,250,2097156)
 p("TropicalPlant_Grass_03",41000,224000,4054,240,2097156)
-p("TropicalPlant_Grass_02",41000,225000,14864,238,2097156)
-p("TropicalPlant_Grass_03",41000,225000,15696,250,2097156)
 p("TropicalPlant_06_Sapling_02",42020,223685,6123,110,2097156)
 p("TropicalPlant_Grass_02",42000,224000,20437,250,2097156)
 p("TropicalPlant_Grass_03",42000,224000,3518,248,2097156)
 p("TropicalPlant_Grass_03",43000,224000,16800,250,2097156)
 p("TropicalPlant_Grass_04",42462,224292,4431,152,2097156)
-p("TropicalPlant_Grass_02",42000,225000,12051,243,2097156)
-p("TropicalPlant_Grass_03",42000,225000,13758,250,2097156)
-p("TropicalPlant_Grass_03",43000,225000,14201,245,2097156)
 p("TropicalPlant_Grass_03",44000,222000,4915,243,2097156)
 p("TropicalPlant_Grass_03",44000,223000,443,250,2097156)
 p("TropicalPlant_Grass_03",45000,222000,17080,250,2097156)
 p("TropicalPlant_Grass_03",45000,223000,9594,248,2097156)
 p("TropicalPlant_Grass_03",44000,224000,12280,248,2097156)
-p("TropicalPlant_02_Shrub",43040,224807,4808,2097152)
 p("TropicalPlant_Grass_03",44000,225000,18810,248,2097156)
 p("TropicalPlant_Grass_01",44248,224083,10719,153,2097156)
 p("TropicalPlant_04_Sapling_06",44974,223842,11011,96,2097156)
 p("TropicalPlant_Grass_03",45000,224000,16240,243,2097156)
 p("TropicalPlant_Grass_03",45000,225000,5129,250,2097156)
-p("TropicalPlant_Grass_02",41000,226000,13832,248,2097156)
-p("TropicalPlant_Grass_02",41000,227000,185,238,2097156)
-p("TropicalPlant_Grass_03",41000,227000,3651,250,2097156)
-p("TropicalPlant_Grass_02",42000,226000,14492,243,2097156)
-p("TropicalPlant_07_Sapling_02",42134,225843,20306,104,2097156)
-p("TropicalPlant_Grass_02",42000,227000,17368,248,2097156)
-p("TropicalPlant_Grass_03",42000,227000,16180,250,2097156)
-p("TropicalPlant_Grass_02",41000,228000,21328,250,2097156)
-p("TropicalPlant_Grass_03",41000,228000,12715,238,2097156)
-p("TropicalPlant_Grass_02",41000,229000,14349,250,2097156)
-p("TropicalPlant_Grass_03",41000,229000,17029,248,2097156)
-p("TropicalPlant_Grass_02",42000,228000,509,248,2097156)
-p("TropicalPlant_Grass_03",42000,228000,1,250,2097156)
-p("TropicalPlant_Grass_03",43000,228000,2446,238,2097156)
-p("TropicalPlant_Grass_02",42000,229000,18417,250,2097156)
-p("TropicalPlant_Grass_03",42000,229000,11064,240,2097156)
-p("TropicalPlant_04_Shrub_01",42628,228508,837,99,2097156)
-p("TropicalPlant_Grass_03",43000,229000,16931,243,2097156)
-p("TropicalPlant_Grass_01",43603,225920,13295,149,2097156)
-p("TropicalPlant_04_Sapling_05",43528,226074,14421,101,2097156)
-p("TropicalPlant_Grass_03",44000,228000,2396,250,2097156)
-p("TropicalPlant_Grass_03",44000,229000,13014,250,2097156)
 p("TropicalPlant_Grass_04",46443,222017,21246,250,2097156)
 p("TropicalPlant_Grass_02",46498,224298,16469,245,2097156)
 p("TropicalPlant_Grass_02",47619,222486,20771,250,2097156)
 p("TropicalPlant_Grass_04",47618,223919,16457,243,2097156)
-p("TropicalPlant_Grass_03",45534,226128,11790,150,2097156)
 p("TropicalPlant_Grass_01",46173,225993,7207,250,2097156)
-p("TropicalPlant_Grass_02",46199,228163,10071,250,2097156)
 p("TropicalPlant_Grass_04",48317,225572,19882,250,2097156)
-p("TropicalPlant_Grass_04",48306,227828,11907,250,2097156)
 p("TropicalPlant_Grass_02",52011,197752,10180,156,2097156)
 p("TropicalPlant_Grass_02",54000,197000,0)
 p("TropicalPlant_Grass_03",54000,198000,176,4)
@@ -64614,14 +57559,6 @@ p("TropicalPlant_Grass_01",33304,233093,18545,2097152)
 p("TropicalPlant_Grass_02",34000,232000,20516,243,2097156)
 p("TropicalPlant_04_Sapling_05",33876,232928,12407,2097152)
 p("TropicalPlant_Grass_02",34000,233000,13426,240,2097156)
-p("TropicalPlant_Grass_02",35000,230000,5810,250,2097156)
-p("TropicalPlant_Grass_02",35000,231000,13197,250,2097156)
-p("TropicalPlant_Grass_02",36000,230000,16711,250,2097156)
-p("TropicalPlant_Grass_02",36000,231000,5420,250,2097156)
-p("TropicalPlant_Grass_02",35000,232000,3562,240,2097156)
-p("TropicalPlant_Grass_02",35000,233000,94,250,2097156)
-p("TropicalPlant_Grass_02",36000,232000,12127,250,2097156)
-p("TropicalPlant_Grass_02",36000,233000,8344,250,2097156)
 p("TropicalPlant_Grass_02",33000,234000,8338,248,2097156)
 p("TropicalPlant_08_Sapling_01",32918,234127,18397,2097152)
 p("TropicalPlant_Grass_04",33083,234011,16081,2097152)
@@ -64640,45 +57577,12 @@ p("TropicalPlant_Grass_02",34000,237000,736,250,2097156)
 p("TropicalPlant_04_Sapling_02",34102,236953,2832,96,2097156)
 p("TropicalPlant_Grass_02",35000,234000,14528,248,2097156)
 p("TropicalPlant_Grass_02",35000,235000,755,248,2097156)
-p("TropicalPlant_Grass_02",36000,234000,6004,250,2097156)
 p("TropicalPlant_Grass_02",36000,235000,17549,250,2097156)
 p("TropicalPlant_Grass_02",35000,236000,20999,248,2097156)
 p("TropicalPlant_Grass_02",35000,237000,4922,250,2097156)
 p("TropicalPlant_Grass_02",36000,236000,2406,248,2097156)
 p("TropicalPlant_Grass_02",36000,237000,8404,238,2097156)
 p("TropicalPlant_04_Shrub_01",36754,236888,12303,97,2097156)
-p("TropicalPlant_Grass_02",37000,230000,12223,250,2097156)
-p("TropicalPlant_Grass_02",37000,231000,13976,243,2097156)
-p("TropicalPlant_Grass_02",38000,230000,1947,250,2097156)
-p("TropicalPlant_Grass_04",38146,230430,3494,98,2097156)
-p("TropicalPlant_04_Sapling_06",37908,231010,10869,102,2097156)
-p("TropicalPlant_Grass_02",38000,231000,4654,248,2097156)
-p("TropicalPlant_Grass_02",37000,232000,16153,238,2097156)
-p("TropicalPlant_Grass_02",37000,233000,5306,250,2097156)
-p("TropicalPlant_Grass_02",38000,232000,18461,250,2097156)
-p("TropicalPlant_Grass_02",38000,233000,6549,243,2097156)
-p("TropicalPlant_Grass_02",39000,230000,21270,245,2097156)
-p("TropicalPlant_Grass_03",39000,230000,8644,243,2097156)
-p("TropicalPlant_Grass_02",39000,231000,12753,250,2097156)
-p("TropicalPlant_Grass_03",39000,231000,6824,250,2097156)
-p("TropicalPlant_Grass_02",40000,230000,9040,245,2097156)
-p("TropicalPlant_Grass_03",40000,230000,11856,250,2097156)
-p("TropicalPlant_Grass_02",40000,231000,7927,250,2097156)
-p("TropicalPlant_Grass_03",40000,231000,7008,250,2097156)
-p("TropicalPlant_Grass_02",39000,232000,9919,240,2097156)
-p("TropicalPlant_Grass_03",39000,232000,14172,250,2097156)
-p("TropicalPlant_Grass_02",39000,233000,12820,248,2097156)
-p("TropicalPlant_Grass_02",40000,232000,9011,248,2097156)
-p("TropicalPlant_Grass_03",40000,232000,10512,250,2097156)
-p("TropicalPlant_Grass_02",40000,233000,19041,250,2097156)
-p("TropicalPlant_Grass_03",40000,233000,7648,243,2097156)
-p("TropicalPlant_Grass_02",37000,234000,17037,250,2097156)
-p("TropicalPlant_Grass_02",38000,234000,16346,238,2097156)
-p("TropicalPlant_Grass_02",39000,234000,13216,245,2097156)
-p("TropicalPlant_Grass_02",40000,234000,15925,250,2097156)
-p("TropicalPlant_04_Shrub_01",40243,235268,14577,99,2097156)
-p("TropicalPlant_04_Sapling_04",39757,236159,7649,98,2097156)
-p("TropicalPlant_Grass_03",40373,236174,6363,245,2097156)
 p("TropicalPlant_Grass_02",33000,238000,16482,250,2097156)
 p("TropicalPlant_Grass_03",33443,237580,21393,2097152)
 p("TropicalPlant_Dead_13",33783,237602,6359,109,2097156)
@@ -64704,7 +57608,6 @@ p("TropicalPlant_Grass_02",36000,238000,13986,238,2097156)
 p("TropicalPlant_Grass_02",35000,240000,10066,240,2097156)
 p("TropicalPlant_Grass_02",35000,241000,12928,245,2097156)
 p("TropicalPlant_Grass_02",36000,240000,16985,240,2097156)
-p("TropicalPlant_Grass_02",36000,241000,9286,250,2097156)
 p("TropicalPlant_Grass_02",33000,242000,13443,240,2097156)
 p("TropicalPlant_Grass_02",33000,243000,339,250,2097156)
 p("TropicalPlant_Grass_04",33664,242708,2876,2097152)
@@ -64715,89 +57618,8 @@ p("TropicalPlant_Grass_02",33000,244000,7753,248,2097156)
 p("TropicalPlant_Grass_03",33136,244691,13160,2097152)
 p("TropicalPlant_04_Sapling_06",33292,244188,5775,2097152)
 p("TropicalPlant_Grass_02",33000,245000,8846,248,2097156)
-p("TropicalPlant_Grass_02",34000,244000,7830,250,2097156)
-p("TropicalPlant_Grass_02",34000,245000,11079,250,2097156)
 p("TropicalPlant_04_Sapling_01",34022,245707,12485,99,2097156)
-p("TropicalPlant_Grass_04",34073,245373,6363,2097152)
-p("TropicalPlant_Grass_02",35000,242000,17415,250,2097156)
-p("TropicalPlant_Grass_02",35000,243000,3971,250,2097156)
-p("TropicalPlant_Grass_02",36000,242000,3214,240,2097156)
-p("TropicalPlant_Grass_02",36000,243000,18507,250,2097156)
-p("TropicalPlant_Grass_02",35000,244000,1519,250,2097156)
-p("TropicalPlant_Grass_02",35000,245000,18261,243,2097156)
-p("TropicalPlant_Grass_02",36000,244000,3156,240,2097156)
-p("TropicalPlant_04_Shrub_02",36817,243752,21009,96,2097156)
-p("TropicalPlant_Grass_02",36000,245000,5170,245,2097156)
 p("TropicalPlant_04_Shrub_01",38510,239213,13257,97,2097156)
-p("TropicalPlant_Grass_02",37000,240000,12514,238,2097156)
-p("TropicalPlant_Grass_02",37000,241000,9204,243,2097156)
-p("TropicalPlant_Grass_04",40415,237884,3042,245,2097156)
-p("TropicalPlant_04_Sapling_05",40363,238164,8161,97,2097156)
-p("TropicalPlant_Grass_02",37000,242000,21434,250,2097156)
-p("TropicalPlant_Grass_02",37000,243000,3423,250,2097156)
-p("TropicalPlant_Grass_02",37000,244000,21403,240,2097156)
-p("TropicalPlant_Grass_02",37000,245000,21430,250,2097156)
-p("TropicalPlant_Grass_04",37906,244149,13395,103,2097156)
-p("TropicalPlant_04_Sapling_03",40651,241759,12076,99,2097156)
-p("TropicalPlant_Grass_02",41000,230000,14925,250,2097156)
-p("TropicalPlant_Grass_03",41000,230000,1037,243,2097156)
-p("TropicalPlant_Grass_02",41000,231000,21462,243,2097156)
-p("TropicalPlant_Grass_03",41000,231000,5222,250,2097156)
-p("TropicalPlant_Grass_02",42000,230000,3606,248,2097156)
-p("TropicalPlant_Grass_03",42000,230000,15307,240,2097156)
-p("TropicalPlant_Grass_03",43000,230000,20588,238,2097156)
-p("TropicalPlant_Grass_03",42000,231000,6114,250,2097156)
-p("TropicalPlant_Grass_03",43000,231000,3214,245,2097156)
-p("TropicalPlant_Grass_02",41000,232000,8333,248,2097156)
-p("TropicalPlant_Grass_03",41000,232000,4693,250,2097156)
-p("TropicalPlant_Grass_02",41000,233000,15846,248,2097156)
-p("TropicalPlant_Grass_03",41000,233000,15501,240,2097156)
-p("TropicalPlant_04_Sapling_05",41727,232589,15351,2097152)
-p("TropicalPlant_Grass_03",42000,232000,7232,250,2097156)
-p("TropicalPlant_Grass_01",42357,231945,5008,250,2097156)
-p("TropicalPlant_Grass_03",43000,232000,16546,250,2097156)
-p("TropicalPlant_Grass_03",42000,233000,19659,250,2097156)
-p("TropicalPlant_Grass_03",43000,233000,20775,245,2097156)
-p("TropicalPlant_Grass_03",44000,230000,18300,250,2097156)
-p("TropicalPlant_Grass_03",44000,231000,15174,243,2097156)
-p("TropicalPlant_Grass_03",45000,230000,15304,250,2097156)
-p("TropicalPlant_Grass_03",45000,231000,7672,245,2097156)
-p("TropicalPlant_Grass_01",43786,231948,10329,245,2097156)
-p("TropicalPlant_Grass_03",44000,232000,21007,243,2097156)
-p("TropicalPlant_Grass_03",44000,233000,6540,243,2097156)
-p("TropicalPlant_Grass_03",45000,232000,9244,250,2097156)
-p("TropicalPlant_Grass_03",42335,234449,3994,238,2097156)
-p("TropicalPlant_Grass_04",42409,236090,8572,250,2097156)
-p("TropicalPlant_04_Sapling_05",43685,233772,2822,99,2097156)
-p("TropicalPlant_Grass_03",44067,233671,14967,250,2097156)
-p("TropicalPlant_Grass_04",43969,237523,8599,248,2097156)
-p("TropicalPlant_Grass_04",44221,236135,1127,250,2097156)
-p("TropicalPlant_04_Shrub_02",44597,237136,14670,95,2097156)
-p("TropicalPlant_05_Shrub_01",45019,237110,3818,103,2097156)
-p("TropicalPlant_Grass_04",46136,230064,7747,250,2097156)
-p("TropicalPlant_Grass_03",45906,231791,2987,250,2097156)
-p("TropicalPlant_Grass_04",47913,230439,13546,250,2097156)
-p("TropicalPlant_Grass_02",48284,229844,3414,238,2097156)
-p("TropicalPlant_Grass_03",48072,232285,7155,238,2097156)
-p("TropicalPlant_Grass_02",45803,233783,11421,250,2097156)
-p("TropicalPlant_04_Sapling_04",46056,237338,9239,101,2097156)
-p("TropicalPlant_Grass_02",46381,235719,3779,250,2097156)
-p("TropicalPlant_Grass_02",48186,233676,19206,250,2097156)
-p("TropicalPlant_Grass_01",41764,237714,6311,238,2097156)
-p("TropicalPlant_04_Shrub_01",43375,240968,9643,99,2097156)
-p("TropicalPlant_04_Sapling_03",44640,240502,4778,103,2097156)
-p("TropicalPlant_02_Shrub",44414,240956,18336,2097152)
-p("TropicalPlant_04_Sapling_06",41665,244395,19217,102,2097156)
-p("TropicalPlant_04_Sapling_03",43006,245741,3771,103,2097156)
-p("TropicalPlant_04_Shrub_01",45039,243826,3107,101,2097156)
-p("TropicalPlant_Grass_01",44047,245382,6335,248,2097156)
-p("TropicalPlant_Grass_03",45698,238116,14514,250,2097156)
-p("TropicalPlant_05_Shrub_01",46269,238432,18049,2097152)
-p("TropicalPlant_Grass_04",48457,240467,17108,250,2097156)
-p("TropicalPlant_Grass_02",45673,242385,9356,102,2097156)
-p("TropicalPlant_04_Shrub_02",46876,243105,15148,98,2097156)
-p("TropicalPlant_Grass_01",46905,245274,3367,243,2097156)
-p("TropicalPlant_Grass_02",47979,242487,9576,250,2097156)
 p("TropicalPlant_Grass_02",33000,246000,2639,245,2097156)
 p("TropicalPlant_Grass_01",32792,246742,19582,2097152)
 p("TropicalPlant_04_Shrub_01",32927,246729,5270,107,2097156)
@@ -64807,128 +57629,27 @@ p("TropicalPlant_Grass_02",34000,246000,17007,245,2097156)
 p("TropicalPlant_Grass_04",34014,246176,13743,2097152)
 p("TropicalPlant_Grass_02",34000,247000,1970,250,2097156)
 p("TropicalPlant_Grass_03",33580,249810,7825,248,2097156)
-p("TropicalPlant_Grass_02",35000,246000,14938,248,2097156)
-p("TropicalPlant_Grass_02",35000,247000,11113,250,2097156)
-p("TropicalPlant_Grass_02",36000,246000,18363,250,2097156)
-p("TropicalPlant_Grass_04",36254,248300,20084,250,2097156)
 p("TropicalPlant_05_Shrub_01",33399,252840,18778,103,2097156)
 p("TropicalPlant_Grass_01",34488,252442,5447,250,2097156)
 p("TropicalPlant_Grass_04",35928,250444,805,250,2097156)
 p("TropicalPlant_Grass_01",36202,252345,10907,245,2097156)
 p("TropicalPlant_Grass_03",36153,253565,5041,250,2097156)
-p("TropicalPlant_Grass_02",37000,246000,20216,243,2097156)
-p("TropicalPlant_04_Sapling_05",37803,245830,8873,102,2097156)
-p("TropicalPlant_05_Shrub_01",37187,247313,10468,99,2097156)
-p("TropicalPlant_Grass_01",38260,246239,6034,96,2097156)
-p("TropicalPlant_Grass_04",38373,248250,3356,238,2097156)
-p("TropicalPlant_Grass_01",39788,247997,9843,250,2097156)
-p("TropicalPlant_04_Sapling_03",39862,248851,9883,96,2097156)
-p("TropicalPlant_Grass_03",40116,249801,11541,250,2097156)
 p("TropicalPlant_Grass_02",37869,250408,4887,248,2097156)
 p("TropicalPlant_04_Sapling_06",37853,252284,16764,103,2097156)
 p("TropicalPlant_Grass_01",37922,252139,12237,250,2097156)
 p("TropicalPlant_Grass_04",38061,253700,16490,250,2097156)
-p("TropicalPlant_04_Sapling_04",40949,250363,5573,101,2097156)
-p("TropicalPlant_Grass_03",40484,252047,10547,250,2097156)
 p("TropicalPlant_04_Shrub_01",33339,258192,7677,95,2097156)
-p("TropicalPlant_Grass_03",40384,254207,8986,248,2097156)
+p("TropicalRockSharp_01",37057,255382,7490,4831,250,4291676360,-1650,2995,2254,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_Grass_04",39951,255999,4158,243,2097156)
-p("TropicalPlant_04_Sapling_02",40046,257337,3937,90,2097156)
-p("TropicalPlant_04_Sapling_01",38508,258264,8836,105,2097156)
-p("TropicalRockSharp_01",38831,259165,6949,6018,250,4291676360,"terrainchunk",10,0,0,40,60,10,40,60,2228237)
-p("TropicalPlant_04_Shrub_02",41354,247617,11868,104,2097156)
-p("TropicalPlant_Grass_02",42211,246323,1645,238,2097156)
-p("TropicalPlant_Grass_03",41866,247826,16557,243,2097156)
-p("TropicalPlant_Grass_03",42223,249679,17561,250,2097156)
-p("TropicalPlant_04_Sapling_03",43799,247793,6032,104,2097156)
-p("TropicalPlant_Grass_03",44435,247756,16942,250,2097156)
-p("TropicalPlant_04_Shrub_01",44749,247605,4003,103,2097156)
-p("TropicalPlant_Grass_02",44185,248266,14593,250,2097156)
-p("TropicalPlant_Grass_02",41582,251768,5393,248,2097156)
-p("TropicalPlant_Grass_03",43724,250230,11776,250,2097156)
-p("TropicalPlant_04_Sapling_04",44448,250177,13854,95,2097156)
-p("TropicalPlant_02_Shrub",44271,251011,12058,2097152)
-p("TropicalPlant_Grass_01",43528,253506,4320,238,2097156)
-p("TropicalPlant_Grass_02",44483,252398,16375,238,2097156)
-p("TropicalPlant_Grass_01",45837,248467,16619,240,2097156)
-p("TropicalPlant_04_Shrub_02",46653,248571,17398,102,2097156)
-p("TropicalPlant_04_Sapling_06",47142,247639,1662,102,2097156)
-p("TropicalPlant_Grass_04",46266,250540,169,245,2097156)
-p("TropicalPlant_Grass_03",45718,252434,17984,240,2097156)
-p("TropicalPlant_Grass_03",42440,254322,2979,248,2097156)
-p("TropicalPlant_Grass_02",41748,256483,3451,250,2097156)
-p("TropicalPlant_04_Sapling_02",42042,257573,14619,91,2097156)
-p("TropicalPlant_04_Shrub_02",44625,256869,14210,93,2097156)
-p("TropicalPlant_04_Sapling_02",43208,258830,6723,96,2097156)
-p("TropicalPlant_Grass_02",46080,254003,12246,250,2097156)
-p("TropicalPlant_Grass_04",46154,256214,17853,96,2097156)
-p("TropicalPlant_04_Sapling_02",46261,256368,1020,107,2097156)
-p("TropicalPlant_04_Sapling_01",46757,257572,8768,101,2097156)
-p("TropicalPlant_Grass_03",48035,256386,8669,104,2097156)
-p("TropicalPlant_04_Sapling_02",47527,257364,3525,92,2097156)
-p("TropicalPlant_04_Sapling_01",48952,256355,2762,94,2097156)
-p("TropicalPlant_Grass_01",50213,229616,16971,238,2097156)
-p("TropicalPlant_02_Shrub",56607,237316,14881,2097152)
-p("TropicalPlant_04_Shrub_02",49237,240719,17931,103,2097156)
-p("TropicalPlant_Grass_04",50482,240452,9452,250,2097156)
-p("TropicalPlant_Grass_01",52219,240437,6476,250,2097156)
-p("TropicalPlant_Grass_03",50336,242323,9715,245,2097156)
-p("TropicalPlant_Grass_02",50073,244265,9567,250,2097156)
-p("TropicalPlant_Grass_02",49716,244892,11012,250,2097156)
-p("TropicalPlant_Grass_02",52499,241981,11348,250,2097156)
-p("TropicalPlant_Grass_01",52360,243939,3701,248,2097156)
-p("TropicalPlant_Grass_01",53808,242358,10501,238,2097156)
-p("TropicalPlant_Grass_04",54271,244432,15169,248,2097156)
-p("TropicalPlant_Grass_01",55677,244456,16928,248,2097156)
-p("TropicalPlant_Grass_02",56027,244908,11307,250,2097156)
-p("TropicalPlant_04_Sapling_06",55933,245619,15690,103,2097156)
+p("TropicalRockSharp_01",37914,260801,8154,10675,250,4291676360,1487,902,3708,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",47959,252164,6949,2105,250,4291676360,-161,3250,2488,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",54088,239713,7027,4800,250,4291676360,568,-673,4000,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalRockSharp_01",58723,230121,13825,7996,156,2161,-2051,2810,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
-p("TropicalPlant_02_Shrub",59673,240962,2030,2097152)
-p("TropicalPlant_Grass_04",58227,245566,8948,250,2097156)
-p("TropicalPlant_04_Sapling_04",62216,244766,11474,98,2097156)
-p("TropicalPlant_Grass_02",50037,248442,6859,250,2097156)
-p("TropicalPlant_04_Sapling_04",53047,247555,15949,2097152)
-p("TropicalPlant_02_Shrub",52540,247838,12204,2097152)
-p("TropicalPlant_Grass_02",53057,248006,15358,245,2097156)
-p("TropicalPlant_Grass_02",49372,250789,7496,240,2097156)
-p("TropicalPlant_04_Sapling_05",49223,251961,9266,96,2097156)
-p("TropicalPlant_04_Shrub_01",49263,253498,4948,104,2097156)
-p("TropicalPlant_05_Shrub_01",53219,250652,5891,101,2097156)
-p("TropicalPlant_04_Shrub_01",53126,251436,17863,97,2097156)
-p("TropicalPlant_Grass_04",52253,253795,7348,238,2097156)
-p("TropicalPlant_05_Shrub_01",54537,246116,14630,98,2097156)
-p("TropicalPlant_Grass_02",56117,248095,15616,250,2097156)
-p("TropicalPlant_Grass_01",53457,250455,10598,248,2097156)
-p("TropicalPlant_04_Sapling_06",56635,250742,4504,95,2097156)
-p("TropicalPlant_Grass_04",56842,251768,8473,250,2097156)
-p("TropicalPlant_Grass_01",50458,256397,234,104,2097156)
-p("TropicalPlant_Grass_01",52462,256464,20411,104,2097156)
-p("TropicalRockSharp_01",51298,261190,6949,5910,250,4291676360,27,53,4095,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
-p("TropicalPlant_Grass_04",54025,254321,3822,250,2097156)
-p("TropicalPlant_Grass_03",53612,255803,20877,250,2097156)
-p("TropicalPlant_Grass_03",54131,256444,8184,104,2097156)
-p("TropicalPlant_Grass_03",55994,255508,14755,238,2097156)
-p("TropicalPlant_04_Sapling_06",59059,245939,5610,102,2097156)
-p("TropicalPlant_02_Shrub",57348,248611,5904,2097152)
-p("TropicalPlant_Grass_02",59150,248398,14493,250,2097156)
-p("TropicalPlant_04_Sapling_05",61309,249399,2270,2097152)
-p("TropicalPlant_Grass_04",59178,250636,16641,248,2097156)
-p("TropicalPlant_04_Shrub_02",59766,252287,20607,102,2097156)
-p("TropicalPlant_04_Sapling_04",60737,251919,927,97,2097156)
-p("TropicalPlant_05_Shrub_01",64131,247249,11733,99,2097156)
-p("TropicalPlant_Grass_04",62570,251769,2102,250,2097156)
-p("TropicalPlant_04_Shrub_02",63656,253249,20400,103,2097156)
-p("TropicalPlant_Grass_01",64916,251997,16952,248,2097156)
-p("TropicalPlant_Grass_03",57660,254037,5252,245,2097156)
-p("TropicalPlant_Grass_04",57953,255737,1510,250,2097156)
-p("TropicalPlant_Grass_01",60140,254252,20408,243,2097156)
-p("TropicalPlant_Grass_01",60331,256290,3255,250,2097156)
-p("TropicalPlant_Grass_04",60291,257908,3017,248,2097156)
-p("TropicalPlant_Grass_04",61871,255981,3487,250,2097156)
-p("TropicalPlant_Grass_02",62931,254160,2592,248,2097156)
-p("TropicalPlant_Grass_04",63758,255797,9544,243,2097156)
-p("TropicalPlant_Grass_04",63640,257912,5799,240,2097156)
-p("TropicalPlant_Grass_03",62205,258440,14237,238,2097156)
+p("TropicalRockSharp_01",64072,237141,9099,5705,250,4291676360,1210,-1143,3742,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",63153,242621,3988,5900,250,4291676360,847,-1438,3740,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",52055,251740,10941,10614,250,4291676360,-3547,1380,1513,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",53789,248356,7027,1469,250,4291676360,472,-2629,3104,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",56903,250362,3318,2967,250,4291676360,1274,-2493,2989,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_02_Shrub",71742,138594,5723,2097152)
 p("TropicalPlant_Grass_01",67000,141000,8376,238,2097156)
 p("TropicalPlant_Grass_03",65636,141853,3271,250,2097156)
@@ -67055,6 +59776,7 @@ p("TropicalPlant_Grass_03",73000,228000,492,126,2097156)
 p("TropicalPlant_Grass_04",73000,229000,7305,126,2097156)
 p("TropicalCliffSharp_04",77400,216600,16800,10800,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalCliffSharp_04",78600,214200,16800,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalRockSharp_01",78044,215387,15525,5623,119,-816,1950,3508,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalCliffSharp_04",81000,214200,16800,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalCliffSharp_04",81000,216600,16800,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalRockSharp_01",78115,219127,15303,6675,168,688,-411,4016,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -67201,6 +59923,7 @@ p("TropicalPlant_Grass_01",98000,205000,700,250,2097156)
 p("TropicalPlant_Grass_03",98000,205000,8389,248,2097156)
 p("TropicalPlant_Grass_01",98000,206000,6371,245,2097156)
 p("TropicalRockSharp_01",95369,210727,16882,13203,165,1925,3494,928,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",83751,214910,15525,7408,119,-1115,1351,3702,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalCliffSharp_04",82200,215400,16800,10800,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalCliffSharp_04",83400,216600,16800,10800,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalCliffSharp_04",85800,216600,16800,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
@@ -67322,58 +60045,22 @@ p("TropicalPlant_Grass_03",98000,228000,16793,129,2097156)
 p("TropicalPlant_Grass_03",98000,229000,16867,134,2097156)
 p("TropicalRockSharp_01",65985,230121,11043,6004,163,-385,640,4027,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalCliffSharp_04",72600,231000,13300,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
-p("TropicalPlant_05_Shrub_01",66592,245626,20905,102,2097156)
 p("TropicalPlant_Flowers_06",76853,230404,7098,96,2097156)
+p("TropicalRockSharp_01",74209,237499,9900,5453,250,4291676360,1285,-1025,3751,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_Flowers_06",77865,230147,17424,103,2097156)
 p("TropicalPlant_Flowers_06",78842,230172,17424,103,2097156)
+p("TropicalRockSharp_01",78810,230902,7187,6583,250,4291676360,-2188,1825,2943,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_Grass_01",80580,230062,9009,2097152)
 p("TropicalRockSharp_01",80777,231095,11043,16452,163,-736,-412,4008,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_01",81326,229382,8184,98,2097156)
 p("TropicalRockSharp_01",80963,231995,12457,9304,91,-816,-2210,3350,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
-p("TropicalPlant_04_Sapling_05",77162,245516,16599,96,2097156)
-p("TropicalPlant_04_Sapling_06",79602,242515,16150,101,2097156)
-p("TropicalPlant_04_Sapling_03",68058,247807,13570,104,2097156)
-p("TropicalPlant_Grass_02",67294,252022,21503,250,2097156)
-p("TropicalPlant_04_Sapling_04",68110,250851,17499,102,2097156)
-p("TropicalPlant_04_Shrub_01",68702,252867,19400,101,2097156)
-p("TropicalPlant_04_Shrub_01",69324,252061,15909,97,2097156)
-p("TropicalPlant_Dead_10",69890,247224,20818,113,2097156)
-p("TropicalPlant_05_Shrub_01",71631,249719,20097,99,2097156)
-p("TropicalPlant_Grass_01",71061,251484,9094,250,2097156)
-p("TropicalPlant_04_Shrub_02",72837,250682,20355,96,2097156)
-p("TropicalPlant_05_Shrub_01",73340,252727,1477,101,2097156)
-p("TropicalPlant_Grass_02",65762,255044,2756,250,2097156)
-p("TropicalPlant_04_Shrub_01",67362,254667,5333,98,2097156)
-p("TropicalPlant_Grass_01",68062,253964,6586,250,2097156)
-p("TropicalPlant_04_Sapling_04",69555,254083,15753,97,2097156)
-p("TropicalPlant_Grass_01",68310,256217,6463,104,2097156)
-p("TropicalPlant_Grass_01",68484,257509,14088,98,2097156)
-p("TropicalPlant_Grass_03",69585,257547,2544,95,2097156)
-p("TropicalPlant_Grass_03",66027,258197,15554,250,2097156)
-p("TropicalPlant_Grass_03",72148,253978,6512,250,2097156)
-p("TropicalPlant_04_Sapling_04",73247,255786,2458,95,2097156)
-p("TropicalPlant_Grass_03",71848,256084,20690,2097152)
-p("TropicalPlant_05_Shrub_01",77684,247188,4720,2097152)
-p("TropicalPlant_Grass_02",75259,251255,18623,250,2097156)
-p("TropicalPlant_04_Shrub_01",74575,252454,11325,101,2097156)
-p("TropicalPlant_04_Sapling_04",76394,251210,3109,97,2097156)
-p("TropicalPlant_Grass_03",77698,253540,846,250,2097156)
-p("TropicalPlant_04_Sapling_04",80634,248533,19583,102,2097156)
-p("TropicalPlant_Grass_01",78368,251205,13162,248,2097156)
-p("TropicalPlant_Grass_04",79611,253610,9711,250,2097156)
-p("TropicalPlant_Grass_01",79946,251796,14108,243,2097156)
-p("TropicalPlant_04_Sapling_03",80342,252723,3906,95,2097156)
-p("TropicalPlant_Grass_03",80914,253339,5565,243,2097156)
-p("TropicalPlant_Grass_02",75087,254222,11425,250,2097156)
-p("TropicalPlant_05_Shrub_01",77222,254135,1047,96,2097156)
-p("TropicalPlant_Grass_03",76223,256384,13949,2097152)
-p("TropicalRockSharp_01",74940,261397,7953,5440,250,4291676360,31,53,4095,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
-p("TropicalPlant_Grass_04",78301,255843,1904,102,2097156)
-p("TropicalPlant_05_Shrub_01",81376,254809,10189,103,2097156)
+p("TropicalRockSharp_01",77588,241938,6353,4773,250,4291676360,1299,-1291,3663,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",78591,245591,3318,5453,250,4291676360,1285,-1025,3751,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_Grass_01",85640,231134,17741,96,2097156)
 p("TropicalPlant_Grass_01",89000,230000,18380,129,2097156)
 p("TropicalRockSharp_01",88381,231357,11043,16452,163,-736,-412,4008,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_03",90000,230000,14747,124,2097156)
+p("TropicalRockSharp_01",86488,236114,6949,5412,250,4291676360,32,53,4095,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_Grass_03",91000,230000,6579,128,2097156)
 p("TropicalPlant_Grass_04",92000,230000,15406,130,2097156)
 p("TropicalPlant_Grass_02",93000,230000,7390,134,2097156)
@@ -67383,44 +60070,15 @@ p("TropicalPlant_Grass_01",95000,231000,20581,128,2097156)
 p("TropicalPlant_Grass_03",96000,230000,12733,125,2097156)
 p("TropicalPlant_Grass_04",96000,231000,1673,130,2097156)
 p("TropicalPlant_Grass_01",97000,230000,1463,132,2097156)
+p("TropicalRockSharp_01",96256,230761,7187,6583,250,4291676360,-2188,1825,2943,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_Grass_04",97000,231000,13833,132,2097156)
 p("TropicalPlant_Grass_03",98000,230000,14983,134,2097156)
 p("TropicalPlant_Grass_03",98000,231000,5567,134,2097156)
-p("TropicalPlant_04_Sapling_03",82784,245981,9654,96,2097156)
-p("TropicalPlant_04_Sapling_06",82527,248249,1819,97,2097156)
-p("TropicalPlant_Grass_03",82651,250065,10319,238,2097156)
-p("TropicalPlant_Grass_04",84700,251426,21518,238,2097156)
-p("TropicalPlant_04_Sapling_04",83991,253012,3077,97,2097156)
-p("TropicalPlant_Grass_01",86592,250524,20453,243,2097156)
-p("TropicalPlant_04_Sapling_05",88365,252323,11042,104,2097156)
-p("TropicalPlant_Grass_04",83006,254780,7447,250,2097156)
-p("TropicalPlant_04_Sapling_05",84418,255490,18170,96,2097156)
-p("TropicalRockSharp_01",85270,259945,7953,5530,250,4291676360,-845,902,3905,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",96256,234640,3002,6135,250,4291676360,-1883,1497,3314,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_Grass_01",86022,257269,15424,2097152)
-p("TropicalPlant_Grass_04",87758,256255,16747,99,2097156)
-p("TropicalPlant_04_Sapling_06",89611,255649,4005,102,2097156)
 p("TropicalPlant_Grass_02",89953,257702,606,102,2097156)
-p("TropicalPlant_Grass_02",90802,248984,19141,250,2097156)
-p("TropicalPlant_Grass_03",93176,247395,18975,245,2097156)
-p("TropicalPlant_Grass_01",90936,250105,2570,238,2097156)
-p("TropicalPlant_04_Sapling_04",91860,250769,12003,103,2097156)
-p("TropicalPlant_04_Sapling_05",92966,249964,3428,98,2097156)
-p("TropicalPlant_Grass_03",93217,251367,4202,250,2097156)
-p("TropicalPlant_Grass_04",93485,253173,5872,250,2097156)
-p("TropicalPlant_04_Sapling_03",96363,250368,5009,101,2097156)
-p("TropicalPlant_Grass_04",90670,254973,21012,250,2097156)
-p("TropicalPlant_Grass_04",90194,256099,20973,2097152)
-p("TropicalPlant_Grass_01",92096,256454,6990,250,2097156)
 p("TropicalPlant_Grass_01",92058,257641,2242,99,2097156)
-p("TropicalPlant_04_Sapling_03",92591,254178,16114,98,2097156)
 p("TropicalPlant_Grass_04",94134,257844,4763,99,2097156)
-p("TropicalRockSharp_01",94042,260349,6949,5412,250,4291676360,32,53,4095,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
-p("TropicalPlant_Grass_02",95507,254197,10733,245,2097156)
-p("TropicalPlant_Grass_01",95390,256841,721,240,2097156)
-p("TropicalPlant_04_Sapling_03",96658,256012,19280,104,2097156)
-p("TropicalPlant_Grass_01",96360,257540,15214,96,2097156)
-p("TropicalPlant_Grass_04",97794,256266,1164,95,2097156)
-p("TropicalPlant_Grass_01",97576,258189,21444,102,2097156)
 p("TropicalPlant_Grass_02",99000,197000,120,4)
 p("TropicalPlant_Grass_01",99000,198000,92,4)
 p("TropicalPlant_Grass_01",100000,197000,76,4)
@@ -67754,8 +60412,8 @@ p("TropicalPlant_Grass_03",109000,228000,5791,128,2097156)
 p("TropicalPlant_Grass_01",109000,229000,14891,129,2097156)
 p("TropicalPlant_Grass_01",110000,228000,21206,133,2097156)
 p("TropicalPlant_Grass_01",110000,229000,4577,125,2097156)
-p("TropicalPlant_Grass_03",112567,226560,6667,248,2097156)
-p("TropicalPlant_02_Shrub",113499,226977,21415,2097152)
+p("TropicalRockSharp_01",112284,223190,9456,3995,185,4291676360,-1001,3146,2423,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",112204,226105,2898,3855,250,4291676360,-1323,3300,2032,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_Grass_02",115000,197000,118,4)
 p("TropicalPlant_Grass_04",116000,197000,117,4)
 p("TropicalPlant_Grass_01",116000,198000,13508,242,2097156)
@@ -67862,28 +60520,8 @@ p("TropicalPlant_Grass_04",123000,199000,171,4)
 p("TropicalPlant_Grass_04",123000,200000,189,4)
 p("TropicalPlant_Grass_03",123000,201000,68,4)
 p("TropicalPlant_Grass_04",123000,202000,16230,130,2097156)
-p("TropicalPlant_02_Shrub",121214,221088,8855,2097152)
-p("TropicalPlant_Grass_03",121660,220671,6093,250,2097156)
-p("TropicalPlant_Grass_04",118013,223843,14018,240,2097156)
-p("TropicalPlant_Grass_02",115249,226925,18687,250,2097156)
-p("TropicalPlant_Grass_03",117874,226970,7276,238,2097156)
-p("TropicalPlant_Grass_02",121392,223590,1399,250,2097156)
-p("TropicalPlant_Grass_03",120101,226397,2946,243,2097156)
-p("TropicalPlant_Grass_04",121765,229213,81,250,2097156)
-p("TropicalPlant_02_Shrub",124674,217247,9399,2097152)
-p("TropicalPlant_Grass_03",124602,219578,14898,250,2097156)
-p("TropicalPlant_Grass_02",128051,216156,5141,238,2097156)
-p("TropicalPlant_Grass_04",127434,220448,6346,250,2097156)
-p("TropicalPlant_04_Shrub_02",128679,220665,3690,95,2097156)
-p("TropicalPlant_04_Sapling_04",129251,219084,19259,96,2097156)
-p("TropicalPlant_Grass_02",130836,219320,17944,250,2097156)
-p("TropicalPlant_Grass_01",123648,223994,19741,250,2097156)
-p("TropicalPlant_Grass_02",126854,222989,14646,248,2097156)
-p("TropicalPlant_Grass_02",124396,228816,7231,243,2097156)
-p("TropicalPlant_Grass_04",125029,226003,8437,250,2097156)
-p("TropicalPlant_04_Sapling_06",129673,222148,5015,98,2097156)
-p("TropicalPlant_04_Sapling_04",130785,223998,20951,95,2097156)
-p("TropicalPlant_Dead_14",128232,228022,7850,128,2097156)
+p("TropicalRockSharp_01",120166,216792,8988,4517,185,4291676360,-1392,2711,2736,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",123943,218105,4820,4170,250,-7,-29,4095,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_03",99000,230000,20132,125,2097156)
 p("TropicalPlant_Grass_02",99000,231000,18169,123,2097156)
 p("TropicalPlant_Grass_02",100000,230000,20842,124,2097156)
@@ -67892,11 +60530,11 @@ p("TropicalPlant_Grass_04",101000,230000,18958,133,2097156)
 p("TropicalPlant_Grass_02",101000,231000,2322,126,2097156)
 p("TropicalPlant_Grass_04",102000,230000,3432,124,2097156)
 p("TropicalPlant_Grass_04",102000,231000,7247,132,2097156)
+p("TropicalRockSharp_01",101392,232663,3122,7307,250,4291676360,-1818,1000,3531,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_Grass_03",103000,230000,9576,128,2097156)
 p("TropicalPlant_Grass_02",103000,231000,13033,134,2097156)
 p("TropicalPlant_Grass_01",104000,230000,11211,125,2097156)
 p("TropicalPlant_Grass_04",104000,231000,16660,124,2097156)
-p("TropicalPlant_Grass_03",103062,233375,6057,238,2097156)
 p("TropicalPlant_Grass_02",104000,232000,21496,126,2097156)
 p("TropicalPlant_Grass_03",105000,230000,9068,128,2097156)
 p("TropicalPlant_Grass_04",105000,231000,7149,128,2097156)
@@ -67904,11 +60542,6 @@ p("TropicalPlant_Grass_01",106000,230000,8418,123,2097156)
 p("TropicalPlant_Grass_02",106000,231000,6748,130,2097156)
 p("TropicalPlant_Grass_01",105000,232000,9983,129,2097156)
 p("TropicalPlant_Grass_01",106000,232000,8141,130,2097156)
-p("TropicalPlant_Grass_04",106330,233200,20560,250,2097156)
-p("TropicalPlant_Grass_04",102492,235116,7213,245,2097156)
-p("TropicalPlant_Grass_01",105952,235229,4126,238,2097156)
-p("TropicalPlant_Dead_10",100297,242586,2567,120,2097156)
-p("TropicalPlant_Grass_02",105115,245759,11254,238,2097156)
 p("TropicalPlant_Grass_04",107000,230000,3721,124,2097156)
 p("TropicalPlant_Grass_04",107000,231000,4794,129,2097156)
 p("TropicalPlant_Grass_03",108000,230000,13383,132,2097156)
@@ -67919,115 +60552,15 @@ p("TropicalPlant_Grass_01",109000,230000,7088,134,2097156)
 p("TropicalPlant_Grass_02",109000,231000,19894,125,2097156)
 p("TropicalPlant_Grass_03",110000,230000,21389,124,2097156)
 p("TropicalPlant_Grass_01",109521,232234,16983,248,2097156)
-p("TropicalPlant_Grass_02",111498,229487,11005,240,2097156)
-p("TropicalPlant_Grass_01",111581,231533,512,250,2097156)
-p("TropicalPlant_04_Shrub_01",112337,236196,3206,104,2097156)
-p("TropicalPlant_04_Shrub_02",113205,233491,15085,104,2097156)
-p("TropicalPlant_Dead_11",108896,241354,20856,130,2097156)
-p("TropicalPlant_Grass_03",111529,244819,3140,250,2097156)
-p("TropicalPlant_05_Shrub_01",98407,249596,11314,99,2097156)
-p("TropicalPlant_Grass_04",99913,248511,6132,250,2097156)
-p("TropicalPlant_Dead_14",100550,249252,8528,124,2097156)
-p("TropicalPlant_Grass_02",101516,247951,18805,250,2097156)
-p("TropicalPlant_04_Sapling_06",99612,250556,5172,99,2097156)
-p("TropicalPlant_Grass_03",99467,251915,1238,248,2097156)
-p("TropicalPlant_Grass_03",104833,248952,2363,250,2097156)
-p("TropicalPlant_Grass_04",102688,251605,10566,250,2097156)
-p("TropicalPlant_Grass_04",105621,250641,5719,248,2097156)
-p("TropicalPlant_04_Sapling_04",105984,250242,14307,2097152)
-p("TropicalPlant_Grass_04",100353,255716,8653,103,2097156)
-p("TropicalPlant_04_Sapling_04",101753,255750,11650,102,2097156)
-p("TropicalPlant_Grass_04",100481,257519,1916,99,2097156)
-p("TropicalPlant_04_Sapling_05",103198,255669,14518,102,2097156)
-p("TropicalPlant_Grass_01",106350,254214,9211,99,2097156)
-p("TropicalPlant_Grass_02",106445,256473,5186,101,2097156)
-p("TropicalRockSharp_01",105749,260282,6949,5412,250,4291676360,32,53,4095,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
-p("TropicalPlant_Grass_02",108315,248237,4505,250,2097156)
-p("TropicalPlant_Dead_01",108123,248460,16387,113,2097156)
-p("TropicalPlant_02_Shrub",108620,246820,3275,2097152)
-p("TropicalPlant_04_Sapling_05",107268,252084,4787,2097152)
-p("TropicalPlant_Grass_02",109515,251892,21417,98,2097156)
-p("TropicalPlant_Grass_01",111378,248372,18151,240,2097156)
-p("TropicalPlant_04_Sapling_06",111652,250382,20105,96,2097156)
-p("TropicalPlant_Grass_02",111998,251675,8375,96,2097156)
-p("TropicalPlant_Grass_04",111634,253563,11277,102,2097156)
-p("TropicalPlant_Grass_04",114179,252012,5260,103,2097156)
-p("TropicalPlant_Grass_02",113750,253921,17720,95,2097156)
-p("TropicalPlant_Grass_04",108475,254115,19922,95,2097156)
-p("TropicalPlant_Grass_03",107690,255818,2422,97,2097156)
-p("TropicalPlant_Grass_03",110107,254294,14160,102,2097156)
-p("TropicalPlant_Grass_04",109864,255891,1536,103,2097156)
-p("TropicalPlant_05_Shrub_01",111482,254821,9285,98,2097156)
-p("TropicalPlant_Grass_01",112432,255805,14911,2097152)
-p("TropicalPlant_Grass_04",114096,255811,3931,104,2097156)
-p("TropicalPlant_Grass_01",118481,230033,4251,250,2097156)
-p("TropicalPlant_Grass_03",118463,232051,8045,238,2097156)
-p("TropicalPlant_Dead_01",120573,230324,18864,130,2097156)
-p("TropicalPlant_Grass_02",120487,231766,13058,243,2097156)
-p("TropicalPlant_Grass_04",121171,235657,6335,250,2097156)
-p("TropicalPlant_Grass_02",115140,245282,16926,250,2097156)
-p("TropicalPlant_Grass_02",118535,245459,2962,250,2097156)
-p("TropicalPlant_Grass_02",121133,238674,16596,250,2097156)
-p("TropicalPlant_04_Shrub_01",121194,243678,19422,98,2097156)
-p("TropicalPlant_Grass_03",121253,243908,4304,238,2097156)
-p("TropicalPlant_Grass_02",123167,231722,13231,250,2097156)
-p("TropicalPlant_Grass_02",123815,235646,9247,245,2097156)
+p("TropicalRockSharp_01",109638,233268,6430,1327,250,4291676360,-18,932,3988,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",114565,236350,2468,2614,250,4291676360,-172,-3364,2329,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",113807,237498,7851,18927,250,4291676360,1708,3224,1861,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",114343,248746,1478,2592,250,4291676360,-2189,-2917,1865,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",115341,239740,3514,1168,250,4291676360,-402,-3860,1309,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_04_Sapling_05",124549,236356,13821,101,2097156)
-p("TropicalPlant_05_Shrub_01",127853,231877,4073,95,2097156)
-p("TropicalPlant_Grass_02",127866,232024,646,243,2097156)
-p("TropicalPlant_04_Shrub_02",128926,233075,13152,97,2097156)
-p("TropicalPlant_Grass_04",130015,230216,9637,250,2097156)
-p("TropicalPlant_05_Shrub_01",130768,231293,11987,103,2097156)
-p("TropicalPlant_Grass_03",127721,236404,13386,250,2097156)
-p("TropicalPlant_Grass_04",129751,234602,6520,248,2097156)
-p("TropicalPlant_05_Shrub_01",129812,235504,18572,95,2097156)
-p("TropicalPlant_Grass_04",130857,233486,12306,248,2097156)
-p("TropicalPlant_Grass_02",123448,238640,13017,250,2097156)
-p("TropicalPlant_Grass_04",124332,240963,8121,238,2097156)
-p("TropicalPlant_04_Sapling_06",125983,239084,13571,96,2097156)
-p("TropicalPlant_04_Sapling_04",126175,239285,9799,103,2097156)
-p("TropicalPlant_Grass_01",126273,240791,19214,250,2097156)
-p("TropicalPlant_Grass_01",123745,244971,17070,250,2097156)
-p("TropicalPlant_Grass_03",126371,242151,11727,238,2097156)
-p("TropicalPlant_Grass_02",127429,237926,5918,245,2097156)
-p("TropicalPlant_04_Shrub_01",127369,241473,3023,99,2097156)
-p("TropicalRockSharp_01",130997,240940,10015,4296,185,4291676360,-907,3705,1492,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
-p("TropicalPlant_Grass_01",127122,245579,14998,250,2097156)
-p("TropicalPlant_Grass_04",130223,242033,3624,250,2097156)
-p("TropicalPlant_Grass_01",129500,244474,3821,250,2097156)
-p("TropicalPlant_Grass_01",114797,248995,1033,250,2097156)
-p("TropicalPlant_04_Sapling_06",114814,249686,21432,102,2097156)
-p("TropicalPlant_Grass_01",116770,247179,17402,250,2097156)
-p("TropicalPlant_Grass_01",118439,247030,7796,238,2097156)
-p("TropicalPlant_02_Shrub",115075,250720,12230,2097152)
-p("TropicalPlant_Grass_02",115777,251524,7077,2097152)
-p("TropicalPlant_04_Sapling_03",116030,252362,797,99,2097156)
-p("TropicalPlant_Grass_03",118093,252475,21585,99,2097156)
-p("TropicalPlant_Grass_03",120142,247030,610,250,2097156)
-p("TropicalPlant_04_Sapling_05",119485,249944,903,98,2097156)
-p("TropicalPlant_Grass_02",119772,253589,12122,104,2097156)
-p("TropicalPlant_04_Sapling_06",120096,252551,4134,2097152)
-p("TropicalPlant_Grass_02",121900,251206,11716,240,2097156)
-p("TropicalPlant_04_Shrub_02",121456,253075,17130,95,2097156)
-p("TropicalPlant_Grass_03",115605,254079,1881,97,2097156)
-p("TropicalPlant_Grass_01",115691,255976,4528,97,2097156)
-p("TropicalPlant_04_Sapling_03",117145,254575,16211,98,2097156)
-p("TropicalPlant_Grass_03",118443,254461,7169,95,2097156)
-p("TropicalPlant_04_Shrub_02",118541,255531,10615,96,2097156)
-p("TropicalPlant_Grass_04",117843,256317,20234,95,2097156)
-p("TropicalPlant_Grass_04",120490,254140,12768,96,2097156)
 p("TropicalPlant_Grass_03",120001,255554,363,104,2097156)
-p("TropicalRockSharp_01",121097,255401,3798,4811,250,4291676360,-1365,3183,2187,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_04_Sapling_05",121264,255339,5539,101,2097156)
-p("TropicalRockSharp_01",119340,258436,6949,3449,250,4291676360,67,61,4094,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
-p("TropicalPlant_Grass_02",123415,247343,11418,250,2097156)
-p("TropicalPlant_Grass_01",126121,248664,3117,250,2097156)
-p("TropicalPlant_Grass_01",124006,250447,2114,250,2097156)
-p("TropicalRockSharp_01",125008,251161,10015,4296,185,4291676360,-907,3705,1492,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
-p("TropicalPlant_Grass_04",126110,250210,18972,238,2097156)
-p("TropicalPlant_04_Shrub_02",125046,253202,8484,103,2097156)
-p("TropicalRockSharp_01",130118,249952,6948,1492,250,1127,745,3866,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
-p("TropicalRockSharp_01",130118,249952,6948,1649,250,4291676360,162,84,4091,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",129720,257256,520,3533,250,4291676360,-724,-3104,2571,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_02_Shrub",131321,14328,8631,2097152)
 p("TropicalPlant_02_Shrub",131187,15578,8512,2097152)
 p("TropicalPlant_02_Shrub",133942,17008,4653,2097152)
@@ -69494,46 +62027,13 @@ p("TropicalPlant_Grass_01",157000,105000,4778,186,2097156)
 p("TropicalPlant_Grass_03",158000,103000,13232,204,2097156)
 p("TropicalPlant_Grass_03",158000,104000,20110,194,2097156)
 p("TropicalPlant_Grass_04",159000,103000,18596,200,2097156)
-p("TropicalPlant_Grass_03",159000,104000,11343,188,2097156)
 p("TropicalPlant_Grass_03",158000,105000,14714,198,2097156)
 p("TropicalPlant_Grass_04",158000,106000,20381,188,2097156)
 p("TropicalPlant_Grass_04",159000,105000,11174,190,2097156)
-p("TropicalPlant_Grass_01",159000,106000,20465,188,2097156)
 p("TropicalPlant_Grass_04",160210,99412,21401,96,2097156)
-p("TropicalPlant_Grass_01",161453,99204,12997,97,2097156)
-p("TropicalPlant_Grass_04",160053,100385,14816,97,2097156)
-p("TropicalPlant_Grass_03",160000,101000,11765,196,2097156)
-p("TropicalPlant_Grass_02",160000,102000,17469,186,2097156)
-p("TropicalPlant_Grass_02",161000,101000,6471,194,2097156)
-p("TropicalPlant_Grass_03",161000,102000,14193,192,2097156)
+p("TropicalPlant_04_Sapling_04",160567,99736,485,96,-2572,2733,1641,2097172)
+p("TropicalPlant_Grass_04",160052,100384,14816,97,2097156)
 p("TropicalPlant_Grass_01",163086,98456,15439,103,2097156)
-p("TropicalPlant_Grass_04",163580,98731,5068,97,2097156)
-p("TropicalPlant_Grass_01",163791,98370,5516,104,2097156)
-p("TropicalPlant_Grass_01",163000,100000,2692,200,2097156)
-p("TropicalPlant_Grass_04",162211,100372,19492,95,2097156)
-p("TropicalPlant_Grass_02",162000,101000,10075,196,2097156)
-p("TropicalPlant_Grass_02",162000,102000,2398,190,2097156)
-p("TropicalPlant_Grass_02",163000,101000,11221,200,2097156)
-p("TropicalPlant_04_Sapling_03",162827,101473,20486,96,2097156)
-p("TropicalPlant_Grass_04",163000,102000,5440,202,2097156)
-p("TropicalPlant_Grass_01",160000,103000,19076,192,2097156)
-p("TropicalPlant_Grass_03",160000,104000,9112,198,2097156)
-p("TropicalPlant_Grass_03",161000,103000,16471,188,2097156)
-p("TropicalPlant_Grass_04",161000,104000,12009,202,2097156)
-p("TropicalPlant_Grass_02",160000,105000,12988,190,2097156)
-p("TropicalPlant_Grass_01",160000,106000,16794,196,2097156)
-p("TropicalPlant_Grass_01",161000,105000,3149,194,2097156)
-p("TropicalPlant_04_Sapling_03",161071,105274,20433,101,2097156)
-p("TropicalPlant_Grass_03",161000,106000,2049,194,2097156)
-p("TropicalPlant_Grass_02",162000,103000,15469,202,2097156)
-p("TropicalPlant_Grass_01",162000,104000,13178,188,2097156)
-p("TropicalPlant_Grass_04",163000,103000,17211,194,2097156)
-p("TropicalPlant_Grass_02",163000,104000,10672,190,2097156)
-p("TropicalPlant_Grass_01",162000,105000,7073,196,2097156)
-p("TropicalPlant_Grass_04",162000,106000,16714,198,2097156)
-p("TropicalPlant_Grass_02",163000,105000,13681,204,2097156)
-p("TropicalPlant_04_Sapling_03",162985,105262,4065,102,2097156)
-p("TropicalPlant_Grass_02",163000,106000,10809,194,2097156)
 p("TropicalPlant_Grass_02",158000,107000,21268,200,2097156)
 p("TropicalPlant_Grass_04",158000,108000,11865,192,2097156)
 p("TropicalPlant_Grass_03",159000,107000,12019,188,2097156)
@@ -69544,15 +62044,8 @@ p("TropicalRockSharp_02",157026,110800,14384,15467,101,-3456,2157,422,16,"terrai
 p("TropicalRockSharp_01",157423,112532,6948,19890,250,-1169,-164,3922,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_01",160000,107000,7424,186,2097156)
 p("TropicalPlant_Grass_03",160000,108000,17196,200,2097156)
-p("TropicalPlant_Grass_04",161000,107000,5866,188,2097156)
-p("TropicalPlant_04_Sapling_03",160896,107046,17803,96,2097156)
-p("TropicalPlant_Grass_01",161000,108000,6494,204,2097156)
 p("TropicalPlant_Grass_03",160000,109000,14862,196,2097156)
-p("TropicalPlant_Grass_03",162000,107000,8214,192,2097156)
-p("TropicalPlant_Grass_03",162000,108000,18740,202,2097156)
 p("TropicalPlant_05_Shrub_01",162379,108080,9747,99,2097156)
-p("TropicalPlant_Grass_02",163000,107000,18764,190,2097156)
-p("TropicalPlant_Grass_04",163000,108000,12198,188,2097156)
 p("TropicalPlant_04_Sapling_06",161068,113927,1199,101,2097156)
 p("TropicalRockSharp_01",162818,112097,9555,11188,188,-1097,164,3942,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_04_Sapling_06",163834,112329,345,103,2097156)
@@ -69631,6 +62124,7 @@ p("TropicalRockSharpWalk_01",156600,115800,14000,"terrainchunk",10,0,0,40,60,10,
 p("TropicalRockSharp_01",156375,120556,7114,9474,250,-53,290,4085,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharpWalk_01",159000,120600,14000,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalPlant_05_Shrub_01",161377,116190,5388,2097152)
+p("TropicalPlant_Grass_03",163699,117435,14206,10806,190,2097157)
 p("TropicalPlant_05_Shrub_01",163543,118006,20870,102,2097156)
 p("TropicalRockSharp_01",161802,121280,6948,19890,250,-1169,-164,3922,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharpWalk_01",160200,124200,14000,"terrainchunk",10,0,0,40,60,10,40,60,131073)
@@ -69665,7 +62159,6 @@ p("TropicalRockSharp_01",175174,83820,12682,11819,198,-2076,756,3448,"terrainchu
 p("TropicalRockSharp_02",174658,89489,10644,9759,101,39,-986,3975,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalRockSharp_01",177981,89725,9200,8963,250,-1734,738,3636,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",179526,87869,9200,9513,250,-1558,169,3784,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
-p("TropicalPlant_04_Sapling_05",173884,97295,12578,101,2097156)
 p("TropicalPlant_04_Sapling_06",177851,96973,973,99,2097156)
 p("TropicalPlant_Grass_02",184063,69142,8113,71,2097156)
 p("TropicalRockSharp_01",181959,73250,10802,11890,250,-1417,-35,3842,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -69696,7 +62189,7 @@ p("TropicalPlant_Grass_03",188114,70592,6266,69,2097156)
 p("TropicalPlant_Grass_01",186694,73049,11914,68,2097156)
 p("TropicalPlant_06_Sapling_01",186928,73273,1340,129,2097156)
 p("TropicalPlant_Grass_03",187608,71841,5139,68,2097156)
-p("TropicalPlant_06_Sapling_01",185018,75762,18249,120,2097156)
+p("TropicalPlant_06_Sapling_01",184770,75579,18560,18249,120,2097157)
 p("TropicalPlant_Grass_03",185445,74128,10105,70,2097156)
 p("TropicalPlant_Grass_02",186178,74126,1592,66,2097156)
 p("TropicalPlant_Grass_02",185577,75187,19928,71,2097156)
@@ -69705,7 +62198,7 @@ p("TropicalPlant_Grass_04",186858,74276,10982,68,2097156)
 p("TropicalPlant_01_Sapling",187317,75705,16386,125,2097156)
 p("TropicalPlant_Grass_02",188020,75563,9933,67,2097156)
 p("TropicalPlant_Grass_02",187254,75945,13074,72,2097156)
-p("TropicalPlant_02_Shrub",184984,80025,1984,122,2097156)
+p("TropicalPlant_02_Shrub",185403,79709,18157,1984,122,2097157)
 p("TropicalRockSharp_01",184671,81094,10943,8927,250,-33,293,4085,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalPlant_08_Sapling_01",187578,80131,14252,130,2097156)
 p("TropicalPlant_Grass_02",188445,68914,17915,71,2097156)
@@ -69777,11 +62270,11 @@ p("TropicalRockSharp_01",195856,81165,14655,10694,129,-1597,-639,3717,16,"terrai
 p("TropicalCliffSharp_04",183000,89400,14700,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalRockSharp_01",185365,84601,14806,8266,124,-1160,846,3836,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalPlant_02_Shrub",188341,84437,4973,129,2097156)
+p("TropicalPlant_02_Shrub",181901,93105,17490,14035,110,2097157)
 p("TropicalPlant_Grass_04",182000,94000,15863,101,2097156)
 p("TropicalPlant_Grass_04",182386,91834,19056,95,2097156)
 p("TropicalPlant_Grass_04",183000,92000,5869,103,2097156)
 p("TropicalPlant_Grass_01",182995,92435,5078,103,2097156)
-p("TropicalPlant_02_Shrub",183237,92432,14035,110,2097156)
 p("TropicalPlant_Grass_04",183000,93000,17220,101,2097156)
 p("TropicalPlant_Grass_04",183000,94000,65,4)
 p("TropicalPlant_Grass_04",184000,93000,168,4)
@@ -69795,6 +62288,7 @@ p("TropicalPlant_Grass_04",183000,96000,183,4)
 p("TropicalPlant_Grass_03",184000,95000,180,4)
 p("TropicalPlant_Grass_03",184000,96000,97,4)
 p("TropicalPlant_Grass_04",184000,97000,192,4)
+p("TropicalPlant_Dead_11",183438,97537,18859,16857,0,4096,0,2097169)
 p("TropicalPlant_Grass_02",184000,98000,137,4)
 p("TropicalPlant_Grass_03",185000,95000,138,4)
 p("TropicalPlant_Grass_03",185000,96000,145,4)
@@ -69817,75 +62311,56 @@ p("TropicalRockSharp_01",195149,85946,16884,12409,129,-1892,441,3605,16,"terrain
 p("TropicalPlant_Grass_01",195510,86225,10896,68,2097156)
 p("TropicalPlant_Grass_03",194794,87197,3904,66,2097156)
 p("TropicalPlant_Grass_04",196043,86976,16083,68,2097156)
+p("TropicalPlant_04_Shrub_02",188584,91860,17256,10079,122,602,1852,3603,2097173)
+p("TropicalPlant_04_Shrub_02",188584,91860,17256,14760,122,-1048,2058,3382,2097173)
+p("TropicalPlant_04_Shrub_02",188584,91860,17256,15066,122,2097157)
 p("TropicalPlant_Grass_04",189000,97000,4729,104,2097156)
 p("TropicalPlant_Grass_01",189000,98000,87,4)
 p("TropicalPlant_Grass_02",189937,98030,5961,186,2097156)
 p("TropicalPlant_Grass_04",190000,98000,5724,96,2097156)
-p("TropicalPlant_Grass_04",164000,100000,11660,198,2097156)
-p("TropicalPlant_Grass_02",165000,100000,12896,202,2097156)
-p("TropicalPlant_Grass_01",164000,101000,2993,198,2097156)
-p("TropicalPlant_Grass_01",164000,102000,15264,186,2097156)
-p("TropicalPlant_Grass_03",165000,101000,16525,196,2097156)
-p("TropicalPlant_Grass_04",165000,102000,15508,188,2097156)
-p("TropicalPlant_Grass_01",166000,100000,15411,194,2097156)
 p("TropicalPlant_Grass_01",167000,100000,15960,198,2097156)
-p("TropicalPlant_Grass_01",166000,101000,6367,198,2097156)
 p("TropicalPlant_Grass_04",166000,102000,21359,202,2097156)
 p("TropicalPlant_Grass_01",167000,101000,14059,194,2097156)
 p("TropicalPlant_Grass_02",167000,102000,17415,186,2097156)
-p("TropicalPlant_Grass_03",164000,103000,570,190,2097156)
-p("TropicalPlant_Grass_04",164000,104000,11353,202,2097156)
-p("TropicalPlant_Grass_01",165000,103000,14173,192,2097156)
-p("TropicalPlant_Grass_01",165000,104000,2268,190,2097156)
-p("TropicalPlant_Grass_03",164000,105000,3831,202,2097156)
-p("TropicalPlant_Grass_03",164000,106000,13247,194,2097156)
-p("TropicalPlant_Grass_01",165000,105000,14278,188,2097156)
-p("TropicalPlant_Grass_04",165000,106000,10607,186,2097156)
-p("TropicalPlant_Grass_01",166000,103000,16025,188,2097156)
-p("TropicalPlant_Grass_02",166000,104000,5530,190,2097156)
+p("TropicalPlant_04_Sapling_04",164423,105572,17873,102,129,-411,4073,2097172)
 p("TropicalPlant_Grass_04",167000,103000,1847,194,2097156)
-p("TropicalPlant_Grass_02",167000,104000,901,192,2097156)
-p("TropicalPlant_Grass_02",166000,105000,14742,186,2097156)
-p("TropicalPlant_Grass_02",166000,106000,9187,196,2097156)
-p("TropicalPlant_Grass_03",167000,105000,6280,200,2097156)
-p("TropicalPlant_Grass_03",167000,106000,11080,186,2097156)
-p("TropicalRockSharp_01",168528,101137,12431,10819,188,-3656,1112,1473,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",168531,101121,12431,10819,188,-3656,1112,1473,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_04",168000,102000,16420,196,2097156)
-p("TropicalPlant_04_Sapling_04",171373,98925,333,96,2097156)
 p("TropicalPlant_Grass_04",168000,103000,4721,198,2097156)
 p("TropicalPlant_Grass_02",168000,104000,8624,192,2097156)
-p("TropicalPlant_Grass_04",168000,105000,7349,202,2097156)
-p("TropicalPlant_Grass_01",168000,106000,6583,196,2097156)
-p("TropicalPlant_Grass_04",164000,107000,12721,188,2097156)
-p("TropicalPlant_Grass_02",164000,108000,9177,200,2097156)
-p("TropicalPlant_Grass_04",165000,107000,15908,200,2097156)
-p("TropicalPlant_Grass_02",165000,108000,888,196,2097156)
-p("TropicalPlant_Grass_04",166000,107000,11598,200,2097156)
-p("TropicalPlant_Grass_03",166000,108000,20569,198,2097156)
-p("TropicalPlant_Grass_04",167000,107000,5463,188,2097156)
-p("TropicalPlant_Grass_02",167000,108000,18443,204,2097156)
-p("TropicalPlant_Grass_03",167000,109000,17039,192,2097156)
-p("TropicalPlant_Grass_02",168000,107000,21570,196,2097156)
-p("TropicalPlant_Grass_02",168000,108000,5673,204,2097156)
-p("TropicalPlant_Grass_02",168000,109000,1598,190,2097156)
-p("TropicalPlant_Grass_04",168000,110000,4076,198,2097156)
-p("TropicalPlant_Grass_04",168000,114000,12233,186,2097156)
+p("TropicalRockSharp_01",171494,105547,7898,5056,250,-1592,2701,2636,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
+p("TropicalPlant_Grass_03",164799,114563,14224,5416,202,2097157)
+p("TropicalPlant_04_Sapling_06",168836,110368,13436,17888,99,401,-390,4057,2097173)
+p("TropicalRockSharp_04",168995,110226,13538,16059,122,-912,1822,3553,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",171806,109624,14800,5138,77,-941,1631,3637,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
+p("TropicalRockSharp_04",170050,111249,14047,15550,122,-1061,2260,3246,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_04",171795,111866,15304,4858,122,792,-3597,1790,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_04",170658,113707,13538,2547,122,3853,-1282,533,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_04_Sapling_06",174256,101054,3112,2097152)
+p("TropicalRockSharp_01",172090,103316,9067,2783,250,1334,-1277,3655,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalPlant_05_Shrub_01",172736,102459,6664,2097152)
+p("TropicalRockSharp_01",173663,105314,8511,3241,250,675,-2321,3306,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalPlant_05_Shrub_01",177308,102705,2520,95,2097156)
-p("TropicalPlant_04_Sapling_04",172430,108029,18326,102,2097156)
+p("TropicalRockSharp_01",178219,103991,9067,2019,250,1573,-1960,3234,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
+p("TropicalCliffSharp_04",173400,109800,14700,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalPlant_04_Sapling_06",174598,108024,18338,97,2097156)
-p("TropicalPlant_04_Sapling_04",174514,110457,12165,102,2097156)
-p("TropicalPlant_04_Sapling_06",173371,111933,18285,99,2097156)
+p("TropicalCliffSharp_04",173400,112200,14700,"terrainchunk",10,0,0,40,60,10,40,60,131073)
+p("TropicalRockSharp_04",172437,113842,15304,7549,122,-1315,-3871,242,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalPlant_Dead_12",173093,113199,17348,1110,78,2097157)
+p("TropicalCliffSharp_04",174600,113400,14700,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalCliffSharp_04",177000,107400,14000,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalRockSharpWalk_01",177000,109800,16800,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalCliffSharp_04",179400,108600,14700,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("DecForestMoss_01",179637,110567,14532,18141,-179,161,4089,2097169)
-p("TropicalRockSharp_01",177027,112122,7898,17858,250,-293,-4051,529,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
-p("TropicalPlant_04_Sapling_06",177648,114347,1297,99,2097156)
+p("TropicalRockSharpWalk_01",178200,113400,16800,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalCliffSharp_04",178200,114600,14000,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("DecForestMoss_01",179580,113545,14328,18641,-147,503,4062,2097169)
 p("TropicalPlant_Grass_04",167000,115000,13832,186,2097156)
-p("TropicalPlant_Grass_03",167000,116000,10806,190,2097156)
+p("TropicalPlant_04_Sapling_06",167780,114878,20688,99,-834,-4009,61,2097172)
 p("TropicalPlant_04_Sapling_03",166252,117545,18038,96,2097156)
-p("TropicalPlant_Grass_03",167000,117000,5416,202,2097156)
+p("TropicalPlant_Grass_01",166555,117304,13510,20249,104,2097157)
 p("TropicalPlant_Grass_01",167000,118000,15618,190,2097156)
+p("TropicalPlant_Grass_02",167447,118447,13744,7019,194,2097157)
 p("TropicalPlant_Grass_03",165000,122000,10625,188,2097156)
 p("TropicalPlant_Grass_01",166000,119000,16569,188,2097156)
 p("TropicalPlant_Grass_04",166000,120000,9737,194,2097156)
@@ -69896,23 +62371,14 @@ p("TropicalPlant_Grass_01",166000,121000,10968,186,2097156)
 p("TropicalPlant_Grass_04",166000,122000,18226,202,2097156)
 p("TropicalPlant_Grass_04",167000,121000,5413,190,2097156)
 p("TropicalPlant_Grass_04",167000,122000,2657,192,2097156)
-p("TropicalPlant_Grass_02",168000,115000,2122,204,2097156)
-p("TropicalPlant_Grass_04",168000,116000,10694,188,2097156)
-p("TropicalPlant_Grass_03",169000,115000,4910,196,2097156)
-p("TropicalPlant_Grass_01",169000,116000,12000,196,2097156)
-p("TropicalPlant_Grass_03",168000,117000,21448,194,2097156)
-p("TropicalPlant_Grass_01",168000,118000,9207,200,2097156)
-p("TropicalPlant_Grass_04",169000,117000,13267,196,2097156)
-p("TropicalPlant_Grass_01",169000,118000,16035,186,2097156)
+p("TropicalPlant_04_Sapling_06",169067,118072,13724,13052,95,401,-91,4075,2097173)
 p("TropicalPlant_Grass_01",168000,119000,12606,190,2097156)
 p("TropicalPlant_Grass_02",168000,120000,17573,198,2097156)
-p("TropicalPlant_Grass_02",169000,119000,7019,194,2097156)
 p("TropicalPlant_Grass_01",169000,120000,10040,200,2097156)
 p("TropicalPlant_Grass_04",168000,121000,14692,190,2097156)
 p("TropicalPlant_Grass_03",168000,122000,21468,194,2097156)
 p("TropicalPlant_Grass_04",169000,121000,5612,198,2097156)
 p("TropicalPlant_Grass_03",169000,122000,5716,204,2097156)
-p("TropicalPlant_Grass_01",170101,120326,20249,104,2097156)
 p("TropicalPlant_Grass_02",170000,122000,9689,194,2097156)
 p("TropicalPlant_Grass_03",164000,123000,19794,194,2097156)
 p("TropicalPlant_Grass_01",164000,124000,7375,186,2097156)
@@ -69973,7 +62439,7 @@ p("TropicalPlant_Grass_01",170000,131000,15430,198,2097156)
 p("TropicalPlant_Grass_04",171000,131000,15035,190,2097156)
 p("TropicalPlant_Grass_04",172000,130000,10797,200,2097156)
 p("TropicalPlant_Grass_04",172000,131000,17039,194,2097156)
-p("TropicalPlant_04_Sapling_06",173772,115206,13500,95,2097156)
+p("TropicalRockSharp_01",175640,116376,9002,17919,250,-1520,-2878,2486,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("DecForestMoss_01",178978,116847,14037,19514,-179,364,4076,2097169)
 p("TropicalPlant_Grass_02",172110,124174,10000,95,2097156)
 p("TropicalPlant_Grass_02",173000,128000,4626,194,2097156)
@@ -69988,7 +62454,6 @@ p("DecForestMoss_01",178231,126493,14125,2654,-11,-47,4096,2097169)
 p("DecForestMoss_01",179284,126318,14285,3664,-890,3998,0,2097169)
 p("DecForestMoss_01",179250,127890,14136,4484,800,4017,0,2097169)
 p("DecForestMoss_01",179353,128695,13930,4484,800,4017,0,2097169)
-p("TropicalCliffSharp_04",180600,100200,13300,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalPlant_Grass_04",182000,99000,2881,95,2097156)
 p("TropicalPlant_Grass_04",182000,100000,15543,96,2097156)
 p("TropicalPlant_Grass_04",182000,101000,863,104,2097156)
@@ -70002,8 +62467,10 @@ p("TropicalPlant_Grass_04",183000,101000,6669,96,2097156)
 p("TropicalPlant_Grass_04",183000,102000,9153,102,2097156)
 p("TropicalPlant_Grass_04",184000,102000,21220,101,2097156)
 p("TropicalPlant_Grass_04",182000,103000,8391,98,2097156)
+p("TropicalCliffSharp_04",181800,103800,14000,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalPlant_Grass_04",182000,104000,12662,98,2097156)
 p("TropicalPlant_Grass_04",182000,105000,9756,101,2097156)
+p("TropicalCliffSharp_04",181800,106200,14000,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalPlant_Grass_04",183000,103000,344,98,2097156)
 p("TropicalCliffSharp_04",183000,103800,14700,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalPlant_Grass_04",183000,104000,15561,104,2097156)
@@ -70014,6 +62481,7 @@ p("TropicalPlant_Grass_04",183000,106000,4810,96,2097156)
 p("TropicalCliffSharp_04",183000,106200,14700,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalPlant_Grass_04",184000,105000,69,4)
 p("TropicalPlant_Grass_02",184000,106000,135,4)
+p("TropicalPlant_Dead_09",184202,106202,0)
 p("TropicalPlant_Grass_02",185000,99000,162,4)
 p("TropicalPlant_Grass_02",185000,100000,113,4)
 p("TropicalPlant_Grass_01",186000,99000,99,4)
@@ -70047,22 +62515,17 @@ p("TropicalPlant_Grass_01",187000,106000,183,4)
 p("TropicalRockSharp_01",187705,104570,12120,5728,180,687,-227,4031,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalPlant_Grass_01",188000,105000,124,4)
 p("TropicalPlant_Grass_01",188000,106000,106,4)
-p("TropicalCliffSharp_04",181800,107400,12600,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
-p("TropicalCliffSharp_04",181800,107400,14700,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
-p("TropicalCliffSharp_04",181800,108600,14000,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
-p("TropicalCliffSharp_04",181800,109800,12600,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalRockSharpWalk_01",181800,108600,16800,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalPlant_Grass_04",183000,107000,12774,95,2097156)
 p("TropicalPlant_Grass_04",183000,108000,2863,99,2097156)
 p("TropicalPlant_Grass_03",184000,107000,76,4)
-p("TropicalCliffSharp_04",183000,109800,14700,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalPlant_Grass_04",184000,110000,204,4)
+p("TropicalPlant_Dead_01",181957,113901,17432,20453,192,4283980868,2097165)
+p("TropicalRockSharpWalk_01",181800,114600,16800,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalPlant_Grass_04",183000,112000,155,4)
-p("TropicalRockSharp_01",183047,112122,9067,20152,250,-1124,-3812,990,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
-p("TropicalCliffSharp_04",183000,112200,14700,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalPlant_Grass_04",184000,111000,125,4)
 p("TropicalPlant_Grass_04",184000,112000,135,4)
 p("TropicalPlant_Grass_02",183000,114000,196,4)
-p("TropicalCliffSharp_04",183000,114600,14000,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalPlant_Grass_04",184000,113000,158,4)
 p("TropicalPlant_Grass_02",184000,114000,155,4)
 p("TropicalPlant_Grass_04",185000,107000,157,4)
@@ -70088,6 +62551,7 @@ p("TropicalPlant_Grass_04",186000,112000,164,4)
 p("TropicalPlant_Grass_03",185000,113000,66,4)
 p("TropicalPlant_Grass_01",185000,114000,69,4)
 p("TropicalPlant_Grass_04",186000,113000,186,4)
+p("TropicalPlant_Dead_13",185493,114642,0)
 p("TropicalPlant_Grass_03",186000,114000,175,4)
 p("TropicalPlant_Grass_03",187000,111000,142,4)
 p("TropicalPlant_Grass_01",188000,111000,87,4)
@@ -70203,11 +62667,12 @@ p("TropicalPlant_Grass_02",195000,114000,151,4)
 p("TropicalPlant_Grass_02",196000,113000,87,4)
 p("TropicalPlant_Grass_01",196000,114000,148,4)
 p("TropicalCliffSharp_04",181800,117000,11900,"terrainchunk",10,0,0,40,60,10,40,60,131073)
+p("TropicalRockSharpWalk_01",183000,115800,16800,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalPlant_Grass_01",184000,116000,138,4)
-p("TropicalCliffSharp_04",183000,117000,13300,"terrainchunk",10,0,0,40,60,10,40,60,131073)
+p("TropicalCliffSharp_04",183000,118200,14000,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalPlant_Grass_04",184000,117000,117,4)
-p("TropicalCliffSharp_04",184200,117000,14000,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalPlant_Grass_01",184000,118000,142,4)
+p("TropicalRockSharp_01",181241,121821,8193,18326,250,-1239,-2104,3288,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalPlant_Grass_04",184000,119000,103,4)
 p("TropicalCliffSharp_04",184200,119400,14000,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalPlant_Grass_03",184000,120000,114,4)
@@ -70227,6 +62692,7 @@ p("TropicalPlant_Grass_04",187000,116000,106,4)
 p("TropicalPlant_Grass_01",188000,115000,169,4)
 p("TropicalPlant_Grass_04",188000,116000,124,4)
 p("TropicalPlant_Grass_01",187000,117000,62,4)
+p("TropicalRockSharp_01",186554,118040,9444,17982,250,290,756,4015,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalPlant_Grass_04",187000,118000,157,4)
 p("TropicalPlant_Grass_04",188000,117000,216,4)
 p("TropicalPlant_Grass_02",188000,118000,148,4)
@@ -70249,7 +62715,6 @@ p("TropicalPlant_Grass_03",188000,122000,173,4)
 p("TropicalRockSharp_01",182631,123873,11557,17647,193,-2626,-1810,2570,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalCliffSharp_04",183000,124200,14000,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalPlant_Grass_03",184000,123000,135,4)
-p("TropicalRockSharp_01",184049,124683,8194,19658,250,-784,-3939,804,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalCliffSharp_04",183000,126600,14000,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalRockSharp_01",180570,129450,9047,19530,188,-444,-4071,14,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalPlant_Grass_03",184000,128000,20459,122,2097156)
@@ -70838,6 +63303,8 @@ p("TropicalPlant_Grass_02",212681,83273,778,67,2097156)
 p("TropicalPlant_Grass_03",212410,84518,19587,71,2097156)
 p("TropicalRockSharp_01",211385,91462,18563,14141,130,1926,3604,268,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalRockSharp_01",212883,91247,13822,9498,163,-1429,451,3811,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
+p("TropicalRockSharp_01",210299,94362,17567,12357,130,-2828,-2751,1098,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
+p("TropicalRockSharp_01",211614,94485,17567,12397,130,-1897,-3319,1470,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalPlant_Grass_01",213000,68000,20750,69,2097156)
 p("TropicalPlant_Grass_04",213000,69000,18164,69,2097156)
 p("TropicalPlant_Grass_02",215882,69194,16928,70,2097156)
@@ -71024,6 +63491,8 @@ p("TropicalPlant_Grass_04",228541,92831,4332,250,2097156)
 p("SavannaPlant_ElephantGrass_07",228849,93049,6191,2097152)
 p("SavannaPlant_ElephantGrass_07",228742,94141,7963,95,2097156)
 p("TropicalPlant_Grass_03",229231,94101,4768,243,2097156)
+p("TropicalRockSharp_01",225765,94602,16122,18092,163,-2764,-2101,2172,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
+p("TropicalRockSharp_01",226644,97201,16600,16767,163,-2472,-1783,2735,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalPlant_Grass_04",228120,94866,14918,240,2097156)
 p("SavannaPlant_ElephantGrass_01",228213,94904,6944,101,2097156)
 p("SavannaPlant_ElephantGrass_08",228123,95592,17142,2097152)
@@ -71052,12 +63521,15 @@ p("TropicalPlant_Grass_04",199000,112000,19089,104,2097156)
 p("TropicalPlant_Grass_04",199000,113000,228,2097152)
 p("TropicalPlant_Grass_04",199000,114000,4512,97,2097156)
 p("DecShantyRubbish_01",212104,99128,16943,15931,2097153)
+p("DecFloatersTrash3D_01",212008,99792,0)
 p("DecShantyRubbish_02",212431,100122,14926,2097152)
 p("DecShantyRubbish_03",212672,99701,1621,2097152)
+p("DecFloatersTrash3D_04",212689,100321,0)
 p("DecShantyRubbish_01",212387,100440,5704,2097152)
 p("DecShantyRubbish_02",212760,100535,0)
 p("DecShantyRubbish_02",212526,100977,0)
 p("DecShantyRubbish_01",212663,101483,3194,2097152)
+p("DecShantyRubbish_03",212040,105950,12901,2097152)
 p("TropicalPlant_Grass_02",197000,115000,107,4)
 p("TropicalPlant_Grass_02",197000,116000,124,4)
 p("TropicalPlant_Grass_01",198000,115000,152,4)
@@ -71145,9 +63617,10 @@ p("TropicalPlant_Grass_04",202000,128000,18273,99,2097156)
 p("TropicalPlant_Grass_04",202000,129000,3300,102,2097156)
 p("TropicalPlant_Grass_04",201000,130000,195,4)
 p("TropicalPlant_Grass_02",201000,131000,71,4)
+p("TropicalPlant_04_Sapling_03",201346,130574,16356,9292,146,2097157)
 p("TropicalPlant_Grass_04",202000,130000,16808,2097152)
 p("TropicalPlant_04_Sapling_03",205939,116896,9273,97,-36,198,4091,2097172)
-p("TropicalRockSharp_01",209167,116394,11789,18666,180,-1136,-2352,3154,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
+p("TropicalRockSharp_01",205851,120742,11789,18383,180,-253,-4020,741,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalPlant_Grass_01",212000,120000,20270,204,2097156)
 p("TropicalPlant_Grass_04",211000,122000,21254,202,2097156)
 p("TropicalPlant_Grass_02",212000,121000,2699,190,2097156)
@@ -71175,6 +63648,7 @@ p("TropicalPlant_Grass_03",211000,131000,10874,192,2097156)
 p("TropicalPlant_Grass_04",211978,130054,12639,99,2097156)
 p("TropicalPlant_Grass_04",212000,131000,16880,200,2097156)
 p("DecShantyRubbish_02",212999,100017,0)
+p("DecFloatersTrash3D_03",213501,100850,8023,2097152)
 p("DecShantyRubbish_02",213047,101080,13314,2097152)
 p("DecShantyRubbish_01",213370,101301,13741,2097152)
 p("DecShantyRubbish_01",213650,101678,0)
@@ -71185,141 +63659,36 @@ p("DecShantyRubbish_02",214314,102103,14171,2097152)
 p("DecShantyRubbish_02",214821,101922,0)
 p("TropicalRockSharp_01",215784,100191,13200,18354,163,-1278,-2974,2509,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("DecShantyRubbish_03",214921,102691,0)
+p("DecShantyRubbish_03",214965,106006,0)
 p("TropicalPlant_Grass_03",219000,99000,9874,204,2097156)
-p("TropicalPlant_Grass_02",219000,100000,13995,188,2097156)
-p("TropicalPlant_Grass_01",219000,101000,10499,200,2097156)
-p("TropicalPlant_Grass_03",219000,102000,981,192,2097156)
 p("TropicalPlant_Grass_01",220000,99000,16623,190,2097156)
-p("TropicalPlant_Grass_02",220000,100000,6387,190,2097156)
 p("TropicalPlant_Grass_04",221000,99000,16814,192,2097156)
-p("TropicalPlant_Grass_01",221000,100000,2874,188,2097156)
-p("TropicalPlant_Grass_01",220000,101000,18243,200,2097156)
-p("TropicalPlant_Grass_04",220000,102000,10493,198,2097156)
-p("TropicalPlant_Grass_01",221000,101000,14509,198,2097156)
-p("TropicalPlant_Grass_03",221000,102000,20187,196,2097156)
-p("TropicalPlant_Grass_04",219000,103000,10321,192,2097156)
-p("TropicalPlant_Grass_02",218188,103677,7805,2097152)
-p("TropicalPlant_Grass_04",218350,103444,15823,99,2097156)
-p("TropicalPlant_Grass_01",219000,104000,14191,188,2097156)
-p("TropicalPlant_Grass_02",217239,106327,17325,99,2097156)
-p("TropicalPlant_Grass_01",218348,104904,11260,97,2097156)
-p("TropicalPlant_Grass_01",219000,105000,8892,196,2097156)
-p("TropicalPlant_Grass_04",218294,105685,13393,99,2097156)
-p("TropicalPlant_Grass_03",220000,103000,14997,202,2097156)
-p("TropicalPlant_Grass_03",220000,104000,7173,204,2097156)
-p("TropicalPlant_Grass_02",221000,103000,10942,204,2097156)
-p("TropicalPlant_Grass_02",221000,104000,16577,192,2097156)
-p("TropicalPlant_Grass_04",220000,105000,20523,200,2097156)
-p("TropicalPlant_Grass_03",221000,105000,1209,200,2097156)
-p("DecShantyRubbish_01",213891,107456,0)
-p("DecShantyRubbish_03",213456,107604,0)
-p("DecShantyRubbish_01",214394,107541,0)
+p("TropicalRockSharp_01",219845,105968,15360,18413,155,-2598,-2124,2347,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
+p("DecFloatersTrash3D_01",215014,106632,0)
 p("DecShantyRubbish_02",214188,108402,10800,2097152)
 p("DecShantyRubbish_02",214870,107562,0)
-p("DecShantyRubbish_03",214567,108395,0)
-p("DecShantyRubbish_03",213502,108642,0)
-p("DecShantyRubbish_03",213813,108747,532,2097152)
-p("DecShantyRubbish_03",214522,108756,21584,2097152)
-p("DecShantyRubbish_01",215446,107600,0)
-p("DecShantyRubbish_03",215566,108129,0)
-p("DecShantyRubbish_01",215591,108588,19797,2097152)
-p("TropicalPlant_Grass_01",216623,110110,13290,101,2097156)
-p("TropicalPlant_Grass_03",216808,110925,4200,104,2097156)
-p("TropicalPlant_Grass_02",217404,106714,2695,97,2097156)
-p("TropicalPlant_Grass_03",218012,107379,9845,98,2097156)
-p("TropicalPlant_Grass_01",217285,107738,8635,97,2097156)
-p("TropicalPlant_Grass_04",218912,107493,18913,96,2097156)
-p("TropicalPlant_Grass_03",218204,107818,8149,102,2097156)
-p("TropicalPlant_Grass_03",218720,108359,11486,97,2097156)
-p("TropicalPlant_Grass_04",217343,108729,19986,96,2097156)
-p("TropicalPlant_Grass_02",217952,109562,1425,98,2097156)
-p("TropicalPlant_Grass_03",218173,109398,2707,98,2097156)
-p("TropicalPlant_Grass_01",218676,109559,15855,104,2097156)
-p("TropicalPlant_Grass_02",221000,108000,11421,196,2097156)
-p("TropicalPlant_Grass_04",219173,108906,15740,97,2097156)
-p("TropicalPlant_Grass_01",220000,109000,9778,198,2097156)
-p("TropicalPlant_Grass_02",220000,110000,19138,194,2097156)
-p("TropicalPlant_Grass_02",221000,109000,17571,192,2097156)
-p("TropicalPlant_Grass_04",221000,110000,13855,194,2097156)
-p("TropicalPlant_Grass_02",217536,111033,12960,95,2097156)
-p("TropicalPlant_Grass_03",217088,111590,16694,103,2097156)
-p("TropicalPlant_Grass_01",217995,112331,17838,95,2097156)
-p("TropicalPlant_Grass_02",218369,114395,2368,96,2097156)
-p("TropicalPlant_Grass_04",220000,111000,20922,186,2097156)
-p("TropicalPlant_Grass_01",219521,112443,7536,98,2097156)
-p("TropicalPlant_Grass_02",220000,112000,20472,200,2097156)
-p("TropicalPlant_Grass_04",221000,111000,4270,186,2097156)
-p("TropicalPlant_Grass_01",221000,112000,6599,204,2097156)
-p("TropicalPlant_Grass_03",220000,113000,592,196,2097156)
-p("TropicalPlant_Grass_03",220000,114000,19002,192,2097156)
-p("TropicalPlant_Grass_02",221000,113000,18445,194,2097156)
-p("TropicalPlant_Grass_04",221000,114000,11478,200,2097156)
+p("TropicalRockSharp_01",220989,108284,15359,12866,225,-2420,446,3274,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalPlant_Grass_04",222000,99000,7515,204,2097156)
-p("TropicalPlant_Grass_02",222000,100000,2992,196,2097156)
 p("TropicalPlant_Grass_01",223000,99000,19721,196,2097156)
 p("TropicalPlant_Grass_02",223000,100000,10120,200,2097156)
-p("TropicalPlant_Grass_02",222000,101000,4617,200,2097156)
-p("TropicalPlant_Grass_03",222000,102000,5486,196,2097156)
-p("TropicalPlant_Grass_01",223000,101000,6223,192,2097156)
-p("TropicalPlant_Grass_04",223000,102000,12071,202,2097156)
 p("TropicalPlant_Grass_02",224023,98750,880,2097152)
 p("TropicalPlant_Grass_01",224000,100000,11923,194,2097156)
 p("TropicalPlant_Grass_02",225019,99356,13579,96,2097156)
 p("TropicalPlant_Grass_02",224978,100343,12729,96,2097156)
-p("TropicalPlant_Grass_01",224000,101000,10925,190,2097156)
-p("TropicalPlant_Grass_02",224000,102000,14661,204,2097156)
 p("TropicalPlant_Grass_02",224670,100897,5919,104,2097156)
 p("TropicalRockSharp_01",225003,102049,14926,18834,112,-206,-3913,1192,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
-p("TropicalPlant_Grass_01",225057,102331,1335,96,2097156)
-p("TropicalPlant_Grass_01",222000,103000,13071,200,2097156)
-p("TropicalPlant_Grass_02",222000,104000,8319,196,2097156)
-p("TropicalPlant_Grass_03",223000,103000,433,200,2097156)
-p("TropicalPlant_Grass_03",223000,104000,1657,186,2097156)
-p("TropicalPlant_Grass_04",222000,105000,6437,186,2097156)
-p("TropicalPlant_Grass_02",223000,105000,13821,198,2097156)
-p("TropicalPlant_Grass_02",224000,103000,13272,200,2097156)
-p("TropicalPlant_Grass_03",224000,104000,10857,204,2097156)
-p("TropicalPlant_Grass_04",225000,103000,11887,188,2097156)
-p("TropicalPlant_Grass_04",224000,105000,8577,200,2097156)
+p("TropicalRockSharp_01",225070,104380,14217,12680,163,-1411,-1335,3605,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalRockSharp_01",226797,98508,16600,18146,163,-1785,-3683,150,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
+p("TropicalRockSharp_01",226398,100127,14273,18626,163,-988,-2162,3335,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalPlant_Grass_02",229140,98395,13091,250,2097156)
 p("SavannaPlant_ElephantGrass_07",229156,98699,8594,104,2097156)
 p("TropicalPlant_Grass_01",229090,100716,13666,240,2097156)
 p("TropicalPlant_Grass_03",226000,106000,16697,196,2097156)
 p("TropicalRockSharp_01",227760,104680,14217,17327,163,510,-3758,1545,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
-p("TropicalPlant_Grass_01",222000,107000,21414,194,2097156)
-p("TropicalPlant_Grass_03",222000,108000,9470,200,2097156)
-p("TropicalPlant_Grass_02",223000,107000,10311,194,2097156)
-p("TropicalPlant_Grass_04",223000,108000,11805,198,2097156)
-p("TropicalPlant_Grass_03",222000,109000,15554,198,2097156)
-p("TropicalPlant_Grass_03",222000,110000,18443,190,2097156)
-p("TropicalPlant_Grass_02",223000,109000,20914,186,2097156)
-p("TropicalPlant_Grass_02",223000,110000,2805,192,2097156)
-p("TropicalPlant_Grass_04",224000,107000,11769,188,2097156)
-p("TropicalPlant_Grass_02",224000,108000,16631,196,2097156)
-p("TropicalPlant_Grass_03",225000,108000,9606,188,2097156)
-p("TropicalPlant_Grass_01",224000,109000,2717,192,2097156)
-p("TropicalPlant_Grass_02",224000,110000,7936,198,2097156)
-p("TropicalPlant_Grass_02",225000,109000,18721,192,2097156)
-p("TropicalPlant_Grass_01",225000,110000,12466,190,2097156)
-p("TropicalPlant_Grass_02",222000,111000,18876,194,2097156)
-p("TropicalPlant_Grass_02",222000,112000,10910,194,2097156)
-p("TropicalPlant_Grass_02",223000,111000,15883,192,2097156)
-p("TropicalPlant_Grass_04",223000,112000,9002,196,2097156)
-p("TropicalPlant_Grass_03",222000,113000,6698,186,2097156)
-p("TropicalPlant_Grass_01",222000,114000,16118,196,2097156)
-p("TropicalPlant_Grass_01",223000,113000,12787,200,2097156)
-p("TropicalPlant_Grass_03",223000,114000,13158,190,2097156)
-p("TropicalPlant_Grass_04",224000,111000,9144,202,2097156)
-p("TropicalPlant_Grass_02",224000,112000,3755,196,2097156)
-p("TropicalPlant_Grass_01",225000,111000,1622,196,2097156)
 p("TropicalPlant_Grass_02",225000,112000,3118,202,2097156)
-p("TropicalPlant_Grass_01",224000,113000,2853,204,2097156)
-p("TropicalPlant_Grass_02",224000,114000,13639,186,2097156)
 p("TropicalPlant_Grass_04",225000,113000,8380,204,2097156)
 p("TropicalPlant_Grass_04",225000,114000,8588,204,2097156)
 p("TropicalPlant_Grass_04",226000,107000,19331,200,2097156)
-p("TropicalPlant_Grass_03",226000,108000,12458,188,2097156)
 p("TropicalPlant_Grass_04",226000,109000,8703,202,2097156)
 p("TropicalPlant_Grass_04",227000,110000,18316,202,2097156)
 p("TropicalPlant_Grass_02",227000,111000,18046,192,2097156)
@@ -71332,7 +63701,6 @@ p("TropicalPlant_Grass_03",227000,114000,19631,194,2097156)
 p("TropicalPlant_Grass_03",228000,112000,318,202,2097156)
 p("TropicalPlant_Grass_02",228000,113000,10723,186,2097156)
 p("TropicalPlant_Grass_02",228000,114000,14924,202,2097156)
-p("TropicalPlant_Grass_04",217000,118000,12582,200,2097156)
 p("TropicalPlant_Grass_01",214000,119000,5398,198,2097156)
 p("TropicalPlant_Grass_01",213000,120000,19762,194,2097156)
 p("TropicalPlant_Grass_01",214000,120000,9609,186,2097156)
@@ -71353,21 +63721,7 @@ p("TropicalPlant_Grass_03",217000,121000,104,202,2097156)
 p("TropicalRockSharp_01",216784,121483,12853,6736,180,376,124,4076,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalRockSharp_01",216729,121658,11789,17648,180,-1932,-1742,3163,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalPlant_Grass_02",217000,122000,6730,190,2097156)
-p("TropicalPlant_Grass_02",218000,116000,12682,200,2097156)
-p("TropicalPlant_Grass_02",219000,115000,21244,186,2097156)
-p("TropicalPlant_Grass_01",219000,116000,17441,202,2097156)
-p("TropicalPlant_Grass_01",218000,117000,11274,202,2097156)
-p("TropicalPlant_Grass_01",218000,118000,2530,190,2097156)
-p("TropicalPlant_Grass_01",219000,117000,15637,186,2097156)
-p("TropicalPlant_Grass_04",219000,118000,20049,204,2097156)
-p("TropicalPlant_Grass_02",220000,115000,18780,198,2097156)
-p("TropicalPlant_Grass_02",220000,116000,2462,186,2097156)
-p("TropicalPlant_Grass_01",221000,115000,17262,186,2097156)
-p("TropicalPlant_Grass_02",221000,116000,20977,194,2097156)
-p("TropicalPlant_Grass_04",220000,117000,1929,188,2097156)
 p("TropicalPlant_Grass_04",220000,118000,3423,196,2097156)
-p("TropicalPlant_Grass_03",221000,117000,14784,188,2097156)
-p("TropicalPlant_Grass_03",221000,118000,4479,198,2097156)
 p("TropicalPlant_Grass_04",218000,119000,5859,192,2097156)
 p("TropicalPlant_Grass_01",218000,120000,11202,200,2097156)
 p("TropicalPlant_Grass_04",219000,119000,9182,198,2097156)
@@ -71450,18 +63804,12 @@ p("TropicalPlant_Grass_01",219000,131000,11117,198,2097156)
 p("TropicalPlant_Grass_04",219832,128494,17744,103,2097156)
 p("TropicalPlant_Grass_03",219854,129560,21136,103,2097156)
 p("TropicalPlant_Grass_01",220000,131000,650,198,2097156)
-p("TropicalPlant_Grass_04",222000,115000,6042,200,2097156)
-p("TropicalPlant_Grass_02",222000,116000,5563,192,2097156)
-p("TropicalPlant_Grass_01",223000,115000,13456,204,2097156)
 p("TropicalPlant_Grass_01",223000,116000,5943,198,2097156)
-p("TropicalPlant_Grass_01",222000,117000,13506,196,2097156)
-p("TropicalPlant_Grass_04",222000,118000,18195,190,2097156)
 p("TropicalPlant_Grass_04",223000,117000,6591,186,2097156)
 p("TropicalPlant_Grass_04",223000,118000,7330,188,2097156)
-p("TropicalPlant_Grass_04",224000,115000,2629,196,2097156)
 p("TropicalPlant_Grass_01",224000,116000,2009,194,2097156)
 p("TropicalPlant_Grass_02",225000,115000,10474,204,2097156)
-p("TropicalPlant_Grass_03",225000,116000,12009,194,2097156)
+p("TropicalPlant_Grass_03",225015,115993,12009,194,2097156)
 p("TropicalPlant_Flowers_01",224039,116782,10120,103,2097156)
 p("TropicalPlant_Grass_03",224000,117000,5507,200,2097156)
 p("TropicalPlant_Grass_01",224000,118000,18617,204,2097156)
@@ -74607,7 +66955,7 @@ p("TropicalPlant_Grass_01",194000,141000,19374,120,2097156)
 p("TropicalPlant_Grass_01",193000,142000,18734,129,2097156)
 p("TropicalPlant_Grass_03",193000,143000,16167,125,2097156)
 p("TropicalPlant_Grass_04",194000,142000,488,120,2097156)
-p("TropicalPlant_Grass_04",194000,143000,2378,125,2097156)
+p("TropicalPlant_Grass_04",194000,142999,2378,125,2097156)
 p("TropicalPlant_Grass_01",195000,140000,16076,120,2097156)
 p("TropicalPlant_Grass_01",195000,141000,12807,129,2097156)
 p("TropicalPlant_Grass_01",196000,140000,4730,122,2097156)
@@ -75078,7 +67426,7 @@ p("TropicalPlant_Grass_04",184000,189000,8274,198,2097156)
 p("TropicalPlant_Grass_04",184000,190000,10010,200,2097156)
 p("TropicalPlant_Grass_04",183000,191000,7412,204,2097156)
 p("TropicalPlant_Grass_04",184000,191000,5192,214,2097156)
-p("TropicalPlant_04_Shrub_01",180602,193062,11383,102,2097156)
+p("TropicalPlant_04_Shrub_01",180604,193067,11383,102,2097156)
 p("TropicalPlant_Grass_03",181000,193000,13288,159,2097156)
 p("TropicalPlant_Grass_04",181000,193000,17711,214,2097156)
 p("TropicalPlant_Grass_02",181000,194000,12677,159,2097156)
@@ -75198,25 +67546,74 @@ p("TropicalPlant_Grass_04",137000,198000,207,4)
 p("TropicalPlant_Grass_01",138000,197000,206,4)
 p("TropicalPlant_Grass_04",138000,198000,168,4)
 p("TropicalPlant_Grass_04",139000,197000,130,4)
+p("TropicalPlant_Grass_01",139233,200460,13688,6094,140,2097157)
 p("TropicalPlant_Grass_03",136252,202535,13370,240,2097156)
+p("TropicalPlant_Grass_04",139032,201440,13686,6094,104,2097157)
+p("TropicalPlant_Grass_04",138832,202420,13686,6094,207,2097157)
+p("TropicalPlant_Grass_04",138631,203399,13684,6094,219,2097157)
+p("TropicalPlant_Grass_04",138431,204378,13682,6094,216,2097157)
 p("TropicalPlant_Grass_01",138512,204470,12144,240,2097156)
 p("TropicalPlant_Grass_01",134151,204973,3685,240,2097156)
 p("TropicalPlant_Grass_04",136935,205360,880,250,2097156)
 p("TropicalPlant_Grass_01",136718,207735,17130,250,2097156)
+p("TropicalPlant_Grass_02",137251,205157,13680,21133,129,2097157)
+p("TropicalPlant_Grass_02",138230,205358,13680,10620,129,2097157)
+p("TropicalPlant_Grass_03",139210,205558,13682,6094,135,2097157)
 p("TropicalPlant_Grass_01",138467,206877,16889,240,2097156)
 p("TropicalPlant_Grass_04",139741,198296,6579,238,2097156)
+p("TropicalPlant_Grass_01",139433,199480,13690,6094,127,2097157)
+p("TropicalPlant_Grass_02",140213,200661,13686,6094,159,2097157)
+p("TropicalPlant_Grass_03",140413,199681,13686,6094,113,2097157)
 p("TropicalPlant_Grass_03",142000,197000,114,4)
 p("TropicalPlant_Grass_02",143000,197000,96,4)
+p("TropicalPlant_Grass_03",141393,199881,13684,6094,133,2097157)
+p("TropicalPlant_Grass_04",142371,200082,13684,6094,138,2097157)
+p("TropicalPlant_Grass_03",143351,200282,13684,6094,202,2097157)
+p("TropicalPlant_Grass_03",139812,202620,13684,6094,219,2097157)
 p("TropicalPlant_Grass_02",140364,201370,6249,238,2097156)
+p("TropicalPlant_Grass_04",141192,200861,13684,6094,149,2097157)
+p("TropicalPlant_Grass_04",139611,203599,13682,6094,130,2097157)
+p("TropicalPlant_Grass_03",139410,204578,13682,6094,65,2097157)
+p("TropicalPlant_Grass_04",140791,202821,13684,6094,113,2097157)
+p("TropicalPlant_Grass_03",140591,203799,13684,6094,123,2097157)
+p("TropicalPlant_Grass_01",140390,204779,13684,6094,148,2097157)
 p("TropicalRockSharpWalk_01",141000,204600,13300,"terrainchunk",10,0,0,40,60,10,40,60,131073)
+p("TropicalPlant_Grass_01",142171,201062,13684,6094,149,2097157)
+p("TropicalPlant_Grass_01",141970,202041,13684,6094,216,2097157)
 p("TropicalPlant_Grass_01",142686,200952,13959,238,2097156)
+p("TropicalPlant_Grass_01",143151,201262,13684,6094,66,2097157)
+p("TropicalPlant_Grass_04",142950,202242,13684,6094,203,2097157)
+p("TropicalPlant_Grass_03",141770,203021,13684,6094,199,2097157)
+p("TropicalPlant_Grass_02",141570,204000,13684,6094,111,2097157)
+p("TropicalPlant_Grass_03",142750,203222,13684,6094,154,2097157)
+p("TropicalPlant_Grass_01",142549,204200,13684,6094,140,2097157)
 p("TropicalPlant_Grass_02",144000,197000,69,4)
 p("TropicalPlant_Grass_02",143424,198233,7783,250,2097156)
 p("TropicalPlant_Grass_02",145000,197000,195,4)
+p("TropicalPlant_Grass_03",144331,200483,13686,6094,164,2097157)
 p("TropicalPlant_Grass_01",146000,197000,182,4)
 p("TropicalRockSharpWalk_01",143400,201000,13300,"terrainchunk",10,0,0,40,60,10,40,60,131073)
+p("TropicalPlant_Flowers_04",144295,200783,13686,4261,97,2097157)
+p("TropicalPlant_Grass_04",144130,201463,13686,6094,71,2097157)
+p("TropicalPlant_Grass_02",143930,202442,13686,6094,72,2097157)
+p("TropicalPlant_Grass_02",143729,203422,13684,6094,76,2097157)
 p("TropicalPlant_Dead_15",143365,204024,14868,11267,124,2097157)
+p("TropicalPlant_Grass_01",143529,204401,13684,6094,219,2097157)
+p("TropicalPlant_Flowers_08",144613,203080,13686,8590,97,2097157)
+p("TropicalPlant_Grass_01",140190,205759,13680,6094,149,2097157)
+p("TropicalPlant_Grass_03",141169,205959,13682,6094,113,2097157)
+p("TropicalPlant_Grass_04",140969,206939,13682,6094,213,2097157)
+p("TropicalPlant_Grass_02",141370,204979,13684,6094,86,2097157)
+p("TropicalPlant_Grass_02",142148,206160,13684,6094,144,2097157)
+p("TropicalPlant_Grass_04",142349,205180,13684,6094,86,2097157)
+p("TropicalPlant_Grass_03",143328,205380,13684,6094,121,2097157)
+p("TropicalPlant_Grass_02",143128,206360,13684,6094,133,2097157)
+p("TropicalPlant_Grass_01",141948,207139,13684,6094,96,2097157)
+p("TropicalPlant_Grass_04",141747,208119,13682,6094,118,2097157)
+p("TropicalPlant_Grass_03",142927,207340,13684,6094,165,2097157)
+p("TropicalPlant_Grass_03",142727,208320,13682,6094,140,2097157)
 p("TropicalRockSharpWalk_01",139800,211800,13300,"terrainchunk",10,0,0,40,60,10,40,60,131073)
+p("TropicalPlant_Grass_01",142526,209299,13680,6094,130,2097157)
 p("TropicalRockSharp_01",143485,208308,10934,3319,130,-173,3794,1532,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalCliffSharp_04",144600,210600,11900,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalRockSharp_01",145541,209372,8909,1669,130,-1502,896,3703,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -75228,29 +67625,8 @@ p("ParSystem",147110,212503,12218,7413,4083,214,239,"Env_WaterStream",270532625)
 p("ParSystem",147249,212497,12218,7413,4083,214,239,"Env_WaterStream",270532625)
 p("ParSystem",147355,212546,12218,7413,4083,214,239,"Env_WaterStream",270532625)
 p("ParSystem",147355,212546,12218,7413,4083,214,239,"Env_WaterStream",270532625)
-p("TropicalPlant_Grass_04",131107,216976,5029,250,2097156)
-p("TropicalPlant_02_Shrub",132306,217219,16754,2097152)
-p("TropicalPlant_04_Sapling_03",132787,217885,18535,103,2097156)
-p("TropicalPlant_04_Sapling_06",131834,220920,5361,104,2097156)
-p("TropicalPlant_Grass_03",133083,219142,4686,238,2097156)
-p("TropicalPlant_04_Shrub_02",132914,219553,17805,102,2097156)
-p("TropicalPlant_02_Shrub",135151,220738,20096,2097152)
-p("TropicalPlant_Grass_02",137516,216323,9314,96,2097156)
-p("TropicalPlant_04_Sapling_04",135785,220040,21422,101,2097156)
-p("TropicalPlant_Grass_03",137162,220556,21161,243,2097156)
-p("TropicalPlant_Grass_02",137995,218342,14493,99,2097156)
-p("TropicalPlant_04_Shrub_02",137295,220368,3320,95,2097156)
-p("TropicalPlant_04_Shrub_02",138684,220403,1812,95,2097156)
-p("TropicalPlant_Dead_12",131753,222514,5781,122,2097156)
-p("TropicalPlant_04_Shrub_02",132963,224923,5396,101,2097156)
-p("TropicalPlant_04_Sapling_06",134957,223210,20977,2097152)
-p("TropicalPlant_Grass_01",134186,223372,16172,248,2097156)
-p("TropicalPlant_04_Shrub_01",131342,226796,15419,103,2097156)
-p("TropicalPlant_Grass_04",132242,226018,6057,96,2097156)
-p("TropicalPlant_04_Sapling_03",132213,228014,4506,101,2097156)
-p("TropicalPlant_Grass_01",133140,226000,17036,248,2097156)
-p("TropicalPlant_Grass_02",137002,222794,8471,250,2097156)
-p("TropicalPlant_Grass_04",135355,225317,10455,250,2097156)
+p("TropicalRockSharp_01",132208,215275,10015,8074,185,4291676360,-2128,1149,3306,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",137173,222921,4558,18032,250,4291676360,-581,-1330,3830,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalRockSharpWalk_01",141000,216600,13300,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalRockSharpWalk_01",142200,214200,14000,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalRockSharpWalk_01",139800,220200,13300,"terrainchunk",10,0,0,40,60,10,40,60,131073)
@@ -75272,6 +67648,7 @@ p("ParSystem",146931,214771,11881,5258,4075,355,206,"Env_WaterStream",270532625)
 p("ParSystem",147185,214751,11881,5258,4075,355,206,"Env_WaterStream",270532625)
 p("ParSystem",147409,214744,11881,5258,4075,355,206,"Env_WaterStream",270532625)
 p("ParSystem",147273,217435,7453,202,"Env_WaterRipples_Distortion",270532609)
+p("TropicalRockSharp_01",142716,222848,14461,9826,150,-3718,-834,1501,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",142274,224108,6948,833,250,2134,1103,3318,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",144436,223433,6948,488,250,3804,1516,21,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_04",153847,197969,344,250,2097156)
@@ -75395,18 +67772,15 @@ p("TropicalPlant_Grass_01",163826,222444,8768,98,2097156)
 p("TropicalPlant_Grass_02",162191,224246,13817,98,2097156)
 p("TropicalPlant_Grass_03",162074,226172,17068,104,2097156)
 p("TropicalPlant_Grass_04",162234,228129,5338,99,2097156)
-p("TropicalPlant_Grass_03",133052,233281,14618,238,2097156)
-p("TropicalPlant_Grass_02",133556,235315,17870,250,2097156)
-p("TropicalPlant_Grass_01",134363,236192,9616,97,2097156)
+p("TropicalRockSharp_01",135674,232452,14461,13324,150,777,-3966,662,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",136073,232452,12093,8415,250,-437,4072,33,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
-p("TropicalPlant_Grass_01",137614,232176,9495,98,2097156)
+p("TropicalRockSharp_01",135787,233179,3948,20381,250,4291676360,261,-4074,327,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalRockSharp_01",139013,233372,9747,9895,250,-398,4074,119,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
-p("TropicalPlant_Grass_01",136107,234324,14676,98,2097156)
-p("TropicalPlant_Grass_01",136015,235842,17287,101,2097156)
-p("TropicalPlant_Grass_02",137630,234254,8375,99,2097156)
 p("TropicalPlant_04_Sapling_05",132669,238461,12009,97,2097156)
 p("TropicalPlant_Grass_02",134485,237691,15724,102,2097156)
 p("TropicalRockSharp_01",137468,238864,6948,1492,250,4291676360,1127,745,3866,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",141103,233179,9105,19571,250,4291676360,51,4088,249,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",137091,249564,2749,2614,250,4291676360,-172,-3364,2329,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalRockSharpWalk_01",165000,197400,14000,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalPlant_Grass_02",164336,200239,18373,96,2097156)
 p("TropicalPlant_Grass_01",166036,198300,15264,101,2097156)
@@ -75643,6 +68017,8 @@ p("TropicalPlant_Grass_04",177000,210000,20418,208,2097156)
 p("TropicalPlant_Grass_04",177000,211000,16669,208,2097156)
 p("TropicalPlant_Grass_04",177000,212000,15956,202,2097156)
 p("TropicalPlant_Grass_03",164000,213000,8528,162,2097156)
+p("TropicalPlant_Grass_01",166512,220034,13760,10940,204,2097157)
+p("TropicalPlant_Grass_01",167498,221025,13676,3688,206,2097157)
 p("TropicalPlant_Grass_04",170000,213000,6314,156,2097156)
 p("TropicalPlant_Grass_04",170000,214000,12403,151,2097156)
 p("TropicalPlant_Grass_02",171000,213000,2822,159,2097156)
@@ -75667,9 +68043,11 @@ p("TropicalPlant_Grass_03",171000,218000,9545,161,2097156)
 p("TropicalPlant_Grass_03",172000,218000,11073,162,2097156)
 p("TropicalPlant_Grass_04",172000,218000,5212,214,2097156)
 p("TropicalPlant_Grass_03",172000,220000,8310,159,2097156)
+p("TropicalPlant_Grass_01",165561,221368,13676,3688,206,2097157)
 p("TropicalPlant_Grass_02",165868,221905,14218,96,2097156)
 p("TropicalPlant_Grass_01",164299,223979,1816,101,2097156)
 p("TropicalPlant_04_Shrub_01",164974,224339,6081,102,2097156)
+p("TropicalPlant_Grass_04",167854,221800,13574,8045,104,2097157)
 p("TropicalPlant_Grass_02",166223,223602,2798,96,2097156)
 p("TropicalPlant_Grass_01",163977,226110,312,102,2097156)
 p("TropicalPlant_Grass_02",163879,227950,5490,2097152)
@@ -75677,7 +68055,11 @@ p("TropicalPlant_04_Shrub_02",165356,229242,11452,97,2097156)
 p("TropicalPlant_Grass_04",166438,226420,7258,102,2097156)
 p("TropicalPlant_Grass_01",167927,226065,8596,96,2097156)
 p("TropicalPlant_Grass_03",166221,227893,5968,99,2097156)
+p("TropicalPlant_Grass_01",170320,225042,13600,10940,204,2097157)
+p("TropicalPlant_Grass_01",169369,226376,13516,3688,206,2097157)
 p("TropicalPlant_Grass_01",168115,227826,18698,101,2097156)
+p("TropicalPlant_Grass_01",171306,226033,13516,3688,206,2097157)
+p("TropicalPlant_Grass_04",171662,226808,13414,8045,104,2097157)
 p("TropicalPlant_Grass_01",173000,213000,9762,159,2097156)
 p("TropicalPlant_Grass_04",173000,213000,13087,204,2097156)
 p("TropicalPlant_Grass_02",173000,214000,17860,161,2097156)
@@ -75827,15 +68209,51 @@ p("TropicalPlant_Grass_04",170227,235655,14766,96,2097156)
 p("TropicalPlant_Grass_03",171958,236003,18274,2097152)
 p("TropicalPlant_Grass_02",170044,238472,16896,96,2097156)
 p("TropicalPlant_04_Shrub_01",172220,233000,10230,102,2097156)
+p("TropicalPlant_Grass_04",174607,230943,13694,16136,154,2097157)
+p("TropicalPlant_Grass_03",175418,230358,13726,15064,157,2097157)
+p("TropicalPlant_Grass_04",175418,230358,13726,871,204,2097157)
+p("TropicalPlant_Grass_02",176003,231170,13716,8468,162,2097157)
+p("TropicalPlant_Grass_04",176003,231170,13716,14900,208,2097157)
+p("TropicalPlant_Grass_04",174380,232339,13692,9034,165,2097157)
+p("TropicalPlant_Grass_01",174965,233150,13686,18225,159,2097157)
+p("TropicalPlant_Grass_01",175191,231754,13690,12311,157,2097157)
+p("TropicalPlant_Grass_04",175776,232566,13686,17982,202,2097157)
 p("TropicalPlant_04_Shrub_01",172365,235501,14986,103,2097156)
 p("TropicalPlant_Grass_03",173672,234252,3895,98,2097156)
 p("TropicalPlant_Grass_03",173866,236060,12814,103,2097156)
+p("TropicalPlant_Grass_04",175550,233961,13682,4167,156,2097157)
 p("TropicalPlant_Grass_03",176360,229570,12963,102,2097156)
+p("TropicalPlant_Grass_01",176587,231981,13710,15952,164,2097157)
+p("TropicalPlant_Grass_04",176587,231981,13710,16629,216,2097157)
+p("TropicalPlant_Grass_02",176361,233377,13678,675,159,2097157)
+p("TropicalPlant_Grass_04",176361,233377,13678,1189,216,2097157)
+p("TropicalPlant_Grass_01",177982,232207,13674,7615,159,2097157)
+p("TropicalPlant_Grass_04",177982,232207,13674,10940,204,2097157)
+p("TropicalPlant_Grass_04",177171,232792,13684,12556,216,2097157)
 p("TropicalPlant_Grass_01",178202,230078,19856,96,2097156)
 p("TropicalPlant_04_Shrub_02",179702,229437,845,101,2097156)
 p("TropicalPlant_Grass_02",179510,230165,1001,2097152)
 p("TropicalPlant_Grass_02",178495,231585,4347,95,2097156)
+p("TropicalPlant_Grass_02",178567,233019,13666,15713,161,2097157)
+p("TropicalPlant_Grass_04",178567,233019,13666,12187,208,2097157)
+p("TropicalPlant_04_Shrub_02",176355,233745,13676,9272,99,2097157)
+p("TropicalPlant_Grass_04",176946,234187,13672,12979,198,2097157)
+p("TropicalPlant_Grass_04",176134,234772,13678,10256,151,2097157)
+p("TropicalPlant_Grass_03",177756,233602,13670,3258,161,2097157)
+p("TropicalPlant_Grass_04",177756,233602,13670,2655,200,2097157)
+p("TropicalPlant_Grass_04",177529,234998,13672,8059,165,2097157)
+p("TropicalPlant_Grass_01",176719,235583,13674,19775,161,2097157)
+p("TropicalPlant_Grass_01",177303,236394,13674,19599,164,2097157)
+p("TropicalPlant_Grass_01",178114,235810,13674,2614,165,2097157)
 p("TropicalPlant_04_Shrub_01",177368,237338,5170,2097152)
+p("TropicalPlant_Grass_04",177887,237206,13678,5882,156,2097157)
+p("TropicalPlant_Grass_02",178341,234414,13670,6629,159,2097157)
+p("TropicalPlant_Grass_04",178341,234414,13670,13545,198,2097157)
+p("TropicalPlant_Grass_04",179152,233829,13668,16711,214,2097157)
+p("TropicalPlant_Grass_04",178925,235225,13670,2430,204,2097157)
+p("TropicalPlant_02_Shrub",178970,235017,13670,9624,108,2097157)
+p("TropicalPlant_Grass_02",179736,234640,13670,17349,162,2097157)
+p("TropicalPlant_Grass_04",179736,234640,13670,16867,210,2097157)
 p("TropicalPlant_Grass_04",172170,237603,6407,99,2097156)
 p("TropicalPlant_Grass_01",173589,238209,16035,101,2097156)
 p("TropicalPlant_04_Shrub_01",177010,238996,19969,101,2097156)
@@ -75859,12 +68277,17 @@ p("TropicalPlant_04_Shrub_01",188187,232178,13498,103,2097156)
 p("TropicalPlant_Grass_01",188000,233000,11768,204,2097156)
 p("TropicalPlant_Grass_01",184377,233788,7253,99,2097156)
 p("TropicalPlant_Grass_02",185862,233646,14479,99,2097156)
+p("TropicalPlant_Grass_01",186049,235334,13262,3688,206,2097157)
 p("TropicalPlant_Grass_01",187000,234000,10940,204,2097156)
 p("TropicalPlant_Grass_01",188000,234000,17154,198,2097156)
-p("TropicalPlant_Grass_01",188000,235000,3688,206,2097156)
+p("TropicalPlant_Grass_01",187986,234991,3688,206,2097156)
 p("TropicalPlant_Grass_04",188342,235766,8045,104,2097156)
+p("TropicalPlant_Grass_01",182221,238999,13262,3688,206,2097157)
 p("TropicalPlant_04_Shrub_02",180715,240977,12104,101,2097156)
+p("TropicalPlant_Grass_01",183172,237665,13346,10940,204,2097157)
+p("TropicalPlant_Grass_01",184158,238656,13262,3688,206,2097157)
 p("TropicalPlant_04_Shrub_02",182566,240870,6852,104,2097156)
+p("TropicalPlant_Grass_04",184514,239431,13160,8045,104,2097157)
 p("TropicalPlant_Grass_04",189621,230010,18725,98,2097156)
 p("TropicalPlant_02_Shrub",188465,232779,336,127,2097156)
 p("TropicalPlant_Grass_01",189000,233000,1882,200,2097156)
@@ -75881,8 +68304,16 @@ p("TropicalPlant_Grass_04",189607,235672,16705,2097152)
 p("TropicalPlant_Grass_01",191000,235000,17012,210,2097156)
 p("TropicalPlant_Grass_04",192086,233991,21531,104,2097156)
 p("TropicalRockSharp_01",194354,234139,10973,5697,250,2124,-398,3480,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
-p("TropicalRockSharp_01",192550,245156,6951,17172,250,4291676360,-465,125,4067,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
-p("TropicalRockSharp_01",189110,251190,3743,16685,250,4291676360,-1867,-2008,3042,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",193793,234738,9736,12523,250,4291676360,901,625,3946,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalPlant_Grass_02",192502,238312,19652,137,2097156)
+p("TropicalRockSharp_01",191059,241789,10211,15031,250,4291676360,623,2073,3477,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",191135,245381,6918,13157,250,4291676360,-1803,1158,3490,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",194469,240596,9736,11274,223,4291676360,973,432,3955,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",195153,239828,9736,9537,250,4291676360,1067,168,3950,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",180900,247976,3743,15987,250,4291676360,-2452,-921,3148,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",187482,252753,1689,12288,250,4291676360,-1828,-47,3665,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",192388,248666,7318,9947,250,4291676360,773,1286,3811,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",194243,259347,2664,8778,250,4291676360,1105,53,3943,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_Grass_03",197000,132000,123,4)
 p("TropicalPlant_Grass_02",197000,133000,165,4)
 p("TropicalPlant_Grass_02",198000,132000,219,4)
@@ -76111,6 +68542,8 @@ p("DecForestMoss_01",200289,155816,15134,9139,-793,785,3941,2097169)
 p("TropicalPlant_Dead_16",198811,158353,14017,14774,4072,83,432,2097169)
 p("TropicalPlant_Grass_03",199924,161877,13590,20424,137,2097157)
 p("DecForestMoss_01",201064,156003,15243,15717,516,1200,3882,2097169)
+p("TropicalPlant_04_Shrub_01",201579,157264,12141,129,-333,474,4054,2097172)
+p("TropicalPlant_04_Shrub_01",202155,156539,14654,11566,129,-140,354,4078,2097173)
 p("TropicalPlant_Dead_16",202760,155958,15477,15936,1094,-3792,1094,2097169)
 p("TropicalPlant_Grass_03",202998,156000,17150,164,2097156)
 p("TropicalPlant_Dead_15",203533,156024,15406,14477,784,-3669,1642,2097169)
@@ -78342,6 +70775,7 @@ p("TropicalPlant_Grass_04",229000,214000,13682,204,2097156)
 p("TropicalPlant_Grass_04",229000,215000,2099,198,2097156)
 p("TropicalPlant_Grass_04",228000,216000,6162,212,2097156)
 p("TropicalPlant_Grass_04",229000,216000,16661,200,2097156)
+p("TropicalRockSharp_01",225195,225083,6840,3639,250,-243,4086,125,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalPlant_Grass_04",222000,228000,6905,198,2097156)
 p("TropicalPlant_Grass_04",222000,229000,6246,206,2097156)
 p("TropicalPlant_Grass_04",223000,228000,7260,200,2097156)
@@ -78370,187 +70804,32 @@ p("TropicalPlant_Grass_04",228000,229000,3313,208,2097156)
 p("TropicalPlant_Grass_04",229000,228000,18011,198,2097156)
 p("TropicalPlant_Grass_04",229000,229000,17539,212,2097156)
 p("TropicalPlant_Grass_04",198318,231707,6967,103,2097156)
-p("TropicalPlant_Grass_03",200411,235789,15579,101,2097156)
 p("TropicalRockSharp_01",201140,231282,5482,5483,250,-741,1216,3840,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
-p("TropicalPlant_04_Shrub_01",201440,235316,15785,99,2097156)
-p("TropicalPlant_Grass_01",202000,236000,13982,212,2097156)
-p("TropicalPlant_Grass_02",202303,236378,15613,104,2097156)
-p("TropicalPlant_Grass_03",203900,234469,9894,97,2097156)
-p("TropicalPlant_Grass_03",203805,236429,6437,104,2097156)
-p("TropicalPlant_Grass_01",204000,237000,15150,208,2097156)
-p("TropicalPlant_Grass_03",200181,237857,2390,104,2097156)
-p("TropicalPlant_Grass_01",198433,242285,4767,99,2097156)
-p("TropicalPlant_Grass_03",198252,244102,5393,102,2097156)
-p("TropicalPlant_Grass_02",198436,245700,19652,103,2097156)
-p("TropicalPlant_Grass_02",199767,242114,1466,103,2097156)
-p("TropicalPlant_Grass_03",199978,243615,1090,104,2097156)
-p("TropicalPlant_Grass_01",200255,245706,12682,103,2097156)
-p("TropicalPlant_Grass_02",202014,237585,7511,103,2097156)
-p("TropicalPlant_Grass_04",203721,237700,6278,102,2097156)
-p("TropicalPlant_Grass_04",201682,242260,2512,101,2097156)
-p("TropicalPlant_Grass_01",202000,243000,5477,99,2097156)
-p("TropicalPlant_Grass_01",201000,244000,10664,99,2097156)
-p("TropicalPlant_Grass_01",201000,245000,3899,96,2097156)
-p("TropicalPlant_Grass_01",202000,244000,18699,95,2097156)
-p("TropicalPlant_Grass_01",202000,245000,9006,104,2097156)
-p("TropicalPlant_Grass_02",203641,242337,20025,102,2097156)
-p("TropicalPlant_Grass_01",203000,243000,9298,103,2097156)
-p("TropicalPlant_Grass_01",204000,243000,11634,2097152)
-p("TropicalPlant_Grass_01",203000,244000,8292,103,2097156)
-p("TropicalPlant_Grass_01",203000,245000,7886,96,2097156)
-p("TropicalPlant_Grass_01",204000,244000,807,99,2097156)
-p("TropicalPlant_Grass_02",204336,244424,1498,101,2097156)
-p("TropicalPlant_Grass_01",204000,245000,6458,95,2097156)
-p("TropicalPlant_Grass_04",206000,232000,17537,210,2097156)
+p("TropicalRockSharp_01",201425,235901,9412,12969,250,4291676360,1262,697,3833,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_Grass_02",206391,232256,19556,99,2097156)
-p("TropicalPlant_Grass_04",206000,233000,9817,202,2097156)
 p("TropicalPlant_Grass_04",208000,231000,3507,198,2097156)
 p("TropicalPlant_Grass_04",207000,232000,3458,202,2097156)
-p("TropicalPlant_Grass_04",207000,233000,19871,200,2097156)
 p("TropicalPlant_Grass_04",208000,232000,5560,198,2097156)
-p("TropicalPlant_Grass_01",208000,233000,3260,212,2097156)
-p("TropicalPlant_Grass_04",208000,233000,5279,210,2097156)
-p("TropicalPlant_Grass_04",205000,234000,10487,208,2097156)
-p("TropicalPlant_Grass_04",205000,235000,8671,206,2097156)
-p("TropicalPlant_Grass_04",206000,234000,4510,202,2097156)
-p("TropicalPlant_Grass_03",206388,234336,9240,102,2097156)
-p("TropicalPlant_Grass_04",206000,235000,14866,216,2097156)
-p("TropicalPlant_Grass_01",205000,236000,13270,204,2097156)
-p("TropicalPlant_04_Shrub_01",205419,235717,8117,104,2097156)
-p("TropicalPlant_Grass_01",206000,236000,13890,206,2097156)
-p("TropicalPlant_Grass_04",206000,236000,18473,198,2097156)
-p("TropicalPlant_Grass_03",206380,236135,3094,98,2097156)
-p("TropicalPlant_Grass_01",206000,237000,9572,200,2097156)
-p("TropicalPlant_Grass_04",207000,234000,2489,204,2097156)
-p("TropicalPlant_Grass_03",207503,234207,3501,98,2097156)
-p("TropicalPlant_Grass_01",207000,235000,2273,216,2097156)
-p("TropicalPlant_Grass_04",207000,235000,11267,202,2097156)
-p("TropicalPlant_Grass_01",208000,234000,17269,212,2097156)
-p("TropicalPlant_Grass_04",208000,234000,11182,216,2097156)
-p("TropicalPlant_Grass_01",208000,235000,2392,208,2097156)
-p("TropicalPlant_Grass_04",208000,235000,11751,200,2097156)
-p("TropicalPlant_04_Shrub_01",208877,235161,16638,2097152)
-p("TropicalPlant_Grass_01",207000,236000,19494,214,2097156)
-p("TropicalPlant_Grass_04",207000,236000,4042,206,2097156)
-p("TropicalPlant_Grass_02",207512,235716,5511,101,2097156)
-p("TropicalPlant_Grass_01",207000,237000,3841,216,2097156)
-p("TropicalPlant_Grass_04",207000,237000,18761,216,2097156)
-p("TropicalPlant_Grass_01",208000,236000,17585,216,2097156)
-p("TropicalPlant_Grass_04",208000,236000,15755,214,2097156)
-p("TropicalPlant_Grass_04",208000,237000,4775,202,2097156)
 p("TropicalPlant_Grass_04",209000,231000,4855,208,2097156)
 p("TropicalPlant_Grass_04",210000,231000,11544,212,2097156)
 p("TropicalPlant_Grass_04",209000,232000,14609,212,2097156)
-p("TropicalPlant_Grass_01",209000,233000,9404,206,2097156)
-p("TropicalPlant_Grass_04",209000,233000,14175,214,2097156)
 p("TropicalPlant_Grass_01",210000,232000,17382,214,2097156)
 p("TropicalPlant_Grass_04",210000,232000,19781,210,2097156)
 p("TropicalPlant_Grass_03",210042,232051,17611,2097152)
-p("TropicalPlant_Grass_01",210000,233000,1646,198,2097156)
-p("TropicalPlant_Grass_04",210000,233000,10185,198,2097156)
 p("TropicalPlant_Grass_04",211000,231000,9999,204,2097156)
 p("TropicalPlant_Grass_04",212000,230000,6011,216,2097156)
 p("TropicalRockSharp_01",212071,230338,5482,4935,250,-690,1387,3791,16,"terrainchunk",10,0,0,40,60,10,40,60,2228373)
 p("TropicalPlant_Grass_04",212000,231000,2620,200,2097156)
 p("TropicalPlant_Grass_01",211000,232000,5406,216,2097156)
 p("TropicalPlant_Grass_04",211000,232000,7575,198,2097156)
-p("TropicalPlant_Grass_01",211000,233000,378,198,2097156)
-p("TropicalPlant_Grass_04",211000,233000,19319,212,2097156)
 p("TropicalPlant_Grass_01",212000,232000,14771,208,2097156)
 p("TropicalPlant_Grass_04",212000,232000,15698,210,2097156)
-p("TropicalPlant_Grass_01",212000,233000,16250,208,2097156)
-p("TropicalPlant_Grass_04",212000,233000,19602,200,2097156)
-p("TropicalPlant_Grass_01",209000,234000,13513,200,2097156)
-p("TropicalPlant_Grass_04",209000,234000,7684,210,2097156)
-p("TropicalPlant_Grass_01",209000,235000,671,202,2097156)
-p("TropicalPlant_Grass_04",209000,235000,20368,212,2097156)
-p("TropicalPlant_Grass_01",210000,234000,18801,212,2097156)
-p("TropicalPlant_Grass_04",210000,234000,12425,198,2097156)
-p("TropicalPlant_Grass_01",210000,235000,18594,216,2097156)
-p("TropicalPlant_Grass_04",210000,235000,11553,208,2097156)
-p("TropicalPlant_Grass_04",209000,236000,15456,216,2097156)
-p("TropicalPlant_Grass_04",209000,237000,19876,216,2097156)
-p("TropicalPlant_Grass_01",210000,236000,6780,212,2097156)
-p("TropicalPlant_Grass_04",210000,236000,1662,216,2097156)
-p("TropicalPlant_Grass_01",210000,237000,19928,214,2097156)
-p("TropicalPlant_Grass_01",211000,234000,20256,204,2097156)
-p("TropicalPlant_Grass_04",211000,234000,9399,210,2097156)
-p("TropicalPlant_Grass_02",211936,233760,11255,103,2097156)
-p("TropicalPlant_Grass_01",211000,235000,21520,208,2097156)
-p("TropicalPlant_Grass_04",211000,235000,8435,210,2097156)
-p("TropicalPlant_Grass_01",212000,234000,6678,206,2097156)
-p("TropicalPlant_Grass_04",212000,234000,8635,206,2097156)
-p("TropicalPlant_Grass_01",212000,235000,19629,198,2097156)
-p("TropicalPlant_Grass_04",212000,235000,11448,208,2097156)
-p("TropicalPlant_Grass_01",211000,236000,8336,208,2097156)
-p("TropicalPlant_Grass_04",211000,236000,9367,212,2097156)
-p("TropicalPlant_Grass_01",211000,237000,14244,206,2097156)
-p("TropicalPlant_Grass_01",212000,236000,12081,204,2097156)
-p("TropicalPlant_Grass_04",212000,236000,9420,208,2097156)
-p("TropicalPlant_Grass_01",212000,237000,19967,206,2097156)
-p("TropicalPlant_Grass_01",205000,243000,5511,99,2097156)
-p("TropicalPlant_Grass_01",206000,243000,19912,102,2097156)
-p("TropicalPlant_Grass_01",205000,244000,2614,103,2097156)
-p("TropicalPlant_Grass_01",205000,245000,12024,98,2097156)
-p("TropicalPlant_Grass_01",206000,244000,3685,101,2097156)
-p("TropicalPlant_Grass_01",206000,245000,6543,96,2097156)
-p("TropicalPlant_Grass_01",207000,243000,5763,99,2097156)
-p("TropicalPlant_Grass_01",208000,243000,14464,102,2097156)
-p("TropicalPlant_Grass_01",207000,244000,16768,95,2097156)
-p("TropicalPlant_Grass_01",207000,245000,11800,102,2097156)
-p("TropicalPlant_Grass_01",208000,244000,7794,101,2097156)
-p("TropicalPlant_Grass_01",208000,245000,9945,99,2097156)
-p("TropicalPlant_Grass_02",211670,238493,17951,99,2097156)
-p("TropicalPlant_Grass_01",209000,243000,14834,99,2097156)
-p("TropicalPlant_Grass_01",210000,243000,20187,104,2097156)
-p("TropicalPlant_Grass_01",209000,244000,11336,104,2097156)
-p("TropicalPlant_Grass_01",209000,245000,950,96,2097156)
-p("TropicalPlant_Grass_01",210000,244000,17398,102,2097156)
-p("TropicalPlant_Grass_01",210000,245000,13747,96,2097156)
-p("TropicalPlant_Grass_01",211000,243000,18094,103,2097156)
-p("TropicalPlant_Grass_01",212000,242000,549,96,2097156)
-p("TropicalPlant_Grass_01",212000,243000,10771,103,2097156)
-p("TropicalPlant_Grass_01",211000,244000,9025,99,2097156)
-p("TropicalPlant_Grass_01",211000,245000,17961,99,2097156)
-p("TropicalPlant_Grass_01",212000,244000,13181,101,2097156)
-p("TropicalPlant_Grass_01",212000,245000,9362,2097152)
-p("TropicalPlant_Grass_01",201000,246000,9887,98,2097156)
-p("TropicalPlant_Grass_01",202000,246000,2767,96,2097156)
-p("TropicalPlant_Grass_02",202281,246267,3936,104,2097156)
-p("TropicalPlant_Grass_01",202000,247000,3322,97,2097156)
-p("TropicalPlant_Grass_01",203000,246000,19006,95,2097156)
-p("TropicalPlant_Grass_01",203000,247000,10995,101,2097156)
-p("TropicalPlant_Grass_01",204000,246000,74,96,2097156)
-p("TropicalPlant_Grass_03",204365,246086,11599,103,2097156)
-p("TropicalPlant_Grass_01",204000,247000,8515,95,2097156)
-p("TropicalPlant_Grass_01",203000,248000,10101,2097152)
-p("TropicalPlant_Grass_01",204000,248000,5321,102,2097156)
-p("TropicalRockSharp_01",202897,250703,3743,15111,250,4291676360,-1909,-1132,3442,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
-p("TropicalPlant_Grass_01",205000,246000,5368,97,2097156)
-p("TropicalPlant_Grass_01",205000,247000,5267,99,2097156)
-p("TropicalPlant_Grass_01",206000,246000,14610,99,2097156)
-p("TropicalPlant_Grass_01",206000,247000,9905,101,2097156)
-p("TropicalPlant_Grass_01",205000,248000,4166,97,2097156)
-p("TropicalPlant_Grass_01",206000,248000,7540,95,2097156)
-p("TropicalPlant_Grass_01",207000,246000,12612,95,2097156)
-p("TropicalRockSharp_01",207039,246935,6952,16812,250,4291676360,-428,139,4071,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
-p("TropicalPlant_Grass_01",207000,247000,3561,95,2097156)
-p("TropicalPlant_Grass_01",208000,246000,14983,95,2097156)
-p("TropicalPlant_Grass_01",208000,247000,16167,99,2097156)
-p("TropicalPlant_Grass_01",207000,248000,1879,96,2097156)
-p("TropicalPlant_Grass_01",208000,248000,14658,103,2097156)
-p("TropicalPlant_Grass_01",209000,246000,4284,99,2097156)
-p("TropicalPlant_Grass_01",209000,247000,2483,97,2097156)
-p("TropicalPlant_Grass_01",210000,246000,6309,95,2097156)
-p("TropicalPlant_Grass_01",210000,247000,17648,2097152)
-p("TropicalPlant_Grass_01",209000,248000,15652,104,2097156)
-p("TropicalPlant_Grass_01",210000,248000,11148,95,2097156)
-p("TropicalPlant_Grass_01",211000,246000,5026,102,2097156)
-p("TropicalPlant_Grass_01",211000,247000,10143,101,2097156)
-p("TropicalPlant_Grass_01",212000,246000,15288,103,2097156)
-p("TropicalPlant_Grass_01",212000,247000,20289,104,2097156)
-p("TropicalPlant_Grass_01",211000,248000,17546,103,2097156)
-p("TropicalPlant_Grass_01",212000,248000,8261,2097152)
+p("TropicalRockSharp_01",204976,239753,3979,12969,250,4291676360,1262,697,3833,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",207381,238641,9412,8922,250,4291676360,1413,-172,3840,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",211416,241758,4419,10030,250,4291676360,333,-50,4082,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",211764,241758,6620,10030,250,4291676360,333,-50,4082,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",200467,248067,7318,11028,250,4291676360,543,1388,3815,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",198682,258761,2664,9897,250,4291676360,1043,230,3954,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_Grass_04",213000,230000,8584,208,2097156)
 p("TropicalPlant_Grass_04",214000,230000,2748,198,2097156)
 p("TropicalPlant_Grass_01",213000,231000,12992,208,2097156)
@@ -78562,9 +70841,7 @@ p("TropicalPlant_Grass_04",213000,232000,11881,200,2097156)
 p("TropicalPlant_Grass_01",214000,232000,6060,198,2097156)
 p("TropicalPlant_Grass_04",214000,232000,21456,216,2097156)
 p("TropicalPlant_Grass_01",213000,233000,19555,204,2097156)
-p("TropicalPlant_Grass_04",213000,233000,2546,212,2097156)
 p("TropicalPlant_Grass_01",214000,233000,20109,210,2097156)
-p("TropicalPlant_Grass_04",214000,233000,4289,206,2097156)
 p("TropicalPlant_Grass_01",215000,232000,4279,200,2097156)
 p("TropicalPlant_Grass_01",215000,233000,11119,206,2097156)
 p("TropicalPlant_Grass_04",217000,230000,10185,214,2097156)
@@ -78574,32 +70851,6 @@ p("TropicalPlant_Grass_04",216000,232000,20557,216,2097156)
 p("TropicalPlant_Grass_01",216000,233000,876,202,2097156)
 p("TropicalPlant_Grass_04",217000,232000,1745,212,2097156)
 p("TropicalPlant_Grass_04",217000,233000,4928,206,2097156)
-p("TropicalPlant_Grass_01",213000,234000,12242,210,2097156)
-p("TropicalPlant_Grass_04",213000,234000,5381,198,2097156)
-p("TropicalPlant_Grass_01",214000,234000,14613,216,2097156)
-p("TropicalPlant_Grass_04",214000,234000,19718,214,2097156)
-p("TropicalPlant_Grass_01",213000,235000,7661,200,2097156)
-p("TropicalPlant_Grass_04",213000,235000,11549,204,2097156)
-p("TropicalPlant_Grass_01",214000,235000,12241,204,2097156)
-p("TropicalPlant_Grass_04",214000,235000,5962,200,2097156)
-p("TropicalPlant_Grass_01",215000,234000,19903,210,2097156)
-p("TropicalPlant_Grass_01",215000,235000,1628,214,2097156)
-p("TropicalPlant_Grass_01",213000,236000,20368,216,2097156)
-p("TropicalPlant_Grass_04",213000,236000,15762,212,2097156)
-p("TropicalPlant_04_Shrub_02",213323,236247,10481,102,2097156)
-p("TropicalPlant_Grass_01",214000,236000,6354,200,2097156)
-p("TropicalPlant_Grass_04",214000,236000,2868,208,2097156)
-p("TropicalPlant_Grass_01",213000,237000,15889,198,2097156)
-p("TropicalPlant_Grass_01",214000,237000,5517,214,2097156)
-p("TropicalPlant_Grass_01",215000,236000,6038,216,2097156)
-p("TropicalPlant_Grass_01",215000,237000,15434,208,2097156)
-p("TropicalPlant_Grass_01",216000,234000,8278,208,2097156)
-p("TropicalPlant_Grass_01",216000,235000,5695,204,2097156)
-p("TropicalPlant_Grass_01",217000,234000,1971,216,2097156)
-p("TropicalPlant_Grass_04",217000,234000,12008,212,2097156)
-p("TropicalPlant_Grass_01",217000,235000,13814,206,2097156)
-p("TropicalPlant_Grass_01",216000,236000,11796,216,2097156)
-p("TropicalPlant_04_Shrub_01",216556,236243,3478,102,2097156)
 p("TropicalPlant_Grass_04",218000,230000,4821,206,2097156)
 p("TropicalPlant_Grass_04",218000,231000,355,212,2097156)
 p("TropicalPlant_Grass_04",219000,230000,8927,200,2097156)
@@ -78618,30 +70869,11 @@ p("TropicalPlant_Grass_04",220000,232000,19107,202,2097156)
 p("TropicalPlant_Grass_04",220000,233000,13253,208,2097156)
 p("TropicalPlant_Grass_04",221000,232000,20829,206,2097156)
 p("TropicalPlant_Grass_04",221000,233000,5401,210,2097156)
-p("TropicalPlant_Grass_04",218000,234000,16453,204,2097156)
-p("TropicalPlant_Grass_04",218000,235000,20567,202,2097156)
-p("TropicalPlant_Grass_03",218361,234128,16635,2097152)
 p("TropicalPlant_Grass_04",219000,234000,6105,216,2097156)
-p("TropicalPlant_Grass_04",219000,235000,16892,198,2097156)
-p("TropicalPlant_Grass_01",217671,236333,11075,98,2097156)
-p("TropicalPlant_04_Shrub_02",219067,235700,8786,99,2097156)
 p("TropicalPlant_Grass_04",220000,234000,21247,198,2097156)
 p("TropicalPlant_Grass_04",220000,235000,4385,200,2097156)
-p("TropicalPlant_Grass_02",220372,233766,10666,103,2097156)
 p("TropicalPlant_Grass_04",221000,234000,8083,198,2097156)
-p("TropicalPlant_Grass_02",220220,236429,17247,99,2097156)
-p("TropicalPlant_Grass_01",213000,242000,8142,95,2097156)
-p("TropicalPlant_Grass_01",213000,243000,15465,104,2097156)
-p("TropicalPlant_Grass_01",214000,243000,17383,96,2097156)
-p("TropicalPlant_Grass_01",215000,243000,19779,2097152)
-p("TropicalPlant_Grass_01",213000,244000,18836,98,2097156)
-p("TropicalPlant_Grass_01",214000,244000,3944,97,2097156)
-p("TropicalPlant_Grass_01",213000,245000,7315,2097152)
-p("TropicalPlant_Grass_01",214000,245000,18420,103,2097156)
-p("TropicalPlant_Grass_01",215000,244000,5320,99,2097156)
-p("TropicalPlant_Grass_01",215000,245000,18000,96,2097156)
 p("TropicalPlant_Grass_04",219776,237772,2371,101,2097156)
-p("TropicalRockSharp_01",221082,245005,6952,15549,250,4291676360,-323,204,4078,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_Grass_04",222000,230000,19124,204,2097156)
 p("TropicalPlant_Grass_04",222000,231000,18428,208,2097156)
 p("TropicalPlant_Grass_01",222417,230247,6192,98,2097156)
@@ -78664,7 +70896,6 @@ p("TropicalPlant_Grass_04",225000,233000,20903,216,2097156)
 p("TropicalPlant_Grass_04",222000,234000,9594,212,2097156)
 p("TropicalPlant_Grass_03",222026,234349,2699,103,2097156)
 p("TropicalPlant_Grass_04",223000,234000,9202,210,2097156)
-p("TropicalPlant_Grass_02",221503,235679,18033,96,2097156)
 p("TropicalPlant_Grass_02",223592,233544,2600,97,2097156)
 p("TropicalPlant_Grass_04",224000,234000,9478,208,2097156)
 p("TropicalPlant_Grass_01",223840,236344,8872,97,2097156)
@@ -78688,13 +70919,9 @@ p("TropicalPlant_04_Shrub_01",229014,234932,14911,2097152)
 p("TropicalPlant_Grass_03",228142,236124,12127,98,2097156)
 p("TropicalPlant_Grass_03",222210,237603,14252,103,2097156)
 p("TropicalPlant_Grass_01",224474,237955,5997,104,2097156)
-p("TropicalPlant_Grass_01",213000,246000,20875,95,2097156)
-p("TropicalPlant_Grass_01",214000,246000,10350,101,2097156)
-p("TropicalPlant_Grass_01",213000,247000,9972,97,2097156)
-p("TropicalPlant_Grass_01",214000,247000,15281,96,2097156)
-p("TropicalPlant_Grass_01",215000,246000,3475,99,2097156)
+p("TropicalRockSharp_01",224104,241261,9399,13281,250,4291676360,908,1345,3760,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_Grass_01",215000,247000,17252,95,2097156)
-p("TropicalPlant_Grass_01",213000,248000,17328,104,2097156)
+p("TropicalRockSharp_01",214835,248287,5966,10782,250,4291676360,1266,837,3804,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_Grass_01",230000,200000,11599,250,2097156)
 p("TropicalPlant_Grass_01",230000,201000,1356,247,2097156)
 p("TropicalPlant_Grass_01",230000,202000,18218,245,2097156)
@@ -79478,9 +71705,9 @@ p("TropicalPlant_Grass_01",253000,252000,11221,103,2097156)
 p("TropicalPlant_Grass_01",253000,253000,9817,103,2097156)
 p("TropicalPlant_Grass_01",247000,254000,4498,2097152)
 p("TropicalPlant_Grass_01",248000,254000,12212,95,2097156)
-p("TropicalRockSharp_01",248059,254019,6953,18409,250,4291676360,-641,50,4045,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_Grass_01",249000,254000,10160,103,2097156)
 p("TropicalPlant_Grass_01",250000,254000,9675,98,2097156)
+p("TropicalRockSharp_01",250308,254709,6953,18409,250,4291676360,-641,50,4045,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalPlant_Grass_01",250000,255000,18874,96,2097156)
 p("TropicalPlant_Grass_01",251000,254000,13980,95,2097156)
 p("TropicalPlant_Grass_01",251000,255000,11612,95,2097156)
@@ -79577,11 +71804,8 @@ p("TropicalPlant_Grass_02",14695,263437,1025,2097152)
 p("TropicalRockSharp_01",15537,265878,6949,3727,250,4288584860,"terrainchunk",10,0,0,40,60,10,40,60,2228237)
 p("TropicalPlant_Grass_03",16421,263026,12179,2097152)
 p("TropicalPlant_Grass_04",17394,262214,21234,2097152)
-p("TropicalRockSharp_01",65987,263070,6949,4770,250,4291676360,41,56,4095,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
-p("TropicalRockSharp_01",74222,264340,6354,7504,250,4291676360,1238,-457,3877,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
-p("TropicalRockSharp_01",86212,266541,7953,5705,250,4291676360,1210,-1143,3742,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
-p("TropicalRockSharp_01",86444,271291,3988,5900,250,4291676360,847,-1438,3740,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
-p("TropicalRockSharp_01",97359,268327,6353,4773,250,4291676360,1299,-1291,3663,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",40788,263541,3048,4074,250,4291676360,-978,3973,167,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalRockSharp_01",53342,262805,3298,9077,250,4291676360,924,491,3960,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
 p("TropicalRockSharp_01",267633,46727,28210,8056,250,-320,3998,828,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",275686,37764,27178,7556,250,550,-4058,19,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",277727,46737,29540,7676,250,376,-4045,519,"terrainchunk",10,0,0,40,60,10,40,60,2228245)

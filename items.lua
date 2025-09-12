@@ -7742,6 +7742,7 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
+				'comment', "Водопад",
 				'mapName', "isJdmPy",
 				'campaignId', "HotDiamonds",
 				'sectorId', "M2",
@@ -12079,58 +12080,11 @@ return {
 				}),
 			}),
 			}),
-		PlaceObj('ModItemCode', {
-			'name', "Disable Attack CAP",
-			'comment', "-- Отключение капа на количество одновременно атакующих отрядов",
-			'CodeFileName', "Code/Disable Attack CAP.lua",
-		}),
-		PlaceObj('ModItemCode', {
-			'name', "Rendomization Attack Time",
-			'comment', "-- Временной разброс атак секторов",
-			'CodeFileName', "Code/Rendomization Attack Time.lua",
-		}),
 		}),
 	PlaceObj('ModItemFolder', {
 		'name', "Sounds",
 		'comment', "Звуки, всяко разно для локаций и эмбианта",
-	}, {
-		PlaceObj('ModItemSoundPreset', {
-			Regions = {
-				"CursedForest",
-			},
-			TimeOfDay = {
-				"Day",
-				"Sunrise",
-			},
-			group = "Default",
-			id = "AK_50_Music",
-			looping = true,
-			loud_distance = 75638,
-			type = "EnvironmentRadioTV",
-			volume = 300,
-			PlaceObj('SoundFile', {
-				GetFileExt = function ()
-					return "opus"
-				end,
-				GetFileFilter = function ()
-					return "Sample File|*.opus;*.wav"
-				end,
-				Getpath = function ()
-					if sample.file == "" then
-						return ".opus"
-					elseif string.ends_with(sample.file, ".opus") or string.ends_with(sample.file, ".wav") then
-						return sample.file
-					else
-						return sample.file .. ".wav"
-					end
-				end,
-				Setpath = function (obj, path)
-					sample.file = path
-				end,
-				file = "Mod/FhNNYd/Sounds/AK50.opus",
-			}),
-		}),
-		}),
+	}),
 	PlaceObj('ModItemFolder', {
 		'name', "Quests_&_Campaign",
 	}, {
@@ -24316,31 +24270,6 @@ return {
 					'image', "UI/SatelliteView/SectorImages/K13",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Jungle_Conflict",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "M2",
-					'Map', "isJdmPy",
-					'MapTier', 10,
-					'modId', "FhNNYd",
-					'display_name', T(962183556645, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M2]] "Водопад"),
-					'TerrainType', "Jungle",
-					'ForceConflict', true,
-					'InterestingSector', true,
-					'MinFlareCarriers', 15,
-					'MaxFlareCarriers', 29,
-					'bidirectionalRoadApply', true,
-					'Roads', set({
-	East = false,
-	North = false,
-	West = true,
-}),
-					'bidirectionalBlockApply', true,
-					'BlockTravel', set({
-	East = false,
-	North = true,
-	South = true,
-	West = false,
-}),
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M2",

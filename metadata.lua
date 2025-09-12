@@ -7,18 +7,16 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4391,
+	'version', 4406,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
-		"Code/Disable Attack CAP.lua",
-		"Code/Rendomization Attack Time.lua",
 		"MapPatches/SetPieces/NewSetpiece_CPeNF5Y/FlagHillLanding.lua",
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1754860886,
-	'code_hash', 7737044059959539532,
+	'saved', 1757353517,
+	'code_hash', 1345675170524483864,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
@@ -1309,11 +1307,6 @@ return PlaceObj('ModDef', {
 			'Class', "XTemplate",
 			'Id', "PDASquadManagement",
 			'ClassDisplayName', "UI Template (XTemplate)",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "SoundPreset",
-			'Id', "AK_50_Music",
-			'ClassDisplayName', "Sound",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "CampaignPreset",
