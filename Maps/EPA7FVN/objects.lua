@@ -268,23 +268,6 @@ PlaceObj('GridMarker', {
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
 }, nil, 1785668006)
-PlaceObj('ExitZoneInteractable', {
-	'Pos', point(40404, 158269, 14730),
-	'Groups', {
-		"East",
-	},
-	'AllowedMask', 4294966497,
-}, nil, 1786313394)
-PlaceObj('GridMarker', {
-	'Pos', point(40200, 159000),
-	'Groups', {
-		"East",
-	},
-	'AllowedMask', 4294966497,
-	'Type', "Entrance",
-	'AreaWidth', 5,
-	'AreaHeight', 5,
-}, nil, 1246071164)
 PlaceObj('UnitMarker', {
 	'Pos', point(89400, 139800, 14700),
 	'Groups', {
@@ -351,6 +334,23 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1619067901)
+PlaceObj('ExitZoneInteractable', {
+	'Pos', point(81234, 168655, 12388),
+	'Groups', {
+		"East",
+	},
+	'AllowedMask', 4294966497,
+}, nil, 1786313394)
+PlaceObj('GridMarker', {
+	'Pos', point(81000, 169800, 12600),
+	'Groups', {
+		"East",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Entrance",
+	'AreaWidth', 5,
+	'AreaHeight', 5,
+}, nil, 1246071164)
 PlaceObj('UnitMarker', {
 	'Pos', point(88200, 168600, 11200),
 	'Groups', {
@@ -963,16 +963,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1537374737)
-PlaceObj('GridMarker', {
-	'Pos', point(139800, 153000, 6300),
-	'Angle', 5400,
-	'AllowedMask', 4294966497,
-	'Type', "BorderArea",
-	'AreaWidth', 170,
-	'AreaHeight', 150,
-	'Reachable', false,
-	'GroundVisuals', true,
-}, nil, 1834157092)
 PlaceObj('UnitMarker', {
 	'Pos', point(144600, 159000, 6300),
 	'Groups', {
@@ -1097,6 +1087,16 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 296165376)
+PlaceObj('GridMarker', {
+	'Pos', point(150600, 153000, 6300),
+	'Angle', 5400,
+	'AllowedMask', 4294966497,
+	'Type', "BorderArea",
+	'AreaWidth', 120,
+	'AreaHeight', 150,
+	'Reachable', false,
+	'GroundVisuals', true,
+}, nil, 1834157092)
 PlaceObj('GridMarker', {
 	'Pos', point(154200, 160200),
 	'Groups', {
@@ -61835,7 +61835,7 @@ p("SavannaPlant_Bush_07",144392,93019,16961,44,4281347887,2097164)
 p("SavannaPlant_Bush_06",144443,93532,10541,43,4280954933,2097164)
 p("SavannaPlant_Bush_06",145073,93853,13058,35,4280825136,2097164)
 p("ParSystem",145927,90395,"Env_Fire1x1",268435456)
-p("Grease",147406,90334,15577,16200,4096,0,0,4,2033,2097553)
+p("Grease",147406,90334,15577,16200,4096,0,0,3,2033,2097553)
 p("SavannaPlant_Bush_08",145487,93344,9864,46,4281479213,2097164)
 p("SavannaPlant_Bush_04",145576,93686,1056,37,4280890673,2097164)
 p("SavannaPlant_Bush_04",145821,93405,17946,35,4280824116,2097164)
