@@ -5058,6 +5058,9 @@ return {
 					'City', "ErnieVillage",
 					'Bunker', true,
 					'Guardpost', true,
+					'Region', {
+						"ErnieIsland",
+					},
 					'PatrolRespawnTime', 864000,
 					'TargetSectors', {
 						"I5",
@@ -21083,6 +21086,9 @@ return {
 					'City', "ErnieVillage",
 					'Bunker', true,
 					'Guardpost', true,
+					'Region', {
+						"ErnieIsland",
+					},
 					'PatrolRespawnTime', 864000,
 					'TargetSectors', {
 						"I5",
@@ -21230,6 +21236,9 @@ return {
 					'City', "ErnieVillage",
 					'Bunker', true,
 					'Guardpost', true,
+					'Region', {
+						"ErnieIsland",
+					},
 					'PatrolRespawnTime', 864000,
 					'TargetSectors', {
 						"I5",
@@ -27156,8 +27165,8 @@ return {
 			sector_bottomright = "P32",
 			sectors_offset = point(0, 0),
 			starting_day = 3,
-			starting_hour = 15,
-			starting_timestamp = 1112529600,
+			starting_hour = 0,
+			starting_timestamp = 1112475600,
 			starting_year = 2005,
 			underground_file = "Mod/FhNNYd/Images/BigMap_Under_1.png",
 		}),
