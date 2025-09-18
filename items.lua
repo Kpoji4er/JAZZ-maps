@@ -7269,9 +7269,8 @@ return {
 					'display_name', T(193876396815, "Походный лагерь Легиона"),
 					'TerrainType', "Jungle",
 					'InitialSquads', {
-						"LegionExtraSquadMelee_T2",
-						"LegionAttackers_Marksmen_Easy",
-						"LegionAttackers_JazzBalanced_Easy_Assault",
+						"LegionExtraSquadFireArms_T2",
+						"LegionExtraSquadFireArms",
 					},
 					'MinFlareCarriers', 5,
 					'MaxFlareCarriers', 11,
@@ -24054,9 +24053,8 @@ return {
 					'display_name', T(193876396815, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L4]] "Походный лагерь Легиона"),
 					'TerrainType', "Jungle",
 					'InitialSquads', {
-						"LegionExtraSquadMelee_T2",
-						"LegionAttackers_Marksmen_Easy",
-						"LegionAttackers_JazzBalanced_Easy_Assault",
+						"LegionExtraSquadFireArms_T2",
+						"LegionExtraSquadFireArms",
 					},
 					'MinFlareCarriers', 5,
 					'MaxFlareCarriers', 11,
@@ -27174,6 +27172,1250 @@ return {
 			'name', "Conversations",
 			'comment', "---Диалоги",
 		}, {
+			PlaceObj('ModItemConversation', {
+				AssignToGroup = "LegionRaider_Jose",
+				Comment = "(Bastien) - initial",
+				Conditions = {
+					PlaceObj('PlayerIsInSectors', {
+						Sectors = {
+							"K4",
+						},
+					}),
+				},
+				DefaultActor = "LegionRaider_Jose",
+				Parameters = {
+					PlaceObj('PresetParamNumber', {
+						'Name', "DiamondsGain",
+						'Value', 3,
+						'Tag', "<DiamondsGain>",
+					}),
+				},
+				group = "Ernie",
+				id = "Jose_1",
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "BastienMet",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+					},
+					GiveQuests = {
+						"JoseFamily",
+					},
+					Keyword = "Greeting",
+					KeywordT = T(246938365634, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(841941343180, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Greeting]] "Oh la la! Don't shoot! I'm just a bystander here. An innocent civilian! I heard some shots fired up the hill. I came to take a look and I saw the <em>Legion</em> getting their asses kicked."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Raven",
+											Text = T(173915866209, --[[ModItemConversation Jose_1 Text voice:Raven section:Jose_1 keyword:Greeting]] "Exactly what an innocent civilian would do."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Omryn",
+											Text = T(272748439918, --[[ModItemConversation Jose_1 Text voice:Omryn section:Jose_1 keyword:Greeting]] "Makes sense to me. Better to watch a fight than be in one."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Livewire",
+											Text = T(354143913171, --[[ModItemConversation Jose_1 Text voice:Livewire section:Jose_1 keyword:Greeting]] "I want you to know that I completely believe you, but I really don't think anyone else does."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(133559082275, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Greeting]] "But I'm not with them! I was just... umm... doing a bit of scavenging on the beach. Yeah, that's how I provide for my <em>family</em>!"),
+							param_bindings = false,
+						}),
+					},
+					NoBackOption = true,
+					id = "Greeting",
+					param_bindings = false,
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						AutoRemove = true,
+						GoTo = "<root>",
+						Keyword = "Don't worry",
+						KeywordT = T(421671637026, --[[ModItemConversation Jose_1 KeywordT]] "Don't worry"),
+						Lines = {
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Raven",
+												Text = T(698684374141, --[[ModItemConversation Jose_1 Text voice:Raven section:Jose_1 keyword:Don't worry]] "Take it easy, mister. We don't shoot civilians... generally."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Buns",
+												Text = T(760809692328, --[[ModItemConversation Jose_1 Text voice:Buns section:Jose_1 keyword:Don't worry]] "That's all right, dear. We don't shoot civilians... generally."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "MD",
+												Text = T(982125390831, --[[ModItemConversation Jose_1 Text voice:MD section:Jose_1 keyword:Don't worry]] "Oh, we don't shoot civilians! I mean, sometimes we do. I do. By accident, though. Not on purpose."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "LegionRaider_Jose",
+								Text = T(794182824614, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Don't worry]] "Oh, thank you! Maybe you just let me go on my way now, eh?"),
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_friendly",
+						id = "Friendly",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						AutoRemove = true,
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "UnderSuspicion",
+								QuestId = "JoseFamily",
+								param_bindings = false,
+							}),
+						},
+						GoTo = "<root>",
+						Keyword = "Civilian? Oh really?",
+						KeywordT = T(837466948853, --[[ModItemConversation Jose_1 KeywordT]] "Civilian? Oh really?"),
+						Lines = {
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Meltdown",
+												Text = T(558925887667, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Civilian? Oh really?]] "Yeah, and I'm the fucking tooth fairy."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Raider",
+												Text = T(961351390176, --[[ModItemConversation Jose_1 Text voice:Raider section:Jose_1 keyword:Civilian? Oh really?]] "A well armed civilian, I see."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Grizzly",
+												Text = T(602509468087, --[[ModItemConversation Jose_1 Text voice:Grizzly section:Jose_1 keyword:Civilian? Oh really?]] "That gun just for shooting squirrels then?"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "LegionRaider_Jose",
+								Text = T(694083195278, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Civilian? Oh really?]] "Oh, you mean this gun here? It's just, eh, heh-heh... iiiit's just for protection, boss. These are dangerous times on the island."),
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_sarcastic",
+						id = "Sarcastic",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						AutoRemove = true,
+						Comment = "Gain variable: Scared",
+						Conditions = {
+							PlaceObj('UnitSquadHasMerc', {
+								HasPerk = "Psycho",
+								param_bindings = false,
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Scared",
+								QuestId = "JoseFamily",
+								param_bindings = false,
+							}),
+						},
+						GoTo = "<root>",
+						Keyword = "Why not just shoot you",
+						KeywordT = T(100434160721, --[[ModItemConversation Jose_1 KeywordT]] "Why not just shoot you"),
+						Lines = {
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Fidel",
+												Text = T(313383136120, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Why not just shoot you]] "One thing Fidel always say: no such thing as innocent bystander. When shooting start, you run and hide or stay and shoot."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Meltdown",
+												Text = T(228256278923, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Why not just shoot you]] "Don't bullshit me, boy. I shot the kneecaps off the last dumbass who tried that."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Nails",
+												Text = T(163403820051, --[[ModItemConversation Jose_1 Text voice:Nails section:Jose_1 keyword:Why not just shoot you]] "Innocent bystanders are just people who haven't gotten a chance to shoot at me yet."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "LegionRaider_Jose",
+								Text = T(843674379925, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Why not just shoot you]] "Please, boss, I... I don't want any trouble! I have a <em>family</em>. You won't snuff out a family man, right?"),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Fidel",
+												Text = T(581259340286, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Why not just shoot you]] "This is good point. I like it better when family is here to watch."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Meltdown",
+												Text = T(239362719517, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Why not just shoot you]] "Depends on how cranky I am. And just so you know, I ain't pooped yet today."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Nails",
+												Text = T(806520737314, --[[ModItemConversation Jose_1 Text voice:Nails section:Jose_1 keyword:Why not just shoot you]] "Hell, everybody's got a family. That don't bother me one bit."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_threaten",
+						id = "Psycho",
+						param_bindings = false,
+					}),
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Effects = {
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Jose_1",
+							PhraseId = "WhatDoYouKnowAboutEmma",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Jose_1",
+							PhraseId = "YourewiththeLegion",
+							param_bindings = false,
+						}),
+					},
+					Keyword = 'Tell us about that "Legion"',
+					KeywordT = T(472263304050, --[[ModItemConversation Jose_1 KeywordT]] 'Tell us about that "Legion"'),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(619579227053, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Tell us about that "Legion"]] "Well, that's the Patriotic Legion of Grand Chien! Quite a gang, they are. I think some of them were trying to snatch that <em>Emma</em> girl, the President's daughter, but I guess it didn't work out."),
+							param_bindings = false,
+						}),
+					},
+					id = "Legion",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "MentionedMajor",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+					},
+					Enabled = false,
+					Keyword = "What do you know about Emma?",
+					KeywordT = T(971994350441, --[[ModItemConversation Jose_1 KeywordT]] "What do you know about Emma?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(751276739916, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:What do you know about Emma?]] "Don't know nothing, boss! I've just heard that the <em>Major</em> wants the girl. I guess he wishes to complete the set with her <em>father</em>, he-he."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Ice",
+											Text = T(352228171056, --[[ModItemConversation Jose_1 Text voice:Ice section:Jose_1 keyword:What do you know about Emma?]] "That dude got kidnapped and that's his daughter you're talkin' about. Put some respect in your mouth."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Raven",
+											Text = T(428244067987, --[[ModItemConversation Jose_1 Text voice:Raven section:Jose_1 keyword:What do you know about Emma?]] "I can tell how upset you are about it."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Barry",
+											Text = T(395701598479, --[[ModItemConversation Jose_1 Text voice:Barry section:Jose_1 keyword:What do you know about Emma?]] "What is wrong with you? Where is your compassion?"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "LegionRaider_Jose",
+											Text = T(118091976965, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:What do you know about Emma?]] "Oh, sorry, boss. I guess I dropped it."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "WhatDoYouKnowAboutEmma",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								MentionedMajor = true,
+								UnderSuspicion = false,
+							},
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "LeadMajor",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetSeen', {
+							Conversation = "Jose_1",
+							PhraseId = "Major2",
+							Seen = true,
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Who's the Major?",
+					KeywordT = T(202849560121, --[[ModItemConversation Jose_1 KeywordT]] "Who's the Major?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(866522232661, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Who's the Major?]] "Oh, well, he's the leader of the <em>Legion</em>, of course! No one really seems to know him at all. They say he operates from a secret base up there in the <em>Highlands</em>..."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Tex",
+											Text = T(116053605348, --[[ModItemConversation Jose_1 Text voice:Tex section:Jose_1 keyword:Who's the Major?]] "Sounds like he got a real hole-in-the-wall gang. How we get there? "),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Red",
+											Text = T(668402915478, --[[ModItemConversation Jose_1 Text voice:Red section:Jose_1 keyword:Who's the Major?]] "Speakin' as a Highlander, can ye be more specific? Highlands can be damn tricky terrain."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Mouse",
+											Text = T(163252415121, --[[ModItemConversation Jose_1 Text voice:Mouse section:Jose_1 keyword:Who's the Major?]] "I love secrets! Can you tell me? I'm a mime, so you know I won't tell anyone."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(761343022329, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Who's the Major?]] "Well I don't know for sure. It wouldn't be much of a secret if I knew it, right?"),
+							param_bindings = false,
+						}),
+					},
+					id = "Major",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								MentionedMajor = true,
+								UnderSuspicion = true,
+							},
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Who's the Major?",
+					KeywordT = T(834834340148, --[[ModItemConversation Jose_1 KeywordT]] "Who's the Major?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(337668178589, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Who's the Major?]] "Oh, well, he's the leader of the <em>Legion</em>, of course! No one really seems to know him at all. Very mysterious figure. Very dangerous. May I go now? Please?"),
+							param_bindings = false,
+						}),
+					},
+					id = "Major2",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								MentionedMajor = true,
+							},
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "UnderSuspicion",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Emma's father - you mean the President?",
+					KeywordT = T(779920868523, --[[ModItemConversation Jose_1 KeywordT]] "Emma's father - you mean the President?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(370951426842, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Emma's father - you mean the President?]] "You know, you're right. I think I heard something about that. But I don't know anything! I don't want to be involved in any of this, you know. Can I just go back to my <em>family</em>?"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Raider",
+											Text = T(593173242308, --[[ModItemConversation Jose_1 Text voice:Raider section:Jose_1 keyword:Emma's father - you mean the President?]] "You seem to know a lot for someone who's not involved, don't you?"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "LegionRaider_Jose",
+											Text = T(334766422274, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Emma's father - you mean the President?]] "Don't know what you're talking about, boss."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Meltdown",
+											Text = T(874636954516, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Emma's father - you mean the President?]] "Jeez, you're shadier than my ass crack."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Grizzly",
+											Text = T(317797663083, --[[ModItemConversation Jose_1 Text voice:Grizzly section:Jose_1 keyword:Emma's father - you mean the President?]] "Something stinks here, and I'm not talking about my armpits."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "YoumeanthePresident",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "LeadFamily",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "So you have a family?",
+					KeywordT = T(593247912981, --[[ModItemConversation Jose_1 KeywordT]] "So you have a family?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(475550282121, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:So you have a family?]] "Oh yes, boss. A big family over in <em>the Rust</em>! That's what we call the area just east of town. It's not a nice place. My boys cannot play <em>football</em> without tripping on old war equipment, hehe."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Igor",
+											Text = T(954237649681, --[[ModItemConversation Jose_1 Text voice:Igor section:Jose_1 keyword:So you have a family?]] "Family is best important. Dolviches understand."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Wolf",
+											Text = T(279221143205, --[[ModItemConversation Jose_1 Text voice:Wolf section:Jose_1 keyword:So you have a family?]] "Old war equipment? Could be worth checking out."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(603222510455, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:So you have a family?]] "They depend on me, you see. If I don't bring home the bacon, they don't eat! My poor family."),
+							param_bindings = false,
+						}),
+					},
+					id = "Family",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							Condition = "or",
+							QuestId = "JoseFamily",
+							Vars = {
+								LeadFamily = true,
+							},
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Is this a soccer shirt?",
+					KeywordT = T(382828030558, --[[ModItemConversation Jose_1 KeywordT]] "Is this a soccer shirt?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(494500800483, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Is this a soccer shirt?]] "Oui! Chiens Sauvages, the best team in Grand Chien! Their merchandise is shit though. I asked for a 13, and they printed 31..."),
+							param_bindings = false,
+						}),
+					},
+					id = "Isthisasoccershirt",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					AutoRemove = true,
+					Comment = "gain Scared+Diamonds if you failed the Hands Up",
+					Conditions = {
+						PlaceObj('UnitSquadHasMerc', {
+							HasStat = "Wisdom",
+							StatValue = 70,
+							param_bindings = false,
+						}),
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								BaconDiamonds = false,
+							},
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "UnderSuspicion",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "Scared",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "BaconDiamonds",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Jose_1",
+							PhraseId = "Openfire",
+							param_bindings = false,
+						}),
+					},
+					Enabled = false,
+					Keyword = "You’re with the Legion!",
+					KeywordT = T(197875889388, --[[ModItemConversation Jose_1 KeywordT]] "You're with the Legion!"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(765980304299, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:You’re with the Legion!]] "No, no, no! This is not true! Don't shoot me, boss! I mean... Maybe I had some dealings with the Legion in the past, but who doesn't? It is a small island."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Buns",
+											Text = T(494911643160, --[[ModItemConversation Jose_1 Text voice:Buns section:Jose_1 keyword:You’re with the Legion!]] 'Yet I am rather convinced you are part of the Legion "family".'),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "DrQ",
+											Text = T(656091369517, --[[ModItemConversation Jose_1 Text voice:DrQ section:Jose_1 keyword:You’re with the Legion!]] "It is difficult to hide one's true self on such a small island."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Thor",
+											Text = T(599649586933, --[[ModItemConversation Jose_1 Text voice:Thor section:Jose_1 keyword:You’re with the Legion!]] "My friend, you are hiding mostly from yourself. Let the truth set you free."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(454283331915, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:You’re with the Legion!]] "Look, just let me go to my family and I... I will give you <em>diamonds</em> from my secret stash, I swear!"),
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_threaten",
+					id = "YourewiththeLegion",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					AutoRemove = true,
+					Comment = "Gain Scared+Diamonds",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							Condition = "or",
+							QuestId = "JoseFamily",
+							Vars = {
+								Scared = true,
+								UnderSuspicion = true,
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								BaconDiamonds = false,
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('UnitSquadHasMerc', {
+							HasPerk = "Psycho",
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "UnderSuspicion",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "Scared",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "BaconDiamonds",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Jose_1",
+							PhraseId = "Openfire",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Jose_1",
+							Enabled = false,
+							PhraseId = "HandsUp_failure",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Hands up!",
+					KeywordT = T(949325910581, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
+					Lines = {
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fidel",
+											Text = T(648012258713, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Hands up!]] "It has been too long since the last time I killed someone! I'm getting itchy."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Meltdown",
+											Text = T(138260729514, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Hands up!]] "I got a hair trigger and a nasty rash on my finger. Got it?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Nails",
+											Text = T(518590108149, --[[ModItemConversation Jose_1 Text voice:Nails section:Jose_1 keyword:Hands up!]] "I can't help wondering what you'd look like dead."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(194856195654, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Hands up!]] "No, boss! Please, don't shoot! Look, just let me go to my family and I... I will give you <em>diamonds</em> from my secret stash, I swear!"),
+							param_bindings = false,
+						}),
+					},
+					NoBackOption = true,
+					StoryBranchIcon = "conversation_threaten",
+					id = "HandsUp_success",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							Condition = "or",
+							QuestId = "JoseFamily",
+							Vars = {
+								Scared = true,
+								UnderSuspicion = true,
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								BaconDiamonds = false,
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('UnitSquadHasMerc', {
+							HasPerk = "Psycho",
+							Negate = true,
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "UnderSuspicion",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Jose_1",
+							PhraseId = "Openfire",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Jose_1",
+							Enabled = false,
+							PhraseId = "HandsUp_success",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Hands up!",
+					KeywordT = T(356818754768, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(863019434578, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Hands up!]] "Non-non, no need for violence, boss! I've done nothing wrong! See? I'm cooperating."),
+							param_bindings = false,
+						}),
+					},
+					NoBackOption = true,
+					StoryBranchIcon = "conversation_threaten",
+					id = "HandsUp_failure",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Comment = "Gain 3 Tiny diamonds",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								BaconDiamonds = true,
+							},
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('GroupSetBehaviorExit', {
+							MarkerGroup = "East",
+							Running = true,
+							TargetUnit = "LegionRaider_Jose",
+							UseWeapons = true,
+							param_bindings = false,
+						}),
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "BaconDiamonds",
+							QuestId = "JoseFamily",
+							Set = false,
+							param_bindings = false,
+						}),
+						PlaceObj('UnitGrantItem', {
+							Amount = 3,
+							ItemId = "TinyDiamonds",
+							param_bindings = {
+								Amount = "DiamondsGain",
+							},
+						}),
+						PlaceObj('ExecuteCode', {
+							FuncCode = "TutorialHintsState.QuestChoice = true",
+							param_bindings = false,
+						}),
+					},
+					GoTo = "<end conversation>",
+					Keyword = "Hand over the diamonds",
+					KeywordT = T(173759770223, --[[ModItemConversation Jose_1 KeywordT]] "Hand over the diamonds"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(945363675509, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Hand over the diamonds]] "Bien sur! Please, take these. I just found them on the beach, I swear... All yours now. I... I can go? And... You won't shoot me in the back?"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fidel",
+											Text = T(549605059150, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Hand over the diamonds]] "No. Fidel like to aim for belly. More screaming that way."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Omryn",
+											Text = T(128574227840, --[[ModItemConversation Jose_1 Text voice:Omryn section:Jose_1 keyword:Hand over the diamonds]] "I only shoot people for money... and for food."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Steroid",
+											Text = T(180173666682, --[[ModItemConversation Jose_1 Text voice:Steroid section:Jose_1 keyword:Hand over the diamonds]] "Just drop your lunch money and run, little man!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Vicki",
+											Text = T(788492162617, --[[ModItemConversation Jose_1 Text voice:Vicki section:Jose_1 keyword:Hand over the diamonds]] "Life be full of mystery, mon. Only one way to find out."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					PhraseRolloverText = T(985683320118, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
+					StoryBranchIcon = "conversation_action",
+					id = "HandOverTheDiamonds",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Comment = "Start combat",
+					Effects = {
+						PlaceObj('GroupSetSide', {
+							Side = "enemy1",
+							TargetUnit = "LegionRaider_Jose",
+							param_bindings = false,
+						}),
+						PlaceObj('GroupAlert', {
+							TargetUnit = "LegionRaider_Jose",
+							param_bindings = false,
+						}),
+						PlaceObj('ExecuteCode', {
+							FuncCode = "TutorialHintsState.QuestChoice = true",
+							param_bindings = false,
+						}),
+					},
+					Enabled = false,
+					GoTo = "<end conversation>",
+					Keyword = "Die!",
+					KeywordT = T(290042346852, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(272789820167, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Die!]] "Merde!"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Annotation = "Laughing as if he just figured it's a great idea",
+											Character = "Fidel",
+											Text = T(618594213906, --[[ModItemConversation Jose_1 Text Laughing as if he just figured it's a great idea voice:Fidel section:Jose_1 keyword:Die!]] "Hehehehee... Bad news for you. Good news for Fidel!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Meltdown",
+											Text = T(748009394945, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Die!]] "Time to make some fur fly!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					PhraseRolloverText = T(320547678689, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
+					StoryBranchIcon = "conversation_attack",
+					id = "Openfire",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Comment = "Improve loot of second encounter",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								BaconDiamonds = true,
+								Scared = true,
+							},
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('GroupSetBehaviorExit', {
+							MarkerGroup = "East",
+							Running = true,
+							TargetUnit = "LegionRaider_Jose",
+							UseWeapons = true,
+							param_bindings = false,
+						}),
+						PlaceObj('ExecuteCode', {
+							FuncCode = "TutorialHintsState.QuestChoice = true",
+							param_bindings = false,
+						}),
+					},
+					GoTo = "<end conversation>",
+					Keyword = "You may go",
+					KeywordT = T(729243380616, --[[ModItemConversation Jose_1 KeywordT]] "You may go"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(336768732366, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:You may go]] "Thank you, boss, I knew you were kind and gentle people! I go now. Please... um... Please, don't shoot me in the back."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fidel",
+											Text = T(569961182685, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:You may go]] "No. Fidel like to aim for belly. More screaming that way."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Meltdown",
+											Text = T(934187065023, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:You may go]] "I'll consider it."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					PhraseRolloverText = T(473984065393, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
+					StoryBranchIcon = "conversation_goodbye",
+					id = "YouMayGo",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Comment = "If not Scared. Improve loot of second encounter",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								BaconDiamonds = false,
+								Scared = false,
+							},
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('GroupSetBehaviorExit', {
+							MarkerGroup = "East",
+							Running = true,
+							TargetUnit = "LegionRaider_Jose",
+							UseWeapons = true,
+							param_bindings = false,
+						}),
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "LeadFamily",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+						PlaceObj('ExecuteCode', {
+							FuncCode = "TutorialHintsState.QuestChoice = true",
+							param_bindings = false,
+						}),
+					},
+					GoTo = "<end conversation>",
+					Keyword = "Goodbye",
+					KeywordT = T(369563789544, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(991976953419, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Goodbye]] "Very kind of you to let me be on my way. Thank you! If your travels take you through <em>the Rust</em> any time soon, you're welcome to visit my family. We'll give you all the hospitality you deserve. I'll give it to you good, I promise!"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Mouse",
+											Text = T(490260677012, --[[ModItemConversation Jose_1 Text voice:Mouse section:Jose_1 keyword:Goodbye]] "Is it just me, or did that sound like a threat?!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Wolf",
+											Text = T(226068021362, --[[ModItemConversation Jose_1 Text voice:Wolf section:Jose_1 keyword:Goodbye]] "Could have phrased that a little better."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fox",
+											Text = T(836121399190, --[[ModItemConversation Jose_1 Text voice:Fox section:Jose_1 keyword:Goodbye]] "If I had a dime for every man who promised me that, I could buy my own island."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					PhraseRolloverText = T(797164020855, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
+					StoryBranchIcon = "conversation_goodbye",
+					id = "Goodbye",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Comment = "If Scared",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								BaconDiamonds = false,
+								Scared = true,
+							},
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('GroupSetBehaviorExit', {
+							MarkerGroup = "East",
+							Running = true,
+							TargetUnit = "LegionRaider_Jose",
+							UseWeapons = true,
+							param_bindings = false,
+						}),
+						PlaceObj('ExecuteCode', {
+							FuncCode = "TutorialHintsState.QuestChoice = true",
+							param_bindings = false,
+						}),
+					},
+					GoTo = "<end conversation>",
+					Keyword = "Goodbye",
+					KeywordT = T(294294326543, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(206183265191, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Goodbye]] "Thank you for sparing me, boss! Heavens bless you! I'm getting out of sight, right away! Thank you! Have a nice day! Au revoir!"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fidel",
+											Text = T(100312507456, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Goodbye]] "But why let go? Fidel no understand. Maybe we shoot him later?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					PhraseRolloverText = T(921461823582, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
+					StoryBranchIcon = "conversation_goodbye",
+					id = "Goodbye2",
+					param_bindings = false,
+				}),
+			}),
 			PlaceObj('ModItemConversation', {
 				AssignToGroup = "Rebels_Squad_LegionCamp5",
 				DefaultActor = "RebelSergant_Immortal",

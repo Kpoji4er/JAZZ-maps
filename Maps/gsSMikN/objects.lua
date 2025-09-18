@@ -2545,7 +2545,7 @@ PlaceObj('Collection', {
 }, nil, 1895712523)
 SetNextSyncHandle(2000000001)
 PlaceObj('GridMarker', {
-	'Pos', point(40200, 125400, 7000),
+	'Pos', point(60600, 115800, 7000),
 	'Groups', {
 		"west",
 	},
@@ -2555,7 +2555,7 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 12,
 }, nil, 1686910424)
 PlaceObj('ExitZoneInteractable', {
-	'Pos', point(41907, 125488, 6674),
+	'Pos', point(60430, 117415, 6674),
 	'Angle', 5400,
 	'Groups', {
 		"west",
@@ -2584,6 +2584,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
 		}),
 	},
 	'Appearance', "LegionScout",
@@ -2617,6 +2621,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
+		}),
 	},
 	'Appearance', "Legion_Recon",
 	'ApproachRadius', 20,
@@ -2648,6 +2656,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
 		}),
 	},
 	'Appearance', "Legion_Recon",
@@ -2681,6 +2693,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
+		}),
 	},
 	'Appearance', "LegionGoon",
 	'ApproachRadius', 20,
@@ -2712,6 +2728,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
 		}),
 	},
 	'Appearance', "LegionGoon_alt",
@@ -2745,6 +2765,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
 	},
 	'Appearance', "Legion_Recon",
 	'ApproachRadius', 20,
@@ -2776,6 +2800,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
 		}),
 	},
 	'Appearance', "Legion_Recon",
@@ -2812,7 +2840,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(935540794912, "DEAD BODY"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body",
+			'LootTableId', "MedsDrop",
 		}),
 		PlaceObj('ConditionalLoot', {
 			'ItemId', "TinyDiamonds",
@@ -2841,6 +2869,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
 		}),
 	},
 	'Appearance', "LegionButcher_alt_2",
@@ -2875,6 +2907,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
+		}),
 	},
 	'Appearance', "Legion_Stormer03",
 	'ApproachRadius', 20,
@@ -2907,6 +2943,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
 		}),
 	},
 	'Appearance', "LegionButcher_alt",
@@ -2941,6 +2981,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
+		}),
 	},
 	'Appearance', "LegionGoon",
 	'ApproachRadius', 20,
@@ -2974,6 +3018,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
+		}),
 	},
 	'Appearance', "Legion_Stormer03",
 	'ApproachRadius', 20,
@@ -3006,6 +3054,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
 		}),
 	},
 	'Appearance', "Legion_Stormer03",
@@ -3090,6 +3142,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
+		}),
 	},
 	'Appearance', "Legion_Demolishion",
 	'ApproachRadius', 20,
@@ -3122,6 +3178,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
 		}),
 	},
 	'Appearance', "Legion_Demolishion",
@@ -3194,7 +3254,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(935540794912, "DEAD BODY"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body",
+			'LootTableId', "MedsDrop",
 		}),
 	},
 }, nil, 440983552)
@@ -3218,12 +3278,12 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(935540794912, "DEAD BODY"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body",
+			'LootTableId', "MedsDrop",
 		}),
 	},
 }, nil, 780001280)
 PlaceObj('GridMarker', {
-	'Pos', point(63000, 220200, 8400),
+	'Pos', point(64200, 219000, 7700),
 	'Angle', 5400,
 	'Groups', {
 		"South",
@@ -3278,6 +3338,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
 	},
 	'Appearance', "Legion_Stormer02",
 	'ApproachRadius', 20,
@@ -3309,6 +3373,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
 		}),
 	},
 	'Appearance', "LegionManiac",
@@ -3342,6 +3410,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
 	},
 	'Appearance', "Legion_Stormer",
 	'ApproachRadius', 20,
@@ -3373,6 +3445,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
 		}),
 	},
 	'Appearance', "Legion_Stormer",
@@ -3468,6 +3544,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
 	},
 	'Appearance', "Legion_Recon02",
 	'ApproachRadius', 20,
@@ -3500,6 +3580,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
 		}),
 	},
 	'Appearance', "Legion_Marksman",
@@ -3534,6 +3618,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
 	},
 	'Appearance', "Legion_Recon02",
 	'ApproachRadius', 20,
@@ -3566,6 +3654,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
 		}),
 	},
 	'Appearance', "Legion_Recon02",
@@ -3600,6 +3692,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
 	},
 	'Appearance', "Legion_Recon",
 	'ApproachRadius', 20,
@@ -3632,6 +3728,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
 		}),
 	},
 	'Appearance', "Legion_Recon02",
@@ -4759,10 +4859,19 @@ PlaceObj('ContainerMarker', {
 	'AllowedMask', 4294966497,
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Drop_762WP_Varied_Legion",
+			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Drop_556_Varied_Legion",
+			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
 		}),
 	},
 }, nil, 190586880)
@@ -4927,7 +5036,7 @@ PlaceObj('ContainerMarker', {
 			'LootTableId', "LegionScout",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "JunkDrop",
+			'LootTableId', "GrenadeBox",
 		}),
 	},
 }, nil, 517521408)
@@ -5090,7 +5199,7 @@ PlaceObj('ContainerMarker', {
 	'AllowedMask', 4294966497,
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Case",
+			'LootTableId', "EnemyValuables_LowTier",
 		}),
 	},
 }, nil, 1767391579)
@@ -5127,6 +5236,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
+		}),
 	},
 	'Appearance', "LegionManiac_alt",
 	'ApproachRadius', 20,
@@ -5158,6 +5271,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
 		}),
 	},
 	'Appearance', "LegionManiac",
@@ -5191,6 +5308,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
+		}),
 	},
 	'Appearance', "Legion_Recon",
 	'ApproachRadius', 20,
@@ -5223,6 +5344,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
+		}),
 	},
 	'Appearance', "Legion_Recon",
 	'ApproachRadius', 20,
@@ -5244,38 +5369,6 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 1402302059)
-PlaceObj('UnitMarker', {
-	'Pos', point(144600, 115800, 7700),
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-	},
-	'Appearance', "LegionSharpShooter_alt_1",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter",
-		}),
-	},
-}, nil, 1528762019)
 PlaceObj('ContainerMarker', {
 	'Pos', point(148200, 103800),
 	'Angle', 5400,
@@ -5314,6 +5407,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
+		}),
 	},
 	'Appearance', "LegionGrenadir",
 	'ApproachRadius', 20,
@@ -5345,6 +5442,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
 		}),
 	},
 	'Appearance', "Legion_Soldier",
@@ -5378,6 +5479,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
+		}),
 	},
 	'Appearance', "LegionGrenadir_alt",
 	'ApproachRadius', 20,
@@ -5409,6 +5514,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
 		}),
 	},
 	'Appearance', "LegionRaider_alt",
@@ -5442,6 +5551,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
+		}),
 	},
 	'Appearance', "Legion_Demolishion",
 	'ApproachRadius', 20,
@@ -5473,6 +5586,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
 		}),
 	},
 	'Appearance', "Legion_Recon",
@@ -5659,7 +5776,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(935540794912, "DEAD BODY"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body",
+			'LootTableId', "JazzContainer_3006",
 		}),
 	},
 }, nil, 394682368)
@@ -5697,6 +5814,17 @@ PlaceObj('WaypointMarker', {
 	'AllowedMask', 4294966497,
 	'ID', "7",
 }, nil, 1151462974)
+PlaceObj('GridMarker', {
+	'Pos', point(142200, 155400, 11200),
+	'Groups', {
+		"MapBorder",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "BorderArea",
+	'AreaWidth', 140,
+	'AreaHeight', 130,
+	'Reachable', false,
+}, nil, 1409064567)
 PlaceObj('WaypointMarker', {
 	'Pos', point(143400, 148200, 12600),
 	'Groups', {
@@ -5716,7 +5844,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(935540794912, "DEAD BODY"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body",
+			'LootTableId', "JazzContainer_3006",
 		}),
 	},
 }, nil, 1784587079)
@@ -5733,7 +5861,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(935540794912, "DEAD BODY"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body_Armor",
+			'ItemId', "JazzArmor_FlakM1955",
 		}),
 	},
 }, nil, 1491400324)
@@ -5759,6 +5887,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
 		}),
 	},
 	'Appearance', "Legion_Marksman",
@@ -5793,6 +5925,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
 	'Appearance', "Legion_Marksman",
 	'ApproachRadius', 20,
@@ -5815,7 +5951,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(935540794912, "DEAD BODY"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body",
+			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
 		}),
 	},
 }, nil, 271302656)
@@ -5842,6 +5978,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
 	'Appearance', "Legion_Soldier",
 	'ApproachRadius', 20,
@@ -5852,17 +5992,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1750463986)
-PlaceObj('GridMarker', {
-	'Pos', point(153000, 155400),
-	'Groups', {
-		"MapBorder",
-	},
-	'AllowedMask', 4294966497,
-	'Type', "BorderArea",
-	'AreaWidth', 200,
-	'AreaHeight', 130,
-	'Reachable', false,
-}, nil, 1409064567)
 PlaceObj('UnitMarker', {
 	'Pos', point(132600, 172200, 18900),
 	'Angle', 16200,
@@ -5972,6 +6101,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
 	'Appearance', "Legion_Demolishion",
 	'ApproachRadius', 20,
@@ -6006,6 +6139,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
 	'Appearance', "Legion_Recon02",
 	'ApproachRadius', 20,
@@ -6028,7 +6165,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(935540794912, "DEAD BODY"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body",
+			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
 		}),
 	},
 }, nil, 381206528)
@@ -6055,6 +6192,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
 	'Appearance', "Legion_Soldier",
 	'ApproachRadius', 20,
@@ -6076,7 +6217,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(904442973978, "DEAD SOLDIER"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body",
+			'LootTableId', "Jazz_Drop_9mm_Match",
 		}),
 	},
 }, nil, 1840564509)
@@ -6102,6 +6243,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
 		}),
 	},
 	'Appearance', "Legion_Stormer02",
@@ -6136,6 +6281,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
 	'Appearance', "LegionRaider",
 	'ApproachRadius', 20,
@@ -6168,6 +6317,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
 		}),
 	},
 	'Appearance', "LegionButcher_alt_2",
@@ -6202,6 +6355,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
 	'Appearance', "LegionGrenadir",
 	'ApproachRadius', 20,
@@ -6234,6 +6391,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
 		}),
 	},
 	'Appearance', "LegionButcher_alt",
@@ -6268,6 +6429,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
 	'Appearance', "LegionButcher_alt_3",
 	'ApproachRadius', 20,
@@ -6290,7 +6455,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(935540794912, "DEAD BODY"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body",
+			'ItemId', "ColtM1917",
 		}),
 	},
 }, nil, 1399792420)
@@ -6333,6 +6498,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L4",
+		}),
 	},
 	'CollectionRange', 15000,
 	'Appearance', "Legion_Recon02",
@@ -6366,6 +6535,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L4",
 		}),
 	},
 	'CollectionRange', 15000,
@@ -6512,6 +6685,32 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1530261932)
+PlaceObj('UnitMarker', {
+	'Pos', point(179400, 153000, 9100),
+	'Angle', 10800,
+	'Groups', {
+		"Raiders",
+		"AL_Raiders",
+	},
+	'AllowedMask', 4294966497,
+	'AreaWidth', 3,
+	'AreaHeight', 3,
+	'Routine', "Ambient",
+	'Despawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "04_Betrayal",
+			Vars = set( "WorldFlipDone" ),
+		}),
+	},
+	'Appearance', "Raider_01",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "LegionRaider_WeakFlagHill",
+			'ForcedAppearance', "Legion_Soldier06",
+		}),
+	},
+}, nil, 1270651898)
 PlaceObj('UnitMarker', {
 	'Pos', point(178200, 155400, 9100),
 	'Groups', {
@@ -6725,15 +6924,13 @@ PlaceObj('ContainerMarker', {
 	},
 }, nil, 351346688)
 PlaceObj('UnitMarker', {
-	'Pos', point(180600, 154200, 9100),
+	'Pos', point(187800, 150600, 13300),
 	'Angle', 10800,
 	'Groups', {
 		"Raiders",
 		"AL_Raiders",
 	},
 	'AllowedMask', 4294966497,
-	'AreaWidth', 3,
-	'AreaHeight', 3,
 	'Routine', "Ambient",
 	'Despawn_Conditions', {
 		PlaceObj('QuestIsVariableBool', {
@@ -6741,15 +6938,15 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "Raider_01",
+	'Appearance', "Legion_Marksman02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider_WeakFlagHill",
+			'UnitDataDefId', "LegionSniper_Tutorial",
 			'ForcedAppearance', "Legion_Soldier06",
 		}),
 	},
-}, nil, 1270651898)
+}, nil, 1766357579)
 PlaceObj('WaypointMarker', {
 	'Pos', point(180600, 156600),
 	'Groups', {
@@ -6967,32 +7164,6 @@ PlaceObj('WaypointMarker', {
 	'ID', "3",
 }, nil, 1779407955)
 PlaceObj('UnitMarker', {
-	'Pos', point(181800, 187800, 11200),
-	'Angle', 16200,
-	'Groups', {
-		"Raiders",
-		"AL_Raiders",
-	},
-	'AllowedMask', 4294966497,
-	'AreaWidth', 8,
-	'AreaHeight', 8,
-	'Routine', "Ambient",
-	'Despawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "04_Betrayal",
-			Vars = set( "WorldFlipDone" ),
-		}),
-	},
-	'Appearance', "Legion_Marksman",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSniper_Tutorial",
-			'ForcedAppearance', "Legion_Soldier04",
-		}),
-	},
-}, nil, 1743737496)
-PlaceObj('UnitMarker', {
 	'Pos', point(183000, 186600),
 	'Angle', 16200,
 	'Groups', {
@@ -7080,6 +7251,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L4",
+		}),
 	},
 	'Appearance', "Legion_Stormer02",
 	'ApproachRadius', 20,
@@ -7112,6 +7287,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L4",
 		}),
 	},
 	'CollectionRange', 15000,
@@ -7147,6 +7326,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L4",
+		}),
 	},
 	'Appearance', "LegionButcher",
 	'ApproachRadius', 20,
@@ -7179,6 +7362,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L4",
 		}),
 	},
 	'Appearance', "Legion_Stormer",
@@ -7213,6 +7400,10 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L4",
+		}),
 	},
 	'CollectionRange', 15000,
 	'Appearance', "LegionButcher_alt",
@@ -7246,6 +7437,10 @@ PlaceObj('UnitMarker', {
 					TargetUnit = "any merc",
 				}),
 			},
+		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L4",
 		}),
 	},
 	'CollectionRange', 15000,
@@ -7472,7 +7667,7 @@ PlaceObj('ContainerMarker', {
 	},
 }, nil, 333357056)
 PlaceObj('ExitZoneInteractable', {
-	'Pos', point(267003, 187966, 6750),
+	'Pos', point(222016, 211962, 11721),
 	'Angle', 5400,
 	'Groups', {
 		"East",
@@ -7481,14 +7676,14 @@ PlaceObj('ExitZoneInteractable', {
 	'entity', "TravelMarker_06",
 }, nil, 1307266540)
 PlaceObj('GridMarker', {
-	'Pos', point(267000, 189000, 7000),
+	'Pos', point(222600, 213000, 11900),
 	'Groups', {
 		"East",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Entrance",
 	'AreaWidth', 5,
-	'AreaHeight', 12,
+	'AreaHeight', 7,
 }, nil, 1224798295)
 -- end of objects of class GridMarker
 PlaceObj('WaterPlaneWaves', {
@@ -9017,7 +9212,7 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1831664133)
 PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(49800, 129000, 6300),
+	'Pos', point(49774, 129005, 6300),
 	'Angle', 16200,
 	'Scale', 196,
 	'ForcedLODState', "Minimum",
@@ -13953,7 +14148,7 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1231679298)
 PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(42600, 131400, 7000),
+	'Pos', point(42590, 131406, 7000),
 	'Angle', 5400,
 	'Scale', 162,
 	'ForcedLODState', "Minimum",
@@ -87219,12 +87414,12 @@ p("TropicalPlant_04_Shrub_02",62210,104119,95,4)
 p("TropicalPlant_04_Shrub_01",63195,103772,38,4)
 p("TropicalPlant_04_Shrub_02",61837,104508,92,4)
 p("TropicalPlant_04_Shrub_02",62820,104526,170,4)
+p("TropicalRockSharp_04",63084,105482,7153,5043,200,-1155,241,3922,2097173)
 p("TropicalPlant_04_Shrub_02",63921,104095,165,4)
 p("TropicalPlant_04_Shrub_01",64557,104401,33,4)
 p("TropicalPlant_02_Shrub",65400,103800,7000,5400,130,3200,2097221)
 p("TropicalPlant_04_Shrub_02",64230,105867,84,4)
 p("TropicalPlant_04_Shrub_01",61409,107175,88,4)
-p("TropicalRockSharp_04",61310,107631,6860,3000,200,-1618,937,3644,2097173)
 p("TropicalPlant_04_Shrub_02",60579,110398,98,4)
 p("TropicalPlant_04_Shrub_02",62162,107859,84,4)
 p("TropicalPlant_04_Shrub_01",63467,106767,129,4)

@@ -812,6 +812,7 @@ PlaceObj('GridMarker', {
 	'Pos', point(165000, 85800, 14000),
 	'Groups', {
 		"AL_Defender",
+		"Enemy_Destination_1",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
@@ -833,7 +834,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "Enemy_Destination_1",
 	'Appearance', "Legion_Soldier02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -847,7 +848,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "Enemy_Destination_1",
 	'Appearance', "Legion_Demolishion03",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -861,7 +862,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "Enemy_Destination_1",
 	'Appearance', "Legion_Soldier02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -917,7 +918,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "Enemy_Destination_2",
 	'Appearance', "Legion_Soldier02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -931,7 +932,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "Enemy_Destination_1",
 	'Appearance', "Legion_Demolishion03",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -945,7 +946,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "Enemy_Destination_1",
 	'Appearance', "Legion_Soldier02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -959,7 +960,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "Enemy_Destination_1",
 	'Appearance', "Legion_Demolishion03",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -973,7 +974,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "Enemy_Destination_1",
 	'Appearance', "Legion_Heavy03",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -1102,7 +1103,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "Enemy_Destination_2",
 	'Appearance', "LegionGoon_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -1116,7 +1117,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "Enemy_Destination_2",
 	'Appearance', "LegionGoon_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -1130,7 +1131,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "Enemy_Destination_2",
 	'Appearance', "Legion_Heavy03",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -1144,7 +1145,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "Enemy_Destination_2",
 	'Appearance', "Legion_Stormer",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -1167,6 +1168,7 @@ PlaceObj('GridMarker', {
 	'Pos', point(154200, 160200),
 	'Groups', {
 		"AL_Defender",
+		"Enemy_Destination_2",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
@@ -1200,7 +1202,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "Enemy_Destination_2",
 	'Appearance', "LegionGrenadir_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -1214,7 +1216,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "Enemy_Destination_2",
 	'Appearance', "Legion_Heavy03",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -12208,6 +12210,7 @@ PlaceObj('Door_Shanty_Single_01', {
 	'Pos', point(224400, 144600, 7000),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
 	'AllowedMask', 782,
 	'material', "Shanty",
 	'HitPoints', 25,
@@ -12524,6 +12527,7 @@ PlaceObj('Window_Planks_Single_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
 	'AllowedMask', 782,
 	'height', 2,
 }, nil, 1200963346)
@@ -12656,6 +12660,7 @@ PlaceObj('Door_Tin_Single_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
 	'AllowedMask', 782,
 	'material', "Tin",
 	'HitPoints', 5,
@@ -13800,6 +13805,7 @@ PlaceObj('Window_Planks_Single_01', {
 	'Pos', point(230400, 142200, 7700),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
 	'AllowedMask', 782,
 	'height', 2,
 }, nil, 1459135235)
@@ -14014,6 +14020,7 @@ PlaceObj('Window_Planks_Single_04', {
 	'Pos', point(230400, 144600, 7700),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
 	'AllowedMask', 782,
 	'subvariant', 4,
 	'height', 2,
@@ -18973,7 +18980,7 @@ p("TropicalRockSharp_01",147226,94835,6495,17269,250,-2572,-1620,2744,"terrainch
 p("TropicalRockSharp_01",150881,69532,5360,16580,250,643,165,4041,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",150881,73102,3152,16619,250,-453,-794,3992,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_04",151646,69404,9278,900,250,0,4096,0,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
-p("TropicalRockSharp_01",154459,73450,12864,12033,140,-2103,857,3408,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",154449,73442,12864,12033,140,-2103,857,3408,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockAssembly_01",149220,78634,13052,17411,164,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
 p("TropicalRockAssembly_01",152694,79581,13332,17411,164,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
 p("TropicalPlant_Dead_01",153554,81702,13482,1454,181,2410,-2083,2574,2097173)
@@ -19736,7 +19743,7 @@ p("TropicalPlant_Grass_04",211000,89000,124,4)
 p("TropicalPlant_Grass_01",211000,90000,51,4)
 p("TropicalPlant_Grass_03",212000,89000,121,4)
 p("TropicalPlant_Grass_04",212000,90000,111,4)
-p("SVT_40",205462,90836,12839,5400,4096,0,0,3668,2097425)
+p("SVT_40",205462,90836,12839,5400,4096,0,0,7,3668,2097553)
 p("TropicalPlant_Dead_15",205225,94609,11998,15997,-1469,-1827,3358,2097169)
 p("TropicalPlant_Dead_16",204862,95430,12469,7806,-1689,591,3684,2097169)
 p("TropicalPlant_Dead_16",204815,95772,12469,8118,-1684,497,3700,2097169)
