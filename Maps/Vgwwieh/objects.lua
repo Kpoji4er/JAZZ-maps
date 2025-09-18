@@ -205,14 +205,14 @@ PlaceObj('ExitZoneInteractable', {
 	'AllowedMask', 4294966497,
 }, nil, 1496472809)
 PlaceObj('ExitZoneInteractable', {
-	'Pos', point(171982, 40120, 6950),
+	'Pos', point(162082, 63807, 7118),
 	'Groups', {
 		"North",
 	},
 	'AllowedMask', 4294966497,
-}, nil, 1322559777)
+}, nil, 1268842688)
 PlaceObj('GridMarker', {
-	'Pos', point(175800, 40200),
+	'Pos', point(166200, 64200),
 	'Groups', {
 		"North",
 	},
@@ -220,7 +220,7 @@ PlaceObj('GridMarker', {
 	'Type', "Entrance",
 	'AreaWidth', 5,
 	'AreaHeight', 5,
-}, nil, 1324150287)
+}, nil, 1364167687)
 PlaceObj('GridMarker', {
 	'Pos', point(136200, 102600, 16100),
 	'Groups', {
@@ -286,7 +286,7 @@ PlaceObj('GridMarker', {
 	'AllowedMask', 4294966497,
 	'Type', "BorderArea",
 	'AreaWidth', 180,
-	'AreaHeight', 200,
+	'AreaHeight', 160,
 	'Reachable', false,
 }, nil, 1834157092)
 PlaceObj('OverheardMarker', {
@@ -328,6 +328,23 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 3,
 	'AreaHeight', 3,
 }, nil, 1852000006)
+PlaceObj('ExitZoneInteractable', {
+	'Pos', point(189357, 250154, 14281),
+	'Groups', {
+		"South",
+	},
+	'AllowedMask', 4294966497,
+}, nil, 1284747480)
+PlaceObj('GridMarker', {
+	'Pos', point(195000, 250200, 15400),
+	'Groups', {
+		"South",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Entrance",
+	'AreaWidth', 5,
+	'AreaHeight', 5,
+}, nil, 1351155033)
 PlaceObj('GridMarker', {
 	'Pos', point(199800, 143400, 18900),
 	'Groups', {
@@ -368,23 +385,6 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 6,
 	'AreaHeight', 6,
 }, nil, 1596781101)
-PlaceObj('ExitZoneInteractable', {
-	'Pos', point(103163, 274292, 6950),
-	'Groups', {
-		"South",
-	},
-	'AllowedMask', 4294966497,
-}, nil, 1175658043)
-PlaceObj('GridMarker', {
-	'Pos', point(108600, 274200),
-	'Groups', {
-		"South",
-	},
-	'AllowedMask', 4294966497,
-	'Type', "Entrance",
-	'AreaWidth', 5,
-	'AreaHeight', 5,
-}, nil, 1144170405)
 PlaceObj('ExitZoneInteractable', {
 	'Pos', point(274023, 194356, 17791),
 	'Groups', {

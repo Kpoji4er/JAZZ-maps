@@ -4,7 +4,7 @@
 			"DeadBody",
 		},
 		LootTableIds = {
-			"FlagHill_Body",
+			"MedsDrop",
 		},
 		handle = 2932736,
 		map = "gsSMikN",
@@ -15,8 +15,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Drop_762WP_Varied_Legion",
-			"Drop_556_Varied_Legion",
+			"Jazz_Random_Ammo_Drop_T1",
 		},
 		handle = 190586880,
 		map = "gsSMikN",
@@ -42,7 +41,7 @@
 			"DeadBody",
 		},
 		LootTableIds = {
-			"FlagHill_Body",
+			"Jazz_Random_Ammo_Drop_T1",
 		},
 		handle = 271302656,
 		map = "gsSMikN",
@@ -104,7 +103,7 @@
 			"DeadBody",
 		},
 		LootTableIds = {
-			"FlagHill_Body",
+			"Jazz_Random_Ammo_Drop_T1",
 		},
 		handle = 381206528,
 		map = "gsSMikN",
@@ -117,7 +116,7 @@
 			"DeadBody",
 		},
 		LootTableIds = {
-			"FlagHill_Body",
+			"JazzContainer_3006",
 		},
 		handle = 394682368,
 		map = "gsSMikN",
@@ -130,7 +129,7 @@
 			"DeadBody",
 		},
 		LootTableIds = {
-			"FlagHill_Body",
+			"MedsDrop",
 		},
 		handle = 440983552,
 		map = "gsSMikN",
@@ -142,7 +141,7 @@
 		Groups = false,
 		LootTableIds = {
 			"LegionScout",
-			"JunkDrop",
+			"GrenadeBox",
 		},
 		handle = 517521408,
 		map = "gsSMikN",
@@ -216,7 +215,7 @@
 			"DeadBody",
 		},
 		LootTableIds = {
-			"FlagHill_Body",
+			"MedsDrop",
 		},
 		handle = 780001280,
 		map = "gsSMikN",
@@ -1473,19 +1472,6 @@
 	},
 	{
 		Groups = {
-			"DeadBody",
-		},
-		LootTableIds = {
-			"FlagHill_Body",
-		},
-		handle = 1399792420,
-		map = "gsSMikN",
-		name = 'InventoryItemSpawn#420 "ТРУП" (DeadBody)',
-		path = "InventoryItemSpawn ",
-		type = "InventoryItemSpawn",
-	},
-	{
-		Groups = {
 			"Raiders",
 			"AL_Raiders",
 		},
@@ -1791,19 +1777,6 @@
 	},
 	{
 		Groups = {
-			"DeadBody",
-		},
-		LootTableIds = {
-			"FlagHill_Body_Armor",
-		},
-		handle = 1491400324,
-		map = "gsSMikN",
-		name = 'InventoryItemSpawn#324 "ТРУП" (DeadBody)',
-		path = "InventoryItemSpawn ",
-		type = "InventoryItemSpawn",
-	},
-	{
-		Groups = {
 			"HouseAmbushers",
 			"Legion",
 		},
@@ -1878,26 +1851,6 @@
 		},
 		map = "gsSMikN",
 		name = "UnitMarker#540 (HouseAmbushers, Legion)",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
-	{
-		Groups = {
-			"HouseAmbushers",
-			"Legion",
-		},
-		handle = 1528762019,
-		items = {
-			{
-				editor_view_abridged = "if not TCE_WorldFlipDone",
-				filter_type = "quest",
-				reference_id = "04_Betrayal",
-				type = "QuestIsTCEState",
-				var = "TCE_WorldFlipDone",
-			},
-		},
-		map = "gsSMikN",
-		name = "UnitMarker#019 (HouseAmbushers, Legion)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
@@ -2559,26 +2512,6 @@
 	},
 	{
 		Groups = {
-			"Raiders",
-			"AL_Raiders",
-		},
-		handle = 1743737496,
-		items = {
-			{
-				editor_view_abridged = "if WorldFlipDone",
-				filter_type = "quest",
-				reference_id = "04_Betrayal",
-				type = "QuestIsVariableBool",
-				var = set( "WorldFlipDone" ),
-			},
-		},
-		map = "gsSMikN",
-		name = "UnitMarker#496 (Raiders, AL_Raiders)",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
-	{
-		Groups = {
 			"HouseAmbushers",
 			"Legion",
 		},
@@ -2760,9 +2693,29 @@
 		type = "UnitMarker",
 	},
 	{
+		Groups = {
+			"Raiders",
+			"AL_Raiders",
+		},
+		handle = 1766357579,
+		items = {
+			{
+				editor_view_abridged = "if WorldFlipDone",
+				filter_type = "quest",
+				reference_id = "04_Betrayal",
+				type = "QuestIsVariableBool",
+				var = set( "WorldFlipDone" ),
+			},
+		},
+		map = "gsSMikN",
+		name = "UnitMarker#579 (Raiders, AL_Raiders)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
 		Groups = false,
 		LootTableIds = {
-			"FlagHill_Case",
+			"EnemyValuables_LowTier",
 		},
 		handle = 1767391579,
 		map = "gsSMikN",
@@ -2855,7 +2808,7 @@
 			"DeadBody",
 		},
 		LootTableIds = {
-			"FlagHill_Body",
+			"JazzContainer_3006",
 		},
 		handle = 1784587079,
 		map = "gsSMikN",
@@ -3146,7 +3099,7 @@
 			"DeadBody",
 		},
 		LootTableIds = {
-			"FlagHill_Body",
+			"Jazz_Drop_9mm_Match",
 		},
 		handle = 1840564509,
 		map = "gsSMikN",
