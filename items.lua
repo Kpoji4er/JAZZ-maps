@@ -7237,7 +7237,6 @@ return {
 					'InitialSquads', {
 						"LegionDefenders_Mobile_Easy",
 						"LegionExtraSquadFireArms",
-						"LegionExtraSquadFireArms",
 					},
 					'MinFlareCarriers', 6,
 					'MaxFlareCarriers', 9,
@@ -7324,7 +7323,6 @@ return {
 					'MapTier', 10,
 					'modId', "FhNNYd",
 					'display_name', T(733530482848, "Непроходимая местность"),
-					'StickySide', true,
 					'TerrainType', "Jungle",
 					'WeatherZone', "CursedForest",
 					'City', "Rebels_Ernie",
@@ -7356,13 +7354,16 @@ return {
 					'MapTier', 10,
 					'modId', "FhNNYd",
 					'display_name', T(380204237490, "База партизан на острове Эрни"),
-					'StickySide', true,
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'Passability', "Land and Water",
 					'City', "Rebels_Ernie",
 					'ShowCity', true,
 					'Bunker', true,
+					'InitialSquads', {
+						"LegionExtraSquadFireArms_T2",
+						"LegionExtraSquadMeleeV2",
+					},
 					'MinFlareCarriers', 3,
 					'MaxFlareCarriers', 13,
 					'RAndRAllowed', true,
@@ -7718,35 +7719,12 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
-				'comment', "Филер_3я локация",
-				'mapName', "qRiCMTo",
+				'comment', "Водопад",
+				'mapName', "isJdmPy",
 				'campaignId', "HotDiamonds",
 				'sectorId', "M3",
 				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
 					'Id', "M3",
-					'Map', "qRiCMTo",
-					'modId', "FhNNYd",
-					'display_name', T(691002711206, "Скалистый берег"),
-					'WeatherZone', "Erny",
-					'ForceConflict', true,
-					'MinFlareCarriers', 6,
-					'MaxFlareCarriers', 12,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
-					'BlockTravel', set({
-	East = false,
-	North = true,
-	West = false,
-}),
-				}),
-			}),
-			PlaceObj('ModItemSector', {
-				'comment', "Водопад",
-				'mapName', "isJdmPy",
-				'campaignId', "HotDiamonds",
-				'sectorId', "M2",
-				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "M2",
 					'Map', "isJdmPy",
 					'MapTier', 10,
 					'modId', "FhNNYd",
@@ -7767,6 +7745,29 @@ return {
 	East = false,
 	North = true,
 	South = true,
+	West = false,
+}),
+				}),
+			}),
+			PlaceObj('ModItemSector', {
+				'comment', "Филер_2я локация",
+				'mapName', "qRiCMTo",
+				'campaignId', "HotDiamonds",
+				'sectorId', "M2",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "M2",
+					'Map', "qRiCMTo",
+					'modId', "FhNNYd",
+					'display_name', T(691002711206, "Скалистый берег"),
+					'WeatherZone', "Erny",
+					'ForceConflict', true,
+					'MinFlareCarriers', 6,
+					'MaxFlareCarriers', 12,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = false,
+	North = true,
 	West = false,
 }),
 				}),
@@ -23462,13 +23463,16 @@ return {
 					'MapTier', 10,
 					'modId', "FhNNYd",
 					'display_name', T(380204237490, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L1]] "База партизан на острове Эрни"),
-					'StickySide', true,
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'Passability', "Land and Water",
 					'City', "Rebels_Ernie",
 					'ShowCity', true,
 					'Bunker', true,
+					'InitialSquads', {
+						"LegionExtraSquadFireArms_T2",
+						"LegionExtraSquadMeleeV2",
+					},
 					'MinFlareCarriers', 3,
 					'MaxFlareCarriers', 13,
 					'RAndRAllowed', true,
@@ -23848,7 +23852,6 @@ return {
 					'MapTier', 10,
 					'modId', "FhNNYd",
 					'display_name', T(733530482848, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L2]] "Непроходимая местность"),
-					'StickySide', true,
 					'TerrainType', "Jungle",
 					'WeatherZone', "CursedForest",
 					'City', "Rebels_Ernie",
@@ -24070,7 +24073,6 @@ return {
 					'InitialSquads', {
 						"LegionDefenders_Mobile_Easy",
 						"LegionExtraSquadFireArms",
-						"LegionExtraSquadFireArms",
 					},
 					'MinFlareCarriers', 6,
 					'MaxFlareCarriers', 9,
@@ -24270,11 +24272,11 @@ return {
 					'MusicConflict', "Jungle_Conflict",
 				}),
 				PlaceObj('SatelliteSector', {
-					'Id', "M2",
+					'Id', "M3",
 					'Map', "isJdmPy",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(962183556645, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M2]] "Водопад"),
+					'display_name', T(962183556645, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M3]] "Водопад"),
 					'TerrainType', "Jungle",
 					'ForceConflict', true,
 					'InterestingSector', true,
@@ -24363,10 +24365,10 @@ return {
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
-					'Id', "M3",
+					'Id', "M2",
 					'Map', "qRiCMTo",
 					'modId', "FhNNYd",
-					'display_name', T(691002711206, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M3]] "Скалистый берег"),
+					'display_name', T(691002711206, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M2]] "Скалистый берег"),
 					'WeatherZone', "Erny",
 					'ForceConflict', true,
 					'MinFlareCarriers', 6,
@@ -27171,6 +27173,7 @@ return {
 						Sectors = {
 							"K4",
 						},
+						param_bindings = false,
 					}),
 				},
 				DefaultActor = "LegionRaider_Jose",
@@ -27196,7 +27199,7 @@ return {
 						"JoseFamily",
 					},
 					Keyword = "Greeting",
-					KeywordT = T(246938365634, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "LegionRaider_Jose",
@@ -27252,7 +27255,7 @@ return {
 						AutoRemove = true,
 						GoTo = "<root>",
 						Keyword = "Don't worry",
-						KeywordT = T(421671637026, --[[ModItemConversation Jose_1 KeywordT]] "Don't worry"),
+						KeywordT = T(148546070726, --[[ModItemConversation Jose_1 KeywordT]] "Don't worry"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -27311,7 +27314,7 @@ return {
 						},
 						GoTo = "<root>",
 						Keyword = "Civilian? Oh really?",
-						KeywordT = T(837466948853, --[[ModItemConversation Jose_1 KeywordT]] "Civilian? Oh really?"),
+						KeywordT = T(240336019316, --[[ModItemConversation Jose_1 KeywordT]] "Civilian? Oh really?"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -27377,7 +27380,7 @@ return {
 						},
 						GoTo = "<root>",
 						Keyword = "Why not just shoot you",
-						KeywordT = T(100434160721, --[[ModItemConversation Jose_1 KeywordT]] "Why not just shoot you"),
+						KeywordT = T(534366002207, --[[ModItemConversation Jose_1 KeywordT]] "Why not just shoot you"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -27475,7 +27478,7 @@ return {
 						}),
 					},
 					Keyword = 'Tell us about that "Legion"',
-					KeywordT = T(472263304050, --[[ModItemConversation Jose_1 KeywordT]] 'Tell us about that "Legion"'),
+					KeywordT = T(428534945433, --[[ModItemConversation Jose_1 KeywordT]] 'Tell us about that "Legion"'),
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "LegionRaider_Jose",
@@ -27497,7 +27500,7 @@ return {
 					},
 					Enabled = false,
 					Keyword = "What do you know about Emma?",
-					KeywordT = T(971994350441, --[[ModItemConversation Jose_1 KeywordT]] "What do you know about Emma?"),
+					KeywordT = T(323700809045, --[[ModItemConversation Jose_1 KeywordT]] "What do you know about Emma?"),
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "LegionRaider_Jose",
@@ -27573,7 +27576,7 @@ return {
 						}),
 					},
 					Keyword = "Who's the Major?",
-					KeywordT = T(202849560121, --[[ModItemConversation Jose_1 KeywordT]] "Who's the Major?"),
+					KeywordT = T(134661127794, --[[ModItemConversation Jose_1 KeywordT]] "Who's the Major?"),
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "LegionRaider_Jose",
@@ -27636,7 +27639,7 @@ return {
 						}),
 					},
 					Keyword = "Who's the Major?",
-					KeywordT = T(834834340148, --[[ModItemConversation Jose_1 KeywordT]] "Who's the Major?"),
+					KeywordT = T(134661127794, --[[ModItemConversation Jose_1 KeywordT]] "Who's the Major?"),
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "LegionRaider_Jose",
@@ -27665,7 +27668,7 @@ return {
 						}),
 					},
 					Keyword = "Emma's father - you mean the President?",
-					KeywordT = T(779920868523, --[[ModItemConversation Jose_1 KeywordT]] "Emma's father - you mean the President?"),
+					KeywordT = T(786851655348, --[[ModItemConversation Jose_1 KeywordT]] "Emma's father - you mean the President?"),
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "LegionRaider_Jose",
@@ -27726,7 +27729,7 @@ return {
 						}),
 					},
 					Keyword = "So you have a family?",
-					KeywordT = T(593247912981, --[[ModItemConversation Jose_1 KeywordT]] "So you have a family?"),
+					KeywordT = T(713820738802, --[[ModItemConversation Jose_1 KeywordT]] "So you have a family?"),
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "LegionRaider_Jose",
@@ -27779,7 +27782,7 @@ return {
 						}),
 					},
 					Keyword = "Is this a soccer shirt?",
-					KeywordT = T(382828030558, --[[ModItemConversation Jose_1 KeywordT]] "Is this a soccer shirt?"),
+					KeywordT = T(699951652390, --[[ModItemConversation Jose_1 KeywordT]] "Is this a soccer shirt?"),
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "LegionRaider_Jose",
@@ -27832,7 +27835,7 @@ return {
 					},
 					Enabled = false,
 					Keyword = "You’re with the Legion!",
-					KeywordT = T(197875889388, --[[ModItemConversation Jose_1 KeywordT]] "You're with the Legion!"),
+					KeywordT = T(560655426421, --[[ModItemConversation Jose_1 KeywordT]] "You're with the Legion!"),
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "LegionRaider_Jose",
@@ -27939,7 +27942,7 @@ return {
 						}),
 					},
 					Keyword = "Hands up!",
-					KeywordT = T(949325910581, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
+					KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
 					Lines = {
 						PlaceObj('ConversationInterjectionList', {
 							Interjections = {
@@ -28032,7 +28035,7 @@ return {
 						}),
 					},
 					Keyword = "Hands up!",
-					KeywordT = T(356818754768, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
+					KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "LegionRaider_Jose",
@@ -28085,7 +28088,7 @@ return {
 					},
 					GoTo = "<end conversation>",
 					Keyword = "Hand over the diamonds",
-					KeywordT = T(173759770223, --[[ModItemConversation Jose_1 KeywordT]] "Hand over the diamonds"),
+					KeywordT = T(967728070126, --[[ModItemConversation Jose_1 KeywordT]] "Hand over the diamonds"),
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "LegionRaider_Jose",
@@ -28164,7 +28167,7 @@ return {
 					Enabled = false,
 					GoTo = "<end conversation>",
 					Keyword = "Die!",
-					KeywordT = T(290042346852, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
+					KeywordT = T(482976736771, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "LegionRaider_Jose",
@@ -28231,7 +28234,7 @@ return {
 					},
 					GoTo = "<end conversation>",
 					Keyword = "You may go",
-					KeywordT = T(729243380616, --[[ModItemConversation Jose_1 KeywordT]] "You may go"),
+					KeywordT = T(725537503858, --[[ModItemConversation Jose_1 KeywordT]] "You may go"),
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "LegionRaider_Jose",
@@ -28302,7 +28305,7 @@ return {
 					},
 					GoTo = "<end conversation>",
 					Keyword = "Goodbye",
-					KeywordT = T(369563789544, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "LegionRaider_Jose",
@@ -28378,7 +28381,7 @@ return {
 					},
 					GoTo = "<end conversation>",
 					Keyword = "Goodbye",
-					KeywordT = T(294294326543, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "LegionRaider_Jose",
@@ -28422,7 +28425,7 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
-					KeywordT = T(774381032385, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Greeting"),
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "RebelSergant_Immortal",
@@ -28566,7 +28569,7 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
-					KeywordT = T(774381032385, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Greeting"),
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "RebelSergant_Immortal",
@@ -36945,6 +36948,3482 @@ return {
 			group = "PortCacao",
 			id = "Docks",
 		}),
+		PlaceObj('ModItemFolder', {
+			'name', "CursedForest",
+		}, {
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Radomir",
+				DevNotes = "All scripting is in CursedForestSideQuests.",
+				DisplayName = T(968947325220, --[[ModItemQuestsDef ForgottenGrave DisplayName]] "Forgotten Grave"),
+				KillTCEsConditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "Completed" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Failed", "TCE_RemoveConflict" ),
+							}),
+						},
+					}),
+				},
+				LastNoteIdx = 4,
+				NoteDefs = {
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "GloomyVillager",
+								QuestId = "ForgottenGrave",
+								Sector = "D16",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "CursedForestSideQuests",
+								Vars = set( "GraveFound", "GraveGiven", "GraveReported" ),
+							}),
+						},
+						QuestId = "ForgottenGrave",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CursedForestSideQuests",
+								Vars = set({
+	GraveBushesCut = true,
+	GraveGiven = false,
+}),
+							}),
+						},
+						Text = T(584120351013, --[[ModItemQuestsDef ForgottenGrave Text]] "Found a forgotten <em>grave</em> in the woods"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "ForgottenGrave",
+								Sector = "D13",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "ForgottenGrave",
+								Sector = "E13",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "ForgottenGrave",
+								Sector = "D19",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "CursedForestSideQuests",
+								Vars = set( "GraveBushesCut", "GraveFound", "GraveReported" ),
+							}),
+						},
+						Idx = 2,
+						QuestId = "ForgottenGrave",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CursedForestSideQuests",
+								Vars = set( "GraveGiven" ),
+							}),
+						},
+						Text = T(945106914653, --[[ModItemQuestsDef ForgottenGrave Text]] "<em>Francis</em> is looking for his father's <em>grave</em> that is somewhere along the river in the Cursed Forest"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "GloomyVillager",
+								QuestId = "ForgottenGrave",
+								Sector = "D16",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CursedForestSideQuests",
+								Vars = set( "GraveReported" ),
+							}),
+						},
+						Idx = 3,
+						QuestId = "ForgottenGrave",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CursedForestSideQuests",
+								Vars = set( "GraveGiven" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "CursedForestSideQuests",
+								Vars = set( "GraveBushesCut", "GraveFound" ),
+							}),
+						},
+						Text = T(807002556704, --[[ModItemQuestsDef ForgottenGrave Text]] "<em>Francis</em> would want to know the location of his father's <em>grave</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CursedForestSideQuests",
+								Vars = set( "GraveDone" ),
+							}),
+						},
+						Idx = 4,
+						QuestId = "ForgottenGrave",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CursedForestSideQuests",
+								Vars = set( "GraveReported" ),
+							}),
+						},
+						Text = T(611991044683, --[[ModItemQuestsDef ForgottenGrave Text]] "<em>Outcome:</em> The parents of <em>Francis</em> will rest in peace"),
+					}),
+				},
+				QuestGroup = "Jungle",
+				QuestId = "ForgottenGrave",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckGameState', {
+								GameState = "Night",
+								Negate = true,
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"D17",
+									"D18",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BeastEffigyOn",
+								QuestId = "Beast",
+								Set = false,
+							}),
+						},
+						ParamId = "TCE_DaytimeCleanup",
+						QuestId = "ForgottenGrave",
+						requiredSectors = {
+							"D17",
+							"D18",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckGameState', {
+								GameState = "Night",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	BeastEffigyOn = true,
+	BeastIntroTriggered = false,
+}),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"D17",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BeastEffigies",
+								QuestId = "Beast",
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "Beast",
+										Vars = set({
+	BeastMet = false,
+}),
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "BeastIntroTriggered",
+										QuestId = "Beast",
+									}),
+									PlaceObj('PlaySetpiece', {
+										setpiece = "BeastIntro_ActualSP",
+									}),
+									PlaceObj('SectorEnterConflict', {
+										disable_travel = true,
+										lock_conflict = true,
+										sector_id = "D17",
+										spawn_mode = "explore",
+									}),
+								},
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_D17BeastCall",
+						QuestId = "ForgottenGrave",
+						requiredSectors = {
+							"D17",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('UnitIsAware', {
+								TargetUnit = "TheBeast",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	TCE_AttackedByPlayer = false,
+}),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"D17",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BeastAttack",
+								QuestId = "Beast",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_BeastIsAware",
+						QuestId = "ForgottenGrave",
+						requiredSectors = {
+							"D17",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"D17",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastIntroTriggered" ),
+							}),
+							PlaceObj('CombatIsActive', {
+								Negate = true,
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "Beast_AddLegions",
+							}),
+						},
+						Effects = {
+							PlaceObj('SectorEnterConflict', {
+								conflict_mode = false,
+								sector_id = "D17",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_RemoveConflict",
+						QuestId = "ForgottenGrave",
+						requiredSectors = {
+							"D17",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "_GroupsAttacked",
+								Vars = set( "TheBeast" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	Completed = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Failed",
+								QuestId = "Beast",
+							}),
+							PlaceObj('GroupSetSide', {
+								Side = "enemy2",
+								TargetUnit = "TheBeast",
+							}),
+							PlaceObj('GroupAlert', {
+								TargetUnit = "TheBeast",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_AttackedByPlayer",
+						QuestId = "ForgottenGrave",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SectorMilitiaNumber', {
+								Amount = 2,
+								Condition = ">=",
+								sector_id = "D17",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "QuestMilitiaDone",
+								QuestId = "Beast",
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 5,
+								City = "IlleMorat",
+								SpecialConversationMessage = T(302091822558, --[[ModItemQuestsDef ForgottenGrave SpecialConversationMessage]] "trained <em>Militia</em>"),
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_QuestMilitia",
+						QuestId = "ForgottenGrave",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "D18",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "QuestBelleEauDone",
+								QuestId = "Beast",
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 5,
+								City = "IlleMorat",
+								SpecialConversationMessage = T(815320386712, --[[ModItemQuestsDef ForgottenGrave SpecialConversationMessage]] "liberated <em>Belle Eau</em>"),
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_QuestBelleEau",
+						QuestId = "ForgottenGrave",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "QuestLoyalty" ),
+							}),
+							PlaceObj('CityHasLoyalty', {
+								Amount = 60,
+								City = "IlleMorat",
+								Condition = ">=",
+							}),
+						},
+						Effects = {
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "Village_Conflict",
+								MusicExploration = "Village_Complete",
+								SectorID = "D17",
+							}),
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "Village_Conflict",
+								MusicExploration = "Village_Complete",
+								SectorID = "D18",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BeastSatisfied",
+								QuestId = "Beast",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_BeastSatisfied",
+						QuestId = "ForgottenGrave",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastRecruited" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Large",
+								logImportant = true,
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "Beast",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_QuestCompleted",
+						QuestId = "ForgottenGrave",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+						QuestId = "ForgottenGrave",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+						QuestId = "ForgottenGrave",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+						QuestId = "ForgottenGrave",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						QuestId = "ForgottenGrave",
+						Value = true,
+					}),
+				},
+				group = "CursedForest",
+				id = "ForgottenGrave",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Radomir",
+				DevNotes = "When Beast is completed, she will have 75% chance to spawn in key Cursed Forest and Bien Chien sectors.\nRandomizer is randomized each time upon conflict, before battle.",
+				DisplayName = T(665544892317, --[[ModItemQuestsDef CursedForestSideQuests DisplayName]] "Cursed Forest"),
+				LastNoteIdx = 2,
+				NoteDefs = {
+					LastNoteIdx = 6,
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastEffigies", "BeastEffigyOn" ),
+							}),
+						},
+						QuestId = "CursedForestSideQuests",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastEffigies", "BeastEffigyOn" ),
+							}),
+						},
+						Text = T(144394368567, --[[ModItemQuestsDef CursedForestSideQuests Text]] "There are horrible <em>effigies</em> in the Cursed Forest that scare the Legion"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "BrokenEffigy",
+								QuestId = "CursedForestSideQuests",
+								Sector = "D18",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "BrokenEffigy",
+								QuestId = "CursedForestSideQuests",
+								Sector = "E15",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "BrokenEffigy",
+								QuestId = "CursedForestSideQuests",
+								Sector = "D13",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "BrokenEffigy",
+								QuestId = "CursedForestSideQuests",
+								Sector = "E13",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "BrokenEffigy",
+								QuestId = "CursedForestSideQuests",
+								Sector = "D14",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "BrokenEffigy",
+								QuestId = "CursedForestSideQuests",
+								Sector = "D15",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "BrokenEffigy",
+								QuestId = "CursedForestSideQuests",
+								Sector = "C16",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableNum', {
+								AgainstVar = true,
+								Prop = "EffigiesRepaired",
+								Prop2 = "EffigiesRepairedMax",
+								QuestId = "Beast",
+								QuestId2 = "Beast",
+							}),
+						},
+						Idx = 2,
+						QuestId = "CursedForestSideQuests",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableNum', {
+								Amount = 1,
+								Prop = "EffigiesRepaired",
+								QuestId = "Beast",
+							}),
+						},
+						Text = T(457942823176, --[[ModItemQuestsDef CursedForestSideQuests Text]] "The Legion destroyed some <em>effigies</em> in the Cursed Forest that can be repaired"),
+					}),
+				},
+				QuestGroup = "Jungle",
+				QuestId = "CursedForestSideQuests",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"IlleMoratOutskirts_02_FrancisInitial",
+								},
+								QuestId = "CursedForestSideQuests",
+								WaitOver = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "GraveGiven",
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GraveGive",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"IlleMoratOutskirts_03_GraveFound",
+								},
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "GraveFound",
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Minor",
+								QuestId = "CursedForestSideQuests",
+								logImportant = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GraveFind",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"IlleMoratOutskirts_04_FrancisGraveFound",
+								},
+								QuestId = "CursedForestSideQuests",
+								WaitOver = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "GraveReported",
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 5,
+								City = "IlleMorat",
+								QuestId = "CursedForestSideQuests",
+								SpecialConversationMessage = T(127082720658, --[[ModItemQuestsDef CursedForestSideQuests SpecialConversationMessage]] "helped <em>Francis</em> find his father's grave"),
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Minor",
+								QuestId = "CursedForestSideQuests",
+								logImportant = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GraveReport",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CursedForestSideQuests",
+								Vars = set( "GraveReported" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Negate = true,
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"D16",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "GraveDone",
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "ForgottenGrave",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GraveDone",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('GroupIsDead', {
+								Group = "GloomyVillager",
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ForgottenGrave",
+								Vars = set({
+	Completed = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Failed",
+								QuestId = "ForgottenGrave",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GraveFail",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"IlleMoratOutskirts_05_GravePayRespect",
+								},
+								QuestId = "CursedForestSideQuests",
+								WaitOver = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('ApplyGuiltyOrRighteous', {
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GravePayRespect",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"D14",
+								},
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 14,
+								QuestId = "CursedForestSideQuests",
+								SecondTargetUnit = "LegionMale_TeaParty",
+								TargetUnit = "any merc",
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"CursedForest_TeaParty_Legion01",
+								},
+								QuestId = "CursedForestSideQuests",
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Given",
+								QuestId = "Beast",
+							}),
+							PlaceObj('GroupSetSide', {
+								QuestId = "CursedForestSideQuests",
+								Side = "enemy1",
+								TargetUnit = "LegionMale_TeaParty",
+							}),
+							PlaceObj('GroupAlert', {
+								QuestId = "CursedForestSideQuests",
+								TargetUnit = "LegionMale_TeaParty",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_TeaPartySurvivor",
+						QuestId = "CursedForestSideQuests",
+						requiredSectors = {
+							"D14",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"D14",
+								},
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "LegionMale_TeaParty",
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Effects = {
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 5,
+								City = "IlleMorat",
+								QuestId = "CursedForestSideQuests",
+								SpecialConversationMessage = T(449500495373, --[[ModItemQuestsDef CursedForestSideQuests SpecialConversationMessage]] "finished off the tea party survivor"),
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_TeaPartyDone",
+						QuestId = "CursedForestSideQuests",
+						requiredSectors = {
+							"D14",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	BeastDead = false,
+	BeastRecruited = true,
+}),
+							}),
+							PlaceObj('SectorIsInConflict', {
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('CombatIsActive', {
+								Negate = true,
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('CheckGameState', {
+										GameState = "Marshlands",
+										QuestId = "CursedForestSideQuests",
+									}),
+									PlaceObj('CheckGameState', {
+										GameState = "CursedForest",
+										QuestId = "CursedForestSideQuests",
+									}),
+								},
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableNum', {
+								Operation = "set",
+								Prop = "Randomizer",
+								QuestId = "Beast",
+								RandomRangeMax = 3,
+							}),
+						},
+						ParamId = "TCE_BeastRandomizeSpawn",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"C14",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	BeastDead = false,
+}),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "_GroupsAttacked",
+								Vars = set({
+	TheBeast = false,
+}),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CursedForestSideQuests",
+								Vars = set({
+	PlayerAttackedBeast = false,
+}),
+							}),
+							PlaceObj('CombatIsActive', {
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('UnitIsOnMap', {
+								QuestId = "CursedForestSideQuests",
+								TargetUnit = "TheBeast",
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetSide', {
+								QuestId = "CursedForestSideQuests",
+								Side = "ally",
+								TargetUnit = "TheBeast",
+							}),
+						},
+						ParamId = "TCE_BeastCabinCombat",
+						QuestId = "CursedForestSideQuests",
+						requiredSectors = {
+							"C14",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"D17",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	BeastDead = false,
+}),
+							}),
+							PlaceObj('SectorIsInConflict', {
+								Negate = true,
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('UnitIsOnMap', {
+								QuestId = "CursedForestSideQuests",
+								TargetUnit = "TheBeast",
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetRoutine', {
+								QuestId = "CursedForestSideQuests",
+								Routine = "AdvanceTo",
+								RoutineArea = "BeastMoveToVlad",
+								TargetUnit = "TheBeast",
+							}),
+						},
+						ParamId = "TCE_BeastPostCombatMove",
+						QuestId = "CursedForestSideQuests",
+						requiredSectors = {
+							"D17",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"C14",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	BeastDead = false,
+}),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CursedForestSideQuests",
+								Vars = set({
+	PlayerAttackedBeast = false,
+}),
+							}),
+							PlaceObj('SectorIsInConflict', {
+								Negate = true,
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('UnitIsOnMap', {
+								QuestId = "CursedForestSideQuests",
+								TargetUnit = "TheBeast",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	BeastRecruited = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetSide', {
+								QuestId = "CursedForestSideQuests",
+								Side = "neutral",
+								TargetUnit = "TheBeast",
+							}),
+						},
+						ParamId = "TCE_BeastPostCombatHut",
+						QuestId = "CursedForestSideQuests",
+						requiredSectors = {
+							"C14",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	BeastDead = false,
+}),
+							}),
+							PlaceObj('SectorIsInConflict', {
+								Negate = true,
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('UnitIsOnMap', {
+								QuestId = "CursedForestSideQuests",
+								TargetUnit = "TheBeast",
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Negate = true,
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"C14",
+								},
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Negate = true,
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"D17",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetBehaviorExit', {
+								QuestId = "CursedForestSideQuests",
+								TargetUnit = "TheBeast",
+								UseWeapons = true,
+								closest = true,
+							}),
+						},
+						ParamId = "TCE_BeastPostCombatLeave",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Effigy_BelleEau" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('HideQuestBadge', {
+								LogLine = 6,
+								Quest = "CursedForestSideQuests",
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_EffigyDone_D18",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ReduceRiverCampStrength",
+								Vars = set( "EffigyConstructed" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"E15",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('HideQuestBadge', {
+								BadgeIdx = 2,
+								LogLine = 6,
+								Quest = "CursedForestSideQuests",
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('SectorEnterConflict', {
+								QuestId = "CursedForestSideQuests",
+								disable_travel = true,
+								sector_id = "E15",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_EffigyDone_E15",
+						QuestId = "CursedForestSideQuests",
+						requiredSectors = {
+							"E15",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Effigy_D13" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('HideQuestBadge', {
+								BadgeIdx = 3,
+								LogLine = 6,
+								Quest = "CursedForestSideQuests",
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_EffigyDone_D13",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Effigy_E13" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('HideQuestBadge', {
+								BadgeIdx = 4,
+								LogLine = 6,
+								Quest = "CursedForestSideQuests",
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_EffigyDone_E13",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Effigy_D14" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('HideQuestBadge', {
+								BadgeIdx = 5,
+								LogLine = 6,
+								Quest = "CursedForestSideQuests",
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_EffigyDone_D14",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Effigy_D15" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('HideQuestBadge', {
+								BadgeIdx = 6,
+								LogLine = 6,
+								Quest = "CursedForestSideQuests",
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_EffigyDone_D15",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Effigy_C16" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('HideQuestBadge', {
+								BadgeIdx = 7,
+								LogLine = 6,
+								Quest = "CursedForestSideQuests",
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_EffigyDone_C16",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Effigy_BelleEau", "Effigy_C16", "Effigy_D13", "Effigy_D14", "Effigy_D15", "Effigy_E13" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_CompleteQuest",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"E16",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "Given", "HyenasDead" ),
+							}),
+							PlaceObj('CombatIsActive', {
+								Negate = true,
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 10,
+								QuestId = "CursedForestSideQuests",
+								SecondTargetUnit = "Beast_Crocodile",
+								TargetUnit = "Peta",
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 10,
+								QuestId = "CursedForestSideQuests",
+								SecondTargetUnit = "Beast_Crocodile",
+								TargetUnit = "any merc",
+							}),
+							PlaceObj('OR', {
+								Conditions = {
+									PlaceObj('UnitIsAroundOtherUnit', {
+										Distance = 10,
+										QuestId = "CursedForestSideQuests",
+										SecondTargetUnit = "Beast_Crocodile",
+										TargetUnit = "any merc",
+									}),
+									PlaceObj('UnitIsAroundOtherUnit', {
+										Distance = 10,
+										QuestId = "CursedForestSideQuests",
+										SecondTargetUnit = "Peta",
+										TargetUnit = "any merc",
+									}),
+								},
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "CrocodileConverted",
+								QuestId = "ChienSauvage",
+							}),
+							PlaceObj('GroupSetSide', {
+								CreateSquad = false,
+								QuestId = "CursedForestSideQuests",
+								Side = "neutral",
+								TargetUnit = "Beast_Crocodile",
+							}),
+							PlaceObj('GroupChangeName', {
+								ChangeName = T(680820793836, --[[ModItemQuestsDef CursedForestSideQuests ChangeName]] "Vegena"),
+								QuestId = "CursedForestSideQuests",
+								TargetUnit = "Beast_Crocodile",
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Minor",
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('GroupSetBehaviorExit', {
+								MarkerGroup = "North",
+								QuestId = "CursedForestSideQuests",
+								Running = true,
+								TargetUnit = "Peta",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "PetaLeft",
+								QuestId = "ChienSauvage",
+							}),
+						},
+						Once = true,
+						ParamId = "CrocConvertToVeganism",
+						QuestId = "CursedForestSideQuests",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						QuestId = "CursedForestSideQuests",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "IlleMorat_JacuzziDone",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "IlleMorat_DrawingboardDone",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "IlleMorat_TrapDoorDone",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "GraveRandom",
+						QuestId = "CursedForestSideQuests",
+						RandomRangeMax = 4,
+						Value = 1,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "GraveGiven",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "GraveBushesCut",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "GraveFound",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "GraveReported",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "GraveDone",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BonfireLit",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MetaviraSapCollected",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GraveGive",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GraveFind",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GraveReport",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GraveDone",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GravePayRespect",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GraveFail",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_TeaPartySurvivor",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_TeaPartyDone",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BeastRandomizeSpawn",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BeastPostCombatLeave",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BeastPostCombatMove",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BeastPostCombatHut",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BeastCabinCombat",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_EffigyDone_D18",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_EffigyDone_E15",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_EffigyDone_D13",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_EffigyDone_E13",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_EffigyDone_D14",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_EffigyDone_D15",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_EffigyDone_C16",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_CompleteQuest",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PlayerAttackedBeast",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "CrocConvertToVeganism",
+						QuestId = "CursedForestSideQuests",
+					}),
+				},
+				group = "CursedForest",
+				id = "CursedForestSideQuests",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				DisplayName = T(647808423990, --[[ModItemQuestsDef ChienSauvage DisplayName]] "Petta and the hyenas"),
+				KillTCEsConditions = {
+					PlaceObj('QuestIsVariableBool', {
+						Condition = "or",
+						QuestId = "ChienSauvage",
+						Vars = set( "Completed", "Failed" ),
+					}),
+				},
+				LastNoteIdx = 6,
+				NoteDefs = {
+					LastNoteIdx = 7,
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Peta",
+								QuestId = "ChienSauvage",
+								Sector = "E16",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "ChienSauvage",
+								Vars = set( "Completed", "Failed", "PetaLetsHyenasOut" ),
+							}),
+						},
+						QuestId = "ChienSauvage",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(858111959565, --[[ModItemQuestsDef ChienSauvage Text]] "There is an eco activist imprisoned at <em><SectorName('E16')></em> whom the Legion means to throw into the hyena fighting pit"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "ChienSauvage",
+								Vars = set( "Completed", "Failed", "HyenasDead" ),
+							}),
+						},
+						Idx = 2,
+						QuestId = "ChienSauvage",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "PetaLetsHyenasOut" ),
+							}),
+						},
+						Text = T(884143731552, --[[ModItemQuestsDef ChienSauvage Text]] "Petta let the <em>hyenas</em> out"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "ChienSauvage",
+								Vars = set( "HyenasDead" ),
+							}),
+						},
+						Idx = 3,
+						QuestId = "ChienSauvage",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "ChienSauvage",
+								Vars = set( "HyenasDead" ),
+							}),
+						},
+						Text = T(455796897360, --[[ModItemQuestsDef ChienSauvage Text]] "The <em>hyenas</em> in Camp Chien Sauvage had to die"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('CheckIsPersistentUnitDead', {
+								QuestId = "ChienSauvage",
+								per_ses_id = "NPC_Peta",
+							}),
+						},
+						Idx = 4,
+						QuestId = "ChienSauvage",
+						ShowConditions = {
+							PlaceObj('CheckIsPersistentUnitDead', {
+								QuestId = "ChienSauvage",
+								per_ses_id = "NPC_Peta",
+							}),
+						},
+						Text = T(987242968729, --[[ModItemQuestsDef ChienSauvage Text]] "<em>Outcome:</em> <em>Petta</em> couldn't be saved"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "PetaLeft" ),
+							}),
+							PlaceObj('CheckIsPersistentUnitDead', {
+								Negate = true,
+								QuestId = "ChienSauvage",
+								per_ses_id = "NPC_Peta",
+							}),
+						},
+						Idx = 5,
+						QuestId = "ChienSauvage",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "PetaLeft" ),
+							}),
+							PlaceObj('CheckIsPersistentUnitDead', {
+								Negate = true,
+								QuestId = "ChienSauvage",
+								per_ses_id = "NPC_Peta",
+							}),
+						},
+						Text = T(786265426104, --[[ModItemQuestsDef ChienSauvage Text]] "<em>Outcome:</em> <em>Petta</em> was saved"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "CrocodileConverted" ),
+							}),
+						},
+						Idx = 6,
+						QuestId = "ChienSauvage",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "CrocodileConverted" ),
+							}),
+						},
+						Text = T(499699840741, --[[ModItemQuestsDef ChienSauvage Text]] "<em>Outcome:</em> <em>Petta</em> converted the crocodile <em>Gena</em> to veganism"),
+					}),
+				},
+				QuestGroup = "Jungle",
+				QuestId = "ChienSauvage",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "ChienSauvage",
+								Sectors = {
+									"E16",
+								},
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								DisableContextModification = true,
+								Distance = 8,
+								QuestId = "ChienSauvage",
+								SecondTargetUnit = "Peta",
+								TargetUnit = "any merc",
+							}),
+							PlaceObj('CheckIsPersistentUnitDead', {
+								Negate = true,
+								QuestId = "ChienSauvage",
+								per_ses_id = "NPC_Peta",
+							}),
+						},
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "ChienSauvage",
+										Vars = set({
+	HyenasDead = false,
+}),
+									}),
+								},
+								'Effects', {
+									PlaceObj('PlayBanterEffect', {
+										Banters = {
+											"ChienSauvage_Peta01_ApproachCell_1",
+										},
+										QuestId = "ChienSauvage",
+										searchInMap = true,
+										searchInMarker = false,
+									}),
+									PlaceObj('PlayBanterEffect', {
+										Banters = {
+											"ChienSauvage_Peta01_ApproachCell_2",
+										},
+										QuestId = "ChienSauvage",
+										searchInMap = true,
+										searchInMarker = false,
+									}),
+								},
+								'EffectsElse', {
+									PlaceObj('PlayBanterEffect', {
+										Banters = {
+											"ChienSauvage_Peta01_ApproachCell_3",
+										},
+										QuestId = "ChienSauvage",
+										searchInMap = true,
+										searchInMarker = false,
+									}),
+								},
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PetaApproachBanters",
+						QuestId = "ChienSauvage",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "ChienSauvage",
+								Sectors = {
+									"E16",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('ExecuteCode', {
+								FuncCode = 'local enemyUnits = MapGet("map", "Unit", function(o)\n	return table.find(o.Groups, "EnemySquad")\nend)\nfor _, unit in ipairs(enemyUnits) do\n	table.insert_unique(unit.Groups, "LegionChienSauvage")\nend',
+								QuestId = "ChienSauvage",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_LegionSetGroup",
+						QuestId = "ChienSauvage",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "ChienSauvage",
+								Sectors = {
+									"E16",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "PetaLeftToDie" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('UnitDie', {
+								QuestId = "ChienSauvage",
+								TargetGroup = "Peta",
+								skipAnim = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PetaLeftToDie",
+						QuestId = "ChienSauvage",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SatelliteGameplayRunning', {
+								QuestId = "ChienSauvage",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "Given" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "PlayerLeft",
+								QuestId = "ChienSauvage",
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "ChienSauvage",
+										Vars = set({
+	LegionKilled = false,
+}),
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "PetaLeftToDie",
+										QuestId = "ChienSauvage",
+									}),
+								},
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PlayerLeft",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"ChienSauvage_Peta01_ApproachCell_1",
+									"Shared_Conversation_Legion_18_ChienSauvage",
+								},
+								QuestId = "ChienSauvage",
+								WaitOver = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Given",
+								QuestId = "ChienSauvage",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Give",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "ChienSauvage",
+								Sectors = {
+									"E16",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set({
+	PetaLeft = false,
+	PetaLetsHyenasOut = false,
+}),
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								DisableContextModification = true,
+								Distance = 12,
+								QuestId = "ChienSauvage",
+								SecondTargetUnit = "Peta",
+								TargetUnit = "any merc",
+							}),
+							PlaceObj('UnitCanGoToPos', {
+								PositionMarker = "MainHyenasDoor",
+								QuestId = "ChienSauvage",
+								TargetUnit = "Peta",
+							}),
+						},
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "ChienSauvage",
+										Vars = set({
+	HyenasDead = false,
+}),
+									}),
+								},
+								'Effects', {
+									PlaceObj('PlayBanterEffect', {
+										Banters = {
+											"ChienSauvage_Peta02_OpenCell_HyenasAlive",
+										},
+										QuestId = "ChienSauvage",
+										searchInMap = true,
+										searchInMarker = false,
+									}),
+									PlaceObj('GroupSetBehaviorAdvanceTo', {
+										MarkerGroup = "MainHyenasDoor",
+										QuestId = "ChienSauvage",
+										Running = true,
+										TargetUnit = "Peta",
+									}),
+								},
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "PetaReleased",
+								QuestId = "ChienSauvage",
+							}),
+						},
+						ParamId = "TCE_PetaReleased",
+						QuestId = "ChienSauvage",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "ChienSauvage",
+								Sectors = {
+									"E16",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "PetaReleased" ),
+							}),
+							PlaceObj('UnitIsAroundMarkerOfGroup', {
+								MarkerGroup = "MainHyenasDoor",
+								QuestId = "ChienSauvage",
+								TargetUnit = "Peta",
+							}),
+						},
+						Effects = {
+							PlaceObj('ExecuteCode', {
+								FuncCode = 'local door = MapGetFirst("map", "Door", function(o)\n	return table.find(o.Groups, "MainHyenasDoor")\nend)\nif door then\n	door:SetLockpickState("open")\nend',
+								QuestId = "ChienSauvage",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "PetaLetsHyenasOut",
+								QuestId = "ChienSauvage",
+							}),
+							PlaceObj('GroupSetSide', {
+								QuestId = "ChienSauvage",
+								Side = "enemy2",
+								TargetUnit = "MainHyenas",
+							}),
+							PlaceObj('GroupAlert', {
+								QuestId = "ChienSauvage",
+								TargetUnit = "LegionChienSauvage",
+							}),
+							PlaceObj('GroupAlert', {
+								QuestId = "ChienSauvage",
+								TargetUnit = "MainHyenas",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PetaLetHyenasOut",
+						QuestId = "ChienSauvage",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "ChienSauvage",
+								Sectors = {
+									"E16",
+								},
+							}),
+							PlaceObj('UnitCanGoToPos', {
+								PositionMarker = "HyenasFreeRoamZone",
+								QuestId = "ChienSauvage",
+								TargetUnit = "MainHyenas",
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetSide', {
+								QuestId = "ChienSauvage",
+								Side = "enemy2",
+								TargetUnit = "MainHyenas",
+							}),
+							PlaceObj('GroupSetRoutine', {
+								QuestId = "ChienSauvage",
+								Routine = "Ambient",
+								RoutineArea = "HyenasFreeRoamZone",
+								TargetUnit = "MainHyenas",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_MainHyenasAggressive",
+						QuestId = "ChienSauvage",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "ChienSauvage",
+								Sectors = {
+									"E16",
+								},
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "LegionChienSauvage",
+								QuestId = "ChienSauvage",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "LegionKilled",
+								QuestId = "ChienSauvage",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_ClearLegion",
+						QuestId = "ChienSauvage",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "ChienSauvage",
+								Sectors = {
+									"E16",
+								},
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "MainHyenas",
+								QuestId = "ChienSauvage",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "HyenasDead",
+								QuestId = "ChienSauvage",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_HyenasDead",
+						QuestId = "ChienSauvage",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "ChienSauvage",
+								Sectors = {
+									"E16",
+								},
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 12,
+								QuestId = "ChienSauvage",
+								SecondTargetUnit = "Peta",
+								TargetUnit = "any merc",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "HyenasDead", "PetaReleased" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"ChienSauvage_Peta03_OpenCell_HyenasDead",
+								},
+								QuestId = "ChienSauvage",
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+							PlaceObj('GroupSetBehaviorExit', {
+								MarkerGroup = "North",
+								QuestId = "ChienSauvage",
+								Running = true,
+								TargetUnit = "Peta",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "PetaLeft",
+								QuestId = "ChienSauvage",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PetaLeave",
+						QuestId = "ChienSauvage",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "PetaLeft" ),
+							}),
+							PlaceObj('SectorCheckOwner', {
+								QuestId = "ChienSauvage",
+								sector_id = "E16",
+							}),
+							PlaceObj('CheckIsPersistentUnitDead', {
+								Negate = true,
+								QuestId = "ChienSauvage",
+								per_ses_id = "NPC_Peta",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "ChienSauvage",
+							}),
+							PlaceObj('GrantExperienceSector', {
+								QuestId = "ChienSauvage",
+								logImportant = true,
+							}),
+							PlaceObj('PlayerGrantMoney', {
+								Amount = 2500,
+								QuestId = "ChienSauvage",
+							}),
+							PlaceObj('SectorGrantIntel', {
+								QuestId = "ChienSauvage",
+								sector_id = "D15",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Complete",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckIsPersistentUnitDead', {
+								QuestId = "ChienSauvage",
+								per_ses_id = "NPC_Peta",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Failed",
+								QuestId = "ChienSauvage",
+							}),
+							PlaceObj('GrantExperienceSector', {
+								QuestId = "ChienSauvage",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Fail",
+						QuestId = "ChienSauvage",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						QuestId = "ChienSauvage",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PetaReleased",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PetaLetsHyenasOut",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "HyenasDead",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "LegionKilled",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PetaLeft",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PlayerLeft",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PetaLeftToDie",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "CrocodileConverted",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PetaApproachBanters",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_LegionSetGroup",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Give",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PetaLetHyenasOut",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_MainHyenasAggressive",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_ClearLegion",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_HyenasDead",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PetaReleased",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PlayerLeft",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PetaLeftToDie",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PetaLeave",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Complete",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Fail",
+						QuestId = "ChienSauvage",
+					}),
+				},
+				group = "CursedForest",
+				id = "ChienSauvage",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				DisplayName = T(481490365631, --[[ModItemQuestsDef CharonsBoat DisplayName]] "Charon's Boat"),
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {
+						QuestId = "CharonsBoat",
+					}),
+				},
+				LastNoteIdx = 13,
+				NoteDefs = {
+					LastNoteIdx = 13,
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_DeadBodies" ),
+							}),
+						},
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_DeadBodies" ),
+							}),
+						},
+						Text = T(236261803546, --[[ModItemQuestsDef CharonsBoat Text]] "Clue: A <em>humanitarian ship</em> loaded with dead bodies has run aground"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_Infected" ),
+							}),
+						},
+						Idx = 2,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_Infected" ),
+							}),
+						},
+						Text = T(103694826201, --[[ModItemQuestsDef CharonsBoat Text]] "Clue: Some of the dead bodies were <em>not quite dead</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_Crew" ),
+							}),
+						},
+						Idx = 3,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_Crew" ),
+							}),
+						},
+						Text = T(499443018178, --[[ModItemQuestsDef CharonsBoat Text]] "Clue: There seem to be no survivors of the <em>ship crew</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_Mound" ),
+							}),
+						},
+						Idx = 4,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_Mound" ),
+							}),
+						},
+						Text = T(581529374133, --[[ModItemQuestsDef CharonsBoat Text]] "Clue: Someone tried to <em>bury</em> the dead from the shipwreck"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "CharonsBoat",
+								Sector = "D20",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_OperationCompleted" ),
+							}),
+						},
+						Idx = 5,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableNum', {
+								AgainstVar = true,
+								Prop = "ShipwreckClues",
+								Prop2 = "ShipwreckCluesRequired",
+								QuestId = "CharonsBoat",
+								QuestId2 = "CharonsBoat",
+							}),
+						},
+						Text = T(119069368614, --[[ModItemQuestsDef CharonsBoat Text]] "<em>Operation</em>: Someone should <em>bury the dead</em> at the <em><SectorName('D20')></em> before the disease spreads"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "CharonsBoat",
+								Sector = "D20",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_DeadBodies", "Shipwreck_OperationCompleted" ),
+							}),
+						},
+						Idx = 6,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_Floaters" ),
+							}),
+						},
+						Text = T(738721628927, --[[ModItemQuestsDef CharonsBoat Text]] "There are lots of <em>dead bodies</em> floating from somewhere upstream"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "CharonsBoat",
+								Sector = "D19",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_Touched" ),
+							}),
+						},
+						Idx = 7,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_OperationCompleted" ),
+							}),
+						},
+						Text = T(269313821768, --[[ModItemQuestsDef CharonsBoat Text]] "Some of the <em>corpses</em> have floated downstream to the <em><SectorName('D19')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "CharonsBoat",
+								Sector = "D19",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_OperationCompleted" ),
+							}),
+						},
+						Idx = 8,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_Touched" ),
+							}),
+						},
+						Text = T(311402791051, --[[ModItemQuestsDef CharonsBoat Text]] "<em>Operation</em>: There is a <em>mysterious boat</em> waiting for the bodies of the dead at the <em><SectorName('D19')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "CharonsBoat",
+								Sector = "D19",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_FloatersDead" ),
+							}),
+						},
+						Idx = 9,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_OperationCompleted" ),
+							}),
+						},
+						Text = T(255425528346, --[[ModItemQuestsDef CharonsBoat Text]] "Some of the dead have to be <em>put to rest</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 10,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_FloatersDead", "Boat_OperationCompleted" ),
+							}),
+						},
+						Text = T(324116285001, --[[ModItemQuestsDef CharonsBoat Text]] "One day, the <em>boat of the dead</em> will leave the <em><SectorName('D19')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_OperationCompleted" ),
+							}),
+						},
+						Idx = 11,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_OperationCompleted" ),
+							}),
+						},
+						Text = T(909914966938, --[[ModItemQuestsDef CharonsBoat Text]] "<em>Outcome</em>: The dead at the <em><SectorName('D20')></em> have been buried"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_OperationCompleted" ),
+							}),
+						},
+						Idx = 12,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_OperationCompleted" ),
+							}),
+						},
+						Text = T(867322102558, --[[ModItemQuestsDef CharonsBoat Text]] "<em>Outcome</em>: The <em>mysterious boat</em> was loaded with the bodies of the dead at the <em><SectorName('D19')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "CharonsReward",
+								QuestId = "CharonsBoat",
+								Sector = "D19",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 13,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Text = T(283869622068, --[[ModItemQuestsDef CharonsBoat Text]] "<em>Outcome:</em> The <em>boat of the dead</em> left these shores"),
+					}),
+				},
+				QuestGroup = "Jungle",
+				QuestId = "CharonsBoat",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableNum', {
+								AgainstVar = true,
+								Prop = "ShipwreckClues",
+								Prop2 = "ShipwreckCluesRequired",
+								QuestId = "CharonsBoat",
+								QuestId2 = "CharonsBoat",
+							}),
+						},
+						Effects = {
+							PlaceObj('SectorEnableCustomOperation', {
+								DisplayLog = true,
+								EffectsOnSuccess = {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "Shipwreck_OperationCompleted",
+										QuestId = "CharonsBoat",
+									}),
+									PlaceObj('CityGrantLoyalty', {
+										Amount = 10,
+										City = "IlleMorat",
+										QuestId = "CharonsBoat",
+										SpecialConversationMessage = T(363094975655, --[[ModItemQuestsDef CharonsBoat SpecialConversationMessage]] "buried the dead bodies from the shipwreck"),
+									}),
+									PlaceObj('GrantExperienceSector', {
+										QuestId = "CharonsBoat",
+										logImportant = true,
+									}),
+								},
+								LootTableId = "Hermit_Meds",
+								QuestId = "CharonsBoat",
+								operation = "CursedForest_BuryInfected",
+								sector_id = "D20",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_OperationBuryInfected",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_Touched" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('SectorEnableCustomOperation', {
+								DisplayLog = true,
+								EffectsOnSuccess = {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "Boat_OperationCompleted",
+										QuestId = "CharonsBoat",
+									}),
+									PlaceObj('SectorEnterConflict', {
+										QuestId = "CharonsBoat",
+										sector_id = "D19",
+										spawn_mode = "defend",
+									}),
+								},
+								QuestId = "CharonsBoat",
+								operation = "CursedForest_LoadBoat",
+								sector_id = "D19",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_OperationLoadBoat",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_OperationCompleted" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "CharonsBoat",
+								Sectors = {
+									"D19",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupAlert', {
+								QuestId = "CharonsBoat",
+								TargetUnit = "Floaters",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FloatersAttack",
+						QuestId = "CharonsBoat",
+						requiredSectors = {
+							"D19",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('GroupIsDead', {
+								Group = "Floaters",
+								QuestId = "CharonsBoat",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Boat_FloatersDead",
+								QuestId = "CharonsBoat",
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 10,
+								City = "IlleMorat",
+								QuestId = "CharonsBoat",
+								SpecialConversationMessage = T(769329628976, --[[ModItemQuestsDef CharonsBoat SpecialConversationMessage]] "loaded the mysterious boat of the dead"),
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Medium",
+								QuestId = "CharonsBoat",
+								logImportant = true,
+							}),
+							PlaceObj('QuestSetVariableTimer', {
+								Prop = "BoatLeaveTimer",
+								QuestId = "CharonsBoat",
+								TimeAmount = 24,
+								TimeAmountRangeMax = 48,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FloatersKilled",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_OperationCompleted" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Negate = true,
+								QuestId = "CharonsBoat",
+								Sectors = {
+									"D19",
+								},
+							}),
+							PlaceObj('QuestHasTimerPassed', {
+								QuestId = "CharonsBoat",
+								TimerVariable = "BoatLeaveTimer",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "CharonsBoat",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_BoatLeave",
+						QuestId = "CharonsBoat",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						QuestId = "CharonsBoat",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Shipwreck_DeadBodies",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Shipwreck_Infected",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Shipwreck_Crew",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Shipwreck_Mound",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "ShipwreckClues",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "ShipwreckCluesRequired",
+						QuestId = "CharonsBoat",
+						Value = 4,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Shipwreck_OperationCompleted",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Boat_Floaters",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Boat_Touched",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Boat_OperationCompleted",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Boat_FloatersDead",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "BoatLeaveTimer",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_OperationBuryInfected",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_OperationLoadBoat",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FloatersAttack",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FloatersKilled",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BoatLeave",
+						QuestId = "CharonsBoat",
+					}),
+				},
+				group = "CursedForest",
+				id = "CharonsBoat",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Radomir",
+				Chapter = "Act1",
+				DevNotes = "When completed, Beast will randomly spawn in key sectors - scripted in CursedForestSideQuests.",
+				DisplayName = T(610810569348, --[[ModItemQuestsDef Beast DisplayName]] "The Beast"),
+				KillTCEsConditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "Completed" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Failed", "TCE_RemoveConflict" ),
+							}),
+						},
+						QuestId = "Beast",
+					}),
+				},
+				LastNoteIdx = 15,
+				NoteDefs = {
+					LastNoteIdx = 21,
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastAttack", "BeastMet" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastDead", "Given" ),
+							}),
+						},
+						QuestId = "Beast",
+						Scouting = true,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	BeastDead = false,
+	Given = false,
+}),
+							}),
+						},
+						Text = T(656681391645, --[[ModItemQuestsDef Beast Text]] "They say there is a scary <em>Beast</em> that is hunting people in the Cursed Forest"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastAttack", "BeastMet", "BeastSatisfied", "Completed" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastDead" ),
+							}),
+						},
+						Idx = 2,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(224176854402, --[[ModItemQuestsDef Beast Text]] "There is a scary <em>Beast</em> in the Cursed Forest"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "TheBeast",
+								QuestId = "Beast",
+								Sector = "D17",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastMet", "Completed", "Failed" ),
+							}),
+						},
+						Idx = 3,
+						QuestId = "Beast",
+						Scouting = true,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastEffigyOn" ),
+							}),
+						},
+						Text = T(310057242081, --[[ModItemQuestsDef Beast Text]] "The light in <em><SectorName('D17')></em> projects a <em>Beast Signal</em> in the sky"),
+					}),
+					PlaceObj('QuestNote', {
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastDead", "BeastMet", "Completed", "Failed" ),
+							}),
+						},
+						Idx = 4,
+						QuestId = "Beast",
+						Scouting = true,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastAttack" ),
+							}),
+						},
+						Text = T(603715414700, --[[ModItemQuestsDef Beast Text]] "The <em>Beast</em> appeared to help wipe out the marauders - perhaps it can speak?"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastMet" ),
+							}),
+						},
+						Idx = 5,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastMet" ),
+							}),
+						},
+						Text = T(393766392508, --[[ModItemQuestsDef Beast Text]] 'The <em>"Beast"</em> turned out to be a badass <em>old lady</em> in top-notch stealth equipment'),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "Beast",
+								Sector = "C14",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastExposed", "BeastSecondMeeting" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastDead" ),
+							}),
+						},
+						Idx = 6,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastCabin" ),
+							}),
+						},
+						Text = T(762781790155, --[[ModItemQuestsDef Beast Text]] 'The <em>"Beast"</em> lives in a small <em><SectorName(\'C14\')></em> in the Cursed Forest'),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "Beast",
+								Sector = "D18",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "Completed", "QuestBelleEauDone" ),
+							}),
+						},
+						Idx = 7,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "QuestBelleEau" ),
+							}),
+						},
+						Text = T(465410187824, --[[ModItemQuestsDef Beast Text]] "People of <SectorName('D17')> need their friends and family liberated from <em><SectorName('D18')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "Beast",
+								Sector = "D17",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "Completed", "QuestMilitiaDone" ),
+							}),
+						},
+						Idx = 8,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "QuestMilitia" ),
+							}),
+						},
+						Text = T(624550794000, --[[ModItemQuestsDef Beast Text]] "People are not feeling safe in <SectorName('D17')>: <em>Militia</em> is needed"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "Beast",
+								Sector = "D17",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastSatisfied", "Completed" ),
+							}),
+						},
+						Idx = 9,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "QuestLoyalty" ),
+							}),
+						},
+						Text = T(859112961545, --[[ModItemQuestsDef Beast Text]] "People are not happy in <SectorName('D17')>: <em>60 Loyalty</em> is required"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "TheBeast",
+								QuestId = "Beast",
+								Sector = "C14",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastRecruited", "Failed" ),
+							}),
+						},
+						Idx = 10,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastSatisfied" ),
+							}),
+						},
+						Text = T(463841918873, --[[ModItemQuestsDef Beast Text]] 'The "Beast" can now be convinced to fight the <em>Legion</em> forces outside of Ille Morat'),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "WladAndBeast" ),
+							}),
+						},
+						Idx = 11,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "WladAndBeast" ),
+							}),
+						},
+						Text = T(750160362284, --[[ModItemQuestsDef Beast Text]] "<em>Wlad</em> and the <em>Beast</em> were very close"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('CheckIsPersistentUnitDead', {
+								QuestId = "Beast",
+								per_ses_id = "NPC_Wlad",
+							}),
+						},
+						Idx = 12,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('CheckIsPersistentUnitDead', {
+								QuestId = "Beast",
+								per_ses_id = "NPC_Wlad",
+							}),
+						},
+						Text = T(212751477995, --[[ModItemQuestsDef Beast Text]] "<em>Outcome:</em> <em>Wlad</em> is dead"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastRecruited" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastDead" ),
+							}),
+						},
+						Idx = 13,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastRecruited" ),
+							}),
+						},
+						Text = T(183625668434, --[[ModItemQuestsDef Beast Text]] "<em>Outcome:</em> The Beast will help <em>protect</em> the Cursed Forest"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastDead" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "_GroupsAttacked",
+								Vars = set({
+	TheBeast_Killed = false,
+}),
+							}),
+						},
+						Idx = 14,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastDead" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "_GroupsAttacked",
+								Vars = set({
+	TheBeast_Killed = false,
+}),
+							}),
+						},
+						Text = T(878315272342, --[[ModItemQuestsDef Beast Text]] "<em>Outcome:</em> The <em>Beast</em> is dead"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastDead" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "_GroupsAttacked",
+								Vars = set( "TheBeast_Killed" ),
+							}),
+						},
+						Idx = 15,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastDead" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "_GroupsAttacked",
+								Vars = set( "TheBeast_Killed" ),
+							}),
+						},
+						Text = T(927116849698, --[[ModItemQuestsDef Beast Text]] "<em>Outcome:</em> Defeated the <em>Beast</em> of the Cursed Forest"),
+					}),
+				},
+				QuestGroup = "Jungle",
+				QuestId = "Beast",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckGameState', {
+								GameState = "Night",
+								Negate = true,
+								QuestId = "Beast",
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "Beast",
+								Sectors = {
+									"D17",
+									"D18",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BeastEffigyOn",
+								QuestId = "Beast",
+								Set = false,
+							}),
+						},
+						ParamId = "TCE_DaytimeCleanup",
+						QuestId = "Beast",
+						requiredSectors = {
+							"D17",
+							"D18",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckGameState', {
+								GameState = "Night",
+								QuestId = "Beast",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	BeastEffigyOn = true,
+	BeastIntroTriggered = false,
+}),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "Beast",
+								Sectors = {
+									"D17",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BeastEffigies",
+								QuestId = "Beast",
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "Beast",
+										Vars = set({
+	BeastMet = false,
+}),
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "BeastIntroTriggered",
+										QuestId = "Beast",
+									}),
+									PlaceObj('PlaySetpiece', {
+										QuestId = "Beast",
+										setpiece = "BeastIntro_ActualSP",
+									}),
+									PlaceObj('SectorEnterConflict', {
+										QuestId = "Beast",
+										disable_travel = true,
+										lock_conflict = true,
+										sector_id = "D17",
+										spawn_mode = "explore",
+									}),
+								},
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_D17BeastCall",
+						QuestId = "Beast",
+						requiredSectors = {
+							"D17",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('UnitIsAware', {
+								QuestId = "Beast",
+								TargetUnit = "TheBeast",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	TCE_AttackedByPlayer = false,
+}),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "Beast",
+								Sectors = {
+									"D17",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BeastAttack",
+								QuestId = "Beast",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_BeastIsAware",
+						QuestId = "Beast",
+						requiredSectors = {
+							"D17",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "Beast",
+								Sectors = {
+									"D17",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastIntroTriggered" ),
+							}),
+							PlaceObj('CombatIsActive', {
+								Negate = true,
+								QuestId = "Beast",
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "Beast_AddLegions",
+								QuestId = "Beast",
+							}),
+						},
+						Effects = {
+							PlaceObj('SectorEnterConflict', {
+								QuestId = "Beast",
+								conflict_mode = false,
+								sector_id = "D17",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_RemoveConflict",
+						QuestId = "Beast",
+						requiredSectors = {
+							"D17",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "_GroupsAttacked",
+								Vars = set( "TheBeast" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	Completed = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Failed",
+								QuestId = "Beast",
+							}),
+							PlaceObj('GroupSetSide', {
+								QuestId = "Beast",
+								Side = "enemy2",
+								TargetUnit = "TheBeast",
+							}),
+							PlaceObj('GroupAlert', {
+								QuestId = "Beast",
+								TargetUnit = "TheBeast",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_AttackedByPlayer",
+						QuestId = "Beast",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SectorMilitiaNumber', {
+								Amount = 2,
+								Condition = ">=",
+								QuestId = "Beast",
+								sector_id = "D17",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "QuestMilitiaDone",
+								QuestId = "Beast",
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 5,
+								City = "IlleMorat",
+								QuestId = "Beast",
+								SpecialConversationMessage = T(808742645892, --[[ModItemQuestsDef Beast SpecialConversationMessage]] "trained <em>Militia</em>"),
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_QuestMilitia",
+						QuestId = "Beast",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SectorCheckOwner', {
+								QuestId = "Beast",
+								sector_id = "D18",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "QuestBelleEauDone",
+								QuestId = "Beast",
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 5,
+								City = "IlleMorat",
+								QuestId = "Beast",
+								SpecialConversationMessage = T(758586217783, --[[ModItemQuestsDef Beast SpecialConversationMessage]] "liberated <em>Belle Eau</em>"),
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_QuestBelleEau",
+						QuestId = "Beast",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "QuestLoyalty" ),
+							}),
+							PlaceObj('CityHasLoyalty', {
+								Amount = 60,
+								City = "IlleMorat",
+								Condition = ">=",
+								QuestId = "Beast",
+							}),
+						},
+						Effects = {
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "Village_Conflict",
+								MusicExploration = "Village_Complete",
+								QuestId = "Beast",
+								SectorID = "D17",
+							}),
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "Village_Conflict",
+								MusicExploration = "Village_Complete",
+								QuestId = "Beast",
+								SectorID = "D18",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BeastSatisfied",
+								QuestId = "Beast",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_BeastSatisfied",
+						QuestId = "Beast",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastRecruited" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Large",
+								QuestId = "Beast",
+								logImportant = true,
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "Beast",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_QuestCompleted",
+						QuestId = "Beast",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						QuestId = "Beast",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "LightPylonSuccess",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastEffigyOn",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastEffigies",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Effigy_BelleEau",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Effigy_D13",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Effigy_E13",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Effigy_D14",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Effigy_D15",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Effigy_C16",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "EffigiesRepaired",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "EffigiesRepairedMax",
+						QuestId = "Beast",
+						Value = 7,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastAttack",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BeastIsAware",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastMet",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastSecondMeeting",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastGranny",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastExposed",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastCabinMention",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastCabin",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastRecruited",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastDead",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "WladCraft",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "WladAndBeast",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "QuestBelleEau",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "QuestBelleEauDone",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "QuestLoyalty",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "QuestMilitia",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "QuestMilitiaDone",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastSatisfied",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastIntroTriggered",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_QuestCompleted",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_DaytimeCleanup",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_D17BeastCall",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_RemoveConflict",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_QuestMilitia",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_QuestBelleEau",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BeastSatisfied",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_AttackedByPlayer",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "Randomizer",
+						QuestId = "Beast",
+						RandomRangeMax = 3,
+						Value = 1,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "IlleMorat_FirstEnter",
+						QuestId = "Beast",
+					}),
+				},
+				group = "CursedForest",
+				id = "Beast",
+			}),
+			}),
 		}),
 	PlaceObj('ModItemFolder', {
 		'name', "Containers",

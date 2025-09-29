@@ -2643,8 +2643,22 @@ SetNextSyncHandle(2000000001)
 PlaceObj('UnitMarker', {
 	'Pos', point(101400, 111000, 23800),
 	'Angle', 16200,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelFlanker",
@@ -2654,8 +2668,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(100200, 115800, 23800),
 	'Angle', 16200,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelFlanker",
@@ -2665,8 +2693,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(121800, 130200),
 	'Angle', 5400,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Heavy_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelGunner",
@@ -2676,8 +2718,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(126600, 115800, 29400),
 	'Angle', 16200,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelFlanker",
@@ -2687,8 +2743,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(124200, 126600, 29400),
 	'Angle', 5400,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels_02",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSoldier",
@@ -2697,8 +2767,22 @@ PlaceObj('UnitMarker', {
 }, nil, 1480868191)
 PlaceObj('UnitMarker', {
 	'Pos', point(89400, 185400),
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Heavy_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelGunner",
@@ -2708,19 +2792,77 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(85800, 192600, 38500),
 	'Angle', 16200,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSoldier",
 		}),
 	},
 }, nil, 1852978372)
+PlaceObj('GridMarker', {
+	'Pos', point(126600, 151800, 28000),
+	'Groups', {
+		"AL_Defender",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+}, nil, 1349850801)
+PlaceObj('GridMarker', {
+	'Pos', point(114600, 168600, 32900),
+	'Groups', {
+		"AL_Defender",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+}, nil, 1785421181)
+PlaceObj('GridMarker', {
+	'Pos', point(119400, 192600, 35700),
+	'Groups', {
+		"AL_Defender",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+}, nil, 1040641832)
 PlaceObj('UnitMarker', {
 	'Pos', point(77400, 197400, 39200),
 	'Angle', 16200,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelFlanker",
@@ -2730,8 +2872,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(90600, 203400, 39200),
 	'Angle', 16200,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSoldier",
@@ -2741,8 +2897,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(102600, 203400, 39200),
 	'Angle', 16200,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelFlanker",
@@ -2752,8 +2922,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(100200, 207000, 39200),
 	'Angle', 16200,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelFlanker",
@@ -2763,8 +2947,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(139800, 108600, 29400),
 	'Angle', 16200,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelFlanker",
@@ -2774,8 +2972,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(141000, 112200, 29400),
 	'Angle', 5400,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels_02",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSoldier",
@@ -2785,8 +2997,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(131400, 118200, 29400),
 	'Angle', 5400,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels_02",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSoldier",
@@ -2796,8 +3022,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(135000, 117000, 29400),
 	'Angle', 5400,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Commander_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSergant",
@@ -2807,8 +3047,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(138600, 119400, 29400),
 	'Angle', 5400,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Demolitions_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelGrenadier",
@@ -2818,8 +3072,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(150600, 112200, 29400),
 	'Angle', 5400,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels_02",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSoldier",
@@ -2829,8 +3097,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(153000, 117000, 29400),
 	'Angle', 5400,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels_02",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSoldier",
@@ -2871,11 +3153,35 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 180,
 	'Reachable', false,
 }, nil, 1834157092)
+PlaceObj('GridMarker', {
+	'Pos', point(159000, 196200, 14000),
+	'Groups', {
+		"AL_Defender",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+}, nil, 1839506143)
 PlaceObj('UnitMarker', {
 	'Pos', point(172200, 162600, 7700),
 	'Angle', 16200,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSoldier",
@@ -2885,19 +3191,57 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(180600, 177000, 16100),
 	'Angle', 5400,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Marksman_Rebels_02",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSniper",
 		}),
 	},
 }, nil, 1309952666)
+PlaceObj('GridMarker', {
+	'Pos', point(136200, 221400, 29400),
+	'Groups', {
+		"AL_Defender",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+}, nil, 1558054383)
 PlaceObj('UnitMarker', {
 	'Pos', point(157800, 247800, 30100),
 	'Angle', 16200,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelFlanker",
@@ -2907,8 +3251,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(157800, 257400, 30800),
 	'Angle', 16200,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelFlanker",
@@ -2943,8 +3301,22 @@ PlaceObj('GridMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(189000, 210600, 9100),
 	'Angle', 5400,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelFlanker",
@@ -2954,8 +3326,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(189000, 214200, 9100),
 	'Angle', 5400,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelFlanker",
@@ -2965,8 +3351,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(195000, 221400, 8400),
 	'Angle', 16200,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Demolitions_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelGrenadier",
@@ -2976,8 +3376,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(165000, 256200),
 	'Angle', 10800,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Heavy_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelGunner",
@@ -2987,8 +3401,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(173400, 251400, 32200),
 	'Angle', 5400,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels_02",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSoldier",
@@ -2998,8 +3426,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(178200, 253800, 32200),
 	'Angle', 5400,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels_02",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSoldier",
@@ -3056,10 +3498,6 @@ PlaceObj('GridMarker', {
 	'Type', "DefenderPriority",
 	'ArchetypesTriState', set( "Commander", "Recon", "Soldier" ),
 }, nil, 1716165085)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(227400, 137400, 10500),
-	'AllowedMask', 4294966497,
-}, nil, 1773634813)
 PlaceObj('HerbMarker', {
 	'Pos', point(203400, 172200),
 	'Angle', 5400,
@@ -3070,8 +3508,22 @@ PlaceObj('HerbMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(209400, 168600, 10500),
 	'Angle', 16200,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSoldier",
@@ -3081,8 +3533,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(211800, 169800, 10500),
 	'Angle', 16200,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "RebelFemaleSniper",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSniper_female",
@@ -3099,8 +3565,22 @@ PlaceObj('GridMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(215400, 167400, 10500),
 	'Angle', 16200,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Commander_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSergant",
@@ -3110,8 +3590,22 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(216600, 169800, 10500),
 	'Angle', 16200,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSoldier",
@@ -3150,8 +3644,22 @@ PlaceObj('ContainerMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(225000, 171000, 10500),
 	'Angle', 16200,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Demolitions_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelGrenadier",
@@ -3164,7 +3672,7 @@ PlaceObj('HerbMarker', {
 	'AllowedMask', 4294966497,
 }, nil, 1354631282)
 PlaceObj('TrapSpawnMarker', {
-	'Pos', point(239400, 133800, 7700),
+	'Pos', point(239400, 133800, 7000),
 	'Groups', {
 		"Rebels_Base_Mines",
 	},
@@ -3242,6 +3750,19 @@ PlaceObj('TrapSpawnMarker', {
 	}),
 }, nil, 1820402317)
 PlaceObj('TrapSpawnMarker', {
+	'Pos', point(234600, 179400, 10500),
+	'Groups', {
+		"Rebels_Base_Mines",
+	},
+	'AllowedMask', 4294966497,
+	'visibility', set( "ally", "neutral", "player1", "player2" ),
+	'colors', PlaceObj('ColorizationPropSet', {
+		'EditableColor1', RGBA(52, 45, 41, 255),
+		'EditableColor2', RGBA(48, 25, 14, 255),
+		'EditableColor3', RGBA(69, 58, 39, 255),
+	}),
+}, nil, 1379523591)
+PlaceObj('TrapSpawnMarker', {
 	'Pos', point(239400, 177000, 9800),
 	'Groups', {
 		"Rebels_Base_Mines",
@@ -3254,24 +3775,25 @@ PlaceObj('TrapSpawnMarker', {
 		'EditableColor3', RGBA(69, 58, 39, 255),
 	}),
 }, nil, 1405750838)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(235800, 181800, 10500),
-	'Groups', {
-		"Rebels_Base_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'visibility', set( "ally", "neutral", "player1", "player2" ),
-	'colors', PlaceObj('ColorizationPropSet', {
-		'EditableColor1', RGBA(52, 45, 41, 255),
-		'EditableColor2', RGBA(48, 25, 14, 255),
-		'EditableColor3', RGBA(69, 58, 39, 255),
-	}),
-}, nil, 1379523591)
 PlaceObj('UnitMarker', {
 	'Pos', point(208200, 210600, 16100),
 	'Angle', 5400,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "RebelFemaleSniper",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelSniper_female",
@@ -3300,8 +3822,22 @@ PlaceObj('TrapSpawnMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(197400, 220200, 8400),
 	'Angle', 16200,
+	'Groups', {
+		"Rebels_Base_Warriors",
+	},
 	'AllowedMask', 4294966497,
+	'TriggerConditions', {
+		PlaceObj('CombatIsActive', {}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			Side = "player1",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+	'Routine', "Ambient",
 	'Appearance', "Demolitions_Rebels",
+	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "RebelGrenadier",
@@ -3348,7 +3884,7 @@ PlaceObj('TrapSpawnMarker', {
 	}),
 }, nil, 1568613710)
 PlaceObj('TrapSpawnMarker', {
-	'Pos', point(225000, 214200, 9800),
+	'Pos', point(225000, 214200, 9100),
 	'Groups', {
 		"Rebels_Base_Mines",
 	},
@@ -83692,64 +84228,7 @@ PlaceObj('CollectionsToHidePersistableData', {
 	'AllowedMask', 4294966497,
 	'room', o(1871960770),
 	'South', {o(1850550013),},
-	'Roof', {false,false,false,false,false,false,false,false,},
 }, nil, 1002847296)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1245309692),
-	'Roof', {false,false,false,false,false,false,false,false,false,},
-}, nil, 1046822408)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1141963698),
-	'Roof', {false,},
-}, nil, 1057005539)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1141963698),
-	'Roof', {false,false,false,false,},
-}, nil, 1074633265)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1835662415),
-	'East', {false,},
-}, nil, 1094170917)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1141963698),
-	'Roof', {false,},
-}, nil, 1231759966)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1223782705),
-	'Roof', {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,},
-}, nil, 1246512254)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1223782705),
-	'Roof', {false,false,false,false,false,false,false,false,false,false,false,false,},
-}, nil, 1326935217)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1141963698),
-	'Roof', {false,false,false,false,},
-}, nil, 1361849266)
 PlaceObj('CollectionsToHidePersistableData', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -83764,100 +84243,14 @@ PlaceObj('CollectionsToHidePersistableData', {
 	'AllowedMask', 4294966497,
 	'room', o(1871960770),
 	'South', {o(1850550013),},
-	'Roof', {false,false,false,false,},
 }, nil, 1417149140)
 PlaceObj('CollectionsToHidePersistableData', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
 	'room', o(1141963698),
-	'Roof', {false,},
-}, nil, 1470160702)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1141963698),
-	'Roof', {false,},
-}, nil, 1473461744)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1871960770),
-	'Roof', {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,},
-}, nil, 1548235252)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1141963698),
-	'South', {o(1838293482),false,},
-	'Roof', {false,false,false,},
+	'South', {o(1838293482),},
 }, nil, 1559629640)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1141963698),
-	'Roof', {false,},
-}, nil, 1594511876)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1245309692),
-	'Roof', {false,false,false,false,false,},
-}, nil, 1594809733)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1141963698),
-	'Roof', {o(1221450060),o(1412988222),},
-}, nil, 1598305078)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1871960770),
-	'Roof', {o(1621538757),},
-}, nil, 1636758133)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1223782705),
-	'Roof', {false,false,false,false,false,false,false,false,false,},
-}, nil, 1673225449)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1223782705),
-	'Roof', {false,false,false,false,false,false,false,},
-}, nil, 1685728598)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1245309692),
-	'Roof', {false,false,false,},
-}, nil, 1687232104)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1871960770),
-	'Roof', {false,},
-}, nil, 1789776440)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1871960770),
-	'Roof', {false,false,false,},
-}, nil, 1816593431)
 PlaceObj('CollectionsToHidePersistableData', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -83869,24 +84262,9 @@ PlaceObj('CollectionsToHidePersistableData', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-	'room', o(1871960770),
-	'Roof', {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,},
-}, nil, 1849237908)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'room', o(1871960770),
-	'Roof', {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,},
-}, nil, 1860856761)
-PlaceObj('CollectionsToHidePersistableData', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
 	'room', o(1223782705),
 	'East', {o(1134598556),o(1708569989),},
 	'South', {o(1824789437),},
-	'Roof', {false,false,false,false,false,false,},
 }, nil, 1881485766)
 PlaceObj('WaterPlane', {
 	'Pos', point(-42742, -5491, 6370),
@@ -87206,7 +87584,7 @@ p("DecBunker_ConcretePile_05",216325,130072,9727,"terrainchunk",10,0,0,28,57,10,
 p("TropicalPlant_Grass_03",216579,130257,11104,2097152)
 p("TropicalPlant_Grass_03",219082,123598,14268,127,2097156)
 p("TropicalPlant_Grass_03",219810,125605,14205,127,2097156)
-p("TropicalPlant_Grass_03",217525,127697,2011,105,2097156)
+p("TropicalPlant_Grass_03",217512,127692,2011,105,2097156)
 p("DecBunker_ConcretePile_04",217647,127744,12883,43,237,4089,"terrainchunk",10,0,0,40,100,10,40,60,2228240)
 p("TropicalPlant_04_Sapling_04",217767,128713,17145,2097152)
 p("TropicalPlant_04_Sapling_04",220444,127430,1678,142,-620,378,4031,2097172)
