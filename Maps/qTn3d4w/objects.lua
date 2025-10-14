@@ -2304,39 +2304,6 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1137997374)
 PlaceObj('UnitMarker', {
-	'Pos', point(90600, 153000),
-	'AllowedMask', 4294966497,
-	'Appearance', "Recon_Rebels",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelFlanker",
-		}),
-	},
-}, nil, 1491183560)
-PlaceObj('UnitMarker', {
-	'Pos', point(91800, 154200),
-	'AllowedMask', 4294966497,
-	'Appearance', "Commander_Rebels",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelSergant",
-		}),
-	},
-}, nil, 1693358616)
-PlaceObj('UnitMarker', {
-	'Pos', point(93000, 153000),
-	'AllowedMask', 4294966497,
-	'Appearance', "Recon_Rebels_02",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelFlanker",
-		}),
-	},
-}, nil, 1173746521)
-PlaceObj('UnitMarker', {
 	'Pos', point(102600, 132600, 46200),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
@@ -2348,6 +2315,39 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1425574365)
+PlaceObj('UnitMarker', {
+	'Pos', point(99000, 139800, 37100),
+	'AllowedMask', 4294966497,
+	'Appearance', "Recon_Rebels",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "RebelFlanker",
+		}),
+	},
+}, nil, 1834585483)
+PlaceObj('UnitMarker', {
+	'Pos', point(100200, 141000, 37100),
+	'AllowedMask', 4294966497,
+	'Appearance', "Commander_Rebels",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "RebelSergant",
+		}),
+	},
+}, nil, 1821266900)
+PlaceObj('UnitMarker', {
+	'Pos', point(101400, 139800, 37100),
+	'AllowedMask', 4294966497,
+	'Appearance', "Recon_Rebels_02",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "RebelFlanker",
+		}),
+	},
+}, nil, 1791620807)
 PlaceObj('UnitMarker', {
 	'Pos', point(106200, 141000),
 	'Angle', 5400,
@@ -2388,6 +2388,7 @@ PlaceObj('GridMarker', {
 	'Pos', point(103800, 180600, 29400),
 	'Groups', {
 		"AL_Defender",
+		"Enemy_Advance",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
@@ -2397,17 +2398,6 @@ PlaceObj('GridMarker', {
 	Marksman = false,
 }),
 }, nil, 1325099156)
-PlaceObj('UnitMarker', {
-	'Pos', point(130200, 179400),
-	'AllowedMask', 4294966497,
-	'Appearance', "Thug_Stormer_1",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "ThugEnforcer_Stronger",
-		}),
-	},
-}, nil, 1138202572)
 PlaceObj('GridMarker', {
 	'Pos', point(124200, 189000, 23100),
 	'Groups', {
@@ -2447,6 +2437,7 @@ PlaceObj('GridMarker', {
 	'Pos', point(106200, 198600, 25200),
 	'Groups', {
 		"AL_Defender",
+		"Enemy_Advance",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
@@ -2456,44 +2447,11 @@ PlaceObj('GridMarker', {
 	Marksman = false,
 }),
 }, nil, 1615193950)
-PlaceObj('UnitMarker', {
-	'Pos', point(118200, 217800),
-	'AllowedMask', 4294966497,
-	'Appearance', "Thug_Soldier",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "ThugGoon",
-		}),
-	},
-}, nil, 1246437836)
-PlaceObj('UnitMarker', {
-	'Pos', point(123000, 213000),
-	'Angle', 16200,
-	'AllowedMask', 4294966497,
-	'Appearance', "Thug_Soldier",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "ThugGoon",
-		}),
-	},
-}, nil, 1078273805)
-PlaceObj('UnitMarker', {
-	'Pos', point(123000, 217800),
-	'AllowedMask', 4294966497,
-	'Appearance', "Thug_Soldier",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "ThugGoon",
-		}),
-	},
-}, nil, 1869121043)
 PlaceObj('GridMarker', {
 	'Pos', point(129000, 227400, 18200),
 	'Groups', {
 		"AL_Defender",
+		"Enemy_Advance",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
@@ -2555,6 +2513,7 @@ PlaceObj('GridMarker', {
 	'Pos', point(133800, 149400, 22400),
 	'Groups', {
 		"AL_Defender",
+		"Enemy_Advance",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
@@ -2568,6 +2527,7 @@ PlaceObj('GridMarker', {
 	'Pos', point(159000, 153000, 23100),
 	'Groups', {
 		"AL_Defender",
+		"Enemy_Advance",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
@@ -2591,29 +2551,6 @@ PlaceObj('GridMarker', {
 }),
 }, nil, 1571620810)
 PlaceObj('UnitMarker', {
-	'Pos', point(131400, 175800),
-	'Angle', 5400,
-	'AllowedMask', 4294966497,
-	'Appearance', "Thug_Stormer",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "ThugEnforcer_Stronger",
-		}),
-	},
-}, nil, 1479192471)
-PlaceObj('UnitMarker', {
-	'Pos', point(135000, 178200),
-	'AllowedMask', 4294966497,
-	'Appearance', "Thug_Stormer_1",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "ThugEnforcer_Stronger",
-		}),
-	},
-}, nil, 1539465688)
-PlaceObj('UnitMarker', {
 	'Pos', point(139800, 187800, 23100),
 	'AllowedMask', 4294966497,
 	'Appearance', "Thug_Soldier",
@@ -2636,6 +2573,7 @@ PlaceObj('GridMarker', {
 	'Pos', point(159000, 192600, 14700),
 	'Groups', {
 		"AL_Defender",
+		"Enemy_Advance",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
@@ -2649,6 +2587,7 @@ PlaceObj('GridMarker', {
 	'Pos', point(171000, 133800, 31500),
 	'Groups', {
 		"AL_Defender",
+		"Enemy_Advance",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
@@ -2662,6 +2601,7 @@ PlaceObj('GridMarker', {
 	'Pos', point(192600, 145800, 27300),
 	'Groups', {
 		"AL_Defender",
+		"Enemy_Advance",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
@@ -2697,6 +2637,7 @@ PlaceObj('GridMarker', {
 	'Pos', point(157800, 214200, 16100),
 	'Groups', {
 		"AL_Defender",
+		"Enemy_Advance",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
@@ -2710,6 +2651,7 @@ PlaceObj('GridMarker', {
 	'Pos', point(157800, 251400, 16100),
 	'Groups', {
 		"AL_Defender",
+		"Enemy_Advance",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
@@ -2719,159 +2661,11 @@ PlaceObj('GridMarker', {
 	Marksman = false,
 }),
 }, nil, 1380392495)
-PlaceObj('UnitMarker', {
-	'Pos', point(171000, 209400, 17500),
-	'Angle', 5400,
-	'AllowedMask', 4294966497,
-	'Appearance', "Demolitions_Rebels",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelGrenadier",
-		}),
-	},
-}, nil, 1245041814)
-PlaceObj('UnitMarker', {
-	'Pos', point(174600, 199800),
-	'AllowedMask', 4294966497,
-	'Appearance', "Thug_Recon",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "ThugCutter",
-		}),
-	},
-}, nil, 1134677815)
-PlaceObj('UnitMarker', {
-	'Pos', point(173400, 204600),
-	'Angle', 5400,
-	'AllowedMask', 4294966497,
-	'Appearance', "Thug_Recon",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "ThugCutter",
-		}),
-	},
-}, nil, 1246486388)
-PlaceObj('UnitMarker', {
-	'Pos', point(178200, 201000),
-	'Angle', 16200,
-	'AllowedMask', 4294966497,
-	'Appearance', "Marksman_Rebels",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelSniper",
-		}),
-	},
-}, nil, 1262823803)
-PlaceObj('UnitMarker', {
-	'Pos', point(175800, 205800),
-	'AllowedMask', 4294966497,
-	'Appearance', "Thug_Recon",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "ThugCutter",
-		}),
-	},
-}, nil, 1113856801)
-PlaceObj('UnitMarker', {
-	'Pos', point(175800, 211800),
-	'AllowedMask', 4294966497,
-	'Appearance', "Marksman_Rebels_02",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelSniper",
-		}),
-	},
-}, nil, 1693275696)
-PlaceObj('UnitMarker', {
-	'Pos', point(171000, 222600),
-	'AllowedMask', 4294966497,
-	'Appearance', "Heavy_Rebels_02",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelGunner",
-		}),
-	},
-}, nil, 1004250071)
-PlaceObj('UnitMarker', {
-	'Pos', point(171000, 226200),
-	'Angle', 5400,
-	'AllowedMask', 4294966497,
-	'Appearance', "Thug_Recon",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "ThugCutter",
-		}),
-	},
-}, nil, 1389860038)
-PlaceObj('UnitMarker', {
-	'Pos', point(173400, 213000),
-	'AllowedMask', 4294966497,
-	'Appearance', "Heavy_Rebels_02",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelGunner",
-		}),
-	},
-}, nil, 1892257195)
-PlaceObj('UnitMarker', {
-	'Pos', point(185400, 204600),
-	'AllowedMask', 4294966497,
-	'Appearance', "Thug_Soldier_1",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "ThugGoon_Stronger",
-		}),
-	},
-}, nil, 1588559910)
-PlaceObj('UnitMarker', {
-	'Pos', point(183000, 215400),
-	'Angle', 16200,
-	'AllowedMask', 4294966497,
-	'Appearance', "Thug_Soldier",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "ThugGoon_Stronger",
-		}),
-	},
-}, nil, 1704856732)
-PlaceObj('UnitMarker', {
-	'Pos', point(192600, 220200),
-	'Angle', 16200,
-	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Rebels_02",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelSoldier",
-		}),
-	},
-}, nil, 1496047926)
-PlaceObj('UnitMarker', {
-	'Pos', point(195000, 220200),
-	'AllowedMask', 4294966497,
-	'Appearance', "Soldier_Rebels_03",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelSoldier",
-		}),
-	},
-}, nil, 1347113667)
 PlaceObj('GridMarker', {
 	'Pos', point(184200, 233400, 15400),
 	'Groups', {
 		"AL_Defender",
+		"Enemy_Advance",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
@@ -2909,6 +2703,7 @@ PlaceObj('GridMarker', {
 	'Pos', point(207000, 187800, 14000),
 	'Groups', {
 		"AL_Defender",
+		"Enemy_Advance",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
@@ -2928,18 +2723,6 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 749158400)
-PlaceObj('UnitMarker', {
-	'Pos', point(216600, 190200),
-	'Angle', 10800,
-	'AllowedMask', 4294966497,
-	'Appearance', "Commander_Rebels",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelSergant",
-		}),
-	},
-}, nil, 1069332215)
 PlaceObj('ContainerMarker', {
 	'Pos', point(220200, 191400),
 	'CollectionIndex', 1869,
@@ -2950,18 +2733,6 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 332046336)
-PlaceObj('UnitMarker', {
-	'Pos', point(219000, 192600),
-	'Angle', 10800,
-	'AllowedMask', 4294966497,
-	'Appearance', "Recon_Rebels",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelFlanker",
-		}),
-	},
-}, nil, 1483867109)
 PlaceObj('ContainerMarker', {
 	'Pos', point(214200, 197400),
 	'CollectionIndex', 3033,
@@ -2972,30 +2743,6 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 978534400)
-PlaceObj('UnitMarker', {
-	'Pos', point(215400, 201000),
-	'Angle', 10800,
-	'AllowedMask', 4294966497,
-	'Appearance', "Recon_Rebels",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelFlanker",
-		}),
-	},
-}, nil, 1123860239)
-PlaceObj('UnitMarker', {
-	'Pos', point(217800, 198600),
-	'Angle', 10800,
-	'AllowedMask', 4294966497,
-	'Appearance', "Recon_Rebels_02",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelFlanker",
-		}),
-	},
-}, nil, 1849781969)
 PlaceObj('ExitZoneInteractable', {
 	'Pos', point(226044, 228367, 15323),
 	'Groups', {

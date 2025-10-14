@@ -119,9 +119,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -141,9 +155,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -167,9 +195,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -189,9 +231,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -211,9 +267,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -275,9 +345,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -297,9 +381,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -319,9 +417,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -358,9 +470,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -380,9 +506,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -402,9 +542,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -424,9 +578,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -608,9 +776,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -619,7 +801,7 @@ PlaceObj('UnitMarker', {
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelSergant",
+			'UnitDataDefId', "RebelSergant_Immortal_M1",
 		}),
 	},
 }, nil, 1868573068)
@@ -630,9 +812,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -1097,6 +1293,17 @@ PlaceObj('GridMarker', {
 	'Reachable', false,
 	'GroundVisuals', true,
 }, nil, 1834157092)
+PlaceObj('GridMarker', {
+	'Pos', point(153000, 150600, 6300),
+	'Groups', {
+		"Rebels_Position_M1",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Logic",
+	'ID', "Rebels_Position_M1_Grid",
+	'AreaWidth', 15,
+	'AreaHeight', 25,
+}, nil, 1794553920)
 PlaceObj('GridMarker', {
 	'Pos', point(154200, 160200),
 	'Groups', {
@@ -27229,25 +27436,32 @@ PlaceObj('TropicalPlant_03_Tree_02', {
 	'AllowedMask', 4294967279,
 }, nil, 1548175303)
 PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(95756, 140957),
+	'Pos', point(96029, 140952, 14683),
 	'Angle', 7345,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1642641230)
-PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(96215, 144301),
-	'Angle', 18138,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1680009668)
 PlaceObj('TropicalPlant_Liana_05', {
 	'Pos', point(94275, 146255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1138887120)
+PlaceObj('CoastalPlant_01_Tree_04', {
+	'Pos', point(96286, 144710, 14718),
+	'Angle', 18138,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1680009668)
+PlaceObj('CoastalPlant_01_Tree_04', {
+	'Pos', point(96849, 144644, 14726),
+	'Angle', 10358,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1231069213)
 PlaceObj('TropicalFillerPlants_06', {
 	'Pos', point(82814, 147542),
 	'Angle', 4175,
@@ -28989,21 +29203,14 @@ PlaceObj('TropicalPlant_04_Tree_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1539930435)
 PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(99103, 141245),
-	'Angle', 10358,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1231069213)
-PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(101529, 141147),
-	'Angle', 9702,
+	'Pos', point(100878, 141048, 14726),
+	'Angle', 7768,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1786426151)
 PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(104107, 146531),
+	'Pos', point(103204, 146485, 14722),
 	'Angle', 17313,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -36909,6 +37116,15 @@ PlaceObj('TropicalPlant_02_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1179323513)
+PlaceObj('CoastalPlant_01_Tree_01', {
+	'Pos', point(137185, 171801, 6418),
+	'Angle', 17003,
+	'Scale', 105,
+	'ColorModifier', RGBA(41, 52, 49, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1177900310)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(132132, 181427),
 	'Angle', 7289,
@@ -38574,6 +38790,19 @@ PlaceObj('WaterPlaneWaves', {
 	'AllowedMask', 4294967279,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1758968256)
+PlaceObj('World_WoodenBox_02', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(69, 58, 39, 255),
+	'EditableColor2', RGBA(48, 25, 14, 255),
+	'EditableColor3', RGBA(60, 38, 8, 255),
+	'Pos', point(172388, 159452, 5145),
+	'Angle', 18889,
+	'Scale', 57,
+	'Axis', point(-1497, -1434, 3532),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1800761002)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(187800, 134198, 5600),
 	'ForcedLODState', "Minimum",
@@ -62132,6 +62361,7 @@ p("TropicalRockAssembly_02",160263,147529,5994,21439,-1607,-1947,3225,"terrainch
 p("DecFloatersTrashGround_01",162029,150706,6084,1)
 p("TropicalRockAssembly_03",162013,154215,6138,155,"terrainchunk",10,0,0,40,60,10,40,60,131077)
 p("TropicalRockSharp_01",161893,162758,-388,12941,231,671,-186,4036,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalPlant_06_Sapling_01",133901,167840,19404,79,2097156)
 p("TropicalRockSharp_01",138510,171213,3399,9007,231,1092,-1256,3742,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",132505,174797,3830,15849,250,343,735,4014,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharpWalk_02",131400,179400,10500,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
