@@ -7240,7 +7240,6 @@ return {
 					'InitialSquads', {
 						"LegionDefenders_Mobile_Easy",
 						"LegionExtraSquadFireArms",
-						"LegionExtraSquadFireArms",
 					},
 					'MinFlareCarriers', 6,
 					'MaxFlareCarriers', 9,
@@ -7327,7 +7326,6 @@ return {
 					'MapTier', 10,
 					'modId', "FhNNYd",
 					'display_name', T(733530482848, "Непроходимая местность"),
-					'StickySide', true,
 					'TerrainType', "Jungle",
 					'WeatherZone', "CursedForest",
 					'City', "Rebels_Ernie",
@@ -7359,13 +7357,16 @@ return {
 					'MapTier', 10,
 					'modId', "FhNNYd",
 					'display_name', T(380204237490, "База партизан на острове Эрни"),
-					'StickySide', true,
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'Passability', "Land and Water",
 					'City', "Rebels_Ernie",
 					'ShowCity', true,
 					'Bunker', true,
+					'InitialSquads', {
+						"LegionExtraSquadFireArms_T2",
+						"LegionExtraSquadMeleeV2",
+					},
 					'MinFlareCarriers', 3,
 					'MaxFlareCarriers', 13,
 					'RAndRAllowed', true,
@@ -7721,35 +7722,12 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
-				'comment', "Филер_3я локация",
-				'mapName', "qRiCMTo",
+				'comment', "Водопад",
+				'mapName', "isJdmPy",
 				'campaignId', "HotDiamonds",
 				'sectorId', "M3",
 				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
 					'Id', "M3",
-					'Map', "qRiCMTo",
-					'modId', "FhNNYd",
-					'display_name', T(691002711206, "Скалистый берег"),
-					'WeatherZone', "Erny",
-					'ForceConflict', true,
-					'MinFlareCarriers', 6,
-					'MaxFlareCarriers', 12,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
-					'BlockTravel', set({
-	East = false,
-	North = true,
-	West = false,
-}),
-				}),
-			}),
-			PlaceObj('ModItemSector', {
-				'comment', "Водопад",
-				'mapName', "isJdmPy",
-				'campaignId', "HotDiamonds",
-				'sectorId', "M2",
-				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "M2",
 					'Map', "isJdmPy",
 					'MapTier', 10,
 					'modId', "FhNNYd",
@@ -7770,6 +7748,29 @@ return {
 	East = false,
 	North = true,
 	South = true,
+	West = false,
+}),
+				}),
+			}),
+			PlaceObj('ModItemSector', {
+				'comment', "Филер_2я локация",
+				'mapName', "qRiCMTo",
+				'campaignId', "HotDiamonds",
+				'sectorId', "M2",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "M2",
+					'Map', "qRiCMTo",
+					'modId', "FhNNYd",
+					'display_name', T(691002711206, "Скалистый берег"),
+					'WeatherZone', "Erny",
+					'ForceConflict', true,
+					'MinFlareCarriers', 6,
+					'MaxFlareCarriers', 12,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = false,
+	North = true,
 	West = false,
 }),
 				}),
@@ -12087,6 +12088,7717 @@ return {
 		'name', "Sounds",
 		'comment', "Звуки, всяко разно для локаций и эмбианта",
 	}),
+	PlaceObj('ModItemFolder', {
+		'name', "Conversations",
+	}, {
+		PlaceObj('ModItemFolder', {
+			'name', "Conversations_Vanilla",
+		}, {
+			PlaceObj('ModItemConversation', {
+				AssignToGroup = "LegionRaider_Jose",
+				Comment = "(Bastien) - initial",
+				Conditions = {
+					PlaceObj('PlayerIsInSectors', {
+						Sectors = {
+							"K4",
+						},
+						param_bindings = false,
+					}),
+				},
+				DefaultActor = "LegionRaider_Jose",
+				Parameters = {
+					PlaceObj('PresetParamNumber', {
+						'Name', "DiamondsGain",
+						'Value', 3,
+						'Tag', "<DiamondsGain>",
+					}),
+				},
+				group = "Ernie",
+				id = "Jose_1",
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "BastienMet",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+					},
+					GiveQuests = {
+						"JoseFamily",
+					},
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(841941343180, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Greeting]] "Oh la la! Don't shoot! I'm just a bystander here. An innocent civilian! I heard some shots fired up the hill. I came to take a look and I saw the <em>Legion</em> getting their asses kicked."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Raven",
+											Text = T(173915866209, --[[ModItemConversation Jose_1 Text voice:Raven section:Jose_1 keyword:Greeting]] "Exactly what an innocent civilian would do."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Omryn",
+											Text = T(272748439918, --[[ModItemConversation Jose_1 Text voice:Omryn section:Jose_1 keyword:Greeting]] "Makes sense to me. Better to watch a fight than be in one."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Livewire",
+											Text = T(354143913171, --[[ModItemConversation Jose_1 Text voice:Livewire section:Jose_1 keyword:Greeting]] "I want you to know that I completely believe you, but I really don't think anyone else does."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(133559082275, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Greeting]] "But I'm not with them! I was just... umm... doing a bit of scavenging on the beach. Yeah, that's how I provide for my <em>family</em>!"),
+							param_bindings = false,
+						}),
+					},
+					NoBackOption = true,
+					id = "Greeting",
+					param_bindings = false,
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						AutoRemove = true,
+						GoTo = "<root>",
+						Keyword = "Don't worry",
+						KeywordT = T(148546070726, --[[ModItemConversation Jose_1 KeywordT]] "Don't worry"),
+						Lines = {
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Raven",
+												Text = T(698684374141, --[[ModItemConversation Jose_1 Text voice:Raven section:Jose_1 keyword:Don't worry]] "Take it easy, mister. We don't shoot civilians... generally."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Buns",
+												Text = T(760809692328, --[[ModItemConversation Jose_1 Text voice:Buns section:Jose_1 keyword:Don't worry]] "That's all right, dear. We don't shoot civilians... generally."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "MD",
+												Text = T(982125390831, --[[ModItemConversation Jose_1 Text voice:MD section:Jose_1 keyword:Don't worry]] "Oh, we don't shoot civilians! I mean, sometimes we do. I do. By accident, though. Not on purpose."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "LegionRaider_Jose",
+								Text = T(794182824614, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Don't worry]] "Oh, thank you! Maybe you just let me go on my way now, eh?"),
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_friendly",
+						id = "Friendly",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						AutoRemove = true,
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "UnderSuspicion",
+								QuestId = "JoseFamily",
+								param_bindings = false,
+							}),
+						},
+						GoTo = "<root>",
+						Keyword = "Civilian? Oh really?",
+						KeywordT = T(240336019316, --[[ModItemConversation Jose_1 KeywordT]] "Civilian? Oh really?"),
+						Lines = {
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Meltdown",
+												Text = T(558925887667, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Civilian? Oh really?]] "Yeah, and I'm the fucking tooth fairy."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Raider",
+												Text = T(961351390176, --[[ModItemConversation Jose_1 Text voice:Raider section:Jose_1 keyword:Civilian? Oh really?]] "A well armed civilian, I see."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Grizzly",
+												Text = T(602509468087, --[[ModItemConversation Jose_1 Text voice:Grizzly section:Jose_1 keyword:Civilian? Oh really?]] "That gun just for shooting squirrels then?"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "LegionRaider_Jose",
+								Text = T(694083195278, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Civilian? Oh really?]] "Oh, you mean this gun here? It's just, eh, heh-heh... iiiit's just for protection, boss. These are dangerous times on the island."),
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_sarcastic",
+						id = "Sarcastic",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						AutoRemove = true,
+						Comment = "Gain variable: Scared",
+						Conditions = {
+							PlaceObj('UnitSquadHasMerc', {
+								HasPerk = "Psycho",
+								param_bindings = false,
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Scared",
+								QuestId = "JoseFamily",
+								param_bindings = false,
+							}),
+						},
+						GoTo = "<root>",
+						Keyword = "Why not just shoot you",
+						KeywordT = T(534366002207, --[[ModItemConversation Jose_1 KeywordT]] "Why not just shoot you"),
+						Lines = {
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Fidel",
+												Text = T(313383136120, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Why not just shoot you]] "One thing Fidel always say: no such thing as innocent bystander. When shooting start, you run and hide or stay and shoot."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Meltdown",
+												Text = T(228256278923, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Why not just shoot you]] "Don't bullshit me, boy. I shot the kneecaps off the last dumbass who tried that."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Nails",
+												Text = T(163403820051, --[[ModItemConversation Jose_1 Text voice:Nails section:Jose_1 keyword:Why not just shoot you]] "Innocent bystanders are just people who haven't gotten a chance to shoot at me yet."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "LegionRaider_Jose",
+								Text = T(843674379925, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Why not just shoot you]] "Please, boss, I... I don't want any trouble! I have a <em>family</em>. You won't snuff out a family man, right?"),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Fidel",
+												Text = T(581259340286, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Why not just shoot you]] "This is good point. I like it better when family is here to watch."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Meltdown",
+												Text = T(239362719517, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Why not just shoot you]] "Depends on how cranky I am. And just so you know, I ain't pooped yet today."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Nails",
+												Text = T(806520737314, --[[ModItemConversation Jose_1 Text voice:Nails section:Jose_1 keyword:Why not just shoot you]] "Hell, everybody's got a family. That don't bother me one bit."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_threaten",
+						id = "Psycho",
+						param_bindings = false,
+					}),
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Effects = {
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Jose_1",
+							PhraseId = "WhatDoYouKnowAboutEmma",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Jose_1",
+							PhraseId = "YourewiththeLegion",
+							param_bindings = false,
+						}),
+					},
+					Keyword = 'Tell us about that "Legion"',
+					KeywordT = T(428534945433, --[[ModItemConversation Jose_1 KeywordT]] 'Tell us about that "Legion"'),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(619579227053, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Tell us about that "Legion"]] "Well, that's the Patriotic Legion of Grand Chien! Quite a gang, they are. I think some of them were trying to snatch that <em>Emma</em> girl, the President's daughter, but I guess it didn't work out."),
+							param_bindings = false,
+						}),
+					},
+					id = "Legion",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "MentionedMajor",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+					},
+					Enabled = false,
+					Keyword = "What do you know about Emma?",
+					KeywordT = T(323700809045, --[[ModItemConversation Jose_1 KeywordT]] "What do you know about Emma?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(751276739916, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:What do you know about Emma?]] "Don't know nothing, boss! I've just heard that the <em>Major</em> wants the girl. I guess he wishes to complete the set with her <em>father</em>, he-he."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Ice",
+											Text = T(352228171056, --[[ModItemConversation Jose_1 Text voice:Ice section:Jose_1 keyword:What do you know about Emma?]] "That dude got kidnapped and that's his daughter you're talkin' about. Put some respect in your mouth."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Raven",
+											Text = T(428244067987, --[[ModItemConversation Jose_1 Text voice:Raven section:Jose_1 keyword:What do you know about Emma?]] "I can tell how upset you are about it."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Barry",
+											Text = T(395701598479, --[[ModItemConversation Jose_1 Text voice:Barry section:Jose_1 keyword:What do you know about Emma?]] "What is wrong with you? Where is your compassion?"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "LegionRaider_Jose",
+											Text = T(118091976965, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:What do you know about Emma?]] "Oh, sorry, boss. I guess I dropped it."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "WhatDoYouKnowAboutEmma",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								MentionedMajor = true,
+								UnderSuspicion = false,
+							},
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "LeadMajor",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetSeen', {
+							Conversation = "Jose_1",
+							PhraseId = "Major2",
+							Seen = true,
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Who's the Major?",
+					KeywordT = T(134661127794, --[[ModItemConversation Jose_1 KeywordT]] "Who's the Major?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(866522232661, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Who's the Major?]] "Oh, well, he's the leader of the <em>Legion</em>, of course! No one really seems to know him at all. They say he operates from a secret base up there in the <em>Highlands</em>..."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Tex",
+											Text = T(116053605348, --[[ModItemConversation Jose_1 Text voice:Tex section:Jose_1 keyword:Who's the Major?]] "Sounds like he got a real hole-in-the-wall gang. How we get there? "),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Red",
+											Text = T(668402915478, --[[ModItemConversation Jose_1 Text voice:Red section:Jose_1 keyword:Who's the Major?]] "Speakin' as a Highlander, can ye be more specific? Highlands can be damn tricky terrain."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Mouse",
+											Text = T(163252415121, --[[ModItemConversation Jose_1 Text voice:Mouse section:Jose_1 keyword:Who's the Major?]] "I love secrets! Can you tell me? I'm a mime, so you know I won't tell anyone."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(761343022329, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Who's the Major?]] "Well I don't know for sure. It wouldn't be much of a secret if I knew it, right?"),
+							param_bindings = false,
+						}),
+					},
+					id = "Major",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								MentionedMajor = true,
+								UnderSuspicion = true,
+							},
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Who's the Major?",
+					KeywordT = T(134661127794, --[[ModItemConversation Jose_1 KeywordT]] "Who's the Major?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(337668178589, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Who's the Major?]] "Oh, well, he's the leader of the <em>Legion</em>, of course! No one really seems to know him at all. Very mysterious figure. Very dangerous. May I go now? Please?"),
+							param_bindings = false,
+						}),
+					},
+					id = "Major2",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								MentionedMajor = true,
+							},
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "UnderSuspicion",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Emma's father - you mean the President?",
+					KeywordT = T(786851655348, --[[ModItemConversation Jose_1 KeywordT]] "Emma's father - you mean the President?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(370951426842, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Emma's father - you mean the President?]] "You know, you're right. I think I heard something about that. But I don't know anything! I don't want to be involved in any of this, you know. Can I just go back to my <em>family</em>?"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Raider",
+											Text = T(593173242308, --[[ModItemConversation Jose_1 Text voice:Raider section:Jose_1 keyword:Emma's father - you mean the President?]] "You seem to know a lot for someone who's not involved, don't you?"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "LegionRaider_Jose",
+											Text = T(334766422274, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Emma's father - you mean the President?]] "Don't know what you're talking about, boss."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Meltdown",
+											Text = T(874636954516, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Emma's father - you mean the President?]] "Jeez, you're shadier than my ass crack."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Grizzly",
+											Text = T(317797663083, --[[ModItemConversation Jose_1 Text voice:Grizzly section:Jose_1 keyword:Emma's father - you mean the President?]] "Something stinks here, and I'm not talking about my armpits."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "YoumeanthePresident",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "LeadFamily",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "So you have a family?",
+					KeywordT = T(713820738802, --[[ModItemConversation Jose_1 KeywordT]] "So you have a family?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(475550282121, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:So you have a family?]] "Oh yes, boss. A big family over in <em>the Rust</em>! That's what we call the area just east of town. It's not a nice place. My boys cannot play <em>football</em> without tripping on old war equipment, hehe."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Igor",
+											Text = T(954237649681, --[[ModItemConversation Jose_1 Text voice:Igor section:Jose_1 keyword:So you have a family?]] "Family is best important. Dolviches understand."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Wolf",
+											Text = T(279221143205, --[[ModItemConversation Jose_1 Text voice:Wolf section:Jose_1 keyword:So you have a family?]] "Old war equipment? Could be worth checking out."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(603222510455, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:So you have a family?]] "They depend on me, you see. If I don't bring home the bacon, they don't eat! My poor family."),
+							param_bindings = false,
+						}),
+					},
+					id = "Family",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							Condition = "or",
+							QuestId = "JoseFamily",
+							Vars = {
+								LeadFamily = true,
+							},
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Is this a soccer shirt?",
+					KeywordT = T(699951652390, --[[ModItemConversation Jose_1 KeywordT]] "Is this a soccer shirt?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(494500800483, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Is this a soccer shirt?]] "Oui! Chiens Sauvages, the best team in Grand Chien! Their merchandise is shit though. I asked for a 13, and they printed 31..."),
+							param_bindings = false,
+						}),
+					},
+					id = "Isthisasoccershirt",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					AutoRemove = true,
+					Comment = "gain Scared+Diamonds if you failed the Hands Up",
+					Conditions = {
+						PlaceObj('UnitSquadHasMerc', {
+							HasStat = "Wisdom",
+							StatValue = 70,
+							param_bindings = false,
+						}),
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								BaconDiamonds = false,
+							},
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "UnderSuspicion",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "Scared",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "BaconDiamonds",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Jose_1",
+							PhraseId = "Openfire",
+							param_bindings = false,
+						}),
+					},
+					Enabled = false,
+					Keyword = "You’re with the Legion!",
+					KeywordT = T(560655426421, --[[ModItemConversation Jose_1 KeywordT]] "You're with the Legion!"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(765980304299, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:You’re with the Legion!]] "No, no, no! This is not true! Don't shoot me, boss! I mean... Maybe I had some dealings with the Legion in the past, but who doesn't? It is a small island."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Buns",
+											Text = T(494911643160, --[[ModItemConversation Jose_1 Text voice:Buns section:Jose_1 keyword:You’re with the Legion!]] 'Yet I am rather convinced you are part of the Legion "family".'),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "DrQ",
+											Text = T(656091369517, --[[ModItemConversation Jose_1 Text voice:DrQ section:Jose_1 keyword:You’re with the Legion!]] "It is difficult to hide one's true self on such a small island."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Thor",
+											Text = T(599649586933, --[[ModItemConversation Jose_1 Text voice:Thor section:Jose_1 keyword:You’re with the Legion!]] "My friend, you are hiding mostly from yourself. Let the truth set you free."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(454283331915, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:You’re with the Legion!]] "Look, just let me go to my family and I... I will give you <em>diamonds</em> from my secret stash, I swear!"),
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_threaten",
+					id = "YourewiththeLegion",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					AutoRemove = true,
+					Comment = "Gain Scared+Diamonds",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							Condition = "or",
+							QuestId = "JoseFamily",
+							Vars = {
+								Scared = true,
+								UnderSuspicion = true,
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								BaconDiamonds = false,
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('UnitSquadHasMerc', {
+							HasPerk = "Psycho",
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "UnderSuspicion",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "Scared",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "BaconDiamonds",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Jose_1",
+							PhraseId = "Openfire",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Jose_1",
+							Enabled = false,
+							PhraseId = "HandsUp_failure",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Hands up!",
+					KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
+					Lines = {
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fidel",
+											Text = T(648012258713, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Hands up!]] "It has been too long since the last time I killed someone! I'm getting itchy."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Meltdown",
+											Text = T(138260729514, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Hands up!]] "I got a hair trigger and a nasty rash on my finger. Got it?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Nails",
+											Text = T(518590108149, --[[ModItemConversation Jose_1 Text voice:Nails section:Jose_1 keyword:Hands up!]] "I can't help wondering what you'd look like dead."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(194856195654, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Hands up!]] "No, boss! Please, don't shoot! Look, just let me go to my family and I... I will give you <em>diamonds</em> from my secret stash, I swear!"),
+							param_bindings = false,
+						}),
+					},
+					NoBackOption = true,
+					StoryBranchIcon = "conversation_threaten",
+					id = "HandsUp_success",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							Condition = "or",
+							QuestId = "JoseFamily",
+							Vars = {
+								Scared = true,
+								UnderSuspicion = true,
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								BaconDiamonds = false,
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('UnitSquadHasMerc', {
+							HasPerk = "Psycho",
+							Negate = true,
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "UnderSuspicion",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Jose_1",
+							PhraseId = "Openfire",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Jose_1",
+							Enabled = false,
+							PhraseId = "HandsUp_success",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Hands up!",
+					KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(863019434578, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Hands up!]] "Non-non, no need for violence, boss! I've done nothing wrong! See? I'm cooperating."),
+							param_bindings = false,
+						}),
+					},
+					NoBackOption = true,
+					StoryBranchIcon = "conversation_threaten",
+					id = "HandsUp_failure",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Comment = "Gain 3 Tiny diamonds",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								BaconDiamonds = true,
+							},
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('GroupSetBehaviorExit', {
+							MarkerGroup = "East",
+							Running = true,
+							TargetUnit = "LegionRaider_Jose",
+							UseWeapons = true,
+							param_bindings = false,
+						}),
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "BaconDiamonds",
+							QuestId = "JoseFamily",
+							Set = false,
+							param_bindings = false,
+						}),
+						PlaceObj('UnitGrantItem', {
+							Amount = 3,
+							ItemId = "TinyDiamonds",
+							param_bindings = {
+								Amount = "DiamondsGain",
+							},
+						}),
+						PlaceObj('ExecuteCode', {
+							FuncCode = "TutorialHintsState.QuestChoice = true",
+							param_bindings = false,
+						}),
+					},
+					GoTo = "<end conversation>",
+					Keyword = "Hand over the diamonds",
+					KeywordT = T(967728070126, --[[ModItemConversation Jose_1 KeywordT]] "Hand over the diamonds"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(945363675509, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Hand over the diamonds]] "Bien sur! Please, take these. I just found them on the beach, I swear... All yours now. I... I can go? And... You won't shoot me in the back?"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fidel",
+											Text = T(549605059150, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Hand over the diamonds]] "No. Fidel like to aim for belly. More screaming that way."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Omryn",
+											Text = T(128574227840, --[[ModItemConversation Jose_1 Text voice:Omryn section:Jose_1 keyword:Hand over the diamonds]] "I only shoot people for money... and for food."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Steroid",
+											Text = T(180173666682, --[[ModItemConversation Jose_1 Text voice:Steroid section:Jose_1 keyword:Hand over the diamonds]] "Just drop your lunch money and run, little man!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Vicki",
+											Text = T(788492162617, --[[ModItemConversation Jose_1 Text voice:Vicki section:Jose_1 keyword:Hand over the diamonds]] "Life be full of mystery, mon. Only one way to find out."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					PhraseRolloverText = T(985683320118, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
+					StoryBranchIcon = "conversation_action",
+					id = "HandOverTheDiamonds",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Comment = "Start combat",
+					Effects = {
+						PlaceObj('GroupSetSide', {
+							Side = "enemy1",
+							TargetUnit = "LegionRaider_Jose",
+							param_bindings = false,
+						}),
+						PlaceObj('GroupAlert', {
+							TargetUnit = "LegionRaider_Jose",
+							param_bindings = false,
+						}),
+						PlaceObj('ExecuteCode', {
+							FuncCode = "TutorialHintsState.QuestChoice = true",
+							param_bindings = false,
+						}),
+					},
+					Enabled = false,
+					GoTo = "<end conversation>",
+					Keyword = "Die!",
+					KeywordT = T(482976736771, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(272789820167, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Die!]] "Merde!"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Annotation = "Laughing as if he just figured it's a great idea",
+											Character = "Fidel",
+											Text = T(618594213906, --[[ModItemConversation Jose_1 Text Laughing as if he just figured it's a great idea voice:Fidel section:Jose_1 keyword:Die!]] "Hehehehee... Bad news for you. Good news for Fidel!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Meltdown",
+											Text = T(748009394945, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Die!]] "Time to make some fur fly!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					PhraseRolloverText = T(320547678689, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
+					StoryBranchIcon = "conversation_attack",
+					id = "Openfire",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Comment = "Improve loot of second encounter",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								BaconDiamonds = true,
+								Scared = true,
+							},
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('GroupSetBehaviorExit', {
+							MarkerGroup = "East",
+							Running = true,
+							TargetUnit = "LegionRaider_Jose",
+							UseWeapons = true,
+							param_bindings = false,
+						}),
+						PlaceObj('ExecuteCode', {
+							FuncCode = "TutorialHintsState.QuestChoice = true",
+							param_bindings = false,
+						}),
+					},
+					GoTo = "<end conversation>",
+					Keyword = "You may go",
+					KeywordT = T(725537503858, --[[ModItemConversation Jose_1 KeywordT]] "You may go"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(336768732366, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:You may go]] "Thank you, boss, I knew you were kind and gentle people! I go now. Please... um... Please, don't shoot me in the back."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fidel",
+											Text = T(569961182685, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:You may go]] "No. Fidel like to aim for belly. More screaming that way."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Meltdown",
+											Text = T(934187065023, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:You may go]] "I'll consider it."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					PhraseRolloverText = T(473984065393, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
+					StoryBranchIcon = "conversation_goodbye",
+					id = "YouMayGo",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Comment = "If not Scared. Improve loot of second encounter",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								BaconDiamonds = false,
+								Scared = false,
+							},
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('GroupSetBehaviorExit', {
+							MarkerGroup = "East",
+							Running = true,
+							TargetUnit = "LegionRaider_Jose",
+							UseWeapons = true,
+							param_bindings = false,
+						}),
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "LeadFamily",
+							QuestId = "JoseFamily",
+							param_bindings = false,
+						}),
+						PlaceObj('ExecuteCode', {
+							FuncCode = "TutorialHintsState.QuestChoice = true",
+							param_bindings = false,
+						}),
+					},
+					GoTo = "<end conversation>",
+					Keyword = "Goodbye",
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(991976953419, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Goodbye]] "Very kind of you to let me be on my way. Thank you! If your travels take you through <em>the Rust</em> any time soon, you're welcome to visit my family. We'll give you all the hospitality you deserve. I'll give it to you good, I promise!"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Mouse",
+											Text = T(490260677012, --[[ModItemConversation Jose_1 Text voice:Mouse section:Jose_1 keyword:Goodbye]] "Is it just me, or did that sound like a threat?!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Wolf",
+											Text = T(226068021362, --[[ModItemConversation Jose_1 Text voice:Wolf section:Jose_1 keyword:Goodbye]] "Could have phrased that a little better."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fox",
+											Text = T(836121399190, --[[ModItemConversation Jose_1 Text voice:Fox section:Jose_1 keyword:Goodbye]] "If I had a dime for every man who promised me that, I could buy my own island."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					PhraseRolloverText = T(797164020855, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
+					StoryBranchIcon = "conversation_goodbye",
+					id = "Goodbye",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Comment = "If Scared",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JoseFamily",
+							Vars = {
+								BaconDiamonds = false,
+								Scared = true,
+							},
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('GroupSetBehaviorExit', {
+							MarkerGroup = "East",
+							Running = true,
+							TargetUnit = "LegionRaider_Jose",
+							UseWeapons = true,
+							param_bindings = false,
+						}),
+						PlaceObj('ExecuteCode', {
+							FuncCode = "TutorialHintsState.QuestChoice = true",
+							param_bindings = false,
+						}),
+					},
+					GoTo = "<end conversation>",
+					Keyword = "Goodbye",
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "LegionRaider_Jose",
+							Text = T(206183265191, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Goodbye]] "Thank you for sparing me, boss! Heavens bless you! I'm getting out of sight, right away! Thank you! Have a nice day! Au revoir!"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fidel",
+											Text = T(100312507456, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Goodbye]] "But why let go? Fidel no understand. Maybe we shoot him later?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					PhraseRolloverText = T(921461823582, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
+					StoryBranchIcon = "conversation_goodbye",
+					id = "Goodbye2",
+					param_bindings = false,
+				}),
+			}),
+			PlaceObj('ModItemConversation', {
+				AssignToGroup = "Witch",
+				DefaultActor = "Witch",
+				disabledInConflict = true,
+				group = "Farmland",
+				id = "Witch_1",
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('CheckGameState', {
+							GameState = "Night",
+							Negate = true,
+							param_bindings = false,
+						}),
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Witch",
+							Vars = set({
+	WitchCombat = false,
+	WitchDefeated = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "WitchMet",
+							QuestId = "Witch",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(116238170570, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Greeting]] "I welcome you to this consecrated ground. Let our souls touch in the spirit world."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Hitman",
+											Text = T(408202742980, --[[ModItemConversation Witch_1 Text voice:Hitman section:Witch_1 keyword:Greeting]] "How about we touch in the physical world first and see where it goes from there?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Thor",
+											Text = T(657024105849, --[[ModItemConversation Witch_1 Text voice:Thor section:Witch_1 keyword:Greeting]] "I can feel my aura gently rubbing against yours."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "DrQ",
+											Text = T(317150045804, --[[ModItemConversation Witch_1 Text voice:DrQ section:Witch_1 keyword:Greeting]] "You honor me with your offer."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "Greeting",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('CheckGameState', {
+							GameState = "Night",
+							Negate = true,
+							param_bindings = false,
+						}),
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Witch",
+							Vars = set({
+	Completed = false,
+	WitchCombat = false,
+	WitchDefeated = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(544773560952, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Greeting2]] "Are you here to receive guidance for your soul, or do you need your body to be mended?"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Hitman",
+											Text = T(466952719670, --[[ModItemConversation Witch_1 Text voice:Hitman section:Witch_1 keyword:Greeting2]] "I need guidance for my body!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Larry_Clean",
+											Text = T(567668618337, --[[ModItemConversation Witch_1 Text voice:Larry_Clean section:Witch_1 keyword:Greeting2]] "The Doctor told me I need a lot of both of those things."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Gus",
+											Text = T(332662035222, --[[ModItemConversation Witch_1 Text voice:Gus section:Witch_1 keyword:Greeting2]] "Got anything to cure a limp?"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "Witch",
+											Text = T(830006633586, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Greeting2]] "Some would say so."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "Greeting2",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('CheckGameState', {
+							GameState = "Night",
+							param_bindings = false,
+						}),
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Witch",
+							Vars = set({
+	Completed = false,
+	WitchDefeated = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "WitchMet",
+							QuestId = "Witch",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(398256245811, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Greeting3]] "Why are you in the house of spirits at night?! You are not welcome here! Be gone at once, or I will summon <em>vengeful spirits</em> upon you!"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Steroid",
+											Text = T(929696050451, --[[ModItemConversation Witch_1 Text voice:Steroid section:Witch_1 keyword:Greeting3]] "Oh no! G-g-ghosts!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Vicki",
+											Text = T(864573871921, --[[ModItemConversation Witch_1 Text voice:Vicki section:Witch_1 keyword:Greeting3]] "Don't you be waving no evil spirits at me, I don't scare so easily."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fauda",
+											Text = T(835196293350, --[[ModItemConversation Witch_1 Text voice:Fauda section:Witch_1 keyword:Greeting3]] "Go ahead and summon them and I will send them back to Shaitan!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "Greeting3",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('CheckGameState', {
+							GameState = "Night",
+							param_bindings = false,
+						}),
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Witch",
+							Vars = set({
+	Completed = false,
+	WitchDefeated = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					GoTo = "CombatRedirect",
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(891445319508, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Greeting4]] "I have warned you."),
+							param_bindings = false,
+						}),
+					},
+					PlayGoToPhrase = true,
+					id = "Greeting4",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Witch",
+							Vars = set({
+	EvilWitch = false,
+	GoodWitch = false,
+	WitchDefeated = true,
+	WitchExposed = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(153418267914, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Greeting5]] "You have destroyed the reincarnations of my late husbands. Their spirits have left this plane and they are no longer here to guide me. I submit to your power."),
+							param_bindings = false,
+						}),
+					},
+					id = "Greeting5",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Witch",
+							Vars = set({
+	EvilWitch = false,
+	GoodWitch = false,
+	WitchDefeated = true,
+	WitchExposed = true,
+}),
+							param_bindings = false,
+						}),
+						PlaceObj('GroupIsDead', {
+							Group = "Crocs",
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Witch_1",
+							Enabled = false,
+							PhraseId = "Youareforcingthemen_success.Thisisunfair",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Witch_1",
+							Enabled = false,
+							PhraseId = "Youareforcingthemen_success.Whatifwetellthemyoursecret",
+							param_bindings = false,
+						}),
+					},
+					GoTo = "Youareforcingthemen_success",
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(109903740880, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Greeting8]] "You have destroyed the reincarnations of my late husbands. Their spirits have left this plane and they are no longer here to guide me. I submit to your power."),
+							param_bindings = false,
+						}),
+					},
+					id = "Greeting8",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Witch",
+							Vars = set( "GoodWitch" ),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(314986595371, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Greeting6]] "I am here to serve this land and all its people."),
+							param_bindings = false,
+						}),
+					},
+					id = "Greeting6",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Comment = "used for EvilWitch outcomes, but it may serve for default Greeting for just in case.",
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(830755903509, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Greeting7]] "What do you ask of the spirits?"),
+							param_bindings = false,
+						}),
+					},
+					id = "Greeting7",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "WitchCombat",
+							QuestId = "Witch",
+							param_bindings = false,
+						}),
+					},
+					Enabled = false,
+					GoTo = "<end conversation>",
+					Keyword = "CombatRedirect",
+					KeywordT = T(236527406375, --[[ModItemConversation Witch_1 KeywordT]] "CombatRedirect"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(714993329598, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:CombatRedirect]] "<em>Spirit</em>, <em>Specter</em>, <em>Phantom</em> and <em>Ghost</em>, I command thee! With your powers combined, devour these bodies!"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Larry",
+											Text = T(716890700248, --[[ModItemConversation Witch_1 Text voice:Larry section:Witch_1 keyword:CombatRedirect]] "Phew, we're so lucky not all five of them are around. They would have summoned Captain Croc or something."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Steroid",
+											Text = T(736369918346, --[[ModItemConversation Witch_1 Text voice:Steroid section:Witch_1 keyword:CombatRedirect]] "She has summoned flesh-eating ghosts! Hide!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Raider",
+											Text = T(614910653548, --[[ModItemConversation Witch_1 Text voice:Raider section:Witch_1 keyword:CombatRedirect]] "Team, prepare for a croc attack."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "CombatRedirect",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Effects = {
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Witch_1",
+							PhraseId = "WhathappenedtoWassergrab",
+							param_bindings = false,
+						}),
+						PlaceObj('SectorEnableCustomOperation', {
+							DisplayLog = true,
+							operation = "HospitalTreatmentWitch",
+							param_bindings = false,
+							sector_id = "J18",
+						}),
+					},
+					Keyword = "Are you some kind of Shaman?",
+					KeywordT = T(172882438613, --[[ModItemConversation Witch_1 KeywordT]] "Are you some kind of Shaman?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(718670272260, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Are you some kind of Shaman?]] "Yes, I am Lami, healer of the body and guide of the soul. I take care of the people of <em>Wassergrab</em> and satisfy their many needs. And their needs have grown ever since their greed brought devastation to this land."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Conditions = {
+										PlaceObj('QuestIsVariableBool', {
+											QuestId = "Witch",
+											Vars = set({
+	Completed = false,
+	Given = true,
+}),
+											param_bindings = false,
+										}),
+									},
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fox",
+											Text = T(648114606112, --[[ModItemConversation Witch_1 Text voice:Fox section:Witch_1 keyword:Are you some kind of Shaman?]] "Looks like you're taking care of a wide range of their needs, mmm?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Conditions = {
+										PlaceObj('QuestIsVariableBool', {
+											QuestId = "Witch",
+											Vars = set({
+	Completed = false,
+	Given = true,
+}),
+											param_bindings = false,
+										}),
+									},
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Ice",
+											Text = T(474936905784, --[[ModItemConversation Witch_1 Text voice:Ice section:Witch_1 keyword:Are you some kind of Shaman?]] "Word on the street is they got you up all night satisfying needs."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Conditions = {
+										PlaceObj('QuestIsVariableBool', {
+											QuestId = "Witch",
+											Vars = set({
+	Completed = false,
+	Given = true,
+}),
+											param_bindings = false,
+										}),
+									},
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Magic",
+											Text = T(325185443026, --[[ModItemConversation Witch_1 Text voice:Magic section:Witch_1 keyword:Are you some kind of Shaman?]] "Sister, you must be exhausted."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "AreyousomekindofShaman",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Enabled = false,
+					Keyword = "What happened to Wassergrab?",
+					KeywordT = T(831948212266, --[[ModItemConversation Witch_1 KeywordT]] "What happened to Wassergrab?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(812631036210, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:What happened to Wassergrab?]] "It was a peaceful village until they discovered diamonds and started digging. They devastated their streets and fields, dug under their church and destroyed their own houses. Their greed attracted evil men, who enslaved them."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Ice",
+											Text = T(289634011348, --[[ModItemConversation Witch_1 Text voice:Ice section:Witch_1 keyword:What happened to Wassergrab?]] "More money, more problems."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Conditions = {
+										PlaceObj('QuestIsVariableBool', {
+											QuestId = "Witch",
+											Vars = set( "Given" ),
+											param_bindings = false,
+										}),
+									},
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Annotation = "Another nerd LOTR reference",
+											Character = "Larry",
+											Text = T(572895898253, --[[ModItemConversation Witch_1 Text Another nerd LOTR reference voice:Larry section:Witch_1 keyword:What happened to Wassergrab?]] "They delved too greedily and too deep, man!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Conditions = {
+										PlaceObj('QuestIsVariableBool', {
+											QuestId = "Witch",
+											Vars = set({
+	Given = true,
+	WitchExposed = false,
+}),
+											param_bindings = false,
+										}),
+									},
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Raven",
+											Text = T(883544706780, --[[ModItemConversation Witch_1 Text voice:Raven section:Witch_1 keyword:What happened to Wassergrab?]] "It doesn't sound like you're doing much to help them out."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Conditions = {
+										PlaceObj('QuestIsVariableBool', {
+											QuestId = "Witch",
+											Vars = set( "WitchExposed" ),
+											param_bindings = false,
+										}),
+									},
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Raven",
+											Text = T(759765681690, --[[ModItemConversation Witch_1 Text voice:Raven section:Witch_1 keyword:What happened to Wassergrab?]] "Says who, the person who is using them for unwitting labor?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "WhathappenedtoWassergrab",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Witch",
+							Vars = set({
+	WitchDefeated = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Are those crocs yours?",
+					KeywordT = T(678953807047, --[[ModItemConversation Witch_1 KeywordT]] "Are those crocs yours?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(791823169205, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Are those crocs yours?]] "In a sense. I have walked-in the souls of my late husbands to each one of them. I have borrowed their bodies and enchanted them to become my guardians."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Scully",
+											Text = T(657249376290, --[[ModItemConversation Witch_1 Text voice:Scully section:Witch_1 keyword:Are those crocs yours?]] "And I thought I was the one obsessed with his exes."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Hitman",
+											Text = T(382900283542, --[[ModItemConversation Witch_1 Text voice:Hitman section:Witch_1 keyword:Are those crocs yours?]] "I wonder if that counts as polygamy, or maybe just that you're a happy widow."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Barry",
+											Text = T(267969558656, --[[ModItemConversation Witch_1 Text voice:Barry section:Witch_1 keyword:Are those crocs yours?]] "This is most evil and wicked."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fox",
+											Text = T(689500008402, --[[ModItemConversation Witch_1 Text voice:Fox section:Witch_1 keyword:Are those crocs yours?]] "Are you still doing it with...?"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "Witch",
+											Text = T(902702355175, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Are those crocs yours?]] "No."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Mouse",
+											Text = T(120074591170, --[[ModItemConversation Witch_1 Text voice:Mouse section:Witch_1 keyword:Are those crocs yours?]] "So... you are taken... in a sense?"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "Witch",
+											Text = T(117410745130, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Are those crocs yours?]] "Actually no."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							MaxPlayed = 2,
+							param_bindings = false,
+						}),
+					},
+					id = "Arethosecrocsyours",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					AutoRemove = true,
+					Comment = "talk to the Witch at night >> learn about the Hole",
+					Conditions = {
+						PlaceObj('CheckGameState', {
+							GameState = "Night",
+							param_bindings = false,
+						}),
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Witch",
+							Vars = set({
+	Completed = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "WitchHole",
+							QuestId = "Witch",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Where is the man who entered your house?",
+					KeywordT = T(270030419531, --[[ModItemConversation Witch_1 KeywordT]] "Where is the man who entered your house?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(620513126512, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Where is the man who entered your house?]] "He is down the hole on a spirit journey in the holy cave of our ancestors. I shall join him soon to complete the ritual of unity. Be gone from here, and meddle not in things you do not understand."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Hitman",
+											Text = T(318139650506, --[[ModItemConversation Witch_1 Text voice:Hitman section:Witch_1 keyword:Where is the man who entered your house?]] 'Yeah, right, a "ritual".'),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Nails",
+											Text = T(587846472764, --[[ModItemConversation Witch_1 Text voice:Nails section:Witch_1 keyword:Where is the man who entered your house?]] "You, uh, get a lot of guys come in here and explore your hole?"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "Witch",
+											Text = T(547044842693, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Where is the man who entered your house?]] "Only those with the proper amount of stamina."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Grizzly",
+											Text = T(637871614551, --[[ModItemConversation Witch_1 Text voice:Grizzly section:Witch_1 keyword:Where is the man who entered your house?]] "Oh, I don't want to meddle, but I think I might like to watch."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "Whereisthemanwhoenteredyourhouse",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					AutoRemove = true,
+					Comment = "Option to get the quest if never gotten it from Wassergrab",
+					Conditions = {
+						PlaceObj('CheckGameState', {
+							GameState = "Night",
+							Negate = true,
+							param_bindings = false,
+						}),
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Witch",
+							Vars = set({
+	Completed = false,
+	SetpiecePlayed = true,
+	WitchExposed = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Witch_1",
+							PhraseId = "TellusmoreabouttheSpiritWorld",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Where is the man who entered your house?",
+					KeywordT = T(270030419531, --[[ModItemConversation Witch_1 KeywordT]] "Where is the man who entered your house?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(957635514551, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Where is the man who entered your house?]] "I am a bridge between our world and the <em>Spirit World</em>. He walked through me last night, and I have guided his soul."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Hitman",
+											Text = T(204046049650, --[[ModItemConversation Witch_1 Text voice:Hitman section:Witch_1 keyword:Where is the man who entered your house?]] "Damn, lady, I feel lost! Can you guide my soul as well? I promise we'll be walking in the Spirit World all night long!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fox",
+											Text = T(559577753343, --[[ModItemConversation Witch_1 Text voice:Fox section:Witch_1 keyword:Where is the man who entered your house?]] "Walking in the Spirit World? I don't think I've heard it called that before!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Thor",
+											Text = T(213787757629, --[[ModItemConversation Witch_1 Text voice:Thor section:Witch_1 keyword:Where is the man who entered your house?]] "That is beautiful. Two souls joining and moving... in and out... My aura feels flushed and tingling."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "Whathappenedtothatman",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					AutoRemove = true,
+					Comment = "Get the quest with perk check",
+					Conditions = {
+						PlaceObj('CheckGameState', {
+							GameState = "Night",
+							Negate = true,
+							param_bindings = false,
+						}),
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Witch",
+							Vars = set({
+	Completed = false,
+	Given = false,
+	SetpiecePlayed = true,
+	WitchExposed = false,
+}),
+							param_bindings = false,
+						}),
+						PlaceObj('CheckOR', {
+							Conditions = {
+								PlaceObj('UnitSquadHasMerc', {
+									HasPerk = "Spiritual",
+									param_bindings = false,
+								}),
+								PlaceObj('UnitSquadHasMerc', {
+									HasPerk = "Negotiator",
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					Enabled = false,
+					GoTo = "RedirectRituals",
+					Keyword = "Tell us more about the “Spirit World”",
+					KeywordT = T(689487641911, --[[ModItemConversation Witch_1 KeywordT]] "Tell us more about the “Spirit World”"),
+					Lines = {
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Thor",
+											Text = T(907051076039, --[[ModItemConversation Witch_1 Text voice:Thor section:Witch_1 keyword:Tell us more about the “Spirit World”]] "Enlighten me about the Spirit World."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Barry",
+											Text = T(503630448621, --[[ModItemConversation Witch_1 Text voice:Barry section:Witch_1 keyword:Tell us more about the “Spirit World”]] "This sounds like pagan nonsense."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Reaper",
+											Text = T(117797052001, --[[ModItemConversation Witch_1 Text voice:Reaper section:Witch_1 keyword:Tell us more about the “Spirit World”]] "I only know one way to get to the Spirit World."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Omryn",
+											Text = T(456636362352, --[[ModItemConversation Witch_1 Text voice:Omryn section:Witch_1 keyword:Tell us more about the “Spirit World”]] "You will talk of Spirit World. I will have snack."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Buns",
+											Text = T(817944841804, --[[ModItemConversation Witch_1 Text voice:Buns section:Witch_1 keyword:Tell us more about the “Spirit World”]] "If I promise not to laugh, will you tell me about the Spirit World?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Raider",
+											Text = T(419947439590, --[[ModItemConversation Witch_1 Text voice:Raider section:Witch_1 keyword:Tell us more about the “Spirit World”]] "I'm guessing the Spirit World isn't a place I can find on a map, right?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Sidney",
+											Text = T(490141849632, --[[ModItemConversation Witch_1 Text voice:Sidney section:Witch_1 keyword:Tell us more about the “Spirit World”]] "I've travelled a great deal over the years, but I've never visited the Spirit World. I'm keen to learn more about it."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					PlayGoToPhrase = true,
+					StoryBranchIcon = "conversation_arrow",
+					id = "TellusmoreabouttheSpiritWorld",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					AutoRemove = true,
+					Comment = "Get the quest with having discovered the Hole",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Witch",
+							Vars = set({
+	Completed = false,
+	Given = false,
+	WitchExposed = false,
+	WitchHole = true,
+}),
+							param_bindings = false,
+						}),
+					},
+					GoTo = "RedirectRituals",
+					Keyword = "Why is there a shaft near your hut?",
+					KeywordT = T(813864200765, --[[ModItemConversation Witch_1 KeywordT]] "Why is there a shaft near your hut?"),
+					PlayGoToPhrase = true,
+					id = "Whythereisashaftinyourhut",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					AutoRemove = true,
+					Comment = "Already having the quest",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Witch",
+							Vars = set({
+	Completed = false,
+	Given = true,
+	WitchExposed = false,
+	WitchHole = false,
+}),
+							param_bindings = false,
+						}),
+						PlaceObj('CheckGameState', {
+							GameState = "Night",
+							Negate = true,
+							param_bindings = false,
+						}),
+					},
+					GoTo = "RedirectRituals",
+					Keyword = "What are you doing to the men of Wassergrab?",
+					KeywordT = T(967963056122, --[[ModItemConversation Witch_1 KeywordT]] "What are you doing to the men of Wassergrab?"),
+					PlayGoToPhrase = true,
+					id = "WhatareyoudoingtothemenofWassergrab",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					AutoRemove = true,
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "Given",
+							QuestId = "Witch",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Witch_1",
+							Enabled = false,
+							PhraseId = "Whathappenedtothatman",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Witch_1",
+							Enabled = false,
+							PhraseId = "TellusmoreabouttheSpiritWorld",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Witch_1",
+							Enabled = false,
+							PhraseId = "Whythereisashaftinyourhut",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Witch_1",
+							Enabled = false,
+							PhraseId = "WhatareyoudoingtothemenofWassergrab",
+							param_bindings = false,
+						}),
+					},
+					Enabled = false,
+					Keyword = "RedirectRituals",
+					KeywordT = T(105000732685, --[[ModItemConversation Witch_1 KeywordT]] "RedirectRituals"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(629518924365, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:RedirectRituals]] "Men from the village come to me for guidance every night, and I am joining with their bodies and souls in search of the wisdom of the spirits... All night long."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Conditions = {
+										PlaceObj('CheckGameState', {
+											GameState = "Night",
+											param_bindings = false,
+										}),
+									},
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Mouse",
+											Text = T(659888355532, --[[ModItemConversation Witch_1 Text voice:Mouse section:Witch_1 keyword:RedirectRituals]] "A dark hole doesn't look like the most comfortable place for a, err, joining... But you make it sound hot! Ow, did I say that?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Conditions = {
+										PlaceObj('CheckGameState', {
+											GameState = "Night",
+											param_bindings = false,
+										}),
+									},
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fox",
+											Text = T(707486358099, --[[ModItemConversation Witch_1 Text voice:Fox section:Witch_1 keyword:RedirectRituals]] "At the bottom of a dark hole, huh? Kinky."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Hitman",
+											Text = T(893323433066, --[[ModItemConversation Witch_1 Text voice:Hitman section:Witch_1 keyword:RedirectRituals]] "Where do I sign up for a ritual or two?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Barry",
+											Text = T(133585167322, --[[ModItemConversation Witch_1 Text voice:Barry section:Witch_1 keyword:RedirectRituals]] "You wicked witch! You are raping men in your pit of sin!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Red",
+											Text = T(109023264307, --[[ModItemConversation Witch_1 Text voice:Red section:Witch_1 keyword:RedirectRituals]] "Och! I remember when I used to be able to search for the wisdom of the spirits all night long."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "MD",
+											Text = T(724697360920, --[[ModItemConversation Witch_1 Text voice:MD section:Witch_1 keyword:RedirectRituals]] "ALL night long? I mean, you take breaks and stuff... right?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Smiley",
+											Text = T(292095514350, --[[ModItemConversation Witch_1 Text voice:Smiley section:Witch_1 keyword:RedirectRituals]] "This is a gift you are giving. I wish to show you my spirit. Should I just take it out now?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Thor",
+											Text = T(477503973009, --[[ModItemConversation Witch_1 Text voice:Thor section:Witch_1 keyword:RedirectRituals]] "I feel my soul swelling just thinking about it."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Buns",
+											Text = T(702437407978, --[[ModItemConversation Witch_1 Text voice:Buns section:Witch_1 keyword:RedirectRituals]] "You could try just teaching them how to practice self-love... That sounded different in my head."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "RedirectRituals",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Comment = "Have all clues >> Expose the witch",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Witch",
+							Vars = set({
+	EvilWitch = false,
+	Given = true,
+	GoodWitch = false,
+	WitchCauldron = true,
+	WitchHole = true,
+}),
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "WitchExposed",
+							QuestId = "Witch",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "You are forcing the men to dig for diamonds",
+					KeywordT = T(542327923747, --[[ModItemConversation Witch_1 KeywordT]] "You are forcing the men to dig for diamonds"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(400782430995, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:You are forcing the men to dig for diamonds]] "I am not exactly forcing them. They come willingly, thinking they will enjoy a night of sexual satisfaction."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Hitman",
+											Text = T(534041979787, --[[ModItemConversation Witch_1 Text voice:Hitman section:Witch_1 keyword:You are forcing the men to dig for diamonds]] "Who can blame them?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Livewire",
+											Text = T(945316699782, --[[ModItemConversation Witch_1 Text voice:Livewire section:Witch_1 keyword:You are forcing the men to dig for diamonds]] "But you turn the tables and use them to get money! It's the honey pot! I love that scam."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Nails",
+											Text = T(145650718885, --[[ModItemConversation Witch_1 Text voice:Nails section:Witch_1 keyword:You are forcing the men to dig for diamonds]] "I bet they do!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(185886316955, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:You are forcing the men to dig for diamonds]] "What actually happens is I give them a drug to induce submission and a mild euphoria. Then, I have them dig <em>diamonds</em> for me. In the morning they remember nothing, so they go home exhausted and full of happy thoughts."),
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_arrow",
+					id = "Youareforcingthemen_success",
+					param_bindings = false,
+					PlaceObj('ConversationPhrase', {
+						Keyword = "This is unfair",
+						KeywordT = T(409616881637, --[[ModItemConversation Witch_1 KeywordT]] "This is unfair"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "Witch",
+								Text = T(514840302300, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:This is unfair]] "Why? I'm selling a dream and they are willingly buying it. Is it my fault that men are stupid?"),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Fox",
+												Text = T(804632396999, --[[ModItemConversation Witch_1 Text voice:Fox section:Witch_1 keyword:This is unfair]] "I hear you, girl!"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Buns",
+												Text = T(644404688133, --[[ModItemConversation Witch_1 Text voice:Buns section:Witch_1 keyword:This is unfair]] "When you put it that way, I tend to agree."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Meltdown",
+												Text = T(273042385574, --[[ModItemConversation Witch_1 Text voice:Meltdown section:Witch_1 keyword:This is unfair]] "Wasn't sure I liked you, at first. Now I know I do."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_threaten",
+						id = "Thisisunfair",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Keyword = "What if we tell them your secret?",
+						KeywordT = T(952592829904, --[[ModItemConversation Witch_1 KeywordT]] "What if we tell them your secret?"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "Witch",
+								Text = T(154017789439, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:What if we tell them your secret?]] "You are welcome to try. I don't think anyone will believe you. Over the mundane reality, people always prefer the exciting dream."),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "DrQ",
+												Text = T(274874042152, --[[ModItemConversation Witch_1 Text voice:DrQ section:Witch_1 keyword:What if we tell them your secret?]] "Indeed. Most often, we perceive the reality we wish to believe."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Kalyna",
+												Text = T(484456049807, --[[ModItemConversation Witch_1 Text voice:Kalyna section:Witch_1 keyword:What if we tell them your secret?]] "Hey! I identify with that remark."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Omryn",
+												Text = T(244006633087, --[[ModItemConversation Witch_1 Text voice:Omryn section:Witch_1 keyword:What if we tell them your secret?]] "This is why I like sleeping."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_sarcastic",
+						id = "Whatifwetellthemyoursecret",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						AutoRemove = true,
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set({
+	EvilWitch = false,
+	GoodWitch = false,
+	WitchDefeated = false,
+}),
+								param_bindings = false,
+							}),
+						},
+						Effects = {
+							PlaceObj('PhraseSetEnabled', {
+								Conversation = "Witch_1",
+								PhraseId = "Youareforcingthemen_success.Handsup",
+								param_bindings = false,
+							}),
+						},
+						Keyword = "You have to stop doing this",
+						KeywordT = T(868418058998, --[[ModItemConversation Witch_1 KeywordT]] "You have to stop doing this"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "Witch",
+								Text = T(372357909903, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:You have to stop doing this]] "And what if I don't? Will you just shoot me? No, you won't, because I am under the protection of powerful spirits. And even if you do, you will only rob the villagers of their dream."),
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_threaten",
+						id = "Youhavetostopdoingthis",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						AutoRemove = true,
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set({
+	EvilWitch = false,
+	GoodWitch = false,
+	WitchDefeated = false,
+}),
+								param_bindings = false,
+							}),
+						},
+						Enabled = false,
+						GoTo = "Handsup",
+						Keyword = "Hands up!",
+						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
+						PlayGoToPhrase = true,
+						StoryBranchIcon = "conversation_arrow",
+						id = "Handsup",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						AutoRemove = true,
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set({
+	EvilWitch = false,
+	GoodWitch = false,
+	WitchDefeated = false,
+}),
+								param_bindings = false,
+							}),
+						},
+						Effects = {
+							PlaceObj('PhraseSetEnabled', {
+								Conversation = "Witch_1",
+								PhraseId = "Youareforcingthemen_success.Wellkeepyoursecret",
+								param_bindings = false,
+							}),
+						},
+						Keyword = "What you're doing is actually cool",
+						KeywordT = T(649599245253, --[[ModItemConversation Witch_1 KeywordT]] "What you're doing is actually cool"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "Witch",
+								Text = T(481307218413, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:What you're doing is actually cool]] "I am glad that you understand. Will you keep my secret? Let it become... our secret. If you will honor me as the beautiful and terrible witch, the mistress of this land, I will even share with you a thing or two."),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Hitman",
+												Text = T(602555792904, --[[ModItemConversation Witch_1 Text voice:Hitman section:Witch_1 keyword:What you're doing is actually cool]] "Oh, I'll honor you! I'd honor you twice if you let me!"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Mouse",
+												Text = T(654622828009, --[[ModItemConversation Witch_1 Text voice:Mouse section:Witch_1 keyword:What you're doing is actually cool]] "Ooh... It is quite hot in here, isn't it?"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Grizzly",
+												Text = T(306079727047, --[[ModItemConversation Witch_1 Text voice:Grizzly section:Witch_1 keyword:What you're doing is actually cool]] "What you want to share wouldn't happen to be at the bottom of a hole, would it?"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "Witch",
+								Text = T(947951091002, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:What you're doing is actually cool]] "Indeed, I am willing to offer you <em>diamonds</em>... and more."),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Raider",
+												Text = T(480205026052, --[[ModItemConversation Witch_1 Text voice:Raider section:Witch_1 keyword:What you're doing is actually cool]] "Thanks, but we'll stick with the diamonds."),
+												param_bindings = false,
+											}),
+											PlaceObj('ConversationLine', {
+												Character = "Raven",
+												Text = T(300019581507, --[[ModItemConversation Witch_1 Text voice:Raven section:Witch_1 keyword:What you're doing is actually cool]] "Damn right you'll stick with the diamonds."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Fox",
+												Text = T(415490609778, --[[ModItemConversation Witch_1 Text voice:Fox section:Witch_1 keyword:What you're doing is actually cool]] "Where have I heard THAT before..."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Kalyna",
+												Text = T(447461509526, --[[ModItemConversation Witch_1 Text voice:Kalyna section:Witch_1 keyword:What you're doing is actually cool]] "A witch's bargain?! How exciting! Hang on, I have a book that talks all about this kind of thing."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_friendly",
+						id = "Whatyouredoingisactuallycool",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						AutoRemove = true,
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set({
+	EvilWitch = false,
+	GoodWitch = false,
+	WitchDefeated = false,
+}),
+								param_bindings = false,
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "EvilWitch",
+								QuestId = "Witch",
+								param_bindings = false,
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Medium",
+								param_bindings = false,
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 10,
+								City = "Payak",
+								SpecialConversationMessage = T(439752626200, --[[ModItemConversation Witch_1 SpecialConversationMessage]] "supported <em>Lami the Witch</em>"),
+								param_bindings = false,
+							}),
+							PlaceObj('UnitGrantItem', {
+								LootTableId = "Witch_Reward",
+								param_bindings = false,
+							}),
+						},
+						Enabled = false,
+						GoTo = "<end conversation>",
+						Keyword = "We’ll keep your secret",
+						KeywordT = T(784474152791, --[[ModItemConversation Witch_1 KeywordT]] "We’ll keep your secret"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "Witch",
+								Text = T(352519816847, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:We’ll keep your secret]] "Then you deserve to be rewarded."),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Hitman",
+												Text = T(988155482202, --[[ModItemConversation Witch_1 Text voice:Hitman section:Witch_1 keyword:We’ll keep your secret]] "Yeah, just let's skip the part with the drugs, shall we?"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Annotation = "With enthusiasm",
+												Character = "Mouse",
+												Text = T(471432338845, --[[ModItemConversation Witch_1 Text With enthusiasm voice:Mouse section:Witch_1 keyword:We’ll keep your secret]] "Yes!"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Larry",
+												Text = T(933514532187, --[[ModItemConversation Witch_1 Text voice:Larry section:Witch_1 keyword:We’ll keep your secret]] "Whatever you've been giving those villager dudes, just make mine a double."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_arrow",
+						id = "Wellkeepyoursecret",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						AutoRemove = true,
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set({
+	EvilWitch = false,
+	GoodWitch = false,
+	WitchDefeated = true,
+}),
+								param_bindings = false,
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "GoodWitch",
+								QuestId = "Witch",
+								param_bindings = false,
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Medium",
+								param_bindings = false,
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 30,
+								City = "Payak",
+								SpecialConversationMessage = T(721538074035, --[[ModItemConversation Witch_1 SpecialConversationMessage]] "<em>Lami the Witch</em> changed her evil ways"),
+								param_bindings = false,
+							}),
+						},
+						GoTo = "<end conversation>",
+						Keyword = "You will stop exploiting those men",
+						KeywordT = T(484124195763, --[[ModItemConversation Witch_1 KeywordT]] "You will stop exploiting those men"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "Witch",
+								Text = T(837216511581, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:You will stop exploiting those men]] "I will comply. Ever since you defeated my late husbands, I am in your power. "),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Scully",
+												Text = T(875145755469, --[[ModItemConversation Witch_1 Text voice:Scully section:Witch_1 keyword:You will stop exploiting those men]] "Whoa there, lady! That escalated quickly. I been married eight times and I'm not ready to make another future ex-wife just yet."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Hitman",
+												Text = T(290332887867, --[[ModItemConversation Witch_1 Text voice:Hitman section:Witch_1 keyword:You will stop exploiting those men]] "Whoa... ENTIRELY in our power?"),
+												param_bindings = false,
+											}),
+											PlaceObj('ConversationLine', {
+												Character = "Witch",
+												Text = T(879290099809, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:You will stop exploiting those men]] "I can gouge out your eyes while you sleep and put them on a crocodile's skull."),
+												param_bindings = false,
+											}),
+											PlaceObj('ConversationLine', {
+												Character = "Hitman",
+												Text = T(940550362074, --[[ModItemConversation Witch_1 Text voice:Hitman section:Witch_1 keyword:You will stop exploiting those men]] "Uh, I'll take that as a no."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Shadow",
+												Text = T(154725228648, --[[ModItemConversation Witch_1 Text voice:Shadow section:Witch_1 keyword:You will stop exploiting those men]] "Until she gets a chance to feed us to another batch of crocs."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "Witch",
+								Text = T(257488088802, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:You will stop exploiting those men]] "I shall become the healer and guide the people of Wassergrab do not deserve, but guide and help them, I will. Greater powers have commanded me, and I obey."),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Fidel",
+												Text = T(332490380513, --[[ModItemConversation Witch_1 Text voice:Fidel section:Witch_1 keyword:You will stop exploiting those men]] "Fidel is greater power! Omnipotent Fidel!!!"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Flay",
+												Text = T(186934828841, --[[ModItemConversation Witch_1 Text voice:Flay section:Witch_1 keyword:You will stop exploiting those men]] "It is nice to be recognized."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Steroid",
+												Text = T(636330812067, --[[ModItemConversation Witch_1 Text voice:Steroid section:Witch_1 keyword:You will stop exploiting those men]] "Don't feel bad. You are strong, for a girl."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_arrow",
+						id = "Youwillstopexploitingthosemen",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						AutoRemove = true,
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set({
+	EvilWitch = false,
+	GoodWitch = false,
+	WitchDefeated = true,
+}),
+								param_bindings = false,
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "EvilWitch",
+								QuestId = "Witch",
+								param_bindings = false,
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Medium",
+								param_bindings = false,
+							}),
+							PlaceObj('UnitGrantItem', {
+								LootTableId = "Witch_Bribe",
+								param_bindings = false,
+							}),
+						},
+						GoTo = "<end conversation>",
+						Keyword = "You will share your profit with us",
+						KeywordT = T(543514620380, --[[ModItemConversation Witch_1 KeywordT]] "You will share your profit with us"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "Witch",
+								Text = T(115231515919, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:You will share your profit with us]] "I will comply. Ever since you defeated my late husbands, I am in your power. "),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Scully",
+												Text = T(172686231918, --[[ModItemConversation Witch_1 Text voice:Scully section:Witch_1 keyword:You will share your profit with us]] "Whoa there, lady! That escalated quickly. I been married eight times and I'm not ready to make another future ex-wife just yet."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Fox",
+												Text = T(752565699667, --[[ModItemConversation Witch_1 Text voice:Fox section:Witch_1 keyword:You will share your profit with us]] "Mmm, domination feels good."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Smiley",
+												Text = T(667904904858, --[[ModItemConversation Witch_1 Text voice:Smiley section:Witch_1 keyword:You will share your profit with us]] "I wish it always worked like that."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "Witch",
+								Text = T(239935413976, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:You will share your profit with us]] "Here, this is all I have. I hope it is enough for you. Now please leave this place - I need to bury my husbands' hosts and summon more fools to restore my losses."),
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_arrow",
+						id = "Youwillshareyourprofitwithus",
+						param_bindings = false,
+					}),
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Comment = "Not enough clues",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Witch",
+							Vars = set({
+	EvilWitch = false,
+	Given = true,
+	GoodWitch = false,
+	WitchCauldron = false,
+	WitchHole = true,
+}),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "You are forcing the men to dig for diamonds",
+					KeywordT = T(542327923747, --[[ModItemConversation Witch_1 KeywordT]] "You are forcing the men to dig for diamonds"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(245111933446, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:You are forcing the men to dig for diamonds]] "How could I force anyone? I am a woman, and they are big strong men. And besides, has any one complained that I am exploiting them like that?"),
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_arrow",
+					id = "Youareforcingthemen_failure",
+					param_bindings = false,
+					PlaceObj('ConversationPhrase', {
+						Conditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('UnitSquadHasMerc', {
+										HasPerk = "Scoundrel",
+										param_bindings = false,
+									}),
+									PlaceObj('UnitSquadHasMerc', {
+										Name = "Larry",
+										param_bindings = false,
+									}),
+									PlaceObj('UnitSquadHasMerc', {
+										Name = "Larry_Clean",
+										param_bindings = false,
+									}),
+									PlaceObj('UnitSquadHasMerc', {
+										HasStat = "Wisdom",
+										StatValue = 90,
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+						},
+						GoTo = "Youareforcingthemen_success",
+						Keyword = "You are probably drugging them",
+						KeywordT = T(263236088434, --[[ModItemConversation Witch_1 KeywordT]] "You are probably drugging them"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "Witch",
+								Text = T(325137673756, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:You are probably drugging them]] "Your wisdom has penetrated my secrets."),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Fox",
+												Text = T(572494765175, --[[ModItemConversation Witch_1 Text voice:Fox section:Witch_1 keyword:You are probably drugging them]] "I know manipulation when I see it!"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Livewire",
+												Text = T(361079205669, --[[ModItemConversation Witch_1 Text voice:Livewire section:Witch_1 keyword:You are probably drugging them]] "Can't scam a scammer!"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Magic",
+												Text = T(334391730243, --[[ModItemConversation Witch_1 Text voice:Magic section:Witch_1 keyword:You are probably drugging them]] "I know every trick in the book."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Larry",
+												Text = T(264975040160, --[[ModItemConversation Witch_1 Text voice:Larry section:Witch_1 keyword:You are probably drugging them]] "Wait... I was right?"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Larry_Clean",
+												Text = T(368334640265, --[[ModItemConversation Witch_1 Text voice:Larry_Clean section:Witch_1 keyword:You are probably drugging them]] "I know a thing or two about what drugs can do to people."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Buns",
+												Text = T(439854238053, --[[ModItemConversation Witch_1 Text voice:Buns section:Witch_1 keyword:You are probably drugging them]] "It wasn't hard."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Barry",
+												Text = T(965194964508, --[[ModItemConversation Witch_1 Text voice:Barry section:Witch_1 keyword:You are probably drugging them]] "I have good knowledge of wickedness."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "DrQ",
+												Text = T(455395745029, --[[ModItemConversation Witch_1 Text voice:DrQ section:Witch_1 keyword:You are probably drugging them]] "The observant mind sees more than what is in front of it."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Gus",
+												Text = T(384426035055, --[[ModItemConversation Witch_1 Text voice:Gus section:Witch_1 keyword:You are probably drugging them]] "Call it a gut feeling, Woodstock."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "MD",
+												Text = T(979713583685, --[[ModItemConversation Witch_1 Text voice:MD section:Witch_1 keyword:You are probably drugging them]] "Six years of medical school, actually."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Scully",
+												Text = T(126611522345, --[[ModItemConversation Witch_1 Text voice:Scully section:Witch_1 keyword:You are probably drugging them]] "Not the first time I've seen that trick pulled."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Thor",
+												Text = T(204607436016, --[[ModItemConversation Witch_1 Text voice:Thor section:Witch_1 keyword:You are probably drugging them]] "I could sense it. Your aura had a chemical smell to it."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+						},
+						PlayGoToPhrase = true,
+						StoryBranchIcon = "conversation_sarcastic",
+						id = "Youareprobablydruggingthem",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set( "WitchDefeated" ),
+								param_bindings = false,
+							}),
+						},
+						GoTo = "Youareforcingthemen_success",
+						Keyword = "Repent, witch! We have power over you!",
+						KeywordT = T(587146518055, --[[ModItemConversation Witch_1 KeywordT]] "Repent, witch! We have power over you!"),
+						Lines = {
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Annotation = "Monty Python reference",
+												Character = "Barry",
+												Text = T(349521004459, --[[ModItemConversation Witch_1 Text Monty Python reference voice:Barry section:Witch_1 keyword:Repent, witch! We have power over you!]] "Nobody expects the A.I.M. inquisition!"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Kalyna",
+												Text = T(584815941645, --[[ModItemConversation Witch_1 Text voice:Kalyna section:Witch_1 keyword:Repent, witch! We have power over you!]] "You are powerless without your spirit guardians!"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Omryn",
+												Text = T(624741366771, --[[ModItemConversation Witch_1 Text voice:Omryn section:Witch_1 keyword:Repent, witch! We have power over you!]] "I have protective charm and you no have ugly monsters anymore."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "Witch",
+								Text = T(526912530698, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Repent, witch! We have power over you!]] "You do have power over me."),
+								param_bindings = false,
+							}),
+						},
+						PhraseRolloverText = T(776572351492, --[[ModItemConversation Witch_1 PhraseRolloverText]] "Crocodiles are dead"),
+						PlayGoToPhrase = true,
+						id = "Repentwitch",
+						param_bindings = false,
+					}),
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Witch",
+							Vars = set({
+	EvilWitch = false,
+	Given = true,
+	GoodWitch = false,
+	WitchDefeated = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Witch_1",
+							PhraseId = "SpiritsdontscareusHandsup",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Hands up!",
+					KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(410557519097, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Hands up!]] "You dare to threaten me? I am under the protection of ghosts and specters, phantoms and spirits."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Steroid",
+											Text = T(861686552152, --[[ModItemConversation Witch_1 Text voice:Steroid section:Witch_1 keyword:Hands up!]] "Uh-oh, gggghosts!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Barry",
+											Text = T(750200456424, --[[ModItemConversation Witch_1 Text voice:Barry section:Witch_1 keyword:Hands up!]] "Unholy power is at work here!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Reaper",
+											Text = T(386404979459, --[[ModItemConversation Witch_1 Text voice:Reaper section:Witch_1 keyword:Hands up!]] "Cute. I'm an Angel of Death. Let's see what happens."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Buns",
+											Text = T(661956566855, --[[ModItemConversation Witch_1 Text voice:Buns section:Witch_1 keyword:Hands up!]] "She is obviously referring to the names of her pet crocodiles."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							MaxPlayed = 2,
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_threaten",
+					id = "Handsup",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Witch",
+							Vars = set({
+	EvilWitch = false,
+	GoodWitch = false,
+	WitchDefeated = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Enabled = false,
+					GoTo = "CombatRedirect",
+					Keyword = "Spirits don’t scare us. Hands up!",
+					KeywordT = T(626356940658, --[[ModItemConversation Witch_1 KeywordT]] "Spirits don’t scare us. Hands up!"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(334570101990, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Spirits don’t scare us. Hands up!]] "So be it."),
+							param_bindings = false,
+						}),
+					},
+					PlayGoToPhrase = true,
+					StoryBranchIcon = "conversation_attack",
+					id = "SpiritsdontscareusHandsup",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Witch",
+							Vars = set( "GoodWitch" ),
+							param_bindings = false,
+						}),
+					},
+					GoTo = "<end conversation>",
+					Keyword = "Goodbye",
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(387631899327, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Goodbye]] "The spirits watch and judge your deeds."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Steroid",
+											Text = T(690852631881, --[[ModItemConversation Witch_1 Text voice:Steroid section:Witch_1 keyword:Goodbye]] "Even in toilet?!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fox",
+											Text = T(564483726248, --[[ModItemConversation Witch_1 Text voice:Fox section:Witch_1 keyword:Goodbye]] "So the spirits are voyeurs, are they now? "),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Shadow",
+											Text = T(183749590105, --[[ModItemConversation Witch_1 Text voice:Shadow section:Witch_1 keyword:Goodbye]] "We'll see. I'm REALLY good at hiding."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_goodbye",
+					id = "Goodbye",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Witch",
+							Vars = set( "EvilWitch" ),
+							param_bindings = false,
+						}),
+					},
+					GoTo = "<end conversation>",
+					Keyword = "Goodbye",
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(876357121215, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Goodbye]] "Walk with the spirits and leave me alone already."),
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_goodbye",
+					id = "Goodbye2",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					GoTo = "<end conversation>",
+					Keyword = "Goodbye",
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Witch",
+							Text = T(779369685239, --[[ModItemConversation Witch_1 Text voice:Witch section:Witch_1 keyword:Goodbye]] "May the spirits walk with you."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Annotation = "sounds scared",
+											Character = "Steroid",
+											Text = T(931676955899, --[[ModItemConversation Witch_1 Text sounds scared voice:Steroid section:Witch_1 keyword:Goodbye]] "Uh... Do they have to?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Scully",
+											Text = T(246879548814, --[[ModItemConversation Witch_1 Text voice:Scully section:Witch_1 keyword:Goodbye]] "If you mean the crocs, no thanks."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Reaper",
+											Text = T(540982255388, --[[ModItemConversation Witch_1 Text voice:Reaper section:Witch_1 keyword:Goodbye]] "They always do."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "DrQ",
+											Text = T(975260472207, --[[ModItemConversation Witch_1 Text voice:DrQ section:Witch_1 keyword:Goodbye]] "And with you."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_goodbye",
+					id = "Goodbye3",
+					param_bindings = false,
+				}),
+			}),
+			PlaceObj('ModItemConversation', {
+				AssignToGroup = "Monday",
+				DefaultActor = "Monday",
+				group = "Farmland",
+				id = "Monday_1",
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "GrimerHamlet",
+							Vars = set({
+	InfectedUnleashedKilled = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Annotation = "slurred speech",
+							Character = "Monday",
+							Text = T(490270457327, --[[ModItemConversation Monday_1 Text slurred speech voice:Monday section:Monday_1 keyword:Greeting]] "Or maybe you're not <em>cadavérés</em>? I must be getting the hallucinations again. Got to stop drinking this merde and find some stronger merde to <em>drink</em>."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Kalyna",
+											Text = T(369416995584, --[[ModItemConversation Monday_1 Text voice:Kalyna section:Monday_1 keyword:Greeting]] "A monster who talks and drinks? Hmmm... Do you have a name?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Annotation = "(sounds of gulping from a bottle)",
+							Character = "Monday",
+							Text = T(594181647867, --[[ModItemConversation Monday_1 Text (sounds of gulping from a bottle) voice:Monday section:Monday_1 keyword:Greeting]] "..."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Kalyna",
+											Text = T(167290182795, --[[ModItemConversation Monday_1 Text voice:Kalyna section:Monday_1 keyword:Greeting]] "Hello? Are you friendly?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(268069892172, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Greeting]] "You still there? I guess this merde is merde, too."),
+							param_bindings = false,
+						}),
+					},
+					id = "Greeting",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Comment = "Bella killed & Infected cleared",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "GrimerHamlet",
+							Vars = set( "BellaKilled", "Given", "PeopleSaved" ),
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "Completed",
+							QuestId = "GrimerHamlet",
+							param_bindings = false,
+						}),
+						PlaceObj('MusicSetTrack', {
+							Playlist = "Scripted",
+							Track = "Music/Segniyahamba",
+							param_bindings = false,
+						}),
+						PlaceObj('CityGrantLoyalty', {
+							Amount = 15,
+							City = "Payak",
+							SpecialConversationMessage = T(116997734744, --[[ModItemConversation Monday_1 SpecialConversationMessage]] "helped <em>Monday</em> and the Grimer Hamlet"),
+							param_bindings = false,
+						}),
+						PlaceObj('SectorSetRAndROperation', {
+							param_bindings = false,
+							sector_id = "I19",
+						}),
+						PlaceObj('UnitGrantItem', {
+							LootTableId = "LootBox07_mag",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Monday_1",
+							Enabled = false,
+							PhraseId = "WekilledBella",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(531116185048, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Greeting2]] "Yeah! We have the merde, we have the people... You know what you get when you put together the merde AND the people?"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Nails",
+											Text = T(216475589181, --[[ModItemConversation Monday_1 Text voice:Nails section:Monday_1 keyword:Greeting2]] "Good times!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Igor",
+											Text = T(937381580278, --[[ModItemConversation Monday_1 Text voice:Igor section:Monday_1 keyword:Greeting2]] "Hangover!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Raider",
+											Text = T(519497675406, --[[ModItemConversation Monday_1 Text voice:Raider section:Monday_1 keyword:Greeting2]] "Noise complaints."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Scully",
+											Text = T(657771354410, --[[ModItemConversation Monday_1 Text voice:Scully section:Monday_1 keyword:Greeting2]] "Regret."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Scope",
+											Text = T(720070604836, --[[ModItemConversation Monday_1 Text voice:Scope section:Monday_1 keyword:Greeting2]] "A lot of ruined linens."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Tex",
+											Text = T(197601260466, --[[ModItemConversation Monday_1 Text voice:Tex section:Monday_1 keyword:Greeting2]] "A good, old-fashioned ho-down, partner!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							MaxPlayed = 2,
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							SoundAfter = "Sounds/ConversationEffects/iact_crowdreactions2_approval3.wav",
+							Text = T(965637597268, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Greeting2]] "Party! Forever! Never stop the party. Never turn into cadavéré! Not this Monday! Not ever!"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Igor",
+											Text = T(894138623137, --[[ModItemConversation Monday_1 Text voice:Igor section:Monday_1 keyword:Greeting2]] "We really deserve a medal this time."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Kalyna",
+											Text = T(858485368229, --[[ModItemConversation Monday_1 Text voice:Kalyna section:Monday_1 keyword:Greeting2]] "So, the curse is lifted?"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "Monday",
+											Text = T(902695046358, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Greeting2]] "This isn't a curse. This is a blessing! I will stay drunk FOREVER!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Omryn",
+											Text = T(183755784574, --[[ModItemConversation Monday_1 Text voice:Omryn section:Monday_1 keyword:Greeting2]] "Forever party will need steady supply of snacks. I supervise."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "Greeting2",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Comment = "only Infected cleared",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "GrimerHamlet",
+							Vars = set({
+	BellaKilled = false,
+	Given = true,
+	PeopleSaved = true,
+}),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(200910607988, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Greeting3]] "I see you saved some people. Now we need some more merde... moonshine, and then we can party forever! Never turn into cadavéré. Not this Monday! Not today!"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Kalyna",
+											Text = T(675976731350, --[[ModItemConversation Monday_1 Text voice:Kalyna section:Monday_1 keyword:Greeting3]] "Do not worry, mister monster. We will save everyone!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Igor",
+											Text = T(385764338041, --[[ModItemConversation Monday_1 Text voice:Igor section:Monday_1 keyword:Greeting3]] "This is noble cause!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "Greeting3",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Comment = "only Bella killed, once",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "GrimerHamlet",
+							Vars = set({
+	BellaKilled = true,
+	BellaQuest = true,
+	PeopleSaved = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Monday_1",
+							Enabled = false,
+							PhraseId = "WekilledBella",
+							param_bindings = false,
+						}),
+					},
+					GoTo = "RedirectKilledBella",
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					PlayGoToPhrase = true,
+					id = "Greeting4",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Effects = {
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Monday_1",
+							Enabled = false,
+							PhraseId = "WekilledBella",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "Monday_1",
+							Enabled = false,
+							PhraseId = "TellusaboutBella",
+							param_bindings = false,
+						}),
+					},
+					Enabled = false,
+					Keyword = "RedirectKilledBella",
+					KeywordT = T(210230606220, --[[ModItemConversation Monday_1 KeywordT]] "RedirectKilledBella"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(896987480865, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:RedirectKilledBella]] "You killed her? You killed her!!! Good riddance! She was trash, and not even good-looking trash these days. But you know what that means? That means you secured ALL THE MERDE! Yeah! All that moonshine! Time for a party!"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Larry",
+											Text = T(196903417691, --[[ModItemConversation Monday_1 Text voice:Larry section:Monday_1 keyword:RedirectKilledBella]] "Oh yeah! Give me a syringe, I'll show you a trick or two."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Annotation = '"Cheers!"',
+											Character = "Igor",
+											Text = T(740057111565, --[[ModItemConversation Monday_1 Text "Cheers!" voice:Igor section:Monday_1 keyword:RedirectKilledBella]] "На здоровье!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Larry_Clean",
+											Text = T(749688825065, --[[ModItemConversation Monday_1 Text voice:Larry_Clean section:Monday_1 keyword:RedirectKilledBella]] "I'm actually not allowed to be within thirty feet of a party. Sorry."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Kalyna",
+											Text = T(672202078833, --[[ModItemConversation Monday_1 Text voice:Kalyna section:Monday_1 keyword:RedirectKilledBella]] "Does this mean the curse is lifted?"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "Monday",
+											Text = T(190663292369, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:RedirectKilledBella]] "You are ADORABLE! I tell you what - I will let you know after I finish drinking all of the witch's magic potions."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(675921585720, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:RedirectKilledBella]] "Oh, wait. Nobody can actually come to the party, except for les cadavérés and they're no fun. I need people, REAL people to drink with!"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Igor",
+											Text = T(426770723621, --[[ModItemConversation Monday_1 Text voice:Igor section:Monday_1 keyword:RedirectKilledBella]] "I'm here for you, my friend! Cheers!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Larry",
+											Text = T(816084832005, --[[ModItemConversation Monday_1 Text voice:Larry section:Monday_1 keyword:RedirectKilledBella]] "Don't worry about it, man. Imaginary people are WAY better than real people. Right, Ted?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Kalyna",
+											Text = T(589624920582, --[[ModItemConversation Monday_1 Text voice:Kalyna section:Monday_1 keyword:RedirectKilledBella]] "I guess we have to kill some more monsters before the curse is finally lifted. A hero's job is never done."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "RedirectKilledBella",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Comment = "only Bella killed",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "GrimerHamlet",
+							Vars = set({
+	BellaKilled = true,
+	BellaQuest = true,
+	InfectedUnleashedKilled = false,
+	PeopleSaved = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(639733473162, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Greeting5]] "Still too many cadavérés shambling around... People are afraid to come to the party. What, do you want me to drink myself to death all alone? I want to drink myself to death in good company!"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Igor",
+											Text = T(476895848077, --[[ModItemConversation Monday_1 Text voice:Igor section:Monday_1 keyword:Greeting5]] "Hey, are we not good enough for you?!"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "Monday",
+											Text = T(704803768690, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Greeting5]] "You killed my ex, so you're my hero! But, I know you have other exes you need to go kill."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Reaper",
+											Text = T(256553479547, --[[ModItemConversation Monday_1 Text voice:Reaper section:Monday_1 keyword:Greeting5]] "You will die as everyone dies. Alone."),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "Monday",
+											Text = T(339204789142, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Greeting5]] "You are definitely NOT invited to the party."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Sidney",
+											Text = T(294599678308, --[[ModItemConversation Monday_1 Text voice:Sidney section:Monday_1 keyword:Greeting5]] "Eat, drink, and be merry, for tomorrow we die, eh?"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "Monday",
+											Text = T(587248536015, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Greeting5]] "Unless tomorrow is Monday!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "Greeting5",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Comment = "no one killed, have Bella quest",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "GrimerHamlet",
+							Vars = set({
+	BellaKilled = false,
+	BellaQuest = true,
+}),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Annotation = 'vague reference to the song "Manic monday"',
+							Character = "Monday",
+							Text = T(685713812762, --[[ModItemConversation Monday_1 Text vague reference to the song "Manic monday" voice:Monday section:Monday_1 keyword:Greeting6]] "How's <em>Bella</em>? Still alive-ish? Come on, go make some noise! Free her soul, and all the moonshine with it."),
+							param_bindings = false,
+						}),
+					},
+					VariantPhrase = true,
+					id = "Greeting6",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(494131698325, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Greeting7]] "Every day is Monday if you're desperate enough!"),
+							param_bindings = false,
+						}),
+					},
+					VariantPhrase = true,
+					id = "Greeting7",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "GrimerHamlet",
+							Vars = set( "BellaKilled" ),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(371741913943, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Greeting8]] "Cheers to Bella, the best ex!... At least now that she's dead."),
+							param_bindings = false,
+						}),
+					},
+					VariantPhrase = true,
+					id = "Greeting8",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "GrimerHamlet",
+							Vars = set( "Completed" ),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(540564038975, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Greeting9]] "Monday is the party day! All day, every day! Isn't that right, people?"),
+							param_bindings = false,
+						}),
+					},
+					VariantPhrase = true,
+					id = "Greeting9",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "GrimerHamlet",
+							Vars = set({
+	BellaQuest = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "BellaMention",
+							QuestId = "GrimerHamlet",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "You’re drunk",
+					KeywordT = T(710287767604, --[[ModItemConversation Monday_1 KeywordT]] "You’re drunk"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(369234920605, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:You’re drunk]] "I know! I've been <em>drinking</em> since Monday. Not sure about the week. Just call me <em>Monday</em>. Have you met <em>my ex</em>?"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Scully",
+											Text = T(308956543934, --[[ModItemConversation Monday_1 Text voice:Scully section:Monday_1 keyword:You’re drunk]] "No thanks, mate. I'm full up on exes."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Larry",
+											Text = T(391297689453, --[[ModItemConversation Monday_1 Text voice:Larry section:Monday_1 keyword:You’re drunk]] "You've been drinking since Monday and you've got X? Are... are you my spirit animal?"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "Monday",
+											Text = T(654298115985, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:You’re drunk]] "Heeeeyyyy... You're going to do just fine here."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fox",
+											Text = T(846305592724, --[[ModItemConversation Monday_1 Text voice:Fox section:Monday_1 keyword:You’re drunk]] "You have an ex? Now, who would let a catch like you slip away?"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "Monday",
+											Text = T(721716835681, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:You’re drunk]] "I know, right?!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "Youredrunk",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "GrimerHamlet",
+							Vars = set( "BellaMention" ),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Why are you drinking?",
+					KeywordT = T(760424262798, --[[ModItemConversation Monday_1 KeywordT]] "Why are you drinking?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(777412736750, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Why are you drinking?]] "Because it's Monday! That Monday when <em>Bella</em> dumped me, I started drinking so hard that when I woke up, I didn't know the day of the week anymore. And the streets were full of them <em>cadavérés</em>, moaning and attacking everyone but me."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Igor",
+											Text = T(639163215333, --[[ModItemConversation Monday_1 Text voice:Igor section:Monday_1 keyword:Why are you drinking?]] "Ah. It happens from time to time."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Larry",
+											Text = T(933698582901, --[[ModItemConversation Monday_1 Text voice:Larry section:Monday_1 keyword:Why are you drinking?]] "I know exactly what you mean, man! It's terrible!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Larry_Clean",
+											Text = T(811427152203, --[[ModItemConversation Monday_1 Text voice:Larry_Clean section:Monday_1 keyword:Why are you drinking?]] "I know this can't be right, but why do I have this feeling of Déjà vu?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(181647857955, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Why are you drinking?]] "So I did what any man in my situation would do - I continued drinking and partying! I think that's why I didn't turn into one of them... At least not completely. I'll never stop drinking! Not this Monday! Not today!"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Igor",
+											Text = T(419953015083, --[[ModItemConversation Monday_1 Text voice:Igor section:Monday_1 keyword:Why are you drinking?]] "Toast to you, my friend! You deserve a medal."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Kalyna",
+											Text = T(633234799955, --[[ModItemConversation Monday_1 Text voice:Kalyna section:Monday_1 keyword:Why are you drinking?]] "Poor sad lonely monster."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							MaxPlayed = 2,
+							param_bindings = false,
+						}),
+					},
+					id = "Whyareyoudrinking",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "GrimerHamlet",
+							Vars = set({
+	InfectedMention = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "InfectedMention",
+							QuestId = "GrimerHamlet",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "What are those cadavérés?",
+					KeywordT = T(751915433575, --[[ModItemConversation Monday_1 KeywordT]] "What are those cadavérés?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(314964431304, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:What are those cadavérés?]] "Cadavérés... They're like me. I mean, I'm like them. But not yet, not yet! Need more merde to drink. Cheers..."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Igor",
+											Text = T(654386376457, --[[ModItemConversation Monday_1 Text voice:Igor section:Monday_1 keyword:What are those cadavérés?]] "Cheers! I can show you how to make potato vodka."),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "Monday",
+											Text = T(921416032554, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:What are those cadavérés?]] "Is it good merde?"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "Igor",
+											Text = T(721217730126, --[[ModItemConversation Monday_1 Text voice:Igor section:Monday_1 keyword:What are those cadavérés?]] "The best! You will see... unless it make you go blind."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Kalyna",
+											Text = T(775117822183, --[[ModItemConversation Monday_1 Text voice:Kalyna section:Monday_1 keyword:What are those cadavérés?]] "Oh, you're not a monster, but you're changing into one! Well, I guess that would make me drink, too."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "Whatarecadavrs",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "GrimerHamlet",
+							Vars = set({
+	InfectedMention = true,
+	InfectedUnleashedKilled = false,
+}),
+							param_bindings = false,
+						}),
+						PlaceObj('UnitSquadHasMerc', {
+							HasStat = "Medical",
+							StatValue = 40,
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('GrantExperienceSector', {
+							Amount = "XPQuestReward_Minor",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Cadavérés are just sick people",
+					KeywordT = T(376014960406, --[[ModItemConversation Monday_1 KeywordT]] "Cadavérés are just sick people"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Annotation = '"Manic monday" song reference',
+							Character = "Monday",
+							Text = T(313260944963, --[[ModItemConversation Monday_1 Text "Manic monday" song reference voice:Monday section:Monday_1 keyword:Cadavérés are just sick people]] "Right, and today is just another manic Monday..."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Conditions = {
+										PlaceObj('IsDayOfTheWeek', {
+											Negate = true,
+											WDay = 7,
+											param_bindings = false,
+										}),
+									},
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Annotation = '"Manic monday" song reference',
+											Character = "Kalyna",
+											Text = T(274323674556, --[[ModItemConversation Monday_1 Text "Manic monday" song reference voice:Kalyna section:Monday_1 keyword:Cadavérés are just sick people]] "I wish it was Sunday."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Conditions = {
+										PlaceObj('IsDayOfTheWeek', {
+											Negate = true,
+											WDay = 7,
+											param_bindings = false,
+										}),
+									},
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Annotation = '"Manic monday" song reference',
+											Character = "Mouse",
+											Text = T(508552669724, --[[ModItemConversation Monday_1 Text "Manic monday" song reference voice:Mouse section:Monday_1 keyword:Cadavérés are just sick people]] "I wish it was Sunday."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(611054571356, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Cadavérés are just sick people]] "I know. You're sober and you need a reason to do the right thing. So let me tell you this: some of those people have already killed their own friends or relatives. Would YOU like to wake up from that nightmare and discover what you did?"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Igor",
+											Text = T(826580851317, --[[ModItemConversation Monday_1 Text voice:Igor section:Monday_1 keyword:Cadavérés are just sick people]] "No. I drink to forget."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Kalyna",
+											Text = T(106468768596, --[[ModItemConversation Monday_1 Text voice:Kalyna section:Monday_1 keyword:Cadavérés are just sick people]] "No! I could never go on living with the thought that I have become a monster!... Oh, I'm sorry. I didn't mean to offend you."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Larry",
+											Text = T(193730005862, --[[ModItemConversation Monday_1 Text voice:Larry section:Monday_1 keyword:Cadavérés are just sick people]] "I wouldn't know I did it."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Larry_Clean",
+											Text = T(937444147072, --[[ModItemConversation Monday_1 Text voice:Larry_Clean section:Monday_1 keyword:Cadavérés are just sick people]] "No. A hundred times no."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Annotation = '"I don\'t like mondays" song reference',
+							Character = "Monday",
+							Text = T(316497826160, --[[ModItemConversation Monday_1 Text "I don't like mondays" song reference voice:Monday section:Monday_1 keyword:Cadavérés are just sick people]] "After all, what reason do you need to die? Just send them to heaven and let them party with the angels."),
+							param_bindings = false,
+						}),
+					},
+					id = "Theyarejustsickpeople",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "GrimerHamlet",
+							Vars = set({
+	InfectedUnleashedKilled = false,
+	PeopleSaved = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "We are not cadavérés",
+					KeywordT = T(647948925124, --[[ModItemConversation Monday_1 KeywordT]] "We are not cadavérés"),
+					Lines = {
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Kalyna",
+											Text = T(771381686263, --[[ModItemConversation Monday_1 Text voice:Kalyna section:Monday_1 keyword:We are not cadavérés]] "No! We are not monsters like them or... like you."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Steroid",
+											Text = T(453520542556, --[[ModItemConversation Monday_1 Text voice:Steroid section:Monday_1 keyword:We are not cadavérés]] "We are not dead peoples! Check out these biceps! Would a dead guy have this much definition?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Thor",
+											Text = T(362051336979, --[[ModItemConversation Monday_1 Text voice:Thor section:Monday_1 keyword:We are not cadavérés]] "We are not dead. We are alive and full of potential!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(459849923904, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:We are not cadavérés]] "You're not? You sure? They must still be locked in their <em>houses</em> then. Some may be non <em>cadavérés</em>. But what is important... What's <em>important</em>... What was I talking about?"),
+							param_bindings = false,
+						}),
+					},
+					NoBackOption = true,
+					StoryBranchIcon = "conversation_arrow",
+					id = "Wearenotcadavrs",
+					param_bindings = false,
+					PlaceObj('ConversationPhrase', {
+						GoTo = "Wearenotcadavrs.DistractionRedirect",
+						Keyword = "About houses",
+						KeywordT = T(499741028643, --[[ModItemConversation Monday_1 KeywordT]] "About houses"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "Monday",
+								Text = T(108773911175, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:About houses]] "Yes! Um, I grew up in one of those! I can't remember which one anymore, and I'm all alone anyway, so it's not important... "),
+								param_bindings = false,
+							}),
+						},
+						id = "Abouthouses",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Comment = "just teasing him",
+						GoTo = "Wearenotcadavrs.DistractionRedirect",
+						Keyword = "About what’s important",
+						KeywordT = T(496338324251, --[[ModItemConversation Monday_1 KeywordT]] "About what’s important"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "Monday",
+								Text = T(358744399420, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:About what’s important]] "Yeah, well, I know what's important! What's important is that... Uh... It had to do with the thing before the important thing... "),
+								param_bindings = false,
+							}),
+						},
+						id = "Aboutwhatsimportant",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Comment = "just trying to make fun of him",
+						GoTo = "Wearenotcadavrs.DistractionRedirect",
+						Keyword = "About rocket science",
+						KeywordT = T(286552600000, --[[ModItemConversation Monday_1 KeywordT]] "About rocket science"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "Monday",
+								Text = T(108381379390, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:About rocket science]] "Right! It's not that hard to grasp, once you understand Kepler's laws. After all, the square of a satellite's orbital period is always proportional to the cube of its average distance from the planet, right?"),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Vicki",
+												Text = T(881374446415, --[[ModItemConversation Monday_1 Text voice:Vicki section:Monday_1 keyword:About rocket science]] "Don't look at me, mon. I work on cars, not rocket ships."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Buns",
+												Text = T(506828282376, --[[ModItemConversation Monday_1 Text voice:Buns section:Monday_1 keyword:About rocket science]] "That is... correct. I suppose I should be surprised, but I never let anything surprise me."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Annotation = "said under his breath",
+												Character = "Ice",
+												Text = T(554730790065, --[[ModItemConversation Monday_1 Text said under his breath voice:Ice section:Monday_1 keyword:About rocket science]] "...You're distant from the planet."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "Monday",
+								Text = T(467696861952, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:About rocket science]] "Wait... Um... That wasn't what I was talking about..."),
+								param_bindings = false,
+							}),
+						},
+						id = "Aboutrocketscience",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Enabled = false,
+						Keyword = "DistractionRedirect",
+						KeywordT = T(274329989178, --[[ModItemConversation Monday_1 KeywordT]] "DistractionRedirect"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "Monday",
+								Text = T(770776046797, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:DistractionRedirect]] "What was I talking about?"),
+								param_bindings = false,
+							}),
+						},
+						id = "DistractionRedirect",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Given",
+								QuestId = "GrimerHamlet",
+								param_bindings = false,
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "InfectedMention",
+								QuestId = "GrimerHamlet",
+								param_bindings = false,
+							}),
+							PlaceObj('PhraseSetEnabled', {
+								Conversation = "Monday_1",
+								PhraseId = "Aboutcadavrs",
+								param_bindings = false,
+							}),
+							PlaceObj('PhraseSetSeen', {
+								Conversation = "Monday_1",
+								PhraseId = "Aboutcadavrs",
+								Seen = true,
+								param_bindings = false,
+							}),
+						},
+						GoTo = "Aboutcadavrs",
+						Keyword = "About cadavérés",
+						KeywordT = T(261110628488, --[[ModItemConversation Monday_1 KeywordT]] "About cadavérés"),
+						PlayGoToPhrase = true,
+						StoryBranchIcon = "conversation_action",
+						id = "Aboutcadavrs",
+						param_bindings = false,
+					}),
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "GrimerHamlet",
+							Vars = set({
+	InfectedUnleashedKilled = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "InfectedMention",
+							QuestId = "GrimerHamlet",
+							param_bindings = false,
+						}),
+					},
+					Enabled = false,
+					Keyword = "Tell us about cadavérés",
+					KeywordT = T(476882574084, --[[ModItemConversation Monday_1 KeywordT]] "Tell us about cadavérés"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(854204645659, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Tell us about cadavérés]] "Oh, yes. Cadavérés. They are not good company, with one notable exception - myself! But, eh, the others, I mean the people who are NOT les cadavérés - they are all locked in their houses, waiting for those who ARE les cadavérés to get tired."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Igor",
+											Text = T(711937181378, --[[ModItemConversation Monday_1 Text voice:Igor section:Monday_1 keyword:Tell us about cadavérés]] "And do you? That is, um, do you not get hangover?"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "Monday",
+											Text = T(743244991360, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Tell us about cadavérés]] "Not at all! I may look like merde and you would think I would have to stop at some point..."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Kalyna",
+											Text = T(164756329262, --[[ModItemConversation Monday_1 Text voice:Kalyna section:Monday_1 keyword:Tell us about cadavérés]] "And do you ever get tired, or are you some sort of restless, drunken spirit?"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "Monday",
+											Text = T(251491913364, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Tell us about cadavérés]] "You know, I should be exhausted, but I feel GREAT! Drunk, but great. Still, I should maybe try to take a nap..."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(841341836185, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Tell us about cadavérés]] "But that isn't going to happen. Cadavérés don't get tired! Look at me, drinking day and night. I need drinking companions! So go on and shoot them. I mean, les cadavérés, not the other people."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Igor",
+											Text = T(202509835242, --[[ModItemConversation Monday_1 Text voice:Igor section:Monday_1 keyword:Tell us about cadavérés]] "You are my role model. You and Uncle Ivan, of course!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Kalyna",
+											Text = T(168284603612, --[[ModItemConversation Monday_1 Text voice:Kalyna section:Monday_1 keyword:Tell us about cadavérés]] "Don't worry, mister monster. We will save everyone and you will never feel lonely again!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "Aboutcadavrs",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Sanatorium",
+							Vars = set({
+	MangelSamples = true,
+	Sample_GrimerHamlet = false,
+}),
+							param_bindings = false,
+						}),
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "GrimerHamlet",
+							Vars = set( "BellaKilled", "Given", "InfectedKilled" ),
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "Sample_GrimerHamlet",
+							QuestId = "Sanatorium",
+							param_bindings = false,
+						}),
+						PlaceObj('QuestSetVariableNum', {
+							Amount = 1,
+							Prop = "Samples",
+							QuestId = "Sanatorium",
+							param_bindings = false,
+						}),
+						PlaceObj('UnitGrantItem', {
+							ItemId = "VirusSample",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Give us a blood sample",
+					KeywordT = T(281679925675, --[[ModItemConversation Monday_1 KeywordT]] "Give us a blood sample"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(902555405714, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Give us a blood sample]] "No problem! Give me a bucket, I have a knife. But be careful not to drink it all at once. There is more alcohol than blood in my blood."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "MD",
+											Text = T(123679741407, --[[ModItemConversation Monday_1 Text voice:MD section:Monday_1 keyword:Give us a blood sample]] "That's... We're not... What?!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Blood",
+											Text = T(535215064266, --[[ModItemConversation Monday_1 Text voice:Blood section:Monday_1 keyword:Give us a blood sample]] "I wasn't even thinking of doing that... but now you got me curious."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Larry_Clean",
+											Text = T(506083310029, --[[ModItemConversation Monday_1 Text voice:Larry_Clean section:Monday_1 keyword:Give us a blood sample]] "I really wish you hadn't told me that."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_arrow",
+					id = "Giveusabloodsample_success",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Sanatorium",
+							Vars = set({
+	MangelSamples = true,
+	Sample_GrimerHamlet = false,
+}),
+							param_bindings = false,
+						}),
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "GrimerHamlet",
+							Vars = set({
+	BellaKilled = false,
+	Given = true,
+	InfectedKilled = true,
+}),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Give us a blood sample",
+					KeywordT = T(281679925675, --[[ModItemConversation Monday_1 KeywordT]] "Give us a blood sample"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(456678699580, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Give us a blood sample]] "In my case, that's an alcohol sample. Wait... I'm not giving you my alcohol. I drank it, it's mine now. Kill Bella! Save the merde! Then you can have all the blood you want from me. "),
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_arrow",
+					id = "Giveusabloodsample_failure",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "GrimerHamlet",
+							Vars = set({
+	BellaMention = true,
+	BellaQuest = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "BellaQuest",
+							QuestId = "GrimerHamlet",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetSeen', {
+							Conversation = "Monday_1",
+							PhraseId = "TellusaboutBella",
+							Seen = true,
+							param_bindings = false,
+						}),
+					},
+					GoTo = "TellusaboutBella",
+					Keyword = "Your ex?",
+					KeywordT = T(448270905004, --[[ModItemConversation Monday_1 KeywordT]] "Your ex?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(382350506308, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Your ex?]] "It's all her fault! She brought it to us. <em>Bella</em>, you cold-hearted bitch, I'm drinking to your health. Non, not health. She's a cadavéré. She did this to me. To all of us!"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Annotation = "reference to Shakespeare's \"To be or not to be\"",
+											Character = "Igor",
+											Text = T(807492750129, --[[ModItemConversation Monday_1 Text reference to Shakespeare's "To be or not to be" voice:Igor section:Monday_1 keyword:Your ex?]] "To Bella! Or not to Bella! Cheers!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Annotation = "toasting",
+											Character = "Larry",
+											Text = T(925266064630, --[[ModItemConversation Monday_1 Text toasting voice:Larry section:Monday_1 keyword:Your ex?]] "To all of us!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Kalyna",
+											Text = T(450835520408, --[[ModItemConversation Monday_1 Text voice:Kalyna section:Monday_1 keyword:Your ex?]] "It's a lover's curse! Oh, that's very bad."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					PlayGoToPhrase = true,
+					StoryBranchIcon = "conversation_arrow",
+					id = "Yourex",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "GrimerHamlet",
+							Vars = set( "BellaMention", "BellaQuest" ),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Tell us about Bella",
+					KeywordT = T(104278735446, --[[ModItemConversation Monday_1 KeywordT]] "Tell us about Bella"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(731761144391, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Tell us about Bella]] 'When she returned from that "business trip", she knew she had the disease. Then she dumped me and made a huge party in her house on the hill, with lots of dancing, and sex, and merde... moonshine. '),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fox",
+											Text = T(271079795463, --[[ModItemConversation Monday_1 Text voice:Fox section:Monday_1 keyword:Tell us about Bella]] "That sounds bad. The more I think of it... Mmm, definitely a bad girl."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "MD",
+											Text = T(513581249985, --[[ModItemConversation Monday_1 Text voice:MD section:Monday_1 keyword:Tell us about Bella]] "That is absolutely irresponsible. If I was her, I would never do that. I mean, um, I'm not talking about the part where she dumped you. Wait, don't get me wrong, I... Oof, I'll just shut up."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Raven",
+											Text = T(305652659443, --[[ModItemConversation Monday_1 Text voice:Raven section:Monday_1 keyword:Tell us about Bella]] "When do we kill that bitch?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(744648907914, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Tell us about Bella]] "She spread that merde over the whole town! And I just tried to drink myself to death. But that's not the point! The point is..."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(968946126274, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Tell us about Bella]] "What's the point? Ah! She has the merde! All of the moonshine. Go there, kill her, save the merde. I need it. It is a matter of life and... (hic) merde."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Igor",
+											Text = T(776400414097, --[[ModItemConversation Monday_1 Text voice:Igor section:Monday_1 keyword:Tell us about Bella]] "Don't worry, we will save all the moonshine and kill the woman!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Kalyna",
+											Text = T(338917863627, --[[ModItemConversation Monday_1 Text voice:Kalyna section:Monday_1 keyword:Tell us about Bella]] "So we bring the happy ending by... killing the princess and helping the prince become drunk? What kind of story is that?!"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "Monday",
+											Text = T(130331280522, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Tell us about Bella]] "It is a merde story. Welcome to Grand Chien, miss."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Red",
+											Text = T(363121679126, --[[ModItemConversation Monday_1 Text voice:Red section:Monday_1 keyword:Tell us about Bella]] "Kill a psychotic little hussy. Pick up whiskey. Dunnae worry, lad. I'm an expert in this particular type of to-do list."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "TellusaboutBella",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "GrimerHamlet",
+							Vars = set( "BellaKilled", "BellaQuest" ),
+							param_bindings = false,
+						}),
+					},
+					GoTo = "RedirectKilledBella",
+					Keyword = "We killed Bella",
+					KeywordT = T(815283967700, --[[ModItemConversation Monday_1 KeywordT]] "We killed Bella"),
+					PlayGoToPhrase = true,
+					id = "WekilledBella",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					GoTo = "<end conversation>",
+					Keyword = "Goodbye",
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(618777386348, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Goodbye]] "Never stop drinking and your drinks will come true!"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Igor",
+											Text = T(909201888635, --[[ModItemConversation Monday_1 Text voice:Igor section:Monday_1 keyword:Goodbye]] "Cheers to that! Wise wisdom."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Larry",
+											Text = T(116883618610, --[[ModItemConversation Monday_1 Text voice:Larry section:Monday_1 keyword:Goodbye]] "That is so beautiful, man."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_goodbye",
+					VariantPhrase = true,
+					id = "Goodbye",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					GoTo = "<end conversation>",
+					Keyword = "Goodbye",
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(537019931959, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Goodbye]] "Hic."),
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_goodbye",
+					VariantPhrase = true,
+					id = "Goodbye2",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					GoTo = "<end conversation>",
+					Keyword = "Goodbye",
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(755440777930, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Goodbye]] "Not this Monday! Not today."),
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_goodbye",
+					VariantPhrase = true,
+					id = "Goodbye3",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					GoTo = "<end conversation>",
+					Keyword = "Goodbye",
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "Monday",
+							Text = T(637842426579, --[[ModItemConversation Monday_1 Text voice:Monday section:Monday_1 keyword:Goodbye]] "Cheers! Hic. Merde."),
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_goodbye",
+					VariantPhrase = true,
+					id = "Goodbye4",
+					param_bindings = false,
+				}),
+			}),
+			PlaceObj('ModItemConversation', {
+				AssignToGroup = "FamilyGathering",
+				Comment = "When you have enough clues, you can trigger a gathering on the scene of the crime where this conversation takes place. At the end of the conversation, either the doctor is executed, both families attack the player's team, or the families start fighting each other.",
+				Conditions = {
+					PlaceObj('QuestIsVariableBool', {
+						QuestId = "TwinManors",
+						Vars = set({
+	DoctorDead = false,
+	DoctorExecution = false,
+	FamiliesCombat = false,
+	FamiliesCombatFFA = false,
+	FamiliesCombatPlayer = false,
+	FamiliesDefeated = false,
+	FamilyGathered = true,
+	FamilyGathering = true,
+}),
+						param_bindings = false,
+					}),
+				},
+				DefaultActor = "DrLEnfer",
+				group = "Farmland",
+				id = "DrLEnfer_2",
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							SoundAfter = "Sounds/ConversationEffects/iact_crowdreactions2_murmur1.wav",
+							Text = T(913501400287, --[[ModItemConversation DrLEnfer_2 Text voice:DrLEnfer section:DrLEnfer_2 keyword:Greeting4]] 'What is it, "officers"? I\'m dying to learn who your suspect is. Or shall we resort to exorcism?'),
+							param_bindings = false,
+						}),
+					},
+					NoBackOption = true,
+					id = "Greeting4",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Comment = "repeated",
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(627275329305, --[[ModItemConversation DrLEnfer_2 Text voice:DrLEnfer section:DrLEnfer_2 keyword:Greeting]] 'Now, have you made up your mind already? Who is your <em>murderer</em>, "constables"?'),
+							param_bindings = false,
+						}),
+					},
+					NoBackOption = true,
+					id = "Greeting",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Comment = "This will cause the Doctor to be executed",
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "DoctorExecution",
+							QuestId = "TwinManors",
+							param_bindings = false,
+						}),
+					},
+					GoTo = "<end conversation>",
+					Keyword = "You did it",
+					KeywordT = T(942924588771, --[[ModItemConversation DrLEnfer_2 KeywordT]] "You did it"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(529615928604, --[[ModItemConversation DrLEnfer_2 Text voice:DrLEnfer section:DrLEnfer_2 keyword:You did it]] "Oh really? If I was as bad at doctoring as you are at investigating, I'd be running a morgue instead of a clinic."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Red",
+											Text = T(215716566772, --[[ModItemConversation DrLEnfer_2 Text voice:Red section:DrLEnfer_2 keyword:You did it]] "It would be a better match for your bedside manner, that's for certain!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Scope",
+											Text = T(120313882335, --[[ModItemConversation DrLEnfer_2 Text voice:Scope section:DrLEnfer_2 keyword:You did it]] "It would certainly be a better match for your personality."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Tex",
+											Text = T(541579678059, --[[ModItemConversation DrLEnfer_2 Text voice:Tex section:DrLEnfer_2 keyword:You did it]] "Sorry, old-timer. Time for frontier justice!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							SoundAfter = "Sounds/ConversationEffects/iact_crowdreactions2_murmur2.wav",
+							Text = T(302777020268, --[[ModItemConversation DrLEnfer_2 Text voice:DrLEnfer section:DrLEnfer_2 keyword:You did it]] "I hardly even need to ask, but what do my good neighbors think?"),
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_arrow",
+					id = "Youdidit",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Comment = "Both families will attack the player",
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "FamiliesCombatPlayer",
+							QuestId = "TwinManors",
+							param_bindings = false,
+						}),
+					},
+					GoTo = "LeDomasdidit",
+					Keyword = "Van Tassels did it",
+					KeywordT = T(636481284811, --[[ModItemConversation DrLEnfer_2 KeywordT]] "Van Tassels did it"),
+					PlayGoToPhrase = true,
+					StoryBranchIcon = "conversation_arrow",
+					id = "VanTasselsdidit",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Comment = "Both families will attack the player",
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "FamiliesCombatPlayer",
+							QuestId = "TwinManors",
+							param_bindings = false,
+						}),
+					},
+					GoTo = "<end conversation>",
+					Keyword = "Le Domas did it",
+					KeywordT = T(789751685852, --[[ModItemConversation DrLEnfer_2 KeywordT]] "Le Domas did it"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(709497910762, --[[ModItemConversation DrLEnfer_2 Text voice:DrLEnfer section:DrLEnfer_2 keyword:Le Domas did it]] "I think you're not entirely wrong, but you could be multiplying the wrongs instead of subtracting."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Steroid",
+											Text = T(141614198508, --[[ModItemConversation DrLEnfer_2 Text voice:Steroid section:DrLEnfer_2 keyword:Le Domas did it]] "Math is hard!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Shadow",
+											Text = T(319583396167, --[[ModItemConversation DrLEnfer_2 Text voice:Shadow section:DrLEnfer_2 keyword:Le Domas did it]] "I swear, this guy's got a riddle for everything."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fidel",
+											Text = T(790713018093, --[[ModItemConversation DrLEnfer_2 Text voice:Fidel section:DrLEnfer_2 keyword:Le Domas did it]] "Philosophy of Fidel is that many wrongs make right."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							SoundAfter = "Sounds/ConversationEffects/iact_crowdreactions2_boooo1.wav",
+							Text = T(360810295916, --[[ModItemConversation DrLEnfer_2 Text voice:DrLEnfer section:DrLEnfer_2 keyword:Le Domas did it]] "Well, what do my good neighbors have to say to these accusations?"),
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_arrow",
+					id = "LeDomasdidit",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Comment = "If you have proof who did the murders. Both families start attacking each other in this case.",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "TwinManors",
+							Vars = set( "HaveProof" ),
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "FamiliesCombatFFA",
+							QuestId = "TwinManors",
+							param_bindings = false,
+						}),
+					},
+					GoTo = "<end conversation>",
+					Keyword = "The Families were killing each other",
+					KeywordT = T(813095741720, --[[ModItemConversation DrLEnfer_2 KeywordT]] "The Families were killing each other"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(617271525133, --[[ModItemConversation DrLEnfer_2 Text voice:DrLEnfer section:DrLEnfer_2 keyword:The Families were killing each other]] "As a notorious pessimist, I confess to feeling a little disappointed. I expected you to be as shortsighted as my half-wit neighbors."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fidel",
+											Text = T(737835842633, --[[ModItemConversation DrLEnfer_2 Text voice:Fidel section:DrLEnfer_2 keyword:The Families were killing each other]] "Fidel is confused. You making fun of Fidel?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Nails",
+											Text = T(259285408250, --[[ModItemConversation DrLEnfer_2 Text voice:Nails section:DrLEnfer_2 keyword:The Families were killing each other]] "That's what you get for misunderestimating us."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "MD",
+											Text = T(276892710121, --[[ModItemConversation DrLEnfer_2 Text voice:MD section:DrLEnfer_2 keyword:The Families were killing each other]] "I had my shortsightedness corrected when I was in high school."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Igor",
+											Text = T(500994127548, --[[ModItemConversation DrLEnfer_2 Text voice:Igor section:DrLEnfer_2 keyword:The Families were killing each other]] "All Dolviches have superior shortsight. It is genetics."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							MaxPlayed = 2,
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(538793795424, --[[ModItemConversation DrLEnfer_2 Text voice:DrLEnfer section:DrLEnfer_2 keyword:The Families were killing each other]] "I just hope you have enough evidence."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Raider",
+											Text = T(778984783455, --[[ModItemConversation DrLEnfer_2 Text voice:Raider section:DrLEnfer_2 keyword:The Families were killing each other]] "Oh yes, we nailed them."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Buns",
+											Text = T(556011820617, --[[ModItemConversation DrLEnfer_2 Text voice:Buns section:DrLEnfer_2 keyword:The Families were killing each other]] "Plenty - and it's all been properly bagged, labeled, and color-coded."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Sidney",
+											Text = T(484526632437, --[[ModItemConversation DrLEnfer_2 Text voice:Sidney section:DrLEnfer_2 keyword:The Families were killing each other]] "My dear Dr. L'Enfer, of course I have evidence. I never guess. It is a shocking habit, destructive to the logical faculty."),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "DrLEnfer",
+											Text = T(953467135824, --[[ModItemConversation DrLEnfer_2 Text voice:DrLEnfer section:DrLEnfer_2 keyword:The Families were killing each other]] "Alright, Sherlock, keep your deerstalker hat on."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Gus",
+											Text = T(614819643686, --[[ModItemConversation DrLEnfer_2 Text voice:Gus section:DrLEnfer_2 keyword:The Families were killing each other]] "Doc, we got more evidence than the OJ trial. Wait, bad example."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							MaxPlayed = 2,
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							SoundAfter = "Sounds/ConversationEffects/iact_crowdreactions2_murmur2.wav",
+							Text = T(135229430849, --[[ModItemConversation DrLEnfer_2 Text voice:DrLEnfer section:DrLEnfer_2 keyword:The Families were killing each other]] "Well, what do my good neighbors have to say to these accusations?"),
+							param_bindings = false,
+						}),
+					},
+					PhraseConditionRolloverText = T(353821413622, --[[ModItemConversation DrLEnfer_2 PhraseConditionRolloverText]] "Have enough <em>clues</em>"),
+					StoryBranchIcon = "conversation_arrow",
+					id = "TheFamilieswerekillingeachother1",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Comment = "If you don't have proof who did the murders. Both families attack the player.",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "TwinManors",
+							Vars = set({
+	HaveProof = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "FamiliesCombatPlayer",
+							QuestId = "TwinManors",
+							param_bindings = false,
+						}),
+					},
+					GoTo = "<end conversation>",
+					Keyword = "The Families were killing each other",
+					KeywordT = T(813095741720, --[[ModItemConversation DrLEnfer_2 KeywordT]] "The Families were killing each other"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(722158795942, --[[ModItemConversation DrLEnfer_2 Text voice:DrLEnfer section:DrLEnfer_2 keyword:The Families were killing each other]] "As a notorious pessimist, I confess to feeling a little disappointed. I expected you to be as shortsighted as my half-wit neighbors."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Smiley",
+											Text = T(779997465948, --[[ModItemConversation DrLEnfer_2 Text voice:Smiley section:DrLEnfer_2 keyword:The Families were killing each other]] "Oh, but we are at least twice as shortsighted as your neighbors! Perhaps even three times."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "PierreMerc",
+											Text = T(222674771070, --[[ModItemConversation DrLEnfer_2 Text voice:PierreMerc section:DrLEnfer_2 keyword:The Families were killing each other]] "They are pathetic and beneath my contempt. It would be a mercy to kill them."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Steroid",
+											Text = T(942634568400, --[[ModItemConversation DrLEnfer_2 Text voice:Steroid section:DrLEnfer_2 keyword:The Families were killing each other]] "They do not lift. It is no wonder they are so small and unhappy."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Tex",
+											Text = T(880923854617, --[[ModItemConversation DrLEnfer_2 Text voice:Tex section:DrLEnfer_2 keyword:The Families were killing each other]] "No one has better shortsight than Tex Colburn! Sharpest shortsight in whole world."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							MaxPlayed = 2,
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(889632690227, --[[ModItemConversation DrLEnfer_2 Text voice:DrLEnfer section:DrLEnfer_2 keyword:The Families were killing each other]] "I just hope you have enough evidence."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Hitman",
+											Text = T(793510854410, --[[ModItemConversation DrLEnfer_2 Text voice:Hitman section:DrLEnfer_2 keyword:The Families were killing each other]] "Erm, yeah, sort of."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Reaper",
+											Text = T(952967203139, --[[ModItemConversation DrLEnfer_2 Text voice:Reaper section:DrLEnfer_2 keyword:The Families were killing each other]] "I need no evidence, for the spirits of the dead speak tales of horror to my ear."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fidel",
+											Text = T(426711615685, --[[ModItemConversation DrLEnfer_2 Text voice:Fidel section:DrLEnfer_2 keyword:The Families were killing each other]] "Evidence? Who needs evidence when you got grenades?!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Larry",
+											Text = T(782485099386, --[[ModItemConversation DrLEnfer_2 Text voice:Larry section:DrLEnfer_2 keyword:The Families were killing each other]] "Yes! I even drew a detailed evidence map!"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "DrLEnfer",
+											Text = T(393605089710, --[[ModItemConversation DrLEnfer_2 Text voice:DrLEnfer section:DrLEnfer_2 keyword:The Families were killing each other]] "I see. The pink unicorn in the corner looks very suspicious. So..."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							MaxPlayed = 2,
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							SoundAfter = "Sounds/ConversationEffects/iact_crowdreactions2_boooo1.wav",
+							Text = T(198084083814, --[[ModItemConversation DrLEnfer_2 Text voice:DrLEnfer section:DrLEnfer_2 keyword:The Families were killing each other]] "Well, what do my good neighbors have to say to these accusations?"),
+							param_bindings = false,
+						}),
+					},
+					PhraseConditionRolloverText = T(667670465189, --[[ModItemConversation DrLEnfer_2 PhraseConditionRolloverText]] "Not enough <em>clues</em>"),
+					StoryBranchIcon = "conversation_arrow",
+					id = "TheFamilieswerekillingeachother2",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					AutoRemove = true,
+					Comment = "This option does not lead to nothing - the player has to resolve the gathering by accusing someone",
+					GoTo = "<back>",
+					Keyword = "It was the vengeful spirits",
+					KeywordT = T(389923197884, --[[ModItemConversation DrLEnfer_2 KeywordT]] "It was the vengeful spirits"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(365216200597, --[[ModItemConversation DrLEnfer_2 Text voice:DrLEnfer section:DrLEnfer_2 keyword:It was the vengeful spirits]] "Really. For the sake of what little faith in humanity I have left, I will assume you are joking. "),
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_arrow",
+					id = "Itisthevengefulspirits",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Comment = "Ends the conversation but not the gathering.",
+					GoTo = "<end conversation>",
+					Keyword = "We need more time to investigate",
+					KeywordT = T(262043658539, --[[ModItemConversation DrLEnfer_2 KeywordT]] "We need more time to investigate"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(698157123770, --[[ModItemConversation DrLEnfer_2 Text voice:DrLEnfer section:DrLEnfer_2 keyword:We need more time to investigate]] "How much more time? Good thing I already have my will written out - I'm starting to think I won't live to see the end of your \"investigation\"."),
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_back",
+					id = "Weneedmoretimetoinvestigate",
+					param_bindings = false,
+				}),
+			}),
+			PlaceObj('ModItemConversation', {
+				AssignToGroup = "DrLEnfer",
+				Comment = "In this quest two feuding families have lost a member during a play. The leader of the La Domas blames a curse while the leader of the van Tassels blames the doctor. The doctor is very suspicious and has no alibi but is ultimately innocent. \n\nThere were two separate plots from both families leading to the murders.",
+				Conditions = {
+					PlaceObj('QuestIsVariableBool', {
+						QuestId = "TwinManors",
+						Vars = set({
+	FamilyGathered = false,
+	FamilyGathering = false,
+}),
+						param_bindings = false,
+					}),
+				},
+				DefaultActor = "DrLEnfer",
+				disabledInConflict = true,
+				group = "Farmland",
+				id = "DrLEnfer_1",
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(208660002023, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:Greeting]] "The name's Dr. L'Enfer. Who the hell are you? Are you the <em>constables</em> I heard about? You here to <em>investigate the murders</em> in the area?"),
+							param_bindings = false,
+						}),
+					},
+					NoBackOption = true,
+					id = "Greeting",
+					param_bindings = false,
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						AutoRemove = true,
+						Effects = {
+							PlaceObj('PhraseSetEnabled', {
+								Conversation = "DrLEnfer_1",
+								Enabled = false,
+								PhraseId = "Greeting.Wearejustmercenaries",
+								param_bindings = false,
+							}),
+						},
+						GoTo = "<root>",
+						Keyword = "We are here to investigate",
+						KeywordT = T(268046368288, --[[ModItemConversation DrLEnfer_1 KeywordT]] "We are here to investigate"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "DrLEnfer",
+								Text = T(593480251065, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:We are here to investigate]] "Oh, really? May I look at your IDs? Badges? No? Of course not. As I see it, you are either some new breed of inventive bandits, or the government is so desperate they started delegating law enforcement to random amateurs."),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Mouse",
+												Text = T(994362233598, --[[ModItemConversation DrLEnfer_1 Text voice:Mouse section:DrLEnfer_1 keyword:We are here to investigate]] "Hey! Quit it with the name-calling, mister!"),
+												param_bindings = false,
+											}),
+											PlaceObj('ConversationLine', {
+												Character = "DrLEnfer",
+												Text = T(844473871656, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:We are here to investigate]] "The Hippocratic Oath doesn't prevent me from hurting your feelings, little missy."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Magic",
+												Text = T(903272946593, --[[ModItemConversation DrLEnfer_1 Text voice:Magic section:DrLEnfer_1 keyword:We are here to investigate]] '"Inventive bandit"! Love that, man! I\'d put that on my business card if I had one.'),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Raven",
+												Text = T(379519058189, --[[ModItemConversation DrLEnfer_1 Text voice:Raven section:DrLEnfer_1 keyword:We are here to investigate]] "I wouldn't exactly say we're amateurs."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Wolf",
+												Text = T(538731492520, --[[ModItemConversation DrLEnfer_1 Text voice:Wolf section:DrLEnfer_1 keyword:We are here to investigate]] "Think of us as private dicks."),
+												param_bindings = false,
+											}),
+											PlaceObj('ConversationLine', {
+												Character = "DrLEnfer",
+												Text = T(455609988168, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:We are here to investigate]] "You may rest assured that I most certainly will."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								MaxPlayed = 2,
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_action",
+						id = "Weareheretoinvestigate",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						AutoRemove = true,
+						Effects = {
+							PlaceObj('PhraseSetEnabled', {
+								Conversation = "DrLEnfer_1",
+								Enabled = false,
+								PhraseId = "Greeting.Weareheretoinvestigate",
+								param_bindings = false,
+							}),
+						},
+						GoTo = "<root>",
+						Keyword = "We are just mercenaries",
+						KeywordT = T(500014845460, --[[ModItemConversation DrLEnfer_1 KeywordT]] "We are just mercenaries"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "DrLEnfer",
+								Text = T(665622463640, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:We are just mercenaries]] "So you have no legal reason to be here. You are just meddling in other peoples' affairs in the hope that someone will pay you to kill someone else?"),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Buns",
+												Text = T(919837326544, --[[ModItemConversation DrLEnfer_1 Text voice:Buns section:DrLEnfer_1 keyword:We are just mercenaries]] "I wouldn't put it quite that way."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Blood",
+												Text = T(178711711874, --[[ModItemConversation DrLEnfer_1 Text voice:Blood section:DrLEnfer_1 keyword:We are just mercenaries]] "Wow. That pretty much sums it up. Yes."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Grizzly",
+												Text = T(371335413290, --[[ModItemConversation DrLEnfer_1 Text voice:Grizzly section:DrLEnfer_1 keyword:We are just mercenaries]] "Gimme a break, Doc, you're reading me my job description."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Reaper",
+												Text = T(321443723333, --[[ModItemConversation DrLEnfer_1 Text voice:Reaper section:DrLEnfer_1 keyword:We are just mercenaries]] "We are harbingers of death serving a purpose in life."),
+												param_bindings = false,
+											}),
+											PlaceObj('ConversationLine', {
+												Character = "DrLEnfer",
+												Text = T(486587814601, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:We are just mercenaries]] "Me too, but I have a degree in medicine to prove it."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								MaxPlayed = 2,
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_action",
+						id = "Wearejustmercenaries",
+						param_bindings = false,
+					}),
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "TwinManors",
+							Vars = set({
+	ClueTombs = false,
+	FamilyGathering = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(279185308446, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:Greeting2]] "You're a sight for sore eyes. So much I wish I was blind."),
+							param_bindings = false,
+						}),
+					},
+					id = "Greeting2",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "TwinManors",
+							Vars = set({
+	ClueTombs = true,
+	FamilyGathering = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(800792113112, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:Greeting3]] "Nice day for grave disturbing, isn't it? Hu-ha."),
+							param_bindings = false,
+						}),
+					},
+					id = "Greeting3",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "TwinManors",
+							Vars = set({
+	Given = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "DoctorMet",
+							QuestId = "TwinManors",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "What is going on here?",
+					KeywordT = T(397426699806, --[[ModItemConversation DrLEnfer_1 KeywordT]] "What is going on here?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(888487217211, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:What is going on here?]] "Right now, a bunch of gun-toting kids are disrupting the work of a medical professional."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Raven",
+											Text = T(336855322011, --[[ModItemConversation DrLEnfer_1 Text voice:Raven section:DrLEnfer_1 keyword:What is going on here?]] "You mentioned murders."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Red",
+											Text = T(987415818093, --[[ModItemConversation DrLEnfer_1 Text voice:Red section:DrLEnfer_1 keyword:What is going on here?]] "I h'aint been called a kid since I was a wee bairn! Do I look like a wee bairn to ye?!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "MD",
+											Text = T(694524028488, --[[ModItemConversation DrLEnfer_1 Text voice:MD section:DrLEnfer_1 keyword:What is going on here?]] "I think he means us."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(221437837362, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:What is going on here?]] "You need to know more? Please do not hesitate to go outside and <em>ask someone</em> who cares."),
+							param_bindings = false,
+						}),
+					},
+					id = "Whatisgoingonhere",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "TwinManors",
+							Vars = set( "Given" ),
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "DrLEnfer_1",
+							PhraseId = "Tellusaboutthemurders2",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetSeen', {
+							Conversation = "DrLEnfer_1",
+							PhraseId = "Tellusaboutthemurders2",
+							Seen = true,
+							param_bindings = false,
+						}),
+					},
+					GoTo = "Tellusaboutthemurders2",
+					Keyword = "Tell us about the murders",
+					KeywordT = T(582505444237, --[[ModItemConversation DrLEnfer_1 KeywordT]] "Tell us about the murders"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(436840404815, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:Tell us about the murders]] "What do you need to know? As far as I'm concerned, they have been very successful as such. The patients are surely one hundred percent dead."),
+							param_bindings = false,
+						}),
+					},
+					PhraseRolloverText = T(420557117829, --[[ModItemConversation DrLEnfer_1 PhraseRolloverText]] "We have been asked to investigate the murders"),
+					id = "Tellusaboutthemurders1",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "TwinManors",
+							Vars = set({
+	DoctorPissed = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					Enabled = false,
+					Keyword = "Tell us about the murders",
+					KeywordT = T(582505444237, --[[ModItemConversation DrLEnfer_1 KeywordT]] "Tell us about the murders"),
+					id = "Tellusaboutthemurders2",
+					param_bindings = false,
+					PlaceObj('ConversationPhrase', {
+						Keyword = "Tell us everything you know",
+						KeywordT = T(649108155263, --[[ModItemConversation DrLEnfer_1 KeywordT]] "Tell us everything you know"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "DrLEnfer",
+								Text = T(666178904101, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:Tell us everything you know]] "Hmmm... You want me to tell you the story about the gorgeous nurse who helped me with my study of Gross Anatomy?"),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Hitman",
+												Text = T(500045562288, --[[ModItemConversation DrLEnfer_1 Text voice:Hitman section:DrLEnfer_1 keyword:Tell us everything you know]] "Yes, please!"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Fox",
+												Text = T(715193619552, --[[ModItemConversation DrLEnfer_1 Text voice:Fox section:DrLEnfer_1 keyword:Tell us everything you know]] "Mmm, that might be interesting."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Wolf",
+												Text = T(595978432729, --[[ModItemConversation DrLEnfer_1 Text voice:Wolf section:DrLEnfer_1 keyword:Tell us everything you know]] "I'm listening."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Smiley",
+												Text = T(142538964111, --[[ModItemConversation DrLEnfer_1 Text voice:Smiley section:DrLEnfer_1 keyword:Tell us everything you know]] "You have my undivided attention."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "DrLEnfer",
+								Text = T(940874784722, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:Tell us everything you know]] "No, now that I think of it, I'll keep it to myself. You would not have the stomach for it."),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Blood",
+												Text = T(478635596757, --[[ModItemConversation DrLEnfer_1 Text voice:Blood section:DrLEnfer_1 keyword:Tell us everything you know]] "Yeah, right... Try me."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Nails",
+												Text = T(284122571452, --[[ModItemConversation DrLEnfer_1 Text voice:Nails section:DrLEnfer_1 keyword:Tell us everything you know]] "You're talking to a man who's watched every piece of pornography ever recorded. Hit me, Doc."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Grizzly",
+												Text = T(484836602661, --[[ModItemConversation DrLEnfer_1 Text voice:Grizzly section:DrLEnfer_1 keyword:Tell us everything you know]] "I have literally seen people explode, but whatever. Keep your secrets."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+						},
+						id = "Telluseverythingyouknow",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Keyword = "Where were you at the time of the murder?",
+						KeywordT = T(636906037752, --[[ModItemConversation DrLEnfer_1 KeywordT]] "Where were you at the time of the murder?"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "DrLEnfer",
+								Text = T(487961330460, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:Where were you at the time of the murder?]] "Working alone in my clinic, looking over the results of the previous murder. Are you asking me if I have an alibi?"),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Raven",
+												Text = T(123943577122, --[[ModItemConversation DrLEnfer_1 Text voice:Raven section:DrLEnfer_1 keyword:Where were you at the time of the murder?]] "Yes, we are."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Raider",
+												Text = T(222117275457, --[[ModItemConversation DrLEnfer_1 Text voice:Raider section:DrLEnfer_1 keyword:Where were you at the time of the murder?]] "This is an ongoing investigation and we just need all the information we can get."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Livewire",
+												Text = T(842381367680, --[[ModItemConversation DrLEnfer_1 Text voice:Livewire section:DrLEnfer_1 keyword:Where were you at the time of the murder?]] "If you don't have one, that's okay, too. I've already thought up a couple for you."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Vicki",
+												Text = T(609193645886, --[[ModItemConversation DrLEnfer_1 Text voice:Vicki section:DrLEnfer_1 keyword:Where were you at the time of the murder?]] "Might be a good idea to get one, mon."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								MaxPlayed = 2,
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "DrLEnfer",
+								Text = T(866432312075, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:Where were you at the time of the murder?]] "No, I don't have an alibi - which is equally true for you as well, \"constable\"."),
+								param_bindings = false,
+							}),
+						},
+						id = "Wherehaveyoubeenduringthemurders",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "ClueBrothersRumors" ),
+								param_bindings = false,
+							}),
+						},
+						Keyword = "What do you think of the “vengeful spirits”?",
+						KeywordT = T(726486075248, --[[ModItemConversation DrLEnfer_1 KeywordT]] "What do you think of the “vengeful spirits”?"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "DrLEnfer",
+								Text = T(607712338520, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:What do you think of the “vengeful spirits”?]] "Do YOU believe in Santa Claus? No, actually - don't tell me. I'm afraid to hear the answer I'd get."),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Fidel",
+												Text = T(711360132364, --[[ModItemConversation DrLEnfer_1 Text voice:Fidel section:DrLEnfer_1 keyword:What do you think of the “vengeful spirits”?]] "What is problem with Santa Claus?!"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Annotation = '"Дед Мороз" = Santa Claus',
+												Character = "Ivan",
+												Text = T(752347001376, --[[ModItemConversation DrLEnfer_1 Text "Дед Мороз" = Santa Claus voice:Ivan section:DrLEnfer_1 keyword:What do you think of the “vengeful spirits”?]] "Дед Мороз is like God - people need to believe lies."),
+												param_bindings = false,
+											}),
+											PlaceObj('ConversationLine', {
+												Character = "DrLEnfer",
+												Text = T(389095887298, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:What do you think of the “vengeful spirits”?]] "Amen to that. It's the basic truth of the human condition."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Smiley",
+												Text = T(645100516873, --[[ModItemConversation DrLEnfer_1 Text voice:Smiley section:DrLEnfer_1 keyword:What do you think of the “vengeful spirits”?]] "Santa Claus is a great role model for me. I too wish to bring gifts to all the good girls of the world."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+						},
+						id = "Whatdoyouthinkofthevengefulspirits",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "ClueDoctorAutopsies" ),
+								param_bindings = false,
+							}),
+						},
+						Keyword = "What are the autopsy results?",
+						KeywordT = T(404869705520, --[[ModItemConversation DrLEnfer_1 KeywordT]] "What are the autopsy results?"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "DrLEnfer",
+								Text = T(804870546898, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:What are the autopsy results?]] "Some were shot, others were poisoned. All died with great success."),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Raven",
+												Text = T(887938319595, --[[ModItemConversation DrLEnfer_1 Text voice:Raven section:DrLEnfer_1 keyword:What are the autopsy results?]] "You don't say."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Scope",
+												Text = T(111585716301, --[[ModItemConversation DrLEnfer_1 Text voice:Scope section:DrLEnfer_1 keyword:What are the autopsy results?]] "Success being a relative term."),
+												param_bindings = false,
+											}),
+											PlaceObj('ConversationLine', {
+												Character = "DrLEnfer",
+												Text = T(830133238971, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:What are the autopsy results?]] "Indeed."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Fidel",
+												Text = T(572801697663, --[[ModItemConversation DrLEnfer_1 Text voice:Fidel section:DrLEnfer_1 keyword:What are the autopsy results?]] "Nobody blew up? BORING!"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "DrLEnfer",
+								Text = T(621189010536, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:What are the autopsy results?]] "However, there was never one who was poisoned and shot at the same time. That probably means the murderer is a responsible person who does not waste resources."),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Blood",
+												Text = T(424218525478, --[[ModItemConversation DrLEnfer_1 Text voice:Blood section:DrLEnfer_1 keyword:What are the autopsy results?]] "Good work, Doctor!"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Reaper",
+												Text = T(719493992612, --[[ModItemConversation DrLEnfer_1 Text voice:Reaper section:DrLEnfer_1 keyword:What are the autopsy results?]] "Perhaps, but a simple method of murder does not imply an elegant one."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Raider",
+												Text = T(500155228776, --[[ModItemConversation DrLEnfer_1 Text voice:Raider section:DrLEnfer_1 keyword:What are the autopsy results?]] "Got it. So, our suspect is someone who thinks wasting lives is okay, but not resources."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Sidney",
+												Text = T(385961065583, --[[ModItemConversation DrLEnfer_1 Text voice:Sidney section:DrLEnfer_1 keyword:What are the autopsy results?]] 'Well, as the great detective once said, "There is nothing more deceptive than an obvious fact."'),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+						},
+						id = "Whataretheautopsyresults",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "ClueDoctorPoison" ),
+								param_bindings = false,
+							}),
+						},
+						Keyword = "We found cyanide in your cabinet",
+						KeywordT = T(464489499424, --[[ModItemConversation DrLEnfer_1 KeywordT]] "We found cyanide in your cabinet"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "DrLEnfer",
+								Text = T(288110269864, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:We found cyanide in your cabinet]] "Good job! And if I was a miner, you would have found a sharp pickaxe in my shed, right? Hmm, now that I think of it, I'm quite certain I actually have one somewhere around here."),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "MD",
+												Text = T(161341903175, --[[ModItemConversation DrLEnfer_1 Text voice:MD section:DrLEnfer_1 keyword:We found cyanide in your cabinet]] "He has a point, cyanide has some medical uses in clinical chemistry."),
+												param_bindings = false,
+											}),
+											PlaceObj('ConversationLine', {
+												Character = "DrLEnfer",
+												Text = T(466734094000, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:We found cyanide in your cabinet]] "Oh, a colleague? And where do you see a chemical lab in here, young man?"),
+												param_bindings = false,
+											}),
+											PlaceObj('ConversationLine', {
+												Character = "MD",
+												Text = T(392914445900, --[[ModItemConversation DrLEnfer_1 Text voice:MD section:DrLEnfer_1 keyword:We found cyanide in your cabinet]] "Umm, it can also be applied in emergency situations to produce a rapid decrease in blood pressure?"),
+												param_bindings = false,
+											}),
+											PlaceObj('ConversationLine', {
+												Character = "DrLEnfer",
+												Text = T(556253556972, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:We found cyanide in your cabinet]] "Correct. You get an A minus, where the minus stands for one dead patient because you're too smart to be practical."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Sidney",
+												Text = T(878212893325, --[[ModItemConversation DrLEnfer_1 Text voice:Sidney section:DrLEnfer_1 keyword:We found cyanide in your cabinet]] "So sorry, my good man! But, erm, you see, my method of investigation is founded upon the observation of trifles."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Larry",
+												Text = T(204017524779, --[[ModItemConversation DrLEnfer_1 Text voice:Larry section:DrLEnfer_1 keyword:We found cyanide in your cabinet]] "You use a pickaxe for autopsies?"),
+												param_bindings = false,
+											}),
+											PlaceObj('ConversationLine', {
+												Character = "DrLEnfer",
+												Text = T(494409003505, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:We found cyanide in your cabinet]] "I'm guessing you used to suck on paint chips as a child."),
+												param_bindings = false,
+											}),
+											PlaceObj('ConversationLine', {
+												Character = "Larry",
+												Text = T(872757247888, --[[ModItemConversation DrLEnfer_1 Text voice:Larry section:DrLEnfer_1 keyword:We found cyanide in your cabinet]] "Sure! Got any?"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+						},
+						id = "Wefoundcyanideinyourcabinet",
+						param_bindings = false,
+					}),
+				}),
+				PlaceObj('ConversationPhrase', {
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "DoctorEnabled",
+							QuestId = "TwinManors",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Can you provide medical aid?",
+					KeywordT = T(673764952213, --[[ModItemConversation DrLEnfer_1 KeywordT]] "Can you provide medical aid?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(899410846602, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:Can you provide medical aid?]] "Can shit fly? Regrettably for those on the receiving end, it can. But, to be perfectly honest, neither activity gives me great joy these days."),
+							param_bindings = false,
+						}),
+					},
+					id = "Canyouprovidemedicalaid",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "Sanatorium",
+							Vars = set({
+	MangelSamples = true,
+	Sample_TwinManors = false,
+	SamplesGiven = false,
+}),
+							param_bindings = false,
+						}),
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "TwinManors",
+							Vars = set( "DoctorEnabled" ),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Are there cases of Red Rabies here?",
+					KeywordT = T(374282539172, --[[ModItemConversation DrLEnfer_1 KeywordT]] "Are there cases of Red Rabies here?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(340438194254, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:Are there cases of Red Rabies here?]] "You could say so, but not in the literal sense. What now, is that old hag <em>Kronenberg</em> sending you after me? I told her I'm not helping her and I meant it. Please go and advise her to apply both the superius and inferius labia oris to my gluteus maximus."),
+							param_bindings = false,
+						}),
+					},
+					NoBackOption = true,
+					id = "AretherecasesofRedRabieshere",
+					param_bindings = false,
+					PlaceObj('ConversationPhrase', {
+						Keyword = "Do what now?",
+						KeywordT = T(672981866443, --[[ModItemConversation DrLEnfer_1 KeywordT]] "Do what now?"),
+						Lines = {
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Buns",
+												Text = T(556937680571, --[[ModItemConversation DrLEnfer_1 Text voice:Buns section:DrLEnfer_1 keyword:Do what now?]] "No, don't ask about that..."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "MD",
+												Text = T(201828984507, --[[ModItemConversation DrLEnfer_1 Text voice:MD section:DrLEnfer_1 keyword:Do what now?]] "Erm... I think he wants her to..."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "DrQ",
+												Text = T(970348548208, --[[ModItemConversation DrLEnfer_1 Text voice:DrQ section:DrLEnfer_1 keyword:Do what now?]] "I believe what the doctor is suggesting is..."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "DrLEnfer",
+								Text = T(424417838269, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:Do what now?]] "In short, you can tell her to kiss my ass."),
+								param_bindings = false,
+							}),
+						},
+						id = "DoWhatNow",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Effects = {
+							PlaceObj('PhraseSetEnabled', {
+								Conversation = "DrLEnfer_1",
+								PhraseId = "AretherecasesofRedRabieshere.Herresearchkeepsheralive",
+								param_bindings = false,
+							}),
+						},
+						Keyword = "She got the Red Rabies",
+						KeywordT = T(362113950530, --[[ModItemConversation DrLEnfer_1 KeywordT]] "She got the Red Rabies"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "DrLEnfer",
+								Text = T(399224459790, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:She got the Red Rabies]] "Did she? If this isn't some karmic justice! When is the funeral?"),
+								param_bindings = false,
+							}),
+						},
+						id = "ShegottheRedRabies",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						GoTo = "<root>",
+						Keyword = "It's about saving human lives!",
+						KeywordT = T(711897881365, --[[ModItemConversation DrLEnfer_1 KeywordT]] "It's about saving human lives!"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "DrLEnfer",
+								Text = T(410057824244, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:It's about saving human lives!]] "If I subscribed to Dr. Kronenberg's approach to saving human lives, I would go around putting calculators in first aid kits. Now stop wasting my time."),
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_action",
+						id = "Itsaboutsavinghumanlives",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						AutoRemove = true,
+						Conditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('UnitSquadHasMerc', {
+										HasPerk = "Pessimist",
+										param_bindings = false,
+									}),
+									PlaceObj('UnitSquadHasMerc', {
+										HasPerk = "Scoundrel",
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Sample_TwinManors",
+								QuestId = "Sanatorium",
+								param_bindings = false,
+							}),
+							PlaceObj('QuestSetVariableNum', {
+								Amount = 1,
+								Prop = "Samples",
+								QuestId = "Sanatorium",
+								param_bindings = false,
+							}),
+							PlaceObj('UnitGrantItem', {
+								ItemId = "VirusSample",
+								param_bindings = false,
+							}),
+						},
+						Enabled = false,
+						GoTo = "<root>",
+						Keyword = "Her research keeps her alive",
+						KeywordT = T(203556856593, --[[ModItemConversation DrLEnfer_1 KeywordT]] "Her research keeps her alive"),
+						Lines = {
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Larry_Clean",
+												Text = T(141091514893, --[[ModItemConversation DrLEnfer_1 Text voice:Larry_Clean section:DrLEnfer_1 keyword:Her research keeps her alive]] "She thinks she's close to a cure, but from what I've seen... it's worse than the disease."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Red",
+												Text = T(807089565228, --[[ModItemConversation DrLEnfer_1 Text voice:Red section:DrLEnfer_1 keyword:Her research keeps her alive]] "She's mad as a hatter, that one is. Finishing her research will finish her!"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Fox",
+												Text = T(331100215170, --[[ModItemConversation DrLEnfer_1 Text voice:Fox section:DrLEnfer_1 keyword:Her research keeps her alive]] 'Well, she looks awful. I think her "research" is only making her worse.'),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Magic",
+												Text = T(348831825743, --[[ModItemConversation DrLEnfer_1 Text voice:Magic section:DrLEnfer_1 keyword:Her research keeps her alive]] "Man, I think she's gone crazy. She thinks her research is helping, but it's just making her sicker."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Livewire",
+												Text = T(421497088038, --[[ModItemConversation DrLEnfer_1 Text voice:Livewire section:DrLEnfer_1 keyword:Her research keeps her alive]] "I may not be a doctor, but in my opinion, the research is the only thing keeping her alive."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "DrLEnfer",
+								Text = T(708393710349, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:Her research keeps her alive]] "So basically you're telling me that the sooner I help her with her research, the sooner we'll get rid of her? That's very cynical of you. I'll help any way I can."),
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_action",
+						id = "Herresearchkeepsheralive",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						Conditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('UnitSquadHasMerc', {
+										HasPerk = "Negotiator",
+										param_bindings = false,
+									}),
+									PlaceObj('UnitSquadHasMerc', {
+										HasPerk = "Loner",
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Help us and we'll leave you alone",
+						KeywordT = T(266531836251, --[[ModItemConversation DrLEnfer_1 KeywordT]] "Help us and we'll leave you alone"),
+						Lines = {
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Flay",
+												Text = T(974400964914, --[[ModItemConversation DrLEnfer_1 Text voice:Flay section:DrLEnfer_1 keyword:Help us and we'll leave you alone]] "You help us with this and we will never cross paths again."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Gus",
+												Text = T(704220034672, --[[ModItemConversation DrLEnfer_1 Text voice:Gus section:DrLEnfer_1 keyword:Help us and we'll leave you alone]] "This is painful for both of us, Dr. Woodchipper. Give us what we want and we'll get out of your hair."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Larry",
+												Text = T(871381299600, --[[ModItemConversation DrLEnfer_1 Text voice:Larry section:DrLEnfer_1 keyword:Help us and we'll leave you alone]] "Hey, man, it's cool. You just give us the stuff and we go away and forget your name, y'know? Oh, wait... What was your name?"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Larry_Clean",
+												Text = T(933114136404, --[[ModItemConversation DrLEnfer_1 Text voice:Larry_Clean section:DrLEnfer_1 keyword:Help us and we'll leave you alone]] "If you help us out, I swear we will leave and never, ever get anywhere near your medicine cabinet."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Reaper",
+												Text = T(282124598858, --[[ModItemConversation DrLEnfer_1 Text voice:Reaper section:DrLEnfer_1 keyword:Help us and we'll leave you alone]] "I offer a simple deal, doctor. Give us what we want, and you will never be in my crosshairs again."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Shadow",
+												Text = T(516373069312, --[[ModItemConversation DrLEnfer_1 Text voice:Shadow section:DrLEnfer_1 keyword:Help us and we'll leave you alone]] "This is uncomfortable for both of us. Give us what we want and you'll never see us again... not even our shadows."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Buns",
+												Text = T(759487395070, --[[ModItemConversation DrLEnfer_1 Text voice:Buns section:DrLEnfer_1 keyword:Help us and we'll leave you alone]] "Give us what we want and we promise to leave you alone... in this rather sad and filthy place."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Raider",
+												Text = T(657400021111, --[[ModItemConversation DrLEnfer_1 Text voice:Raider section:DrLEnfer_1 keyword:Help us and we'll leave you alone]] "Doctor, if you give us that sample, you'll be off our person-of-interest list. Sound good?"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "Sidney",
+												Text = T(953657085437, --[[ModItemConversation DrLEnfer_1 Text voice:Sidney section:DrLEnfer_1 keyword:Help us and we'll leave you alone]] "Do be a good doctor and give us that sample. Good doctors are far less interesting to me than bad ones... if you take my meaning."),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "DrLEnfer",
+								Text = T(596729970541, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:Help us and we'll leave you alone]] "You promise? I'll hold you to your word, so don't expect me to answer any pesky questions about any murders. You can go play detective somewhere else."),
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_action",
+						id = "Helpusandwellleaveyoualone",
+						param_bindings = false,
+						PlaceObj('ConversationPhrase', {
+							Align = "right",
+							Effects = {
+								PlaceObj('QuestSetVariableBool', {
+									Prop = "DoctorPissed",
+									QuestId = "TwinManors",
+									param_bindings = false,
+								}),
+								PlaceObj('QuestSetVariableBool', {
+									Prop = "Sample_TwinManors",
+									QuestId = "Sanatorium",
+									param_bindings = false,
+								}),
+								PlaceObj('QuestSetVariableNum', {
+									Amount = 1,
+									Prop = "Samples",
+									QuestId = "Sanatorium",
+									param_bindings = false,
+								}),
+								PlaceObj('UnitGrantItem', {
+									ItemId = "VirusSample",
+									param_bindings = false,
+								}),
+							},
+							GoTo = "<root>",
+							Keyword = "Just help us with the virus",
+							KeywordT = T(855618416152, --[[ModItemConversation DrLEnfer_1 KeywordT]] "Just help us with the virus"),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "DrLEnfer",
+									Text = T(297391935706, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:Just help us with the virus]] "Okay, I'll share with you my own research. Now go give it to Kronenberg and get off my back!"),
+									param_bindings = false,
+								}),
+							},
+							id = "Justhelpuswiththevirus",
+							param_bindings = false,
+						}),
+					}),
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "TwinManors",
+							Vars = set( "Given" ),
+							param_bindings = false,
+						}),
+						PlaceObj('QuestIsVariableNum', {
+							Amount = 3,
+							Prop = "Clues",
+							QuestId = "TwinManors",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "We have a suspect for the murders",
+					KeywordT = T(869471684695, --[[ModItemConversation DrLEnfer_1 KeywordT]] "We have a suspect for the murders"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(450391398604, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:We have a suspect for the murders]] "Good for you! Do you want me to gather those annoying Van Tassels and Le Domas so you can tell them about it, or do you need more time sniffing around and asking repetitive questions?"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Livewire",
+											Text = T(302035482302, --[[ModItemConversation DrLEnfer_1 Text voice:Livewire section:DrLEnfer_1 keyword:We have a suspect for the murders]] "Seriously. I feel like a cop. Eugh."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Ice",
+											Text = T(612202381580, --[[ModItemConversation DrLEnfer_1 Text voice:Ice section:DrLEnfer_1 keyword:We have a suspect for the murders]] "I hear that. I didn't sign on to this gig to walk around and act like five-oh."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Sidney",
+											Text = T(776307830816, --[[ModItemConversation DrLEnfer_1 Text voice:Sidney section:DrLEnfer_1 keyword:We have a suspect for the murders]] "I must admit, I am rather enjoying myself!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					NoBackOption = true,
+					StoryBranchIcon = "conversation_arrow",
+					id = "Wehaveasuspectforthemurders",
+					param_bindings = false,
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "FamilyGathering",
+								QuestId = "TwinManors",
+								param_bindings = false,
+							}),
+						},
+						GoTo = "<end conversation>",
+						Keyword = "Gather them",
+						KeywordT = T(403373217007, --[[ModItemConversation DrLEnfer_1 KeywordT]] "Gather them"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "DrLEnfer",
+								Text = T(340748704169, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:Gather them]] "Alright. Let's get this over with."),
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_arrow",
+						id = "Gatherthem",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Align = "right",
+						GoTo = "<root>",
+						Keyword = "Not yet",
+						KeywordT = T(326965499616, --[[ModItemConversation DrLEnfer_1 KeywordT]] "Not yet"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "DrLEnfer",
+								Text = T(717841092422, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:Not yet]] "I wonder if you'll ever leave... No, no, don't tell me - I like the suspense."),
+								param_bindings = false,
+							}),
+						},
+						StoryBranchIcon = "conversation_back",
+						id = "Notyet",
+						param_bindings = false,
+					}),
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "TwinManors",
+							Vars = set( "ClueTombs", "Given" ),
+							param_bindings = false,
+						}),
+					},
+					Effects = {
+						PlaceObj('QuestSetVariableBool', {
+							Prop = "ClueManorsOwner",
+							QuestId = "TwinManors",
+							param_bindings = false,
+						}),
+						PlaceObj('QuestSetVariableNum', {
+							Amount = 1,
+							Prop = "Clues",
+							QuestId = "TwinManors",
+							param_bindings = false,
+						}),
+						PlaceObj('PhraseSetEnabled', {
+							Conversation = "DrLEnfer_1",
+							PhraseId = "HowdidtheLEnferbrothersdie",
+							param_bindings = false,
+						}),
+					},
+					Keyword = "We found the will of the L’Enfer brothers",
+					KeywordT = T(896454500934, --[[ModItemConversation DrLEnfer_1 KeywordT]] "We found the will of the L’Enfer brothers"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(276060683153, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:We found the will of the L’Enfer brothers]] "Hm. Is grave robbing your occupation, or just a hobby?"),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fidel",
+											Text = T(533194222535, --[[ModItemConversation DrLEnfer_1 Text voice:Fidel section:DrLEnfer_1 keyword:We found the will of the L’Enfer brothers]] "Hobby!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Nails",
+											Text = T(163215253528, --[[ModItemConversation DrLEnfer_1 Text voice:Nails section:DrLEnfer_1 keyword:We found the will of the L’Enfer brothers]] "Occupation."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Blood",
+											Text = T(377927284727, --[[ModItemConversation DrLEnfer_1 Text voice:Blood section:DrLEnfer_1 keyword:We found the will of the L’Enfer brothers]] "Actually, we're more into the grave filling business."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Mouse",
+											Text = T(202114907833, --[[ModItemConversation DrLEnfer_1 Text voice:Mouse section:DrLEnfer_1 keyword:We found the will of the L’Enfer brothers]] "Well, this is really more like grave borrowing... Except, that sounds weird, doesn't it?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							MaxPlayed = 2,
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(235706036705, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:We found the will of the L’Enfer brothers]] "Before you decide to start digging out my other <em>L'Enfer relatives</em>, I will tell you what you need to know."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Fidel",
+											Text = T(648338710181, --[[ModItemConversation DrLEnfer_1 Text voice:Fidel section:DrLEnfer_1 keyword:We found the will of the L’Enfer brothers]] "But we did put them back!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Gus",
+											Text = T(164703683324, --[[ModItemConversation DrLEnfer_1 Text voice:Gus section:DrLEnfer_1 keyword:We found the will of the L’Enfer brothers]] "Might have done that from the start, Woodman, and spared us some digging."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Shadow",
+											Text = T(357215821315, --[[ModItemConversation DrLEnfer_1 Text voice:Shadow section:DrLEnfer_1 keyword:We found the will of the L’Enfer brothers]] "Maybe next time start with that."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(260056870562, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:We found the will of the L’Enfer brothers]] "Yes, I'm the <em>last living heir</em> of the L'Enfer family and I own this land. However, decades ago the Manors were sold separately to the horrible Van Tassel and Le Domas families."),
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_sarcastic",
+					id = "WefoundthewilloftheLEnferbrothers",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					Align = "right",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "TwinManors",
+							Vars = set( "ClueBrothersRumors" ),
+							param_bindings = false,
+						}),
+					},
+					Enabled = false,
+					Keyword = "How did the L’Enfer brothers die?",
+					KeywordT = T(576882893879, --[[ModItemConversation DrLEnfer_1 KeywordT]] "How did the L’Enfer brothers die?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(228865771755, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "That shameful incident is a family secret."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Blood",
+											Text = T(158621416789, --[[ModItemConversation DrLEnfer_1 Text voice:Blood section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "A-ha! So they did kill each other after all!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Steroid",
+											Text = T(911832928034, --[[ModItemConversation DrLEnfer_1 Text voice:Steroid section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "Is it scary?..."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Kalyna",
+											Text = T(755378925800, --[[ModItemConversation DrLEnfer_1 Text voice:Kalyna section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "We promise not to tell!"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(313436696483, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "Okay, here is the story: one hundred years ago, the servants were cleaning a cesspool. One of them succumbed to the toxic fumes coming out of it, fell inside and started drowning..."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(633898765266, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "<em>Huey L'Enfer</em> tried to help him, but also fell down the shit hole. Then <em>Dewey</em> came to help, with the same result..."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Mouse",
+											Text = T(455179117524, --[[ModItemConversation DrLEnfer_1 Text voice:Mouse section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "Eeew..."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Len",
+											Text = T(516123053448, --[[ModItemConversation DrLEnfer_1 Text voice:Len section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "Damn, that's ugly."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Raider",
+											Text = T(932099585944, --[[ModItemConversation DrLEnfer_1 Text voice:Raider section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "Let me guess - there was a third brother named <em>Louie</em>?"),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "DrLEnfer",
+											Text = T(472056676320, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "Oui. He is my grandfather. He died in France, away from this shithole."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Thor",
+											Text = T(629778224301, --[[ModItemConversation DrLEnfer_1 Text voice:Thor section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "I suppose there are worse ways to go, but I'm having difficulty thinking of any at the moment."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Magic",
+											Text = T(848858775361, --[[ModItemConversation DrLEnfer_1 Text voice:Magic section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "Come on, man. You're puttin' me on."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Wolf",
+											Text = T(922083697601, --[[ModItemConversation DrLEnfer_1 Text voice:Wolf section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "Important reminder to double check your safety equipment, people! All right. Continue."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							MaxPlayed = 2,
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(195811956128, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "A total of five people died that fateful day drowning in shit, and it's definitely not written on their gravestones."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationInterjectionList', {
+							Interjections = {
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Raider",
+											Text = T(723216895114, --[[ModItemConversation DrLEnfer_1 Text voice:Raider section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "That explains the speculations about their deaths."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Larry",
+											Text = T(854641897241, --[[ModItemConversation DrLEnfer_1 Text voice:Larry section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "Man, your family is full of shit."),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "DrLEnfer",
+											Text = T(603696163670, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "Ha. Ha."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Larry_Clean",
+											Text = T(804465451840, --[[ModItemConversation DrLEnfer_1 Text voice:Larry_Clean section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "Man, your family is full of shit."),
+											param_bindings = false,
+										}),
+										PlaceObj('ConversationLine', {
+											Character = "DrLEnfer",
+											Text = T(505321453092, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "Ha. Ha."),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationInterjection', {
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "Tex",
+											Text = T(398814751535, --[[ModItemConversation DrLEnfer_1 Text voice:Tex section:DrLEnfer_1 keyword:How did the L’Enfer brothers die?]] "More like smeared! Ha, ha! ...What? Nothing?"),
+											param_bindings = false,
+										}),
+									},
+									param_bindings = false,
+								}),
+							},
+							param_bindings = false,
+						}),
+					},
+					id = "HowdidtheLEnferbrothersdie",
+					param_bindings = false,
+				}),
+				PlaceObj('ConversationPhrase', {
+					GoTo = "<end conversation>",
+					Keyword = "Goodbye",
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "DrLEnfer",
+							Text = T(678323627907, --[[ModItemConversation DrLEnfer_1 Text voice:DrLEnfer section:DrLEnfer_1 keyword:Goodbye]] "It's never too early to stop wasting my time."),
+							param_bindings = false,
+						}),
+					},
+					StoryBranchIcon = "conversation_goodbye",
+					id = "Goodbye",
+					param_bindings = false,
+				}),
+			}),
+			}),
+		PlaceObj('ModItemFolder', {
+			'name', "Conversations_JAZZ",
+			'comment', "---Диалоги",
+		}, {
+			PlaceObj('ModItemConversation', {
+				AssignToGroup = "Rebels_Squad_LegionCamp5",
+				DefaultActor = "RebelSergant_Immortal",
+				group = "Ernie",
+				id = "Ernie_LegionCamp5_Rebels",
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "RescueTeam",
+							Vars = set( "NotStarted" ),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "RebelSergant_Immortal",
+							Text = T(712802681829, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Greeting]] "Здравствуйте наёмники."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "RebelSergant_Immortal",
+							Text = T(424647158478, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Greeting]] "Я никогда не думал, что буду просить о помощи боевых псов капитала, но выходит что враг моего врага - мой друг. А выбирать нам не из чего, у меня тут куча раненых и изнуренных бойцов, у нас почти нет патронов, а оружие, что удалось унести, да это практически и не оружие уже..."),
+							param_bindings = false,
+						}),
+					},
+					id = "Greeting",
+					param_bindings = false,
+					PlaceObj('ConversationPhrase', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueTeam",
+								Vars = {
+									NotStarted = true,
+								},
+								param_bindings = false,
+							}),
+						},
+						Effects = {
+							PlaceObj('SectorsGrantIntel', {
+								param_bindings = false,
+								sector_id = {
+									"K5",
+								},
+							}),
+						},
+						Keyword = "Что тут случилось?",
+						KeywordT = T(592834310034, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Что тут случилось?"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "RebelSergant_Immortal",
+								Text = T(766138274062, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Что тут случилось?]] "Приятно слышать, что вам не безразлично происходящее. Рассказывать всё с самого начала нет времени, но если коротко, то Легион расплодился и захватил всю страну, ячейки партизан раздроблены по стране, наша пыталась отбить остров, но нас выдавили с наших позиций и мы вынуждены ютиться тут, надеюсь у остальных дела идут получше. Вы наверное видели тела внизу. Нам практически нечем стрелять. У нас нет медикаментов, да даже еды уже практически нет."),
+								param_bindings = false,
+							}),
+						},
+						id = "What hepened",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueTeam",
+								Vars = {
+									NotStarted = true,
+								},
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Итак, какая помощь вам нужна",
+						KeywordT = T(680417461250, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Итак, какая помощь вам нужна"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "RebelSergant_Immortal",
+								Text = T(122539962745, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Итак, какая помощь вам нужна]] "Как я уже сказал, нам нужно оружие, патроны и медикаменты, если вы готовы зачистить Легионовских псов, то я даже дам вам огневую поддержку. Но для начала... Надо спасти нашего бойца, который ещё должен быть жив, он должен быть на пирсе. Эти собаки собираются казнить его, это один из наших бойцов, который прикрывал отход из второго лагеря. Пожалуйста спасите его."),
+								param_bindings = false,
+							}),
+						},
+						id = "2",
+						param_bindings = false,
+						PlaceObj('ConversationPhrase', {
+							Align = "right",
+							Conditions = {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "RescueTeam",
+									Vars = {
+										NotStarted = true,
+									},
+									param_bindings = false,
+								}),
+							},
+							Effects = {
+								PlaceObj('QuestSetVariableBool', {
+									Prop = "Given",
+									QuestId = "RescueTeam",
+									param_bindings = false,
+								}),
+							},
+							GiveQuests = {
+								"RescueTeam",
+							},
+							GoTo = "<end conversation>",
+							Keyword = "Мы берёмся",
+							KeywordT = T(672560155733, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Мы берёмся"),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "RebelSergant_Immortal",
+									Text = T(924519361059, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Мы берёмся]] "Поспешите..."),
+									param_bindings = false,
+								}),
+							},
+							id = "Mission",
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationPhrase', {
+							Align = "right",
+							Conditions = {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "RescueTeam",
+									Vars = {
+										NotStarted = true,
+									},
+									param_bindings = false,
+								}),
+							},
+							GoTo = "<end conversation>",
+							Keyword = "Не, сами крутитесь.",
+							KeywordT = T(546142027509, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Не, сами крутитесь."),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "RebelSergant_Immortal",
+									Text = T(560698081650, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Не, сами крутитесь.]] "Жаль, тогда идите своей дорогой и не мешайтесь."),
+									param_bindings = false,
+								}),
+							},
+							id = "3",
+							param_bindings = false,
+						}),
+					}),
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					CompleteQuests = {
+						"RescueTeam",
+					},
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "RescueTeam",
+							Vars = set( "Rescued" ),
+							param_bindings = false,
+						}),
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "RebelsSavior",
+							Vars = set( "NotStarted" ),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "RebelSergant_Immortal",
+							Text = T(157083449193, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Greeting3]] "Спасибо, что спасли нашего товарища."),
+							param_bindings = false,
+						}),
+					},
+					id = "Greeting3",
+					param_bindings = false,
+					PlaceObj('ConversationPhrase', {
+						CompleteQuests = {
+							"RescueTeam",
+						},
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueTeam",
+								Vars = set( "Rescued" ),
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Всегда пожалуйста",
+						KeywordT = T(996024122128, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Всегда пожалуйста"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "RebelSergant_Immortal",
+								Text = T(624365836328, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Всегда пожалуйста]] "Есть ещё одно дело, если всё ещё готовы помогать"),
+								param_bindings = false,
+							}),
+						},
+						id = "2",
+						param_bindings = false,
+						PlaceObj('ConversationPhrase', {
+							Keyword = "Оружие?",
+							KeywordT = T(261552674871, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Оружие?"),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "RebelSergant_Immortal",
+									Text = T(603947439256, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Оружие?]] "Оружие, нам нужно снаряжение из старого лагеря, также там должны были быть медикаменты, мне послать некого, бойцы изнурены и ранены, оружие наладом дышит, если что-то там пойдет не так, в общем потери у нас итак слишком большие, и надеюсь у вас есть сапер, мы заминировали подходы. В общем принисите нам снаряжение и у меня найдется чем с вами поделиться."),
+									param_bindings = false,
+								}),
+							},
+							id = "2",
+							param_bindings = false,
+							PlaceObj('ConversationPhrase', {
+								GiveQuests = {
+									"RebelsSavior",
+								},
+								GoTo = "<end conversation>",
+								Keyword = "Мы готовы",
+								KeywordT = T(327289513734, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Мы готовы"),
+								Lines = {
+									PlaceObj('ConversationLine', {
+										Character = "RebelSergant_Immortal",
+										Text = T(344685080092, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Мы готовы]] "Отлично."),
+										param_bindings = false,
+									}),
+								},
+								id = "2",
+								param_bindings = false,
+							}),
+						}),
+					}),
+				}),
+				PlaceObj('ConversationPhrase', {
+					AutoRemove = true,
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "RebelsSavior",
+							Vars = set( "All_Found" ),
+							param_bindings = false,
+						}),
+					},
+					Keyword = "Мы счастливы?",
+					KeywordT = T(407342596203, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Мы счастливы?"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "RebelSergant_Immortal",
+							Text = T(468486052663, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Мы счастливы?]] "Тут всё?"),
+							param_bindings = false,
+						}),
+					},
+					id = "2",
+					param_bindings = false,
+					PlaceObj('ConversationPhrase', {
+						CompleteQuests = {
+							"RebelsSavior",
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "RebelsSavior",
+								param_bindings = false,
+							}),
+							PlaceObj('UnitTakeItem', {
+								Amount = 4,
+								ItemId = "ZastavaM76",
+								param_bindings = false,
+							}),
+							PlaceObj('UnitTakeItem', {
+								Amount = 4,
+								ItemId = "Medkit",
+								param_bindings = false,
+							}),
+						},
+						GoTo = "<end conversation>",
+						Keyword = "Да мы счастливы",
+						KeywordT = T(403161852547, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Да мы счастливы"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "RebelSergant_Immortal",
+								Text = T(480799336285, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Да мы счастливы]] "Вы очень сильно помогли нам, спасибо наемники, у нас тут затесался ваш колега по опасному бизнессу, такой же солдат удачи, думаю он с радостью пойдёт с вами, по началу бредил про какую-то несуществующую страну, под названием Арулько, но вроде отпустило. Он вроде как потерял память, но боевые навыки точно не растерял. Вон он стоит у палаток."),
+								param_bindings = false,
+							}),
+						},
+						id = "2",
+						param_bindings = false,
+					}),
+				}),
+			}),
+			PlaceObj('ModItemConversation', {
+				Conditions = {
+					PlaceObj('UnitIsInSector', {
+						Sector = "M1",
+						TargetUnit = "current unit",
+						param_bindings = false,
+					}),
+				},
+				DefaultActor = "RebelSergant_Immortal_M1",
+				group = "Ernie",
+				id = "Ernie_M1_Rebel_Briefing",
+				PlaceObj('ConversationPhrase', {
+					Keyword = "Greeting",
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "RebelSergant_Immortal_M1",
+							Text = T(236956584170, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Greeting]] "	Не ожидал встретить союзников, в этой мясорубке, мы не ожидали выжить в этом бою.\n	Я - <em>команданте Контимир Бурда</em> из местной ячейки партизан. Мы выслеживали Рафаля, проклятый предатель, крыса, придурок и вор, один из кучи офицеров <em>Легиона</em>. Наконец эта тварь нашла свою смерть."),
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationLine', {
+							Character = "RebelSergant_Immortal_M1",
+							Text = T(587362470651, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Greeting]] "Но скажите, кто вы такие? Уж точно не крестьяне. На солдат вы не похожи. Вы какие-то крутые командос? <em>Наёмники, как те, которые были до вас</em>?"),
+							param_bindings = false,
+						}),
+					},
+					PhraseRolloverText = T(557666141230, --[[ModItemConversation Ernie_M1_Rebel_Briefing PhraseRolloverText]] "Ха-ха! Вот это день. Думал, мы падём под лапами этих шакалов... Вышло же иначе. Их кровь на песке - и в этом есть ваша заслуга."),
+					id = "Greeting",
+					param_bindings = false,
+					PlaceObj('ConversationPhrase', {
+						Keyword = "Да, мы наёмники",
+						KeywordT = T(564146628713, --[[ModItemConversation Ernie_M1_Rebel_Briefing KeywordT]] "Да, мы наёмники"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "RebelSergant_Immortal_M1",
+								Text = T(116913411015, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Да, мы наёмники]] "Ок, надеюсь вы и дальше будете на нашей стороне"),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationInterjectionList', {
+								Interjections = {
+									PlaceObj('ConversationInterjection', {
+										Lines = {
+											PlaceObj('ConversationLine', {
+												AlwaysInterject = true,
+												Character = "RebelSergant_Immortal_M1",
+												Text = T(783810494976, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Да, мы наёмники]] "Мы прибыли сюда по контракту с Эммой Ле Фонтен, должны встретиться с ней на <em>Флаговом холме</em>"),
+												param_bindings = false,
+											}),
+										},
+										param_bindings = false,
+									}),
+								},
+								param_bindings = false,
+							}),
+						},
+						id = "2",
+						param_bindings = false,
+						PlaceObj('ConversationPhrase', {
+							Keyword = "Ситуация в регионе сложная...",
+							KeywordT = T(590690509211, --[[ModItemConversation Ernie_M1_Rebel_Briefing KeywordT]] "Ситуация в регионе сложная..."),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "RebelSergant_Immortal_M1",
+									Text = T(786150907352, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Ситуация в регионе сложная...]] "Сложная, не то слово, если коротко, то наша ячейка отрезана от основного континента. Легион в миг выбил всю страну, <em>Остров Эрни</em> был последним оплотом обороны, дочь президента спряталась в центре острова, говорят эта крыса <em>Коразон</em> c ней, также на острове есть база контрабандистов, нас сложно назвать друзьями, но они продают нам оружие и на острове мы умудряемся уживаться. В целом же Легион тут повсюду, какие-то сектора еще держат оборону, какие-то полностью заняты Красной заразой."),
+									param_bindings = false,
+								}),
+							},
+							id = "2",
+							param_bindings = false,
+						}),
+					}),
+				}),
+				PlaceObj('ConversationPhrase', {
+					GoTo = "<end conversation>",
+					Keyword = "Goodbye",
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+					Lines = {
+						PlaceObj('ConversationLine', {
+							Character = "RebelSergant_Immortal_M1",
+							Text = T(986868227792, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Goodbye]] "Удачи наемники, и да пребудет с вами сила."),
+							param_bindings = false,
+						}),
+					},
+					id = "Goodbye",
+					param_bindings = false,
+				}),
+			}),
+			}),
+		}),
 	PlaceObj('ModItemFolder', {
 		'name', "Quests_&_Campaign",
 	}, {
@@ -23471,13 +31183,16 @@ return {
 					'MapTier', 10,
 					'modId', "FhNNYd",
 					'display_name', T(380204237490, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L1]] "База партизан на острове Эрни"),
-					'StickySide', true,
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'Passability', "Land and Water",
 					'City', "Rebels_Ernie",
 					'ShowCity', true,
 					'Bunker', true,
+					'InitialSquads', {
+						"LegionExtraSquadFireArms_T2",
+						"LegionExtraSquadMeleeV2",
+					},
 					'MinFlareCarriers', 3,
 					'MaxFlareCarriers', 13,
 					'RAndRAllowed', true,
@@ -23857,7 +31572,6 @@ return {
 					'MapTier', 10,
 					'modId', "FhNNYd",
 					'display_name', T(733530482848, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L2]] "Непроходимая местность"),
-					'StickySide', true,
 					'TerrainType', "Jungle",
 					'WeatherZone', "CursedForest",
 					'City', "Rebels_Ernie",
@@ -24079,7 +31793,6 @@ return {
 					'InitialSquads', {
 						"LegionDefenders_Mobile_Easy",
 						"LegionExtraSquadFireArms",
-						"LegionExtraSquadFireArms",
 					},
 					'MinFlareCarriers', 6,
 					'MaxFlareCarriers', 9,
@@ -24280,26 +31993,18 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M2",
-					'Map', "isJdmPy",
-					'MapTier', 10,
+					'Map', "qRiCMTo",
 					'modId', "FhNNYd",
-					'display_name', T(962183556645, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M2]] "Водопад"),
-					'TerrainType', "Jungle",
+					'display_name', T(691002711206, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M2]] "Скалистый берег"),
+					'WeatherZone', "Erny",
 					'ForceConflict', true,
-					'InterestingSector', true,
-					'MinFlareCarriers', 15,
-					'MaxFlareCarriers', 29,
+					'MinFlareCarriers', 6,
+					'MaxFlareCarriers', 12,
 					'bidirectionalRoadApply', true,
-					'Roads', set({
-	East = false,
-	North = false,
-	West = true,
-}),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
 	North = true,
-	South = true,
 	West = false,
 }),
 				}),
@@ -24373,18 +32078,26 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M3",
-					'Map', "qRiCMTo",
+					'Map', "isJdmPy",
+					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(691002711206, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M3]] "Скалистый берег"),
-					'WeatherZone', "Erny",
+					'display_name', T(962183556645, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M3]] "Водопад"),
+					'TerrainType', "Jungle",
 					'ForceConflict', true,
-					'MinFlareCarriers', 6,
-					'MaxFlareCarriers', 12,
+					'InterestingSector', true,
+					'MinFlareCarriers', 15,
+					'MaxFlareCarriers', 29,
 					'bidirectionalRoadApply', true,
+					'Roads', set({
+	East = false,
+	North = false,
+	West = true,
+}),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
 	North = true,
+	South = true,
 	West = false,
 }),
 				}),
@@ -27169,1535 +34882,7 @@ return {
 			underground_file = "Mod/FhNNYd/Images/BigMap_Under_1.png",
 		}),
 		PlaceObj('ModItemFolder', {
-			'name', "Conversations",
-			'comment', "---Диалоги",
-		}, {
-			PlaceObj('ModItemConversation', {
-				AssignToGroup = "LegionRaider_Jose",
-				Comment = "(Bastien) - initial",
-				Conditions = {
-					PlaceObj('PlayerIsInSectors', {
-						Sectors = {
-							"K4",
-						},
-					}),
-				},
-				DefaultActor = "LegionRaider_Jose",
-				Parameters = {
-					PlaceObj('PresetParamNumber', {
-						'Name', "DiamondsGain",
-						'Value', 3,
-						'Tag', "<DiamondsGain>",
-					}),
-				},
-				group = "Ernie",
-				id = "Jose_1",
-				PlaceObj('ConversationPhrase', {
-					Align = "right",
-					Effects = {
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "BastienMet",
-							QuestId = "JoseFamily",
-							param_bindings = false,
-						}),
-					},
-					GiveQuests = {
-						"JoseFamily",
-					},
-					Keyword = "Greeting",
-					KeywordT = T(246938365634, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-					Lines = {
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(841941343180, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Greeting]] "Oh la la! Don't shoot! I'm just a bystander here. An innocent civilian! I heard some shots fired up the hill. I came to take a look and I saw the <em>Legion</em> getting their asses kicked."),
-							param_bindings = false,
-						}),
-						PlaceObj('ConversationInterjectionList', {
-							Interjections = {
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Raven",
-											Text = T(173915866209, --[[ModItemConversation Jose_1 Text voice:Raven section:Jose_1 keyword:Greeting]] "Exactly what an innocent civilian would do."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Omryn",
-											Text = T(272748439918, --[[ModItemConversation Jose_1 Text voice:Omryn section:Jose_1 keyword:Greeting]] "Makes sense to me. Better to watch a fight than be in one."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Livewire",
-											Text = T(354143913171, --[[ModItemConversation Jose_1 Text voice:Livewire section:Jose_1 keyword:Greeting]] "I want you to know that I completely believe you, but I really don't think anyone else does."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-							},
-							param_bindings = false,
-						}),
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(133559082275, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Greeting]] "But I'm not with them! I was just... umm... doing a bit of scavenging on the beach. Yeah, that's how I provide for my <em>family</em>!"),
-							param_bindings = false,
-						}),
-					},
-					NoBackOption = true,
-					id = "Greeting",
-					param_bindings = false,
-					PlaceObj('ConversationPhrase', {
-						Align = "right",
-						AutoRemove = true,
-						GoTo = "<root>",
-						Keyword = "Don't worry",
-						KeywordT = T(421671637026, --[[ModItemConversation Jose_1 KeywordT]] "Don't worry"),
-						Lines = {
-							PlaceObj('ConversationInterjectionList', {
-								Interjections = {
-									PlaceObj('ConversationInterjection', {
-										Lines = {
-											PlaceObj('ConversationLine', {
-												Character = "Raven",
-												Text = T(698684374141, --[[ModItemConversation Jose_1 Text voice:Raven section:Jose_1 keyword:Don't worry]] "Take it easy, mister. We don't shoot civilians... generally."),
-												param_bindings = false,
-											}),
-										},
-										param_bindings = false,
-									}),
-									PlaceObj('ConversationInterjection', {
-										Lines = {
-											PlaceObj('ConversationLine', {
-												Character = "Buns",
-												Text = T(760809692328, --[[ModItemConversation Jose_1 Text voice:Buns section:Jose_1 keyword:Don't worry]] "That's all right, dear. We don't shoot civilians... generally."),
-												param_bindings = false,
-											}),
-										},
-										param_bindings = false,
-									}),
-									PlaceObj('ConversationInterjection', {
-										Lines = {
-											PlaceObj('ConversationLine', {
-												Character = "MD",
-												Text = T(982125390831, --[[ModItemConversation Jose_1 Text voice:MD section:Jose_1 keyword:Don't worry]] "Oh, we don't shoot civilians! I mean, sometimes we do. I do. By accident, though. Not on purpose."),
-												param_bindings = false,
-											}),
-										},
-										param_bindings = false,
-									}),
-								},
-								param_bindings = false,
-							}),
-							PlaceObj('ConversationLine', {
-								Character = "LegionRaider_Jose",
-								Text = T(794182824614, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Don't worry]] "Oh, thank you! Maybe you just let me go on my way now, eh?"),
-								param_bindings = false,
-							}),
-						},
-						StoryBranchIcon = "conversation_friendly",
-						id = "Friendly",
-						param_bindings = false,
-					}),
-					PlaceObj('ConversationPhrase', {
-						Align = "right",
-						AutoRemove = true,
-						Effects = {
-							PlaceObj('QuestSetVariableBool', {
-								Prop = "UnderSuspicion",
-								QuestId = "JoseFamily",
-								param_bindings = false,
-							}),
-						},
-						GoTo = "<root>",
-						Keyword = "Civilian? Oh really?",
-						KeywordT = T(837466948853, --[[ModItemConversation Jose_1 KeywordT]] "Civilian? Oh really?"),
-						Lines = {
-							PlaceObj('ConversationInterjectionList', {
-								Interjections = {
-									PlaceObj('ConversationInterjection', {
-										Lines = {
-											PlaceObj('ConversationLine', {
-												Character = "Meltdown",
-												Text = T(558925887667, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Civilian? Oh really?]] "Yeah, and I'm the fucking tooth fairy."),
-												param_bindings = false,
-											}),
-										},
-										param_bindings = false,
-									}),
-									PlaceObj('ConversationInterjection', {
-										Lines = {
-											PlaceObj('ConversationLine', {
-												Character = "Raider",
-												Text = T(961351390176, --[[ModItemConversation Jose_1 Text voice:Raider section:Jose_1 keyword:Civilian? Oh really?]] "A well armed civilian, I see."),
-												param_bindings = false,
-											}),
-										},
-										param_bindings = false,
-									}),
-									PlaceObj('ConversationInterjection', {
-										Lines = {
-											PlaceObj('ConversationLine', {
-												Character = "Grizzly",
-												Text = T(602509468087, --[[ModItemConversation Jose_1 Text voice:Grizzly section:Jose_1 keyword:Civilian? Oh really?]] "That gun just for shooting squirrels then?"),
-												param_bindings = false,
-											}),
-										},
-										param_bindings = false,
-									}),
-								},
-								param_bindings = false,
-							}),
-							PlaceObj('ConversationLine', {
-								Character = "LegionRaider_Jose",
-								Text = T(694083195278, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Civilian? Oh really?]] "Oh, you mean this gun here? It's just, eh, heh-heh... iiiit's just for protection, boss. These are dangerous times on the island."),
-								param_bindings = false,
-							}),
-						},
-						StoryBranchIcon = "conversation_sarcastic",
-						id = "Sarcastic",
-						param_bindings = false,
-					}),
-					PlaceObj('ConversationPhrase', {
-						Align = "right",
-						AutoRemove = true,
-						Comment = "Gain variable: Scared",
-						Conditions = {
-							PlaceObj('UnitSquadHasMerc', {
-								HasPerk = "Psycho",
-								param_bindings = false,
-							}),
-						},
-						Effects = {
-							PlaceObj('QuestSetVariableBool', {
-								Prop = "Scared",
-								QuestId = "JoseFamily",
-								param_bindings = false,
-							}),
-						},
-						GoTo = "<root>",
-						Keyword = "Why not just shoot you",
-						KeywordT = T(100434160721, --[[ModItemConversation Jose_1 KeywordT]] "Why not just shoot you"),
-						Lines = {
-							PlaceObj('ConversationInterjectionList', {
-								Interjections = {
-									PlaceObj('ConversationInterjection', {
-										Lines = {
-											PlaceObj('ConversationLine', {
-												Character = "Fidel",
-												Text = T(313383136120, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Why not just shoot you]] "One thing Fidel always say: no such thing as innocent bystander. When shooting start, you run and hide or stay and shoot."),
-												param_bindings = false,
-											}),
-										},
-										param_bindings = false,
-									}),
-									PlaceObj('ConversationInterjection', {
-										Lines = {
-											PlaceObj('ConversationLine', {
-												Character = "Meltdown",
-												Text = T(228256278923, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Why not just shoot you]] "Don't bullshit me, boy. I shot the kneecaps off the last dumbass who tried that."),
-												param_bindings = false,
-											}),
-										},
-										param_bindings = false,
-									}),
-									PlaceObj('ConversationInterjection', {
-										Lines = {
-											PlaceObj('ConversationLine', {
-												Character = "Nails",
-												Text = T(163403820051, --[[ModItemConversation Jose_1 Text voice:Nails section:Jose_1 keyword:Why not just shoot you]] "Innocent bystanders are just people who haven't gotten a chance to shoot at me yet."),
-												param_bindings = false,
-											}),
-										},
-										param_bindings = false,
-									}),
-								},
-								param_bindings = false,
-							}),
-							PlaceObj('ConversationLine', {
-								Character = "LegionRaider_Jose",
-								Text = T(843674379925, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Why not just shoot you]] "Please, boss, I... I don't want any trouble! I have a <em>family</em>. You won't snuff out a family man, right?"),
-								param_bindings = false,
-							}),
-							PlaceObj('ConversationInterjectionList', {
-								Interjections = {
-									PlaceObj('ConversationInterjection', {
-										Lines = {
-											PlaceObj('ConversationLine', {
-												Character = "Fidel",
-												Text = T(581259340286, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Why not just shoot you]] "This is good point. I like it better when family is here to watch."),
-												param_bindings = false,
-											}),
-										},
-										param_bindings = false,
-									}),
-									PlaceObj('ConversationInterjection', {
-										Lines = {
-											PlaceObj('ConversationLine', {
-												Character = "Meltdown",
-												Text = T(239362719517, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Why not just shoot you]] "Depends on how cranky I am. And just so you know, I ain't pooped yet today."),
-												param_bindings = false,
-											}),
-										},
-										param_bindings = false,
-									}),
-									PlaceObj('ConversationInterjection', {
-										Lines = {
-											PlaceObj('ConversationLine', {
-												Character = "Nails",
-												Text = T(806520737314, --[[ModItemConversation Jose_1 Text voice:Nails section:Jose_1 keyword:Why not just shoot you]] "Hell, everybody's got a family. That don't bother me one bit."),
-												param_bindings = false,
-											}),
-										},
-										param_bindings = false,
-									}),
-								},
-								param_bindings = false,
-							}),
-						},
-						StoryBranchIcon = "conversation_threaten",
-						id = "Psycho",
-						param_bindings = false,
-					}),
-				}),
-				PlaceObj('ConversationPhrase', {
-					AutoRemove = true,
-					Effects = {
-						PlaceObj('PhraseSetEnabled', {
-							Conversation = "Jose_1",
-							PhraseId = "WhatDoYouKnowAboutEmma",
-							param_bindings = false,
-						}),
-						PlaceObj('PhraseSetEnabled', {
-							Conversation = "Jose_1",
-							PhraseId = "YourewiththeLegion",
-							param_bindings = false,
-						}),
-					},
-					Keyword = 'Tell us about that "Legion"',
-					KeywordT = T(472263304050, --[[ModItemConversation Jose_1 KeywordT]] 'Tell us about that "Legion"'),
-					Lines = {
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(619579227053, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Tell us about that "Legion"]] "Well, that's the Patriotic Legion of Grand Chien! Quite a gang, they are. I think some of them were trying to snatch that <em>Emma</em> girl, the President's daughter, but I guess it didn't work out."),
-							param_bindings = false,
-						}),
-					},
-					id = "Legion",
-					param_bindings = false,
-				}),
-				PlaceObj('ConversationPhrase', {
-					AutoRemove = true,
-					Effects = {
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "MentionedMajor",
-							QuestId = "JoseFamily",
-							param_bindings = false,
-						}),
-					},
-					Enabled = false,
-					Keyword = "What do you know about Emma?",
-					KeywordT = T(971994350441, --[[ModItemConversation Jose_1 KeywordT]] "What do you know about Emma?"),
-					Lines = {
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(751276739916, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:What do you know about Emma?]] "Don't know nothing, boss! I've just heard that the <em>Major</em> wants the girl. I guess he wishes to complete the set with her <em>father</em>, he-he."),
-							param_bindings = false,
-						}),
-						PlaceObj('ConversationInterjectionList', {
-							Interjections = {
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Ice",
-											Text = T(352228171056, --[[ModItemConversation Jose_1 Text voice:Ice section:Jose_1 keyword:What do you know about Emma?]] "That dude got kidnapped and that's his daughter you're talkin' about. Put some respect in your mouth."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Raven",
-											Text = T(428244067987, --[[ModItemConversation Jose_1 Text voice:Raven section:Jose_1 keyword:What do you know about Emma?]] "I can tell how upset you are about it."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Barry",
-											Text = T(395701598479, --[[ModItemConversation Jose_1 Text voice:Barry section:Jose_1 keyword:What do you know about Emma?]] "What is wrong with you? Where is your compassion?"),
-											param_bindings = false,
-										}),
-										PlaceObj('ConversationLine', {
-											Character = "LegionRaider_Jose",
-											Text = T(118091976965, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:What do you know about Emma?]] "Oh, sorry, boss. I guess I dropped it."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-							},
-							param_bindings = false,
-						}),
-					},
-					id = "WhatDoYouKnowAboutEmma",
-					param_bindings = false,
-				}),
-				PlaceObj('ConversationPhrase', {
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "JoseFamily",
-							Vars = {
-								MentionedMajor = true,
-								UnderSuspicion = false,
-							},
-							param_bindings = false,
-						}),
-					},
-					Effects = {
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "LeadMajor",
-							QuestId = "JoseFamily",
-							param_bindings = false,
-						}),
-						PlaceObj('PhraseSetSeen', {
-							Conversation = "Jose_1",
-							PhraseId = "Major2",
-							Seen = true,
-							param_bindings = false,
-						}),
-					},
-					Keyword = "Who's the Major?",
-					KeywordT = T(202849560121, --[[ModItemConversation Jose_1 KeywordT]] "Who's the Major?"),
-					Lines = {
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(866522232661, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Who's the Major?]] "Oh, well, he's the leader of the <em>Legion</em>, of course! No one really seems to know him at all. They say he operates from a secret base up there in the <em>Highlands</em>..."),
-							param_bindings = false,
-						}),
-						PlaceObj('ConversationInterjectionList', {
-							Interjections = {
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Tex",
-											Text = T(116053605348, --[[ModItemConversation Jose_1 Text voice:Tex section:Jose_1 keyword:Who's the Major?]] "Sounds like he got a real hole-in-the-wall gang. How we get there? "),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Red",
-											Text = T(668402915478, --[[ModItemConversation Jose_1 Text voice:Red section:Jose_1 keyword:Who's the Major?]] "Speakin' as a Highlander, can ye be more specific? Highlands can be damn tricky terrain."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Mouse",
-											Text = T(163252415121, --[[ModItemConversation Jose_1 Text voice:Mouse section:Jose_1 keyword:Who's the Major?]] "I love secrets! Can you tell me? I'm a mime, so you know I won't tell anyone."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-							},
-							param_bindings = false,
-						}),
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(761343022329, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Who's the Major?]] "Well I don't know for sure. It wouldn't be much of a secret if I knew it, right?"),
-							param_bindings = false,
-						}),
-					},
-					id = "Major",
-					param_bindings = false,
-				}),
-				PlaceObj('ConversationPhrase', {
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "JoseFamily",
-							Vars = {
-								MentionedMajor = true,
-								UnderSuspicion = true,
-							},
-							param_bindings = false,
-						}),
-					},
-					Keyword = "Who's the Major?",
-					KeywordT = T(834834340148, --[[ModItemConversation Jose_1 KeywordT]] "Who's the Major?"),
-					Lines = {
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(337668178589, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Who's the Major?]] "Oh, well, he's the leader of the <em>Legion</em>, of course! No one really seems to know him at all. Very mysterious figure. Very dangerous. May I go now? Please?"),
-							param_bindings = false,
-						}),
-					},
-					id = "Major2",
-					param_bindings = false,
-				}),
-				PlaceObj('ConversationPhrase', {
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "JoseFamily",
-							Vars = {
-								MentionedMajor = true,
-							},
-							param_bindings = false,
-						}),
-					},
-					Effects = {
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "UnderSuspicion",
-							QuestId = "JoseFamily",
-							param_bindings = false,
-						}),
-					},
-					Keyword = "Emma's father - you mean the President?",
-					KeywordT = T(779920868523, --[[ModItemConversation Jose_1 KeywordT]] "Emma's father - you mean the President?"),
-					Lines = {
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(370951426842, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Emma's father - you mean the President?]] "You know, you're right. I think I heard something about that. But I don't know anything! I don't want to be involved in any of this, you know. Can I just go back to my <em>family</em>?"),
-							param_bindings = false,
-						}),
-						PlaceObj('ConversationInterjectionList', {
-							Interjections = {
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Raider",
-											Text = T(593173242308, --[[ModItemConversation Jose_1 Text voice:Raider section:Jose_1 keyword:Emma's father - you mean the President?]] "You seem to know a lot for someone who's not involved, don't you?"),
-											param_bindings = false,
-										}),
-										PlaceObj('ConversationLine', {
-											Character = "LegionRaider_Jose",
-											Text = T(334766422274, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Emma's father - you mean the President?]] "Don't know what you're talking about, boss."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Meltdown",
-											Text = T(874636954516, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Emma's father - you mean the President?]] "Jeez, you're shadier than my ass crack."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Grizzly",
-											Text = T(317797663083, --[[ModItemConversation Jose_1 Text voice:Grizzly section:Jose_1 keyword:Emma's father - you mean the President?]] "Something stinks here, and I'm not talking about my armpits."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-							},
-							param_bindings = false,
-						}),
-					},
-					id = "YoumeanthePresident",
-					param_bindings = false,
-				}),
-				PlaceObj('ConversationPhrase', {
-					AutoRemove = true,
-					Effects = {
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "LeadFamily",
-							QuestId = "JoseFamily",
-							param_bindings = false,
-						}),
-					},
-					Keyword = "So you have a family?",
-					KeywordT = T(593247912981, --[[ModItemConversation Jose_1 KeywordT]] "So you have a family?"),
-					Lines = {
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(475550282121, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:So you have a family?]] "Oh yes, boss. A big family over in <em>the Rust</em>! That's what we call the area just east of town. It's not a nice place. My boys cannot play <em>football</em> without tripping on old war equipment, hehe."),
-							param_bindings = false,
-						}),
-						PlaceObj('ConversationInterjectionList', {
-							Interjections = {
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Igor",
-											Text = T(954237649681, --[[ModItemConversation Jose_1 Text voice:Igor section:Jose_1 keyword:So you have a family?]] "Family is best important. Dolviches understand."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Wolf",
-											Text = T(279221143205, --[[ModItemConversation Jose_1 Text voice:Wolf section:Jose_1 keyword:So you have a family?]] "Old war equipment? Could be worth checking out."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-							},
-							param_bindings = false,
-						}),
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(603222510455, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:So you have a family?]] "They depend on me, you see. If I don't bring home the bacon, they don't eat! My poor family."),
-							param_bindings = false,
-						}),
-					},
-					id = "Family",
-					param_bindings = false,
-				}),
-				PlaceObj('ConversationPhrase', {
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							Condition = "or",
-							QuestId = "JoseFamily",
-							Vars = {
-								LeadFamily = true,
-							},
-							param_bindings = false,
-						}),
-					},
-					Keyword = "Is this a soccer shirt?",
-					KeywordT = T(382828030558, --[[ModItemConversation Jose_1 KeywordT]] "Is this a soccer shirt?"),
-					Lines = {
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(494500800483, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Is this a soccer shirt?]] "Oui! Chiens Sauvages, the best team in Grand Chien! Their merchandise is shit though. I asked for a 13, and they printed 31..."),
-							param_bindings = false,
-						}),
-					},
-					id = "Isthisasoccershirt",
-					param_bindings = false,
-				}),
-				PlaceObj('ConversationPhrase', {
-					Align = "right",
-					AutoRemove = true,
-					Comment = "gain Scared+Diamonds if you failed the Hands Up",
-					Conditions = {
-						PlaceObj('UnitSquadHasMerc', {
-							HasStat = "Wisdom",
-							StatValue = 70,
-							param_bindings = false,
-						}),
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "JoseFamily",
-							Vars = {
-								BaconDiamonds = false,
-							},
-							param_bindings = false,
-						}),
-					},
-					Effects = {
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "UnderSuspicion",
-							QuestId = "JoseFamily",
-							param_bindings = false,
-						}),
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "Scared",
-							QuestId = "JoseFamily",
-							param_bindings = false,
-						}),
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "BaconDiamonds",
-							QuestId = "JoseFamily",
-							param_bindings = false,
-						}),
-						PlaceObj('PhraseSetEnabled', {
-							Conversation = "Jose_1",
-							PhraseId = "Openfire",
-							param_bindings = false,
-						}),
-					},
-					Enabled = false,
-					Keyword = "You’re with the Legion!",
-					KeywordT = T(197875889388, --[[ModItemConversation Jose_1 KeywordT]] "You're with the Legion!"),
-					Lines = {
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(765980304299, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:You’re with the Legion!]] "No, no, no! This is not true! Don't shoot me, boss! I mean... Maybe I had some dealings with the Legion in the past, but who doesn't? It is a small island."),
-							param_bindings = false,
-						}),
-						PlaceObj('ConversationInterjectionList', {
-							Interjections = {
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Buns",
-											Text = T(494911643160, --[[ModItemConversation Jose_1 Text voice:Buns section:Jose_1 keyword:You’re with the Legion!]] 'Yet I am rather convinced you are part of the Legion "family".'),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "DrQ",
-											Text = T(656091369517, --[[ModItemConversation Jose_1 Text voice:DrQ section:Jose_1 keyword:You’re with the Legion!]] "It is difficult to hide one's true self on such a small island."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Thor",
-											Text = T(599649586933, --[[ModItemConversation Jose_1 Text voice:Thor section:Jose_1 keyword:You’re with the Legion!]] "My friend, you are hiding mostly from yourself. Let the truth set you free."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-							},
-							param_bindings = false,
-						}),
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(454283331915, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:You’re with the Legion!]] "Look, just let me go to my family and I... I will give you <em>diamonds</em> from my secret stash, I swear!"),
-							param_bindings = false,
-						}),
-					},
-					StoryBranchIcon = "conversation_threaten",
-					id = "YourewiththeLegion",
-					param_bindings = false,
-				}),
-				PlaceObj('ConversationPhrase', {
-					Align = "right",
-					AutoRemove = true,
-					Comment = "Gain Scared+Diamonds",
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							Condition = "or",
-							QuestId = "JoseFamily",
-							Vars = {
-								Scared = true,
-								UnderSuspicion = true,
-							},
-							param_bindings = false,
-						}),
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "JoseFamily",
-							Vars = {
-								BaconDiamonds = false,
-							},
-							param_bindings = false,
-						}),
-						PlaceObj('UnitSquadHasMerc', {
-							HasPerk = "Psycho",
-							param_bindings = false,
-						}),
-					},
-					Effects = {
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "UnderSuspicion",
-							QuestId = "JoseFamily",
-							param_bindings = false,
-						}),
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "Scared",
-							QuestId = "JoseFamily",
-							param_bindings = false,
-						}),
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "BaconDiamonds",
-							QuestId = "JoseFamily",
-							param_bindings = false,
-						}),
-						PlaceObj('PhraseSetEnabled', {
-							Conversation = "Jose_1",
-							PhraseId = "Openfire",
-							param_bindings = false,
-						}),
-						PlaceObj('PhraseSetEnabled', {
-							Conversation = "Jose_1",
-							Enabled = false,
-							PhraseId = "HandsUp_failure",
-							param_bindings = false,
-						}),
-					},
-					Keyword = "Hands up!",
-					KeywordT = T(949325910581, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
-					Lines = {
-						PlaceObj('ConversationInterjectionList', {
-							Interjections = {
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Fidel",
-											Text = T(648012258713, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Hands up!]] "It has been too long since the last time I killed someone! I'm getting itchy."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Meltdown",
-											Text = T(138260729514, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Hands up!]] "I got a hair trigger and a nasty rash on my finger. Got it?"),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Nails",
-											Text = T(518590108149, --[[ModItemConversation Jose_1 Text voice:Nails section:Jose_1 keyword:Hands up!]] "I can't help wondering what you'd look like dead."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-							},
-							param_bindings = false,
-						}),
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(194856195654, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Hands up!]] "No, boss! Please, don't shoot! Look, just let me go to my family and I... I will give you <em>diamonds</em> from my secret stash, I swear!"),
-							param_bindings = false,
-						}),
-					},
-					NoBackOption = true,
-					StoryBranchIcon = "conversation_threaten",
-					id = "HandsUp_success",
-					param_bindings = false,
-				}),
-				PlaceObj('ConversationPhrase', {
-					Align = "right",
-					AutoRemove = true,
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							Condition = "or",
-							QuestId = "JoseFamily",
-							Vars = {
-								Scared = true,
-								UnderSuspicion = true,
-							},
-							param_bindings = false,
-						}),
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "JoseFamily",
-							Vars = {
-								BaconDiamonds = false,
-							},
-							param_bindings = false,
-						}),
-						PlaceObj('UnitSquadHasMerc', {
-							HasPerk = "Psycho",
-							Negate = true,
-							param_bindings = false,
-						}),
-					},
-					Effects = {
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "UnderSuspicion",
-							QuestId = "JoseFamily",
-							param_bindings = false,
-						}),
-						PlaceObj('PhraseSetEnabled', {
-							Conversation = "Jose_1",
-							PhraseId = "Openfire",
-							param_bindings = false,
-						}),
-						PlaceObj('PhraseSetEnabled', {
-							Conversation = "Jose_1",
-							Enabled = false,
-							PhraseId = "HandsUp_success",
-							param_bindings = false,
-						}),
-					},
-					Keyword = "Hands up!",
-					KeywordT = T(356818754768, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
-					Lines = {
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(863019434578, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Hands up!]] "Non-non, no need for violence, boss! I've done nothing wrong! See? I'm cooperating."),
-							param_bindings = false,
-						}),
-					},
-					NoBackOption = true,
-					StoryBranchIcon = "conversation_threaten",
-					id = "HandsUp_failure",
-					param_bindings = false,
-				}),
-				PlaceObj('ConversationPhrase', {
-					Align = "right",
-					Comment = "Gain 3 Tiny diamonds",
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "JoseFamily",
-							Vars = {
-								BaconDiamonds = true,
-							},
-							param_bindings = false,
-						}),
-					},
-					Effects = {
-						PlaceObj('GroupSetBehaviorExit', {
-							MarkerGroup = "East",
-							Running = true,
-							TargetUnit = "LegionRaider_Jose",
-							UseWeapons = true,
-							param_bindings = false,
-						}),
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "BaconDiamonds",
-							QuestId = "JoseFamily",
-							Set = false,
-							param_bindings = false,
-						}),
-						PlaceObj('UnitGrantItem', {
-							Amount = 3,
-							ItemId = "TinyDiamonds",
-							param_bindings = {
-								Amount = "DiamondsGain",
-							},
-						}),
-						PlaceObj('ExecuteCode', {
-							FuncCode = "TutorialHintsState.QuestChoice = true",
-							param_bindings = false,
-						}),
-					},
-					GoTo = "<end conversation>",
-					Keyword = "Hand over the diamonds",
-					KeywordT = T(173759770223, --[[ModItemConversation Jose_1 KeywordT]] "Hand over the diamonds"),
-					Lines = {
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(945363675509, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Hand over the diamonds]] "Bien sur! Please, take these. I just found them on the beach, I swear... All yours now. I... I can go? And... You won't shoot me in the back?"),
-							param_bindings = false,
-						}),
-						PlaceObj('ConversationInterjectionList', {
-							Interjections = {
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Fidel",
-											Text = T(549605059150, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Hand over the diamonds]] "No. Fidel like to aim for belly. More screaming that way."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Omryn",
-											Text = T(128574227840, --[[ModItemConversation Jose_1 Text voice:Omryn section:Jose_1 keyword:Hand over the diamonds]] "I only shoot people for money... and for food."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Steroid",
-											Text = T(180173666682, --[[ModItemConversation Jose_1 Text voice:Steroid section:Jose_1 keyword:Hand over the diamonds]] "Just drop your lunch money and run, little man!"),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Vicki",
-											Text = T(788492162617, --[[ModItemConversation Jose_1 Text voice:Vicki section:Jose_1 keyword:Hand over the diamonds]] "Life be full of mystery, mon. Only one way to find out."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-							},
-							param_bindings = false,
-						}),
-					},
-					PhraseRolloverText = T(985683320118, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
-					StoryBranchIcon = "conversation_action",
-					id = "HandOverTheDiamonds",
-					param_bindings = false,
-				}),
-				PlaceObj('ConversationPhrase', {
-					Align = "right",
-					Comment = "Start combat",
-					Effects = {
-						PlaceObj('GroupSetSide', {
-							Side = "enemy1",
-							TargetUnit = "LegionRaider_Jose",
-							param_bindings = false,
-						}),
-						PlaceObj('GroupAlert', {
-							TargetUnit = "LegionRaider_Jose",
-							param_bindings = false,
-						}),
-						PlaceObj('ExecuteCode', {
-							FuncCode = "TutorialHintsState.QuestChoice = true",
-							param_bindings = false,
-						}),
-					},
-					Enabled = false,
-					GoTo = "<end conversation>",
-					Keyword = "Die!",
-					KeywordT = T(290042346852, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
-					Lines = {
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(272789820167, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Die!]] "Merde!"),
-							param_bindings = false,
-						}),
-						PlaceObj('ConversationInterjectionList', {
-							Interjections = {
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Annotation = "Laughing as if he just figured it's a great idea",
-											Character = "Fidel",
-											Text = T(618594213906, --[[ModItemConversation Jose_1 Text Laughing as if he just figured it's a great idea voice:Fidel section:Jose_1 keyword:Die!]] "Hehehehee... Bad news for you. Good news for Fidel!"),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Meltdown",
-											Text = T(748009394945, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Die!]] "Time to make some fur fly!"),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-							},
-							param_bindings = false,
-						}),
-					},
-					PhraseRolloverText = T(320547678689, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
-					StoryBranchIcon = "conversation_attack",
-					id = "Openfire",
-					param_bindings = false,
-				}),
-				PlaceObj('ConversationPhrase', {
-					Align = "right",
-					Comment = "Improve loot of second encounter",
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "JoseFamily",
-							Vars = {
-								BaconDiamonds = true,
-								Scared = true,
-							},
-							param_bindings = false,
-						}),
-					},
-					Effects = {
-						PlaceObj('GroupSetBehaviorExit', {
-							MarkerGroup = "East",
-							Running = true,
-							TargetUnit = "LegionRaider_Jose",
-							UseWeapons = true,
-							param_bindings = false,
-						}),
-						PlaceObj('ExecuteCode', {
-							FuncCode = "TutorialHintsState.QuestChoice = true",
-							param_bindings = false,
-						}),
-					},
-					GoTo = "<end conversation>",
-					Keyword = "You may go",
-					KeywordT = T(729243380616, --[[ModItemConversation Jose_1 KeywordT]] "You may go"),
-					Lines = {
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(336768732366, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:You may go]] "Thank you, boss, I knew you were kind and gentle people! I go now. Please... um... Please, don't shoot me in the back."),
-							param_bindings = false,
-						}),
-						PlaceObj('ConversationInterjectionList', {
-							Interjections = {
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Fidel",
-											Text = T(569961182685, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:You may go]] "No. Fidel like to aim for belly. More screaming that way."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Meltdown",
-											Text = T(934187065023, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:You may go]] "I'll consider it."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-							},
-							param_bindings = false,
-						}),
-					},
-					PhraseRolloverText = T(473984065393, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
-					StoryBranchIcon = "conversation_goodbye",
-					id = "YouMayGo",
-					param_bindings = false,
-				}),
-				PlaceObj('ConversationPhrase', {
-					Align = "right",
-					Comment = "If not Scared. Improve loot of second encounter",
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "JoseFamily",
-							Vars = {
-								BaconDiamonds = false,
-								Scared = false,
-							},
-							param_bindings = false,
-						}),
-					},
-					Effects = {
-						PlaceObj('GroupSetBehaviorExit', {
-							MarkerGroup = "East",
-							Running = true,
-							TargetUnit = "LegionRaider_Jose",
-							UseWeapons = true,
-							param_bindings = false,
-						}),
-						PlaceObj('QuestSetVariableBool', {
-							Prop = "LeadFamily",
-							QuestId = "JoseFamily",
-							param_bindings = false,
-						}),
-						PlaceObj('ExecuteCode', {
-							FuncCode = "TutorialHintsState.QuestChoice = true",
-							param_bindings = false,
-						}),
-					},
-					GoTo = "<end conversation>",
-					Keyword = "Goodbye",
-					KeywordT = T(369563789544, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
-					Lines = {
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(991976953419, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Goodbye]] "Very kind of you to let me be on my way. Thank you! If your travels take you through <em>the Rust</em> any time soon, you're welcome to visit my family. We'll give you all the hospitality you deserve. I'll give it to you good, I promise!"),
-							param_bindings = false,
-						}),
-						PlaceObj('ConversationInterjectionList', {
-							Interjections = {
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Mouse",
-											Text = T(490260677012, --[[ModItemConversation Jose_1 Text voice:Mouse section:Jose_1 keyword:Goodbye]] "Is it just me, or did that sound like a threat?!"),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Wolf",
-											Text = T(226068021362, --[[ModItemConversation Jose_1 Text voice:Wolf section:Jose_1 keyword:Goodbye]] "Could have phrased that a little better."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Fox",
-											Text = T(836121399190, --[[ModItemConversation Jose_1 Text voice:Fox section:Jose_1 keyword:Goodbye]] "If I had a dime for every man who promised me that, I could buy my own island."),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-							},
-							param_bindings = false,
-						}),
-					},
-					PhraseRolloverText = T(797164020855, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
-					StoryBranchIcon = "conversation_goodbye",
-					id = "Goodbye",
-					param_bindings = false,
-				}),
-				PlaceObj('ConversationPhrase', {
-					Align = "right",
-					Comment = "If Scared",
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "JoseFamily",
-							Vars = {
-								BaconDiamonds = false,
-								Scared = true,
-							},
-							param_bindings = false,
-						}),
-					},
-					Effects = {
-						PlaceObj('GroupSetBehaviorExit', {
-							MarkerGroup = "East",
-							Running = true,
-							TargetUnit = "LegionRaider_Jose",
-							UseWeapons = true,
-							param_bindings = false,
-						}),
-						PlaceObj('ExecuteCode', {
-							FuncCode = "TutorialHintsState.QuestChoice = true",
-							param_bindings = false,
-						}),
-					},
-					GoTo = "<end conversation>",
-					Keyword = "Goodbye",
-					KeywordT = T(294294326543, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
-					Lines = {
-						PlaceObj('ConversationLine', {
-							Character = "LegionRaider_Jose",
-							Text = T(206183265191, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Goodbye]] "Thank you for sparing me, boss! Heavens bless you! I'm getting out of sight, right away! Thank you! Have a nice day! Au revoir!"),
-							param_bindings = false,
-						}),
-						PlaceObj('ConversationInterjectionList', {
-							Interjections = {
-								PlaceObj('ConversationInterjection', {
-									Lines = {
-										PlaceObj('ConversationLine', {
-											Character = "Fidel",
-											Text = T(100312507456, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Goodbye]] "But why let go? Fidel no understand. Maybe we shoot him later?"),
-											param_bindings = false,
-										}),
-									},
-									param_bindings = false,
-								}),
-							},
-							param_bindings = false,
-						}),
-					},
-					PhraseRolloverText = T(921461823582, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
-					StoryBranchIcon = "conversation_goodbye",
-					id = "Goodbye2",
-					param_bindings = false,
-				}),
-			}),
-			PlaceObj('ModItemConversation', {
-				AssignToGroup = "Rebels_Squad_LegionCamp5",
-				DefaultActor = "RebelSergant_Immortal",
-				group = "Ernie",
-				id = "Ernie_LegionCamp5_Rebels",
-				PlaceObj('ConversationPhrase', {
-					AutoRemove = true,
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "RescueTeam",
-							Vars = set( "NotStarted" ),
-							param_bindings = false,
-						}),
-					},
-					Keyword = "Greeting",
-					KeywordT = T(774381032385, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Greeting"),
-					Lines = {
-						PlaceObj('ConversationLine', {
-							Character = "RebelSergant_Immortal",
-							Text = T(712802681829, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Greeting]] "Здравствуйте наёмники."),
-							param_bindings = false,
-						}),
-						PlaceObj('ConversationLine', {
-							Character = "RebelSergant_Immortal",
-							Text = T(424647158478, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Greeting]] "Я никогда не думал, что буду просить о помощи боевых псов капитала, но выходит что враг моего врага - мой друг. А выбирать нам не из чего, у меня тут куча раненых и изнуренных бойцов, у нас почти нет патронов, а оружие, что удалось унести, да это практически и не оружие уже..."),
-							param_bindings = false,
-						}),
-					},
-					id = "Greeting",
-					param_bindings = false,
-					PlaceObj('ConversationPhrase', {
-						Conditions = {
-							PlaceObj('QuestIsVariableBool', {
-								QuestId = "RescueTeam",
-								Vars = {
-									NotStarted = true,
-								},
-								param_bindings = false,
-							}),
-						},
-						Effects = {
-							PlaceObj('SectorsGrantIntel', {
-								param_bindings = false,
-								sector_id = {
-									"K5",
-								},
-							}),
-						},
-						Keyword = "Что тут случилось?",
-						KeywordT = T(592834310034, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Что тут случилось?"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "RebelSergant_Immortal",
-								Text = T(766138274062, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Что тут случилось?]] "Приятно слышать, что вам не безразлично происходящее. Рассказывать всё с самого начала нет времени, но если коротко, то Легион расплодился и захватил всю страну, ячейки партизан раздроблены по стране, наша пыталась отбить остров, но нас выдавили с наших позиций и мы вынуждены ютиться тут, надеюсь у остальных дела идут получше. Вы наверное видели тела внизу. Нам практически нечем стрелять. У нас нет медикаментов, да даже еды уже практически нет."),
-								param_bindings = false,
-							}),
-						},
-						id = "What hepened",
-						param_bindings = false,
-					}),
-					PlaceObj('ConversationPhrase', {
-						Conditions = {
-							PlaceObj('QuestIsVariableBool', {
-								QuestId = "RescueTeam",
-								Vars = {
-									NotStarted = true,
-								},
-								param_bindings = false,
-							}),
-						},
-						Keyword = "Итак, какая помощь вам нужна",
-						KeywordT = T(680417461250, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Итак, какая помощь вам нужна"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "RebelSergant_Immortal",
-								Text = T(122539962745, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Итак, какая помощь вам нужна]] "Как я уже сказал, нам нужно оружие, патроны и медикаменты, если вы готовы зачистить Легионовских псов, то я даже дам вам огневую поддержку. Но для начала... Надо спасти нашего бойца, который ещё должен быть жив, он должен быть на пирсе. Эти собаки собираются казнить его, это один из наших бойцов, который прикрывал отход из второго лагеря. Пожалуйста спасите его."),
-								param_bindings = false,
-							}),
-						},
-						id = "2",
-						param_bindings = false,
-						PlaceObj('ConversationPhrase', {
-							Align = "right",
-							Conditions = {
-								PlaceObj('QuestIsVariableBool', {
-									QuestId = "RescueTeam",
-									Vars = {
-										NotStarted = true,
-									},
-									param_bindings = false,
-								}),
-							},
-							Effects = {
-								PlaceObj('QuestSetVariableBool', {
-									Prop = "Given",
-									QuestId = "RescueTeam",
-									param_bindings = false,
-								}),
-							},
-							GiveQuests = {
-								"RescueTeam",
-							},
-							GoTo = "<end conversation>",
-							Keyword = "Мы берёмся",
-							KeywordT = T(672560155733, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Мы берёмся"),
-							Lines = {
-								PlaceObj('ConversationLine', {
-									Character = "RebelSergant_Immortal",
-									Text = T(924519361059, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Мы берёмся]] "Поспешите..."),
-									param_bindings = false,
-								}),
-							},
-							id = "Mission",
-							param_bindings = false,
-						}),
-						PlaceObj('ConversationPhrase', {
-							Align = "right",
-							Conditions = {
-								PlaceObj('QuestIsVariableBool', {
-									QuestId = "RescueTeam",
-									Vars = {
-										NotStarted = true,
-									},
-									param_bindings = false,
-								}),
-							},
-							GoTo = "<end conversation>",
-							Keyword = "Не, сами крутитесь.",
-							KeywordT = T(546142027509, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Не, сами крутитесь."),
-							Lines = {
-								PlaceObj('ConversationLine', {
-									Character = "RebelSergant_Immortal",
-									Text = T(560698081650, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Не, сами крутитесь.]] "Жаль, тогда идите своей дорогой и не мешайтесь."),
-									param_bindings = false,
-								}),
-							},
-							id = "3",
-							param_bindings = false,
-						}),
-					}),
-				}),
-				PlaceObj('ConversationPhrase', {
-					AutoRemove = true,
-					CompleteQuests = {
-						"RescueTeam",
-					},
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "RescueTeam",
-							Vars = set( "Rescued" ),
-							param_bindings = false,
-						}),
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "RebelsSavior",
-							Vars = set( "NotStarted" ),
-							param_bindings = false,
-						}),
-					},
-					Keyword = "Greeting",
-					KeywordT = T(774381032385, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Greeting"),
-					Lines = {
-						PlaceObj('ConversationLine', {
-							Character = "RebelSergant_Immortal",
-							Text = T(157083449193, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Greeting3]] "Спасибо, что спасли нашего товарища."),
-							param_bindings = false,
-						}),
-					},
-					id = "Greeting3",
-					param_bindings = false,
-					PlaceObj('ConversationPhrase', {
-						CompleteQuests = {
-							"RescueTeam",
-						},
-						Conditions = {
-							PlaceObj('QuestIsVariableBool', {
-								QuestId = "RescueTeam",
-								Vars = set( "Rescued" ),
-								param_bindings = false,
-							}),
-						},
-						Keyword = "Всегда пожалуйста",
-						KeywordT = T(996024122128, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Всегда пожалуйста"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "RebelSergant_Immortal",
-								Text = T(624365836328, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Всегда пожалуйста]] "Есть ещё одно дело, если всё ещё готовы помогать"),
-								param_bindings = false,
-							}),
-						},
-						id = "2",
-						param_bindings = false,
-						PlaceObj('ConversationPhrase', {
-							Keyword = "Оружие?",
-							KeywordT = T(261552674871, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Оружие?"),
-							Lines = {
-								PlaceObj('ConversationLine', {
-									Character = "RebelSergant_Immortal",
-									Text = T(603947439256, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Оружие?]] "Оружие, нам нужно снаряжение из старого лагеря, также там должны были быть медикаменты, мне послать некого, бойцы изнурены и ранены, оружие наладом дышит, если что-то там пойдет не так, в общем потери у нас итак слишком большие, и надеюсь у вас есть сапер, мы заминировали подходы. В общем принисите нам снаряжение и у меня найдется чем с вами поделиться."),
-									param_bindings = false,
-								}),
-							},
-							id = "2",
-							param_bindings = false,
-							PlaceObj('ConversationPhrase', {
-								GiveQuests = {
-									"RebelsSavior",
-								},
-								GoTo = "<end conversation>",
-								Keyword = "Мы готовы",
-								KeywordT = T(327289513734, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Мы готовы"),
-								Lines = {
-									PlaceObj('ConversationLine', {
-										Character = "RebelSergant_Immortal",
-										Text = T(344685080092, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Мы готовы]] "Отлично."),
-										param_bindings = false,
-									}),
-								},
-								id = "2",
-								param_bindings = false,
-							}),
-						}),
-					}),
-				}),
-				PlaceObj('ConversationPhrase', {
-					AutoRemove = true,
-					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "RebelsSavior",
-							Vars = set( "All_Found" ),
-							param_bindings = false,
-						}),
-					},
-					Keyword = "Мы счастливы?",
-					KeywordT = T(407342596203, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Мы счастливы?"),
-					Lines = {
-						PlaceObj('ConversationLine', {
-							Character = "RebelSergant_Immortal",
-							Text = T(468486052663, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Мы счастливы?]] "Тут всё?"),
-							param_bindings = false,
-						}),
-					},
-					id = "2",
-					param_bindings = false,
-					PlaceObj('ConversationPhrase', {
-						CompleteQuests = {
-							"RebelsSavior",
-						},
-						Effects = {
-							PlaceObj('QuestSetVariableBool', {
-								Prop = "Completed",
-								QuestId = "RebelsSavior",
-								param_bindings = false,
-							}),
-							PlaceObj('UnitTakeItem', {
-								Amount = 4,
-								ItemId = "ZastavaM76",
-								param_bindings = false,
-							}),
-							PlaceObj('UnitTakeItem', {
-								Amount = 4,
-								ItemId = "Medkit",
-								param_bindings = false,
-							}),
-						},
-						GoTo = "<end conversation>",
-						Keyword = "Да мы счастливы",
-						KeywordT = T(403161852547, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Да мы счастливы"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "RebelSergant_Immortal",
-								Text = T(480799336285, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Да мы счастливы]] "Вы очень сильно помогли нам, спасибо наемники, у нас тут затесался ваш колега по опасному бизнессу, такой же солдат удачи, думаю он с радостью пойдёт с вами, по началу бредил про какую-то несуществующую страну, под названием Арулько, но вроде отпустило. Он вроде как потерял память, но боевые навыки точно не растерял. Вон он стоит у палаток."),
-								param_bindings = false,
-							}),
-						},
-						id = "2",
-						param_bindings = false,
-					}),
-				}),
-			}),
-			}),
-		PlaceObj('ModItemFolder', {
-			'name', "Main quests",
+			'name', "Main quests/Jazz",
 			'comment', "Сюжетные",
 		}, {
 			PlaceObj('ModItemQuestsDef', {
@@ -34787,8 +40972,9 @@ return {
 				},
 				Main = true,
 				NoteDefs = {
-					LastNoteIdx = 1,
+					LastNoteIdx = 3,
 					PlaceObj('QuestNote', {
+						AddInHistory = true,
 						HideConditions = {
 							PlaceObj('CheckOR', {
 								Conditions = {
@@ -34811,7 +40997,33 @@ return {
 								Vars = set( "Given" ),
 							}),
 						},
-						Text = T(194076078423, --[[ModItemQuestsDef 01_Landing Text]] "<em>Клиент</em> ждёт нас на <em>Острове Эрни</em>"),
+						Text = T(194076078423, --[[ModItemQuestsDef 01_Landing Text]] "<em>Клиент</em> ждёт нас на <em>Острове Эрни</em>, необходимо пробиться в целевой сектор, контракт никто не отменял"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('PlayerIsInSectors', {
+										Sectors = {
+											"M1",
+										},
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "01_Landing",
+										Vars = set( "Completed" ),
+									}),
+								},
+							}),
+						},
+						Idx = 3,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "01_Landing",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(753511128670, --[[ModItemQuestsDef 01_Landing Text]] "Высадка провалилась, на лодки обрушился шквальный огонь с берега, необходимо закрепиться в <em>Секторе</em> и встретиться с теми, кто завязал бой с нашим противником."),
 					}),
 					PlaceObj('QuestNote', {
 						AddInHistory = true,
@@ -34863,7 +41075,7 @@ return {
 						ShowConditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"I1",
+									"K4",
 								},
 							}),
 						},
@@ -34951,6 +41163,9 @@ return {
 					}),
 					PlaceObj('QuestVarTCEState', {
 						Name = "TCE_InitialConflictLock",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "M1_Captured",
 					}),
 				},
 				group = "Main",
@@ -36954,6 +43169,9504 @@ return {
 			group = "PortCacao",
 			id = "Docks",
 		}),
+		PlaceObj('ModItemFolder', {
+			'name', "CursedForest_Vanilla",
+		}, {
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Radomir",
+				DevNotes = "All scripting is in CursedForestSideQuests.",
+				DisplayName = T(968947325220, --[[ModItemQuestsDef ForgottenGrave DisplayName]] "Forgotten Grave"),
+				KillTCEsConditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "Completed" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Failed", "TCE_RemoveConflict" ),
+							}),
+						},
+					}),
+				},
+				LastNoteIdx = 4,
+				NoteDefs = {
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "GloomyVillager",
+								QuestId = "ForgottenGrave",
+								Sector = "D16",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "CursedForestSideQuests",
+								Vars = set( "GraveFound", "GraveGiven", "GraveReported" ),
+							}),
+						},
+						QuestId = "ForgottenGrave",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CursedForestSideQuests",
+								Vars = set({
+	GraveBushesCut = true,
+	GraveGiven = false,
+}),
+							}),
+						},
+						Text = T(584120351013, --[[ModItemQuestsDef ForgottenGrave Text]] "Found a forgotten <em>grave</em> in the woods"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "ForgottenGrave",
+								Sector = "D13",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "ForgottenGrave",
+								Sector = "E13",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "ForgottenGrave",
+								Sector = "D19",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "CursedForestSideQuests",
+								Vars = set( "GraveBushesCut", "GraveFound", "GraveReported" ),
+							}),
+						},
+						Idx = 2,
+						QuestId = "ForgottenGrave",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CursedForestSideQuests",
+								Vars = set( "GraveGiven" ),
+							}),
+						},
+						Text = T(945106914653, --[[ModItemQuestsDef ForgottenGrave Text]] "<em>Francis</em> is looking for his father's <em>grave</em> that is somewhere along the river in the Cursed Forest"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "GloomyVillager",
+								QuestId = "ForgottenGrave",
+								Sector = "D16",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CursedForestSideQuests",
+								Vars = set( "GraveReported" ),
+							}),
+						},
+						Idx = 3,
+						QuestId = "ForgottenGrave",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CursedForestSideQuests",
+								Vars = set( "GraveGiven" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "CursedForestSideQuests",
+								Vars = set( "GraveBushesCut", "GraveFound" ),
+							}),
+						},
+						Text = T(807002556704, --[[ModItemQuestsDef ForgottenGrave Text]] "<em>Francis</em> would want to know the location of his father's <em>grave</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CursedForestSideQuests",
+								Vars = set( "GraveDone" ),
+							}),
+						},
+						Idx = 4,
+						QuestId = "ForgottenGrave",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CursedForestSideQuests",
+								Vars = set( "GraveReported" ),
+							}),
+						},
+						Text = T(611991044683, --[[ModItemQuestsDef ForgottenGrave Text]] "<em>Outcome:</em> The parents of <em>Francis</em> will rest in peace"),
+					}),
+				},
+				QuestGroup = "Jungle",
+				QuestId = "ForgottenGrave",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckGameState', {
+								GameState = "Night",
+								Negate = true,
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"D17",
+									"D18",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BeastEffigyOn",
+								QuestId = "Beast",
+								Set = false,
+							}),
+						},
+						ParamId = "TCE_DaytimeCleanup",
+						QuestId = "ForgottenGrave",
+						requiredSectors = {
+							"D17",
+							"D18",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckGameState', {
+								GameState = "Night",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	BeastEffigyOn = true,
+	BeastIntroTriggered = false,
+}),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"D17",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BeastEffigies",
+								QuestId = "Beast",
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "Beast",
+										Vars = set({
+	BeastMet = false,
+}),
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "BeastIntroTriggered",
+										QuestId = "Beast",
+									}),
+									PlaceObj('PlaySetpiece', {
+										setpiece = "BeastIntro_ActualSP",
+									}),
+									PlaceObj('SectorEnterConflict', {
+										disable_travel = true,
+										lock_conflict = true,
+										sector_id = "D17",
+										spawn_mode = "explore",
+									}),
+								},
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_D17BeastCall",
+						QuestId = "ForgottenGrave",
+						requiredSectors = {
+							"D17",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('UnitIsAware', {
+								TargetUnit = "TheBeast",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	TCE_AttackedByPlayer = false,
+}),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"D17",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BeastAttack",
+								QuestId = "Beast",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_BeastIsAware",
+						QuestId = "ForgottenGrave",
+						requiredSectors = {
+							"D17",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"D17",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastIntroTriggered" ),
+							}),
+							PlaceObj('CombatIsActive', {
+								Negate = true,
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "Beast_AddLegions",
+							}),
+						},
+						Effects = {
+							PlaceObj('SectorEnterConflict', {
+								conflict_mode = false,
+								sector_id = "D17",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_RemoveConflict",
+						QuestId = "ForgottenGrave",
+						requiredSectors = {
+							"D17",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "_GroupsAttacked",
+								Vars = set( "TheBeast" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	Completed = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Failed",
+								QuestId = "Beast",
+							}),
+							PlaceObj('GroupSetSide', {
+								Side = "enemy2",
+								TargetUnit = "TheBeast",
+							}),
+							PlaceObj('GroupAlert', {
+								TargetUnit = "TheBeast",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_AttackedByPlayer",
+						QuestId = "ForgottenGrave",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SectorMilitiaNumber', {
+								Amount = 2,
+								Condition = ">=",
+								sector_id = "D17",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "QuestMilitiaDone",
+								QuestId = "Beast",
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 5,
+								City = "IlleMorat",
+								SpecialConversationMessage = T(302091822558, --[[ModItemQuestsDef ForgottenGrave SpecialConversationMessage]] "trained <em>Militia</em>"),
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_QuestMilitia",
+						QuestId = "ForgottenGrave",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "D18",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "QuestBelleEauDone",
+								QuestId = "Beast",
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 5,
+								City = "IlleMorat",
+								SpecialConversationMessage = T(815320386712, --[[ModItemQuestsDef ForgottenGrave SpecialConversationMessage]] "liberated <em>Belle Eau</em>"),
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_QuestBelleEau",
+						QuestId = "ForgottenGrave",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "QuestLoyalty" ),
+							}),
+							PlaceObj('CityHasLoyalty', {
+								Amount = 60,
+								City = "IlleMorat",
+								Condition = ">=",
+							}),
+						},
+						Effects = {
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "Village_Conflict",
+								MusicExploration = "Village_Complete",
+								SectorID = "D17",
+							}),
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "Village_Conflict",
+								MusicExploration = "Village_Complete",
+								SectorID = "D18",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BeastSatisfied",
+								QuestId = "Beast",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_BeastSatisfied",
+						QuestId = "ForgottenGrave",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastRecruited" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Large",
+								logImportant = true,
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "Beast",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_QuestCompleted",
+						QuestId = "ForgottenGrave",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+						QuestId = "ForgottenGrave",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+						QuestId = "ForgottenGrave",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+						QuestId = "ForgottenGrave",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						QuestId = "ForgottenGrave",
+						Value = true,
+					}),
+				},
+				group = "CursedForest",
+				id = "ForgottenGrave",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Radomir",
+				DevNotes = "When Beast is completed, she will have 75% chance to spawn in key Cursed Forest and Bien Chien sectors.\nRandomizer is randomized each time upon conflict, before battle.",
+				DisplayName = T(665544892317, --[[ModItemQuestsDef CursedForestSideQuests DisplayName]] "Cursed Forest"),
+				LastNoteIdx = 2,
+				NoteDefs = {
+					LastNoteIdx = 6,
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastEffigies", "BeastEffigyOn" ),
+							}),
+						},
+						QuestId = "CursedForestSideQuests",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastEffigies", "BeastEffigyOn" ),
+							}),
+						},
+						Text = T(144394368567, --[[ModItemQuestsDef CursedForestSideQuests Text]] "There are horrible <em>effigies</em> in the Cursed Forest that scare the Legion"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "BrokenEffigy",
+								QuestId = "CursedForestSideQuests",
+								Sector = "D18",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "BrokenEffigy",
+								QuestId = "CursedForestSideQuests",
+								Sector = "E15",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "BrokenEffigy",
+								QuestId = "CursedForestSideQuests",
+								Sector = "D13",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "BrokenEffigy",
+								QuestId = "CursedForestSideQuests",
+								Sector = "E13",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "BrokenEffigy",
+								QuestId = "CursedForestSideQuests",
+								Sector = "D14",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "BrokenEffigy",
+								QuestId = "CursedForestSideQuests",
+								Sector = "D15",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "BrokenEffigy",
+								QuestId = "CursedForestSideQuests",
+								Sector = "C16",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableNum', {
+								AgainstVar = true,
+								Prop = "EffigiesRepaired",
+								Prop2 = "EffigiesRepairedMax",
+								QuestId = "Beast",
+								QuestId2 = "Beast",
+							}),
+						},
+						Idx = 2,
+						QuestId = "CursedForestSideQuests",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableNum', {
+								Amount = 1,
+								Prop = "EffigiesRepaired",
+								QuestId = "Beast",
+							}),
+						},
+						Text = T(457942823176, --[[ModItemQuestsDef CursedForestSideQuests Text]] "The Legion destroyed some <em>effigies</em> in the Cursed Forest that can be repaired"),
+					}),
+				},
+				QuestGroup = "Jungle",
+				QuestId = "CursedForestSideQuests",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"IlleMoratOutskirts_02_FrancisInitial",
+								},
+								QuestId = "CursedForestSideQuests",
+								WaitOver = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "GraveGiven",
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GraveGive",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"IlleMoratOutskirts_03_GraveFound",
+								},
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "GraveFound",
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Minor",
+								QuestId = "CursedForestSideQuests",
+								logImportant = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GraveFind",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"IlleMoratOutskirts_04_FrancisGraveFound",
+								},
+								QuestId = "CursedForestSideQuests",
+								WaitOver = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "GraveReported",
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 5,
+								City = "IlleMorat",
+								QuestId = "CursedForestSideQuests",
+								SpecialConversationMessage = T(127082720658, --[[ModItemQuestsDef CursedForestSideQuests SpecialConversationMessage]] "helped <em>Francis</em> find his father's grave"),
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Minor",
+								QuestId = "CursedForestSideQuests",
+								logImportant = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GraveReport",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CursedForestSideQuests",
+								Vars = set( "GraveReported" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Negate = true,
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"D16",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "GraveDone",
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "ForgottenGrave",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GraveDone",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('GroupIsDead', {
+								Group = "GloomyVillager",
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ForgottenGrave",
+								Vars = set({
+	Completed = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Failed",
+								QuestId = "ForgottenGrave",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GraveFail",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"IlleMoratOutskirts_05_GravePayRespect",
+								},
+								QuestId = "CursedForestSideQuests",
+								WaitOver = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('ApplyGuiltyOrRighteous', {
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GravePayRespect",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"D14",
+								},
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 14,
+								QuestId = "CursedForestSideQuests",
+								SecondTargetUnit = "LegionMale_TeaParty",
+								TargetUnit = "any merc",
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"CursedForest_TeaParty_Legion01",
+								},
+								QuestId = "CursedForestSideQuests",
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Given",
+								QuestId = "Beast",
+							}),
+							PlaceObj('GroupSetSide', {
+								QuestId = "CursedForestSideQuests",
+								Side = "enemy1",
+								TargetUnit = "LegionMale_TeaParty",
+							}),
+							PlaceObj('GroupAlert', {
+								QuestId = "CursedForestSideQuests",
+								TargetUnit = "LegionMale_TeaParty",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_TeaPartySurvivor",
+						QuestId = "CursedForestSideQuests",
+						requiredSectors = {
+							"D14",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"D14",
+								},
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "LegionMale_TeaParty",
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Effects = {
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 5,
+								City = "IlleMorat",
+								QuestId = "CursedForestSideQuests",
+								SpecialConversationMessage = T(449500495373, --[[ModItemQuestsDef CursedForestSideQuests SpecialConversationMessage]] "finished off the tea party survivor"),
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_TeaPartyDone",
+						QuestId = "CursedForestSideQuests",
+						requiredSectors = {
+							"D14",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	BeastDead = false,
+	BeastRecruited = true,
+}),
+							}),
+							PlaceObj('SectorIsInConflict', {
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('CombatIsActive', {
+								Negate = true,
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('CheckGameState', {
+										GameState = "Marshlands",
+										QuestId = "CursedForestSideQuests",
+									}),
+									PlaceObj('CheckGameState', {
+										GameState = "CursedForest",
+										QuestId = "CursedForestSideQuests",
+									}),
+								},
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableNum', {
+								Operation = "set",
+								Prop = "Randomizer",
+								QuestId = "Beast",
+								RandomRangeMax = 3,
+							}),
+						},
+						ParamId = "TCE_BeastRandomizeSpawn",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"C14",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	BeastDead = false,
+}),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "_GroupsAttacked",
+								Vars = set({
+	TheBeast = false,
+}),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CursedForestSideQuests",
+								Vars = set({
+	PlayerAttackedBeast = false,
+}),
+							}),
+							PlaceObj('CombatIsActive', {
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('UnitIsOnMap', {
+								QuestId = "CursedForestSideQuests",
+								TargetUnit = "TheBeast",
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetSide', {
+								QuestId = "CursedForestSideQuests",
+								Side = "ally",
+								TargetUnit = "TheBeast",
+							}),
+						},
+						ParamId = "TCE_BeastCabinCombat",
+						QuestId = "CursedForestSideQuests",
+						requiredSectors = {
+							"C14",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"D17",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	BeastDead = false,
+}),
+							}),
+							PlaceObj('SectorIsInConflict', {
+								Negate = true,
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('UnitIsOnMap', {
+								QuestId = "CursedForestSideQuests",
+								TargetUnit = "TheBeast",
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetRoutine', {
+								QuestId = "CursedForestSideQuests",
+								Routine = "AdvanceTo",
+								RoutineArea = "BeastMoveToVlad",
+								TargetUnit = "TheBeast",
+							}),
+						},
+						ParamId = "TCE_BeastPostCombatMove",
+						QuestId = "CursedForestSideQuests",
+						requiredSectors = {
+							"D17",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"C14",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	BeastDead = false,
+}),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CursedForestSideQuests",
+								Vars = set({
+	PlayerAttackedBeast = false,
+}),
+							}),
+							PlaceObj('SectorIsInConflict', {
+								Negate = true,
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('UnitIsOnMap', {
+								QuestId = "CursedForestSideQuests",
+								TargetUnit = "TheBeast",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	BeastRecruited = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetSide', {
+								QuestId = "CursedForestSideQuests",
+								Side = "neutral",
+								TargetUnit = "TheBeast",
+							}),
+						},
+						ParamId = "TCE_BeastPostCombatHut",
+						QuestId = "CursedForestSideQuests",
+						requiredSectors = {
+							"C14",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	BeastDead = false,
+}),
+							}),
+							PlaceObj('SectorIsInConflict', {
+								Negate = true,
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('UnitIsOnMap', {
+								QuestId = "CursedForestSideQuests",
+								TargetUnit = "TheBeast",
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Negate = true,
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"C14",
+								},
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Negate = true,
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"D17",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetBehaviorExit', {
+								QuestId = "CursedForestSideQuests",
+								TargetUnit = "TheBeast",
+								UseWeapons = true,
+								closest = true,
+							}),
+						},
+						ParamId = "TCE_BeastPostCombatLeave",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Effigy_BelleEau" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('HideQuestBadge', {
+								LogLine = 6,
+								Quest = "CursedForestSideQuests",
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_EffigyDone_D18",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ReduceRiverCampStrength",
+								Vars = set( "EffigyConstructed" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"E15",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('HideQuestBadge', {
+								BadgeIdx = 2,
+								LogLine = 6,
+								Quest = "CursedForestSideQuests",
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('SectorEnterConflict', {
+								QuestId = "CursedForestSideQuests",
+								disable_travel = true,
+								sector_id = "E15",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_EffigyDone_E15",
+						QuestId = "CursedForestSideQuests",
+						requiredSectors = {
+							"E15",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Effigy_D13" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('HideQuestBadge', {
+								BadgeIdx = 3,
+								LogLine = 6,
+								Quest = "CursedForestSideQuests",
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_EffigyDone_D13",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Effigy_E13" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('HideQuestBadge', {
+								BadgeIdx = 4,
+								LogLine = 6,
+								Quest = "CursedForestSideQuests",
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_EffigyDone_E13",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Effigy_D14" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('HideQuestBadge', {
+								BadgeIdx = 5,
+								LogLine = 6,
+								Quest = "CursedForestSideQuests",
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_EffigyDone_D14",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Effigy_D15" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('HideQuestBadge', {
+								BadgeIdx = 6,
+								LogLine = 6,
+								Quest = "CursedForestSideQuests",
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_EffigyDone_D15",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Effigy_C16" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('HideQuestBadge', {
+								BadgeIdx = 7,
+								LogLine = 6,
+								Quest = "CursedForestSideQuests",
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_EffigyDone_C16",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Effigy_BelleEau", "Effigy_C16", "Effigy_D13", "Effigy_D14", "Effigy_D15", "Effigy_E13" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_CompleteQuest",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "CursedForestSideQuests",
+								Sectors = {
+									"E16",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "Given", "HyenasDead" ),
+							}),
+							PlaceObj('CombatIsActive', {
+								Negate = true,
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 10,
+								QuestId = "CursedForestSideQuests",
+								SecondTargetUnit = "Beast_Crocodile",
+								TargetUnit = "Peta",
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 10,
+								QuestId = "CursedForestSideQuests",
+								SecondTargetUnit = "Beast_Crocodile",
+								TargetUnit = "any merc",
+							}),
+							PlaceObj('OR', {
+								Conditions = {
+									PlaceObj('UnitIsAroundOtherUnit', {
+										Distance = 10,
+										QuestId = "CursedForestSideQuests",
+										SecondTargetUnit = "Beast_Crocodile",
+										TargetUnit = "any merc",
+									}),
+									PlaceObj('UnitIsAroundOtherUnit', {
+										Distance = 10,
+										QuestId = "CursedForestSideQuests",
+										SecondTargetUnit = "Peta",
+										TargetUnit = "any merc",
+									}),
+								},
+								QuestId = "CursedForestSideQuests",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "CrocodileConverted",
+								QuestId = "ChienSauvage",
+							}),
+							PlaceObj('GroupSetSide', {
+								CreateSquad = false,
+								QuestId = "CursedForestSideQuests",
+								Side = "neutral",
+								TargetUnit = "Beast_Crocodile",
+							}),
+							PlaceObj('GroupChangeName', {
+								ChangeName = T(680820793836, --[[ModItemQuestsDef CursedForestSideQuests ChangeName]] "Vegena"),
+								QuestId = "CursedForestSideQuests",
+								TargetUnit = "Beast_Crocodile",
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Minor",
+								QuestId = "CursedForestSideQuests",
+							}),
+							PlaceObj('GroupSetBehaviorExit', {
+								MarkerGroup = "North",
+								QuestId = "CursedForestSideQuests",
+								Running = true,
+								TargetUnit = "Peta",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "PetaLeft",
+								QuestId = "ChienSauvage",
+							}),
+						},
+						Once = true,
+						ParamId = "CrocConvertToVeganism",
+						QuestId = "CursedForestSideQuests",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						QuestId = "CursedForestSideQuests",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "IlleMorat_JacuzziDone",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "IlleMorat_DrawingboardDone",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "IlleMorat_TrapDoorDone",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "GraveRandom",
+						QuestId = "CursedForestSideQuests",
+						RandomRangeMax = 4,
+						Value = 1,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "GraveGiven",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "GraveBushesCut",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "GraveFound",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "GraveReported",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "GraveDone",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BonfireLit",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MetaviraSapCollected",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GraveGive",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GraveFind",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GraveReport",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GraveDone",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GravePayRespect",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GraveFail",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_TeaPartySurvivor",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_TeaPartyDone",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BeastRandomizeSpawn",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BeastPostCombatLeave",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BeastPostCombatMove",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BeastPostCombatHut",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BeastCabinCombat",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_EffigyDone_D18",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_EffigyDone_E15",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_EffigyDone_D13",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_EffigyDone_E13",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_EffigyDone_D14",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_EffigyDone_D15",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_EffigyDone_C16",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_CompleteQuest",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PlayerAttackedBeast",
+						QuestId = "CursedForestSideQuests",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "CrocConvertToVeganism",
+						QuestId = "CursedForestSideQuests",
+					}),
+				},
+				group = "CursedForest",
+				id = "CursedForestSideQuests",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				DisplayName = T(647808423990, --[[ModItemQuestsDef ChienSauvage DisplayName]] "Petta and the hyenas"),
+				KillTCEsConditions = {
+					PlaceObj('QuestIsVariableBool', {
+						Condition = "or",
+						QuestId = "ChienSauvage",
+						Vars = set( "Completed", "Failed" ),
+					}),
+				},
+				LastNoteIdx = 6,
+				NoteDefs = {
+					LastNoteIdx = 7,
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Peta",
+								QuestId = "ChienSauvage",
+								Sector = "E16",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "ChienSauvage",
+								Vars = set( "Completed", "Failed", "PetaLetsHyenasOut" ),
+							}),
+						},
+						QuestId = "ChienSauvage",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(858111959565, --[[ModItemQuestsDef ChienSauvage Text]] "There is an eco activist imprisoned at <em><SectorName('E16')></em> whom the Legion means to throw into the hyena fighting pit"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "ChienSauvage",
+								Vars = set( "Completed", "Failed", "HyenasDead" ),
+							}),
+						},
+						Idx = 2,
+						QuestId = "ChienSauvage",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "PetaLetsHyenasOut" ),
+							}),
+						},
+						Text = T(884143731552, --[[ModItemQuestsDef ChienSauvage Text]] "Petta let the <em>hyenas</em> out"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "ChienSauvage",
+								Vars = set( "HyenasDead" ),
+							}),
+						},
+						Idx = 3,
+						QuestId = "ChienSauvage",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "ChienSauvage",
+								Vars = set( "HyenasDead" ),
+							}),
+						},
+						Text = T(455796897360, --[[ModItemQuestsDef ChienSauvage Text]] "The <em>hyenas</em> in Camp Chien Sauvage had to die"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('CheckIsPersistentUnitDead', {
+								QuestId = "ChienSauvage",
+								per_ses_id = "NPC_Peta",
+							}),
+						},
+						Idx = 4,
+						QuestId = "ChienSauvage",
+						ShowConditions = {
+							PlaceObj('CheckIsPersistentUnitDead', {
+								QuestId = "ChienSauvage",
+								per_ses_id = "NPC_Peta",
+							}),
+						},
+						Text = T(987242968729, --[[ModItemQuestsDef ChienSauvage Text]] "<em>Outcome:</em> <em>Petta</em> couldn't be saved"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "PetaLeft" ),
+							}),
+							PlaceObj('CheckIsPersistentUnitDead', {
+								Negate = true,
+								QuestId = "ChienSauvage",
+								per_ses_id = "NPC_Peta",
+							}),
+						},
+						Idx = 5,
+						QuestId = "ChienSauvage",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "PetaLeft" ),
+							}),
+							PlaceObj('CheckIsPersistentUnitDead', {
+								Negate = true,
+								QuestId = "ChienSauvage",
+								per_ses_id = "NPC_Peta",
+							}),
+						},
+						Text = T(786265426104, --[[ModItemQuestsDef ChienSauvage Text]] "<em>Outcome:</em> <em>Petta</em> was saved"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "CrocodileConverted" ),
+							}),
+						},
+						Idx = 6,
+						QuestId = "ChienSauvage",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "CrocodileConverted" ),
+							}),
+						},
+						Text = T(499699840741, --[[ModItemQuestsDef ChienSauvage Text]] "<em>Outcome:</em> <em>Petta</em> converted the crocodile <em>Gena</em> to veganism"),
+					}),
+				},
+				QuestGroup = "Jungle",
+				QuestId = "ChienSauvage",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "ChienSauvage",
+								Sectors = {
+									"E16",
+								},
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								DisableContextModification = true,
+								Distance = 8,
+								QuestId = "ChienSauvage",
+								SecondTargetUnit = "Peta",
+								TargetUnit = "any merc",
+							}),
+							PlaceObj('CheckIsPersistentUnitDead', {
+								Negate = true,
+								QuestId = "ChienSauvage",
+								per_ses_id = "NPC_Peta",
+							}),
+						},
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "ChienSauvage",
+										Vars = set({
+	HyenasDead = false,
+}),
+									}),
+								},
+								'Effects', {
+									PlaceObj('PlayBanterEffect', {
+										Banters = {
+											"ChienSauvage_Peta01_ApproachCell_1",
+										},
+										QuestId = "ChienSauvage",
+										searchInMap = true,
+										searchInMarker = false,
+									}),
+									PlaceObj('PlayBanterEffect', {
+										Banters = {
+											"ChienSauvage_Peta01_ApproachCell_2",
+										},
+										QuestId = "ChienSauvage",
+										searchInMap = true,
+										searchInMarker = false,
+									}),
+								},
+								'EffectsElse', {
+									PlaceObj('PlayBanterEffect', {
+										Banters = {
+											"ChienSauvage_Peta01_ApproachCell_3",
+										},
+										QuestId = "ChienSauvage",
+										searchInMap = true,
+										searchInMarker = false,
+									}),
+								},
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PetaApproachBanters",
+						QuestId = "ChienSauvage",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "ChienSauvage",
+								Sectors = {
+									"E16",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('ExecuteCode', {
+								FuncCode = 'local enemyUnits = MapGet("map", "Unit", function(o)\n	return table.find(o.Groups, "EnemySquad")\nend)\nfor _, unit in ipairs(enemyUnits) do\n	table.insert_unique(unit.Groups, "LegionChienSauvage")\nend',
+								QuestId = "ChienSauvage",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_LegionSetGroup",
+						QuestId = "ChienSauvage",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "ChienSauvage",
+								Sectors = {
+									"E16",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "PetaLeftToDie" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('UnitDie', {
+								QuestId = "ChienSauvage",
+								TargetGroup = "Peta",
+								skipAnim = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PetaLeftToDie",
+						QuestId = "ChienSauvage",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SatelliteGameplayRunning', {
+								QuestId = "ChienSauvage",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "Given" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "PlayerLeft",
+								QuestId = "ChienSauvage",
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "ChienSauvage",
+										Vars = set({
+	LegionKilled = false,
+}),
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "PetaLeftToDie",
+										QuestId = "ChienSauvage",
+									}),
+								},
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PlayerLeft",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"ChienSauvage_Peta01_ApproachCell_1",
+									"Shared_Conversation_Legion_18_ChienSauvage",
+								},
+								QuestId = "ChienSauvage",
+								WaitOver = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Given",
+								QuestId = "ChienSauvage",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Give",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "ChienSauvage",
+								Sectors = {
+									"E16",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set({
+	PetaLeft = false,
+	PetaLetsHyenasOut = false,
+}),
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								DisableContextModification = true,
+								Distance = 12,
+								QuestId = "ChienSauvage",
+								SecondTargetUnit = "Peta",
+								TargetUnit = "any merc",
+							}),
+							PlaceObj('UnitCanGoToPos', {
+								PositionMarker = "MainHyenasDoor",
+								QuestId = "ChienSauvage",
+								TargetUnit = "Peta",
+							}),
+						},
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "ChienSauvage",
+										Vars = set({
+	HyenasDead = false,
+}),
+									}),
+								},
+								'Effects', {
+									PlaceObj('PlayBanterEffect', {
+										Banters = {
+											"ChienSauvage_Peta02_OpenCell_HyenasAlive",
+										},
+										QuestId = "ChienSauvage",
+										searchInMap = true,
+										searchInMarker = false,
+									}),
+									PlaceObj('GroupSetBehaviorAdvanceTo', {
+										MarkerGroup = "MainHyenasDoor",
+										QuestId = "ChienSauvage",
+										Running = true,
+										TargetUnit = "Peta",
+									}),
+								},
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "PetaReleased",
+								QuestId = "ChienSauvage",
+							}),
+						},
+						ParamId = "TCE_PetaReleased",
+						QuestId = "ChienSauvage",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "ChienSauvage",
+								Sectors = {
+									"E16",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "PetaReleased" ),
+							}),
+							PlaceObj('UnitIsAroundMarkerOfGroup', {
+								MarkerGroup = "MainHyenasDoor",
+								QuestId = "ChienSauvage",
+								TargetUnit = "Peta",
+							}),
+						},
+						Effects = {
+							PlaceObj('ExecuteCode', {
+								FuncCode = 'local door = MapGetFirst("map", "Door", function(o)\n	return table.find(o.Groups, "MainHyenasDoor")\nend)\nif door then\n	door:SetLockpickState("open")\nend',
+								QuestId = "ChienSauvage",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "PetaLetsHyenasOut",
+								QuestId = "ChienSauvage",
+							}),
+							PlaceObj('GroupSetSide', {
+								QuestId = "ChienSauvage",
+								Side = "enemy2",
+								TargetUnit = "MainHyenas",
+							}),
+							PlaceObj('GroupAlert', {
+								QuestId = "ChienSauvage",
+								TargetUnit = "LegionChienSauvage",
+							}),
+							PlaceObj('GroupAlert', {
+								QuestId = "ChienSauvage",
+								TargetUnit = "MainHyenas",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PetaLetHyenasOut",
+						QuestId = "ChienSauvage",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "ChienSauvage",
+								Sectors = {
+									"E16",
+								},
+							}),
+							PlaceObj('UnitCanGoToPos', {
+								PositionMarker = "HyenasFreeRoamZone",
+								QuestId = "ChienSauvage",
+								TargetUnit = "MainHyenas",
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetSide', {
+								QuestId = "ChienSauvage",
+								Side = "enemy2",
+								TargetUnit = "MainHyenas",
+							}),
+							PlaceObj('GroupSetRoutine', {
+								QuestId = "ChienSauvage",
+								Routine = "Ambient",
+								RoutineArea = "HyenasFreeRoamZone",
+								TargetUnit = "MainHyenas",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_MainHyenasAggressive",
+						QuestId = "ChienSauvage",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "ChienSauvage",
+								Sectors = {
+									"E16",
+								},
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "LegionChienSauvage",
+								QuestId = "ChienSauvage",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "LegionKilled",
+								QuestId = "ChienSauvage",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_ClearLegion",
+						QuestId = "ChienSauvage",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "ChienSauvage",
+								Sectors = {
+									"E16",
+								},
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "MainHyenas",
+								QuestId = "ChienSauvage",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "HyenasDead",
+								QuestId = "ChienSauvage",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_HyenasDead",
+						QuestId = "ChienSauvage",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "ChienSauvage",
+								Sectors = {
+									"E16",
+								},
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 12,
+								QuestId = "ChienSauvage",
+								SecondTargetUnit = "Peta",
+								TargetUnit = "any merc",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "HyenasDead", "PetaReleased" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"ChienSauvage_Peta03_OpenCell_HyenasDead",
+								},
+								QuestId = "ChienSauvage",
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+							PlaceObj('GroupSetBehaviorExit', {
+								MarkerGroup = "North",
+								QuestId = "ChienSauvage",
+								Running = true,
+								TargetUnit = "Peta",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "PetaLeft",
+								QuestId = "ChienSauvage",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PetaLeave",
+						QuestId = "ChienSauvage",
+						requiredSectors = {
+							"E16",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ChienSauvage",
+								Vars = set( "PetaLeft" ),
+							}),
+							PlaceObj('SectorCheckOwner', {
+								QuestId = "ChienSauvage",
+								sector_id = "E16",
+							}),
+							PlaceObj('CheckIsPersistentUnitDead', {
+								Negate = true,
+								QuestId = "ChienSauvage",
+								per_ses_id = "NPC_Peta",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "ChienSauvage",
+							}),
+							PlaceObj('GrantExperienceSector', {
+								QuestId = "ChienSauvage",
+								logImportant = true,
+							}),
+							PlaceObj('PlayerGrantMoney', {
+								Amount = 2500,
+								QuestId = "ChienSauvage",
+							}),
+							PlaceObj('SectorGrantIntel', {
+								QuestId = "ChienSauvage",
+								sector_id = "D15",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Complete",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckIsPersistentUnitDead', {
+								QuestId = "ChienSauvage",
+								per_ses_id = "NPC_Peta",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Failed",
+								QuestId = "ChienSauvage",
+							}),
+							PlaceObj('GrantExperienceSector', {
+								QuestId = "ChienSauvage",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Fail",
+						QuestId = "ChienSauvage",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						QuestId = "ChienSauvage",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PetaReleased",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PetaLetsHyenasOut",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "HyenasDead",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "LegionKilled",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PetaLeft",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PlayerLeft",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PetaLeftToDie",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "CrocodileConverted",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PetaApproachBanters",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_LegionSetGroup",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Give",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PetaLetHyenasOut",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_MainHyenasAggressive",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_ClearLegion",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_HyenasDead",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PetaReleased",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PlayerLeft",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PetaLeftToDie",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PetaLeave",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Complete",
+						QuestId = "ChienSauvage",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Fail",
+						QuestId = "ChienSauvage",
+					}),
+				},
+				group = "CursedForest",
+				id = "ChienSauvage",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				DisplayName = T(481490365631, --[[ModItemQuestsDef CharonsBoat DisplayName]] "Charon's Boat"),
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {
+						QuestId = "CharonsBoat",
+					}),
+				},
+				LastNoteIdx = 13,
+				NoteDefs = {
+					LastNoteIdx = 13,
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_DeadBodies" ),
+							}),
+						},
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_DeadBodies" ),
+							}),
+						},
+						Text = T(236261803546, --[[ModItemQuestsDef CharonsBoat Text]] "Clue: A <em>humanitarian ship</em> loaded with dead bodies has run aground"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_Infected" ),
+							}),
+						},
+						Idx = 2,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_Infected" ),
+							}),
+						},
+						Text = T(103694826201, --[[ModItemQuestsDef CharonsBoat Text]] "Clue: Some of the dead bodies were <em>not quite dead</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_Crew" ),
+							}),
+						},
+						Idx = 3,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_Crew" ),
+							}),
+						},
+						Text = T(499443018178, --[[ModItemQuestsDef CharonsBoat Text]] "Clue: There seem to be no survivors of the <em>ship crew</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_Mound" ),
+							}),
+						},
+						Idx = 4,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_Mound" ),
+							}),
+						},
+						Text = T(581529374133, --[[ModItemQuestsDef CharonsBoat Text]] "Clue: Someone tried to <em>bury</em> the dead from the shipwreck"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "CharonsBoat",
+								Sector = "D20",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_OperationCompleted" ),
+							}),
+						},
+						Idx = 5,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableNum', {
+								AgainstVar = true,
+								Prop = "ShipwreckClues",
+								Prop2 = "ShipwreckCluesRequired",
+								QuestId = "CharonsBoat",
+								QuestId2 = "CharonsBoat",
+							}),
+						},
+						Text = T(119069368614, --[[ModItemQuestsDef CharonsBoat Text]] "<em>Operation</em>: Someone should <em>bury the dead</em> at the <em><SectorName('D20')></em> before the disease spreads"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "CharonsBoat",
+								Sector = "D20",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_DeadBodies", "Shipwreck_OperationCompleted" ),
+							}),
+						},
+						Idx = 6,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_Floaters" ),
+							}),
+						},
+						Text = T(738721628927, --[[ModItemQuestsDef CharonsBoat Text]] "There are lots of <em>dead bodies</em> floating from somewhere upstream"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "CharonsBoat",
+								Sector = "D19",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_Touched" ),
+							}),
+						},
+						Idx = 7,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_OperationCompleted" ),
+							}),
+						},
+						Text = T(269313821768, --[[ModItemQuestsDef CharonsBoat Text]] "Some of the <em>corpses</em> have floated downstream to the <em><SectorName('D19')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "CharonsBoat",
+								Sector = "D19",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_OperationCompleted" ),
+							}),
+						},
+						Idx = 8,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_Touched" ),
+							}),
+						},
+						Text = T(311402791051, --[[ModItemQuestsDef CharonsBoat Text]] "<em>Operation</em>: There is a <em>mysterious boat</em> waiting for the bodies of the dead at the <em><SectorName('D19')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "CharonsBoat",
+								Sector = "D19",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_FloatersDead" ),
+							}),
+						},
+						Idx = 9,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_OperationCompleted" ),
+							}),
+						},
+						Text = T(255425528346, --[[ModItemQuestsDef CharonsBoat Text]] "Some of the dead have to be <em>put to rest</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 10,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_FloatersDead", "Boat_OperationCompleted" ),
+							}),
+						},
+						Text = T(324116285001, --[[ModItemQuestsDef CharonsBoat Text]] "One day, the <em>boat of the dead</em> will leave the <em><SectorName('D19')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_OperationCompleted" ),
+							}),
+						},
+						Idx = 11,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Shipwreck_OperationCompleted" ),
+							}),
+						},
+						Text = T(909914966938, --[[ModItemQuestsDef CharonsBoat Text]] "<em>Outcome</em>: The dead at the <em><SectorName('D20')></em> have been buried"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_OperationCompleted" ),
+							}),
+						},
+						Idx = 12,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_OperationCompleted" ),
+							}),
+						},
+						Text = T(867322102558, --[[ModItemQuestsDef CharonsBoat Text]] "<em>Outcome</em>: The <em>mysterious boat</em> was loaded with the bodies of the dead at the <em><SectorName('D19')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "CharonsReward",
+								QuestId = "CharonsBoat",
+								Sector = "D19",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 13,
+						QuestId = "CharonsBoat",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Text = T(283869622068, --[[ModItemQuestsDef CharonsBoat Text]] "<em>Outcome:</em> The <em>boat of the dead</em> left these shores"),
+					}),
+				},
+				QuestGroup = "Jungle",
+				QuestId = "CharonsBoat",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableNum', {
+								AgainstVar = true,
+								Prop = "ShipwreckClues",
+								Prop2 = "ShipwreckCluesRequired",
+								QuestId = "CharonsBoat",
+								QuestId2 = "CharonsBoat",
+							}),
+						},
+						Effects = {
+							PlaceObj('SectorEnableCustomOperation', {
+								DisplayLog = true,
+								EffectsOnSuccess = {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "Shipwreck_OperationCompleted",
+										QuestId = "CharonsBoat",
+									}),
+									PlaceObj('CityGrantLoyalty', {
+										Amount = 10,
+										City = "IlleMorat",
+										QuestId = "CharonsBoat",
+										SpecialConversationMessage = T(363094975655, --[[ModItemQuestsDef CharonsBoat SpecialConversationMessage]] "buried the dead bodies from the shipwreck"),
+									}),
+									PlaceObj('GrantExperienceSector', {
+										QuestId = "CharonsBoat",
+										logImportant = true,
+									}),
+								},
+								LootTableId = "Hermit_Meds",
+								QuestId = "CharonsBoat",
+								operation = "CursedForest_BuryInfected",
+								sector_id = "D20",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_OperationBuryInfected",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_Touched" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('SectorEnableCustomOperation', {
+								DisplayLog = true,
+								EffectsOnSuccess = {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "Boat_OperationCompleted",
+										QuestId = "CharonsBoat",
+									}),
+									PlaceObj('SectorEnterConflict', {
+										QuestId = "CharonsBoat",
+										sector_id = "D19",
+										spawn_mode = "defend",
+									}),
+								},
+								QuestId = "CharonsBoat",
+								operation = "CursedForest_LoadBoat",
+								sector_id = "D19",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_OperationLoadBoat",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_OperationCompleted" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "CharonsBoat",
+								Sectors = {
+									"D19",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupAlert', {
+								QuestId = "CharonsBoat",
+								TargetUnit = "Floaters",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FloatersAttack",
+						QuestId = "CharonsBoat",
+						requiredSectors = {
+							"D19",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('GroupIsDead', {
+								Group = "Floaters",
+								QuestId = "CharonsBoat",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Boat_FloatersDead",
+								QuestId = "CharonsBoat",
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 10,
+								City = "IlleMorat",
+								QuestId = "CharonsBoat",
+								SpecialConversationMessage = T(769329628976, --[[ModItemQuestsDef CharonsBoat SpecialConversationMessage]] "loaded the mysterious boat of the dead"),
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Medium",
+								QuestId = "CharonsBoat",
+								logImportant = true,
+							}),
+							PlaceObj('QuestSetVariableTimer', {
+								Prop = "BoatLeaveTimer",
+								QuestId = "CharonsBoat",
+								TimeAmount = 24,
+								TimeAmountRangeMax = 48,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FloatersKilled",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "CharonsBoat",
+								Vars = set( "Boat_OperationCompleted" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Negate = true,
+								QuestId = "CharonsBoat",
+								Sectors = {
+									"D19",
+								},
+							}),
+							PlaceObj('QuestHasTimerPassed', {
+								QuestId = "CharonsBoat",
+								TimerVariable = "BoatLeaveTimer",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "CharonsBoat",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_BoatLeave",
+						QuestId = "CharonsBoat",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						QuestId = "CharonsBoat",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Shipwreck_DeadBodies",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Shipwreck_Infected",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Shipwreck_Crew",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Shipwreck_Mound",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "ShipwreckClues",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "ShipwreckCluesRequired",
+						QuestId = "CharonsBoat",
+						Value = 4,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Shipwreck_OperationCompleted",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Boat_Floaters",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Boat_Touched",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Boat_OperationCompleted",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Boat_FloatersDead",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "BoatLeaveTimer",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_OperationBuryInfected",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_OperationLoadBoat",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FloatersAttack",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FloatersKilled",
+						QuestId = "CharonsBoat",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BoatLeave",
+						QuestId = "CharonsBoat",
+					}),
+				},
+				group = "CursedForest",
+				id = "CharonsBoat",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Radomir",
+				Chapter = "Act1",
+				DevNotes = "When completed, Beast will randomly spawn in key sectors - scripted in CursedForestSideQuests.",
+				DisplayName = T(610810569348, --[[ModItemQuestsDef Beast DisplayName]] "The Beast"),
+				KillTCEsConditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "Completed" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Failed", "TCE_RemoveConflict" ),
+							}),
+						},
+						QuestId = "Beast",
+					}),
+				},
+				LastNoteIdx = 15,
+				NoteDefs = {
+					LastNoteIdx = 21,
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastAttack", "BeastMet" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastDead", "Given" ),
+							}),
+						},
+						QuestId = "Beast",
+						Scouting = true,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	BeastDead = false,
+	Given = false,
+}),
+							}),
+						},
+						Text = T(656681391645, --[[ModItemQuestsDef Beast Text]] "They say there is a scary <em>Beast</em> that is hunting people in the Cursed Forest"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastAttack", "BeastMet", "BeastSatisfied", "Completed" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastDead" ),
+							}),
+						},
+						Idx = 2,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(224176854402, --[[ModItemQuestsDef Beast Text]] "There is a scary <em>Beast</em> in the Cursed Forest"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "TheBeast",
+								QuestId = "Beast",
+								Sector = "D17",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastMet", "Completed", "Failed" ),
+							}),
+						},
+						Idx = 3,
+						QuestId = "Beast",
+						Scouting = true,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastEffigyOn" ),
+							}),
+						},
+						Text = T(310057242081, --[[ModItemQuestsDef Beast Text]] "The light in <em><SectorName('D17')></em> projects a <em>Beast Signal</em> in the sky"),
+					}),
+					PlaceObj('QuestNote', {
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastDead", "BeastMet", "Completed", "Failed" ),
+							}),
+						},
+						Idx = 4,
+						QuestId = "Beast",
+						Scouting = true,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastAttack" ),
+							}),
+						},
+						Text = T(603715414700, --[[ModItemQuestsDef Beast Text]] "The <em>Beast</em> appeared to help wipe out the marauders - perhaps it can speak?"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastMet" ),
+							}),
+						},
+						Idx = 5,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastMet" ),
+							}),
+						},
+						Text = T(393766392508, --[[ModItemQuestsDef Beast Text]] 'The <em>"Beast"</em> turned out to be a badass <em>old lady</em> in top-notch stealth equipment'),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "Beast",
+								Sector = "C14",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastExposed", "BeastSecondMeeting" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastDead" ),
+							}),
+						},
+						Idx = 6,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastCabin" ),
+							}),
+						},
+						Text = T(762781790155, --[[ModItemQuestsDef Beast Text]] 'The <em>"Beast"</em> lives in a small <em><SectorName(\'C14\')></em> in the Cursed Forest'),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "Beast",
+								Sector = "D18",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "Completed", "QuestBelleEauDone" ),
+							}),
+						},
+						Idx = 7,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "QuestBelleEau" ),
+							}),
+						},
+						Text = T(465410187824, --[[ModItemQuestsDef Beast Text]] "People of <SectorName('D17')> need their friends and family liberated from <em><SectorName('D18')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "Beast",
+								Sector = "D17",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "Completed", "QuestMilitiaDone" ),
+							}),
+						},
+						Idx = 8,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "QuestMilitia" ),
+							}),
+						},
+						Text = T(624550794000, --[[ModItemQuestsDef Beast Text]] "People are not feeling safe in <SectorName('D17')>: <em>Militia</em> is needed"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "Beast",
+								Sector = "D17",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastSatisfied", "Completed" ),
+							}),
+						},
+						Idx = 9,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "QuestLoyalty" ),
+							}),
+						},
+						Text = T(859112961545, --[[ModItemQuestsDef Beast Text]] "People are not happy in <SectorName('D17')>: <em>60 Loyalty</em> is required"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "TheBeast",
+								QuestId = "Beast",
+								Sector = "C14",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastRecruited", "Failed" ),
+							}),
+						},
+						Idx = 10,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastSatisfied" ),
+							}),
+						},
+						Text = T(463841918873, --[[ModItemQuestsDef Beast Text]] 'The "Beast" can now be convinced to fight the <em>Legion</em> forces outside of Ille Morat'),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "WladAndBeast" ),
+							}),
+						},
+						Idx = 11,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "WladAndBeast" ),
+							}),
+						},
+						Text = T(750160362284, --[[ModItemQuestsDef Beast Text]] "<em>Wlad</em> and the <em>Beast</em> were very close"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('CheckIsPersistentUnitDead', {
+								QuestId = "Beast",
+								per_ses_id = "NPC_Wlad",
+							}),
+						},
+						Idx = 12,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('CheckIsPersistentUnitDead', {
+								QuestId = "Beast",
+								per_ses_id = "NPC_Wlad",
+							}),
+						},
+						Text = T(212751477995, --[[ModItemQuestsDef Beast Text]] "<em>Outcome:</em> <em>Wlad</em> is dead"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastRecruited" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Beast",
+								Vars = set( "BeastDead" ),
+							}),
+						},
+						Idx = 13,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastRecruited" ),
+							}),
+						},
+						Text = T(183625668434, --[[ModItemQuestsDef Beast Text]] "<em>Outcome:</em> The Beast will help <em>protect</em> the Cursed Forest"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastDead" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "_GroupsAttacked",
+								Vars = set({
+	TheBeast_Killed = false,
+}),
+							}),
+						},
+						Idx = 14,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastDead" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "_GroupsAttacked",
+								Vars = set({
+	TheBeast_Killed = false,
+}),
+							}),
+						},
+						Text = T(878315272342, --[[ModItemQuestsDef Beast Text]] "<em>Outcome:</em> The <em>Beast</em> is dead"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastDead" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "_GroupsAttacked",
+								Vars = set( "TheBeast_Killed" ),
+							}),
+						},
+						Idx = 15,
+						QuestId = "Beast",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastDead" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "_GroupsAttacked",
+								Vars = set( "TheBeast_Killed" ),
+							}),
+						},
+						Text = T(927116849698, --[[ModItemQuestsDef Beast Text]] "<em>Outcome:</em> Defeated the <em>Beast</em> of the Cursed Forest"),
+					}),
+				},
+				QuestGroup = "Jungle",
+				QuestId = "Beast",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckGameState', {
+								GameState = "Night",
+								Negate = true,
+								QuestId = "Beast",
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "Beast",
+								Sectors = {
+									"F28",
+									"G30",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BeastEffigyOn",
+								QuestId = "Beast",
+								Set = false,
+							}),
+						},
+						ParamId = "TCE_DaytimeCleanup",
+						QuestId = "Beast",
+						requiredSectors = {
+							"D17",
+							"D18",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckGameState', {
+								GameState = "Night",
+								QuestId = "Beast",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	BeastEffigyOn = true,
+	BeastIntroTriggered = false,
+}),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "Beast",
+								Sectors = {
+									"F28",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BeastEffigies",
+								QuestId = "Beast",
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "Beast",
+										Vars = set({
+	BeastMet = false,
+}),
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "BeastIntroTriggered",
+										QuestId = "Beast",
+									}),
+									PlaceObj('PlaySetpiece', {
+										QuestId = "Beast",
+										setpiece = "BeastIntro_ActualSP",
+									}),
+									PlaceObj('SectorEnterConflict', {
+										QuestId = "Beast",
+										disable_travel = true,
+										lock_conflict = true,
+										sector_id = "F28",
+										spawn_mode = "explore",
+									}),
+								},
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_D17BeastCall",
+						QuestId = "Beast",
+						requiredSectors = {
+							"D17",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('UnitIsAware', {
+								QuestId = "Beast",
+								TargetUnit = "TheBeast",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	TCE_AttackedByPlayer = false,
+}),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "Beast",
+								Sectors = {
+									"D17",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BeastAttack",
+								QuestId = "Beast",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_BeastIsAware",
+						QuestId = "Beast",
+						requiredSectors = {
+							"D17",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "Beast",
+								Sectors = {
+									"D17",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastIntroTriggered" ),
+							}),
+							PlaceObj('CombatIsActive', {
+								Negate = true,
+								QuestId = "Beast",
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "Beast_AddLegions",
+								QuestId = "Beast",
+							}),
+						},
+						Effects = {
+							PlaceObj('SectorEnterConflict', {
+								QuestId = "Beast",
+								conflict_mode = false,
+								sector_id = "D17",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_RemoveConflict",
+						QuestId = "Beast",
+						requiredSectors = {
+							"D17",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "_GroupsAttacked",
+								Vars = set( "TheBeast" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set({
+	Completed = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Failed",
+								QuestId = "Beast",
+							}),
+							PlaceObj('GroupSetSide', {
+								QuestId = "Beast",
+								Side = "enemy2",
+								TargetUnit = "TheBeast",
+							}),
+							PlaceObj('GroupAlert', {
+								QuestId = "Beast",
+								TargetUnit = "TheBeast",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_AttackedByPlayer",
+						QuestId = "Beast",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SectorMilitiaNumber', {
+								Amount = 2,
+								Condition = ">=",
+								QuestId = "Beast",
+								sector_id = "F28",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "QuestMilitiaDone",
+								QuestId = "Beast",
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 5,
+								City = "IlleMorat",
+								QuestId = "Beast",
+								SpecialConversationMessage = T(808742645892, --[[ModItemQuestsDef Beast SpecialConversationMessage]] "trained <em>Militia</em>"),
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_QuestMilitia",
+						QuestId = "Beast",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SectorCheckOwner', {
+								QuestId = "Beast",
+								sector_id = "G30",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "QuestBelleEauDone",
+								QuestId = "Beast",
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 5,
+								City = "IlleMorat",
+								QuestId = "Beast",
+								SpecialConversationMessage = T(758586217783, --[[ModItemQuestsDef Beast SpecialConversationMessage]] "liberated <em>Belle Eau</em>"),
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_QuestBelleEau",
+						QuestId = "Beast",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "QuestLoyalty" ),
+							}),
+							PlaceObj('CityHasLoyalty', {
+								Amount = 60,
+								City = "IlleMorat",
+								Condition = ">=",
+								QuestId = "Beast",
+							}),
+						},
+						Effects = {
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "Village_Conflict",
+								MusicExploration = "Village_Complete",
+								QuestId = "Beast",
+								SectorID = "D17",
+							}),
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "Village_Conflict",
+								MusicExploration = "Village_Complete",
+								QuestId = "Beast",
+								SectorID = "D18",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BeastSatisfied",
+								QuestId = "Beast",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_BeastSatisfied",
+						QuestId = "Beast",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Beast",
+								Vars = set( "BeastRecruited" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Large",
+								QuestId = "Beast",
+								logImportant = true,
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "Beast",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_QuestCompleted",
+						QuestId = "Beast",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						QuestId = "Beast",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "LightPylonSuccess",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastEffigyOn",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastEffigies",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Effigy_BelleEau",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Effigy_D13",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Effigy_E13",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Effigy_D14",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Effigy_D15",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Effigy_C16",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "EffigiesRepaired",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "EffigiesRepairedMax",
+						QuestId = "Beast",
+						Value = 7,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastAttack",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BeastIsAware",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastMet",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastSecondMeeting",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastGranny",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastExposed",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastCabinMention",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastCabin",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastRecruited",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastDead",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "WladCraft",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "WladAndBeast",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "QuestBelleEau",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "QuestBelleEauDone",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "QuestLoyalty",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "QuestMilitia",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "QuestMilitiaDone",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastSatisfied",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BeastIntroTriggered",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_QuestCompleted",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_DaytimeCleanup",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_D17BeastCall",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_RemoveConflict",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_QuestMilitia",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_QuestBelleEau",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BeastSatisfied",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_AttackedByPlayer",
+						QuestId = "Beast",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "Randomizer",
+						QuestId = "Beast",
+						RandomRangeMax = 3,
+						Value = 1,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "IlleMorat_FirstEnter",
+						QuestId = "Beast",
+					}),
+				},
+				group = "CursedForest",
+				id = "Beast",
+			}),
+			}),
+		PlaceObj('ModItemFolder', {
+			'name', "Farmland_Vanilla",
+		}, {
+			PlaceObj('ModItemQuestsDef', {
+				DevNotes = "Completed when GoodWitch or EvilWitch is obtained.\n\nFailed if the Witch is killed before that.\nWitchDead is scripted in FarmlandSideQuests.",
+				DisplayName = T(277928713012, --[[ModItemQuestsDef Witch_copy DisplayName]] "Wassergrab"),
+				KillTCEsConditions = {
+					PlaceObj('QuestIsVariableBool', {
+						Condition = "or",
+						QuestId = "Witch",
+						Vars = set( "Completed" ),
+					}),
+				},
+				NoteDefs = {
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Witch",
+								Sector = "J18",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Witch",
+								Vars = set( "Completed", "Failed", "Given", "WitchDead", "WitchExposed" ),
+							}),
+						},
+						Idx = 4,
+						Scouting = true,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set({
+	Given = false,
+}),
+							}),
+						},
+						Text = T(481714140704, --[[ModItemQuestsDef Witch_copy Text]] "There is a wicked <em>Witch</em> at the <em><SectorName('J18')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Witch",
+								Sector = "J18",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set( "Given", "WitchMet" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Witch",
+								Vars = set( "Completed", "Failed", "WitchDead", "WitchExposed" ),
+							}),
+						},
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Witch",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(271039591348, --[[ModItemQuestsDef Witch_copy Text]] "There is a <em>Witch</em> at the <em><SectorName('J18')></em> who seems to be enchanting and sexually abusing the men of <em>Wassergrab</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Witch",
+								Sector = "J18",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set( "SetpiecePlayed", "WitchMet" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Witch",
+								Vars = set( "Completed", "Failed", "Given", "WitchDead", "WitchExposed" ),
+							}),
+						},
+						Idx = 11,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set({
+	Given = false,
+	SetpiecePlayed = true,
+}),
+							}),
+						},
+						Text = T(282720427297, --[[ModItemQuestsDef Witch_copy Text]] "There is a <em>Witch</em> at the <em><SectorName('J18')></em> who seems to be enchanting the men of <em>Wassergrab</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Witch",
+								Vars = set( "Completed", "WitchExposed" ),
+							}),
+						},
+						Idx = 2,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set( "WitchCauldron" ),
+							}),
+						},
+						Text = T(637993950428, --[[ModItemQuestsDef Witch_copy Text]] "Clue: The <em>Witch's cauldron</em> contains a herbal concoction that can cause short term memory loss"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Witch",
+								Vars = set( "Completed", "WitchExposed" ),
+							}),
+						},
+						Idx = 3,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set( "WitchHole" ),
+							}),
+						},
+						Text = T(644161589711, --[[ModItemQuestsDef Witch_copy Text]] "Clue: There is a deep hole under the <SectorName('J18')> that looks a lot like a <em>mining shaft</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Witch",
+								Sector = "J18",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Witch",
+								Vars = set( "Completed", "Failed" ),
+							}),
+						},
+						Idx = 5,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set( "WitchExposed" ),
+							}),
+						},
+						Text = T(121004431695, --[[ModItemQuestsDef Witch_copy Text]] "<em>Lami</em> from the <em><SectorName('J18')></em> is drugging the men of <em>Wassergrab</em> and forcing them to dig diamonds for her"),
+					}),
+					PlaceObj('QuestNote', {
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Witch",
+								Vars = set( "Completed", "WitchDead", "WitchDefeated" ),
+							}),
+						},
+						Idx = 8,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set( "WitchCombat" ),
+							}),
+						},
+						Text = T(752147908718, --[[ModItemQuestsDef Witch_copy Text]] "The <em>Witch</em> has summoned her fearsome crocodile guardians"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Witch",
+								Sector = "J18",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Witch",
+								Vars = set( "EvilWitch", "GoodWitch", "WitchDead", "WitchExposed" ),
+							}),
+						},
+						Idx = 9,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set({
+	WitchDead = false,
+	WitchDefeated = true,
+}),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"J18",
+								},
+							}),
+						},
+						Text = T(206795564935, --[[ModItemQuestsDef Witch_copy Text]] "The crocodile guardians of the <em><SectorName('J18')></em> are dead and now the <em>Witch</em> can be interrogated"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Witch",
+								Vars = set( "GoodWitch", "WitchDead" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Witch",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 6,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Witch",
+								Vars = set( "GoodWitch", "WitchDead" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Witch",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Text = T(333076070006, --[[ModItemQuestsDef Witch_copy Text]] "<em>Outcome:</em> Lami the <em>Witch</em> will stop exploiting the workers of <em>Wassergrab</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set( "EvilWitch" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Witch",
+								Vars = set( "WitchDead" ),
+							}),
+						},
+						Idx = 7,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set( "EvilWitch" ),
+							}),
+						},
+						Text = T(997322139649, --[[ModItemQuestsDef Witch_copy Text]] "<em>Outcome:</em> Lami the <em>Witch</em> will continue to exploit the workers from <em>Wassergrab</em> "),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set( "WitchDead" ),
+							}),
+						},
+						Idx = 10,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set( "WitchDead" ),
+							}),
+						},
+						Text = T(622267968145, --[[ModItemQuestsDef Witch_copy Text]] "<em>Outcome:</em> Lami the <em>Witch</em> is dead"),
+					}),
+				},
+				QuestGroup = "Farmlands",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set({
+	Completed = false,
+	WitchDead = true,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "Farmland_Conflict",
+								MusicExploration = "Sector_Failed",
+								SectorID = "J18",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Failed",
+								QuestId = "Witch",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_QuestFail",
+						QuestId = "Witch",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Witch",
+								Vars = set( "EvilWitch", "GoodWitch" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "Witch",
+										Vars = set( "EvilWitch" ),
+									}),
+								},
+								'Effects', {
+									PlaceObj('GroupSetSide', {
+										Side = "ally",
+										TargetUnit = "Crocs",
+									}),
+								},
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "Witch",
+							}),
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "Farmland_Conflict",
+								MusicExploration = "Sector_Complete",
+								SectorID = "J18",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_QuestCompletion",
+						QuestId = "Witch",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"J18",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set( "WitchCombat" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetSide', {
+								Side = "enemy2",
+								TargetUnit = "Crocs",
+							}),
+							PlaceObj('GroupAlert', {
+								TargetUnit = "Crocs",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_CrocsCombat",
+						QuestId = "Witch",
+						requiredSectors = {
+							"J18",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"J18",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Witch",
+								Vars = set({
+	WitchDefeated = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('CheckOR', {
+										Conditions = {
+											PlaceObj('QuestIsVariableBool', {
+												QuestId = "Witch",
+												Vars = set( "WitchCombat" ),
+											}),
+											PlaceObj('QuestIsVariableBool', {
+												Condition = "or",
+												QuestId = "_GroupsAttacked",
+												Vars = set( "Crocs", "Witch" ),
+											}),
+										},
+									}),
+								},
+								'Effects', {
+									PlaceObj('GroupSetSide', {
+										Side = "enemy2",
+										TargetUnit = "Crocs",
+									}),
+								},
+								'EffectsElse', {
+									PlaceObj('ConditionalEffect', {
+										'Conditions', {
+											PlaceObj('CheckGameState', {
+												GameState = "Night",
+											}),
+											PlaceObj('QuestIsVariableBool', {
+												QuestId = "Witch",
+												Vars = set({
+	EvilWitch = false,
+	GoodWitch = false,
+}),
+											}),
+										},
+										'Effects', {
+											PlaceObj('GroupSetSide', {
+												Side = "enemy2",
+												TargetUnit = "Crocs",
+											}),
+										},
+										'EffectsElse', {
+											PlaceObj('GroupSetSide', {
+												Side = "neutral",
+												TargetUnit = "Crocs",
+											}),
+										},
+									}),
+								},
+							}),
+						},
+						ParamId = "TCE_CrocsAggressive",
+						QuestId = "Witch",
+						requiredSectors = {
+							"J18",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('GroupIsDead', {
+								Group = "Crocs",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "WitchDefeated",
+								QuestId = "Witch",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_CrocsDefeated",
+						QuestId = "Witch",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "SetpiecePlayed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "WitchHole",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "WitchMet",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "WitchCauldron",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "WitchExposed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "WitchCombat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "WitchDefeated",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "WitchDead",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "GoodWitch",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "EvilWitch",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "WassergrabChurchDiamondsDiscovered",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_QuestFail",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_QuestCompletion",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_CrocsAggressive",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_CrocsCombat",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_CrocsDefeated",
+					}),
+				},
+				group = "Farmland",
+				id = "Witch_copy",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Radomir",
+				Chapter = "Act2",
+				DevNotes = "When DoctorExecution or FamiliesDefeated, the quest is Completed.\nIf the Doctor dies without DoctorExecution, the quest is Failed.",
+				DisplayName = T(107882379888, --[[ModItemQuestsDef TwinManors_copy DisplayName]] "The Twin Manors"),
+				NoteDefs = {
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "L18",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "Completed", "DoctorMet", "Failed", "Given" ),
+							}),
+						},
+						Idx = 18,
+						Scouting = true,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set({
+	Given = false,
+}),
+							}),
+						},
+						Text = T(778181508123, --[[ModItemQuestsDef TwinManors_copy Text]] "There is something weird going on at the <em><SectorName('L18')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "L18",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "Completed", "DoctorMet", "Failed", "Given" ),
+							}),
+						},
+						Idx = 20,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "QuestLead" ),
+							}),
+						},
+						Text = T(471422397175, --[[ModItemQuestsDef TwinManors_copy Text]] "There is something weird going on at the <em><SectorName('L18')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "DrLEnfer",
+								Sector = "L18",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "FamilyGathered", "FamilyGathering" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "Completed", "Failed", "Given" ),
+							}),
+						},
+						Idx = 19,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "DoctorMet" ),
+							}),
+						},
+						Text = T(966823756418, --[[ModItemQuestsDef TwinManors_copy Text]] "There is something weird going on at the the <em><SectorName('L18')></em>, and <em>Dr. L'Enfer</em> seems to be involved"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "L18",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "L17",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "DoctorDead", "FamiliesCombat", "FamiliesCombatFFA", "FamiliesCombatPlayer", "FamiliesDefeated", "FamilyGathered" ),
+							}),
+						},
+						Idx = 2,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(317344197311, --[[ModItemQuestsDef TwinManors_copy Text]] "There has been a series of murders at the <em><SectorName('L18')></em> that culminated in a spectacular double murder during an amateur play of <em>\"Romeo and Juliet\"</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "Completed", "Failed", "FamilyGathered" ),
+							}),
+						},
+						Idx = 7,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "ClueBrothersRumors" ),
+							}),
+						},
+						Text = T(999263655262, --[[ModItemQuestsDef TwinManors_copy Text]] "Clue: There is a rumor that the L'Enfer brothers who once owned the Manors killed each other and have returned as <em>vengeful spirits</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "Completed", "Failed", "FamilyGathered" ),
+							}),
+						},
+						Idx = 3,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "ClueStageAmmo" ),
+							}),
+						},
+						Text = T(766648053715, --[[ModItemQuestsDef TwinManors_copy Text]] "Clue: One of the actors on the stage was performing with a gun loaded with real <em>9 mm HP bullets</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "Completed", "Failed", "FamilyGathered" ),
+							}),
+						},
+						Idx = 4,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "ClueDoctorAmmo" ),
+							}),
+						},
+						Text = T(278670827869, --[[ModItemQuestsDef TwinManors_copy Text]] "Clue: Found a 9 mm pistol and an unopened box of standard <em>9 mm bullets</em> in the Doctor's desk"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "Completed", "Failed", "FamilyGathered" ),
+							}),
+						},
+						Idx = 8,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "ClueManorAmmo" ),
+							}),
+						},
+						Text = T(930687801470, --[[ModItemQuestsDef TwinManors_copy Text]] "Clue: Found several boxes of <em>9 mm HP bullets</em> in a locked cabinet inside the Van Tassel manor. One of the boxes was already <em>opened</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "Completed", "Failed", "FamilyGathered" ),
+							}),
+						},
+						Idx = 9,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "ClueStagePoisonUnknown" ),
+							}),
+						},
+						Text = T(949015834158, --[[ModItemQuestsDef TwinManors_copy Text]] 'Clue: The "potion" drunk by one of the actors during the performance contained <em>real poison</em>'),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "Completed", "Failed", "FamilyGathered" ),
+							}),
+						},
+						Idx = 10,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "ClueStagePoisonStrychnine" ),
+							}),
+						},
+						Text = T(270267935987, --[[ModItemQuestsDef TwinManors_copy Text]] 'Clue: The "potion" drank by one of the actors during the performance contained <em>strychnine</em>'),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "Completed", "Failed", "FamilyGathered" ),
+							}),
+						},
+						Idx = 11,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "ClueDoctorPoison" ),
+							}),
+						},
+						Text = T(469296105606, --[[ModItemQuestsDef TwinManors_copy Text]] "Clue: Found <em>cyanide</em> in the Doctor's cabinet"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "Completed", "Failed", "FamilyGathered" ),
+							}),
+						},
+						Idx = 12,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "ClueManorPoison" ),
+							}),
+						},
+						Text = T(870471710924, --[[ModItemQuestsDef TwinManors_copy Text]] "Clue: Found <em>strychnine</em> in the Le Domas manor"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "Completed", "Failed", "FamilyGathered" ),
+							}),
+						},
+						Idx = 14,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "ClueVictimAmmo" ),
+							}),
+						},
+						Text = T(587491303563, --[[ModItemQuestsDef TwinManors_copy Text]] "Clue: A member of one of the Twin Manors families was shot with a <em>9 mm HP bullet</em> and then chopped up with an axe"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "Completed", "Failed", "FamilyGathered" ),
+							}),
+						},
+						Idx = 15,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "ClueVictimPoison" ),
+							}),
+						},
+						Text = T(589546325001, --[[ModItemQuestsDef TwinManors_copy Text]] "Clue: A member of one of the Twin Manors families was choked by forcing a tiny <em>strychnine bottle</em> into her throat"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "Completed", "Failed", "FamilyGathered" ),
+							}),
+						},
+						Idx = 16,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "ClueDoctorAutopsies" ),
+							}),
+						},
+						Text = T(768399831148, --[[ModItemQuestsDef TwinManors_copy Text]] "Clue: The Doctor has dutifully performed <em>autopsies</em> on the murder victims at the Twin Manors"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "Completed", "Failed", "FamilyGathered" ),
+							}),
+						},
+						Idx = 13,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "ClueTombs" ),
+							}),
+						},
+						Text = T(710437033787, --[[ModItemQuestsDef TwinManors_copy Text]] "Clue: The two families own the houses but not the <em>land</em> of the Twin Manors. The land can never be sold to others while there is a living heir"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "Completed", "Failed", "FamilyGathered" ),
+							}),
+						},
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "ClueManorsOwner" ),
+							}),
+						},
+						Text = T(857853010981, --[[ModItemQuestsDef TwinManors_copy Text]] "Clue: As a descendant of the L'Enfer brothers, <em>Dr. L'Enfer</em> owns the land of the Twin Manors - and the Families own just the buildings"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "DrLEnfer",
+								Sector = "L18",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "DoctorCombat", "DoctorDead", "DoctorExecution", "FamiliesCombat", "FamiliesCombatFFA", "FamiliesCombatPlayer" ),
+							}),
+						},
+						Idx = 17,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "FamilyGathering" ),
+							}),
+						},
+						Text = T(100047705770, --[[ModItemQuestsDef TwinManors_copy Text]] "The <em>Le Domas</em> and <em>Van Tassel</em> families are gathered to hear findings of the <em>murder investigation</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "L18",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('GroupIsDead', {
+										Group = "FamiliesCombat",
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "TwinManors",
+										Vars = set( "Completed", "Failed", "FamiliesDefeated" ),
+									}),
+								},
+							}),
+						},
+						Idx = 21,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "FamiliesCombatFFA", "FamiliesCombatPlayer" ),
+							}),
+							PlaceObj('CombatIsActive', {}),
+						},
+						Text = T(664455317823, --[[ModItemQuestsDef TwinManors_copy Text]] "There is no other way but to <em>fight</em> the families at the <em><SectorName('L18')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "DoctorDead", "DoctorExecution" ),
+							}),
+						},
+						Idx = 5,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "DoctorDead", "DoctorExecution" ),
+							}),
+						},
+						Text = T(110569990109, --[[ModItemQuestsDef TwinManors_copy Text]] "<em>Outcome:</em> <em>Dr. L'Enfer</em> was blamed for the murders at the <SectorName('L18')> and <em>executed</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set({
+	DoctorDead = true,
+	DoctorExecution = false,
+}),
+							}),
+						},
+						Idx = 22,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set({
+	DoctorDead = true,
+	DoctorExecution = false,
+}),
+							}),
+						},
+						Text = T(153864599306, --[[ModItemQuestsDef TwinManors_copy Text]] "<em>Outcome:</em> The shady <em>doctor</em> at the <SectorName('L18')> is dead"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "FamiliesDefeated" ),
+							}),
+						},
+						Idx = 6,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "FamiliesDefeated" ),
+							}),
+						},
+						Text = T(377491970491, --[[ModItemQuestsDef TwinManors_copy Text]] "<em>Outcome:</em> Defeated the murderous <em>Van Tassel</em> and <em>Le Domas</em> families at the <em><SectorName('L18')></em>"),
+					}),
+				},
+				QuestGroup = "Farmlands",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"L18",
+								},
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 7,
+								SecondTargetUnit = "Abraham",
+								TargetUnit = "any merc",
+							}),
+						},
+						Effects = {
+							PlaceObj('UnitSetConflictIgnore', {
+								ConflictIgnore = false,
+								TargetUnit = "Families",
+							}),
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"TwinManorsMurderScene_approach",
+								},
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+							PlaceObj('GroupSetBehaviorRoam', {
+								MarkerGroup = "VanTasselRoamMarker",
+								MarkerId = "",
+								TargetUnit = "Abraham",
+							}),
+							PlaceObj('GroupSetBehaviorRoam', {
+								MarkerGroup = "LeDomasRoamMarker",
+								TargetUnit = "Caroline",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_ApproachMurderScene",
+						QuestId = "TwinManors",
+						requiredSectors = {
+							"L18",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"TwinManorsMurderScene_approach",
+								},
+								WaitOver = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Given",
+								QuestId = "TwinManors",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GiveQuest",
+						QuestId = "TwinManors",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"TwinManorsNPC_LeDomasCaroline01",
+									"TwinManorsNPC_VanTasselFemale02",
+									"TwinManorsNPC_VanTasselFemale03",
+									"TwinManorsNPC_LeDomasMale02",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "ClueBrothersRumors",
+								QuestId = "TwinManors",
+							}),
+							PlaceObj('QuestSetVariableNum', {
+								Amount = 1,
+								Prop = "Clues",
+								QuestId = "TwinManors",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_BrothersRumors",
+						QuestId = "TwinManors",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "DoctorEnabled" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('SectorSetHospital', {
+								sector_id = "L18",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_EnableHospital",
+						QuestId = "TwinManors",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "TwinManors",
+										Vars = set( "ClueManorAmmo", "ClueManorPoison", "ClueStageAmmo", "ClueStagePoisonStrychnine" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "TwinManors",
+										Vars = set( "ClueManorAmmo", "ClueManorPoison", "ClueVictimAmmo", "ClueVictimPoison" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "TwinManors",
+										Vars = set( "ClueStageAmmo", "ClueStagePoisonStrychnine", "ClueVictimAmmo", "ClueVictimPoison" ),
+									}),
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "ClueDoctorAmmo", "ClueDoctorPoison" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "ClueDoctorAutopsies", "ClueManorsOwner" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "HaveProof",
+								QuestId = "TwinManors",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_CheckProof",
+						QuestId = "TwinManors",
+						SequentialEffects = false,
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "_GroupsAttacked",
+								Vars = set( "DrLEnfer" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set({
+	FamiliesCombat = false,
+	FamiliesCombatFFA = false,
+	FamiliesCombatPlayer = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "DoctorCombat",
+								QuestId = "TwinManors",
+							}),
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"TwinManorsFinale_DoctorCombat",
+								},
+								banterSequentialWaitFor = "BanterStart",
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+							PlaceObj('GroupSetSide', {
+								Side = "enemy2",
+								TargetUnit = "DrLEnfer",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_DoctorAttacked",
+						QuestId = "TwinManors",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('GroupIsDead', {
+								Group = "DrLEnfer",
+							}),
+						},
+						Effects = {
+							PlaceObj('SectorSetHospital', {
+								enable = false,
+								sector_id = "L18",
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "TwinManors",
+										Vars = set({
+	DoctorExecution = false,
+}),
+									}),
+								},
+								'Effects', {
+									PlaceObj('ApplyGuiltyOrRighteous', {
+										effectType = "negative",
+									}),
+								},
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "DoctorDead",
+								QuestId = "TwinManors",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_DoctorDead",
+						QuestId = "TwinManors",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "_GroupsAttacked",
+								Vars = set( "Abraham", "Caroline", "LeDonnas", "VanTassel" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set({
+	FamiliesCombatFFA = false,
+	FamiliesCombatPlayer = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "FamiliesCombat",
+								QuestId = "TwinManors",
+							}),
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"TwinManorsFinale_FamiliesCombat",
+								},
+								banterSequentialWaitFor = "BanterStart",
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+							PlaceObj('UnitSetConflictIgnore', {
+								ConflictIgnore = false,
+								TargetUnit = "DrLEnfer",
+							}),
+							PlaceObj('UnitSetConflictIgnore', {
+								ConflictIgnore = false,
+								TargetUnit = "Families",
+							}),
+							PlaceObj('GroupSetSide', {
+								Side = "enemy2",
+								TargetUnit = "LeDomasCombat",
+							}),
+							PlaceObj('GroupSetSide', {
+								Side = "enemy2",
+								TargetUnit = "VanTasselCombat",
+							}),
+							PlaceObj('GroupSetSide', {
+								Side = "enemy2",
+								TargetUnit = "Abraham",
+							}),
+							PlaceObj('GroupSetSide', {
+								Side = "enemy2",
+								TargetUnit = "Caroline",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FamiliesAttacked",
+						QuestId = "TwinManors",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "FamilyGathering" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('UnitSetConflictIgnore', {
+								TargetUnit = "FamilyGathering",
+							}),
+							PlaceObj('UnitSetConflictIgnore', {
+								TargetUnit = "FamiliesCombat",
+							}),
+							PlaceObj('UnitSetConflictIgnore', {
+								TargetUnit = "Families",
+							}),
+							PlaceObj('GroupSetRoutine', {
+								Routine = "Ambient",
+								RoutineArea = "SceneGathering",
+								TargetUnit = "FamiliesCombat",
+								UseWeapons = true,
+							}),
+							PlaceObj('GroupSetRoutine', {
+								Routine = "Ambient",
+								RoutineArea = "SceneGathering",
+								TargetUnit = "Families",
+							}),
+							PlaceObj('GroupSetRoutine', {
+								Routine = "AdvanceTo",
+								RoutineArea = "GatheringPositionDoctor",
+								TargetUnit = "DrLEnfer",
+							}),
+							PlaceObj('GroupSetRoutine', {
+								Routine = "AdvanceTo",
+								RoutineArea = "GatheringPositionCaroline",
+								TargetUnit = "Caroline",
+								UseWeapons = true,
+							}),
+							PlaceObj('GroupSetRoutine', {
+								Routine = "AdvanceTo",
+								RoutineArea = "GatheringPositionAbraham",
+								TargetUnit = "Abraham",
+								UseWeapons = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FamilyGathering",
+						QuestId = "TwinManors",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"L18",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "FamilyGathering" ),
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 8,
+								SecondTargetUnit = "Abraham",
+								TargetUnit = "DrLEnfer",
+							}),
+							PlaceObj('UnitIsAroundMarkerOfGroup', {
+								MarkerGroup = "GatheringPositionAbraham",
+								TargetUnit = "Abraham",
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 18,
+								SecondTargetUnit = "Abraham",
+								TargetUnit = "any merc",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "FamilyGathering" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"TwinManorsFinale_Approach",
+								},
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "FamilyGathered",
+								QuestId = "TwinManors",
+							}),
+							PlaceObj('UnitSetConflictIgnore', {
+								ConflictIgnore = false,
+								TargetUnit = "DrLEnfer",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FamilyGathered",
+						QuestId = "TwinManors",
+						requiredSectors = {
+							"L18",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set({
+	FamiliesCombat = false,
+	FamiliesCombatFFA = true,
+	FamiliesCombatPlayer = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"TwinManorsFinale_FamiliesCombatFFA",
+								},
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+							PlaceObj('UnitSetConflictIgnore', {
+								ConflictIgnore = false,
+								TargetUnit = "Families",
+							}),
+							PlaceObj('GroupSetSide', {
+								Side = "enemy1",
+								TargetUnit = "VanTasselCombat",
+							}),
+							PlaceObj('GroupSetSide', {
+								Side = "enemy2",
+								TargetUnit = "LeDomasCombat",
+							}),
+							PlaceObj('GroupSetSide', {
+								Side = "enemy1",
+								TargetUnit = "Abraham",
+							}),
+							PlaceObj('GroupSetSide', {
+								Side = "enemy2",
+								TargetUnit = "Caroline",
+							}),
+							PlaceObj('GroupAlert', {
+								TargetUnit = "VanTasselCombat",
+							}),
+							PlaceObj('GroupAlert', {
+								TargetUnit = "LeDomasCombat",
+							}),
+							PlaceObj('GroupAlert', {
+								TargetUnit = "Abraham",
+							}),
+							PlaceObj('GroupAlert', {
+								TargetUnit = "Caroline",
+							}),
+							PlaceObj('GroupSetAITargetModifier', {
+								Group = "Caroline",
+								Modifier = 130,
+								Target = "Abraham",
+							}),
+							PlaceObj('GroupSetAITargetModifier', {
+								Group = "Abraham",
+								Modifier = 130,
+								Target = "Caroline",
+							}),
+							PlaceObj('GroupSetAITargetModifier', {
+								Group = "VanTasselCombat",
+								Modifier = 110,
+								Target = "LeDomasCombat",
+							}),
+							PlaceObj('GroupSetAITargetModifier', {
+								Group = "LeDomasCombat",
+								Modifier = 110,
+								Target = "VanTasselCombat",
+							}),
+							PlaceObj('GrantExperienceSector', {
+								logImportant = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FamiliesCombatFFA",
+						QuestId = "TwinManors",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set({
+	FamiliesCombat = false,
+	FamiliesCombatFFA = false,
+	FamiliesCombatPlayer = true,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"TwinManorsFinale_FamiliesCombatPlayer",
+								},
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+							PlaceObj('UnitSetConflictIgnore', {
+								ConflictIgnore = false,
+								TargetUnit = "Families",
+							}),
+							PlaceObj('GroupSetSide', {
+								Side = "enemy2",
+								TargetUnit = "VanTasselCombat",
+							}),
+							PlaceObj('GroupSetSide', {
+								Side = "enemy2",
+								TargetUnit = "LeDomasCombat",
+							}),
+							PlaceObj('GroupSetSide', {
+								Side = "enemy2",
+								TargetUnit = "Abraham",
+							}),
+							PlaceObj('GroupSetSide', {
+								Side = "enemy2",
+								TargetUnit = "Caroline",
+							}),
+							PlaceObj('GroupAlert', {
+								TargetUnit = "VanTasselCombat",
+							}),
+							PlaceObj('GroupAlert', {
+								TargetUnit = "LeDomasCombat",
+							}),
+							PlaceObj('GroupAlert', {
+								TargetUnit = "Abraham",
+							}),
+							PlaceObj('GroupAlert', {
+								TargetUnit = "Caroline",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FamiliesCombatPlayer",
+						QuestId = "TwinManors",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "DoctorExecution" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"TwinManorsFinale_DoctorExecution",
+								},
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+							PlaceObj('PlaySetpiece', {
+								setpiece = "TwinManors_Shooting",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "DoctorDead",
+								QuestId = "TwinManors",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_DoctorPublicExecution",
+						QuestId = "TwinManors",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set( "DoctorDead", "DoctorExecution" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayerGrantMoney', {
+								Amount = 10000,
+							}),
+							PlaceObj('GrantExperienceSector', {
+								logImportant = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_DoctorExecutionReward",
+						QuestId = "TwinManors",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"L18",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set({
+	Completed = false,
+	Failed = false,
+}),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "FamiliesCombat", "FamiliesCombatFFA", "FamiliesCombatPlayer" ),
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "FamiliesCombat",
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "Abraham",
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "Caroline",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "FamiliesDefeated",
+								QuestId = "TwinManors",
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Medium",
+								logImportant = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FamiliesDefeated",
+						QuestId = "TwinManors",
+						requiredSectors = {
+							"L18",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "FamilyGathered" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "DoctorDead", "FamiliesDefeated" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"L18",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('SectorEnterConflict', {
+								conflict_mode = false,
+								sector_id = "L18",
+							}),
+							PlaceObj('UnitSetConflictIgnore', {
+								ConflictIgnore = false,
+								TargetUnit = "FamilyGathering",
+							}),
+							PlaceObj('UnitSetConflictIgnore', {
+								ConflictIgnore = false,
+								TargetUnit = "FamiliesCombat",
+							}),
+							PlaceObj('SleepEffect', {}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "TwinManors",
+										Vars = set({
+	DoctorDead = false,
+}),
+									}),
+								},
+								'Effects', {
+									PlaceObj('PlayBanterEffect', {
+										Banters = {
+											"TwinManorsNPC_DrLEnfer01_FamiliesDefeated",
+										},
+										searchInMap = true,
+										searchInMarker = false,
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "TwinManors",
+										Vars = set( "FamiliesCombatFFA", "FamiliesCombatPlayer" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "TwinManors",
+										Vars = set( "HaveProof" ),
+									}),
+								},
+								'Effects', {
+									PlaceObj('CityGrantLoyalty', {
+										Amount = 20,
+										City = "Payak",
+										SpecialConversationMessage = T(541475699024, --[[ModItemQuestsDef TwinManors_copy SpecialConversationMessage]] "exposed and defeated the murderous <em>Van Tassel</em> and <em>Le Domas</em> Families"),
+									}),
+								},
+								'EffectsElse', {
+									PlaceObj('ConditionalEffect', {
+										'Conditions', {
+											PlaceObj('QuestIsVariableBool', {
+												Condition = "or",
+												QuestId = "TwinManors",
+												Vars = set( "FamiliesCombatFFA", "FamiliesCombatPlayer" ),
+											}),
+											PlaceObj('QuestIsVariableBool', {
+												Condition = "or",
+												QuestId = "TwinManors",
+												Vars = set({
+	HaveProof = false,
+}),
+											}),
+										},
+										'Effects', {
+											PlaceObj('CityGrantLoyalty', {
+												Amount = 10,
+												City = "Payak",
+												SpecialConversationMessage = T(723660035090, --[[ModItemQuestsDef TwinManors_copy SpecialConversationMessage]] "defeated the murderous <em>Van Tassel</em> and <em>Le Domas</em> Families"),
+											}),
+										},
+									}),
+								},
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "FamilyGathering",
+								QuestId = "TwinManors",
+								Set = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_RemoveConflict",
+						QuestId = "TwinManors",
+						requiredSectors = {
+							"L18",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set({
+	FamilyGathered = true,
+	FamilyGathering = false,
+}),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TwinManors",
+								Vars = set( "DoctorDead", "FamiliesDefeated" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"L18",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetRoutine', {
+								Routine = "Ambient",
+								RoutineArea = "LeDomasRoamMarker",
+								TargetUnit = "LeDonnas",
+							}),
+							PlaceObj('GroupSetRoutine', {
+								Routine = "Ambient",
+								RoutineArea = "LeDomasRoamMarker",
+								TargetUnit = "Caroline",
+							}),
+							PlaceObj('GroupSetRoutine', {
+								Routine = "Ambient",
+								RoutineArea = "VanTasselRoamMarker",
+								TargetUnit = "VanTassel",
+							}),
+							PlaceObj('GroupSetRoutine', {
+								Routine = "Ambient",
+								RoutineArea = "VanTasselRoamMarker",
+								TargetUnit = "Abraham",
+							}),
+							PlaceObj('GroupSetRoutine', {
+								Routine = "Ambient",
+								RoutineArea = "Clinic",
+								TargetUnit = "DrLEnfer",
+							}),
+							PlaceObj('ResetAmbientLife', {
+								ForceImmediateKick = true,
+								KickPerpetualUnits = true,
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "TwinManors",
+							}),
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "Village_Conflict",
+								MusicExploration = "Village_Complete",
+								SectorID = "L18",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_CompleteQuest",
+						QuestId = "TwinManors",
+						requiredSectors = {
+							"L18",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TwinManors",
+								Vars = set({
+	Completed = false,
+	DoctorDead = true,
+	DoctorExecution = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "FamilyGathering",
+								QuestId = "TwinManors",
+								Set = false,
+							}),
+							PlaceObj('GroupSetRoutine', {
+								Routine = "Ambient",
+								RoutineArea = "LeDomasRoamMarker",
+								TargetUnit = "LeDonnas",
+							}),
+							PlaceObj('GroupSetRoutine', {
+								Routine = "Ambient",
+								RoutineArea = "LeDomasRoamMarker",
+								TargetUnit = "Caroline",
+							}),
+							PlaceObj('GroupSetRoutine', {
+								Routine = "Ambient",
+								RoutineArea = "VanTasselRoamMarker",
+								TargetUnit = "VanTassel",
+							}),
+							PlaceObj('GroupSetRoutine', {
+								Routine = "Ambient",
+								RoutineArea = "VanTasselRoamMarker",
+								TargetUnit = "Abraham",
+							}),
+							PlaceObj('ResetAmbientLife', {
+								ForceImmediateKick = true,
+								KickPerpetualUnits = true,
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Failed",
+								QuestId = "TwinManors",
+							}),
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "Village_Conflict",
+								MusicExploration = "Sector_Failed",
+								SectorID = "L18",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FailQuest",
+						QuestId = "TwinManors",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "QuestLead",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "Clues",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "DoctorMet",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "DoctorEnabled",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "DoctorPissed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ClueBrothersRumors",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ClueStageAmmo",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ClueDoctorAmmo",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ClueManorAmmo",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ClueStagePoisonUnknown",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ClueStagePoisonStrychnine",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ClueDoctorPoison",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ClueManorPoison",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ClueVictimAmmo",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ClueVictimPoison",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ClueDoctorAutopsies",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ClueTombs",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "TombsLooted",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ClueManorsOwner",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "FamilyGathering",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "HaveProof",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "DoctorExecution",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "DoctorDead",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "FamiliesCombatPlayer",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "FamiliesCombatFFA",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "FamiliesCombat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "DoctorCombat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "FamiliesDefeated",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_DoctorDead",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_CheckProof",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_CompleteQuest",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ClinicDeskExamined",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GiveQuest",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_DoctorAttacked",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_RemoveConflict",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FamiliesAttacked",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FamilyGathering",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "FamilyGathered",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FamilyGathered",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FamiliesDefeated",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FamiliesCombatFFA",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FamiliesCombatPlayer",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_ApproachMurderScene",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_DoctorPublicExecution",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_DoctorExecutionReward",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BrothersRumors",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_EnableHospital",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FailQuest",
+					}),
+				},
+				group = "Farmland",
+				id = "TwinManors_copy",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				DisplayName = T(784829604010, --[[ModItemQuestsDef Ted_copy DisplayName]] "Of Murders and Teddy Bears"),
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {}),
+				},
+				NoteDefs = {
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "K17",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "K19",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "J19",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "J20",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "K18",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "L19",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "Ted",
+								Vars = set( "Completed", "TedMurder" ),
+							}),
+						},
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Ted",
+								Vars = set({
+	Given = true,
+	TedMurder = false,
+}),
+							}),
+						},
+						Text = T(499080476726, --[[ModItemQuestsDef Ted_copy Text]] "There are rumors of <em>murders and teddy bears</em> in the Farmlands"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "TeddyBear",
+								Sector = "K17",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "TeddyBear",
+								Sector = "K19",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "TeddyBear",
+								Sector = "J19",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "TeddyBear",
+								Sector = "J20",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "TeddyBear",
+								Sector = "K18",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "TeddyBear",
+								Sector = "L19",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Ted",
+								Vars = set( "TedSpawn" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Ted",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 3,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Ted",
+								Vars = set( "TedMurder" ),
+							}),
+						},
+						Text = T(998383873461, --[[ModItemQuestsDef Ted_copy Text]] "Someone is murdering people in the Farmlands and placing <em>teddy bears</em> at the scene"),
+					}),
+					PlaceObj('QuestNote', {
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Ted",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 4,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Ted",
+								Vars = set( "TedSpawn" ),
+							}),
+						},
+						Text = T(176729812517, --[[ModItemQuestsDef Ted_copy Text]] "Time to face the <em>teddy bear maniac</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Ted",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 5,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Ted",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Text = T(995319950975, --[[ModItemQuestsDef Ted_copy Text]] "<em>Outcome:</em> <em>Teddy</em> the Teddy Bear killer was put to rest"),
+					}),
+				},
+				QuestGroup = "Farmlands",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableNum', {
+								AgainstVar = true,
+								Prop = "TedClues",
+								Prop2 = "TedRandom",
+								QuestId = "Ted",
+								QuestId2 = "Ted",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "TedSpawn",
+								QuestId = "Ted",
+							}),
+							PlaceObj('MusicSetTrack', {
+								Playlist = "Scripted",
+								Track = "Music/Bloody Rocks",
+							}),
+							PlaceObj('SectorEnterConflict', {
+								sector_id = "current",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_TedSpawn",
+						QuestId = "Ted",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('UnitIsOnMap', {
+								TargetUnit = "Tedd",
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"TeddyBear_3_TedSpawned",
+								},
+								banterSequentialWaitFor = "BanterStart",
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+							PlaceObj('GroupSetBehaviorRoam', {
+								IdleStance = "Crouch",
+								MarkerGroup = "TedMove",
+								TargetUnit = "Tedd",
+								UseWeapons = true,
+							}),
+						},
+						ParamId = "TCE_TedRoam",
+						QuestId = "Ted",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Ted",
+								Vars = set( "TedSpawn" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"L19",
+									"K19",
+									"K18",
+									"K17",
+									"J20",
+									"J19",
+								},
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 3,
+								SecondTargetUnit = "any merc",
+								TargetUnit = "Tedd",
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetSide', {
+								Side = "enemy2",
+								TargetUnit = "Tedd",
+							}),
+							PlaceObj('GroupAlert', {
+								TargetUnit = "Tedd",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_TedApproached",
+						QuestId = "Ted",
+						requiredSectors = {
+							"L19",
+							"K19",
+							"K18",
+							"K17",
+							"J20",
+							"J19",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckIsPersistentUnitDead', {
+								per_ses_id = "NPC_Ted",
+							}),
+						},
+						Effects = {
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Medium",
+								logImportant = true,
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 15,
+								City = "Payak",
+								SpecialConversationMessage = T(540196714249, --[[ModItemQuestsDef Ted_copy SpecialConversationMessage]] "killed <em>Ted</em> the teddy bear maniac"),
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "Ted",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_TedKilled",
+						QuestId = "Ted",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "TedMurder",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "TedClues",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "TedRandom",
+						RandomRangeMax = 13,
+						Value = 9,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "TedSpawn",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_TedSpawn",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_TedApproached",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_TedKilled",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_TedRoam",
+					}),
+				},
+				group = "Farmland",
+				id = "Ted_copy",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				DevNotes = "Completed in Monday conversation or if he is dead and objectives are completed.\nFailed in custom code - see Grimer Hamlet Custom Logic.",
+				DisplayName = T(355951259941, --[[ModItemQuestsDef GrimerHamlet_copy DisplayName]] "Grimer Hamlet"),
+				KillTCEsConditions = {
+					PlaceObj('QuestIsVariableBool', {
+						Condition = "or",
+						QuestId = "GrimerHamlet",
+						Vars = set( "Completed" ),
+					}),
+				},
+				NoteDefs = {
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Monday",
+								Sector = "I19",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableNum', {
+										Amount = 1,
+										Prop = "CiviliansSaved",
+										QuestId = "GrimerHamlet",
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "GrimerHamlet",
+										Vars = set( "Completed", "Failed", "Given", "InfectedUnleashed" ),
+									}),
+								},
+							}),
+						},
+						ShowConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableNum', {
+										Amount = 1,
+										Prop = "CiviliansSaved",
+										QuestId = "GrimerHamlet",
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "GrimerHamlet",
+										Vars = set( "BellaKilled", "GivenLead", "InfectedKilled", "InfectedUnleashed" ),
+									}),
+								},
+							}),
+						},
+						Text = T(296618143436, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "There is a virulent disease outbreak in the <em><SectorName('I19')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "I19",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "GrimerHamlet",
+								Vars = set( "InfectedUnleashed", "PeopleSaved" ),
+							}),
+						},
+						Idx = 2,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "GrimerHamlet",
+								Vars = set({
+	InfectedUnleashed = false,
+	PeopleSaved = false,
+}),
+							}),
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableNum', {
+										Amount = 1,
+										Prop = "CiviliansSaved",
+										QuestId = "GrimerHamlet",
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "GrimerHamlet",
+										Vars = set( "Given" ),
+									}),
+								},
+							}),
+						},
+						Text = T(234834978879, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "There are still some <em>Infected</em> in the houses of <em><SectorName('I19')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Monday",
+								Sector = "I19",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "GrimerHamlet",
+								Vars = set( "PeopleSaved" ),
+							}),
+						},
+						Idx = 7,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "GrimerHamlet",
+								Vars = set( "PeopleSaved" ),
+							}),
+						},
+						Text = T(935392577230, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "All trapped civilians in the <em><SectorName('I19')></em> have been <em>saved</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "GrimerHamlet",
+								Vars = set( "Completed", "Failed", "InfectedUnleashedKilled" ),
+							}),
+						},
+						Idx = 12,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "GrimerHamlet",
+								Vars = set( "InfectedUnleashed" ),
+							}),
+							PlaceObj('SectorIsInConflict', {}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I19",
+								},
+							}),
+						},
+						Text = T(506338622134, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "The Infected in <em><SectorName('I19')></em> have all broken free!"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "GrimerLovers",
+								Sector = "I19",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "GrimerHamlet",
+								Vars = set( "BellaKilled" ),
+							}),
+						},
+						Idx = 3,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "GrimerHamlet",
+								Vars = set( "BellaQuest" ),
+							}),
+						},
+						Text = T(374622059945, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "Monday from the <em><SectorName('I19')></em> wants his Infected ex-girlfriend <em>Bella</em> and her lovers killed"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "GrimerHamlet",
+								Vars = set( "BellaKilled" ),
+							}),
+						},
+						Idx = 9,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "GrimerHamlet",
+								Vars = set( "BellaKilled" ),
+							}),
+						},
+						Text = T(828975379182, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "<em>Bella</em> is dead"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Monday",
+								Sector = "I19",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "GrimerHamlet",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 4,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "GrimerHamlet",
+								Vars = set( "BellaKilled", "InfectedKilled", "InfectedUnleashedKilled", "PeopleSaved" ),
+							}),
+							PlaceObj('SectorIsInConflict', {
+								Negate = true,
+							}),
+						},
+						Text = T(472642259879, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "<em>Outcome:</em> There is finally some peace and quiet in <em><SectorName('I19')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Monday",
+								Sector = "I19",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "GrimerHamlet",
+								Vars = set( "Completed" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('CheckIsPersistentUnitDead', {
+								per_ses_id = "NPC_Monday",
+							}),
+						},
+						Idx = 11,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "GrimerHamlet",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Text = T(349187275730, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "<em>Outcome:</em> Time for <em>party</em> in the <em><SectorName('I19')></em>!"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "GrimerHamlet",
+								Vars = set( "Failed" ),
+							}),
+						},
+						Idx = 13,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "GrimerHamlet",
+								Vars = set( "Failed" ),
+							}),
+						},
+						Text = T(714830943923, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "<em>Outcome:</em> The outbreak in the <em><SectorName('I19')></em> got out of control"),
+					}),
+				},
+				QuestGroup = "Farmlands",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I19",
+								},
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "InitialInfected",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "InfectedKilled",
+								QuestId = "GrimerHamlet",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Given",
+								QuestId = "GrimerHamlet",
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Minor",
+								logImportant = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_InfectedKilled",
+						QuestId = "GrimerHamlet",
+						requiredSectors = {
+							"I19",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I19",
+								},
+							}),
+							PlaceObj('QuestIsVariableNum', {
+								AgainstVar = true,
+								Prop = "HousesOpened",
+								Prop2 = "RequiredHousesOpened",
+								QuestId = "GrimerHamlet",
+								QuestId2 = "GrimerHamlet",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "InfectedUnleashed",
+								QuestId = "GrimerHamlet",
+							}),
+							PlaceObj('ExecuteCode', {
+								FuncCode = "GrimerInfectedUnlockAllHouses()",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_UnlockAllHouses",
+						QuestId = "GrimerHamlet",
+						requiredSectors = {
+							"I19",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I19",
+								},
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 8,
+								SecondTargetUnit = "GrimerLovers",
+								TargetUnit = "any merc",
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetSide', {
+								Side = "enemy2",
+								TargetUnit = "GrimerLovers",
+							}),
+							PlaceObj('GroupAlert', {
+								TargetUnit = "GrimerLovers",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_LoversEnemy",
+						QuestId = "GrimerHamlet",
+						requiredSectors = {
+							"I19",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I19",
+								},
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "GrimerLovers",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "BellaKilled",
+								QuestId = "GrimerHamlet",
+							}),
+							PlaceObj('GrantExperienceSector', {
+								logImportant = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_LoversKilled",
+						QuestId = "GrimerHamlet",
+						requiredSectors = {
+							"I19",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "GrimerHamlet",
+								Vars = set( "InfectedUnleashed" ),
+							}),
+							PlaceObj('QuestIsVariableNum', {
+								AgainstVar = true,
+								Amount = 1,
+								Prop = "CiviliansSaved",
+								Prop2 = "MinimumSaved",
+								QuestId = "GrimerHamlet",
+								QuestId2 = "GrimerHamlet",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "GrimerHamlet",
+								Vars = set( "InfectedUnleashedKilled" ),
+							}),
+							PlaceObj('SectorIsInConflict', {
+								Negate = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "PeopleSaved",
+								QuestId = "GrimerHamlet",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PeopleSaved",
+						QuestId = "GrimerHamlet",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "GrimerHamlet",
+								Vars = set( "InfectedUnleashed" ),
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "GrimerInfected",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "InfectedUnleashedKilled",
+								QuestId = "GrimerHamlet",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Given",
+								QuestId = "GrimerHamlet",
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Medium",
+								logImportant = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_InfectedUnleashedKilled",
+						QuestId = "GrimerHamlet",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "GrimerHamlet",
+								Vars = set({
+	BellaKilled = true,
+	Completed = false,
+	Failed = false,
+	InfectedKilled = true,
+	InfectedUnleashedKilled = true,
+	PeopleSaved = true,
+}),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I19",
+								},
+							}),
+							PlaceObj('CheckIsPersistentUnitDead', {
+								per_ses_id = "NPC_Monday",
+							}),
+							PlaceObj('SectorIsInConflict', {
+								Negate = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "GrimerHamlet",
+							}),
+							PlaceObj('SectorSetRAndROperation', {
+								sector_id = "I19",
+							}),
+							PlaceObj('MusicSetSectorPlaylist', {
+								MusicCombat = "Battle_Normal",
+								MusicConflict = "Village_Conflict",
+								MusicExploration = "Village_Complete",
+								SectorID = "I19",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_CompleteQuest",
+						QuestId = "GrimerHamlet",
+						requiredSectors = {
+							"I19",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "GrimerHamlet",
+								Vars = set({
+	Completed = false,
+	Failed = false,
+	InfectedKilled = true,
+	InfectedUnleashedKilled = true,
+	PeopleSaved = false,
+}),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I19",
+								},
+							}),
+							PlaceObj('QuestIsVariableNum', {
+								AgainstVar = true,
+								Amount = 1,
+								Condition = "<",
+								Prop = "CiviliansSaved",
+								Prop2 = "MinimumSaved",
+								QuestId = "GrimerHamlet",
+								QuestId2 = "GrimerHamlet",
+							}),
+							PlaceObj('SectorIsInConflict', {
+								Negate = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Failed",
+								QuestId = "GrimerHamlet",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Fail",
+						QuestId = "GrimerHamlet",
+						requiredSectors = {
+							"I19",
+						},
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "GivenLead",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BellaMention",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "InfectedMention",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BellaQuest",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BellaKilled",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PeopleSaved",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_LoversEnemy",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_LoversKilled",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "CiviliansSaved",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "MinimumSaved",
+						Value = 4,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "InfectedKilled",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "HousesOpened",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "RequiredHousesOpened",
+						Value = 3,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "InfectedUnleashed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "InfectedUnleashedKilled",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_InfectedKilled",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_UnlockAllHouses",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PeopleSaved",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_InfectedUnleashedKilled",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_CompleteQuest",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Fail",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "TotalCiviliansToSave",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BirdCageExamined",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BirdCageOpened",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MoonshineStillFixed",
+					}),
+				},
+				group = "Farmland",
+				id = "GrimerHamlet_copy",
+			}),
+			}),
+		PlaceObj('ModItemFolder', {
+			'name', "Ernie_Sides",
+		}, {
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Boyan",
+				Chapter = "Intro",
+				DisplayName = T(550394816519, --[[ModItemQuestsDef TakeTheFortress DisplayName]] "Fort L'Eau Bleu"),
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {}),
+				},
+				LineVisibleOnGive = 15,
+				NoteDefs = {
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "H4",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "TakeTheFortress",
+								Vars = set( "Completed", "Failed" ),
+							}),
+						},
+						Idx = 15,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TakeTheFortress",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(637512037943, --[[ModItemQuestsDef TakeTheFortress Text]] "The <em>Legion Outpost</em> on <em>Ernie Island</em> is threatening the <em>nearby village</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "H3",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "H4",
+							}),
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "I3",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "TakeTheFortress",
+										Vars = set( "Completed", "Failed", "FortCombatStarted" ),
+									}),
+									PlaceObj('CheckExpression', {
+										Expression = function (self, obj) return AllGuardpostObjectivesDone("H4") end,
+									}),
+								},
+							}),
+						},
+						Idx = 6,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "ReduceFortressStrength",
+								Vars = set( "FortConflict_Started", "Given_Bastien", "Given_Bunker", "Given_Deedee" ),
+							}),
+						},
+						Text = T(881242259615, --[[ModItemQuestsDef TakeTheFortress Text]] "The defense of <em><SectorName('H4')></em> can be weakened by completing its Outpost objectives"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "H4",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TakeTheFortress",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 14,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TakeTheFortress",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Text = T(443476251653, --[[ModItemQuestsDef TakeTheFortress Text]] "<em>Outcome:</em> Defeated <em>Pierre</em> and took control of <em><SectorName('H4')></em>"),
+					}),
+				},
+				QuestGroup = "Ernie Island",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "I7",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set({
+	WorldFlipDone = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('GrantExperienceSector', {
+								logImportant = true,
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "TakeTheFortress",
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 10,
+								City = "ErnieVillage",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_ResolveQuest",
+						QuestId = "TakeTheFortress",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "WorldFlipDone" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "TakeTheFortress",
+								Vars = set({
+	Completed = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Failed",
+								QuestId = "TakeTheFortress",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FailQuest",
+						QuestId = "TakeTheFortress",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('CombatIsActive', {}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "PierreDefeated",
+										Vars = set( "Fortress_StartFight" ),
+									}),
+								},
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I7",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "FortCombatStarted",
+								QuestId = "TakeTheFortress",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FortStartCombat",
+						QuestId = "TakeTheFortress",
+						requiredSectors = {
+							"H4",
+						},
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "PierreDead",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PierreJoined",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PierreSpared",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Ernie_retaken",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "FortCombatStarted",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FortStartCombat",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_ResolveQuest",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FailQuest",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+				},
+				group = "Ernie",
+				id = "TakeTheFortress",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Boyan",
+				Chapter = "Intro",
+				DisplayName = T(426282402523, --[[ModItemQuestsDef RescueHerMan DisplayName]] "Herman is missing"),
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {}),
+				},
+				NoteDefs = {
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "HermanRescued" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "04_Betrayal",
+										Vars = set( "WorldFlipDone" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "RescueHerMan",
+										Vars = set( "MarthaDeedee" ),
+									}),
+								},
+							}),
+						},
+						Idx = 26,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set({
+	MarthaDeedee = false,
+	MarthaTalked = true,
+}),
+							}),
+						},
+						Text = T(723192132008, --[[ModItemQuestsDef RescueHerMan Text]] "<em>Martha</em> is looking for her husband who was kidnapped by the <em>Legion</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Herman",
+								Sector = "I3",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "HermanRescued" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "WorldFlipDone" ),
+							}),
+						},
+						Idx = 14,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "MarthaDeedee" ),
+							}),
+						},
+						Text = T(706580608154, --[[ModItemQuestsDef RescueHerMan Text]] "<em>Martha</em> is looking for her husband who was kidnapped by the <em>Legion</em> and was last seen on the <em><SectorName('I3')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "HermanRescued" ),
+							}),
+						},
+						Idx = 25,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "HermanRescued" ),
+							}),
+						},
+						Text = T(956422433160, --[[ModItemQuestsDef RescueHerMan Text]] "<em>Herman</em> snitched on his neighbor <em>Tinhay</em> who was then executed by the Legion"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "H2",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "RescueHerMan",
+								Vars = set( "Completed", "HangingActive" ),
+							}),
+						},
+						Idx = 19,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "HermanRescued" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "02_LiberateErnie",
+								Vars = {
+									Completed = true,
+								},
+							}),
+						},
+						Text = T(150226461771, --[[ModItemQuestsDef RescueHerMan Text]] "Rescued <em>Herman</em> and he promised a reward once he returns to the <em><SectorName('H2')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "H2",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "RescueHerMan",
+										Vars = set( "HangingActive" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "04_Betrayal",
+										Vars = set( "WorldFlipDone" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "PierreDefeated",
+										Vars = set( "PierreJoined" ),
+									}),
+								},
+							}),
+						},
+						Idx = 15,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "HermanRescued" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "02_LiberateErnie",
+								Vars = {
+									Completed = false,
+								},
+							}),
+						},
+						Text = T(764642319165, --[[ModItemQuestsDef RescueHerMan Text]] "Herman will return to the <em><SectorName('H2')></em> once it is safe"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Hanging_Basil",
+								Sector = "H2",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "RescueHerMan",
+										Vars = set( "HangHerman", "HangLuc", "HangNoOne" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "04_Betrayal",
+										Vars = set( "WorldFlipDone" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "PierreDefeated",
+										Vars = set( "PierreJoined" ),
+									}),
+								},
+							}),
+						},
+						Idx = 16,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "HangingActive" ),
+							}),
+						},
+						Text = T(698124792962, --[[ModItemQuestsDef RescueHerMan Text]] "There is some kind of commotion in the <em><SectorName('H2')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Hanging_Herman",
+								Sector = "H2",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "RescueHerMan",
+								Vars = set( "Completed", "RewardGiven" ),
+							}),
+						},
+						Idx = 22,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "RescueHerMan",
+								Vars = set( "HangLuc", "HangNoOne" ),
+							}),
+						},
+						Text = T(255126042708, --[[ModItemQuestsDef RescueHerMan Text]] "<em>Herman</em> promised a <em>reward</em> for rescuing him"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "HangLuc" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "RescueHerMan",
+								Vars = set( "HangHerman", "HangNoOne" ),
+							}),
+						},
+						Idx = 20,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "HangLuc" ),
+							}),
+						},
+						Text = T(569436381213, --[[ModItemQuestsDef RescueHerMan Text]] "<em>Outcome:</em> <em>Herman's</em> involvement in Tinhay's murder was not revealed"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "RescueHerMan",
+								Vars = set( "HangHerman", "HangNoOne" ),
+							}),
+						},
+						Idx = 21,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "RescueHerMan",
+								Vars = set( "HangHerman", "HangNoOne" ),
+							}),
+						},
+						Text = T(222085418672, --[[ModItemQuestsDef RescueHerMan Text]] "<em>Outcome:</em> Exposed <em>Herman's</em> involvement in Tinhay's murder"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "Martha",
+								Sector = "H2",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 13,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "HangHerman", "TCE_ResolveHanging" ),
+							}),
+						},
+						Text = T(249811929640, --[[ModItemQuestsDef RescueHerMan Text]] "<em>Outcome:</em> <em>Herman</em> was hanged in the <em><SectorName('H2')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "HangNoOne", "TCE_ResolveHanging" ),
+							}),
+						},
+						Idx = 18,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "HangNoOne", "TCE_ResolveHanging" ),
+							}),
+						},
+						Text = T(946221282530, --[[ModItemQuestsDef RescueHerMan Text]] "<em>Outcome:</em> Prevented the hanging in the <em><SectorName('H2')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "HangLuc", "TCE_ResolveHanging" ),
+							}),
+						},
+						Idx = 17,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "HangLuc", "TCE_ResolveHanging" ),
+							}),
+						},
+						Text = T(698807734454, --[[ModItemQuestsDef RescueHerMan Text]] "<em>Outcome:</em> <em>Luc</em> was hanged in the <em><SectorName('H2')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "Completed", "HangHerman" ),
+							}),
+						},
+						Idx = 23,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "Completed", "HangHerman" ),
+							}),
+						},
+						Text = T(617786889079, --[[ModItemQuestsDef RescueHerMan Text]] "<em>Outcome:</em> <em>Martha</em> left the <em><SectorName('H2')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "Completed" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "RescueHerMan",
+								Vars = set( "HangLuc", "HangNoOne" ),
+							}),
+						},
+						Idx = 24,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "Completed" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "RescueHerMan",
+								Vars = set( "HangLuc", "HangNoOne" ),
+							}),
+						},
+						Text = T(816146453546, --[[ModItemQuestsDef RescueHerMan Text]] "<em>Outcome:</em> <em>Martha</em> and <em>Herman</em> left the <em><SectorName('H2')></em>"),
+					}),
+				},
+				QuestGroup = "Ernie Island",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('GroupIsDead', {
+								Group = "HermanRaiders",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "RaidersDefeated",
+								QuestId = "RescueHerMan",
+							}),
+							PlaceObj('GroupSetBehaviorIdle', {
+								RestoreDefault = true,
+								TargetUnit = "Herman",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_RaidersDefeated",
+						QuestId = "RescueHerMan",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('UnitIsOnMap', {
+								TargetUnit = "HermanRaiders",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = {
+									Completed = false,
+									Failed = false,
+									HermanRescued = false,
+									RaidersDefeated = false,
+									RaidersMet = false,
+								},
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"M7",
+								},
+							}),
+							PlaceObj('CombatIsActive', {
+								Negate = true,
+							}),
+							PlaceObj('UnitIsAroundMarkerOfGroup', {
+								DisableContextModification = true,
+								MarkerGroup = "TriggerConversation",
+								TargetUnit = "any merc",
+							}),
+						},
+						Effects = {
+							PlaceObj('UnitStartConversation', {
+								Conversation = "Herman_1",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_RaidersConversation",
+						QuestId = "RescueHerMan",
+						requiredSectors = {
+							"I3",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('UnitIsAware', {
+								TargetUnit = "HermanRaiders",
+							}),
+							PlaceObj('CombatIsActive', {}),
+						},
+						Effects = {
+							PlaceObj('GroupSetSide', {
+								Side = "enemy1",
+								TargetUnit = "HermanRaiders",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_RaidersCombat",
+						QuestId = "RescueHerMan",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "RescueHerMan",
+										Vars = {
+											HangHerman = true,
+											HangLuc = true,
+											HangNoOne = true,
+										},
+									}),
+									PlaceObj('CheckAND', {
+										Conditions = {
+											PlaceObj('QuestIsVariableBool', {
+												QuestId = "RescueHerMan",
+												Vars = set( "HermanRescued" ),
+											}),
+											PlaceObj('QuestIsVariableBool', {
+												QuestId = "PierreDefeated",
+												Vars = set( "PierreJoined" ),
+											}),
+											PlaceObj('PlayerIsInSectors', {
+												Sectors = {
+													"I5",
+												},
+											}),
+										},
+									}),
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('EffectsWithCondition', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "RescueHerMan",
+										Vars = {
+											HangLuc = true,
+										},
+									}),
+								},
+								Effects = {
+									PlaceObj('MusicSetTrack', {
+										Playlist = "Scripted",
+										Track = "Music/Ukuphina",
+									}),
+									PlaceObj('PlaySetpiece', {
+										setpiece = "HangingLuc",
+									}),
+								},
+							}),
+							PlaceObj('EffectsWithCondition', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "RescueHerMan",
+										Vars = {
+											HangHerman = true,
+										},
+									}),
+								},
+								Effects = {
+									PlaceObj('MusicSetTrack', {
+										Playlist = "Scripted",
+										Track = "Music/Ukuphina",
+									}),
+									PlaceObj('PlaySetpiece', {
+										setpiece = "HangingLuc",
+									}),
+									PlaceObj('GroupSetBehaviorIdle', {
+										RestoreDefault = true,
+										TargetUnit = "Luc",
+									}),
+									PlaceObj('SetBehaviorVisitAL', {
+										ActorGroup = "Luc",
+										MarkerGroup = "AL_PostHangingLuc",
+									}),
+								},
+							}),
+							PlaceObj('EffectsWithCondition', {
+								Conditions = {
+									PlaceObj('CheckOR', {
+										Conditions = {
+											PlaceObj('QuestIsVariableBool', {
+												QuestId = "RescueHerMan",
+												Vars = {
+													HangNoOne = true,
+												},
+											}),
+											PlaceObj('CheckAND', {
+												Conditions = {
+													PlaceObj('QuestIsVariableBool', {
+														QuestId = "RescueHerMan",
+														Vars = set( "HermanRescued" ),
+													}),
+													PlaceObj('QuestIsVariableBool', {
+														QuestId = "PierreDefeated",
+														Vars = set( "PierreJoined" ),
+													}),
+													PlaceObj('PlayerIsInSectors', {
+														Sectors = {
+															"I5",
+														},
+													}),
+												},
+											}),
+										},
+									}),
+								},
+								Effects = {
+									PlaceObj('GroupSetBehaviorIdle', {
+										RestoreDefault = true,
+										TargetUnit = "Luc",
+									}),
+									PlaceObj('SetBehaviorVisitAL', {
+										ActorGroup = "Luc",
+										MarkerGroup = "AL_PostHangingLuc",
+									}),
+								},
+							}),
+							PlaceObj('GroupSetBehaviorPatrol', {
+								MarkerGroup = "HangingMartha_Path",
+								TargetUnit = "Hanging_Martha",
+							}),
+							PlaceObj('SetBehaviorVisitAL', {
+								ActorGroup = "GreasyBasil",
+								MarkerGroup = "AL_GreasyBasil",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "HangingActive",
+								QuestId = "RescueHerMan",
+								Set = false,
+							}),
+							PlaceObj('GroupSetImmortal', {
+								TargetUnit = "GreasyBasil",
+							}),
+							PlaceObj('GroupSetImmortal', {
+								TargetUnit = "Martha",
+							}),
+							PlaceObj('GroupSetImmortal', {
+								TargetUnit = "Herman",
+							}),
+							PlaceObj('GroupSetImmortal', {
+								TargetUnit = "Luc",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_ResolveHanging",
+						QuestId = "RescueHerMan",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RescueHerMan",
+								Vars = set( "RewardGiven" ),
+							}),
+							PlaceObj('SectorIsInConflict', {
+								Negate = true,
+								sector_id = "I5",
+							}),
+						},
+						Effects = {
+							PlaceObj('UnitGrantItem', {
+								LootTableId = "Herman_All",
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "RescueHerMan",
+										Vars = set( "HangLuc", "PromisedHerman" ),
+									}),
+								},
+								'Effects', {
+									PlaceObj('UnitGrantItem', {
+										LootTableId = "Herman_Diamonds",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "RescueHerMan",
+										Vars = set( "HangLuc" ),
+									}),
+								},
+								'Effects', {
+									PlaceObj('UnitGrantItem', {
+										LootTableId = "Herman_Gun",
+									}),
+								},
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_HermanReward",
+						QuestId = "RescueHerMan",
+						SequentialEffects = false,
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"Herman_04_PostLynch_Luc",
+									"Herman_04_PostLynch_NoOne",
+								},
+								WaitOver = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('GrantExperienceSector', {
+								logImportant = true,
+							}),
+							PlaceObj('GroupSetBehaviorExit', {
+								MarkerGroup = "North",
+								TargetUnit = "Hanging_Martha",
+							}),
+							PlaceObj('GroupSetBehaviorExit', {
+								MarkerGroup = "North",
+								TargetUnit = "Hanging_Herman",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "RescueHerMan",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_HermanLeave",
+						QuestId = "RescueHerMan",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"Martha_02_PostLynch_Herman",
+								},
+								WaitOver = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('GrantExperienceSector', {
+								logImportant = true,
+							}),
+							PlaceObj('GroupSetBehaviorExit', {
+								MarkerGroup = "North",
+								Running = true,
+								TargetUnit = "Hanging_Martha",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "RescueHerMan",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_MarthaLeave",
+						QuestId = "RescueHerMan",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "HermanRescued",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MarthaTalked",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MarthaRude",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MarthaDeedee",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "RaidersMet",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "RaidersDefeated",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MineDefused",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MineExamined",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MineExploded",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PromisedHerman",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "HangHerman",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "HangLuc",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "HangNoOne",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "RewardGiven",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BetrayedHerman",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "LucSaved",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "HangingActive",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "HangingSetpiecePlaying",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_MarthaLeave",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_HermanReward",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_HermanLeave",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_ResolveHanging",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "HermanDeeDee",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_RaidersConversation",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_RaidersCombat",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_RaidersDefeated",
+					}),
+				},
+				group = "Ernie",
+				id = "RescueHerMan",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Boyan",
+				Chapter = "Intro",
+				DevNotes = "",
+				DisplayName = T(768490469452, --[[ModItemQuestsDef LegionFlag DisplayName]] "Fooling Pierre"),
+				EffectOnChangeVarValue = {
+					PlaceObj('QuestEffectOnStatus', {
+						Effects = {
+							PlaceObj('QuestSetVariableTimer', {
+								Prop = "FlagTimer",
+								QuestId = "LegionFlag",
+								TimeAmount = 2,
+							}),
+						},
+						Prop = "Given",
+					}),
+					PlaceObj('QuestEffectOnStatus', {
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('EnemySquadInSector', {
+										sector_id = "H4",
+									}),
+									PlaceObj('PlayerIsInSectors', {
+										Sectors = {
+											"H4",
+										},
+									}),
+								},
+								'Effects', {
+									PlaceObj('SectorEnterConflict', {
+										sector_id = "H4",
+									}),
+								},
+							}),
+						},
+						Prop = "Failed",
+					}),
+					PlaceObj('QuestEffectOnStatus', {
+						Effects = {
+							PlaceObj('GrantExperienceSector', {
+								logImportant = true,
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = -5,
+								City = "ErnieVillage",
+								SpecialConversationMessage = T(742636028144, --[[ModItemQuestsDef LegionFlag SpecialConversationMessage]] "raised a <em>Legion flag</em>"),
+							}),
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"CorazonRadio_LegionFlag",
+								},
+								FallbackToMerc = true,
+								banterSequentialWaitFor = "BanterStart",
+								searchInMarker = false,
+							}),
+						},
+						Prop = "FlagChanged",
+					}),
+				},
+				Hidden = true,
+				KillTCEsConditions = {
+					PlaceObj('QuestIsVariableBool', {
+						Condition = "or",
+						QuestId = "LegionFlag",
+						Vars = set( "Completed", "Failed" ),
+					}),
+				},
+				QuestGroup = "Ernie Island",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "LegionFlag",
+								Vars = set({
+	Completed = false,
+	Failed = false,
+	Given = true,
+}),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "PierreDefeated",
+								Vars = {
+									PierreInactive = true,
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Failed",
+								QuestId = "LegionFlag",
+							}),
+						},
+						Once = true,
+						ParamId = "QuestSelfKill",
+						QuestId = "LegionFlag",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "FlagChanged",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "QuestSelfKill",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "FlagTimer",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+				},
+				group = "Ernie",
+				id = "LegionFlag",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Radomir",
+				Chapter = "Intro",
+				DisplayName = T(528963884172, --[[ModItemQuestsDef JoseFamily DisplayName]] "Bastien"),
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {}),
+				},
+				NoteDefs = {
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "JoseFamily",
+								Vars = set( "DiamondsRunAway", "DropWeapons", "JoseBanished", "JoseKilled", "JoseKilledInFortress", "JoseRustConversationDone" ),
+							}),
+						},
+						Idx = 17,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JoseFamily",
+								Vars = set( "BastienMet" ),
+							}),
+						},
+						Text = T(689226840458, --[[ModItemQuestsDef JoseFamily Text]] "Met a shady guy named <em>Bastien</em> at the beach of <SectorName('I1')>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "H3",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "JoseFamily",
+								Vars = set( "JoseBanished", "JoseKilled", "JoseKilledInFortress", "JoseRustConversationDone" ),
+							}),
+						},
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JoseFamily",
+								Vars = set( "LeadFamily" ),
+							}),
+						},
+						Text = T(720317896743, --[[ModItemQuestsDef JoseFamily Text]] "Bastien and his family have a hideout in <em><SectorName('H3')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JoseFamily",
+								Vars = set( "BaconDiamonds" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "JoseFamily",
+								Vars = set( "JoseBanished", "JoseKilled", "JoseKilledInFortress", "JoseRustConversationDone" ),
+							}),
+						},
+						Idx = 10,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JoseFamily",
+								Vars = set( "BaconDiamonds" ),
+							}),
+						},
+						Text = T(461949980058, --[[ModItemQuestsDef JoseFamily Text]] "Bastien has a <em>diamond stash</em> somewhere"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JoseFamily",
+								Vars = set( "JoseBanished" ),
+							}),
+						},
+						Idx = 12,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JoseFamily",
+								Vars = set( "JoseBanished" ),
+							}),
+						},
+						Text = T(773878606053, --[[ModItemQuestsDef JoseFamily Text]] "<em>Outcome:</em> Tricked Bastien's family and turned them against him"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JoseFamily",
+								Vars = set( "DropWeapons" ),
+							}),
+						},
+						Idx = 13,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JoseFamily",
+								Vars = set( "DropWeapons" ),
+							}),
+						},
+						Text = T(202914304432, --[[ModItemQuestsDef JoseFamily Text]] "<em>Outcome:</em> Disarmed Bastien's family"),
+					}),
+					PlaceObj('QuestNote', {
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "JoseFamily",
+										Vars = set( "Completed", "Failed", "JoseKilled" ),
+									}),
+									PlaceObj('UnitIsOnMap', {
+										TargetUnit = "LegionRaider_Jose",
+									}),
+								},
+							}),
+						},
+						Idx = 11,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JoseFamily",
+								Vars = set({
+	JoseKilled = false,
+	JoseRustConversationDone = true,
+}),
+							}),
+						},
+						Text = T(924430268458, --[[ModItemQuestsDef JoseFamily Text]] "<em>Bastien</em> has disappeared"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "E9",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "JoseFamily",
+										Vars = set( "BastienMetRefugeeCamp", "JoseKilled" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "04_Betrayal",
+										Vars = set( "TriggerWorldFlip", "WorldFlipDone" ),
+									}),
+								},
+							}),
+						},
+						Idx = 7,
+						Scouting = true,
+						ShowConditions = {
+							PlaceObj('CheckAND', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "JoseFamily",
+										Vars = set({
+	BastienMetRefugeeCamp = false,
+	JoseKilled = false,
+}),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "04_Betrayal",
+										Vars = set({
+	TriggerWorldFlip = false,
+	WorldFlipDone = false,
+}),
+									}),
+								},
+							}),
+						},
+						Text = T(927872117801, --[[ModItemQuestsDef JoseFamily Text]] "Bastien is in the <em><SectorName('E9')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "E9",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JoseFamily",
+								Vars = set( "BastienMetRefugeeCamp" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "JoseFamily",
+										Vars = set( "JoseKilled" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "04_Betrayal",
+										Vars = set( "TriggerWorldFlip", "WorldFlipDone" ),
+									}),
+								},
+							}),
+						},
+						Idx = 15,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JoseFamily",
+								Vars = set( "BastienMetRefugeeCamp" ),
+							}),
+						},
+						Text = T(420499955778, --[[ModItemQuestsDef JoseFamily Text]] "Bastien is in the <em><SectorName('E9')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RefugeeBlues",
+								Vars = set( "BastienProBono" ),
+							}),
+						},
+						Idx = 8,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RefugeeBlues",
+								Vars = set( "BastienProBono" ),
+							}),
+						},
+						Text = T(251740631217, --[[ModItemQuestsDef JoseFamily Text]] "<em>Outcome:</em> Forced Bastien to help the people in the <em><SectorName('E9')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RefugeeBlues",
+								Vars = set( "BastienShare" ),
+							}),
+						},
+						Idx = 14,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "RefugeeBlues",
+								Vars = set( "BastienShare" ),
+							}),
+						},
+						Text = T(926170296609, --[[ModItemQuestsDef JoseFamily Text]] "<em>Outcome:</em> Took part in Bastien's shady deals in the <em><SectorName('E9')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JoseFamily",
+								Vars = set( "JoseKilled" ),
+							}),
+						},
+						Idx = 9,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JoseFamily",
+								Vars = set( "JoseKilled" ),
+							}),
+						},
+						Text = T(806420751393, --[[ModItemQuestsDef JoseFamily Text]] "<em>Outcome:</em> Killed <em>Bastien</em>"),
+					}),
+				},
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JoseFamily",
+								Vars = set({
+	Completed = false,
+	Failed = false,
+	Given = true,
+	JoseRustConversationDone = false,
+}),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I6",
+								},
+							}),
+							PlaceObj('SectorIsInConflict', {
+								Negate = true,
+								sector_id = "I6",
+							}),
+							PlaceObj('CheckExpression', {
+								Expression = function (self, obj) return AllUnitsOfGroupAreNeutral("JoseFamily_All") end,
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 8,
+								SecondTargetUnit = "JoseFamily_All",
+								TargetUnit = "any merc",
+							}),
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"JoseFamilyBanter",
+								},
+								WaitOver = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('UnitStartConversation', {
+								Conversation = "Jose_2",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_StartSecondConvo",
+						QuestId = "JoseFamily",
+						requiredSectors = {
+							"H3",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JoseFamily",
+								Vars = set({
+	Completed = false,
+	Failed = false,
+	Given = true,
+	JoseRustConversationDone = false,
+}),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I6",
+								},
+							}),
+							PlaceObj('SectorIsInConflict', {
+								Negate = true,
+								sector_id = "I6",
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								SecondTargetUnit = "JoseFamily_All",
+								TargetUnit = "any merc",
+							}),
+							PlaceObj('CheckExpression', {
+								Expression = function (self, obj) return AllUnitsOfGroupAreNeutral("JoseFamily_All") end,
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"JoseFamilyBanter",
+								},
+								banterSequentialWaitFor = "BanterLineDone",
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+						},
+						ParamId = "TCE_BanterSecondConvo",
+						QuestId = "JoseFamily",
+						requiredSectors = {
+							"H3",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('UnitIsAware', {
+								TargetUnit = "JoseFamily_All",
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetSide', {
+								Side = "enemy1",
+								TargetUnit = "JoseFamily_All",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_BastienFought",
+						QuestId = "JoseFamily",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "BastienMet",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "RunAway",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "DropWeapons",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BaconDiamonds",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "LeadFamily",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "JoseKilled",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "StartCombat",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Scared",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Scared2",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "UnderSuspicion",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MentionedMajor",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "LeadMajor",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "JoseBanished",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "JoseKilledInFortress",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_StartSecondConvo",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BanterSecondConvo",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "DiamondsRunAway",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "JoseRustConversationDone",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_BastienFought",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BastienMetRefugeeCamp",
+					}),
+				},
+				group = "Ernie",
+				id = "JoseFamily",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Boyan",
+				Chapter = "Intro",
+				DisplayName = T(197382987239, --[[ModItemQuestsDef FortifyErnie DisplayName]] "Helping Ernie Village"),
+				KillTCEsConditions = {
+					PlaceObj('QuestIsVariableBool', {
+						Condition = "or",
+						QuestId = "FortifyErnie",
+						Vars = set( "Completed", "Failed" ),
+					}),
+				},
+				NoteDefs = {
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "GreasyBasil",
+								Sector = "H2",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "FortifyErnie",
+										Vars = set( "MachineGun_Declined", "MachineGun_Done" ),
+									}),
+									PlaceObj('UnitSquadHasItem', {
+										ItemId = "MG42",
+									}),
+								},
+							}),
+						},
+						Idx = 22,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "FortifyErnie",
+								Vars = set( "MachineGun_Given" ),
+							}),
+						},
+						Text = T(809144720392, --[[ModItemQuestsDef FortifyErnie Text]] "Basil needs a MG42 <em>machine gun</em> to protect the <em><SectorName('H2')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "H3",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "FortifyErnie",
+										Vars = set( "MachineGun_Declined", "MachineGun_Done" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "FortifyErnie",
+										Vars = set( "MachineGun_Found" ),
+									}),
+								},
+							}),
+						},
+						Idx = 10,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "FortifyErnie",
+								Vars = set( "MachineGun_Given" ),
+							}),
+						},
+						Text = T(990717185362, --[[ModItemQuestsDef FortifyErnie Text]] "There is a MG42 <em>machine gun</em> in the bunker at <em><SectorName('H3')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgeUnit = "GreasyBasil",
+								Sector = "H2",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "FortifyErnie",
+								Vars = set( "MachineGun_Declined", "MachineGun_Done" ),
+							}),
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('QuestIsVariableBool', {
+										Condition = "or",
+										QuestId = "FortifyErnie",
+										Vars = set( "MachineGun_Declined", "MachineGun_Done" ),
+									}),
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "04_Betrayal",
+										Vars = set( "WorldFlipDone" ),
+									}),
+								},
+							}),
+						},
+						Idx = 27,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "FortifyErnie",
+								Vars = {
+									MachineGun_Found = true,
+									MachineGun_Given = true,
+								},
+							}),
+						},
+						Text = T(696808655976, --[[ModItemQuestsDef FortifyErnie Text]] "Found a <em>machine gun</em> such as the one requested by <em>Basil</em> from the <em><SectorName('H2')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "FortifyErnie",
+								Vars = set( "MachineGun_Done" ),
+							}),
+						},
+						Idx = 19,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "FortifyErnie",
+								Vars = set( "MachineGun_Done" ),
+							}),
+						},
+						Text = T(826675773932, --[[ModItemQuestsDef FortifyErnie Text]] "<em>Outcome:</em> Gave the MG42 <em>machine gun</em> to Basil"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "FortifyErnie",
+								Vars = set( "MachineGun_Declined" ),
+							}),
+						},
+						Idx = 20,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "FortifyErnie",
+								Vars = set( "MachineGun_Declined" ),
+							}),
+						},
+						Text = T(495827247577, --[[ModItemQuestsDef FortifyErnie Text]] "<em>Outcome:</em> Refused to give Basil the MG42 <em>machine gun</em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "H2",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "FortifyErnie",
+								Vars = set( "Militia_Done" ),
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "WorldFlipDone" ),
+							}),
+						},
+						Idx = 11,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "FortifyErnie",
+								Vars = set( "Militia_Given" ),
+							}),
+						},
+						Text = T(188867442685, --[[ModItemQuestsDef FortifyErnie Text]] "<em>Operation</em>: Train <em>Militia</em> in the <em><SectorName('H2')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "FortifyErnie",
+								Vars = set( "Militia_Done" ),
+							}),
+						},
+						Idx = 21,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "FortifyErnie",
+								Vars = set( "Militia_Done" ),
+							}),
+						},
+						Text = T(864094482022, --[[ModItemQuestsDef FortifyErnie Text]] "Trained <em>Militia</em> to protect the <em><SectorName('H2')></em>"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "H2",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "FortifyErnie",
+								Vars = set( "MachineGun_Done", "Militia_Done" ),
+							}),
+						},
+						Idx = 23,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "FortifyErnie",
+								Vars = set( "MachineGun_Done", "Militia_Done" ),
+							}),
+						},
+						Text = T(376428242327, --[[ModItemQuestsDef FortifyErnie Text]] "<em>Outcome:</em> Fortified the <em><SectorName('H2')></em> with Militia and a Machine Gun\n"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "H2",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "FortifyErnie",
+								Vars = set( "MachineGun_Declined", "Militia_Done" ),
+							}),
+						},
+						Idx = 24,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "FortifyErnie",
+								Vars = set( "MachineGun_Declined", "Militia_Done" ),
+							}),
+						},
+						Text = T(845156775611, --[[ModItemQuestsDef FortifyErnie Text]] "<em>Outcome:</em> Fortified the <em><SectorName('H2')></em> with Militia but no Machine Gun\n"),
+					}),
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "H3",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "ErnieSideQuests",
+								Vars = set( "RustReinforcmentsSpawn", "TCE_RustReinforcementsStop" ),
+							}),
+						},
+						Idx = 25,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ErnieSideQuests",
+								Vars = set( "TCE_RustReinforcementsCounter" ),
+							}),
+						},
+						Text = T(730345218781, --[[ModItemQuestsDef FortifyErnie Text]] "<em>Reinforcements</em>: It is a matter of time before someone notices that the bunker is under attack"),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ErnieSideQuests",
+								Vars = set( "TCE_RustReinforcementsStop" ),
+							}),
+						},
+						Idx = 26,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ErnieSideQuests",
+								Vars = set( "TCE_RustReinforcementsStop" ),
+							}),
+						},
+						Text = T(797029168022, --[[ModItemQuestsDef FortifyErnie Text]] "<em>Reinforcements failed</em>: No one noticed that the <em>bunker</em> was under attack"),
+					}),
+				},
+				QuestGroup = "Ernie Island",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "FortifyErnie",
+								Vars = set( "Militia_Done" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "FortifyErnie",
+								Vars = set( "MachineGun_Declined", "MachineGun_Done" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('GrantExperienceSector', {
+								logImportant = true,
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "FortifyErnie",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_CheckCompletion",
+						QuestId = "FortifyErnie",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "FortifyErnie",
+								Vars = set({
+	Completed = false,
+}),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "WorldFlipDone" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Failed",
+								QuestId = "FortifyErnie",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Fail",
+						QuestId = "FortifyErnie",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I6_Underground",
+								},
+							}),
+							PlaceObj('UnitSquadHasItem', {
+								ItemId = "MG42",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "MachineGun_Found",
+								QuestId = "FortifyErnie",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_MachineGunFound",
+						QuestId = "FortifyErnie",
+						requiredSectors = {
+							"H3_Underground",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "FortifyErnie",
+								Vars = {
+									MachineGun_Done = true,
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 10,
+								City = "ErnieVillage",
+								SpecialConversationMessage = T(818042937827, --[[ModItemQuestsDef FortifyErnie SpecialConversationMessage]] "provided a <em>machine gun</em>"),
+							}),
+							PlaceObj('SetSectorAutoResolveDefenderBonus', {
+								autoResolveDefenderBonus = 500,
+								sector_id = "H2",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_MachineGunCompleted",
+						QuestId = "FortifyErnie",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SectorMilitiaNumber', {
+								Amount = 1,
+								Condition = ">=",
+								sector_id = "H2",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Militia_Done",
+								QuestId = "FortifyErnie",
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 15,
+								City = "ErnieVillage",
+								SpecialConversationMessage = T(948323938551, --[[ModItemQuestsDef FortifyErnie SpecialConversationMessage]] "trained <em>Militia</em>"),
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_MilitiaCompleted",
+						QuestId = "FortifyErnie",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "MentionPierre",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MachineGun_Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MachineGun_Found",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MachineGun_Done",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MachineGun_Declined",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Militia_Done",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Militia_Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Raiders_Done",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_CheckCompletion",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_MachineGunCompleted",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_MilitiaCompleted",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "SpawnReinforcements",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "LoyaltyGain_MG42",
+						Value = 10,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Fail",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_MachineGunFound",
+					}),
+				},
+				group = "Ernie",
+				id = "FortifyErnie",
+				param_bindings = {},
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Boyan",
+				Chapter = "Intro",
+				Hidden = true,
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {}),
+				},
+				QuestGroup = "Ernie Island",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "PierreDefeated",
+								Vars = set({
+	PierreInactive = false,
+}),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Ernie_CounterAttack",
+								Vars = set( "Given" ),
+							}),
+							PlaceObj('CityHasLoyalty', {
+								Amount = 45,
+								City = "ErnieVillage",
+								Condition = ">=",
+							}),
+							PlaceObj('SatelliteGameplayRunning', {}),
+							PlaceObj('QuestIsVariableBool', {
+								Condition = "or",
+								QuestId = "LegionFlag",
+								Vars = set({
+	Failed = true,
+	Given = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"Radio_Pierre_CounterAttack",
+								},
+								FallbackToMerc = true,
+								banterSequentialWaitFor = "BanterLineStart",
+								searchInMarker = false,
+							}),
+							PlaceObj('TriggerGuardPostAttack', {
+								custom_quest_id = "ErnieCounterAttack",
+								effect_target_sector_ids = {
+									"H2",
+								},
+								guardpost_sector_id = "H4",
+								time = 57600,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_AttackStarted",
+						QuestId = "Ernie_CounterAttack",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "02_LiberateErnie",
+								Vars = set( "Completed" ),
+							}),
+							PlaceObj('SectorCheckOwner', {
+								owner = "any enemy",
+								sector_id = "H2",
+							}),
+							PlaceObj('QuestIsTCEState', {
+								Prop = "TCE_AttackStarted",
+								QuestId = "Ernie_CounterAttack",
+								Value = "done",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Ernie_retaken",
+								QuestId = "TakeTheFortress",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_ErnieLost",
+						QuestId = "Ernie_CounterAttack",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SquadDefeated', {
+								custom_squad_id = "ErnieCounterAttack",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "Ernie_CounterAttack",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_SquadDead",
+						QuestId = "Ernie_CounterAttack",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_AttackStarted",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_ErnieLost",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_SquadDead",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+				},
+				group = "Ernie",
+				id = "Ernie_CounterAttack",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Vlad",
+				DevNotes = "A hidden quest for side content on Ernie after the betrayal\n\nI've intentionally moved Pierre's spawning in a TCE to allow easier tweak of conditions down the line",
+				Hidden = true,
+				QuestGroup = "Ernie Island",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "WorldFlipDone" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"H2",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "PierreDefeated",
+										Vars = set({
+	PierreDead = false,
+	PierreReturn = true,
+}),
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "Pierre_SpawnErnie",
+										QuestId = "ErnieSideQuests_WorldFlip",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('CityHasLoyalty', {
+										Amount = 40,
+										City = "ErnieVillage",
+										Condition = ">=",
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "Ernie_ExtraMilitia",
+										QuestId = "ErnieSideQuests_WorldFlip",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('CheckIsPersistentUnitDead', {
+										Negate = true,
+										per_ses_id = "NPC_BillyBoy",
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "BillyBoy_ErniePartisan",
+										QuestId = "ErnieSideQuests_WorldFlip",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('CheckIsPersistentUnitDead', {
+										Negate = true,
+										per_ses_id = "NPC_GreasyBasil",
+									}),
+								},
+								'Effects', {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "Basil_ErniePartisan",
+										QuestId = "ErnieSideQuests_WorldFlip",
+									}),
+								},
+							}),
+							PlaceObj('SectorEnableAutoDeploy', {
+								deploy = false,
+								sector_id = "H2",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_GatherPartisans",
+						QuestId = "ErnieSideQuests_WorldFlip",
+						requiredSectors = {
+							"H2",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"H2",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "WorldFlipDone" ),
+							}),
+							PlaceObj('UnitIsAware', {
+								TargetUnit = "EnemySquad",
+							}),
+							PlaceObj('PlayerIsPlayerTurn', {}),
+						},
+						Effects = {
+							PlaceObj('GroupAlert', {
+								TargetUnit = "WorldFlip_Partisans",
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "ErnieSideQuests_WorldFlip",
+										Vars = set( "Basil_ErniePartisan" ),
+									}),
+								},
+								'Effects', {
+									PlaceObj('GroupAlert', {
+										TargetUnit = "GreasyBasil",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "ErnieSideQuests_WorldFlip",
+										Vars = set( "BillyBoy_ErniePartisan" ),
+									}),
+								},
+								'Effects', {
+									PlaceObj('GroupAlert', {
+										TargetUnit = "BillyBoy",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "ErnieSideQuests_WorldFlip",
+										Vars = set( "Ernie_ExtraMilitia" ),
+									}),
+								},
+								'Effects', {
+									PlaceObj('GroupAlert', {
+										TargetUnit = "Militia_LoyaltyExtra",
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('QuestIsVariableBool', {
+										QuestId = "ErnieSideQuests_WorldFlip",
+										Vars = set( "Pierre_SpawnErnie" ),
+									}),
+								},
+								'Effects', {
+									PlaceObj('GroupAlert', {
+										TargetUnit = "WorldFlip_PierreAll",
+									}),
+								},
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PartisansJoinIn",
+						QuestId = "ErnieSideQuests_WorldFlip",
+						requiredSectors = {
+							"H2",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "WorldFlipDone" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"H2",
+								},
+							}),
+							PlaceObj('SectorIsInConflict', {
+								Negate = true,
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 6,
+								SecondTargetUnit = "WorldFlip_Partisans",
+								TargetUnit = "any merc",
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"ErnieWorldFlip02_ErnieLiberated",
+								},
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('GroupIsDead', {
+										Group = "GreasyBasil",
+										Negate = true,
+									}),
+								},
+								'Effects', {
+									PlaceObj('GroupSetBehaviorRoam', {
+										MarkerGroup = "Overheard_Civilians",
+										Orient = false,
+										TargetUnit = "GreasyBasil",
+										UseWeapons = true,
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('GroupIsDead', {
+										Group = "BillyBoy",
+										Negate = true,
+									}),
+								},
+								'Effects', {
+									PlaceObj('GroupSetBehaviorRoam', {
+										MarkerGroup = "Overheard_Civilians",
+										Orient = false,
+										TargetUnit = "BillyBoy",
+										UseWeapons = true,
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('GroupIsDead', {
+										Group = "Pierre",
+										Negate = true,
+									}),
+								},
+								'Effects', {
+									PlaceObj('GroupSetBehaviorRoam', {
+										MarkerGroup = "ErnieReturn_RoamZone",
+										Orient = false,
+										TargetUnit = "Pierre",
+										UseWeapons = true,
+									}),
+								},
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('GroupIsDead', {
+										Group = "WorldFlip_PierreAllies",
+										Negate = true,
+									}),
+								},
+								'Effects', {
+									PlaceObj('GroupSetBehaviorRoam', {
+										MarkerGroup = "ErnieReturn_RoamZone",
+										Orient = false,
+										TargetUnit = "WorldFlip_PierreAllies",
+										UseWeapons = true,
+									}),
+								},
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PostErnieBanters",
+						QuestId = "ErnieSideQuests_WorldFlip",
+						requiredSectors = {
+							"H2",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "WorldFlipDone" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"H2",
+								},
+							}),
+							PlaceObj('SectorIsInConflict', {
+								Negate = true,
+							}),
+							PlaceObj('SectorCheckOwner', {
+								owner = "any enemy",
+								sector_id = "H4",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ErnieSideQuests_WorldFlip",
+								Vars = set( "Pierre_SpawnErnie" ),
+							}),
+							PlaceObj('CheckIsPersistentUnitDead', {
+								Negate = true,
+								per_ses_id = "NPC_Pierre",
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 6,
+								SecondTargetUnit = "Pierre",
+								TargetUnit = "any merc",
+							}),
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"ErnieWorldFlip02_ErnieLiberated",
+								},
+								WaitOver = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "H4",
+									}),
+								},
+								'Effects', {
+									PlaceObj('PlayBanterEffect', {
+										Banters = {
+											"ErnieWorldFlip03_ ErnieLiberated_FortTaken",
+										},
+										searchInMap = true,
+										searchInMarker = false,
+									}),
+								},
+								'EffectsElse', {
+									PlaceObj('PlayBanterEffect', {
+										Banters = {
+											"ErnieWorldFlip03_ ErnieLiberated_noFort",
+										},
+										searchInMap = true,
+										searchInMarker = false,
+									}),
+									PlaceObj('GroupSetBehaviorExit', {
+										IdleStance = "Standing",
+										MarkerGroup = "East",
+										TargetUnit = "Pierre",
+										UseWeapons = true,
+									}),
+									PlaceObj('GroupSetBehaviorExit', {
+										IdleStance = "Standing",
+										MarkerGroup = "East",
+										TargetUnit = "WorldFlip_PierreAllies",
+										UseWeapons = true,
+									}),
+								},
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PostErniePierre",
+						QuestId = "ErnieSideQuests_WorldFlip",
+						requiredSectors = {
+							"H2",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "WorldFlipDone" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"H4",
+								},
+							}),
+							PlaceObj('CheckIsPersistentUnitDead', {
+								Negate = true,
+								per_ses_id = "NPC_Pierre",
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 6,
+								SecondTargetUnit = "Pierre",
+								TargetUnit = "any merc",
+							}),
+							PlaceObj('CombatIsActive', {
+								Negate = true,
+							}),
+							PlaceObj('SectorCheckOwner', {
+								owner = "any enemy",
+							}),
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"FortCorazon01_radio",
+								},
+								WaitOver = true,
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ErnieSideQuests_WorldFlip",
+								Vars = set({
+	FortAttackStarted = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"ErnieWorldFlip04_FortEntered",
+								},
+								banterSequentialWaitFor = "BanterStart",
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PartisansFortress_Banter",
+						QuestId = "ErnieSideQuests_WorldFlip",
+						requiredSectors = {
+							"H4",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"H4",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "04_Betrayal",
+								Vars = set( "WorldFlipDone" ),
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "PierreDefeated",
+								Vars = set( "PierreReturn" ),
+							}),
+							PlaceObj('UnitIsAware', {
+								DisableContextModification = true,
+								Negate = true,
+								TargetUnit = "PierreReturnAll",
+							}),
+							PlaceObj('CheckIsPersistentUnitDead', {
+								Negate = true,
+								per_ses_id = "NPC_Pierre",
+							}),
+							PlaceObj('CombatIsActive', {}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "FortAttackStarted",
+								QuestId = "ErnieSideQuests_WorldFlip",
+							}),
+							PlaceObj('GroupAlert', {
+								TargetUnit = "PierreReturnAll",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PartisansFortress_Alert",
+						QuestId = "ErnieSideQuests_WorldFlip",
+						requiredSectors = {
+							"H4",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckIsPersistentUnitDead', {
+								Negate = true,
+								per_ses_id = "NPC_Pierre",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "PierreDefeated",
+								Vars = set( "PierreReturn" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"H4",
+								},
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 15,
+								SecondTargetUnit = "Pierre",
+								TargetUnit = "any merc",
+							}),
+							PlaceObj('SectorCheckOwner', {}),
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"FortCorazon02_radio",
+								},
+								WaitOver = true,
+							}),
+						},
+						Effects = {
+							PlaceObj('PlayBanterEffect', {
+								Banters = {
+									"ErnieWorldFlip05_FortTaken",
+								},
+								searchInMap = true,
+								searchInMarker = false,
+							}),
+							PlaceObj('GroupSetBehaviorExit', {
+								IdleStance = "Standing",
+								MarkerGroup = "West",
+								TargetUnit = "PierreReturnAll",
+								UseWeapons = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PostFortressPierre",
+						QuestId = "ErnieSideQuests_WorldFlip",
+						requiredSectors = {
+							"H4",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('GroupIsDead', {
+								Group = "PierreReturnAll",
+								Negate = true,
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "PierreDefeated",
+								Vars = set( "PierreReturn" ),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"H4",
+								},
+							}),
+							PlaceObj('SectorCheckOwner', {}),
+						},
+						Effects = {
+							PlaceObj('GroupSetBehaviorRoam', {
+								MarkerGroup = "PierreFight_Yard",
+								Orient = false,
+								TargetUnit = "PierreReturnAll",
+								UseWeapons = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PostFortressPierreRoam",
+						QuestId = "ErnieSideQuests_WorldFlip",
+						requiredSectors = {
+							"H4",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"H2",
+									"H4",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "PierreDefeated",
+								Vars = set({
+	PierreDead = false,
+	PierreJoined = false,
+	PierreReturn = true,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('NpcUnitTakeItem', {
+								ItemId = "Unarmed",
+								TargetUnit = "Pierre",
+							}),
+							PlaceObj('NpcUnitGiveItem', {
+								ItemId = "AK74",
+								TargetUnit = "Pierre",
+							}),
+							PlaceObj('NpcUnitGiveItem', {
+								ItemId = "PierreMachete",
+								TargetUnit = "Pierre",
+							}),
+							PlaceObj('NpcUnitGiveItem', {
+								ItemId = "FragGrenade",
+								TargetUnit = "Pierre",
+							}),
+							PlaceObj('NpcUnitGiveItem', {
+								ItemId = "FragGrenade",
+								TargetUnit = "Pierre",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PierreRearm",
+						QuestId = "ErnieSideQuests_WorldFlip",
+						requiredSectors = {
+							"H2",
+							"H4",
+						},
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Pierre_SpawnErnie",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Ernie_ExtraMilitia",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Basil_ErniePartisan",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "BillyBoy_ErniePartisan",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "FortAttackStarted",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_GatherPartisans",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PartisansJoinIn",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PostErnieBanters",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PostErniePierre",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PartisansFortress_Banter",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PartisansFortress_Alert",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PostFortressPierre",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PostFortressPierreRoam",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PierreRearm",
+					}),
+				},
+				group = "Ernie",
+				id = "ErnieSideQuests_WorldFlip",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Author = "Vlad",
+				Chapter = "Intro",
+				Hidden = true,
+				QuestGroup = "Ernie Island",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('UnitHasInteraction', {
+								'TargetUnit', "any merc",
+								'CombatAction', "Interact_Banter",
+								'Group', "Billy",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ErnieSideQuests",
+								Vars = {
+									ProjectorFirstLine = false,
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "ProjectorFirstLine",
+								QuestId = "ErnieSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "event_ProjectorFirstLine",
+						QuestId = "ErnieSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('UnitHasInteraction', {
+								'TargetUnit', "any merc",
+								'CombatAction', "Interact_Banter",
+								'Group', "Billy",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ErnieSideQuests",
+								Vars = {
+									ProjectorFirstLine = true,
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ErnieSideQuests",
+								Vars = {
+									ProjectorLastLine = false,
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "ProjectorLastLine",
+								QuestId = "ErnieSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "event_ProjectorLastLine",
+						QuestId = "ErnieSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('UnitIsAware', {
+								TargetUnit = "BunkerEntrance_Guards",
+							}),
+							PlaceObj('PlayerIsPlayerTurn', {}),
+						},
+						Effects = {
+							PlaceObj('SetTimer', {
+								Label = T(933129543212, --[[ModItemQuestsDef ErnieSideQuests Label]] "Enemy reinforcements"),
+								Name = "Reinforcements",
+								Time = 30000,
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "RustReinforcmentsSpawn",
+								QuestId = "ErnieSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_RustReinforcementsCounter",
+						QuestId = "ErnieSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"H3",
+								},
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "BunkerEntrance_Guards",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ErnieSideQuests",
+								Vars = set({
+	RustReinforcmentsSpawn = false,
+}),
+							}),
+						},
+						Effects = {
+							PlaceObj('KillTimer', {
+								Name = "Reinforcements",
+								StopTCE = true,
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_RustReinforcementsStop",
+						QuestId = "ErnieSideQuests",
+						requiredSectors = {
+							"H3",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('CheckOR', {
+								Conditions = {
+									PlaceObj('BanterHasPlayed', {
+										Banters = {
+											"StealthTutorialNPC_01",
+										},
+										WaitOver = true,
+									}),
+									PlaceObj('SectorCheckOwner', {
+										sector_id = "I2",
+									}),
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('GroupSetBehaviorExit', {
+								IdleStance = "Standing",
+								MarkerGroup = "West",
+								Running = true,
+								TargetUnit = "StealthTutorialNPC",
+							}),
+							PlaceObj('ConditionalEffect', {
+								'Conditions', {
+									PlaceObj('BanterHasPlayed', {
+										Banters = {
+											"StealthTutorialNPC_01",
+										},
+									}),
+								},
+								'Effects', {
+									PlaceObj('CustomCodeEffect', {
+										custom_code = "TutorialHintsState.ShowStealth = true",
+									}),
+								},
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_StealthTutorialNPC_Exit",
+						QuestId = "ErnieSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"I2",
+								},
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "ErnieSideQuests",
+								Vars = set({
+	TCE_StealthTutorialNPC_Exit = false,
+}),
+							}),
+							PlaceObj('UnitIsAroundOtherUnit', {
+								Distance = 40,
+								SecondTargetUnit = "any merc",
+								TargetUnit = "StealthTutorialNPC",
+							}),
+						},
+						Effects = {
+							PlaceObj('CustomCodeEffect', {
+								custom_code = 'local uIdx = table.findfirst(g_Units, function(i, u) return u:IsInGroup("StealthTutorialNPC") end) local un = uIdx and g_Units[uIdx] if un then un:SetActionCommand("ChangeStance", "", 0, "Crouch") end',
+							}),
+							PlaceObj('WaitNpcIdle', {
+								TargetUnit = "StealthTutorialNPC",
+							}),
+							PlaceObj('GroupSetBehaviorPatrol', {
+								IdleStance = "Crouch",
+								MarkerGroup = "StealthNPCWaypoint",
+								TargetUnit = "StealthTutorialNPC",
+							}),
+							PlaceObj('WaitNpcIdle', {
+								TargetUnit = "StealthTutorialNPC",
+							}),
+							PlaceObj('BanterSetUnitInteraction', {
+								Banters = {
+									"StealthTutorialNPC_01",
+								},
+								TargetUnit = "StealthTutorialNPC",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_StealthTutorialNPC_SetPatrol",
+						QuestId = "ErnieSideQuests",
+						requiredSectors = {
+							"I2",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('BanterHasPlayed', {
+								Banters = {
+									"StealthTutorialNPC_01",
+								},
+							}),
+						},
+						Effects = {
+							PlaceObj('ExecuteCode', {
+								FuncCode = "ShowStealthTutorialPopup()",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_StealthTutorialTalkedTo",
+						QuestId = "ErnieSideQuests",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "H4",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "FortressFirstCapture",
+								QuestId = "ErnieSideQuests",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_FortressCaptured",
+						QuestId = "ErnieSideQuests",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "ProjectorFirstLine",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "event_ProjectorFirstLine",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ProjectorRepaired",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ProjectorLastLine",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "ProjectorLoyaltyGain",
+						Value = 5,
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "event_ProjectorLastLine",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "CrashExplored",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "CrashSalvaged",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Parts01",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Moonshine",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Tinhay",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "DeedeeExplosives",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "DeedeeDissuaded",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "DeedeeDead",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Rust_MoundUnlockLoot",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Rust_MoundInitial",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "RustCross9_UnlockLoot",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "RustBunkerDeskIntelGiven",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "RustReinforcmentsSpawn",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_RustReinforcementsCounter",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_RustReinforcementsStop",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "RustReinforcemntsTurns",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_StealthTutorialNPC_SetPatrol",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_StealthTutorialNPC_Exit",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_StealthTutorialTalkedTo",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "FortressFirstCapture",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_FortressCaptured",
+					}),
+				},
+				group = "Ernie",
+				id = "ErnieSideQuests",
+			}),
+			}),
 		}),
 	PlaceObj('ModItemFolder', {
 		'name', "Containers",

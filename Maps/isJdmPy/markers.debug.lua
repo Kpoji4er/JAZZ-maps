@@ -23,17 +23,6 @@
 	},
 	{
 		Groups = false,
-		LootTableIds = {
-			"JazzMapContainer_M2_LootGraves",
-		},
-		handle = 844365824,
-		map = "isJdmPy",
-		name = 'InventoryItemSpawn#824 "Разграбить Могилы"',
-		path = "InventoryItemSpawn ",
-		type = "InventoryItemSpawn",
-	},
-	{
-		Groups = false,
 		handle = 1000223775,
 		items = {},
 		map = "isJdmPy",
