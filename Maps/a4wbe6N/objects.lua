@@ -66882,7 +66882,7 @@ PlaceObj('TropicalPlant_LianaArc_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'CollectionIndex', 785,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, 1394478007)
 PlaceObj('MilitaryCamp_FenceCover_01', {
 	'ColorizationPalette', "",
@@ -67006,7 +67006,7 @@ PlaceObj('TropicalPlant_LianaArc_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'CollectionIndex', 785,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, 1017687999)
 PlaceObj('TropicalFillerPlants_04', {
 	'Pos', point(229056, 121666),
@@ -74751,7 +74751,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "JAZZ_AMMO_50BMG_Basic",
-	'target_dist', 114000,
+	'target_dist', 91200,
 }, nil, 1498919016)
 PlaceObj('WW2_SandBag_02', {
 	'ColorizationPalette', "",
@@ -74797,7 +74797,7 @@ PlaceObj('Hangar_Canvas_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3007,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, 1176358935)
 PlaceObj('HangarSmall_Wall_03', {
 	'ColorizationPalette', "",
@@ -75372,7 +75372,7 @@ PlaceObj('Hangar_Canvas_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3007,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, 1787424201)
 PlaceObj('HangarSmall_FlatWall_04', {
 	'ColorizationPalette', "",

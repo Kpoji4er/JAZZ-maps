@@ -1278,10 +1278,10 @@ PlaceObj('UnitMarker', {
 			},
 		}),
 	},
-	'Appearance', "LegionGunner",
+	'Appearance', "Legion_Heavy",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGunner",
+			'UnitDataDefId', "JAZZ_Legion_GunnerT1_Gunner",
 		}),
 	},
 }, nil, 1119236028)
@@ -1380,10 +1380,14 @@ PlaceObj('ConditionalSpawnMarker', {
 	'Pos', point(167400, 247800, 13300),
 	'CollectionIndex', 1963,
 	'AllowedMask', 4294966497,
+	'Type', "Logic",
 	'Spawn_Conditions', {
 		PlaceObj('SectorHasIntel', {
 			Negate = true,
 		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('SectorHasIntel', {}),
 	},
 }, nil, 1185036248)
 PlaceObj('IntelMarker', {
@@ -41967,7 +41971,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "JAZZ_AMMO_50BMG_Basic",
-	'target_dist', 114000,
+	'target_dist', 91200,
 }, nil, 1683436277)
 PlaceObj('FloorSlab', {
 	'Pos', point(67800, 186600, 16100),
