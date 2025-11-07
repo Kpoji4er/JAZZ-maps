@@ -48,7 +48,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Bunker_SpecialAmmo",
+			"CacaoCityJunkShop_DetonatorParts_RandomDetonator",
 		},
 		handle = 211099648,
 		map = "EbAhNkL",
@@ -59,7 +59,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Bunker_Shotgun",
+			"AssaultRifles_STG44",
 		},
 		handle = 280371200,
 		map = "EbAhNkL",
@@ -104,7 +104,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Drop_762NATO_Varied_Legion",
+			"Ammo_Random_VS2",
 		},
 		handle = 349470720,
 		map = "EbAhNkL",
@@ -138,7 +138,7 @@
 		Groups = false,
 		LootTableIds = {
 			"IndustrialContainer_Explosives",
-			"LegionSniper",
+			"LegionMeleeFighter",
 		},
 		handle = 491855872,
 		map = "EbAhNkL",
@@ -204,7 +204,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Bunker_MP40_add_ammo",
+			"Ammo_Random_VS2",
 		},
 		handle = 790495232,
 		map = "EbAhNkL",
@@ -215,7 +215,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Bunker_MP40_add_ammo",
+			"Jazz_Random_Ammo_Drop_T1",
 			"Noob_3006_Machinegun",
 		},
 		handle = 847233024,
@@ -227,8 +227,8 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Drop_MortarShell_Smoke",
-			"Drop_44cal_Varied",
+			"IndustrialContainer_Explosives",
+			"Carbines_Winchester",
 		},
 		handle = 885260288,
 		map = "EbAhNkL",
@@ -250,7 +250,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Bunker_MP40",
+			"Legion_PistolList",
 		},
 		handle = 941236224,
 		map = "EbAhNkL",
@@ -261,7 +261,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Bunker_MP40",
+			"Ammo_Random_VS2",
 		},
 		handle = 964165632,
 		map = "EbAhNkL",
@@ -561,19 +561,6 @@
 		name = "UnitMarker#524 (EnemyAll, Enemy_Left)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
-	},
-	{
-		Groups = {
-			"FortifyErnie_MG",
-		},
-		LootTableIds = {
-			"Bunker_MG42",
-		},
-		handle = 1127715987,
-		map = "EbAhNkL",
-		name = 'InventoryItemSpawn#987 "КОНТЕЙНЕР" (FortifyErnie_MG)',
-		path = "InventoryItemSpawn ",
-		type = "InventoryItemSpawn",
 	},
 	{
 		Groups = {
@@ -1005,7 +992,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Bunker_MG42_ammo",
+			"Jazz_Random_Ammo_Drop_T1",
 		},
 		handle = 1324516990,
 		map = "EbAhNkL",
@@ -1535,7 +1522,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Bunker_G98",
+			"RiflesBolt_Gewehr98",
 		},
 		handle = 1551381775,
 		map = "EbAhNkL",
@@ -1677,7 +1664,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Bunker_SpecialAmmo",
+			"Jazz_Random_Ammo_Drop_T1",
 		},
 		handle = 1621581827,
 		map = "EbAhNkL",

@@ -6896,7 +6896,7 @@ PlaceObj('GridMarker', {
 		}),
 	},
 	'Archetypes', {},
-	'UnitDef', "PierreGuard",
+	'UnitDef', "JAZZ_Legion_FlankerT3_Recon",
 }, nil, 1115948721)
 PlaceObj('TrapSpawnMarker', {
 	'Pos', point(132600, 163800),
@@ -7380,7 +7380,7 @@ PlaceObj('GridMarker', {
 		}),
 	},
 	'Archetypes', {},
-	'UnitDef', "PierreGuard",
+	'UnitDef', "JAZZ_Legion_GunnerT2_AssaultGunner",
 }, nil, 1634026948)
 PlaceObj('TrapSpawnMarker', {
 	'Pos', point(137400, 165000),
@@ -29938,7 +29938,7 @@ PlaceObj('MachineGunEmplacement', {
 	'CollectionIndex', 2618,
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 114000,
+	'target_dist', 91200,
 }, nil, 1055366417)
 PlaceObj('FloorSlab', {
 	'Pos', point(157800, 139800, 46200),
@@ -70529,7 +70529,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 114000,
+	'target_dist', 91200,
 	'appeal_optimal_dist', 24000,
 }, nil, 1614558190)
 PlaceObj('FloorSlab', {
@@ -94759,7 +94759,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 114000,
+	'target_dist', 91200,
 }, nil, 1638148231)
 PlaceObj('FloorSlab', {
 	'Pos', point(217800, 141000, 50400),
@@ -107979,7 +107979,7 @@ PlaceObj('MachineGunEmplacement', {
 	'DestructionOverrideMask', 1,
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 114000,
+	'target_dist', 91200,
 }, nil, 1254849263)
 PlaceObj('MilitaryCamp_PowerGenerator', {
 	'ColorizationPalette', "",
@@ -135567,7 +135567,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 114000,
+	'target_dist', 91200,
 }, nil, 1266482769)
 PlaceObj('JungleCamp_FoodCanPile_04', {
 	'Pos', point(210479, 215712, 47575),

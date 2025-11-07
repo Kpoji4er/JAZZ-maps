@@ -2411,14 +2411,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1339872082)
-PlaceObj('WaypointMarker', {
-	'Pos', point(225000, 169800),
-	'Groups', {
-		"StealthNPCWaypoint",
-	},
-	'AllowedMask', 4294966497,
-	'ID', "3",
-}, nil, 1799168959)
 PlaceObj('UnitMarker', {
 	'Pos', point(232200, 167400, 7000),
 	'Angle', 10800,
@@ -2458,6 +2450,14 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1429114189)
+PlaceObj('WaypointMarker', {
+	'Pos', point(229800, 169800, 7000),
+	'Groups', {
+		"StealthNPCWaypoint",
+	},
+	'AllowedMask', 4294966497,
+	'ID', "3",
+}, nil, 1799168959)
 PlaceObj('ExitZoneInteractable', {
 	'Pos', point(230029, 171104, 7151),
 	'Angle', 16200,

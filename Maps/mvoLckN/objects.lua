@@ -990,10 +990,13 @@ PlaceObj('ContainerMarker', {
 	'range_in_tiles', 1,
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "EmeraldCoast_Deedee_Cupboard",
+			'LootTableId', "ExplosiveComponents",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "EmeraldCoast_Deedee_Cupboard",
+			'LootTableId', "GrenadeBox",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "Container_BasicGrenadePack",
 		}),
 	},
 }, nil, 1140141252)
@@ -1419,7 +1422,7 @@ PlaceObj('UnitMarker', {
 			Vars = set( "TriggerWorldFlip" ),
 		}),
 	},
-	'Appearance', "Legion_Recon",
+	'Appearance', "LegionGoon_alt",
 	'InteractionName', T(426679404084, "Talk with <target.DisplayName>"),
 	'InteractionEffects', {
 		PlaceObj('UnitStartConversation', {
@@ -1430,7 +1433,7 @@ PlaceObj('UnitMarker', {
 	'ConflictIgnore', true,
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1212946015)
@@ -1449,7 +1452,7 @@ PlaceObj('UnitMarker', {
 			Vars = set( "TriggerWorldFlip" ),
 		}),
 	},
-	'Appearance', "Legion_Soldier",
+	'Appearance', "LegionRaider_alt",
 	'InteractionName', T(426679404084, "Talk with <target.DisplayName>"),
 	'InteractionEffects', {
 		PlaceObj('UnitStartConversation', {
@@ -1460,7 +1463,7 @@ PlaceObj('UnitMarker', {
 	'ConflictIgnore', true,
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1323994136)
@@ -1491,12 +1494,12 @@ PlaceObj('SetpieceSpawnMarker', {
 	'AllowedMask', 4294966497,
 	'Setpiece', "EncounterHerman",
 	'Name', "Shooter",
-	'Appearance', "Legion_Soldier",
+	'Appearance', "LegionRaider_alt_2",
 	'InteractionEffects', {},
 	'Side', "player1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1204550473)
@@ -1524,7 +1527,7 @@ PlaceObj('UnitMarker', {
 			Vars = set( "TriggerWorldFlip" ),
 		}),
 	},
-	'Appearance', "Legion_Soldier",
+	'Appearance', "LegionRaider_alt_2",
 	'ApproachRadius', 25,
 	'InteractionName', T(426679404084, "Talk with <target.DisplayName>"),
 	'InteractionEffects', {
@@ -1536,7 +1539,7 @@ PlaceObj('UnitMarker', {
 	'ConflictIgnore', true,
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 	'idle_stance', "Standing",
@@ -1557,7 +1560,7 @@ PlaceObj('UnitMarker', {
 			Vars = set( "TriggerWorldFlip" ),
 		}),
 	},
-	'Appearance', "Legion_Soldier",
+	'Appearance', "LegionRaider",
 	'InteractionName', T(426679404084, "Talk with <target.DisplayName>"),
 	'InteractionEffects', {
 		PlaceObj('UnitStartConversation', {
@@ -1568,7 +1571,7 @@ PlaceObj('UnitMarker', {
 	'ConflictIgnore', true,
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1894178550)
@@ -1610,7 +1613,7 @@ PlaceObj('UnitMarker', {
 			Vars = set( "TriggerWorldFlip" ),
 		}),
 	},
-	'Appearance', "Legion_Recon",
+	'Appearance', "LegionGoon_alt_2",
 	'InteractionName', T(426679404084, "Talk with <target.DisplayName>"),
 	'InteractionEffects', {
 		PlaceObj('UnitStartConversation', {
@@ -1621,7 +1624,7 @@ PlaceObj('UnitMarker', {
 	'ConflictIgnore', true,
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1577904770)
@@ -1650,7 +1653,7 @@ PlaceObj('UnitMarker', {
 	'ConflictIgnore', true,
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1171547570)
@@ -21913,7 +21916,7 @@ PlaceObj('Shanty_BeerBottle_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1630390341)
 PlaceObj('SetpiecePosMarker', {
-	'Pos', point(133787, 150438),
+	'Pos', point(133786, 150441),
 	'Angle', 10360,
 	'AllowedMask', 4294966497,
 	'Setpiece', "EncounterHerman",
