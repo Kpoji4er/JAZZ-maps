@@ -19512,31 +19512,67 @@ return {
 					}),
 				}),
 				PlaceObj('ModItemConversation', {
-					AssignToGroup = "RebelSergant_Immortal_M1",
-					DefaultActor = "RebelSergant_Immortal_M1",
+					AssignToGroup = "RebelSergeant_Immortal_M1",
+					DefaultActor = "RebelSergeant_Immortal_M1",
 					group = "Ernie",
 					id = "Ernie_M1_Rebel_Briefing",
 					PlaceObj('ConversationPhrase', {
-						AutoRemove = true,
-						Keyword = "До нас?",
-						KeywordT = T(234521900198, --[[ModItemConversation Ernie_M1_Rebel_Briefing KeywordT]] "До нас?"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "RebelSergant_Immortal_M1",
-								Text = T(408210932763, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1]] 'Да, была тут шайка бездарей. Приплыли на <em>катере "Гордость"</em>, сидели в барах, говорили что защищают нас от Легиона. А потом уплыли вглубь страны и больше их никто не видел.'),
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "01_Landing",
+								Vars = set({
+	M1_TalkWithRebels = false,
+}),
 								param_bindings = false,
 							}),
 						},
-						id = "3",
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Привет"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "RebelSergeant_Immortal_M1",
+								Text = T(236956584170, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergeant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Greeting]] "	Не ожидал встретить союзников, в этой мясорубке, мы не ожидали выжить в этом бою.\n	Я - <em>команданте Контимир Бурда</em> из местной ячейки партизан. Мы выслеживали Рафаля, проклятый предатель, крыса, придурок и вор, один из кучи офицеров <em>Легиона</em>. Наконец эта тварь нашла свою смерть."),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "RebelSergeant_Immortal_M1",
+								Text = T(587362470651, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergeant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Greeting]] "Но скажите, кто вы такие? Уж точно не крестьяне. На солдат вы не похожи. Вы какие-то крутые командос? <em>Наёмники, как те, которые были до вас</em>?"),
+								param_bindings = false,
+							}),
+						},
+						PhraseRolloverText = T(557666141230, --[[ModItemConversation Ernie_M1_Rebel_Briefing PhraseRolloverText]] "Ха-ха! Вот это день. Думал, мы падём под лапами этих шакалов... Вышло же иначе. Их кровь на песке - и в этом есть ваша заслуга."),
+						id = "Greeting",
 						param_bindings = false,
 					}),
 					PlaceObj('ConversationPhrase', {
-						Keyword = "Да, мы наёмники",
-						KeywordT = T(564146628713, --[[ModItemConversation Ernie_M1_Rebel_Briefing KeywordT]] "Да, мы наёмники"),
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "01_Landing",
+								Vars = set( "M1_TalkWithRebels" ),
+								param_bindings = false,
+							}),
+						},
+						GoTo = "2",
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Привет"),
 						Lines = {
 							PlaceObj('ConversationLine', {
-								Character = "RebelSergant_Immortal_M1",
-								Text = T(116913411015, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Да, мы наёмники]] "Ок, надеюсь вы и дальше будете на нашей стороне"),
+								Character = "RebelSergeant_Immortal_M1",
+								Text = T(687392546783, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergeant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Greeting2]] "Приветствую, наемники"),
+								param_bindings = false,
+							}),
+						},
+						PhraseRolloverText = "",
+						id = "Greeting2",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Keyword = "Мы наемники из AIM",
+						KeywordT = T(121103800097, --[[ModItemConversation Ernie_M1_Rebel_Briefing KeywordT]] "Мы наемники из AIM"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "RebelSergeant_Immortal_M1",
+								Text = T(116913411015, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergeant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Мы наемники из AIM]] "Надеюсь вы и дальше будете на нашей стороне"),
 								param_bindings = false,
 							}),
 						},
@@ -19544,17 +19580,18 @@ return {
 						id = "2",
 						param_bindings = false,
 						PlaceObj('ConversationPhrase', {
+							AutoRemove = true,
 							Keyword = "Мы ищем Эмму Лафонтен.",
 							KeywordT = T(346178197206, --[[ModItemConversation Ernie_M1_Rebel_Briefing KeywordT]] "Мы ищем Эмму Лафонтен."),
 							Lines = {
 								PlaceObj('ConversationLine', {
-									Character = "RebelSergant_Immortal_M1",
-									Text = T(786150907352, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Мы ищем Эмму Лафонтен.]] "Эмма? Так вот зачем вы здесь... Да, я знаю, где она. Девчонка храбрая, слишком храбрая для своего возраста. Она укрывается в вилле к северу. <em>Сектор K4</em>"),
+									Character = "RebelSergeant_Immortal_M1",
+									Text = T(786150907352, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergeant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Мы ищем Эмму Лафонтен.]] "Эмма? Так вот зачем вы здесь... Да, я знаю, где она. Девчонка храбрая, слишком храбрая для своего возраста. Она укрывается в вилле к северу. <em>Сектор K4</em>"),
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationLine', {
-									Character = "RebelSergant_Immortal_M1",
-									Text = T(906274913373, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Мы ищем Эмму Лафонтен.]] "Но добраться до нее сейчас непросто. Легион взял виллу в осаду, окружил отрядами и ждёт удобного часа, чтобы ударить. Если вы хотите добраться до неё - придётся проломить кольцо."),
+									Character = "RebelSergeant_Immortal_M1",
+									Text = T(906274913373, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergeant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Мы ищем Эмму Лафонтен.]] "Но добраться до нее сейчас непросто. Легион взял виллу в осаду, окружил отрядами и ждёт удобного часа, чтобы ударить. Если вы хотите добраться до неё - придётся проломить кольцо."),
 									param_bindings = false,
 								}),
 							},
@@ -19572,8 +19609,8 @@ return {
 								KeywordT = T(481468742132, --[[ModItemConversation Ernie_M1_Rebel_Briefing KeywordT]] "Сколько их там?"),
 								Lines = {
 									PlaceObj('ConversationLine', {
-										Character = "RebelSergant_Immortal_M1",
-										Text = T(759023941645, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1]] "Несколько лагерей вокруг виллы. Копят силы, чтобы навалиться всем разом."),
+										Character = "RebelSergeant_Immortal_M1",
+										Text = T(759023941645, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergeant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Сколько их там?]] "Несколько лагерей вокруг виллы. Копят силы, чтобы навалиться всем разом."),
 										param_bindings = false,
 									}),
 								},
@@ -19581,23 +19618,22 @@ return {
 								param_bindings = false,
 								PlaceObj('ConversationPhrase', {
 									Conditions = {
-										PlaceObj('UnitHasStat', {
-											Amount = 40,
-											Stat = "Leadership",
-											TargetUnit = "player mercs on map",
+										PlaceObj('UnitSquadHasMerc', {
+											HasStat = "Leadership",
+											StatValue = 40,
 											param_bindings = false,
 										}),
 									},
 									GiveQuests = {
 										"Jazz_ClearTheWay",
 									},
-									GoTo = "<root>",
+									GoTo = "2",
 									Keyword = "Значит, если мы их предварительно зачистим, пробиться к Эмме будет проще?",
 									KeywordT = T(411051082448, --[[ModItemConversation Ernie_M1_Rebel_Briefing KeywordT]] "Значит, если мы их предварительно зачистим, пробиться к Эмме будет проще?"),
 									Lines = {
 										PlaceObj('ConversationLine', {
-											Character = "RebelSergant_Immortal_M1",
-											Text = T(616034440918, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1]] "Более того, дезорганизованные группы легиона уже не смогут так эффективно атаковать виллу и вы легко с ними справитесь"),
+											Character = "RebelSergeant_Immortal_M1",
+											Text = T(616034440918, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergeant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Значит, если мы их предварительно зачистим, пробиться к Эмме будет проще?]] "Более того, дезорганизованные группы легиона уже не смогут так эффективно атаковать виллу и вы легко с ними справитесь"),
 											param_bindings = false,
 										}),
 									},
@@ -19608,13 +19644,13 @@ return {
 						}),
 						PlaceObj('ConversationPhrase', {
 							AutoRemove = true,
-							GoTo = "<root>",
+							GoTo = "2",
 							Keyword = "Ситуация в регионе сложная...",
 							KeywordT = T(590690509211, --[[ModItemConversation Ernie_M1_Rebel_Briefing KeywordT]] "Ситуация в регионе сложная..."),
 							Lines = {
 								PlaceObj('ConversationLine', {
-									Character = "RebelSergant_Immortal_M1",
-									Text = T(786150907352, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Ситуация в регионе сложная...]] "Сложная, не то слово, если коротко, то наша ячейка отрезана от основного континента. Легион в миг выбил всю страну, <em>Остров Эрни</em> был последним оплотом обороны, дочь президента спряталась в центре острова, говорят эта крыса <em>Коразон</em> c ней, также на острове есть база контрабандистов, нас сложно назвать друзьями, но они продают нам оружие и на острове мы умудряемся уживаться. В целом же Легион тут повсюду, какие-то сектора еще держат оборону, какие-то полностью заняты Красной заразой."),
+									Character = "RebelSergeant_Immortal_M1",
+									Text = T(786150907352, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergeant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Ситуация в регионе сложная...]] "Сложная, не то слово, если коротко, то наша ячейка отрезана от основного континента. Легион в миг выбил всю страну, <em>Остров Эрни</em> был последним оплотом обороны, дочь президента спряталась в центре острова, говорят эта крыса <em>Коразон</em> c ней, также на острове есть база контрабандистов, нас сложно назвать друзьями, но они продают нам оружие и на острове мы умудряемся уживаться. В целом же Легион тут повсюду, какие-то сектора еще держат оборону, какие-то полностью заняты Красной заразой."),
 									param_bindings = false,
 								}),
 							},
@@ -19622,18 +19658,19 @@ return {
 							param_bindings = false,
 						}),
 						PlaceObj('ConversationPhrase', {
+							AutoRemove = true,
 							Keyword = 'Значит, вы воюете с этим "Легионом"?',
 							KeywordT = T(744426841682, --[[ModItemConversation Ernie_M1_Rebel_Briefing KeywordT]] 'Значит, вы воюете с этим "Легионом"?'),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									AlwaysInterject = true,
-									Character = "RebelSergant_Immortal_M1",
-									Text = T(857576932041, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1]] "Верно. Легион приходит в города деревни как хозяева: забирают провизию, запугивают и убивают мирных граждан, опустошают наши шахты. Они превращают труд народа в свою личную добычу. Рафаль лишь один из сотен этих ублюдков. Они как сорняк: вырвешь один - завтра вырастут десять. \n"),
+									Character = "RebelSergeant_Immortal_M1",
+									Text = T(857576932041, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergeant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Значит, вы воюете с этим "Легионом"?]] "Верно. Легион приходит в наши города и деревни как хозяева: забирают провизию, запугивают и убивают мирных граждан, опустошают наши шахты. Они превращают труд народа в свою личную добычу. Рафаль лишь один из сотен этих ублюдков. Они как сорняк: вырвешь один - завтра вырастут десять. \n"),
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationLine', {
-									Character = "RebelSergant_Immortal_M1",
-									Text = T(167445102934, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1]] "От имени Maquis, Мятежников Гранд Чиена, призываю вас встать рядом с нами в борьбе против Легиона - и всех, кто душит общие идеалы ради власти и прибыли. А о Награде договоримся"),
+									Character = "RebelSergeant_Immortal_M1",
+									Text = T(167445102934, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergeant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Значит, вы воюете с этим "Легионом"?]] "От имени Maquis, Мятежников Гранд Чиена, призываю вас встать рядом с нами в борьбе против Легиона - и всех, кто душит общие идеалы ради власти и прибыли. А о Награде договоримся"),
 									param_bindings = false,
 								}),
 							},
@@ -19643,13 +19680,13 @@ return {
 								GiveQuests = {
 									"JAZZ_REBELS_0_MeetTheRebels",
 								},
-								GoTo = "<root>",
+								GoTo = "2",
 								Keyword = "Мы согласны",
 								KeywordT = T(441073052992, --[[ModItemConversation Ernie_M1_Rebel_Briefing KeywordT]] "Мы согласны"),
 								Lines = {
 									PlaceObj('ConversationLine', {
-										Character = "RebelSergant_Immortal_M1",
-										Text = T(984774152982, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1]] "В таком случае, приглашаю вас в наш Лагерь в <em>секторе L1</em>. Найдите там меня или команданте Касонго - нашего лидера здесь, на острове"),
+										Character = "RebelSergeant_Immortal_M1",
+										Text = T(984774152982, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergeant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Мы согласны]] "В таком случае, приглашаю вас в наш Лагерь в <em>секторе L1</em>. Найдите там меня или команданте Касонго - нашего лидера здесь, на острове"),
 										param_bindings = false,
 									}),
 								},
@@ -19659,13 +19696,13 @@ return {
 							}),
 							PlaceObj('ConversationPhrase', {
 								Align = "right",
-								GoTo = "<root>",
+								GoTo = "2",
 								Keyword = "Нет, ищите себе других дураков",
 								KeywordT = T(889143734951, --[[ModItemConversation Ernie_M1_Rebel_Briefing KeywordT]] "Нет, ищите себе других дураков"),
 								Lines = {
 									PlaceObj('ConversationLine', {
-										Character = "RebelSergant_Immortal_M1",
-										Text = T(533640818206, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1]] "Жаль. Ну, если передумаете - я думаю, мы еще встретимся."),
+										Character = "RebelSergeant_Immortal_M1",
+										Text = T(533640818206, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergeant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Нет, ищите себе других дураков]] "Жаль. Ну, если передумаете - я думаю, мы еще встретимся."),
 										param_bindings = false,
 									}),
 								},
@@ -19687,8 +19724,8 @@ return {
 							KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Пока"),
 							Lines = {
 								PlaceObj('ConversationLine', {
-									Character = "RebelSergant_Immortal_M1",
-									Text = T(986868227792, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Goodbye]] "Удачи наемники, и да пребудет с вами сила."),
+									Character = "RebelSergeant_Immortal_M1",
+									Text = T(986868227792, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergeant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Goodbye]] "Удачи наемники, и да пребудет с вами сила."),
 									param_bindings = false,
 								}),
 							},
@@ -19697,35 +19734,17 @@ return {
 						}),
 					}),
 					PlaceObj('ConversationPhrase', {
-						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Привет"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "RebelSergant_Immortal_M1",
-							}),
-						},
-						PhraseRolloverText = T(106376302158, --[[ModItemConversation Ernie_M1_Rebel_Briefing PhraseRolloverText]] "Приветствую, наемники"),
-						VariantPhrase = true,
-						id = "Greeting2",
-					}),
-					PlaceObj('ConversationPhrase', {
 						AutoRemove = true,
-						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Привет"),
+						Keyword = "До нас?",
+						KeywordT = T(234521900198, --[[ModItemConversation Ernie_M1_Rebel_Briefing KeywordT]] "До нас?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
-								Character = "RebelSergant_Immortal_M1",
-								Text = T(236956584170, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Greeting]] "	Не ожидал встретить союзников, в этой мясорубке, мы не ожидали выжить в этом бою.\n	Я - <em>команданте Контимир Бурда</em> из местной ячейки партизан. Мы выслеживали Рафаля, проклятый предатель, крыса, придурок и вор, один из кучи офицеров <em>Легиона</em>. Наконец эта тварь нашла свою смерть."),
-								param_bindings = false,
-							}),
-							PlaceObj('ConversationLine', {
-								Character = "RebelSergant_Immortal_M1",
-								Text = T(587362470651, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Greeting]] "Но скажите, кто вы такие? Уж точно не крестьяне. На солдат вы не похожи. Вы какие-то крутые командос? <em>Наёмники, как те, которые были до вас</em>?"),
+								Character = "RebelSergeant_Immortal_M1",
+								Text = T(408210932763, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergeant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:До нас?]] 'Да, была тут шайка бездарей. Приплыли на <em>катере "Гордость"</em>, сидели в барах, говорили что защищают нас от Легиона. А потом уплыли вглубь страны и больше их никто не видел.'),
 								param_bindings = false,
 							}),
 						},
-						PhraseRolloverText = T(557666141230, --[[ModItemConversation Ernie_M1_Rebel_Briefing PhraseRolloverText]] "Ха-ха! Вот это день. Думал, мы падём под лапами этих шакалов... Вышло же иначе. Их кровь на песке - и в этом есть ваша заслуга."),
-						id = "Greeting",
+						id = "3",
 						param_bindings = false,
 					}),
 				}),
@@ -45218,10 +45237,6 @@ return {
 								lock_conflict = true,
 								sector_id = "M1",
 							}),
-							PlaceObj('ModifySatelliteAggro', {
-								AmountIsPercent = false,
-								Halt = true,
-							}),
 						},
 						Once = true,
 						ParamId = "TCE_InitialConflictLock",
@@ -45244,7 +45259,7 @@ return {
 						Effects = {
 							PlaceObj('SetBadgeEffect', {
 								BadgePreset = "NpcBadge",
-								BadgeUnit = "Rebel_Sergeant_M1",
+								BadgeUnit = "RebelSergeant_Immortal_M1",
 								Quest = "01_Landing",
 							}),
 						},
@@ -45560,6 +45575,7 @@ return {
 			}),
 			PlaceObj('ModItemQuestsDef', {
 				Chapter = "Ernie_Rebels",
+				DisplayName = T(711512520142, --[[ModItemQuestsDef JAZZ_REBELS_0_MeetTheRebels DisplayName]] "Повстанцы"),
 				KillTCEsConditions = {
 					PlaceObj('QuestKillTCEsOnCompleted', {}),
 				},

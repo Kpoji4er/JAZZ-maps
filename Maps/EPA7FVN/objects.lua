@@ -490,7 +490,18 @@ PlaceObj('UnitMarker', {
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
-	'Despawn_Conditions', {},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M1",
+			},
+		}),
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "01_Landing",
+			Vars = set( "M1_TalkWithRebels" ),
+		}),
+	},
 	'Appearance', "Recon_Rebels_02",
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
@@ -801,7 +812,7 @@ PlaceObj('UnitMarker', {
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelSergant_Immortal_M1",
+			'UnitDataDefId', "RebelSergeant_Immortal_M1",
 		}),
 	},
 }, nil, 1868573068)

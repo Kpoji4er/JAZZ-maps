@@ -263,6 +263,13 @@
 				type = "QuestIsVariableBool",
 				var = set( "Given", "M1_Captured" ),
 			},
+			{
+				editor_view_abridged = "if M1_TalkWithRebels",
+				filter_type = "quest",
+				reference_id = "01_Landing",
+				type = "QuestIsVariableBool",
+				var = set( "M1_TalkWithRebels" ),
+			},
 		},
 		map = "EPA7FVN",
 		name = "UnitMarker#689 (Helping_Rebels)",
