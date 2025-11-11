@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4502,
+	'version', 4512,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
@@ -15,7 +15,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1762549524,
+	'saved', 1762884676,
 	'code_hash', 1345675170524483864,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
@@ -1411,6 +1411,16 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "QuestsDef",
 			'Id', "01_Landing",
+			'ClassDisplayName', "QuestsEditor",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "QuestsDef",
+			'Id', "Jazz_ClearTheWay",
+			'ClassDisplayName', "QuestsEditor",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "QuestsDef",
+			'Id', "JAZZ_REBELS_0_MeetTheRebels",
 			'ClassDisplayName', "QuestsEditor",
 		}),
 		PlaceObj('ModResourcePreset', {
