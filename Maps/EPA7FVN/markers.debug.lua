@@ -1140,15 +1140,7 @@
 			"Helping_Rebels",
 		},
 		handle = 1868573068,
-		items = {
-			{
-				editor_view_abridged = "if Given and M1_Captured",
-				filter_type = "quest",
-				reference_id = "01_Landing",
-				type = "QuestIsVariableBool",
-				var = set( "Given", "M1_Captured" ),
-			},
-		},
+		items = {},
 		map = "EPA7FVN",
 		name = "UnitMarker#068 (Helping_Rebels)",
 		path = "UnitMarker ",

@@ -19502,6 +19502,7 @@ return {
 					}),
 				}),
 				PlaceObj('ModItemConversation', {
+					AssignToGroup = "Helping_Rebels",
 					Conditions = {
 						PlaceObj('UnitIsInSector', {
 							Sector = "M1",
@@ -85349,8 +85350,15 @@ return {
 										QuestId = "FortifyErnie",
 										Vars = set( "MachineGun_Declined", "MachineGun_Done" ),
 									}),
-									PlaceObj('UnitSquadHasItem', {
-										ItemId = "MG42",
+									PlaceObj('AND', {
+										Conditions = {
+											PlaceObj('UnitSquadHasItem', {
+												ItemId = "Jazz_Browning_MuchineGun",
+											}),
+											PlaceObj('UnitSquadHasItem', {
+												ItemId = "Jazz_Browning_Bench",
+											}),
+										},
 									}),
 								},
 							}),
@@ -85362,7 +85370,7 @@ return {
 								Vars = set( "MachineGun_Given" ),
 							}),
 						},
-						Text = T(809144720392, --[[ModItemQuestsDef FortifyErnie Text]] "Basil needs a MG42 <em>machine gun</em> to protect the <em><SectorName('H2')></em>"),
+						Text = T(809144720392, --[[ModItemQuestsDef FortifyErnie Text]] "Basil needs a Browning .50 cal. <em>machine gun</em> to protect the <em><SectorName('H2')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -85392,7 +85400,7 @@ return {
 								Vars = set( "MachineGun_Given" ),
 							}),
 						},
-						Text = T(990717185362, --[[ModItemQuestsDef FortifyErnie Text]] "There is a MG42 <em>machine gun</em> in the bunker at <em><SectorName('I6')></em>"),
+						Text = T(990717185362, --[[ModItemQuestsDef FortifyErnie Text]] "There is a Browning <em>machine gun</em> in the bunker at <em><SectorName('I6')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -85447,7 +85455,7 @@ return {
 								Vars = set( "MachineGun_Done" ),
 							}),
 						},
-						Text = T(826675773932, --[[ModItemQuestsDef FortifyErnie Text]] "<em>Outcome:</em> Gave the MG42 <em>machine gun</em> to Basil"),
+						Text = T(826675773932, --[[ModItemQuestsDef FortifyErnie Text]] "<em>Outcome:</em> Gave the Browning .50 cal. <em>machine gun</em> to Basil"),
 					}),
 					PlaceObj('QuestNote', {
 						CompletionConditions = {
@@ -85463,7 +85471,7 @@ return {
 								Vars = set( "MachineGun_Declined" ),
 							}),
 						},
-						Text = T(495827247577, --[[ModItemQuestsDef FortifyErnie Text]] "<em>Outcome:</em> Refused to give Basil the MG42 <em>machine gun</em>"),
+						Text = T(495827247577, --[[ModItemQuestsDef FortifyErnie Text]] "<em>Outcome:</em> Refused to give Basil the Browning .50 cal. <em>machine gun</em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -85646,8 +85654,15 @@ return {
 									"I6_Underground",
 								},
 							}),
-							PlaceObj('UnitSquadHasItem', {
-								ItemId = "MG42",
+							PlaceObj('AND', {
+								Conditions = {
+									PlaceObj('UnitSquadHasItem', {
+										ItemId = "Jazz_Browning_Bench",
+									}),
+									PlaceObj('UnitSquadHasItem', {
+										ItemId = "Jazz_Browning_MuchineGun",
+									}),
+								},
 							}),
 						},
 						Effects = {
@@ -85681,7 +85696,7 @@ return {
 							}),
 							PlaceObj('SetSectorAutoResolveDefenderBonus', {
 								autoResolveDefenderBonus = 500,
-								sector_id = "H2",
+								sector_id = "I5",
 							}),
 						},
 						Once = true,
@@ -85750,7 +85765,7 @@ return {
 						Name = "SpawnReinforcements",
 					}),
 					PlaceObj('QuestVarNum', {
-						Name = "LoyaltyGain_MG42",
+						Name = "LoyaltyGain_Browning",
 						Value = 10,
 					}),
 					PlaceObj('QuestVarBool', {
@@ -86671,7 +86686,7 @@ return {
 										WaitOver = true,
 									}),
 									PlaceObj('SectorCheckOwner', {
-										sector_id = "I2",
+										sector_id = "J5",
 									}),
 								},
 							}),
@@ -86706,7 +86721,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"I2",
+									"M4",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -95734,6 +95749,31 @@ return {
 			}),
 		}),
 		}),
+	PlaceObj('ModItemInventoryItemCompositeDef', {
+		'Group', "Quest - Items",
+		'Id', "Jazz_Browning_MuchineGun",
+		'object_class', "InventoryItem",
+		'Repairable', false,
+		'Icon', "UI/Icons/Weapons/M2Browning",
+		'SubIcon', "UI/Icons/Weapons/M2Browning",
+		'DisplayName', T(126002992863, --[[ModItemInventoryItemCompositeDef Jazz_Browning_MuchineGun DisplayName]] "Браунинг .50"),
+		'DisplayNamePlural', T(861955157003, --[[ModItemInventoryItemCompositeDef Jazz_Browning_MuchineGun DisplayNamePlural]] "Браунинги .50"),
+		'Description', T(349426689660, --[[ModItemInventoryItemCompositeDef Jazz_Browning_MuchineGun Description]] "Пулемёт Браунинг калибра 12.7х99, С РУК НЕ СТРЕЛЯТЬ!!!"),
+		'AdditionalHint', T(773306762695, --[[ModItemInventoryItemCompositeDef Jazz_Browning_MuchineGun AdditionalHint]] "Без Триноги."),
+		'LargeItem', 1,
+	}),
+	PlaceObj('ModItemInventoryItemCompositeDef', {
+		'Group', "Quest - Items",
+		'Id', "Jazz_Browning_Bench",
+		'object_class', "InventoryItem",
+		'Icon', "UI/Icons/Weapons/M2Browning",
+		'SubIcon', "UI/Icons/Weapons/M2Browning",
+		'DisplayName', T(842567173624, --[[ModItemInventoryItemCompositeDef Jazz_Browning_Bench DisplayName]] "Тринога для пулемёта Браунинг .50"),
+		'DisplayNamePlural', T(204691184640, --[[ModItemInventoryItemCompositeDef Jazz_Browning_Bench DisplayNamePlural]] "Триноги для пулемёта Браунинг .50"),
+		'Description', T(374492121427, --[[ModItemInventoryItemCompositeDef Jazz_Browning_Bench Description]] "Станок для установки крупнокалиберного пулемёта Браунинг"),
+		'AdditionalHint', T(729018809211, --[[ModItemInventoryItemCompositeDef Jazz_Browning_Bench AdditionalHint]] "Большая, тяжелая хреновина"),
+		'LargeItem', 1,
+	}),
 	PlaceObj('ModItemFolder', {
 		'name', "Quest Banters",
 		'comment', "Бантеры для квестов",
@@ -95818,138 +95858,10 @@ return {
 			value = 12,
 		}),
 		}),
-	PlaceObj('ModItemSetpiecePrg', {
-		CameraMode = "Show all",
-		Map = "EPA7FVN",
-		MapPatchPath = "Mod/FhNNYd/MapPatches/SetPieces/NewSetpiece_CPeNF5Y/EPA7FVN.patch",
-		RestoreCamera = true,
-		affected_grids = {},
-		compacted_obj_boxes = {},
-		group = "Default",
-		id = "FlagHillLanding",
-		mapName = "NewSetpiece_CPeNF5Y",
-		obj_hashes = {
-			-7060595492719604132,
-			-5204600026592515455,
-			1340843430289419221,
-		},
-		PlaceObj('SetpieceFadeOut', {
-			FadeOutTime = 0,
-		}),
-		PlaceObj('SetpieceAssignFromSquad', {
-			AssignTo = "Merc1",
-		}),
-		PlaceObj('SetpieceAssignFromSquad', {
-			AssignTo = "Merc2",
-			Unit = 2,
-		}),
-		PlaceObj('SetpieceAssignFromSquad', {
-			AssignTo = "Merc3",
-			Unit = 3,
-		}),
-		PlaceObj('SetpieceAssignFromSquad', {
-			AssignTo = "Merc4",
-			Unit = 4,
-		}),
-		PlaceObj('SetpieceAssignFromSquad', {
-			AssignTo = "Merc5",
-			Unit = 5,
-		}),
-		PlaceObj('SetpieceAssignFromSquad', {
-			AssignTo = "Merc6",
-			Unit = 6,
-		}),
-		PlaceObj('SetpieceSetStance', {
-			Actors = "Merc2",
-		}),
-		PlaceObj('SetpieceSetStance', {
-			Actors = "Merc4",
-		}),
-		PlaceObj('SetpieceSetStance', {
-			Actors = "Merc5",
-		}),
-		PlaceObj('SetpieceSetStance', {
-			Actors = "Merc6",
-		}),
-		PlaceObj('SetpieceTeleport', {
-			Actors = "Merc1",
-			AssignTo = "SP_Merc1_Start",
-			Marker = "SP_Merc1_Start",
-		}),
-		PlaceObj('SetpieceTeleport', {
-			Actors = "Merc2",
-			AssignTo = "SP_Merc1_Start",
-			Marker = "SP_Merc2_Start",
-		}),
-		PlaceObj('SetpieceTeleport', {
-			Actors = "Merc3",
-			AssignTo = "SP_Merc1_Start",
-			Marker = "SP_Merc3_Start",
-		}),
-		PlaceObj('SetpieceTeleport', {
-			Actors = "Merc4",
-			AssignTo = "SP_Merc1_Start",
-			Marker = "SP_Merc4_Start",
-		}),
-		PlaceObj('SetpieceTeleport', {
-			Actors = "Merc5",
-			AssignTo = "SP_Merc1_Start",
-			Marker = "SP_Merc5_Start",
-		}),
-		PlaceObj('SetpieceTeleport', {
-			Actors = "Merc6",
-			AssignTo = "SP_Merc1_Start",
-			Marker = "SP_Merc6_Start",
-		}),
-		PlaceObj('SetpieceGotoPosition', {
-			Actors = "Merc1",
-			Marker = "SP_Merc1_GoTo",
-			Stance = "Standing",
-			StraightLine = true,
-			UseRun = false,
-			Wait = false,
-			animated_rotation = true,
-		}),
-		PlaceObj('SetpieceGotoPosition', {
-			Actors = "Merc3",
-			Marker = "SP_Merc3_GoTo",
-			Stance = "Standing",
-			StraightLine = true,
-			UseRun = false,
-			Wait = false,
-			animated_rotation = true,
-		}),
-		PlaceObj('SetpieceCamera', {
-			Duration = 0,
-			LookAt1 = point(191569, 98363, 12039),
-			Pos1 = point(193834, 94419, 14116),
-			Wait = false,
-		}),
-		PlaceObj('SetpieceFadeIn', {
-			FadeInDelay = 0,
-			FadeInTime = 2000,
-			Wait = false,
-		}),
-		PlaceObj('SetpieceCamera', {
-			Duration = 8000,
-			LookAt1 = point(193174, 101618, 9567),
-			LookAt2 = point(188612, 105716, 12523),
-			Movement = "decelerated",
-			Pos1 = point(195006, 99243, 9559),
-			Pos2 = point(189644, 102936, 12986),
-		}),
-		PlaceObj('SetpieceFadeOut', {
-			FadeOutTime = 1700,
-		}),
-		PlaceObj('SetpieceCamera', {
-			CamProps = {
-				floor = 0,
-			},
-			CamType = "Tac",
-			Duration = 0,
-			LookAt1 = point(181252, 123610, 6678),
-			Pos1 = point(188060, 109452, 17678),
-			Zoom = 1300,
-		}),
+	PlaceObj('ModItemChangeProp', {
+		'TargetClass', "SetpiecePrg",
+		'TargetId', "FlagHillLanding",
+		'TargetProp', "Map",
+		'TargetValue', "EPA7FVN",
 	}),
 }

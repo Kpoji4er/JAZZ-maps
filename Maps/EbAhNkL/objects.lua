@@ -3628,6 +3628,9 @@ PlaceObj('ContainerMarker', {
 		PlaceObj('ConditionalLoot', {
 			'LootTableId', "CacaoCityJunkShop_DetonatorParts_RandomDetonator",
 		}),
+		PlaceObj('ConditionalLoot', {
+			'ItemId', "Jazz_Browning_MuchineGun",
+		}),
 	},
 }, nil, 211099648)
 PlaceObj('ContainerMarker', {
@@ -4946,7 +4949,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(710145438390, "CONTAINER"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'ItemId', "MG42",
+			'ItemId', "Jazz_Browning_Bench",
 		}),
 	},
 }, nil, 1127715987)

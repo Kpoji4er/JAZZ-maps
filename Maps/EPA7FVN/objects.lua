@@ -776,27 +776,19 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('AND', {
-			Conditions = {
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "Rebels_Position_M1",
-					TargetUnit = "Helping_Rebels",
-				}),
-				PlaceObj('QuestIsVariableBool', {
-					QuestId = "01_Landing",
-					Vars = set( "Given", "M1_Captured" ),
-				}),
-			},
-		}),
-	},
+	'TriggerConditions', {},
 	'TriggerEffects', {},
 	'Routine', "Ambient",
 	'RoutineArea', "Rebels_Position_M1",
+	'ArchetypesTriState', set( "Commander" ),
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
-	'Despawn_Conditions', {},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerControlSectors', {
+			Amount = 5,
+		}),
+	},
 	'Appearance', "Commander_Rebels",
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
@@ -62064,7 +62056,7 @@ p("SavannaPlant_Bush_07",144392,93019,16961,44,4281347887,2097164)
 p("SavannaPlant_Bush_06",144443,93532,10541,43,4280954933,2097164)
 p("SavannaPlant_Bush_06",145073,93853,13058,35,4280825136,2097164)
 p("ParSystem",145927,90395,"Env_Fire1x1",268435456)
-p("Grease",147406,90334,15577,16200,4096,0,0,4,2033,2097553)
+p("Grease",147406,90334,15577,16200,4096,0,0,3,2033,2097553)
 p("SavannaPlant_Bush_08",145487,93344,9864,46,4281479213,2097164)
 p("SavannaPlant_Bush_04",145576,93686,1056,37,4280890673,2097164)
 p("SavannaPlant_Bush_04",145821,93405,17946,35,4280824116,2097164)
