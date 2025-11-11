@@ -37,6 +37,21 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2934,
+	'AllowedMask', 4294966497,
+	'Name', "col_JungleCamp_GraveyardCross_02",
+	'Index', 2879,
+}, nil, 1499622809)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Name', "col_JungleCamp_GraveyardCross_3",
+	'Index', 2934,
+}, nil, 1523581909)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
 	'Name', "col_TropicalRockSharp_4",
 	'Index', 3372,
@@ -97,11 +112,11 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "Legion_Shaman02",
+	'Appearance', "LegionRaidLeader",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaidLeader_Stronger",
+			'UnitDataDefId', "JAZZ_Legion_LeaderT1_Sergeant",
 		}),
 	},
 }, nil, 1100578679)
@@ -113,11 +128,11 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "LegionSniper_alt",
+	'Appearance', "Legion_Demolishion",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSniper",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
 		}),
 	},
 }, nil, 1288481629)
@@ -129,11 +144,11 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "LegionSniper_alt_2",
+	'Appearance', "LegionMedic_Stronger_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSniper",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Bonemaker",
 		}),
 	},
 }, nil, 1814161523)
@@ -145,11 +160,11 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "LegionRaider_alt",
+	'Appearance', "Legion_Marksman02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1641457294)
@@ -161,11 +176,11 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "Legion_Marksman",
+	'Appearance', "LegionSharpShooter_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSniper",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1636492997)
@@ -177,11 +192,11 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "LegionRaider_alt",
+	'Appearance', "LegionRaidLeader",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
+			'UnitDataDefId', "JAZZ_Legion_LeaderT1_Sergeant",
 		}),
 	},
 }, nil, 1395444420)
@@ -193,11 +208,11 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "LegionButcher",
+	'Appearance', "Legion_Stormer",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
 		}),
 	},
 }, nil, 1014322205)
@@ -220,11 +235,11 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "LegionGunner_alt",
+	'Appearance', "LegionSharpShooter_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGunner",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1792753973)
@@ -236,11 +251,11 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "LegionSniper_alt_2",
+	'Appearance', "Legion_Shaman",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSniper",
+			'UnitDataDefId', "JAZZ_Legion_LeaderT1_Sergeant",
 		}),
 	},
 }, nil, 1141711261)
@@ -252,11 +267,11 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "Legion_Heavy02",
+	'Appearance', "Legion_Heavy",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGunner_Stronger",
+			'UnitDataDefId', "JAZZ_Legion_GunnerT1_Gunner",
 		}),
 	},
 }, nil, 1180634458)
@@ -269,11 +284,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking_2",
-	'Appearance', "LegionButcher_alt",
+	'Appearance', "Legion_Recon",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1108286899)
@@ -297,11 +312,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking_2",
-	'Appearance', "LegionManiac",
+	'Appearance', "LegionGoon_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1692924194)
@@ -318,7 +333,7 @@ PlaceObj('UnitMarker', {
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1871749817)
@@ -346,7 +361,7 @@ PlaceObj('UnitMarker', {
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1747230031)
@@ -359,11 +374,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking_4",
-	'Appearance', "Legion_Recon",
+	'Appearance', "Legion_Recon02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1123136696)
@@ -376,11 +391,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking_4",
-	'Appearance', "Legion_Recon03",
+	'Appearance', "LegionScout_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1638856166)
@@ -411,11 +426,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking_2",
-	'Appearance', "LegionManiac",
+	'Appearance', "LegionGoon_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1615349621)
@@ -425,11 +440,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking",
-	'Appearance', "LegionScout_Stronger_alt_2",
+	'Appearance', "Legion_Demolishion",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout_Stronger",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT2_Pyro",
 		}),
 	},
 }, nil, 1897030813)
@@ -475,11 +490,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking",
-	'Appearance', "LegionScout_Stronger_alt_2",
+	'Appearance', "Legion_Recon02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout_Stronger",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT2_Scout",
 		}),
 	},
 }, nil, 1275895154)
@@ -504,11 +519,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking",
-	'Appearance', "LegionGunner_Stronger",
+	'Appearance', "Legion_Heavy",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGunner_Stronger",
+			'UnitDataDefId', "JAZZ_Legion_GunnerT1_Gunner",
 		}),
 	},
 }, nil, 1334838270)
@@ -518,11 +533,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking",
-	'Appearance', "LegionGunner_Stronger_alt_2",
+	'Appearance', "Legion_Soldier06",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGunner_Stronger",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1120825144)
@@ -535,11 +550,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking_3",
-	'Appearance', "Legion_Recon03",
+	'Appearance', "Legion_Recon02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1716595822)
@@ -564,13 +579,18 @@ PlaceObj('UnitMarker', {
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1514723484)
 PlaceObj('ContainerMarker', {
 	'Pos', point(79800, 222600, 16100),
+	'Groups', {
+		"Grave_M3",
+	},
+	'CollectionIndex', 2879,
 	'AllowedMask', 4294966497,
+	'ID', "Grave_M3",
 	'Name', "DeadSoldier",
 	'DisplayName', T(904442973978, "DEAD SOLDIER"),
 	'ItemSpawners', {
@@ -589,35 +609,35 @@ PlaceObj('ContainerMarker', {
 	},
 	'DespawnIfEmpty', true,
 }, nil, 803135488)
-PlaceObj('ContainerMarker', {
-	'Pos', point(79800, 226200, 16100),
+PlaceObj('ExamineMarker', {
+	'Pos', point(78600, 226200),
+	'CollectionIndex', 2934,
 	'AllowedMask', 4294966497,
-	'TriggerEffects', {
+	'EnabledConditions', {
+		PlaceObj('UnitHasInteraction', {
+			'TargetUnit', "any merc",
+			'CombatAction', "Interact_LootContainer",
+			'Event', "start",
+			'Group', "Grave_M3",
+		}),
+	},
+	'ConditionalEffects', {
 		PlaceObj('GroupAddStatusEffect', {
 			Status = "Conscience_Guilty",
 			TargetUnit = "player mercs on map",
 		}),
 	},
-	'Name', "Разграбить Могилы",
-	'DisplayName', T(453170214951, "Разграбить Могилы"),
-	'ItemSpawners', {
-		PlaceObj('ConditionalLoot', {
-			'ItemId', "",
-			'LootTableId', "JazzMapContainer_M2_LootGraves",
-		}),
-	},
-	'DespawnIfEmpty', true,
-}, nil, 844365824)
+}, nil, 1136611872)
 PlaceObj('UnitMarker', {
 	'Pos', point(137400, 60600),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "LegionSniper_alt_2",
+	'Appearance', "Legion_Marksman02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSniper",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1722726620)
@@ -625,11 +645,11 @@ PlaceObj('UnitMarker', {
 	'Pos', point(137400, 63000),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Appearance', "LegionGunner_alt",
+	'Appearance', "Legion_Heavy02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGunner",
+			'UnitDataDefId', "JAZZ_Legion_GunnerT1_Gunner",
 		}),
 	},
 }, nil, 1114391753)
@@ -638,11 +658,11 @@ PlaceObj('UnitMarker', {
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "LegionSniper_alt_2",
+	'Appearance', "LegionSharpShooter_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSniper",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1056483834)
@@ -650,11 +670,11 @@ PlaceObj('UnitMarker', {
 	'Pos', point(174600, 65400),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
-	'Appearance', "LegionGunner_alt",
+	'Appearance', "Legion_Heavy02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGunner",
+			'UnitDataDefId', "JAZZ_Legion_GunnerT1_Gunner",
 		}),
 	},
 }, nil, 1565558141)
@@ -667,7 +687,7 @@ PlaceObj('UnitMarker', {
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaidLeader",
+			'UnitDataDefId', "JAZZ_Legion_LeaderT1_Sergeant",
 		}),
 	},
 }, nil, 1071213434)
@@ -676,11 +696,11 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "Legion_Marksman",
+	'Appearance', "LegionSharpShooter_alt_1",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1812690265)
@@ -689,11 +709,11 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "Legion_Heavy02",
+	'Appearance', "Legion_Marksman03",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGunner",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1614904693)
@@ -702,11 +722,11 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "Legion_Heavy02",
+	'Appearance', "LegionScout",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGunner",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1722749382)
@@ -719,7 +739,7 @@ PlaceObj('UnitMarker', {
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1298173686)
@@ -728,11 +748,11 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "Legion_Marksman",
+	'Appearance', "LegionSharpShooter_alt_1",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1339897144)
@@ -741,11 +761,11 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "Legion_Marksman",
+	'Appearance', "LegionSharpShooter",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1897995053)
@@ -755,11 +775,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Patrol",
 	'RoutineArea', "AL_Defender",
-	'Appearance', "LegionGrenadir_Stronger_alt_2",
+	'Appearance', "LegionSniper_Stronger",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGrenadier_Stronger",
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Ambusher",
 		}),
 	},
 }, nil, 1228182893)
@@ -769,11 +789,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Patrol",
 	'RoutineArea', "AL_Defender",
-	'Appearance', "LegionGunner",
+	'Appearance', "LegionRaider_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGunner",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1194414154)
@@ -782,11 +802,11 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "Legion_Heavy",
+	'Appearance', "LegionGunner_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGunner",
+			'UnitDataDefId', "JAZZ_Legion_GunnerT1_Gunner",
 		}),
 	},
 }, nil, 1616035001)
@@ -795,11 +815,11 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "Legion_Marksman",
+	'Appearance', "Legion_Marksman02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1192952676)
@@ -809,11 +829,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Patrol",
 	'RoutineArea', "AL_Defender",
-	'Appearance', "LegionSniper_alt_2",
+	'Appearance', "LegionSharpShooter_Stronger",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSniper",
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Marksman",
 		}),
 	},
 }, nil, 1787713188)
@@ -823,11 +843,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Patrol",
 	'RoutineArea', "AL_Defender",
-	'Appearance', "LegionGrenadir_alt",
+	'Appearance', "Legion_Demolishion",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGrenadier",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
 		}),
 	},
 }, nil, 1206690595)
@@ -837,11 +857,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Patrol",
 	'RoutineArea', "AL_Defender",
-	'Appearance', "LegionGrenadir_alt_2",
+	'Appearance', "LegionGrenadir",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGrenadier",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
 		}),
 	},
 }, nil, 1000223775)
@@ -851,11 +871,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Patrol",
 	'RoutineArea', "AL_Defender",
-	'Appearance', "Legion_Demolishion",
+	'Appearance', "LegionGrenadir_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGrenadier",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
 		}),
 	},
 }, nil, 1391153219)
@@ -864,11 +884,11 @@ PlaceObj('UnitMarker', {
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "Legion_Marksman",
+	'Appearance', "LegionRaider",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1507396875)
@@ -888,11 +908,11 @@ PlaceObj('UnitMarker', {
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "Legion_Marksman",
+	'Appearance', "Legion_Soldier05",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1573572658)
@@ -901,11 +921,11 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'Appearance', "Legion_Marksman",
+	'Appearance', "Legion_Soldier",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1648192911)
@@ -929,11 +949,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking_3",
-	'Appearance', "LegionRaider_alt",
+	'Appearance', "Legion_Marksman02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1564223854)
@@ -946,11 +966,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking_3",
-	'Appearance', "Legion_Recon03",
+	'Appearance', "LegionScout_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1030382433)
@@ -963,11 +983,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking_3",
-	'Appearance', "LegionRaider_Stronger_alt_3",
+	'Appearance', "LegionRaider_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider_Stronger",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1224797473)
@@ -980,11 +1000,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking_3",
-	'Appearance', "LegionRaider_Stronger_alt_2",
+	'Appearance', "Legion_Soldier05",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider_Stronger",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1430373240)
@@ -1007,11 +1027,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking_3",
-	'Appearance', "LegionGunner_alt",
+	'Appearance', "LegionMedic_Stronger_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGunner",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Bonemaker",
 		}),
 	},
 }, nil, 1643570624)
@@ -1024,11 +1044,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking_5",
-	'Appearance', "LegionRaidLeader_alt",
+	'Appearance', "Legion_Shaman",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaidLeader",
+			'UnitDataDefId', "JAZZ_Legion_LeaderT1_Sergeant",
 		}),
 	},
 }, nil, 1759080306)
@@ -1052,11 +1072,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking_3",
-	'Appearance', "LegionButcher_alt",
+	'Appearance', "LegionMedic_Stronger_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Bonemaker",
 		}),
 	},
 }, nil, 1691666326)
@@ -1069,11 +1089,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking_3",
-	'Appearance', "LegionManiac",
+	'Appearance', "LegionRaider",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1050290307)
@@ -1103,11 +1123,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking_3",
-	'Appearance', "LegionButcher_alt",
+	'Appearance', "Legion_Stormer",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
 		}),
 	},
 }, nil, 1312282356)
@@ -1120,11 +1140,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking_3",
-	'Appearance', "LegionManiac",
+	'Appearance', "Legion_Recon",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1533814600)
@@ -20742,6 +20762,7 @@ PlaceObj('JungleCamp_GraveyardCross_03', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2879,
 	'AllowedMask', 782,
 }, nil, 1842120137)
 PlaceObj('JungleCamp_Skeleton_01', {
@@ -20756,6 +20777,7 @@ PlaceObj('JungleCamp_GraveyardCross_02', {
 	'Angle', 5911,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2879,
 	'AllowedMask', 782,
 }, nil, 1311879894)
 PlaceObj('JungleCamp_Skeleton_01', {
@@ -20777,6 +20799,7 @@ PlaceObj('JungleCamp_GraveyardCross_05', {
 	'Angle', 6586,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2879,
 	'AllowedMask', 782,
 }, nil, 1740240492)
 PlaceObj('JungleCamp_Skeleton_01', {
@@ -20905,6 +20928,7 @@ PlaceObj('JungleCamp_GraveyardCross_02', {
 	'Axis', point(-5, -5, 4095),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2879,
 	'AllowedMask', 782,
 }, nil, 1798890135)
 PlaceObj('TropicalPlant_01_Tree_01', {
@@ -59772,7 +59796,7 @@ p("TropicalPlant_Grass_03",73000,226000,2243,128,2097156)
 p("TropicalPlant_Grass_03",73000,227000,2233,132,2097156)
 p("TropicalPlant_Grass_02",72000,228000,16612,129,2097156)
 p("TropicalPlant_Grass_04",72000,229000,19515,130,2097156)
-p("TropicalPlant_Grass_03",73000,228000,492,126,2097156)
+p("TropicalPlant_Grass_03",72987,227998,492,126,2097156)
 p("TropicalPlant_Grass_04",73000,229000,7305,126,2097156)
 p("TropicalCliffSharp_04",77400,216600,16800,10800,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalCliffSharp_04",78600,214200,16800,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
@@ -59785,34 +59809,45 @@ p("TropicalPlant_Grass_03",74000,223000,9410,123,2097156)
 p("TropicalPlant_Grass_02",74000,224000,19790,133,2097156)
 p("TropicalPlant_Grass_01",74000,225000,19561,128,2097156)
 p("TropicalPlant_Grass_04",75000,225000,16230,133,2097156)
-p("JungleCamp_GraveyardHelmet_01",76890,223106,17593,1)
-p("RiverStones_04",76743,223392,15049,2148407600,2148407600,2148407600,"",1073748481)
+p("TropicalPlant_Grass_03",76348,221913,15876,492,126,2097157)
+p("TropicalRockAssembly_04",76207,222491,16311,"terrainchunk",10,0,0,40,60,10,40,60,131073)
+p("TropicalRockAssembly_02",76033,223163,16300,"terrainchunk",10,0,0,40,60,10,40,60,131073)
+p("JungleCamp_GraveyardHelmet_01",76890,223106,17593,2879,257)
+p("TropicalRockAssembly_02",77553,222618,16300,6300,157,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
+p("TropicalPlant_Grass_03",75886,223361,15876,492,126,2097157)
+p("RiverStones_04",76743,223392,15049,2148407600,2148407600,2148407600,"","terrainchunk",10,0,0,40,60,10,40,60,1073879553)
+p("TropicalRockAssembly_02",76959,224320,16300,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalPlant_Grass_02",74000,226000,8988,126,2097156)
 p("TropicalPlant_Grass_04",74000,227000,20338,130,2097156)
 p("TropicalPlant_Grass_04",75000,226000,17937,130,2097156)
+p("TropicalPlant_Flowers_01",75469,226027,16460,14703,98,2097157)
 p("TropicalPlant_Grass_01",75000,227000,19408,134,2097156)
 p("TropicalPlant_Grass_02",74000,228000,8506,126,2097156)
 p("TropicalPlant_Grass_02",74000,229000,528,126,2097156)
 p("TropicalPlant_Grass_04",75000,228000,9701,132,2097156)
+p("TropicalPlant_Flowers_06",74975,228659,16398,7098,96,2097157)
 p("TropicalPlant_Flowers_06",75441,229134,7098,96,2097156)
-p("TropicalPlant_Flowers_06",76552,227173,17424,103,2097156)
-p("TropicalPlant_Flowers_01",77259,225585,14703,98,2097156)
-p("TropicalPlant_Flowers_06",77620,226759,17424,103,2097156)
+p("TropicalPlant_Grass_03",77414,225436,15876,492,126,2097157)
+p("TropicalPlant_Grass_03",76915,226885,16432,11116,133,2097157)
+p("TropicalPlant_Flowers_06",76557,227726,16458,20124,103,2097157)
 p("TropicalPlant_Flowers_06",76611,228882,7098,96,2097156)
 p("TropicalPlant_Flowers_05",76887,229064,141,98,2097156)
 p("TropicalPlant_Flowers_06",77612,228876,17424,103,2097156)
-p("JungleCamp_GraveyardHelmet_02",78467,223196,17749,17822,2097153)
-p("RiverStones_04",78100,223587,15049,2148407600,2148407600,2148407600,"",1073748481)
-p("RiverStones_04",79831,223727,15049,2148407600,2148407600,2148407600,"",1073748481)
-p("JungleCamp_GraveyardHelmet_02",80298,223148,17470,1321,2097153)
-p("TropicalPlant_Flowers_06",78405,226889,17424,103,2097156)
-p("TropicalPlant_Flowers_06",79144,226912,17424,103,2097156)
+p("JungleCamp_GraveyardHelmet_02",78467,223196,17749,17822,2879,2097409)
+p("TropicalPlant_Grass_03",79862,222926,15876,492,126,2097157)
+p("RiverStones_04",78100,223587,15049,2148407600,2148407600,2148407600,"","terrainchunk",10,0,0,40,60,10,40,60,1073879553)
+p("RiverStones_04",79831,223727,15049,2148407600,2148407600,2148407600,"","terrainchunk",10,0,0,40,60,10,40,60,1073879553)
+p("TropicalRockAssembly_02",79273,224839,16300,16200,157,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
+p("TropicalRockAssembly_02",80136,223027,16300,16200,157,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
+p("JungleCamp_GraveyardHelmet_02",80298,223148,17470,1321,2879,2097409)
+p("TropicalRockAssembly_01",80935,225131,16269,"terrainchunk",10,0,0,40,60,10,40,60,131073)
+p("TropicalRockAssembly_02",81569,224311,16300,157,"terrainchunk",10,0,0,40,60,10,40,60,131077)
+p("TropicalPlant_Grass_03",79812,227128,16432,11116,133,2097157)
+p("TropicalPlant_Flowers_06",78300,227957,16460,12924,103,2097157)
 p("TropicalPlant_Flowers_06",78501,228756,17424,103,2097156)
-p("TropicalPlant_Flowers_06",79346,228730,17424,103,2097156)
-p("TropicalPlant_Flowers_06",80038,226821,17424,103,2097156)
-p("TropicalPlant_Flowers_06",80890,226826,17424,103,2097156)
-p("TropicalPlant_Flowers_06",79913,229350,17424,103,2097156)
-p("TropicalPlant_Flowers_06",81116,228448,17424,103,2097156)
+p("TropicalPlant_Flowers_06",79528,228334,16398,10803,103,2097157)
+p("TropicalPlant_Grass_03",80588,225847,15876,492,126,2097157)
+p("TropicalPlant_Grass_01",81267,227601,15940,6589,125,2097157)
 p("TropicalPlant_Grass_04",82000,197000,75,4)
 p("TropicalPlant_Grass_01",82000,198000,155,4)
 p("TropicalPlant_Grass_01",83000,197000,117,4)
@@ -59930,11 +59965,14 @@ p("TropicalCliffSharp_04",85800,216600,16800,5400,"terrainchunk",10,0,0,40,60,10
 p("TropicalRockSharp_01",85766,217599,15525,7943,161,-657,1580,3721,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalCliffSharp_04",85800,217800,16800,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("JungleCamp_GraveyardHelmet_01",82212,224002,17716,1515,2097153)
-p("JungleCamp_GraveyardHelmet_01",82212,224002,17716,1515,2097153)
-p("RiverStones_04",82122,224384,15049,2148407600,2148407600,2148407600,"",1073748481)
+p("JungleCamp_GraveyardHelmet_01",82212,224002,17716,1515,2879,2097409)
+p("TropicalPlant_Grass_03",82838,223361,15876,492,126,2097157)
+p("RiverStones_04",82122,224384,15049,2148407600,2148407600,2148407600,"","terrainchunk",10,0,0,40,60,10,40,60,1073879553)
 p("TropicalPlant_Grass_01",82000,225000,6589,125,2097156)
 p("TropicalPlant_Grass_01",83000,224000,19031,129,2097156)
+p("TropicalRockAssembly_04",83585,223643,16420,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalPlant_Grass_02",83000,225000,2521,125,2097156)
+p("TropicalRockAssembly_03",83466,225201,16270,163,"terrainchunk",10,0,0,40,60,10,40,60,131077)
 p("TropicalPlant_Flowers_03",85445,223201,13572,2097152)
 p("TropicalPlant_Grass_02",84000,224000,20853,133,2097156)
 p("TropicalPlant_Grass_04",84000,225000,6556,133,2097156)
@@ -59943,12 +59981,13 @@ p("TropicalPlant_Grass_02",86000,224000,9261,129,2097156)
 p("TropicalPlant_Grass_01",85000,225000,361,133,2097156)
 p("TropicalPlant_Grass_04",86000,225000,10943,124,2097156)
 p("TropicalPlant_Grass_02",82000,226000,15591,130,2097156)
-p("TropicalPlant_Grass_02",82000,227000,3377,126,2097156)
+p("TropicalPlant_Grass_02",82001,227003,3377,126,2097156)
 p("TropicalPlant_Grass_02",83000,226000,11865,132,2097156)
 p("TropicalPlant_Grass_04",83000,227000,8609,133,2097156)
 p("TropicalPlant_Grass_01",82000,228000,19674,123,2097156)
 p("TropicalPlant_Grass_04",83000,228000,17959,124,2097156)
 p("TropicalPlant_Grass_04",83000,229000,7899,128,2097156)
+p("TropicalPlant_Grass_01",83473,228962,16380,11787,129,2097157)
 p("TropicalPlant_Grass_02",84000,226000,15228,133,2097156)
 p("TropicalPlant_Grass_04",84000,227000,1979,130,2097156)
 p("TropicalPlant_Grass_03",85000,226000,11830,126,2097156)
@@ -59960,7 +59999,7 @@ p("TropicalPlant_Grass_02",84000,228000,19688,129,2097156)
 p("TropicalPlant_Grass_01",84000,229000,20296,134,2097156)
 p("TropicalPlant_Grass_04",85000,228000,129,125,2097156)
 p("TropicalPlant_Grass_01",86000,228000,5060,125,2097156)
-p("TropicalPlant_Grass_02",85000,229000,3816,123,2097156)
+p("TropicalPlant_Grass_02",85000,229004,3816,123,2097156)
 p("TropicalPlant_Grass_04",86000,229000,1375,124,2097156)
 p("TropicalPlant_Flowers_04",86609,223352,7010,97,2097156)
 p("TropicalPlant_Grass_02",87000,224000,15398,132,2097156)
@@ -60045,11 +60084,12 @@ p("TropicalPlant_Grass_03",98000,228000,16793,129,2097156)
 p("TropicalPlant_Grass_03",98000,229000,16867,134,2097156)
 p("TropicalRockSharp_01",65985,230121,11043,6004,163,-385,640,4027,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalCliffSharp_04",72600,231000,13300,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
-p("TropicalPlant_Flowers_06",76853,230404,7098,96,2097156)
+p("TropicalPlant_Flowers_06",76550,230079,16460,21024,103,2097157)
 p("TropicalRockSharp_01",74209,237499,9900,5453,250,4291676360,1285,-1025,3751,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
-p("TropicalPlant_Flowers_06",77865,230147,17424,103,2097156)
-p("TropicalPlant_Flowers_06",78842,230172,17424,103,2097156)
+p("TropicalPlant_Flowers_06",78401,230493,16398,10,103,2097157)
 p("TropicalRockSharp_01",78810,230902,7187,6583,250,4291676360,-2188,1825,2943,"terrainchunk",10,0,0,40,60,10,40,60,2228253)
+p("TropicalPlant_Flowers_06",79052,229475,16400,17424,103,2097157)
+p("TropicalPlant_Flowers_06",80263,229405,16400,17424,103,2097157)
 p("TropicalPlant_Grass_01",80580,230062,9009,2097152)
 p("TropicalRockSharp_01",80777,231095,11043,16452,163,-736,-412,4008,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_01",81326,229382,8184,98,2097156)

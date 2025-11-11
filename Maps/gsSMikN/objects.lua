@@ -2545,7 +2545,7 @@ PlaceObj('Collection', {
 }, nil, 1895712523)
 SetNextSyncHandle(2000000001)
 PlaceObj('GridMarker', {
-	'Pos', point(40200, 125400, 7000),
+	'Pos', point(60600, 115800, 7000),
 	'Groups', {
 		"west",
 	},
@@ -2555,7 +2555,7 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 12,
 }, nil, 1686910424)
 PlaceObj('ExitZoneInteractable', {
-	'Pos', point(41907, 125488, 6674),
+	'Pos', point(60430, 117415, 6674),
 	'Angle', 5400,
 	'Groups', {
 		"west",
@@ -2585,13 +2585,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
+		}),
 	},
-	'Appearance', "LegionScout",
+	'Appearance', "Legion_Soldier04",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1611451284)
@@ -2617,13 +2621,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
+		}),
 	},
-	'Appearance', "Legion_Recon",
+	'Appearance', "LegionGoon_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1434356733)
@@ -2649,13 +2657,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
+		}),
 	},
-	'Appearance', "Legion_Recon",
+	'Appearance', "LegionGoon_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1292128590)
@@ -2681,13 +2693,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
+		}),
 	},
-	'Appearance', "LegionGoon",
+	'Appearance', "Legion_Soldier02",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1422750371)
@@ -2713,13 +2729,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
+		}),
 	},
-	'Appearance', "LegionGoon_alt",
+	'Appearance', "Legion_Soldier06",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1659383212)
@@ -2745,13 +2765,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
 	},
-	'Appearance', "Legion_Recon",
+	'Appearance', "LegionGoon_alt_2",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1250286084)
@@ -2777,13 +2801,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
 	},
-	'Appearance', "Legion_Recon",
+	'Appearance', "LegionGoon_alt_2",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1243871818)
@@ -2812,7 +2840,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(935540794912, "DEAD BODY"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body",
+			'LootTableId', "MedsDrop",
 		}),
 		PlaceObj('ConditionalLoot', {
 			'ItemId', "TinyDiamonds",
@@ -2842,13 +2870,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
+		}),
 	},
-	'Appearance', "LegionButcher_alt_2",
+	'Appearance', "LegionRaidLeader_alt_2",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_LeaderT1_Sergeant",
 		}),
 	},
 }, nil, 1784120571)
@@ -2875,13 +2907,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
+		}),
 	},
-	'Appearance', "Legion_Stormer03",
+	'Appearance', "LegionManiac_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
 		}),
 	},
 }, nil, 1635510464)
@@ -2908,13 +2944,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
+		}),
 	},
-	'Appearance', "LegionButcher_alt",
+	'Appearance', "LegionMedic_Stronger_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Bonemaker",
 		}),
 	},
 }, nil, 1862623350)
@@ -2941,13 +2981,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
+		}),
 	},
-	'Appearance', "LegionGoon",
+	'Appearance', "LegionSharpShooter_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1315501847)
@@ -2974,13 +3018,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
+		}),
 	},
-	'Appearance', "Legion_Stormer03",
+	'Appearance', "Legion_Recon",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1749138926)
@@ -3007,13 +3055,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
+		}),
 	},
-	'Appearance', "Legion_Stormer03",
+	'Appearance', "Legion_Soldier",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1838043749)
@@ -3090,13 +3142,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
+		}),
 	},
 	'Appearance', "Legion_Demolishion",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGrenadier",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
 		}),
 	},
 }, nil, 1635877710)
@@ -3123,13 +3179,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K3",
+		}),
 	},
-	'Appearance', "Legion_Demolishion",
+	'Appearance', "LegionGrenadir_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGrenadier",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
 		}),
 	},
 }, nil, 1674292821)
@@ -3194,7 +3254,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(935540794912, "DEAD BODY"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body",
+			'LootTableId', "MedsDrop",
 		}),
 	},
 }, nil, 440983552)
@@ -3218,12 +3278,12 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(935540794912, "DEAD BODY"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body",
+			'LootTableId', "MedsDrop",
 		}),
 	},
 }, nil, 780001280)
 PlaceObj('GridMarker', {
-	'Pos', point(63000, 220200, 8400),
+	'Pos', point(64200, 219000, 7700),
 	'Angle', 5400,
 	'Groups', {
 		"South",
@@ -3278,13 +3338,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
 	},
-	'Appearance', "Legion_Stormer02",
+	'Appearance', "LegionScout_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1661783716)
@@ -3310,13 +3374,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
 	},
-	'Appearance', "LegionManiac",
+	'Appearance', "Legion_Recon",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1774739277)
@@ -3342,13 +3410,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
 	},
-	'Appearance', "Legion_Stormer",
+	'Appearance', "Legion_Stormer02",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
 		}),
 	},
 }, nil, 1307801348)
@@ -3374,13 +3446,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
 	},
-	'Appearance', "Legion_Stormer",
+	'Appearance', "Legion_Recon",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1255599676)
@@ -3468,13 +3544,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
 	},
-	'Appearance', "Legion_Recon02",
+	'Appearance', "LegionScout",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1593460736)
@@ -3501,13 +3581,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
 	},
-	'Appearance', "Legion_Marksman",
+	'Appearance', "LegionSharpShooter_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSniper",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1099125012)
@@ -3534,13 +3618,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
 	},
-	'Appearance', "Legion_Recon02",
+	'Appearance', "LegionScout",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1631199364)
@@ -3567,13 +3655,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
 	},
-	'Appearance', "Legion_Recon02",
+	'Appearance', "LegionScout",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1805950085)
@@ -3600,13 +3692,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
 	},
-	'Appearance', "Legion_Recon",
+	'Appearance', "Legion_Stormer03",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
 		}),
 	},
 }, nil, 1525230540)
@@ -3633,13 +3729,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
 	},
-	'Appearance', "Legion_Recon02",
+	'Appearance', "LegionScout_alt_2",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1321829224)
@@ -4759,10 +4859,19 @@ PlaceObj('ContainerMarker', {
 	'AllowedMask', 4294966497,
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Drop_762WP_Varied_Legion",
+			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Drop_556_Varied_Legion",
+			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
 		}),
 	},
 }, nil, 190586880)
@@ -4927,7 +5036,7 @@ PlaceObj('ContainerMarker', {
 			'LootTableId', "LegionScout",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "JunkDrop",
+			'LootTableId', "GrenadeBox",
 		}),
 	},
 }, nil, 517521408)
@@ -5090,7 +5199,7 @@ PlaceObj('ContainerMarker', {
 	'AllowedMask', 4294966497,
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Case",
+			'LootTableId', "EnemyValuables_LowTier",
 		}),
 	},
 }, nil, 1767391579)
@@ -5127,13 +5236,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
+		}),
 	},
-	'Appearance', "LegionManiac_alt",
+	'Appearance', "Legion_Stormer03",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
 		}),
 	},
 }, nil, 1247343922)
@@ -5159,13 +5272,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
+		}),
 	},
 	'Appearance', "LegionManiac",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
 		}),
 	},
 }, nil, 1254803363)
@@ -5191,13 +5308,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
+		}),
 	},
-	'Appearance', "Legion_Recon",
+	'Appearance', "LegionScout",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1491048127)
@@ -5223,13 +5344,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
+		}),
 	},
-	'Appearance', "Legion_Recon",
+	'Appearance', "LegionScout_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1857568852)
@@ -5244,38 +5369,6 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 1402302059)
-PlaceObj('UnitMarker', {
-	'Pos', point(144600, 115800, 7700),
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-	},
-	'Appearance', "LegionSharpShooter_alt_1",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter",
-		}),
-	},
-}, nil, 1528762019)
 PlaceObj('ContainerMarker', {
 	'Pos', point(148200, 103800),
 	'Angle', 5400,
@@ -5314,13 +5407,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
+		}),
 	},
-	'Appearance', "LegionGrenadir",
+	'Appearance', "LegionGrenadir_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionMolotov",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
 		}),
 	},
 }, nil, 1829960649)
@@ -5346,13 +5443,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
+		}),
 	},
-	'Appearance', "Legion_Soldier",
+	'Appearance', "LegionRaider",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1807430776)
@@ -5378,13 +5479,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
+		}),
 	},
-	'Appearance', "LegionGrenadir_alt",
+	'Appearance', "Legion_Heavy",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionMolotov",
+			'UnitDataDefId', "JAZZ_Legion_GunnerT1_Gunner",
 		}),
 	},
 }, nil, 1498083381)
@@ -5410,13 +5515,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
+		}),
 	},
-	'Appearance', "LegionRaider_alt",
+	'Appearance', "LegionRaider_alt_2",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1003424728)
@@ -5442,13 +5551,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
+		}),
 	},
-	'Appearance', "Legion_Demolishion",
+	'Appearance', "LegionGrenadir_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionMolotov",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
 		}),
 	},
 }, nil, 1543520882)
@@ -5474,13 +5587,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "K5",
+		}),
 	},
-	'Appearance', "Legion_Recon",
+	'Appearance', "Legion_Recon02",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1191419216)
@@ -5596,11 +5713,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "Raider_01",
+	'Appearance', "Legion_Demolishion02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider_WeakFlagHill",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
 			'ForcedAppearance', "Legion_Soldier02",
 		}),
 	},
@@ -5621,11 +5738,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "Raider_01",
+	'Appearance', "Legion_WitchDoctor03",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider_WeakFlagHill",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Bonemaker",
 			'ForcedAppearance', "Legion_Soldier02",
 		}),
 	},
@@ -5659,7 +5776,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(935540794912, "DEAD BODY"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body",
+			'LootTableId', "JazzContainer_3006",
 		}),
 	},
 }, nil, 394682368)
@@ -5697,6 +5814,17 @@ PlaceObj('WaypointMarker', {
 	'AllowedMask', 4294966497,
 	'ID', "7",
 }, nil, 1151462974)
+PlaceObj('GridMarker', {
+	'Pos', point(142200, 155400, 11200),
+	'Groups', {
+		"MapBorder",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "BorderArea",
+	'AreaWidth', 140,
+	'AreaHeight', 130,
+	'Reachable', false,
+}, nil, 1409064567)
 PlaceObj('WaypointMarker', {
 	'Pos', point(143400, 148200, 12600),
 	'Groups', {
@@ -5716,7 +5844,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(935540794912, "DEAD BODY"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body",
+			'LootTableId', "JazzContainer_3006",
 		}),
 	},
 }, nil, 1784587079)
@@ -5733,7 +5861,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(935540794912, "DEAD BODY"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body_Armor",
+			'ItemId', "JazzArmor_FlakM1955",
 		}),
 	},
 }, nil, 1491400324)
@@ -5760,13 +5888,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
-	'Appearance', "Legion_Marksman",
+	'Appearance', "LegionSharpShooter_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1211026438)
@@ -5793,13 +5925,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
-	'Appearance', "Legion_Marksman",
+	'Appearance', "LegionSharpShooter_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1351251830)
@@ -5815,7 +5951,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(935540794912, "DEAD BODY"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body",
+			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
 		}),
 	},
 }, nil, 271302656)
@@ -5842,27 +5978,20 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
-	'Appearance', "Legion_Soldier",
+	'Appearance', "Legion_Soldier04",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1750463986)
-PlaceObj('GridMarker', {
-	'Pos', point(153000, 155400),
-	'Groups', {
-		"MapBorder",
-	},
-	'AllowedMask', 4294966497,
-	'Type', "BorderArea",
-	'AreaWidth', 200,
-	'AreaHeight', 130,
-	'Reachable', false,
-}, nil, 1409064567)
 PlaceObj('UnitMarker', {
 	'Pos', point(132600, 172200, 18900),
 	'Angle', 16200,
@@ -5972,13 +6101,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
-	'Appearance', "Legion_Demolishion",
+	'Appearance', "LegionGrenadir_alt_2",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGrenadier",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
 		}),
 	},
 }, nil, 1614491365)
@@ -6006,13 +6139,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
-	'Appearance', "Legion_Recon02",
+	'Appearance', "Legion_Recon",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1601032639)
@@ -6028,7 +6165,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(935540794912, "DEAD BODY"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body",
+			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
 		}),
 	},
 }, nil, 381206528)
@@ -6055,13 +6192,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
-	'Appearance', "Legion_Soldier",
+	'Appearance', "Legion_Soldier04",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1769513058)
@@ -6076,7 +6217,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(904442973978, "DEAD SOLDIER"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body",
+			'LootTableId', "Jazz_Drop_9mm_Match",
 		}),
 	},
 }, nil, 1840564509)
@@ -6103,13 +6244,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
-	'Appearance', "Legion_Stormer02",
+	'Appearance', "Legion_Recon03",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1730438512)
@@ -6136,13 +6281,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
-	'Appearance', "LegionRaider",
+	'Appearance', "Legion_Soldier06",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1263121263)
@@ -6169,13 +6318,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
-	'Appearance', "LegionButcher_alt_2",
+	'Appearance', "LegionRaider_alt_2",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1183205332)
@@ -6202,13 +6355,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
-	'Appearance', "LegionGrenadir",
+	'Appearance', "Legion_Marksman",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGrenadier",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1136960432)
@@ -6235,13 +6392,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
-	'Appearance', "LegionButcher_alt",
+	'Appearance', "LegionMedic_Stronger_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Bonemaker",
 		}),
 	},
 }, nil, 1290071195)
@@ -6268,13 +6429,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L5",
+		}),
 	},
-	'Appearance', "LegionButcher_alt_3",
+	'Appearance', "Legion_Demolishion03",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
 		}),
 	},
 }, nil, 1169681376)
@@ -6290,7 +6455,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(935540794912, "DEAD BODY"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "FlagHill_Body",
+			'ItemId', "ColtM1917",
 		}),
 	},
 }, nil, 1399792420)
@@ -6333,14 +6498,18 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L4",
+		}),
 	},
 	'CollectionRange', 15000,
-	'Appearance', "Legion_Recon02",
+	'Appearance', "LegionScout_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1337526389)
@@ -6367,14 +6536,18 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L4",
+		}),
 	},
 	'CollectionRange', 15000,
-	'Appearance', "LegionButcher_alt_3",
+	'Appearance', "LegionManiac_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
 		}),
 	},
 }, nil, 1663057829)
@@ -6394,11 +6567,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "Raider_01",
+	'Appearance', "LegionSharpShooter_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider_WeakFlagHill",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 			'ForcedAppearance', "Legion_Soldier02",
 		}),
 	},
@@ -6419,11 +6592,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "LegionButcher_alt_3",
+	'Appearance', "LegionGrenadir_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
 			'ForcedAppearance', "Legion_Soldier02",
 		}),
 	},
@@ -6445,11 +6618,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "Raider_01",
+	'Appearance', "Legion_Recon03",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider_WeakFlagHill",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 			'ForcedAppearance', "Legion_Soldier06",
 		}),
 	},
@@ -6470,11 +6643,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "Legion_Recon",
+	'Appearance', "LegionGoon_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1400519690)
@@ -6503,15 +6676,41 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "Raider_01",
+	'Appearance', "LegionGoon",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider_WeakFlagHill",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 			'ForcedAppearance', "Legion_Soldier02",
 		}),
 	},
 }, nil, 1530261932)
+PlaceObj('UnitMarker', {
+	'Pos', point(179400, 153000, 9100),
+	'Angle', 10800,
+	'Groups', {
+		"Raiders",
+		"AL_Raiders",
+	},
+	'AllowedMask', 4294966497,
+	'AreaWidth', 3,
+	'AreaHeight', 3,
+	'Routine', "Ambient",
+	'Despawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "04_Betrayal",
+			Vars = set( "WorldFlipDone" ),
+		}),
+	},
+	'Appearance', "Legion_Soldier06",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
+			'ForcedAppearance', "Legion_Soldier06",
+		}),
+	},
+}, nil, 1270651898)
 PlaceObj('UnitMarker', {
 	'Pos', point(178200, 155400, 9100),
 	'Groups', {
@@ -6528,11 +6727,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "LegionGrenadir_alt",
+	'Appearance', "Legion_WitchDoctor",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionMolotov",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Bonemaker",
 		}),
 	},
 }, nil, 1035621576)
@@ -6552,11 +6751,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "Legion_Stormer",
+	'Appearance', "Legion_Stormer03",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
 		}),
 	},
 }, nil, 1333969894)
@@ -6576,11 +6775,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "Legion_Stormer",
+	'Appearance', "Legion_Stormer03",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
 		}),
 	},
 }, nil, 1042639336)
@@ -6616,11 +6815,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "Raider_01",
+	'Appearance', "LegionGrenadir_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider_WeakFlagHill",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
 			'ForcedAppearance', "Legion_Soldier06",
 		}),
 	},
@@ -6642,11 +6841,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "LegionButcher",
+	'Appearance', "Legion_Recon03",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1136613217)
@@ -6685,11 +6884,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "Legion_Stormer",
+	'Appearance', "LegionManiac_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
 		}),
 	},
 }, nil, 1370764262)
@@ -6725,15 +6924,13 @@ PlaceObj('ContainerMarker', {
 	},
 }, nil, 351346688)
 PlaceObj('UnitMarker', {
-	'Pos', point(180600, 154200, 9100),
+	'Pos', point(187800, 150600, 13300),
 	'Angle', 10800,
 	'Groups', {
 		"Raiders",
 		"AL_Raiders",
 	},
 	'AllowedMask', 4294966497,
-	'AreaWidth', 3,
-	'AreaHeight', 3,
 	'Routine', "Ambient",
 	'Despawn_Conditions', {
 		PlaceObj('QuestIsVariableBool', {
@@ -6741,15 +6938,15 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "Raider_01",
+	'Appearance', "Legion_Marksman02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider_WeakFlagHill",
+			'UnitDataDefId', "LegionSniper_Tutorial",
 			'ForcedAppearance', "Legion_Soldier06",
 		}),
 	},
-}, nil, 1270651898)
+}, nil, 1766357579)
 PlaceObj('WaypointMarker', {
 	'Pos', point(180600, 156600),
 	'Groups', {
@@ -6776,11 +6973,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "LegionGrenadir",
+	'Appearance', "Legion_Demolishion",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionMolotov",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
 		}),
 	},
 }, nil, 1761334620)
@@ -6855,7 +7052,7 @@ PlaceObj('UnitMarker', {
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1439977360)
@@ -6967,32 +7164,6 @@ PlaceObj('WaypointMarker', {
 	'ID', "3",
 }, nil, 1779407955)
 PlaceObj('UnitMarker', {
-	'Pos', point(181800, 187800, 11200),
-	'Angle', 16200,
-	'Groups', {
-		"Raiders",
-		"AL_Raiders",
-	},
-	'AllowedMask', 4294966497,
-	'AreaWidth', 8,
-	'AreaHeight', 8,
-	'Routine', "Ambient",
-	'Despawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "04_Betrayal",
-			Vars = set( "WorldFlipDone" ),
-		}),
-	},
-	'Appearance', "Legion_Marksman",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSniper_Tutorial",
-			'ForcedAppearance', "Legion_Soldier04",
-		}),
-	},
-}, nil, 1743737496)
-PlaceObj('UnitMarker', {
 	'Pos', point(183000, 186600),
 	'Angle', 16200,
 	'Groups', {
@@ -7035,11 +7206,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "LegionSharpShooter_alt",
+	'Appearance', "LegionSharpShooter",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 			'ForcedAppearance', "Legion_Soldier04",
 		}),
 	},
@@ -7080,13 +7251,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L4",
+		}),
 	},
-	'Appearance', "Legion_Stormer02",
+	'Appearance', "LegionRaidLeader_alt_2",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
+			'UnitDataDefId', "JAZZ_Legion_LeaderT1_Sergeant",
 		}),
 	},
 }, nil, 1460241574)
@@ -7113,14 +7288,18 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L4",
+		}),
 	},
 	'CollectionRange', 15000,
-	'Appearance', "Legion_Soldier",
+	'Appearance', "LegionRaider_alt_2",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1429197765)
@@ -7147,13 +7326,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L4",
+		}),
 	},
-	'Appearance', "LegionButcher",
+	'Appearance', "LegionManiac",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
 		}),
 	},
 }, nil, 1635930250)
@@ -7180,13 +7363,17 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L4",
+		}),
 	},
-	'Appearance', "Legion_Stormer",
+	'Appearance', "LegionGoon_alt_2",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1018171116)
@@ -7213,14 +7400,18 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L4",
+		}),
 	},
 	'CollectionRange', 15000,
-	'Appearance', "LegionButcher_alt",
+	'Appearance', "Legion_Recon03",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1364025854)
@@ -7247,14 +7438,18 @@ PlaceObj('UnitMarker', {
 				}),
 			},
 		}),
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L4",
+		}),
 	},
 	'CollectionRange', 15000,
-	'Appearance', "Legion_Stormer03",
+	'Appearance', "LegionGrenadir_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
 		}),
 	},
 }, nil, 1881228059)
@@ -7284,11 +7479,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "Legion_Stormer02",
+	'Appearance', "LegionGoon_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1162262710)
@@ -7317,11 +7512,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "Legion_Stormer02",
+	'Appearance', "LegionMedic_Stronger",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Bonemaker",
 			'ForcedAppearance', "Legion_Soldier02",
 		}),
 	},
@@ -7342,11 +7537,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "Legion_Demolishion",
+	'Appearance', "LegionGrenadir_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionMolotov",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
 			'ForcedAppearance', "Legion_Soldier02",
 		}),
 	},
@@ -7368,11 +7563,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "Legion_Stormer02",
+	'Appearance', "Legion_Recon03",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1056239444)
@@ -7393,11 +7588,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "Legion_Stormer",
+	'Appearance', "LegionGrenadir_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
 		}),
 	},
 }, nil, 1473310054)
@@ -7434,11 +7629,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WorldFlipDone" ),
 		}),
 	},
-	'Appearance', "Raider_01",
+	'Appearance', "Legion_Soldier05",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider_WeakFlagHill",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 			'ForcedAppearance', "Legion_Soldier06",
 		}),
 	},
@@ -7472,7 +7667,7 @@ PlaceObj('ContainerMarker', {
 	},
 }, nil, 333357056)
 PlaceObj('ExitZoneInteractable', {
-	'Pos', point(267003, 187966, 6750),
+	'Pos', point(222016, 211962, 11721),
 	'Angle', 5400,
 	'Groups', {
 		"East",
@@ -7481,14 +7676,14 @@ PlaceObj('ExitZoneInteractable', {
 	'entity', "TravelMarker_06",
 }, nil, 1307266540)
 PlaceObj('GridMarker', {
-	'Pos', point(267000, 189000, 7000),
+	'Pos', point(222600, 213000, 11900),
 	'Groups', {
 		"East",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Entrance",
 	'AreaWidth', 5,
-	'AreaHeight', 12,
+	'AreaHeight', 7,
 }, nil, 1224798295)
 -- end of objects of class GridMarker
 PlaceObj('WaterPlaneWaves', {
@@ -9017,7 +9212,7 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1831664133)
 PlaceObj('TropicalPlant_04_Tree_01', {
-	'Pos', point(49800, 129000, 6300),
+	'Pos', point(49774, 129005, 6300),
 	'Angle', 16200,
 	'Scale', 196,
 	'ForcedLODState', "Minimum",
@@ -13953,7 +14148,7 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1231679298)
 PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(42600, 131400, 7000),
+	'Pos', point(42590, 131406, 7000),
 	'Angle', 5400,
 	'Scale', 162,
 	'ForcedLODState', "Minimum",
@@ -87219,12 +87414,12 @@ p("TropicalPlant_04_Shrub_02",62210,104119,95,4)
 p("TropicalPlant_04_Shrub_01",63195,103772,38,4)
 p("TropicalPlant_04_Shrub_02",61837,104508,92,4)
 p("TropicalPlant_04_Shrub_02",62820,104526,170,4)
+p("TropicalRockSharp_04",63084,105482,7153,5043,200,-1155,241,3922,2097173)
 p("TropicalPlant_04_Shrub_02",63921,104095,165,4)
 p("TropicalPlant_04_Shrub_01",64557,104401,33,4)
 p("TropicalPlant_02_Shrub",65400,103800,7000,5400,130,3200,2097221)
 p("TropicalPlant_04_Shrub_02",64230,105867,84,4)
 p("TropicalPlant_04_Shrub_01",61409,107175,88,4)
-p("TropicalRockSharp_04",61310,107631,6860,3000,200,-1618,937,3644,2097173)
 p("TropicalPlant_04_Shrub_02",60579,110398,98,4)
 p("TropicalPlant_04_Shrub_02",62162,107859,84,4)
 p("TropicalPlant_04_Shrub_01",63467,106767,129,4)
@@ -93876,7 +94071,7 @@ p("DecBunker_ConcretePile_04",141260,168288,21108,137,-12,1232,3906,"terrainchun
 p("TropicalRockAssembly_04",140265,170316,8935,8804,76,-26,-27,4096,"terrainchunk",10,0,0,77,99,10,40,60,2228245)
 p("DecBunker_ConcretePile_05",141528,168270,21108,142,-12,1232,3906,"terrainchunk",10,0,0,40,100,10,40,60,2228244)
 p("DecBloodTrail_01",142650,171230,9050,8640,2097153)
-p("DecTyreTracksBrown_04",144796,168342,9050,6717,86,2097409)
+p("DecTyreTracksBrown_04",144826,168349,9050,6717,86,2097409)
 p("DecBloodTrail_01",140162,174777,9035,10200,2097153)
 p("DecBloodTrail_01",139667,175148,9050,12240,75,2097157)
 p("DecTyreTracksBrown_01",141078,174663,9050,18721,86,2097409)

@@ -129,7 +129,9 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"EmeraldCoast_Deedee_Cupboard",
+			"ExplosiveComponents",
+			"GrenadeBox",
+			"Container_BasicGrenadePack",
 		},
 		handle = 1140141252,
 		map = "mvoLckN",

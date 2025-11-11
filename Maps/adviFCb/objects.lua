@@ -1399,6 +1399,20 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Name', "col_Scaffolding_Pillar_12",
+	'Index', 357,
+}, nil, 1238617775)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Name', "col_WaterPlane_15",
+	'Index', 1996,
+}, nil, 1238727691)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Index', 3224,
 }, nil, 1240097045)
 PlaceObj('Collection', {
@@ -1538,6 +1552,14 @@ PlaceObj('Collection', {
 	'Name', "col_DecFarmFurrows_83",
 	'Index', 1840,
 }, nil, 1267004303)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2695,
+	'AllowedMask', 4294966497,
+	'Name', "col_Scaffolding_Pillar_14",
+	'Index', 2219,
+}, nil, 1268528564)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -2847,6 +2869,14 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2695,
+	'AllowedMask', 4294966497,
+	'Name', "col_Scaffolding_Pillar_16",
+	'Index', 3897,
+}, nil, 1451433146)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
 	'Index', 966,
 }, nil, 1452215832)
@@ -3258,6 +3288,21 @@ PlaceObj('Collection', {
 	'AllowedMask', 4294966497,
 	'Index', 2363,
 }, nil, 1511237145)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2695,
+	'AllowedMask', 4294966497,
+	'Name', "col_Scaffolding_Pillar_13",
+	'Index', 1686,
+}, nil, 1512966330)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Name', "col_Scaffolding_Pillar_17",
+	'Index', 2695,
+}, nil, 1513971799)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -5240,6 +5285,14 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2695,
+	'AllowedMask', 4294966497,
+	'Name', "col_Scaffolding_Pillar_15",
+	'Index', 53,
+}, nil, 1839019159)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
 	'Index', 1763,
 }, nil, 1839716359)
@@ -5692,22 +5745,22 @@ PlaceObj('WaypointMarker', {
 	'ID', "4",
 }, nil, 1802431998)
 PlaceObj('ExitZoneInteractable', {
-	'Pos', point(46865, 158911, 6982),
+	'Pos', point(54807, 158911, 6982),
 	'Groups', {
 		"West",
 	},
 	'AllowedMask', 4294966497,
-	'AreaWidth', 8,
+	'AreaWidth', 20,
 	'AreaHeight', 8,
 }, nil, 1496472809)
 PlaceObj('GridMarker', {
-	'Pos', point(47400, 159000, 7000),
+	'Pos', point(55800, 159000, 7000),
 	'Groups', {
 		"West",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Entrance",
-	'AreaWidth', 8,
+	'AreaWidth', 20,
 	'AreaHeight', 8,
 }, nil, 1751664518)
 PlaceObj('WaypointMarker', {
@@ -5786,23 +5839,25 @@ PlaceObj('WaypointMarker', {
 	'AllowedMask', 4294966497,
 	'ID', "13",
 }, nil, 1422140005)
-PlaceObj('ExitZoneInteractable', {
-	'Pos', point(172831, 40732, 6950),
-	'Groups', {
-		"North",
-	},
-	'AllowedMask', 4294966497,
-}, nil, 1322559777)
 PlaceObj('GridMarker', {
-	'Pos', point(177000, 40200, 7000),
+	'Pos', point(179400, 43800, 6300),
 	'Groups', {
 		"North",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Entrance",
-	'AreaWidth', 5,
-	'AreaHeight', 5,
+	'AreaWidth', 28,
+	'AreaHeight', 10,
 }, nil, 1136603455)
+PlaceObj('ExitZoneInteractable', {
+	'Pos', point(179620, 43659, 6950),
+	'Groups', {
+		"North",
+	},
+	'AllowedMask', 4294966497,
+	'AreaWidth', 28,
+	'AreaHeight', 10,
+}, nil, 1322559777)
 PlaceObj('WaypointMarker', {
 	'Pos', point(135000, 101400, 7000),
 	'Groups', {
@@ -6196,21 +6251,22 @@ PlaceObj('WaypointMarker', {
 	'ID', "19",
 }, nil, 1541932472)
 PlaceObj('ExitZoneInteractable', {
-	'Pos', point(254660, 150483, 6950),
+	'Pos', point(254660, 144620, 6919),
 	'Groups', {
 		"East",
 	},
 	'AllowedMask', 4294966497,
+	'AreaHeight', 30,
 }, nil, 1845227466)
 PlaceObj('GridMarker', {
-	'Pos', point(255000, 155400, 7000),
+	'Pos', point(255000, 144600, 7000),
 	'Groups', {
 		"East",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Entrance",
 	'AreaWidth', 5,
-	'AreaHeight', 5,
+	'AreaHeight', 30,
 }, nil, 1304972869)
 PlaceObj('GridMarker', {
 	'Pos', point(231000, 183000),
@@ -6261,21 +6317,23 @@ PlaceObj('AmbientZoneMarker', {
 	},
 }, nil, 1064379679)
 PlaceObj('GridMarker', {
-	'Pos', point(168600, 274200, 7000),
+	'Pos', point(163800, 271800, 7000),
 	'Groups', {
 		"South",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Entrance",
-	'AreaWidth', 5,
-	'AreaHeight', 5,
+	'AreaWidth', 28,
+	'AreaHeight', 7,
 }, nil, 1165108092)
 PlaceObj('ExitZoneInteractable', {
-	'Pos', point(175098, 274267, 6950),
+	'Pos', point(164693, 271889, 6950),
 	'Groups', {
 		"South",
 	},
 	'AllowedMask', 4294966497,
+	'AreaWidth', 25,
+	'AreaHeight', 7,
 }, nil, 1175658043)
 PlaceObj('GridMarker', {
 	'Pos', point(237000, 274200, 7000),
@@ -39461,7 +39519,6 @@ PlaceObj('Vehicle_Minivan', {
 	'Pos', point(83174, 159434, 6817),
 	'Angle', 11149,
 	'Axis', point(-198, -21, 4091),
-	'StateText', "idle2",
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
@@ -64240,6 +64297,12 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1322040107)
+PlaceObj('TropicalPlant_03_Tree_02', {
+	'Pos', point(192688, 65230, 7630),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1615500108)
 PlaceObj('TropicalPlant_05_Tree_01', {
 	'Pos', point(136419, 70980),
 	'Saturation', 0,
@@ -101116,6 +101179,15 @@ PlaceObj('TropicalPlant_02_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1452901193)
+PlaceObj('TropicalPlant_03_Tree_02', {
+	'Pos', point(204587, 64148, 8468),
+	'Angle', 19369,
+	'Scale', 151,
+	'Axis', point(-58, -8, 4095),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1338697531)
 PlaceObj('TropicalPlant_01_Tree_02', {
 	'Pos', point(208403, 49952),
 	'Scale', 57,
@@ -101163,62 +101235,24 @@ PlaceObj('TropicalPlant_02_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1142958770)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(220998, 57349),
-	'Scale', 123,
+PlaceObj('WaterPlane', {
+	'Pos', point(228261, 55484, 5725),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1450560794)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(223669, 51257),
-	'Scale', 174,
+	'CollectionIndex', 1996,
+	'AllowedMask', 0,
+	'Passability', 0,
+	'waterpreset', "Puddle_JungleMud_2",
+}, nil, 1350845247)
+PlaceObj('WaterPlane', {
+	'Pos', point(228261, 65440, 5725),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1747026298)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(223069, 56891),
-	'Scale', 186,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1647593800)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(226666, 53478),
-	'Scale', 182,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1180642069)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(223770, 64601),
-	'Scale', 52,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1386256973)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(225294, 61400),
-	'Scale', 15,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1018422820)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(226827, 59945),
-	'Scale', 145,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1299366609)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(227606, 62875),
-	'Scale', 132,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1138224315)
+	'CollectionIndex', 1996,
+	'AllowedMask', 0,
+	'Passability', 0,
+	'waterpreset', "Puddle_JungleMud_2",
+}, nil, 1892032069)
 PlaceObj('TropicalPlant_02_Tree_01', {
 	'Pos', point(235381, 3987),
 	'Scale', 165,
@@ -101667,13 +101701,6 @@ PlaceObj('TropicalPlant_02_Tree_02', {
 	'AllowedMask', 4294967279,
 }, nil, 1182147096)
 PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(232184, 48516),
-	'Scale', 48,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1208261550)
-PlaceObj('TropicalPlant_01_Tree_02', {
 	'Pos', point(233914, 41442),
 	'Scale', 38,
 	'Saturation', 0,
@@ -101694,13 +101721,6 @@ PlaceObj('TropicalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1047951805)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(234390, 48194),
-	'Scale', 150,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1445210010)
 PlaceObj('TropicalPlant_02_Tree_02', {
 	'Pos', point(240121, 37737),
 	'Scale', 175,
@@ -101743,41 +101763,6 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1057718314)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(240155, 45017),
-	'Scale', 164,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1755740840)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(238873, 45709),
-	'Scale', 58,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1452018867)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(239603, 46825),
-	'Scale', 124,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1445009241)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(239829, 48937),
-	'Scale', 71,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1299114389)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(241583, 49046),
-	'Scale', 60,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1115481448)
 PlaceObj('TropicalPlant_01_Tree_02', {
 	'Pos', point(242725, 43864),
 	'Scale', 79,
@@ -101785,62 +101770,24 @@ PlaceObj('TropicalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1316998778)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(232952, 57059),
-	'Scale', 81,
+PlaceObj('WaterPlane', {
+	'Pos', point(238244, 55484, 5725),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1115515426)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(236850, 49161),
-	'Scale', 27,
+	'CollectionIndex', 1996,
+	'AllowedMask', 0,
+	'Passability', 0,
+	'waterpreset', "Puddle_JungleMud_2",
+}, nil, 1476328363)
+PlaceObj('WaterPlane', {
+	'Pos', point(238244, 65440, 5725),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1064605883)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(235926, 52164),
-	'Scale', 36,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1239515383)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(230460, 60097),
-	'Scale', 168,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1556082421)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(236334, 62835),
-	'Scale', 177,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1504433830)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(244143, 56802),
-	'Scale', 30,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1334329216)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(240418, 61739),
-	'Scale', 92,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1419699970)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(245194, 60606),
-	'Scale', 172,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1837072559)
+	'CollectionIndex', 1996,
+	'AllowedMask', 0,
+	'Passability', 0,
+	'waterpreset', "Puddle_JungleMud_2",
+}, nil, 1632093841)
 PlaceObj('TropicalPlant_02_Tree_02', {
 	'Pos', point(247092, 35642),
 	'Scale', 185,
@@ -101939,83 +101886,33 @@ PlaceObj('TropicalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1266372857)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(246574, 52684),
-	'Scale', 101,
+PlaceObj('WaterPlane', {
+	'Pos', point(248215, 55484, 5725),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1858991622)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(248898, 54435),
-	'Scale', 87,
+	'CollectionIndex', 1996,
+	'AllowedMask', 0,
+	'Passability', 0,
+	'waterpreset', "Puddle_JungleMud_2",
+}, nil, 1104384348)
+PlaceObj('WaterPlane', {
+	'Pos', point(248215, 65440, 5725),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1435311435)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(250607, 57107),
-	'Scale', 32,
+	'CollectionIndex', 1996,
+	'AllowedMask', 0,
+	'Passability', 0,
+	'waterpreset', "Puddle_JungleMud_2",
+}, nil, 1649160090)
+PlaceObj('WaterPlane', {
+	'Pos', point(258176, 65440, 5725),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1122289641)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(248272, 60833),
-	'Scale', 61,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1749180722)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(246733, 64377),
-	'Scale', 180,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1577630345)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(255844, 56211),
-	'Scale', 168,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1514712708)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(259265, 53746),
-	'Scale', 199,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1285801667)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(257043, 60278),
-	'Scale', 144,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1732628776)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(254378, 64648),
-	'Scale', 198,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1218870994)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(258921, 58499),
-	'Scale', 153,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1061749317)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(260969, 64948),
-	'Scale', 18,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1039723121)
+	'CollectionIndex', 1996,
+	'AllowedMask', 0,
+	'Passability', 0,
+	'waterpreset', "Puddle_JungleMud_2",
+}, nil, 1357215452)
 PlaceObj('RoomCorner', {
 	'Pos', point(200400, 68400, 9100),
 	'Saturation', 0,
@@ -107414,83 +107311,993 @@ PlaceObj('AL_SitChair', {
 	'VisitAlternateChance', 21,
 	'ChanceSpawn', 3,
 }, nil, 1698493046)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(220500, 67976),
-	'Scale', 132,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1863835945)
 PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(219704, 71484),
-	'Scale', 182,
+	'Pos', point(216678, 67817, 8879),
+	'Scale', 146,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1057290249)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(220423, 76628),
-	'Scale', 143,
+}, nil, 1588007660)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(220704, 69650, 5167),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2695,
+	'AllowedMask', 4294967279,
+}, nil, 1178681667)
+PlaceObj('RoomCorner', {
+	'Pos', point(224400, 69600, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1676439908)
+PlaceObj('RoomCorner', {
+	'Pos', point(224400, 69600, 7000),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1082679783)
+PlaceObj('RoomCorner', {
+	'Pos', point(224400, 69600, 7700),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1632222841)
+PlaceObj('RoomCorner', {
+	'Pos', point(224400, 69600, 8400),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1611833511)
+PlaceObj('RoomCorner', {
+	'Pos', point(224400, 69600, 8400),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+	'isPlug', true,
+}, nil, 1820270512)
+PlaceObj('WallSlab', {
+	'Pos', point(225000, 69600, 6300),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1279942670)
+PlaceObj('WallSlab', {
+	'Pos', point(225000, 69600, 7000),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1212112099)
+PlaceObj('WallSlab', {
+	'Pos', point(225000, 69600, 7700),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1806114799)
+PlaceObj('WallSlab', {
+	'Pos', point(225000, 69600, 8400),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 3,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1019556556)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(221904, 69650, 5167),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2695,
+	'AllowedMask', 4294967279,
+}, nil, 1165157050)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(223104, 69650, 5167),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2695,
+	'AllowedMask', 4294967279,
+}, nil, 1781697800)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(223704, 69650, 5167),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2695,
+	'AllowedMask', 4294967279,
+}, nil, 1778865530)
+PlaceObj('WallSlab', {
+	'Pos', point(224400, 70200, 6300),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1381627712)
+PlaceObj('WallSlab', {
+	'Pos', point(224400, 70200, 7000),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1769425057)
+PlaceObj('WallSlab', {
+	'Pos', point(224400, 70200, 7700),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1363836622)
+PlaceObj('WallSlab', {
+	'Pos', point(224400, 70200, 8400),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1500041425)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(224904, 69650, 5167),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2695,
+	'AllowedMask', 4294967279,
+}, nil, 1889777971)
+PlaceObj('FloorSlab', {
+	'Pos', point(225000, 70200, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 2,
+	'material', "WoodScaff",
+}, nil, 1140568139)
+PlaceObj('WallSlab', {
+	'Pos', point(224400, 71400, 6300),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1339272213)
+PlaceObj('WallSlab', {
+	'Pos', point(224400, 71400, 7000),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1838145150)
+PlaceObj('WallSlab', {
+	'Pos', point(224400, 71400, 7700),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1636675400)
+PlaceObj('WallSlab', {
+	'Pos', point(224400, 71400, 8400),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1303113608)
+PlaceObj('FloorSlab', {
+	'Pos', point(225000, 71400, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 2,
+	'material', "WoodScaff",
+}, nil, 1219293979)
+PlaceObj('WallSlab', {
+	'Pos', point(224400, 72600, 6300),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 4,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1146217817)
+PlaceObj('WallSlab', {
+	'Pos', point(224400, 72600, 7000),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1867052949)
+PlaceObj('WallSlab', {
+	'Pos', point(224400, 72600, 7700),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1724797981)
+PlaceObj('WallSlab', {
+	'Pos', point(224400, 72600, 8400),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 4,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1889379409)
+PlaceObj('FloorSlab', {
+	'Pos', point(225000, 72600, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 4,
+	'material', "WoodScaff",
+}, nil, 1564967008)
+PlaceObj('RoomCorner', {
+	'Pos', point(224400, 73200, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1518690149)
+PlaceObj('RoomCorner', {
+	'Pos', point(224400, 73200, 7000),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1780585843)
+PlaceObj('RoomCorner', {
+	'Pos', point(224400, 73200, 7700),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1267348412)
+PlaceObj('RoomCorner', {
+	'Pos', point(224400, 73200, 8400),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1313376970)
+PlaceObj('RoomCorner', {
+	'Pos', point(224400, 73200, 8400),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+	'isPlug', true,
+}, nil, 1578747741)
+PlaceObj('WallSlab', {
+	'Pos', point(225000, 73200, 6300),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1731337824)
+PlaceObj('WallSlab', {
+	'Pos', point(225000, 73200, 7000),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1846810606)
+PlaceObj('WallSlab', {
+	'Pos', point(225000, 73200, 7700),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 4,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1688973675)
+PlaceObj('WallSlab', {
+	'Pos', point(225000, 73200, 8400),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1074865633)
+PlaceObj('WallSlab', {
+	'Pos', point(226200, 69600, 6300),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1173935610)
+PlaceObj('WallSlab', {
+	'Pos', point(226200, 69600, 7000),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1035362587)
+PlaceObj('WallSlab', {
+	'Pos', point(226200, 69600, 7700),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1085138762)
+PlaceObj('WallSlab', {
+	'Pos', point(226200, 69600, 8400),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1307345969)
+PlaceObj('WallSlab', {
+	'Pos', point(227400, 69600, 6300),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1880767287)
+PlaceObj('WallSlab', {
+	'Pos', point(227400, 69600, 7000),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1721043191)
+PlaceObj('WallSlab', {
+	'Pos', point(227400, 69600, 7700),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1576667235)
+PlaceObj('WallSlab', {
+	'Pos', point(227400, 69600, 8400),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1189445549)
+PlaceObj('WallSlab', {
+	'Pos', point(228600, 69600, 6300),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1473540701)
+PlaceObj('WallSlab', {
+	'Pos', point(228600, 69600, 7000),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1074436720)
+PlaceObj('WallSlab', {
+	'Pos', point(228600, 69600, 7700),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1486717829)
+PlaceObj('WallSlab', {
+	'Pos', point(228600, 69600, 8400),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1001718193)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(226104, 69650, 5167),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2695,
+	'AllowedMask', 4294967279,
+}, nil, 1844498687)
+PlaceObj('FloorSlab', {
+	'Pos', point(226200, 70200, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 4,
+	'material', "WoodScaff",
+}, nil, 1708528440)
+PlaceObj('FloorSlab', {
+	'Pos', point(226200, 71400, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 4,
+	'material', "WoodScaff",
+}, nil, 1640630011)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(227304, 69650, 3967),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2695,
+	'AllowedMask', 4294967279,
+}, nil, 1172335731)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(227304, 69650, 5167),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2695,
+	'AllowedMask', 4294967279,
+}, nil, 1446880826)
+PlaceObj('Village_Basket_03', {
+	'Pos', point(225901, 71820, 6439),
+	'Angle', 3282,
+	'Axis', point(-1847, -3336, 1494),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1213902855)
+PlaceObj('FloorSlab', {
+	'Pos', point(226200, 72600, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 2,
+	'material', "WoodScaff",
+}, nil, 1028328097)
+PlaceObj('WallSlab', {
+	'Pos', point(226200, 73200, 6300),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1623597504)
+PlaceObj('WallSlab', {
+	'Pos', point(226200, 73200, 7000),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 4,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1191455675)
+PlaceObj('WallSlab', {
+	'Pos', point(226200, 73200, 7700),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1604386193)
+PlaceObj('WallSlab', {
+	'Pos', point(226200, 73200, 8400),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1412496536)
+PlaceObj('FloorSlab', {
+	'Pos', point(227400, 70200, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 2,
+	'material', "WoodScaff",
+}, nil, 1269182124)
+PlaceObj('FloorSlab', {
+	'Pos', point(227400, 71400, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 2,
+	'material', "WoodScaff",
+}, nil, 1637144694)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(228504, 69650, 3808),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 3897,
+	'AllowedMask', 4294967279,
+}, nil, 1261628794)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(228504, 69650, 5167),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 3897,
+	'AllowedMask', 4294967279,
+}, nil, 1575033195)
+PlaceObj('FloorSlab', {
+	'Pos', point(228600, 70200, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 2,
+	'material', "WoodScaff",
+}, nil, 1114781772)
+PlaceObj('FloorSlab', {
+	'Pos', point(228600, 71400, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 4,
+	'material', "WoodScaff",
+}, nil, 1374548222)
+PlaceObj('Room', {
+	'AllowedMask', 4294966497,
+	'box', box(224400, 69600, 6300, 232800, 73200, 9100),
+	'seed', 1693248152141842,
+	'position', point(224400, 69600, 6300),
+	'size', point(7, 3, 4),
+	'override_terrain_z', 5954,
+	'name', "Room 1715309612",
+	'wall_mat', "none",
+	'inner_wall_mat', "none",
+	'floor_mat', "WoodScaff",
+	'floor_colors', PlaceObj('ColorizationPropSet', {
+		'EditableColor1', RGBA(52, 45, 41, 255),
+		'EditableColor2', RGBA(69, 58, 39, 255),
+		'EditableColor3', RGBA(52, 45, 41, 255),
+	}),
+	'spawned_floors', {o(1140568139),o(1219293979),o(1564967008),o(1708528440),o(1640630011),o(1028328097),o(1269182124),o(1637144694),o(1690478864),o(1114781772),o(1374548222),o(1801337500),o(1615970133),o(1167452455),o(1790016908),o(1294530909),o(1343055720),o(1277926914),o(1373338604),o(1239536314),o(1884591268),},
+	'spawned_walls', {
+        East = {o(1278232250),o(1856985710),o(1872723760),o(1034881027),o(1374152258),o(1114862761),o(1200470189),o(1521568522),o(1740599596),o(1226359873),o(1673599549),o(1100477767),},
+        North = {o(1279942670),o(1212112099),o(1806114799),o(1019556556),o(1173935610),o(1035362587),o(1085138762),o(1307345969),o(1880767287),o(1721043191),o(1576667235),o(1189445549),o(1473540701),o(1074436720),o(1486717829),o(1001718193),o(1741515367),o(1106203029),o(1023201057),o(1788708769),o(1876386429),o(1223825397),o(1095921539),o(1303542296),o(1276737206),o(1437103182),o(1492923404),o(1371722861),},
+        South = {o(1731337824),o(1846810606),o(1688973675),o(1074865633),o(1623597504),o(1191455675),o(1604386193),o(1412496536),o(1149346111),o(1577517985),o(1246024720),o(1049864750),o(1825044810),o(1221632173),o(1281755325),o(1579449369),o(1639037595),o(1710181840),o(1319365800),o(1264038508),o(1110564792),o(1725043332),o(1895403549),o(1280944567),o(1170289143),o(1562181450),o(1338834725),o(1104240872),},
+        West = {o(1381627712),o(1769425057),o(1363836622),o(1500041425),o(1339272213),o(1838145150),o(1636675400),o(1303113608),o(1146217817),o(1867052949),o(1724797981),o(1889379409),},},
+	'spawned_corners', {
+        East = {o(1072213751),o(1236547244),o(1080809253),o(1512195048),o(1286560022),},
+        North = {o(1676439908),o(1082679783),o(1632222841),o(1611833511),o(1820270512),},
+        South = {o(1434614721),o(1476762116),o(1642332624),o(1021968239),o(1087719657),},
+        West = {o(1518690149),o(1780585843),o(1267348412),o(1313376970),o(1578747741),},},
+}, nil, 1715309612)
+PlaceObj('FloorSlab', {
+	'Pos', point(227400, 72600, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 3,
+	'material', "WoodScaff",
+}, nil, 1690478864)
+PlaceObj('WallSlab', {
+	'Pos', point(227400, 73200, 6300),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1149346111)
+PlaceObj('WallSlab', {
+	'Pos', point(227400, 73200, 7000),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1577517985)
+PlaceObj('WallSlab', {
+	'Pos', point(227400, 73200, 7700),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1246024720)
+PlaceObj('WallSlab', {
+	'Pos', point(227400, 73200, 8400),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1049864750)
+PlaceObj('Shanty_Barrel_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(29, 55, 120, 255),
+	'EditableColor2', RGBA(25, 20, 17, 255),
+	'EditableColor3', RGBA(51, 33, 11, 255),
+	'Pos', point(228370, 72396, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1353738006)
+PlaceObj('FloorSlab', {
+	'Pos', point(228600, 72600, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 2,
+	'material', "WoodScaff",
+}, nil, 1801337500)
+PlaceObj('WallSlab', {
+	'Pos', point(228600, 73200, 6300),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1825044810)
+PlaceObj('WallSlab', {
+	'Pos', point(228600, 73200, 7000),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1221632173)
+PlaceObj('WallSlab', {
+	'Pos', point(228600, 73200, 7700),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1281755325)
+PlaceObj('WallSlab', {
+	'Pos', point(228600, 73200, 8400),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1579449369)
+PlaceObj('Shanty_Barrel_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(29, 55, 120, 255),
+	'EditableColor2', RGBA(25, 20, 17, 255),
+	'EditableColor3', RGBA(51, 33, 11, 255),
+	'Pos', point(228889, 72822, 6300),
+	'Angle', 11266,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1197411264)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(229145, 73111, 3047),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1599616205)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(224620, 71201),
-	'Scale', 77,
+}, nil, 1611028598)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(229145, 73111, 4374),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1704559892)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(226392, 68142),
-	'Scale', 130,
+}, nil, 1783505057)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(229145, 73111, 5733),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1395431666)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(227652, 70878),
-	'Scale', 63,
+}, nil, 1234993570)
+PlaceObj('TropicalPlant_03_Tree_01', {
+	'Pos', point(222342, 80173, 8341),
+	'Angle', 16200,
+	'Scale', 153,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1555215899)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(223058, 77660),
-	'Scale', 98,
+}, nil, 1882395797)
+PlaceObj('Village_HenCage_02', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(48, 25, 14, 255),
+	'EditableColor2', RGBA(52, 45, 41, 255),
+	'Pos', point(225879, 76353, 7627),
+	'Angle', 5190,
+	'Axis', point(-13, 40, 4095),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1716866425)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(222834, 80693),
-	'Scale', 43,
+}, nil, 1004100833)
+PlaceObj('Village_HenCage_02', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(48, 25, 14, 255),
+	'EditableColor2', RGBA(52, 45, 41, 255),
+	'Pos', point(226609, 76566, 7646),
+	'Angle', 5631,
+	'Axis', point(104, 109, 4093),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1002974954)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(227047, 79178),
-	'Scale', 131,
+}, nil, 1513332277)
+PlaceObj('Village_HenCage_02', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(48, 25, 14, 255),
+	'EditableColor2', RGBA(52, 45, 41, 255),
+	'Pos', point(226594, 77273, 8246),
+	'Angle', 5631,
+	'Axis', point(104, 109, 4093),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1065686775)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(223972, 86865),
-	'Scale', 167,
+}, nil, 1192823701)
+PlaceObj('Village_HenCage_03', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(48, 25, 14, 255),
+	'EditableColor2', RGBA(52, 45, 41, 255),
+	'Pos', point(226631, 77714, 7642),
+	'Angle', 3230,
+	'Axis', point(98, 224, 4088),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1376830930)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(229126, 88643),
-	'Scale', 103,
+}, nil, 1308146067)
+PlaceObj('WaterPlane', {
+	'Pos', point(228261, 75434, 5725),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1996,
+	'AllowedMask', 0,
+	'Passability', 0,
+	'waterpreset', "Puddle_JungleMud_2",
+}, nil, 1014144188)
+PlaceObj('Village_HenCage_03', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(48, 25, 14, 255),
+	'EditableColor2', RGBA(52, 45, 41, 255),
+	'Pos', point(227065, 78345, 7616),
+	'Angle', 5605,
+	'Axis', point(104, 110, 4093),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1764306891)
+}, nil, 1143386671)
+PlaceObj('WaterPlane', {
+	'Pos', point(228261, 85412, 5725),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1996,
+	'AllowedMask', 0,
+	'Passability', 0,
+	'waterpreset', "Puddle_JungleMud_2",
+}, nil, 1094895775)
 PlaceObj('TropicalPlant_01_Tree_02', {
 	'Pos', point(226429, 93741),
 	'Scale', 95,
@@ -113323,96 +114130,793 @@ PlaceObj('FloorSlab', {
 	'subvariant', 1,
 	'material', "none",
 }, nil, 1533087832)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(230665, 68319),
-	'Scale', 152,
+PlaceObj('WallSlab', {
+	'Pos', point(229800, 69600, 6300),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1741515367)
+PlaceObj('WallSlab', {
+	'Pos', point(229800, 69600, 7000),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1106203029)
+PlaceObj('WallSlab', {
+	'Pos', point(229800, 69600, 7700),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1023201057)
+PlaceObj('WallSlab', {
+	'Pos', point(229800, 69600, 8400),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1788708769)
+PlaceObj('WallSlab', {
+	'Pos', point(231000, 69600, 6300),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1876386429)
+PlaceObj('WallSlab', {
+	'Pos', point(231000, 69600, 7000),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1223825397)
+PlaceObj('WallSlab', {
+	'Pos', point(231000, 69600, 7700),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1095921539)
+PlaceObj('WallSlab', {
+	'Pos', point(231000, 69600, 8400),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1303542296)
+PlaceObj('WallSlab', {
+	'Pos', point(232200, 69600, 6300),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1276737206)
+PlaceObj('WallSlab', {
+	'Pos', point(232200, 69600, 7000),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1437103182)
+PlaceObj('WallSlab', {
+	'Pos', point(232200, 69600, 7700),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1492923404)
+PlaceObj('WallSlab', {
+	'Pos', point(232200, 69600, 8400),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1371722861)
+PlaceObj('RoomCorner', {
+	'Pos', point(232800, 69600, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1072213751)
+PlaceObj('RoomCorner', {
+	'Pos', point(232800, 69600, 7000),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1236547244)
+PlaceObj('RoomCorner', {
+	'Pos', point(232800, 69600, 7700),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1080809253)
+PlaceObj('RoomCorner', {
+	'Pos', point(232800, 69600, 8400),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+	'isPlug', true,
+}, nil, 1286560022)
+PlaceObj('RoomCorner', {
+	'Pos', point(232800, 69600, 8400),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1512195048)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(229870, 69650, 2736),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2695,
+	'AllowedMask', 4294967279,
+}, nil, 1059285986)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(229870, 69650, 3808),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 53,
+	'AllowedMask', 4294967279,
+}, nil, 1205100051)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(229870, 69650, 5167),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 53,
+	'AllowedMask', 4294967279,
+}, nil, 1555636469)
+PlaceObj('FloorSlab', {
+	'Pos', point(229800, 70200, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 4,
+	'material', "WoodScaff",
+}, nil, 1615970133)
+PlaceObj('FloorSlab', {
+	'Pos', point(229800, 71400, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 3,
+	'material', "WoodScaff",
+}, nil, 1167452455)
+PlaceObj('Village_Basket_03', {
+	'Pos', point(230841, 70256, 6361),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1529976413)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(231368, 69650, 2490),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2695,
+	'AllowedMask', 4294967279,
+}, nil, 1805561872)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(231368, 69650, 3808),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2219,
+	'AllowedMask', 4294967279,
+}, nil, 1801250637)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(231368, 69650, 5167),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2219,
+	'AllowedMask', 4294967279,
+}, nil, 1461322902)
+PlaceObj('Village_Basket_02', {
+	'Pos', point(230923, 70266, 6300),
+	'Angle', 1916,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1847602226)
+PlaceObj('FloorSlab', {
+	'Pos', point(231000, 70200, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 4,
+	'material', "WoodScaff",
+}, nil, 1294530909)
+PlaceObj('FloorSlab', {
+	'Pos', point(231000, 71400, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 1,
+	'material', "WoodScaff",
+}, nil, 1343055720)
+PlaceObj('FloorSlab', {
+	'Pos', point(229800, 72600, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 1,
+	'material', "WoodScaff",
+}, nil, 1790016908)
+PlaceObj('WallSlab', {
+	'Pos', point(229800, 73200, 6300),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1639037595)
+PlaceObj('WallSlab', {
+	'Pos', point(229800, 73200, 7000),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1710181840)
+PlaceObj('WallSlab', {
+	'Pos', point(229800, 73200, 7700),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1319365800)
+PlaceObj('WallSlab', {
+	'Pos', point(229800, 73200, 8400),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1264038508)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(230384, 73111, 3047),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1844164952)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(234998, 68115),
-	'Scale', 90,
+}, nil, 1614893011)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(230384, 73111, 4374),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1571280079)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(233715, 70507),
-	'Scale', 91,
+}, nil, 1282140762)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(230384, 73111, 5733),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1108259369)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(234729, 70562),
-	'Scale', 185,
+}, nil, 1096569783)
+PlaceObj('FloorSlab', {
+	'Pos', point(231000, 72600, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 4,
+	'material', "WoodScaff",
+}, nil, 1277926914)
+PlaceObj('WallSlab', {
+	'Pos', point(231000, 73200, 6300),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1110564792)
+PlaceObj('WallSlab', {
+	'Pos', point(231000, 73200, 7000),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1725043332)
+PlaceObj('WallSlab', {
+	'Pos', point(231000, 73200, 7700),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1895403549)
+PlaceObj('WallSlab', {
+	'Pos', point(231000, 73200, 8400),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1280944567)
+PlaceObj('Village_Basket_01', {
+	'Pos', point(232157, 70124, 6300),
+	'Angle', 62,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1617941142)
+PlaceObj('FloorSlab', {
+	'Pos', point(232200, 70200, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 4,
+	'material', "WoodScaff",
+}, nil, 1373338604)
+PlaceObj('FloorSlab', {
+	'Pos', point(232200, 71400, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 4,
+	'material', "WoodScaff",
+}, nil, 1239536314)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(232642, 69641, 1135),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2695,
+	'AllowedMask', 4294967279,
+}, nil, 1029548949)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(232642, 69641, 2481),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1686,
+	'AllowedMask', 4294967279,
+}, nil, 1098606678)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(232642, 69641, 3808),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1686,
+	'AllowedMask', 4294967279,
+}, nil, 1721199767)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(232642, 69641, 5167),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1686,
+	'AllowedMask', 4294967279,
+}, nil, 1480750564)
+PlaceObj('WallSlab', {
+	'Pos', point(232800, 70200, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1278232250)
+PlaceObj('WallSlab', {
+	'Pos', point(232800, 70200, 7000),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1856985710)
+PlaceObj('WallSlab', {
+	'Pos', point(232800, 70200, 7700),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1872723760)
+PlaceObj('WallSlab', {
+	'Pos', point(232800, 70200, 8400),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1034881027)
+PlaceObj('WallSlab', {
+	'Pos', point(232800, 71400, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1374152258)
+PlaceObj('WallSlab', {
+	'Pos', point(232800, 71400, 7000),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1114862761)
+PlaceObj('WallSlab', {
+	'Pos', point(232800, 71400, 7700),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 3,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1200470189)
+PlaceObj('WallSlab', {
+	'Pos', point(232800, 71400, 8400),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1521568522)
+PlaceObj('FloorSlab', {
+	'Pos', point(232200, 72600, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 4,
+	'material', "WoodScaff",
+}, nil, 1884591268)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(231529, 73111, 3047),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1704470105)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(236162, 75421),
-	'Scale', 175,
+}, nil, 1092735145)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(231529, 73111, 4374),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1752835609)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(238691, 66788),
-	'Scale', 10,
+}, nil, 1458013482)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(231529, 73111, 5733),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1063585360)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(238638, 72733),
-	'Scale', 145,
+}, nil, 1306928156)
+PlaceObj('WallSlab', {
+	'Pos', point(232200, 73200, 6300),
+	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1091583037)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(241067, 74589),
-	'Scale', 194,
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1170289143)
+PlaceObj('WallSlab', {
+	'Pos', point(232200, 73200, 7000),
+	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1641196280)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(241166, 80791),
-	'Scale', 78,
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1562181450)
+PlaceObj('WallSlab', {
+	'Pos', point(232200, 73200, 7700),
+	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1291484228)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(242533, 75762),
-	'Scale', 92,
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1338834725)
+PlaceObj('WallSlab', {
+	'Pos', point(232200, 73200, 8400),
+	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1190239917)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(232173, 82669),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1104240872)
+PlaceObj('WallSlab', {
+	'Pos', point(232800, 72600, 6300),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1763645929)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(231574, 89176),
-	'Scale', 193,
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1740599596)
+PlaceObj('WallSlab', {
+	'Pos', point(232800, 72600, 7000),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1208703951)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(234739, 83083),
-	'Scale', 156,
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1226359873)
+PlaceObj('WallSlab', {
+	'Pos', point(232800, 72600, 7700),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1673599549)
+PlaceObj('WallSlab', {
+	'Pos', point(232800, 72600, 8400),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'variant', "OutdoorIndoor",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1100477767)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(232642, 73111, 3047),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 357,
 	'AllowedMask', 4294967279,
-}, nil, 1802081811)
+}, nil, 1214973338)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(232642, 73111, 4374),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 357,
+	'AllowedMask', 4294967279,
+}, nil, 1224631101)
+PlaceObj('Scaffolding_Pillar_01', {
+	'Pos', point(232642, 73111, 5733),
+	'Angle', 10800,
+	'ColorModifier', RGBA(169, 169, 169, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 357,
+	'AllowedMask', 4294967279,
+}, nil, 1031008839)
+PlaceObj('RoomCorner', {
+	'Pos', point(232800, 73200, 6300),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1434614721)
+PlaceObj('RoomCorner', {
+	'Pos', point(232800, 73200, 7000),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1476762116)
+PlaceObj('RoomCorner', {
+	'Pos', point(232800, 73200, 7700),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1642332624)
+PlaceObj('RoomCorner', {
+	'Pos', point(232800, 73200, 8400),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1021968239)
+PlaceObj('RoomCorner', {
+	'Pos', point(232800, 73200, 8400),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+	'isPlug', true,
+}, nil, 1087719657)
+PlaceObj('WaterPlane', {
+	'Pos', point(238244, 75434, 5725),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1996,
+	'AllowedMask', 0,
+	'Passability', 0,
+	'waterpreset', "Puddle_JungleMud_2",
+}, nil, 1005111141)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(230486, 96697),
 	'Scale', 173,
@@ -113427,160 +114931,33 @@ PlaceObj('TropicalPlant_02_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1480606381)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(240181, 84083),
-	'Scale', 126,
+PlaceObj('WaterPlane', {
+	'Pos', point(238244, 85412, 5725),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1847439686)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(240446, 88588),
-	'Scale', 168,
+	'CollectionIndex', 1996,
+	'AllowedMask', 0,
+	'Passability', 0,
+	'waterpreset', "Puddle_JungleMud_2",
+}, nil, 1738588721)
+PlaceObj('WaterPlane', {
+	'Pos', point(248215, 75434, 5725),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1237476894)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(243412, 82465),
-	'Scale', 56,
+	'CollectionIndex', 1996,
+	'AllowedMask', 0,
+	'Passability', 0,
+	'waterpreset', "Puddle_JungleMud_2",
+}, nil, 1312265832)
+PlaceObj('WaterPlane', {
+	'Pos', point(248215, 85412, 5725),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1464459031)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(243986, 90459),
-	'Scale', 166,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1310993794)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(245107, 95149),
-	'Scale', 172,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1433747622)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(248960, 73428),
-	'Scale', 17,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1689255681)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(252262, 65572),
-	'Scale', 68,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1077647647)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(249007, 76154),
-	'Scale', 171,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1456446103)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(251258, 76712),
-	'Scale', 126,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1088816529)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(252344, 80970),
-	'Scale', 199,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1588587216)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(254587, 73042),
-	'Scale', 10,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1458436467)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(261599, 72596),
-	'Scale', 191,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1753796992)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(257247, 79903),
-	'Scale', 39,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1262613940)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(260378, 75616),
-	'Scale', 198,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1291595382)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(247814, 84657),
-	'Scale', 65,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1537182131)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(247362, 86864),
-	'Scale', 63,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1831482039)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(250697, 87364),
-	'Scale', 19,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1602058593)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(249680, 96384),
-	'Scale', 158,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1735923333)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(250409, 96690),
-	'Scale', 182,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1881707300)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(254450, 89677),
-	'Scale', 82,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1576857675)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(255775, 96751),
-	'Scale', 139,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1283692047)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(261420, 95788),
-	'Scale', 60,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1373577973)
+	'CollectionIndex', 1996,
+	'AllowedMask', 0,
+	'Passability', 0,
+	'waterpreset', "Puddle_JungleMud_2",
+}, nil, 1287110879)
 PlaceObj('TropicalPlant_02_Tree_02', {
 	'Pos', point(232205, 99314),
 	'Scale', 32,
@@ -114051,13 +115428,6 @@ PlaceObj('Mine_WoodenBeam_Assembly_03', {
 	'CollectionIndex', 3299,
 	'AllowedMask', 4294967279,
 }, nil, 1516117636)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(243790, 98487),
-	'Scale', 158,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1589616327)
 PlaceObj('Mine_WoodenBeam_Assembly_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 45, 41, 255),
@@ -114934,20 +116304,6 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1783398928)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(248338, 98461),
-	'Scale', 120,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1013470065)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(253111, 100710),
-	'Scale', 146,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1678943056)
 PlaceObj('Mine_WoodenBeam_Assembly_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 45, 41, 255),
@@ -114985,13 +116341,6 @@ PlaceObj('Mine_WoodenBeam_Assembly_04', {
 	'CollectionIndex', 2453,
 	'AllowedMask', 4294967279,
 }, nil, 1778348228)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(255338, 98835),
-	'Scale', 109,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1762017273)
 PlaceObj('Farmland_PalmCrop_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(25, 50, 0, 255),
@@ -116386,7 +117735,7 @@ PlaceObj('Vehicle_Minivan', {
 	'EditableColor1', RGBA(48, 25, 14, 255),
 	'EditableColor2', RGBA(60, 38, 8, 255),
 	'EditableColor3', RGBA(32, 35, 47, 255),
-	'Pos', point(157336, 150695, 6947),
+	'Pos', point(157338, 150699, 6947),
 	'Angle', 19441,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -164740,34 +166089,6 @@ PlaceObj('TropicalPlant_02_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1127041240)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(267246, 49620),
-	'Scale', 18,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1241422054)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(262475, 59515),
-	'Scale', 108,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1002608927)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(264904, 64194),
-	'Scale', 198,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1892572444)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(268133, 57669),
-	'Scale', 189,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1699775679)
 PlaceObj('TropicalPlant_02_Tree_02', {
 	'Pos', point(273215, 55330),
 	'Scale', 41,
@@ -165097,62 +166418,6 @@ PlaceObj('TropicalPlant_02_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1436061372)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(263263, 67881),
-	'Scale', 186,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1842470256)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(264269, 69386),
-	'Scale', 194,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1489969903)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(264931, 71983),
-	'Scale', 119,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1302126094)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(268531, 70305),
-	'Scale', 67,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1552086246)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(263573, 76053),
-	'Scale', 145,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1486934685)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(266901, 76246),
-	'Scale', 186,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1651089332)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(268033, 79974),
-	'Scale', 132,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1158289894)
-PlaceObj('TropicalPlant_01_Tree_01', {
-	'Pos', point(270725, 72761),
-	'Scale', 61,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1405851980)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(274740, 72412),
 	'Scale', 49,
@@ -165167,13 +166432,6 @@ PlaceObj('TropicalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1655140699)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(270945, 76973),
-	'Scale', 49,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1590524125)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(273348, 79330),
 	'Scale', 65,
@@ -165188,34 +166446,6 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1629239195)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(264960, 85660),
-	'Scale', 74,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1631901512)
-PlaceObj('TropicalPlant_02_Tree_01', {
-	'Pos', point(262749, 86928),
-	'Scale', 107,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1778569650)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(267320, 84395),
-	'Scale', 85,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1804476707)
-PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(269544, 95439),
-	'Scale', 125,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1370962253)
 PlaceObj('TropicalPlant_01_Tree_02', {
 	'Pos', point(273126, 83731),
 	'Scale', 32,
@@ -165223,20 +166453,6 @@ PlaceObj('TropicalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1563345592)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(271727, 90769),
-	'Scale', 30,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1207247201)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(274801, 91289),
-	'Scale', 93,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1499580154)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(280628, 80095),
 	'Scale', 58,
@@ -165321,26 +166537,12 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1747380824)
 PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(264459, 101603),
-	'Scale', 111,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1842903633)
-PlaceObj('TropicalPlant_01_Tree_02', {
 	'Pos', point(264625, 106472),
 	'Scale', 84,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1650766175)
-PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(268175, 100514),
-	'Scale', 52,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1632883445)
 PlaceObj('TropicalPlant_01_Tree_01', {
 	'Pos', point(269408, 109473),
 	'Scale', 191,
@@ -172037,7 +173239,7 @@ p("DecTyreTracksBrown_03",181356,56095,7318,16553,2097153)
 p("TropicalPlant_Grass_03",186462,49547,6944,15024,192,2097157)
 p("TropicalPlant_Grass_03",186066,53750,7246,15024,192,2097157)
 p("TropicalPlant_Grass_03",186514,56549,7450,15024,192,2097157)
-p("TropicalPlant_Grass_03",188193,56316,7322,15024,192,2097157)
+p("TropicalPlant_Grass_03",188190,56330,7322,15024,192,2097157)
 p("DecTyreTracksBrown_03",181200,58105,7318,17234,2097153)
 p("DecTyreTracksBrown_03",182204,58826,7318,6420,2097153)
 p("DecTyreTracksBrown_04",181943,63808,7262,16357,2097153)
@@ -172047,6 +173249,7 @@ p("TropicalRockAssembly_01",187995,62479,7055,20916,153,1660,2074,3117,"terrainc
 p("TropicalPlant_Grass_03",189648,51190,6966,15024,192,2097157)
 p("TropicalPlant_Grass_03",188708,52408,6976,15024,192,2097157)
 p("TropicalRockAssembly_01",191167,56372,7195,487,153,2418,-2483,2184,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("DecBunker_ConcretePile_02",194206,53008,7212,20346,154,-918,416,3970,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",189939,57728,7760,14024,74,299,1691,3718,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",191061,57860,7760,10683,74,-2469,2387,2231,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockAssembly_03",190288,65070,7341,16067,178,-347,549,4044,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -173188,7 +174391,6 @@ p("TropicalRockSharp_01",206048,39145,12028,6744,247,257,-560,4049,"terrainchunk
 p("TropicalPlant_04_Sapling_03",206459,48633,113,4)
 p("TropicalPlant_01_Shrub",208385,48139,18,4)
 p("TropicalPlant_04_Sapling_05",209651,48583,169,4)
-p("TropicalRockSharp_01",212427,46683,11430,4154,247,-149,-1072,3950,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_04_Sapling_05",198572,50296,182,4)
 p("TropicalPlant_04_Sapling_05",199928,49781,65,4)
 p("TropicalPlant_04_Sapling_04",200200,50821,140,4)
@@ -173205,6 +174407,8 @@ p("TropicalPlant_04_Sapling_01",203841,52167,165,4)
 p("TropicalPlant_04_Sapling_02",204203,52123,73,4)
 p("DecJungleForest_02",200557,62434,7808,7299,185,4281609513,-26,-131,4093,81,2098205)
 p("TropicalRockAssembly_03",203989,60290,8177,15247,178,-496,-32,4065,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("DecBunker_ConcretePile_02",201947,65008,8440,20311,154,-816,271,4004,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("DecBunker_ConcretePile_02",201947,65008,8486,20311,89,-816,271,4004,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_02_Shrub",205010,51535,180,4)
 p("TropicalPlant_01_Sapling",206881,50001,115,4)
 p("TropicalPlant_Grass_03",207050,54630,8236,15024,192,2097157)
@@ -173214,9 +174418,10 @@ p("TropicalPlant_04_Sapling_06",210946,49980,112,4)
 p("TropicalPlant_Grass_04",212356,51603,91,4)
 p("TropicalPlant_Grass_03",210430,53903,9142,15024,192,2097157)
 p("TropicalPlant_Grass_04",212427,53842,171,4)
-p("TropicalPlant_Grass_03",211076,56695,9226,15024,192,2097157)
+p("TropicalPlant_Grass_03",211076,56681,9226,15024,192,2097157)
 p("TropicalPlant_Dead_15",206684,65028,8930,19366,0,4096,0,2097169)
 p("TropicalPlant_Dead_15",206971,65497,8930,18751,840,3137,2495,2097169)
+p("TropicalPlant_Grass_03",210856,60312,9038,15024,192,2097157)
 p("TropicalPlant_Grass_03",212310,64780,9272,15024,192,2097157)
 p("TropicalRockSharp_01",214644,33448,24911,7686,250,2063,-436,3511,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",217669,40954,15921,5035,250,339,-95,4080,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -173275,11 +174480,12 @@ p("TropicalPlant_Grass_03",224017,45947,102,4)
 p("TropicalPlant_Grass_01",224874,45431,142,4)
 p("TropicalPlant_Grass_03",224949,45807,152,4)
 p("TropicalPlant_Grass_04",223447,47735,173,4)
+p("TropicalRockSharp_01",223832,47311,5799,18512,247,2644,2298,2122,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_01",224220,47298,131,4)
 p("TropicalPlant_Grass_03",224344,47684,186,4)
 p("TropicalPlant_Grass_01",224875,47272,141,4)
 p("TropicalPlant_Grass_01",224872,47503,109,4)
-p("TropicalPlant_Grass_04",224871,49148,104,4)
+p("TropicalRockSharp_01",225710,43189,7975,18679,250,3862,1346,207,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_04",225794,43388,120,4)
 p("TropicalPlant_Grass_01",226051,43919,120,4)
 p("TropicalPlant_Grass_02",226967,43447,134,4)
@@ -173301,9 +174507,7 @@ p("TropicalPlant_Grass_03",226018,46004,171,4)
 p("TropicalPlant_Grass_03",225931,47057,128,4)
 p("TropicalPlant_Grass_03",226601,45531,159,4)
 p("TropicalPlant_Grass_02",225656,48370,104,4)
-p("TropicalPlant_Grass_04",225865,48759,119,4)
 p("TropicalPlant_Grass_04",226707,47313,152,4)
-p("TropicalPlant_Grass_01",226589,48708,189,4)
 p("TropicalPlant_Grass_03",226879,48251,124,4)
 p("TropicalPlant_Grass_04",227482,45764,108,4)
 p("TropicalPlant_Grass_01",227889,45513,98,4)
@@ -173312,86 +174516,28 @@ p("TropicalPlant_Grass_02",228805,45953,104,4)
 p("TropicalPlant_Grass_03",228544,47089,130,4)
 p("TropicalPlant_Grass_04",227577,47124,171,4)
 p("TropicalPlant_Grass_04",228312,48099,161,4)
-p("TropicalPlant_Grass_03",227867,48976,163,4)
-p("TropicalPlant_Grass_02",228343,48797,145,4)
 p("TropicalPlant_01_Shrub",228374,47617,83,4)
 p("TropicalPlant_Grass_03",228655,48212,116,4)
-p("TropicalPlant_Grass_02",228921,48812,90,4)
 p("TropicalPlant_Grass_04",213431,49301,92,4)
 p("TropicalPlant_Grass_01",213345,50415,91,4)
 p("TropicalPlant_Grass_02",214120,49612,132,4)
-p("TropicalPlant_Grass_02",214956,51070,170,4)
 p("TropicalPlant_Grass_03",213192,51497,189,4)
 p("TropicalPlant_Grass_03",213358,51442,10348,15024,192,2097157)
 p("TropicalPlant_Grass_04",213035,51716,108,4)
-p("TropicalPlant_Grass_03",213286,52755,130,4)
-p("TropicalPlant_Grass_04",214263,51201,86,4)
-p("TropicalPlant_Grass_02",214077,51854,150,4)
 p("TropicalPlant_Grass_03",215187,49441,164,4)
 p("TropicalPlant_Grass_01",215362,49552,149,4)
-p("TropicalPlant_Grass_03",216563,49507,127,4)
-p("TropicalPlant_Grass_04",216256,50261,178,4)
-p("TropicalPlant_Grass_02",215194,51535,109,4)
-p("TropicalPlant_Grass_04",215663,51390,182,4)
-p("TropicalPlant_Grass_04",216420,52047,95,4)
-p("TropicalPlant_Grass_04",216960,52214,173,4)
 p("TropicalPlant_Grass_03",212997,54471,127,4)
 p("TropicalPlant_Grass_01",213494,55100,145,4)
-p("TropicalPlant_Grass_01",214229,53313,145,4)
-p("TropicalPlant_Grass_02",214236,54193,86,4)
-p("TropicalPlant_Grass_03",214647,53672,91,4)
-p("TropicalPlant_Grass_01",214214,54582,186,4)
-p("TropicalPlant_Grass_02",214761,55103,167,4)
 p("TropicalPlant_Grass_04",213362,56446,121,4)
 p("TropicalPlant_Grass_03",214288,55937,123,4)
 p("TropicalPlant_Grass_01",214951,55764,185,4)
 p("TropicalPlant_Grass_02",214163,56936,116,4)
 p("TropicalPlant_Grass_04",214955,57062,146,4)
-p("TropicalPlant_Grass_04",215470,53325,179,4)
-p("TropicalPlant_Grass_02",216241,53366,138,4)
-p("TropicalPlant_Grass_01",216101,53795,182,4)
-p("TropicalPlant_Grass_04",217027,53513,141,4)
-p("TropicalPlant_Grass_02",216128,54612,120,4)
-p("TropicalPlant_Grass_03",216512,54559,117,4)
 p("TropicalPlant_Grass_01",216295,56250,174,4)
 p("TropicalPlant_Grass_04",217123,49189,177,4)
-p("TropicalPlant_Grass_01",217825,49898,132,4)
-p("TropicalPlant_Grass_04",217422,50647,137,4)
-p("TropicalPlant_Grass_04",218475,49276,145,4)
-p("TropicalPlant_Grass_01",219111,50360,161,4)
-p("TropicalPlant_Grass_01",217551,51713,141,4)
-p("TropicalPlant_Grass_03",217956,51412,135,4)
-p("TropicalPlant_Grass_03",217319,52529,120,4)
-p("TropicalPlant_Grass_03",217740,52975,150,4)
-p("TropicalPlant_Grass_01",218652,53112,148,4)
-p("TropicalPlant_Grass_02",220076,49741,170,4)
-p("TropicalPlant_Grass_01",219333,50544,109,4)
-p("TropicalPlant_Grass_01",220786,49916,101,4)
-p("TropicalPlant_Grass_01",220045,51467,159,4)
-p("TropicalPlant_01_Shrub",219361,52478,107,4)
-p("TropicalPlant_Grass_04",219384,52480,156,4)
-p("TropicalPlant_Grass_02",220030,52394,139,4)
-p("TropicalPlant_Grass_01",220434,53172,144,4)
-p("TropicalPlant_Grass_04",221038,52304,142,4)
-p("TropicalPlant_Grass_03",221149,52775,119,4)
-p("TropicalPlant_Grass_01",217666,53617,157,4)
-p("TropicalPlant_Grass_01",217942,55153,184,4)
-p("TropicalPlant_Grass_02",218735,54135,186,4)
-p("TropicalPlant_Grass_01",217456,55828,117,4)
-p("TropicalPlant_Grass_03",217503,56441,149,4)
-p("TropicalPlant_Grass_03",217443,57248,178,4)
-p("TropicalPlant_Grass_03",217958,57116,116,4)
-p("TropicalPlant_Grass_03",219082,56497,123,4)
-p("TropicalPlant_Grass_04",219283,55203,95,4)
-p("TropicalPlant_Grass_03",219821,55176,178,4)
-p("TropicalPlant_Grass_03",220261,53719,173,4)
-p("TropicalPlant_Grass_02",220684,54111,173,4)
-p("TropicalPlant_Grass_03",219342,57115,168,4)
-p("TropicalPlant_Grass_02",220008,56431,156,4)
-p("TropicalPlant_Grass_01",219852,56888,97,4)
-p("TropicalPlant_Grass_02",220793,55861,117,4)
-p("TropicalPlant_Grass_01",220539,57201,95,4)
+p("TropicalPlant_Grass_03",217213,53119,9072,15024,192,2097157)
 p("TropicalPlant_Grass_03",214439,57511,166,4)
+p("TropicalPlant_Grass_03",213877,61075,9294,15024,192,2097157)
 p("TropicalPlant_Grass_04",215286,57696,109,4)
 p("TropicalPlant_Grass_02",215939,57875,167,4)
 p("TropicalPlant_Grass_02",215429,58572,148,4)
@@ -173403,159 +174549,42 @@ p("TropicalPlant_Grass_01",216171,60857,121,4)
 p("TropicalPlant_Grass_03",213692,64180,9370,15024,192,2097157)
 p("TropicalPlant_Dead_10",216196,62258,9519,1)
 p("TropicalPlant_Grass_04",215973,64036,91,4)
-p("TropicalPlant_Grass_02",215818,65123,124,4)
-p("TropicalPlant_Grass_03",216655,63820,106,4)
-p("TropicalPlant_Grass_01",217456,58588,137,4)
-p("TropicalPlant_Grass_01",218256,58033,153,4)
-p("TropicalPlant_Grass_04",218500,58394,121,4)
-p("TropicalPlant_Grass_04",218923,58809,90,4)
 p("TropicalPlant_Grass_01",217207,59872,120,4)
-p("TropicalPlant_Grass_02",217896,59497,189,4)
-p("TropicalPlant_Grass_03",218427,60417,160,4)
-p("TropicalPlant_Grass_01",219484,57763,163,4)
-p("TropicalPlant_Grass_03",219586,57678,105,4)
-p("TropicalPlant_Grass_01",220131,59364,105,4)
-p("TropicalPlant_Grass_01",220903,57909,113,4)
-p("TropicalPlant_Grass_02",220924,58764,188,4)
-p("TropicalPlant_Grass_01",219216,60291,174,4)
-p("TropicalPlant_Grass_03",219556,60396,119,4)
-p("TropicalPlant_Grass_02",217810,63793,97,4)
-p("TropicalPlant_Grass_03",217552,64829,156,4)
-p("TropicalPlant_Grass_02",217280,65393,138,4)
-p("TropicalPlant_Grass_01",218667,64630,128,4)
-p("TropicalPlant_Grass_02",219145,64349,139,4)
-p("TropicalPlant_Grass_04",220428,64021,104,4)
-p("TropicalPlant_01_Sapling",220500,64233,49,4)
-p("TropicalPlant_Grass_04",220994,64134,101,4)
-p("TropicalPlant_Grass_02",220505,64605,184,4)
-p("TropicalPlant_Grass_04",220184,65377,123,4)
-p("TropicalPlant_Grass_01",221197,49225,112,4)
-p("TropicalPlant_01_Sapling",221345,49719,24,4)
-p("TropicalPlant_Grass_03",221512,49932,170,4)
-p("TropicalPlant_Grass_04",222011,49404,132,4)
-p("TropicalPlant_Grass_04",221291,50966,141,4)
-p("TropicalPlant_Grass_02",222725,50266,119,4)
-p("TropicalPlant_Grass_04",222204,51942,124,4)
-p("TropicalPlant_Grass_03",221959,52638,94,4)
-p("TropicalPlant_Grass_01",222472,51264,124,4)
-p("TropicalPlant_Grass_01",222550,51449,121,4)
-p("TropicalPlant_Grass_02",222888,51522,146,4)
-p("TropicalPlant_Grass_04",223875,49424,137,4)
-p("TropicalPlant_Grass_01",223990,50983,117,4)
-p("TropicalPlant_Grass_04",224436,49506,87,4)
-p("TropicalPlant_Grass_03",224726,49675,109,4)
-p("TropicalPlant_Grass_04",224457,51863,86,4)
-p("TropicalPlant_Grass_02",224971,51947,92,4)
-p("TropicalPlant_Grass_02",224407,52979,142,4)
-p("TropicalPlant_Grass_01",224571,52795,112,4)
-p("TropicalPlant_Grass_03",221910,54245,179,4)
-p("TropicalPlant_Grass_02",221286,54930,188,4)
-p("TropicalPlant_Grass_03",222834,53410,131,4)
-p("TropicalPlant_Grass_04",222361,54879,98,4)
-p("TropicalPlant_Grass_02",223221,54367,174,4)
-p("TropicalPlant_Grass_01",223021,55151,121,4)
-p("TropicalPlant_Grass_02",221801,56317,115,4)
-p("TropicalPlant_Grass_01",223001,55538,178,4)
-p("TropicalPlant_Grass_02",222235,57237,167,4)
-p("TropicalPlant_Grass_02",223757,54363,148,4)
-p("TropicalPlant_Grass_01",224908,53611,168,4)
-p("TropicalPlant_Grass_03",224555,55066,90,4)
-p("TropicalPlant_Grass_01",224081,55432,90,4)
-p("TropicalPlant_Grass_03",223467,57032,142,4)
-p("TropicalPlant_Grass_01",223596,57120,135,4)
-p("TropicalPlant_Grass_03",224376,55839,159,4)
-p("TropicalPlant_Grass_04",224725,56587,159,4)
-p("TropicalPlant_Grass_04",225156,57212,121,4)
-p("TropicalPlant_01_Shrub",225721,49458,87,4)
-p("TropicalPlant_Grass_01",225629,49818,155,4)
-p("TropicalPlant_Grass_04",225345,50773,135,4)
-p("TropicalPlant_Grass_04",225884,50833,168,4)
-p("TropicalPlant_Grass_03",226771,51043,128,4)
-p("TropicalPlant_Grass_03",227271,50349,185,4)
-p("TropicalPlant_Grass_04",225761,51914,149,4)
-p("TropicalPlant_Grass_04",226502,52057,182,4)
-p("TropicalPlant_Grass_01",226512,52520,112,4)
-p("TropicalPlant_Grass_02",226310,52866,113,4)
-p("TropicalPlant_Grass_03",228015,50012,173,4)
-p("TropicalPlant_Grass_03",228554,49767,106,4)
-p("TropicalPlant_Grass_02",227830,51263,184,4)
-p("TropicalPlant_Grass_02",227881,51605,163,4)
-p("TropicalPlant_Grass_02",227642,52653,153,4)
-p("TropicalPlant_Grass_01",228625,51587,153,4)
-p("TropicalPlant_Grass_02",229115,51412,185,4)
-p("TropicalPlant_Grass_03",228812,53097,106,4)
-p("TropicalPlant_Grass_02",226055,54316,92,4)
-p("TropicalPlant_Grass_03",227010,53892,109,4)
-p("TropicalPlant_Grass_02",225752,55578,137,4)
-p("TropicalPlant_Grass_02",225395,55936,161,4)
-p("TropicalPlant_Grass_02",226494,55393,179,4)
-p("TropicalPlant_Grass_04",226745,55333,152,4)
-p("TropicalPlant_Grass_01",226955,55590,164,4)
-p("TropicalPlant_Grass_01",227755,54188,138,4)
-p("TropicalPlant_Grass_03",227611,54785,119,4)
-p("TropicalPlant_Grass_02",228891,54057,110,4)
-p("TropicalPlant_Grass_04",228572,54505,175,4)
-p("TropicalPlant_Grass_03",227915,55996,124,4)
-p("TropicalPlant_Grass_03",228703,55940,141,4)
-p("TropicalPlant_01_Sapling",229104,57288,149,4)
-p("TropicalPlant_Grass_02",222226,57999,177,4)
-p("TropicalPlant_Grass_02",222841,57685,144,4)
-p("TropicalPlant_Grass_03",223202,58069,161,4)
-p("TropicalPlant_02_Shrub",221350,59589,138,4)
-p("TropicalPlant_Grass_03",221665,59444,86,4)
-p("TropicalPlant_Grass_04",222461,59727,86,4)
-p("TropicalPlant_Grass_02",223424,58758,94,4)
-p("TropicalPlant_Grass_03",223547,58675,139,4)
-p("TropicalPlant_Grass_03",224391,58198,88,4)
-p("TropicalPlant_Grass_04",224843,57951,163,4)
-p("TropicalPlant_Grass_01",223424,59651,139,4)
-p("TropicalPlant_Grass_01",223873,59605,182,4)
-p("TropicalPlant_Grass_02",224518,59934,116,4)
-p("TropicalPlant_Grass_04",225095,60828,153,4)
-p("TropicalPlant_Grass_04",221515,64243,87,4)
-p("TropicalPlant_Grass_02",223092,63539,130,4)
-p("TropicalPlant_Grass_04",222261,64650,119,4)
-p("TropicalPlant_Grass_01",223161,64731,188,4)
-p("TropicalPlant_Grass_01",224081,64974,150,4)
-p("TropicalPlant_Grass_04",224487,63582,145,4)
-p("TropicalPlant_Grass_04",225252,64892,171,4)
-p("TropicalPlant_Grass_01",225712,59332,159,4)
-p("TropicalPlant_Grass_01",225865,58490,174,4)
-p("TropicalPlant_Grass_03",226585,57831,113,4)
-p("TropicalPlant_Grass_04",226908,58843,110,4)
-p("TropicalPlant_Grass_03",225338,59445,119,4)
-p("TropicalPlant_Grass_01",226011,60545,120,4)
-p("TropicalPlant_Grass_02",226182,60462,145,4)
-p("TropicalPlant_Grass_01",226807,59645,116,4)
-p("TropicalPlant_Grass_04",226829,61301,159,4)
-p("TropicalPlant_Grass_04",227703,57461,98,4)
-p("TropicalPlant_Grass_03",228267,57618,90,4)
-p("TropicalPlant_Grass_02",228319,58979,174,4)
-p("TropicalPlant_Grass_03",229301,58808,174,4)
-p("TropicalPlant_Grass_01",227379,59645,141,4)
-p("TropicalPlant_Grass_01",228208,60006,116,4)
-p("TropicalPlant_Grass_01",228006,61384,102,4)
-p("TropicalPlant_Grass_02",228983,59676,166,4)
-p("TropicalPlant_Grass_04",228846,60834,141,4)
-p("TropicalPlant_Grass_01",225917,62299,135,4)
-p("TropicalPlant_Grass_02",226237,62987,139,4)
-p("TropicalPlant_Grass_03",226643,61564,148,4)
-p("TropicalPlant_Grass_01",227190,61842,144,4)
-p("TropicalPlant_Grass_02",226927,62859,92,4)
-p("TropicalPlant_Grass_03",225348,63818,87,4)
-p("TropicalPlant_Grass_01",225884,64112,90,4)
-p("TropicalPlant_Grass_01",226599,64806,108,4)
-p("TropicalPlant_Grass_03",226457,65146,92,4)
-p("TropicalPlant_Grass_03",227555,62474,164,4)
-p("TropicalPlant_Grass_01",227379,62742,131,4)
-p("TropicalPlant_Grass_02",227948,62842,109,4)
-p("TropicalPlant_Grass_04",228860,61838,160,4)
-p("TropicalPlant_Grass_03",229002,63317,177,4)
-p("TropicalPlant_Grass_02",228061,63837,127,4)
-p("TropicalPlant_Grass_02",228188,64382,134,4)
-p("TropicalPlant_Grass_04",227690,64723,144,4)
-p("TropicalPlant_Grass_02",229352,64229,86,4)
-p("TropicalPlant_Grass_04",229155,64926,87,4)
+p("TropicalPlant_04_Shrub_01",218346,60728,8633,1303,150,-1032,3394,2046,2097173)
+p("TropicalPlant_Grass_03",219181,58196,8602,15024,192,2097157)
+p("TropicalPlant_04_Shrub_01",219977,60798,8235,1552,99,176,3927,1149,2097173)
+p("TropicalPlant_Grass_03",217732,65027,8692,15024,192,2097157)
+p("TropicalPlant_04_Shrub_01",219682,62519,1337,176,709,3917,961,2097172)
+p("TropicalPlant_04_Shrub_01",219555,63961,8633,1077,150,-2033,2649,2371,2097173)
+p("TropicalRockSharp_01",221265,56061,6983,2162,85,54,-4094,96,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",222134,56498,5591,365,85,447,-4045,458,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("SavannaPlant_ElephantGrass_06",223590,55376,0)
+p("SavannaPlant_ElephantGrass_03",223826,56767,2069,2097152)
+p("TropicalRockSharp_01",224517,56061,6099,4655,85,8,-4095,53,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("SavannaPlant_ElephantGrass_06",224680,56367,0)
+p("TropicalRockSharp_01",229036,52409,-880,18679,250,3862,1346,207,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",226090,56498,5635,2855,85,33,-4095,77,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalPlant_Dead_08",222082,58679,7148,2367,80,-240,1722,3708,2097173)
+p("TropicalPlant_Dead_08",223198,58562,6236,3458,80,1802,3437,1308,2097173)
+p("SavannaPlant_ElephantGrass_04",224213,57464,3057,2097152)
+p("SavannaPlant_ElephantGrass_01",224234,58603,17575,2097152)
+p("SavannaPlant_ElephantGrass_01",225177,57521,0)
+p("SavannaPlant_ElephantGrass_03",225106,59240,0)
+p("SavannaPlant_ElephantGrass_04",224235,59743,0)
+p("SavannaPlant_ElephantGrass_03",223933,60122,2567,2097152)
+p("SavannaPlant_ElephantGrass_01",224219,60994,0)
+p("SavannaPlant_ElephantGrass_01",225117,60577,6460,2097152)
+p("TropicalPlant_Grass_03",221813,62771,7482,15024,192,2097157)
+p("SavannaPlant_ElephantGrass_06",224081,62189,0)
+p("SavannaPlant_ElephantGrass_08",225172,61562,0)
+p("SavannaPlant_ElephantGrass_06",224714,63252,4504,2097152)
+p("SavannaPlant_ElephantGrass_01",225000,65203,11797,2097152)
+p("SavannaPlant_ElephantGrass_06",225998,58770,1814,2097152)
+p("SavannaPlant_ElephantGrass_07",225957,59539,0)
+p("SavannaPlant_ElephantGrass_04",225992,60430,7309,2097152)
+p("SavannaPlant_ElephantGrass_07",225869,61798,5639,2097152)
+p("SavannaPlant_ElephantGrass_05",226072,63634,0)
+p("SavannaPlant_ElephantGrass_05",226212,64846,0)
 p("TropicalPlant_01_Shrub",232049,1590,72,4)
 p("TropicalPlant_04_Shrub_01",233317,1703,25,4)
 p("TropicalPlant_04_Shrub_01",232290,2493,57,4)
@@ -173811,59 +174840,25 @@ p("TropicalPlant_Grass_02",229607,46089,142,4)
 p("TropicalPlant_Grass_01",229936,46907,137,4)
 p("TropicalPlant_Grass_02",230795,46073,146,4)
 p("TropicalPlant_Grass_04",230961,45324,121,4)
-p("TropicalPlant_Grass_02",229793,48977,171,4)
 p("TropicalPlant_Grass_01",230017,48271,112,4)
 p("TropicalPlant_Grass_01",230868,47195,115,4)
-p("TropicalPlant_Grass_03",230741,48666,150,4)
-p("TropicalPlant_Grass_04",231248,48380,99,4)
 p("TropicalPlant_Grass_02",232207,45169,163,4)
 p("TropicalPlant_Grass_03",232032,45977,123,4)
 p("TropicalPlant_Grass_03",232666,45264,102,4)
-p("TropicalPlant_Grass_03",232910,46394,110,4)
-p("TropicalPlant_Grass_02",231893,47396,150,4)
-p("TropicalPlant_Grass_03",231618,47705,157,4)
-p("TropicalPlant_Grass_02",233087,47286,108,4)
-p("TropicalPlant_Grass_03",233118,47564,99,4)
-p("TropicalPlant_Grass_01",232639,48531,170,4)
 p("TropicalPlant_Grass_02",233841,42302,182,4)
 p("TropicalPlant_Grass_01",235018,41242,101,4)
 p("TropicalPlant_Grass_04",234523,42395,163,4)
 p("TropicalPlant_Grass_01",234158,43066,131,4)
-p("TropicalPlant_Grass_03",234247,44141,142,4)
 p("TropicalPlant_Grass_01",234885,43447,105,4)
-p("TropicalPlant_Grass_02",235436,44048,101,4)
-p("TropicalPlant_Grass_02",235392,44763,134,4)
 p("TropicalPlant_Grass_02",235789,41108,141,4)
 p("TropicalPlant_Grass_04",235982,42019,88,4)
 p("TropicalPlant_Grass_01",236172,42850,155,4)
 p("TropicalPlant_04_Sapling_01",237136,42288,76,4)
 p("TropicalPlant_Grass_03",237449,42053,177,4)
 p("TropicalPlant_04_Sapling_05",235685,43044,138,4)
-p("TropicalPlant_02_Shrub",235856,44206,123,4)
-p("TropicalPlant_Grass_01",236115,44200,130,4)
-p("TropicalPlant_Grass_02",236089,44646,181,4)
 p("TropicalPlant_Grass_04",237383,43200,87,4)
-p("TropicalPlant_Grass_04",237100,43942,115,4)
-p("TropicalPlant_Grass_02",237026,44816,108,4)
-p("TropicalPlant_Grass_01",233966,45441,175,4)
-p("TropicalPlant_Grass_03",234444,46039,163,4)
-p("TropicalPlant_Grass_04",234299,46975,155,4)
-p("TropicalPlant_Grass_01",234536,46049,155,4)
-p("TropicalPlant_Grass_01",235078,46987,184,4)
-p("TropicalPlant_Grass_01",233907,48330,87,4)
-p("TropicalPlant_Grass_01",234110,48710,174,4)
-p("TropicalPlant_Grass_02",235262,48464,138,4)
-p("TropicalPlant_Grass_04",235396,48961,155,4)
-p("TropicalPlant_Grass_01",236146,45882,106,4)
 p("TropicalPlant_04_Sapling_06",237006,45495,50,4)
 p("TropicalPlant_04_Sapling_03",236970,45847,187,4)
-p("TropicalPlant_Grass_02",237088,46447,178,4)
-p("TropicalPlant_Grass_01",237265,46726,130,4)
-p("TropicalPlant_Grass_03",235828,47218,186,4)
-p("TropicalPlant_Grass_03",235783,47969,168,4)
-p("TropicalPlant_01_Sapling",236799,47588,164,4)
-p("TropicalPlant_Grass_04",237463,47540,117,4)
-p("TropicalPlant_Grass_01",237390,48604,174,4)
 p("TropicalPlant_Grass_04",237787,34344,167,4)
 p("TropicalPlant_04_Shrub_02",238905,33471,65,4)
 p("TropicalPlant_Grass_03",239317,34674,112,4)
@@ -173934,43 +174929,15 @@ p("TropicalPlant_Grass_02",238557,41849,170,4)
 p("TropicalPlant_Grass_03",238282,43003,104,4)
 p("TropicalPlant_Grass_02",239198,41327,184,4)
 p("TropicalPlant_Grass_02",239556,41963,121,4)
-p("TropicalPlant_Grass_04",237982,44876,112,4)
-p("TropicalPlant_Grass_04",238217,44495,152,4)
-p("TropicalPlant_01_Shrub",238494,44574,27,4)
 p("TropicalPlant_Grass_01",239203,43299,186,4)
-p("TropicalPlant_Grass_03",239121,44412,186,4)
 p("TropicalPlant_04_Sapling_03",239466,44190,40,4)
+p("TropicalPlant_04_Sapling_02",239482,44866,9046,162,5)
 p("TropicalPlant_Grass_03",239976,41259,184,4)
 p("TropicalPlant_Grass_01",240810,41604,105,4)
 p("TropicalPlant_Grass_02",241263,42822,108,4)
 p("TropicalPlant_Grass_01",239620,43255,177,4)
-p("TropicalPlant_Grass_04",239688,44290,161,4)
-p("TropicalPlant_Grass_04",240496,44666,166,4)
-p("TropicalPlant_Grass_04",240621,44786,185,4)
 p("TropicalPlant_Grass_04",241173,43661,189,4)
-p("TropicalPlant_Grass_02",241583,44971,144,4)
-p("TropicalPlant_Grass_04",237857,45519,97,4)
-p("TropicalPlant_Grass_04",237661,46510,113,4)
-p("TropicalPlant_Grass_03",238882,45344,168,4)
-p("TropicalPlant_Grass_04",239042,45843,128,4)
-p("TropicalPlant_Grass_03",238872,46755,119,4)
-p("TropicalPlant_Grass_02",237910,48080,166,4)
-p("TropicalPlant_02_Shrub",238049,48910,144,4)
-p("TropicalPlant_Grass_02",238102,48852,123,4)
 p("TropicalPlant_04_Sapling_03",238760,47595,111,4)
-p("TropicalPlant_Grass_02",239211,48165,127,4)
-p("TropicalPlant_04_Sapling_02",239482,48570,162,4)
-p("TropicalPlant_Grass_01",239324,48989,177,4)
-p("TropicalPlant_Grass_01",240401,45965,110,4)
-p("TropicalPlant_Grass_04",239963,46684,123,4)
-p("TropicalPlant_Grass_01",240625,46847,148,4)
-p("TropicalPlant_Grass_04",241507,45674,153,4)
-p("TropicalPlant_Grass_03",241093,46423,99,4)
-p("TropicalPlant_Grass_03",240096,47871,156,4)
-p("TropicalPlant_Grass_04",240561,47808,145,4)
-p("TropicalPlant_Grass_02",240135,49006,132,4)
-p("TropicalPlant_Grass_02",241628,47417,131,4)
-p("TropicalPlant_Grass_03",241342,48850,97,4)
 p("TropicalPlant_Grass_04",242582,41676,116,4)
 p("TropicalPlant_Grass_01",241758,42198,155,4)
 p("TropicalPlant_Grass_04",243267,41286,175,4)
@@ -173984,305 +174951,10 @@ p("TropicalPlant_Grass_01",244629,41186,186,4)
 p("TropicalPlant_Grass_01",244599,41509,138,4)
 p("TropicalPlant_Grass_04",244526,43429,189,4)
 p("TropicalPlant_Grass_04",244377,43660,148,4)
-p("TropicalPlant_Grass_01",243862,44767,161,4)
 p("TropicalPlant_Grass_03",244906,44351,88,4)
-p("TropicalPlant_Grass_02",242792,45377,150,4)
-p("TropicalPlant_Grass_02",243069,45695,99,4)
-p("TropicalPlant_Grass_02",242593,47427,124,4)
-p("TropicalPlant_Grass_04",242530,47686,142,4)
-p("TropicalPlant_Grass_04",241925,48154,105,4)
-p("TropicalPlant_02_Shrub",243210,48867,186,4)
-p("TropicalPlant_Grass_04",244577,45435,188,4)
-p("TropicalPlant_Grass_01",244439,46174,99,4)
-p("TropicalPlant_Grass_02",244754,46326,99,4)
-p("TropicalPlant_Grass_02",245192,46709,130,4)
-p("TropicalPlant_Grass_04",244396,47198,181,4)
-p("TropicalPlant_Grass_04",244285,47622,174,4)
-p("TropicalPlant_Grass_02",243721,48978,108,4)
-p("TropicalPlant_Grass_01",245029,47809,119,4)
-p("TropicalPlant_Grass_04",229427,50012,119,4)
-p("TropicalPlant_Grass_04",230331,50370,124,4)
-p("TropicalPlant_Grass_02",230498,50667,87,4)
-p("TropicalPlant_Grass_03",230539,51119,148,4)
-p("TropicalPlant_Grass_01",231181,50516,121,4)
-p("TropicalPlant_Grass_04",229972,52122,186,4)
-p("TropicalPlant_Grass_01",230023,52932,113,4)
-p("TropicalPlant_Grass_04",230787,51785,138,4)
-p("TropicalPlant_Grass_01",231034,52561,155,4)
-p("TropicalPlant_Grass_03",231453,49825,141,4)
-p("TropicalPlant_Grass_03",232126,49362,106,4)
-p("TropicalPlant_Grass_01",231569,50467,137,4)
-p("TropicalPlant_Grass_02",232320,51137,189,4)
-p("TropicalPlant_Grass_02",232524,49596,120,4)
-p("TropicalPlant_01_Sapling",231537,52160,96,4)
-p("TropicalPlant_Grass_01",232363,51511,149,4)
-p("TropicalPlant_Grass_03",232149,52281,153,4)
-p("TropicalPlant_Grass_02",232390,52935,178,4)
-p("TropicalPlant_Grass_03",232729,51807,174,4)
-p("TropicalPlant_Grass_02",233191,51299,146,4)
-p("TropicalPlant_Grass_03",232706,52757,131,4)
-p("TropicalPlant_Grass_02",230124,54080,87,4)
-p("TropicalPlant_Grass_03",230231,54967,189,4)
-p("TropicalPlant_Grass_03",231093,54226,163,4)
-p("TropicalPlant_Grass_03",230325,56272,112,4)
-p("TropicalPlant_Grass_03",229490,56638,157,4)
-p("TropicalPlant_Grass_01",230398,56529,97,4)
-p("TropicalPlant_Grass_03",230696,56370,108,4)
-p("TropicalPlant_Grass_01",231935,54091,171,4)
-p("TropicalPlant_Grass_02",231441,54986,177,4)
-p("TropicalPlant_Grass_02",232193,54800,139,4)
-p("TropicalPlant_Grass_04",232506,54235,185,4)
-p("TropicalPlant_Grass_04",233075,54966,112,4)
-p("TropicalPlant_Grass_04",231689,55735,177,4)
-p("TropicalPlant_Grass_02",231494,57075,142,4)
-p("TropicalPlant_Grass_02",231946,57230,110,4)
-p("TropicalPlant_Grass_03",232816,56172,115,4)
-p("TropicalPlant_Grass_02",232577,56963,90,4)
-p("TropicalPlant_Grass_01",233714,50349,160,4)
-p("TropicalPlant_Grass_01",234429,51152,164,4)
-p("TropicalPlant_Grass_03",234732,49688,182,4)
-p("TropicalPlant_Grass_02",235244,50968,126,4)
-p("TropicalPlant_Grass_02",233510,51641,186,4)
-p("TropicalPlant_Grass_04",235259,51853,123,4)
-p("TropicalPlant_Grass_03",236250,49507,106,4)
-p("TropicalPlant_Grass_03",236308,49481,179,4)
-p("TropicalPlant_Grass_03",236137,50852,186,4)
-p("TropicalPlant_Grass_02",236609,50422,95,4)
-p("TropicalPlant_Grass_02",237565,50524,117,4)
-p("TropicalPlant_Grass_01",237374,50944,121,4)
-p("TropicalPlant_Grass_02",236451,51823,144,4)
-p("TropicalPlant_Grass_03",236303,52869,188,4)
-p("TropicalPlant_Grass_04",236603,52202,141,4)
-p("TropicalPlant_Grass_03",237085,52940,130,4)
-p("TropicalPlant_Grass_01",233815,53807,142,4)
-p("TropicalPlant_Grass_03",235048,53388,163,4)
-p("TropicalPlant_Grass_04",235303,54173,185,4)
-p("TropicalPlant_Grass_03",235454,55200,132,4)
-p("TropicalPlant_Grass_02",233793,55330,138,4)
-p("TropicalPlant_Grass_03",233965,55566,127,4)
-p("TropicalPlant_Grass_02",234286,56826,144,4)
-p("TropicalPlant_Grass_01",234911,56093,104,4)
-p("TropicalPlant_Grass_04",235797,54290,119,4)
-p("TropicalPlant_Grass_02",236252,54762,88,4)
-p("TropicalPlant_Grass_02",236781,54152,97,4)
-p("TropicalPlant_Grass_03",236797,54521,173,4)
-p("TropicalPlant_Grass_02",235927,55595,167,4)
-p("TropicalPlant_Grass_03",235896,56851,156,4)
-p("TropicalPlant_Grass_01",236592,56079,160,4)
-p("TropicalPlant_01_Sapling",237022,56283,108,4)
-p("TropicalPlant_Grass_01",236890,56651,156,4)
-p("TropicalPlant_Grass_01",229499,58025,171,4)
-p("TropicalPlant_Grass_02",230110,57776,160,4)
-p("TropicalPlant_Grass_02",229524,59202,160,4)
-p("TropicalPlant_Grass_03",231309,58467,127,4)
-p("TropicalPlant_Grass_01",231303,59088,174,4)
-p("TropicalPlant_Grass_03",229668,60392,141,4)
-p("TropicalPlant_Grass_01",229944,61182,116,4)
-p("TropicalPlant_Grass_01",230517,60028,97,4)
-p("TropicalPlant_Grass_04",231167,61014,146,4)
-p("TropicalPlant_Grass_03",232025,58129,178,4)
-p("TropicalPlant_Grass_01",232044,58707,95,4)
-p("TropicalPlant_Grass_03",233308,58015,106,4)
-p("TropicalPlant_Grass_01",233215,58617,185,4)
-p("TropicalPlant_Grass_04",231573,60396,113,4)
-p("TropicalPlant_Grass_02",231833,61297,113,4)
-p("TropicalPlant_Grass_01",232868,59782,109,4)
-p("TropicalPlant_Grass_01",232749,60664,86,4)
-p("TropicalPlant_Grass_04",230124,61523,148,4)
-p("TropicalPlant_Grass_04",229584,62748,110,4)
-p("TropicalPlant_Grass_01",230513,61618,99,4)
-p("TropicalPlant_Grass_01",229719,64215,119,4)
-p("TropicalPlant_Grass_04",230025,64990,168,4)
-p("TropicalPlant_Grass_02",230360,65516,119,4)
-p("TropicalPlant_Grass_02",231090,64497,134,4)
-p("TropicalPlant_Grass_02",230694,64594,153,4)
-p("TropicalPlant_Grass_01",232399,61577,121,4)
-p("TropicalPlant_Grass_02",231455,62517,119,4)
-p("TropicalPlant_Grass_02",231569,62505,121,4)
-p("TropicalPlant_Grass_04",233456,62258,179,4)
-p("TropicalPlant_Grass_03",232890,62701,128,4)
-p("TropicalPlant_Grass_01",232439,63783,130,4)
-p("TropicalPlant_Grass_04",231794,64604,153,4)
-p("TropicalPlant_01_Shrub",232571,64163,186,4)
-p("TropicalPlant_Grass_03",232765,64203,153,4)
-p("TropicalPlant_Grass_04",232554,64828,175,4)
-p("TropicalPlant_Grass_01",234473,57990,145,4)
-p("TropicalPlant_Grass_01",233770,58949,166,4)
-p("TropicalPlant_Grass_01",234514,57495,160,4)
-p("TropicalPlant_Grass_03",234955,58339,155,4)
-p("TropicalPlant_Grass_01",233752,59537,139,4)
-p("TropicalPlant_Grass_01",234072,61326,117,4)
-p("TropicalPlant_Grass_01",235181,59436,131,4)
-p("TropicalPlant_Grass_01",235020,60175,166,4)
-p("TropicalPlant_Grass_04",235842,58091,164,4)
-p("TropicalPlant_Grass_03",236437,59376,90,4)
-p("TropicalPlant_Grass_01",236723,57844,109,4)
-p("TropicalPlant_Grass_04",236943,58538,139,4)
-p("TropicalPlant_Grass_03",236027,60311,128,4)
-p("TropicalPlant_Grass_02",235934,60854,112,4)
-p("TropicalPlant_Grass_03",237178,60040,179,4)
-p("TropicalPlant_Grass_01",237117,61309,128,4)
-p("TropicalPlant_Grass_01",234177,61637,130,4)
-p("TropicalPlant_Grass_01",233711,62802,175,4)
-p("TropicalPlant_02_Shrub",234664,61634,134,4)
-p("TropicalPlant_Grass_04",234854,61477,175,4)
-p("TropicalPlant_Grass_04",234919,61847,157,4)
-p("TropicalPlant_Grass_04",234651,63254,131,4)
-p("TropicalPlant_Grass_04",233901,64469,87,4)
-p("TropicalPlant_Grass_01",233767,64965,131,4)
-p("TropicalPlant_Grass_03",235216,63934,184,4)
-p("TropicalPlant_Grass_01",234504,65053,92,4)
-p("TropicalPlant_Grass_01",235536,62095,137,4)
-p("TropicalPlant_Grass_03",235851,63103,121,4)
-p("TropicalPlant_Grass_03",236791,61695,131,4)
-p("TropicalPlant_Grass_04",236612,63479,141,4)
-p("TropicalPlant_Grass_01",236311,64371,112,4)
-p("TropicalPlant_Grass_01",235533,65404,97,4)
-p("TropicalPlant_Grass_04",237355,63971,137,4)
-p("TropicalPlant_Grass_01",237455,65232,109,4)
-p("TropicalPlant_Grass_02",238277,50354,189,4)
-p("TropicalPlant_Grass_02",238512,50915,171,4)
-p("TropicalPlant_Grass_01",239061,50371,102,4)
-p("TropicalPlant_Grass_04",238372,52335,91,4)
-p("TropicalPlant_01_Sapling",238983,51873,20,4)
-p("TropicalPlant_Grass_02",239325,51590,166,4)
-p("TropicalPlant_Grass_02",240393,49912,124,4)
-p("TropicalPlant_Grass_02",239884,50924,141,4)
-p("TropicalPlant_Grass_03",240717,50257,171,4)
-p("TropicalPlant_Grass_01",240820,50815,98,4)
-p("TropicalPlant_Grass_01",240424,51505,101,4)
-p("TropicalPlant_Grass_02",241036,51514,123,4)
-p("TropicalPlant_Grass_02",241515,51313,163,4)
-p("TropicalPlant_Grass_02",238287,53467,185,4)
-p("TropicalPlant_Grass_04",238446,54293,175,4)
-p("TropicalPlant_Grass_01",238543,55176,91,4)
-p("TropicalPlant_Grass_03",238818,53372,102,4)
-p("TropicalPlant_Grass_04",238949,54133,166,4)
-p("TropicalPlant_Grass_03",238146,55393,101,4)
-p("TropicalPlant_Grass_01",238481,55850,168,4)
-p("TropicalPlant_Grass_02",238053,56683,113,4)
-p("TropicalPlant_Grass_03",239410,55663,179,4)
-p("TropicalPlant_Grass_01",238766,56860,123,4)
-p("TropicalPlant_01_Shrub",238762,57027,179,4)
-p("TropicalPlant_Grass_02",239819,53395,163,4)
-p("TropicalPlant_Grass_01",239850,54394,95,4)
-p("TropicalPlant_Grass_01",240234,54707,88,4)
-p("TropicalPlant_Grass_04",241291,53260,175,4)
-p("TropicalPlant_Grass_02",240957,54420,91,4)
-p("TropicalPlant_Grass_04",241449,55265,135,4)
-p("TropicalPlant_Grass_03",240151,56099,110,4)
-p("TropicalPlant_Grass_02",239728,56560,141,4)
-p("TropicalPlant_Grass_02",241279,55519,179,4)
-p("TropicalPlant_Grass_03",241614,56683,155,4)
-p("TropicalPlant_Grass_04",242323,49475,185,4)
-p("TropicalPlant_Grass_02",242418,49913,163,4)
-p("TropicalPlant_Grass_03",243473,49340,127,4)
-p("TropicalPlant_Grass_03",243248,49681,157,4)
-p("TropicalPlant_Grass_01",243577,50607,99,4)
-p("TropicalPlant_Grass_01",243210,51008,127,4)
-p("TropicalPlant_Grass_03",242246,52279,139,4)
-p("TropicalPlant_Grass_01",242360,53230,159,4)
-p("TropicalPlant_Grass_01",242662,52841,166,4)
-p("TropicalPlant_Grass_02",242925,52457,132,4)
-p("TropicalPlant_01_Sapling",243433,53070,166,4)
-p("TropicalPlant_Grass_02",244683,49383,157,4)
-p("TropicalPlant_Grass_02",244339,50119,141,4)
-p("TropicalPlant_Grass_01",245188,50062,170,4)
-p("TropicalPlant_Grass_01",245687,49239,170,4)
-p("TropicalPlant_Grass_02",244385,51547,179,4)
-p("TropicalPlant_Grass_01",244526,52109,108,4)
-p("TropicalPlant_Grass_03",244040,53027,149,4)
-p("TropicalPlant_Grass_04",244997,51415,94,4)
-p("TropicalPlant_Grass_02",244837,53001,184,4)
-p("TropicalPlant_Grass_02",245697,53040,145,4)
-p("TropicalPlant_Grass_04",242097,54082,171,4)
-p("TropicalPlant_Grass_04",242241,54893,134,4)
-p("TropicalPlant_Grass_02",243123,54230,104,4)
-p("TropicalPlant_Grass_01",242091,56041,106,4)
-p("TropicalPlant_Grass_02",242685,56687,181,4)
-p("TropicalPlant_Grass_01",242935,55329,131,4)
-p("TropicalPlant_Grass_03",242740,56015,189,4)
-p("TropicalPlant_Grass_01",243629,55717,166,4)
-p("TropicalPlant_Grass_02",244273,53510,135,4)
-p("TropicalPlant_Grass_01",244461,55153,185,4)
-p("TropicalPlant_Grass_02",244895,54243,130,4)
-p("TropicalPlant_Grass_02",245695,54126,148,4)
-p("TropicalPlant_Grass_03",244547,55319,112,4)
-p("TropicalPlant_Grass_04",244626,56066,104,4)
-p("TropicalPlant_Grass_02",245314,56876,164,4)
-p("TropicalPlant_Grass_01",237850,58303,117,4)
-p("TropicalPlant_Grass_04",237854,58768,141,4)
-p("TropicalPlant_Grass_02",238953,57616,148,4)
-p("TropicalPlant_Grass_01",239353,58639,130,4)
-p("TropicalPlant_Grass_04",238357,60183,90,4)
-p("TropicalPlant_Grass_03",237948,60642,163,4)
-p("TropicalPlant_Grass_01",239451,59730,182,4)
-p("TropicalPlant_Grass_03",239577,60315,159,4)
-p("TropicalPlant_Grass_04",238730,61212,159,4)
-p("TropicalPlant_Grass_03",239745,58039,173,4)
-p("TropicalPlant_Grass_02",240587,58252,149,4)
-p("TropicalPlant_Grass_03",239979,58775,124,4)
-p("TropicalPlant_Grass_04",241132,57423,152,4)
-p("TropicalPlant_Grass_01",241119,58948,109,4)
-p("TropicalPlant_Grass_01",239709,60536,91,4)
-p("TropicalPlant_Grass_04",240776,59546,117,4)
-p("TropicalPlant_Grass_01",240885,60951,171,4)
-p("TropicalPlant_Grass_01",237777,61867,109,4)
-p("TropicalPlant_Grass_01",238282,62977,123,4)
-p("TropicalPlant_Grass_01",239015,62475,173,4)
-p("TropicalPlant_Grass_02",238830,63028,178,4)
-p("TropicalPlant_Grass_01",238346,63702,150,4)
-p("TropicalPlant_Grass_02",237910,64867,91,4)
-p("TropicalPlant_Grass_03",238546,64802,175,4)
-p("TropicalPlant_Grass_01",239063,63704,188,4)
-p("TropicalPlant_Grass_01",239504,64421,145,4)
-p("TropicalPlant_Grass_01",240004,62024,98,4)
-p("TropicalPlant_Grass_01",240540,62278,97,4)
-p("TropicalPlant_Grass_04",240377,62771,98,4)
-p("TropicalPlant_Grass_03",241118,62543,159,4)
-p("TropicalPlant_Grass_01",240627,64008,124,4)
-p("TropicalPlant_01_Shrub",240509,64465,198,4)
-p("TropicalPlant_Grass_01",239980,64844,160,4)
-p("TropicalPlant_Grass_03",240966,64939,92,4)
-p("TropicalPlant_Grass_03",242350,58072,97,4)
-p("TropicalPlant_Grass_02",241733,58620,157,4)
-p("TropicalPlant_Grass_04",242554,59176,123,4)
-p("TropicalPlant_Grass_04",242878,57505,95,4)
-p("TropicalPlant_Grass_01",243511,57488,106,4)
-p("TropicalPlant_Grass_04",243542,59251,128,4)
-p("TropicalPlant_Grass_04",242215,59915,177,4)
-p("TropicalPlant_Grass_04",242239,60802,110,4)
-p("TropicalPlant_Grass_04",242806,60283,109,4)
-p("TropicalPlant_Grass_02",243516,60226,124,4)
-p("TropicalPlant_Grass_03",242983,61396,101,4)
-p("TropicalPlant_Grass_02",243772,57623,117,4)
-p("TropicalPlant_Grass_01",244581,57728,113,4)
-p("TropicalPlant_Grass_04",245706,57567,184,4)
-p("TropicalPlant_Grass_03",244813,58622,142,4)
-p("TropicalPlant_Grass_03",245658,58801,171,4)
-p("TropicalPlant_Grass_01",244408,61023,182,4)
-p("TropicalPlant_Grass_02",245061,59594,119,4)
-p("TropicalPlant_Grass_02",245469,60575,146,4)
-p("TropicalPlant_Grass_04",242215,61991,157,4)
-p("TropicalPlant_Grass_01",242156,62618,123,4)
-p("TropicalPlant_Grass_04",243045,61701,92,4)
-p("TropicalPlant_01_Sapling",243472,62695,28,4)
-p("TropicalPlant_Grass_04",243538,62813,115,4)
-p("TropicalPlant_Grass_03",243204,63253,121,4)
-p("TropicalPlant_Grass_02",242409,63637,132,4)
-p("TropicalPlant_Grass_04",241851,65407,98,4)
-p("TropicalPlant_Grass_01",243383,64157,121,4)
-p("TropicalPlant_Grass_02",243117,64619,168,4)
-p("TropicalPlant_Grass_01",244327,62453,178,4)
-p("TropicalPlant_Grass_01",244555,62183,117,4)
-p("TropicalPlant_Grass_03",245546,61492,126,4)
-p("TropicalPlant_Grass_04",245656,62313,86,4)
-p("TropicalPlant_Grass_03",245420,63075,131,4)
-p("TropicalPlant_Grass_03",243759,64307,97,4)
-p("TropicalPlant_Grass_03",244598,64351,181,4)
-p("TropicalPlant_Grass_04",244069,65129,132,4)
-p("TropicalPlant_Grass_02",244606,65192,131,4)
-p("TropicalPlant_Grass_01",245729,64298,152,4)
+p("TropicalRockAssembly_01",231253,51054,5886,19515,246,4080,-352,60,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_01",235046,50718,5900,15964,246,1237,1113,3742,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_01",238285,50456,5915,19515,246,4080,-352,60,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_04_Sapling_01",246652,33415,149,4)
 p("TropicalPlant_04_Shrub_02",246409,34057,152,4)
 p("TropicalPlant_04_Shrub_01",246786,34677,46,4)
@@ -174385,23 +175057,11 @@ p("TropicalPlant_Grass_04",248452,44388,104,4)
 p("TropicalPlant_Grass_01",249090,43635,134,4)
 p("TropicalPlant_Grass_04",246448,45469,146,4)
 p("TropicalPlant_Grass_02",246606,45168,184,4)
-p("TropicalPlant_Grass_04",246069,46127,189,4)
-p("TropicalPlant_Grass_03",246818,46556,124,4)
-p("TropicalPlant_Grass_04",247116,46229,130,4)
-p("TropicalPlant_Grass_02",247514,46717,88,4)
-p("TropicalPlant_Grass_01",246462,47240,184,4)
-p("TropicalPlant_Grass_01",246120,48294,150,4)
-p("TropicalPlant_Grass_01",246682,48343,175,4)
-p("TropicalPlant_Grass_01",247790,47822,139,4)
-p("TropicalPlant_Grass_01",247506,49059,90,4)
 p("TropicalPlant_Grass_01",247846,45278,98,4)
 p("TropicalPlant_Grass_04",248687,45225,87,4)
 p("TropicalPlant_Grass_03",248390,45734,137,4)
 p("TropicalPlant_Grass_02",248976,45571,94,4)
 p("TropicalPlant_Grass_01",249845,45350,120,4)
-p("TropicalPlant_Grass_04",249013,46644,173,4)
-p("TropicalPlant_Grass_03",248681,48000,113,4)
-p("TropicalPlant_Grass_03",249837,47970,116,4)
 p("TropicalPlant_Grass_01",250246,42561,181,4)
 p("TropicalPlant_Grass_04",250988,41019,167,4)
 p("TropicalPlant_Grass_02",250954,42325,113,4)
@@ -174423,18 +175083,11 @@ p("TropicalPlant_Grass_01",252873,44222,137,4)
 p("TropicalPlant_Grass_02",252638,44723,104,4)
 p("TropicalPlant_Grass_01",253936,43962,150,4)
 p("TropicalPlant_Grass_04",250312,45897,170,4)
-p("TropicalPlant_Grass_03",250382,46946,113,4)
 p("TropicalPlant_Grass_03",251286,45640,150,4)
 p("TropicalPlant_Grass_04",251815,46467,97,4)
-p("TropicalPlant_Grass_01",251669,46961,142,4)
-p("TropicalPlant_Grass_02",251034,47345,88,4)
-p("TropicalPlant_Grass_02",251687,48012,90,4)
-p("TropicalPlant_Grass_04",251265,48280,175,4)
 p("TropicalPlant_Grass_03",252672,46038,91,4)
+p("TropicalRockSharp_01",253151,46911,2006,16208,247,481,1192,3889,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_04",253126,47081,115,4)
-p("TropicalPlant_Grass_02",252110,48838,173,4)
-p("TropicalPlant_Grass_01",252750,48852,178,4)
-p("TropicalPlant_Grass_03",253103,47892,117,4)
 p("TropicalPlant_Grass_04",254033,34431,123,4)
 p("TropicalPlant_Grass_04",254661,35346,126,4)
 p("TropicalPlant_Grass_03",254421,36341,148,4)
@@ -174532,9 +175185,7 @@ p("TropicalPlant_Grass_02",254022,46686,141,4)
 p("TropicalPlant_Grass_02",254826,46356,123,4)
 p("TropicalPlant_Grass_04",255092,46969,104,4)
 p("TropicalPlant_Grass_03",254369,47582,116,4)
-p("TropicalPlant_Grass_02",254385,48790,179,4)
 p("TropicalPlant_Grass_01",255379,48035,179,4)
-p("TropicalPlant_Grass_04",255183,48845,175,4)
 p("TropicalPlant_Grass_02",256411,45842,139,4)
 p("TropicalPlant_Grass_03",256262,46844,116,4)
 p("TropicalPlant_Grass_01",256651,46212,145,4)
@@ -174544,7 +175195,6 @@ p("TropicalPlant_Grass_02",257653,46294,149,4)
 p("TropicalPlant_Grass_01",257835,46954,94,4)
 p("TropicalPlant_04_Shrub_01",256443,47585,44,4)
 p("TropicalPlant_Grass_04",256011,47896,123,4)
-p("TropicalPlant_Grass_01",256918,48914,121,4)
 p("TropicalPlant_04_Shrub_01",257366,47862,10,4)
 p("TropicalPlant_Grass_04",257407,48408,105,4)
 p("TropicalPlant_Grass_04",258346,41111,186,4)
@@ -174583,7 +175233,6 @@ p("TropicalPlant_Grass_03",259994,46943,181,4)
 p("TropicalPlant_Grass_04",258200,47828,161,4)
 p("TropicalPlant_Grass_02",258605,47291,124,4)
 p("TropicalPlant_Grass_02",258769,48046,126,4)
-p("TropicalPlant_Grass_04",258482,49082,130,4)
 p("TropicalPlant_04_Shrub_01",258805,48414,31,4)
 p("TropicalPlant_Grass_04",259503,48166,97,4)
 p("TropicalPlant_Grass_04",260535,45380,119,4)
@@ -174593,312 +175242,15 @@ p("TropicalPlant_Grass_03",260637,47247,135,4)
 p("TropicalPlant_Grass_03",260224,48972,177,4)
 p("TropicalPlant_Grass_04",261201,47715,174,4)
 p("TropicalPlant_Grass_01",261546,47896,186,4)
-p("TropicalPlant_Grass_04",246542,49250,123,4)
-p("TropicalPlant_Grass_04",245883,50328,117,4)
-p("TropicalPlant_Grass_04",246253,50805,150,4)
-p("TropicalPlant_Grass_02",246761,50468,130,4)
-p("TropicalPlant_Grass_03",247060,50972,132,4)
-p("TropicalPlant_Grass_02",245781,52021,92,4)
-p("TropicalPlant_Grass_02",246767,52814,131,4)
-p("TropicalPlant_Grass_03",246824,52085,152,4)
-p("TropicalPlant_Grass_03",247777,51766,182,4)
-p("TropicalPlant_Grass_01",247655,52584,110,4)
-p("TropicalPlant_Grass_01",248118,49530,98,4)
-p("TropicalPlant_Grass_04",248222,50860,152,4)
-p("TropicalPlant_Grass_03",248689,50878,181,4)
-p("TropicalPlant_Grass_01",249423,49420,90,4)
-p("TropicalPlant_Grass_02",249465,50102,128,4)
-p("TropicalPlant_Grass_02",249339,51816,123,4)
-p("TropicalPlant_Grass_03",246570,53950,148,4)
-p("TropicalPlant_Grass_01",246656,54697,105,4)
-p("TropicalPlant_Grass_02",246245,55442,173,4)
-p("TropicalPlant_Grass_04",246173,56077,105,4)
-p("TropicalPlant_Grass_01",245871,56586,142,4)
-p("TropicalPlant_Grass_01",246998,55810,88,4)
-p("TropicalPlant_Grass_04",247386,57054,167,4)
-p("TropicalPlant_Grass_04",248792,54156,117,4)
-p("TropicalPlant_Grass_01",248052,54275,163,4)
-p("TropicalPlant_Grass_04",248248,54567,141,4)
-p("TropicalPlant_Grass_01",249224,53438,132,4)
-p("TropicalPlant_Grass_04",249676,53788,134,4)
-p("TropicalPlant_Grass_04",248405,55791,113,4)
-p("TropicalPlant_Grass_03",248389,56690,145,4)
-p("TropicalPlant_Grass_02",248642,56753,104,4)
-p("TropicalPlant_Grass_04",249111,56271,95,4)
-p("TropicalPlant_Grass_03",249455,55298,121,4)
-p("TropicalPlant_Grass_03",250066,49407,115,4)
-p("TropicalPlant_Grass_01",249917,49947,92,4)
-p("TropicalPlant_Grass_04",250753,49177,86,4)
-p("TropicalPlant_Grass_02",250754,49513,110,4)
-p("TropicalPlant_Grass_03",249997,50789,148,4)
-p("TropicalPlant_Grass_03",251269,51168,94,4)
-p("TropicalPlant_Grass_02",250704,51885,168,4)
-p("TropicalPlant_Grass_02",249877,52401,156,4)
-p("TropicalPlant_Grass_01",250098,52723,131,4)
-p("TropicalPlant_Grass_03",250954,53075,116,4)
-p("TropicalPlant_Grass_03",251590,52973,123,4)
-p("TropicalPlant_Grass_03",251944,49574,181,4)
-p("TropicalPlant_Grass_04",253291,50493,159,4)
-p("TropicalPlant_Grass_04",252327,51357,166,4)
-p("TropicalPlant_Grass_02",252388,51630,182,4)
-p("TropicalPlant_Grass_01",252549,52001,167,4)
-p("TropicalPlant_Grass_02",252973,51206,112,4)
-p("TropicalPlant_Grass_01",253399,52775,119,4)
-p("TropicalPlant_Grass_03",250487,54633,134,4)
-p("TropicalPlant_Grass_04",251103,54289,112,4)
-p("TropicalPlant_Grass_03",251138,54815,120,4)
-p("TropicalPlant_Grass_03",250129,56434,138,4)
-p("TropicalPlant_Grass_04",250273,57028,170,4)
-p("TropicalPlant_Grass_02",250624,56816,141,4)
-p("TropicalPlant_Grass_03",250917,56301,117,4)
-p("TropicalPlant_Grass_03",251744,56343,146,4)
-p("TropicalPlant_Grass_01",251845,56902,163,4)
-p("TropicalPlant_Grass_02",251979,53710,161,4)
-p("TropicalPlant_Grass_04",252128,55244,167,4)
-p("TropicalPlant_Grass_04",253223,54192,108,4)
-p("TropicalPlant_Grass_02",253007,54734,185,4)
+p("TropicalRockAssembly_01",251255,53971,6517,1617,246,-2747,-1803,2444,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_04",252575,57048,163,4)
-p("TropicalPlant_Grass_01",253655,55432,134,4)
 p("TropicalPlant_Grass_01",253272,56373,164,4)
-p("TropicalPlant_Grass_01",247036,57531,135,4)
-p("TropicalPlant_Grass_03",247518,57512,150,4)
-p("TropicalPlant_Grass_01",247015,58638,179,4)
-p("TropicalPlant_Grass_02",246342,59795,163,4)
-p("TropicalPlant_Grass_01",246610,61349,131,4)
-p("TropicalPlant_Grass_02",246965,59725,142,4)
-p("TropicalPlant_Grass_02",248530,58249,186,4)
-p("TropicalPlant_Grass_01",248480,58864,170,4)
-p("TropicalPlant_Grass_03",249505,57504,104,4)
-p("TropicalPlant_Grass_02",249223,58565,144,4)
-p("TropicalPlant_Grass_02",249635,58541,130,4)
-p("TropicalPlant_Grass_03",247872,60247,94,4)
-p("TropicalPlant_Grass_04",248589,60172,110,4)
-p("TropicalPlant_Grass_01",248406,60692,91,4)
-p("TropicalPlant_Grass_03",248671,60628,137,4)
-p("TropicalPlant_Grass_04",246225,62733,148,4)
-p("TropicalPlant_Grass_01",247402,62029,157,4)
-p("TropicalPlant_Grass_03",246998,63471,117,4)
-p("TropicalPlant_Grass_04",247616,63303,164,4)
-p("TropicalPlant_Grass_01",246195,64698,117,4)
-p("TropicalPlant_Grass_01",246879,64415,149,4)
-p("TropicalPlant_Grass_02",247403,65235,167,4)
-p("TropicalPlant_Grass_03",248668,61866,178,4)
-p("TropicalPlant_Grass_01",248479,62154,174,4)
-p("TropicalPlant_Grass_03",249120,63330,137,4)
-p("TropicalPlant_Grass_02",248275,63897,126,4)
-p("TropicalPlant_Grass_04",248197,64502,108,4)
-p("TropicalPlant_Grass_02",248691,64449,132,4)
-p("TropicalPlant_Grass_03",249004,65374,141,4)
-p("TropicalPlant_Grass_01",249742,64993,92,4)
-p("TropicalPlant_Grass_03",251352,58159,115,4)
-p("TropicalPlant_Grass_02",250941,58974,174,4)
-p("TropicalPlant_Grass_04",251796,58382,127,4)
-p("TropicalPlant_Grass_01",250029,59604,160,4)
-p("TropicalPlant_Grass_03",250146,61320,128,4)
-p("TropicalPlant_Grass_01",250750,60852,175,4)
-p("TropicalPlant_Grass_04",251420,59907,153,4)
-p("TropicalPlant_Grass_01",251579,60026,105,4)
-p("TropicalPlant_01_Sapling",250925,60902,158,4)
-p("TropicalPlant_Grass_02",252924,57748,188,4)
-p("TropicalPlant_Grass_02",252423,58660,127,4)
-p("TropicalPlant_Grass_02",252529,59097,106,4)
-p("TropicalPlant_Grass_04",252107,60525,168,4)
-p("TropicalPlant_Grass_02",252821,61033,152,4)
-p("TropicalPlant_Grass_02",250102,61643,104,4)
-p("TropicalPlant_Grass_03",250746,61719,149,4)
-p("TropicalPlant_Grass_03",249917,63175,167,4)
-p("TropicalPlant_Grass_02",250885,62963,150,4)
-p("TropicalPlant_Grass_04",250376,64494,128,4)
-p("TropicalPlant_Grass_02",250993,63691,101,4)
-p("TropicalPlant_Grass_03",251638,64300,110,4)
-p("TropicalPlant_Grass_03",250929,64770,142,4)
-p("TropicalPlant_Grass_03",252008,62013,117,4)
-p("TropicalPlant_Grass_03",252300,63074,171,4)
-p("TropicalPlant_Grass_01",253017,63052,97,4)
-p("TropicalPlant_Grass_03",253689,62820,161,4)
-p("TropicalPlant_Grass_04",252468,65444,106,4)
-p("TropicalPlant_Grass_02",253118,63535,88,4)
-p("TropicalPlant_04_Shrub_01",253352,63894,114,4)
-p("TropicalPlant_Grass_01",253875,64062,94,4)
-p("TropicalPlant_Grass_04",253391,64822,121,4)
-p("TropicalPlant_Grass_02",254418,49565,123,4)
-p("TropicalPlant_Grass_03",255740,49209,149,4)
-p("TropicalPlant_04_Shrub_02",255629,49892,141,4)
-p("TropicalPlant_Grass_03",255143,50242,108,4)
-p("TropicalPlant_Grass_01",255443,50807,148,4)
-p("TropicalPlant_04_Shrub_01",255856,50844,138,4)
-p("TropicalPlant_Grass_01",254201,51424,160,4)
-p("TropicalPlant_Grass_02",254333,51840,149,4)
-p("TropicalPlant_Grass_02",254368,52890,138,4)
-p("TropicalPlant_Grass_04",255217,51737,189,4)
-p("TropicalPlant_Grass_01",255083,53203,134,4)
-p("TropicalPlant_Grass_04",256418,50191,145,4)
-p("TropicalPlant_Grass_04",256350,50945,88,4)
-p("TropicalPlant_04_Shrub_02",257226,49626,57,4)
-p("TropicalPlant_Grass_02",257277,50037,131,4)
-p("TropicalPlant_Grass_03",257274,50757,148,4)
-p("TropicalPlant_Grass_04",257849,50225,99,4)
-p("TropicalPlant_Grass_01",256982,52014,174,4)
-p("TropicalPlant_Grass_01",256134,52395,110,4)
-p("TropicalPlant_Grass_01",256020,52779,186,4)
-p("TropicalPlant_Grass_02",256977,52756,170,4)
-p("TropicalPlant_04_Shrub_01",257757,51458,166,4)
-p("TropicalPlant_Grass_03",257620,51831,144,4)
-p("TropicalPlant_Grass_02",254468,54178,130,4)
-p("TropicalPlant_Grass_04",254839,53786,156,4)
-p("TropicalPlant_Grass_01",254505,54671,157,4)
-p("TropicalPlant_04_Shrub_01",255523,54082,151,4)
-p("TropicalPlant_Grass_04",254173,55731,144,4)
-p("TropicalPlant_Grass_02",254975,56036,88,4)
-p("TropicalPlant_Grass_01",254398,56976,185,4)
-p("TropicalPlant_04_Shrub_01",254943,56532,164,4)
-p("TropicalPlant_04_Shrub_02",255547,56097,176,4)
-p("TropicalPlant_Grass_01",255187,56712,106,4)
-p("TropicalPlant_04_Shrub_02",255685,57235,51,4)
-p("TropicalPlant_Grass_02",256698,53525,97,4)
-p("TropicalPlant_Grass_04",256041,54289,145,4)
-p("TropicalPlant_Grass_04",257977,53296,95,4)
-p("TropicalPlant_04_Shrub_02",257338,54612,125,4)
-p("TropicalPlant_Grass_02",257327,54719,185,4)
-p("TropicalPlant_Grass_02",256067,55430,139,4)
-p("TropicalPlant_Grass_03",256125,56057,182,4)
-p("TropicalPlant_Grass_03",256529,56277,167,4)
-p("TropicalPlant_Grass_03",256450,56896,99,4)
-p("TropicalPlant_Grass_01",256829,57294,101,4)
-p("TropicalPlant_Grass_04",257905,55460,182,4)
-p("TropicalPlant_Grass_04",257797,55781,86,4)
-p("TropicalPlant_04_Shrub_02",257234,56660,10,4)
-p("TropicalPlant_Grass_02",258577,49835,87,4)
-p("TropicalPlant_Grass_01",258460,50553,163,4)
-p("TropicalPlant_Grass_03",259188,49218,127,4)
-p("TropicalPlant_04_Shrub_01",259203,49301,95,4)
-p("TropicalPlant_Grass_04",259286,50854,173,4)
-p("TropicalPlant_Grass_04",259832,50190,144,4)
-p("TropicalPlant_Grass_01",259173,52002,138,4)
-p("TropicalPlant_04_Shrub_01",259666,51823,10,4)
-p("TropicalPlant_Grass_02",259656,51873,94,4)
-p("TropicalPlant_Grass_02",259289,52551,184,4)
-p("TropicalPlant_Grass_03",260935,49250,106,4)
-p("TropicalPlant_Grass_04",260558,50336,117,4)
-p("TropicalPlant_Grass_01",260650,50562,135,4)
-p("TropicalPlant_04_Shrub_01",261216,49826,120,4)
-p("TropicalPlant_Grass_04",260116,51365,127,4)
-p("TropicalPlant_04_Shrub_01",260342,51319,98,4)
-p("TropicalPlant_Grass_03",260485,52954,87,4)
-p("TropicalPlant_Grass_03",261263,52132,156,4)
-p("TropicalPlant_Grass_04",261824,51583,185,4)
-p("TropicalPlant_04_Shrub_02",261219,52743,108,4)
-p("TropicalPlant_Grass_01",258319,53796,149,4)
-p("TropicalPlant_04_Shrub_02",258750,53332,135,4)
-p("TropicalPlant_Grass_03",258999,54401,156,4)
-p("TropicalPlant_04_Shrub_02",259520,54520,66,4)
-p("TropicalPlant_Grass_01",259240,55186,108,4)
-p("TropicalPlant_Grass_01",260092,54706,113,4)
-p("TropicalPlant_Grass_01",258949,55822,166,4)
-p("TropicalPlant_Grass_03",258490,57320,99,4)
-p("TropicalPlant_04_Shrub_02",259827,55954,112,4)
-p("TropicalPlant_Grass_04",259358,57309,179,4)
-p("TropicalPlant_04_Shrub_02",260392,54088,10,4)
-p("TropicalPlant_Grass_03",261047,53341,139,4)
-p("TropicalPlant_Grass_04",260285,54473,132,4)
-p("TropicalPlant_Grass_03",261423,54424,188,4)
-p("TropicalPlant_Grass_02",261275,54985,109,4)
-p("TropicalPlant_Grass_04",260273,55574,145,4)
-p("TropicalPlant_04_Shrub_01",260291,56052,10,4)
-p("TropicalPlant_Grass_03",261016,55960,109,4)
-p("TropicalPlant_Grass_01",260351,56775,117,4)
-p("TropicalPlant_Grass_02",262043,55883,108,4)
-p("TropicalPlant_Grass_04",261448,56500,144,4)
-p("TropicalPlant_Grass_01",254423,57923,127,4)
-p("TropicalPlant_04_Shrub_01",254830,57791,82,4)
-p("TropicalPlant_Grass_02",254388,58653,173,4)
-p("TropicalPlant_Grass_04",255407,58040,142,4)
-p("TropicalPlant_Grass_01",255238,58582,160,4)
-p("TropicalPlant_Grass_01",255567,59017,189,4)
-p("TropicalPlant_Grass_02",254062,60298,160,4)
-p("TropicalPlant_Grass_01",254299,60769,181,4)
-p("TropicalPlant_Grass_03",254790,61360,86,4)
-p("TropicalPlant_Grass_01",255214,60303,148,4)
-p("TropicalPlant_Grass_01",255524,59548,119,4)
-p("TropicalPlant_Grass_03",255533,61190,92,4)
-p("TropicalPlant_Grass_02",256067,58323,149,4)
-p("TropicalPlant_Grass_04",256537,58231,177,4)
-p("TropicalPlant_04_Shrub_01",257880,57960,180,4)
-p("TropicalPlant_Grass_04",257044,58778,160,4)
-p("TropicalPlant_Grass_03",257974,59330,119,4)
-p("TropicalPlant_04_Shrub_01",256539,59774,91,4)
-p("TropicalPlant_04_Shrub_02",257296,59472,66,4)
-p("TropicalPlant_Grass_01",257172,60432,184,4)
-p("TropicalPlant_Grass_01",257180,60615,179,4)
-p("TropicalPlant_Grass_02",257748,61065,95,4)
-p("TropicalPlant_04_Shrub_02",258032,61141,112,4)
-p("TropicalPlant_Grass_02",254400,62160,102,4)
-p("TropicalPlant_Grass_01",255394,62198,98,4)
-p("TropicalPlant_04_Shrub_01",255540,62025,188,4)
-p("TropicalPlant_04_Shrub_02",255023,62567,45,4)
-p("TropicalPlant_Grass_02",255256,62527,113,4)
-p("TropicalPlant_04_Shrub_01",254500,64040,157,4)
-p("TropicalPlant_Grass_02",254366,65098,142,4)
-p("TropicalPlant_Grass_04",255014,63959,145,4)
-p("TropicalPlant_Grass_01",255444,65385,163,4)
-p("TropicalPlant_Grass_01",255610,65256,156,4)
-p("TropicalPlant_Grass_03",256243,62065,94,4)
-p("TropicalPlant_Grass_04",256785,62086,86,4)
-p("TropicalPlant_Grass_01",256036,63368,124,4)
-p("TropicalPlant_Grass_04",256542,63471,91,4)
-p("TropicalPlant_Grass_01",257599,62280,105,4)
-p("TropicalPlant_Grass_02",257688,62641,185,4)
-p("TropicalPlant_02_Shrub",257582,63294,192,4)
-p("TropicalPlant_Grass_01",256171,64461,179,4)
-p("TropicalPlant_04_Shrub_01",256551,63641,49,4)
-p("TropicalPlant_Grass_03",256636,64513,86,4)
-p("TropicalPlant_Grass_02",257456,64201,102,4)
-p("TropicalPlant_Grass_01",257808,64731,137,4)
-p("TropicalPlant_Grass_01",258337,57782,141,4)
-p("TropicalPlant_Grass_01",258887,57766,91,4)
-p("TropicalPlant_Grass_04",258931,58527,132,4)
-p("TropicalPlant_04_Shrub_02",259553,58160,122,4)
-p("TropicalPlant_Grass_03",259688,57709,186,4)
-p("TropicalPlant_Grass_01",259507,59380,181,4)
-p("TropicalPlant_04_Shrub_01",259579,59318,155,4)
-p("TropicalPlant_Grass_01",258327,60088,119,4)
-p("TropicalPlant_Grass_04",258968,60320,92,4)
-p("TropicalPlant_04_Shrub_01",259123,60892,72,4)
-p("TropicalPlant_Grass_03",259486,61361,171,4)
-p("TropicalPlant_Grass_04",260529,58049,168,4)
-p("TropicalPlant_04_Shrub_01",260622,57379,123,4)
-p("TropicalPlant_02_Shrub",260824,57580,107,4)
-p("TropicalPlant_Grass_02",260671,58725,101,4)
-p("TropicalPlant_04_Shrub_01",260791,59894,158,4)
-p("TropicalPlant_Grass_04",260099,60494,153,4)
-p("TropicalPlant_Grass_02",260184,60692,120,4)
-p("TropicalPlant_Grass_01",260777,61125,139,4)
-p("TropicalPlant_Grass_02",261233,59959,120,4)
-p("TropicalPlant_04_Shrub_02",261244,61274,142,4)
-p("TropicalPlant_04_Shrub_01",258154,62018,91,4)
-p("TropicalPlant_Grass_03",258593,61876,124,4)
-p("TropicalPlant_Grass_04",258997,62680,148,4)
-p("TropicalPlant_04_Shrub_01",259488,61857,37,4)
-p("TropicalPlant_Grass_04",258072,63687,119,4)
-p("TropicalPlant_Grass_04",258647,64153,115,4)
-p("TropicalPlant_04_Shrub_01",258776,64687,27,4)
-p("TropicalPlant_Grass_03",258809,64861,142,4)
-p("TropicalPlant_Grass_04",259818,64000,160,4)
-p("TropicalPlant_Grass_02",259696,65063,189,4)
-p("TropicalPlant_04_Shrub_02",259719,65110,99,4)
-p("TropicalPlant_Grass_04",260156,62177,88,4)
-p("TropicalPlant_Grass_03",260344,62827,185,4)
-p("TropicalPlant_04_Shrub_02",261077,62600,195,4)
-p("TropicalPlant_Grass_04",260937,63006,184,4)
-p("TropicalPlant_Grass_02",261423,61579,112,4)
-p("TropicalPlant_Grass_02",261527,62202,144,4)
-p("TropicalPlant_04_Shrub_02",261993,62527,19,4)
-p("TropicalPlant_04_Shrub_02",260397,64263,104,4)
-p("TropicalPlant_Grass_01",261003,64420,189,4)
-p("TropicalPlant_04_Shrub_01",260190,65330,71,4)
-p("TropicalPlant_Grass_02",261326,64790,124,4)
-p("TropicalPlant_04_Shrub_01",261935,64512,13,4)
-p("TropicalPlant_Grass_02",261934,64745,155,4)
+p("TropicalRockAssembly_01",258805,57334,10212,8237,246,-1566,-508,3750,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_01",254176,58395,6517,2709,246,-1120,-3031,2517,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_01",257401,58557,8941,8237,167,-1566,-508,3750,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_01",254543,62919,6517,2709,246,-1120,-3031,2517,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_01",258802,61502,10212,15732,246,-1348,1467,3578,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_01",259104,65187,10212,15732,246,-1348,1467,3578,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("DecJungleForest_02",200772,67648,7205,185,4281609513,81,2098188)
 p("DecJungleForest_02",201104,71638,7205,185,4281609513,81,2098188)
 p("TropicalPlant_Dead_13",197428,78487,0)
@@ -174938,248 +175290,56 @@ p("TropicalPlant_04_Shrub_01",212052,92879,6878,1994,152,-1718,-3384,1539,209717
 p("TropicalPlant_04_Shrub_01",212507,93849,7766,19207,185,2347,-2716,1972,2097173)
 p("TropicalPlant_Grass_03",208927,98223,7738,10189,192,2097157)
 p("TropicalPlant_Dead_11",215397,66379,8845,7197,-265,23,4087,2097169)
-p("TropicalPlant_Grass_04",216443,66116,128,4)
-p("TropicalPlant_Grass_04",216369,66656,175,4)
-p("TropicalPlant_Grass_02",217036,67263,171,4)
-p("TropicalPlant_Grass_02",215875,68061,178,4)
-p("TropicalPlant_Grass_03",215972,69377,102,4)
-p("TropicalPlant_Grass_02",216692,68336,144,4)
-p("TropicalPlant_Grass_03",216429,69586,102,4)
-p("TropicalPlant_Grass_01",215706,70747,101,4)
-p("TropicalPlant_Grass_01",216340,71735,115,4)
-p("TropicalPlant_Grass_01",216957,71723,152,4)
-p("TropicalPlant_Grass_03",217325,66129,90,4)
-p("TropicalPlant_Grass_01",217665,65559,99,4)
-p("TropicalPlant_Grass_04",217951,67188,149,4)
-p("TropicalPlant_Grass_03",218749,65652,119,4)
-p("TropicalPlant_Grass_04",218991,67176,144,4)
-p("TropicalPlant_Grass_01",217791,68435,139,4)
-p("TropicalPlant_Grass_01",217245,69328,101,4)
-p("TropicalPlant_Grass_02",218137,68736,178,4)
-p("TropicalPlant_Grass_01",218843,69407,182,4)
-p("TropicalPlant_Grass_03",220332,66072,99,4)
-p("TropicalPlant_Grass_03",220172,67449,153,4)
-p("TropicalPlant_Grass_01",219494,67821,108,4)
-p("TropicalPlant_Grass_03",219834,68543,120,4)
-p("TropicalPlant_Grass_04",220180,68316,167,4)
-p("TropicalPlant_Grass_04",220725,68095,153,4)
-p("TropicalPlant_Grass_02",220506,69431,182,4)
-p("TropicalPlant_Grass_04",217172,70140,119,4)
-p("TropicalPlant_Grass_02",217131,71188,108,4)
-p("TropicalPlant_Grass_04",218282,70109,99,4)
-p("TropicalPlant_Grass_01",218644,70448,138,4)
-p("TropicalPlant_Grass_04",218229,70729,174,4)
-p("TropicalPlant_Grass_03",218595,70962,132,4)
-p("TropicalPlant_Grass_04",217236,73220,175,4)
-p("TropicalPlant_Grass_01",217182,73677,92,4)
-p("TropicalPlant_Grass_02",218486,71888,173,4)
-p("TropicalPlant_Grass_03",218949,72457,104,4)
-p("TropicalPlant_Grass_02",218313,73316,142,4)
-p("TropicalPlant_Grass_02",218254,73607,188,4)
-p("TropicalPlant_Grass_03",218965,73497,167,4)
-p("TropicalPlant_Grass_04",220075,71039,178,4)
-p("TropicalPlant_Grass_01",220205,69906,142,4)
-p("TropicalPlant_Grass_03",221022,70464,175,4)
-p("TropicalPlant_Grass_03",221089,71448,94,4)
-p("TropicalPlant_Grass_01",219696,73353,184,4)
-p("TropicalPlant_04_Shrub_01",219672,73721,111,4)
-p("TropicalPlant_Grass_04",220399,72234,138,4)
-p("TropicalPlant_Grass_04",220475,73551,138,4)
-p("TropicalPlant_Grass_02",220746,73596,185,4)
-p("TropicalPlant_Grass_04",220989,73424,171,4)
+p("DecBunker_ConcretePile_02",215670,69947,9063,20945,89,1788,-1089,3520,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_02",218153,67380,8398,7982,170,285,198,4081,"terrainchunk",10,0,0,4,95,31,40,60,2228245)
+p("JungleCamp_TrenchFloor_01",218261,71630,8667,15887,357,-328,4067,2150182196,2150182196,"",1075841553)
+p("TropicalPlant_Dead_13",215531,73828,8527,1025,-2502,-1143,3034,2097169)
 p("TropicalPlant_Grass_01",217055,75351,126,4)
-p("TropicalPlant_Grass_04",218230,74701,156,4)
-p("TropicalPlant_Grass_01",217449,75938,135,4)
-p("TropicalPlant_Grass_04",217693,76410,139,4)
 p("TropicalPlant_Grass_02",217182,77277,173,4)
-p("TropicalPlant_Grass_01",218021,77293,171,4)
-p("TropicalPlant_Grass_03",218934,76332,105,4)
-p("TropicalPlant_Grass_02",219356,73816,170,4)
-p("TropicalPlant_Grass_04",219702,74669,150,4)
-p("TropicalPlant_Grass_02",219187,74948,138,4)
-p("TropicalPlant_04_Shrub_01",220878,74189,39,4)
-p("TropicalPlant_Grass_02",221154,75289,146,4)
-p("TropicalPlant_04_Shrub_01",220997,75731,78,4)
-p("TropicalPlant_Grass_01",219219,76634,113,4)
-p("TropicalPlant_Grass_04",220010,76213,105,4)
-p("TropicalPlant_Grass_03",219732,76773,185,4)
-p("TropicalPlant_04_Shrub_02",220510,77292,24,4)
+p("TropicalPlant_Grass_03",219730,73973,8590,19524,192,2097157)
+p("TropicalRockAssembly_02",220168,75932,8200,7904,170,212,54,4090,"terrainchunk",10,0,0,4,95,31,40,60,2228245)
 p("TropicalPlant_Grass_04",217397,78359,123,4)
 p("TropicalPlant_Grass_01",218414,78408,119,4)
 p("TropicalPlant_Grass_03",218237,78979,119,4)
 p("TropicalPlant_Grass_02",218634,79156,179,4)
 p("TropicalPlant_Grass_04",218451,80025,119,4)
 p("TropicalPlant_Grass_03",218662,80147,128,4)
-p("TropicalPlant_Grass_02",219228,78029,123,4)
-p("TropicalPlant_Grass_03",219652,78006,188,4)
-p("TropicalPlant_Grass_02",220124,78997,182,4)
-p("TropicalPlant_Grass_01",220753,78137,149,4)
-p("TropicalPlant_04_Shrub_02",221063,79711,103,4)
-p("TropicalPlant_Grass_01",221130,79756,131,4)
-p("TropicalPlant_Grass_04",219659,80665,116,4)
-p("TropicalPlant_Grass_02",220050,80411,91,4)
 p("TropicalPlant_Grass_04",219496,81088,120,4)
 p("TropicalPlant_Grass_02",219497,81557,104,4)
-p("TropicalPlant_Grass_02",220666,80691,181,4)
-p("TropicalPlant_Grass_03",220473,81522,189,4)
-p("TropicalPlant_Grass_03",221294,65803,178,4)
-p("TropicalPlant_Grass_01",221696,66268,152,4)
-p("TropicalPlant_Grass_03",221385,67383,181,4)
-p("TropicalPlant_Grass_04",222112,67003,104,4)
-p("TropicalPlant_Grass_03",221696,68406,113,4)
-p("TropicalPlant_04_Shrub_01",221494,69213,15,4)
-p("TropicalPlant_Grass_01",221636,69443,159,4)
-p("TropicalPlant_Grass_04",222939,68388,175,4)
-p("TropicalPlant_04_Shrub_02",222570,69359,53,4)
-p("TropicalPlant_02_Shrub",223103,68637,136,4)
-p("TropicalPlant_Grass_03",223227,68967,161,4)
-p("TropicalPlant_Grass_01",223422,65711,144,4)
-p("TropicalPlant_Grass_03",223720,65886,109,4)
-p("TropicalPlant_Grass_03",223370,67081,132,4)
-p("TropicalPlant_Grass_03",224093,67294,160,4)
-p("TropicalPlant_Grass_01",224529,65903,148,4)
-p("TropicalPlant_Grass_01",224099,67779,163,4)
-p("TropicalPlant_Grass_01",224171,69481,131,4)
-p("TropicalPlant_Grass_04",224915,68227,159,4)
-p("TropicalPlant_Grass_02",224952,69263,108,4)
-p("TropicalPlant_04_Shrub_02",221203,70404,102,4)
-p("TropicalPlant_Grass_01",222013,69963,159,4)
-p("TropicalPlant_04_Shrub_01",222103,70004,84,4)
-p("TropicalPlant_Grass_04",221528,71432,102,4)
-p("TropicalPlant_Grass_01",223167,70394,99,4)
-p("TropicalPlant_Grass_01",221458,71887,124,4)
-p("TropicalPlant_04_Shrub_02",221371,72695,123,4)
-p("TropicalPlant_04_Shrub_01",221742,72157,192,4)
-p("TropicalPlant_Grass_02",221857,72571,110,4)
-p("TropicalPlant_Grass_03",222209,71941,88,4)
-p("TropicalPlant_Grass_01",222829,71869,121,4)
-p("TropicalPlant_Grass_01",222574,72784,102,4)
-p("TropicalPlant_Grass_02",223484,70647,109,4)
-p("TropicalPlant_Grass_03",223853,69734,88,4)
-p("TropicalPlant_Grass_01",224967,69877,173,4)
-p("TropicalPlant_Grass_03",224410,70718,137,4)
-p("TropicalPlant_Grass_03",224764,71273,106,4)
-p("TropicalPlant_Grass_04",224535,71636,179,4)
-p("TropicalPlant_Grass_02",223872,72031,160,4)
-p("TropicalPlant_Grass_01",224531,72776,156,4)
-p("TropicalPlant_Grass_02",224397,73336,159,4)
-p("TropicalPlant_Grass_01",226022,65956,139,4)
-p("TropicalPlant_Grass_01",225409,66698,87,4)
-p("TropicalPlant_Grass_02",225537,66664,177,4)
-p("TropicalPlant_Grass_03",226575,66131,170,4)
-p("TropicalPlant_Grass_01",226547,66747,102,4)
-p("TropicalPlant_Grass_04",226171,69495,102,4)
-p("TropicalPlant_Grass_04",226319,67866,126,4)
-p("TropicalPlant_Grass_04",226664,68591,149,4)
-p("TropicalPlant_Grass_01",227597,67390,91,4)
-p("TropicalPlant_Grass_02",228786,66292,117,4)
-p("TropicalPlant_Grass_02",229171,67198,109,4)
-p("TropicalPlant_Grass_03",227436,68482,88,4)
-p("TropicalPlant_Grass_03",228001,69351,94,4)
-p("TropicalPlant_Grass_02",228558,67596,177,4)
-p("TropicalPlant_Grass_04",228370,68199,171,4)
-p("TropicalPlant_Grass_02",228709,69156,134,4)
-p("TropicalPlant_Grass_03",225575,70489,168,4)
-p("TropicalPlant_Grass_01",225822,71356,119,4)
-p("TropicalPlant_Grass_03",226902,70466,121,4)
-p("TropicalPlant_Grass_02",226505,70955,126,4)
-p("TropicalPlant_Grass_04",226018,71727,168,4)
-p("TropicalPlant_Grass_01",225678,73054,110,4)
-p("TropicalPlant_Grass_01",227125,72009,145,4)
-p("TropicalPlant_Grass_01",226384,73724,181,4)
-p("TropicalPlant_Grass_04",227856,69773,141,4)
-p("TropicalPlant_Grass_02",227675,71307,90,4)
-p("TropicalPlant_Grass_02",229283,71204,137,4)
-p("TropicalPlant_Grass_02",228247,72262,97,4)
-p("TropicalPlant_Grass_02",227409,72924,98,4)
-p("TropicalPlant_Grass_01",228189,72820,94,4)
-p("TropicalPlant_Grass_01",228728,72086,88,4)
-p("TropicalPlant_Grass_02",228679,73155,141,4)
-p("TropicalPlant_Grass_04",222086,74138,134,4)
-p("TropicalPlant_Grass_03",221342,75540,178,4)
-p("TropicalPlant_Grass_01",221875,75387,141,4)
-p("TropicalPlant_04_Shrub_02",222258,73782,188,4)
-p("TropicalPlant_Grass_02",222522,74557,160,4)
-p("TropicalPlant_Grass_03",223007,73893,135,4)
-p("TropicalPlant_04_Shrub_01",223085,75034,164,4)
-p("TropicalPlant_Grass_02",221651,75927,153,4)
-p("TropicalPlant_Grass_03",221313,77115,175,4)
-p("TropicalPlant_04_Shrub_02",221708,76908,155,4)
-p("TropicalPlant_Grass_02",222011,77106,87,4)
-p("TropicalPlant_Grass_04",222713,76444,148,4)
-p("TropicalPlant_Grass_04",222545,76881,145,4)
-p("TropicalPlant_Grass_04",222420,77566,171,4)
-p("TropicalPlant_Grass_03",223589,73807,170,4)
-p("TropicalPlant_Grass_04",223921,75144,117,4)
-p("TropicalPlant_Grass_04",224979,73740,98,4)
-p("TropicalPlant_Grass_03",225231,74724,126,4)
-p("TropicalPlant_Grass_04",224262,75514,167,4)
-p("TropicalPlant_Grass_04",225145,75646,113,4)
-p("TropicalPlant_Grass_02",223644,76894,128,4)
-p("TropicalPlant_Grass_03",224223,77625,164,4)
-p("TropicalPlant_04_Shrub_02",221249,77869,190,4)
-p("TropicalPlant_04_Shrub_01",221915,78633,186,4)
-p("TropicalPlant_Grass_04",221340,79197,108,4)
-p("TropicalPlant_Grass_04",221551,79367,90,4)
-p("TropicalPlant_Grass_01",222516,78479,119,4)
-p("TropicalPlant_Grass_03",222881,78949,159,4)
-p("TropicalPlant_01_Shrub",221354,80561,121,4)
-p("TropicalPlant_04_Shrub_02",221410,81454,111,4)
-p("TropicalPlant_Grass_01",221730,81197,174,4)
-p("TropicalPlant_Grass_03",222327,80332,137,4)
-p("TropicalPlant_04_Shrub_02",222638,80226,125,4)
-p("TropicalPlant_04_Shrub_01",223355,78602,167,4)
-p("TropicalPlant_Grass_01",223264,79670,131,4)
-p("TropicalPlant_Grass_03",223835,79871,105,4)
-p("TropicalPlant_Grass_01",224601,78743,128,4)
-p("TropicalPlant_Grass_01",224888,78274,135,4)
-p("TropicalPlant_Grass_02",224326,79447,182,4)
-p("TropicalPlant_Grass_02",224852,79533,146,4)
-p("TropicalPlant_Grass_01",223275,81268,120,4)
-p("TropicalPlant_Grass_02",223717,81079,119,4)
-p("TropicalPlant_Grass_02",224578,80660,105,4)
-p("TropicalPlant_Grass_01",226385,74730,139,4)
-p("TropicalPlant_Grass_04",227178,74463,135,4)
-p("TropicalPlant_Grass_02",226361,75714,106,4)
-p("TropicalPlant_Grass_04",226811,75273,138,4)
-p("TropicalPlant_Grass_04",227149,75663,105,4)
-p("TropicalPlant_Grass_03",225800,76517,102,4)
-p("TropicalPlant_Grass_03",225457,77493,131,4)
-p("TropicalPlant_Grass_01",225689,77697,135,4)
-p("TropicalPlant_Grass_04",226798,77494,179,4)
-p("TropicalPlant_Grass_02",227915,73937,105,4)
-p("TropicalPlant_01_Shrub",227363,75640,149,4)
-p("TropicalPlant_Grass_02",228918,74224,146,4)
-p("TropicalPlant_Grass_03",228385,74904,86,4)
-p("TropicalPlant_Grass_04",228592,75468,166,4)
-p("TropicalPlant_Grass_02",228337,76130,179,4)
-p("TropicalPlant_Grass_01",227751,77763,119,4)
-p("TropicalPlant_Grass_02",228051,77337,137,4)
-p("TropicalPlant_Grass_04",229212,76254,116,4)
-p("TropicalPlant_Grass_01",229191,76924,113,4)
-p("TropicalPlant_Grass_01",225921,78720,160,4)
-p("TropicalPlant_Grass_04",226850,78801,150,4)
-p("TropicalPlant_Grass_02",227212,78399,115,4)
-p("TropicalPlant_Grass_01",226491,79509,138,4)
-p("TropicalPlant_Grass_02",225893,80761,135,4)
-p("TropicalPlant_Grass_01",227185,80107,109,4)
-p("TropicalPlant_Grass_04",227132,81121,142,4)
-p("TropicalPlant_Grass_03",227592,78879,87,4)
-p("TropicalPlant_Grass_02",228021,79527,88,4)
-p("TropicalPlant_Grass_01",228626,78539,156,4)
-p("TropicalPlant_Grass_03",229164,78236,121,4)
-p("TropicalPlant_Grass_04",228896,79714,102,4)
-p("TropicalPlant_Grass_01",227635,81200,174,4)
-p("TropicalPlant_Grass_03",228317,81768,112,4)
-p("TropicalPlant_Grass_01",228832,80537,182,4)
-p("TropicalPlant_Grass_04",229019,81583,105,4)
+p("TropicalRockAssembly_02",221243,66929,7431,9013,170,783,134,4018,"terrainchunk",10,0,0,4,95,31,40,60,2228245)
+p("TropicalRockAssembly_02",223686,68635,6683,9140,96,938,60,3986,"terrainchunk",10,0,0,4,95,31,40,60,2228245)
+p("JungleCamp_TrenchFloor_01",222114,71891,7622,16836,464,-1029,3937,2150182196,2150182196,"",1075841553)
+p("TropicalRockAssembly_02",224813,70592,6254,5892,165,587,269,4044,"terrainchunk",10,0,0,4,95,31,40,60,2228245)
+p("TropicalRockAssembly_02",223928,72168,6819,5960,165,848,354,3991,"terrainchunk",10,0,0,4,95,31,40,60,2228245)
+p("SavannaPlant_ElephantGrass_05",225311,66402,6844,2097152)
+p("SavannaPlant_ElephantGrass_01",226178,66259,0)
+p("SavannaPlant_ElephantGrass_01",226522,66997,20980,2097152)
+p("SavannaPlant_ElephantGrass_06",225562,68414,0)
+p("SavannaPlant_ElephantGrass_04",226620,67808,0)
+p("SavannaPlant_ElephantGrass_02",227067,68605,0)
+p("Village_LaundryBasin",226907,69276,1054,1919,3154,1772,2097168)
+p("SavannaPlant_ElephantGrass_06",227365,66048,0)
+p("SavannaPlant_ElephantGrass_05",227971,67574,0)
+p("SavannaPlant_ElephantGrass_03",227744,68005,0)
+p("SavannaPlant_ElephantGrass_05",228689,68867,0)
+p("TropicalRockAssembly_02",221967,73960,7827,8913,96,449,-68,4070,"terrainchunk",10,0,0,4,95,31,40,60,2228245)
+p("TropicalRockSharpWalk_01",222600,75000,7000,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalRockAssembly_02",222475,75738,7726,5892,165,587,269,4044,"terrainchunk",10,0,0,4,95,31,40,60,2228245)
+p("DecBunker_ConcretePile_02",221669,77247,8331,506,89,1459,3817,274,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharpWalk_01",223800,73800,6300,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalPlant_Grass_03",222647,78473,8590,19524,192,2097157)
+p("TropicalPlant_Grass_02",222639,79821,8306,179,5)
+p("TropicalPlant_Grass_02",221432,79926,8306,179,5)
+p("TropicalPlant_Grass_02",222485,81113,8306,179,5)
+p("TropicalRockAssembly_01",224337,78546,7923,2265,153,1112,906,3836,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharpWalk_01",226200,76200,7000,"terrainchunk",10,0,0,40,60,10,40,60,131073)
+p("TropicalRockSharpWalk_02",228600,76200,6300,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalRockSharp_01",213125,85682,7113,11059,74,-2314,-713,3304,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_03",217015,82490,7844,15024,192,2097157)
 p("TropicalPlant_Grass_01",220107,82732,161,4)
 p("TropicalPlant_Grass_03",219492,83291,164,4)
 p("TropicalPlant_Grass_02",219462,83525,141,4)
 p("TropicalPlant_Grass_04",220166,82911,182,4)
-p("TropicalPlant_Grass_01",221000,82674,112,4)
 p("TropicalPlant_Grass_04",220464,84013,108,4)
 p("TropicalPlant_Grass_02",220335,85216,189,4)
 p("TropicalPlant_Grass_03",220189,85902,120,4)
@@ -175190,87 +175350,19 @@ p("TropicalPlant_Grass_02",221131,87512,182,4)
 p("TropicalPlant_Grass_04",220821,89238,170,4)
 p("TropicalPlant_04_Shrub_01",213708,91862,6878,1392,185,-2454,2650,1930,2097173)
 p("TropicalPlant_Grass_03",215744,93965,7056,15024,192,2097157)
-p("TropicalPlant_Grass_03",221295,82266,92,4)
-p("TropicalPlant_Grass_02",221746,82003,97,4)
-p("TropicalPlant_Grass_04",222131,82747,179,4)
-p("TropicalPlant_Grass_03",221472,83792,189,4)
-p("TropicalPlant_Grass_01",221875,83675,124,4)
-p("TropicalPlant_04_Shrub_01",222159,83535,16,4)
-p("TropicalPlant_Grass_01",222514,82850,91,4)
 p("TropicalPlant_Grass_04",221188,84706,124,4)
 p("TropicalPlant_Grass_03",221543,85294,92,4)
 p("TropicalPlant_Grass_03",221433,85654,168,4)
-p("TropicalPlant_04_Shrub_01",222623,84955,169,4)
-p("TropicalPlant_Grass_03",223208,85042,175,4)
-p("TropicalPlant_Grass_04",223098,86013,134,4)
-p("TropicalPlant_Grass_02",223368,82248,156,4)
-p("TropicalPlant_Grass_04",223555,82131,181,4)
-p("TropicalPlant_Grass_04",223534,83714,171,4)
-p("TropicalPlant_Grass_02",224094,83313,139,4)
-p("TropicalPlant_Grass_01",224734,82210,95,4)
-p("TropicalPlant_04_Shrub_01",224524,82761,180,4)
-p("TropicalPlant_Grass_01",224967,83149,119,4)
-p("TropicalPlant_01_Sapling",224865,83963,77,4)
-p("TropicalPlant_04_Shrub_02",224159,85245,29,4)
-p("TropicalPlant_Grass_01",224113,86013,170,4)
-p("TropicalPlant_Grass_02",224413,84229,106,4)
-p("TropicalPlant_Grass_03",224417,85162,135,4)
 p("TropicalPlant_Grass_03",222159,86622,94,4)
 p("TropicalPlant_Grass_03",221625,87811,95,4)
-p("TropicalPlant_Grass_04",222209,86116,148,4)
 p("TropicalPlant_Grass_04",222828,87090,181,4)
 p("TropicalPlant_Grass_02",223152,87876,108,4)
 p("TropicalPlant_Grass_01",221454,89823,155,4)
 p("TropicalPlant_Grass_02",222486,88673,142,4)
 p("TropicalPlant_Grass_01",222589,89867,123,4)
-p("TropicalPlant_04_Shrub_01",224021,86513,127,4)
-p("TropicalPlant_04_Shrub_01",223705,87852,112,4)
-p("TropicalPlant_Grass_02",223756,87776,159,4)
-p("TropicalPlant_Grass_02",224287,86812,184,4)
-p("TropicalPlant_04_Shrub_02",225066,87338,137,4)
 p("TropicalPlant_Grass_04",223275,88603,189,4)
 p("TropicalPlant_Grass_01",223551,88953,185,4)
-p("TropicalPlant_Grass_01",225116,88967,91,4)
-p("TropicalPlant_Grass_02",225930,82452,150,4)
-p("TropicalPlant_Grass_04",226100,82559,113,4)
-p("TropicalPlant_Grass_02",226713,82647,170,4)
-p("TropicalPlant_Grass_03",227277,82242,127,4)
-p("TropicalPlant_Grass_03",227242,83101,178,4)
-p("TropicalPlant_Grass_01",225384,84914,121,4)
-p("TropicalPlant_Grass_02",225925,84987,117,4)
-p("TropicalPlant_Grass_03",225408,85970,117,4)
-p("TropicalPlant_Grass_02",226606,84191,94,4)
-p("TropicalPlant_02_Shrub",226462,85027,191,4)
-p("TropicalPlant_Grass_04",227016,85112,159,4)
-p("TropicalPlant_Grass_04",227988,83068,173,4)
-p("TropicalPlant_Grass_03",228650,83419,130,4)
-p("TropicalPlant_Grass_04",229192,83697,134,4)
-p("TropicalPlant_Grass_04",227870,83977,99,4)
-p("TropicalPlant_Grass_03",227604,85413,188,4)
-p("TropicalPlant_Grass_02",229308,84948,168,4)
-p("TropicalPlant_Grass_02",226263,86335,173,4)
-p("TropicalPlant_04_Shrub_01",225905,87036,103,4)
-p("TropicalPlant_Grass_02",225355,87071,86,4)
-p("TropicalPlant_Grass_03",225677,87228,166,4)
-p("TropicalPlant_Grass_04",227162,86019,131,4)
-p("TropicalPlant_Grass_03",227148,87158,106,4)
-p("TropicalPlant_Grass_01",225458,88262,161,4)
-p("TropicalPlant_Grass_01",226165,88181,124,4)
-p("TropicalPlant_Grass_01",226278,89246,94,4)
-p("TropicalPlant_04_Shrub_01",225796,90038,124,4)
-p("TropicalPlant_Grass_01",226539,89020,184,4)
-p("TropicalPlant_Grass_01",227045,88124,124,4)
-p("TropicalPlant_Grass_02",226419,89655,113,4)
-p("TropicalPlant_Grass_02",226902,89930,101,4)
-p("TropicalPlant_04_Shrub_01",227068,89966,136,4)
-p("TropicalPlant_Grass_01",227683,86249,86,4)
-p("TropicalPlant_Grass_03",227757,87739,109,4)
-p("TropicalPlant_Grass_03",228136,87067,138,4)
-p("TropicalPlant_Grass_03",228665,86991,160,4)
-p("TropicalPlant_Grass_01",227988,89371,138,4)
-p("TropicalPlant_Grass_01",228267,90021,167,4)
-p("TropicalPlant_Grass_02",229068,88200,166,4)
-p("TropicalPlant_Grass_03",229302,89328,152,4)
+p("TropicalRockSharp_01",226497,83473,9067,13319,247,1178,3753,1139,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_03",221400,90602,155,4)
 p("TropicalPlant_Grass_01",221809,90369,189,4)
 p("TropicalPlant_Grass_03",221255,91648,174,4)
@@ -175301,17 +175393,11 @@ p("TropicalPlant_Grass_02",224386,96470,117,4)
 p("TropicalPlant_Grass_04",225111,97005,88,4)
 p("TropicalPlant_04_Shrub_02",225725,91509,17,4)
 p("TropicalPlant_Grass_03",225725,91543,127,4)
-p("TropicalPlant_Grass_04",226287,91186,123,4)
-p("TropicalPlant_04_Shrub_02",227258,91050,81,4)
 p("TropicalPlant_Grass_04",226941,91895,108,4)
 p("TropicalPlant_Grass_02",225314,93299,173,4)
 p("TropicalPlant_Grass_02",225964,94080,145,4)
 p("TropicalPlant_Grass_03",226311,93107,112,4)
 p("TropicalPlant_Grass_02",226628,93987,189,4)
-p("TropicalPlant_Grass_03",227428,90765,166,4)
-p("TropicalPlant_Grass_03",228237,91156,90,4)
-p("TropicalPlant_Grass_03",228901,90182,128,4)
-p("TropicalPlant_04_Shrub_02",229252,90597,38,4)
 p("TropicalPlant_04_Shrub_01",229352,92158,60,4)
 p("TropicalPlant_04_Shrub_01",227395,92464,35,4)
 p("TropicalPlant_Grass_02",227380,92796,157,4)
@@ -175405,332 +175491,10 @@ p("DecFarmFurrows_05",224108,130245,6945,10800,118,2097409)
 p("Scaffolding_Bridge_Wood_01",227400,126600,5400,2150054469,2150054469,2150182196,"",1075845632)
 p("DecFarmFurrows_05",225705,130198,6945,10800,118,2097409)
 p("DecFarmFurrows_05",227289,130193,6945,10800,118,2097409)
-p("TropicalPlant_Grass_02",229736,67054,150,4)
-p("TropicalPlant_Grass_01",230968,66198,145,4)
-p("TropicalPlant_Grass_02",231017,67439,146,4)
-p("TropicalPlant_Grass_04",230043,67769,130,4)
-p("TropicalPlant_Grass_04",229392,69397,157,4)
-p("TropicalPlant_Grass_02",230308,69402,109,4)
-p("TropicalPlant_Grass_02",231354,68256,130,4)
-p("TropicalPlant_Grass_02",231153,68946,168,4)
-p("TropicalPlant_Grass_02",231975,65676,137,4)
-p("TropicalPlant_Grass_02",233080,65728,146,4)
-p("TropicalPlant_Grass_01",232760,67130,127,4)
-p("TropicalPlant_Grass_02",233448,67359,144,4)
-p("TropicalPlant_Grass_02",231964,68271,128,4)
-p("TropicalPlant_Grass_01",232658,68269,179,4)
-p("TropicalPlant_Grass_02",232494,69307,181,4)
-p("TropicalPlant_Grass_01",233453,69446,174,4)
-p("TropicalPlant_Grass_01",230365,70536,144,4)
-p("TropicalPlant_Grass_01",229606,71214,146,4)
-p("TropicalPlant_Grass_02",230043,71661,174,4)
-p("TropicalPlant_Grass_02",230478,70022,98,4)
-p("TropicalPlant_Grass_01",231254,70766,152,4)
-p("TropicalPlant_Grass_02",229507,73342,153,4)
-p("TropicalPlant_Grass_04",230392,73087,119,4)
-p("TropicalPlant_Grass_02",230616,72496,98,4)
-p("TropicalPlant_Grass_03",231409,72320,101,4)
-p("TropicalPlant_Grass_01",230838,73109,160,4)
-p("TropicalPlant_Grass_01",231495,70083,159,4)
-p("TropicalPlant_Grass_03",232234,70300,110,4)
-p("TropicalPlant_Grass_02",232539,70347,171,4)
-p("TropicalPlant_Grass_04",232455,71016,149,4)
-p("TropicalPlant_Grass_01",232605,71296,121,4)
-p("TropicalPlant_Grass_03",232396,72486,101,4)
-p("TropicalPlant_Grass_03",232640,72270,132,4)
-p("TropicalPlant_Grass_02",233430,72836,189,4)
-p("TropicalPlant_Grass_02",234159,65934,156,4)
-p("TropicalPlant_Grass_02",235168,66274,95,4)
-p("TropicalPlant_Grass_02",235107,67353,132,4)
-p("TropicalPlant_Grass_03",233592,69228,166,4)
-p("TropicalPlant_Grass_02",234524,67953,105,4)
-p("TropicalPlant_Grass_02",234691,68993,160,4)
-p("TropicalPlant_Grass_02",235662,66318,99,4)
-p("TropicalPlant_Grass_01",237065,65548,108,4)
-p("TropicalPlant_Grass_04",233781,70466,88,4)
-p("TropicalPlant_Grass_02",234063,70976,121,4)
-p("TropicalPlant_Grass_01",235065,69921,86,4)
-p("TropicalPlant_Grass_03",234561,71174,116,4)
-p("TropicalPlant_Grass_01",234662,71569,184,4)
-p("TropicalPlant_Grass_04",233939,71727,126,4)
-p("TropicalPlant_Grass_02",234023,73394,130,4)
-p("TropicalPlant_Grass_02",235431,72753,95,4)
-p("TropicalPlant_Grass_02",235145,73366,88,4)
-p("TropicalPlant_Grass_01",235917,72827,135,4)
-p("TropicalPlant_Grass_01",229830,74269,150,4)
-p("TropicalPlant_Grass_02",230066,73893,104,4)
-p("TropicalPlant_Grass_04",229719,74768,126,4)
-p("TropicalPlant_Grass_04",231209,73891,156,4)
-p("TropicalPlant_Grass_04",230448,75064,98,4)
-p("TropicalPlant_Grass_02",230679,74857,108,4)
-p("TropicalPlant_Grass_04",229970,76183,102,4)
-p("TropicalPlant_Grass_02",229556,77171,87,4)
-p("TropicalPlant_Grass_02",230552,76104,157,4)
-p("TropicalPlant_Grass_01",230542,77608,135,4)
-p("TropicalPlant_Grass_02",230986,77316,175,4)
-p("TropicalPlant_Grass_01",231803,74681,123,4)
-p("TropicalPlant_Grass_04",232840,74421,149,4)
-p("TropicalPlant_Grass_04",233064,74764,175,4)
-p("TropicalPlant_Grass_04",233248,74972,104,4)
-p("TropicalPlant_Grass_04",231733,76262,177,4)
-p("TropicalPlant_Grass_04",231809,76537,139,4)
-p("TropicalPlant_01_Shrub",232297,76645,64,4)
-p("TropicalPlant_Grass_03",233021,75920,141,4)
-p("TropicalPlant_Grass_04",233442,76963,104,4)
-p("TropicalPlant_Grass_03",229773,78450,86,4)
-p("TropicalPlant_Grass_04",230386,78425,131,4)
-p("TropicalPlant_Grass_01",229650,79205,102,4)
-p("TropicalPlant_Grass_01",229506,79572,134,4)
-p("TropicalPlant_Grass_02",230519,79017,188,4)
-p("TropicalPlant_Grass_04",230526,79591,174,4)
-p("TropicalPlant_Grass_03",229701,80368,95,4)
-p("TropicalPlant_Grass_03",229495,81214,182,4)
-p("TropicalPlant_Grass_01",229986,80991,179,4)
-p("TropicalPlant_Grass_01",230155,81583,108,4)
-p("TropicalPlant_Grass_03",231069,81365,161,4)
-p("TropicalPlant_Grass_02",231099,81704,95,4)
-p("TropicalPlant_Grass_02",231911,78435,132,4)
-p("TropicalPlant_Grass_03",231593,79237,99,4)
-p("TropicalPlant_Grass_02",232556,78731,130,4)
-p("TropicalPlant_Grass_02",233365,78021,115,4)
-p("TropicalPlant_Grass_02",232491,79643,88,4)
-p("TropicalPlant_Grass_01",232922,79852,106,4)
-p("TropicalPlant_Grass_01",232109,80040,177,4)
-p("TropicalPlant_Grass_02",231668,81711,109,4)
-p("TropicalPlant_Grass_03",232044,81269,157,4)
-p("TropicalPlant_Grass_04",232708,81813,109,4)
-p("TropicalPlant_Grass_04",233384,81452,131,4)
-p("TropicalPlant_Grass_04",233561,74413,124,4)
-p("TropicalPlant_Grass_02",234446,74697,157,4)
-p("TropicalPlant_Grass_02",234473,75617,152,4)
-p("TropicalPlant_Grass_04",234844,74078,146,4)
-p("TropicalPlant_Grass_02",235103,75142,170,4)
-p("TropicalPlant_Grass_02",233761,77441,138,4)
-p("TropicalPlant_Grass_03",235463,75797,181,4)
-p("TropicalPlant_Grass_01",235363,76574,168,4)
-p("TropicalPlant_Grass_01",235638,74858,91,4)
-p("TropicalPlant_Grass_03",235615,75516,189,4)
-p("TropicalPlant_Grass_03",236984,74285,104,4)
-p("TropicalPlant_Grass_04",237527,74185,113,4)
-p("TropicalPlant_Grass_03",236791,74884,115,4)
-p("TropicalPlant_Grass_02",235605,76619,105,4)
-p("TropicalPlant_Grass_01",236597,75861,148,4)
-p("TropicalPlant_Grass_04",237333,76302,95,4)
-p("TropicalPlant_Grass_04",233954,78038,171,4)
-p("TropicalPlant_Grass_01",233829,78651,106,4)
-p("TropicalPlant_Grass_02",234723,77915,108,4)
-p("TropicalPlant_Grass_03",234909,78773,127,4)
-p("TropicalPlant_Grass_02",233766,80669,164,4)
-p("TropicalPlant_Grass_01",234230,80010,144,4)
-p("TropicalPlant_01_Shrub",233644,81357,115,4)
-p("TropicalPlant_Grass_04",235296,80340,166,4)
-p("TropicalPlant_Grass_03",234621,81865,126,4)
-p("TropicalPlant_Grass_01",235037,81474,178,4)
-p("TropicalPlant_Grass_01",235847,78203,168,4)
-p("TropicalPlant_01_Shrub",235673,78618,143,4)
-p("TropicalPlant_Grass_01",235632,79163,181,4)
-p("TropicalPlant_Grass_04",236896,77966,126,4)
-p("TropicalPlant_Grass_03",236883,79106,101,4)
-p("TropicalPlant_Grass_02",235610,79927,95,4)
-p("TropicalPlant_Grass_01",236403,81371,106,4)
-p("TropicalPlant_Grass_03",236644,80221,141,4)
-p("TropicalPlant_Grass_01",237062,80708,102,4)
-p("TropicalPlant_Grass_02",237596,66100,182,4)
-p("TropicalPlant_Grass_01",239028,69407,181,4)
-p("TropicalPlant_Grass_03",241398,66197,106,4)
-p("TropicalPlant_Grass_01",241277,67233,128,4)
-p("TropicalPlant_Grass_02",239708,67715,105,4)
-p("TropicalPlant_Grass_01",240601,68587,182,4)
-p("TropicalPlant_Grass_01",240172,69111,177,4)
-p("TropicalPlant_Grass_04",241389,68162,145,4)
-p("TropicalPlant_Grass_02",239092,70188,120,4)
-p("TropicalPlant_Grass_02",238601,71217,99,4)
-p("TropicalPlant_Grass_01",239397,72021,88,4)
-p("TropicalPlant_Grass_01",238670,72848,116,4)
-p("TropicalPlant_Grass_02",239441,73515,119,4)
-p("TropicalPlant_Grass_02",240250,69890,166,4)
-p("TropicalPlant_Grass_04",240186,70876,134,4)
-p("TropicalPlant_Grass_01",241481,70266,95,4)
-p("TropicalPlant_Grass_02",241285,70917,95,4)
-p("TropicalPlant_Grass_02",239917,72587,179,4)
-p("TropicalPlant_Grass_04",240342,72288,110,4)
-p("TropicalPlant_Grass_03",240736,72439,141,4)
-p("TropicalPlant_Grass_04",241085,73058,135,4)
-p("TropicalPlant_Grass_02",241109,73678,166,4)
-p("TropicalPlant_Grass_04",241762,65881,171,4)
-p("TropicalPlant_Grass_02",242607,66891,155,4)
-p("TropicalPlant_Grass_02",242399,67477,91,4)
-p("TropicalPlant_Grass_03",243369,66155,135,4)
-p("TropicalPlant_Grass_02",241974,67993,155,4)
-p("TropicalPlant_Grass_03",242274,69424,164,4)
-p("TropicalPlant_Grass_03",242444,69523,170,4)
-p("TropicalPlant_Grass_04",243074,68407,185,4)
-p("TropicalPlant_02_Shrub",243702,68508,190,4)
-p("TropicalPlant_Grass_01",243479,68877,105,4)
-p("TropicalPlant_Grass_04",244424,66039,127,4)
-p("TropicalPlant_Grass_03",244273,67418,88,4)
-p("TropicalPlant_Grass_02",244472,67540,186,4)
-p("TropicalPlant_Grass_04",245010,66192,139,4)
-p("TropicalPlant_Grass_03",245209,66832,170,4)
-p("TropicalPlant_Grass_03",244267,69357,92,4)
-p("TropicalPlant_Grass_03",245001,67821,160,4)
-p("TropicalPlant_Grass_02",245010,68659,119,4)
-p("TropicalPlant_Grass_02",245591,69428,171,4)
-p("TropicalPlant_Grass_02",242569,69857,170,4)
-p("TropicalPlant_Grass_04",242386,71265,167,4)
-p("TropicalPlant_Grass_04",242238,71648,127,4)
-p("TropicalPlant_Grass_01",242853,70611,115,4)
-p("TropicalPlant_Grass_02",242095,73176,120,4)
-p("TropicalPlant_Grass_04",242797,71906,109,4)
-p("TropicalPlant_Grass_03",243254,73497,157,4)
-p("TropicalPlant_Grass_03",243740,69832,174,4)
-p("TropicalPlant_Grass_03",244300,71376,92,4)
-p("TropicalPlant_Grass_03",244737,70032,171,4)
-p("TropicalPlant_Grass_01",245545,70565,139,4)
-p("TropicalPlant_Grass_02",245052,71251,95,4)
-p("TropicalPlant_02_Shrub",245495,70911,83,4)
-p("TropicalPlant_Grass_01",244137,72377,159,4)
-p("TropicalPlant_Grass_03",243985,73166,178,4)
-p("TropicalPlant_Grass_02",245457,72312,184,4)
-p("TropicalPlant_Grass_02",245603,72486,102,4)
-p("TropicalPlant_Grass_03",244878,73356,139,4)
-p("TropicalPlant_Grass_02",237717,75365,105,4)
-p("TropicalPlant_Grass_03",237791,75595,88,4)
-p("TropicalPlant_Grass_01",239584,73785,170,4)
-p("TropicalPlant_Grass_04",239193,74764,86,4)
-p("TropicalPlant_Grass_02",237651,77237,116,4)
-p("TropicalPlant_Grass_02",238743,76351,139,4)
-p("TropicalPlant_Grass_03",238953,77341,175,4)
-p("TropicalPlant_Grass_02",239876,74633,185,4)
-p("TropicalPlant_Grass_04",240184,75753,185,4)
-p("TropicalPlant_Grass_04",241546,74560,177,4)
-p("TropicalPlant_Grass_04",241048,74775,139,4)
-p("TropicalPlant_Grass_02",241305,75732,153,4)
-p("TropicalPlant_Grass_01",240023,76698,141,4)
-p("TropicalPlant_Grass_03",240679,77398,112,4)
-p("TropicalPlant_Grass_01",240991,77544,90,4)
-p("TropicalPlant_Grass_04",238025,78217,131,4)
-p("TropicalPlant_Grass_01",238062,78906,86,4)
-p("TropicalPlant_Grass_02",238863,77982,112,4)
-p("TropicalPlant_Grass_03",239534,78409,167,4)
-p("TropicalPlant_Grass_01",238863,79211,145,4)
-p("TropicalPlant_Grass_01",237866,80995,130,4)
-p("TropicalPlant_Grass_01",238916,80514,95,4)
-p("TropicalPlant_Grass_03",239431,79948,102,4)
-p("TropicalPlant_Grass_01",238824,81756,146,4)
-p("TropicalPlant_Grass_02",238976,81482,168,4)
-p("TropicalPlant_Grass_04",240364,79431,149,4)
-p("TropicalPlant_Grass_02",241380,79080,148,4)
-p("TropicalPlant_Grass_03",240184,80160,185,4)
-p("TropicalPlant_Grass_03",240501,80861,98,4)
-p("TropicalPlant_Grass_04",240495,81375,182,4)
-p("TropicalPlant_Grass_02",240831,79937,174,4)
-p("TropicalPlant_Grass_01",240986,81738,138,4)
-p("TropicalPlant_Grass_02",242228,74050,146,4)
-p("TropicalPlant_Grass_01",242432,75557,184,4)
-p("TropicalPlant_Grass_03",242706,74354,168,4)
-p("TropicalPlant_Grass_04",243599,74658,171,4)
-p("TropicalPlant_Grass_03",243477,74855,142,4)
-p("TropicalPlant_Grass_04",241712,77617,87,4)
-p("TropicalPlant_Grass_04",242404,77014,149,4)
-p("TropicalPlant_Grass_01",242668,76882,150,4)
-p("TropicalPlant_Grass_02",243385,76036,156,4)
-p("TropicalPlant_Grass_02",244339,73744,138,4)
-p("TropicalPlant_Grass_04",245352,74011,150,4)
-p("TropicalPlant_Grass_03",245225,75331,168,4)
-p("TropicalPlant_Grass_04",244192,76153,159,4)
-p("TropicalPlant_Grass_03",243772,76637,161,4)
-p("TropicalPlant_Grass_04",243885,77608,150,4)
-p("TropicalPlant_Grass_03",245063,75881,98,4)
-p("TropicalPlant_Grass_01",245177,76808,146,4)
-p("TropicalPlant_Grass_04",244765,77676,95,4)
-p("TropicalPlant_Grass_04",242300,79574,98,4)
-p("TropicalPlant_02_Shrub",242435,79810,170,4)
-p("TropicalPlant_Grass_02",243065,78591,113,4)
-p("TropicalPlant_Grass_03",243284,78073,117,4)
-p("TropicalPlant_Grass_01",242081,80747,152,4)
-p("TropicalPlant_Grass_02",242803,80984,150,4)
-p("TropicalPlant_Grass_01",244414,78969,104,4)
-p("TropicalPlant_Grass_03",244598,79060,160,4)
-p("TropicalPlant_Grass_02",245114,79645,168,4)
-p("TropicalPlant_Grass_02",243890,80304,141,4)
-p("TropicalPlant_Grass_02",244483,81032,130,4)
-p("TropicalPlant_Grass_01",244322,81571,141,4)
-p("TropicalPlant_Grass_03",245657,80256,130,4)
-p("TropicalPlant_Grass_02",245431,81799,112,4)
-p("TropicalPlant_Grass_03",245523,81584,153,4)
-p("TropicalPlant_Grass_04",230090,82583,121,4)
-p("TropicalPlant_Grass_02",230235,83586,142,4)
-p("TropicalPlant_Grass_03",229421,85859,177,4)
-p("TropicalPlant_Grass_02",231074,83968,145,4)
-p("TropicalPlant_Grass_01",230474,85224,174,4)
-p("TropicalPlant_Grass_03",230609,85452,138,4)
-p("TropicalPlant_Grass_01",231440,82601,157,4)
-p("TropicalPlant_Grass_01",232083,83343,160,4)
-p("TropicalPlant_Grass_01",232660,83757,173,4)
-p("TropicalPlant_Grass_03",233038,83228,166,4)
-p("TropicalPlant_Grass_03",231559,84330,173,4)
-p("TropicalPlant_Grass_04",231950,84686,123,4)
-p("TropicalPlant_Grass_03",231431,85797,146,4)
-p("TropicalPlant_Grass_04",232636,84976,163,4)
-p("TropicalPlant_Grass_01",233101,84417,108,4)
-p("TropicalPlant_Grass_04",232538,85650,86,4)
-p("TropicalPlant_Grass_01",229829,86270,181,4)
-p("TropicalPlant_Grass_02",229792,87176,156,4)
-p("TropicalPlant_Grass_02",230340,87700,170,4)
-p("TropicalPlant_Grass_01",230760,86918,130,4)
-p("TropicalPlant_Grass_03",229632,89887,120,4)
-p("TropicalPlant_Grass_02",230279,89304,130,4)
-p("TropicalPlant_Grass_02",230649,88498,155,4)
-p("TropicalPlant_Grass_01",230740,89154,146,4)
-p("TropicalPlant_Grass_01",231741,86675,178,4)
-p("TropicalPlant_Grass_02",232276,86432,130,4)
-p("TropicalPlant_Grass_02",232024,87921,150,4)
-p("TropicalPlant_Grass_02",232868,87316,170,4)
-p("TropicalPlant_Grass_01",231649,90019,102,4)
-p("TropicalPlant_Grass_01",232224,89231,171,4)
-p("TropicalPlant_Grass_03",232596,88260,157,4)
-p("TropicalPlant_Grass_02",232709,89403,175,4)
-p("TropicalPlant_Grass_01",233944,82060,174,4)
-p("TropicalPlant_Grass_04",234194,83228,110,4)
-p("TropicalPlant_Grass_04",234695,83619,163,4)
-p("TropicalPlant_Grass_03",235262,83240,144,4)
-p("TropicalPlant_Grass_02",233665,84088,184,4)
-p("TropicalPlant_Grass_03",233734,85184,141,4)
-p("TropicalPlant_Grass_02",233643,85632,149,4)
-p("TropicalPlant_Grass_04",235063,84770,105,4)
-p("TropicalPlant_Grass_03",235461,85874,152,4)
-p("TropicalPlant_Grass_02",235954,82211,148,4)
-p("TropicalPlant_Grass_02",235728,83374,144,4)
-p("TropicalPlant_Grass_02",235624,83526,170,4)
-p("TropicalPlant_Grass_01",236807,82185,110,4)
-p("TropicalPlant_Grass_04",237517,82050,188,4)
-p("TropicalPlant_Grass_03",237418,83341,94,4)
-p("TropicalPlant_Grass_04",235861,85764,179,4)
-p("TropicalPlant_Grass_03",236411,85458,137,4)
-p("TropicalPlant_Grass_04",236729,84472,113,4)
-p("TropicalPlant_Grass_03",236731,84706,144,4)
-p("TropicalPlant_Grass_03",237508,85309,128,4)
-p("TropicalPlant_Grass_01",237259,85880,182,4)
-p("TropicalPlant_Grass_04",233851,87221,138,4)
-p("TropicalPlant_Grass_03",234751,86734,157,4)
-p("TropicalPlant_Grass_03",235019,87937,134,4)
-p("TropicalPlant_Grass_01",233936,88418,156,4)
-p("TropicalPlant_Grass_01",233948,89182,95,4)
-p("TropicalPlant_Grass_01",235156,88855,141,4)
-p("TropicalPlant_Grass_03",235495,89405,152,4)
-p("TropicalPlant_Grass_01",235619,87332,186,4)
-p("TropicalPlant_Grass_03",236473,87803,131,4)
-p("TropicalPlant_02_Shrub",237204,86315,29,4)
-p("TropicalPlant_Grass_03",236861,87117,174,4)
-p("TropicalPlant_Grass_01",236262,89149,88,4)
-p("TropicalPlant_Grass_02",236936,88680,173,4)
-p("TropicalPlant_Grass_02",237124,88240,108,4)
-p("TropicalPlant_Grass_02",236789,90087,104,4)
-p("TropicalPlant_Grass_01",229439,90999,105,4)
+p("TropicalRockSharp_01",232033,78012,3948,19664,98,547,3946,949,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",231800,86494,10137,12434,247,1893,3147,1812,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",236492,82936,4144,17156,247,1169,2576,2962,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_02",229483,91952,128,4)
-p("TropicalPlant_Grass_04",231265,90395,126,4)
-p("TropicalPlant_Grass_04",230929,90897,95,4)
 p("TropicalPlant_Grass_04",230488,91236,132,4)
 p("TropicalPlant_Grass_01",231197,92076,174,4)
 p("TropicalPlant_Grass_04",229584,92275,135,4)
@@ -175740,11 +175504,6 @@ p("TropicalPlant_04_Shrub_02",229842,93942,199,4)
 p("TropicalPlant_Grass_02",231199,92712,173,4)
 p("TropicalPlant_Grass_02",230451,93883,188,4)
 p("TropicalPlant_Grass_02",231531,92157,124,4)
-p("TropicalPlant_Grass_03",232081,91365,108,4)
-p("TropicalPlant_Grass_03",232910,90371,131,4)
-p("TropicalPlant_Grass_03",232705,90835,156,4)
-p("TropicalPlant_01_Shrub",233178,90669,199,4)
-p("TropicalPlant_Grass_01",232652,92077,134,4)
 p("TropicalPlant_Grass_02",231663,93273,135,4)
 p("TropicalPlant_Grass_03",232144,93672,153,4)
 p("TropicalPlant_Grass_04",233305,93151,91,4)
@@ -175771,25 +175530,7 @@ p("TropicalPlant_Grass_02",232204,97026,98,4)
 p("TropicalPlant_Grass_01",231877,97710,87,4)
 p("TropicalPlant_Grass_01",233113,97010,117,4)
 p("TropicalPlant_Grass_02",232600,97895,132,4)
-p("TropicalPlant_Grass_04",233575,90453,124,4)
-p("TropicalPlant_Grass_02",234273,90706,156,4)
-p("TropicalPlant_Grass_04",234380,91672,167,4)
-p("TropicalPlant_Grass_02",235470,90164,152,4)
-p("TropicalPlant_Grass_02",235129,90786,117,4)
-p("TropicalPlant_Grass_04",234686,92109,109,4)
-p("TropicalPlant_Grass_03",234085,92618,131,4)
 p("TropicalPlant_Grass_03",234270,93833,164,4)
-p("TropicalPlant_Grass_01",235389,92627,92,4)
-p("TropicalPlant_Grass_04",235512,93255,131,4)
-p("TropicalPlant_Grass_02",236423,90255,90,4)
-p("TropicalPlant_Grass_02",235690,91389,161,4)
-p("TropicalPlant_01_Sapling",237070,90543,134,4)
-p("TropicalPlant_Grass_02",237003,91931,108,4)
-p("TropicalPlant_Grass_04",237410,91218,104,4)
-p("TropicalPlant_Grass_03",236170,92358,138,4)
-p("TropicalPlant_Grass_02",236051,94041,105,4)
-p("TropicalPlant_Grass_03",237327,92998,178,4)
-p("TropicalPlant_Grass_01",237241,93676,144,4)
 p("TropicalPlant_Grass_04",234006,95173,148,4)
 p("TropicalPlant_Grass_03",234123,96156,86,4)
 p("TropicalPlant_Grass_04",235133,94215,101,4)
@@ -175809,95 +175550,9 @@ p("TropicalPlant_Grass_03",235728,98048,135,4)
 p("TropicalPlant_04_Shrub_02",237386,97074,149,4)
 p("TropicalPlant_Grass_02",236848,97332,88,4)
 p("TropicalPlant_Grass_04",237394,97971,139,4)
-p("TropicalPlant_Grass_01",237730,83313,137,4)
-p("TropicalPlant_Grass_03",238534,83469,148,4)
-p("TropicalPlant_Grass_02",239582,83445,135,4)
-p("TropicalPlant_Grass_02",237649,84150,175,4)
-p("TropicalPlant_Grass_03",237702,85548,112,4)
-p("TropicalPlant_Grass_03",239206,83994,175,4)
-p("TropicalPlant_Grass_02",239378,84677,105,4)
-p("TropicalPlant_Grass_02",239702,82474,156,4)
-p("TropicalPlant_Grass_04",239721,82952,94,4)
-p("TropicalPlant_Grass_01",239624,83576,179,4)
-p("TropicalPlant_Grass_02",240454,83826,90,4)
-p("TropicalPlant_Grass_04",241430,82746,152,4)
-p("TropicalPlant_Grass_03",240164,84659,152,4)
-p("TropicalPlant_Grass_03",239943,85711,150,4)
-p("TropicalPlant_Grass_04",240625,85481,101,4)
-p("TropicalPlant_Grass_02",240697,84990,102,4)
-p("TropicalPlant_Grass_02",241465,83988,138,4)
-p("TropicalPlant_Grass_02",241043,85655,137,4)
-p("TropicalPlant_Grass_03",237860,87264,120,4)
-p("TropicalPlant_Grass_02",238142,87563,113,4)
-p("TropicalPlant_Grass_01",239482,86411,98,4)
-p("TropicalPlant_Grass_04",239554,86880,119,4)
-p("TropicalPlant_Grass_03",238840,87170,95,4)
-p("TropicalPlant_Grass_03",239485,87788,88,4)
-p("TropicalPlant_Grass_02",238139,89228,170,4)
-p("TropicalPlant_Grass_03",239296,88655,167,4)
-p("TropicalPlant_Grass_02",240551,86699,161,4)
-p("TropicalPlant_Grass_01",239789,88900,149,4)
-p("TropicalPlant_Grass_03",240294,88254,127,4)
-p("TropicalPlant_Grass_03",241008,88390,177,4)
-p("TropicalPlant_Grass_01",241189,88542,144,4)
-p("TropicalPlant_Grass_03",241516,88191,173,4)
-p("TropicalPlant_Grass_01",241540,88735,184,4)
-p("TropicalPlant_Grass_01",241418,89558,88,4)
-p("TropicalPlant_Grass_02",241978,82835,120,4)
-p("TropicalPlant_Grass_01",242575,82176,119,4)
-p("TropicalPlant_Grass_02",242408,82459,121,4)
-p("TropicalPlant_Grass_01",241926,83661,179,4)
-p("TropicalPlant_Grass_04",243415,82816,135,4)
-p("TropicalPlant_Grass_02",242726,83614,161,4)
-p("TropicalPlant_Grass_02",242001,85315,153,4)
-p("TropicalPlant_Grass_03",241793,85714,153,4)
-p("TropicalPlant_Grass_04",243645,84573,173,4)
-p("TropicalPlant_Grass_01",242714,85152,171,4)
-p("TropicalPlant_Grass_03",244539,82618,91,4)
-p("TropicalPlant_Grass_02",244191,83623,88,4)
-p("TropicalPlant_Grass_02",244295,83057,116,4)
-p("TropicalPlant_Grass_04",244116,85637,115,4)
-p("TropicalPlant_Grass_01",244945,84190,110,4)
-p("TropicalPlant_Grass_02",245216,85324,175,4)
-p("TropicalPlant_Grass_01",245693,85046,137,4)
-p("TropicalPlant_Grass_03",241962,87217,189,4)
-p("TropicalPlant_Grass_01",242701,86930,116,4)
-p("TropicalPlant_Grass_04",243499,86317,130,4)
-p("TropicalPlant_Grass_04",242551,88161,164,4)
-p("TropicalPlant_Grass_01",242469,88491,181,4)
-p("TropicalPlant_Grass_03",241981,89623,105,4)
-p("TropicalPlant_Grass_03",242835,88968,115,4)
-p("TropicalPlant_Grass_03",243153,89817,128,4)
-p("TropicalPlant_Grass_01",243633,90011,155,4)
-p("TropicalPlant_01_Sapling",243874,86709,103,4)
-p("TropicalPlant_Grass_01",243794,87131,150,4)
-p("TropicalPlant_Grass_01",245142,86312,87,4)
-p("TropicalPlant_Grass_02",245640,86627,173,4)
-p("TropicalPlant_Grass_02",244823,87395,102,4)
-p("TropicalPlant_Grass_02",244035,88694,102,4)
-p("TropicalPlant_Grass_03",244445,88390,126,4)
-p("TropicalPlant_Grass_01",244548,88139,130,4)
-p("TropicalPlant_Grass_03",245257,88758,126,4)
-p("TropicalPlant_Grass_03",238089,90494,181,4)
-p("TropicalPlant_Grass_02",238081,90832,91,4)
-p("TropicalPlant_Grass_01",238114,92127,156,4)
-p("TropicalPlant_Grass_01",238676,90504,86,4)
-p("TropicalPlant_Grass_03",239033,90379,99,4)
-p("TropicalPlant_02_Shrub",239417,90841,10,4)
-p("TropicalPlant_Grass_03",237784,92654,152,4)
-p("TropicalPlant_Grass_02",238233,94109,160,4)
-p("TropicalPlant_Grass_02",238746,92279,156,4)
-p("TropicalPlant_Grass_03",239308,92791,87,4)
-p("TropicalPlant_Grass_02",238747,94187,97,4)
-p("TropicalPlant_Grass_03",239578,93322,102,4)
-p("TropicalPlant_Grass_02",240494,91311,132,4)
-p("TropicalPlant_Grass_04",240138,91862,134,4)
-p("TropicalPlant_Grass_03",241439,91407,145,4)
-p("TropicalPlant_Grass_03",240761,92390,155,4)
-p("TropicalPlant_Grass_02",241497,93365,182,4)
-p("TropicalPlant_Grass_01",241451,93618,127,4)
+p("TropicalRockSharp_01",239196,87796,8933,13913,247,1853,3313,1538,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",240471,91261,10137,13913,247,1853,3313,1538,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_04",238460,95495,104,4)
-p("TropicalPlant_Grass_02",239081,94753,105,4)
 p("TropicalPlant_Grass_03",238606,95861,115,4)
 p("TropicalPlant_Grass_04",239540,95759,157,4)
 p("TropicalPlant_Grass_01",237829,96264,155,4)
@@ -175905,625 +175560,18 @@ p("TropicalPlant_Grass_01",237662,97231,123,4)
 p("TropicalPlant_Grass_03",238032,98014,167,4)
 p("TropicalPlant_Grass_02",239434,96573,160,4)
 p("TropicalPlant_Grass_02",238766,98282,160,4)
-p("TropicalPlant_Grass_02",240032,94592,156,4)
-p("TropicalPlant_Grass_04",240177,94472,142,4)
-p("TropicalPlant_Grass_02",240968,95042,101,4)
-p("TropicalPlant_Grass_02",240773,95834,102,4)
 p("TropicalPlant_Grass_04",240060,96642,142,4)
 p("TropicalPlant_Grass_03",240123,97897,185,4)
-p("TropicalPlant_Grass_02",241325,96958,149,4)
 p("TropicalPlant_Grass_03",241648,97950,161,4)
-p("TropicalPlant_Grass_02",242228,91312,175,4)
-p("TropicalPlant_Grass_03",242597,91310,164,4)
-p("TropicalPlant_Grass_02",242699,90706,108,4)
-p("TropicalPlant_Grass_04",241755,92367,139,4)
-p("TropicalPlant_Grass_03",241938,93149,91,4)
-p("TropicalPlant_Grass_01",242611,92235,148,4)
-p("TropicalPlant_Grass_03",241673,93933,144,4)
-p("TropicalPlant_Grass_03",243398,92672,174,4)
-p("TropicalPlant_Grass_02",242748,93802,146,4)
-p("TropicalPlant_Grass_03",243634,93972,115,4)
-p("TropicalPlant_Grass_01",244594,90463,113,4)
-p("TropicalPlant_Grass_01",244251,91150,157,4)
-p("TropicalPlant_Grass_04",245428,91083,92,4)
-p("TropicalPlant_Grass_03",245420,91938,131,4)
-p("TropicalPlant_Grass_04",243961,92188,139,4)
-p("TropicalPlant_Grass_03",244464,92724,138,4)
-p("TropicalPlant_Grass_04",244895,92904,117,4)
-p("TropicalPlant_Grass_03",245617,92717,110,4)
-p("TropicalPlant_Grass_01",242487,94730,132,4)
-p("TropicalPlant_Grass_04",242056,95729,90,4)
-p("TropicalPlant_Grass_03",243311,94732,110,4)
-p("TropicalPlant_Grass_01",243369,96012,150,4)
-p("TropicalPlant_Grass_01",243625,96218,97,4)
-p("TropicalPlant_Grass_04",241887,96918,115,4)
-p("TropicalPlant_01_Sapling",241664,97590,21,4)
-p("TropicalPlant_Grass_01",243468,96912,116,4)
-p("TropicalPlant_Grass_01",243449,97899,174,4)
-p("TropicalPlant_Grass_04",244199,94636,113,4)
-p("TropicalPlant_Grass_03",244677,95440,124,4)
-p("TropicalPlant_Grass_01",244577,95776,94,4)
-p("TropicalPlant_Grass_04",245412,94489,87,4)
-p("TropicalPlant_Grass_02",244030,97097,161,4)
-p("TropicalPlant_Grass_04",244448,97686,166,4)
-p("TropicalPlant_Grass_03",245233,97497,119,4)
-p("TropicalPlant_Grass_03",245334,97809,131,4)
-p("TropicalPlant_Grass_01",245953,66428,105,4)
-p("TropicalPlant_Grass_03",246519,65935,175,4)
-p("TropicalPlant_Grass_02",246450,67205,112,4)
-p("TropicalPlant_Grass_04",246338,67519,101,4)
-p("TropicalPlant_Grass_01",247419,66815,179,4)
-p("TropicalPlant_Grass_02",246672,68178,145,4)
-p("TropicalPlant_Grass_03",246722,69520,104,4)
-p("TropicalPlant_Grass_04",247294,69188,104,4)
-p("TropicalPlant_Grass_01",247835,66257,153,4)
-p("TropicalPlant_Grass_03",248516,66315,138,4)
-p("TropicalPlant_Grass_01",247919,67037,161,4)
-p("TropicalPlant_Grass_04",248681,67012,149,4)
-p("TropicalPlant_Grass_02",249523,67408,127,4)
-p("TropicalPlant_01_Shrub",248017,68176,193,4)
-p("TropicalPlant_Grass_02",248053,68454,138,4)
-p("TropicalPlant_Grass_02",248523,67917,163,4)
-p("TropicalPlant_Grass_04",248493,68814,146,4)
-p("TropicalPlant_Grass_04",248503,69205,185,4)
-p("TropicalPlant_Grass_02",249737,67775,184,4)
-p("TropicalPlant_Grass_04",246039,69657,104,4)
-p("TropicalPlant_Grass_03",246950,71426,124,4)
-p("TropicalPlant_Grass_01",246149,73077,182,4)
-p("TropicalPlant_Grass_04",247145,71889,110,4)
-p("TropicalPlant_Grass_02",247366,72968,160,4)
-p("TropicalPlant_Grass_03",247311,73551,166,4)
-p("TropicalPlant_Grass_03",248511,69682,142,4)
-p("TropicalPlant_Grass_02",248472,70267,153,4)
-p("TropicalPlant_Grass_01",248449,71333,185,4)
-p("TropicalPlant_Grass_02",248532,71426,157,4)
-p("TropicalPlant_Grass_03",249762,71305,124,4)
-p("TropicalPlant_Grass_04",248298,71896,130,4)
-p("TropicalPlant_Grass_01",248219,72745,105,4)
-p("TropicalPlant_Grass_02",247846,73642,144,4)
-p("TropicalPlant_Grass_01",249240,71962,134,4)
-p("TropicalPlant_Grass_02",249314,73356,99,4)
-p("TropicalPlant_Grass_02",250130,66194,179,4)
-p("TropicalPlant_Grass_02",251323,66149,126,4)
-p("TropicalPlant_Grass_01",251006,66568,142,4)
-p("TropicalPlant_Grass_04",250503,67584,155,4)
-p("TropicalPlant_Grass_02",250039,68953,137,4)
-p("TropicalPlant_Grass_01",250562,69173,156,4)
-p("TropicalPlant_01_Sapling",251562,68585,41,4)
-p("TropicalPlant_Grass_03",252013,66150,142,4)
-p("TropicalPlant_Grass_03",252221,66794,95,4)
-p("TropicalPlant_Grass_03",253475,66346,181,4)
-p("TropicalPlant_Grass_04",253083,67490,164,4)
-p("TropicalPlant_Grass_03",253857,67120,186,4)
-p("TropicalPlant_04_Shrub_01",252763,67866,130,4)
-p("TropicalPlant_Grass_01",252472,68192,179,4)
-p("TropicalPlant_Grass_02",252713,68247,115,4)
-p("TropicalPlant_Grass_04",252382,68746,126,4)
-p("TropicalPlant_Grass_03",252897,68649,112,4)
-p("TropicalPlant_04_Shrub_02",253389,68624,176,4)
-p("TropicalPlant_Grass_04",253835,68763,116,4)
-p("TropicalPlant_Grass_04",249913,70270,117,4)
-p("TropicalPlant_Grass_01",250825,69650,86,4)
-p("TropicalPlant_Grass_04",251769,70173,105,4)
-p("TropicalPlant_Grass_01",251135,70799,161,4)
-p("TropicalPlant_Grass_04",250197,71847,92,4)
-p("TropicalPlant_Grass_04",250233,73191,138,4)
-p("TropicalPlant_Grass_02",251462,71716,132,4)
-p("TropicalPlant_Grass_01",250947,73413,168,4)
-p("TropicalPlant_01_Shrub",252109,70950,149,4)
-p("TropicalPlant_Grass_03",252453,71303,94,4)
-p("TropicalPlant_Grass_02",253014,70445,99,4)
-p("TropicalPlant_Grass_02",253245,70561,138,4)
-p("TropicalPlant_Grass_03",253921,70347,110,4)
-p("TropicalPlant_Grass_03",253654,70681,92,4)
-p("TropicalPlant_Grass_03",252341,72428,108,4)
-p("TropicalPlant_Grass_03",252675,72239,177,4)
-p("TropicalPlant_Grass_02",252304,72932,152,4)
-p("TropicalPlant_Grass_04",253278,72978,128,4)
-p("TropicalPlant_Grass_03",246485,74289,168,4)
-p("TropicalPlant_Grass_02",245872,75185,102,4)
-p("TropicalPlant_Grass_03",247370,75111,152,4)
-p("TropicalPlant_Grass_01",246652,75977,113,4)
-p("TropicalPlant_Grass_02",246440,76394,87,4)
-p("TropicalPlant_Grass_04",246270,77008,92,4)
-p("TropicalPlant_Grass_01",247591,76399,117,4)
-p("TropicalPlant_Grass_02",247226,77290,171,4)
-p("TropicalPlant_Grass_03",247049,77674,188,4)
-p("TropicalPlant_Grass_02",248608,74351,138,4)
-p("TropicalPlant_Grass_03",248197,75389,152,4)
-p("TropicalPlant_Grass_01",248672,75603,177,4)
-p("TropicalPlant_Grass_01",248968,74705,177,4)
-p("TropicalPlant_Grass_03",248069,77102,130,4)
-p("TropicalPlant_Grass_03",248680,76820,160,4)
-p("TropicalPlant_Grass_01",249824,76706,115,4)
-p("TropicalPlant_Grass_04",248933,77549,130,4)
-p("TropicalPlant_Grass_01",249757,77719,156,4)
-p("TropicalPlant_Grass_03",245838,77826,139,4)
-p("TropicalPlant_Grass_03",246103,79271,124,4)
-p("TropicalPlant_Grass_02",247702,78767,106,4)
-p("TropicalPlant_Grass_03",247434,79038,145,4)
-p("TropicalPlant_Grass_03",245826,80758,105,4)
-p("TropicalPlant_Grass_03",246751,80381,182,4)
-p("TropicalPlant_Grass_04",245940,81307,138,4)
-p("TropicalPlant_Grass_04",247277,80641,116,4)
-p("TropicalPlant_Grass_03",248011,78103,188,4)
-p("TropicalPlant_Grass_04",248055,79738,139,4)
-p("TropicalPlant_Grass_03",248801,79172,144,4)
-p("TropicalPlant_Grass_01",248589,80628,150,4)
-p("TropicalPlant_Grass_04",247901,81104,148,4)
-p("TropicalPlant_02_Shrub",248779,81139,112,4)
-p("TropicalPlant_Grass_01",249463,80013,92,4)
-p("TropicalPlant_Grass_02",249716,80122,115,4)
-p("TropicalPlant_Grass_01",249601,81094,95,4)
-p("TropicalPlant_Grass_02",250147,74121,164,4)
-p("TropicalPlant_Grass_04",250182,74631,116,4)
-p("TropicalPlant_Grass_03",250506,73759,185,4)
-p("TropicalPlant_Grass_01",250101,75627,179,4)
-p("TropicalPlant_Grass_04",250518,75658,121,4)
-p("TropicalPlant_Grass_04",251578,74643,175,4)
-p("TropicalPlant_Grass_04",251306,74963,119,4)
-p("TropicalPlant_Grass_01",250668,76569,123,4)
-p("TropicalPlant_Grass_01",252453,74056,135,4)
-p("TropicalPlant_Grass_02",252851,75540,92,4)
-p("TropicalPlant_Grass_03",253152,74072,164,4)
-p("TropicalPlant_Grass_02",253868,73778,104,4)
-p("TropicalPlant_Grass_04",253029,75442,182,4)
-p("TropicalPlant_Grass_02",252395,76099,142,4)
-p("TropicalPlant_Grass_03",252267,77390,90,4)
-p("TropicalPlant_Grass_02",252863,77650,171,4)
-p("TropicalPlant_Grass_02",253129,76841,152,4)
-p("TropicalPlant_Grass_02",249983,79263,128,4)
-p("TropicalPlant_Grass_02",250860,79337,105,4)
-p("TropicalPlant_Grass_02",251087,78480,90,4)
-p("TropicalPlant_Grass_01",251670,78605,145,4)
-p("TropicalPlant_Grass_04",250804,80828,130,4)
-p("TropicalPlant_Grass_01",251362,80481,99,4)
-p("TropicalPlant_Grass_02",251537,81506,90,4)
-p("TropicalPlant_Grass_01",252436,78125,182,4)
-p("TropicalPlant_Grass_02",252357,79713,164,4)
-p("TropicalPlant_Grass_02",252704,79694,124,4)
-p("TropicalPlant_Grass_03",253243,78844,102,4)
-p("TropicalPlant_Grass_01",253900,79011,167,4)
-p("TropicalPlant_Grass_03",253859,79560,110,4)
-p("TropicalPlant_Grass_03",252176,80679,145,4)
-p("TropicalPlant_Grass_02",252585,80627,134,4)
-p("TropicalPlant_Grass_01",254046,66234,126,4)
-p("TropicalPlant_04_Shrub_01",254364,67474,151,4)
-p("TropicalPlant_Grass_02",255017,66362,182,4)
-p("TropicalPlant_Grass_03",255426,66685,163,4)
-p("TropicalPlant_Grass_01",254293,67745,179,4)
-p("TropicalPlant_02_Shrub",254326,68538,155,4)
-p("TropicalPlant_04_Shrub_02",254613,68388,159,4)
-p("TropicalPlant_Grass_01",254780,68704,171,4)
-p("TropicalPlant_Grass_02",255391,68469,164,4)
-p("TropicalPlant_04_Shrub_01",255723,69310,160,4)
-p("TropicalPlant_Grass_01",256168,65798,97,4)
-p("TropicalPlant_Grass_03",256990,65990,104,4)
-p("TropicalPlant_Grass_04",256444,67311,117,4)
-p("TropicalPlant_Grass_04",256848,67551,124,4)
-p("TropicalPlant_Grass_03",257533,66319,157,4)
-p("TropicalPlant_Grass_03",257347,66972,166,4)
-p("TropicalPlant_Grass_03",257707,66740,185,4)
-p("TropicalPlant_Grass_01",256413,67659,90,4)
-p("TropicalPlant_Grass_01",256111,68503,152,4)
-p("TropicalPlant_Grass_03",256812,69157,174,4)
-p("TropicalPlant_04_Shrub_01",254955,70931,106,4)
-p("TropicalPlant_Grass_04",255088,70027,91,4)
-p("TropicalPlant_Grass_03",255715,70219,135,4)
-p("TropicalPlant_Grass_03",255356,70812,148,4)
-p("TropicalPlant_Grass_04",255623,71215,167,4)
-p("TropicalPlant_04_Shrub_02",255853,71630,62,4)
-p("TropicalPlant_Grass_01",254376,71941,182,4)
-p("TropicalPlant_04_Shrub_02",254680,72629,27,4)
-p("TropicalPlant_Grass_03",254351,73323,104,4)
-p("TropicalPlant_Grass_02",255491,71727,113,4)
-p("TropicalPlant_Grass_04",255570,71769,175,4)
-p("TropicalPlant_Grass_01",255650,72691,102,4)
-p("TropicalPlant_Grass_01",255406,73018,128,4)
-p("TropicalPlant_04_Shrub_02",256223,70300,93,4)
-p("TropicalPlant_Grass_03",256830,69780,188,4)
-p("TropicalPlant_Grass_02",256968,71460,177,4)
-p("TropicalPlant_Grass_01",256781,72226,179,4)
-p("TropicalPlant_04_Shrub_02",256251,73490,70,4)
-p("TropicalPlant_Grass_04",257539,72519,102,4)
-p("TropicalPlant_Grass_04",257489,72810,179,4)
-p("TropicalPlant_Grass_01",257755,73683,164,4)
-p("TropicalPlant_Grass_03",258775,66929,181,4)
-p("TropicalPlant_Grass_04",259130,65885,181,4)
-p("TropicalPlant_Grass_03",260016,65549,157,4)
-p("TropicalPlant_04_Shrub_02",259638,67490,103,4)
-p("TropicalPlant_Grass_03",258432,67882,97,4)
-p("TropicalPlant_Grass_01",258634,68253,175,4)
-p("TropicalPlant_Grass_03",258270,68667,167,4)
-p("TropicalPlant_Grass_03",259604,67614,97,4)
-p("TropicalPlant_Grass_04",259454,69307,92,4)
-p("TropicalPlant_Grass_03",259735,68813,175,4)
-p("TropicalPlant_Grass_01",260520,66403,181,4)
-p("TropicalPlant_Grass_02",260220,67399,108,4)
-p("TropicalPlant_Grass_01",260691,66958,163,4)
-p("TropicalPlant_04_Shrub_02",260959,67315,160,4)
-p("TropicalPlant_04_Shrub_02",261962,65973,143,4)
-p("TropicalPlant_Grass_04",261974,66516,150,4)
-p("TropicalPlant_Grass_01",260244,69557,148,4)
-p("TropicalPlant_Grass_03",261151,68427,119,4)
-p("TropicalPlant_04_Shrub_02",261225,68587,108,4)
-p("TropicalPlant_Grass_02",261772,68402,95,4)
-p("TropicalPlant_Grass_04",261407,68943,144,4)
-p("TropicalPlant_Grass_04",261955,68816,88,4)
-p("TropicalPlant_Grass_01",258173,69733,178,4)
-p("TropicalPlant_Grass_01",258423,71105,104,4)
-p("TropicalPlant_Grass_01",259115,69779,131,4)
-p("TropicalPlant_Grass_04",259360,70540,88,4)
-p("TropicalPlant_01_Sapling",259674,69665,196,4)
-p("TropicalPlant_Grass_04",258375,72175,184,4)
-p("TropicalPlant_Grass_02",258681,71918,144,4)
-p("TropicalPlant_Grass_03",258878,72573,152,4)
-p("TropicalPlant_Grass_04",260035,72383,116,4)
-p("TropicalPlant_Grass_01",260558,70494,173,4)
-p("TropicalPlant_04_Shrub_02",260849,69748,116,4)
-p("TropicalPlant_Grass_03",260236,70889,134,4)
-p("TropicalPlant_Grass_01",261236,70764,88,4)
-p("TropicalPlant_Grass_03",261779,70786,109,4)
-p("TropicalPlant_Grass_03",261277,71810,152,4)
-p("TropicalPlant_04_Shrub_01",261450,73520,162,4)
-p("TropicalPlant_Grass_04",254282,74894,117,4)
-p("TropicalPlant_Grass_04",255194,74604,104,4)
-p("TropicalPlant_Grass_03",255552,73870,178,4)
-p("TropicalPlant_Grass_01",255499,74073,175,4)
-p("TropicalPlant_Grass_02",254018,76470,153,4)
-p("TropicalPlant_Grass_03",254115,76740,178,4)
-p("TropicalPlant_Grass_01",254890,77147,181,4)
-p("TropicalPlant_Grass_04",255204,76483,186,4)
-p("TropicalPlant_Grass_03",255914,76697,127,4)
-p("TropicalPlant_04_Shrub_01",257012,74044,162,4)
-p("TropicalPlant_Grass_04",256200,75263,94,4)
-p("TropicalPlant_Grass_03",256645,75645,110,4)
-p("TropicalPlant_Grass_03",257325,73886,153,4)
-p("TropicalPlant_Grass_01",257259,74734,150,4)
-p("TropicalPlant_Grass_04",256093,75942,152,4)
-p("TropicalPlant_02_Shrub",256364,76702,18,4)
-p("TropicalPlant_Grass_04",257295,76710,126,4)
-p("TropicalPlant_Grass_02",257966,77767,142,4)
-p("TropicalPlant_Grass_02",254403,78177,123,4)
-p("TropicalPlant_Grass_02",255246,77918,144,4)
-p("TropicalPlant_Grass_02",255028,78732,135,4)
-p("TropicalPlant_Grass_03",255331,79612,178,4)
-p("TropicalPlant_Grass_04",254108,80861,123,4)
-p("TropicalPlant_Grass_04",254189,81899,131,4)
-p("TropicalPlant_Grass_02",255564,80712,153,4)
-p("TropicalPlant_Grass_04",255163,81125,98,4)
-p("TropicalPlant_Grass_04",256342,78350,109,4)
-p("TropicalPlant_Grass_03",256611,78340,90,4)
-p("TropicalPlant_Grass_01",256709,78635,175,4)
-p("TropicalPlant_Grass_04",256425,79382,142,4)
-p("TropicalPlant_Grass_04",256355,79751,131,4)
-p("TropicalPlant_Grass_03",256538,79662,102,4)
-p("TropicalPlant_Grass_04",257066,79446,104,4)
-p("TropicalPlant_Grass_04",256091,81266,102,4)
-p("TropicalPlant_Grass_01",257448,80074,149,4)
-p("TropicalPlant_Grass_03",257361,80514,92,4)
-p("TropicalPlant_04_Shrub_01",257725,80065,48,4)
-p("TropicalPlant_Grass_03",257551,80340,126,4)
-p("TropicalPlant_04_Shrub_01",257702,81115,168,4)
-p("TropicalPlant_Grass_03",257547,81176,163,4)
-p("TropicalPlant_04_Shrub_01",258055,74722,152,4)
-p("TropicalPlant_04_Shrub_02",258950,75763,23,4)
-p("TropicalPlant_04_Shrub_01",259519,73805,141,4)
-p("TropicalPlant_Grass_01",258425,76943,134,4)
-p("TropicalPlant_04_Shrub_02",258096,77445,79,4)
-p("TropicalPlant_Grass_01",258641,77283,91,4)
-p("TropicalPlant_04_Shrub_01",259725,76417,0)
-p("TropicalPlant_04_Shrub_01",260992,75234,58,4)
-p("TropicalPlant_04_Shrub_02",260437,76878,54,4)
-p("TropicalPlant_Grass_03",258512,78296,178,4)
-p("TropicalPlant_Grass_02",258132,79498,108,4)
-p("TropicalPlant_Grass_04",258529,79845,131,4)
-p("TropicalPlant_Grass_02",258730,79440,189,4)
-p("TropicalPlant_04_Shrub_02",259543,78248,79,4)
-p("TropicalPlant_Grass_02",259532,79366,108,4)
-p("TropicalPlant_04_Shrub_01",259700,79815,116,4)
-p("TropicalPlant_Grass_01",259013,81342,123,4)
-p("TropicalPlant_Grass_03",259625,80412,181,4)
-p("TropicalPlant_Grass_01",259286,81605,110,4)
-p("TropicalPlant_04_Shrub_02",259133,81702,126,4)
-p("TropicalPlant_04_Shrub_02",260387,77830,88,4)
-p("TropicalPlant_04_Shrub_01",260620,79704,121,4)
-p("TropicalPlant_Grass_04",260390,81396,135,4)
-p("TropicalPlant_Grass_04",261026,81913,127,4)
-p("TropicalPlant_04_Shrub_01",261363,80972,83,4)
-p("TropicalPlant_Grass_04",246132,83597,135,4)
-p("TropicalPlant_Grass_02",246347,83135,95,4)
-p("TropicalPlant_Grass_03",246860,82000,188,4)
-p("TropicalPlant_Grass_03",247082,82779,145,4)
-p("TropicalPlant_Grass_01",247790,82592,132,4)
-p("TropicalPlant_Grass_01",247151,83917,160,4)
-p("TropicalPlant_Grass_03",246173,85923,181,4)
-p("TropicalPlant_Grass_03",247453,85118,138,4)
-p("TropicalPlant_Grass_04",248165,82495,166,4)
-p("TropicalPlant_Grass_04",249321,82120,120,4)
-p("TropicalPlant_Grass_04",249854,82829,160,4)
-p("TropicalPlant_Grass_02",248919,83155,98,4)
-p("TropicalPlant_Grass_01",248291,84102,139,4)
-p("TropicalPlant_Grass_02",248455,84547,171,4)
-p("TropicalPlant_Grass_03",247934,85660,124,4)
-p("TropicalPlant_Grass_03",248790,85695,186,4)
-p("TropicalPlant_Grass_04",249310,84371,175,4)
-p("TropicalPlant_Grass_03",249337,85275,109,4)
-p("TropicalPlant_Grass_03",246623,86468,98,4)
-p("TropicalPlant_Grass_01",247131,86545,110,4)
-p("TropicalPlant_Grass_04",246327,88281,86,4)
-p("TropicalPlant_Grass_04",246449,88932,128,4)
-p("TropicalPlant_Grass_04",246243,89630,123,4)
-p("TropicalPlant_Grass_03",246672,89226,120,4)
-p("TropicalPlant_Grass_03",247489,88329,119,4)
-p("TropicalPlant_Grass_01",247671,88361,112,4)
-p("TropicalPlant_Grass_04",247551,88656,128,4)
-p("TropicalPlant_Grass_04",246879,89867,120,4)
-p("TropicalPlant_Grass_03",247739,90056,134,4)
-p("TropicalPlant_Grass_03",248431,86639,164,4)
-p("TropicalPlant_Grass_03",248762,87704,94,4)
-p("TropicalPlant_Grass_02",249448,86744,130,4)
-p("TropicalPlant_Grass_02",248579,89477,87,4)
-p("TropicalPlant_Grass_01",249670,89103,166,4)
-p("TropicalPlant_Grass_01",250217,82035,175,4)
-p("TropicalPlant_Grass_02",250786,81946,167,4)
-p("TropicalPlant_Grass_04",250077,83814,145,4)
-p("TropicalPlant_Grass_02",250711,83000,91,4)
-p("TropicalPlant_01_Shrub",250764,83148,173,4)
-p("TropicalPlant_Grass_03",250647,84094,102,4)
-p("TropicalPlant_Grass_01",250601,84978,182,4)
-p("TropicalPlant_Grass_04",250162,85085,159,4)
-p("TropicalPlant_Grass_02",249993,85684,160,4)
-p("TropicalPlant_Grass_02",251323,85559,173,4)
-p("TropicalPlant_Grass_03",251881,85619,119,4)
-p("TropicalPlant_Grass_01",252913,82248,177,4)
-p("TropicalPlant_Grass_02",253324,83359,144,4)
-p("TropicalPlant_Grass_02",253815,83204,141,4)
-p("TropicalPlant_Grass_02",253887,83640,123,4)
-p("TropicalPlant_Grass_02",251906,84152,150,4)
-p("TropicalPlant_Grass_04",252343,85001,120,4)
-p("TropicalPlant_Grass_02",253438,83989,116,4)
-p("TropicalPlant_Grass_01",253114,85070,135,4)
-p("TropicalPlant_Grass_02",250114,87357,128,4)
-p("TropicalPlant_Grass_01",250461,87787,188,4)
-p("TropicalPlant_Grass_02",251303,87291,141,4)
-p("TropicalPlant_Grass_02",250683,88853,120,4)
-p("TropicalPlant_Grass_03",250062,89867,121,4)
-p("TropicalPlant_Grass_03",251399,88065,153,4)
-p("TropicalPlant_Grass_02",251789,88426,108,4)
-p("TropicalPlant_Grass_02",252643,86489,177,4)
-p("TropicalPlant_Grass_04",252498,86765,105,4)
-p("TropicalPlant_Grass_04",253241,86849,139,4)
-p("TropicalPlant_Grass_01",253592,86061,117,4)
-p("TropicalPlant_Grass_03",253270,87537,138,4)
-p("TropicalPlant_Grass_01",253699,87467,116,4)
-p("TropicalPlant_Grass_02",251957,89397,119,4)
-p("TropicalPlant_Grass_03",252724,90080,104,4)
-p("TropicalPlant_Grass_04",253173,88760,139,4)
-p("TropicalPlant_Grass_04",253864,88996,153,4)
-p("TropicalPlant_Grass_04",245861,91300,178,4)
-p("TropicalPlant_Grass_01",246496,91984,127,4)
-p("TropicalPlant_Grass_02",247253,91190,87,4)
-p("TropicalPlant_Grass_04",246389,92309,160,4)
-p("TropicalPlant_Grass_03",246512,92184,128,4)
-p("TropicalPlant_Grass_01",246144,93970,117,4)
-p("TropicalPlant_Grass_04",246769,93589,178,4)
-p("TropicalPlant_Grass_01",247431,93046,168,4)
-p("TropicalPlant_Grass_03",247587,92985,149,4)
-p("TropicalPlant_Grass_02",247959,90845,108,4)
-p("TropicalPlant_Grass_01",249111,91057,157,4)
-p("TropicalPlant_Grass_01",249345,90402,137,4)
-p("TropicalPlant_Grass_01",248832,91609,120,4)
-p("TropicalPlant_01_Sapling",249689,91746,92,4)
-p("TropicalPlant_Grass_04",247838,92469,179,4)
-p("TropicalPlant_Grass_02",249045,92889,137,4)
-p("TropicalPlant_Grass_03",245781,95273,141,4)
-p("TropicalPlant_Grass_03",246514,95703,152,4)
-p("TropicalPlant_Grass_04",246998,94678,184,4)
-p("TropicalPlant_Grass_04",245955,96860,112,4)
-p("TropicalPlant_Grass_04",246480,96480,134,4)
-p("TropicalPlant_Grass_01",246086,97836,117,4)
-p("TropicalPlant_Grass_03",247582,96387,127,4)
-p("TropicalPlant_Grass_02",247430,97118,116,4)
-p("TropicalPlant_Grass_04",247656,97303,159,4)
-p("TropicalPlant_Grass_04",247426,97965,86,4)
-p("TropicalPlant_Grass_04",247935,94794,121,4)
-p("TropicalPlant_Grass_04",248351,94381,91,4)
-p("TropicalPlant_Grass_03",248568,94573,98,4)
-p("TropicalPlant_Grass_04",248625,95554,112,4)
-p("TropicalPlant_Grass_04",249087,94433,87,4)
-p("TropicalPlant_Grass_02",247983,97787,185,4)
-p("TropicalPlant_Grass_01",248794,97364,171,4)
-p("TropicalPlant_Grass_04",249783,96363,127,4)
-p("TropicalPlant_Grass_03",249422,97921,126,4)
-p("TropicalPlant_04_Shrub_02",249731,98097,26,4)
-p("TropicalPlant_Grass_02",250162,90942,106,4)
-p("TropicalPlant_Grass_04",251375,90397,120,4)
-p("TropicalPlant_Grass_01",251469,90704,106,4)
-p("TropicalPlant_Grass_03",250040,92445,127,4)
-p("TropicalPlant_Grass_03",250785,92630,108,4)
-p("TropicalPlant_Grass_02",250419,93017,179,4)
-p("TropicalPlant_Grass_02",250658,94150,178,4)
-p("TropicalPlant_Grass_03",251331,92487,138,4)
-p("TropicalPlant_Grass_02",251741,93304,170,4)
-p("TropicalPlant_Grass_01",252375,90175,130,4)
-p("TropicalPlant_Grass_01",252133,91069,87,4)
-p("TropicalPlant_Grass_02",252460,92089,132,4)
-p("TropicalPlant_Grass_01",252849,92143,170,4)
-p("TropicalPlant_Grass_04",253279,90662,112,4)
-p("TropicalPlant_Grass_04",253921,91071,170,4)
-p("TropicalPlant_Grass_02",253646,91525,161,4)
-p("TropicalPlant_01_Sapling",251904,93661,60,4)
-p("TropicalPlant_Grass_02",251921,93954,126,4)
-p("TropicalPlant_Grass_03",252527,93192,130,4)
-p("TropicalPlant_Grass_04",252804,93836,127,4)
-p("TropicalPlant_Grass_01",249986,94342,135,4)
-p("TropicalPlant_Grass_01",249957,94548,86,4)
-p("TropicalPlant_Grass_01",251276,94933,167,4)
-p("TropicalPlant_Grass_04",251859,95842,115,4)
-p("TropicalPlant_Grass_02",250324,96695,142,4)
-p("TropicalPlant_Grass_04",250125,97161,102,4)
-p("TropicalPlant_Grass_01",250276,97960,112,4)
-p("TropicalPlant_Grass_01",250483,97988,144,4)
-p("TropicalPlant_Grass_02",251029,96304,121,4)
-p("TropicalPlant_04_Shrub_02",251163,97103,172,4)
-p("TropicalPlant_Grass_04",251149,98043,116,4)
-p("TropicalPlant_Grass_02",251418,97453,124,4)
-p("TropicalPlant_Grass_02",251850,97476,105,4)
-p("TropicalPlant_Grass_02",252126,95358,99,4)
-p("TropicalPlant_Grass_04",252962,95178,160,4)
-p("TropicalPlant_Grass_02",253083,96063,112,4)
-p("TropicalPlant_Grass_04",253327,97068,94,4)
-p("TropicalPlant_Grass_01",253223,97949,116,4)
-p("TropicalPlant_04_Shrub_02",253340,98107,118,4)
-p("TropicalPlant_Grass_01",254484,82381,164,4)
-p("TropicalPlant_Grass_01",255223,82468,168,4)
-p("TropicalPlant_Grass_03",255551,82034,150,4)
-p("TropicalPlant_Grass_03",255038,83307,164,4)
-p("TropicalPlant_Grass_04",255255,83844,152,4)
-p("TropicalPlant_Grass_01",255819,83890,104,4)
-p("TropicalPlant_Grass_02",254168,85151,135,4)
-p("TropicalPlant_Grass_04",254832,85346,156,4)
-p("TropicalPlant_01_Shrub",255739,85052,38,4)
-p("TropicalPlant_Grass_02",255678,85135,156,4)
-p("TropicalPlant_Grass_03",255602,85640,131,4)
-p("TropicalPlant_Grass_03",256507,82273,161,4)
-p("TropicalPlant_Grass_01",256406,82619,142,4)
-p("TropicalPlant_Grass_03",257097,83232,182,4)
-p("TropicalPlant_Grass_03",256779,84255,101,4)
-p("TropicalPlant_Grass_04",256809,84524,164,4)
-p("TropicalPlant_Grass_01",257207,85628,115,4)
-p("TropicalPlant_Grass_03",254645,86256,105,4)
-p("TropicalPlant_Grass_03",254452,87742,130,4)
-p("TropicalPlant_Grass_04",255218,87414,132,4)
-p("TropicalPlant_Grass_04",255164,87599,179,4)
-p("TropicalPlant_Grass_03",255929,87785,160,4)
-p("TropicalPlant_Grass_01",254165,89639,112,4)
-p("TropicalPlant_Grass_01",254931,89312,148,4)
-p("TropicalPlant_Grass_02",255829,89070,186,4)
-p("TropicalPlant_Grass_01",256401,87477,144,4)
-p("TropicalPlant_Grass_04",257074,86935,113,4)
-p("TropicalPlant_Grass_03",257882,86501,127,4)
-p("TropicalPlant_Grass_02",257467,87607,142,4)
-p("TropicalPlant_Grass_03",257530,87991,102,4)
-p("TropicalPlant_Grass_03",257323,89402,137,4)
-p("TropicalPlant_Grass_01",257619,89456,137,4)
-p("TropicalPlant_Grass_02",257773,90012,178,4)
-p("TropicalPlant_Grass_04",258195,82146,102,4)
-p("TropicalPlant_Grass_03",258124,83286,98,4)
-p("TropicalPlant_Grass_04",259039,83847,157,4)
-p("TropicalPlant_Grass_04",259458,82764,175,4)
-p("TropicalPlant_Grass_01",259592,82026,123,4)
-p("TropicalPlant_Grass_01",258242,84395,171,4)
-p("TropicalPlant_Grass_02",258684,84989,164,4)
-p("TropicalPlant_Grass_04",258303,85412,131,4)
-p("TropicalPlant_Grass_04",259747,84268,137,4)
-p("TropicalPlant_Grass_03",259759,84798,144,4)
-p("TropicalPlant_Grass_01",259826,85982,146,4)
-p("TropicalPlant_Grass_03",261023,82609,145,4)
-p("TropicalPlant_Grass_01",260226,83405,149,4)
-p("TropicalPlant_04_Shrub_02",260968,82986,87,4)
-p("TropicalPlant_Grass_02",260857,83738,164,4)
-p("TropicalPlant_Grass_03",261854,82714,163,4)
-p("TropicalPlant_04_Shrub_01",260941,84720,182,4)
-p("TropicalPlant_Grass_03",260879,84811,102,4)
-p("TropicalPlant_Grass_02",260628,85737,181,4)
-p("TropicalPlant_Grass_02",261910,84140,99,4)
-p("TropicalPlant_Grass_03",261436,85549,139,4)
-p("TropicalPlant_Grass_03",261644,85209,149,4)
-p("TropicalPlant_Grass_02",262014,85974,137,4)
-p("TropicalPlant_Grass_04",258129,86241,173,4)
-p("TropicalPlant_Grass_01",258912,86951,108,4)
-p("TropicalPlant_Grass_04",259388,86247,97,4)
-p("TropicalPlant_Grass_01",259507,87623,160,4)
-p("TropicalPlant_Grass_04",258556,88302,104,4)
-p("TropicalPlant_Grass_04",258521,89336,120,4)
-p("TropicalPlant_Grass_02",259569,89497,119,4)
-p("TropicalPlant_Grass_01",260348,86842,98,4)
-p("TropicalPlant_Grass_01",260551,87040,144,4)
-p("TropicalPlant_04_Shrub_01",261103,87389,51,4)
-p("TropicalPlant_04_Shrub_02",261304,86018,140,4)
-p("TropicalPlant_Grass_04",261478,87901,94,4)
-p("TropicalPlant_Grass_02",262078,87046,88,4)
-p("TropicalPlant_Grass_03",260520,89367,138,4)
-p("TropicalPlant_Grass_01",260336,89956,160,4)
-p("TropicalPlant_Grass_02",261614,88330,153,4)
-p("TropicalPlant_Grass_04",262000,88824,156,4)
-p("TropicalPlant_Grass_02",255230,90340,177,4)
-p("TropicalPlant_Grass_04",255255,91452,124,4)
-p("TropicalPlant_01_Shrub",255620,91873,85,4)
-p("TropicalPlant_Grass_02",255800,91974,128,4)
-p("TropicalPlant_Grass_03",254495,92774,164,4)
-p("TropicalPlant_Grass_02",254488,93846,168,4)
-p("TropicalPlant_Grass_02",255172,92254,184,4)
-p("TropicalPlant_Grass_04",255181,93375,149,4)
-p("TropicalPlant_Grass_02",256143,90436,112,4)
-p("TropicalPlant_Grass_01",256805,91118,141,4)
-p("TropicalPlant_Grass_01",256382,91358,182,4)
-p("TropicalPlant_Grass_03",257162,90192,120,4)
-p("TropicalPlant_Grass_02",256199,92792,149,4)
-p("TropicalPlant_Grass_04",256930,92743,138,4)
-p("TropicalPlant_Grass_04",256220,93696,174,4)
-p("TropicalPlant_Grass_04",256591,94073,101,4)
-p("TropicalPlant_Grass_03",257152,92451,161,4)
-p("TropicalPlant_Grass_04",257672,92167,153,4)
-p("TropicalPlant_Grass_03",254179,94962,138,4)
-p("TropicalPlant_Grass_02",254606,94284,113,4)
-p("TropicalPlant_Grass_01",254212,96179,101,4)
-p("TropicalPlant_Grass_02",255472,94827,171,4)
-p("TropicalPlant_Grass_04",255018,95987,115,4)
-p("TropicalPlant_Grass_03",255985,95907,104,4)
-p("TropicalPlant_Grass_02",254400,96977,188,4)
-p("TropicalPlant_Grass_02",254786,96538,174,4)
-p("TropicalPlant_04_Shrub_01",254344,98152,10,4)
-p("TropicalPlant_Grass_02",254417,98169,92,4)
-p("TropicalPlant_Grass_03",255803,96632,112,4)
-p("TropicalPlant_Grass_04",255411,97923,166,4)
-p("TropicalPlant_Grass_03",256467,95064,131,4)
-p("TropicalPlant_Grass_01",256572,95256,105,4)
-p("TropicalPlant_Grass_04",257928,94769,145,4)
-p("TropicalPlant_Grass_04",257389,95707,142,4)
-p("TropicalPlant_Grass_02",256539,96508,105,4)
-p("TropicalPlant_Grass_04",256243,98291,177,4)
-p("TropicalPlant_Grass_02",256534,97569,139,4)
-p("TropicalPlant_Grass_01",257644,96469,153,4)
-p("TropicalPlant_Grass_04",257917,97688,99,4)
-p("TropicalPlant_Grass_01",258190,90612,123,4)
-p("TropicalPlant_Grass_03",258628,90424,102,4)
-p("TropicalPlant_Grass_04",259046,90584,115,4)
-p("TropicalPlant_Grass_01",258552,91554,91,4)
-p("TropicalPlant_Grass_02",260056,91212,149,4)
-p("TropicalPlant_Grass_04",259981,92144,117,4)
-p("TropicalPlant_Grass_01",258553,93174,189,4)
-p("TropicalPlant_Grass_02",258081,93339,123,4)
-p("TropicalPlant_Grass_02",258149,93898,131,4)
-p("TropicalPlant_Grass_04",259661,93502,120,4)
-p("TropicalPlant_Grass_03",260804,91384,186,4)
-p("TropicalPlant_Grass_03",261122,90178,142,4)
-p("TropicalPlant_Grass_01",261804,90627,155,4)
-p("TropicalPlant_Grass_01",261237,91620,109,4)
-p("TropicalPlant_04_Shrub_02",261366,91465,197,4)
-p("TropicalPlant_Grass_04",260335,92898,166,4)
-p("TropicalPlant_Grass_02",260958,92806,123,4)
-p("TropicalPlant_01_Shrub",261433,93028,78,4)
-p("TropicalPlant_Grass_03",262064,92330,113,4)
-p("TropicalPlant_Grass_04",261998,92586,119,4)
-p("TropicalPlant_Grass_02",261513,93865,152,4)
-p("TropicalPlant_Grass_02",259294,94654,124,4)
-p("TropicalPlant_Grass_04",259378,94420,135,4)
-p("TropicalPlant_Grass_01",259671,94684,127,4)
-p("TropicalPlant_Grass_02",258511,96538,86,4)
-p("TropicalPlant_Grass_04",258239,96768,127,4)
-p("TropicalPlant_Grass_03",259282,96398,106,4)
-p("TropicalPlant_Grass_04",259575,96854,108,4)
-p("TropicalPlant_Grass_01",260550,94454,99,4)
-p("TropicalPlant_Grass_04",260222,95645,98,4)
-p("TropicalPlant_Grass_01",261156,94786,101,4)
-p("TropicalPlant_Grass_04",261773,95143,164,4)
-p("TropicalPlant_Grass_02",260673,96448,141,4)
-p("TropicalPlant_04_Shrub_02",260760,97442,119,4)
-p("TropicalPlant_Grass_04",260945,98153,113,4)
-p("TropicalPlant_Grass_03",261273,96696,116,4)
+p("TropicalRockSharp_01",252578,68933,6052,12012,247,2211,1064,3279,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",252935,77191,6052,14003,247,419,1558,3764,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",257842,68933,7194,12685,247,821,700,3951,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",261982,71050,11659,12518,247,1466,993,3693,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",255118,80172,8728,12590,247,1633,948,3634,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",250843,90044,7570,17343,247,-241,3114,2650,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",249349,94564,10137,13913,247,1853,3313,1538,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",250264,96041,8230,7787,247,1947,-516,3566,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",258749,93526,7481,4124,247,-174,-1945,3600,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_01",229988,98641,119,4)
 p("TropicalPlant_Grass_03",229435,99681,173,4)
 p("TropicalPlant_Grass_04",229771,99891,116,4)
@@ -176666,10 +175714,8 @@ p("DecFarmFurrows_02",238783,126964,6943,1)
 p("DecFarmFurrows_02",238571,130048,6943,1)
 p("Scaffolding_Bridge_Wood_02",243000,125400,5400,2150054469,2150054469,2150182196,"",1075845632)
 p("DecFarmFurrows_01",245027,128229,6943,1)
-p("TropicalPlant_04_Shrub_01",246387,98588,153,4)
 p("TropicalPlant_Grass_01",246039,99341,164,4)
 p("TropicalPlant_Grass_02",246217,99708,137,4)
-p("TropicalPlant_Grass_03",247748,98782,123,4)
 p("TropicalPlant_Grass_03",247267,99719,184,4)
 p("TropicalPlant_Grass_04",247359,99461,159,4)
 p("TropicalPlant_Grass_02",247706,100283,108,4)
@@ -176680,11 +175726,6 @@ p("TropicalPlant_Grass_04",246659,101910,153,4)
 p("TropicalPlant_Grass_04",246807,100551,86,4)
 p("TropicalPlant_Grass_02",247560,100678,138,4)
 p("TropicalPlant_04_Shrub_01",247374,100904,10,4)
-p("TropicalPlant_04_Shrub_01",248513,99477,10,4)
-p("TropicalPlant_Grass_01",249308,99257,145,4)
-p("TropicalPlant_04_Shrub_01",249783,98878,102,4)
-p("TropicalPlant_Grass_02",249487,100028,181,4)
-p("TropicalPlant_Grass_04",249774,99873,166,4)
 p("TropicalPlant_Grass_04",248781,100706,173,4)
 p("TropicalPlant_Grass_03",248239,102170,182,4)
 p("TropicalPlant_Grass_03",249171,101939,175,4)
@@ -176693,38 +175734,11 @@ p("TropicalPlant_Grass_01",246764,103616,171,4)
 p("TropicalPlant_Grass_03",247051,103347,144,4)
 p("TropicalPlant_Grass_04",247502,103495,123,4)
 p("TropicalPlant_Grass_01",247542,103668,181,4)
-p("TropicalPlant_Grass_02",250295,98962,109,4)
-p("TropicalPlant_Grass_02",250811,98854,126,4)
-p("TropicalPlant_Grass_01",250314,99346,144,4)
-p("TropicalPlant_Grass_04",250462,100058,127,4)
-p("TropicalPlant_Grass_02",251297,100054,120,4)
-p("TropicalPlant_04_Shrub_01",251624,99373,48,4)
-p("TropicalPlant_04_Shrub_02",250583,100456,126,4)
-p("TropicalPlant_Grass_03",250664,100680,138,4)
-p("TropicalPlant_Grass_02",251889,101438,120,4)
 p("TropicalPlant_04_Shrub_02",251789,102063,182,4)
-p("TropicalPlant_Grass_03",252391,98480,150,4)
-p("TropicalPlant_Grass_02",252164,99062,185,4)
-p("TropicalPlant_04_Shrub_01",252647,99290,46,4)
-p("TropicalPlant_Grass_04",252069,99788,179,4)
-p("TropicalPlant_Grass_03",252674,100266,120,4)
-p("TropicalPlant_Grass_01",253419,99089,142,4)
-p("TropicalPlant_Grass_03",253553,99803,113,4)
-p("TropicalPlant_04_Shrub_01",253724,99591,36,4)
-p("TropicalPlant_04_Shrub_02",252484,100734,89,4)
-p("TropicalPlant_Grass_03",252779,101119,123,4)
-p("TropicalPlant_Grass_03",251962,101656,126,4)
-p("TropicalPlant_04_Shrub_01",252365,102177,67,4)
-p("TropicalPlant_Grass_03",252477,101925,132,4)
-p("TropicalPlant_Grass_04",253894,100901,182,4)
-p("TropicalPlant_Grass_02",253910,101763,131,4)
-p("TropicalPlant_Grass_02",253560,102091,130,4)
 p("TropicalPlant_Grass_02",252420,102871,106,4)
 p("TropicalPlant_Grass_03",252474,103755,94,4)
-p("TropicalPlant_Grass_01",253173,103126,152,4)
 p("TropicalPlant_Grass_04",253283,104108,170,4)
 p("TropicalPlant_04_Shrub_01",253420,104033,167,4)
-p("TropicalPlant_04_Shrub_02",253944,103446,113,4)
 p("TropicalPlant_Grass_02",251973,104533,106,4)
 p("TropicalPlant_Grass_03",252924,105016,155,4)
 p("TropicalPlant_Grass_04",252023,106251,137,4)
@@ -176749,76 +175763,16 @@ p("TropicalPlant_Grass_03",251960,112805,146,4)
 p("TropicalPlant_Grass_01",252185,113593,177,4)
 p("TropicalPlant_Grass_03",252837,113406,179,4)
 p("TropicalPlant_Grass_03",252596,114356,135,4)
-p("TropicalPlant_Grass_01",254323,99180,148,4)
-p("TropicalPlant_Grass_03",255057,98979,184,4)
-p("TropicalPlant_Grass_01",255536,98798,144,4)
-p("TropicalPlant_Grass_01",255496,99570,155,4)
-p("TropicalPlant_04_Shrub_02",255682,99598,10,4)
-p("TropicalPlant_04_Shrub_02",255842,100321,88,4)
-p("TropicalPlant_04_Shrub_01",254085,100714,194,4)
-p("TropicalPlant_Grass_02",254621,101147,142,4)
-p("TropicalPlant_04_Shrub_01",253983,102222,139,4)
-p("TropicalPlant_Grass_02",255239,101588,160,4)
-p("TropicalPlant_Grass_02",256118,99588,120,4)
-p("TropicalPlant_Grass_04",256551,99452,149,4)
-p("TropicalPlant_Grass_04",256304,100715,161,4)
-p("TropicalPlant_Grass_03",256549,100869,159,4)
-p("TropicalPlant_Grass_01",256313,101949,131,4)
-p("TropicalPlant_Grass_04",257119,100485,167,4)
-p("TropicalPlant_Grass_04",257059,101952,171,4)
-p("TropicalPlant_Grass_04",257621,102181,117,4)
-p("TropicalPlant_Grass_01",254348,103094,185,4)
-p("TropicalPlant_Grass_02",254545,103343,130,4)
 p("TropicalPlant_Grass_02",254034,104426,149,4)
-p("TropicalPlant_Grass_03",254875,103955,188,4)
-p("TropicalPlant_Grass_03",255580,102469,109,4)
 p("TropicalPlant_Grass_04",254562,104886,126,4)
 p("TropicalPlant_Grass_04",255305,105749,138,4)
-p("TropicalPlant_Grass_01",256378,103093,115,4)
-p("TropicalPlant_Grass_02",256730,102769,186,4)
-p("TropicalPlant_Grass_04",256201,104120,127,4)
-p("TropicalPlant_Grass_01",257990,102490,141,4)
-p("TropicalPlant_Grass_02",257639,103155,116,4)
-p("TropicalPlant_Grass_01",257273,104350,166,4)
 p("TropicalPlant_Grass_03",256374,105302,145,4)
 p("TropicalPlant_Grass_03",256419,105567,108,4)
 p("TropicalPlant_Grass_01",256875,105571,132,4)
 p("TropicalPlant_Grass_02",257089,105464,124,4)
-p("TropicalPlant_Grass_03",257663,104934,182,4)
-p("TropicalPlant_Grass_01",258175,99311,159,4)
-p("TropicalPlant_Grass_03",258949,98359,105,4)
-p("TropicalPlant_Grass_03",258898,98988,168,4)
-p("TropicalPlant_Grass_03",258265,100242,159,4)
-p("TropicalPlant_Grass_02",260004,98468,117,4)
-p("TropicalPlant_Grass_01",259350,100062,170,4)
-p("TropicalPlant_Grass_03",260043,99550,157,4)
-p("TropicalPlant_Grass_02",258391,100990,185,4)
-p("TropicalPlant_Grass_02",258651,101163,137,4)
-p("TropicalPlant_Grass_04",258983,102065,101,4)
-p("TropicalPlant_Grass_01",259594,102327,104,4)
-p("TropicalPlant_Grass_02",260480,99165,188,4)
-p("TropicalPlant_Grass_03",261153,99400,115,4)
-p("TropicalPlant_Grass_03",261127,99860,116,4)
-p("TropicalPlant_Grass_03",261901,99750,138,4)
-p("TropicalPlant_Grass_01",261065,100884,181,4)
-p("TropicalPlant_Grass_01",260141,101467,163,4)
-p("TropicalPlant_02_Shrub",261691,100545,12,4)
-p("TropicalPlant_Grass_03",262065,100695,108,4)
-p("TropicalPlant_Grass_04",258538,102507,179,4)
-p("TropicalPlant_Grass_01",258059,104191,161,4)
-p("TropicalPlant_Grass_04",258608,103762,121,4)
-p("TropicalPlant_Grass_01",259507,102917,181,4)
-p("TropicalPlant_Grass_02",259560,103251,186,4)
-p("TropicalPlant_Grass_01",258576,104950,97,4)
 p("TropicalPlant_Grass_02",258447,105979,91,4)
 p("TropicalPlant_Grass_02",258670,106184,97,4)
 p("TropicalPlant_Grass_02",259685,106354,142,4)
-p("TropicalPlant_Grass_01",260875,102439,156,4)
-p("TropicalPlant_Grass_04",261118,102624,97,4)
-p("TropicalPlant_Grass_03",260184,104177,86,4)
-p("TropicalPlant_Grass_03",261678,102880,101,4)
-p("TropicalPlant_Grass_01",261204,104011,188,4)
-p("TropicalPlant_Grass_03",260543,104559,153,4)
 p("TropicalPlant_Grass_02",260374,105407,145,4)
 p("TropicalPlant_Grass_04",261987,105310,148,4)
 p("TropicalPlant_Grass_01",261508,105692,109,4)
@@ -177505,7 +176459,7 @@ p("DecWallRust_01",165434,176005,12127,20401,150,4095,-1,1,3555,2097429)
 p("DecBunkerFloor_02",167400,172200,7000,1521,630,2097409)
 p("DecBunkerFloor_02",166200,175800,7000,12589,1123,2097409)
 p("DecBunkerFloor_02",167400,174600,7000,13453,2071,2097409)
-p("DecJungleForest_02",167923,174638,7205,185,4281609513,81,2098188)
+p("DecJungleForest_02",167925,174632,7205,185,4281609513,81,2098188)
 p("DecWallDirt_06",167201,175201,12421,9953,-2874,2873,508,2335,2097425)
 p("DecBunkerFloor_02",164300,178200,7000,6615,-2077,-2855,2077,2355,2097425)
 p("DecBunkerFloor_02",164300,178200,9100,12536,-2798,1056,2798,2355,2097425)
@@ -178489,6 +177443,7 @@ p("TropicalPlant_04_Sapling_02",187290,220481,6664,94,5)
 p("TropicalPlant_04_Sapling_03",181836,223055,8518,16,-228,4089,2097168)
 p("TropicalPlant_04_Sapling_03",182254,228027,8068,2097152)
 p("DecTree_01",185242,223066,0)
+p("TropicalPlant_04_Sapling_03",185370,223529,6799,8432,-168,-75,4091,2097169)
 p("DecBunker_ConcretePile_02",185321,226377,"terrainchunk",10,0,0,40,60,10,40,60,131072)
 p("TropicalRockAssembly_03",187171,227415,6908,178,"terrainchunk",10,0,0,40,60,10,40,60,131077)
 p("TropicalPlant_04_Sapling_04",186770,229334,0)
@@ -180149,7 +179104,7 @@ p("Farmland_WheatDry_02",207197,205650,6946,19445,2097153)
 p("DecFarmFurrows_01",207940,205332,6949,1)
 p("Farmland_WheatDry_04",208369,205759,6944,1)
 p("Farmland_WheatDry_03",207412,207593,6944,18254,2097153)
-p("Farmland_WheatCrop_01",207441,207634,6944,1)
+p("Farmland_WheatCrop_01",207452,207655,6944,1)
 p("Farmland_WheatDry_01",205434,210435,6942,13126,2097153)
 p("Farmland_WheatDry_03",205427,212393,6940,1)
 p("Farmland_WheatCrop_01",206176,211903,6940,1)
@@ -186284,111 +185239,12 @@ p("TropicalPlant_01_Sapling",274789,47581,89,4)
 p("TropicalPlant_04_Shrub_02",275117,47208,184,4)
 p("TropicalPlant_04_Shrub_02",278513,45369,66,4)
 p("TropicalPlant_04_Shrub_01",277920,48369,57,4)
-p("TropicalPlant_Grass_02",262188,49741,91,4)
-p("TropicalPlant_Grass_01",262869,50554,145,4)
-p("TropicalPlant_Grass_01",263118,50464,157,4)
-p("TropicalPlant_Grass_01",264105,50008,155,4)
-p("TropicalPlant_Grass_02",262216,51267,116,4)
-p("TropicalPlant_Grass_04",262789,51880,189,4)
-p("TropicalPlant_Grass_01",262494,53109,94,4)
-p("TropicalPlant_Grass_03",263769,51386,159,4)
-p("TropicalPlant_Grass_01",263253,53202,177,4)
-p("TropicalPlant_Grass_03",263863,52298,156,4)
-p("TropicalPlant_Grass_03",265211,49977,177,4)
-p("TropicalPlant_02_Shrub",264299,50679,149,4)
-p("TropicalPlant_Grass_01",265277,50609,179,4)
-p("TropicalPlant_Grass_01",265608,50241,184,4)
-p("TropicalPlant_Grass_04",266191,50603,108,4)
-p("TropicalPlant_Grass_04",264514,52110,101,4)
-p("TropicalPlant_Grass_01",265578,52199,101,4)
-p("TropicalPlant_Grass_02",265266,52961,152,4)
-p("TropicalPlant_Grass_04",262637,53968,166,4)
-p("TropicalPlant_Grass_02",262187,54581,137,4)
-p("TropicalPlant_Grass_04",262438,54347,90,4)
-p("TropicalPlant_Grass_03",263140,54629,120,4)
-p("TropicalPlant_Grass_02",263587,53385,160,4)
-p("TropicalPlant_04_Shrub_01",264056,53724,199,4)
-p("TropicalPlant_Grass_02",264027,53779,166,4)
-p("TropicalPlant_Grass_04",263596,54620,174,4)
-p("TropicalPlant_Grass_02",262522,55811,124,4)
-p("TropicalPlant_Grass_01",262453,56857,124,4)
-p("TropicalPlant_Grass_03",262951,57082,119,4)
-p("TropicalPlant_Grass_01",263911,57154,188,4)
-p("TropicalPlant_Grass_03",264853,53949,188,4)
-p("TropicalPlant_Grass_04",264884,55080,128,4)
-p("TropicalPlant_Grass_02",265595,53706,138,4)
-p("TropicalPlant_Grass_04",264252,56276,150,4)
-p("TropicalPlant_Grass_04",265133,55920,157,4)
-p("TropicalPlant_01_Shrub",264684,57243,12,4)
-p("TropicalPlant_Grass_01",265344,57263,166,4)
-p("TropicalPlant_Grass_03",265999,56829,185,4)
+p("TropicalRockSharp_01",262187,49661,10397,14960,247,399,2959,2803,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_04_Shrub_01",266850,49391,15,4)
-p("TropicalPlant_Grass_02",266358,52982,126,4)
-p("TropicalPlant_Grass_04",266537,53308,101,4)
-p("TropicalPlant_Grass_04",266900,53768,135,4)
-p("TropicalPlant_Grass_03",266465,55350,178,4)
-p("TropicalPlant_Grass_03",266404,56074,119,4)
-p("TropicalPlant_Grass_02",267223,55312,88,4)
-p("TropicalPlant_Grass_01",267070,56261,90,4)
-p("TropicalPlant_Grass_03",266616,57228,99,4)
-p("TropicalPlant_01_Sapling",268861,53602,137,4)
-p("TropicalPlant_Grass_01",262287,57778,160,4)
-p("TropicalPlant_Grass_02",262685,57684,108,4)
-p("TropicalPlant_Grass_02",262356,59024,181,4)
-p("TropicalPlant_04_Shrub_01",263255,57575,174,4)
-p("TropicalPlant_Grass_04",263365,59372,144,4)
-p("TropicalPlant_Grass_03",263816,59032,173,4)
-p("TropicalPlant_Grass_04",262274,60193,155,4)
-p("TropicalPlant_Grass_03",262916,59739,94,4)
-p("TropicalPlant_Grass_02",262279,61061,149,4)
-p("TropicalPlant_Grass_02",262920,60868,144,4)
-p("TropicalPlant_Grass_03",263683,60406,146,4)
-p("TropicalPlant_Grass_02",264401,57655,88,4)
-p("TropicalPlant_Grass_01",264505,58037,121,4)
-p("TropicalPlant_04_Shrub_01",264478,58517,48,4)
-p("TropicalPlant_Grass_01",265708,57688,149,4)
-p("TropicalPlant_Grass_01",265392,59144,150,4)
-p("TropicalPlant_Grass_03",265563,58947,145,4)
-p("TropicalPlant_Grass_01",265063,60112,95,4)
-p("TropicalPlant_Grass_04",264257,60659,127,4)
-p("TropicalPlant_Grass_03",264910,60652,115,4)
-p("TropicalPlant_Grass_01",265621,59639,135,4)
-p("TropicalPlant_Grass_01",263035,61988,184,4)
-p("TropicalPlant_Grass_04",262457,62732,117,4)
-p("TropicalPlant_04_Shrub_02",263734,61941,89,4)
-p("TropicalPlant_Grass_03",263911,62093,86,4)
-p("TropicalPlant_Grass_03",263305,63472,127,4)
-p("TropicalPlant_Grass_04",262484,63884,184,4)
-p("TropicalPlant_Grass_03",263327,64483,155,4)
-p("TropicalPlant_Grass_03",263672,64470,124,4)
-p("TropicalPlant_Grass_04",263284,65068,173,4)
-p("TropicalPlant_Grass_01",264616,61963,185,4)
-p("TropicalPlant_Grass_03",264317,62603,157,4)
-p("TropicalPlant_Grass_04",264906,63484,99,4)
-p("TropicalPlant_Grass_01",265516,61485,188,4)
-p("TropicalPlant_Grass_03",265575,62121,178,4)
-p("TropicalPlant_04_Shrub_02",265958,62397,175,4)
-p("TropicalPlant_Grass_04",266112,63366,166,4)
-p("TropicalPlant_04_Shrub_01",264554,64244,186,4)
-p("TropicalPlant_Grass_04",264964,64236,132,4)
-p("TropicalPlant_Grass_01",264338,64930,175,4)
-p("TropicalPlant_Grass_03",264697,64631,135,4)
-p("TropicalPlant_04_Shrub_01",265409,64697,80,4)
-p("TropicalPlant_Grass_04",266167,64592,153,4)
-p("TropicalPlant_Grass_02",266625,58818,166,4)
-p("TropicalPlant_Grass_04",267328,57888,159,4)
-p("TropicalPlant_02_Shrub",268183,59082,61,4)
-p("TropicalPlant_Grass_04",266999,59948,130,4)
-p("TropicalPlant_Grass_01",266998,60603,112,4)
-p("TropicalPlant_04_Shrub_01",267582,60336,165,4)
-p("TropicalPlant_Grass_03",266822,62121,90,4)
-p("TropicalPlant_Grass_04",266668,63390,139,4)
-p("TropicalPlant_Grass_01",266265,63898,132,4)
-p("TropicalPlant_Grass_03",266530,63905,113,4)
-p("TropicalPlant_02_Shrub",269248,64823,22,4)
-p("TropicalPlant_02_Shrub",270965,50449,59,4)
-p("TropicalPlant_04_Shrub_02",270973,53325,177,4)
-p("TropicalPlant_04_Shrub_01",270369,54735,10,4)
+p("TropicalRockSharp_01",270299,54697,14990,15204,247,-399,2556,3176,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",264748,61784,11228,12957,247,540,1266,3857,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",271944,49444,15816,15204,247,-399,2556,3176,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",270511,51517,14479,12539,247,1041,907,3856,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_01_Shrub",276881,50346,163,4)
 p("TropicalPlant_04_Shrub_02",277300,50737,110,4)
 p("TropicalPlant_04_Shrub_01",278134,50066,140,4)
@@ -186396,12 +185252,8 @@ p("TropicalPlant_04_Shrub_01",276770,52061,102,4)
 p("TropicalPlant_04_Shrub_01",277989,52146,130,4)
 p("TropicalPlant_04_Shrub_02",278067,51570,114,4)
 p("TropicalPlant_04_Shrub_01",276324,56695,125,4)
-p("TropicalPlant_04_Shrub_01",271965,59948,162,4)
 p("TropicalPlant_01_Shrub",272841,58849,76,4)
-p("TropicalPlant_01_Sapling",272068,64442,102,4)
-p("TropicalPlant_04_Shrub_02",272833,64404,98,4)
 p("TropicalPlant_04_Shrub_02",275375,58585,152,4)
-p("TropicalPlant_04_Shrub_01",274981,63122,199,4)
 p("TropicalPlant_04_Shrub_01",278438,62199,186,4)
 p("TropicalPlant_04_Shrub_01",277807,63365,136,4)
 p("TropicalPlant_04_Shrub_02",278851,34708,49,4)
@@ -186536,58 +185388,11 @@ p("TropicalPlant_02_Shrub",301259,59886,10,4)
 p("TropicalPlant_04_Shrub_02",304841,52670,142,4)
 p("TropicalPlant_04_Shrub_01",304319,60549,149,4)
 p("TropicalPlant_02_Shrub",305209,61711,36,4)
-p("TropicalPlant_Grass_02",262283,66312,145,4)
-p("TropicalPlant_Grass_04",262956,66417,179,4)
-p("TropicalPlant_Grass_02",262593,67178,182,4)
-p("TropicalPlant_Grass_02",263144,67515,132,4)
-p("TropicalPlant_Grass_04",263615,65832,159,4)
-p("TropicalPlant_04_Shrub_01",262470,67592,85,4)
-p("TropicalPlant_Grass_03",262601,68791,145,4)
-p("TropicalPlant_04_Shrub_02",262468,69201,92,4)
-p("TropicalPlant_Grass_02",263930,68367,171,4)
-p("TropicalPlant_Grass_02",264471,66545,138,4)
-p("TropicalPlant_Grass_01",264786,66317,90,4)
-p("TropicalPlant_Grass_03",265016,67399,98,4)
-p("TropicalPlant_Grass_02",265765,66387,182,4)
-p("TropicalPlant_Grass_01",265699,66836,173,4)
-p("TropicalPlant_Grass_01",264855,67723,153,4)
-p("TropicalPlant_Grass_01",264432,68901,179,4)
-p("TropicalPlant_Grass_02",262342,70003,130,4)
-p("TropicalPlant_04_Shrub_01",262754,70145,38,4)
-p("TropicalPlant_Grass_02",262849,70602,175,4)
-p("TropicalPlant_Grass_03",262364,71601,144,4)
-p("TropicalPlant_Grass_01",263312,70400,159,4)
-p("TropicalPlant_Grass_01",264043,69687,178,4)
-p("TropicalPlant_04_Shrub_01",262772,72284,186,4)
-p("TropicalPlant_04_Shrub_01",263380,72370,68,4)
-p("TropicalPlant_04_Shrub_02",265092,72977,21,4)
-p("TropicalPlant_04_Shrub_02",265357,72261,10,4)
-p("TropicalPlant_04_Shrub_01",268120,67993,194,4)
-p("TropicalPlant_02_Shrub",269243,68922,15,4)
-p("TropicalPlant_04_Shrub_02",267347,71779,23,4)
-p("TropicalPlant_04_Shrub_02",262410,74207,63,4)
-p("TropicalPlant_04_Shrub_02",263526,75393,189,4)
-p("TropicalPlant_04_Shrub_01",262361,76456,102,4)
-p("TropicalPlant_04_Shrub_01",262717,77714,19,4)
-p("TropicalPlant_04_Shrub_02",263693,77001,71,4)
-p("TropicalPlant_04_Shrub_02",264193,74000,50,4)
-p("TropicalPlant_04_Shrub_01",265727,74805,125,4)
-p("TropicalPlant_01_Sapling",262546,78921,186,4)
-p("TropicalPlant_04_Shrub_01",262232,79486,128,4)
-p("TropicalPlant_04_Shrub_01",263693,78754,170,4)
-p("TropicalPlant_04_Shrub_02",264043,81270,62,4)
-p("TropicalPlant_04_Shrub_01",264392,80127,121,4)
-p("TropicalPlant_04_Shrub_02",267755,76825,59,4)
-p("TropicalPlant_04_Shrub_02",267726,81618,87,4)
-p("TropicalPlant_04_Shrub_02",269120,80651,15,4)
-p("TropicalPlant_04_Shrub_01",272611,69495,142,4)
-p("TropicalPlant_04_Shrub_02",273647,70859,126,4)
-p("TropicalPlant_04_Shrub_01",276805,68523,42,4)
+p("TropicalRockSharp_01",270137,74961,11380,2010,247,-79,-2971,2819,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_01_Shrub",278374,68715,63,4)
 p("TropicalPlant_04_Shrub_01",275600,73462,102,4)
 p("TropicalPlant_04_Shrub_02",274414,74649,185,4)
 p("TropicalPlant_04_Shrub_02",272673,77695,189,4)
-p("TropicalPlant_04_Shrub_01",270848,78890,38,4)
 p("TropicalPlant_04_Shrub_02",271789,81148,101,4)
 p("TropicalPlant_04_Shrub_02",273799,78478,93,4)
 p("TropicalPlant_04_Shrub_02",274155,79760,168,4)
@@ -186604,189 +185409,17 @@ p("TropicalPlant_04_Shrub_02",275483,81338,197,4)
 p("TropicalPlant_02_Shrub",276140,81573,133,4)
 p("TropicalPlant_04_Shrub_02",276568,77859,112,4)
 p("TropicalPlant_04_Shrub_01",276498,79630,62,4)
-p("TropicalPlant_04_Shrub_01",262184,82168,174,4)
-p("TropicalPlant_Grass_04",262544,83346,164,4)
-p("TropicalPlant_04_Shrub_02",262252,83766,146,4)
-p("TropicalPlant_Grass_02",262879,83718,134,4)
-p("TropicalPlant_04_Shrub_02",263420,83889,199,4)
-p("TropicalPlant_Grass_02",263918,83153,149,4)
-p("TropicalPlant_Grass_04",263913,83512,168,4)
-p("TropicalPlant_04_Shrub_02",262839,85126,132,4)
-p("TropicalPlant_04_Shrub_01",262788,85854,114,4)
-p("TropicalPlant_Grass_02",263364,84908,178,4)
-p("TropicalPlant_04_Shrub_02",263686,84318,189,4)
-p("TropicalPlant_Grass_03",263952,85126,170,4)
-p("TropicalPlant_Grass_02",264707,83121,149,4)
-p("TropicalPlant_04_Shrub_01",266195,83498,30,4)
-p("TropicalPlant_Grass_02",264806,84450,115,4)
-p("TropicalPlant_Grass_01",264704,84986,87,4)
-p("TropicalPlant_04_Shrub_01",265212,84498,156,4)
-p("TropicalPlant_04_Shrub_02",264216,85781,28,4)
-p("TropicalPlant_04_Shrub_02",262765,88062,75,4)
-p("TropicalPlant_Grass_03",263230,86234,105,4)
-p("TropicalPlant_Grass_01",263473,86941,101,4)
-p("TropicalPlant_Grass_04",264097,86329,163,4)
-p("TropicalPlant_Grass_01",264069,86826,87,4)
-p("TropicalPlant_04_Shrub_01",263739,87808,145,4)
-p("TropicalPlant_Grass_01",264011,87987,94,4)
-p("TropicalPlant_Grass_02",262774,88639,150,4)
-p("TropicalPlant_Grass_03",263463,88147,153,4)
-p("TropicalPlant_04_Shrub_02",264124,88902,12,4)
-p("TropicalPlant_Grass_02",263270,89657,186,4)
-p("TropicalPlant_Grass_04",264123,89689,131,4)
-p("TropicalPlant_Grass_02",264752,87298,155,4)
-p("TropicalPlant_Grass_02",265250,86356,105,4)
-p("TropicalPlant_Grass_02",266085,86261,131,4)
-p("TropicalPlant_Grass_01",265742,86994,174,4)
-p("TropicalPlant_04_Shrub_01",265898,86798,148,4)
-p("TropicalPlant_Grass_03",265497,88033,177,4)
-p("TropicalPlant_Grass_01",264475,89046,105,4)
-p("TropicalPlant_04_Shrub_02",265102,88678,10,4)
-p("TropicalPlant_Grass_03",264731,90027,126,4)
-p("TropicalPlant_Grass_01",265332,89068,179,4)
-p("TropicalPlant_Grass_03",266213,88068,99,4)
-p("TropicalPlant_04_Shrub_02",265705,89183,168,4)
-p("TropicalPlant_Grass_01",265997,89996,88,4)
-p("TropicalPlant_04_Shrub_02",266802,83402,17,4)
-p("TropicalPlant_04_Shrub_01",266809,84516,51,4)
-p("TropicalPlant_Grass_01",267260,84652,185,4)
-p("TropicalPlant_Grass_01",266439,85123,123,4)
-p("TropicalPlant_Grass_01",267566,85222,166,4)
-p("TropicalPlant_Grass_03",268788,85394,123,4)
-p("TropicalPlant_Grass_04",268727,85688,150,4)
-p("TropicalPlant_04_Shrub_02",269106,85195,190,4)
-p("TropicalPlant_Grass_04",269565,85161,139,4)
-p("TropicalPlant_04_Shrub_02",266596,86686,117,4)
-p("TropicalPlant_Grass_02",266849,86454,108,4)
-p("TropicalPlant_Grass_04",267183,87445,105,4)
-p("TropicalPlant_Grass_01",268146,86261,86,4)
-p("TropicalPlant_04_Shrub_02",267458,87637,21,4)
-p("TropicalPlant_Grass_04",266979,88146,98,4)
-p("TropicalPlant_Grass_04",266305,89431,94,4)
-p("TropicalPlant_Grass_04",267040,89180,145,4)
-p("TropicalPlant_Grass_01",267617,88312,185,4)
-p("TropicalPlant_Grass_04",267970,88855,139,4)
-p("TropicalPlant_Grass_02",268474,87233,189,4)
-p("TropicalPlant_Grass_02",269153,87131,164,4)
-p("TropicalPlant_04_Shrub_01",269290,87642,199,4)
-p("TropicalPlant_Grass_02",269607,86313,144,4)
-p("TropicalPlant_04_Shrub_01",269400,86605,185,4)
-p("TropicalPlant_Grass_01",269894,87332,101,4)
-p("TropicalPlant_04_Shrub_02",270260,87323,54,4)
-p("TropicalPlant_02_Shrub",268320,88314,173,4)
-p("TropicalPlant_Grass_04",269222,88136,157,4)
-p("TropicalPlant_Grass_02",268796,89337,91,4)
-p("TropicalPlant_Grass_02",268642,89863,166,4)
-p("TropicalPlant_Grass_03",269741,89972,175,4)
-p("TropicalPlant_Grass_01",262196,90122,99,4)
-p("TropicalPlant_Grass_02",263104,90316,138,4)
-p("TropicalPlant_Grass_01",263080,91405,163,4)
-p("TropicalPlant_Grass_04",262961,91783,134,4)
-p("TropicalPlant_01_Sapling",264099,90680,86,4)
-p("TropicalPlant_Grass_03",262631,93101,145,4)
-p("TropicalPlant_Grass_04",263987,93016,98,4)
-p("TropicalPlant_Grass_02",263907,93610,157,4)
-p("TropicalPlant_Grass_02",264331,90508,134,4)
-p("TropicalPlant_Grass_01",264995,90917,131,4)
-p("TropicalPlant_Grass_03",264372,91640,132,4)
-p("TropicalPlant_Grass_02",264479,91230,150,4)
-p("TropicalPlant_Grass_03",264679,91233,121,4)
-p("TropicalPlant_Grass_02",264884,92093,130,4)
-p("TropicalPlant_04_Shrub_02",265339,91621,66,4)
-p("TropicalPlant_Grass_04",265541,91389,108,4)
-p("TropicalPlant_Grass_03",265003,93074,157,4)
-p("TropicalPlant_Grass_04",264896,94146,160,4)
-p("TropicalPlant_Grass_02",265582,93209,87,4)
-p("TropicalPlant_Grass_02",265688,93572,181,4)
-p("TropicalPlant_Grass_03",262599,94327,86,4)
-p("TropicalPlant_Grass_04",262225,95608,121,4)
-p("TropicalPlant_Grass_01",262645,95479,161,4)
-p("TropicalPlant_Grass_03",263056,95923,163,4)
-p("TropicalPlant_Grass_02",264189,94603,106,4)
-p("TropicalPlant_Grass_04",264150,96249,175,4)
-p("TropicalPlant_Grass_03",262433,97130,149,4)
-p("TropicalPlant_Grass_02",262159,97785,90,4)
-p("TropicalPlant_Grass_02",262583,98255,148,4)
-p("TropicalPlant_Grass_04",262800,97401,149,4)
-p("TropicalPlant_Grass_03",263808,96682,141,4)
-p("TropicalPlant_Grass_04",264602,94580,139,4)
-p("TropicalPlant_Grass_03",265120,95841,155,4)
-p("TropicalPlant_04_Shrub_02",265748,94497,173,4)
-p("TropicalPlant_Grass_04",265927,94764,126,4)
-p("TropicalPlant_Grass_02",265788,95607,110,4)
-p("TropicalPlant_Grass_01",264547,96996,188,4)
-p("TropicalPlant_Grass_02",264491,97764,101,4)
-p("TropicalPlant_02_Shrub",264933,97747,36,4)
-p("TropicalPlant_Grass_04",265188,97688,123,4)
-p("TropicalPlant_04_Shrub_02",265456,98292,112,4)
-p("TropicalPlant_Grass_04",265504,97935,174,4)
-p("TropicalPlant_Grass_03",266593,90455,179,4)
-p("TropicalPlant_Grass_03",266790,90682,102,4)
-p("TropicalPlant_Grass_03",267506,90254,91,4)
+p("TropicalRockSharp_01",266818,85045,10765,1948,247,1553,-1631,3421,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",264331,97498,8231,4230,247,1930,-2502,2606,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_01",267757,91910,163,4)
-p("TropicalPlant_Grass_04",266535,93359,94,4)
-p("TropicalPlant_01_Shrub",266597,93715,53,4)
-p("TropicalPlant_Grass_01",266960,94008,164,4)
-p("TropicalPlant_Grass_02",267458,92176,148,4)
-p("TropicalPlant_Grass_04",267299,92812,137,4)
-p("TropicalPlant_Grass_02",267785,93256,99,4)
-p("TropicalPlant_Grass_03",269067,90908,163,4)
 p("TropicalPlant_Grass_03",268473,91299,156,4)
-p("TropicalPlant_04_Shrub_01",269060,91849,195,4)
-p("TropicalPlant_Grass_03",269199,92022,156,4)
-p("TropicalPlant_Grass_03",269939,90977,102,4)
-p("TropicalPlant_Grass_04",269549,91709,139,4)
-p("TropicalPlant_Grass_03",268685,93998,120,4)
-p("TropicalPlant_Grass_01",269396,92553,132,4)
-p("TropicalPlant_Grass_02",269606,92668,110,4)
-p("TropicalPlant_Grass_02",266767,94306,181,4)
-p("TropicalPlant_Grass_04",266664,95392,115,4)
-p("TropicalPlant_Grass_04",267027,95904,139,4)
-p("TropicalPlant_Grass_04",267823,94259,109,4)
-p("TropicalPlant_Grass_03",268070,95284,131,4)
-p("TropicalPlant_04_Shrub_01",268242,95472,18,4)
-p("TropicalPlant_Grass_03",268171,96078,131,4)
-p("TropicalPlant_Grass_04",266417,97039,95,4)
-p("TropicalPlant_Grass_03",266770,97087,184,4)
-p("TropicalPlant_Grass_04",266926,98181,188,4)
-p("TropicalPlant_Grass_03",267911,96678,144,4)
-p("TropicalPlant_Grass_02",267376,97718,161,4)
-p("TropicalPlant_Grass_02",267745,98134,105,4)
-p("TropicalPlant_Grass_04",268530,96012,91,4)
-p("TropicalPlant_Grass_04",269194,95282,142,4)
-p("TropicalPlant_Grass_02",269718,94257,185,4)
-p("TropicalPlant_Grass_03",270323,95497,179,4)
-p("TropicalPlant_Grass_01",269170,97948,94,4)
-p("TropicalPlant_Grass_02",269490,96940,150,4)
-p("TropicalPlant_Grass_03",270063,96545,109,4)
-p("TropicalPlant_04_Shrub_01",270847,83730,45,4)
 p("TropicalPlant_04_Shrub_01",271998,83180,92,4)
-p("TropicalPlant_04_Shrub_01",270791,85214,33,4)
-p("TropicalPlant_Grass_04",270686,85451,150,4)
-p("TropicalPlant_Grass_02",271609,85801,166,4)
-p("TropicalPlant_04_Shrub_02",271822,85985,133,4)
-p("TropicalPlant_04_Shrub_02",272018,85113,131,4)
 p("TropicalPlant_04_Shrub_01",273652,83439,84,4)
 p("TropicalPlant_04_Shrub_02",272962,84506,157,4)
 p("TropicalPlant_Grass_03",272735,85739,160,4)
-p("TropicalPlant_04_Shrub_01",270460,86388,30,4)
-p("TropicalPlant_Grass_02",270832,86339,139,4)
-p("TropicalPlant_Grass_01",270669,87331,102,4)
-p("TropicalPlant_Grass_03",271627,87289,86,4)
-p("TropicalPlant_Grass_01",270461,88488,164,4)
-p("TropicalPlant_Grass_01",270563,88895,166,4)
-p("TropicalPlant_Grass_04",270484,89406,150,4)
-p("TropicalPlant_Grass_02",271437,88352,102,4)
-p("TropicalPlant_Grass_01",271709,88143,152,4)
-p("TropicalPlant_Grass_02",272081,89447,164,4)
-p("TropicalPlant_Grass_03",272007,89588,141,4)
 p("TropicalPlant_Grass_01",273292,86582,131,4)
-p("TropicalPlant_02_Shrub",273492,87472,140,4)
+p("TropicalRockSharp_01",272847,87798,7643,19358,247,2459,2402,2226,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_01",274136,87373,113,4)
-p("TropicalPlant_Grass_01",272701,89009,91,4)
-p("TropicalPlant_04_Shrub_01",272793,88973,116,4)
-p("TropicalPlant_Grass_02",273237,88360,87,4)
-p("TropicalPlant_Grass_04",273089,89978,94,4)
 p("TropicalPlant_Grass_03",274002,88480,86,4)
 p("TropicalPlant_Grass_02",273899,89301,131,4)
 p("TropicalPlant_Grass_02",273700,89987,117,4)
@@ -186806,76 +185439,12 @@ p("TropicalPlant_04_Shrub_02",276683,89738,64,4)
 p("TropicalPlant_Grass_03",277220,90090,95,4)
 p("TropicalPlant_Grass_04",277629,89399,87,4)
 p("TropicalPlant_Grass_02",278358,90075,127,4)
-p("TropicalPlant_Grass_04",270876,90184,106,4)
-p("TropicalPlant_Grass_04",270782,91340,117,4)
-p("TropicalPlant_Grass_02",272227,91878,164,4)
-p("TropicalPlant_Grass_03",270850,92214,173,4)
-p("TropicalPlant_Grass_04",271340,93227,121,4)
-p("TropicalPlant_Grass_02",272322,92811,113,4)
-p("TropicalPlant_Grass_04",271381,93844,135,4)
-p("TropicalPlant_Grass_01",272029,93556,120,4)
-p("TropicalPlant_Grass_02",272431,90864,182,4)
-p("TropicalPlant_Grass_04",272668,91371,181,4)
-p("TropicalPlant_04_Shrub_02",273190,91497,10,4)
-p("TropicalPlant_Grass_04",273760,90788,159,4)
-p("TropicalPlant_Grass_03",272829,92529,160,4)
-p("TropicalPlant_Grass_03",272976,92240,150,4)
-p("TropicalPlant_Grass_03",272616,93605,123,4)
-p("TropicalPlant_Grass_01",273840,92307,104,4)
-p("TropicalPlant_Grass_02",274051,92888,160,4)
-p("TropicalPlant_Grass_04",273519,93862,124,4)
-p("TropicalPlant_Grass_04",270905,94572,113,4)
-p("TropicalPlant_Grass_02",270474,95729,177,4)
-p("TropicalPlant_Grass_02",270545,95752,117,4)
-p("TropicalPlant_Grass_03",271668,95075,189,4)
-p("TropicalPlant_Grass_01",270909,96759,86,4)
-p("TropicalPlant_Grass_04",270513,98113,119,4)
-p("TropicalPlant_Grass_03",271707,96763,108,4)
-p("TropicalPlant_Grass_03",271801,97807,91,4)
-p("TropicalPlant_01_Sapling",272490,94758,155,4)
-p("TropicalPlant_Grass_03",272909,94884,161,4)
-p("TropicalPlant_Grass_01",272628,95873,135,4)
-p("TropicalPlant_Grass_03",274006,94927,185,4)
-p("TropicalPlant_Grass_01",273998,96019,145,4)
-p("TropicalPlant_Grass_02",272444,96495,139,4)
-p("TropicalPlant_04_Shrub_01",273301,96572,25,4)
-p("TropicalPlant_Grass_03",272950,96939,86,4)
-p("TropicalPlant_Grass_02",273969,97198,90,4)
-p("TropicalPlant_Grass_03",274741,91112,157,4)
-p("TropicalPlant_04_Shrub_02",274877,91976,86,4)
-p("TropicalPlant_Grass_04",274849,92154,159,4)
 p("TropicalPlant_Grass_02",275973,90391,171,4)
 p("TropicalPlant_Grass_02",276435,90726,159,4)
-p("TropicalPlant_Grass_03",274929,93431,138,4)
-p("TropicalPlant_Grass_02",275198,94053,163,4)
-p("TropicalPlant_Grass_03",275596,92310,156,4)
-p("TropicalPlant_Grass_03",275723,93219,186,4)
 p("TropicalPlant_Grass_02",277303,91441,146,4)
 p("TropicalPlant_Grass_03",277456,91923,145,4)
 p("TropicalPlant_Grass_03",277587,91377,149,4)
-p("TropicalPlant_Grass_02",277381,92533,117,4)
-p("TropicalPlant_Grass_01",277596,92668,161,4)
 p("TropicalPlant_Grass_02",277777,92302,160,4)
-p("TropicalPlant_Grass_04",278284,93771,95,4)
-p("TropicalPlant_Grass_02",274777,96131,155,4)
-p("TropicalPlant_Grass_02",275436,95339,112,4)
-p("TropicalPlant_Grass_02",275729,94946,101,4)
-p("TropicalPlant_Grass_03",276343,94302,135,4)
-p("TropicalPlant_Grass_01",275936,95529,102,4)
-p("TropicalPlant_Grass_01",274509,97442,144,4)
-p("TropicalPlant_Grass_02",274913,97545,138,4)
-p("TropicalPlant_Grass_03",274440,97967,145,4)
-p("TropicalPlant_Grass_04",276434,97181,86,4)
-p("TropicalPlant_Grass_01",276426,98077,98,4)
-p("TropicalPlant_Grass_02",276859,94465,137,4)
-p("TropicalPlant_Grass_01",276903,94956,119,4)
-p("TropicalPlant_02_Shrub",277117,94648,132,4)
-p("TropicalPlant_04_Shrub_01",276547,95745,10,4)
-p("TropicalPlant_Grass_02",278250,94527,163,4)
-p("TropicalPlant_Grass_03",277883,95865,152,4)
-p("TropicalPlant_Grass_04",276922,97214,141,4)
-p("TropicalPlant_Grass_03",277377,96337,177,4)
-p("TropicalPlant_Grass_04",278352,96983,175,4)
 p("TropicalPlant_01_Shrub",280435,66740,197,4)
 p("TropicalPlant_04_Shrub_02",280426,71968,132,4)
 p("TropicalPlant_01_Sapling",280776,70570,58,4)
@@ -186930,13 +185499,8 @@ p("TropicalPlant_01_Sapling",285234,88391,132,4)
 p("TropicalPlant_Grass_02",278724,90602,157,4)
 p("TropicalPlant_Grass_02",278718,91846,106,4)
 p("TropicalPlant_Grass_04",278915,93197,94,4)
-p("TropicalPlant_Grass_02",278800,93692,109,4)
 p("TropicalPlant_Grass_01",279792,92444,135,4)
 p("TropicalPlant_04_Shrub_02",280235,93516,172,4)
-p("TropicalPlant_Grass_01",278860,95098,131,4)
-p("TropicalPlant_Grass_04",279394,95906,139,4)
-p("TropicalPlant_Grass_03",279673,94341,174,4)
-p("TropicalPlant_Grass_01",278783,97361,167,4)
 p("TropicalPlant_04_Shrub_02",281359,95732,18,4)
 p("TropicalPlant_04_Shrub_02",284085,91238,71,4)
 p("TropicalPlant_01_Sapling",283949,94442,17,4)
@@ -186964,60 +185528,20 @@ p("TropicalPlant_01_Shrub",289659,94655,51,4)
 p("TropicalPlant_01_Sapling",291832,95253,88,4)
 p("TropicalPlant_04_Shrub_01",292876,94779,94,4)
 p("TropicalPlant_04_Shrub_02",294810,96371,182,4)
-p("TropicalPlant_Grass_03",262709,98647,189,4)
-p("TropicalPlant_Grass_02",262418,99407,137,4)
-p("TropicalPlant_Grass_04",263838,99322,128,4)
-p("TropicalPlant_Grass_03",263225,99832,128,4)
-p("TropicalPlant_Grass_02",263788,99686,97,4)
-p("TropicalPlant_Grass_04",263075,101076,130,4)
-p("TropicalPlant_Grass_03",262889,101929,106,4)
-p("TropicalPlant_Grass_03",264068,101341,108,4)
-p("TropicalPlant_Grass_01",263550,101782,188,4)
-p("TropicalPlant_Grass_02",264640,98837,108,4)
-p("TropicalPlant_Grass_01",265218,100198,177,4)
-p("TropicalPlant_Grass_01",265970,99856,92,4)
-p("TropicalPlant_Grass_02",264784,101252,150,4)
-p("TropicalPlant_Grass_01",265544,101437,128,4)
-p("TropicalPlant_Grass_02",262464,102423,121,4)
-p("TropicalPlant_Grass_01",262729,102507,134,4)
-p("TropicalPlant_Grass_03",262457,103762,157,4)
-p("TropicalPlant_Grass_01",263119,103442,131,4)
-p("TropicalPlant_04_Shrub_02",263620,102551,10,4)
-p("TropicalPlant_02_Shrub",263292,103609,97,4)
-p("TropicalPlant_Grass_01",263402,104285,130,4)
-p("TropicalPlant_Grass_04",263558,104444,164,4)
 p("TropicalPlant_Grass_03",263158,105139,112,4)
 p("TropicalPlant_Grass_04",262814,105561,149,4)
-p("TropicalPlant_Grass_03",263893,104600,150,4)
 p("TropicalPlant_Grass_02",263998,106085,105,4)
-p("TropicalPlant_Grass_04",264614,102656,144,4)
-p("TropicalPlant_Grass_03",264384,103077,152,4)
-p("TropicalPlant_Grass_02",264500,104083,184,4)
-p("TropicalPlant_Grass_03",265833,102598,112,4)
 p("TropicalPlant_Grass_02",264654,105163,109,4)
 p("TropicalPlant_Grass_03",264591,106139,115,4)
 p("TropicalPlant_Grass_02",266138,104567,153,4)
 p("TropicalPlant_Grass_01",266201,105658,144,4)
-p("TropicalPlant_Grass_02",266276,99000,138,4)
-p("TropicalPlant_Grass_02",266744,98816,115,4)
-p("TropicalPlant_Grass_03",267274,98668,171,4)
-p("TropicalPlant_Grass_01",267857,99044,97,4)
-p("TropicalPlant_Grass_02",267797,100066,86,4)
-p("TropicalPlant_Grass_02",266702,100352,139,4)
 p("TropicalPlant_Grass_04",266417,101564,123,4)
 p("TropicalPlant_Grass_01",266529,102203,171,4)
 p("TropicalPlant_Grass_01",267168,101482,95,4)
 p("TropicalPlant_Grass_02",267693,102126,159,4)
-p("TropicalPlant_Grass_04",269157,98539,101,4)
-p("TropicalPlant_Grass_01",269578,98552,188,4)
-p("TropicalPlant_04_Shrub_01",269673,99026,190,4)
-p("TropicalPlant_Grass_03",270095,98483,88,4)
-p("TropicalPlant_Grass_02",269747,99603,160,4)
-p("TropicalPlant_Grass_01",269463,100055,108,4)
 p("TropicalPlant_Grass_03",268314,101209,145,4)
 p("TropicalPlant_Grass_04",268519,101343,131,4)
 p("TropicalPlant_Grass_01",268758,101957,167,4)
-p("TropicalPlant_Grass_01",270134,100753,188,4)
 p("TropicalPlant_Grass_02",266550,102573,108,4)
 p("TropicalPlant_Grass_01",266710,103716,86,4)
 p("TropicalPlant_Grass_04",266303,104061,145,4)
@@ -187109,23 +185633,11 @@ p("TropicalPlant_Grass_03",269303,114326,116,4)
 p("TropicalPlant_Grass_03",269822,113262,146,4)
 p("TropicalPlant_Grass_01",270210,114114,134,4)
 p("TropicalPlant_Grass_01",269892,114631,90,4)
-p("TropicalPlant_Grass_02",271219,98859,134,4)
-p("TropicalPlant_04_Shrub_02",270748,99394,93,4)
-p("TropicalPlant_Grass_02",270679,100200,126,4)
-p("TropicalPlant_02_Shrub",271858,99131,10,4)
-p("TropicalPlant_Grass_03",272017,99178,155,4)
-p("TropicalPlant_Grass_04",271628,99771,166,4)
-p("TropicalPlant_Grass_02",270948,100981,181,4)
 p("TropicalPlant_Grass_01",270937,101627,120,4)
 p("TropicalPlant_Grass_03",272175,101159,104,4)
 p("TropicalPlant_Grass_03",272366,101970,131,4)
-p("TropicalPlant_Grass_01",272943,98391,134,4)
-p("TropicalPlant_Grass_02",273234,98706,138,4)
-p("TropicalPlant_Grass_04",272838,99617,91,4)
-p("TropicalPlant_Grass_04",273755,100179,132,4)
 p("TropicalPlant_Grass_01",272791,101415,174,4)
 p("TropicalPlant_Grass_01",272751,101721,181,4)
-p("TropicalPlant_Grass_01",274128,100689,86,4)
 p("TropicalPlant_Grass_01",273939,101656,189,4)
 p("TropicalPlant_Grass_02",271298,104698,173,4)
 p("TropicalPlant_Grass_01",270420,105751,138,4)
@@ -187134,21 +185646,9 @@ p("TropicalPlant_Grass_03",271555,105390,116,4)
 p("TropicalPlant_04_Shrub_01",272865,105357,48,4)
 p("TropicalPlant_Grass_04",272446,106425,163,4)
 p("TropicalPlant_Grass_04",273243,106426,161,4)
-p("TropicalPlant_Grass_01",274436,98572,175,4)
-p("TropicalPlant_01_Shrub",275279,98673,198,4)
-p("TropicalPlant_Grass_03",275025,98930,184,4)
-p("TropicalPlant_Grass_04",275203,99919,98,4)
-p("TropicalPlant_Grass_03",275594,98501,181,4)
-p("TropicalPlant_Grass_01",275508,99838,173,4)
 p("TropicalPlant_Grass_03",274630,101440,130,4)
 p("TropicalPlant_04_Shrub_01",275638,100692,79,4)
 p("TropicalPlant_Grass_03",276174,100595,139,4)
-p("TropicalPlant_Grass_01",276800,99056,131,4)
-p("TropicalPlant_Grass_03",277490,98494,124,4)
-p("TropicalPlant_Grass_03",277957,98416,185,4)
-p("TropicalPlant_Grass_03",277828,99190,95,4)
-p("TropicalPlant_Grass_02",277532,99605,173,4)
-p("TropicalPlant_Grass_03",276520,100363,182,4)
 p("TropicalPlant_01_Sapling",275958,104550,28,4)
 p("TropicalPlant_04_Shrub_01",277082,102916,125,4)
 p("TropicalPlant_Grass_01",271323,107207,127,4)

@@ -25063,7 +25063,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "JAZZ_AMMO_50BMG_Basic",
-	'target_dist', 114000,
+	'target_dist', 91200,
 }, nil, 1643686684)
 PlaceObj('BunkerInterior_PropSet_02', {
 	'ColorizationPalette', "",
@@ -27651,7 +27651,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "JAZZ_AMMO_50BMG_Basic",
-	'target_dist', 114000,
+	'target_dist', 91200,
 }, nil, 1115602360)
 PlaceObj('TropicalPlant_04_Tree_02', {
 	'Pos', point(179365, 189014, 18664),

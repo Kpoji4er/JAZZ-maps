@@ -119,9 +119,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -141,9 +155,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -167,9 +195,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -189,9 +231,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -211,9 +267,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -255,11 +325,11 @@ PlaceObj('UnitMarker', {
 	},
 	'Routine', "AdvanceTo",
 	'RoutineArea', "AL_Defender",
-	'Appearance', "Legion_Recon03",
+	'Appearance', "LegionScout_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1449400144)
@@ -275,9 +345,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -297,9 +381,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -319,9 +417,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -358,9 +470,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -380,9 +506,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -402,9 +542,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -424,9 +578,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -460,11 +628,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "LegionGoon_alt_3",
+	'Appearance', "LegionRaider_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1382787616)
@@ -495,11 +663,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "LegionGoon_alt_3",
+	'Appearance', "Legion_Soldier",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1175927232)
@@ -525,11 +693,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "Legion_WitchDoctor03",
+	'Appearance', "LegionMedic_Stronger_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionMedic",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Bonemaker",
 		}),
 	},
 }, nil, 1203365581)
@@ -564,11 +732,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "Legion_Heavy",
+	'Appearance', "LegionGunner",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGunner",
+			'UnitDataDefId', "JAZZ_Legion_GunnerT1_Gunner",
 		}),
 	},
 }, nil, 1303356137)
@@ -593,11 +761,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "LegionGoon_alt_3",
+	'Appearance', "LegionSharpShooter",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1647390515)
@@ -608,18 +776,24 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
+	'ArchetypesTriState', set( "Commander" ),
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
-	'Despawn_Conditions', {},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerControlSectors', {
+			Amount = 5,
+		}),
+	},
 	'Appearance', "Commander_Rebels",
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelSergant",
+			'UnitDataDefId', "RebelSergant_Immortal_M1",
 		}),
 	},
 }, nil, 1868573068)
@@ -630,9 +804,23 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('UnitIsAroundMarkerOfGroup', {
+					MarkerGroup = "Rebels_Position_M1",
+					TargetUnit = "Helping_Rebels",
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "Given", "M1_Captured" ),
+				}),
+			},
+		}),
+	},
 	'TriggerEffects', {},
-	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Position_M1",
 	'Spawn_Conditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -672,11 +860,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "LegionGoon_alt_3",
+	'Appearance', "LegionSharpShooter_alt_1",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1848531296)
@@ -702,11 +890,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "LegionGoon_alt",
+	'Appearance', "LegionRaider_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1066578729)
@@ -738,7 +926,7 @@ PlaceObj('UnitMarker', {
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1472596788)
@@ -769,11 +957,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "Legion_WitchDoctor03",
+	'Appearance', "LegionMedic_Stronger_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionMedic",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Bonemaker",
 		}),
 	},
 }, nil, 1649010080)
@@ -804,11 +992,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "Legion_Shaman",
+	'Appearance', "LegionRaidLeader_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaidLeader_Stronger",
+			'UnitDataDefId', "JAZZ_Legion_LeaderT1_Sergeant",
 			'Name', T(402486817779, "Рафаль"),
 		}),
 	},
@@ -854,11 +1042,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "Legion_Soldier04",
+	'Appearance', "LegionRaider_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1349893005)
@@ -883,11 +1071,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "Legion_Recon",
+	'Appearance', "LegionRaider_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1311673762)
@@ -913,11 +1101,11 @@ PlaceObj('UnitMarker', {
 	'Routine', "AdvanceTo",
 	'RoutineArea', "AL_Defender",
 	'Suspicious', true,
-	'Appearance', "LegionGoon_alt",
+	'Appearance', "Legion_Marksman02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1757522979)
@@ -955,11 +1143,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "Legion_Recon02",
+	'Appearance', "LegionScout_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionScout",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1537374737)
@@ -984,11 +1172,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "Legion_Recon",
+	'Appearance', "Legion_Soldier03",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1376865327)
@@ -1013,11 +1201,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "Legion_Recon",
+	'Appearance', "LegionRaider_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1110500275)
@@ -1064,11 +1252,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "Legion_Demolishion",
+	'Appearance', "Legion_Demolishion03",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGrenadier",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
 		}),
 	},
 }, nil, 1720820812)
@@ -1097,6 +1285,17 @@ PlaceObj('GridMarker', {
 	'Reachable', false,
 	'GroundVisuals', true,
 }, nil, 1834157092)
+PlaceObj('GridMarker', {
+	'Pos', point(153000, 150600, 6300),
+	'Groups', {
+		"Rebels_Position_M1",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Logic",
+	'ID', "Rebels_Position_M1_Grid",
+	'AreaWidth', 15,
+	'AreaHeight', 25,
+}, nil, 1794553920)
 PlaceObj('GridMarker', {
 	'Pos', point(154200, 160200),
 	'Groups', {
@@ -1129,11 +1328,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "LegionGoon_alt",
+	'Appearance', "LegionRaider_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1562869354)
@@ -1169,11 +1368,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "Legion_WitchDoctor03",
+	'Appearance', "LegionMedic_Stronger",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionMedic",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Bonemaker",
 		}),
 	},
 }, nil, 1064029694)
@@ -1209,11 +1408,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "LegionSharpShooter_alt",
+	'Appearance', "LegionSharpShooter",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1409141480)
@@ -1239,11 +1438,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "LegionSharpShooter_alt",
+	'Appearance', "LegionSharpShooter",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1329537883)
@@ -1268,11 +1467,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "LegionGoon_alt_2",
+	'Appearance', "LegionManiac",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
 		}),
 	},
 }, nil, 1392157727)
@@ -1307,11 +1506,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "LegionRaider_alt_2",
+	'Appearance', "Legion_Recon",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionRaider",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1194912357)
@@ -1336,11 +1535,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "LegionButcher",
+	'Appearance', "LegionManiac",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
 		}),
 	},
 }, nil, 1404059728)
@@ -1371,11 +1570,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "LegionSniper",
+	'Appearance', "Legion_Marksman02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSniper",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1114228820)
@@ -1406,11 +1605,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "Legion_Stormer",
+	'Appearance', "LegionScout_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1470031786)
@@ -1436,11 +1635,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "Legion_Recon",
+	'Appearance', "Legion_Heavy",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_GunnerT1_Gunner",
 		}),
 	},
 }, nil, 1008524821)
@@ -1476,11 +1675,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "Legion_WitchDoctor03",
+	'Appearance', "LegionMedic_Stronger",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionMedic",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Bonemaker",
 		}),
 	},
 }, nil, 1465783431)
@@ -1505,11 +1704,11 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "LegionGoon_alt_2",
+	'Appearance', "LegionGrenadir",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionGoon",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
 		}),
 	},
 }, nil, 1102806706)
@@ -1538,36 +1737,6 @@ PlaceObj('GridMarker', {
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
 }, nil, 1274147128)
-PlaceObj('UnitMarker', {
-	'Pos', point(213000, 216600, 11200),
-	'Angle', 16200,
-	'Groups', {
-		"Start_Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('QuestIsVariableNum', {
-			Amount = 1,
-			Prop = "JAZZ_Legion_Tier",
-			QuestId = "JAZZ_LegionTier",
-		}),
-	},
-	'EnabledConditions', {
-		PlaceObj('QuestIsVariableNum', {
-			Amount = 1,
-			Prop = "JAZZ_Legion_Tier",
-			QuestId = "JAZZ_LegionTier",
-		}),
-	},
-	'Appearance', "LegionButcher_alt_2",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionButcher",
-		}),
-	},
-}, nil, 1813630948)
 PlaceObj('GridMarker', {
 	'Pos', point(215400, 214200),
 	'AllowedMask', 4294966497,
@@ -1595,14 +1764,44 @@ PlaceObj('UnitMarker', {
 			QuestId = "JAZZ_LegionTier",
 		}),
 	},
-	'Appearance', "Legion_Stormer",
+	'Appearance', "LegionScout_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionManiac",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
 		}),
 	},
 }, nil, 1240956961)
+PlaceObj('UnitMarker', {
+	'Pos', point(213000, 217800, 11200),
+	'Angle', 16200,
+	'Groups', {
+		"Start_Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('QuestIsVariableNum', {
+			Amount = 1,
+			Prop = "JAZZ_Legion_Tier",
+			QuestId = "JAZZ_LegionTier",
+		}),
+	},
+	'EnabledConditions', {
+		PlaceObj('QuestIsVariableNum', {
+			Amount = 1,
+			Prop = "JAZZ_Legion_Tier",
+			QuestId = "JAZZ_LegionTier",
+		}),
+	},
+	'Appearance', "Legion_Soldier06",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
+		}),
+	},
+}, nil, 1813630948)
 -- end of objects of class GridMarker
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(4437, 3524, 5600),
@@ -27229,25 +27428,32 @@ PlaceObj('TropicalPlant_03_Tree_02', {
 	'AllowedMask', 4294967279,
 }, nil, 1548175303)
 PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(95756, 140957),
+	'Pos', point(96029, 140952, 14683),
 	'Angle', 7345,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1642641230)
-PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(96215, 144301),
-	'Angle', 18138,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1680009668)
 PlaceObj('TropicalPlant_Liana_05', {
 	'Pos', point(94275, 146255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1138887120)
+PlaceObj('CoastalPlant_01_Tree_04', {
+	'Pos', point(96286, 144710, 14718),
+	'Angle', 18138,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1680009668)
+PlaceObj('CoastalPlant_01_Tree_04', {
+	'Pos', point(96849, 144644, 14726),
+	'Angle', 10358,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1231069213)
 PlaceObj('TropicalFillerPlants_06', {
 	'Pos', point(82814, 147542),
 	'Angle', 4175,
@@ -28989,21 +29195,14 @@ PlaceObj('TropicalPlant_04_Tree_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1539930435)
 PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(99103, 141245),
-	'Angle', 10358,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1231069213)
-PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(101529, 141147),
-	'Angle', 9702,
+	'Pos', point(100878, 141048, 14726),
+	'Angle', 7768,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1786426151)
 PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(104107, 146531),
+	'Pos', point(103204, 146485, 14722),
 	'Angle', 17313,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -34760,7 +34959,7 @@ PlaceObj('CoastalPlant_01_Tree_02', {
 	'AllowedMask', 4294967279,
 }, nil, 1776103670)
 PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(152025, 93087),
+	'Pos', point(151875, 93053),
 	'Angle', 20611,
 	'Scale', 96,
 	'ColorModifier', RGBA(50, 41, 48, 255),
@@ -34769,7 +34968,7 @@ PlaceObj('CoastalPlant_01_Tree_04', {
 	'AllowedMask', 4294967279,
 }, nil, 1874568512)
 PlaceObj('CoastalPlant_01_Tree_02', {
-	'Pos', point(152042, 93111),
+	'Pos', point(151865, 93070),
 	'Angle', 21165,
 	'Scale', 96,
 	'ColorModifier', RGBA(44, 50, 44, 255),
@@ -36909,6 +37108,15 @@ PlaceObj('TropicalPlant_02_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1179323513)
+PlaceObj('CoastalPlant_01_Tree_01', {
+	'Pos', point(137185, 171801, 6418),
+	'Angle', 17003,
+	'Scale', 105,
+	'ColorModifier', RGBA(41, 52, 49, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1177900310)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(132132, 181427),
 	'Angle', 7289,
@@ -37560,7 +37768,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "JAZZ_AMMO_50BMG_Basic",
-	'target_dist', 114000,
+	'target_dist', 91200,
 }, nil, 1557665098)
 PlaceObj('CoastalPlant_01_Tree_01', {
 	'Pos', point(156482, 177461, 11090),
@@ -38574,6 +38782,19 @@ PlaceObj('WaterPlaneWaves', {
 	'AllowedMask', 4294967279,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1758968256)
+PlaceObj('World_WoodenBox_02', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(69, 58, 39, 255),
+	'EditableColor2', RGBA(48, 25, 14, 255),
+	'EditableColor3', RGBA(60, 38, 8, 255),
+	'Pos', point(172388, 159452, 5145),
+	'Angle', 18889,
+	'Scale', 57,
+	'Axis', point(-1497, -1434, 3532),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1800761002)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(187800, 134198, 5600),
 	'ForcedLODState', "Minimum",
@@ -62132,6 +62353,7 @@ p("TropicalRockAssembly_02",160263,147529,5994,21439,-1607,-1947,3225,"terrainch
 p("DecFloatersTrashGround_01",162029,150706,6084,1)
 p("TropicalRockAssembly_03",162013,154215,6138,155,"terrainchunk",10,0,0,40,60,10,40,60,131077)
 p("TropicalRockSharp_01",161893,162758,-388,12941,231,671,-186,4036,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalPlant_06_Sapling_01",133901,167840,19404,79,2097156)
 p("TropicalRockSharp_01",138510,171213,3399,9007,231,1092,-1256,3742,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",132505,174797,3830,15849,250,343,735,4014,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharpWalk_02",131400,179400,10500,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
