@@ -1018,7 +1018,7 @@ PlaceObj('ContainerMarker', {
 	'AllowedMask', 4294966497,
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "LegionStrong_M3GreaseGun",
+			'LootTableId', "SMGs_M3GreaseGun",
 		}),
 		PlaceObj('ConditionalLoot', {
 			'ItemId', "HE_Grenade",
@@ -1226,7 +1226,7 @@ PlaceObj('ContainerMarker', {
 	'AllowedMask', 4294966497,
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Noob_9x18",
+			'LootTableId', "9x18_pistol_ammo_ap",
 		}),
 		PlaceObj('ConditionalLoot', {
 			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
@@ -1238,7 +1238,7 @@ PlaceObj('ContainerMarker', {
 			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Noob_9x18",
+			'LootTableId', "9x18_pistol_ammo",
 		}),
 	},
 }, nil, 921575424)
@@ -1492,7 +1492,7 @@ PlaceObj('ContainerMarker', {
 	'AllowedMask', 4294966497,
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Noob_762x51_Machinegun",
+			'LootTableId', "762x51_sniper_ammo",
 		}),
 	},
 }, nil, 390053888)
@@ -62121,7 +62121,7 @@ p("TropicalPlant_Grass_04",152688,89131,19821,75,4281609780,2097164)
 p("TropicalPlant_Grass_01",152724,89844,19142,127,4281282354,2097164)
 p("TropicalPlant_Grass_03",153637,87351,19998,97,4281414192,2097164)
 p("TropicalPlant_Grass_03",153670,89911,19522,88,4281019433,2097164)
-p("MODScreen_Canvas_01",147661,90278,0)
+p("MODScreen_Canvas_01",147661,90275,0)
 p("TropicalPlant_Grass_01",149195,91877,3781,96,4281151026,2097164)
 p("TropicalPlant_Grass_04",148169,93177,3058,110,4280822066,2097164)
 p("SavannaPlant_Bush_04",149232,92489,14667,47,4281610287,2097164)

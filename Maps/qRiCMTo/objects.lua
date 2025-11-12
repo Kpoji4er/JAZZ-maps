@@ -819,6 +819,152 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 6,
 	'AreaHeight', 6,
 }, nil, 1386759252)
+PlaceObj('UnitMarker', {
+	'Pos', point(181800, 69000),
+	'AllowedMask', 4294966497,
+	'TriggerConditions', {},
+	'Routine', "Ambient",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('CombatTurn', {
+			Amount = 4,
+			Condition = ">=",
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M2",
+				"M1",
+			},
+		}),
+	},
+	'Appearance', "Recon_Rebels",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost_Guards",
+		}),
+	},
+}, nil, 1318639018)
+PlaceObj('UnitMarker', {
+	'Pos', point(184200, 69000),
+	'AllowedMask', 4294966497,
+	'TriggerConditions', {},
+	'Routine', "Ambient",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('CombatTurn', {
+			Amount = 4,
+			Condition = ">=",
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M2",
+				"M1",
+			},
+		}),
+	},
+	'Appearance', "Recon_Rebels",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost_Guards",
+		}),
+	},
+}, nil, 1607123110)
+PlaceObj('UnitMarker', {
+	'Pos', point(183000, 70200),
+	'AllowedMask', 4294966497,
+	'TriggerConditions', {},
+	'Routine', "Ambient",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('CombatTurn', {
+			Amount = 4,
+			Condition = ">=",
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M2",
+				"M1",
+			},
+		}),
+	},
+	'Appearance', "Recon_Rebels",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost_Guards",
+		}),
+	},
+}, nil, 1020591740)
+PlaceObj('UnitMarker', {
+	'Pos', point(184200, 70200),
+	'AllowedMask', 4294966497,
+	'TriggerConditions', {},
+	'Routine', "Ambient",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('CombatTurn', {
+			Amount = 4,
+			Condition = ">=",
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M2",
+				"M1",
+			},
+		}),
+	},
+	'Appearance', "Recon_Rebels",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost_Guards",
+		}),
+	},
+}, nil, 1266878996)
+PlaceObj('UnitMarker', {
+	'Pos', point(185400, 69000),
+	'AllowedMask', 4294966497,
+	'TriggerConditions', {},
+	'TriggerEffects', {},
+	'Routine', "Ambient",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('CombatTurn', {
+			Amount = 4,
+			Condition = ">=",
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M2",
+				"M1",
+			},
+		}),
+	},
+	'Appearance', "Rebels_NPC_Ghost",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost",
+		}),
+	},
+}, nil, 1658322414)
 PlaceObj('GridMarker', {
 	'Pos', point(193800, 89400, 12600),
 	'Groups', {

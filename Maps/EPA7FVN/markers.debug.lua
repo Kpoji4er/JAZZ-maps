@@ -14,7 +14,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Noob_762x51_Machinegun",
+			"762x51_sniper_ammo",
 		},
 		handle = 390053888,
 		map = "EPA7FVN",
@@ -25,7 +25,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"LegionStrong_M3GreaseGun",
+			"SMGs_M3GreaseGun",
 		},
 		handle = 718258176,
 		map = "EPA7FVN",
@@ -47,8 +47,9 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Noob_9x18",
+			"9x18_pistol_ammo_ap",
 			"Jazz_Random_Ammo_Drop_T1",
+			"9x18_pistol_ammo",
 		},
 		handle = 921575424,
 		map = "EPA7FVN",

@@ -37,7 +37,13 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'CollectionIndex', 2934,
+	'AllowedMask', 4294966497,
+	'Name', "col_TropicalRockAssembly_02",
+	'Index', 2874,
+}, nil, 1480296333)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
 	'Name', "col_JungleCamp_GraveyardCross_02",
 	'Index', 2879,
@@ -46,17 +52,17 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-	'Name', "col_JungleCamp_GraveyardCross_3",
-	'Index', 2934,
-}, nil, 1523581909)
-PlaceObj('Collection', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
 	'Name', "col_TropicalRockSharp_4",
 	'Index', 3372,
 	'HideFromCamera', true,
 }, nil, 1558292905)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Name', "col_JungleCamp_Skeleton_2",
+	'Index', 403,
+}, nil, 1600887200)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -456,7 +462,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(128339974039, "PILE"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "LegionStrong_MP40",
+			'LootTableId', "RebelM1Garand",
 		}),
 	},
 	'DespawnIfEmpty', true,
@@ -611,23 +617,10 @@ PlaceObj('ContainerMarker', {
 }, nil, 803135488)
 PlaceObj('ExamineMarker', {
 	'Pos', point(78600, 226200),
-	'CollectionIndex', 2934,
+	'CollectionIndex', 2874,
 	'AllowedMask', 4294966497,
-	'EnabledConditions', {
-		PlaceObj('UnitHasInteraction', {
-			'TargetUnit', "any merc",
-			'CombatAction', "Interact_LootContainer",
-			'Event', "start",
-			'Group', "Grave_M3",
-		}),
-	},
-	'ConditionalEffects', {
-		PlaceObj('GroupAddStatusEffect', {
-			Status = "Conscience_Guilty",
-			TargetUnit = "player mercs on map",
-		}),
-	},
-}, nil, 1136611872)
+	'EnabledConditions', {},
+}, nil, 1284493071)
 PlaceObj('UnitMarker', {
 	'Pos', point(137400, 60600),
 	'Angle', 10800,
@@ -20765,13 +20758,6 @@ PlaceObj('JungleCamp_GraveyardCross_03', {
 	'CollectionIndex', 2879,
 	'AllowedMask', 782,
 }, nil, 1842120137)
-PlaceObj('JungleCamp_Skeleton_01', {
-	'Pos', point(77083, 223600),
-	'Angle', 6300,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1105803172)
 PlaceObj('JungleCamp_GraveyardCross_02', {
 	'Pos', point(78480, 223191, 16646),
 	'Angle', 5911,
@@ -20781,19 +20767,21 @@ PlaceObj('JungleCamp_GraveyardCross_02', {
 	'AllowedMask', 782,
 }, nil, 1311879894)
 PlaceObj('JungleCamp_Skeleton_01', {
-	'Pos', point(78562, 223842),
-	'Angle', 6011,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1622570307)
-PlaceObj('JungleCamp_Skeleton_01', {
-	'Pos', point(79789, 223729),
+	'Pos', point(78511, 224167, 15870),
 	'Angle', 6300,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 403,
 	'AllowedMask', 4294967279,
-}, nil, 1576606370)
+}, nil, 1105803172)
+PlaceObj('JungleCamp_Skeleton_01', {
+	'Pos', point(79435, 224409, 15870),
+	'Angle', 6011,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 403,
+	'AllowedMask', 4294967279,
+}, nil, 1622570307)
 PlaceObj('JungleCamp_GraveyardCross_05', {
 	'Pos', point(80315, 223092, 16642),
 	'Angle', 6586,
@@ -20803,7 +20791,15 @@ PlaceObj('JungleCamp_GraveyardCross_05', {
 	'AllowedMask', 782,
 }, nil, 1740240492)
 PlaceObj('JungleCamp_Skeleton_01', {
-	'Pos', point(81227, 224041),
+	'Pos', point(80436, 224314, 15870),
+	'Angle', 6300,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 403,
+	'AllowedMask', 4294967279,
+}, nil, 1576606370)
+PlaceObj('JungleCamp_Skeleton_01', {
+	'Pos', point(81869, 224350, 15902),
 	'Angle', 5912,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -59803,7 +59799,7 @@ p("TropicalCliffSharp_04",78600,214200,16800,16200,"terrainchunk",10,0,0,40,60,1
 p("TropicalRockSharp_01",78044,215387,15525,5623,119,-816,1950,3508,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalCliffSharp_04",81000,214200,16800,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalCliffSharp_04",81000,216600,16800,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
-p("TropicalRockSharp_01",78115,219127,15303,6675,168,688,-411,4016,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",78113,219124,15303,6675,168,688,-411,4016,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalCliffSharp_04",81000,219000,16800,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalPlant_Grass_03",74000,223000,9410,123,2097156)
 p("TropicalPlant_Grass_02",74000,224000,19790,133,2097156)
@@ -59811,12 +59807,10 @@ p("TropicalPlant_Grass_01",74000,225000,19561,128,2097156)
 p("TropicalPlant_Grass_04",75000,225000,16230,133,2097156)
 p("TropicalPlant_Grass_03",76348,221913,15876,492,126,2097157)
 p("TropicalRockAssembly_04",76207,222491,16311,"terrainchunk",10,0,0,40,60,10,40,60,131073)
-p("TropicalRockAssembly_02",76033,223163,16300,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("JungleCamp_GraveyardHelmet_01",76890,223106,17593,2879,257)
-p("TropicalRockAssembly_02",77553,222618,16300,6300,157,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
 p("TropicalPlant_Grass_03",75886,223361,15876,492,126,2097157)
+p("TropicalRockAssembly_02",76675,223472,16392,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("RiverStones_04",76743,223392,15049,2148407600,2148407600,2148407600,"","terrainchunk",10,0,0,40,60,10,40,60,1073879553)
-p("TropicalRockAssembly_02",76959,224320,16300,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalPlant_Grass_02",74000,226000,8988,126,2097156)
 p("TropicalPlant_Grass_04",74000,227000,20338,130,2097156)
 p("TropicalPlant_Grass_04",75000,226000,17937,130,2097156)
@@ -59827,26 +59821,26 @@ p("TropicalPlant_Grass_02",74000,229000,528,126,2097156)
 p("TropicalPlant_Grass_04",75000,228000,9701,132,2097156)
 p("TropicalPlant_Flowers_06",74975,228659,16398,7098,96,2097157)
 p("TropicalPlant_Flowers_06",75441,229134,7098,96,2097156)
-p("TropicalPlant_Grass_03",77414,225436,15876,492,126,2097157)
-p("TropicalPlant_Grass_03",76915,226885,16432,11116,133,2097157)
+p("TropicalPlant_Grass_03",77409,225433,15876,492,126,2097157)
+p("TropicalPlant_Grass_03",76921,226885,16432,11116,133,2097157)
 p("TropicalPlant_Flowers_06",76557,227726,16458,20124,103,2097157)
 p("TropicalPlant_Flowers_06",76611,228882,7098,96,2097156)
 p("TropicalPlant_Flowers_05",76887,229064,141,98,2097156)
 p("TropicalPlant_Flowers_06",77612,228876,17424,103,2097156)
+p("TropicalRockAssembly_02",78199,222937,16392,6300,157,2874,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
 p("JungleCamp_GraveyardHelmet_02",78467,223196,17749,17822,2879,2097409)
 p("TropicalPlant_Grass_03",79862,222926,15876,492,126,2097157)
-p("RiverStones_04",78100,223587,15049,2148407600,2148407600,2148407600,"","terrainchunk",10,0,0,40,60,10,40,60,1073879553)
-p("RiverStones_04",79831,223727,15049,2148407600,2148407600,2148407600,"","terrainchunk",10,0,0,40,60,10,40,60,1073879553)
-p("TropicalRockAssembly_02",79273,224839,16300,16200,157,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
-p("TropicalRockAssembly_02",80136,223027,16300,16200,157,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
+p("RiverStones_04",78063,223585,14594,2148407600,2148407600,2148407600,"","terrainchunk",10,0,0,40,60,10,40,60,1073879553)
+p("RiverStones_04",79794,223725,14594,2148407600,2148407600,2148407600,"","terrainchunk",10,0,0,40,60,10,40,60,1073879553)
 p("JungleCamp_GraveyardHelmet_02",80298,223148,17470,1321,2879,2097409)
-p("TropicalRockAssembly_01",80935,225131,16269,"terrainchunk",10,0,0,40,60,10,40,60,131073)
-p("TropicalRockAssembly_02",81569,224311,16300,157,"terrainchunk",10,0,0,40,60,10,40,60,131077)
-p("TropicalPlant_Grass_03",79812,227128,16432,11116,133,2097157)
+p("TropicalRockAssembly_02",80782,223346,16392,16200,157,2874,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
+p("TropicalPlant_Grass_03",79811,227127,16432,11116,133,2097157)
 p("TropicalPlant_Flowers_06",78300,227957,16460,12924,103,2097157)
 p("TropicalPlant_Flowers_06",78501,228756,17424,103,2097156)
+p("TropicalRockAssembly_02",78799,229321,16300,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalPlant_Flowers_06",79528,228334,16398,10803,103,2097157)
 p("TropicalPlant_Grass_03",80588,225847,15876,492,126,2097157)
+p("TropicalRockAssembly_01",81577,225440,16361,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalPlant_Grass_01",81267,227601,15940,6589,125,2097157)
 p("TropicalPlant_Grass_04",82000,197000,75,4)
 p("TropicalPlant_Grass_01",82000,198000,155,4)
@@ -59967,7 +59961,7 @@ p("TropicalCliffSharp_04",85800,217800,16800,5400,"terrainchunk",10,0,0,40,60,10
 p("JungleCamp_GraveyardHelmet_01",82212,224002,17716,1515,2097153)
 p("JungleCamp_GraveyardHelmet_01",82212,224002,17716,1515,2879,2097409)
 p("TropicalPlant_Grass_03",82838,223361,15876,492,126,2097157)
-p("RiverStones_04",82122,224384,15049,2148407600,2148407600,2148407600,"","terrainchunk",10,0,0,40,60,10,40,60,1073879553)
+p("RiverStones_04",82085,224382,14594,2148407600,2148407600,2148407600,"","terrainchunk",10,0,0,40,60,10,40,60,1073879553)
 p("TropicalPlant_Grass_01",82000,225000,6589,125,2097156)
 p("TropicalPlant_Grass_01",83000,224000,19031,129,2097156)
 p("TropicalRockAssembly_04",83585,223643,16420,"terrainchunk",10,0,0,40,60,10,40,60,131073)
@@ -59987,8 +59981,9 @@ p("TropicalPlant_Grass_04",83000,227000,8609,133,2097156)
 p("TropicalPlant_Grass_01",82000,228000,19674,123,2097156)
 p("TropicalPlant_Grass_04",83000,228000,17959,124,2097156)
 p("TropicalPlant_Grass_04",83000,229000,7899,128,2097156)
+p("TropicalRockAssembly_02",83409,229312,16300,157,"terrainchunk",10,0,0,40,60,10,40,60,131077)
 p("TropicalPlant_Grass_01",83473,228962,16380,11787,129,2097157)
-p("TropicalPlant_Grass_02",84000,226000,15228,133,2097156)
+p("TropicalPlant_Grass_02",84003,226000,15228,133,2097156)
 p("TropicalPlant_Grass_04",84000,227000,1979,130,2097156)
 p("TropicalPlant_Grass_03",85000,226000,11830,126,2097156)
 p("TropicalPlant_Grass_02",86000,226000,19696,128,2097156)
@@ -60092,6 +60087,7 @@ p("TropicalPlant_Flowers_06",79052,229475,16400,17424,103,2097157)
 p("TropicalPlant_Flowers_06",80263,229405,16400,17424,103,2097157)
 p("TropicalPlant_Grass_01",80580,230062,9009,2097152)
 p("TropicalRockSharp_01",80777,231095,11043,16452,163,-736,-412,4008,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_02",81113,229840,16300,16200,157,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
 p("TropicalPlant_Grass_01",81326,229382,8184,98,2097156)
 p("TropicalRockSharp_01",80963,231995,12457,9304,91,-816,-2210,3350,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",77588,241938,6353,4773,250,4291676360,1299,-1291,3663,"terrainchunk",10,0,0,40,60,10,40,60,2228253)

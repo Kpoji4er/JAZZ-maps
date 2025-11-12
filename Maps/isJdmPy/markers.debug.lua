@@ -13,7 +13,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"LegionStrong_MP40",
+			"RebelM1Garand",
 		},
 		handle = 517103616,
 		map = "isJdmPy",
