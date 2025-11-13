@@ -7,17 +7,19 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4524,
+	'version', 4533,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
+		"UnitData/JAZZ_Ernie_Locals_M2_SaveMyFamily_Man.lua",
+		"UnitData/JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman.lua",
 		"InventoryItem/Jazz_Browning_MuchineGun.lua",
 		"InventoryItem/Jazz_Browning_Bench.lua",
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1762969486,
-	'code_hash', 8946462568536887277,
+	'saved', 1763051584,
+	'code_hash', 6955747270145158586,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
@@ -1421,17 +1423,42 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "QuestsDef",
-			'Id', "Jazz_ClearTheWay",
-			'ClassDisplayName', "QuestsEditor",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "QuestsDef",
 			'Id', "JAZZ_REBELS_0_MeetTheRebels",
 			'ClassDisplayName', "QuestsEditor",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "QuestsDef",
 			'Id', "JAZZ_REBELS_1_SeizeTheOutlook",
+			'ClassDisplayName', "QuestsEditor",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "QuestsDef",
+			'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+			'ClassDisplayName', "QuestsEditor",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "UnitDataCompositeDef",
+			'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+			'ClassDisplayName', "Unit",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "UnitDataCompositeDef",
+			'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+			'ClassDisplayName', "Unit",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "Conversation",
+			'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+			'ClassDisplayName', "Conversation",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "Conversation",
+			'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+			'ClassDisplayName', "Conversation",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "QuestsDef",
+			'Id', "Jazz_ClearTheWay",
 			'ClassDisplayName', "QuestsEditor",
 		}),
 		PlaceObj('ModResourcePreset', {

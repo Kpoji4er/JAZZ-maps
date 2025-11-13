@@ -19595,6 +19595,7 @@ return {
 									param_bindings = false,
 								}),
 							},
+							PhraseConditionRolloverText = T(734426222215, --[[ModItemConversation Ernie_M1_Rebel_Briefing PhraseConditionRolloverText]] "Эмма находится в секторе <em>K4</em>"),
 							id = "3",
 							param_bindings = false,
 							PlaceObj('ConversationPhrase', {
@@ -19637,6 +19638,7 @@ return {
 											param_bindings = false,
 										}),
 									},
+									PhraseConditionRolloverText = T(354731875422, --[[ModItemConversation Ernie_M1_Rebel_Briefing PhraseConditionRolloverText]] "<color EmStyle>Лидерство</color>: вы прошли проверку\nНужно зачистить <em>лагеря вокруг Виллы</em>"),
 									id = "2",
 									param_bindings = false,
 								}),
@@ -19763,19 +19765,21 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Rebels_Ghost KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
-								Text = T(301982737228, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost]] "Ха... вот это бойня. Рад, что мы на одной стороне."),
+								Text = T(301982737228, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Greeting]] "Ха... вот это бойня. Рад, что мы на одной стороне."),
+								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
-								Text = T(301982737228, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost]] "Меня зовут Дьяло, но люди обычно называют меня Призрак"),
+								Text = T(301982737228, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Greeting]] "Меня зовут Дьяло, но люди обычно называют меня Призрак"),
 								param_bindings = false,
 							}),
 						},
 						id = "Greeting",
+						param_bindings = false,
 					}),
 					PlaceObj('ConversationPhrase', {
 						CompleteQuests = {
@@ -19826,6 +19830,7 @@ return {
 							}),
 						},
 						id = "Greeting2",
+						param_bindings = false,
 						PlaceObj('ConversationPhrase', {
 							Conditions = {
 								PlaceObj('UnitSquadHasMerc', {
@@ -19843,10 +19848,12 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
-									Text = T(194077002549, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost]] "С этим я могу вам помочь. Придем к вам на помощь если надо будет."),
+									Text = T(194077002549, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Нам нужна помощь у особняка]] "С этим я могу вам помочь. Придем к вам на помощь если надо будет."),
+									param_bindings = false,
 								}),
 							},
 							id = "2",
+							param_bindings = false,
 						}),
 					}),
 					PlaceObj('ConversationPhrase', {
@@ -19864,15 +19871,17 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
-								Text = T(208492606993, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost]] "Считал, сколько человек Легион еще потеряет, прежде чем догадается, что в джунглях их кто-то очень сильно не любит.\nЯ хотел перехватить этот отряд, но вы успели быстрее. Хорошая работа"),
+								Text = T(208492606993, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Что вы делаете тут?]] "Считал, сколько человек Легион еще потеряет, прежде чем догадается, что в джунглях их кто-то очень сильно не любит.\nЯ хотел перехватить этот отряд, но вы успели быстрее. Хорошая работа"),
+								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
-								Text = T(208492606993, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost]] "Судя по тому, как вы справились с ними, вы можете мне помочь.\nНедалеко отсюда, к северу от <em>Водопада</em>, есть <em>Смотровая площадка</em> - одно из немногих мест, где Легион выгружает припасы для снабжения острова. Если мы всесте её атакуем, то сможем нарушить логистику в этой части острова"),
+								Text = T(208492606993, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Что вы делаете тут?]] "Судя по тому, как вы справились с ними, вы можете мне помочь.\nНедалеко отсюда, к северу от <em>Водопада</em>, есть <em>Смотровая площадка</em> - одно из немногих мест, где Легион выгружает припасы для снабжения острова. Если мы всесте её атакуем, то сможем нарушить логистику в этой части острова"),
 								param_bindings = false,
 							}),
 						},
 						id = "2",
+						param_bindings = false,
 						PlaceObj('ConversationPhrase', {
 							GiveQuests = {
 								"JAZZ_REBELS_1_SeizeTheOutlook",
@@ -19883,11 +19892,13 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
-									Text = T(109547137433, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost]] "Хорошо, значит встретимся после боя"),
+									Text = T(109547137433, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Мы согласны]] "Хорошо, значит встретимся после боя"),
+									param_bindings = false,
 								}),
 							},
 							StoryBranchIcon = "conversation_friendly",
 							id = "2",
+							param_bindings = false,
 						}),
 						PlaceObj('ConversationPhrase', {
 							GoTo = "<back>",
@@ -19897,6 +19908,7 @@ return {
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
 									Text = T(800936062608, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Водопад?]] "Да, дальше по дороге находится <em>водопад</em>. Мы его обойдем и будем вас ждать на <em>Смотровой Площадке</em>"),
+									param_bindings = false,
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
@@ -19905,6 +19917,7 @@ return {
 								}),
 							},
 							id = "4",
+							param_bindings = false,
 							PlaceObj('ConversationPhrase', {
 								Conditions = {
 									PlaceObj('UnitSquadHasMerc', {
@@ -19925,10 +19938,12 @@ return {
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "Rebel_NPC_Ghost",
-										Text = T(967669393189, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost]] "Если бы я рассказал - они перестали бы быть тайными."),
+										Text = T(967669393189, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Тропы?]] "Если бы я рассказал - они перестали бы быть тайными."),
+										param_bindings = false,
 									}),
 								},
 								id = "2",
+								param_bindings = false,
 							}),
 						}),
 						PlaceObj('ConversationPhrase', {
@@ -19940,22 +19955,26 @@ return {
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
 									Text = T(774684540869, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Мы как-нибудь сами справимся]] "Жаль. Ну, увидимся в лагере, если вы до туда дойдете"),
+									param_bindings = false,
 								}),
 							},
 							StoryBranchIcon = "conversation_sarcastic",
 							id = "3",
+							param_bindings = false,
 						}),
 					}),
 					PlaceObj('ConversationPhrase', {
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Rebels_Ghost KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
-								Text = T(479802906082, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost]] "Удачи, наемники"),
+								Text = T(479802906082, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Goodbye]] "Удачи, наемники"),
+								param_bindings = false,
 							}),
 						},
 						id = "Goodbye",
+						param_bindings = false,
 					}),
 				}),
 				}),
@@ -45522,6 +45541,508 @@ return {
 			}),
 			}),
 		PlaceObj('ModItemFolder', {
+			'name', "Rebels",
+		}, {
+			PlaceObj('ModItemQuestsDef', {
+				Chapter = "Ernie_Rebels",
+				DisplayName = T(711512520142, --[[ModItemQuestsDef JAZZ_REBELS_0_MeetTheRebels DisplayName]] "Повстанцы"),
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {}),
+				},
+				NoteDefs = {
+					LastNoteIdx = 1,
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "L1",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"L1",
+								},
+							}),
+						},
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JAZZ_REBELS_0_MeetTheRebels",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(244219612500, --[[ModItemQuestsDef JAZZ_REBELS_0_MeetTheRebels Text]] "Встретиться с лидером повстанцев на острове"),
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+				},
+				group = "Default",
+				id = "JAZZ_REBELS_0_MeetTheRebels",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Chapter = "Ernie_Rebels",
+				DisplayName = T(711512520142, --[[ModItemQuestsDef JAZZ_REBELS_1_SeizeTheOutlook DisplayName]] "Атака на Смотровую Площадку"),
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {
+						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+					}),
+				},
+				LastNoteIdx = 1,
+				NoteDefs = {
+					LastNoteIdx = 1,
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+								Sector = "M4",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+								Sectors = {
+									"M4",
+								},
+							}),
+						},
+						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(244219612500, --[[ModItemQuestsDef JAZZ_REBELS_1_SeizeTheOutlook Text]] 'Мы встретили одного из повстанцев - "Призрака". Он предложил нам атаковать <em>Смотровую площадку (Сектор М4)</em> вместе'),
+					}),
+				},
+				QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "M3_UnderControl",
+					}),
+				},
+				group = "Default",
+				id = "JAZZ_REBELS_1_SeizeTheOutlook",
+			}),
+			}),
+		PlaceObj('ModItemFolder', {
+			'name', "Jazz_Ernie_Locals",
+			'comment', "Деревенские жители в Эрни",
+		}, {
+			PlaceObj('ModItemFolder', {
+				'name', "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+			}, {
+				PlaceObj('ModItemQuestsDef', {
+					KillTCEsConditions = {
+						PlaceObj('QuestKillTCEsOnCompleted', {}),
+					},
+					Variables = {
+						PlaceObj('QuestVarBool', {
+							Name = "Completed",
+						}),
+						PlaceObj('QuestVarBool', {
+							Name = "Given",
+						}),
+						PlaceObj('QuestVarBool', {
+							Name = "Failed",
+						}),
+						PlaceObj('QuestVarBool', {
+							Name = "NotStarted",
+							Value = true,
+						}),
+						PlaceObj('QuestVarBool', {
+							Name = "WomenSaved",
+						}),
+					},
+					group = "Default",
+					id = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+				}),
+				PlaceObj('ModItemUnitDataCompositeDef', {
+					'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+					'object_class', "UnitData",
+					'Affiliation', "Civilian",
+					'AppearancesList', {
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_01",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_02",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_03",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_04",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_05",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_06",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_07",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_08",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_09",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_10",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_11",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_12",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_13",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_14",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_15",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_16",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_17",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_18",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_19",
+							'Weight', 100,
+						}),
+					},
+				}),
+				PlaceObj('ModItemUnitDataCompositeDef', {
+					'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+					'object_class', "UnitData",
+					'Affiliation', "Civilian",
+					'AppearancesList', {
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_01",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_02",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_03",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_04",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_05",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_06",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_07",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_08",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_09",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_10",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_11",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_12",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_13",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_14",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_15",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_16",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_17",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_18",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_19",
+							'Weight', 100,
+						}),
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_20",
+							'Weight', 100,
+						}),
+					},
+					'FallbackMissingVR', "VillagerFemale",
+				}),
+				PlaceObj('ModItemConversation', {
+					DefaultActor = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+					group = "Default",
+					id = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+					PlaceObj('ConversationPhrase', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+								Vars = set({
+	Given = false,
+}),
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+								Text = T(477616183845, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Greeting]] "Спасите мою жену"),
+								param_bindings = false,
+							}),
+						},
+						id = "Greeting",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						CompleteQuests = {
+							"JAZZ_Ernie_Locals_M2_SaveMyFamily",
+						},
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+								Vars = set( "WomenSaved" ),
+								param_bindings = false,
+							}),
+						},
+						Effects = {
+							PlaceObj('UnitGrantItem', {
+								ItemId = "BigDiamond",
+								param_bindings = false,
+							}),
+							PlaceObj('GrantExperienceSector', {
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+								Text = T(477616183845, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Greeting2]] "Вы спасли мою жену, вот вам алмаз в награду"),
+								param_bindings = false,
+							}),
+						},
+						id = "Greeting2",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						CompleteQuests = {
+							"JAZZ_Ernie_Locals_M2_SaveMyFamily",
+						},
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+								Vars = set( "Completed" ),
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+								Text = T(477616183845, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Greeting3]] "Привет"),
+								param_bindings = false,
+							}),
+						},
+						id = "Greeting3",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						GiveQuests = {
+							"JAZZ_Ernie_Locals_M2_SaveMyFamily",
+						},
+						GoTo = "<end conversation>",
+						Keyword = "Ок",
+						KeywordT = T(849442053763, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man KeywordT]] "Ок"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+								Text = T(482928783049, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Ок]] "Ок"),
+								param_bindings = false,
+							}),
+						},
+						id = "2",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Keyword = "Goodbye",
+						KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+								param_bindings = false,
+							}),
+						},
+						id = "Goodbye",
+						param_bindings = false,
+					}),
+				}),
+				PlaceObj('ModItemConversation', {
+					DefaultActor = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+					group = "Default",
+					id = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+					PlaceObj('ConversationPhrase', {
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+								param_bindings = false,
+							}),
+						},
+						id = "Greeting2",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+								Vars = set({
+	Given = false,
+}),
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+								Text = T(442597316911, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman keyword:Greeting]] "Спасите меня, я вам заплачу"),
+								param_bindings = false,
+							}),
+						},
+						id = "Greeting",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "WomenSaved",
+								QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+								param_bindings = false,
+							}),
+						},
+						GoTo = "<end conversation>",
+						Keyword = "Мы пришли тебя спасти",
+						KeywordT = T(856548228865, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman KeywordT]] "Мы пришли тебя спасти"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+								Text = T(220944800456, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman keyword:Мы пришли тебя спасти]] "Ура!"),
+								param_bindings = false,
+							}),
+						},
+						id = "2",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Keyword = "Goodbye",
+						KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+								param_bindings = false,
+							}),
+						},
+						id = "Goodbye2",
+						param_bindings = false,
+					}),
+				}),
+				}),
+			}),
+		PlaceObj('ModItemFolder', {
 			'name', "Jazz side",
 			'comment', "Джазовые сайды",
 		}, {
@@ -45782,116 +46303,6 @@ return {
 				},
 				group = "Default",
 				id = "Jazz_ClearTheWay",
-			}),
-			PlaceObj('ModItemQuestsDef', {
-				Chapter = "Ernie_Rebels",
-				DisplayName = T(711512520142, --[[ModItemQuestsDef JAZZ_REBELS_0_MeetTheRebels DisplayName]] "Повстанцы"),
-				KillTCEsConditions = {
-					PlaceObj('QuestKillTCEsOnCompleted', {}),
-				},
-				NoteDefs = {
-					LastNoteIdx = 1,
-					PlaceObj('QuestNote', {
-						Badges = {
-							PlaceObj('QuestBadgePlacement', {
-								Sector = "L1",
-							}),
-						},
-						HideConditions = {
-							PlaceObj('PlayerIsInSectors', {
-								Sectors = {
-									"L1",
-								},
-							}),
-						},
-						ShowConditions = {
-							PlaceObj('QuestIsVariableBool', {
-								QuestId = "JAZZ_REBELS_0_MeetTheRebels",
-								Vars = set( "Given" ),
-							}),
-						},
-						Text = T(244219612500, --[[ModItemQuestsDef JAZZ_REBELS_0_MeetTheRebels Text]] "Встретиться с лидером повстанцев на острове"),
-					}),
-				},
-				Variables = {
-					PlaceObj('QuestVarBool', {
-						Name = "Completed",
-					}),
-					PlaceObj('QuestVarBool', {
-						Name = "Given",
-					}),
-					PlaceObj('QuestVarBool', {
-						Name = "Failed",
-					}),
-					PlaceObj('QuestVarBool', {
-						Name = "NotStarted",
-						Value = true,
-					}),
-				},
-				group = "Default",
-				id = "JAZZ_REBELS_0_MeetTheRebels",
-			}),
-			PlaceObj('ModItemQuestsDef', {
-				Chapter = "Ernie_Rebels",
-				DisplayName = T(711512520142, --[[ModItemQuestsDef JAZZ_REBELS_1_SeizeTheOutlook DisplayName]] "Атака на Смотровую Площадку"),
-				KillTCEsConditions = {
-					PlaceObj('QuestKillTCEsOnCompleted', {
-						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
-					}),
-				},
-				LastNoteIdx = 1,
-				NoteDefs = {
-					LastNoteIdx = 1,
-					PlaceObj('QuestNote', {
-						Badges = {
-							PlaceObj('QuestBadgePlacement', {
-								QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
-								Sector = "M4",
-							}),
-						},
-						HideConditions = {
-							PlaceObj('PlayerIsInSectors', {
-								QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
-								Sectors = {
-									"M4",
-								},
-							}),
-						},
-						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
-						ShowConditions = {
-							PlaceObj('QuestIsVariableBool', {
-								QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
-								Vars = set( "Given" ),
-							}),
-						},
-						Text = T(244219612500, --[[ModItemQuestsDef JAZZ_REBELS_1_SeizeTheOutlook Text]] 'Мы встретили одного из повстанцев - "Призрака". Он предложил нам атаковать <em>Смотровую площадку (Сектор М4)</em> вместе'),
-					}),
-				},
-				QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
-				Variables = {
-					PlaceObj('QuestVarBool', {
-						Name = "Completed",
-						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
-					}),
-					PlaceObj('QuestVarBool', {
-						Name = "Given",
-						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
-					}),
-					PlaceObj('QuestVarBool', {
-						Name = "Failed",
-						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
-					}),
-					PlaceObj('QuestVarBool', {
-						Name = "NotStarted",
-						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
-						Value = true,
-					}),
-					PlaceObj('QuestVarBool', {
-						Name = "M3_UnderControl",
-					}),
-				},
-				group = "Default",
-				id = "JAZZ_REBELS_1_SeizeTheOutlook",
 			}),
 			PlaceObj('ModItemQuestsDef', {
 				DevNotes = "Спасение Партизан на острове, Легион растрепал их в щи, Выполнение этого квеста даст многое в дальнейшем. И частично поможет в прохождении игры. Он не основной, но вспомогательный.",
