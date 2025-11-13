@@ -45662,8 +45662,28 @@ return {
 				'name', "JAZZ_Ernie_Locals_M2_SaveMyFamily",
 			}, {
 				PlaceObj('ModItemQuestsDef', {
+					DisplayName = T(678232896239, --[[ModItemQuestsDef JAZZ_Ernie_Locals_M2_SaveMyFamily DisplayName]] "Спасти женщину"),
 					KillTCEsConditions = {
 						PlaceObj('QuestKillTCEsOnCompleted', {}),
+					},
+					LineVisibleOnGive = 1,
+					NoteDefs = {
+						LastNoteIdx = 1,
+						PlaceObj('QuestNote', {
+							Badges = {
+								PlaceObj('QuestBadgePlacement', {
+									BadgeUnit = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+									Sector = "M3",
+								}),
+							},
+							ShowConditions = {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+									Vars = set( "Given" ),
+								}),
+							},
+							Text = T(398486569413, --[[ModItemQuestsDef JAZZ_Ernie_Locals_M2_SaveMyFamily Text]] "Женщина находится в <em>секторе M3</em>"),
+						}),
 					},
 					Variables = {
 						PlaceObj('QuestVarBool', {
@@ -45686,85 +45706,26 @@ return {
 					group = "Default",
 					id = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
 				}),
+				PlaceObj('ModItemBanterDef', {
+					Lines = {
+						PlaceObj('BanterLine', {
+							'Text', T(995832500650, --[[ModItemBanterDef JAZZ_Ernie_Locals_M2_SaveMyFamily_PLSHELP Text]] "Наёмники! Пожалуйста, помогите мне!"),
+							'Voiced', false,
+						}),
+					},
+					Once = true,
+					group = "Default",
+					id = "JAZZ_Ernie_Locals_M2_SaveMyFamily_PLSHELP",
+				}),
 				PlaceObj('ModItemUnitDataCompositeDef', {
 					'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
 					'object_class', "UnitData",
+					'BigPortrait', "UI/NPCs/Bounce",
+					'Name', T(399751498001, --[[ModItemUnitDataCompositeDef JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Name]] "Нигга"),
 					'Affiliation', "Civilian",
 					'AppearancesList', {
 						PlaceObj('AppearanceWeight', {
 							'Preset', "VillagerMale_01",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerMale_02",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerMale_03",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerMale_04",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerMale_05",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerMale_06",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerMale_07",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerMale_08",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerMale_09",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerMale_10",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerMale_11",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerMale_12",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerMale_13",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerMale_14",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerMale_15",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerMale_16",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerMale_17",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerMale_18",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerMale_19",
 							'Weight', 100,
 						}),
 					},
@@ -45772,92 +45733,19 @@ return {
 				PlaceObj('ModItemUnitDataCompositeDef', {
 					'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
 					'object_class', "UnitData",
+					'BigPortrait', "UI/NPCs/Bounce",
+					'Name', T(356243372579, --[[ModItemUnitDataCompositeDef JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman Name]] "Женщина"),
 					'Affiliation', "Civilian",
 					'AppearancesList', {
 						PlaceObj('AppearanceWeight', {
 							'Preset', "VillagerFemale_01",
 							'Weight', 100,
 						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerFemale_02",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerFemale_03",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerFemale_04",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerFemale_05",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerFemale_06",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerFemale_07",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerFemale_08",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerFemale_09",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerFemale_10",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerFemale_11",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerFemale_12",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerFemale_13",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerFemale_14",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerFemale_15",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerFemale_16",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerFemale_17",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerFemale_18",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerFemale_19",
-							'Weight', 100,
-						}),
-						PlaceObj('AppearanceWeight', {
-							'Preset', "VillagerFemale_20",
-							'Weight', 100,
-						}),
 					},
 					'FallbackMissingVR', "VillagerFemale",
 				}),
 				PlaceObj('ModItemConversation', {
+					AssignToGroup = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
 					DefaultActor = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
 					group = "Default",
 					id = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
@@ -45969,6 +45857,7 @@ return {
 					}),
 				}),
 				PlaceObj('ModItemConversation', {
+					AssignToGroup = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
 					DefaultActor = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
 					group = "Default",
 					id = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",

@@ -48,6 +48,23 @@
 	},
 	{
 		Groups = false,
+		handle = 1036035094,
+		items = {
+			{
+				editor_view_abridged = "if WomenSaved",
+				filter_type = "quest",
+				reference_id = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+				type = "QuestIsVariableBool",
+				var = set( "WomenSaved" ),
+			},
+		},
+		map = "qRiCMTo",
+		name = "UnitMarker#094",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = false,
 		handle = 1070428457,
 		items = {},
 		map = "qRiCMTo",
@@ -223,6 +240,18 @@
 		items = {},
 		map = "qRiCMTo",
 		name = "UnitMarker#388",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		ApproachedBanters = {
+			"JAZZ_Ernie_Locals_M2_SaveMyFamily_PLSHELP",
+		},
+		Groups = false,
+		handle = 1711497475,
+		items = {},
+		map = "qRiCMTo",
+		name = "UnitMarker#475",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},

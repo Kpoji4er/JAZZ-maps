@@ -42,7 +42,7 @@
 		type = "UnitMarker",
 	},
 	{
-		Groups = {},
+		Groups = false,
 		handle = 1030382433,
 		items = {},
 		map = "isJdmPy",
@@ -104,11 +104,13 @@
 		type = "UnitMarker",
 	},
 	{
-		Groups = false,
+		Groups = {
+			"SecondCampSpawn",
+		},
 		handle = 1085682316,
 		items = {},
 		map = "isJdmPy",
-		name = "UnitMarker#316",
+		name = "UnitMarker#316 (SecondCampSpawn)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
@@ -544,11 +546,13 @@
 		type = "UnitMarker",
 	},
 	{
-		Groups = false,
+		Groups = {
+			"SecondCampSpawn",
+		},
 		handle = 1724280899,
 		items = {},
 		map = "isJdmPy",
-		name = "UnitMarker#899",
+		name = "UnitMarker#899 (SecondCampSpawn)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
@@ -575,11 +579,13 @@
 		type = "UnitMarker",
 	},
 	{
-		Groups = false,
+		Groups = {
+			"SecondCampSpawn",
+		},
 		handle = 1760227073,
 		items = {},
 		map = "isJdmPy",
-		name = "UnitMarker#073",
+		name = "UnitMarker#073 (SecondCampSpawn)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},

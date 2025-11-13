@@ -178,7 +178,6 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
-	'RoutineArea', "Legion_Shooters_Ambient",
 	'Appearance', "LegionSniper_Stronger",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -363,11 +362,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking_4",
-	'Appearance', "Legion_Recon03",
+	'Appearance', "Legion_Recon02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1871749817)
@@ -391,11 +390,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking_4",
-	'Appearance', "Legion_Recon",
+	'Appearance', "LegionScout_Stronger_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
+			'UnitDataDefId', "JAZZ_Legion_FlankerT2_Scout",
 		}),
 	},
 }, nil, 1747230031)
@@ -408,11 +407,11 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'RoutineArea', "Legion_Talking_4",
-	'Appearance', "Legion_Recon02",
+	'Appearance', "LegionManiac_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
 		}),
 	},
 }, nil, 1123136696)
@@ -531,7 +530,7 @@ PlaceObj('ContainerMarker', {
 	'CollectionIndex', 2454,
 	'AllowedMask', 4294966497,
 	'Name', "Pile",
-	'DisplayName', T(128339974039, "PILE"),
+	'DisplayName', T(128339974039, "ГОРА"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
 			'LootTableId', "RebelM1Garand",
@@ -747,7 +746,7 @@ PlaceObj('ContainerMarker', {
 	'AllowedMask', 4294966497,
 	'ID', "Grave_M3",
 	'Name', "DeadSoldier",
-	'DisplayName', T(904442973978, "DEAD SOLDIER"),
+	'DisplayName', T(904442973978, "МЁРТВЫЙ СОЛДАТ"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
 			'ItemId', "JazzArmor_M1Helm",
@@ -1084,6 +1083,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(208200, 96600),
 	'Angle', 5400,
+	'Groups', {
+		"SecondCampSpawn",
+	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
 		PlaceObj('UnitIsAroundMarkerOfGroup', {
@@ -1103,6 +1105,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(203400, 100200),
 	'Angle', 5400,
+	'Groups', {
+		"SecondCampSpawn",
+	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
 		PlaceObj('UnitIsAroundMarkerOfGroup', {
@@ -1129,6 +1134,12 @@ PlaceObj('GridMarker', {
 	'ID', "SecondCampSpawn",
 	'AreaWidth', 25,
 	'AreaHeight', 25,
+	'TriggerConditions', {
+		PlaceObj('UnitIsAroundMarkerOfGroup', {
+			MarkerGroup = "SecondCampSpawn",
+			TargetUnit = "any merc",
+		}),
+	},
 }, nil, 1387699120)
 PlaceObj('UnitMarker', {
 	'Pos', point(203400, 102600),
@@ -1170,6 +1181,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(211800, 103800),
 	'Angle', 5400,
+	'Groups', {
+		"SecondCampSpawn",
+	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
 		PlaceObj('UnitIsAroundMarkerOfGroup', {
@@ -1203,6 +1217,7 @@ PlaceObj('UnitMarker', {
 	'Pos', point(211800, 107400),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
+	'UnitDef', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
 	'Spawn_Conditions', {
 		PlaceObj('QuestIsVariableBool', {
 			QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
@@ -1215,7 +1230,7 @@ PlaceObj('UnitMarker', {
 			Vars = set( "WomenSaved" ),
 		}),
 	},
-	'Appearance', "Soldier_Local_01",
+	'Appearance', "VillagerFemale_01",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
 			'UnitDataDefId', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
@@ -1291,7 +1306,6 @@ PlaceObj('GridMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(160200, 154200),
 	'Angle', 10800,
-	'Groups', {},
 	'AllowedMask', 4294966497,
 	'Appearance', "LegionScout_alt_2",
 	'Side', "enemy1",

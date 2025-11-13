@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4533,
+	'version', 4543,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
@@ -18,8 +18,8 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1763051584,
-	'code_hash', 6955747270145158586,
+	'saved', 1763061831,
+	'code_hash', 3443494423231326323,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
@@ -1435,6 +1435,11 @@ return PlaceObj('ModDef', {
 			'Class', "QuestsDef",
 			'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily",
 			'ClassDisplayName', "QuestsEditor",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_PLSHELP",
+			'ClassDisplayName', "Banter",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "UnitDataCompositeDef",
