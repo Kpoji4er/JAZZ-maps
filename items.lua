@@ -45840,7 +45840,7 @@ return {
 				PlaceObj('ModItemUnitDataCompositeDef', {
 					'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
 					'object_class', "UnitData",
-					'BigPortrait', "Mod/Dv3mFVN/Images/M2_Local_Man.png",
+					'BigPortrait', "Mod/Dv3mFVN/Images/M2_Local_Woman.png",
 					'Name', T(356243372579, --[[ModItemUnitDataCompositeDef JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman Name]] "Кики"),
 					'Affiliation', "Civilian",
 					'AppearancesList', {
@@ -46020,6 +46020,9 @@ return {
 										sector_id = "M3",
 									}),
 								},
+								GiveQuests = {
+									"JAZZ_Ernie_Locals_M2_SaveMyFamily",
+								},
 								GoTo = "Goodbye",
 								Keyword = "Мы поможем",
 								KeywordT = T(156655900866, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man KeywordT]] "Мы поможем"),
@@ -46072,6 +46075,13 @@ return {
 							PlaceObj('QuestIsVariableBool', {
 								QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
 								Vars = set( "WomenSaved" ),
+								param_bindings = false,
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+								Vars = set({
+	Completed = false,
+}),
 								param_bindings = false,
 							}),
 						},
@@ -46137,6 +46147,13 @@ return {
 								QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
 								Vars = set({
 	WomenSaved = false,
+}),
+								param_bindings = false,
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+								Vars = set({
+	Completed = false,
 }),
 								param_bindings = false,
 							}),
