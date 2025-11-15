@@ -103,6 +103,23 @@
 		type = "UnitMarker",
 	},
 	{
+		Groups = false,
+		handle = 1096301347,
+		items = {
+			{
+				editor_view_abridged = "if Given",
+				filter_type = "quest",
+				reference_id = "JAZZ_REBELS_1_SeizeTheOutlook",
+				type = "QuestIsVariableBool",
+				var = set( "Given" ),
+			},
+		},
+		map = "cd6xgVh",
+		name = "UnitMarker#347",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
 		Groups = {
 			"Adonis_Sentry_Patrol",
 		},
@@ -437,6 +454,23 @@
 		type = "Waypoint",
 	},
 	{
+		Groups = false,
+		handle = 1304007795,
+		items = {
+			{
+				editor_view_abridged = "if Given",
+				filter_type = "quest",
+				reference_id = "JAZZ_REBELS_1_SeizeTheOutlook",
+				type = "QuestIsVariableBool",
+				var = set( "Given" ),
+			},
+		},
+		map = "cd6xgVh",
+		name = "UnitMarker#795",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
 		Groups = {
 			"Adonis",
 			"CallReinforcements",
@@ -485,6 +519,23 @@
 		items = {},
 		map = "cd6xgVh",
 		name = "UnitMarker#082 (Adonis, EmeraldCoast_Reinforcements, AdonisReinforcements)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = false,
+		handle = 1357517504,
+		items = {
+			{
+				editor_view_abridged = "if Given",
+				filter_type = "quest",
+				reference_id = "JAZZ_REBELS_1_SeizeTheOutlook",
+				type = "QuestIsVariableBool",
+				var = set( "Given" ),
+			},
+		},
+		map = "cd6xgVh",
+		name = "UnitMarker#504",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
@@ -974,6 +1025,23 @@
 		type = "DefenderPriority",
 	},
 	{
+		Groups = false,
+		handle = 1762735104,
+		items = {
+			{
+				editor_view_abridged = "if Given",
+				filter_type = "quest",
+				reference_id = "JAZZ_REBELS_1_SeizeTheOutlook",
+				type = "QuestIsVariableBool",
+				var = set( "Given" ),
+			},
+		},
+		map = "cd6xgVh",
+		name = "UnitMarker#104",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
 		Groups = {
 			"Adonis",
 			"EmeraldCoast_Reinforcements",
@@ -1028,5 +1096,22 @@
 		name = "DefenderPriority#869 (Adonis)",
 		path = "DefenderPriority ",
 		type = "DefenderPriority",
+	},
+	{
+		Groups = false,
+		handle = 1850438412,
+		items = {
+			{
+				editor_view_abridged = "if Given",
+				filter_type = "quest",
+				reference_id = "JAZZ_REBELS_1_SeizeTheOutlook",
+				type = "QuestIsVariableBool",
+				var = set( "Given" ),
+			},
+		},
+		map = "cd6xgVh",
+		name = "UnitMarker#412",
+		path = "UnitMarker ",
+		type = "UnitMarker",
 	},
 }

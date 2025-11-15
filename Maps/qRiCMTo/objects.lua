@@ -819,6 +819,152 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 6,
 	'AreaHeight', 6,
 }, nil, 1386759252)
+PlaceObj('UnitMarker', {
+	'Pos', point(181800, 69000),
+	'AllowedMask', 4294966497,
+	'TriggerConditions', {},
+	'Routine', "Ambient",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('CombatTurn', {
+			Amount = 4,
+			Condition = ">=",
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M2",
+				"M1",
+			},
+		}),
+	},
+	'Appearance', "Recon_Rebels",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost_Guards",
+		}),
+	},
+}, nil, 1318639018)
+PlaceObj('UnitMarker', {
+	'Pos', point(184200, 69000),
+	'AllowedMask', 4294966497,
+	'TriggerConditions', {},
+	'Routine', "Ambient",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('CombatTurn', {
+			Amount = 4,
+			Condition = ">=",
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M2",
+				"M1",
+			},
+		}),
+	},
+	'Appearance', "Recon_Rebels",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost_Guards",
+		}),
+	},
+}, nil, 1607123110)
+PlaceObj('UnitMarker', {
+	'Pos', point(183000, 70200),
+	'AllowedMask', 4294966497,
+	'TriggerConditions', {},
+	'Routine', "Ambient",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('CombatTurn', {
+			Amount = 4,
+			Condition = ">=",
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M2",
+				"M1",
+			},
+		}),
+	},
+	'Appearance', "Recon_Rebels",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost_Guards",
+		}),
+	},
+}, nil, 1020591740)
+PlaceObj('UnitMarker', {
+	'Pos', point(184200, 70200),
+	'AllowedMask', 4294966497,
+	'TriggerConditions', {},
+	'Routine', "Ambient",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('CombatTurn', {
+			Amount = 4,
+			Condition = ">=",
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M2",
+				"M1",
+			},
+		}),
+	},
+	'Appearance', "Recon_Rebels",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost_Guards",
+		}),
+	},
+}, nil, 1266878996)
+PlaceObj('UnitMarker', {
+	'Pos', point(185400, 69000),
+	'AllowedMask', 4294966497,
+	'TriggerConditions', {},
+	'TriggerEffects', {},
+	'Routine', "Ambient",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('CombatTurn', {
+			Amount = 4,
+			Condition = ">=",
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M2",
+				"M1",
+			},
+		}),
+	},
+	'Appearance', "Rebels_NPC_Ghost",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost",
+		}),
+	},
+}, nil, 1658322414)
 PlaceObj('GridMarker', {
 	'Pos', point(193800, 89400, 12600),
 	'Groups', {
@@ -1154,6 +1300,44 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1260921985)
+PlaceObj('UnitMarker', {
+	'Pos', point(239400, 115800),
+	'AllowedMask', 4294966497,
+	'Routine', "Patrol",
+	'RoutineArea', "CivilianShack",
+	'UnitDef', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+			Vars = set( "WomenSaved" ),
+		}),
+	},
+	'Appearance', "VillagerFemale_18",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+		}),
+	},
+}, nil, 1036035094)
+PlaceObj('UnitMarker', {
+	'Pos', point(239400, 117000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'RoutineArea', "CivilianShack",
+	'UnitDef', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+	'Spawn_Conditions', {
+		PlaceObj('SectorCheckOwner', {}),
+	},
+	'Appearance', "VillagerMale_17",
+	'ApproachedBanters', {
+		"JAZZ_Ernie_Locals_M2_SaveMyFamily_PLSHELP",
+	},
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+		}),
+	},
+}, nil, 1711497475)
 PlaceObj('GridMarker', {
 	'Pos', point(163800, 139800, 11900),
 	'Groups', {
@@ -1180,7 +1364,7 @@ PlaceObj('ContainerIntelMarker', {
 	'CollectionIndex', 1334,
 	'AllowedMask', 4294966497,
 	'Name', "SecretStash",
-	'DisplayName', T(654287758819, "SECRET STASH"),
+	'DisplayName', T(654287758819, "ТАЙНИК"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
 			'LootTableId', "IntelSecretStash",
@@ -1197,6 +1381,16 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 6,
 	'AreaHeight', 6,
 }, nil, 1211156858)
+PlaceObj('GridMarker', {
+	'Pos', point(226200, 143400),
+	'Groups', {
+		"CivilianShack",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "",
+	'AreaWidth', 15,
+	'AreaHeight', 15,
+}, nil, 1796484337)
 PlaceObj('UnitMarker', {
 	'Pos', point(233400, 132600),
 	'Angle', 10800,

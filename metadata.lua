@@ -7,16 +7,20 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4519,
+	'version', 4558,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
-		"MapPatches/SetPieces/NewSetpiece_CPeNF5Y/FlagHillLanding.lua",
+		"Code/Rebels_Loyalty.lua",
+		"UnitData/JAZZ_Ernie_Locals_M2_SaveMyFamily_Man.lua",
+		"UnitData/JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman.lua",
+		"InventoryItem/Jazz_Browning_MuchineGun.lua",
+		"InventoryItem/Jazz_Browning_Bench.lua",
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1762893142,
-	'code_hash', 1345675170524483864,
+	'saved', 1763234580,
+	'code_hash', -9016247207351129794,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
@@ -1314,6 +1318,11 @@ return PlaceObj('ModDef', {
 			'ClassDisplayName', "Conversation",
 		}),
 		PlaceObj('ModResourcePreset', {
+			'Class', "Conversation",
+			'Id', "Rebels_Ghost",
+			'ClassDisplayName', "Conversation",
+		}),
+		PlaceObj('ModResourcePreset', {
 			'Class', "CampaignPreset",
 			'Id', "HotDiamonds",
 			'ClassDisplayName', "Campaign",
@@ -1415,12 +1424,57 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "QuestsDef",
-			'Id', "Jazz_ClearTheWay",
+			'Id', "JAZZ_REBELS_0_MeetTheRebels",
 			'ClassDisplayName', "QuestsEditor",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "QuestsDef",
-			'Id', "JAZZ_REBELS_0_MeetTheRebels",
+			'Id', "JAZZ_REBELS_1_SeizeTheOutlook",
+			'ClassDisplayName', "QuestsEditor",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "QuestsDef",
+			'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+			'ClassDisplayName', "QuestsEditor",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "M2_QuestStash_GermanM1",
+			'ClassDisplayName', "LootDef",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "M2_QuestStash_GermanRifle_Random",
+			'ClassDisplayName', "LootDef",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_PLSHELP",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "UnitDataCompositeDef",
+			'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+			'ClassDisplayName', "Unit",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "UnitDataCompositeDef",
+			'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+			'ClassDisplayName', "Unit",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "Conversation",
+			'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+			'ClassDisplayName', "Conversation",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "Conversation",
+			'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+			'ClassDisplayName', "Conversation",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "QuestsDef",
+			'Id', "Jazz_ClearTheWay",
 			'ClassDisplayName', "QuestsEditor",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -1869,6 +1923,16 @@ return PlaceObj('ModDef', {
 			'ClassDisplayName', "LootDef",
 		}),
 		PlaceObj('ModResourcePreset', {
+			'Class', "InventoryItemCompositeDef",
+			'Id', "Jazz_Browning_MuchineGun",
+			'ClassDisplayName', "Inventory item",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "InventoryItemCompositeDef",
+			'Id', "Jazz_Browning_Bench",
+			'ClassDisplayName', "Inventory item",
+		}),
+		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
 			'Id', "RebelHostage",
 			'ClassDisplayName', "Banter",
@@ -1923,17 +1987,10 @@ return PlaceObj('ModDef', {
 			'Id', "MercSquadMaxPeople",
 			'ClassDisplayName', "Constant",
 		}),
-		PlaceObj('ModResourceMap', {
-			'Map', "EPA7FVN",
-			'Objects', {
-				-7060595492719604132,
-				-5204600026592515455,
-				1340843430289419221,
-			},
-		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "SetpiecePrg",
 			'Id', "FlagHillLanding",
+			'Prop', "Map",
 			'ClassDisplayName', "Setpiece",
 		}),
 	},

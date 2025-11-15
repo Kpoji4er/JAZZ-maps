@@ -7497,11 +7497,7 @@ return {
 					'MinFlareCarriers', 3,
 					'MaxFlareCarriers', 7,
 					'bidirectionalRoadApply', true,
-					'Roads', set({
-	East = true,
-	North = false,
-	West = false,
-}),
+					'Roads', set( "East", "North", "South", "West" ),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
@@ -7533,9 +7529,9 @@ return {
 					'MaxFlareCarriers', 29,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	East = false,
+	East = true,
 	North = false,
-	West = false,
+	West = true,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
@@ -7561,6 +7557,7 @@ return {
 					'MinFlareCarriers', 6,
 					'MaxFlareCarriers', 12,
 					'bidirectionalRoadApply', true,
+					'Roads', set( "East", "West" ),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
@@ -7589,8 +7586,8 @@ return {
 					'MaxFlareCarriers', 10,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	East = false,
 	North = false,
+	West = true,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
@@ -9020,6 +9017,10 @@ return {
 		'name', "Code",
 		'comment', "Коды доступа ядерного чемоданчика",
 	}, {
+		PlaceObj('ModItemCode', {
+			'name', "Rebels_Loyalty",
+			'CodeFileName', "Code/Rebels_Loyalty.lua",
+		}),
 		PlaceObj('ModItemFolder', {
 			'name', "UI",
 		}, {
@@ -19595,6 +19596,7 @@ return {
 									param_bindings = false,
 								}),
 							},
+							PhraseConditionRolloverText = T(734426222215, --[[ModItemConversation Ernie_M1_Rebel_Briefing PhraseConditionRolloverText]] "Эмма находится в секторе <em>K4</em>"),
 							id = "3",
 							param_bindings = false,
 							PlaceObj('ConversationPhrase', {
@@ -19602,6 +19604,12 @@ return {
 									PlaceObj('UnitSquadHasMerc', {
 										HasStat = "Wisdom",
 										StatValue = 70,
+										param_bindings = false,
+									}),
+								},
+								Effects = {
+									PlaceObj('GrantExperienceSector', {
+										Amount = "XPQuestReward_Minor",
 										param_bindings = false,
 									}),
 								},
@@ -19624,6 +19632,16 @@ return {
 											param_bindings = false,
 										}),
 									},
+									Effects = {
+										PlaceObj('SectorGrantIntel', {
+											param_bindings = false,
+											sector_id = "L3",
+										}),
+										PlaceObj('GrantExperienceEffect', {
+											Amount = "XPQuestReward_Minor",
+											param_bindings = false,
+										}),
+									},
 									GiveQuests = {
 										"Jazz_ClearTheWay",
 									},
@@ -19636,7 +19654,13 @@ return {
 											Text = T(616034440918, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergeant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Значит, если мы их предварительно зачистим, пробиться к Эмме будет проще?]] "Более того, дезорганизованные группы легиона уже не смогут так эффективно атаковать виллу и вы легко с ними справитесь"),
 											param_bindings = false,
 										}),
+										PlaceObj('ConversationLine', {
+											Character = "RebelSergeant_Immortal_M1",
+											Text = T(616034440918, --[[ModItemConversation Ernie_M1_Rebel_Briefing Text voice:RebelSergeant_Immortal_M1 section:Ernie_M1_Rebel_Briefing keyword:Значит, если мы их предварительно зачистим, пробиться к Эмме будет проще?]] "Мы тут накидали примерный план лагеря в <L3>, готовили штурм, вот смотри, тут секретка, тут охранение, тут проход есть, можно ночью пройти и шомполами в ухо всех перещелкать.\nа с другими стоянками Легов извини, с собой не взял. Тут самому придется <em>разведать</em>. Походи по окрестностям, пару человек на задание можно выделить, кто сметливый и в засаду не попадет."),
+											param_bindings = false,
+										}),
 									},
+									PhraseConditionRolloverText = T(354731875422, --[[ModItemConversation Ernie_M1_Rebel_Briefing PhraseConditionRolloverText]] "<color EmStyle>Лидерство</color>: вы прошли проверку\nНужно зачистить <em>лагеря вокруг Виллы</em>"),
 									id = "2",
 									param_bindings = false,
 								}),
@@ -19677,6 +19701,17 @@ return {
 							id = "4",
 							param_bindings = false,
 							PlaceObj('ConversationPhrase', {
+								Effects = {
+									PlaceObj('SectorGrantIntel', {
+										param_bindings = false,
+										sector_id = "L1",
+									}),
+									PlaceObj('CityGrantLoyalty', {
+										Amount = 5,
+										City = "Rebels_Ernie",
+										param_bindings = false,
+									}),
+								},
 								GiveQuests = {
 									"JAZZ_REBELS_0_MeetTheRebels",
 								},
@@ -19745,6 +19780,238 @@ return {
 							}),
 						},
 						id = "3",
+						param_bindings = false,
+					}),
+				}),
+				PlaceObj('ModItemConversation', {
+					AssignToGroup = "Rebel_NPC_Ghost",
+					DefaultActor = "Rebel_NPC_Ghost",
+					group = "Ernie",
+					id = "Rebels_Ghost",
+					PlaceObj('ConversationPhrase', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"M2",
+								},
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Привет"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "Rebel_NPC_Ghost",
+								Text = T(301982737228, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Greeting]] "Ха... вот это бойня. Рад, что мы на одной стороне."),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "Rebel_NPC_Ghost",
+								Text = T(301982737228, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Greeting]] "Меня зовут Дьяло, но люди обычно называют меня Призрак"),
+								param_bindings = false,
+							}),
+						},
+						id = "Greeting",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						CompleteQuests = {
+							"JAZZ_REBELS_1_SeizeTheOutlook",
+						},
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"M3",
+								},
+								param_bindings = false,
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"M3",
+								},
+								param_bindings = false,
+							}),
+						},
+						Effects = {
+							PlaceObj('UnitGrantItem', {
+								ItemId = "PB",
+								param_bindings = false,
+							}),
+							PlaceObj('UnitGrantItem', {
+								Amount = 40,
+								ItemId = "JAZZ_AMMO_9x18_JHP",
+								param_bindings = false,
+							}),
+							PlaceObj('CityGrantLoyalty', {
+								Amount = 5,
+								City = "Rebels_Ernie",
+								param_bindings = false,
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Medium",
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Привет"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "Rebel_NPC_Ghost",
+								Text = T(542254290130, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Greeting2]] "Сектор под нашем контролем.\nВидимо, они разгружали тут взрывчатку для атаки особняка"),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "Rebel_NPC_Ghost",
+								Text = T(486561062573, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Greeting2]] "Хорошая работа. Я замолвлю за вас словечко в лагере."),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "Rebel_NPC_Ghost",
+								Text = T(466521224694, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Greeting2]] "Вот, держи. Поможет снимать часовых ночью"),
+								param_bindings = false,
+							}),
+						},
+						id = "Greeting2",
+						param_bindings = false,
+						PlaceObj('ConversationPhrase', {
+							Conditions = {
+								PlaceObj('UnitSquadHasMerc', {
+									HasStat = "Leadership",
+									StatValue = 70,
+									param_bindings = false,
+								}),
+							},
+							Keyword = "Нам нужна помощь у особняка",
+							KeywordT = T(275415074134, --[[ModItemConversation Rebels_Ghost KeywordT]] "Нам нужна помощь у особняка"),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "Rebel_NPC_Ghost",
+									Text = T(194077002549, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Нам нужна помощь у особняка]] "С этим я могу вам помочь. Придем к вам на помощь если надо будет."),
+									param_bindings = false,
+								}),
+							},
+							id = "2",
+							param_bindings = false,
+						}),
+					}),
+					PlaceObj('ConversationPhrase', {
+						AutoRemove = true,
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"M2",
+								},
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Что вы делаете тут?",
+						KeywordT = T(244675899202, --[[ModItemConversation Rebels_Ghost KeywordT]] "Что вы делаете тут?"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "Rebel_NPC_Ghost",
+								Text = T(208492606993, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Что вы делаете тут?]] "Считал, сколько человек Легион еще потеряет, прежде чем догадается, что в джунглях их кто-то очень сильно не любит.\nЯ хотел перехватить этот отряд, но вы успели быстрее. Хорошая работа"),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "Rebel_NPC_Ghost",
+								Text = T(208492606993, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Что вы делаете тут?]] "Судя по тому, как вы справились с ними, вы можете мне помочь.\nНедалеко отсюда, к северу от <em>Водопада</em>, есть <em>Смотровая площадка</em> - одно из немногих мест, где Легион выгружает припасы для снабжения острова. Если мы всесте её атакуем, то сможем нарушить логистику в этой части острова"),
+								param_bindings = false,
+							}),
+						},
+						id = "2",
+						param_bindings = false,
+						PlaceObj('ConversationPhrase', {
+							GiveQuests = {
+								"JAZZ_REBELS_1_SeizeTheOutlook",
+							},
+							GoTo = "<end conversation>",
+							Keyword = "Мы согласны",
+							KeywordT = T(441073052992, --[[ModItemConversation Ernie_M1_Rebel_Briefing KeywordT]] "Мы согласны"),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "Rebel_NPC_Ghost",
+									Text = T(109547137433, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Мы согласны]] "Хорошо, значит встретимся после боя"),
+									param_bindings = false,
+								}),
+							},
+							StoryBranchIcon = "conversation_friendly",
+							id = "2",
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationPhrase', {
+							GoTo = "<back>",
+							Keyword = "Водопад?",
+							KeywordT = T(901468674690, --[[ModItemConversation Rebels_Ghost KeywordT]] "Водопад?"),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "Rebel_NPC_Ghost",
+									Text = T(800936062608, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Водопад?]] "Да, дальше по дороге находится <em>водопад</em>. Мы его обойдем и будем вас ждать на <em>Смотровой Площадке</em>"),
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationLine', {
+									Character = "Rebel_NPC_Ghost",
+									Text = T(294541557607, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Водопад?]] "У <em>Водопада</em> вдоль реки находится небольшой отряд легиона - пытаются отрезать отряд Бурды. Но Легион не знает, что вдоль гор есть несколько тайных троп."),
+									param_bindings = false,
+								}),
+							},
+							id = "4",
+							param_bindings = false,
+							PlaceObj('ConversationPhrase', {
+								Conditions = {
+									PlaceObj('UnitSquadHasMerc', {
+										HasStat = "Wisdom",
+										StatValue = 80,
+										param_bindings = false,
+									}),
+								},
+								Effects = {
+									PlaceObj('GrantExperienceSector', {
+										logImportant = true,
+										param_bindings = false,
+									}),
+								},
+								GoTo = "2.2",
+								Keyword = "Тропы?",
+								KeywordT = T(556296913868, --[[ModItemConversation Rebels_Ghost KeywordT]] "Тропы?"),
+								Lines = {
+									PlaceObj('ConversationLine', {
+										Character = "Rebel_NPC_Ghost",
+										Text = T(967669393189, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Тропы?]] "Если бы я рассказал - они перестали бы быть тайными."),
+										param_bindings = false,
+									}),
+								},
+								id = "2",
+								param_bindings = false,
+							}),
+						}),
+						PlaceObj('ConversationPhrase', {
+							Align = "right",
+							GoTo = "<end conversation>",
+							Keyword = "Мы как-нибудь сами справимся",
+							KeywordT = T(519105759968, --[[ModItemConversation Rebels_Ghost KeywordT]] "Мы как-нибудь сами справимся"),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "Rebel_NPC_Ghost",
+									Text = T(774684540869, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Мы как-нибудь сами справимся]] "Жаль. Ну, увидимся в лагере, если вы до туда дойдете"),
+									param_bindings = false,
+								}),
+							},
+							StoryBranchIcon = "conversation_sarcastic",
+							id = "3",
+							param_bindings = false,
+						}),
+					}),
+					PlaceObj('ConversationPhrase', {
+						Keyword = "Goodbye",
+						KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Пока"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "Rebel_NPC_Ghost",
+								Text = T(479802906082, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Goodbye]] "Удачи, наемники"),
+								param_bindings = false,
+							}),
+						},
+						id = "Goodbye",
 						param_bindings = false,
 					}),
 				}),
@@ -31849,8 +32116,8 @@ return {
 					'MaxFlareCarriers', 10,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	East = false,
 	North = false,
+	West = true,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
@@ -31995,6 +32262,7 @@ return {
 					'MinFlareCarriers', 6,
 					'MaxFlareCarriers', 12,
 					'bidirectionalRoadApply', true,
+					'Roads', set( "East", "West" ),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
@@ -32083,9 +32351,9 @@ return {
 					'MaxFlareCarriers', 29,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	East = false,
+	East = true,
 	North = false,
-	West = false,
+	West = true,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
@@ -32191,11 +32459,7 @@ return {
 					'MinFlareCarriers', 3,
 					'MaxFlareCarriers', 7,
 					'bidirectionalRoadApply', true,
-					'Roads', set({
-	East = true,
-	North = false,
-	West = false,
-}),
+					'Roads', set( "East", "North", "South", "West" ),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
@@ -45312,6 +45576,703 @@ return {
 			}),
 			}),
 		PlaceObj('ModItemFolder', {
+			'name', "Rebels",
+		}, {
+			PlaceObj('ModItemQuestsDef', {
+				Chapter = "Ernie_Rebels",
+				DisplayName = T(711512520142, --[[ModItemQuestsDef JAZZ_REBELS_0_MeetTheRebels DisplayName]] "Повстанцы"),
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {}),
+				},
+				NoteDefs = {
+					LastNoteIdx = 1,
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "L1",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"L1",
+								},
+							}),
+						},
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JAZZ_REBELS_0_MeetTheRebels",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(244219612500, --[[ModItemQuestsDef JAZZ_REBELS_0_MeetTheRebels Text]] "Встретиться с лидером повстанцев на острове"),
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+				},
+				group = "Default",
+				id = "JAZZ_REBELS_0_MeetTheRebels",
+			}),
+			PlaceObj('ModItemQuestsDef', {
+				Chapter = "Ernie_Rebels",
+				DisplayName = T(711512520142, --[[ModItemQuestsDef JAZZ_REBELS_1_SeizeTheOutlook DisplayName]] "Атака на Смотровую Площадку"),
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {
+						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+					}),
+				},
+				LastNoteIdx = 1,
+				NoteDefs = {
+					LastNoteIdx = 1,
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+								Sector = "M4",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('PlayerIsInSectors', {
+								QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+								Sectors = {
+									"M4",
+								},
+							}),
+						},
+						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(244219612500, --[[ModItemQuestsDef JAZZ_REBELS_1_SeizeTheOutlook Text]] 'Мы встретили одного из повстанцев - "Призрака". Он предложил нам атаковать <em>Смотровую площадку (Сектор М4)</em> вместе'),
+					}),
+				},
+				QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "M3_UnderControl",
+					}),
+				},
+				group = "Default",
+				id = "JAZZ_REBELS_1_SeizeTheOutlook",
+			}),
+			}),
+		PlaceObj('ModItemFolder', {
+			'name', "Jazz_Ernie_Locals",
+			'comment', "Деревенские жители в Эрни",
+		}, {
+			PlaceObj('ModItemFolder', {
+				'name', "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+			}, {
+				PlaceObj('ModItemQuestsDef', {
+					DisplayName = T(678232896239, --[[ModItemQuestsDef JAZZ_Ernie_Locals_M2_SaveMyFamily DisplayName]] "Спасти Кики"),
+					KillTCEsConditions = {
+						PlaceObj('QuestKillTCEsOnCompleted', {}),
+					},
+					LineVisibleOnGive = 1,
+					NoteDefs = {
+						LastNoteIdx = 2,
+						PlaceObj('QuestNote', {
+							Badges = {
+								PlaceObj('QuestBadgePlacement', {
+									BadgeUnit = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+									Sector = "M3",
+								}),
+							},
+							CompletionConditions = {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+									Vars = set( "WomenSaved" ),
+								}),
+							},
+							ShowConditions = {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+									Vars = set( "Given" ),
+								}),
+							},
+							Text = T(398486569413, --[[ModItemQuestsDef JAZZ_Ernie_Locals_M2_SaveMyFamily Text]] "Кики находится в <em>секторе M3</em>"),
+						}),
+						PlaceObj('QuestNote', {
+							Badges = {
+								PlaceObj('QuestBadgePlacement', {
+									BadgeUnit = "M2_Quest_Stash",
+									Sector = "M1",
+								}),
+							},
+							CompletionConditions = {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+									Vars = set( "StashLooted" ),
+								}),
+							},
+							Idx = 2,
+							ShowConditions = {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+									Vars = set( "StashInfo" ),
+								}),
+							},
+							Text = T(398486569413, --[[ModItemQuestsDef JAZZ_Ernie_Locals_M2_SaveMyFamily Text]] "Тайник немцев находится <em>секторе M1</em>"),
+						}),
+					},
+					Variables = {
+						PlaceObj('QuestVarBool', {
+							Name = "Completed",
+						}),
+						PlaceObj('QuestVarBool', {
+							Name = "Given",
+						}),
+						PlaceObj('QuestVarBool', {
+							Name = "Failed",
+						}),
+						PlaceObj('QuestVarBool', {
+							Name = "NotStarted",
+							Value = true,
+						}),
+						PlaceObj('QuestVarBool', {
+							Name = "WomenSaved",
+						}),
+						PlaceObj('QuestVarBool', {
+							Name = "StashInfo",
+						}),
+						PlaceObj('QuestVarBool', {
+							Name = "StashLooted",
+						}),
+					},
+					group = "Default",
+					id = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+				}),
+				PlaceObj('ModItemLootDef', {
+					group = "Default",
+					id = "M2_QuestStash_GermanM1",
+					loot = "all",
+					PlaceObj('LootEntryLootDef', {
+						loot_def = "M2_QuestStash_GermanRifle_Random",
+					}),
+					PlaceObj('LootEntryLootDef', {
+						loot_def = "M2_QuestStash_GermanRifle_Random",
+					}),
+					PlaceObj('LootEntryInventoryItem', {
+						item = "GoldBar",
+						stack_min = 1,
+					}),
+				}),
+				PlaceObj('ModItemLootDef', {
+					group = "Default",
+					id = "M2_QuestStash_GermanRifle_Random",
+					PlaceObj('LootEntryLootDef', {
+						loot_def = "RiflesSemi_G43",
+					}),
+					PlaceObj('LootEntryLootDef', {
+						loot_def = "Pistols_Luger",
+					}),
+					PlaceObj('LootEntryLootDef', {
+						loot_def = "SMGs_MP40",
+					}),
+					PlaceObj('LootEntryLootDef', {
+						loot_def = "AssaultRifles_STG44_AP",
+						weight = 2000,
+					}),
+					PlaceObj('LootEntryLootDef', {
+						loot_def = "RiflesBolt_Gewehr98",
+					}),
+					PlaceObj('LootEntryLootDef', {
+						loot_def = "BattleRifles_FG42",
+					}),
+				}),
+				PlaceObj('ModItemBanterDef', {
+					Lines = {
+						PlaceObj('BanterLine', {
+							'Text', T(995832500650, --[[ModItemBanterDef JAZZ_Ernie_Locals_M2_SaveMyFamily_PLSHELP Text]] "Вы... вы не из Легиона? Верно?.. Скажите, что нет..."),
+							'Voiced', false,
+						}),
+					},
+					Once = true,
+					group = "Default",
+					id = "JAZZ_Ernie_Locals_M2_SaveMyFamily_PLSHELP",
+				}),
+				PlaceObj('ModItemUnitDataCompositeDef', {
+					'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+					'object_class', "UnitData",
+					'BigPortrait', "Mod/Dv3mFVN/Images/M2_Local_Man.png",
+					'Name', T(399751498001, --[[ModItemUnitDataCompositeDef JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Name]] "Малеко"),
+					'Affiliation', "Civilian",
+					'AppearancesList', {
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerMale_01",
+							'Weight', 100,
+						}),
+					},
+				}),
+				PlaceObj('ModItemUnitDataCompositeDef', {
+					'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+					'object_class', "UnitData",
+					'BigPortrait', "Mod/Dv3mFVN/Images/M2_Local_Woman.png",
+					'Name', T(356243372579, --[[ModItemUnitDataCompositeDef JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman Name]] "Кики"),
+					'Affiliation', "Civilian",
+					'AppearancesList', {
+						PlaceObj('AppearanceWeight', {
+							'Preset', "VillagerFemale_01",
+							'Weight', 100,
+						}),
+					},
+					'FallbackMissingVR', "VillagerFemale",
+				}),
+				PlaceObj('ModItemConversation', {
+					AssignToGroup = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+							Vars = set({
+	Failed = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					DefaultActor = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+					group = "Default",
+					id = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+					PlaceObj('ConversationPhrase', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+								Vars = set({
+	Given = false,
+}),
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Привет"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+								Text = T(477616183845, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Greeting]] "Они забрали Кики... мою девочку... не моя кровь, но... она жила со мной. Единственная душа рядом. Я... я пытался спрятать её... но... я... убежал..."),
+								param_bindings = false,
+							}),
+						},
+						NoBackOption = true,
+						id = "Greeting",
+						param_bindings = false,
+						PlaceObj('ConversationPhrase', {
+							AutoRemove = true,
+							Comment = "",
+							Keyword = "Почему они её забрали?",
+							KeywordT = T(842344790810, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man KeywordT]] "Почему они её забрали?"),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+									Text = T(799215071459, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Почему они её забрали?]] "Она... молодая. Красивая. Легион таких берёт - и продаёт Маман в Пантагрюэль. Если им не надо самим..."),
+									param_bindings = false,
+								}),
+							},
+							StoryBranchIcon = "conversation_friendly",
+							id = "2",
+							param_bindings = false,
+							PlaceObj('ConversationPhrase', {
+								AutoRemove = true,
+								Effects = {
+									PlaceObj('SectorGrantIntel', {
+										param_bindings = false,
+										sector_id = "M3",
+									}),
+								},
+								GoTo = "Greeting.2",
+								Keyword = "Где она сейчас?",
+								KeywordT = T(153180075464, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man KeywordT]] "Где она сейчас?"),
+								Lines = {
+									PlaceObj('ConversationLine', {
+										Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+										Text = T(552716187636, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Где она сейчас?]] "У водопада... в клетке. "),
+										param_bindings = false,
+									}),
+								},
+								id = "2",
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationPhrase', {
+								AutoRemove = true,
+								Keyword = "Что нам за это будет?",
+								KeywordT = T(758897502801, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man KeywordT]] "Что нам за это будет?"),
+								Lines = {
+									PlaceObj('ConversationLine', {
+										Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+										Text = T(552716187636, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Что нам за это будет?]] "Ничего... кроме алмаза. Я отдам. Всё, что есть. Только спасите её."),
+										param_bindings = false,
+									}),
+								},
+								StoryBranchIcon = "conversation_trade",
+								id = "3",
+								param_bindings = false,
+								PlaceObj('ConversationPhrase', {
+									Conditions = {
+										PlaceObj('UnitSquadHasMerc', {
+											HasPerk = "Psycho",
+											param_bindings = false,
+										}),
+									},
+									Effects = {
+										PlaceObj('CityGrantLoyalty', {
+											Amount = -20,
+											City = "ErnieVillage",
+											param_bindings = false,
+										}),
+										PlaceObj('QuestSetVariableBool', {
+											Prop = "Failed",
+											QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+											param_bindings = false,
+										}),
+									},
+									GoTo = "Goodbye",
+									Keyword = "Красивый. Я заберу",
+									KeywordT = T(392834161504, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man KeywordT]] "Красивый. Я заберу"),
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+											Text = T(265216542092, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Красивый. Я заберу]] "...Берите. Кто я такой, чтобы вам мешать."),
+											param_bindings = false,
+										}),
+									},
+									StoryBranchIcon = "conversation_threaten",
+									id = "2",
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationPhrase', {
+									Conditions = {
+										PlaceObj('OR', {
+											Conditions = {
+												PlaceObj('UnitSquadHasMerc', {
+													HasPerk = "Scoundrel",
+													param_bindings = false,
+												}),
+												PlaceObj('UnitSquadHasMerc', {
+													HasPerk = "Negotiator",
+													param_bindings = false,
+												}),
+											},
+											param_bindings = false,
+										}),
+									},
+									Effects = {
+										PlaceObj('QuestSetVariableBool', {
+											Prop = "StashInfo",
+											QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+											param_bindings = false,
+										}),
+										PlaceObj('SectorGrantIntel', {
+											param_bindings = false,
+											sector_id = "M1",
+										}),
+									},
+									GoTo = "Greeting.2",
+									Keyword = "Один алмаз? Маловато",
+									KeywordT = T(619787402322, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man KeywordT]] "Один алмаз? Маловато"),
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+											Text = T(783898195673, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Один алмаз? Маловато]] "Л-ладно... есть ещё схрон... старый, немецкий. Я знаю, где он.\nТам откуда вы пришли, на берегу, вот здесь. Забирайте. Это всё, что я могу дать... только не злитесь."),
+											param_bindings = false,
+										}),
+									},
+									StoryBranchIcon = "conversation_trade",
+									id = "3",
+									param_bindings = false,
+								}),
+							}),
+							PlaceObj('ConversationPhrase', {
+								AutoRemove = true,
+								Effects = {
+									PlaceObj('SectorGrantIntel', {
+										param_bindings = false,
+										sector_id = "M3",
+									}),
+								},
+								GiveQuests = {
+									"JAZZ_Ernie_Locals_M2_SaveMyFamily",
+								},
+								GoTo = "Goodbye",
+								Keyword = "Мы поможем",
+								KeywordT = T(156655900866, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man KeywordT]] "Мы поможем"),
+								Lines = {
+									PlaceObj('ConversationLine', {
+										Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+										Text = T(552716187636, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Мы поможем]] "Спасибо, наемники"),
+										param_bindings = false,
+									}),
+								},
+								StoryBranchIcon = "conversation_friendly",
+								id = "4",
+								param_bindings = false,
+							}),
+						}),
+						PlaceObj('ConversationPhrase', {
+							Align = "right",
+							Effects = {
+								PlaceObj('CityGrantLoyalty', {
+									Amount = -5,
+									City = "ErnieVillage",
+									param_bindings = false,
+								}),
+								PlaceObj('QuestSetVariableBool', {
+									Prop = "Failed",
+									QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+									param_bindings = false,
+								}),
+							},
+							GoTo = "<end conversation>",
+							Keyword = "Нам это не интересно",
+							KeywordT = T(905401528205, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man KeywordT]] "Нам это не интересно"),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+									Text = T(527655061222, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Нам это не интересно]] "Я... понимаю..."),
+									param_bindings = false,
+								}),
+							},
+							StoryBranchIcon = "conversation_back",
+							id = "3",
+							param_bindings = false,
+						}),
+					}),
+					PlaceObj('ConversationPhrase', {
+						CompleteQuests = {
+							"JAZZ_Ernie_Locals_M2_SaveMyFamily",
+						},
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+								Vars = set( "WomenSaved" ),
+								param_bindings = false,
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+								Vars = set({
+	Completed = false,
+}),
+								param_bindings = false,
+							}),
+						},
+						Effects = {
+							PlaceObj('UnitGrantItem', {
+								ItemId = "BigDiamond",
+								param_bindings = false,
+							}),
+							PlaceObj('GrantExperienceSector', {
+								Amount = "XPQuestReward_Medium",
+								param_bindings = false,
+							}),
+						},
+						GoTo = "Goodbye2",
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Привет"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+								Text = T(829584302467, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Greeting2]] "Я вернулась, Малеко."),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+								Text = T(477616183845, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Greeting2]] "Кики... Кики... живая..."),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+								Text = T(477616183845, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Greeting2]] "Я... я обязан вам. Возьмите. Это всё, что у меня есть."),
+								param_bindings = false,
+							}),
+						},
+						id = "Greeting2",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						CompleteQuests = {
+							"JAZZ_Ernie_Locals_M2_SaveMyFamily",
+						},
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+								Vars = set( "Completed" ),
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Привет"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+								Text = T(477616183845, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Greeting3]] "Приветствую, наемники"),
+								param_bindings = false,
+							}),
+						},
+						id = "Greeting3",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+								Vars = set({
+	WomenSaved = false,
+}),
+								param_bindings = false,
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+								Vars = set({
+	Completed = false,
+}),
+								param_bindings = false,
+							}),
+						},
+						GoTo = "<end conversation>",
+						Keyword = "Goodbye",
+						KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Пока"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+								Text = T(955085089872, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Goodbye]] "Она всё что у меня есть"),
+								param_bindings = false,
+							}),
+						},
+						id = "Goodbye2",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+								Vars = set( "WomenSaved" ),
+								param_bindings = false,
+							}),
+						},
+						GoTo = "<end conversation>",
+						Keyword = "Goodbye",
+						KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Пока"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
+								Text = T(770127733590, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Goodbye]] "Никогда вас не забуду"),
+								param_bindings = false,
+							}),
+						},
+						id = "Goodbye",
+						param_bindings = false,
+					}),
+				}),
+				PlaceObj('ModItemConversation', {
+					AssignToGroup = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+							Vars = set({
+	Completed = false,
+}),
+							param_bindings = false,
+						}),
+					},
+					DefaultActor = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+					group = "Default",
+					id = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+					PlaceObj('ConversationPhrase', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"M3",
+								},
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Привет"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+								Text = T(301947357775, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman keyword:Greeting2]] "Кто... кто вы? Вы не из Легиона... да?"),
+								param_bindings = false,
+							}),
+						},
+						id = "Greeting2",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"M3",
+								},
+								param_bindings = false,
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "WomenSaved",
+								QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+								param_bindings = false,
+							}),
+						},
+						GoTo = "<end conversation>",
+						Keyword = "Мы пришли тебя спасти",
+						KeywordT = T(856548228865, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman KeywordT]] "Мы пришли тебя спасти"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+								Text = T(220944800456, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman keyword:Мы пришли тебя спасти]] "Значит... Малеко всё-таки позвал помощь."),
+								param_bindings = false,
+							}),
+						},
+						id = "2",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Keyword = "Goodbye",
+						KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Пока"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
+								param_bindings = false,
+							}),
+						},
+						id = "Goodbye2",
+						param_bindings = false,
+					}),
+				}),
+				}),
+			}),
+		PlaceObj('ModItemFolder', {
 			'name', "Jazz side",
 			'comment', "Джазовые сайды",
 		}, {
@@ -45572,54 +46533,6 @@ return {
 				},
 				group = "Default",
 				id = "Jazz_ClearTheWay",
-			}),
-			PlaceObj('ModItemQuestsDef', {
-				Chapter = "Ernie_Rebels",
-				DisplayName = T(711512520142, --[[ModItemQuestsDef JAZZ_REBELS_0_MeetTheRebels DisplayName]] "Повстанцы"),
-				KillTCEsConditions = {
-					PlaceObj('QuestKillTCEsOnCompleted', {}),
-				},
-				NoteDefs = {
-					LastNoteIdx = 1,
-					PlaceObj('QuestNote', {
-						Badges = {
-							PlaceObj('QuestBadgePlacement', {
-								Sector = "L1",
-							}),
-						},
-						HideConditions = {
-							PlaceObj('PlayerIsInSectors', {
-								Sectors = {
-									"L1",
-								},
-							}),
-						},
-						ShowConditions = {
-							PlaceObj('QuestIsVariableBool', {
-								QuestId = "JAZZ_REBELS_0_MeetTheRebels",
-								Vars = set( "Given" ),
-							}),
-						},
-						Text = T(244219612500, --[[ModItemQuestsDef JAZZ_REBELS_0_MeetTheRebels Text]] "Встретиться с лидером повстанцев на острове"),
-					}),
-				},
-				Variables = {
-					PlaceObj('QuestVarBool', {
-						Name = "Completed",
-					}),
-					PlaceObj('QuestVarBool', {
-						Name = "Given",
-					}),
-					PlaceObj('QuestVarBool', {
-						Name = "Failed",
-					}),
-					PlaceObj('QuestVarBool', {
-						Name = "NotStarted",
-						Value = true,
-					}),
-				},
-				group = "Default",
-				id = "JAZZ_REBELS_0_MeetTheRebels",
 			}),
 			PlaceObj('ModItemQuestsDef', {
 				DevNotes = "Спасение Партизан на острове, Легион растрепал их в щи, Выполнение этого квеста даст многое в дальнейшем. И частично поможет в прохождении игры. Он не основной, но вспомогательный.",
@@ -85894,8 +86807,15 @@ return {
 										QuestId = "FortifyErnie",
 										Vars = set( "MachineGun_Declined", "MachineGun_Done" ),
 									}),
-									PlaceObj('UnitSquadHasItem', {
-										ItemId = "MG42",
+									PlaceObj('AND', {
+										Conditions = {
+											PlaceObj('UnitSquadHasItem', {
+												ItemId = "Jazz_Browning_MuchineGun",
+											}),
+											PlaceObj('UnitSquadHasItem', {
+												ItemId = "Jazz_Browning_Bench",
+											}),
+										},
 									}),
 								},
 							}),
@@ -85907,7 +86827,7 @@ return {
 								Vars = set( "MachineGun_Given" ),
 							}),
 						},
-						Text = T(809144720392, --[[ModItemQuestsDef FortifyErnie Text]] "Basil needs a MG42 <em>machine gun</em> to protect the <em><SectorName('H2')></em>"),
+						Text = T(809144720392, --[[ModItemQuestsDef FortifyErnie Text]] "Basil needs a Browning .50 cal. <em>machine gun</em> to protect the <em><SectorName('H2')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -85937,7 +86857,7 @@ return {
 								Vars = set( "MachineGun_Given" ),
 							}),
 						},
-						Text = T(990717185362, --[[ModItemQuestsDef FortifyErnie Text]] "There is a MG42 <em>machine gun</em> in the bunker at <em><SectorName('I6')></em>"),
+						Text = T(990717185362, --[[ModItemQuestsDef FortifyErnie Text]] "There is a Browning <em>machine gun</em> in the bunker at <em><SectorName('I6')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -85992,7 +86912,7 @@ return {
 								Vars = set( "MachineGun_Done" ),
 							}),
 						},
-						Text = T(826675773932, --[[ModItemQuestsDef FortifyErnie Text]] "<em>Outcome:</em> Gave the MG42 <em>machine gun</em> to Basil"),
+						Text = T(826675773932, --[[ModItemQuestsDef FortifyErnie Text]] "<em>Outcome:</em> Gave the Browning .50 cal. <em>machine gun</em> to Basil"),
 					}),
 					PlaceObj('QuestNote', {
 						CompletionConditions = {
@@ -86008,7 +86928,7 @@ return {
 								Vars = set( "MachineGun_Declined" ),
 							}),
 						},
-						Text = T(495827247577, --[[ModItemQuestsDef FortifyErnie Text]] "<em>Outcome:</em> Refused to give Basil the MG42 <em>machine gun</em>"),
+						Text = T(495827247577, --[[ModItemQuestsDef FortifyErnie Text]] "<em>Outcome:</em> Refused to give Basil the Browning .50 cal. <em>machine gun</em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -86191,8 +87111,15 @@ return {
 									"I6_Underground",
 								},
 							}),
-							PlaceObj('UnitSquadHasItem', {
-								ItemId = "MG42",
+							PlaceObj('AND', {
+								Conditions = {
+									PlaceObj('UnitSquadHasItem', {
+										ItemId = "Jazz_Browning_Bench",
+									}),
+									PlaceObj('UnitSquadHasItem', {
+										ItemId = "Jazz_Browning_MuchineGun",
+									}),
+								},
 							}),
 						},
 						Effects = {
@@ -86226,7 +87153,7 @@ return {
 							}),
 							PlaceObj('SetSectorAutoResolveDefenderBonus', {
 								autoResolveDefenderBonus = 500,
-								sector_id = "H2",
+								sector_id = "I5",
 							}),
 						},
 						Once = true,
@@ -86295,7 +87222,7 @@ return {
 						Name = "SpawnReinforcements",
 					}),
 					PlaceObj('QuestVarNum', {
-						Name = "LoyaltyGain_MG42",
+						Name = "LoyaltyGain_Browning",
 						Value = 10,
 					}),
 					PlaceObj('QuestVarBool', {
@@ -87216,7 +88143,7 @@ return {
 										WaitOver = true,
 									}),
 									PlaceObj('SectorCheckOwner', {
-										sector_id = "I2",
+										sector_id = "J5",
 									}),
 								},
 							}),
@@ -87251,7 +88178,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"I2",
+									"M4",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -96279,6 +97206,31 @@ return {
 			}),
 		}),
 		}),
+	PlaceObj('ModItemInventoryItemCompositeDef', {
+		'Group', "Quest - Items",
+		'Id', "Jazz_Browning_MuchineGun",
+		'object_class', "InventoryItem",
+		'Repairable', false,
+		'Icon', "UI/Icons/Weapons/M2Browning",
+		'SubIcon', "UI/Icons/Weapons/M2Browning",
+		'DisplayName', T(126002992863, --[[ModItemInventoryItemCompositeDef Jazz_Browning_MuchineGun DisplayName]] "Браунинг .50"),
+		'DisplayNamePlural', T(861955157003, --[[ModItemInventoryItemCompositeDef Jazz_Browning_MuchineGun DisplayNamePlural]] "Браунинги .50"),
+		'Description', T(349426689660, --[[ModItemInventoryItemCompositeDef Jazz_Browning_MuchineGun Description]] "Пулемёт Браунинг калибра 12.7х99, С РУК НЕ СТРЕЛЯТЬ!!!"),
+		'AdditionalHint', T(773306762695, --[[ModItemInventoryItemCompositeDef Jazz_Browning_MuchineGun AdditionalHint]] "Без Триноги."),
+		'LargeItem', 1,
+	}),
+	PlaceObj('ModItemInventoryItemCompositeDef', {
+		'Group', "Quest - Items",
+		'Id', "Jazz_Browning_Bench",
+		'object_class', "InventoryItem",
+		'Icon', "UI/Icons/Weapons/M2Browning",
+		'SubIcon', "UI/Icons/Weapons/M2Browning",
+		'DisplayName', T(842567173624, --[[ModItemInventoryItemCompositeDef Jazz_Browning_Bench DisplayName]] "Тринога для пулемёта Браунинг .50"),
+		'DisplayNamePlural', T(204691184640, --[[ModItemInventoryItemCompositeDef Jazz_Browning_Bench DisplayNamePlural]] "Триноги для пулемёта Браунинг .50"),
+		'Description', T(374492121427, --[[ModItemInventoryItemCompositeDef Jazz_Browning_Bench Description]] "Станок для установки крупнокалиберного пулемёта Браунинг"),
+		'AdditionalHint', T(729018809211, --[[ModItemInventoryItemCompositeDef Jazz_Browning_Bench AdditionalHint]] "Большая, тяжелая хреновина"),
+		'LargeItem', 1,
+	}),
 	PlaceObj('ModItemFolder', {
 		'name', "Quest Banters",
 		'comment', "Бантеры для квестов",
@@ -96363,138 +97315,10 @@ return {
 			value = 12,
 		}),
 		}),
-	PlaceObj('ModItemSetpiecePrg', {
-		CameraMode = "Show all",
-		Map = "EPA7FVN",
-		MapPatchPath = "Mod/FhNNYd/MapPatches/SetPieces/NewSetpiece_CPeNF5Y/EPA7FVN.patch",
-		RestoreCamera = true,
-		affected_grids = {},
-		compacted_obj_boxes = {},
-		group = "Default",
-		id = "FlagHillLanding",
-		mapName = "NewSetpiece_CPeNF5Y",
-		obj_hashes = {
-			-7060595492719604132,
-			-5204600026592515455,
-			1340843430289419221,
-		},
-		PlaceObj('SetpieceFadeOut', {
-			FadeOutTime = 0,
-		}),
-		PlaceObj('SetpieceAssignFromSquad', {
-			AssignTo = "Merc1",
-		}),
-		PlaceObj('SetpieceAssignFromSquad', {
-			AssignTo = "Merc2",
-			Unit = 2,
-		}),
-		PlaceObj('SetpieceAssignFromSquad', {
-			AssignTo = "Merc3",
-			Unit = 3,
-		}),
-		PlaceObj('SetpieceAssignFromSquad', {
-			AssignTo = "Merc4",
-			Unit = 4,
-		}),
-		PlaceObj('SetpieceAssignFromSquad', {
-			AssignTo = "Merc5",
-			Unit = 5,
-		}),
-		PlaceObj('SetpieceAssignFromSquad', {
-			AssignTo = "Merc6",
-			Unit = 6,
-		}),
-		PlaceObj('SetpieceSetStance', {
-			Actors = "Merc2",
-		}),
-		PlaceObj('SetpieceSetStance', {
-			Actors = "Merc4",
-		}),
-		PlaceObj('SetpieceSetStance', {
-			Actors = "Merc5",
-		}),
-		PlaceObj('SetpieceSetStance', {
-			Actors = "Merc6",
-		}),
-		PlaceObj('SetpieceTeleport', {
-			Actors = "Merc1",
-			AssignTo = "SP_Merc1_Start",
-			Marker = "SP_Merc1_Start",
-		}),
-		PlaceObj('SetpieceTeleport', {
-			Actors = "Merc2",
-			AssignTo = "SP_Merc1_Start",
-			Marker = "SP_Merc2_Start",
-		}),
-		PlaceObj('SetpieceTeleport', {
-			Actors = "Merc3",
-			AssignTo = "SP_Merc1_Start",
-			Marker = "SP_Merc3_Start",
-		}),
-		PlaceObj('SetpieceTeleport', {
-			Actors = "Merc4",
-			AssignTo = "SP_Merc1_Start",
-			Marker = "SP_Merc4_Start",
-		}),
-		PlaceObj('SetpieceTeleport', {
-			Actors = "Merc5",
-			AssignTo = "SP_Merc1_Start",
-			Marker = "SP_Merc5_Start",
-		}),
-		PlaceObj('SetpieceTeleport', {
-			Actors = "Merc6",
-			AssignTo = "SP_Merc1_Start",
-			Marker = "SP_Merc6_Start",
-		}),
-		PlaceObj('SetpieceGotoPosition', {
-			Actors = "Merc1",
-			Marker = "SP_Merc1_GoTo",
-			Stance = "Standing",
-			StraightLine = true,
-			UseRun = false,
-			Wait = false,
-			animated_rotation = true,
-		}),
-		PlaceObj('SetpieceGotoPosition', {
-			Actors = "Merc3",
-			Marker = "SP_Merc3_GoTo",
-			Stance = "Standing",
-			StraightLine = true,
-			UseRun = false,
-			Wait = false,
-			animated_rotation = true,
-		}),
-		PlaceObj('SetpieceCamera', {
-			Duration = 0,
-			LookAt1 = point(191569, 98363, 12039),
-			Pos1 = point(193834, 94419, 14116),
-			Wait = false,
-		}),
-		PlaceObj('SetpieceFadeIn', {
-			FadeInDelay = 0,
-			FadeInTime = 2000,
-			Wait = false,
-		}),
-		PlaceObj('SetpieceCamera', {
-			Duration = 8000,
-			LookAt1 = point(193174, 101618, 9567),
-			LookAt2 = point(188612, 105716, 12523),
-			Movement = "decelerated",
-			Pos1 = point(195006, 99243, 9559),
-			Pos2 = point(189644, 102936, 12986),
-		}),
-		PlaceObj('SetpieceFadeOut', {
-			FadeOutTime = 1700,
-		}),
-		PlaceObj('SetpieceCamera', {
-			CamProps = {
-				floor = 0,
-			},
-			CamType = "Tac",
-			Duration = 0,
-			LookAt1 = point(181252, 123610, 6678),
-			Pos1 = point(188060, 109452, 17678),
-			Zoom = 1300,
-		}),
+	PlaceObj('ModItemChangeProp', {
+		'TargetClass', "SetpiecePrg",
+		'TargetId', "FlagHillLanding",
+		'TargetProp', "Map",
+		'TargetValue', "EPA7FVN",
 	}),
 }

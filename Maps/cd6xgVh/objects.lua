@@ -759,6 +759,176 @@ PlaceObj('Collection', {
 	'Index', 803,
 }, nil, 1896789673)
 SetNextSyncHandle(2000000001)
+PlaceObj('UnitMarker', {
+	'Pos', point(69000, 123000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('CombatTurn', {
+			Amount = 4,
+			Condition = ">=",
+		}),
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+			Vars = set( "Given" ),
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M3",
+			},
+		}),
+	},
+	'Appearance', "Recon_Rebels",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost_Guards",
+		}),
+	},
+	'status_effects', {
+		"HighAlert",
+	},
+}, nil, 1762735104)
+PlaceObj('UnitMarker', {
+	'Pos', point(70200, 124200),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('CombatTurn', {
+			Amount = 4,
+			Condition = ">=",
+		}),
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+			Vars = set( "Given" ),
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M3",
+			},
+		}),
+	},
+	'Appearance', "Recon_Rebels",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost_Guards",
+		}),
+	},
+	'status_effects', {
+		"HighAlert",
+	},
+}, nil, 1096301347)
+PlaceObj('UnitMarker', {
+	'Pos', point(71400, 123000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('CombatTurn', {
+			Amount = 4,
+			Condition = ">=",
+		}),
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+			Vars = set( "Given" ),
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M3",
+			},
+		}),
+	},
+	'Appearance', "Recon_Rebels",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost_Guards",
+		}),
+	},
+	'status_effects', {
+		"HighAlert",
+	},
+}, nil, 1850438412)
+PlaceObj('UnitMarker', {
+	'Pos', point(71400, 124200),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('CombatTurn', {
+			Amount = 4,
+			Condition = ">=",
+		}),
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+			Vars = set( "Given" ),
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M3",
+			},
+		}),
+	},
+	'Appearance', "Recon_Rebels",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost_Guards",
+		}),
+	},
+	'status_effects', {
+		"HighAlert",
+	},
+}, nil, 1357517504)
+PlaceObj('UnitMarker', {
+	'Pos', point(72600, 123000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'RoutineArea', "AL_Defender",
+	'Spawn_Conditions', {
+		PlaceObj('CombatTurn', {
+			Amount = 4,
+			Condition = ">=",
+		}),
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+			Vars = set( "Given" ),
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M3",
+			},
+		}),
+	},
+	'Appearance', "Rebels_NPC_Ghost",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost",
+		}),
+	},
+	'status_effects', {
+		"HighAlert",
+	},
+}, nil, 1304007795)
 PlaceObj('GridMarker', {
 	'Pos', point(111000, 120600, 12600),
 	'Groups', {

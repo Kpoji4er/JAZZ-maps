@@ -1,5 +1,41 @@
 {
 	{
+		Groups = {
+			"M2_Quest_Stash",
+		},
+		LootTableIds = {
+			"M2_QuestStash_GermanM1",
+		},
+		handle = 74203136,
+		items = {
+			{
+				editor_view_abridged = "StashLooted = true",
+				filter_type = "quest",
+				reference_id = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+				type = "QuestSetVariableBool",
+				var = "StashLooted",
+			},
+			{
+				editor_view_abridged = "if StashInfo",
+				filter_type = "quest",
+				reference_id = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+				type = "QuestIsVariableBool",
+				var = set( "StashInfo" ),
+			},
+			{
+				editor_view_abridged = "if StashInfo",
+				filter_type = "quest",
+				reference_id = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+				type = "QuestIsVariableBool",
+				var = set( "StashInfo" ),
+			},
+		},
+		map = "EPA7FVN",
+		name = 'InventoryItemSpawn#136 M2_Quest_Stash "Сумка" (M2_Quest_Stash)',
+		path = "InventoryItemSpawn M2_Quest_Stash",
+		type = "InventoryItemSpawn",
+	},
+	{
 		Groups = false,
 		LootTableIds = {
 			"LootBox09_parts",
@@ -14,7 +50,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Noob_762x51_Machinegun",
+			"762x51_sniper_ammo",
 		},
 		handle = 390053888,
 		map = "EPA7FVN",
@@ -25,7 +61,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"LegionStrong_M3GreaseGun",
+			"SMGs_M3GreaseGun",
 		},
 		handle = 718258176,
 		map = "EPA7FVN",
@@ -47,8 +83,9 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Noob_9x18",
+			"9x18_pistol_ammo_ap",
 			"Jazz_Random_Ammo_Drop_T1",
+			"9x18_pistol_ammo",
 		},
 		handle = 921575424,
 		map = "EPA7FVN",
@@ -744,6 +781,32 @@
 	},
 	{
 		Groups = {
+			"M2_Quest_Stash",
+		},
+		handle = 1465812663,
+		items = {
+			{
+				editor_view_abridged = "if StashLooted",
+				filter_type = "quest",
+				reference_id = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+				type = "QuestIsVariableBool",
+				var = set( "StashLooted" ),
+			},
+			{
+				editor_view_abridged = "if StashLooted",
+				filter_type = "quest",
+				reference_id = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+				type = "QuestIsVariableBool",
+				var = set( "StashLooted" ),
+			},
+		},
+		map = "EPA7FVN",
+		name = "UnitMarker#663 (M2_Quest_Stash)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
 			"Start_Legion",
 		},
 		handle = 1470031786,
@@ -902,6 +965,32 @@
 		},
 		map = "EPA7FVN",
 		name = "UnitMarker#354 (Start_Legion)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"M2_Quest_Stash",
+		},
+		handle = 1608292366,
+		items = {
+			{
+				editor_view_abridged = "if StashLooted",
+				filter_type = "quest",
+				reference_id = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+				type = "QuestIsVariableBool",
+				var = set( "StashLooted" ),
+			},
+			{
+				editor_view_abridged = "if StashLooted",
+				filter_type = "quest",
+				reference_id = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+				type = "QuestIsVariableBool",
+				var = set( "StashLooted" ),
+			},
+		},
+		map = "EPA7FVN",
+		name = "UnitMarker#366 (M2_Quest_Stash)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
@@ -1147,17 +1236,35 @@
 			"Helping_Rebels",
 		},
 		handle = 1868573068,
+		items = {},
+		map = "EPA7FVN",
+		name = "UnitMarker#068 (Helping_Rebels)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"M2_Quest_Stash",
+		},
+		handle = 1874451641,
 		items = {
 			{
-				editor_view_abridged = "if Given and M1_Captured",
+				editor_view_abridged = "if StashLooted",
 				filter_type = "quest",
-				reference_id = "01_Landing",
+				reference_id = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
 				type = "QuestIsVariableBool",
-				var = set( "Given", "M1_Captured" ),
+				var = set( "StashLooted" ),
+			},
+			{
+				editor_view_abridged = "if StashLooted",
+				filter_type = "quest",
+				reference_id = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+				type = "QuestIsVariableBool",
+				var = set( "StashLooted" ),
 			},
 		},
 		map = "EPA7FVN",
-		name = "UnitMarker#068 (Helping_Rebels)",
+		name = "UnitMarker#641 (M2_Quest_Stash)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
