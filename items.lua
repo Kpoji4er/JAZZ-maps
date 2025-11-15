@@ -19821,13 +19821,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"M3",
-								},
-								param_bindings = false,
-							}),
-							PlaceObj('PlayerIsInSectors', {
-								Sectors = {
-									"M3",
+									"M4",
 								},
 								param_bindings = false,
 							}),
@@ -20002,6 +19996,7 @@ return {
 						}),
 					}),
 					PlaceObj('ConversationPhrase', {
+						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
 						KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Пока"),
 						Lines = {
