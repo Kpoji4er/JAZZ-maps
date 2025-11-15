@@ -7,10 +7,11 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4543,
+	'version', 4552,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
+		"Code/Rebels_Loyalty.lua",
 		"UnitData/JAZZ_Ernie_Locals_M2_SaveMyFamily_Man.lua",
 		"UnitData/JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman.lua",
 		"InventoryItem/Jazz_Browning_MuchineGun.lua",
@@ -18,8 +19,8 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1763061831,
-	'code_hash', 3443494423231326323,
+	'saved', 1763171291,
+	'code_hash', -2858756866446188484,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
@@ -1435,6 +1436,16 @@ return PlaceObj('ModDef', {
 			'Class', "QuestsDef",
 			'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily",
 			'ClassDisplayName', "QuestsEditor",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "M2_QuestStash_GermanM1",
+			'ClassDisplayName', "LootDef",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "M2_QuestStash_GermanRifle_Random",
+			'ClassDisplayName', "LootDef",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",

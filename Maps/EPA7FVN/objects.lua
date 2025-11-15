@@ -78,6 +78,13 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Name', "col_BunkerInterior_AmmoBox_01",
+	'Index', 878,
+}, nil, 1594407580)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_Debris_Sticks_03",
 	'Index', 2980,
 }, nil, 1605418950)
@@ -909,6 +916,43 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1066578729)
+PlaceObj('GridMarker', {
+	'Pos', point(117000, 204600),
+	'CollectionIndex', 878,
+	'AllowedMask', 4294966497,
+}, nil, 1768533603)
+PlaceObj('ContainerMarker', {
+	'Pos', point(118200, 203400),
+	'Groups', {
+		"M2_Quest_Stash",
+	},
+	'CollectionIndex', 878,
+	'AllowedMask', 4294966497,
+	'ID', "M2_Quest_Stash",
+	'TriggerEffects', {
+		PlaceObj('QuestSetVariableBool', {
+			Prop = "StashLooted",
+			QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+		}),
+	},
+	'EnabledConditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+			Vars = set( "StashInfo" ),
+		}),
+	},
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+			Vars = set( "StashInfo" ),
+		}),
+	},
+	'ItemSpawners', {
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "M2_QuestStash_GermanM1",
+		}),
+	},
+}, nil, 74203136)
 PlaceObj('UnitMarker', {
 	'Pos', point(132600, 90600, 15400),
 	'Angle', 10800,
@@ -1554,6 +1598,32 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1404059728)
+PlaceObj('UnitMarker', {
+	'Pos', point(138600, 204600),
+	'Groups', {
+		"M2_Quest_Stash",
+	},
+	'AllowedMask', 4294966497,
+	'EnabledConditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+			Vars = set( "StashLooted" ),
+		}),
+	},
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+			Vars = set( "StashLooted" ),
+		}),
+	},
+	'Appearance', "Legion_Recon03",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
+		}),
+	},
+}, nil, 1608292366)
 PlaceObj('GridMarker', {
 	'Pos', point(142200, 204600),
 	'AllowedMask', 4294966497,
@@ -1594,6 +1664,32 @@ PlaceObj('GridMarker', {
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
 }, nil, 1290999272)
+PlaceObj('UnitMarker', {
+	'Pos', point(139800, 210600),
+	'Groups', {
+		"M2_Quest_Stash",
+	},
+	'AllowedMask', 4294966497,
+	'EnabledConditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+			Vars = set( "StashLooted" ),
+		}),
+	},
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+			Vars = set( "StashLooted" ),
+		}),
+	},
+	'Appearance', "Legion_Recon02",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
+		}),
+	},
+}, nil, 1874451641)
 PlaceObj('UnitMarker', {
 	'Pos', point(148200, 204600, 14700),
 	'Angle', 16200,
@@ -1659,6 +1755,32 @@ PlaceObj('GridMarker', {
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
 }, nil, 1113373897)
+PlaceObj('UnitMarker', {
+	'Pos', point(150600, 205800),
+	'Groups', {
+		"M2_Quest_Stash",
+	},
+	'AllowedMask', 4294966497,
+	'EnabledConditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+			Vars = set( "StashLooted" ),
+		}),
+	},
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "JAZZ_Ernie_Locals_M2_SaveMyFamily",
+			Vars = set( "StashLooted" ),
+		}),
+	},
+	'Appearance', "LegionButcher_Stronger_Elite_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT3_SkullCrusher",
+		}),
+	},
+}, nil, 1465812663)
 PlaceObj('GridMarker', {
 	'Pos', point(165000, 198600),
 	'AllowedMask', 4294966497,
@@ -32145,6 +32267,14 @@ PlaceObj('CoastalPlant_01_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1548506342)
+PlaceObj('BunkerInterior_AmmoBox_01', {
+	'Pos', point(117867, 202857),
+	'ColorModifier', RGBA(60, 38, 8, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 878,
+	'AllowedMask', 782,
+}, nil, 1387770454)
 PlaceObj('TropicalFillerPlants_02', {
 	'Pos', point(119000, 197000),
 	'Angle', 8622,
