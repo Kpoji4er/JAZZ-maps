@@ -825,6 +825,7 @@ PlaceObj('UnitMarker', {
 	'TriggerConditions', {},
 	'Routine', "Ambient",
 	'RoutineArea', "AL_Defender",
+	'Suspicious', true,
 	'Spawn_Conditions', {
 		PlaceObj('CombatTurn', {
 			Amount = 4,
@@ -854,6 +855,7 @@ PlaceObj('UnitMarker', {
 	'TriggerConditions', {},
 	'Routine', "Ambient",
 	'RoutineArea', "AL_Defender",
+	'Suspicious', true,
 	'Spawn_Conditions', {
 		PlaceObj('CombatTurn', {
 			Amount = 4,
@@ -883,6 +885,7 @@ PlaceObj('UnitMarker', {
 	'TriggerConditions', {},
 	'Routine', "Ambient",
 	'RoutineArea', "AL_Defender",
+	'Suspicious', true,
 	'Spawn_Conditions', {
 		PlaceObj('CombatTurn', {
 			Amount = 4,
@@ -912,6 +915,7 @@ PlaceObj('UnitMarker', {
 	'TriggerConditions', {},
 	'Routine', "Ambient",
 	'RoutineArea', "AL_Defender",
+	'Suspicious', true,
 	'Spawn_Conditions', {
 		PlaceObj('CombatTurn', {
 			Amount = 4,
@@ -942,6 +946,7 @@ PlaceObj('UnitMarker', {
 	'TriggerEffects', {},
 	'Routine', "Ambient",
 	'RoutineArea', "AL_Defender",
+	'Suspicious', true,
 	'Spawn_Conditions', {
 		PlaceObj('CombatTurn', {
 			Amount = 4,

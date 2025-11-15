@@ -103,7 +103,9 @@
 		type = "UnitMarker",
 	},
 	{
-		Groups = false,
+		Groups = {
+			"Rebels_Help",
+		},
 		handle = 1096301347,
 		items = {
 			{
@@ -113,9 +115,16 @@
 				type = "QuestIsVariableBool",
 				var = set( "Given" ),
 			},
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "JAZZ_REBELS_1_SeizeTheOutlook",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
 		},
 		map = "cd6xgVh",
-		name = "UnitMarker#347",
+		name = "UnitMarker#347 (Rebels_Help)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
@@ -454,7 +463,9 @@
 		type = "Waypoint",
 	},
 	{
-		Groups = false,
+		Groups = {
+			"Rebels_Help",
+		},
 		handle = 1304007795,
 		items = {
 			{
@@ -464,9 +475,16 @@
 				type = "QuestIsVariableBool",
 				var = set( "Given" ),
 			},
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "JAZZ_REBELS_1_SeizeTheOutlook",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
 		},
 		map = "cd6xgVh",
-		name = "UnitMarker#795",
+		name = "UnitMarker#795 (Rebels_Help)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
@@ -523,7 +541,9 @@
 		type = "UnitMarker",
 	},
 	{
-		Groups = false,
+		Groups = {
+			"Rebels_Help",
+		},
 		handle = 1357517504,
 		items = {
 			{
@@ -533,9 +553,16 @@
 				type = "QuestIsVariableBool",
 				var = set( "Given" ),
 			},
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "JAZZ_REBELS_1_SeizeTheOutlook",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
 		},
 		map = "cd6xgVh",
-		name = "UnitMarker#504",
+		name = "UnitMarker#504 (Rebels_Help)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
@@ -1025,7 +1052,9 @@
 		type = "DefenderPriority",
 	},
 	{
-		Groups = false,
+		Groups = {
+			"Rebels_Help",
+		},
 		handle = 1762735104,
 		items = {
 			{
@@ -1035,9 +1064,16 @@
 				type = "QuestIsVariableBool",
 				var = set( "Given" ),
 			},
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "JAZZ_REBELS_1_SeizeTheOutlook",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
 		},
 		map = "cd6xgVh",
-		name = "UnitMarker#104",
+		name = "UnitMarker#104 (Rebels_Help)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
@@ -1098,7 +1134,9 @@
 		type = "DefenderPriority",
 	},
 	{
-		Groups = false,
+		Groups = {
+			"Rebels_Help",
+		},
 		handle = 1850438412,
 		items = {
 			{
@@ -1108,9 +1146,16 @@
 				type = "QuestIsVariableBool",
 				var = set( "Given" ),
 			},
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "JAZZ_REBELS_1_SeizeTheOutlook",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
 		},
 		map = "cd6xgVh",
-		name = "UnitMarker#412",
+		name = "UnitMarker#412 (Rebels_Help)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
