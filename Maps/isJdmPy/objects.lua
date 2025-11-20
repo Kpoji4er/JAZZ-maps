@@ -342,23 +342,6 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 20,
 	'AreaHeight', 20,
 }, nil, 1532312194)
-PlaceObj('UnitMarker', {
-	'Pos', point(115800, 111000),
-	'Angle', 10800,
-	'Groups', {
-		"AL_Defender_Closer_1",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'RoutineArea', "Legion_Talking_4",
-	'Appearance', "Legion_Recon02",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
-		}),
-	},
-}, nil, 1871749817)
 PlaceObj('GridMarker', {
 	'Pos', point(117000, 114600),
 	'Angle', 10800,
@@ -1039,19 +1022,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1724280899)
-PlaceObj('UnitMarker', {
-	'Pos', point(203400, 102600),
-	'Angle', 5400,
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionRaider",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
-		}),
-	},
-}, nil, 1507396875)
 PlaceObj('GridMarker', {
 	'Pos', point(202200, 108600, 16800),
 	'Angle', 10800,
@@ -1074,29 +1044,6 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 35,
 	'Reachable', false,
 }, nil, 1877382546)
-PlaceObj('UnitMarker', {
-	'Pos', point(205800, 99000),
-	'Angle', 5400,
-	'Groups', {
-		"Bridge",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "Legion_Talking_3",
-	'Spawn_Conditions', {
-		PlaceObj('UnitIsAroundMarkerOfGroup', {
-			MarkerGroup = "Bridge",
-			TargetUnit = "any merc",
-		}),
-	},
-	'Appearance', "Legion_Heavy02",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_GunnerT1_Gunner",
-		}),
-	},
-}, nil, 1565558141)
 PlaceObj('UnitMarker', {
 	'Pos', point(210600, 101400),
 	'Angle', 5400,
@@ -1124,11 +1071,11 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 	'Routine', "Ambient",
-	'Appearance', "Legion_Stormer03",
+	'Appearance', "LegionGrenadir_Stronger",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT3_SkullCrusher",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT2_Pyro",
 		}),
 	},
 }, nil, 1760227073)
@@ -1387,22 +1334,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1643570624)
-PlaceObj('UnitMarker', {
-	'Pos', point(177000, 148200),
-	'Angle', 10800,
-	'Groups', {
-		"AL_Defender_Closer_1",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionRaider_Stronger_alt_2",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FrontT2_Raider",
-		}),
-	},
-}, nil, 1224797473)
 PlaceObj('UnitMarker', {
 	'Pos', point(189000, 166200),
 	'Angle', 10800,

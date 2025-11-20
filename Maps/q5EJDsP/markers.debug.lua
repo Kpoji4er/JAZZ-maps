@@ -10,4 +10,13 @@
 		path = "InventoryItemSpawn ",
 		type = "InventoryItemSpawn",
 	},
+	{
+		Groups = false,
+		handle = 1000431975,
+		items = {},
+		map = "q5EJDsP",
+		name = "UnitMarker#975",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
 }

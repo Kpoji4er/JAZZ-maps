@@ -413,6 +413,21 @@ PlaceObj('GridMarker', {
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
 }, nil, 1394324244)
+PlaceObj('GridMarker', {
+	'Pos', point(117000, 132600, 7000),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 64,
+	'AreaHeight', 64,
+	'Routine', "Patrol",
+}, nil, 1700403683)
+PlaceObj('GridMarker', {
+	'Pos', point(120600, 147000, 7000),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 24,
+	'AreaHeight', 24,
+}, nil, 1747973712)
 PlaceObj('ContainerMarker', {
 	'Pos', point(123000, 136200, 7000),
 	'Angle', 10800,
@@ -480,7 +495,14 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 5,
 }, nil, 1451412100)
 PlaceObj('GridMarker', {
-	'Pos', point(165000, 125400, 6300),
+	'Pos', point(139800, 119400, 7000),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 24,
+	'AreaHeight', 24,
+}, nil, 1583657324)
+PlaceObj('GridMarker', {
+	'Pos', point(167400, 124200, 6300),
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
 	'AreaWidth', 5,
@@ -509,6 +531,21 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 6,
 }, nil, 1457440048)
 PlaceObj('GridMarker', {
+	'Pos', point(159000, 136200, 7000),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 24,
+	'AreaHeight', 24,
+}, nil, 1406831769)
+PlaceObj('GridMarker', {
+	'Pos', point(163800, 137400, 7000),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 64,
+	'AreaHeight', 64,
+	'Routine', "Patrol",
+}, nil, 1793602697)
+PlaceObj('GridMarker', {
 	'Pos', point(150600, 157800, 7000),
 	'AllowedMask', 4294966497,
 	'Type', "BorderArea",
@@ -524,12 +561,34 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 5,
 }, nil, 1762699383)
 PlaceObj('GridMarker', {
+	'Pos', point(137400, 180600, 7000),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 24,
+	'AreaHeight', 24,
+}, nil, 1755676745)
+PlaceObj('GridMarker', {
+	'Pos', point(155400, 177000, 7000),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 64,
+	'AreaHeight', 64,
+	'Routine', "Patrol",
+}, nil, 1251022567)
+PlaceObj('GridMarker', {
 	'Pos', point(161400, 174600, 7000),
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
 	'AreaWidth', 5,
 	'AreaHeight', 5,
 }, nil, 1534195952)
+PlaceObj('GridMarker', {
+	'Pos', point(154200, 185400, 7000),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 24,
+	'AreaHeight', 24,
+}, nil, 1557479401)
 PlaceObj('GridMarker', {
 	'Pos', point(169800, 145800, 7000),
 	'AllowedMask', 4294966497,
@@ -44022,7 +44081,7 @@ p("TropicalPlant_Grass_04",118092,131104,182,4)
 p("TropicalPlant_Grass_03",115373,135951,99,4)
 p("MilitaryCamp_GrenadePile_02",122014,136501,7311,16641,-675,121,4038,1429,2097425)
 p("TropicalPlant_Grass_03",116334,145167,6946,183,5)
-p("M92",119585,140468,7421,15767,4008,-651,536,2097169)
+p("M92",119585,140468,7421,15767,4008,-651,536,7,2097297)
 p("TropicalPlant_04_Shrub_01",124569,131677,6948,170,5)
 p("TropicalPlant_04_Shrub_01",126662,131916,155,4)
 p("TropicalPlant_04_Shrub_01",125564,133264,170,4)
@@ -49517,7 +49576,7 @@ p("TropicalPlant_04_Sapling_04",156225,125375,74,4)
 p("TropicalPlant_04_Sapling_03",158982,125003,86,4)
 p("TropicalPlant_04_Sapling_05",156487,130202,6803,21316,197,4096,0,0,2097173)
 p("JungleCamp_TrenchFloor_02",159256,129541,6936,18303,62,2150182196,2150054469,"",1075841541)
-p("M1903",159743,130798,7236,5277,1577,-3776,170,7,2097297)
+p("M1903",159743,130798,7236,5277,1577,-3776,170,2097169)
 p("TropicalPlant_04_Sapling_06",161044,123331,145,4)
 p("JungleCamp_TrenchFloor_02",161043,126623,6936,7207,62,2150182196,2150054469,"",1075841541)
 p("TropicalRockAssembly_01",163421,124533,6738,179,"terrainchunk",10,0,0,40,60,10,40,60,131077)
