@@ -941,6 +941,13 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Name', "col_ContainerMarker",
+	'Index', 617,
+}, nil, 1450068547)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2877,
 	'AllowedMask', 4294966497,
 	'Name', "col_Floor_MetalScaff_Parapet_3",
@@ -1306,6 +1313,13 @@ PlaceObj('Collection', {
 	'Name', "col_Shanty_WoodenFence_14",
 	'Index', 217,
 }, nil, 1674826993)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Name', "col_BunkerInterior_AmmoBox_2",
+	'Index', 2579,
+}, nil, 1693759933)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -1716,6 +1730,14 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2579,
+	'AllowedMask', 4294966497,
+	'Name', "col_BunkerInterior_AmmoBox_01",
+	'Index', 1874,
+}, nil, 1845315621)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
 	'Index', 2721,
 }, nil, 1857812866)
@@ -1842,6 +1864,36 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 6,
 	'AreaHeight', 6,
 }, nil, 1457440048)
+PlaceObj('ContainerMarker', {
+	'Pos', point(137400, 171000),
+	'CollectionIndex', 2579,
+	'AllowedMask', 4294966497,
+	'Name', "SecretStash",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Given" ),
+		}),
+	},
+	'DisplayName', T(654287758819, "SECRET STASH"),
+	'ItemSpawners', {
+		PlaceObj('ConditionalLoot', {
+			'ItemId', "JazzQuestItem_AmmoBox",
+		}),
+	},
+	'DespawnIfEmpty', true,
+}, nil, 43237376)
+PlaceObj('GridMarker', {
+	'Pos', point(136200, 173400, 7700),
+	'Groups', {
+		"JazzDoctorAmmoTaken",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Logic",
+	'ID', "JazzDoctorAmmoTaken",
+	'AreaWidth', 20,
+	'AreaHeight', 10,
+}, nil, 1813082513)
 PlaceObj('IntelMarker', {
 	'Pos', point(141000, 173400, 12600),
 	'AllowedMask', 4294966497,
@@ -1931,6 +1983,37 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 6,
 }, nil, 1420888898)
 PlaceObj('GridMarker', {
+	'Pos', point(199800, 167400, 7000),
+	'Groups', {
+		"JazzQuestPatrol_I3",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'ID', "JazzQuestPatrol_I3",
+	'Comment', "Появляется авангард легов",
+	'AreaWidth', 10,
+	'AreaHeight', 11,
+	'TriggerConditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Given" ),
+		}),
+	},
+	'TriggerEffects', {
+		PlaceObj('SectorSpawnSquad', {
+			sector_id = "I3",
+			squad_def_id = "LegionExtraSquadFireArms",
+		}),
+	},
+	'EnabledConditions', {
+		PlaceObj('ItemIsFound', {
+			ItemId = "JazzQuestItem_AmmoBox",
+		}),
+	},
+	'Routine', "AdvanceTo",
+	'RoutineArea', "JazzDoctorAmmoTaken",
+}, nil, 1093286047)
+PlaceObj('GridMarker', {
 	'Pos', point(201000, 234600),
 	'Groups', {
 		"AL_Defender",
@@ -1950,6 +2033,28 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 6,
 	'AreaHeight', 6,
 }, nil, 1625579419)
+PlaceObj('ContainerMarker', {
+	'Pos', point(235800, 243000),
+	'Groups', {
+		"Jazz_LeevsyQuest",
+	},
+	'CollectionIndex', 617,
+	'AllowedMask', 4294966497,
+	'Name', "SecretStash",
+	'Spawn_Conditions', {},
+	'DisplayName', T(654287758819, "SECRET STASH"),
+	'ItemSpawners', {
+		PlaceObj('ConditionalLoot', {
+			'Spawn_Conditions', {
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "Jazz_Doctor_need_Help",
+					Vars = set( "Given" ),
+				}),
+			},
+			'ItemId', "JazzQuestItem_MinesBox",
+		}),
+	},
+}, nil, 103079936)
 PlaceObj('GridMarker', {
 	'Pos', point(265800, 161400, 7000),
 	'Groups', {
@@ -31399,6 +31504,32 @@ PlaceObj('BunkerInterior_FenceWire_01', {
 	'CollectionIndex', 2382,
 	'AllowedMask', 4294967279,
 }, nil, 1202214458)
+PlaceObj('BunkerInterior_AmmoBox_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(69, 58, 39, 255),
+	'EditableColor2', RGBA(52, 45, 41, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(137591, 171781, 7646),
+	'Angle', 5871,
+	'Scale', 49,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1874,
+	'AllowedMask', 782,
+}, nil, 1013112480)
+PlaceObj('BunkerInterior_AmmoBox_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(69, 58, 39, 255),
+	'EditableColor2', RGBA(52, 45, 41, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(137618, 171781, 7843),
+	'Angle', 4308,
+	'Scale', 49,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1874,
+	'AllowedMask', 782,
+}, nil, 1671550293)
 PlaceObj('WallSlab', {
 	'Pos', point(138600, 170400, 7700),
 	'Angle', 16200,
@@ -36741,15 +36872,6 @@ PlaceObj('FloorSlab', {
 		'EditableColor2', RGBA(42, 60, 23, 255),
 	}),
 }, nil, 1264361733)
-PlaceObj('MachineGunEmplacement', {
-	'Pos', point(142200, 175800, 13300),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
-	'weapon_template', "DP27",
-	'ammo_template', "JAZZ_AMMO_762x54_Tracer",
-	'target_dist', 68400,
-}, nil, 1250359307)
 PlaceObj('Shanty_Canvas_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(32, 35, 47, 255),
@@ -66740,7 +66862,7 @@ PlaceObj('Hangar_Canvas_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'CollectionIndex', 305,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, 1366973693)
 PlaceObj('HangarSmall_Roof_05', {
 	'ColorizationPalette', "",
@@ -66797,7 +66919,7 @@ PlaceObj('Hangar_Canvas_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'CollectionIndex', 305,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, 1729533435)
 PlaceObj('HangarSmall_Roof_02', {
 	'ColorizationPalette', "",
@@ -66914,6 +67036,7 @@ PlaceObj('BunkerInterior_VentShaft_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 617,
 	'AllowedMask', 782,
 }, nil, 1615584186)
 PlaceObj('MilitaryCamp_MetalBarrier_01', {
@@ -97156,7 +97279,7 @@ p("Floor_MetalScaff_Parapet_01",143459,175790,13089,10800,0,4096,0,911,214894084
 p("TropicalPlant_Grass_03",144671,174434,7650,5347,135,2097157)
 p("TropicalPlant_04_Shrub_01",144927,174120,7418,21598,103,2097157)
 p("TropicalPlant_Grass_03",146158,173056,7650,2095,135,2097157)
-p("TropicalPlant_04_Sapling_04",147212,175342,7418,9432,97,33,4094,2097169)
+p("TropicalPlant_04_Sapling_04",147218,175338,7418,9432,97,33,4094,2097169)
 p("TropicalPlant_Grass_03",143892,177317,6651,5843,158,-154,322,4080,2097173)
 p("TropicalPlant_Grass_03",145209,176225,7650,18840,135,2097157)
 p("TropicalPlant_04_Sapling_04",144282,178497,7574,9493,-43,-34,4095,2097169)

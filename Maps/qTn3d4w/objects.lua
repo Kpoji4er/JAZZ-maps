@@ -2246,7 +2246,11 @@ SetNextSyncHandle(2000000001)
 PlaceObj('UnitMarker', {
 	'Pos', point(99000, 130200, 38500),
 	'Angle', 5400,
+	'Groups', {
+		"Jazz_Doctor_Leevsy",
+	},
 	'AllowedMask', 4294966497,
+	'ID', "Jazz_Doctor_Leevsy",
 	'Appearance', "Doctor_Leevsy",
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
@@ -2267,6 +2271,16 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1785809295)
+PlaceObj('GridMarker', {
+	'Pos', point(108600, 129000, 38500),
+	'Groups', {
+		"Rebels_Ambient",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "AmbientZone",
+	'AreaWidth', 20,
+	'AreaHeight', 20,
+}, nil, 1336425146)
 PlaceObj('UnitMarker', {
 	'Pos', point(114600, 129000, 42000),
 	'Angle', 5400,
@@ -2279,18 +2293,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1782683362)
-PlaceObj('UnitMarker', {
-	'Pos', point(121800, 123000, 42000),
-	'Angle', 5400,
-	'AllowedMask', 4294966497,
-	'Appearance', "Commander_Rebels",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelSentry",
-		}),
-	},
-}, nil, 1412070527)
 PlaceObj('UnitMarker', {
 	'Pos', point(125400, 123000, 42000),
 	'Angle', 5400,
@@ -2333,21 +2335,10 @@ PlaceObj('UnitMarker', {
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelSergant",
+			'UnitDataDefId', "RebelSergeant",
 		}),
 	},
 }, nil, 1821266900)
-PlaceObj('UnitMarker', {
-	'Pos', point(101400, 139800, 37100),
-	'AllowedMask', 4294966497,
-	'Appearance', "Recon_Rebels_02",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelFlanker",
-		}),
-	},
-}, nil, 1791620807)
 PlaceObj('UnitMarker', {
 	'Pos', point(106200, 141000),
 	'Angle', 5400,
@@ -2394,10 +2385,28 @@ PlaceObj('GridMarker', {
 	'Type', "Defender",
 	'AreaWidth', 6,
 	'AreaHeight', 6,
-	'ArchetypesTriState', set({
-	Marksman = false,
-}),
+	'ArchetypesTriState', set(),
 }, nil, 1325099156)
+PlaceObj('GridMarker', {
+	'Pos', point(103800, 190200, 26600),
+	'Groups', {
+		"Rebels_Ambient",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "AmbientZone",
+	'AreaWidth', 20,
+	'AreaHeight', 20,
+}, nil, 1593468128)
+PlaceObj('GridMarker', {
+	'Pos', point(129000, 177000, 22400),
+	'Groups', {
+		"Rebels_Ambient",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "AmbientZone",
+	'AreaWidth', 20,
+	'AreaHeight', 20,
+}, nil, 1285186459)
 PlaceObj('GridMarker', {
 	'Pos', point(124200, 189000, 23100),
 	'Groups', {
@@ -2407,9 +2416,7 @@ PlaceObj('GridMarker', {
 	'Type', "Defender",
 	'AreaWidth', 6,
 	'AreaHeight', 6,
-	'ArchetypesTriState', set({
-	Marksman = false,
-}),
+	'ArchetypesTriState', set(),
 }, nil, 1671636369)
 PlaceObj('UnitMarker', {
 	'Pos', point(97800, 197400),
@@ -2443,9 +2450,8 @@ PlaceObj('GridMarker', {
 	'Type', "Defender",
 	'AreaWidth', 6,
 	'AreaHeight', 6,
-	'ArchetypesTriState', set({
-	Marksman = false,
-}),
+	'Archetypes', {},
+	'ArchetypesTriState', set(),
 }, nil, 1615193950)
 PlaceObj('GridMarker', {
 	'Pos', point(129000, 227400, 18200),
@@ -2457,9 +2463,7 @@ PlaceObj('GridMarker', {
 	'Type', "Defender",
 	'AreaWidth', 6,
 	'AreaHeight', 6,
-	'ArchetypesTriState', set({
-	Marksman = false,
-}),
+	'ArchetypesTriState', set(),
 }, nil, 1575102177)
 PlaceObj('UnitMarker', {
 	'Pos', point(138600, 120600, 42000),
@@ -2473,30 +2477,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1426310576)
-PlaceObj('UnitMarker', {
-	'Pos', point(131400, 123000, 42000),
-	'Angle', 5400,
-	'AllowedMask', 4294966497,
-	'Appearance', "Recon_Rebels_02",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelFlanker",
-		}),
-	},
-}, nil, 1501403006)
-PlaceObj('UnitMarker', {
-	'Pos', point(131400, 133800, 38500),
-	'Angle', 5400,
-	'AllowedMask', 4294966497,
-	'Appearance', "Recon_Rebels_02",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelFlanker",
-		}),
-	},
-}, nil, 1050670359)
 PlaceObj('UnitMarker', {
 	'Pos', point(138600, 133800, 38500),
 	'Angle', 5400,
@@ -2519,10 +2499,18 @@ PlaceObj('GridMarker', {
 	'Type', "Defender",
 	'AreaWidth', 6,
 	'AreaHeight', 6,
-	'ArchetypesTriState', set({
-	Marksman = false,
-}),
+	'ArchetypesTriState', set(),
 }, nil, 1632260294)
+PlaceObj('GridMarker', {
+	'Pos', point(135000, 149400, 22400),
+	'Groups', {
+		"Rebels_Ambient",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "AmbientZone",
+	'AreaWidth', 20,
+	'AreaHeight', 20,
+}, nil, 1840004775)
 PlaceObj('GridMarker', {
 	'Pos', point(159000, 153000, 23100),
 	'Groups', {
@@ -2533,10 +2521,18 @@ PlaceObj('GridMarker', {
 	'Type', "Defender",
 	'AreaWidth', 6,
 	'AreaHeight', 6,
-	'ArchetypesTriState', set({
-	Marksman = false,
-}),
+	'ArchetypesTriState', set(),
 }, nil, 1474614745)
+PlaceObj('GridMarker', {
+	'Pos', point(163800, 150600, 23800),
+	'Groups', {
+		"Rebels_Ambient",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "AmbientZone",
+	'AreaWidth', 20,
+	'AreaHeight', 20,
+}, nil, 1168122602)
 PlaceObj('GridMarker', {
 	'Pos', point(132600, 167400, 23100),
 	'Groups', {
@@ -2546,21 +2542,8 @@ PlaceObj('GridMarker', {
 	'Type', "Defender",
 	'AreaWidth', 6,
 	'AreaHeight', 6,
-	'ArchetypesTriState', set({
-	Marksman = false,
-}),
+	'ArchetypesTriState', set(),
 }, nil, 1571620810)
-PlaceObj('UnitMarker', {
-	'Pos', point(139800, 187800, 23100),
-	'AllowedMask', 4294966497,
-	'Appearance', "Thug_Soldier",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "ThugGoon",
-		}),
-	},
-}, nil, 1009618505)
 PlaceObj('GridMarker', {
 	'Pos', point(157800, 192600, 14700),
 	'AllowedMask', 4294966497,
@@ -2579,10 +2562,18 @@ PlaceObj('GridMarker', {
 	'Type', "Defender",
 	'AreaWidth', 6,
 	'AreaHeight', 6,
-	'ArchetypesTriState', set({
-	Marksman = false,
-}),
+	'ArchetypesTriState', set(),
 }, nil, 1496375496)
+PlaceObj('GridMarker', {
+	'Pos', point(168600, 133800, 32200),
+	'Groups', {
+		"Rebels_Ambient",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "AmbientZone",
+	'AreaWidth', 20,
+	'AreaHeight', 20,
+}, nil, 1252787700)
 PlaceObj('GridMarker', {
 	'Pos', point(171000, 133800, 31500),
 	'Groups', {
@@ -2593,10 +2584,18 @@ PlaceObj('GridMarker', {
 	'Type', "Defender",
 	'AreaWidth', 6,
 	'AreaHeight', 6,
-	'ArchetypesTriState', set({
-	Marksman = false,
-}),
+	'ArchetypesTriState', set(),
 }, nil, 1752765004)
+PlaceObj('GridMarker', {
+	'Pos', point(191400, 145800, 24500),
+	'Groups', {
+		"Rebels_Ambient",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "AmbientZone",
+	'AreaWidth', 20,
+	'AreaHeight', 20,
+}, nil, 1503621190)
 PlaceObj('GridMarker', {
 	'Pos', point(192600, 145800, 27300),
 	'Groups', {
@@ -2607,32 +2606,18 @@ PlaceObj('GridMarker', {
 	'Type', "Defender",
 	'AreaWidth', 6,
 	'AreaHeight', 6,
-	'ArchetypesTriState', set({
-	Marksman = false,
-}),
+	'ArchetypesTriState', set(),
 }, nil, 1426879771)
-PlaceObj('UnitMarker', {
-	'Pos', point(151800, 213000),
-	'AllowedMask', 4294966497,
-	'Appearance', "Thug_Soldier_1",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "ThugGoon_Stronger",
-		}),
+PlaceObj('GridMarker', {
+	'Pos', point(162600, 210600, 13300),
+	'Groups', {
+		"Rebels_Ambient",
 	},
-}, nil, 1258438564)
-PlaceObj('UnitMarker', {
-	'Pos', point(153000, 219000),
 	'AllowedMask', 4294966497,
-	'Appearance', "Thug_Soldier_1",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "ThugGoon_Stronger",
-		}),
-	},
-}, nil, 1294822884)
+	'Type', "AmbientZone",
+	'AreaWidth', 20,
+	'AreaHeight', 20,
+}, nil, 1255496697)
 PlaceObj('GridMarker', {
 	'Pos', point(157800, 214200, 16100),
 	'Groups', {
@@ -2643,10 +2628,18 @@ PlaceObj('GridMarker', {
 	'Type', "Defender",
 	'AreaWidth', 6,
 	'AreaHeight', 6,
-	'ArchetypesTriState', set({
-	Marksman = false,
-}),
+	'ArchetypesTriState', set(),
 }, nil, 1813803492)
+PlaceObj('GridMarker', {
+	'Pos', point(136200, 235800, 16800),
+	'Groups', {
+		"Rebels_Ambient",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "AmbientZone",
+	'AreaWidth', 20,
+	'AreaHeight', 20,
+}, nil, 1261786766)
 PlaceObj('GridMarker', {
 	'Pos', point(157800, 251400, 16100),
 	'Groups', {
@@ -2657,10 +2650,28 @@ PlaceObj('GridMarker', {
 	'Type', "Defender",
 	'AreaWidth', 6,
 	'AreaHeight', 6,
-	'ArchetypesTriState', set({
-	Marksman = false,
-}),
+	'ArchetypesTriState', set(),
 }, nil, 1380392495)
+PlaceObj('GridMarker', {
+	'Pos', point(160200, 250200, 14700),
+	'Groups', {
+		"Rebels_Ambient",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "AmbientZone",
+	'AreaWidth', 20,
+	'AreaHeight', 20,
+}, nil, 1045529923)
+PlaceObj('GridMarker', {
+	'Pos', point(181800, 229800, 14000),
+	'Groups', {
+		"Rebels_Ambient",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "AmbientZone",
+	'AreaWidth', 20,
+	'AreaHeight', 20,
+}, nil, 1719875210)
 PlaceObj('GridMarker', {
 	'Pos', point(184200, 233400, 15400),
 	'Groups', {
@@ -2671,9 +2682,7 @@ PlaceObj('GridMarker', {
 	'Type', "Defender",
 	'AreaWidth', 6,
 	'AreaHeight', 6,
-	'ArchetypesTriState', set({
-	Marksman = false,
-}),
+	'ArchetypesTriState', set(),
 }, nil, 1801010924)
 PlaceObj('UnitMarker', {
 	'Pos', point(197400, 147000, 27300),
@@ -2709,10 +2718,18 @@ PlaceObj('GridMarker', {
 	'Type', "Defender",
 	'AreaWidth', 6,
 	'AreaHeight', 6,
-	'ArchetypesTriState', set({
-	Marksman = false,
-}),
+	'ArchetypesTriState', set(),
 }, nil, 1467611679)
+PlaceObj('GridMarker', {
+	'Pos', point(207000, 196200, 10500),
+	'Groups', {
+		"Rebels_Ambient",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "AmbientZone",
+	'AreaWidth', 20,
+	'AreaHeight', 20,
+}, nil, 1797053338)
 PlaceObj('ContainerMarker', {
 	'Pos', point(219000, 187800),
 	'CollectionIndex', 3719,
@@ -74059,7 +74076,7 @@ PlaceObj('MachineGunEmplacement', {
 	'CollectionIndex', 3975,
 	'AllowedMask', 782,
 	'ammo_template', "JAZZ_AMMO_50BMG_Basic",
-	'target_dist', 114000,
+	'target_dist', 91200,
 }, nil, 1813635158)
 PlaceObj('WW2_SandBag_05', {
 	'ColorizationPalette', "",
@@ -111863,11 +111880,11 @@ p("Floor_MetalScaff_Parapet_02",97803,119415,42697,16200,2862,2150976820,2150054
 p("WW2_ConcreteCliffWallSolid",97495,119881,36992,15300,724,"terrainchunk",10,0,0,21,85,10,40,60,2228481)
 p("WW2_ConcreteCliffWallSolid",97495,119881,38606,15300,3824,"terrainchunk",10,0,0,21,85,10,40,60,2228481)
 p("WW2_ConcreteCliffWallSolid",97495,119881,40603,15300,1971,"terrainchunk",10,0,0,21,85,10,40,60,2228481)
-p("Grease",97570,120703,39379,5989,-3448,-1563,1563,2097169)
+p("Grease",97570,120703,39379,5989,-3448,-1563,1563,7,2097297)
 p("DecBunkerFloor_02",97800,120100,42000,12799,-1226,-2763,2763,3119,2097425)
-p("THOMPSON_SMG",98045,120663,39375,5671,3784,1108,1108,2097169)
+p("THOMPSON_SMG",98045,120663,39375,5671,3784,1108,1108,7,2097297)
 p("DecBunkerFloor_02",96600,121300,39200,15274,-3117,-1878,1878,3119,2097425)
-p("THOMPSON_SMG",97042,120906,39375,11017,-129,2894,2895,1,2097297)
+p("THOMPSON_SMG",97042,120906,39375,11017,-129,2894,2895,6,2097297)
 p("WW2_ConcreteCliffWallSolid",96631,121918,42532,68,3151,"terrainchunk",10,0,0,40,60,10,40,60,131333)
 p("WW2_ConcreteCliffWallSolid",96631,121918,43858,68,3151,"terrainchunk",10,0,0,40,60,10,40,60,131333)
 p("WW2_ConcreteCliffWallSolid",96631,121918,44824,68,3151,"terrainchunk",10,0,0,40,60,10,40,60,131333)
@@ -111875,7 +111892,7 @@ p("WW2_ConcreteCliffWallSolid",96584,122492,42532,14400,68,2256,"terrainchunk",1
 p("WW2_ConcreteCliffWallSolid",96584,122492,43848,14400,68,310,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
 p("WW2_ConcreteCliffWallSolid",96801,122470,44818,14400,68,440,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
 p("DecConcreteShuttering_01",97593,120984,42684,16200,43,2097157)
-p("Grease",97872,120906,39379,16200,4095,-32,32,1,2097297)
+p("Grease",97872,120906,39379,16200,4095,-32,32,6,2097297)
 p("WW2_ConcreteCliffWallSolid",97432,122086,42532,15300,68,3151,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
 p("WW2_ConcreteCliffWallSolid",97432,122086,43848,15300,68,3151,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
 p("WW2_ConcreteCliffWallSolid",98157,121900,44818,15300,68,440,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
@@ -112030,7 +112047,7 @@ p("WW2_ConcreteCliffWallSolid",96475,128863,47799,9296,41,4030,"terrainchunk",10
 p("WW2_ConcreteCliffWallSolid",96759,128860,48615,9000,41,498,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
 p("WW2_ConcreteCliffWallSolid",96759,128860,49429,9000,41,1678,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
 p("WW2_ConcreteCliffWallSolid",96760,128849,46997,9000,41,2881,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
-p("Garand",96916,128382,46455,16437,2182,3466,29,2097169)
+p("Garand",96916,128382,46455,16437,2182,3466,29,7,2097297)
 p("WW2_ConcreteCliffWallSolid",96768,128870,46191,9000,41,208,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
 p("WW2_ConcreteCliffWallSolid",96985,128904,49429,9000,41,2610,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
 p("DecBunkerFloor_02",98012,127526,49690,1)
@@ -112046,8 +112063,8 @@ p("WW2_ConcreteCliffWallSolid",97302,129537,49429,8100,41,3144,"terrainchunk",10
 p("WW2_ConcreteCliffWallSolid",97299,129553,46191,8100,41,208,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
 p("WW2_ConcreteCliffWallSolid",97775,129720,49429,6689,41,2610,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
 p("WW2_ConcreteCliffWallSolid",97710,129956,47799,7496,41,4030,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
-p("12Gauge_Ammo",98133,129271,43399,18000,7,2097281)
-p("12Gauge_Ammo",98251,129244,43399,11796,6,2097281)
+p("12Gauge_Ammo",98133,129271,43399,18000,2097153)
+p("12Gauge_Ammo",98251,129244,43399,11796,1,2097281)
 p("WW2_ConcreteCliffWallSolid",97990,130044,46997,7200,41,464,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
 p("WW2_ConcreteCliffWallSolid",97974,130097,46191,7200,41,208,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
 p("WW2_ConcreteCliffWallSolid",97991,130060,48615,7200,41,1563,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
@@ -112443,7 +112460,7 @@ p("WW2_ConcreteCliffWallx4_01",119276,119524,35171,1886,"terrainchunk",10,0,0,40
 p("DecConcreteShuttering_01",119912,120168,40046,5400,0,-4096,0,2097169)
 p("DecBunkerFloor_02",120600,119930,39900,8373,1508,-2693,2693,1166,2097425)
 p("DecBunkerFloor_02",119909,121800,39200,13719,-2583,1851,2583,1166,2097425)
-p("HMMWV",122348,119977,38331,1)
+p("HMMWV",122348,119977,38331,1,129)
 p("DecConcreteShuttering_01",122646,120168,42031,10800,0,-4096,0,2097169)
 p("DecBunkerFloor_02",115800,124900,39900,9354,874,-2829,2829,1004,2097425)
 p("DecBirdDroppings_01",115294,126175,41990,1)
@@ -112541,7 +112558,7 @@ p("Floor_MetalScaff_Parapet_01",94205,134989,42696,5400,2441,2150976820,21500544
 p("WW2_ConcreteCliffTop",90600,137400,37800,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("WW2_ConcreteCliffWallx3Destroyed_01",90666,137428,35951,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("WW2_ConcreteCliffWallSolid",92957,135411,37650,15144,-165,-1860,3645,1625,"terrainchunk",10,0,0,21,85,10,40,60,2228497)
-p("M1903",94786,132542,38768,6272,1171,-3450,1871,7,2097297)
+p("M1903",94786,132542,38768,6272,1171,-3450,1871,2097169)
 p("WW2_ConcreteCliffWallSolid",95908,131853,42662,8100,68,3151,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
 p("WW2_ConcreteCliffWallSolid",95908,131853,43755,8100,68,3151,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
 p("WW2_ConcreteCliffWallSolid",95908,131853,44885,8100,68,3151,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
@@ -113434,9 +113451,9 @@ p("DecBunkerFloor_02",152300,144600,25200,7252,2385,2323,2385,2165,2097425)
 p("DecWallRust_02",152078,145302,27230,1444,110,0,4096,0,3602,2097429)
 p("TropicalRockSharpWalk_01",153000,143400,23100,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("DecBunkerFloor_02",153000,143400,23800,10177,2081,2097409)
-p("cartridge_box",153107,143422,23934,4279569930,9)
-p("cartridge_box",153107,143422,24127,4279569930,1,137)
-p("cartridge_box",153107,143422,24320,10800,4279569930,1,2097289)
+p("cartridge_box",153107,143422,23934,4279569930,1,137)
+p("cartridge_box",153107,143422,24127,4279569930,9)
+p("cartridge_box",153107,143422,24320,10800,4279569930,2097161)
 p("DecWallDirt_03",151772,146000,26980,21291,108,0,-4096,0,3420,2097429)
 p("DecBunkerFloor_02",152500,145800,23800,9475,4281610802,2841,798,2841,3227,2097433)
 p("DecWallBrickConcrete_01",152500,145800,25200,6209,4279899411,1781,3229,1781,329,2097433)
@@ -113618,7 +113635,6 @@ p("TropicalPlant_Grass_03",133035,187589,22371,16693,118,2097157)
 p("DecBunker_ConcretePile_02",134359,186291,23050,20493,84,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
 p("TropicalPlant_Grass_03",134453,187720,22371,19744,185,2097157)
 p("TropicalPlant_04_Sapling_04",136790,181921,0)
-p("TropicalPlant_Grass_03",137293,181926,22371,16693,185,2097157)
 p("TropicalRockAssembly_04",138694,182958,22990,127,"terrainchunk",10,0,0,40,60,10,40,60,131077)
 p("TropicalPlant_Grass_03",138946,183296,22371,19744,185,2097157)
 p("TropicalPlant_Grass_03",135978,187613,22371,2215,185,2097157)
@@ -113666,7 +113682,7 @@ p("TropicalPlant_Grass_03",159022,186032,13664,13620,185,2097157)
 p("TropicalPlant_04_Sapling_04",160532,186696,14388,21208,60,-2051,-710,3473,2097173)
 p("TropicalPlant_Grass_03",161263,187440,13664,11444,185,2097157)
 p("DecBunker_ConcretePile_02",159514,188812,14316,4102,84,274,-625,4038,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
-p("Garand",160787,190134,14554,10847,29,2896,2897,7,2097297)
+p("Garand",160787,190134,14554,10847,29,2896,2897,2097169)
 p("DecTyreTracksBrown_04",159771,190911,14662,12899,2097153)
 p("DecBunker_ConcretePile_04",163986,131819,33162,20877,70,781,-3752,1444,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_04_Sapling_04",167030,131128,32573,20777,982,-3547,1797,2097169)
@@ -113890,7 +113906,7 @@ p("TropicalPlant_04_Shrub_01",193830,188514,15093,11414,108,-16,-16,4095,2097173
 p("TropicalPlant_Grass_03",193129,191220,15037,18233,146,2097157)
 p("TropicalPlant_Grass_03",194499,191297,15037,18233,146,2097157)
 p("TropicalPlant_Grass_03",194683,188968,15037,18233,146,2097157)
-p("TropicalPlant_Grass_03",193079,193294,15037,19780,146,2097157)
+p("TropicalPlant_Grass_03",193080,193295,15037,19780,146,2097157)
 p("TropicalRockSharp_01",132636,196928,22923,8894,243,2843,-429,2916,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_04_Shrub_01",132255,199446,0)
 p("TropicalRockSharp_01",133738,196758,15919,10102,83,-3908,1181,321,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -113947,7 +113963,7 @@ p("TropicalPlant_Grass_03",133230,243565,18063,2878,118,2097157)
 p("TropicalPlant_Grass_03",133764,244729,18063,2878,118,2097157)
 p("TropicalPlant_Grass_03",134643,244105,17860,5665,163,2097157)
 p("TropicalPlant_Grass_03",136168,244013,17860,5665,163,2097157)
-p("TropicalPlant_Grass_03",138226,245276,17860,588,163,2097157)
+p("TropicalPlant_Grass_03",138224,245284,17860,588,163,2097157)
 p("TropicalPlant_Grass_03",141355,232657,17425,3030,118,2097157)
 p("TropicalRockSharp_01",143258,232925,14471,9020,246,1562,-102,3785,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_04_Sapling_03",140944,233664,0)
@@ -113987,7 +114003,7 @@ p("TropicalPlant_Grass_03",156188,234293,15025,3887,163,2097157)
 p("TropicalPlant_Grass_03",159142,234962,13988,2134,172,2097157)
 p("TropicalPlant_04_Sapling_03",159594,234706,15338,19775,84,277,4085,2097169)
 p("TropicalPlant_Grass_03",158527,235814,15245,1331,163,2097157)
-p("TropicalPlant_Dead_09",158991,237001,15548,1)
+p("TropicalPlant_Dead_09",158987,237000,15548,1)
 p("DecTyreTracksBrown_06",162595,231035,15340,14843,2097153)
 p("TropicalPlant_Grass_03",158313,239300,15245,19773,163,2097157)
 p("TropicalPlant_Grass_03",159464,237608,15245,3887,163,2097157)
@@ -114721,23 +114737,23 @@ p("TropicalRockAssembly_02",207001,154172,27184,9122,85,16,-61,4095,"terrainchun
 p("DecWallLeak_04",209272,147795,29433,5401,72,73,4094,1033,2097425)
 p("DecWallRust_02",209647,148034,29413,123,110,0,4096,0,1803,2097429)
 p("DecBunkerFloor_02",209900,148200,28700,6371,1912,3076,1912,2627,2097425)
-p("Glock_17_Mag",209015,148698,27298,14894,2776,-2130,2130,6,1674,2097553)
-p("Glock_17_Mag",209068,148505,27298,14894,2776,-2130,2130,6,1674,2097553)
-p("Glock_17_Mag",209041,148603,27298,14894,2776,-2130,2130,6,1674,2097553)
-p("Glock_17_Mag",208986,148806,27298,14894,2776,-2130,2130,6,1674,2097553)
-p("Glock_17_Mag",208954,148934,27298,14894,2776,-2130,2130,6,1674,2097553)
+p("Glock_17_Mag",209015,148698,27298,14894,2776,-2130,2130,1,1674,2097553)
+p("Glock_17_Mag",209068,148505,27298,14894,2776,-2130,2130,1,1674,2097553)
+p("Glock_17_Mag",209041,148603,27298,14894,2776,-2130,2130,1,1674,2097553)
+p("Glock_17_Mag",208986,148806,27298,14894,2776,-2130,2130,1,1674,2097553)
+p("Glock_17_Mag",208954,148934,27298,14894,2776,-2130,2130,1,1674,2097553)
 p("DecWallLeak_04",209277,148605,29432,10886,-2896,2895,51,1735,2097425)
-p("Glock_17",209255,148644,27301,14894,2776,-2130,2130,7,1674,2097553)
-p("Glock_17_Mag",209373,148571,27298,14894,2776,-2130,2130,6,1674,2097553)
-p("Glock_17_Mag",209346,148669,27298,14894,2776,-2130,2130,7,1674,2097553)
-p("Glock_17",209198,148857,27301,14894,2776,-2130,2130,6,1674,2097553)
-p("Glock_17_Mag",209320,148764,27298,14894,2776,-2130,2130,6,1674,2097553)
-p("Glock_17_Mag",209291,148872,27298,14894,2776,-2130,2130,6,1674,2097553)
-p("Glock_17_Mag",208918,149053,27298,14894,2776,-2130,2130,6,1674,2097553)
-p("Glock_17",209135,149100,27301,14894,2776,-2130,2130,6,1674,2097553)
-p("Glock_17_Mag",209259,149000,27298,14894,2776,-2130,2130,6,2097297)
-p("Glock_17_Mag",209259,149000,27298,14894,2776,-2130,2130,6,1674,2097553)
-p("Glock_17_Mag",209223,149119,27298,14894,2776,-2130,2130,6,1674,2097553)
+p("Glock_17",209255,148644,27301,14894,2776,-2130,2130,1674,2097425)
+p("Glock_17_Mag",209373,148571,27298,14894,2776,-2130,2130,1,1674,2097553)
+p("Glock_17_Mag",209346,148669,27298,14894,2776,-2130,2130,1674,2097425)
+p("Glock_17",209198,148857,27301,14894,2776,-2130,2130,1,1674,2097553)
+p("Glock_17_Mag",209320,148764,27298,14894,2776,-2130,2130,1,1674,2097553)
+p("Glock_17_Mag",209291,148872,27298,14894,2776,-2130,2130,1,1674,2097553)
+p("Glock_17_Mag",208918,149053,27298,14894,2776,-2130,2130,1,1674,2097553)
+p("Glock_17",209135,149100,27301,14894,2776,-2130,2130,1,1674,2097553)
+p("Glock_17_Mag",209259,149000,27298,14894,2776,-2130,2130,1,2097297)
+p("Glock_17_Mag",209259,149000,27298,14894,2776,-2130,2130,1,1674,2097553)
+p("Glock_17_Mag",209223,149119,27298,14894,2776,-2130,2130,1,1674,2097553)
 p("DecBunkerFloor_02",210100,149400,26600,8187,2655,1636,2655,3410,2097425)
 p("DecBunkerFloor_02",210100,149400,28700,7924,2594,1820,2594,3410,2097425)
 p("DecBunkerFloor_02",209400,149900,26600,6642,-2831,2093,2093,2627,2097425)

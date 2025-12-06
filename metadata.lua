@@ -7,17 +7,19 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4519,
+	'version', 4551,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
 		"InventoryItem/Jazz_Browning_MuchineGun.lua",
 		"InventoryItem/Jazz_Browning_Bench.lua",
+		"InventoryItem/JazzQuestItem_AmmoBox.lua",
+		"InventoryItem/JazzQuestItem_MinesBox.lua",
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1762893142,
-	'code_hash', 1345675170524483864,
+	'saved', 1765061312,
+	'code_hash', -5963918367237215735,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
@@ -1306,6 +1308,11 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "Conversation",
+			'Id', "Ernie_LightHouse_DocLeevsy",
+			'ClassDisplayName', "Conversation",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "Conversation",
 			'Id', "Ernie_LegionCamp5_Rebels",
 			'ClassDisplayName', "Conversation",
 		}),
@@ -1412,6 +1419,11 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "QuestsDef",
 			'Id', "01_Landing",
+			'ClassDisplayName', "QuestsEditor",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "QuestsDef",
+			'Id', "Jazz_Doctor_need_Help",
 			'ClassDisplayName', "QuestsEditor",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -1880,8 +1892,23 @@ return PlaceObj('ModDef', {
 			'ClassDisplayName', "Inventory item",
 		}),
 		PlaceObj('ModResourcePreset', {
+			'Class', "InventoryItemCompositeDef",
+			'Id', "JazzQuestItem_AmmoBox",
+			'ClassDisplayName', "Inventory item",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "InventoryItemCompositeDef",
+			'Id', "JazzQuestItem_MinesBox",
+			'ClassDisplayName', "Inventory item",
+		}),
+		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
 			'Id', "RebelHostage",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "JazzErnieDoctorAmmoTaken",
 			'ClassDisplayName', "Banter",
 		}),
 		PlaceObj('ModResourcePreset', {
