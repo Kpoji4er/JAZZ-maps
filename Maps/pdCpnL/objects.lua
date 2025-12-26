@@ -369,6 +369,13 @@ PlaceObj('WaypointMarker', {
 	'ID', "11",
 	'ArchetypesTriState', set( "Beast", "Demolitions", "Militia", "Recon", "Soldier", "Stormer" ),
 }, nil, 1775929901)
+PlaceObj('GridMarker', {
+	'Pos', point(148200, 102600, 9100),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 50,
+	'AreaHeight', 50,
+}, nil, 1838388885)
 PlaceObj('WaypointMarker', {
 	'Pos', point(165000, 89400),
 	'Groups', {
@@ -456,6 +463,16 @@ PlaceObj('WaypointMarker', {
 	'ID', "16",
 	'ArchetypesTriState', set( "Beast", "Demolitions", "Militia", "Recon", "Soldier", "Stormer" ),
 }, nil, 1813283761)
+PlaceObj('GridMarker', {
+	'Pos', point(156600, 169800, 8400),
+	'Groups', {
+		"AL_Defender",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+}, nil, 1457440048)
 PlaceObj('WaypointMarker', {
 	'Pos', point(155400, 193800),
 	'Groups', {
@@ -527,16 +544,6 @@ PlaceObj('HerbMarker', {
 	'range_in_tiles', 1,
 	'Difficulty', "Medium",
 }, nil, 1107601997)
-PlaceObj('GridMarker', {
-	'Pos', point(195000, 165000, 8400),
-	'Groups', {
-		"AL_Defender",
-	},
-	'AllowedMask', 4294966497,
-	'Type', "Defender",
-	'AreaWidth', 6,
-	'AreaHeight', 6,
-}, nil, 1457440048)
 PlaceObj('GridMarker', {
 	'Pos', point(181800, 180600, 7000),
 	'AllowedMask', 4294966497,
@@ -612,7 +619,7 @@ PlaceObj('IntelMarker', {
 	'AllowedMask', 4294966497,
 	'AreaWidth', 6,
 	'AreaHeight', 6,
-	'IntelAreaText', T(142883785115, "Хорошее укрытие"),
+	'IntelAreaText', T(142883785115, "Good Cover Position"),
 }, nil, 1036098042)
 PlaceObj('GridMarker', {
 	'Pos', point(199800, 159000, 7000),
@@ -628,7 +635,7 @@ PlaceObj('ContainerMarker', {
 	'Name', "Chest",
 	'lockpickStateMap', "locked",
 	'lockpickDifficulty', "Medium",
-	'DisplayName', T(604728008938, "СУНДУК"),
+	'DisplayName', T(604728008938, "CHEST"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
 			'LootTableId', "LargeContainer",
@@ -677,13 +684,6 @@ PlaceObj('WaypointMarker', {
 	'ID', "8",
 	'ArchetypesTriState', set( "Beast", "Demolitions", "Militia", "Recon", "Soldier", "Stormer" ),
 }, nil, 1366519852)
-PlaceObj('GridMarker', {
-	'Pos', point(204600, 174600, 9100),
-	'AllowedMask', 4294966497,
-	'Type', "Defender",
-	'AreaWidth', 50,
-	'AreaHeight', 50,
-}, nil, 1838388885)
 PlaceObj('GridMarker', {
 	'Pos', point(205800, 193800, 7000),
 	'AllowedMask', 4294966497,
