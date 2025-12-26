@@ -13614,11 +13614,7 @@ return {
 							"JoseFamily",
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -14724,11 +14720,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
->>>>>>> origin/main
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -14804,11 +14796,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
->>>>>>> origin/main
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -14869,11 +14857,7 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -14937,11 +14921,7 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -15016,11 +14996,7 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -15084,11 +15060,7 @@ return {
 					},
 					GoTo = "CombatRedirect",
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -15115,11 +15087,7 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -15164,11 +15132,7 @@ return {
 					},
 					GoTo = "Youareforcingthemen_success",
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -15188,11 +15152,7 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -15206,11 +15166,7 @@ return {
 				PlaceObj('ConversationPhrase', {
 					Comment = "used for EvilWitch outcomes, but it may serve for default Greeting for just in case.",
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -17036,11 +16992,7 @@ return {
 					},
 					GoTo = "<end conversation>",
 					Keyword = "Goodbye",
-<<<<<<< HEAD
 					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
-=======
-					KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -17097,11 +17049,7 @@ return {
 					},
 					GoTo = "<end conversation>",
 					Keyword = "Goodbye",
-<<<<<<< HEAD
 					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
-=======
-					KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -17116,11 +17064,7 @@ return {
 				PlaceObj('ConversationPhrase', {
 					GoTo = "<end conversation>",
 					Keyword = "Goodbye",
-<<<<<<< HEAD
 					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
-=======
-					KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -17196,11 +17140,7 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Annotation = "slurred speech",
@@ -17296,11 +17236,7 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -17437,11 +17373,7 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -17501,11 +17433,7 @@ return {
 					},
 					GoTo = "RedirectKilledBella",
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					PlayGoToPhrase = true,
 					id = "Greeting4",
 					param_bindings = false,
@@ -17645,11 +17573,7 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -17723,11 +17647,7 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Annotation = 'vague reference to the song "Manic monday"',
@@ -17742,11 +17662,7 @@ return {
 				}),
 				PlaceObj('ConversationPhrase', {
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -17767,11 +17683,7 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -17792,11 +17704,7 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -18777,11 +18685,7 @@ return {
 					Align = "right",
 					GoTo = "<end conversation>",
 					Keyword = "Goodbye",
-<<<<<<< HEAD
 					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
-=======
-					KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -18823,11 +18727,7 @@ return {
 					Align = "right",
 					GoTo = "<end conversation>",
 					Keyword = "Goodbye",
-<<<<<<< HEAD
 					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
-=======
-					KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -18844,11 +18744,7 @@ return {
 					Align = "right",
 					GoTo = "<end conversation>",
 					Keyword = "Goodbye",
-<<<<<<< HEAD
 					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
-=======
-					KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -18865,11 +18761,7 @@ return {
 					Align = "right",
 					GoTo = "<end conversation>",
 					Keyword = "Goodbye",
-<<<<<<< HEAD
 					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
-=======
-					KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -18908,11 +18800,7 @@ return {
 				PlaceObj('ConversationPhrase', {
 					AutoRemove = true,
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "DrLEnfer",
@@ -18928,11 +18816,7 @@ return {
 				PlaceObj('ConversationPhrase', {
 					Comment = "repeated",
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "DrLEnfer",
@@ -19427,11 +19311,7 @@ return {
 				PlaceObj('ConversationPhrase', {
 					AutoRemove = true,
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "DrLEnfer",
@@ -19612,11 +19492,7 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "DrLEnfer",
@@ -19639,11 +19515,7 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
-<<<<<<< HEAD
 					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "DrLEnfer",
@@ -21028,11 +20900,7 @@ return {
 				PlaceObj('ConversationPhrase', {
 					GoTo = "<end conversation>",
 					Keyword = "Goodbye",
-<<<<<<< HEAD
 					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
-=======
-					KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
->>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "DrLEnfer",
@@ -21215,11 +21083,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
-						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergant_Immortal",
@@ -21363,11 +21227,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
-						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergant_Immortal",
@@ -21503,11 +21363,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
-						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_M1",
@@ -21534,11 +21390,7 @@ return {
 						},
 						GoTo = "2",
 						Keyword = "Greeting",
-<<<<<<< HEAD
-						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
->>>>>>> origin/main
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_M1",
@@ -21739,11 +21591,7 @@ return {
 							},
 							GoTo = "<end conversation>",
 							Keyword = "Goodbye",
-<<<<<<< HEAD
-							KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
-=======
-							KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
->>>>>>> origin/main
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "RebelSergeant_Immortal_M1",
