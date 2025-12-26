@@ -13614,7 +13614,11 @@ return {
 							"JoseFamily",
 						},
 						Keyword = "Greeting",
+<<<<<<< HEAD
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 						KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -14720,7 +14724,11 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
+<<<<<<< HEAD
+						KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+=======
 						KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
+>>>>>>> origin/main
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -14796,7 +14804,11 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
+<<<<<<< HEAD
+						KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+=======
 						KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
+>>>>>>> origin/main
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -14857,7 +14869,11 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -14921,7 +14937,11 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -14996,7 +15016,11 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -15060,7 +15084,11 @@ return {
 					},
 					GoTo = "CombatRedirect",
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -15087,7 +15115,11 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -15132,7 +15164,11 @@ return {
 					},
 					GoTo = "Youareforcingthemen_success",
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -15152,7 +15188,11 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -15166,7 +15206,11 @@ return {
 				PlaceObj('ConversationPhrase', {
 					Comment = "used for EvilWitch outcomes, but it may serve for default Greeting for just in case.",
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -16992,7 +17036,11 @@ return {
 					},
 					GoTo = "<end conversation>",
 					Keyword = "Goodbye",
+<<<<<<< HEAD
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+=======
 					KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -17049,7 +17097,11 @@ return {
 					},
 					GoTo = "<end conversation>",
 					Keyword = "Goodbye",
+<<<<<<< HEAD
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+=======
 					KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -17064,7 +17116,11 @@ return {
 				PlaceObj('ConversationPhrase', {
 					GoTo = "<end conversation>",
 					Keyword = "Goodbye",
+<<<<<<< HEAD
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+=======
 					KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Witch",
@@ -17140,7 +17196,11 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Annotation = "slurred speech",
@@ -17236,7 +17296,11 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -17373,7 +17437,11 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -17433,7 +17501,11 @@ return {
 					},
 					GoTo = "RedirectKilledBella",
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					PlayGoToPhrase = true,
 					id = "Greeting4",
 					param_bindings = false,
@@ -17573,7 +17645,11 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -17647,7 +17723,11 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Annotation = 'vague reference to the song "Manic monday"',
@@ -17662,7 +17742,11 @@ return {
 				}),
 				PlaceObj('ConversationPhrase', {
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -17683,7 +17767,11 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -17704,7 +17792,11 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -18685,7 +18777,11 @@ return {
 					Align = "right",
 					GoTo = "<end conversation>",
 					Keyword = "Goodbye",
+<<<<<<< HEAD
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+=======
 					KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -18727,7 +18823,11 @@ return {
 					Align = "right",
 					GoTo = "<end conversation>",
 					Keyword = "Goodbye",
+<<<<<<< HEAD
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+=======
 					KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -18744,7 +18844,11 @@ return {
 					Align = "right",
 					GoTo = "<end conversation>",
 					Keyword = "Goodbye",
+<<<<<<< HEAD
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+=======
 					KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -18761,7 +18865,11 @@ return {
 					Align = "right",
 					GoTo = "<end conversation>",
 					Keyword = "Goodbye",
+<<<<<<< HEAD
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+=======
 					KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "Monday",
@@ -18800,7 +18908,11 @@ return {
 				PlaceObj('ConversationPhrase', {
 					AutoRemove = true,
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "DrLEnfer",
@@ -18816,7 +18928,11 @@ return {
 				PlaceObj('ConversationPhrase', {
 					Comment = "repeated",
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "DrLEnfer",
@@ -19311,7 +19427,11 @@ return {
 				PlaceObj('ConversationPhrase', {
 					AutoRemove = true,
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "DrLEnfer",
@@ -19492,7 +19612,11 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "DrLEnfer",
@@ -19515,7 +19639,11 @@ return {
 						}),
 					},
 					Keyword = "Greeting",
+<<<<<<< HEAD
+					KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 					KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "DrLEnfer",
@@ -20900,7 +21028,11 @@ return {
 				PlaceObj('ConversationPhrase', {
 					GoTo = "<end conversation>",
 					Keyword = "Goodbye",
+<<<<<<< HEAD
+					KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+=======
 					KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
+>>>>>>> origin/main
 					Lines = {
 						PlaceObj('ConversationLine', {
 							Character = "DrLEnfer",
@@ -20922,6 +21054,153 @@ return {
 				'name', "Ernie Island",
 			}, {
 				PlaceObj('ModItemConversation', {
+					AssignToGroup = "Doctor_Leevsy",
+					DefaultActor = "Doctor_Leevsy",
+					group = "Ernie",
+					id = "Ernie_LightHouse_DocLeevsy",
+					PlaceObj('ConversationPhrase', {
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Annotation = '"Mala\'dets" - meaning champion',
+								Character = "Doctor_Leevsy",
+								Text = T(578614527224, --[[ModItemConversation Ernie_LightHouse_DocLeevsy Text "Mala'dets" - meaning champion voice:Doctor_Leevsy section:Ernie_LightHouse_DocLeevsy keyword:Greeting]] "Здравствуйте наемники, похоже вы прибыли как раз вовремя, мы пережили эту атаку, но я в курсе, что Легион не собирается отступать от своих планов, грядёт следующая атака и у нас есть время подготовиться, нужно залатать раненых, собрать боеприпасы, и ещё у меня кончаются медикаменты, так что будьте так добры помочь мне."),
+								param_bindings = false,
+							}),
+						},
+						id = "Greeting",
+						param_bindings = false,
+						PlaceObj('ConversationPhrase', {
+							Effects = {
+								PlaceObj('GroupAddStatusEffect', {
+									Status = "Conscience_Guilty",
+									TargetUnit = "player mercs on map",
+									param_bindings = false,
+								}),
+							},
+							GoTo = "<end conversation>",
+							Keyword = "Своих забот полно док...",
+							KeywordT = T(892070483939, --[[ModItemConversation Ernie_LightHouse_DocLeevsy KeywordT]] "Своих забот полно док..."),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "Doctor_Leevsy",
+									Text = T(416534020537, --[[ModItemConversation Ernie_LightHouse_DocLeevsy Text voice:Doctor_Leevsy section:Ernie_LightHouse_DocLeevsy keyword:Своих забот полно док...]] "Ну и катитесь, у меня всё равно нет на вас времени, увижу ещё раз, откроем огонь на поражение."),
+									param_bindings = false,
+								}),
+							},
+							id = "3",
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationPhrase', {
+							GiveQuests = {
+								"Jazz_Doctor_need_Help",
+							},
+							GoTo = "<end conversation>",
+							Keyword = "Конечно, мы поможем, для этого нас и наняли.",
+							KeywordT = T(114903302550, --[[ModItemConversation Ernie_LightHouse_DocLeevsy KeywordT]] "Конечно, мы поможем, для этого нас и наняли."),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "Doctor_Leevsy",
+									Text = T(260705215377, --[[ModItemConversation Ernie_LightHouse_DocLeevsy Text voice:Doctor_Leevsy section:Ernie_LightHouse_DocLeevsy keyword:Конечно, мы поможем, для этого нас и наняли.]] "Утром деньги, вечером стулья. Пообщаемся после... Итак, по моим расчётам мне нужна <em>медицина</em>, чем больше, тем лучше, в целом хватит <em>50</em> комплектов. Также необходимы боеприпасы, я точно знаю, что за мостом есть <em>тайник с боеприпасами</em>, заодно возьмите мины, они должны быть где-то в здании <em>около моста</em>. Также необходимо собрать раненых, пока они не истекли кровью, За дело!"),
+									param_bindings = false,
+								}),
+							},
+							id = "2",
+							param_bindings = false,
+						}),
+					}),
+					PlaceObj('ConversationPhrase', {
+						CompleteQuests = {
+							"Jazz_Doctor_need_Help",
+						},
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_Doctor_need_Help",
+								Vars = set( "AmmoTaken", "MedsTaken", "MinesTaken" ),
+								param_bindings = false,
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "ItemsGiven",
+								QuestId = "Jazz_Doctor_need_Help",
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Annotation = '"I respect you"',
+								Character = "Doctor_Leevsy",
+								Text = T(755128132362, --[[ModItemConversation Ernie_LightHouse_DocLeevsy Text "I respect you" voice:Doctor_Leevsy section:Ernie_LightHouse_DocLeevsy keyword:Greeting3]] "Я так понимаю вы выполнили всё необходимое, в благодарность ребята приготовили вам ништяков, в <em>ящиках в гараже</em>."),
+								param_bindings = false,
+							}),
+						},
+						id = "Greeting3",
+						param_bindings = false,
+						PlaceObj('ConversationPhrase', {
+							Keyword = "Чем ты стал так не угоден Легиону?",
+							KeywordT = T(714579125139, --[[ModItemConversation Ernie_LightHouse_DocLeevsy KeywordT]] "Чем ты стал так не угоден Легиону?"),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "Doctor_Leevsy",
+									Text = T(723516988874, --[[ModItemConversation Ernie_LightHouse_DocLeevsy Text voice:Doctor_Leevsy section:Ernie_LightHouse_DocLeevsy keyword:Чем ты стал так не угоден Легиону?]] "Вы могли и догадаться, но я бывший солдат удачи, как вы сейчас. Не вдаваясь в подробности, я имею как военную подготовку, так медицинскую, когда Легион только начинал набирать обороты я поставил на ноги очень многих бойцов и выпил Легиону очень много крови. Я успел повоевать с ними, так что со многими полевыми командирами у меня сейчас свои счёты."),
+									param_bindings = false,
+								}),
+							},
+							id = "2",
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationPhrase', {
+							Effects = {
+								PlaceObj('SectorSetHospital', {
+									param_bindings = false,
+									sector_id = "I2",
+								}),
+							},
+							Keyword = "Теперь ты сможешь подлатать нас по необходимости?",
+							KeywordT = T(119861003959, --[[ModItemConversation Ernie_LightHouse_DocLeevsy KeywordT]] "Теперь ты сможешь подлатать нас по необходимости?"),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "Doctor_Leevsy",
+									Text = T(592042986790, --[[ModItemConversation Ernie_LightHouse_DocLeevsy Text voice:Doctor_Leevsy section:Ernie_LightHouse_DocLeevsy keyword:Теперь ты сможешь подлатать нас по необходимости?]] "Разумеется, если мы переживём атаку Легиона."),
+									param_bindings = false,
+								}),
+							},
+							id = "3",
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationPhrase', {
+							Keyword = "Итак... Мы готовимся к обороне? Мы встретили дозорный отряд, пока бегали за патронами.",
+							KeywordT = T(382989617293, --[[ModItemConversation Ernie_LightHouse_DocLeevsy KeywordT]] "Итак... Мы готовимся к обороне? Мы встретили дозорный отряд, пока бегали за патронами."),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "Doctor_Leevsy",
+									Text = T(178668264420, --[[ModItemConversation Ernie_LightHouse_DocLeevsy Text voice:Doctor_Leevsy section:Ernie_LightHouse_DocLeevsy keyword:Итак... Мы готовимся к обороне? Мы встретили дозорный отряд, пока бегали за патронами.]] "Так точно господа, нам предстоит бой, мины установим прямо у моста, также организуем оборону в ключевых местах на карте, мы надеемся на вашу помощь. Выбора, как водится, у вас сейчас нет."),
+									param_bindings = false,
+								}),
+							},
+							id = "4",
+							param_bindings = false,
+							PlaceObj('ConversationPhrase', {
+								Keyword = "Мы готовы",
+								KeywordT = T(327289513734, --[[ModItemConversation Ernie_LightHouse_DocLeevsy KeywordT]] "Мы готовы"),
+								Lines = {
+									PlaceObj('ConversationLine', {
+										Character = "Doctor_Leevsy",
+										Text = T(513680946973, --[[ModItemConversation Ernie_LightHouse_DocLeevsy Text voice:Doctor_Leevsy section:Ernie_LightHouse_DocLeevsy keyword:Мы готовы]] "Хорошо, держитесь местных, думаю времени осталось не много."),
+										param_bindings = false,
+									}),
+								},
+								id = "2",
+								param_bindings = false,
+							}),
+						}),
+					}),
+				}),
+				PlaceObj('ModItemConversation', {
 					AssignToGroup = "Rebels_Squad_LegionCamp5",
 					DefaultActor = "RebelSergant_Immortal",
 					group = "Ernie",
@@ -20936,7 +21215,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
+<<<<<<< HEAD
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 						KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergant_Immortal",
@@ -21080,7 +21363,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
+<<<<<<< HEAD
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 						KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergant_Immortal",
@@ -21130,7 +21417,7 @@ return {
 									},
 									GoTo = "<end conversation>",
 									Keyword = "Мы готовы",
-									KeywordT = T(327289513734, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Мы готовы"),
+									KeywordT = T(327289513734, --[[ModItemConversation Ernie_LightHouse_DocLeevsy KeywordT]] "Мы готовы"),
 									Lines = {
 										PlaceObj('ConversationLine', {
 											Character = "RebelSergant_Immortal",
@@ -21216,7 +21503,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
+<<<<<<< HEAD
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 						KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_M1",
@@ -21243,7 +21534,11 @@ return {
 						},
 						GoTo = "2",
 						Keyword = "Greeting",
+<<<<<<< HEAD
+						KeywordT = T(774381032385, --[[ModItemConversation Jose_1 KeywordT]] "Greeting"),
+=======
 						KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+>>>>>>> origin/main
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_M1",
@@ -21444,7 +21739,11 @@ return {
 							},
 							GoTo = "<end conversation>",
 							Keyword = "Goodbye",
+<<<<<<< HEAD
+							KeywordT = T(557225474228, --[[ModItemConversation Jose_1 KeywordT]] "Goodbye"),
+=======
 							KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
+>>>>>>> origin/main
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "RebelSergeant_Immortal_M1",
@@ -47956,6 +48255,113 @@ return {
 			'name', "Jazz side",
 			'comment', "Джазовые сайды",
 		}, {
+			PlaceObj('ModItemQuestsDef', {
+				Chapter = "Ernie_Rebels",
+				Comment = "Помощь доктору на маяке",
+				DisplayName = T(960903332758, --[[ModItemQuestsDef Jazz_Doctor_need_Help DisplayName]] "Неугодный доктор"),
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {}),
+				},
+				NoteDefs = {
+					LastNoteIdx = 3,
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "I3",
+							}),
+						},
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_Doctor_need_Help",
+								Vars = set( "AmmoTaken", "MedsTaken", "MinesTaken" ),
+							}),
+						},
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_Doctor_need_Help",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(555833394027, --[[ModItemQuestsDef Jazz_Doctor_need_Help Text]] "Нашему айболиту нужна помощь, придется заморочиться и поискать <em>медикаменты</em> ажно <em>50</em> штук, мины и боеприпасы должны быть в секторе <em>I3</em> на <em>Блок посту возле моста и в тайнике в вентилиционной шахте</em>."),
+					}),
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								BadgePreset = "InteractableBadge",
+								BadgeUnit = "Jazz_Doctor_Leevsy",
+								Sector = "I2",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_Doctor_need_Help",
+								Vars = set( "ItemsGiven" ),
+							}),
+						},
+						Idx = 3,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_Doctor_need_Help",
+								Vars = set( "AmmoTaken", "MedsTaken", "MinesTaken" ),
+							}),
+						},
+						Text = T(635990528307, --[[ModItemQuestsDef Jazz_Doctor_need_Help Text]] "Легион уже дышит в затылок, надо возвращаться и готовиться к атаке, да и доктор видимо не простой, возможно получится выпытать какой-то информации."),
+					}),
+				},
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('UnitSquadHasItem', {
+								Amount = 50,
+								ItemId = "Meds",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "MedsTaken",
+								QuestId = "Jazz_Doctor_need_Help",
+							}),
+						},
+						ParamId = "TCE_MedsTaken",
+						QuestId = "Jazz_Doctor_need_Help",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "AmmoTaken",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MinesTaken",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "MedsTaken",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_MedsTaken",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "ItemsGiven",
+					}),
+				},
+				comment = "Помощь доктору на маяке",
+				group = "Ernie",
+				id = "Jazz_Doctor_need_Help",
+			}),
 			PlaceObj('ModItemQuestsDef', {
 				DevNotes = "Ну короче этот квест юзаем чтобы зачищать лагеря",
 				DisplayName = T(816575507215, --[[ModItemQuestsDef Jazz_ClearTheWay DisplayName]] "Зачистить лагеря вокруг Виллы"),
@@ -98951,6 +99357,30 @@ return {
 		'AdditionalHint', T(729018809211, --[[ModItemInventoryItemCompositeDef Jazz_Browning_Bench AdditionalHint]] "Большая, тяжелая хреновина"),
 		'LargeItem', 1,
 	}),
+	PlaceObj('ModItemInventoryItemCompositeDef', {
+		'Group', "Quest - Items",
+		'Id', "JazzQuestItem_AmmoBox",
+		'comment', "Ящики с боеприпасами",
+		'object_class', "InventoryItem",
+		'Icon', "Mod/FhNNYd/Images/d16cbd1c5d329790e02b9329d7fa35bb.png",
+		'SubIcon', "Mod/FhNNYd/Images/d16cbd1c5d329790e02b9329d7fa35bb 2.png",
+		'DisplayName', T(732750682366, --[[ModItemInventoryItemCompositeDef JazzQuestItem_AmmoBox DisplayName]] "Ящики с боеприпасами и гранатами"),
+		'DisplayNamePlural', T(914914835655, --[[ModItemInventoryItemCompositeDef JazzQuestItem_AmmoBox DisplayNamePlural]] "Ящики с боеприпасами и гранатами"),
+		'Description', T(184516975474, --[[ModItemInventoryItemCompositeDef JazzQuestItem_AmmoBox Description]] "Боеприпасы, которые нужно доставить."),
+		'LargeItem', 1,
+	}),
+	PlaceObj('ModItemInventoryItemCompositeDef', {
+		'Group', "Quest - Items",
+		'Id', "JazzQuestItem_MinesBox",
+		'comment', "Ящик с минами",
+		'object_class', "InventoryItem",
+		'Icon', "Mod/FhNNYd/Images/9.png",
+		'SubIcon', "Mod/FhNNYd/Images/9 2.png",
+		'DisplayName', T(872338951889, --[[ModItemInventoryItemCompositeDef JazzQuestItem_MinesBox DisplayName]] "Ящики с минами"),
+		'DisplayNamePlural', T(372768478709, --[[ModItemInventoryItemCompositeDef JazzQuestItem_MinesBox DisplayNamePlural]] "Ящики с минами"),
+		'Description', T(230383098782, --[[ModItemInventoryItemCompositeDef JazzQuestItem_MinesBox Description]] "ОСТОРОЖНО, НЕ РОНЯТЬ, НЕ ТРЯСТИ!!!"),
+		'LargeItem', 1,
+	}),
 	PlaceObj('ModItemFolder', {
 		'name', "Quest Banters",
 		'comment', "Бантеры для квестов",
@@ -98971,6 +99401,53 @@ return {
 			},
 			group = "Ernie_Rebels",
 			id = "RebelHostage",
+		}),
+		PlaceObj('ModItemBanterDef', {
+			Comment = "Бантер после взятия ящиков с патронами для доктора",
+			Lines = {
+				PlaceObj('BanterLine', {
+					'Annotation', "Distraction, Angry",
+					'MultipleTexts', true,
+					'AnimationStyle', "Idle_Combat",
+					'AnyOfTheseCount', 2,
+					'AnyOfThese', {
+						PlaceObj('BanterLineThin', {
+							'Character', "Ivan",
+							'Text', T(377216132481, --[[ModItemBanterDef JazzErnieDoctorAmmoTaken Text section:Ernie_Rebels/JazzErnieDoctorAmmoTaken voice:Ivan]] "Блядь, надо скорее готовить оборону маяка, авангард красно-черных пидоров уже тут!"),
+						}),
+						PlaceObj('BanterLineThin', {
+							'Character', "any merc",
+							'Text', T(529197123653, --[[ModItemBanterDef JazzErnieDoctorAmmoTaken Text section:Ernie_Rebels/JazzErnieDoctorAmmoTaken voice:any merc]] "Легион пожаловал, надо навалять им, забирать мины и возвращаться!"),
+						}),
+						PlaceObj('BanterLineThin', {
+							'Character', "Buns",
+							'Text', T(338665690197, --[[ModItemBanterDef JazzErnieDoctorAmmoTaken Text section:Ernie_Rebels/JazzErnieDoctorAmmoTaken voice:Buns]] "А доктор не соврал, видимо очень нужен им этот маяк, к бою!"),
+						}),
+						PlaceObj('BanterLineThin', {
+							'Character', "any merc",
+							'Text', T(512817398034, --[[ModItemBanterDef JazzErnieDoctorAmmoTaken Text section:Ernie_Rebels/JazzErnieDoctorAmmoTaken voice:any merc]] "О, смертнички пожаловали, делаем дело, берём мины и сваливаем к доктору, видимо будет жарко!"),
+						}),
+					},
+					'useSnype', true,
+					'playOnce', true,
+				}),
+			},
+			comment = "Бантер после взятия ящиков с патронами для доктора",
+			conditions = {
+				PlaceObj('AND', {
+					Conditions = {
+						PlaceObj('ItemIsInMerc', {
+							ItemId = "JazzQuestItem_AmmoBox",
+						}),
+						PlaceObj('UnitIsAroundMarkerOfGroup', {
+							MarkerGroup = "JazzDoctorAmmoTaken",
+							TargetUnit = "any merc",
+						}),
+					},
+				}),
+			},
+			group = "Ernie_Rebels",
+			id = "JazzErnieDoctorAmmoTaken",
 		}),
 		}),
 	PlaceObj('ModItemFolder', {
@@ -99027,7 +99504,7 @@ return {
 		PlaceObj('ModItemConstDef', {
 			group = "Satellite",
 			id = "StartingMoney",
-			value = 60000,
+			value = 600000,
 		}),
 		PlaceObj('ModItemConstDef', {
 			group = "Satellite",

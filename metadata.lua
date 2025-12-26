@@ -16,6 +16,8 @@ return PlaceObj('ModDef', {
 		"UnitData/JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman.lua",
 		"InventoryItem/Jazz_Browning_MuchineGun.lua",
 		"InventoryItem/Jazz_Browning_Bench.lua",
+		"InventoryItem/JazzQuestItem_AmmoBox.lua",
+		"InventoryItem/JazzQuestItem_MinesBox.lua",
 	},
 	'default_options', {},
 	'has_data', true,
@@ -1319,6 +1321,11 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "Conversation",
+			'Id', "Ernie_LightHouse_DocLeevsy",
+			'ClassDisplayName', "Conversation",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "Conversation",
 			'Id', "Ernie_LegionCamp5_Rebels",
 			'ClassDisplayName', "Conversation",
 		}),
@@ -1434,7 +1441,17 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "QuestsDef",
-			'Id', "JAZZ_REBELS_0_MeetTheRebels",
+			'Id', "Jazz_Doctor_need_Help",
+			'ClassDisplayName', "QuestsEditor",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "QuestsDef",
+			'Id', "Jazz_Doctor_need_Help",
+			'ClassDisplayName', "QuestsEditor",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "QuestsDef",
+			'Id', "Jazz_ClearTheWay",
 			'ClassDisplayName', "QuestsEditor",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -1943,8 +1960,23 @@ return PlaceObj('ModDef', {
 			'ClassDisplayName', "Inventory item",
 		}),
 		PlaceObj('ModResourcePreset', {
+			'Class', "InventoryItemCompositeDef",
+			'Id', "JazzQuestItem_AmmoBox",
+			'ClassDisplayName', "Inventory item",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "InventoryItemCompositeDef",
+			'Id', "JazzQuestItem_MinesBox",
+			'ClassDisplayName', "Inventory item",
+		}),
+		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
 			'Id', "RebelHostage",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "JazzErnieDoctorAmmoTaken",
 			'ClassDisplayName', "Banter",
 		}),
 		PlaceObj('ModResourcePreset', {
