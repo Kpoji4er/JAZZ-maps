@@ -230,17 +230,6 @@
 		type = "UnitMarker",
 	},
 	{
-		Groups = {
-			"AL_Defender_Closer_1",
-		},
-		handle = 1224797473,
-		items = {},
-		map = "isJdmPy",
-		name = "UnitMarker#473 (AL_Defender_Closer_1)",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
-	{
 		Groups = false,
 		handle = 1228182893,
 		items = {},
@@ -391,15 +380,6 @@
 		type = "UnitMarker",
 	},
 	{
-		Groups = false,
-		handle = 1507396875,
-		items = {},
-		map = "isJdmPy",
-		name = "UnitMarker#875",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
-	{
 		Groups = {
 			"AL_Defender_Closer_1",
 		},
@@ -429,17 +409,6 @@
 		items = {},
 		map = "isJdmPy",
 		name = "UnitMarker#854 (AL_Defender_Closer_1)",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
-	{
-		Groups = {
-			"Bridge",
-		},
-		handle = 1565558141,
-		items = {},
-		map = "isJdmPy",
-		name = "UnitMarker#141 (Bridge)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
@@ -699,17 +668,6 @@
 		items = {},
 		map = "isJdmPy",
 		name = "UnitMarker#523 (Legion_Shooters)",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
-	{
-		Groups = {
-			"AL_Defender_Closer_1",
-		},
-		handle = 1871749817,
-		items = {},
-		map = "isJdmPy",
-		name = "UnitMarker#817 (AL_Defender_Closer_1)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},

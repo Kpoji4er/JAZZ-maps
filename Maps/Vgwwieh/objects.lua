@@ -242,6 +242,13 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 6,
 }, nil, 1035963423)
 PlaceObj('GridMarker', {
+	'Pos', point(155400, 123000, 16100),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 12,
+	'AreaHeight', 12,
+}, nil, 1601405499)
+PlaceObj('GridMarker', {
 	'Pos', point(175800, 107400, 17500),
 	'Groups', {
 		"AL_Defender",
@@ -262,15 +269,54 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 3,
 }, nil, 1884023313)
 PlaceObj('GridMarker', {
-	'Pos', point(147000, 163800, 15400),
-	'Groups', {
-		"AL_Defender",
-	},
+	'Pos', point(178200, 123000, 18200),
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
-	'AreaWidth', 2,
-	'AreaHeight', 50,
-}, nil, 1810968387)
+	'AreaWidth', 12,
+	'AreaHeight', 12,
+}, nil, 1547155181)
+PlaceObj('GridMarker', {
+	'Pos', point(201000, 120600, 27300),
+	'Groups', {},
+	'AllowedMask', 4294966497,
+	'Type', "DefenderPriority",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+	'ArchetypesTriState', set( "Marksman", "Recon" ),
+}, nil, 1213676613)
+PlaceObj('GridMarker', {
+	'Pos', point(205800, 120600, 26600),
+	'AllowedMask', 4294966497,
+	'Type', "DefenderPriority",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+	'ArchetypesTriState', set( "Marksman" ),
+}, nil, 1328990241)
+PlaceObj('GridMarker', {
+	'Pos', point(207000, 120600, 27300),
+	'Groups', {},
+	'AllowedMask', 4294966497,
+	'Type', "DefenderPriority",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+	'ArchetypesTriState', set( "Marksman", "Recon" ),
+}, nil, 1790388626)
+PlaceObj('GridMarker', {
+	'Pos', point(213000, 124200, 27300),
+	'Groups', {},
+	'AllowedMask', 4294966497,
+	'Type', "DefenderPriority",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+	'ArchetypesTriState', set( "Marksman", "Recon" ),
+}, nil, 1670829116)
+PlaceObj('GridMarker', {
+	'Pos', point(144600, 162600, 16100),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 12,
+	'AreaHeight', 12,
+}, nil, 1640910116)
 PlaceObj('GridMarker', {
 	'Pos', point(159000, 133800, 16100),
 	'Groups', {
@@ -309,6 +355,21 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 6,
 }, nil, 1457440048)
 PlaceObj('GridMarker', {
+	'Pos', point(166200, 179400, 16100),
+	'AllowedMask', 4294966497,
+	'Type', "DefenderPriority",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+	'Routine', "Patrol",
+}, nil, 1545809708)
+PlaceObj('GridMarker', {
+	'Pos', point(167400, 179400, 16100),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 12,
+	'AreaHeight', 12,
+}, nil, 1740925287)
+PlaceObj('GridMarker', {
 	'Pos', point(183000, 177000, 16100),
 	'Groups', {
 		"AL_Defender",
@@ -324,10 +385,19 @@ PlaceObj('GridMarker', {
 		"AL_Defender",
 	},
 	'AllowedMask', 4294966497,
-	'Type', "Defender",
+	'Type', "DefenderPriority",
 	'AreaWidth', 3,
 	'AreaHeight', 3,
+	'ArchetypesTriState', set( "Marksman" ),
 }, nil, 1852000006)
+PlaceObj('GridMarker', {
+	'Pos', point(189000, 207000, 16100),
+	'AllowedMask', 4294966497,
+	'Type', "DefenderPriority",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+	'Routine', "Patrol",
+}, nil, 1396912722)
 PlaceObj('ExitZoneInteractable', {
 	'Pos', point(189357, 250154, 14281),
 	'Groups', {
@@ -356,6 +426,29 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 6,
 }, nil, 1030948929)
 PlaceObj('GridMarker', {
+	'Pos', point(203400, 162600, 16100),
+	'AllowedMask', 4294966497,
+	'Type', "DefenderPriority",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+	'Routine', "Patrol",
+}, nil, 1770881746)
+PlaceObj('GridMarker', {
+	'Pos', point(204600, 165000, 16100),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 12,
+	'AreaHeight', 12,
+}, nil, 1601238615)
+PlaceObj('GridMarker', {
+	'Pos', point(207000, 166200, 16100),
+	'AllowedMask', 4294966497,
+	'Type', "DefenderPriority",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+	'Routine', "Patrol",
+}, nil, 1281041934)
+PlaceObj('GridMarker', {
 	'Pos', point(197400, 181800, 16100),
 	'Groups', {
 		"AL_Defender",
@@ -366,15 +459,59 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 6,
 }, nil, 1800194246)
 PlaceObj('GridMarker', {
-	'Pos', point(219000, 177000, 16800),
-	'Groups', {
-		"AL_Defender",
-	},
+	'Pos', point(197400, 184200, 16100),
+	'AllowedMask', 4294966497,
+	'Type', "DefenderPriority",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+	'Routine', "Patrol",
+}, nil, 1615544069)
+PlaceObj('GridMarker', {
+	'Pos', point(207000, 215400, 16100),
+	'AllowedMask', 4294966497,
+	'Type', "DefenderPriority",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+	'Routine', "Patrol",
+}, nil, 1184275115)
+PlaceObj('GridMarker', {
+	'Pos', point(207000, 220200, 16100),
+	'AllowedMask', 4294966497,
+	'Type', "DefenderPriority",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+	'Routine', "Patrol",
+}, nil, 1531547648)
+PlaceObj('GridMarker', {
+	'Pos', point(209400, 216600, 16100),
 	'AllowedMask', 4294966497,
 	'Type', "Defender",
-	'AreaWidth', 2,
-	'AreaHeight', 50,
-}, nil, 1246893777)
+	'AreaWidth', 12,
+	'AreaHeight', 12,
+}, nil, 1079956618)
+PlaceObj('GridMarker', {
+	'Pos', point(219000, 203400, 16100),
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 12,
+	'AreaHeight', 12,
+}, nil, 1609916421)
+PlaceObj('GridMarker', {
+	'Pos', point(221400, 204600, 16100),
+	'AllowedMask', 4294966497,
+	'Type', "DefenderPriority",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+	'Routine', "Patrol",
+}, nil, 1585590720)
+PlaceObj('GridMarker', {
+	'Pos', point(219000, 216600, 16100),
+	'AllowedMask', 4294966497,
+	'Type', "DefenderPriority",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+	'Routine', "Patrol",
+}, nil, 1468460156)
 PlaceObj('GridMarker', {
 	'Pos', point(228600, 226200, 16100),
 	'Groups', {
@@ -8069,6 +8206,13 @@ PlaceObj('TropicalPlant_03_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1479646340)
+PlaceObj('TropicalPlant_05_Tree_01', {
+	'Pos', point(169969, 149687, 18404),
+	'Scale', 88,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1771855140)
 PlaceObj('TropicalPlant_06_Tree_01', {
 	'Pos', point(168596, 161434),
 	'Scale', 162,
@@ -8092,6 +8236,20 @@ PlaceObj('TropicalPlant_06_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1019136136)
+PlaceObj('TropicalPlant_05_Tree_01', {
+	'Pos', point(187358, 138318, 18405),
+	'Scale', 88,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1859525050)
+PlaceObj('TropicalPlant_05_Tree_01', {
+	'Pos', point(182909, 145561, 18405),
+	'Scale', 88,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1428158188)
 PlaceObj('TropicalPlant_06_Tree_01', {
 	'Pos', point(185445, 146591),
 	'Scale', 79,
@@ -13658,6 +13816,13 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1086178837)
+PlaceObj('TropicalPlant_05_Tree_01', {
+	'Pos', point(199659, 132077, 18404),
+	'Scale', 88,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1869359065)
 PlaceObj('TropicalPlant_04_Tree_02', {
 	'Pos', point(202263, 134382, 20006),
 	'Scale', 52,
@@ -13665,6 +13830,13 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1063495748)
+PlaceObj('TropicalPlant_05_Tree_01', {
+	'Pos', point(197248, 143790, 18405),
+	'Scale', 88,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 0,
+}, nil, 1479015112)
 PlaceObj('TropicalPlant_03_Tree_02', {
 	'Pos', point(197666, 144427),
 	'Scale', 10,
@@ -15711,14 +15883,14 @@ PlaceObj('BunkerInterior_PlatePile_03', {
 	'Angle', 9793,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1676679961)
 PlaceObj('BunkerInterior_PlatePile_03', {
 	'Pos', point(208463, 171143, 17720),
 	'Angle', 9793,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1026271866)
 PlaceObj('WallSlab', {
 	'Pos', point(209400, 164400, 16800),
@@ -17410,7 +17582,7 @@ PlaceObj('Cinematic_CoffeeCup_01', {
 	'Angle', 15286,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1254976601)
 PlaceObj('BunkerInterior_GasCan_01', {
 	'ColorizationPalette', "",
@@ -17735,13 +17907,13 @@ PlaceObj('Cinematic_Bullets_03', {
 	'Angle', 10565,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1327564524)
 PlaceObj('Cinematic_Bullets_03', {
 	'Pos', point(207069, 211598, 16723),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1283055140)
 PlaceObj('BunkerInterior_PropSet_02', {
 	'ColorizationPalette', "",
@@ -17758,21 +17930,21 @@ PlaceObj('Cinematic_Beretta', {
 	'Angle', 8254,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1883506786)
 PlaceObj('Cinematic_Beretta', {
 	'Pos', point(207853, 211837, 16723),
 	'Angle', 12663,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1423292750)
 PlaceObj('JungleCamp_Boots_02', {
 	'Pos', point(212977, 212763),
 	'Angle', 10301,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1219484281)
 PlaceObj('TropicalPlant_Dead_03', {
 	'Pos', point(205908, 217942, 16026),
@@ -17810,7 +17982,7 @@ PlaceObj('JungleCamp_Boots_01', {
 	'Angle', 11277,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1522731912)
 PlaceObj('MilitaryCamp_Pallete_02', {
 	'Pos', point(212326, 218837, 15904),
@@ -18060,7 +18232,7 @@ PlaceObj('JungleCamp_Boots_02', {
 	'Pos', point(213127, 218415),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1517439327)
 PlaceObj('MilitaryCamp_Pallete_02', {
 	'Pos', point(213831, 218849, 15904),
@@ -18223,7 +18395,7 @@ PlaceObj('JungleCamp_Boots_01', {
 	'Angle', 5361,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1274482638)
 PlaceObj('MilitaryCamp_Tent', {
 	'ColorizationPalette', "",
@@ -18270,13 +18442,13 @@ PlaceObj('JungleCamp_Boots_02', {
 	'Angle', 9844,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1290498338)
 PlaceObj('JungleCamp_Boots_02', {
 	'Pos', point(221643, 221452),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1042279329)
 PlaceObj('JungleCamp_Backpack_01', {
 	'Pos', point(221547, 222421),
@@ -37039,6 +37211,7 @@ p("TropicalRockSharp_03",185504,116363,19304,6210,-2425,1977,2643,2097169)
 p("TropicalRockSharp_03",185237,119730,18914,5757,1115,-1933,3434,2097169)
 p("TropicalRockSharp_01",188097,128120,15730,15498,122,4066,323,374,3475,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("TropicalRockSharp_01",190535,118894,13736,3626,232,-3059,-620,2653,3475,"terrainchunk",10,0,0,92,96,10,40,60,2228501)
+p("TropicalPlant_Dead_09",193825,124054,20128,81,5)
 p("TropicalPlant_Dead_09",196214,123111,20128,81,5)
 p("TropicalPlant_04_Shrub_01",197612,91,134,4)
 p("TropicalPlant_04_Shrub_01",196679,1918,176,4)
@@ -37963,13 +38136,16 @@ p("TropicalPlant_Grass_04",210905,113658,55,4)
 p("TropicalPlant_Grass_04",211653,113337,182,4)
 p("TropicalPlant_Grass_01",212565,114577,47,4)
 p("TropicalRockSharp_01",199073,115494,22488,4506,232,-2238,-248,3421,3475,"terrainchunk",10,0,0,92,96,10,40,60,2228501)
-p("TropicalPlant_Dead_09",197491,122165,20128,81,5)
-p("TropicalRockSharp_01",201095,118621,18547,6118,216,-1338,416,3848,1880,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
+p("TropicalRockSharpWalk_02",198600,120600,22400,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalRockSharp_01",199797,119283,18547,6156,216,-1154,566,3889,1880,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("TropicalRockSharp_01",203744,116402,16564,5405,213,-2872,509,2875,3475,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
+p("TropicalRockSharpWalk_02",201000,120600,25200,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalRockSharpWalk_02",203400,120600,25900,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalPlant_Grass_02",205963,118379,149,4)
 p("Bunker_Entrance_02",207000,115800,23100,1)
 p("TropicalPlant_Grass_01",208700,115862,156,4)
 p("TropicalPlant_Grass_04",208650,118022,173,4)
+p("TropicalRockSharpWalk_02",205800,120600,26600,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalPlant_Grass_01",206615,119750,40,4)
 p("TropicalPlant_Grass_01",207146,120470,143,4)
 p("TropicalPlant_Grass_01",207385,121697,50,4)
@@ -37981,6 +38157,7 @@ p("TropicalPlant_Grass_01",210914,119763,93,4)
 p("TropicalPlant_Grass_03",210755,120932,60,4)
 p("TropicalPlant_Grass_02",212712,120588,67,4)
 p("TropicalPlant_Grass_02",212152,122490,180,4)
+p("TropicalRockSharpWalk_02",205800,123000,25900,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalPlant_Grass_04",206622,123122,134,4)
 p("TropicalPlant_Grass_01",206209,126847,65,4)
 p("TropicalPlant_Grass_04",208788,123873,66,4)
@@ -37989,6 +38166,7 @@ p("TropicalPlant_Grass_04",206579,128274,25,4)
 p("TropicalPlant_Grass_01",205672,129432,198,4)
 p("TropicalPlant_Grass_01",207028,127444,40,4)
 p("TropicalPlant_Grass_04",208722,129804,56,4)
+p("TropicalRockSharpWalk_02",209400,123000,25900,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalPlant_Grass_04",210941,124264,143,4)
 p("TropicalPlant_Grass_04",209442,126123,159,4)
 p("TropicalPlant_Grass_02",212277,123247,121,4)
@@ -38081,14 +38259,18 @@ p("TropicalPlant_Grass_04",218235,120259,199,4)
 p("TropicalPlant_Grass_01",218363,121665,148,4)
 p("TropicalPlant_Grass_04",219838,118964,178,4)
 p("TropicalPlant_Grass_03",213774,123154,87,4)
+p("TropicalRockSharpWalk_02",214200,123000,25900,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalRockSharp_01",214950,123167,19197,6118,216,-1338,416,3848,1880,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
+p("TropicalRockSharpWalk_02",214200,124200,25900,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalPlant_Grass_02",214459,125094,88,4)
 p("TropicalPlant_Grass_01",215619,123892,68,4)
 p("TropicalPlant_Grass_04",217072,126327,14,4)
+p("TropicalRockSharpWalk_02",216600,126600,23800,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalPlant_Grass_04",214181,128522,56,4)
 p("TropicalPlant_Grass_03",216930,127884,76,4)
 p("TropicalPlant_Grass_03",215048,130955,148,4)
 p("TropicalPlant_Grass_04",218728,123996,69,4)
+p("TropicalRockSharpWalk_02",217800,125400,25900,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalPlant_Grass_03",220344,123995,94,4)
 p("TropicalPlant_Grass_02",219293,126711,50,4)
 p("TropicalPlant_Grass_04",221171,125696,39,4)
@@ -39905,6 +40087,7 @@ p("TropicalPlant_Grass_03",168839,148719,106,4)
 p("TropicalPlant_Grass_02",169774,148354,171,4)
 p("TropicalPlant_Grass_03",168122,150393,80,4)
 p("TropicalPlant_Grass_02",171969,149338,197,4)
+p("TropicalPlant_Dead_08",171000,149759,18309,16200,160,0,4096,0,2097173)
 p("TropicalPlant_Grass_03",170927,151100,10,4)
 p("TropicalPlant_Grass_02",171423,151401,25,4)
 p("TropicalPlant_Grass_02",169153,152704,128,4)
@@ -39940,6 +40123,7 @@ p("TropicalPlant_Grass_01",179799,162006,89,4)
 p("TropicalPlant_Grass_04",180656,136956,193,4)
 p("TropicalPlant_Grass_02",180345,138686,140,4)
 p("TropicalRockAssembly_01",186110,138827,18051,6660,138,"terrainchunk",10,0,0,86,100,10,40,60,2228229)
+p("TropicalPlant_Dead_08",188389,138390,18310,16200,160,0,4096,0,2097173)
 p("TropicalPlant_Grass_02",180772,140970,23,4)
 p("TropicalPlant_Grass_04",181830,140521,45,4)
 p("TropicalPlant_Grass_03",182178,142909,174,4)
@@ -39947,6 +40131,7 @@ p("TropicalPlant_Grass_02",180784,143405,153,4)
 p("TropicalPlant_Grass_01",180364,144895,71,4)
 p("TropicalPlant_Grass_03",181957,146365,71,4)
 p("TropicalPlant_Grass_01",182575,145539,104,4)
+p("TropicalPlant_Dead_08",183940,145633,18310,16200,160,0,4096,0,2097173)
 p("TropicalRockAssembly_01",187140,140633,17954,7140,138,"terrainchunk",10,0,0,86,100,10,40,60,2228229)
 p("TropicalPlant_Grass_02",180288,149135,108,4)
 p("TropicalPlant_Grass_03",180289,150272,98,4)
@@ -39997,7 +40182,7 @@ p("TropicalPlant_04_Shrub_02",189203,150834,118,4)
 p("TropicalPlant_04_Shrub_02",190608,149838,45,4)
 p("TropicalPlant_04_Shrub_02",190344,151825,79,4)
 p("TropicalPlant_04_Shrub_01",189262,154538,97,4)
-p("TropicalPlant_04_Shrub_01",190110,154947,135,4)
+p("TropicalPlant_04_Shrub_01",190086,154965,135,4)
 p("TropicalPlant_04_Shrub_01",190564,154139,55,4)
 p("TropicalPlant_04_Shrub_01",193509,151048,136,4)
 p("TropicalPlant_04_Shrub_02",194981,149462,158,4)
@@ -41292,6 +41477,8 @@ p("TropicalPlant_Grass_01",193786,259452,64,4)
 p("TropicalPlant_Grass_01",193064,261225,98,4)
 p("TropicalPlant_Grass_01",193336,261703,146,4)
 p("TropicalPlant_Grass_02",194629,261192,84,4)
+p("TropicalPlant_Dead_08",200690,132149,18309,16200,160,0,4096,0,2097173)
+p("TropicalPlant_Dead_08",198279,143862,18310,16200,160,0,4096,0,2097173)
 p("TropicalPlant_Grass_02",206689,132817,197,4)
 p("TropicalPlant_Grass_02",208612,131808,26,4)
 p("TropicalPlant_Grass_03",207918,134223,43,4)
