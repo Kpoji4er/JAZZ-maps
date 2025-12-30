@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4573,
+	'version', 4576,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
@@ -21,8 +21,8 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1763616076,
-	'code_hash', -9016247207351129794,
+	'saved', 1767107584,
+	'code_hash', -4445560982361173495,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
@@ -1441,17 +1441,7 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "QuestsDef",
-			'Id', "Jazz_Doctor_need_Help",
-			'ClassDisplayName', "QuestsEditor",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "QuestsDef",
-			'Id', "Jazz_Doctor_need_Help",
-			'ClassDisplayName', "QuestsEditor",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "QuestsDef",
-			'Id', "Jazz_ClearTheWay",
+			'Id', "JAZZ_REBELS_0_MeetTheRebels",
 			'ClassDisplayName', "QuestsEditor",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -1498,6 +1488,11 @@ return PlaceObj('ModDef', {
 			'Class', "Conversation",
 			'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
 			'ClassDisplayName', "Conversation",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "QuestsDef",
+			'Id', "Jazz_Doctor_need_Help",
+			'ClassDisplayName', "QuestsEditor",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "QuestsDef",
