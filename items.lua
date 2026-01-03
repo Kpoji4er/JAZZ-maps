@@ -21710,6 +21710,13 @@ return {
 									param_bindings = false,
 								}),
 							},
+							Effects = {
+								PlaceObj('QuestSetVariableBool', {
+									Prop = "RebelGhostAgreedToHelp",
+									QuestId = "01_Landing",
+									param_bindings = false,
+								}),
+							},
 							Keyword = "Нам нужна помощь у особняка",
 							KeywordT = T(275415074134, --[[ModItemConversation Rebels_Ghost KeywordT]] "Нам нужна помощь у особняка"),
 							Lines = {
@@ -47397,6 +47404,9 @@ return {
 					PlaceObj('QuestVarBool', {
 						Name = "M1_TalkWithRebels",
 					}),
+					PlaceObj('QuestVarBool', {
+						Name = "RebelGhostAgreedToHelp",
+					}),
 				},
 				group = "Main",
 				id = "01_Landing",
@@ -47612,6 +47622,9 @@ return {
 					PlaceObj('LootEntryLootDef', {
 						loot_def = "M2_QuestStash_GermanRifle_Random",
 					}),
+					PlaceObj('LootEntryLootDef', {
+						loot_def = "M2_QuestStash_GermanRifle_Random2",
+					}),
 					PlaceObj('LootEntryInventoryItem', {
 						item = "GoldBar",
 						stack_min = 1,
@@ -47638,6 +47651,18 @@ return {
 					PlaceObj('LootEntryLootDef', {
 						loot_def = "RiflesBolt_Gewehr98",
 						weight = 2000,
+					}),
+					PlaceObj('LootEntryLootDef', {
+						loot_def = "BattleRifles_FG42",
+						weight = 2000,
+					}),
+				}),
+				PlaceObj('ModItemLootDef', {
+					group = "Default",
+					id = "M2_QuestStash_GermanRifle_Random2",
+					PlaceObj('LootEntryLootDef', {
+						loot_def = "RiflesSemi_G43",
+						weight = 3000,
 					}),
 					PlaceObj('LootEntryLootDef', {
 						loot_def = "BattleRifles_FG42",
@@ -47850,6 +47875,11 @@ return {
 										param_bindings = false,
 										sector_id = "M3",
 									}),
+									PlaceObj('UnitGrantItem', {
+										Amount = 8,
+										ItemId = "SmokeGrenade",
+										param_bindings = false,
+									}),
 								},
 								GiveQuests = {
 									"JAZZ_Ernie_Locals_M2_SaveMyFamily",
@@ -47860,7 +47890,7 @@ return {
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
-										Text = T(552716187636, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Мы поможем]] "Спасибо, наемники"),
+										Text = T(552716187636, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Мы поможем]] "Спасибо, наемники. Я нашел ящик с гранатами на берегу. Вот, возьмите."),
 										param_bindings = false,
 									}),
 								},

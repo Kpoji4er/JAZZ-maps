@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4576,
+	'version', 4581,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
@@ -21,7 +21,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1767107584,
+	'saved', 1767430184,
 	'code_hash', -4445560982361173495,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
@@ -1462,6 +1462,11 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "LootDef",
 			'Id', "M2_QuestStash_GermanRifle_Random",
+			'ClassDisplayName', "LootDef",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "M2_QuestStash_GermanRifle_Random2",
 			'ClassDisplayName', "LootDef",
 		}),
 		PlaceObj('ModResourcePreset', {

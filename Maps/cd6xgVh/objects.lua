@@ -853,7 +853,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'SequentialTriggerEffects', false,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'RoutineArea', "DefenderDown",
 	'Spawn_Conditions', {
 		PlaceObj('AND', {
 			Conditions = {
@@ -898,7 +898,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'SequentialTriggerEffects', false,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'RoutineArea', "DefenderDown",
 	'Spawn_Conditions', {
 		PlaceObj('AND', {
 			Conditions = {
@@ -943,7 +943,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'SequentialTriggerEffects', false,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'RoutineArea', "DefenderDown",
 	'Spawn_Conditions', {
 		PlaceObj('AND', {
 			Conditions = {
@@ -988,7 +988,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'SequentialTriggerEffects', false,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'RoutineArea', "DefenderDown",
 	'Spawn_Conditions', {
 		PlaceObj('AND', {
 			Conditions = {
@@ -1033,7 +1033,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'SequentialTriggerEffects', false,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "AL_Defender",
+	'RoutineArea', "DefenderDown",
 	'Spawn_Conditions', {
 		PlaceObj('AND', {
 			Conditions = {

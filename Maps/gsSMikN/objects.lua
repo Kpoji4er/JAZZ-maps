@@ -2564,6 +2564,150 @@ PlaceObj('ExitZoneInteractable', {
 	'entity', "TravelMarker_06",
 }, nil, 1760053883)
 PlaceObj('UnitMarker', {
+	'Pos', point(60600, 121800, 7000),
+	'Groups', {
+		"HouseAmbushers",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
+	},
+	'Appearance', "LegionScout_alt",
+	'ApproachRadius', 20,
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
+		}),
+	},
+}, nil, 1661783716)
+PlaceObj('UnitMarker', {
+	'Pos', point(64200, 118200, 7000),
+	'Groups', {
+		"HouseAmbushers",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
+	},
+	'Appearance', "LegionGoon_alt_2",
+	'ApproachRadius', 20,
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
+		}),
+	},
+}, nil, 1250286084)
+PlaceObj('UnitMarker', {
+	'Pos', point(65400, 118200, 7000),
+	'Groups', {
+		"HouseAmbushers",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
+	},
+	'Appearance', "LegionGoon_alt_2",
+	'ApproachRadius', 20,
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
+		}),
+	},
+}, nil, 1243871818)
+PlaceObj('UnitMarker', {
+	'Pos', point(61800, 120600, 7000),
+	'Groups', {
+		"HouseAmbushers",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
+	},
+	'Appearance', "Legion_Recon",
+	'ApproachRadius', 20,
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
+		}),
+	},
+}, nil, 1774739277)
+PlaceObj('UnitMarker', {
+	'Pos', point(63000, 119400, 7000),
+	'Groups', {
+		"HouseAmbushers",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
+	},
+	'Appearance', "Legion_Stormer02",
+	'ApproachRadius', 20,
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
+		}),
+	},
+}, nil, 1307801348)
+PlaceObj('UnitMarker', {
+	'Pos', point(61800, 121800, 7000),
+	'Groups', {
+		"HouseAmbushers",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('SectorCheckOwner', {
+			Negate = true,
+			sector_id = "L3",
+		}),
+	},
+	'Appearance', "Legion_Recon",
+	'ApproachRadius', 20,
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
+		}),
+	},
+}, nil, 1255599676)
+PlaceObj('UnitMarker', {
 	'Pos', point(93000, 94200, 7700),
 	'Groups', {
 		"HouseAmbushers",
@@ -2573,18 +2717,6 @@ PlaceObj('UnitMarker', {
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
 	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
 		PlaceObj('SectorCheckOwner', {
 			Negate = true,
 			sector_id = "K3",
@@ -2609,18 +2741,6 @@ PlaceObj('UnitMarker', {
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
 	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
 		PlaceObj('SectorCheckOwner', {
 			Negate = true,
 			sector_id = "K3",
@@ -2645,18 +2765,6 @@ PlaceObj('UnitMarker', {
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
 	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
 		PlaceObj('SectorCheckOwner', {
 			Negate = true,
 			sector_id = "K3",
@@ -2681,18 +2789,6 @@ PlaceObj('UnitMarker', {
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
 	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
 		PlaceObj('SectorCheckOwner', {
 			Negate = true,
 			sector_id = "K3",
@@ -2717,18 +2813,6 @@ PlaceObj('UnitMarker', {
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
 	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
 		PlaceObj('SectorCheckOwner', {
 			Negate = true,
 			sector_id = "K3",
@@ -2743,78 +2827,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1659383212)
-PlaceObj('UnitMarker', {
-	'Pos', point(78600, 130200, 7000),
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L3",
-		}),
-	},
-	'Appearance', "LegionGoon_alt_2",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
-		}),
-	},
-}, nil, 1250286084)
-PlaceObj('UnitMarker', {
-	'Pos', point(79800, 130200, 7000),
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L3",
-		}),
-	},
-	'Appearance', "LegionGoon_alt_2",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
-		}),
-	},
-}, nil, 1243871818)
 PlaceObj('ContainerMarker', {
 	'Pos', point(90600, 113400, 7000),
 	'CollectionIndex', 2300,
@@ -2847,80 +2859,6 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 2932736)
-PlaceObj('UnitMarker', {
-	'Pos', point(107400, 113400, 7700),
-	'Angle', 5400,
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "K3",
-		}),
-	},
-	'Appearance', "LegionRaidLeader_alt_2",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_LeaderT1_Sergeant",
-		}),
-	},
-}, nil, 1784120571)
-PlaceObj('UnitMarker', {
-	'Pos', point(114600, 114600, 7000),
-	'Angle', 5400,
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "K3",
-		}),
-	},
-	'Appearance', "LegionManiac_alt",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
-		}),
-	},
-}, nil, 1635510464)
 PlaceObj('UnitMarker', {
 	'Pos', point(108600, 115800, 7700),
 	'Angle', 5400,
@@ -2986,12 +2924,12 @@ PlaceObj('UnitMarker', {
 			sector_id = "K3",
 		}),
 	},
-	'Appearance', "LegionSharpShooter_alt",
+	'Appearance', "LegionManiac",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
 		}),
 	},
 }, nil, 1315501847)
@@ -3006,69 +2944,20 @@ PlaceObj('UnitMarker', {
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
 	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
 		PlaceObj('SectorCheckOwner', {
 			Negate = true,
 			sector_id = "K3",
 		}),
 	},
-	'Appearance', "Legion_Recon",
+	'Appearance', "Legion_Recon03",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1749138926)
-PlaceObj('UnitMarker', {
-	'Pos', point(113400, 118200, 8400),
-	'Angle', 5400,
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "K3",
-		}),
-	},
-	'Appearance', "Legion_Soldier",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
-		}),
-	},
-}, nil, 1838043749)
 PlaceObj('WaypointMarker', {
 	'Pos', point(107400, 130200, 14700),
 	'Angle', 5400,
@@ -3130,18 +3019,6 @@ PlaceObj('UnitMarker', {
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
 	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
 		PlaceObj('SectorCheckOwner', {
 			Negate = true,
 			sector_id = "K3",
@@ -3156,43 +3033,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1635877710)
-PlaceObj('UnitMarker', {
-	'Pos', point(118200, 119400, 8400),
-	'Angle', 5400,
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "K3",
-		}),
-	},
-	'Appearance', "LegionGrenadir_alt",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
-		}),
-	},
-}, nil, 1674292821)
 PlaceObj('UnitMarker', {
 	'Pos', point(115800, 130200, 15400),
 	'Groups', {
@@ -3282,6 +3122,211 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 780001280)
+PlaceObj('UnitMarker', {
+	'Pos', point(59400, 217800, 8400),
+	'Groups', {
+		"Rebels_Help",
+	},
+	'AllowedMask', 4294966497,
+	'SequentialTriggerEffects', false,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "Guards",
+	'Spawn_Conditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "RebelGhostAgreedToHelp" ),
+				}),
+			},
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M4",
+			},
+		}),
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'Appearance', "Recon_Rebels",
+	'Side', "ally",
+	'AlwaysSpawn', true,
+	'ConflictIgnore', true,
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost_Guards",
+		}),
+	},
+}, nil, 1582649701)
+PlaceObj('UnitMarker', {
+	'Pos', point(60600, 219000, 8400),
+	'Groups', {
+		"Rebels_Help",
+	},
+	'AllowedMask', 4294966497,
+	'SequentialTriggerEffects', false,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "Guards",
+	'Spawn_Conditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "RebelGhostAgreedToHelp" ),
+				}),
+			},
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M4",
+			},
+		}),
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'Appearance', "Recon_Rebels",
+	'Side', "ally",
+	'AlwaysSpawn', true,
+	'ConflictIgnore', true,
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost_Guards",
+		}),
+	},
+}, nil, 1288904357)
+PlaceObj('UnitMarker', {
+	'Pos', point(60600, 220200, 8400),
+	'Groups', {
+		"Rebels_Help",
+	},
+	'AllowedMask', 4294966497,
+	'SequentialTriggerEffects', false,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "Guards",
+	'Spawn_Conditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "RebelGhostAgreedToHelp" ),
+				}),
+			},
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M4",
+			},
+		}),
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'Appearance', "Recon_Rebels",
+	'Side', "ally",
+	'AlwaysSpawn', true,
+	'ConflictIgnore', true,
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost_Guards",
+		}),
+	},
+}, nil, 1221271075)
+PlaceObj('UnitMarker', {
+	'Pos', point(61800, 217800, 8400),
+	'Groups', {
+		"Rebels_Help",
+	},
+	'AllowedMask', 4294966497,
+	'SequentialTriggerEffects', false,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "Guards",
+	'Spawn_Conditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "RebelGhostAgreedToHelp" ),
+				}),
+			},
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M4",
+			},
+		}),
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'Appearance', "Recon_Rebels",
+	'Side', "ally",
+	'AlwaysSpawn', true,
+	'ConflictIgnore', true,
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost_Guards",
+		}),
+	},
+}, nil, 1703579100)
+PlaceObj('UnitMarker', {
+	'Pos', point(63000, 217800, 8400),
+	'Groups', {
+		"Rebels_Help",
+	},
+	'AllowedMask', 4294966497,
+	'SequentialTriggerEffects', false,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "Guards",
+	'Spawn_Conditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "01_Landing",
+					Vars = set( "RebelGhostAgreedToHelp" ),
+				}),
+			},
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('PlayerIsInSectors', {
+			Negate = true,
+			Sectors = {
+				"M4",
+			},
+		}),
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'Appearance', "Rebels_NPC_Ghost",
+	'Side', "ally",
+	'AlwaysSpawn', true,
+	'ConflictIgnore', true,
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Rebel_NPC_Ghost",
+		}),
+	},
+}, nil, 1799057228)
 PlaceObj('GridMarker', {
 	'Pos', point(64200, 219000, 7700),
 	'Angle', 5400,
@@ -3316,150 +3361,6 @@ PlaceObj('ExitZoneInteractable', {
 	},
 	'HideVisualWhenDisabled', true,
 }, nil, 1727780384)
-PlaceObj('UnitMarker', {
-	'Pos', point(75000, 133800, 7000),
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L3",
-		}),
-	},
-	'Appearance', "LegionScout_alt",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
-		}),
-	},
-}, nil, 1661783716)
-PlaceObj('UnitMarker', {
-	'Pos', point(76200, 132600, 7000),
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L3",
-		}),
-	},
-	'Appearance', "Legion_Recon",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
-		}),
-	},
-}, nil, 1774739277)
-PlaceObj('UnitMarker', {
-	'Pos', point(77400, 131400, 7000),
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L3",
-		}),
-	},
-	'Appearance', "Legion_Stormer02",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
-		}),
-	},
-}, nil, 1307801348)
-PlaceObj('UnitMarker', {
-	'Pos', point(76200, 133800, 7000),
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L3",
-		}),
-	},
-	'Appearance', "Legion_Recon",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
-		}),
-	},
-}, nil, 1255599676)
 PlaceObj('WaypointMarker', {
 	'Pos', point(84600, 135000, 8400),
 	'Angle', 5400,
@@ -3531,24 +3432,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L3",
-		}),
-	},
+	'Spawn_Conditions', {},
 	'Appearance', "LegionScout",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
@@ -3568,24 +3452,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L3",
-		}),
-	},
+	'Spawn_Conditions', {},
 	'Appearance', "LegionSharpShooter_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
@@ -3605,24 +3472,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L3",
-		}),
-	},
+	'Spawn_Conditions', {},
 	'Appearance', "LegionScout",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
@@ -3642,24 +3492,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L3",
-		}),
-	},
+	'Spawn_Conditions', {},
 	'Appearance', "LegionScout",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
@@ -3679,24 +3512,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L3",
-		}),
-	},
+	'Spawn_Conditions', {},
 	'Appearance', "Legion_Stormer03",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
@@ -3716,24 +3532,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L3",
-		}),
-	},
+	'Spawn_Conditions', {},
 	'Appearance', "LegionScout_alt_2",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
@@ -4667,34 +4466,6 @@ PlaceObj('HackMarker', {
 	'Difficulty', "VeryHard",
 }, nil, 1489532233)
 PlaceObj('GridMarker', {
-	'Pos', point(117000, 141000, 15400),
-	'Groups', {
-		"AmbushHouseSpawn",
-	},
-	'AllowedMask', 4294966497,
-	'Type', "Logic",
-	'AreaWidth', 20,
-	'AreaHeight', 20,
-	'TriggerConditions', {
-		PlaceObj('UnitIsNearbyArea', {
-			TargetUnit = "any merc",
-		}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupAlert', {
-			TargetUnit = "HouseAmbushers",
-		}),
-	},
-	'EnabledConditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "04_Betrayal",
-			Vars = set({
-	TriggerWorldFlip = false,
-}),
-		}),
-	},
-}, nil, 1791890603)
-PlaceObj('GridMarker', {
 	'Pos', point(119400, 141000, 18900),
 	'Groups', {
 		"SP_Explosion2",
@@ -5215,114 +4986,6 @@ PlaceObj('ContainerMarker', {
 	},
 }, nil, 653246464)
 PlaceObj('UnitMarker', {
-	'Pos', point(141000, 107400, 7000),
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "K5",
-		}),
-	},
-	'Appearance', "Legion_Stormer03",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
-		}),
-	},
-}, nil, 1247343922)
-PlaceObj('UnitMarker', {
-	'Pos', point(141000, 108600, 7000),
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "K5",
-		}),
-	},
-	'Appearance', "LegionManiac",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
-		}),
-	},
-}, nil, 1254803363)
-PlaceObj('UnitMarker', {
-	'Pos', point(142200, 107400, 7000),
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "K5",
-		}),
-	},
-	'Appearance', "LegionScout",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
-		}),
-	},
-}, nil, 1491048127)
-PlaceObj('UnitMarker', {
 	'Pos', point(142200, 108600, 7000),
 	'Groups', {
 		"HouseAmbushers",
@@ -5331,24 +4994,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "K5",
-		}),
-	},
+	'Spawn_Conditions', {},
 	'Appearance', "LegionScout_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
@@ -5394,24 +5040,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "K5",
-		}),
-	},
+	'Spawn_Conditions', {},
 	'Appearance', "LegionGrenadir_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
@@ -5430,24 +5059,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "K5",
-		}),
-	},
+	'Spawn_Conditions', {},
 	'Appearance', "LegionRaider",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
@@ -5466,24 +5078,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "K5",
-		}),
-	},
+	'Spawn_Conditions', {},
 	'Appearance', "Legion_Heavy",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
@@ -5502,24 +5097,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "K5",
-		}),
-	},
+	'Spawn_Conditions', {},
 	'Appearance', "LegionRaider_alt_2",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
@@ -5530,42 +5108,6 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1003424728)
 PlaceObj('UnitMarker', {
-	'Pos', point(153000, 102600, 7000),
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "K5",
-		}),
-	},
-	'Appearance', "LegionGrenadir_alt",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
-		}),
-	},
-}, nil, 1543520882)
-PlaceObj('UnitMarker', {
 	'Pos', point(154200, 102600, 7000),
 	'Groups', {
 		"HouseAmbushers",
@@ -5574,30 +5116,13 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "K5",
-		}),
-	},
-	'Appearance', "Legion_Recon02",
+	'Spawn_Conditions', {},
+	'Appearance', "LegionRaidLeader_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
+			'UnitDataDefId', "JAZZ_Legion_LeaderT1_Sergeant",
 		}),
 	},
 }, nil, 1191419216)
@@ -6079,43 +5604,6 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1749554425)
 PlaceObj('UnitMarker', {
-	'Pos', point(141000, 166200, 9100),
-	'Angle', 16200,
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L5",
-		}),
-	},
-	'Appearance', "LegionGrenadir_alt_2",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
-		}),
-	},
-}, nil, 1614491365)
-PlaceObj('UnitMarker', {
 	'Pos', point(142200, 165000, 9100),
 	'Angle', 16200,
 	'Groups', {
@@ -6126,24 +5614,7 @@ PlaceObj('UnitMarker', {
 	'EnabledConditions', {},
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L5",
-		}),
-	},
+	'Spawn_Conditions', {},
 	'Appearance', "Legion_Recon",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
@@ -6169,43 +5640,6 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 381206528)
-PlaceObj('UnitMarker', {
-	'Pos', point(142200, 166200, 9100),
-	'Angle', 16200,
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L5",
-		}),
-	},
-	'Appearance', "Legion_Soldier04",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
-		}),
-	},
-}, nil, 1769513058)
 PlaceObj('ContainerMarker', {
 	'Pos', point(142200, 171000),
 	'Groups', {
@@ -6222,43 +5656,6 @@ PlaceObj('ContainerMarker', {
 	},
 }, nil, 1840564509)
 PlaceObj('UnitMarker', {
-	'Pos', point(144600, 165000, 9100),
-	'Angle', 16200,
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L5",
-		}),
-	},
-	'Appearance', "Legion_Recon03",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
-		}),
-	},
-}, nil, 1730438512)
-PlaceObj('UnitMarker', {
 	'Pos', point(143400, 166200, 9100),
 	'Angle', 16200,
 	'Groups', {
@@ -6268,24 +5665,7 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L5",
-		}),
-	},
+	'Spawn_Conditions', {},
 	'Appearance', "Legion_Soldier06",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
@@ -6295,154 +5675,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1263121263)
-PlaceObj('UnitMarker', {
-	'Pos', point(143400, 167400, 9100),
-	'Angle', 16200,
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L5",
-		}),
-	},
-	'Appearance', "LegionRaider_alt_2",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
-		}),
-	},
-}, nil, 1183205332)
-PlaceObj('UnitMarker', {
-	'Pos', point(144600, 166200, 9100),
-	'Angle', 16200,
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L5",
-		}),
-	},
-	'Appearance', "Legion_Marksman",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
-		}),
-	},
-}, nil, 1136960432)
-PlaceObj('UnitMarker', {
-	'Pos', point(144600, 167400, 9100),
-	'Angle', 16200,
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L5",
-		}),
-	},
-	'Appearance', "LegionMedic_Stronger_alt",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FrontT1_Bonemaker",
-		}),
-	},
-}, nil, 1290071195)
-PlaceObj('UnitMarker', {
-	'Pos', point(145800, 167400, 9100),
-	'Angle', 16200,
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L5",
-		}),
-	},
-	'Appearance', "Legion_Demolishion03",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
-		}),
-	},
-}, nil, 1169681376)
 PlaceObj('ContainerMarker', {
 	'Pos', point(139800, 174600),
 	'Angle', 5400,
@@ -6475,82 +5707,6 @@ PlaceObj('GridMarker', {
 		}),
 	},
 }, nil, 1038154623)
-PlaceObj('UnitMarker', {
-	'Pos', point(135000, 196200, 21700),
-	'Angle', 16200,
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L4",
-		}),
-	},
-	'CollectionRange', 15000,
-	'Appearance', "LegionScout_alt",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
-		}),
-	},
-}, nil, 1337526389)
-PlaceObj('UnitMarker', {
-	'Pos', point(137400, 196200, 21700),
-	'Angle', 16200,
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L4",
-		}),
-	},
-	'CollectionRange', 15000,
-	'Appearance', "LegionManiac_alt",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
-		}),
-	},
-}, nil, 1663057829)
 PlaceObj('UnitMarker', {
 	'Pos', point(160200, 183000, 9100),
 	'Groups', {
@@ -6799,32 +5955,6 @@ PlaceObj('ContainerMarker', {
 	},
 }, nil, 752500736)
 PlaceObj('UnitMarker', {
-	'Pos', point(187800, 131400, 7000),
-	'Angle', 10800,
-	'Groups', {
-		"Raiders",
-		"AL_Raiders",
-	},
-	'AllowedMask', 4294966497,
-	'AreaWidth', 3,
-	'AreaHeight', 3,
-	'Routine', "Ambient",
-	'Despawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "04_Betrayal",
-			Vars = set( "WorldFlipDone" ),
-		}),
-	},
-	'Appearance', "LegionGrenadir_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
-			'ForcedAppearance', "Legion_Soldier06",
-		}),
-	},
-}, nil, 1194971259)
-PlaceObj('UnitMarker', {
 	'Pos', point(187800, 132600, 7000),
 	'Angle', 10800,
 	'Groups', {
@@ -6868,30 +5998,6 @@ PlaceObj('WaypointMarker', {
 	'ID', "8",
 	'ArchetypesTriState', set( "Beast", "Default", "Demolitions", "Recon", "Soldier" ),
 }, nil, 1665554805)
-PlaceObj('UnitMarker', {
-	'Pos', point(189000, 136200, 7000),
-	'Groups', {
-		"Raiders",
-		"AL_Raiders",
-	},
-	'AllowedMask', 4294966497,
-	'AreaWidth', 6,
-	'AreaHeight', 6,
-	'Routine', "Ambient",
-	'Despawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "04_Betrayal",
-			Vars = set( "WorldFlipDone" ),
-		}),
-	},
-	'Appearance', "LegionManiac_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
-		}),
-	},
-}, nil, 1370764262)
 PlaceObj('ContainerMarker', {
 	'Pos', point(192600, 133800),
 	'Groups', {
@@ -7229,7 +6335,7 @@ PlaceObj('HerbMarker', {
 	'AllowedMask', 4294966497,
 }, nil, 1122254255)
 PlaceObj('UnitMarker', {
-	'Pos', point(132600, 199800, 22400),
+	'Pos', point(131400, 204600, 24500),
 	'Angle', 16200,
 	'Groups', {
 		"HouseAmbushers",
@@ -7238,35 +6344,18 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L4",
-		}),
-	},
-	'Appearance', "LegionRaidLeader_alt_2",
+	'Spawn_Conditions', {},
+	'Appearance', "Legion_Soldier06",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_LeaderT1_Sergeant",
+			'UnitDataDefId', "JAZZ_Legion_FrontT4_Mercenary",
 		}),
 	},
-}, nil, 1460241574)
+}, nil, 1018171116)
 PlaceObj('UnitMarker', {
-	'Pos', point(135000, 197400, 21700),
+	'Pos', point(133800, 202200, 24500),
 	'Angle', 16200,
 	'Groups', {
 		"HouseAmbushers",
@@ -7275,36 +6364,59 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L4",
-		}),
-	},
-	'CollectionRange', 15000,
-	'Appearance', "LegionRaider_alt_2",
+	'Spawn_Conditions', {},
+	'Appearance', "LegionSniper_Stronger",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Ambusher",
+		}),
+	},
+}, nil, 1635930250)
+PlaceObj('UnitMarker', {
+	'Pos', point(131400, 205800, 24500),
+	'Angle', 16200,
+	'Groups', {
+		"HouseAmbushers",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Stormer03",
+	'ApproachRadius', 20,
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT4_Headsman",
+		}),
+	},
+}, nil, 1364025854)
+PlaceObj('UnitMarker', {
+	'Pos', point(131400, 208200, 23800),
+	'Angle', 16200,
+	'Groups', {
+		"HouseAmbushers",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Heavy",
+	'ApproachRadius', 20,
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_GunnerT4_MercGunner",
 		}),
 	},
 }, nil, 1429197765)
 PlaceObj('UnitMarker', {
-	'Pos', point(133800, 199800, 22400),
+	'Pos', point(132600, 207000, 24500),
 	'Angle', 16200,
 	'Groups', {
 		"HouseAmbushers",
@@ -7313,25 +6425,28 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L4",
+	'CollectionRange', 15000,
+	'Appearance', "LegionRaider_Stronger_Elite_alt_2",
+	'ApproachRadius', 20,
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT3_Veteran",
 		}),
 	},
-	'Appearance', "LegionManiac",
+}, nil, 1337526389)
+PlaceObj('UnitMarker', {
+	'Pos', point(133800, 207000, 24500),
+	'Angle', 16200,
+	'Groups', {
+		"HouseAmbushers",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'CollectionRange', 15000,
+	'Appearance', "LegionManiac_alt",
 	'ApproachRadius', 20,
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -7339,9 +6454,9 @@ PlaceObj('UnitMarker', {
 			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
 		}),
 	},
-}, nil, 1635930250)
+}, nil, 1663057829)
 PlaceObj('UnitMarker', {
-	'Pos', point(135000, 201000, 23100),
+	'Pos', point(133800, 208200, 24500),
 	'Angle', 16200,
 	'Groups', {
 		"HouseAmbushers",
@@ -7350,99 +6465,6 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L4",
-		}),
-	},
-	'Appearance', "LegionGoon_alt_2",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
-		}),
-	},
-}, nil, 1018171116)
-PlaceObj('UnitMarker', {
-	'Pos', point(136200, 197400, 21700),
-	'Angle', 16200,
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L4",
-		}),
-	},
-	'CollectionRange', 15000,
-	'Appearance', "Legion_Recon03",
-	'ApproachRadius', 20,
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
-		}),
-	},
-}, nil, 1364025854)
-PlaceObj('UnitMarker', {
-	'Pos', point(137400, 197400, 21700),
-	'Angle', 16200,
-	'Groups', {
-		"HouseAmbushers",
-		"Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "EmmaAndCorazon",
-	'Spawn_Conditions', {
-		PlaceObj('CheckAND', {
-			Conditions = {
-				PlaceObj('QuestIsTCEState', {
-					Prop = "TCE_WorldFlipDone",
-					QuestId = "04_Betrayal",
-				}),
-				PlaceObj('UnitIsAroundMarkerOfGroup', {
-					MarkerGroup = "AmbushHouseSpawn",
-					TargetUnit = "any merc",
-				}),
-			},
-		}),
-		PlaceObj('SectorCheckOwner', {
-			Negate = true,
-			sector_id = "L4",
-		}),
-	},
 	'CollectionRange', 15000,
 	'Appearance', "LegionGrenadir_alt",
 	'ApproachRadius', 20,
@@ -7453,6 +6475,26 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1881228059)
+PlaceObj('UnitMarker', {
+	'Pos', point(138600, 207000, 24500),
+	'Angle', 16200,
+	'Groups', {
+		"HouseAmbushers",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {},
+	'Appearance', "LegionSniper_Stronger_alt_2",
+	'ApproachRadius', 20,
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Ambusher",
+		}),
+	},
+}, nil, 1460241574)
 PlaceObj('WaypointMarker', {
 	'Pos', point(201000, 141000),
 	'Groups', {
@@ -94846,7 +93888,6 @@ p("TropicalPlant_Grass_01",187952,146459,19772,110,2097156)
 p("TropicalPlant_04_Shrub_02",187914,147090,8872,19971,130,2097157)
 p("TropicalPlant_Grass_03",188249,147156,11124,128,2097156)
 p("Decor_Explosion_Human_03",188521,134541,0)
-p("Decor_Explosion_Human_02",189590,134637,0)
 p("DecSteps_03",189344,137102,4460,3825,2097408)
 p("DecSteps_02",189880,138454,14675,3825,2097408)
 p("DecSteps_03",192170,137146,6260,3825,2097408)
