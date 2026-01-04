@@ -188,24 +188,24 @@ PlaceObj('GridMarker', {
 	'ArchetypesTriState', set( "Militia" ),
 }, nil, 1442669706)
 PlaceObj('GridMarker', {
-	'Pos', point(99000, 151800, 7000),
+	'Pos', point(93000, 151800, 7000),
 	'Groups', {
 		"West",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Entrance",
 	'AreaWidth', 5,
-	'AreaHeight', 5,
+	'AreaHeight', 15,
 }, nil, 1276749278)
 PlaceObj('ExitZoneInteractable', {
-	'Pos', point(99339, 154198, 6881),
+	'Pos', point(92555, 154198, 5664),
 	'Groups', {
 		"West",
 	},
 	'AllowedMask', 4294966497,
 }, nil, 1496472809)
 PlaceObj('ExitZoneInteractable', {
-	'Pos', point(162069, 83087, 11304),
+	'Pos', point(162423, 94342, 14377),
 	'Groups', {
 		"North",
 	},
@@ -239,13 +239,13 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 12,
 }, nil, 1601405499)
 PlaceObj('GridMarker', {
-	'Pos', point(166200, 83400, 10500),
+	'Pos', point(166200, 94200, 15400),
 	'Groups', {
 		"North",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Entrance",
-	'AreaWidth', 5,
+	'AreaWidth', 80,
 	'AreaHeight', 5,
 }, nil, 1364167687)
 PlaceObj('GridMarker', {
@@ -334,14 +334,6 @@ PlaceObj('OverheardMarker', {
 	},
 }, nil, 1129662916)
 PlaceObj('GridMarker', {
-	'Pos', point(169800, 167400, 16100),
-	'AllowedMask', 4294966497,
-	'Type', "BorderArea",
-	'AreaWidth', 180,
-	'AreaHeight', 145,
-	'Reachable', false,
-}, nil, 1834157092)
-PlaceObj('GridMarker', {
 	'Pos', point(168600, 171000, 16100),
 	'Groups', {
 		"AL_Defender",
@@ -366,6 +358,14 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 12,
 	'AreaHeight', 12,
 }, nil, 1740925287)
+PlaceObj('GridMarker', {
+	'Pos', point(169800, 179400, 16100),
+	'AllowedMask', 4294966497,
+	'Type', "BorderArea",
+	'AreaWidth', 180,
+	'AreaHeight', 145,
+	'Reachable', false,
+}, nil, 1834157092)
 PlaceObj('GridMarker', {
 	'Pos', point(183000, 177000, 16100),
 	'Groups', {
@@ -395,23 +395,6 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 6,
 	'Routine', "Patrol",
 }, nil, 1396912722)
-PlaceObj('ExitZoneInteractable', {
-	'Pos', point(189357, 250154, 14281),
-	'Groups', {
-		"South",
-	},
-	'AllowedMask', 4294966497,
-}, nil, 1284747480)
-PlaceObj('GridMarker', {
-	'Pos', point(195000, 250200, 15400),
-	'Groups', {
-		"South",
-	},
-	'AllowedMask', 4294966497,
-	'Type', "Entrance",
-	'AreaWidth', 5,
-	'AreaHeight', 5,
-}, nil, 1351155033)
 PlaceObj('GridMarker', {
 	'Pos', point(199800, 143400, 18900),
 	'Groups', {
@@ -520,11 +503,29 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 6,
 }, nil, 1596781101)
 PlaceObj('ExitZoneInteractable', {
+	'Pos', point(145129, 263571, 14281),
+	'Groups', {
+		"South",
+	},
+	'AllowedMask', 4294966497,
+}, nil, 1284747480)
+PlaceObj('GridMarker', {
+	'Pos', point(150600, 263400, 9100),
+	'Groups', {
+		"South",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Entrance",
+	'AreaWidth', 50,
+	'AreaHeight', 5,
+}, nil, 1351155033)
+PlaceObj('ExitZoneInteractable', {
 	'Pos', point(274023, 194356, 17791),
 	'Groups', {
 		"East",
 	},
 	'AllowedMask', 4294966497,
+	'AreaHeight', 1,
 }, nil, 1524981864)
 PlaceObj('GridMarker', {
 	'Pos', point(274200, 197400),
@@ -534,7 +535,7 @@ PlaceObj('GridMarker', {
 	'AllowedMask', 4294966497,
 	'Type', "Entrance",
 	'AreaWidth', 5,
-	'AreaHeight', 5,
+	'AreaHeight', 100,
 }, nil, 1101489813)
 -- end of objects of class GridMarker
 PlaceObj('TropicalPlant_04_Tree_01', {
@@ -33894,6 +33895,7 @@ p("TropicalPlant_Grass_02",164953,58106,77,4)
 p("TropicalPlant_Grass_01",164900,59061,97,4)
 p("TropicalPlant_Grass_02",165882,59059,142,4)
 p("TropicalPlant_Grass_03",164245,60214,127,4)
+p("TropicalPlant_Grass_04",163840,60789,108,4)
 p("TropicalPlant_Grass_02",164197,60934,68,4)
 p("TropicalPlant_Grass_04",165119,59844,65,4)
 p("TropicalPlant_Grass_04",165189,60765,118,4)
@@ -34968,7 +34970,6 @@ p("TropicalPlant_Grass_02",160794,76189,142,4)
 p("TropicalPlant_Grass_03",161112,76992,119,4)
 p("TropicalPlant_Grass_04",162094,75004,114,4)
 p("TropicalPlant_Grass_04",163060,73784,83,4)
-p("TropicalPlant_Grass_04",163154,75147,108,4)
 p("TropicalPlant_Grass_02",161868,75916,85,4)
 p("TropicalPlant_Grass_03",161906,76817,59,4)
 p("TropicalPlant_Grass_03",162157,77762,127,4)
@@ -36286,7 +36287,7 @@ p("TropicalPlant_Grass_02",166813,91922,56,4)
 p("TropicalPlant_Grass_04",167004,90208,84,4)
 p("TropicalPlant_Grass_04",167102,91038,81,4)
 p("TropicalPlant_Grass_04",166215,92948,136,4)
-p("TropicalPlant_Grass_04",166249,93945,77,4)
+p("TropicalPlant_Grass_04",166260,93958,77,4)
 p("TropicalPlant_Grass_02",167080,93098,76,4)
 p("TropicalPlant_Grass_01",167075,93818,139,4)
 p("TropicalPlant_Grass_01",167875,93997,132,4)
