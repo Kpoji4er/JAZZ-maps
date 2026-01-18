@@ -2407,6 +2407,39 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 20,
 	'AreaHeight', 20,
 }, nil, 1285186459)
+PlaceObj('UnitMarker', {
+	'Pos', point(121800, 181800, 23100),
+	'Groups', {
+		"Jazz_Injured_Rebel_2",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Given" ),
+		}),
+	},
+	'Appearance', "Heavy_Rebels_02",
+	'SpecificBanters', {
+		"InjuredRebel",
+	},
+	'InteractionEffects', {
+		PlaceObj('GroupSetRoutine', {
+			Routine = "Ambient",
+			RoutineArea = "Rebels_Ambient",
+			Running = true,
+			UseWeapons = true,
+		}),
+	},
+	'InteractionVisuals', "UI/Hud/iw_speak",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "RebelGunner",
+			'Name', T(360051447881, "Раненый Повстанец"),
+		}),
+	},
+}, nil, 1141945203)
 PlaceObj('GridMarker', {
 	'Pos', point(124200, 189000, 23100),
 	'Groups', {
@@ -2630,8 +2663,41 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 6,
 	'ArchetypesTriState', set(),
 }, nil, 1813803492)
+PlaceObj('UnitMarker', {
+	'Pos', point(133800, 233400, 18200),
+	'Groups', {
+		"Jazz_Injured_Rebel_3",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Given" ),
+		}),
+	},
+	'Appearance', "Heavy_Rebels_02",
+	'SpecificBanters', {
+		"InjuredRebel",
+	},
+	'InteractionEffects', {
+		PlaceObj('GroupSetRoutine', {
+			Routine = "Ambient",
+			RoutineArea = "Rebels_Ambient",
+			Running = true,
+			UseWeapons = true,
+		}),
+	},
+	'InteractionVisuals', "UI/Hud/iw_speak",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "RebelGunner",
+			'Name', T(360051447881, "Раненый Повстанец"),
+		}),
+	},
+}, nil, 1317651479)
 PlaceObj('GridMarker', {
-	'Pos', point(136200, 235800, 16800),
+	'Pos', point(136200, 235800, 18200),
 	'Groups', {
 		"Rebels_Ambient",
 	},
@@ -2662,6 +2728,20 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 20,
 	'AreaHeight', 20,
 }, nil, 1045529923)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(181800, 227400),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1092069011)
 PlaceObj('GridMarker', {
 	'Pos', point(181800, 229800, 14000),
 	'Groups', {
@@ -2684,6 +2764,62 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 6,
 	'ArchetypesTriState', set(),
 }, nil, 1801010924)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(183000, 239400),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1798806069)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(190200, 232200),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1311840472)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(196200, 234600),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1412871259)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(190200, 239400),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1658144337)
 PlaceObj('UnitMarker', {
 	'Pos', point(197400, 147000, 27300),
 	'Angle', 5400,
@@ -2708,6 +2844,39 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1471160088)
+PlaceObj('UnitMarker', {
+	'Pos', point(202200, 151800, 27300),
+	'Groups', {
+		"Jazz_Injured_Rebel_1",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Given" ),
+		}),
+	},
+	'Appearance', "Heavy_Rebels_02",
+	'SpecificBanters', {
+		"InjuredRebel",
+	},
+	'InteractionEffects', {
+		PlaceObj('GroupSetRoutine', {
+			Routine = "Ambient",
+			RoutineArea = "Rebels_Ambient",
+			Running = true,
+			UseWeapons = true,
+		}),
+	},
+	'InteractionVisuals', "UI/Hud/iw_speak",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "RebelGunner",
+			'Name', T(360051447881, "Раненый Повстанец"),
+		}),
+	},
+}, nil, 1024982262)
 PlaceObj('GridMarker', {
 	'Pos', point(207000, 187800, 14000),
 	'Groups', {
@@ -2750,6 +2919,76 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 332046336)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(197400, 216600),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1336457824)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(203400, 226200),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1735487181)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(208200, 226200),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1002808452)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(211800, 223800),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1367169819)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(211800, 228600),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1202031087)
 PlaceObj('ContainerMarker', {
 	'Pos', point(214200, 197400),
 	'CollectionIndex', 3033,
@@ -2777,6 +3016,62 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 5,
 	'AreaHeight', 5,
 }, nil, 1017536347)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(205800, 231000),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1855583328)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(208200, 229800),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1359533455)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(208200, 233400),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1564572013)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(210600, 235800),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1533359351)
 PlaceObj('ExitZoneInteractable', {
 	'Pos', point(177041, 266626, 15238),
 	'Groups', {
@@ -67148,7 +67443,7 @@ PlaceObj('Hangar_Canvas_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'CollectionIndex', 2125,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, 1825272442)
 PlaceObj('HangarSmall_Roof_03', {
 	'ColorizationPalette', "",
@@ -67172,7 +67467,7 @@ PlaceObj('Hangar_Canvas_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'CollectionIndex', 2125,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, 1104262486)
 PlaceObj('Shanty_WallDecorTin_03', {
 	'ColorizationPalette', "",
@@ -98741,7 +99036,7 @@ PlaceObj('TropicalPlant_Ivy_V_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'CollectionIndex', 141,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, 1353177786)
 PlaceObj('JungleCamp_FirePlace_02', {
 	'Pos', point(217176, 196805),
@@ -98818,7 +99113,7 @@ PlaceObj('TropicalPlant_Ivy_V_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'CollectionIndex', 141,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, 1838903984)
 PlaceObj('Bunker_MetalBed_mattress', {
 	'ColorizationPalette', "",

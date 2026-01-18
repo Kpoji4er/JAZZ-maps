@@ -33,6 +33,25 @@
 		type = "InventoryItemSpawn",
 	},
 	{
+		Groups = {
+			"Jazz_Rebels_MInes",
+		},
+		handle = 1002808452,
+		items = {
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "Jazz_Doctor_need_Help",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
+		},
+		map = "qTn3d4w",
+		name = "Position#452 (Jazz_Rebels_MInes)",
+		path = "Position ",
+		type = "Position",
+	},
+	{
 		Groups = false,
 		handle = 1013010811,
 		items = {},
@@ -40,6 +59,47 @@
 		name = "UnitMarker#811",
 		path = "UnitMarker ",
 		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Jazz_Injured_Rebel_1",
+		},
+		SpecificBanters = {
+			"InjuredRebel",
+		},
+		handle = 1024982262,
+		items = {
+			{
+				editor_view_abridged = "if Given",
+				filter_type = "quest",
+				reference_id = "Jazz_Doctor_need_Help",
+				type = "QuestIsVariableBool",
+				var = set( "Given" ),
+			},
+		},
+		map = "qTn3d4w",
+		name = "UnitMarker#262 (Jazz_Injured_Rebel_1)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Jazz_Rebels_MInes",
+		},
+		handle = 1092069011,
+		items = {
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "Jazz_Doctor_need_Help",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
+		},
+		map = "qTn3d4w",
+		name = "Position#011 (Jazz_Rebels_MInes)",
+		path = "Position ",
+		type = "Position",
 	},
 	{
 		Groups = {
@@ -62,6 +122,47 @@
 		type = "UnitMarker",
 	},
 	{
+		Groups = {
+			"Jazz_Injured_Rebel_2",
+		},
+		SpecificBanters = {
+			"InjuredRebel",
+		},
+		handle = 1141945203,
+		items = {
+			{
+				editor_view_abridged = "if Given",
+				filter_type = "quest",
+				reference_id = "Jazz_Doctor_need_Help",
+				type = "QuestIsVariableBool",
+				var = set( "Given" ),
+			},
+		},
+		map = "qTn3d4w",
+		name = "UnitMarker#203 (Jazz_Injured_Rebel_2)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Jazz_Rebels_MInes",
+		},
+		handle = 1202031087,
+		items = {
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "Jazz_Doctor_need_Help",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
+		},
+		map = "qTn3d4w",
+		name = "Position#087 (Jazz_Rebels_MInes)",
+		path = "Position ",
+		type = "Position",
+	},
+	{
 		Groups = false,
 		handle = 1291606739,
 		items = {},
@@ -78,6 +179,123 @@
 		name = "UnitMarker#761",
 		path = "UnitMarker ",
 		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Jazz_Rebels_MInes",
+		},
+		handle = 1311840472,
+		items = {
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "Jazz_Doctor_need_Help",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
+		},
+		map = "qTn3d4w",
+		name = "Position#472 (Jazz_Rebels_MInes)",
+		path = "Position ",
+		type = "Position",
+	},
+	{
+		Groups = {
+			"Jazz_Injured_Rebel_3",
+		},
+		SpecificBanters = {
+			"InjuredRebel",
+		},
+		handle = 1317651479,
+		items = {
+			{
+				editor_view_abridged = "if Given",
+				filter_type = "quest",
+				reference_id = "Jazz_Doctor_need_Help",
+				type = "QuestIsVariableBool",
+				var = set( "Given" ),
+			},
+		},
+		map = "qTn3d4w",
+		name = "UnitMarker#479 (Jazz_Injured_Rebel_3)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Jazz_Rebels_MInes",
+		},
+		handle = 1336457824,
+		items = {
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "Jazz_Doctor_need_Help",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
+		},
+		map = "qTn3d4w",
+		name = "Position#824 (Jazz_Rebels_MInes)",
+		path = "Position ",
+		type = "Position",
+	},
+	{
+		Groups = {
+			"Jazz_Rebels_MInes",
+		},
+		handle = 1359533455,
+		items = {
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "Jazz_Doctor_need_Help",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
+		},
+		map = "qTn3d4w",
+		name = "Position#455 (Jazz_Rebels_MInes)",
+		path = "Position ",
+		type = "Position",
+	},
+	{
+		Groups = {
+			"Jazz_Rebels_MInes",
+		},
+		handle = 1367169819,
+		items = {
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "Jazz_Doctor_need_Help",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
+		},
+		map = "qTn3d4w",
+		name = "Position#819 (Jazz_Rebels_MInes)",
+		path = "Position ",
+		type = "Position",
+	},
+	{
+		Groups = {
+			"Jazz_Rebels_MInes",
+		},
+		handle = 1412871259,
+		items = {
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "Jazz_Doctor_need_Help",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
+		},
+		map = "qTn3d4w",
+		name = "Position#259 (Jazz_Rebels_MInes)",
+		path = "Position ",
+		type = "Position",
 	},
 	{
 		Groups = false,
@@ -107,6 +325,63 @@
 		type = "UnitMarker",
 	},
 	{
+		Groups = {
+			"Jazz_Rebels_MInes",
+		},
+		handle = 1533359351,
+		items = {
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "Jazz_Doctor_need_Help",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
+		},
+		map = "qTn3d4w",
+		name = "Position#351 (Jazz_Rebels_MInes)",
+		path = "Position ",
+		type = "Position",
+	},
+	{
+		Groups = {
+			"Jazz_Rebels_MInes",
+		},
+		handle = 1564572013,
+		items = {
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "Jazz_Doctor_need_Help",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
+		},
+		map = "qTn3d4w",
+		name = "Position#013 (Jazz_Rebels_MInes)",
+		path = "Position ",
+		type = "Position",
+	},
+	{
+		Groups = {
+			"Jazz_Rebels_MInes",
+		},
+		handle = 1658144337,
+		items = {
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "Jazz_Doctor_need_Help",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
+		},
+		map = "qTn3d4w",
+		name = "Position#337 (Jazz_Rebels_MInes)",
+		path = "Position ",
+		type = "Position",
+	},
+	{
 		Groups = false,
 		handle = 1725551884,
 		items = {},
@@ -114,6 +389,25 @@
 		name = "UnitMarker#884",
 		path = "UnitMarker ",
 		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Jazz_Rebels_MInes",
+		},
+		handle = 1735487181,
+		items = {
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "Jazz_Doctor_need_Help",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
+		},
+		map = "qTn3d4w",
+		name = "Position#181 (Jazz_Rebels_MInes)",
+		path = "Position ",
+		type = "Position",
 	},
 	{
 		Groups = false,
@@ -143,6 +437,25 @@
 		type = "UnitMarker",
 	},
 	{
+		Groups = {
+			"Jazz_Rebels_MInes",
+		},
+		handle = 1798806069,
+		items = {
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "Jazz_Doctor_need_Help",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
+		},
+		map = "qTn3d4w",
+		name = "Position#069 (Jazz_Rebels_MInes)",
+		path = "Position ",
+		type = "Position",
+	},
+	{
 		Groups = false,
 		handle = 1821266900,
 		items = {},
@@ -168,6 +481,25 @@
 		name = "UnitMarker#747",
 		path = "UnitMarker ",
 		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Jazz_Rebels_MInes",
+		},
+		handle = 1855583328,
+		items = {
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "Jazz_Doctor_need_Help",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
+		},
+		map = "qTn3d4w",
+		name = "Position#328 (Jazz_Rebels_MInes)",
+		path = "Position ",
+		type = "Position",
 	},
 	{
 		Groups = false,
