@@ -12,6 +12,17 @@
 	},
 	{
 		Groups = false,
+		LootTableIds = {
+			"762x54_mg_ammo",
+		},
+		handle = 970514432,
+		map = "qRiCMTo",
+		name = 'IntelInventoryItemSpawn#432 "Сумка"',
+		path = "IntelInventoryItemSpawn ",
+		type = "IntelInventoryItemSpawn",
+	},
+	{
+		Groups = false,
 		handle = 1013133698,
 		items = {},
 		map = "qRiCMTo",

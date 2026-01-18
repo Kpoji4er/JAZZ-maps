@@ -9,6 +9,7 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 3186,
 	'AllowedMask', 4294966497,
 	'Name', "col_BunkerInterior_AmmoBox_3",
 	'Index', 3668,
@@ -162,6 +163,13 @@ PlaceObj('Collection', {
 	'Name', "col_WaterPlane_27",
 	'Index', 2282,
 }, nil, 1172273562)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Name', "col_BunkerInterior_AmmoBox_4",
+	'Index', 3186,
+}, nil, 1192018951)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -773,6 +781,15 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 6,
 	'AreaHeight', 6,
 }, nil, 1583175902)
+PlaceObj('IntelMarker', {
+	'Pos', point(101400, 91800, 11900),
+	'AllowedMask', 4294966497,
+	'AreaWidth', 15,
+	'AreaHeight', 15,
+	'IntelAreaRadius', 10,
+	'IntelAreaText', T(933737170259, "Обход"),
+	'Description', T(981850004708, "Относительно безопасный путь"),
+}, nil, 1302593188)
 PlaceObj('GridMarker', {
 	'Pos', point(63000, 142200, 6300),
 	'Groups', {
@@ -790,6 +807,15 @@ PlaceObj('ExitZoneInteractable', {
 	},
 	'AllowedMask', 4294966497,
 }, nil, 1496472809)
+PlaceObj('IntelMarker', {
+	'Pos', point(129000, 147000, 7000),
+	'AllowedMask', 4294966497,
+	'AreaWidth', 15,
+	'AreaHeight', 15,
+	'IntelAreaRadius', 10,
+	'IntelAreaText', T(933737170259, "Место для засады"),
+	'Description', "",
+}, nil, 1184204633)
 PlaceObj('GridMarker', {
 	'Pos', point(141000, 124200, 7000),
 	'Groups', {
@@ -970,6 +996,15 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1658322414)
+PlaceObj('IntelMarker', {
+	'Pos', point(187800, 78600, 20300),
+	'AllowedMask', 4294966497,
+	'AreaWidth', 15,
+	'AreaHeight', 15,
+	'IntelAreaRadius', 10,
+	'IntelAreaText', T(933737170259, "Высотная позиция"),
+	'Description', T(942863202326, "В этом райноне можно крепко держать позицию"),
+}, nil, 1586717115)
 PlaceObj('GridMarker', {
 	'Pos', point(193800, 89400, 12600),
 	'Groups', {
@@ -980,6 +1015,24 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 6,
 	'AreaHeight', 6,
 }, nil, 1453508939)
+PlaceObj('ContainerIntelMarker', {
+	'Pos', point(203400, 90600, 11900),
+	'CollectionIndex', 3186,
+	'AllowedMask', 4294966497,
+	'ItemSpawners', {
+		PlaceObj('ConditionalLoot', {
+			'ItemId', "ChippedSapphire",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'ItemId', "SVT40",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "762x54_mg_ammo",
+		}),
+	},
+	'IntelAreaText', T(773741048712, "Разграбленый тайник партизан"),
+	'Description', T(513217982212, "Возможно тут что-то осталось..."),
+}, nil, 970514432)
 PlaceObj('UnitMarker', {
 	'Pos', point(226200, 81000),
 	'Angle', 10800,
@@ -11847,7 +11900,7 @@ PlaceObj('TropicalPlant_01_Tree_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1101577655)
 PlaceObj('TropicalPlant_03_Tree_01', {
-	'Pos', point(225021, 133841, 6946),
+	'Pos', point(225025, 133842, 6946),
 	'Scale', 62,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -19942,7 +19995,7 @@ p("TropicalPlant_Grass_04",211000,89000,124,4)
 p("TropicalPlant_Grass_01",211000,90000,51,4)
 p("TropicalPlant_Grass_03",212000,89000,121,4)
 p("TropicalPlant_Grass_04",212000,90000,111,4)
-p("SVT_40",205462,90836,12839,5400,4096,0,0,3668,2097425)
+p("SVT_40",205462,90836,12839,5400,4096,0,0,7,3668,2097553)
 p("TropicalPlant_Dead_15",205225,94609,11998,15997,-1469,-1827,3358,2097169)
 p("TropicalPlant_Dead_16",204862,95430,12469,7806,-1689,591,3684,2097169)
 p("TropicalPlant_Dead_16",204815,95772,12469,8118,-1684,497,3700,2097169)

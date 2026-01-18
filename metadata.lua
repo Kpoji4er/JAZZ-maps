@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4582,
+	'version', 4596,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
@@ -18,11 +18,12 @@ return PlaceObj('ModDef', {
 		"InventoryItem/Jazz_Browning_Bench.lua",
 		"InventoryItem/JazzQuestItem_AmmoBox.lua",
 		"InventoryItem/JazzQuestItem_MinesBox.lua",
+		"MapPatches/SetPieces/NewSetpiece_Rt4iKGf/FlagHillLanding.lua",
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1767560079,
-	'code_hash', -4445560982361173495,
+	'saved', 1768769956,
+	'code_hash', -5561626952948215396,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
@@ -1976,6 +1977,11 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
+			'Id', "InjuredRebel",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
 			'Id', "JazzErnieDoctorAmmoTaken",
 			'ClassDisplayName', "Banter",
 		}),
@@ -2032,7 +2038,6 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "SetpiecePrg",
 			'Id', "FlagHillLanding",
-			'Prop', "Map",
 			'ClassDisplayName', "Setpiece",
 		}),
 	},
