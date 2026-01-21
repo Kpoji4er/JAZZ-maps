@@ -3907,11 +3907,11 @@ PlaceObj('UnitMarker', {
 			Vars = set( "TriggerWorldFlip" ),
 		}),
 	},
-	'Appearance', "LegionSharpShooter",
+	'Appearance', "Legion_Soldier04",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "LegionSharpShooter",
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Marksman",
 		}),
 	},
 }, nil, 1417208664)
@@ -5069,7 +5069,7 @@ PlaceObj('ContainerMarker', {
 			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Noob_3006_Machinegun",
+			'LootTableId', "3006_rifle_ammo",
 		}),
 	},
 }, nil, 847233024)
@@ -5900,7 +5900,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
 	'CollectionIndex', 416,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Broken",
 }, nil, 1337538649)
 PlaceObj('FloorSlab', {
@@ -5927,7 +5927,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 800,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 }, nil, 1256972778)
 PlaceObj('FloorSlab', {
@@ -6459,7 +6459,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 416,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B Soft",
 }, nil, 1717546618)
 PlaceObj('FloorSlab', {
@@ -6611,7 +6611,7 @@ PlaceObj('Bunker_Door_01', {
 	'Scale', 169,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1370463910)
 PlaceObj('FloorSlab', {
 	'Pos', point(115800, 160200, 7000),
@@ -6645,7 +6645,7 @@ PlaceObj('Shanty_WallDecor_02', {
 	'Angle', 3105,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1276840043)
 PlaceObj('FloorSlab', {
 	'Pos', point(115800, 163800, 7000),
@@ -6978,7 +6978,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
 	'CollectionIndex', 416,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Broken",
 }, nil, 1764944468)
 PlaceObj('FallingDust', {
@@ -7166,7 +7166,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 1066,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1750902445)
 PlaceObj('WallSlab', {
@@ -8253,7 +8253,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
 	'CollectionIndex', 416,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Broken",
 }, nil, 1304227532)
 PlaceObj('FloorSlab', {
@@ -8282,7 +8282,7 @@ PlaceObj('Shanty_Debris_02', {
 	'Pos', point(125408, 162408, 7000),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1275878537)
 PlaceObj('FloorSlab', {
 	'Pos', point(125400, 162600, 7000),
@@ -8299,7 +8299,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
 	'CollectionIndex', 416,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1054251384)
 PlaceObj('FloorSlab', {
@@ -9244,7 +9244,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 800,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 }, nil, 1194214283)
 PlaceObj('FloorSlab', {
@@ -9892,7 +9892,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 800,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1666281504)
 PlaceObj('BunkerInterior_ElectricPump_01', {
@@ -10557,7 +10557,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 800,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm B Flicker",
 }, nil, 1105477003)
 PlaceObj('FloorSlab', {
@@ -10765,7 +10765,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Scale', 128,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1155732986)
 PlaceObj('BunkerInterior_Barrel_02', {
 	'ColorizationPalette', "",
@@ -11194,7 +11194,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 800,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 }, nil, 1558632485)
 PlaceObj('FloorSlab', {
@@ -11568,7 +11568,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Scale', 128,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1799575987)
 PlaceObj('BunkerInterior_GasCan_01', {
 	'ColorizationPalette', "",
@@ -11869,7 +11869,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 3121,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 }, nil, 1241626985)
 PlaceObj('FloorSlab', {
@@ -12812,7 +12812,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 800,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 }, nil, 1126415952)
 PlaceObj('FloorSlab', {
@@ -13372,7 +13372,7 @@ PlaceObj('DecExplosion_08', {
 	'Pos', point(116751, 167750, 7000),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1021624817)
 PlaceObj('FloorSlab', {
 	'Pos', point(118200, 166200, 7000),
@@ -13752,7 +13752,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 800,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 }, nil, 1802307708)
 PlaceObj('FloorSlab', {
@@ -14486,7 +14486,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 1066,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm B Flicker",
 }, nil, 1340416360)
 PlaceObj('FloorSlab', {
@@ -14677,7 +14677,7 @@ PlaceObj('Shanty_Debris_02', {
 	'Pos', point(125408, 166247, 7000),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1200288717)
 PlaceObj('FloorSlab', {
 	'Pos', point(125400, 167400, 7000),
@@ -15306,7 +15306,7 @@ PlaceObj('Shanty_Debris_02', {
 	'Pos', point(125408, 168596, 7000),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1810202580)
 PlaceObj('FloorSlab', {
 	'Pos', point(125400, 169800, 7000),
@@ -15349,7 +15349,7 @@ PlaceObj('Shanty_Debris_02', {
 	'Pos', point(125408, 170861, 7000),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1492926778)
 PlaceObj('BunkerInterior_Light_01', {
 	'Pos', point(125400, 171000, 7000),
@@ -15357,7 +15357,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 3821,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 }, nil, 1238138952)
 PlaceObj('FloorSlab', {
@@ -16136,7 +16136,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 800,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm A Flicker",
 }, nil, 1357348795)
 PlaceObj('RoomCorner', {
@@ -16335,7 +16335,7 @@ PlaceObj('Shanty_Debris_02', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1058200300)
 PlaceObj('WallSlab', {
 	'Pos', point(125400, 175200, 7000),
@@ -17306,7 +17306,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
 	'CollectionIndex', 4063,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "OFF",
 }, nil, 1228183586)
 PlaceObj('FloorSlab', {
@@ -17489,7 +17489,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 3821,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 }, nil, 1038627597)
 PlaceObj('FloorSlab', {
@@ -17510,7 +17510,7 @@ PlaceObj('Shanty_Debris_04', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1581834836)
 PlaceObj('WallSlab', {
 	'Pos', point(129000, 175200, 7000),
@@ -18193,7 +18193,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
 	'CollectionIndex', 800,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Broken",
 }, nil, 1002839650)
 PlaceObj('FloorSlab', {
@@ -18874,14 +18874,14 @@ PlaceObj('JungleCamp_Flashlight_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 35,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1531562575)
 PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Pos', point(121065, 193130, 6999),
 	'Angle', 13980,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1609731172)
 PlaceObj('BunkerInterior_PropSet_05', {
 	'ColorizationPalette', "",
@@ -18909,7 +18909,7 @@ PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Angle', 5940,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1015940377)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(121735, 193275, 6993),
@@ -18917,7 +18917,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Scale', 128,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1042627576)
 PlaceObj('FloorSlab', {
 	'Pos', point(121800, 193800, 7000),
@@ -20675,7 +20675,7 @@ PlaceObj('JungleCamp_FoodCanPile_06', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2658,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1046396237)
 PlaceObj('BunkerInterior_FenceWire_02', {
 	'ColorizationPalette', "",
@@ -20712,7 +20712,7 @@ PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2658,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1194898370)
 PlaceObj('WallSlab', {
 	'Pos', point(124800, 189000, 7000),
@@ -20871,7 +20871,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 800,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1760366409)
 PlaceObj('RoomCorner', {
@@ -21680,7 +21680,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
 	'CollectionIndex', 4063,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Broken",
 }, nil, 1334907807)
 PlaceObj('BunkerInterior_MetalRack_03', {
@@ -22196,7 +22196,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 800,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 }, nil, 1736438482)
 PlaceObj('FloorSlab', {
@@ -23043,7 +23043,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 3121,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1511246885)
 PlaceObj('FloorSlab', {
@@ -23395,7 +23395,7 @@ PlaceObj('JungleCamp_Boots_02', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1085416637)
 PlaceObj('FloorSlab', {
 	'Pos', point(106200, 208200, 7000),
@@ -23413,7 +23413,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 817,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1209282813)
 PlaceObj('WallSlab', {
@@ -23658,7 +23658,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 1517,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1435248408)
 PlaceObj('FloorSlab', {
@@ -23715,7 +23715,7 @@ PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3986,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1596114926)
 PlaceObj('JungleCamp_FoodCanPile_01', {
 	'Pos', point(106146, 211635, 7378),
@@ -23779,7 +23779,7 @@ PlaceObj('Cinematic_Ashtray_01', {
 	'Angle', 8074,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1135042451)
 PlaceObj('BunkerInterior_Barrel_02', {
 	'ColorizationPalette', "",
@@ -23798,7 +23798,7 @@ PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 464,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1559340068)
 PlaceObj('Shanty_CardboardBox_04', {
 	'ColorizationPalette', "",
@@ -23953,7 +23953,7 @@ PlaceObj('Weapon_TearGasGrenade', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 78,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1552161459)
 PlaceObj('Weapon_TearGasGrenade', {
 	'Pos', point(107459, 204513, 7697),
@@ -23961,7 +23961,7 @@ PlaceObj('Weapon_TearGasGrenade', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 78,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1093522934)
 PlaceObj('BunkerInterior_Table_01', {
 	'Pos', point(107400, 204600, 7000),
@@ -24002,7 +24002,7 @@ PlaceObj('Weapon_SmokeGrenade', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 78,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1877184622)
 PlaceObj('FloorSlab', {
 	'Pos', point(108600, 201000, 7000),
@@ -24126,7 +24126,7 @@ PlaceObj('DecExplosion_01', {
 	'Pos', point(111022, 199136, 7000),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1630400758)
 PlaceObj('FloorSlab', {
 	'Pos', point(111000, 199800, 7000),
@@ -24236,7 +24236,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
 	'CollectionIndex', 800,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Broken",
 }, nil, 1802580753)
 PlaceObj('BunkerInterior_FenceWire_02', {
@@ -24292,7 +24292,7 @@ PlaceObj('JungleCamp_Radio_01', {
 	'Angle', 14261,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1400440605)
 PlaceObj('FloorSlab', {
 	'Pos', point(112200, 201000, 7000),
@@ -24325,7 +24325,7 @@ PlaceObj('Weapon_TearGasGrenade', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1892,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1715411573)
 PlaceObj('FloorSlab', {
 	'Pos', point(111000, 203400, 7000),
@@ -24342,7 +24342,7 @@ PlaceObj('Weapon_TearGasGrenade', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1892,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1296951737)
 PlaceObj('Weapon_SmokeGrenade', {
 	'Pos', point(111135, 203421, 7697),
@@ -24350,7 +24350,7 @@ PlaceObj('Weapon_SmokeGrenade', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1892,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1672733413)
 PlaceObj('FloorSlab', {
 	'Pos', point(111000, 204600, 7000),
@@ -24935,7 +24935,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 2795,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Accent light Green Flicker",
 }, nil, 1314211371)
 PlaceObj('FloorSlab', {
@@ -25143,7 +25143,7 @@ PlaceObj('JungleCamp_Boots_02', {
 	'Angle', 20700,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1136857822)
 PlaceObj('FloorSlab', {
 	'Pos', point(107400, 210600, 7000),
@@ -25222,7 +25222,7 @@ PlaceObj('JungleCamp_Boots_02', {
 	'Angle', 14614,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1647921825)
 PlaceObj('FloorSlab', {
 	'Pos', point(111000, 205800, 7000),
@@ -25575,7 +25575,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3719,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1099028453)
 PlaceObj('FloorSlab', {
 	'Pos', point(112200, 208200, 7000),
@@ -25810,7 +25810,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3719,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1567235277)
 PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Pos', point(112859, 208614, 7000),
@@ -25818,7 +25818,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3719,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1012202389)
 PlaceObj('BunkerInterior_Light_01', {
 	'Pos', point(113400, 208200, 7000),
@@ -25827,7 +25827,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 817,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light C Soft",
 }, nil, 1728377264)
 PlaceObj('FloorSlab', {
@@ -26086,7 +26086,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3719,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1104426099)
 PlaceObj('FloorSlab', {
 	'Pos', point(113400, 209400, 7000),
@@ -26106,7 +26106,7 @@ PlaceObj('JungleCamp_TableLamp_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 3719,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1097204875)
 PlaceObj('FloorSlab', {
@@ -26124,7 +26124,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3719,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1031800879)
 PlaceObj('BunkerInterior_Chair_01', {
 	'Pos', point(114381, 209075, 8167),
@@ -26555,7 +26555,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 1517,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light C Soft",
 }, nil, 1491324759)
 PlaceObj('FloorSlab', {
@@ -27201,7 +27201,7 @@ PlaceObj('JungleCamp_Boots_02', {
 	'Angle', 14614,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1433385709)
 PlaceObj('FloorSlab', {
 	'Pos', point(108600, 216600, 7000),
@@ -27338,7 +27338,7 @@ PlaceObj('JungleCamp_Flashlight_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2649,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1716889459)
 PlaceObj('FloorSlab', {
 	'Pos', point(107400, 217800, 7000),
@@ -27365,7 +27365,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 1517,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light C Soft",
 }, nil, 1497341159)
 PlaceObj('WallSlab', {
@@ -27448,7 +27448,7 @@ PlaceObj('Shanty_Fan_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 4018,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1429225095)
 PlaceObj('FloorSlab', {
 	'Pos', point(108600, 217800, 7000),
@@ -27483,7 +27483,7 @@ PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Angle', 13980,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1343318839)
 PlaceObj('FloorSlab', {
 	'Pos', point(109800, 217800, 7000),
@@ -27900,7 +27900,7 @@ PlaceObj('JungleCamp_FoodCanPile_06', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1837,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1889474818)
 PlaceObj('BunkerInterior_Locker_03', {
 	'Pos', point(111000, 220200, 7000),
@@ -28181,7 +28181,7 @@ PlaceObj('Shanty_Canvas_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 700,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'SwayType', "Never Sway",
 }, nil, 1621818637)
 PlaceObj('Shanty_RagPile_01', {
@@ -28336,7 +28336,7 @@ PlaceObj('JungleCamp_Radio_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 4051,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1729832567)
 PlaceObj('JungleCamp_Backpack_01', {
 	'Pos', point(115194, 199890, 7000),
@@ -28368,7 +28368,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 800,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 }, nil, 1205780520)
 PlaceObj('FloorSlab', {
@@ -28386,7 +28386,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 4051,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1198223509)
 PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Pos', point(116198, 199874, 7686),
@@ -28394,7 +28394,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 4051,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1272478068)
 PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Pos', point(116587, 199754, 7686),
@@ -28402,7 +28402,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 4051,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1716462275)
 PlaceObj('FloorSlab', {
 	'Pos', point(117000, 197400, 7000),
@@ -28481,7 +28481,7 @@ PlaceObj('JungleCamp_TableLamp_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 4051,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1174413875)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(117173, 199636, 7686),
@@ -28529,7 +28529,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 4051,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1550255842)
 PlaceObj('BunkerInterior_PropSet_04', {
 	'ColorizationPalette', "",
@@ -28559,7 +28559,7 @@ PlaceObj('Shanty_Fan_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 599,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1538972760)
 PlaceObj('FloorSlab', {
 	'Pos', point(115800, 201000, 7000),
@@ -28880,14 +28880,14 @@ PlaceObj('BunkerInterior_PlatePile_05', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1953,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1291209822)
 PlaceObj('BunkerInterior_PlatePile_03', {
 	'Pos', point(119654, 203422, 7664),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1953,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1602878631)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(119601, 203635, 7689),
@@ -29451,7 +29451,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 2795,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Accent light Green Flicker",
 }, nil, 1446112313)
 PlaceObj('WallSlab', {
@@ -29642,7 +29642,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3719,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1399465574)
 PlaceObj('Shanty_WhiskeyBottle_01', {
 	'Pos', point(115500, 209275, 7700),
@@ -29669,7 +29669,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3719,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1518056387)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(115348, 209615, 7000),
@@ -29677,7 +29677,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3719,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1026296461)
 PlaceObj('BunkerInterior_Chair_01', {
 	'Pos', point(115306, 209733, 8167),
@@ -29693,7 +29693,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3719,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1143738551)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(115516, 210076, 7000),
@@ -29702,7 +29702,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3719,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1119436584)
 PlaceObj('FloorSlab', {
 	'Pos', point(115800, 209400, 7000),
@@ -29719,7 +29719,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3719,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1234290935)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(115785, 210619, 7000),
@@ -29727,7 +29727,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3719,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1660516871)
 PlaceObj('FloorSlab', {
 	'Pos', point(115800, 210600, 7000),
@@ -30188,7 +30188,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 817,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light C Soft",
 }, nil, 1272317839)
 PlaceObj('FloorSlab', {
@@ -30779,7 +30779,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 800,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm A Flicker",
 }, nil, 1871410384)
 PlaceObj('FloorSlab', {
@@ -31672,7 +31672,7 @@ PlaceObj('Shanty_Fan_01', {
 	'StateText', "off",
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1562645283)
 PlaceObj('WallSlab', {
 	'Pos', point(123600, 208200, 7000),
@@ -32221,7 +32221,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 1791,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1094153044)
 PlaceObj('FloorSlab', {
@@ -32528,7 +32528,7 @@ PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1213,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1093809174)
 PlaceObj('WallSlab', {
 	'Pos', point(123600, 210600, 7000),
@@ -32688,7 +32688,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
 	'CollectionIndex', 2604,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Broken",
 }, nil, 1254785213)
 PlaceObj('BunkerInterior_Locker_01', {
@@ -32706,7 +32706,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 817,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light C Soft",
 }, nil, 1258514185)
 PlaceObj('FloorSlab', {
@@ -34095,7 +34095,7 @@ PlaceObj('Shanty_Canvas_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2938,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1039273283)
 PlaceObj('Shanty_Canvas_03', {
 	'ColorizationPalette', "",
@@ -34106,7 +34106,7 @@ PlaceObj('Shanty_Canvas_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2938,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1496849065)
 PlaceObj('FloorSlab', {
 	'Pos', point(121800, 219000, 7000),
@@ -34126,7 +34126,7 @@ PlaceObj('Shanty_Canvas_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2938,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1551763508)
 PlaceObj('Bunker_MetalBed_mattress', {
 	'ColorizationPalette', "",
@@ -34202,7 +34202,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 1517,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1225363447)
 PlaceObj('Shanty_Canvas_04', {
@@ -34214,7 +34214,7 @@ PlaceObj('Shanty_Canvas_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2938,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1515428032)
 PlaceObj('WallSlab', {
 	'Pos', point(121800, 220800, 7000),
@@ -34967,7 +34967,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 2604,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light C Soft",
 }, nil, 1030798531)
 PlaceObj('FloorSlab', {
@@ -35946,7 +35946,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 2604,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light C Soft",
 }, nil, 1430918631)
 PlaceObj('WallSlab', {
@@ -36060,7 +36060,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 2940,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1889601375)
 PlaceObj('FloorSlab', {
 	'Pos', point(127800, 215400, 7000),
@@ -36084,7 +36084,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Pos', point(128365, 215393, 7007),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1618137250)
 PlaceObj('BunkerInterior_Chair_01', {
 	'Pos', point(128454, 216033, 7007),
@@ -36106,7 +36106,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Angle', 19020,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1264849764)
 PlaceObj('FloorSlab', {
 	'Pos', point(129000, 216600, 7000),
@@ -36157,7 +36157,7 @@ PlaceObj('JungleCamp_TableLamp_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Flicker",
 }, nil, 1537677174)
 PlaceObj('FloorSlab', {
@@ -36193,7 +36193,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Scale', 128,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1431226340)
 PlaceObj('FloorSlab', {
 	'Pos', point(129000, 217800, 7000),
@@ -36390,7 +36390,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 672,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1082252620)
 PlaceObj('WeaponProp_Box_01', {
 	'Pos', point(130364, 220322, 6981),
@@ -37600,7 +37600,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 416,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 }, nil, 1500595886)
 PlaceObj('FloorSlab', {
@@ -38493,7 +38493,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 2918,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm A Flicker",
 	'AllAttachedLightsToDetailLevel', "Essential",
 }, nil, 1414833601)
@@ -38805,7 +38805,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Pos', point(145800, 160200, 7000),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1654359033)
 PlaceObj('FloorSlab', {
 	'Pos', point(145800, 160200, 7000),
@@ -38841,7 +38841,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 1994,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm A Flicker",
 	'AllAttachedLightsToDetailLevel', "Optional",
 }, nil, 1328067600)
@@ -38853,7 +38853,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Pos', point(145800, 161400, 7000),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1671778828)
 PlaceObj('BunkerInterior_Chair_01', {
 	'Pos', point(145866, 161539, 7000),
@@ -38880,7 +38880,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1317942607)
 PlaceObj('FloorSlab', {
 	'Pos', point(147000, 160200, 7000),
@@ -40196,7 +40196,7 @@ PlaceObj('Shanty_Fan_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2594,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1562393589)
 PlaceObj('FloorSlab', {
 	'Pos', point(148200, 160200, 7000),
@@ -40383,7 +40383,7 @@ PlaceObj('Shanty_Fan_02', {
 	'Angle', 6300,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1016444911)
 PlaceObj('BunkerInterior_FenceGrid_02', {
 	'Pos', point(150600, 163800, 7000),
@@ -40489,7 +40489,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 437,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AssociatedLights', {o(1593780351),},
 	'AutoAttachMode', "Warm light B Soft",
 	'AllAttachedLightsToDetailLevel', "Essential",
@@ -40575,7 +40575,7 @@ PlaceObj('Shanty_Debris_03', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1207307248)
 PlaceObj('WallSlab', {
 	'Pos', point(151800, 159600, 7000),
@@ -41333,7 +41333,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Angle', 3180,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1325067787)
 PlaceObj('City_Computer_02', {
 	'Pos', point(151810, 161739, 7705),
@@ -41366,7 +41366,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Angle', 16311,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1721049754)
 PlaceObj('FloorSlab', {
 	'Pos', point(151800, 162600, 7000),
@@ -41388,7 +41388,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Angle', 17594,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1578515754)
 PlaceObj('JungleCamp_TableLamp_01', {
 	'ColorizationPalette', "",
@@ -41397,7 +41397,7 @@ PlaceObj('JungleCamp_TableLamp_01', {
 	'Angle', 14520,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1061707852)
 PlaceObj('FloorSlab', {
 	'Pos', point(151800, 163800, 7000),
@@ -41418,7 +41418,7 @@ PlaceObj('Shanty_Debris_03', {
 	'Scale', 55,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1077861957)
 PlaceObj('FloorSlab', {
 	'Pos', point(153000, 162600, 7000),
@@ -42186,7 +42186,7 @@ PlaceObj('JungleCamp_Flashlight_01', {
 	'Angle', 13500,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1532210265)
 PlaceObj('FloorSlab', {
 	'Pos', point(156600, 159000, 7000),
@@ -42589,7 +42589,7 @@ PlaceObj('Shanty_Debris_03', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1820277564)
 PlaceObj('WallSlab', {
 	'Pos', point(157800, 159600, 7000),
@@ -43189,7 +43189,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1289244298)
 PlaceObj('FloorSlab', {
 	'Pos', point(161400, 160200, 7000),
@@ -43207,7 +43207,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 1601,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 	'AllAttachedLightsToDetailLevel', "Essential",
 }, nil, 1597475187)
@@ -43285,7 +43285,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1137742775)
 PlaceObj('BunkerInterior_Locker_01', {
 	'Pos', point(162600, 160200, 7000),
@@ -44120,7 +44120,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 3821,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm A Flicker",
 }, nil, 1466403283)
 PlaceObj('WallSlab', {
@@ -44481,7 +44481,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 4063,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1755706529)
 PlaceObj('WallSlab', {
@@ -45383,7 +45383,7 @@ PlaceObj('Shanty_Fan_02', {
 	'Angle', 9501,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1261338095)
 PlaceObj('FloorSlab', {
 	'Pos', point(141000, 171000, 7000),
@@ -45431,7 +45431,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Angle', 19380,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1698738674)
 PlaceObj('FloorSlab', {
 	'Pos', point(142200, 171000, 7000),
@@ -46043,7 +46043,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 1994,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Accent light Green",
 	'AllAttachedLightsToDetailLevel', "Optional",
 }, nil, 1424718320)
@@ -46105,7 +46105,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Angle', 12194,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1163307169)
 PlaceObj('BunkerInterior_Desk_01', {
 	'ColorizationPalette', "",
@@ -46609,7 +46609,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Pos', point(145800, 168630, 7000),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1146561802)
 PlaceObj('BunkerInterior_PropSet_03', {
 	'ColorizationPalette', "",
@@ -46635,7 +46635,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2735,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1623391567)
 PlaceObj('BunkerInterior_Table_02', {
 	'Pos', point(147000, 168600, 7000),
@@ -46958,7 +46958,7 @@ PlaceObj('Shanty_Debris_02', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1681558698)
 PlaceObj('JungleCamp_TableLamp_01', {
 	'ColorizationPalette', "",
@@ -46968,7 +46968,7 @@ PlaceObj('JungleCamp_TableLamp_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 120,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1672964847)
 PlaceObj('FloorSlab', {
 	'Pos', point(142200, 174600, 7000),
@@ -47231,7 +47231,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 4063,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1364476392)
 PlaceObj('FloorSlab', {
@@ -47403,7 +47403,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 2918,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm A Flicker",
 	'AllAttachedLightsToDetailLevel', "Essential",
 }, nil, 1195264343)
@@ -47718,7 +47718,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 3821,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1384827610)
 PlaceObj('FloorSlab', {
@@ -48046,7 +48046,7 @@ PlaceObj('Shanty_Debris_04', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1556798704)
 PlaceObj('RoomCorner', {
 	'Pos', point(145200, 175200, 7000),
@@ -49067,7 +49067,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Scale', 128,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1074573838)
 PlaceObj('FloorSlab', {
 	'Pos', point(132600, 187800, 7000),
@@ -49111,7 +49111,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Scale', 128,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1314427600)
 PlaceObj('FloorSlab', {
 	'Pos', point(133800, 185400, 7000),
@@ -49495,7 +49495,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 4063,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm B Flicker",
 }, nil, 1139974430)
 PlaceObj('FloorSlab', {
@@ -50050,7 +50050,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Pos', point(133800, 192600, 3500),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1063922076)
 PlaceObj('BunkerInterior_MetalRack_02', {
 	'Pos', point(133800, 192600, 3500),
@@ -50164,7 +50164,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Pos', point(133800, 194000, 3500),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1013828696)
 PlaceObj('FloorSlab', {
 	'Pos', point(135000, 192600, 3500),
@@ -51291,7 +51291,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 4063,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1530244740)
 PlaceObj('WallSlab', {
@@ -51706,7 +51706,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 4063,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1202503767)
 PlaceObj('WallSlab', {
@@ -51863,7 +51863,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
 	'CollectionIndex', 4063,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Broken",
 }, nil, 1644437224)
 PlaceObj('MilitaryCamp_PowerGenerator_02', {
@@ -54956,7 +54956,7 @@ PlaceObj('Shanty_Debris_03', {
 	'Scale', 55,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1216343218)
 PlaceObj('FloorSlab', {
 	'Pos', point(153000, 171000, 7000),
@@ -55076,7 +55076,7 @@ PlaceObj('Shanty_Debris_02', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1086567592)
 PlaceObj('BunkerInterior_BarrelPile_01', {
 	'ColorizationPalette', "",
@@ -55181,7 +55181,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 136,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A",
 	'AllAttachedLightsToDetailLevel', "Essential",
 }, nil, 1025120759)
@@ -55449,7 +55449,7 @@ PlaceObj('Shanty_Debris_04', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1321600815)
 PlaceObj('RoomCorner', {
 	'Pos', point(151200, 175200, 7000),
@@ -56647,7 +56647,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 11,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1003240989)
 PlaceObj('FloorSlab', {
 	'Pos', point(153000, 177000, 7000),
@@ -56664,7 +56664,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
 	'CollectionIndex', 1601,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Broken",
 	'AllAttachedLightsToDetailLevel', "Eye Candy",
 }, nil, 1291857791)
@@ -56686,7 +56686,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1139134100)
 PlaceObj('FloorSlab', {
 	'Pos', point(151800, 179400, 7000),
@@ -56878,7 +56878,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
 	'CollectionIndex', 1994,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Broken",
 	'AllAttachedLightsToDetailLevel', "Optional",
 }, nil, 1466245169)
@@ -57611,7 +57611,7 @@ PlaceObj('Shanty_Debris_03', {
 	'Scale', 55,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1248275049)
 PlaceObj('FloorSlab', {
 	'Pos', point(159000, 165000, 7000),
@@ -57739,7 +57739,7 @@ PlaceObj('Shanty_Debris_03', {
 	'Scale', 55,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1522823037)
 PlaceObj('FloorSlab', {
 	'Pos', point(159000, 171000, 7000),
@@ -57760,7 +57760,7 @@ PlaceObj('Shanty_Debris_03', {
 	'Scale', 55,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1713087836)
 PlaceObj('BunkerInterior_PropSet_02', {
 	'ColorizationPalette', "",
@@ -57923,7 +57923,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
 	'CollectionIndex', 1601,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "OFF",
 	'AllAttachedLightsToDetailLevel', "Essential",
 }, nil, 1364146057)
@@ -59106,7 +59106,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1044770819)
 PlaceObj('BunkerInterior_Light_01', {
 	'Pos', point(157800, 179400, 7000),
@@ -59115,7 +59115,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 1994,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm B Flicker",
 	'AllAttachedLightsToDetailLevel', "Optional",
 }, nil, 1196914428)
@@ -59490,7 +59490,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1228687984)
 PlaceObj('FloorSlab', {
 	'Pos', point(159000, 179400, 7000),
@@ -59837,7 +59837,7 @@ PlaceObj('Shanty_Debris_03', {
 	'Pos', point(160200, 175800, 7000),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1109911092)
 PlaceObj('FloorSlab', {
 	'Pos', point(161400, 174600, 7000),
@@ -59972,7 +59972,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1256765948)
 PlaceObj('FloorSlab', {
 	'Pos', point(162600, 174600, 7000),
@@ -60064,7 +60064,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1155544572)
 PlaceObj('FloorSlab', {
 	'Pos', point(163800, 174600, 7000),
@@ -60541,7 +60541,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 3029,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 	'AllAttachedLightsToDetailLevel', "Essential",
 }, nil, 1666625922)
@@ -63214,7 +63214,7 @@ PlaceObj('JungleCamp_FoodCanPile_06', {
 	'Angle', 14100,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1219425851)
 PlaceObj('BunkerInterior_AmmoBox_01', {
 	'ColorizationPalette', "",
@@ -63687,7 +63687,7 @@ PlaceObj('JungleCamp_FoodCanPile_06', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 4011,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1628302226)
 PlaceObj('FloorSlab', {
 	'Pos', point(153000, 195000, 4200),
@@ -63764,14 +63764,14 @@ PlaceObj('JungleCamp_Boots_02', {
 	'Angle', 900,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1434740197)
 PlaceObj('JungleCamp_Boots_01', {
 	'Pos', point(153843, 195357, 4200),
 	'Angle', 20940,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1844605990)
 PlaceObj('FloorSlab', {
 	'Pos', point(154200, 195000, 4200),
@@ -64060,7 +64060,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 1601,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 	'AllAttachedLightsToDetailLevel', "Essential",
 }, nil, 1439949752)
@@ -66132,7 +66132,7 @@ PlaceObj('JungleCamp_Boots_01', {
 	'Angle', 9180,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1522141856)
 PlaceObj('Shanty_RagPile_01', {
 	'ColorizationPalette', "",
@@ -66173,7 +66173,7 @@ PlaceObj('Shanty_Debris_03', {
 	'Scale', 55,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1596356257)
 PlaceObj('FloorSlab', {
 	'Pos', point(157800, 192600, 4200),
@@ -66757,7 +66757,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1259803022)
 PlaceObj('BunkerInterior_Table_02', {
 	'Pos', point(162600, 190200, 4200),
@@ -66781,7 +66781,7 @@ PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1884,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1622595666)
 PlaceObj('WallSlab', {
 	'Pos', point(163800, 189600, 4200),
@@ -66860,7 +66860,7 @@ PlaceObj('BunkerInterior_PlatePile_05', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3052,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1447946640)
 PlaceObj('BunkerInterior_PlatePile_03', {
 	'Pos', point(163653, 189996, 5088),
@@ -66868,7 +66868,7 @@ PlaceObj('BunkerInterior_PlatePile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3052,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1773071077)
 PlaceObj('JungleCamp_FoodCanPile_05', {
 	'Pos', point(163657, 190155, 5995),
@@ -66903,7 +66903,7 @@ PlaceObj('BunkerInterior_PlatePile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3052,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1730514902)
 PlaceObj('FloorSlab', {
 	'Pos', point(162600, 191400, 4200),
@@ -66930,7 +66930,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1466571660)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(162872, 190637, 4186),
@@ -66938,14 +66938,14 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Scale', 128,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1688953116)
 PlaceObj('BunkerInterior_PlatePile_04', {
 	'Pos', point(162877, 190922, 4175),
 	'Angle', 4140,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1230963922)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(163147, 190669, 4232),
@@ -66960,7 +66960,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 21540,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1351907762)
 PlaceObj('FloorSlab', {
 	'Pos', point(163800, 191400, 4200),
@@ -66976,14 +66976,14 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Angle', 3600,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1316496128)
 PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Pos', point(163766, 192329, 4200),
 	'Angle', 16740,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1884668529)
 PlaceObj('FloorSlab', {
 	'Pos', point(160200, 192600, 4200),
@@ -67063,7 +67063,7 @@ PlaceObj('BunkerInterior_PlatePile_05', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3792,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1454600679)
 PlaceObj('BunkerInterior_PlatePile_04', {
 	'Pos', point(160600, 195400, 4871),
@@ -67071,7 +67071,7 @@ PlaceObj('BunkerInterior_PlatePile_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3792,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1656390812)
 PlaceObj('BunkerInterior_Table_01', {
 	'Pos', point(160200, 196200, 4200),
@@ -67126,7 +67126,7 @@ PlaceObj('BunkerInterior_PlatePile_05', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3792,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1865242734)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(161200, 195400, 4893),
@@ -67150,14 +67150,14 @@ PlaceObj('BunkerInterior_PlatePile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3792,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1088190637)
 PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Pos', point(161200, 195800, 4878),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3792,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1485254420)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(161000, 196200, 4893),
@@ -67240,7 +67240,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Angle', 3600,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1790585396)
 PlaceObj('BunkerInterior_PlatePile_05', {
 	'Pos', point(163215, 193590, 4246),
@@ -67248,7 +67248,7 @@ PlaceObj('BunkerInterior_PlatePile_05', {
 	'Axis', point(0, 4096, 0),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1519549641)
 PlaceObj('BunkerInterior_Chair_01', {
 	'Pos', point(163307, 193815, 4405),
@@ -67695,7 +67695,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1858397068)
 PlaceObj('WallSlab', {
 	'Pos', point(165600, 160200, 7000),
@@ -67859,7 +67859,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1596698952)
 PlaceObj('WallSlab', {
 	'Pos', point(165600, 161400, 7000),
@@ -68014,7 +68014,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1767104114)
 PlaceObj('FloorSlab', {
 	'Pos', point(165000, 162600, 7000),
@@ -68185,7 +68185,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
 	'CollectionIndex', 1994,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Broken",
 	'AllAttachedLightsToDetailLevel', "Optional",
 }, nil, 1211126915)
@@ -68398,7 +68398,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 97,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1557061483)
 PlaceObj('FloorSlab', {
@@ -68670,7 +68670,7 @@ PlaceObj('Shanty_Fan_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 51,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1143697915)
 PlaceObj('BunkerInterior_PropSet_04', {
 	'ColorizationPalette', "",
@@ -69207,7 +69207,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1085801076)
 PlaceObj('FloorSlab', {
@@ -69244,7 +69244,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 1601,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 	'AllAttachedLightsToDetailLevel', "Essential",
 }, nil, 1506176015)
@@ -69269,7 +69269,7 @@ PlaceObj('Prison_PaperPileLarge_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1750760744)
 PlaceObj('BunkerInterior_Locker_01', {
 	'Pos', point(175800, 160200, 7000),
@@ -69553,7 +69553,7 @@ PlaceObj('BunkerInterior_PlatePile_05', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2976,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1095294228)
 PlaceObj('BunkerInterior_PlatePile_03', {
 	'Pos', point(176853, 159996, 7888),
@@ -69561,7 +69561,7 @@ PlaceObj('BunkerInterior_PlatePile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2976,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1896077067)
 PlaceObj('JungleCamp_FoodCanPile_05', {
 	'Pos', point(176857, 160155, 8795),
@@ -69596,14 +69596,14 @@ PlaceObj('BunkerInterior_PlatePile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2976,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1772495920)
 PlaceObj('BunkerInterior_PlatePile_03', {
 	'Pos', point(177098, 160296, 7888),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2976,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1635149441)
 PlaceObj('FloorSlab', {
 	'Pos', point(177000, 161400, 7000),
@@ -69620,7 +69620,7 @@ PlaceObj('BunkerInterior_PlatePile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2976,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1559426973)
 PlaceObj('Shanty_CardboardBox_01', {
 	'ColorizationPalette', "",
@@ -69638,7 +69638,7 @@ PlaceObj('BunkerInterior_PlatePile_05', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2976,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1694570438)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(177764, 159929, 7880),
@@ -69686,7 +69686,7 @@ PlaceObj('JungleCamp_FoodCanPile_06', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2976,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1614926122)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(178000, 160169, 7880),
@@ -69824,7 +69824,7 @@ PlaceObj('JungleCamp_FoodCanPile_06', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2976,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1095517575)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(178197, 160395, 7880),
@@ -70197,7 +70197,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 97,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 }, nil, 1170744457)
 PlaceObj('FloorSlab', {
@@ -70224,7 +70224,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1137345327)
 PlaceObj('FloorSlab', {
@@ -70260,7 +70260,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1349254018)
 PlaceObj('FloorSlab', {
@@ -71157,7 +71157,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1541907492)
 PlaceObj('FloorSlab', {
 	'Pos', point(165000, 167400, 7000),
@@ -71345,7 +71345,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 3858,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 }, nil, 1034382791)
 PlaceObj('FloorSlab', {
@@ -71382,7 +71382,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 1994,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Accent light Green Flicker",
 	'AllAttachedLightsToDetailLevel', "Optional",
 }, nil, 1065663786)
@@ -71404,7 +71404,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1739935212)
 PlaceObj('WallSlab', {
 	'Pos', point(165600, 168600, 7000),
@@ -72074,7 +72074,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Angle', 10571,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1276303752)
 PlaceObj('FloorSlab', {
 	'Pos', point(168600, 168600, 7000),
@@ -72414,7 +72414,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1264727583)
 PlaceObj('FloorSlab', {
 	'Pos', point(165000, 173400, 7000),
@@ -72578,7 +72578,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1119323704)
 PlaceObj('FloorSlab', {
 	'Pos', point(165000, 174600, 7000),
@@ -73115,7 +73115,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 3858,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 }, nil, 1709917670)
 PlaceObj('FloorSlab', {
@@ -74379,21 +74379,21 @@ PlaceObj('Shanty_Canvas_03', {
 	'Scale', 70,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1873266620)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(168365, 176627, 7005),
 	'Angle', 20225,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1436402259)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(167957, 176846, 7005),
 	'Angle', 6293,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1048498986)
 PlaceObj('Shanty_Canvas_03', {
 	'ColorizationPalette', "",
@@ -74403,7 +74403,7 @@ PlaceObj('Shanty_Canvas_03', {
 	'Scale', 70,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1490452016)
 PlaceObj('BunkerInterior_FenceGrid_02', {
 	'Pos', point(168603, 176998, 7000),
@@ -74436,14 +74436,14 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 7080,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1433741683)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(169107, 176629, 7005),
 	'Angle', 14748,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1477822529)
 PlaceObj('BunkerInterior_FenceGrid_02', {
 	'Pos', point(169803, 176998, 7000),
@@ -74578,14 +74578,14 @@ PlaceObj('JungleCamp_Boots_02', {
 	'Angle', 900,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1606155414)
 PlaceObj('JungleCamp_Boots_01', {
 	'Pos', point(171869, 179727, 7000),
 	'Angle', 20940,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1656699158)
 PlaceObj('FloorSlab', {
 	'Pos', point(172200, 165000, 7000),
@@ -74711,7 +74711,7 @@ PlaceObj('BunkerInterior_PlatePile_05', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2186,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1470084602)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(176000, 164400, 7693),
@@ -74865,7 +74865,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1514396735)
 PlaceObj('FloorSlab', {
@@ -74974,14 +74974,14 @@ PlaceObj('BunkerInterior_PlatePile_05', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 990,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1401954348)
 PlaceObj('BunkerInterior_PlatePile_03', {
 	'Pos', point(176054, 168622, 7664),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 990,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1784629122)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(176001, 168835, 7689),
@@ -75023,7 +75023,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Pos', point(174709, 171057, 7668),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1433584542)
 PlaceObj('FloorSlab', {
 	'Pos', point(175800, 171000, 7000),
@@ -75040,7 +75040,7 @@ PlaceObj('BunkerInterior_PlatePile_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2186,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1359093968)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(176600, 164000, 7693),
@@ -75063,14 +75063,14 @@ PlaceObj('BunkerInterior_PlatePile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2186,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1603007235)
 PlaceObj('BunkerInterior_PlatePile_05', {
 	'Pos', point(176800, 164000, 7694),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2186,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1627143765)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(176800, 164200, 7693),
@@ -75085,7 +75085,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2186,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1003694209)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(176600, 165000, 7693),
@@ -75238,7 +75238,7 @@ PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3696,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1097992464)
 PlaceObj('FloorSlab', {
 	'Pos', point(177000, 171000, 7000),
@@ -75497,7 +75497,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B Soft",
 }, nil, 1391376470)
 PlaceObj('FloorSlab', {
@@ -76198,7 +76198,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B Soft",
 }, nil, 1837689541)
 PlaceObj('BunkerInterior_FenceGrid_01', {
@@ -76936,7 +76936,7 @@ PlaceObj('JungleCamp_Boots_02', {
 	'Angle', 900,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1290231791)
 PlaceObj('Bunker_MetalBed_02', {
 	'ColorizationPalette', "",
@@ -77350,7 +77350,7 @@ PlaceObj('Shanty_Fan_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 891,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1877494337)
 PlaceObj('FloorSlab', {
 	'Pos', point(167400, 180600, 7000),
@@ -77375,7 +77375,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B Soft",
 }, nil, 1238711674)
 PlaceObj('FloorSlab', {
@@ -78039,7 +78039,7 @@ PlaceObj('Shanty_Fan_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3303,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1560277735)
 PlaceObj('BunkerInterior_FenceGrid_02', {
 	'Pos', point(171003, 181798, 7000),
@@ -78087,7 +78087,7 @@ PlaceObj('JungleCamp_Boots_02', {
 	'Angle', 20940,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1152917052)
 PlaceObj('BunkerInterior_FenceGrid_01', {
 	'Pos', point(171003, 182998, 7000),
@@ -78125,7 +78125,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Angle', 16311,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1441767845)
 PlaceObj('BunkerInterior_Desk_01', {
 	'ColorizationPalette', "",
@@ -78151,14 +78151,14 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Angle', 3180,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1797151426)
 PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Pos', point(171110, 183878, 7629),
 	'Angle', 17594,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1362861001)
 PlaceObj('JungleCamp_TableLamp_01', {
 	'ColorizationPalette', "",
@@ -78167,7 +78167,7 @@ PlaceObj('JungleCamp_TableLamp_01', {
 	'Angle', 14520,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1793679620)
 PlaceObj('FloorSlab', {
 	'Pos', point(168600, 185400, 7000),
@@ -78319,14 +78319,14 @@ PlaceObj('JungleCamp_TableLamp_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 120,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1508698535)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(169862, 187591, 7006),
 	'Angle', 7080,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1187549746)
 PlaceObj('BunkerInterior_Light_01', {
 	'Pos', point(169800, 187800, 7000),
@@ -78335,7 +78335,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 2644,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B Soft",
 }, nil, 1154460824)
 PlaceObj('FloorSlab', {
@@ -78447,7 +78447,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 14748,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1579712877)
 PlaceObj('BunkerInterior_FenceGrid_02', {
 	'Pos', point(171003, 186598, 7000),
@@ -78573,7 +78573,7 @@ PlaceObj('BunkerInterior_PlatePile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3052,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1686815120)
 PlaceObj('SoundSource', {
 	'Pos', point(163869, 190155, 4151),
@@ -78589,7 +78589,7 @@ PlaceObj('BunkerInterior_PlatePile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3052,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1335869817)
 PlaceObj('Shanty_CardboardBox_01', {
 	'ColorizationPalette', "",
@@ -78607,7 +78607,7 @@ PlaceObj('BunkerInterior_PlatePile_05', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3052,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1405531794)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(164564, 189929, 5080),
@@ -78687,7 +78687,7 @@ PlaceObj('JungleCamp_FoodCanPile_06', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3052,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1001648102)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(164816, 190363, 5080),
@@ -78864,7 +78864,7 @@ PlaceObj('JungleCamp_FoodCanPile_06', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3052,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1487668616)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(163847, 191739, 4232),
@@ -78947,7 +78947,7 @@ PlaceObj('BunkerInterior_PlatePile_05', {
 	'Axis', point(398, 4069, 248),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1003620974)
 PlaceObj('WallSlab', {
 	'Pos', point(166200, 189600, 4200),
@@ -79495,7 +79495,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 5820,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1329663498)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(165792, 192622, 4186),
@@ -79503,7 +79503,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Scale', 128,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1508067562)
 PlaceObj('FloorSlab', {
 	'Pos', point(165000, 193800, 4200),
@@ -79549,7 +79549,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 2940,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1549576208)
 PlaceObj('BunkerInterior_Light_01', {
 	'Pos', point(166200, 192600, 4200),
@@ -79558,7 +79558,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 1730,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm A Flicker",
 	'AllAttachedLightsToDetailLevel', "Essential",
 }, nil, 1272344747)
@@ -80154,7 +80154,7 @@ PlaceObj('Shanty_Debris_02', {
 	'Angle', 10863,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1167644506)
 PlaceObj('WallSlab', {
 	'Pos', point(166800, 196200, 4200),
@@ -80541,21 +80541,21 @@ PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Angle', 3300,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1437839040)
 PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Pos', point(171417, 192032, 4149),
 	'Angle', 5640,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1302797992)
 PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Pos', point(171863, 192364, 4200),
 	'Angle', 15720,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1696014006)
 PlaceObj('FloorSlab', {
 	'Pos', point(168600, 192600, 4200),
@@ -80676,7 +80676,7 @@ PlaceObj('JungleCamp_FoodCanPile_06', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2035,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1871866757)
 PlaceObj('BunkerInterior_FenceWire_01', {
 	'ColorizationPalette', "",
@@ -80713,7 +80713,7 @@ PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2035,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1893237358)
 PlaceObj('FloorSlab', {
 	'Pos', point(171000, 195000, 4200),
@@ -80794,7 +80794,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B Soft",
 }, nil, 1108386065)
 PlaceObj('FloorSlab', {
@@ -81305,7 +81305,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B Soft",
 }, nil, 1464882180)
 PlaceObj('FloorSlab', {
@@ -81518,21 +81518,21 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 16680,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1579436942)
 PlaceObj('JungleCamp_Boots_01', {
 	'Pos', point(177729, 185778, 7023),
 	'Angle', 14880,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1318453295)
 PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Pos', point(177989, 185479, 7000),
 	'Angle', 16680,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1784282093)
 PlaceObj('Shanty_RagPile_01', {
 	'ColorizationPalette', "",
@@ -81555,7 +81555,7 @@ PlaceObj('Shanty_Canvas_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3815,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1384675582)
 PlaceObj('FloorSlab', {
 	'Pos', point(177000, 186600, 7000),
@@ -81697,7 +81697,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Angle', 17220,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1832095761)
 PlaceObj('Shanty_Canvas_03', {
 	'ColorizationPalette', "",
@@ -81708,7 +81708,7 @@ PlaceObj('Shanty_Canvas_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3815,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1000140904)
 PlaceObj('Shanty_Canvas_04', {
 	'ColorizationPalette', "",
@@ -81719,7 +81719,7 @@ PlaceObj('Shanty_Canvas_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3815,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1095046241)
 PlaceObj('JungleCamp_Backpack_03', {
 	'Pos', point(178686, 185976, 7019),
@@ -81772,7 +81772,7 @@ PlaceObj('JungleCamp_FoodCanPile_04', {
 	'Angle', 19320,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1864307382)
 PlaceObj('Bunker_MetalBed_mattress', {
 	'ColorizationPalette', "",
@@ -81817,7 +81817,7 @@ PlaceObj('Shanty_Canvas_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3815,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1564558999)
 PlaceObj('WallSlab', {
 	'Pos', point(178200, 188400, 7000),
@@ -82434,7 +82434,7 @@ PlaceObj('JungleCamp_FoodCanPile_03', {
 	'ApplyToGrids', true,
 	'Collision', true,
 	'CollectionIndex', 3075,
-	'AllowedMask', 782,
+	'AllowedMask', 4294967279,
 }, nil, 1775095557)
 PlaceObj('JungleCamp_FoodCanPile_01', {
 	'Pos', point(176003, 191835, 4882),
@@ -82462,7 +82462,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 1601,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Cold A Flicker",
 	'AllAttachedLightsToDetailLevel', "Essential",
 }, nil, 1450234342)
@@ -82650,7 +82650,7 @@ PlaceObj('JungleCamp_FoodCanPile_06', {
 	'ApplyToGrids', true,
 	'Collision', true,
 	'CollectionIndex', 3075,
-	'AllowedMask', 782,
+	'AllowedMask', 4294967279,
 }, nil, 1396926091)
 PlaceObj('BunkerInterior_AmmoBox_01', {
 	'ColorizationPalette', "",
@@ -83115,7 +83115,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 }, nil, 1533897864)
 PlaceObj('FloorSlab', {
@@ -84154,7 +84154,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 }, nil, 1217703109)
 PlaceObj('FloorSlab', {
@@ -84577,7 +84577,7 @@ PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2971,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1595914024)
 PlaceObj('JungleCamp_FoodCanPile_01', {
 	'Pos', point(182048, 178133, 9186),
@@ -84601,7 +84601,7 @@ PlaceObj('JungleCamp_Boots_02', {
 	'Angle', 6300,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1252113726)
 PlaceObj('FloorSlab', {
 	'Pos', point(180600, 179400, 7000),
@@ -85691,7 +85691,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B Soft",
 }, nil, 1340226877)
 PlaceObj('FloorSlab', {
@@ -85714,7 +85714,7 @@ PlaceObj('Shanty_Canvas_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2455,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'SwayType', "Never Sway",
 }, nil, 1289947178)
 PlaceObj('Shanty_RagPile_01', {
@@ -85973,7 +85973,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B Soft",
 }, nil, 1889938145)
 PlaceObj('WallSlab', {
@@ -87890,7 +87890,7 @@ PlaceObj('Shanty_Fan_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1379,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1657023806)
 PlaceObj('SoundSource', {
 	'Pos', point(133992, 199441),
@@ -87988,7 +87988,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 4060,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B",
 	'AllAttachedLightsToDetailLevel', "Essential",
 }, nil, 1891426554)
@@ -88018,7 +88018,7 @@ PlaceObj('Shanty_Fan_02', {
 	'StateText', "off",
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1306392170)
 PlaceObj('FloorSlab', {
 	'Pos', point(135000, 199800, 3500),
@@ -88229,7 +88229,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3056,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1128997309)
 PlaceObj('FloorSlab', {
 	'Pos', point(135000, 201000, 3500),
@@ -88489,7 +88489,7 @@ PlaceObj('Shanty_Fan_02', {
 	'Angle', 18960,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1767250807)
 PlaceObj('FloorSlab', {
 	'Pos', point(136200, 197400, 3500),
@@ -88506,7 +88506,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3056,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1875772266)
 PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Pos', point(136422, 197885, 3497),
@@ -88514,7 +88514,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3056,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1086520221)
 PlaceObj('FloorSlab', {
 	'Pos', point(136200, 198600, 3500),
@@ -88533,7 +88533,7 @@ PlaceObj('JungleCamp_TableLamp_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3056,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1712749924)
 PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Pos', point(136987, 198071, 3497),
@@ -88541,7 +88541,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3056,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1717267567)
 PlaceObj('Corp_Laptop_01', {
 	'Pos', point(136151, 199826, 4211),
@@ -88558,7 +88558,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3056,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1888680464)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(135986, 200560, 3497),
@@ -88566,7 +88566,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3056,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1398032874)
 PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Pos', point(136205, 199165, 4199),
@@ -88574,7 +88574,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3056,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1289080092)
 PlaceObj('BunkerInterior_Desk_01', {
 	'Pos', point(136200, 199800, 3500),
@@ -88615,7 +88615,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3056,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1822597215)
 PlaceObj('BunkerInterior_Chair_01', {
 	'Pos', point(137401, 198552, 3500),
@@ -88691,7 +88691,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3056,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1251254886)
 PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Pos', point(135542, 201425, 3497),
@@ -88699,7 +88699,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3056,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1063200314)
 PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Pos', point(135724, 200754, 3535),
@@ -88707,7 +88707,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3056,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1772102472)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(136222, 200851, 3497),
@@ -88715,7 +88715,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3056,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1660742452)
 PlaceObj('FloorSlab', {
 	'Pos', point(136200, 201000, 3500),
@@ -89758,7 +89758,7 @@ PlaceObj('JungleCamp_FoodCanPile_03', {
 	'ApplyToGrids', true,
 	'Collision', true,
 	'CollectionIndex', 3823,
-	'AllowedMask', 782,
+	'AllowedMask', 4294967279,
 }, nil, 1355747427)
 PlaceObj('FloorSlab', {
 	'Pos', point(136200, 211800, 7000),
@@ -89797,7 +89797,7 @@ PlaceObj('JungleCamp_FoodCanPile_06', {
 	'ApplyToGrids', true,
 	'Collision', true,
 	'CollectionIndex', 3823,
-	'AllowedMask', 782,
+	'AllowedMask', 4294967279,
 }, nil, 1265638294)
 PlaceObj('FloorSlab', {
 	'Pos', point(137400, 209400, 7000),
@@ -89990,7 +89990,7 @@ PlaceObj('JungleCamp_TableLamp_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 120,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1338482518)
 PlaceObj('FloorSlab', {
 	'Pos', point(141000, 202200, 3500),
@@ -90006,7 +90006,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 7080,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1319460850)
 PlaceObj('WallSlab', {
 	'Pos', point(139800, 202800, 3500),
@@ -90157,7 +90157,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 14748,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1835584983)
 PlaceObj('FloorSlab', {
 	'Pos', point(142200, 201000, 3500),
@@ -90601,7 +90601,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
 	'CollectionIndex', 890,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Broken",
 	'AllAttachedLightsToDetailLevel', "Eye Candy",
 }, nil, 1461962367)
@@ -90614,7 +90614,7 @@ PlaceObj('Shanty_Debris_03', {
 	'Scale', 55,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1429379946)
 PlaceObj('FloorSlab', {
 	'Pos', point(143400, 199800, 3500),
@@ -90861,7 +90861,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 7260,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1583416188)
 PlaceObj('Shanty_BucketMetal_01', {
 	'Pos', point(146472, 200434, 4349),
@@ -90876,14 +90876,14 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Angle', 7260,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1473229453)
 PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Pos', point(146813, 200393, 4185),
 	'Angle', 7800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1820357623)
 PlaceObj('FloorSlab', {
 	'Pos', point(147000, 199800, 4200),
@@ -91071,7 +91071,7 @@ PlaceObj('Shanty_Canvas_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2201,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1264395235)
 PlaceObj('BunkerInterior_MetalRack_02', {
 	'Pos', point(143400, 202200, 3500),
@@ -91673,7 +91673,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 16680,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1266691000)
 PlaceObj('FloorSlab', {
 	'Pos', point(147000, 201000, 4200),
@@ -91961,7 +91961,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Angle', 12420,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1741505624)
 PlaceObj('FloorSlab', {
 	'Pos', point(147000, 203400, 4200),
@@ -92156,7 +92156,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Pos', point(147000, 204600),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1072330562)
 PlaceObj('Bunker_MetalBed_03', {
 	'ColorizationPalette', "",
@@ -92267,7 +92267,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 1791,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light C Soft",
 }, nil, 1504396944)
 PlaceObj('FloorSlab', {
@@ -92656,7 +92656,7 @@ PlaceObj('JungleCamp_FoodCanPile_06', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2100,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1593133505)
 PlaceObj('FloorSlab', {
 	'Pos', point(139800, 210600, 7000),
@@ -92673,14 +92673,14 @@ PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2100,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1449509397)
 PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Pos', point(140663, 209164, 7000),
 	'Angle', 15720,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1437057083)
 PlaceObj('FloorSlab', {
 	'Pos', point(141000, 209400, 7000),
@@ -92884,7 +92884,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 1791,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light C Soft",
 }, nil, 1647285715)
 PlaceObj('WallSlab', {
@@ -93104,7 +93104,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 17220,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1711695627)
 PlaceObj('JungleCamp_Backpack_01', {
 	'Pos', point(146901, 205364, 4254),
@@ -93132,7 +93132,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1591109056)
 PlaceObj('Bunker_MetalBed_03', {
 	'ColorizationPalette', "",
@@ -93488,7 +93488,7 @@ PlaceObj('Weapon_TearGasGrenade', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1246,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1526265385)
 PlaceObj('WallSlab', {
 	'Pos', point(131400, 220800, 7000),
@@ -93580,7 +93580,7 @@ PlaceObj('Weapon_TearGasGrenade', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1246,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1217075484)
 PlaceObj('Weapon_TearGasGrenade', {
 	'Pos', point(131796, 220408, 7968),
@@ -93588,7 +93588,7 @@ PlaceObj('Weapon_TearGasGrenade', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1246,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1882402549)
 PlaceObj('City_Plywood_01', {
 	'ColorizationPalette', "",
@@ -93622,7 +93622,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 672,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1053885522)
 PlaceObj('Shanty_CardboardBox_04', {
 	'ColorizationPalette', "",
@@ -93645,7 +93645,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 672,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1460221084)
 PlaceObj('Shanty_CardboardBox_Smokes_02', {
 	'ColorizationPalette', "",
@@ -93664,7 +93664,7 @@ PlaceObj('Cinematic_Bullets_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1246,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1148390579)
 PlaceObj('Cinematic_Bullets_03', {
 	'Pos', point(133116, 220158, 7968),
@@ -93672,7 +93672,7 @@ PlaceObj('Cinematic_Bullets_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1246,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1382255041)
 PlaceObj('Cinematic_Bullets_02', {
 	'Pos', point(132117, 220198, 7968),
@@ -93680,7 +93680,7 @@ PlaceObj('Cinematic_Bullets_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1246,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1226544612)
 PlaceObj('Cinematic_Bullets_01', {
 	'Pos', point(132185, 220301, 7968),
@@ -93688,7 +93688,7 @@ PlaceObj('Cinematic_Bullets_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1246,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1014488272)
 PlaceObj('Cinematic_Bullets_03', {
 	'Pos', point(132277, 220180, 7968),
@@ -93696,7 +93696,7 @@ PlaceObj('Cinematic_Bullets_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1246,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1071430874)
 PlaceObj('Shanty_CardboardBox_Smokes_02', {
 	'ColorizationPalette', "",
@@ -93717,7 +93717,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 2604,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light C Soft",
 }, nil, 1546245015)
 PlaceObj('WallSlab', {
@@ -93798,7 +93798,7 @@ PlaceObj('Cinematic_Bullets_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1246,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1455077272)
 PlaceObj('Cinematic_Bullets_02', {
 	'Pos', point(132639, 220315, 7968),
@@ -93806,7 +93806,7 @@ PlaceObj('Cinematic_Bullets_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1246,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1451232689)
 PlaceObj('Cinematic_Bullets_01', {
 	'Pos', point(132763, 220308, 7968),
@@ -93814,7 +93814,7 @@ PlaceObj('Cinematic_Bullets_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1246,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1590135078)
 PlaceObj('Scaffolding_Planks_01', {
 	'Pos', point(132770, 220362, 7971),
@@ -93824,7 +93824,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 672,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1147338241)
 PlaceObj('Scaffolding_Planks_01', {
 	'Pos', point(132770, 220568, 7971),
@@ -93834,7 +93834,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 672,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1116028553)
 PlaceObj('City_Plywood_01', {
 	'ColorizationPalette', "",
@@ -93854,7 +93854,7 @@ PlaceObj('Cinematic_Bullets_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1246,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1070024477)
 PlaceObj('Shanty_CardboardBox_Smokes_02', {
 	'ColorizationPalette', "",
@@ -93875,7 +93875,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 672,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1513742020)
 PlaceObj('FloorSlab', {
 	'Pos', point(133800, 217800, 7000),
@@ -94051,7 +94051,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 672,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1039094902)
 PlaceObj('WallSlab', {
 	'Pos', point(135000, 220800, 7000),
@@ -95135,7 +95135,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 200,
 	'CollectionIndex', 2604,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1210391079)
 PlaceObj('BunkerInterior_PropSet_03', {
@@ -95699,7 +95699,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Angle', 16680,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1181067187)
 PlaceObj('BunkerInterior_GasCan_01', {
 	'ColorizationPalette', "",
@@ -95988,7 +95988,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 16680,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1067634744)
 PlaceObj('Shanty_Fan_01', {
 	'ColorizationPalette', "",
@@ -95999,7 +95999,7 @@ PlaceObj('Shanty_Fan_01', {
 	'StateText', "off",
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1690877137)
 PlaceObj('Shanty_Sack_03', {
 	'ColorizationPalette', "",
@@ -96018,14 +96018,14 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Angle', 16680,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1747986655)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(149385, 203274, 4181),
 	'Angle', 16680,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1163731653)
 PlaceObj('FloorSlab', {
 	'Pos', point(149400, 203400, 4200),
@@ -96052,7 +96052,7 @@ PlaceObj('JungleCamp_Boots_01', {
 	'Angle', 14880,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1858318663)
 PlaceObj('Shanty_RagPile_01', {
 	'ColorizationPalette', "",
@@ -96219,14 +96219,14 @@ PlaceObj('Shanty_Canvas_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1221,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1418649696)
 PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Pos', point(149501, 204095, 4185),
 	'Angle', 17220,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1669349009)
 PlaceObj('Shanty_Canvas_03', {
 	'ColorizationPalette', "",
@@ -96237,7 +96237,7 @@ PlaceObj('Shanty_Canvas_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1221,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1570246700)
 PlaceObj('Shanty_RagPile_01', {
 	'ColorizationPalette', "",
@@ -96282,7 +96282,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 16680,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1284169989)
 PlaceObj('Shanty_Canvas_04', {
 	'ColorizationPalette', "",
@@ -96293,7 +96293,7 @@ PlaceObj('Shanty_Canvas_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1221,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1742808701)
 PlaceObj('JungleCamp_Backpack_03', {
 	'Pos', point(149976, 203983, 4200),
@@ -96319,14 +96319,14 @@ PlaceObj('JungleCamp_FoodCanPile_04', {
 	'Angle', 19320,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1843702774)
 PlaceObj('JungleCamp_Boots_01', {
 	'Pos', point(150384, 203962, 4204),
 	'Angle', 18840,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1640287707)
 PlaceObj('Bunker_MetalBed_mattress', {
 	'ColorizationPalette', "",
@@ -96566,7 +96566,7 @@ PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2115,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1356346209)
 PlaceObj('Shanty_CardboardBox_04', {
 	'ColorizationPalette', "",
@@ -96627,7 +96627,7 @@ PlaceObj('JungleCamp_Boots_02', {
 	'Angle', 20940,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1168162482)
 PlaceObj('FloorSlab', {
 	'Pos', point(154200, 197400, 4200),
@@ -96744,14 +96744,14 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Angle', 8520,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1164954109)
 PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Pos', point(153435, 202091, 4177),
 	'Angle', 2820,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1538982742)
 PlaceObj('Shanty_Sack_03', {
 	'ColorizationPalette', "",
@@ -97196,7 +97196,7 @@ PlaceObj('Shanty_Fan_01', {
 	'StateText', "off",
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1610746061)
 PlaceObj('FloorSlab', {
 	'Pos', point(154200, 201000, 4200),
@@ -97212,7 +97212,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 18420,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1387024388)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(153714, 202725, 4200),
@@ -97226,7 +97226,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Angle', 6600,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1434439254)
 PlaceObj('FloorSlab', {
 	'Pos', point(154200, 202200, 4200),
@@ -97270,7 +97270,7 @@ PlaceObj('Shanty_Fan_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 4047,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1588960206)
 PlaceObj('FloorSlab', {
 	'Pos', point(154200, 203400, 4200),
@@ -97507,7 +97507,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1111,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1502556744)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(155227, 203564, 4886),
@@ -97542,7 +97542,7 @@ PlaceObj('JungleCamp_TableLamp_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1111,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1480512415)
 PlaceObj('WallSlab', {
 	'Pos', point(155400, 204000, 4200),
@@ -97729,7 +97729,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1063901922)
 PlaceObj('JungleCamp_Backpack_02', {
 	'Pos', point(149502, 205241, 4817),
@@ -97765,7 +97765,7 @@ PlaceObj('JungleCamp_Boots_01', {
 	'Angle', 14100,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1464101505)
 PlaceObj('Shanty_RagPile_01', {
 	'ColorizationPalette', "",
@@ -97799,7 +97799,7 @@ PlaceObj('Shanty_Canvas_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1221,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1720559672)
 PlaceObj('WallSlab', {
 	'Pos', point(149400, 206400, 4200),
@@ -97991,7 +97991,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 160,
 	'CollectionIndex', 2803,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Warm light B Soft",
 	'AllAttachedLightsToDetailLevel', "Essential",
 }, nil, 1578012897)
@@ -98213,7 +98213,7 @@ PlaceObj('Shanty_Canvas_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1727,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 	'SwayType', "Never Sway",
 }, nil, 1576716989)
 PlaceObj('Shanty_RagPile_01', {
@@ -98255,7 +98255,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1575280733)
 PlaceObj('Shanty_RagPile_01', {
 	'ColorizationPalette', "",
@@ -98591,7 +98591,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1111,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1160174029)
 PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Pos', point(156202, 203326, 4886),
@@ -98599,7 +98599,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1111,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1009057033)
 PlaceObj('FloorSlab', {
 	'Pos', point(156600, 203400, 4200),
@@ -98615,7 +98615,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1111,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1784596915)
 PlaceObj('SoundSource', {
 	'Pos', point(156194, 204017),
@@ -98710,7 +98710,7 @@ PlaceObj('JungleCamp_Radio_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1111,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1126371524)
 PlaceObj('JungleCamp_Backpack_01', {
 	'Pos', point(157206, 203310, 4200),
@@ -99191,7 +99191,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 1200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1793561410)
 PlaceObj('FloorSlab', {
 	'Pos', point(160200, 197400, 4200),
@@ -99311,14 +99311,14 @@ PlaceObj('BunkerInterior_PlatePile_05', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 29,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1799236116)
 PlaceObj('BunkerInterior_PlatePile_03', {
 	'Pos', point(161654, 199822, 4864),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 29,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1813118673)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(161601, 200035, 4889),
@@ -99443,7 +99443,7 @@ PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 928,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1223379435)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(162495, 200488, 4223),
@@ -99458,7 +99458,7 @@ PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Angle', 17940,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1343019368)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(163001, 200208, 4223),
@@ -100220,7 +100220,7 @@ PlaceObj('JungleCamp_Boots_02', {
 	'Pos', point(157485, 205030, 4200),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1854431567)
 PlaceObj('WallSlab', {
 	'Pos', point(157200, 205800, 4200),
@@ -100535,7 +100535,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1327595991)
 PlaceObj('FloorSlab', {
 	'Pos', point(160200, 205800, 4200),
@@ -100553,7 +100553,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
 	'CollectionIndex', 890,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "OFF",
 	'AllAttachedLightsToDetailLevel', "Essential",
 }, nil, 1870306280)
@@ -100678,7 +100678,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1198132702)
 PlaceObj('FloorSlab', {
 	'Pos', point(161400, 205800, 4200),
@@ -100954,7 +100954,7 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Pos', point(165589, 197051, 4200),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1050287723)
 PlaceObj('FloorSlab', {
 	'Pos', point(165000, 198600, 4200),
@@ -100986,7 +100986,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Scale', 128,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1646385500)
 PlaceObj('BunkerInterior_GasCan_01', {
 	'ColorizationPalette', "",
@@ -101013,7 +101013,7 @@ PlaceObj('JungleCamp_TableLamp_01', {
 	'Angle', 7680,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1113331610)
 PlaceObj('FloorSlab', {
 	'Pos', point(166200, 197400, 4200),
@@ -101029,7 +101029,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Angle', 19020,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1219227189)
 PlaceObj('WallSlab', {
 	'Pos', point(166800, 197400, 4200),
@@ -101360,7 +101360,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1226283529)
 PlaceObj('FloorSlab', {
 	'Pos', point(166200, 199800, 4200),
@@ -101538,7 +101538,7 @@ PlaceObj('JungleCamp_Boots_01', {
 	'Angle', 15000,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1243450106)
 PlaceObj('RoomCorner', {
 	'Pos', point(164400, 204000, 4200),
@@ -101702,7 +101702,7 @@ PlaceObj('Shanty_Debris_02', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1704564643)
 PlaceObj('WallSlab', {
 	'Pos', point(165000, 204000, 4200),
@@ -101792,7 +101792,7 @@ PlaceObj('BunkerInterior_Light_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 0,
 	'CollectionIndex', 890,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'AutoAttachMode', "Broken",
 	'AllAttachedLightsToDetailLevel', "Eye Candy",
 }, nil, 1525156062)
@@ -102124,7 +102124,7 @@ PlaceObj('Shanty_Debris_02', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1067763780)
 PlaceObj('RoomCorner', {
 	'Pos', point(166800, 202800, 4200),
@@ -103237,14 +103237,14 @@ PlaceObj('JungleCamp_Flashlight_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3047,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1302306921)
 PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Pos', point(173865, 197930),
 	'Angle', 13980,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1216579816)
 PlaceObj('FloorSlab', {
 	'Pos', point(172200, 199800, 4200),
@@ -103338,7 +103338,7 @@ PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Angle', 5940,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1256780218)
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(174535, 198075, 4193),
@@ -103346,7 +103346,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Scale', 128,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1383761467)
 PlaceObj('FloorSlab', {
 	'Pos', point(174600, 198600, 4200),
@@ -105548,7 +105548,7 @@ p("DecBunker_ConcretePile_05",125371,183795,7000,11274,121,4284966759,2097165)
 p("DecBunker_ConcretePile_03",126466,184009,7000,1)
 p("DecBunkerFloor_02",126600,184200,7000,3794,1821,2097409)
 p("DecWallRust_02",124489,185420,7000,1)
-p("THOMPSON_SMG",124076,187727,7722,16004,3869,-950,950,7,2097297)
+p("THOMPSON_SMG",124076,187727,7722,16004,3869,-950,950,2097169)
 p("DecBunkerFloor_02",129000,180600,7000,12271,1821,2097409)
 p("DecBunkerFloor_03",127236,183064,0)
 p("BrokenOff_Concrete_07",129858,180614,6983,17074,121,4281282094,2097165)

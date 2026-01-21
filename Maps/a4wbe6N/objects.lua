@@ -170,6 +170,14 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 3531,
+	'AllowedMask', 4294966497,
+	'Name', "col_Bunker_Door_01",
+	'Index', 1949,
+}, nil, 1042877123)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
 	'Name', "col_HangarSmall_Roof_03",
 	'Index', 2642,
@@ -1938,6 +1946,13 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Name', "col_Bunker_Door_2",
+	'Index', 3531,
+}, nil, 1637043848)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_TropicalPlant_04_Shrub_49",
 	'Index', 2435,
 }, nil, 1646992002)
@@ -2648,7 +2663,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -2673,7 +2695,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -2690,6 +2719,15 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1432862384)
+PlaceObj('ExitZoneInteractable', {
+	'Pos', point(116817, 100462, 22348),
+	'Angle', 16200,
+	'Groups', {
+		"Underground",
+	},
+	'CollectionIndex', 1949,
+	'AllowedMask', 4294966497,
+}, nil, 1670683949)
 PlaceObj('UnitMarker', {
 	'Pos', point(121800, 130200),
 	'Angle', 5400,
@@ -2698,7 +2736,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -2723,7 +2768,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -2748,7 +2800,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -2766,13 +2825,33 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1480868191)
 PlaceObj('UnitMarker', {
+	'Pos', point(83400, 187800, 38500),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Commander_Rebels",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "RebelSergeant_Immortal",
+			'Name', T(742963718648, "Лулумба Комми"),
+		}),
+	},
+}, nil, 1474974801)
+PlaceObj('UnitMarker', {
 	'Pos', point(89400, 185400),
 	'Groups', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -2797,7 +2876,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -2814,6 +2900,16 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1852978372)
+PlaceObj('GridMarker', {
+	'Pos', point(107400, 142200, 28000),
+	'Groups', {
+		"AL_Defender",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+}, nil, 1882503403)
 PlaceObj('GridMarker', {
 	'Pos', point(126600, 151800, 28000),
 	'Groups', {
@@ -2845,14 +2941,21 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 6,
 }, nil, 1040641832)
 PlaceObj('UnitMarker', {
-	'Pos', point(77400, 197400, 39200),
+	'Pos', point(77400, 199800, 39200),
 	'Angle', 16200,
 	'Groups', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -2877,7 +2980,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -2902,7 +3012,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -2927,7 +3044,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -2952,7 +3076,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -2977,7 +3108,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3002,7 +3140,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3027,7 +3172,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3052,7 +3204,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3077,7 +3236,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3102,7 +3268,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3154,6 +3327,16 @@ PlaceObj('GridMarker', {
 	'Reachable', false,
 }, nil, 1834157092)
 PlaceObj('GridMarker', {
+	'Pos', point(139800, 165000, 23800),
+	'Groups', {
+		"AL_Defender",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+}, nil, 1406091743)
+PlaceObj('GridMarker', {
 	'Pos', point(159000, 196200, 14000),
 	'Groups', {
 		"AL_Defender",
@@ -3171,7 +3354,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3196,7 +3386,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3231,7 +3428,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3256,7 +3460,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3306,7 +3517,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3331,7 +3549,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3356,7 +3581,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3381,7 +3613,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3406,7 +3645,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3431,7 +3677,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3513,7 +3766,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3538,7 +3798,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3562,6 +3829,33 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 4,
 	'AreaHeight', 4,
 }, nil, 1384299548)
+PlaceObj('GridMarker', {
+	'Pos', point(205800, 191400),
+	'AllowedMask', 4294966497,
+	'Type', "Logic",
+	'TriggerConditions', {
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {
+					Negate = true,
+				}),
+				PlaceObj('SquadDefeated', {
+					custom_squad_id = "LegionRaidSquad_01",
+				}),
+				PlaceObj('SquadDefeated', {
+					custom_squad_id = "LegionHeavyTroops",
+				}),
+			},
+		}),
+	},
+	'TriggerEffects', {
+		PlaceObj('GroupSetSide', {
+			CreateSquad = false,
+			Side = "ally",
+			TargetUnit = "Rebels_Base_Warriors",
+		}),
+	},
+}, nil, 1892382458)
 PlaceObj('UnitMarker', {
 	'Pos', point(215400, 167400, 10500),
 	'Angle', 16200,
@@ -3570,7 +3864,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3595,7 +3896,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3649,7 +3957,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3783,7 +4098,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -3827,7 +4149,14 @@ PlaceObj('UnitMarker', {
 	},
 	'AllowedMask', 4294966497,
 	'TriggerConditions', {
-		PlaceObj('CombatIsActive', {}),
+		PlaceObj('AND', {
+			Conditions = {
+				PlaceObj('SectorIsInConflict', {}),
+				PlaceObj('SectorCheckOwner', {
+					owner = "any enemy",
+				}),
+			},
+		}),
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetSide', {
@@ -6908,6 +7237,7 @@ PlaceObj('Bunker_Door_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 3531,
 	'AllowedMask', 0,
 }, nil, 1851354565)
 PlaceObj('Mine_MetalBeam_Horizontal_01', {
@@ -85914,11 +86244,11 @@ p("TropicalPlant_04_Shrub_01",72181,198301,0)
 p("TropicalPlant_04_Shrub_01",71779,199073,0)
 p("TropicalRockSharp_01",66855,209180,24122,19226,250,1738,-3424,1425,3354,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("HangarSmall_FlatSide_03",77458,201708,39146,16200,1,2916,2150911028,2149354716,2148407344,"",1075845953)
-p("Grease",77089,204344,39863,5449,4037,486,487,6,2097297)
+p("Grease",77089,204344,39863,5449,4037,486,487,1,2097297)
 p("HangarSmall_RoofSide_03",79258,201708,39146,16200,3756,2150911028,2149354716,2148407344,"",1075845889)
 p("HangarSmall_FlatSide_03",81058,201708,39146,16200,2916,2150911028,2149354716,2148407344,"",1075845889)
 p("TropicalRockSharp_01",74167,205843,31431,19803,250,1018,-338,3953,3354,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
-p("Grease",77119,204979,39863,15793,-3637,1332,1332,7,2097297)
+p("Grease",77119,204979,39863,15793,-3637,1332,1332,2097169)
 p("HangarSmall_FlatSide_03",77458,210108,39146,5400,2916,2150911028,2149354716,2148407344,"",1075845889)
 p("Hangar_Canvas_03",79231,206075,39173,16200,2642,2152767447,2152767447,2152767447,"",1075845889)
 p("HangarSmall_Door_01",81658,205908,39146,2916,2150911028,2149354716,2148407344,"",1073748737)
@@ -85959,7 +86289,7 @@ p("TropicalPlant_04_Shrub_01",85391,203215,0)
 p("JungleCamp_TrenchFloor_02",87232,199099,39081,20563,130,-648,-28,4044,2150054469,2148407600,"",1075841557)
 p("DecSteps_01",89105,203157,38448,20700,4281609513,2097161)
 p("HangarSmall_FlatSide_03",85323,211720,39146,10800,1097,2150911028,2149354716,2148407344,"",1075845889)
-p("Garand",88734,207174,39362,5630,1026,-1026,3830,7,2097297)
+p("Garand",88734,207174,39362,5630,1026,-1026,3830,2097169)
 p("TropicalPlant_Grass_04",91956,200362,38610,302,247,2274,79,3406,2097173)
 p("DecSteps_01",92944,197079,38448,17100,4281609513,2097161)
 p("DecSteps_01",90116,203054,38448,19336,4281609513,2097161)
@@ -86371,11 +86701,11 @@ p("JungleCamp_GraveyardHelmet_01",148363,97564,30054,5968,2097153)
 p("Floor_WoodScaff_01",148462,97695,30587,5385,50,6,350,2148141582,2151833212,2147483648,"",1075846021)
 p("Floor_WoodScaff_01",148463,97703,29491,5385,50,6,651,2148141582,2151833212,2147483648,"",1075846021)
 p("Floor_WoodScaff_01",148463,97703,30032,5385,50,6,350,2148141582,2151833212,2147483648,"",1075846021)
-p("stoeger_outback",148030,97851,30046,16157,-4044,456,456,2097169)
+p("stoeger_outback",148030,97851,30046,16157,-4044,456,456,7,2097297)
 p("DecBunkerFloor_03",148200,97800,29400,20354,639,2097409)
 p("DecWallLeak_01",148885,97100,31493,7201,-2365,2365,2365,146,2097425)
-p("M1897Knife",148746,97650,30033,5718,-3734,-1190,1190,2097169)
-p("M1903",148894,97619,30059,5596,3868,951,951,2097169)
+p("M1897Knife",148746,97650,30033,5718,-3734,-1190,1190,7,2097297)
+p("M1903",148894,97619,30059,5596,3868,951,951,7,2097297)
 p("Floor_WoodScaff_01",149055,97692,29491,16185,50,6,651,2148141582,2151833212,2147483648,"",1075846021)
 p("Floor_WoodScaff_01",149055,97692,30032,16185,50,6,350,2148141582,2151833212,2147483648,"",1075846021)
 p("Floor_WoodScaff_01",149055,97692,30587,16185,50,6,350,2148141582,2151833212,2147483648,"",1075846021)
@@ -86407,7 +86737,7 @@ p("JungleCamp_GraveyardHelmet_01",151942,97756,30607,7014,2097153)
 p("Floor_WoodScaff_01",152103,97695,30587,5385,50,6,1848,2148141582,2151833212,2147483648,"",1075846021)
 p("Floor_WoodScaff_01",152104,97703,29491,5385,50,6,651,2148141582,2151833212,2147483648,"",1075846021)
 p("Floor_WoodScaff_01",152104,97703,30032,5385,50,6,1848,2148141582,2151833212,2147483648,"",1075846021)
-p("M1903",152484,97781,30059,16142,-4026,530,530,1,2097297)
+p("M1903",152484,97781,30059,16142,-4026,530,530,6,2097297)
 p("DecBunkerFloor_02",153000,97100,30800,6087,3349,-1667,1667,504,2097425)
 p("Floor_WoodScaff_01",152696,97692,29491,16185,50,6,651,2148141582,2151833212,2147483648,"",1075846021)
 p("Floor_WoodScaff_01",152696,97692,30032,16185,50,6,1848,2148141582,2151833212,2147483648,"",1075846021)
@@ -86443,7 +86773,7 @@ p("Prison_DecPaperPile_02",133089,103876,29384,1)
 p("DecBunkerFloor_02",133800,103800,29400,6755,4086,2097409)
 p("DecBunkerFloor_04",133800,103800,29400,14292,639,2097409)
 p("DecBunkerFloor_04",135000,103800,29400,5560,3839,2097409)
-p("M1897Knife",135953,100231,31410,9765,0,4096,0,7,2097297)
+p("M1897Knife",135953,100231,31410,9765,0,4096,0,2097169)
 p("DecBunkerFloor_04",136200,99000,29400,11992,639,2097409)
 p("DecBunkerFloor_02",137400,99000,29400,6103,4086,2097409)
 p("DecBunkerFloor_03",137400,100200,29400,12957,3839,2097409)
@@ -86452,12 +86782,12 @@ p("DecPaperPile_02",138149,103047,29400,1)
 p("BunkerInterior_PillarBroken_01",138600,102600,29400,5400,3877,2150054469,2150182196,2150976820,"",1075845889)
 p("BunkerInterior_PillarBroken_01",138600,102600,30800,10800,3877,2150054469,2150182196,2150976820,"",1075845889)
 p("BunkerInterior_Pillar_Upgrade",138600,102600,30800,5400,3877,2150054469,2150182196,2150976820,"",1075845889)
-p("cartridge_box",138386,105157,29756,5385,115,4278452994,2097165)
-p("cartridge_box",138399,105157,29536,5400,115,4278452994,2097165)
-p("cartridge_box",138651,105157,30196,5385,115,4278452994,2097165)
-p("cartridge_box",138664,105157,29976,5400,115,4278452994,2097165)
-p("cartridge_box",138948,105157,29756,5385,115,4278452994,2097165)
-p("cartridge_box",138961,105157,29536,5400,115,4278452994,1,2097293)
+p("cartridge_box",138386,105157,29756,5385,115,4278452994,1,2097293)
+p("cartridge_box",138399,105157,29536,5400,115,4278452994,1,2097293)
+p("cartridge_box",138651,105157,30196,5385,115,4278452994,1,2097293)
+p("cartridge_box",138664,105157,29976,5400,115,4278452994,1,2097293)
+p("cartridge_box",138948,105157,29756,5385,115,4278452994,1,2097293)
+p("cartridge_box",138961,105157,29536,5400,115,4278452994,2097165)
 p("DecBunkerFloor_04",131400,107400,29400,15949,639,2097409)
 p("DecWallLeak_04",131500,109130,31500,7201,-2365,2365,2365,2876,2097425)
 p("DecBulletHoles_02",131655,109267,31614,16196,4093,100,100,2097169)
@@ -86525,13 +86855,13 @@ p("JungleCamp_GraveyardRifle_01",142831,109505,29759,15265,1884,1884,3110,209716
 p("DecWallLeak_03",143027,109130,31495,7201,-2365,2365,2365,2876,2097425)
 p("JungleCamp_GraveyardRifle_01",142923,109505,29759,15265,1884,1884,3110,2097169)
 p("JungleCamp_GraveyardRifle_01",143016,109505,29759,15265,1884,1884,3110,2097169)
-p("Type56Mag",139729,113496,30110,16200,4096,0,0,7,2097297)
-p("Type56Mag",139903,113401,30110,10703,-58,-2896,2895,6,2097297)
-p("Type56Mag",139959,113347,30110,7121,-2428,-2332,2332,6,2097297)
+p("Type56Mag",139729,113496,30110,16200,4096,0,0,2097169)
+p("Type56Mag",139903,113401,30110,10703,-58,-2896,2895,1,2097297)
+p("Type56Mag",139959,113347,30110,7121,-2428,-2332,2332,1,2097297)
 p("TropicalRockSharp_01",139515,114509,33090,18749,96,2,3282,"terrainchunk",10,0,0,40,60,10,40,60,2228549)
 p("MilitaryCamp_GrenadePile_02",140056,113980,30114,19918,917,2097409)
 p("MilitaryCamp_GrenadePile_02",140012,114340,30114,20366,917,2097409)
-p("Grease",140821,113583,30114,15842,3691,-1255,1255,7,2097297)
+p("Grease",140821,113583,30114,15842,3691,-1255,1255,2097169)
 p("Farmland_Machet",140845,113909,30048,7682,2530,-1994,2530,2097169)
 p("Prison_DecPaperPile_02",141803,112305,29383,1)
 p("DecBunkerFloor_03",142200,113400,29400,874,3839,2097409)
@@ -86555,7 +86885,7 @@ p("DecBunkerFloor_03",147000,112200,29400,19253,639,2097409)
 p("TropicalRockSharp_01",146247,114645,34133,19955,250,2,0,4095,2,3282,"terrainchunk",10,0,0,40,60,10,40,60,2228565)
 p("DecBunker_ConcretePile_02",146503,113654,29425,12198,54,4284966759,2097165)
 p("TropicalRockSharp_01",134540,114907,33090,18249,96,0,-1,4095,2,3776,"terrainchunk",10,0,0,40,60,10,40,60,2228565)
-p("Garand",133211,117911,29813,7929,1816,2596,2596,7,2097297)
+p("Garand",133211,117911,29813,7929,1816,2596,2596,2097169)
 p("DecBunkerFloor_04",132600,119400,29400,18808,639,2097409)
 p("DecBunkerFloor_03",132600,120600,29400,7987,3839,2097409)
 p("DecBunkerFloor_02",132600,121800,29400,10587,4086,2097409)
@@ -86784,7 +87114,7 @@ p("TropicalRockSharp_01",161900,113729,33964,3909,250,1,0,4095,2,3282,"terrainch
 p("DecBunkerFloor_04",162600,114600,29400,18315,3839,2097409)
 p("DecBunkerFloor_04",148200,118200,29400,18905,639,2097409)
 p("DecBunkerFloor_02",149400,117000,29400,3049,4086,2097409)
-p("stoeger_outback",151409,116313,29414,15780,3624,-1349,1349,2097169)
+p("stoeger_outback",151409,116313,29414,15780,3624,-1349,1349,7,2097297)
 p("Floor_WoodScaff_01",147750,120734,29703,16185,50,6,1419,2148141582,2151833212,2147483648,"",1075846021)
 p("Floor_WoodScaff_01",147751,120742,30258,16185,50,6,1419,2148141582,2151833212,2147483648,"",1075846021)
 p("Floor_WoodScaff_01",148388,120742,29703,16185,50,6,3240,2148141582,2151833212,2147483648,"",1075846021)
@@ -86951,7 +87281,7 @@ p("DecBunkerFloor_02",167400,101900,32200,15637,-3474,-1534,1534,504,2097425)
 p("DecBunkerFloor_02",167400,102100,30800,11330,-316,-2887,2887,1727,2097425)
 p("DecWallLeak_03",167505,101900,31495,7201,-2365,2365,2365,1410,2097425)
 p("DecBunkerFloor_04",166200,102600,29400,20783,639,2097409)
-p("M1897Knife",167889,106373,30119,6268,3173,1831,1831,7,2097297)
+p("M1897Knife",167889,106373,30119,6268,3173,1831,1831,2097169)
 p("DecBunkerFloor_02",169800,102100,30100,13880,-1968,-2540,2540,1727,2097425)
 p("DecBunkerFloor_02",169800,102100,32200,15095,-2952,-2007,2007,1727,2097425)
 p("DecWallLeak_02",170986,101900,32194,7201,-2365,2365,2365,1410,2097425)
@@ -86966,7 +87296,7 @@ p("DecBunkerFloor_03",171000,102600,29400,9308,3839,2097409)
 p("Prison_Decoration_05",171020,102616,30731,5400,4281609513,1125,"",1075839241)
 p("Shanty_Carpet_02",171960,103605,29400,135,5)
 p("Prison_Decoration_07",170712,105017,29637,5400,4281609513,3987,"",1075839241)
-p("Grease",164834,108220,30032,5856,-4095,45,39,7,2097297)
+p("Grease",164834,108220,30032,5856,-4095,45,39,2097169)
 p("DecBunkerFloor_02",165000,107400,29400,3456,4086,2097409)
 p("BunkerInterior_PillarBroken_01",165000,109800,29400,2886,2150054469,2150182196,2150976820,"",1073748737)
 p("BunkerInterior_PillarBroken_01",165000,109800,30800,5400,2886,2150054469,2150182196,2150976820,"",1075845889)
@@ -86978,8 +87308,8 @@ p("DecBunkerFloor_02",165000,114600,29400,7218,4086,2097409)
 p("DecBunkerFloor_03",166200,111000,29400,283,3839,2097409)
 p("DecBunkerFloor_03",166200,114600,29400,16310,639,2097409)
 p("JungleCamp_CigareteSet_02",167244,113382,30089,1740,2097153)
-p("G18",167681,113074,30111,5906,-3534,-1463,1463,7,2097297)
-p("Spectr_M4",168881,106829,30114,14977,-2847,2082,2082,7,2097297)
+p("G18",167681,113074,30111,5906,-3534,-1463,1463,2097169)
+p("Spectr_M4",168881,106829,30114,14977,-2847,2082,2082,2097169)
 p("Shanty_Carpet_03",169387,110140,29400,1)
 p("Prison_Decoration_06",170956,108590,30731,5400,4281609513,677,"",1075839241)
 p("DecBunkerFloor_02",171000,108600,29400,12622,4086,2097409)
@@ -87018,17 +87348,17 @@ p("BunkerInterior_PillarBroken_01",172200,109800,30800,5400,2645,2150054469,2150
 p("BunkerInterior_Pillar_Upgrade",172200,109800,30800,2645,2150054469,2150182196,2150976820,"",1073748737)
 p("DecBunkerFloor_04",174600,109800,29400,9521,639,2097409)
 p("Shanty_Carpet_01",174934,109995,29400,1)
-p("40mm_Frag",172651,111288,30164,2545,3309,2097409)
-p("40mm_Frag",172687,111202,30164,2545,3309,2097409)
-p("40mm_Frag",172673,111346,30164,20350,1496,2097409)
-p("40mm_Frag",172747,111254,30164,9739,3309,2097409)
-p("40mm_Frag",172747,111315,30164,5944,1496,2097409)
-p("40mm_Frag",172734,111417,30164,20350,1496,2097409)
+p("40mm_Frag",172651,111288,30164,2545,7,3309,2097537)
+p("40mm_Frag",172687,111202,30164,2545,7,3309,2097537)
+p("40mm_Frag",172673,111346,30164,20350,7,1496,2097537)
+p("40mm_Frag",172747,111254,30164,9739,7,3309,2097537)
+p("40mm_Frag",172747,111315,30164,5944,7,1496,2097537)
+p("40mm_Frag",172734,111417,30164,20350,7,1496,2097537)
 p("DecBunkerFloor_04",173400,114600,29400,9473,639,2097409)
 p("DecBunkerFloor_02",174600,111000,29400,13010,4086,2097409)
 p("DecBunkerFloor_03",175800,112200,29400,15948,3839,2097409)
 p("DecBunkerFloor_02",177000,107400,29400,9121,4086,2097409)
-p("Garand",177234,107194,30097,7739,1953,2546,2546,7,2097297)
+p("Garand",177234,107194,30097,7739,1953,2546,2546,2097169)
 p("DecBunkerFloor_02",177500,107400,30800,13784,2566,-1898,2566,1727,2097425)
 p("DecWallLeak_01",177700,107392,31501,10800,-2896,0,2896,98,2097425)
 p("DecBunkerFloor_02",177700,107400,30100,13635,2604,-1792,2604,504,2097425)
@@ -87061,8 +87391,8 @@ p("DecBunkerFloor_04",166200,121800,29400,313,639,2097409)
 p("DecBunkerFloor_04",169631,115087,29400,1)
 p("DecBunkerFloor_03",169800,118200,29400,16396,639,2097409)
 p("DecBunkerFloor_02",171000,120600,29400,11108,4086,2097409)
-p("M70_Grenade",171352,119482,30092,18000,6,3327,2097537)
-p("M70_Grenade",171271,119607,30092,7,3327,385)
+p("M70_Grenade",171352,119482,30092,18000,1,3327,2097537)
+p("M70_Grenade",171271,119607,30092,3327,257)
 p("DecBunkerFloor_02",165000,123000,29400,8912,4086,2097409)
 p("Bar_Cup_01",164068,126421,30097,3581,2097153)
 p("Bar_Cup_01",163907,126500,30097,7213,2097153)
@@ -88939,17 +89269,17 @@ p("JungleCamp_TrenchFloor_02",136280,230737,28632,412,247,113,4086,2150054469,21
 p("TropicalPlant_05_Shrub_01",136148,231914,0)
 p("TropicalPlant_05_Shrub_01",135839,232996,0)
 p("TropicalPlant_05_Shrub_01",136869,231970,0)
-p("AR10_Auto",136221,233058,29331,16086,-3961,736,736,2097169)
+p("AR10_Auto",136221,233058,29331,16086,-3961,736,736,7,2097297)
 p("TropicalPlant_05_Shrub_01",137088,232518,0)
 p("TropicalPlant_05_Shrub_01",137889,232573,15801,2097152)
 p("WeaponProp_Beretta",136442,233811,29318,16186,-4078,266,265,2097169)
 p("WeaponProp_Beretta",136820,233716,29318,7050,2485,2301,2302,2097169)
-p("12Gauge_Ammo",136809,233997,29308,16200,1,2097281)
-p("12Gauge_Ammo",136819,234054,29308,1)
+p("12Gauge_Ammo",136809,233997,29308,16200,6,2097281)
+p("12Gauge_Ammo",136819,234054,29308,7,129)
 p("WeaponProp_Beretta",136709,234212,29318,7364,2236,2426,2426,2097169)
 p("DecShantyRubbish_02",136885,234135,0)
 p("WeaponProp_Beretta",136827,234386,29318,15332,-3173,1831,1831,2097169)
-p("Garand",136280,234852,29327,16167,-4057,394,394,2097169)
+p("Garand",136280,234852,29327,16167,-4057,394,394,7,2097297)
 p("TropicalPlant_Grass_03",131429,239085,113,4)
 p("TropicalPlant_Grass_01",132010,239125,164,4)
 p("TropicalPlant_Grass_03",132800,238251,102,4)
@@ -89268,7 +89598,7 @@ p("TropicalRockSharpWalk_02",175800,251400,31500,"terrainchunk",10,0,0,40,60,10,
 p("DecPuddle_05",172638,260701,32149,18542,35,4283709979,2492,2097421)
 p("Bar_Barrel_05",173266,261741,32877,5400,1366,2150654352,2152944467,"",1075845377)
 p("Bar_Cup_01",173802,261218,32849,16163,1366,2097409)
-p("Garand",177571,261620,32436,5459,-530,-4026,530,7,2097297)
+p("Garand",177571,261620,32436,5459,-530,-4026,530,2097169)
 p("TropicalRockSharp_01",183398,230372,13762,15850,250,2031,1711,3118,2566,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("TropicalPlant_04_Shrub_01",183670,229912,15754,20188,83,-3924,-1097,415,781,2097429)
 p("TropicalRockSharp_01",183398,235537,18148,16402,250,2996,752,2690,2566,"terrainchunk",10,0,0,40,60,10,40,60,2228501)

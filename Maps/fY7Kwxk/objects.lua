@@ -8940,10 +8940,10 @@ PlaceObj('ContainerIntelMarker', {
 	'AllowedMask', 4294966497,
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Strong_TireArmor",
+			'LootTableId', "LegionArmor_Pants_Body_T2",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "LegionNoob_ZastavaM70",
+			'LootTableId', "LegionT1_Shotgun",
 		}),
 	},
 }, nil, 691527680)
@@ -8962,17 +8962,17 @@ PlaceObj('WaypointMarker', {
 	},
 }, nil, 1532414187)
 PlaceObj('ContainerMarker', {
-	'Pos', point(181800, 173400, 48300),
+	'Pos', point(181800, 172200, 48300),
 	'CollectionIndex', 3395,
 	'AllowedMask', 4294966497,
 	'Name', "AmmoBox",
 	'DisplayName', T(224670291174, "Ammo Box"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Noob_762x25",
+			'LootTableId', "762x25_pistol_ammo_ap",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Noob_762x25",
+			'LootTableId', "762x25_smg_ammo",
 		}),
 	},
 }, nil, 616611840)
@@ -10450,7 +10450,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(458308526219, "Ammo Box"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "LegionNoob_Agram2000",
+			'LootTableId', "SMGs_Agram2000",
 		}),
 	},
 }, nil, 56745984)
@@ -10926,10 +10926,10 @@ PlaceObj('ContainerMarker', {
 	'AllowedMask', 4294966497,
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Noob_762x54_Machinegun",
+			'LootTableId', "762x39_mg_ammo",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Bunker_MG42",
+			'LootTableId', "9x18_smg_ammo",
 		}),
 		PlaceObj('ConditionalLoot', {
 			'LootTableId', "MedsDrop",
@@ -232142,7 +232142,7 @@ p("TropicalPlant_Vines_09",231927,140062,48364,16200,3211,2097409)
 p("DecBunkerFloor_02",232200,139800,44100,3810,3559,2097409)
 p("DecBunkerFloor_02",233400,139300,44800,9238,946,-2818,2818,2595,2097425)
 p("TropicalPlant_Vines_09",233341,140285,48344,15103,3211,2097409)
-p("HMMWV",232788,142598,44016,3079,257)
+p("HMMWV",232788,142598,44016,1,3079,385)
 p("DecBunkerFloor_02",229800,144600,44100,10890,3559,2097409)
 p("TropicalPlant_Vines_11",229848,144916,48344,7340,3211,2097409)
 p("DecConcreteShuttering_01",230932,143780,48279,109,5)
@@ -232675,7 +232675,7 @@ p("DecBunkerFloor_02",242612,180282,44094,16507,224,4280626436,32,73,2098253)
 p("DecBunker_ConcretePile_05",242120,182311,44107,15579,111,4285884752,2878,2097421)
 p("DecBunkerFloor_02",242222,183865,41241,19195,224,4280626436,32,91,2098253)
 p("JungleCamp_GraveyardRifle_01",244654,183106,44811,13860,-1953,2546,2546,98,2097425)
-p("THOMPSON_SMG",244370,183649,44819,6269,-3173,-1831,1831,7,98,2097553)
+p("THOMPSON_SMG",244370,183649,44819,6269,-3173,-1831,1831,98,2097425)
 p("DecBunker_ConcretePile_02",243603,185077,44107,7192,111,4285884752,2878,2097421)
 p("DecConcreteShuttering_01",244058,185530,44076,16200,104,2097157)
 p("DecJungleMud_03",244236,187120,44090,11953,75,4278190080,2097165)
