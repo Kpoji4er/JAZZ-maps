@@ -512,6 +512,16 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 5,
 }, nil, 1120941485)
 PlaceObj('GridMarker', {
+	'Pos', point(107400, 127800, 7000),
+	'Groups', {
+		"AL_Defender",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+}, nil, 1773946438)
+PlaceObj('GridMarker', {
 	'Pos', point(97800, 156600, 7000),
 	'Groups', {
 		"AL_Defender",
@@ -546,6 +556,26 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 120,
 	'Reachable', false,
 }, nil, 1834157092)
+PlaceObj('GridMarker', {
+	'Pos', point(156600, 201000, 4900),
+	'Groups', {
+		"AL_Defender",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+}, nil, 1202248424)
+PlaceObj('GridMarker', {
+	'Pos', point(174600, 203400, 4200),
+	'Groups', {
+		"AL_Defender",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+}, nil, 1246649649)
 PlaceObj('GridMarker', {
 	'Pos', point(231000, 209400),
 	'Groups', {
@@ -3610,6 +3640,19 @@ PlaceObj('WaterPlane', {
 	'WaterParam12', 26,
 	'WaterParam13', 23498,
 }, nil, 1365339188)
+PlaceObj('Village_Boat_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(52, 45, 41, 255),
+	'EditableColor2', RGBA(69, 58, 39, 255),
+	'EditableColor3', RGBA(52, 77, 53, 255),
+	'Pos', point(117890, 130540, 4093),
+	'Angle', 13835,
+	'Axis', point(203, -490, 4061),
+	'StateText', "floating",
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1192550748)
 PlaceObj('Marshland_AzollaPinnata_01', {
 	'Pos', point(120389, 124351, 4280),
 	'Angle', 15093,
@@ -5559,7 +5602,7 @@ PlaceObj('TreeAttach_Crawn_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3663,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, nil)
 PlaceObj('TropicalPlant_03_Tree_01', {
 	'Pos', point(93946, 179197, 7517),
@@ -5575,7 +5618,7 @@ PlaceObj('TreeAttach_Crawn_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3663,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, nil)
 PlaceObj('CursedForest_Tree_04', {
 	'Pos', point(96363, 174608, 7584),
@@ -5592,7 +5635,7 @@ PlaceObj('TreeAttach_Crawn_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3663,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, nil)
 PlaceObj('TreeAttach_Crawn_01', {
 	'Pos', point(97867, 174609, 11777),
@@ -5600,7 +5643,7 @@ PlaceObj('TreeAttach_Crawn_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3663,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, nil)
 PlaceObj('Marshland_AzollaPinnata_01', {
 	'Pos', point(84190, 183576, 4280),
@@ -5764,6 +5807,18 @@ PlaceObj('Marshland_AzollaPinnata_01', {
 	'CollectionIndex', 3760,
 	'AllowedMask', 4294967279,
 }, nil, 1436985266)
+PlaceObj('Village_Boat_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(52, 45, 41, 255),
+	'EditableColor2', RGBA(69, 58, 39, 255),
+	'EditableColor3', RGBA(52, 77, 53, 255),
+	'Pos', point(113722, 133763, 4509),
+	'Angle', 20406,
+	'Axis', point(1574, -2718, 2629),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1272827510)
 PlaceObj('Marshland_AzollaPinnata_01', {
 	'Pos', point(113950, 138152, 4253),
 	'Angle', 11536,
@@ -7764,7 +7819,7 @@ PlaceObj('TreeAttach_Crawn_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3663,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, nil)
 PlaceObj('TreeAttach_Crawn_01', {
 	'Pos', point(98370, 176602, 12078),
@@ -7772,8 +7827,20 @@ PlaceObj('TreeAttach_Crawn_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3663,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, nil)
+PlaceObj('Village_Boat_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(52, 45, 41, 255),
+	'EditableColor2', RGBA(69, 58, 39, 255),
+	'EditableColor3', RGBA(52, 77, 53, 255),
+	'Pos', point(110010, 167702),
+	'Angle', 1036,
+	'Axis', point(878, 3927, 764),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1877215301)
 PlaceObj('WaterPlane', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(86, 68, 44, 255),
@@ -19158,7 +19225,7 @@ PlaceObj('TreeAttach_Crawn_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1123,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, nil)
 PlaceObj('Marshland_AzollaPinnata_01', {
 	'Pos', point(160672, 138788, 4213),
@@ -19184,7 +19251,7 @@ PlaceObj('TreeAttach_Crawn_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1123,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, nil)
 PlaceObj('WaterPlane', {
 	'ColorizationPalette', "",
@@ -19238,7 +19305,7 @@ PlaceObj('TreeAttach_Crawn_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1123,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, nil)
 PlaceObj('Marshland_AzollaPinnata_01', {
 	'Pos', point(159571, 140134, 4246),
@@ -19291,7 +19358,7 @@ PlaceObj('TreeAttach_Crawn_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1123,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, nil)
 PlaceObj('TreeAttach_Crawn_01', {
 	'Pos', point(161468, 140720, 9385),
@@ -19299,7 +19366,7 @@ PlaceObj('TreeAttach_Crawn_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1123,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, nil)
 PlaceObj('TreeAttach_Crawn_01', {
 	'Pos', point(161971, 142713, 9686),
@@ -19307,7 +19374,7 @@ PlaceObj('TreeAttach_Crawn_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1123,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, nil)
 PlaceObj('Marshland_AzollaPinnata_01', {
 	'Pos', point(150088, 148347, 4180),

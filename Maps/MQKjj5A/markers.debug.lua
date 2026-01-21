@@ -27,7 +27,7 @@
 		},
 		LootTableIds = {
 			"MoundLoot",
-			"Noob_792",
+			"792x57_mg_ammo",
 		},
 		handle = 288186368,
 		items = {

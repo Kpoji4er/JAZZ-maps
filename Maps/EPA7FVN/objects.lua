@@ -1208,35 +1208,6 @@ PlaceObj('ContainerMarker', {
 	},
 }, nil, 750649344)
 PlaceObj('UnitMarker', {
-	'Pos', point(171000, 121800, 4900),
-	'Groups', {
-		"Start_Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('QuestIsVariableNum', {
-			Amount = 1,
-			Prop = "JAZZ_Legion_Tier",
-			QuestId = "JAZZ_LegionTier",
-		}),
-	},
-	'EnabledConditions', {
-		PlaceObj('QuestIsVariableNum', {
-			Amount = 1,
-			Prop = "JAZZ_Legion_Tier",
-			QuestId = "JAZZ_LegionTier",
-		}),
-	},
-	'Appearance', "LegionScout_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
-		}),
-	},
-}, nil, 1537374737)
-PlaceObj('UnitMarker', {
 	'Pos', point(144600, 159000, 6300),
 	'Groups', {
 		"Start_Legion",
@@ -1317,6 +1288,35 @@ PlaceObj('ContainerMarker', {
 	},
 }, nil, 921575424)
 PlaceObj('UnitMarker', {
+	'Pos', point(161400, 131400, 5600),
+	'Groups', {
+		"Start_Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('QuestIsVariableNum', {
+			Amount = 1,
+			Prop = "JAZZ_Legion_Tier",
+			QuestId = "JAZZ_LegionTier",
+		}),
+	},
+	'EnabledConditions', {
+		PlaceObj('QuestIsVariableNum', {
+			Amount = 1,
+			Prop = "JAZZ_Legion_Tier",
+			QuestId = "JAZZ_LegionTier",
+		}),
+	},
+	'Appearance', "LegionScout_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
+		}),
+	},
+}, nil, 1537374737)
+PlaceObj('UnitMarker', {
 	'Pos', point(161400, 139800, 5600),
 	'Groups', {
 		"Start_Legion",
@@ -1391,6 +1391,64 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 6,
 	'AreaHeight', 6,
 }, nil, 1457440048)
+PlaceObj('UnitMarker', {
+	'Pos', point(163800, 149400, 5600),
+	'Groups', {
+		"Start_Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('QuestIsVariableNum', {
+			Amount = 1,
+			Prop = "JAZZ_Legion_Tier",
+			QuestId = "JAZZ_LegionTier",
+		}),
+	},
+	'EnabledConditions', {
+		PlaceObj('QuestIsVariableNum', {
+			Amount = 1,
+			Prop = "JAZZ_Legion_Tier",
+			QuestId = "JAZZ_LegionTier",
+		}),
+	},
+	'Appearance', "Legion_Recon",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
+		}),
+	},
+}, nil, 1194912357)
+PlaceObj('UnitMarker', {
+	'Pos', point(163800, 154200, 5600),
+	'Groups', {
+		"Start_Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Trigger', "activation",
+	'TriggerConditions', {
+		PlaceObj('QuestIsVariableNum', {
+			Amount = 1,
+			Prop = "JAZZ_Legion_Tier",
+			QuestId = "JAZZ_LegionTier",
+		}),
+	},
+	'EnabledConditions', {
+		PlaceObj('QuestIsVariableNum', {
+			Amount = 1,
+			Prop = "JAZZ_Legion_Tier",
+			QuestId = "JAZZ_LegionTier",
+		}),
+	},
+	'Appearance', "LegionManiac",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
+		}),
+	},
+}, nil, 1404059728)
 PlaceObj('UnitMarker', {
 	'Pos', point(135000, 166200, 6300),
 	'Groups', {
@@ -1689,64 +1747,6 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 390053888)
-PlaceObj('UnitMarker', {
-	'Pos', point(171000, 144600),
-	'Groups', {
-		"Start_Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('QuestIsVariableNum', {
-			Amount = 1,
-			Prop = "JAZZ_Legion_Tier",
-			QuestId = "JAZZ_LegionTier",
-		}),
-	},
-	'EnabledConditions', {
-		PlaceObj('QuestIsVariableNum', {
-			Amount = 1,
-			Prop = "JAZZ_Legion_Tier",
-			QuestId = "JAZZ_LegionTier",
-		}),
-	},
-	'Appearance', "Legion_Recon",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
-		}),
-	},
-}, nil, 1194912357)
-PlaceObj('UnitMarker', {
-	'Pos', point(185400, 157800, 4900),
-	'Groups', {
-		"Start_Legion",
-	},
-	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('QuestIsVariableNum', {
-			Amount = 1,
-			Prop = "JAZZ_Legion_Tier",
-			QuestId = "JAZZ_LegionTier",
-		}),
-	},
-	'EnabledConditions', {
-		PlaceObj('QuestIsVariableNum', {
-			Amount = 1,
-			Prop = "JAZZ_Legion_Tier",
-			QuestId = "JAZZ_LegionTier",
-		}),
-	},
-	'Appearance', "LegionManiac",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
-		}),
-	},
-}, nil, 1404059728)
 PlaceObj('UnitMarker', {
 	'Pos', point(132600, 204600, 14700),
 	'Angle', 16200,
@@ -29413,14 +29413,14 @@ PlaceObj('TropicalFillerPlants_05', {
 	'AllowedMask', 0,
 }, nil, 1668646616)
 PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(104225, 162340, 10978),
+	'Pos', point(104225, 162340, 10782),
 	'Angle', 6542,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1386516961)
 PlaceObj('CoastalPlant_01_Tree_04', {
-	'Pos', point(103926, 162932, 10978),
+	'Pos', point(103928, 162933, 10689),
 	'Angle', 14329,
 	'Scale', 145,
 	'Saturation', 0,
@@ -36512,12 +36512,6 @@ PlaceObj('Shanty_PlasticBarrel_Float', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1609280959)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(206949, 130246, 5071),
-	'Angle', 5557,
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc3_Start",
-}, nil, 1158036528)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(217800, 104200, 5600),
 	'ForcedLODState', "Minimum",
@@ -43636,30 +43630,6 @@ PlaceObj('Shanty_PlasticBarrel_Float', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1620993602)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(204609, 131465, 5070),
-	'Angle', 5557,
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc7_Start",
-}, nil, 1604170038)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(204526, 132616, 5035),
-	'Angle', 5547,
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc7_GoTo",
-}, nil, 1569322376)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(204540, 133859, 5070),
-	'Angle', 5557,
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc8_Start",
-}, nil, 1256822745)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(204487, 135038, 5035),
-	'Angle', 5547,
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc8_GoTo",
-}, nil, 1443027214)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(197800, 144200, 5600),
 	'ForcedLODState', "Minimum",
@@ -43669,12 +43639,6 @@ PlaceObj('WaterPlaneWaves', {
 	'AllowedMask', 4294967279,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1595180195)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(206948, 131468, 5035),
-	'Angle', 5547,
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc3_GoTo",
-}, nil, 1816566194)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(207800, 134200, 5600),
 	'ForcedLODState', "Minimum",
@@ -43702,18 +43666,16 @@ PlaceObj('WaterPlaneWaves', {
 	'AllowedMask', 4294967279,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1368248586)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(204576, 148298, 5142),
-	'Angle', 5691,
+PlaceObj('SetpieceMarker', {
+	'Pos', point(204534, 151859),
 	'AllowedMask', 4294966497,
-	'Name', "SP_Merc6_Start",
-}, nil, 1608048076)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(204543, 149405, 5049),
-	'Angle', 5356,
+	'Name', "SP_Merc5_GoTo",
+}, nil, 1305034996)
+PlaceObj('SetpieceMarker', {
+	'Pos', point(204714, 153020),
 	'AllowedMask', 4294966497,
-	'Name', "SP_Merc6_GoTo",
-}, nil, 1502804573)
+	'Name', "SP_Merc5_Start",
+}, nil, 1088603402)
 PlaceObj('World_WoodenBox_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(69, 58, 39, 255),
@@ -43727,23 +43689,16 @@ PlaceObj('World_WoodenBox_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1552807669)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(204623, 156661),
-	'Angle', 5400,
+PlaceObj('SetpieceMarker', {
+	'Pos', point(204559, 157820),
 	'AllowedMask', 4294966497,
-}, nil, 1222382356)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(204562, 157837, 5136),
-	'Angle', 5412,
+	'Name', "SP_Merc4_GoTo",
+}, nil, 1091469985)
+PlaceObj('SetpieceMarker', {
+	'Pos', point(204677, 159084),
 	'AllowedMask', 4294966497,
-	'Name', "SP_Merc1_Start",
-}, nil, 1012470340)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(204576, 158975, 5049),
-	'Angle', 5687,
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc1_GoTo",
-}, nil, 1806257000)
+	'Name', "SP_Merc4_Start",
+}, nil, 1391004667)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(207800, 154200, 5600),
 	'ForcedLODState', "Minimum",
@@ -43753,18 +43708,26 @@ PlaceObj('WaterPlaneWaves', {
 	'AllowedMask', 4294967279,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1271267752)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(207001, 160226, 5051),
-	'Angle', 5687,
+PlaceObj('SetpieceMarker', {
+	'Pos', point(207075, 160164),
 	'AllowedMask', 4294966497,
-	'Name', "SP_Merc5_GoTo",
-}, nil, 1556060492)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(206991, 161415, 5149),
-	'Angle', 5488,
+	'Name', "SP_Merc3_GoTo",
+}, nil, 1324963329)
+PlaceObj('SetpieceMarker', {
+	'Pos', point(207146, 161443),
 	'AllowedMask', 4294966497,
-	'Name', "SP_Merc5_Start",
-}, nil, 1741528390)
+	'Name', "SP_Merc3_Start",
+}, nil, 1030103078)
+PlaceObj('SetpieceMarker', {
+	'Pos', point(210693, 156661),
+	'AllowedMask', 4294966497,
+	'Name', "SP_Merc6_GoTo",
+}, nil, 1763409881)
+PlaceObj('SetpieceMarker', {
+	'Pos', point(210696, 157832),
+	'AllowedMask', 4294966497,
+	'Name', "SP_Merc6_Start",
+}, nil, 1141203841)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(217800, 134200, 5600),
 	'ForcedLODState', "Minimum",
@@ -43855,24 +43818,6 @@ PlaceObj('Vehicle_Boat', {
 	'DestructionOverrideMask', 1,
 	'AllowedMask', 782,
 }, nil, 1347545529)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(204554, 167373, 5050),
-	'Angle', 5356,
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc4_Start",
-}, nil, 1696243195)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(204574, 168575, 5050),
-	'Angle', 5356,
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc4_GoTo",
-}, nil, 1679533376)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(204551, 170987, 5129),
-	'Angle', 5532,
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc2_Start",
-}, nil, 1638028841)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(197800, 174200, 5600),
 	'ForcedLODState', "Minimum",
@@ -43897,12 +43842,11 @@ PlaceObj('DummyUnit', {
 	'Appearance', "VillagerMale_05",
 	'anim', "deadPose1",
 }, nil, 1168895818)
-PlaceObj('SetpiecePosMarker', {
-	'Pos', point(204560, 172180, 5129),
-	'Angle', 5532,
+PlaceObj('SetpieceMarker', {
+	'Pos', point(205887, 165001, 5050),
 	'AllowedMask', 4294966497,
-	'Name', "SP_Merc2_GoTo",
-}, nil, 1598445084)
+	'Name', "SP_Merc1_GoTo",
+}, nil, 1083997103)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(207800, 164200, 5600),
 	'ForcedLODState', "Minimum",
@@ -43912,6 +43856,21 @@ PlaceObj('WaterPlaneWaves', {
 	'AllowedMask', 4294967279,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1034202985)
+PlaceObj('SetpieceMarker', {
+	'Pos', point(208259, 163856, 5050),
+	'AllowedMask', 4294966497,
+	'Name', "SP_Merc1_Start",
+}, nil, 1380256923)
+PlaceObj('SetpieceMarker', {
+	'Pos', point(207032, 166249),
+	'AllowedMask', 4294966497,
+	'Name', "SP_Merc2_Start",
+}, nil, 1648198375)
+PlaceObj('SetpieceMarker', {
+	'Pos', point(207087, 167419),
+	'AllowedMask', 4294966497,
+	'Name', "SP_Merc2_GoTo",
+}, nil, 1726215716)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(207800, 174200, 5600),
 	'ForcedLODState', "Minimum",
@@ -62278,7 +62237,7 @@ p("SavannaPlant_Bush_07",144392,93019,16961,44,4281347887,2097164)
 p("SavannaPlant_Bush_06",144443,93532,10541,43,4280954933,2097164)
 p("SavannaPlant_Bush_06",145073,93853,13058,35,4280825136,2097164)
 p("ParSystem",145927,90395,"Env_Fire1x1",268435456)
-p("Grease",147406,90334,15577,16200,4096,0,0,3,2033,2097553)
+p("Grease",147406,90334,15577,16200,4096,0,0,4,2033,2097553)
 p("SavannaPlant_Bush_08",145487,93344,9864,46,4281479213,2097164)
 p("SavannaPlant_Bush_04",145576,93686,1056,37,4280890673,2097164)
 p("SavannaPlant_Bush_04",145821,93405,17946,35,4280824116,2097164)
@@ -62806,7 +62765,6 @@ p("TropicalRockSharpWalk_01",150600,177000,10500,16200,"terrainchunk",10,0,0,40,
 p("TropicalRockSharp_01",153983,172230,3830,15849,250,343,735,4014,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharpWalk_02",155400,178200,10500,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalRockAssembly_02",160711,165200,6100,21439,155,-1607,-1947,3225,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
-p("TropicalRockSharp_01",163554,168285,-388,2432,231,-511,-1843,3621,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_02",155913,173347,3444,5335,172,-4071,428,128,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("SavannaPlant_Bush_06",159346,177225,4272,39,4280888623,2097164)
 p("SavannaPlant_Bush_05",159422,177688,16567,36,4281087275,2097164)
@@ -63014,7 +62972,9 @@ p("TropicalRockSharp_01",192913,141130,1660,7263,250,-759,1892,3552,"terrainchun
 p("TropicalRockSharp_01",182992,148598,-3976,9444,231,-244,-540,4052,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",182293,158299,-388,12941,190,671,-186,4036,"terrainchunk",10,0,0,84,89,10,40,60,2228245)
 p("ParSystem",191517,152122,5522,1437,119,"Splashes_Waves",270532613)
+p("TropicalRockSharp_02",192164,151851,4488,6415,42,1427,-149,3836,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("Shanty_BucketPlastic_Float",191991,160226,5753,2147885066,"",1073742337)
+p("TropicalRockSharp_01",165129,165449,-13,2185,231,1074,-2361,3169,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockAssembly_02",164407,165910,6098,21439,155,-1607,-1947,3225,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",166695,175196,4142,16160,250,321,782,4007,"terrainchunk",10,0,0,81,86,10,40,60,2228245)
 p("TropicalRockSharpWalk_01",165000,179400,10500,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
@@ -64903,6 +64863,7 @@ p("TropicalPlant_Grass_01",194676,247674,3887,102,4281610549,2097164)
 p("TropicalPlant_Grass_01",196342,246028,19385,103,4281085485,2097164)
 p("TropicalPlant_Grass_04",192769,250039,764,101,4281347124,2097164)
 p("ParSystem",199543,133212,6015,10800,"Env_Fire1x2_Moving",270532609)
+p("TropicalRockSharp_02",201250,145807,4756,6045,63,1101,-845,3853,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockAssembly_03",200812,154265,4883,3325,166,257,-26,4087,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("Shanty_BucketPlastic_Float",197055,159128,5686,7889,2149354716,"",1075839489)
 p("TropicalRockSharp_02",197656,162612,5584,10671,63,3702,625,1637,"terrainchunk",10,0,0,40,60,10,40,60,2228245)

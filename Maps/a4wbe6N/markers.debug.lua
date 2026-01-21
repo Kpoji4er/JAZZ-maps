@@ -220,6 +220,15 @@
 		type = "UnitMarker",
 	},
 	{
+		Groups = false,
+		handle = 1474974801,
+		items = {},
+		map = "a4wbe6N",
+		name = "UnitMarker#801",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
 		Groups = {
 			"Rebels_Base_Warriors",
 		},

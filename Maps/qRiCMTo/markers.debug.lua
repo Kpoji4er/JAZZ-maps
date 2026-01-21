@@ -174,6 +174,48 @@
 		type = "UnitMarker",
 	},
 	{
+		BanterTriggerEffects = {
+			PlaceObj('PlayBanterEffect', {
+				Banters = {
+					"BrokenMGSuccess",
+				},
+				banterSequentialWaitFor = "BanterLineStart",
+				searchInMap = true,
+				searchInMarker = false,
+			}),
+			PlaceObj('PlayBanterEffect', {
+				Banters = {
+					"BrokenMGFail",
+				},
+				banterSequentialWaitFor = "BanterLineStart",
+				searchInMap = true,
+				searchInMarker = false,
+			}),
+		},
+		Groups = {
+			"BrokenMG_Interaction",
+		},
+		handle = 1414616046,
+		items = {
+			{
+				editor_view_abridged = "Play banter(s): BrokenMGSuccess",
+				filter_type = "banter",
+				reference_id = "BrokenMGSuccess",
+				type = "PlayBanterEffect",
+			},
+			{
+				editor_view_abridged = "Play banter(s): BrokenMGFail",
+				filter_type = "banter",
+				reference_id = "BrokenMGFail",
+				type = "PlayBanterEffect",
+			},
+		},
+		map = "qRiCMTo",
+		name = 'CustomInteractable#046 "Починить" (BrokenMG_Interaction)',
+		path = "CustomInteractable ",
+		type = "CustomInteractable",
+	},
+	{
 		Groups = false,
 		handle = 1607123110,
 		items = {},

@@ -216,7 +216,7 @@
 		Groups = false,
 		LootTableIds = {
 			"Jazz_Random_Ammo_Drop_T1",
-			"Noob_3006_Machinegun",
+			"3006_rifle_ammo",
 		},
 		handle = 847233024,
 		map = "EbAhNkL",

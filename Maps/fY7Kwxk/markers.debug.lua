@@ -2,7 +2,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"LegionNoob_Agram2000",
+			"SMGs_Agram2000",
 		},
 		handle = 56745984,
 		map = "fY7Kwxk",
@@ -13,8 +13,8 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Noob_762x54_Machinegun",
-			"Bunker_MG42",
+			"762x39_mg_ammo",
+			"9x18_smg_ammo",
 			"MedsDrop",
 		},
 		handle = 138518528,
@@ -177,7 +177,8 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Noob_762x25",
+			"762x25_pistol_ammo_ap",
+			"762x25_smg_ammo",
 		},
 		handle = 616611840,
 		map = "fY7Kwxk",
@@ -199,8 +200,8 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Strong_TireArmor",
-			"LegionNoob_ZastavaM70",
+			"LegionArmor_Pants_Body_T2",
+			"LegionT1_Shotgun",
 		},
 		handle = 691527680,
 		map = "fY7Kwxk",

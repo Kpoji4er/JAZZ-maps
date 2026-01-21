@@ -4042,7 +4042,7 @@ PlaceObj('ContainerMarker', {
 			'LootTableId', "MoundLoot",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Noob_792",
+			'LootTableId', "792x57_mg_ammo",
 		}),
 	},
 }, nil, 288186368)

@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4596,
+	'version', 4690,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
@@ -18,12 +18,11 @@ return PlaceObj('ModDef', {
 		"InventoryItem/Jazz_Browning_Bench.lua",
 		"InventoryItem/JazzQuestItem_AmmoBox.lua",
 		"InventoryItem/JazzQuestItem_MinesBox.lua",
-		"MapPatches/SetPieces/NewSetpiece_Rt4iKGf/FlagHillLanding.lua",
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1768769956,
-	'code_hash', -5561626952948215396,
+	'saved', 1768940810,
+	'code_hash', -4445560982361173495,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
@@ -652,6 +651,11 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_I20_Underground",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_I19_Underground",
 			'ClassDisplayName', "Satellite sector",
 		}),
@@ -847,6 +851,11 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_J2",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_K32",
 			'ClassDisplayName', "Satellite sector",
 		}),
@@ -892,7 +901,7 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
-			'Id', "HotDiamonds_K16_Underground",
+			'Id', "HotDiamonds_K19",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -947,11 +956,6 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
-			'Id', "HotDiamonds_L18",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
 			'Id', "HotDiamonds_L17",
 			'ClassDisplayName', "Satellite sector",
 		}),
@@ -983,6 +987,16 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
 			'Id', "HotDiamonds_L7",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_L6",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_L6_Underground",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -2034,11 +2048,6 @@ return PlaceObj('ModDef', {
 			'Class', "ConstDef",
 			'Id', "MercSquadMaxPeople",
 			'ClassDisplayName', "Constant",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "SetpiecePrg",
-			'Id', "FlagHillLanding",
-			'ClassDisplayName', "Setpiece",
 		}),
 	},
 	'steam_id', "3322285655",
