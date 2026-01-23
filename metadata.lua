@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4723,
+	'version', 4728,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
@@ -21,7 +21,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1769028137,
+	'saved', 1769121736,
 	'code_hash', -4445560982361173495,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
@@ -2063,11 +2063,6 @@ return PlaceObj('ModDef', {
 			'Class', "ConstDef",
 			'Id', "MercSquadMaxPeople",
 			'ClassDisplayName', "Constant",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "Camera",
-			'Id', "EPA7FVN",
-			'ClassDisplayName', "Camera",
 		}),
 	},
 	'steam_id', "3322285655",

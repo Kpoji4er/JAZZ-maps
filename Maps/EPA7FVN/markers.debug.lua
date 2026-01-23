@@ -892,6 +892,32 @@
 	},
 	{
 		Groups = {
+			"Start_Legion",
+		},
+		handle = 1569265284,
+		items = {
+			{
+				editor_view_abridged = "if JAZZ_Legion_Tier >= 1 ",
+				filter_type = "quest",
+				reference_id = "JAZZ_LegionTier",
+				type = "QuestIsVariableNum",
+				var = "JAZZ_Legion_Tier",
+			},
+			{
+				editor_view_abridged = "if JAZZ_Legion_Tier >= 1 ",
+				filter_type = "quest",
+				reference_id = "JAZZ_LegionTier",
+				type = "QuestIsVariableNum",
+				var = "JAZZ_Legion_Tier",
+			},
+		},
+		map = "EPA7FVN",
+		name = "UnitMarker#284 (Start_Legion)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
 			"M2_Quest_Stash",
 		},
 		handle = 1608292366,
@@ -932,6 +958,32 @@
 		},
 		map = "EPA7FVN",
 		name = "UnitMarker#901 (Helping_Rebels)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Start_Legion",
+		},
+		handle = 1639700749,
+		items = {
+			{
+				editor_view_abridged = "if JAZZ_Legion_Tier >= 1 ",
+				filter_type = "quest",
+				reference_id = "JAZZ_LegionTier",
+				type = "QuestIsVariableNum",
+				var = "JAZZ_Legion_Tier",
+			},
+			{
+				editor_view_abridged = "if JAZZ_Legion_Tier >= 1 ",
+				filter_type = "quest",
+				reference_id = "JAZZ_LegionTier",
+				type = "QuestIsVariableNum",
+				var = "JAZZ_Legion_Tier",
+			},
+		},
+		map = "EPA7FVN",
+		name = "UnitMarker#749 (Start_Legion)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},

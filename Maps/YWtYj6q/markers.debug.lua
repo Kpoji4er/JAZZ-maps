@@ -56,6 +56,17 @@
 	},
 	{
 		Groups = {
+			"Legion_Hostage_Killer",
+		},
+		handle = 1276043211,
+		items = {},
+		map = "YWtYj6q",
+		name = "UnitMarker#211 (Legion_Hostage_Killer)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
 			"Rebels_Squad_LegionCamp5",
 		},
 		handle = 1283063845,
@@ -141,21 +152,10 @@
 		Groups = {
 			"Legion_Hostage_Killer",
 		},
-		handle = 1701778627,
+		handle = 1760644359,
 		items = {},
 		map = "YWtYj6q",
-		name = "UnitMarker#627 (Legion_Hostage_Killer)",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
-	{
-		Groups = {
-			"Legion_Hostage_Killer",
-		},
-		handle = 1788622688,
-		items = {},
-		map = "YWtYj6q",
-		name = "UnitMarker#688 (Legion_Hostage_Killer)",
+		name = "UnitMarker#359 (Legion_Hostage_Killer)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
