@@ -99485,6 +99485,44 @@ return {
 				stack_min = 1,
 			}),
 		}),
+		PlaceObj('ModItemLootDef', {
+			Comment = "container",
+			group = "MapContainers",
+			id = "EmeraldCoast_Minefield_Chest",
+			loot = "all",
+			PlaceObj('LootEntryInventoryItem', {
+				RandomizeCondition = true,
+				guaranteed = true,
+				item = "MP40",
+				stack_max = 1,
+				stack_min = 1,
+			}),
+			PlaceObj('LootEntryInventoryItem', {
+				RandomizeCondition = true,
+				item = "JAZZ_AMMO_9x19_Poor",
+				stack_max = 30,
+				stack_min = 10,
+			}),
+			PlaceObj('LootEntryInventoryItem', {
+				Condition = 65,
+				RandomizeCondition = true,
+				game_conditions = {
+					PlaceObj('SectorHasIntel', {}),
+				},
+				item = "BAR",
+				stack_max = 1,
+				stack_min = 1,
+			}),
+			PlaceObj('LootEntryInventoryItem', {
+				RandomizeCondition = true,
+				game_conditions = {
+					PlaceObj('SectorHasIntel', {}),
+				},
+				item = "JAZZ_AMMO_762x51_Poor",
+				stack_max = 50,
+				stack_min = 20,
+			}),
+		}),
 		}),
 	PlaceObj('ModItemInventoryItemCompositeDef', {
 		'Group', "Quest - Items",

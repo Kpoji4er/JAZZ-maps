@@ -822,6 +822,14 @@ PlaceObj('TrapSpawnMarker', {
 	'AllowedMask', 4294966497,
 }, nil, 1363691886)
 PlaceObj('GridMarker', {
+	'Pos', point(186600, 220200, 5600),
+	'Groups', {
+		"AL_Defender",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "DefenderPriority",
+}, nil, 1156349972)
+PlaceObj('GridMarker', {
 	'Pos', point(180600, 225000),
 	'Groups', {
 		"AL_Defender",
@@ -859,6 +867,14 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1213551971)
+PlaceObj('GridMarker', {
+	'Pos', point(192600, 223800, 5600),
+	'Groups', {
+		"AL_Defender",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "DefenderPriority",
+}, nil, 1457175895)
 PlaceObj('TrapSpawnMarker', {
 	'Pos', point(195000, 222600),
 	'AllowedMask', 4294966497,
@@ -9768,7 +9784,7 @@ p("TropicalPlant_04_Shrub_01",77838,167310,14089,10555,208,1430,-513,3803,64,209
 p("TropicalPlant_Grass_03",80411,164618,10511,13726,229,2097157)
 p("Shanty_SandPile_01",78076,169339,10538,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("Shanty_SandPile_01",78502,171508,10538,5763,160,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
-p("Trench_Shovel1",79331,170181,11222,13500,0,4096,0,7,2097297)
+p("Trench_Shovel1",79331,170181,11222,13500,0,4096,0,2097169)
 p("TropicalRockAssembly_01",79152,170825,10637,11880,134,56,88,4094,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("DecBunker_ConcretePile_02",80840,169658,10798,17636,84,-85,101,4093,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("DecBunker_ConcretePile_02",81623,170844,10798,3762,84,-317,-127,4081,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -11131,7 +11147,7 @@ p("TropicalRockAssembly_01",197765,192035,3674,20937,-1283,-3857,503,"terrainchu
 p("TropicalRockSharp_01",198926,191237,-920,7323,250,1620,111,3760,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockAssembly_01",200704,194815,3333,16269,187,10,-690,4037,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",207123,196045,2673,9501,118,-2084,3250,1366,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
-p("Garand",197745,202626,14018,2498,-2498,2071,2097168)
+p("Garand",197745,202626,14018,2498,-2498,2071,7,2097296)
 p("DecBloodTrail_08",198432,203168,4469,1416,3752,1622,258,2097169)
 p("DecBloodTrail_08",198432,203168,4469,19049,-3768,-1604,59,2097169)
 p("DecBloodTrail_08",198435,203168,4441,19049,-3768,-1604,59,2097169)

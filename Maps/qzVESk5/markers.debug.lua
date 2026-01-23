@@ -13,8 +13,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"LegionElite_CZ75",
-			"LegionNoob_FRF2",
+			"9x19_smg_ammo",
 		},
 		handle = 33472512,
 		map = "qzVESk5",
@@ -69,7 +68,8 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Strong_LeatherArmor",
+			"LegionArmor_Pants_Head_T2",
+			"LegionArmor_OnlyPants_T1",
 		},
 		handle = 658096128,
 		map = "qzVESk5",
@@ -146,7 +146,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"LegionNoob_ZastavaM70",
+			"RiflesSemi_ZastavaM76",
 			"WeaponShipment_Crafting",
 		},
 		handle = 946438144,

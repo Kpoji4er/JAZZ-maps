@@ -1625,10 +1625,13 @@ PlaceObj('ContainerIntelMarker', {
 	'DisplayName', T(654287758819, "ТАЙНИК"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Noob_45ACP",
+			'LootTableId', "44cal_revolver_ammo",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "EnemyValuablesLeaders",
+			'LootTableId', "Container_Explosives_TNT",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "Container_Explosives_VariedUtility",
 		}),
 	},
 }, nil, 804257792)
@@ -1698,10 +1701,10 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(128339974039, "ГОРА"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "LegionNoob_SKS",
+			'ItemId', "APS",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "LegionNoob_Agram2000",
+			'LootTableId', "9x18_smg_ammo",
 		}),
 		PlaceObj('ConditionalLoot', {
 			'LootTableId', "GrenadeBox",
@@ -50839,7 +50842,7 @@ p("DecShantyRubbish_03",176182,118694,21327,166,4280557082,2097164)
 p("JungleCamp_TrenchFloor_02",180174,115019,12442,21271,4290225048,-1453,-3829,65,2097177)
 p("DecSteps_02",178953,117751,18458,165,2097408)
 p("JungleCamp_TrenchFloor_02",179759,117784,12494,1231,4290225048,2097161)
-p("THOMPSON_SMG",176992,119244,13262,5400,4096,0,0,7,2348,2097553)
+p("THOMPSON_SMG",176992,119244,13262,5400,4096,0,0,2348,2097425)
 p("MilitaryCamp_GrenadePile_01",176931,119609,13226,1)
 p("WeaponProp_AK47_01",177292,118898,13257,4704,4096,0,0,2348,2097425)
 p("DecSteps_02",177160,122696,14056,99,165,2097412)
@@ -50889,7 +50892,7 @@ p("TropicalPlant_04_Shrub_02",195124,104900,0)
 p("Bar_Cup_01",188462,107776,13240,9721,2097153)
 p("Bar_Cup_01",188550,108023,13240,1654,2097153)
 p("Bar_Cup_01",188729,107765,13240,21319,2097153)
-p("THOMPSON_SMG",189974,108425,12940,7795,1912,-2561,2561,2097169)
+p("THOMPSON_SMG",189974,108425,12940,7795,1912,-2561,2561,7,2097297)
 p("TropicalRockSharp_01",188557,112197,5844,10911,170,216,-2394,-3314,244,3145749)
 p("DecShantyRubbish_02",189860,111113,20258,133,2097156)
 p("TropicalPlant_04_Shrub_01",188755,113542,11773,10800,152,2097157)

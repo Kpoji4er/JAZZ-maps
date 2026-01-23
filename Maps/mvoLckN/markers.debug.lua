@@ -1110,7 +1110,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"EmeraldCoast_Minefield_Chest",
+			"9x19_pistol_ammo",
 		},
 		handle = 1725821718,
 		map = "mvoLckN",
@@ -1186,7 +1186,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"LegionGoon",
+			"Revolvers_ColtM1917",
 			"SkillMagazine_Random",
 		},
 		handle = 1867641124,
