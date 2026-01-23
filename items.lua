@@ -6583,14 +6583,15 @@ return {
 				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
 					'Id', "K5",
 					'Map', "YWtYj6q",
-					'MapTier', 10,
 					'modId', "FhNNYd",
 					'display_name', T(828240037474, "Походный лагерь Легиона"),
 					'TerrainType', "Jungle",
+					'WeatherZone', "Erny",
 					'InitialSquads', {
 						"JAZZ_Legion_SentrySquad_AroundVilla",
 						"JAZZ_Legion_VillaAttackers_K5",
 					},
+					'InterestingSector', true,
 					'MinFlareCarriers', 5,
 					'MaxFlareCarriers', 11,
 					'bidirectionalRoadApply', true,
@@ -6779,6 +6780,29 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
+				'comment', "Размотанный самолет",
+				'mapName', "DvDj7va",
+				'campaignId', "HotDiamonds",
+				'sectorId', "L18",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "L18",
+					'Map', "DvDj7va",
+					'MapTier', 30,
+					'modId', "FhNNYd",
+					'display_name', T(603757752539, "Wetlands"),
+					'TerrainType', "Swamp",
+					'WeatherZone', "Wetlands",
+					'Passability', "Land and Water",
+					'InterestingSector', true,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
+					'image', "UI/SatelliteView/SectorImages/H16",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Swamp_Conflict",
+					'MusicExploration', "Swamp_Exploration",
+				}),
+			}),
+			PlaceObj('ModItemSector', {
 				'comment', "Разбойничий форт",
 				'mapName', "dciGExr",
 				'campaignId', "HotDiamonds",
@@ -6801,7 +6825,7 @@ return {
 						East = false,
 						North = true,
 						South = false,
-						West = true,
+						West = false,
 					},
 					'ImpassableForEnemies', true,
 					'bidirectionalBlockApply', true,
@@ -6820,6 +6844,29 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
+				'mapName', "cGP5RH3",
+				'campaignId', "HotDiamonds",
+				'sectorId', "L17_Underground",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "L17_Underground",
+					'Map', "cGP5RH3",
+					'MapTier', 30,
+					'modId', "FhNNYd",
+					'RunLoyaltyLogic', false,
+					'GroundSector', "L17",
+					'display_name', T(995951843740, "Underground Tunnel"),
+					'discovered', false,
+					'Intel', false,
+					'InterestingSector', true,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
+					'image', "UI/SatelliteView/SectorImages/K16U",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Underground_Conflict",
+					'MusicExploration', "Underground_Exploration",
+				}),
+			}),
+			PlaceObj('ModItemSector', {
 				'comment', "Великий лес",
 				'mapName', "Cpootzp",
 				'campaignId', "HotDiamonds",
@@ -6834,7 +6881,7 @@ return {
 					'WeatherZone', "SouthJungle",
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	East = true,
+	East = false,
 	North = false,
 	South = false,
 	West = true,
@@ -7670,6 +7717,7 @@ return {
 	North = true,
 	West = true,
 }),
+					'image', "Mod/FhNNYd/Images/NVIDIA_Overlay_FbmSxu7QZR.jpg",
 					'Events', {
 						PlaceObj('SE_OnEnterMap', {
 							'Effects', {
@@ -20996,6 +21044,65 @@ return {
 				'name', "Ernie Island",
 			}, {
 				PlaceObj('ModItemConversation', {
+					Conditions = {
+						PlaceObj('QuestIsVariableBool', {
+							QuestId = "01_Landing",
+							Vars = set( "M1_Captured", "M1_TalkWithRebels" ),
+							param_bindings = false,
+						}),
+					},
+					DefaultActor = "RebelSergeant_Immortal_L1",
+					disabledInConflict = true,
+					group = "Ernie",
+					id = "L1_RebelsCamp",
+					PlaceObj('ConversationPhrase', {
+						CompleteQuests = {
+							"JAZZ_REBELS_0_MeetTheRebels",
+						},
+						Effects = {
+							PlaceObj('GroupSetSide', {
+								CreateSquad = false,
+								Side = "Rebels",
+								TargetUnit = "Rebels_Base_Warriors",
+								param_bindings = false,
+							}),
+							PlaceObj('UnitGrantItem', {
+								ItemId = "FRF2",
+								LootTableId = "762x54_mg_ammo",
+								param_bindings = false,
+							}),
+							PlaceObj('GrantExperienceSector', {
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Наконец мы до вас добрались",
+						KeywordT = T(285336071628, --[[ModItemConversation L1_RebelsCamp KeywordT]] "Наконец мы до вас добрались"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "RebelSergeant_Immortal_L1",
+								Text = T(578038705636, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1 section:L1_RebelsCamp keyword:Наконец мы до вас добрались]] "Спасибо за помощь и спасибо что скоординировали защиту базы, Легион набирает эффективность, с каждым днем враг становится сильнее, их точно обучает какой-то военный, однако меня также оповестили о том, что вы помогли в уничтожении Рафаля и его прихвостней, спасибо, вы спасли много жизней."),
+								param_bindings = false,
+							}),
+						},
+						id = "Greeting",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						GoTo = "<end conversation>",
+						Keyword = "Goodbye",
+						KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "RebelSergeant_Immortal_L1",
+								Text = T(574853519230, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1 section:L1_RebelsCamp keyword:Goodbye]] "Счастливо комрады, мы всегда вам рады."),
+								param_bindings = false,
+							}),
+						},
+						id = "Goodbye",
+						param_bindings = false,
+					}),
+				}),
+				PlaceObj('ModItemConversation', {
 					AssignToGroup = "Doctor_Leevsy",
 					DefaultActor = "Doctor_Leevsy",
 					group = "Ernie",
@@ -33277,14 +33384,15 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "K5",
 					'Map', "YWtYj6q",
-					'MapTier', 10,
 					'modId', "FhNNYd",
 					'display_name', T(828240037474, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K5]] "Походный лагерь Легиона"),
 					'TerrainType', "Jungle",
+					'WeatherZone', "Erny",
 					'InitialSquads', {
 						"JAZZ_Legion_SentrySquad_AroundVilla",
 						"JAZZ_Legion_VillaAttackers_K5",
 					},
+					'InterestingSector', true,
 					'MinFlareCarriers', 5,
 					'MaxFlareCarriers', 11,
 					'bidirectionalRoadApply', true,
@@ -33630,7 +33738,7 @@ return {
 					'WeatherZone', "SouthJungle",
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	East = true,
+	East = false,
 	North = false,
 	South = false,
 	West = true,
@@ -33664,7 +33772,7 @@ return {
 						East = false,
 						North = true,
 						South = false,
-						West = true,
+						West = false,
 					},
 					'ImpassableForEnemies', true,
 					'bidirectionalBlockApply', true,
@@ -33715,6 +33823,41 @@ return {
 					'MusicExploration', "SpecificMilitary_Exploration",
 					'combatTaskGenerate', "afterFirstConflict",
 					'combatTaskAmount', 2,
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "L17_Underground",
+					'Map', "cGP5RH3",
+					'MapTier', 30,
+					'modId', "FhNNYd",
+					'RunLoyaltyLogic', false,
+					'GroundSector', "L17",
+					'display_name', T(995951843740, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L17_Underground]] "Underground Tunnel"),
+					'discovered', false,
+					'Intel', false,
+					'InterestingSector', true,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
+					'image', "UI/SatelliteView/SectorImages/K16U",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Underground_Conflict",
+					'MusicExploration', "Underground_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "L18",
+					'Map', "DvDj7va",
+					'MapTier', 30,
+					'modId', "FhNNYd",
+					'display_name', T(603757752539, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L18]] "Wetlands"),
+					'TerrainType', "Swamp",
+					'WeatherZone', "Wetlands",
+					'Passability', "Land and Water",
+					'InterestingSector', true,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
+					'image', "UI/SatelliteView/SectorImages/H16",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Swamp_Conflict",
+					'MusicExploration', "Swamp_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L2",
@@ -34040,6 +34183,7 @@ return {
 	North = true,
 	West = true,
 }),
+					'image', "Mod/FhNNYd/Images/NVIDIA_Overlay_FbmSxu7QZR.jpg",
 					'Events', {
 						PlaceObj('SE_OnEnterMap', {
 							'Effects', {
@@ -47551,11 +47695,6 @@ return {
 			PlaceObj('ModItemQuestsDef', {
 				Chapter = "Ernie_Rebels",
 				DisplayName = T(711512520142, --[[ModItemQuestsDef JAZZ_REBELS_1_SeizeTheOutlook DisplayName]] "Атака на Смотровую Площадку"),
-				KillTCEsConditions = {
-					PlaceObj('QuestKillTCEsOnCompleted', {
-						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
-					}),
-				},
 				LastNoteIdx = 1,
 				NoteDefs = {
 					LastNoteIdx = 1,
@@ -47564,6 +47703,12 @@ return {
 							PlaceObj('QuestBadgePlacement', {
 								QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
 								Sector = "M4",
+							}),
+						},
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+								Vars = set( "M3_UnderControl" ),
 							}),
 						},
 						HideConditions = {
@@ -47584,6 +47729,24 @@ return {
 					}),
 				},
 				QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "M4",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "M3_UnderControl",
+								QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE Bool M3_UnderControl",
+						QuestId = "JAZZ_REBELS_1_SeizeTheOutlook",
+					}),
+				},
 				Variables = {
 					PlaceObj('QuestVarBool', {
 						Name = "Completed",
@@ -47604,6 +47767,9 @@ return {
 					}),
 					PlaceObj('QuestVarBool', {
 						Name = "M3_UnderControl",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE Bool M3_UnderControl",
 					}),
 				},
 				group = "Default",

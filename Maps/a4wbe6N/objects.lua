@@ -199,6 +199,13 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Name', "col_MilitaryCamp_Pallete_6",
+	'Index', 671,
+}, nil, 1050063123)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 777,
 	'AllowedMask', 4294966497,
 	'Name', "col_WaterPlane_12",
@@ -390,6 +397,13 @@ PlaceObj('Collection', {
 	'AllowedMask', 4294966497,
 	'Index', 2613,
 }, nil, 1117646899)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Name', "col_BunkerInterior_PropSet_01",
+	'Index', 2044,
+}, nil, 1122529550)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -2832,8 +2846,8 @@ PlaceObj('UnitMarker', {
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "RebelSergeant_Immortal",
-			'Name', T(742963718648, "Лулумба Комми"),
+			'UnitDataDefId', "RebelSergeant_Immortal_L1",
+			'Name', "",
 		}),
 	},
 }, nil, 1474974801)
@@ -3317,6 +3331,13 @@ PlaceObj('HerbMarker', {
 	'CollectionIndex', 2419,
 	'AllowedMask', 4294966497,
 }, nil, 1877680357)
+PlaceObj('GridMarker', {
+	'Pos', point(216600, 99000, 7000),
+	'AllowedMask', 4294966497,
+	'Type', "DefenderPriority",
+	'AreaWidth', 4,
+	'AreaHeight', 4,
+}, nil, 1512696609)
 PlaceObj('GridMarker', {
 	'Pos', point(150600, 159000, 21000),
 	'CollectionIndex', 3513,
@@ -3829,33 +3850,6 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 4,
 	'AreaHeight', 4,
 }, nil, 1384299548)
-PlaceObj('GridMarker', {
-	'Pos', point(205800, 191400),
-	'AllowedMask', 4294966497,
-	'Type', "Logic",
-	'TriggerConditions', {
-		PlaceObj('AND', {
-			Conditions = {
-				PlaceObj('SectorIsInConflict', {
-					Negate = true,
-				}),
-				PlaceObj('SquadDefeated', {
-					custom_squad_id = "LegionRaidSquad_01",
-				}),
-				PlaceObj('SquadDefeated', {
-					custom_squad_id = "LegionHeavyTroops",
-				}),
-			},
-		}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			CreateSquad = false,
-			Side = "ally",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
-}, nil, 1892382458)
 PlaceObj('UnitMarker', {
 	'Pos', point(215400, 167400, 10500),
 	'Angle', 16200,
@@ -18630,6 +18624,58 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Concrete",
 	'dir', "North",
 }, nil, 1316999897)
+PlaceObj('BunkerInterior_Barrel_02', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(48, 25, 14, 255),
+	'EditableColor2', RGBA(61, 122, 153, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(88909, 159570, 38500),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1044450546)
+PlaceObj('BunkerInterior_Barrel_02', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(48, 25, 14, 255),
+	'EditableColor2', RGBA(61, 122, 153, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(89100, 158816, 38500),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1707455374)
+PlaceObj('BunkerInterior_Barrel_02', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(48, 25, 14, 255),
+	'EditableColor2', RGBA(61, 122, 153, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(89188, 159261, 39343),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1475599690)
+PlaceObj('BunkerInterior_Barrel_02', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(48, 25, 14, 255),
+	'EditableColor2', RGBA(61, 122, 153, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(89601, 159218, 38500),
+	'Angle', 8082,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1099137013)
+PlaceObj('BunkerInterior_Barrel_02', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(48, 25, 14, 255),
+	'EditableColor2', RGBA(61, 122, 153, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(89850, 159640, 39366),
+	'Angle', 3745,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1874442092)
 PlaceObj('WallSlab', {
 	'Pos', point(87000, 160800, 38500),
 	'Angle', 16200,
@@ -19064,6 +19110,17 @@ PlaceObj('EditorLineGuide', {
 	'AllowedMask', 4294966497,
 	'ShaderName', "mesh_linelist",
 }, nil, 1042889275)
+PlaceObj('BunkerInterior_BarrelPile_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(48, 25, 14, 255),
+	'EditableColor2', RGBA(61, 122, 153, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(89400, 160200, 38500),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1105126558)
 PlaceObj('WaterPlane', {
 	'Pos', point(90326, 154338, 6370),
 	'Scale', 101,
@@ -19151,6 +19208,16 @@ PlaceObj('FloorSlab', {
 		'EditableColor1', RGBA(79, 60, 52, 255),
 	}),
 }, nil, 1389067138)
+PlaceObj('BunkerInterior_BarrelPile_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(48, 25, 14, 255),
+	'EditableColor2', RGBA(61, 122, 153, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(90600, 160200, 38500),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1522314194)
 PlaceObj('StairSlab', {
 	'Pos', point(93000, 160200, 42000),
 	'Angle', 10800,
@@ -19273,6 +19340,19 @@ PlaceObj('FloorSlab', {
 		'EditableColor1', RGBA(79, 60, 52, 255),
 	}),
 }, nil, 1124694772)
+PlaceObj('FloorSlab', {
+	'Pos', point(93000, 162600, 42700),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1256,
+	'AllowedMask', 4294967279,
+	'subvariant', 1,
+	'material', "MetalScaff",
+	'colors', PlaceObj('ColorizationPropSet', {
+		'EditableColor1', RGBA(79, 60, 52, 255),
+	}),
+}, nil, 1552553614)
 PlaceObj('FloorSlab', {
 	'Pos', point(94200, 162600, 42700),
 	'Angle', 16200,
@@ -26868,6 +26948,14 @@ PlaceObj('City_HandCart', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1376556595)
+PlaceObj('TropicalPlant_03_Tree_02', {
+	'Pos', point(113433, 159058, 30894),
+	'Angle', 14627,
+	'Scale', 76,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1485730499)
 PlaceObj('CursedForest_Tree_06', {
 	'Pos', point(118186, 137763),
 	'Saturation', 0,
@@ -26996,12 +27084,23 @@ PlaceObj('BunkerInterior_AmmoBox_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1567060573)
+PlaceObj('BunkerInterior_GasCan_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(38, 4, 4, 255),
+	'Pos', point(125981, 146218, 28158),
+	'Angle', 20636,
+	'Axis', point(-490, -3793, 1466),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1283252755)
 PlaceObj('MilitaryCamp_Pallete_03', {
 	'Pos', point(121316, 154622, 29919),
 	'Angle', 1478,
 	'Axis', point(2634, 991, 2975),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 671,
 	'AllowedMask', 4294967279,
 }, nil, 1778270070)
 PlaceObj('MilitaryCamp_Pallete_01', {
@@ -27010,6 +27109,7 @@ PlaceObj('MilitaryCamp_Pallete_01', {
 	'Axis', point(733, -268, 4020),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 671,
 	'AllowedMask', 4294967279,
 }, nil, 1296882474)
 PlaceObj('MilitaryCamp_Pallete_01', {
@@ -27018,6 +27118,7 @@ PlaceObj('MilitaryCamp_Pallete_01', {
 	'Axis', point(3174, 1439, 2151),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 671,
 	'AllowedMask', 4294967279,
 }, nil, 1025400977)
 PlaceObj('MilitaryCamp_Pallete_02', {
@@ -27026,6 +27127,7 @@ PlaceObj('MilitaryCamp_Pallete_02', {
 	'Axis', point(733, -268, 4020),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 671,
 	'AllowedMask', 4294967279,
 }, nil, 1647730196)
 PlaceObj('TropicalPlant_02_Tree_01', {
@@ -27821,6 +27923,7 @@ PlaceObj('BunkerInterior_PropSet_01', {
 	'ColorModifier', RGBA(125, 123, 123, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2044,
 	'AllowedMask', 4294967279,
 }, nil, 1605139854)
 PlaceObj('Shanty_BottleCrate_01', {
@@ -27830,6 +27933,7 @@ PlaceObj('Shanty_BottleCrate_01', {
 	'Angle', 20896,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2044,
 	'AllowedMask', 782,
 }, nil, 1853304817)
 PlaceObj('BunkerInterior_PropSet_03', {
@@ -67212,7 +67316,7 @@ PlaceObj('TropicalPlant_LianaArc_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'CollectionIndex', 785,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, 1394478007)
 PlaceObj('MilitaryCamp_FenceCover_01', {
 	'ColorizationPalette', "",
@@ -67336,7 +67440,7 @@ PlaceObj('TropicalPlant_LianaArc_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'CollectionIndex', 785,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, 1017687999)
 PlaceObj('TropicalFillerPlants_04', {
 	'Pos', point(229056, 121666),
@@ -73237,7 +73341,7 @@ PlaceObj('MajorTent_Pillon_01', {
 	'EditableColor1', RGBA(28, 26, 20, 255),
 	'EditableColor2', RGBA(42, 28, 12, 255),
 	'EditableColor3', RGBA(26, 20, 12, 255),
-	'Pos', point(158861, 246124, 33931),
+	'Pos', point(158862, 246119, 33931),
 	'Angle', 5384,
 	'Scale', 87,
 	'Axis', point(-3615, -1269, 1446),
@@ -73261,7 +73365,7 @@ PlaceObj('MajorTent_Pillon_01', {
 	'EditableColor1', RGBA(28, 26, 20, 255),
 	'EditableColor2', RGBA(42, 28, 12, 255),
 	'EditableColor3', RGBA(26, 20, 12, 255),
-	'Pos', point(155699, 250002, 29791),
+	'Pos', point(155700, 249997, 29791),
 	'Angle', 5468,
 	'Scale', 105,
 	'Axis', point(568, -46, 4056),
@@ -73285,7 +73389,7 @@ PlaceObj('MajorTent_Pillon_01', {
 	'EditableColor1', RGBA(28, 26, 20, 255),
 	'EditableColor2', RGBA(42, 28, 12, 255),
 	'EditableColor3', RGBA(26, 20, 12, 255),
-	'Pos', point(159446, 252110, 29791),
+	'Pos', point(159447, 252105, 29791),
 	'Angle', 5468,
 	'Scale', 105,
 	'Axis', point(568, -46, 4056),
@@ -73300,7 +73404,7 @@ PlaceObj('MajorTent_Pillon_01', {
 	'EditableColor1', RGBA(28, 26, 20, 255),
 	'EditableColor2', RGBA(42, 28, 12, 255),
 	'EditableColor3', RGBA(26, 20, 12, 255),
-	'Pos', point(161725, 246920, 33736),
+	'Pos', point(161726, 246915, 33736),
 	'Angle', 7744,
 	'Scale', 105,
 	'Axis', point(-2376, 1693, 2874),
@@ -74262,7 +74366,7 @@ PlaceObj('MajorTent_Pillon_01', {
 	'EditableColor1', RGBA(28, 26, 20, 255),
 	'EditableColor2', RGBA(42, 28, 12, 255),
 	'EditableColor3', RGBA(26, 20, 12, 255),
-	'Pos', point(166824, 258484, 32059),
+	'Pos', point(166825, 258479, 32059),
 	'Angle', 5647,
 	'Scale', 87,
 	'Axis', point(3754, 1157, 1158),
@@ -74343,7 +74447,7 @@ PlaceObj('Shanty_BurningBarrel_Grill_01', {
 }, nil, 1264933247)
 PlaceObj('Scaffolding_Planks_01', {
 	'ColorizationPalette', "",
-	'Pos', point(169906, 258850, 32149),
+	'Pos', point(169907, 258845, 32149),
 	'Angle', 5391,
 	'ColorModifier', RGBA(82, 70, 57, 255),
 	'Saturation', 0,
@@ -74352,7 +74456,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1029732658)
 PlaceObj('BunkerInterior_Chair_01', {
-	'Pos', point(169708, 260656, 32149),
+	'Pos', point(169709, 260651, 32149),
 	'Angle', 20665,
 	'ColorModifier', RGBA(178, 139, 93, 255),
 	'Saturation', 0,
@@ -74361,7 +74465,7 @@ PlaceObj('BunkerInterior_Chair_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1240960648)
 PlaceObj('BunkerInterior_PlatePile_05', {
-	'Pos', point(169664, 261587, 32893),
+	'Pos', point(169665, 261582, 32893),
 	'Angle', 11455,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -74369,14 +74473,14 @@ PlaceObj('BunkerInterior_PlatePile_05', {
 	'AllowedMask', 4294967279,
 }, nil, 1351718901)
 PlaceObj('Shanty_BeerBottle_01', {
-	'Pos', point(169753, 261380, 32906),
+	'Pos', point(169754, 261375, 32906),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2492,
 	'AllowedMask', 4294967279,
 }, nil, 1578551441)
 PlaceObj('Shanty_WineBottle_01', {
-	'Pos', point(169538, 262001, 32849),
+	'Pos', point(169539, 261996, 32849),
 	'Angle', 9900,
 	'Scale', 122,
 	'Saturation', 0,
@@ -74385,7 +74489,7 @@ PlaceObj('Shanty_WineBottle_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1450246056)
 PlaceObj('BunkerInterior_Chair_01', {
-	'Pos', point(170803, 259956, 32149),
+	'Pos', point(170804, 259951, 32149),
 	'Angle', 2858,
 	'ColorModifier', RGBA(178, 139, 93, 255),
 	'Saturation', 0,
@@ -74398,7 +74502,7 @@ PlaceObj('City_CableLight_02', {
 	'EditableColor1', RGBA(254, 144, 0, 255),
 	'EditableColor2', RGBA(254, 144, 0, 255),
 	'EditableColor3', RGBA(254, 144, 0, 255),
-	'Pos', point(171073, 260018, 32636),
+	'Pos', point(171074, 260013, 32636),
 	'Angle', 5713,
 	'Scale', 86,
 	'Axis', point(-765, -917, 3918),
@@ -74413,7 +74517,7 @@ PlaceObj('MajorTent_Pillon_01', {
 	'EditableColor1', RGBA(28, 26, 20, 255),
 	'EditableColor2', RGBA(42, 28, 12, 255),
 	'EditableColor3', RGBA(26, 20, 12, 255),
-	'Pos', point(171445, 259902, 31909),
+	'Pos', point(171446, 259897, 31909),
 	'Scale', 87,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -74425,7 +74529,7 @@ PlaceObj('City_CableLight_02', {
 	'EditableColor1', RGBA(254, 144, 0, 255),
 	'EditableColor2', RGBA(254, 144, 0, 255),
 	'EditableColor3', RGBA(254, 144, 0, 255),
-	'Pos', point(171788, 259809, 32699),
+	'Pos', point(171789, 259804, 32699),
 	'Angle', 15951,
 	'Scale', 86,
 	'Axis', point(896, -806, 3914),
@@ -74436,14 +74540,14 @@ PlaceObj('City_CableLight_02', {
 	'AllowedMask', 0,
 }, nil, 1383843765)
 PlaceObj('Shanty_BeerBottle_01', {
-	'Pos', point(170178, 261335, 32906),
+	'Pos', point(170179, 261330, 32906),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2492,
 	'AllowedMask', 4294967279,
 }, nil, 1045978651)
 PlaceObj('BunkerInterior_PlatePile_05', {
-	'Pos', point(170642, 261306, 32893),
+	'Pos', point(170643, 261301, 32893),
 	'Angle', 11455,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -74455,7 +74559,7 @@ PlaceObj('MajorTent_RoofCanvas_02', {
 	'EditableColor1', RGBA(25, 33, 28, 255),
 	'EditableColor2', RGBA(42, 28, 13, 255),
 	'EditableColor3', RGBA(37, 21, 4, 255),
-	'Pos', point(170989, 261339, 32149),
+	'Pos', point(170990, 261334, 32149),
 	'Angle', 5400,
 	'Scale', 79,
 	'Saturation', 0,
@@ -74470,7 +74574,7 @@ PlaceObj('Hospital_SmallProps_05', {
 	'EditableMetallic1', 40,
 	'EditableColor2', RGBA(194, 111, 24, 255),
 	'EditableMetallic2', 40,
-	'Pos', point(170639, 261853, 32960),
+	'Pos', point(170640, 261848, 32960),
 	'Angle', 10800,
 	'Scale', 120,
 	'Axis', point(-3102, 2674, 0),
@@ -74480,7 +74584,7 @@ PlaceObj('Hospital_SmallProps_05', {
 	'AllowedMask', 4294967279,
 }, nil, 1736708125)
 PlaceObj('Shanty_Grill_02', {
-	'Pos', point(170674, 261859, 32927),
+	'Pos', point(170675, 261854, 32927),
 	'Angle', 16658,
 	'Scale', 113,
 	'Saturation', 0,
@@ -74493,7 +74597,7 @@ PlaceObj('MajorTent_RoofCanvas_01', {
 	'EditableColor1', RGBA(25, 33, 28, 255),
 	'EditableColor2', RGBA(42, 28, 13, 255),
 	'EditableColor3', RGBA(37, 21, 4, 255),
-	'Pos', point(171933, 260415, 32149),
+	'Pos', point(171934, 260410, 32149),
 	'Angle', 16200,
 	'Scale', 79,
 	'Saturation', 0,
@@ -74503,7 +74607,7 @@ PlaceObj('MajorTent_RoofCanvas_01', {
 	'AssociatedLights', {o(1668773160),},
 }, nil, 1255097228)
 PlaceObj('BunkerInterior_Chair_01', {
-	'Pos', point(171920, 260662, 32149),
+	'Pos', point(171921, 260657, 32149),
 	'Angle', 5215,
 	'ColorModifier', RGBA(178, 139, 93, 255),
 	'Saturation', 0,
@@ -74512,7 +74616,7 @@ PlaceObj('BunkerInterior_Chair_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1396192089)
 PlaceObj('Shanty_BeerBottle_01', {
-	'Pos', point(171135, 261290, 32906),
+	'Pos', point(171136, 261285, 32906),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2492,
@@ -74523,7 +74627,7 @@ PlaceObj('MilitaryCamp_LegionFlag_Short', {
 	'EditableColor1', RGBA(27, 17, 7, 255),
 	'EditableColor2', RGBA(27, 17, 7, 255),
 	'EditableColor3', RGBA(27, 17, 7, 255),
-	'Pos', point(171274, 261542, 32921),
+	'Pos', point(171275, 261537, 32921),
 	'Angle', 5396,
 	'Scale', 60,
 	'Axis', point(46, 4095, 10),
@@ -74534,7 +74638,7 @@ PlaceObj('MilitaryCamp_LegionFlag_Short', {
 	'SwayType', "Never Sway",
 }, nil, 1667038140)
 PlaceObj('BunkerInterior_PlatePile_03', {
-	'Pos', point(171475, 261385, 32828),
+	'Pos', point(171476, 261380, 32828),
 	'Angle', 11455,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -74542,7 +74646,7 @@ PlaceObj('BunkerInterior_PlatePile_03', {
 	'AllowedMask', 4294967279,
 }, nil, 1448200740)
 PlaceObj('Shanty_Saucepan_02', {
-	'Pos', point(171495, 261729, 32857),
+	'Pos', point(171496, 261724, 32857),
 	'Angle', 9271,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -74551,7 +74655,7 @@ PlaceObj('Shanty_Saucepan_02', {
 }, nil, 1658576137)
 PlaceObj('SpotLight', {
 	'DetailClass', "Essential",
-	'Pos', point(171437, 261855, 35167),
+	'Pos', point(171438, 261850, 35167),
 	'Angle', 154,
 	'Axis', point(883, -376, 3982),
 	'Saturation', 0,
@@ -74573,7 +74677,7 @@ PlaceObj('MilitaryCamp_LegionFlag_Short', {
 	'EditableColor1', RGBA(27, 17, 7, 255),
 	'EditableColor2', RGBA(27, 17, 7, 255),
 	'EditableColor3', RGBA(27, 17, 7, 255),
-	'Pos', point(171677, 261623, 32917),
+	'Pos', point(171678, 261618, 32917),
 	'Angle', 10743,
 	'Scale', 61,
 	'Axis', point(-2896, -8, 2896),
@@ -74584,7 +74688,7 @@ PlaceObj('MilitaryCamp_LegionFlag_Short', {
 	'SwayType', "Never Sway",
 }, nil, 1541140240)
 PlaceObj('BunkerInterior_PlatePile_04', {
-	'Pos', point(171821, 261477, 32825),
+	'Pos', point(171822, 261472, 32825),
 	'Angle', 11455,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -74592,14 +74696,14 @@ PlaceObj('BunkerInterior_PlatePile_04', {
 	'AllowedMask', 4294967279,
 }, nil, 1732330769)
 PlaceObj('Shanty_WineBottle_01', {
-	'Pos', point(171766, 261786, 32859),
+	'Pos', point(171767, 261781, 32859),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2492,
 	'AllowedMask', 4294967279,
 }, nil, 1494133171)
 PlaceObj('Flies', {
-	'Pos', point(171813, 261791, 32853),
+	'Pos', point(171814, 261786, 32853),
 	'CollectionIndex', 1366,
 	'AllowedMask', 4294966497,
 	'Sounds', {
@@ -74687,7 +74791,7 @@ PlaceObj('MajorTent_Wall_01', {
 	'AllowedMask', 782,
 }, nil, 1530597842)
 PlaceObj('Shanty_BeerBottle_01', {
-	'Pos', point(172987, 260998, 32149),
+	'Pos', point(172988, 260993, 32149),
 	'Angle', 5497,
 	'Axis', point(1478, -3579, 1333),
 	'Saturation', 0,
@@ -74696,14 +74800,14 @@ PlaceObj('Shanty_BeerBottle_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1780287925)
 PlaceObj('Shanty_BeerBottle_01', {
-	'Pos', point(172073, 261351, 32852),
+	'Pos', point(172074, 261346, 32852),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2492,
 	'AllowedMask', 4294967279,
 }, nil, 1441819616)
 PlaceObj('BunkerInterior_PlatePile_05', {
-	'Pos', point(172411, 261440, 32893),
+	'Pos', point(172412, 261435, 32893),
 	'Angle', 11455,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -74711,14 +74815,14 @@ PlaceObj('BunkerInterior_PlatePile_05', {
 	'AllowedMask', 4294967279,
 }, nil, 1618347452)
 PlaceObj('Shanty_WhiskeyBottle_01', {
-	'Pos', point(172057, 261686, 32847),
+	'Pos', point(172058, 261681, 32847),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2492,
 	'AllowedMask', 4294967279,
 }, nil, 1762781169)
 PlaceObj('Shanty_BeerBottle_01', {
-	'Pos', point(172606, 261270, 32852),
+	'Pos', point(172607, 261265, 32852),
 	'Angle', 40,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -74728,14 +74832,14 @@ PlaceObj('Shanty_BeerBottle_01', {
 PlaceObj('Shanty_BottleCrate_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(89, 13, 13, 255),
-	'Pos', point(172617, 261259, 32149),
+	'Pos', point(172618, 261254, 32149),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2492,
 	'AllowedMask', 4294967279,
 }, nil, 1062089027)
 PlaceObj('Shanty_BeerBottle_01', {
-	'Pos', point(172977, 261353, 32896),
+	'Pos', point(172978, 261348, 32896),
 	'Angle', 5400,
 	'Axis', point(4096, 0, 0),
 	'Saturation', 0,
@@ -74746,7 +74850,7 @@ PlaceObj('Shanty_BeerBottle_01', {
 PlaceObj('Shanty_BottleCrate_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(89, 13, 13, 255),
-	'Pos', point(173007, 261368, 32149),
+	'Pos', point(173008, 261363, 32149),
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -74754,14 +74858,14 @@ PlaceObj('Shanty_BottleCrate_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1358994243)
 PlaceObj('Shanty_BeerBottle_01', {
-	'Pos', point(172873, 262052, 32847),
+	'Pos', point(172874, 262047, 32847),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2492,
 	'AllowedMask', 4294967279,
 }, nil, 1518989357)
 PlaceObj('BunkerInterior_Chair_01', {
-	'Pos', point(173272, 260885, 32149),
+	'Pos', point(173273, 260880, 32149),
 	'Angle', 5423,
 	'ColorModifier', RGBA(178, 139, 93, 255),
 	'Saturation', 0,
@@ -74770,7 +74874,7 @@ PlaceObj('BunkerInterior_Chair_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1764196417)
 PlaceObj('BunkerInterior_Chair_01', {
-	'Pos', point(174365, 262013, 32149),
+	'Pos', point(174366, 262008, 32149),
 	'Angle', 10769,
 	'ColorModifier', RGBA(178, 139, 93, 255),
 	'Saturation', 0,
@@ -74793,7 +74897,7 @@ PlaceObj('MajorTent_Pillon_01', {
 	'EditableColor1', RGBA(28, 26, 20, 255),
 	'EditableColor2', RGBA(42, 28, 12, 255),
 	'EditableColor3', RGBA(26, 20, 12, 255),
-	'Pos', point(177323, 255420, 31909),
+	'Pos', point(177324, 255415, 31909),
 	'Scale', 87,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -74805,7 +74909,7 @@ PlaceObj('MajorTent_RoofCanvas_01', {
 	'EditableColor1', RGBA(25, 33, 28, 255),
 	'EditableColor2', RGBA(42, 28, 13, 255),
 	'EditableColor3', RGBA(37, 21, 4, 255),
-	'Pos', point(177790, 255898, 32149),
+	'Pos', point(177791, 255893, 32149),
 	'Angle', 16200,
 	'Scale', 79,
 	'Saturation', 0,
@@ -74818,7 +74922,7 @@ PlaceObj('MajorTent_RoofCanvas_02', {
 	'EditableColor1', RGBA(25, 33, 28, 255),
 	'EditableColor2', RGBA(42, 28, 13, 255),
 	'EditableColor3', RGBA(37, 21, 4, 255),
-	'Pos', point(176846, 256822, 32149),
+	'Pos', point(176847, 256817, 32149),
 	'Angle', 5400,
 	'Scale', 79,
 	'Saturation', 0,
@@ -74831,7 +74935,7 @@ PlaceObj('MajorTent_Pillon_01', {
 	'EditableColor1', RGBA(28, 26, 20, 255),
 	'EditableColor2', RGBA(42, 28, 12, 255),
 	'EditableColor3', RGBA(26, 20, 12, 255),
-	'Pos', point(177323, 257279, 31909),
+	'Pos', point(177324, 257274, 31909),
 	'Scale', 87,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -74843,7 +74947,7 @@ PlaceObj('MajorTent_RoofCanvas_02', {
 	'EditableColor1', RGBA(25, 33, 28, 255),
 	'EditableColor2', RGBA(42, 28, 13, 255),
 	'EditableColor3', RGBA(37, 21, 4, 255),
-	'Pos', point(177790, 257796, 32137),
+	'Pos', point(177791, 257791, 32137),
 	'Angle', 16200,
 	'Scale', 79,
 	'Saturation', 0,
@@ -74896,7 +75000,7 @@ PlaceObj('MajorTent_RoofCanvas_01', {
 	'EditableColor1', RGBA(25, 33, 28, 255),
 	'EditableColor2', RGBA(42, 28, 13, 255),
 	'EditableColor3', RGBA(37, 21, 4, 255),
-	'Pos', point(176843, 258720, 32149),
+	'Pos', point(176844, 258715, 32149),
 	'Angle', 5400,
 	'Scale', 79,
 	'Saturation', 0,
@@ -74909,7 +75013,7 @@ PlaceObj('MajorTent_Pillon_01', {
 	'EditableColor1', RGBA(28, 26, 20, 255),
 	'EditableColor2', RGBA(42, 28, 12, 255),
 	'EditableColor3', RGBA(26, 20, 12, 255),
-	'Pos', point(177323, 259193, 31909),
+	'Pos', point(177324, 259188, 31909),
 	'Scale', 87,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -74918,7 +75022,7 @@ PlaceObj('MajorTent_Pillon_01', {
 }, nil, 1212915291)
 PlaceObj('SpotLight', {
 	'DetailClass', "Essential",
-	'Pos', point(177424, 259515, 35167),
+	'Pos', point(177425, 259510, 35167),
 	'Angle', 154,
 	'Axis', point(883, -376, 3982),
 	'Saturation', 0,
@@ -74940,7 +75044,7 @@ PlaceObj('MajorTent_RoofCanvas_01', {
 	'EditableColor1', RGBA(25, 33, 28, 255),
 	'EditableColor2', RGBA(42, 28, 13, 255),
 	'EditableColor3', RGBA(37, 21, 4, 255),
-	'Pos', point(177790, 259675, 32149),
+	'Pos', point(177791, 259670, 32149),
 	'Angle', 16200,
 	'Scale', 79,
 	'Saturation', 0,
@@ -74963,7 +75067,7 @@ PlaceObj('MajorTent_RoofCanvas_02', {
 	'EditableColor1', RGBA(25, 33, 28, 255),
 	'EditableColor2', RGBA(42, 28, 13, 255),
 	'EditableColor3', RGBA(37, 21, 4, 255),
-	'Pos', point(176846, 260599, 32149),
+	'Pos', point(176847, 260594, 32149),
 	'Angle', 5400,
 	'Scale', 79,
 	'Saturation', 0,
@@ -74998,7 +75102,7 @@ PlaceObj('MajorTent_Pillon_01', {
 	'EditableColor1', RGBA(28, 26, 20, 255),
 	'EditableColor2', RGBA(42, 28, 12, 255),
 	'EditableColor3', RGBA(26, 20, 12, 255),
-	'Pos', point(177323, 261075, 31909),
+	'Pos', point(177324, 261070, 31909),
 	'Scale', 87,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -75010,7 +75114,7 @@ PlaceObj('MajorTent_RoofCanvas_02', {
 	'EditableColor1', RGBA(25, 33, 28, 255),
 	'EditableColor2', RGBA(42, 28, 13, 255),
 	'EditableColor3', RGBA(37, 21, 4, 255),
-	'Pos', point(177790, 261573, 32137),
+	'Pos', point(177791, 261568, 32137),
 	'Angle', 16200,
 	'Scale', 79,
 	'Saturation', 0,
@@ -75127,7 +75231,7 @@ PlaceObj('Hangar_Canvas_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3007,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, 1176358935)
 PlaceObj('HangarSmall_Wall_03', {
 	'ColorizationPalette', "",
@@ -75702,7 +75806,7 @@ PlaceObj('Hangar_Canvas_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3007,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, 1787424201)
 PlaceObj('HangarSmall_FlatWall_04', {
 	'ColorizationPalette', "",
@@ -81839,7 +81943,7 @@ PlaceObj('TropicalPlant_Dead_03', {
 	'AllowedMask', 782,
 }, nil, 1139523298)
 PlaceObj('BunkerInterior_Table_03', {
-	'Pos', point(169360, 262493, 32149),
+	'Pos', point(169361, 262488, 32149),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2492,
@@ -81850,7 +81954,7 @@ PlaceObj('MilitaryCamp_LegionFlag_Short', {
 	'EditableColor1', RGBA(27, 17, 7, 255),
 	'EditableColor2', RGBA(27, 17, 7, 255),
 	'EditableColor3', RGBA(27, 17, 7, 255),
-	'Pos', point(169567, 262258, 32917),
+	'Pos', point(169568, 262253, 32917),
 	'Angle', 10743,
 	'Scale', 61,
 	'Axis', point(-2896, -8, 2896),
@@ -81861,14 +81965,14 @@ PlaceObj('MilitaryCamp_LegionFlag_Short', {
 	'SwayType', "Never Sway",
 }, nil, 1689584915)
 PlaceObj('Shanty_BeerBottle_01', {
-	'Pos', point(169653, 262248, 32906),
+	'Pos', point(169654, 262243, 32906),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2492,
 	'AllowedMask', 4294967279,
 }, nil, 1199180763)
 PlaceObj('BunkerInterior_PlatePile_05', {
-	'Pos', point(169855, 262338, 32893),
+	'Pos', point(169856, 262333, 32893),
 	'Angle', 11455,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -81876,7 +81980,7 @@ PlaceObj('BunkerInterior_PlatePile_05', {
 	'AllowedMask', 4294967279,
 }, nil, 1155002606)
 PlaceObj('BunkerInterior_Chair_01', {
-	'Pos', point(169750, 262584, 32149),
+	'Pos', point(169751, 262579, 32149),
 	'Angle', 17258,
 	'ColorModifier', RGBA(178, 139, 93, 255),
 	'Saturation', 0,
@@ -81885,14 +81989,14 @@ PlaceObj('BunkerInterior_Chair_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1676405655)
 PlaceObj('Shanty_BeerBottle_01', {
-	'Pos', point(170856, 262336, 32853),
+	'Pos', point(170857, 262331, 32853),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2492,
 	'AllowedMask', 4294967279,
 }, nil, 1550571420)
 PlaceObj('BunkerInterior_Table_03', {
-	'Pos', point(170904, 262493, 32149),
+	'Pos', point(170905, 262488, 32149),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2492,
@@ -81903,7 +82007,7 @@ PlaceObj('MajorTent_RoofCanvas_01', {
 	'EditableColor1', RGBA(25, 33, 28, 255),
 	'EditableColor2', RGBA(42, 28, 13, 255),
 	'EditableColor3', RGBA(37, 21, 4, 255),
-	'Pos', point(170986, 263237, 32149),
+	'Pos', point(170987, 263232, 32149),
 	'Angle', 5400,
 	'Scale', 79,
 	'Saturation', 0,
@@ -81913,7 +82017,7 @@ PlaceObj('MajorTent_RoofCanvas_01', {
 	'AssociatedLights', {o(1668773160),},
 }, nil, 1185165930)
 PlaceObj('BunkerInterior_PlatePile_04', {
-	'Pos', point(171472, 262221, 32825),
+	'Pos', point(171473, 262216, 32825),
 	'Angle', 11455,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -81925,7 +82029,7 @@ PlaceObj('MilitaryCamp_LegionFlag_Short', {
 	'EditableColor1', RGBA(27, 17, 7, 255),
 	'EditableColor2', RGBA(27, 17, 7, 255),
 	'EditableColor3', RGBA(27, 17, 7, 255),
-	'Pos', point(171680, 262225, 32917),
+	'Pos', point(171681, 262220, 32917),
 	'Angle', 10743,
 	'Scale', 61,
 	'Axis', point(-2896, -8, 2896),
@@ -81936,7 +82040,7 @@ PlaceObj('MilitaryCamp_LegionFlag_Short', {
 	'SwayType', "Never Sway",
 }, nil, 1558548102)
 PlaceObj('BunkerInterior_PlatePile_05', {
-	'Pos', point(171771, 262221, 32865),
+	'Pos', point(171772, 262216, 32865),
 	'Angle', 11455,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -81948,7 +82052,7 @@ PlaceObj('MajorTent_RoofCanvas_02', {
 	'EditableColor1', RGBA(25, 33, 28, 255),
 	'EditableColor2', RGBA(42, 28, 13, 255),
 	'EditableColor3', RGBA(37, 21, 4, 255),
-	'Pos', point(171933, 262313, 32137),
+	'Pos', point(171934, 262308, 32137),
 	'Angle', 16200,
 	'Scale', 79,
 	'Saturation', 0,
@@ -81962,7 +82066,7 @@ PlaceObj('City_CableLight_02', {
 	'EditableColor1', RGBA(254, 144, 0, 255),
 	'EditableColor2', RGBA(254, 144, 0, 255),
 	'EditableColor3', RGBA(254, 144, 0, 255),
-	'Pos', point(171074, 263822, 32699),
+	'Pos', point(171075, 263817, 32699),
 	'Angle', 5471,
 	'Scale', 86,
 	'Axis', point(-827, -919, 3904),
@@ -81977,7 +82081,7 @@ PlaceObj('MajorTent_Pillon_01', {
 	'EditableColor1', RGBA(28, 26, 20, 255),
 	'EditableColor2', RGBA(42, 28, 12, 255),
 	'EditableColor3', RGBA(26, 20, 12, 255),
-	'Pos', point(171445, 263726, 31909),
+	'Pos', point(171446, 263721, 31909),
 	'Scale', 87,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -81989,7 +82093,7 @@ PlaceObj('City_CableLight_02', {
 	'EditableColor1', RGBA(254, 144, 0, 255),
 	'EditableColor2', RGBA(254, 144, 0, 255),
 	'EditableColor3', RGBA(254, 144, 0, 255),
-	'Pos', point(171789, 263613, 32636),
+	'Pos', point(171790, 263608, 32636),
 	'Angle', 16194,
 	'Scale', 86,
 	'Axis', point(957, -799, 3901),
@@ -82000,21 +82104,21 @@ PlaceObj('City_CableLight_02', {
 	'AllowedMask', 0,
 }, nil, 1080372095)
 PlaceObj('Shanty_BeerBottle_01', {
-	'Pos', point(172124, 262331, 32906),
+	'Pos', point(172125, 262326, 32906),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2492,
 	'AllowedMask', 4294967279,
 }, nil, 1286953645)
 PlaceObj('BunkerInterior_Table_03', {
-	'Pos', point(172486, 262493, 32149),
+	'Pos', point(172487, 262488, 32149),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2492,
 	'AllowedMask', 4294967279,
 }, nil, 1326780443)
 PlaceObj('BunkerInterior_Chair_01', {
-	'Pos', point(172795, 262720, 32149),
+	'Pos', point(172796, 262715, 32149),
 	'Angle', 13436,
 	'ColorModifier', RGBA(178, 139, 93, 255),
 	'Saturation', 0,
@@ -82023,7 +82127,7 @@ PlaceObj('BunkerInterior_Chair_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1738430032)
 PlaceObj('BunkerInterior_PlatePile_05', {
-	'Pos', point(173479, 262180, 32865),
+	'Pos', point(173480, 262175, 32865),
 	'Angle', 11455,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -82031,7 +82135,7 @@ PlaceObj('BunkerInterior_PlatePile_05', {
 	'AllowedMask', 4294967279,
 }, nil, 1372615689)
 PlaceObj('Shanty_CassetteRecorder_01', {
-	'Pos', point(174719, 263093, 32623),
+	'Pos', point(174720, 263088, 32623),
 	'Angle', 3972,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -82039,7 +82143,7 @@ PlaceObj('Shanty_CassetteRecorder_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1638967456)
 PlaceObj('BunkerInterior_Chair_01', {
-	'Pos', point(174687, 263186, 32149),
+	'Pos', point(174688, 263181, 32149),
 	'Angle', 15584,
 	'ColorModifier', RGBA(178, 139, 93, 255),
 	'Saturation', 0,
@@ -82052,7 +82156,7 @@ PlaceObj('MajorTent_RoofCanvas_01', {
 	'EditableColor1', RGBA(25, 33, 28, 255),
 	'EditableColor2', RGBA(42, 28, 13, 255),
 	'EditableColor3', RGBA(37, 21, 4, 255),
-	'Pos', point(176843, 262497, 32149),
+	'Pos', point(176844, 262492, 32149),
 	'Angle', 5400,
 	'Scale', 79,
 	'Saturation', 0,
@@ -82075,7 +82179,7 @@ PlaceObj('MajorTent_Pillon_01', {
 	'EditableColor1', RGBA(28, 26, 20, 255),
 	'EditableColor2', RGBA(42, 28, 12, 255),
 	'EditableColor3', RGBA(26, 20, 12, 255),
-	'Pos', point(177323, 262973, 31909),
+	'Pos', point(177324, 262968, 31909),
 	'Scale', 87,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -82087,7 +82191,7 @@ PlaceObj('MajorTent_Pillon_01', {
 	'EditableColor1', RGBA(28, 26, 20, 255),
 	'EditableColor2', RGBA(42, 28, 12, 255),
 	'EditableColor3', RGBA(26, 20, 12, 255),
-	'Pos', point(171210, 284948, 32059),
+	'Pos', point(171211, 284943, 32059),
 	'Scale', 87,
 	'ColorModifier', RGBA(74, 60, 47, 255),
 	'Saturation', 0,
@@ -82100,7 +82204,7 @@ PlaceObj('MajorTent_Pillon_01', {
 	'EditableColor1', RGBA(28, 26, 20, 255),
 	'EditableColor2', RGBA(42, 28, 12, 255),
 	'EditableColor3', RGBA(26, 20, 12, 255),
-	'Pos', point(180930, 265414, 30915),
+	'Pos', point(180931, 265409, 30915),
 	'Scale', 87,
 	'ColorModifier', RGBA(74, 60, 47, 255),
 	'Saturation', 0,
@@ -85762,9 +85866,9 @@ p("TropicalRockSharp_04",97867,175520,38271,9809,108,-3671,-1523,990,"terrainchu
 p("TropicalPlant_Grass_03",95548,178823,142,4)
 p("TropicalPlant_Grass_03",96773,178134,142,4)
 p("TropicalPlant_Grass_03",97127,177694,155,4)
+p("DecSteps_01",85901,181345,38448,4281609513,9)
 p("TropicalPlant_05_Shrub_01",82021,185044,19399,2097152)
 p("DecSteps_01",87562,180230,38448,4281609513,9)
-p("DecSteps_01",86411,184923,38448,4281609513,9)
 p("DecSteps_01",87393,185008,38448,4281609513,9)
 p("DecSteps_01",85809,189663,38448,4281609513,9)
 p("TropicalPlant_Grass_03",83172,193352,20567,152,2097156)
@@ -85927,7 +86031,7 @@ p("DecSteps_01",116135,162513,31308,11363,4281609513,2097161)
 p("DecMudSteps_01",116610,163179,1032,3563,263,2003,2097168)
 p("DecJungleForest_02",117821,161374,30014,15587,241,174,-314,4080,37,2098197)
 p("TropicalPlant_Grass_04",122631,157927,106,4)
-p("DecJungleForest_02",124634,150635,27108,15587,241,174,-314,4080,37,2098197)
+p("DecJungleForest_02",124628,150637,27108,15587,241,174,-314,4080,37,2098197)
 p("DecSteps_04",123000,151940,28540,16327,4281609513,2097161)
 p("TropicalPlant_Grass_04",123100,155051,166,4)
 p("TropicalPlant_Grass_04",123933,155553,161,4)
@@ -86082,6 +86186,7 @@ p("TropicalPlant_Grass_01",122788,170031,109,4)
 p("TropicalPlant_Grass_01",122187,171694,184,4)
 p("DecBunker_ConcretePile_05",115516,175070,1297,3123,-1518,2173,"terrainchunk",10,0,0,40,60,10,40,60,2228240)
 p("DecMudSteps_03",114929,177417,0)
+p("DecFloatersTrash3D_02",116170,177327,35460,16074,140,4281808417,-469,-442,4044,2097181)
 p("DecMudSteps_03",115967,177946,35482,20473,-2956,1476,2421,2097169)
 p("TropicalPlant_Grass_03",120682,175939,99,4)
 p("TropicalPlant_Grass_03",120791,175928,156,4)
@@ -86289,7 +86394,9 @@ p("TropicalPlant_04_Shrub_01",85391,203215,0)
 p("JungleCamp_TrenchFloor_02",87232,199099,39081,20563,130,-648,-28,4044,2150054469,2148407600,"",1075841557)
 p("DecSteps_01",89105,203157,38448,20700,4281609513,2097161)
 p("HangarSmall_FlatSide_03",85323,211720,39146,10800,1097,2150911028,2149354716,2148407344,"",1075845889)
+p("DecFloatersTrash3D_02",89313,206264,39149,16414,83,4281808417,44,-167,4092,2097181)
 p("Garand",88734,207174,39362,5630,1026,-1026,3830,2097169)
+p("DecFloatersTrash3D_02",89222,208176,39149,20564,83,4281808417,599,-512,4019,2097181)
 p("TropicalPlant_Grass_04",91956,200362,38610,302,247,2274,79,3406,2097173)
 p("DecSteps_01",92944,197079,38448,17100,4281609513,2097161)
 p("DecSteps_01",90116,203054,38448,19336,4281609513,2097161)
@@ -87579,7 +87686,6 @@ p("TropicalRockSharp_01",191913,116089,17388,5815,250,2822,-2015,2180,2,3271,"te
 p("TropicalPlant_Vines_09",189381,120748,0)
 p("TropicalRockSharp_01",191473,120052,18004,7655,250,1500,-2574,2811,2,3271,"terrainchunk",10,0,0,40,60,10,40,60,2228565)
 p("TropicalPlant_Vines_01",190632,120885,24790,1)
-p("TropicalPlant_Vines_01",191745,121929,22820,1)
 p("TropicalRockSharp_01",193043,115427,17477,10898,250,-2954,346,2815,3079,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("TropicalRockSharp_01",193341,117296,12443,11851,250,-3853,103,1384,3079,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("TropicalRockSharp_01",195620,117332,11445,6980,250,-2644,-1812,2549,2,644,"terrainchunk",10,0,0,40,60,10,40,60,2228565)
@@ -87595,6 +87701,7 @@ p("TropicalCliffSharp_01",190200,125400,24500,95,"terrainchunk",10,0,0,82,100,10
 p("TropicalPlant_Vines_01",190632,123230,24790,1)
 p("TropicalRockSharpWalk_01",191400,123000,22400,10800,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalPlant_Vines_01",191745,123839,22525,1)
+p("TropicalPlant_Vines_01",191756,124410,22752,21405,-33,1244,3902,2097169)
 p("TropicalPlant_Vines_01",190632,125559,24790,1)
 p("TropicalCliffSharp_01",191400,125400,22400,95,"terrainchunk",10,0,0,82,100,10,40,60,131077)
 p("TropicalRockSharp_01",190541,126214,12443,8765,250,-3939,-1036,430,3079,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
@@ -88337,7 +88444,7 @@ p("TropicalPlant_Grass_04",145123,186450,139,4)
 p("TropicalRockSharp_04",146511,184973,18517,5514,115,99,-169,4091,"terrainchunk",10,0,0,39,100,10,40,60,2228245)
 p("TropicalRockAssembly_01",146351,187525,18044,15333,206,718,-213,4026,"terrainchunk",10,0,0,51,84,10,40,60,2228245)
 p("TropicalPlant_04_Shrub_01",143234,189402,22984,3302,184,181,1470,3818,1320,2097429)
-p("TropicalRockSharp_01",142931,193622,19473,11321,250,-1069,-3945,263,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",142932,193614,19473,11321,250,-1069,-3945,263,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",142977,193622,21716,9886,250,-994,-3943,490,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_02",149378,164535,22168,20336,250,-559,-3168,2536,3513,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("TropicalRockSharp_04",147795,170571,23026,6291,115,2001,1733,3125,"terrainchunk",10,0,0,39,100,10,40,60,2228245)
@@ -89590,14 +89697,14 @@ p("TropicalRockAssembly_01",164751,252932,31524,15987,133,-303,-34,4084,"terrain
 p("TropicalRockAssembly_01",169524,248807,31472,16006,133,"terrainchunk",10,0,0,51,84,10,40,60,2228229)
 p("TropicalRockAssembly_01",171290,248608,31472,16006,133,"terrainchunk",10,0,0,51,84,10,40,60,2228229)
 p("TropicalRockAssembly_01",169497,255875,32000,16006,133,"terrainchunk",10,0,0,51,84,10,40,60,2228229)
-p("Bar_Cup_01",169457,261585,32867,13906,1366,2097409)
-p("Bar_Cup_01",170447,261364,32849,16163,1366,2097409)
+p("Bar_Cup_01",169458,261580,32867,13906,1366,2097409)
+p("Bar_Cup_01",170448,261359,32849,16163,1366,2097409)
 p("TropicalRockSharp_01",172532,249124,32204,8928,81,552,-4009,630,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockAssembly_01",172881,249400,31680,16006,133,"terrainchunk",10,0,0,51,84,10,40,60,2228229)
 p("TropicalRockSharpWalk_02",175800,251400,31500,"terrainchunk",10,0,0,40,60,10,40,60,131073)
-p("DecPuddle_05",172638,260701,32149,18542,35,4283709979,2492,2097421)
-p("Bar_Barrel_05",173266,261741,32877,5400,1366,2150654352,2152944467,"",1075845377)
-p("Bar_Cup_01",173802,261218,32849,16163,1366,2097409)
+p("DecPuddle_05",172639,260696,32149,18542,35,4283709979,2492,2097421)
+p("Bar_Barrel_05",173267,261736,32877,5400,1366,2150654352,2152944467,"",1075845377)
+p("Bar_Cup_01",173803,261213,32849,16163,1366,2097409)
 p("Garand",177571,261620,32436,5459,-530,-4026,530,2097169)
 p("TropicalRockSharp_01",183398,230372,13762,15850,250,2031,1711,3118,2566,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("TropicalPlant_04_Shrub_01",183670,229912,15754,20188,83,-3924,-1097,415,781,2097429)
@@ -92037,7 +92144,7 @@ p("TropicalRockAssembly_01",166159,263271,31989,15987,133,-303,-34,4084,"terrain
 p("TropicalRockSharp_01",165111,267950,31290,7352,155,-83,-211,4089,2042,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("TropicalRockSharp_02",166285,267045,29363,8073,158,1234,-2306,3152,2042,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("TropicalRockSharpWalk_02",169800,263400,31500,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
-p("Bar_Cup_01",170076,262271,32855,7163,1366,2097409)
+p("Bar_Cup_01",170077,262266,32855,7163,1366,2097409)
 p("TropicalRockSharp_01",163867,273619,31290,2865,155,-420,-253,4066,2042,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("TropicalRockSharp_01",165111,278503,36958,7352,155,-83,-211,4089,3529,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("TropicalRockSharp_01",168471,275714,30221,6932,250,0,-1011,3969,2042,"terrainchunk",10,0,0,40,60,10,40,60,2228501)

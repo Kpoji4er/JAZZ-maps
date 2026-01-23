@@ -793,16 +793,6 @@ PlaceObj('Collection', {
 	'Index', 618,
 }, nil, 1897842360)
 SetNextSyncHandle(2000000001)
-PlaceObj('GridMarker', {
-	'Pos', point(76200, 117000, 7700),
-	'Groups', {
-		"AL_Defender",
-	},
-	'AllowedMask', 4294966497,
-	'Type', "Defender",
-	'AreaWidth', 6,
-	'AreaHeight', 6,
-}, nil, 1583175902)
 PlaceObj('IntelMarker', {
 	'Pos', point(101400, 91800, 11900),
 	'AllowedMask', 4294966497,
@@ -813,7 +803,18 @@ PlaceObj('IntelMarker', {
 	'Description', T(981850004708, "Относительно безопасный путь"),
 }, nil, 1302593188)
 PlaceObj('GridMarker', {
-	'Pos', point(63000, 142200, 6300),
+	'Pos', point(119400, 89400, 12600),
+	'Groups', {
+		"AL_Defender",
+		"Enemy_Destination_1",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+}, nil, 1386759252)
+PlaceObj('GridMarker', {
+	'Pos', point(63000, 142200, 7000),
 	'Groups', {
 		"West",
 	},
@@ -829,24 +830,17 @@ PlaceObj('ExitZoneInteractable', {
 	},
 	'AllowedMask', 4294966497,
 }, nil, 1496472809)
-PlaceObj('ShowHideCollectionMarker', {
-	'Pos', point(94200, 143400, 7000),
+PlaceObj('GridMarker', {
+	'Pos', point(72600, 131400, 7000),
 	'Groups', {
-		"BrokenMG_Interaction",
+		"AL_Defender",
+		"AL_Defender_Target",
 	},
-	'CollectionIndex', 736,
 	'AllowedMask', 4294966497,
-	'ID', "Jazz_M2_ShowHide",
-	'Spawn_Conditions', {
-		PlaceObj('UnitHasInteraction', {
-			'TargetUnit', "any merc",
-			'CombatAction', "Interact_CustomInteractable",
-			'Event', "end",
-			'Group', "MuchineGunM2",
-		}),
-	},
-	'CollectionRange', 30000,
-}, nil, 1892863667)
+	'Type', "Defender",
+	'AreaWidth', 10,
+	'AreaHeight', 35,
+}, nil, 1583175902)
 PlaceObj('IntelMarker', {
 	'Pos', point(95400, 142200, 7000),
 	'AllowedMask', 4294966497,
@@ -856,8 +850,25 @@ PlaceObj('IntelMarker', {
 	'IntelAreaText', T(933737170259, "Останки взорванного конвоя"),
 	'Description', T(204773811847, "Имеет смысл обыскать местность"),
 }, nil, 1383588246)
+PlaceObj('ShowHideCollectionMarker', {
+	'Pos', point(95400, 143400, 7000),
+	'Groups', {
+		"BrokenMG_Interaction",
+	},
+	'CollectionIndex', 736,
+	'AllowedMask', 4294966497,
+	'ID', "Jazz_M2_ShowHide",
+	'Spawn_Conditions', {
+		PlaceObj('UnitHasInteraction', {
+			'TargetUnit', "player mercs on map",
+			'CombatAction', "Interact_CustomInteractable",
+			'Group', "MuchineGunM2",
+		}),
+	},
+	'CollectionRange', 30000,
+}, nil, 1892863667)
 PlaceObj('CustomInteractable', {
-	'Pos', point(96600, 143400, 7000),
+	'Pos', point(97800, 143400, 7000),
 	'Angle', 16200,
 	'Groups', {
 		"BrokenMG_Interaction",
@@ -952,6 +963,17 @@ PlaceObj('IntelMarker', {
 	'Description', "",
 }, nil, 1184204633)
 PlaceObj('GridMarker', {
+	'Pos', point(119400, 169800, 11900),
+	'Groups', {
+		"AL_Defender",
+		"Enemy_Destination_2",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+}, nil, 1457440048)
+PlaceObj('GridMarker', {
 	'Pos', point(141000, 124200, 7000),
 	'Groups', {
 		"AL_Defender",
@@ -969,17 +991,6 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 100,
 	'Reachable', false,
 }, nil, 1834157092)
-PlaceObj('GridMarker', {
-	'Pos', point(165000, 85800, 14000),
-	'Groups', {
-		"AL_Defender",
-		"Enemy_Destination_1",
-	},
-	'AllowedMask', 4294966497,
-	'Type', "Defender",
-	'AreaWidth', 6,
-	'AreaHeight', 6,
-}, nil, 1386759252)
 PlaceObj('UnitMarker', {
 	'Pos', point(181800, 69000),
 	'AllowedMask', 4294966497,
@@ -1162,7 +1173,7 @@ PlaceObj('ContainerIntelMarker', {
 			'ItemId', "SVT40",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "762x54_mg_ammo",
+			'LootTableId', "762x54_sniper_ammo",
 		}),
 	},
 	'IntelAreaText', T(773741048712, "Разграбленый тайник партизан"),
@@ -1215,7 +1226,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "AL_Defender_Target",
 	'Appearance', "LegionGoon",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -1229,7 +1240,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "AL_Defender_Target",
 	'Appearance', "LegionGrenadir",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -1243,7 +1254,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "AL_Defender_Target",
 	'Appearance', "LegionGunner",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -1327,7 +1338,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "AL_Defender_Target",
 	'Appearance', "Legion_Recon03",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -1341,7 +1352,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "AL_Defender_Target",
 	'Appearance', "LegionGoon",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -1355,7 +1366,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "AL_Defender_Target",
 	'Appearance', "LegionScout_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -1369,7 +1380,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "AL_Defender_Target",
 	'Appearance', "LegionGrenadir_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -1383,7 +1394,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "AL_Defender_Target",
 	'Appearance', "Legion_Heavy03",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -1397,7 +1408,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "AL_Defender_Target",
 	'Appearance', "LegionScout_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -1411,7 +1422,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
-	'RoutineArea', "West",
+	'RoutineArea', "AL_Defender_Target",
 	'Appearance', "LegionScout_alt",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
@@ -1541,17 +1552,6 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 6,
 	'AreaHeight', 6,
 }, nil, 1592995803)
-PlaceObj('GridMarker', {
-	'Pos', point(154200, 160200),
-	'Groups', {
-		"AL_Defender",
-		"Enemy_Destination_2",
-	},
-	'AllowedMask', 4294966497,
-	'Type', "Defender",
-	'AreaWidth', 6,
-	'AreaHeight', 6,
-}, nil, 1457440048)
 PlaceObj('ContainerIntelMarker', {
 	'Pos', point(156600, 155400, 6300),
 	'CollectionIndex', 1334,
@@ -1560,7 +1560,7 @@ PlaceObj('ContainerIntelMarker', {
 	'DisplayName', T(654287758819, "ТАЙНИК"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "IntelSecretStash",
+			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
 		}),
 	},
 }, nil, 53280768)
@@ -4320,7 +4320,7 @@ PlaceObj('World_WoodenBox_04', {
 	'AllowedMask', 782,
 }, nil, 1178553710)
 PlaceObj('MachineGunEmplacement', {
-	'Pos', point(96600, 143400, 7000),
+	'Pos', point(97800, 143400, 7000),
 	'Angle', 21135,
 	'Groups', {
 		"BrokenMG_MachineGun",
@@ -4332,6 +4332,7 @@ PlaceObj('MachineGunEmplacement', {
 	'AllowedMask', 0,
 	'ammo_template', "_50BMG_Basic",
 	'target_dist', 91200,
+	'appeal_per_meter', 10,
 }, nil, 1731726218)
 PlaceObj('World_AfricanTotem_03', {
 	'ColorizationPalette', "",
@@ -20199,7 +20200,7 @@ p("TropicalPlant_Grass_04",211000,89000,124,4)
 p("TropicalPlant_Grass_01",211000,90000,51,4)
 p("TropicalPlant_Grass_03",212000,89000,121,4)
 p("TropicalPlant_Grass_04",212000,90000,111,4)
-p("SVT_40",205462,90836,12839,5400,4096,0,0,7,3668,2097553)
+p("SVT_40",205462,90836,12839,5400,4096,0,0,3668,2097425)
 p("TropicalPlant_Dead_15",205225,94609,11998,15997,-1469,-1827,3358,2097169)
 p("TropicalPlant_Dead_16",204862,95430,12469,7806,-1689,591,3684,2097169)
 p("TropicalPlant_Dead_16",204815,95772,12469,8118,-1684,497,3700,2097169)
