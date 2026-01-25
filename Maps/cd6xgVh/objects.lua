@@ -502,6 +502,13 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Name', "col_Cinematic_Map",
+	'Index', 1317,
+}, nil, 1578646455)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_ContainerMarker",
 	'Index', 2348,
 }, nil, 1580159697)
@@ -1092,7 +1099,7 @@ PlaceObj('HerbMarker', {
 	'range_in_tiles', 1,
 }, nil, 1070703813)
 PlaceObj('GridMarker', {
-	'Pos', point(119400, 132600, 6300),
+	'Pos', point(119400, 132600, 7000),
 	'Groups', {
 		"AL_Defender",
 	},
@@ -6872,6 +6879,7 @@ PlaceObj('City_Plywood_04', {
 	'Axis', point(-1463, 3534, 1463),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1317,
 	'AllowedMask', 782,
 }, nil, 1227775239)
 PlaceObj('World_WoodenBox_04', {
@@ -6931,6 +6939,7 @@ PlaceObj('Cinematic_Map', {
 	'Axis', point(-5, -4, 4095),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
 }, nil, 1194914439)
 PlaceObj('World_WoodenBox_04', {

@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4731,
+	'version', 4767,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
@@ -21,7 +21,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1769193974,
+	'saved', 1769308119,
 	'code_hash', -4445560982361173495,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
@@ -1886,6 +1886,11 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "QuestsDef",
+			'Id', "HideM2_Brpwning",
+			'ClassDisplayName', "QuestsEditor",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "QuestsDef",
 			'Id', "_TestQuest",
 			'ClassDisplayName', "QuestsEditor",
 		}),
@@ -2068,6 +2073,11 @@ return PlaceObj('ModDef', {
 			'Class', "ConstDef",
 			'Id', "MercSquadMaxPeople",
 			'ClassDisplayName', "Constant",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "Camera",
+			'Id', "Camera_3_copy",
+			'ClassDisplayName', "Camera",
 		}),
 	},
 	'steam_id', "3322285655",

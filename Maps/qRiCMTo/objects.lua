@@ -48,6 +48,13 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Name', "col_MachineGunEmplacement",
+	'Index', 341,
+}, nil, 1022923492)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_TropicalRockSharp_9",
 	'Index', 22,
 }, nil, 1044689951)
@@ -67,14 +74,6 @@ PlaceObj('Collection', {
 	'Name', "col_TropicalRockSharp_35",
 	'Index', 2498,
 }, nil, 1055340071)
-PlaceObj('Collection', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'CollectionIndex', 736,
-	'AllowedMask', 4294966497,
-	'Name', "col_ContainerMarker_3",
-	'Index', 2535,
-}, nil, 1080195361)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -349,13 +348,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-	'Name', "col_CustomInteractable",
-	'Index', 736,
-}, nil, 1383995813)
-PlaceObj('Collection', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
 	'Name', "col_Shanty_WallShed_03",
 	'Index', 1200,
 }, nil, 1409352678)
@@ -583,13 +575,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-	'Name', "col_Mine_Shovel",
-	'Index', 3836,
-}, nil, 1650382535)
-PlaceObj('Collection', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
 	'Index', 3940,
 }, nil, 1662795143)
 PlaceObj('Collection', {
@@ -726,6 +711,13 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Name', "col_Mine_Shovel",
+	'Index', 1002,
+}, nil, 1830669915)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2059,
 	'AllowedMask', 4294966497,
 	'Name', "col_WaterPlane_3",
@@ -851,32 +843,39 @@ PlaceObj('IntelMarker', {
 	'Description', T(204773811847, "Имеет смысл обыскать местность"),
 }, nil, 1383588246)
 PlaceObj('ShowHideCollectionMarker', {
-	'Pos', point(95400, 143400, 7000),
-	'Groups', {
-		"BrokenMG_Interaction",
-	},
-	'CollectionIndex', 736,
+	'Pos', point(95400, 143400),
+	'CollectionIndex', 341,
 	'AllowedMask', 4294966497,
-	'ID', "Jazz_M2_ShowHide",
 	'Spawn_Conditions', {
-		PlaceObj('UnitHasInteraction', {
-			'TargetUnit', "player mercs on map",
-			'CombatAction', "Interact_CustomInteractable",
-			'Group', "MuchineGunM2",
+		PlaceObj('OR', {
+			Conditions = {
+				PlaceObj('QuestIsTCEState', {
+					Prop = "TCE_Given",
+					QuestId = "HideM2_Brpwning",
+					Value = true,
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "HideM2_Brpwning",
+					Vars = set( "Completed" ),
+				}),
+			},
 		}),
 	},
-	'CollectionRange', 30000,
-}, nil, 1892863667)
+}, nil, 1219564211)
 PlaceObj('CustomInteractable', {
 	'Pos', point(97800, 143400, 7000),
 	'Angle', 16200,
 	'Groups', {
 		"BrokenMG_Interaction",
 	},
-	'CollectionIndex', 2535,
+	'CollectionIndex', 341,
 	'AllowedMask', 4294966497,
-	'DisplayName', T(201463584679, "Fix"),
-	'TriggerEffects', {},
+	'DisplayName', T(847919580703, "Починить"),
+	'TriggerEffects', {
+		PlaceObj('DisableInteractionMarkerEffect', {
+			Group = "BrokenMG_MachineGun",
+		}),
+	},
 	'ActionPoints', 3000,
 	'Visuals', "UI/Hud/iw_fix",
 	'special_highlight', false,
@@ -922,41 +921,31 @@ PlaceObj('CustomInteractable', {
 	'Groups', {
 		"MuchineGunM2",
 	},
-	'CollectionIndex', 3836,
+	'CollectionIndex', 1002,
 	'AllowedMask', 4294966497,
-	'DisplayName', T(606982136409, "Выкопать и открыть ящик"),
+	'DisplayName', T(880988512379, "Тут что-то есть"),
 	'ID', "MuchineGunM2",
-	'EnabledConditions', {
-		PlaceObj('SectorHasIntel', {}),
-	},
 	'ConditionalEffects', {
-		PlaceObj('ConditionalEffect', {
-			'Conditions', {
+		PlaceObj('EffectsWithCondition', {
+			Conditions = {
 				PlaceObj('UnitHasStat', {
-					Amount = 70,
-					FailText = T(642045694517, "Слабак!"),
+					Amount = 50,
+					FailText = T(581026537802, "Силёнок не хватило, черт с ним."),
 					Stat = "Strength",
-					SuccessText = T(236796610820, "Вот зачем нужны мышцы!"),
+					SuccessText = T(279300483548, "Вот это подарок!"),
 					TargetUnit = "current unit",
 				}),
 			},
-			'Effects', {
-				PlaceObj('ConditionalEffect', {
-					'Conditions', {},
-					'Effects', {
-						PlaceObj('DisableInteractionMarkerEffect', {
-							Group = "BrokenMG_MachineGun",
-							Negate = true,
-						}),
-					},
-					'EffectsElse', {},
+			Effects = {
+				PlaceObj('QuestSetVariableBool', {
+					Prop = "Given",
+					QuestId = "HideM2_Brpwning",
 				}),
-				PlaceObj('UpdateInteractablesHighlight', {}),
+				PlaceObj('DisableInteractionMarkerEffect', {}),
 			},
-			'EffectsElse', {},
 		}),
 	},
-}, nil, 1559586047)
+}, nil, 1528105212)
 PlaceObj('IntelMarker', {
 	'Pos', point(129000, 147000, 7000),
 	'AllowedMask', 4294966497,
@@ -4287,7 +4276,7 @@ PlaceObj('DecExplosion_08', {
 	'AllowedMask', 0,
 }, nil, 1812067511)
 PlaceObj('DecExplosion_07', {
-	'Pos', point(92204, 140490),
+	'Pos', point(92272, 140509),
 	'Angle', 15370,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -4320,7 +4309,7 @@ PlaceObj('World_WoodenBox_04', {
 	'Axis', point(3143, 2502, 796),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'CollectionIndex', 3836,
+	'CollectionIndex', 1002,
 	'AllowedMask', 782,
 }, nil, 1178553710)
 PlaceObj('MachineGunEmplacement', {
@@ -4332,7 +4321,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', false,
-	'CollectionIndex', 2535,
+	'CollectionIndex', 341,
 	'AllowedMask', 0,
 	'ammo_template', "_50BMG_Basic",
 	'target_dist', 91200,
@@ -8389,7 +8378,7 @@ PlaceObj('Mine_Shovel', {
 	'Axis', point(1283, -3490, 1716),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'CollectionIndex', 3836,
+	'CollectionIndex', 1002,
 	'AllowedMask', 4294967279,
 }, nil, 1466259099)
 PlaceObj('TropicalPlant_Liana_05', {
@@ -18727,8 +18716,10 @@ p("TropicalPlant_Grass_02",84000,142000,88,4)
 p("TropicalRockSharp_01",85964,142455,3015,17269,250,-2572,-1620,2744,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_01",82000,145000,115,4)
 p("TropicalPlant_Grass_04",83000,144000,63,4)
+p("TropicalPlant_VineCovered_01",89735,139719,8531,19345,2181,-3110,1530,2097169)
 p("TropicalPlant_Grass_02",89000,147000,57,4)
 p("TropicalPlant_Grass_04",90000,147000,99,4)
+p("TropicalPlant_VineCovered_01",90263,138465,7398,20007,133,2646,-2138,2280,2097173)
 p("TropicalRockSharp_01",90417,138404,4147,2407,250,2398,-3150,1052,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_03",98000,136000,118,4)
 p("TropicalPlant_Grass_02",98000,137000,144,4)
@@ -20215,7 +20206,7 @@ p("TropicalPlant_Grass_04",211000,89000,124,4)
 p("TropicalPlant_Grass_01",211000,90000,51,4)
 p("TropicalPlant_Grass_03",212000,89000,121,4)
 p("TropicalPlant_Grass_04",212000,90000,111,4)
-p("SVT_40",205462,90836,12839,5400,4096,0,0,3668,2097425)
+p("SVT_40",205462,90836,12839,5400,4096,0,0,7,3668,2097553)
 p("TropicalPlant_Dead_15",205225,94609,11998,15997,-1469,-1827,3358,2097169)
 p("TropicalPlant_Dead_16",204862,95430,12469,7806,-1689,591,3684,2097169)
 p("TropicalPlant_Dead_16",204815,95772,12469,8118,-1684,497,3700,2097169)
