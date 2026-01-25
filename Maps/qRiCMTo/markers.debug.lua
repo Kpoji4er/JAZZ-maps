@@ -103,6 +103,30 @@
 	},
 	{
 		Groups = false,
+		handle = 1219564211,
+		items = {
+			{
+				editor_view_abridged = "if TCE_Given",
+				filter_type = "quest",
+				reference_id = "HideM2_Brpwning",
+				type = "QuestIsTCEState",
+				var = "TCE_Given",
+			},
+			{
+				editor_view_abridged = "if Completed",
+				filter_type = "quest",
+				reference_id = "HideM2_Brpwning",
+				type = "QuestIsVariableBool",
+				var = set( "Completed" ),
+			},
+		},
+		map = "qRiCMTo",
+		name = "Position#211",
+		path = "Position ",
+		type = "Position",
+	},
+	{
+		Groups = false,
 		handle = 1224758176,
 		items = {},
 		map = "qRiCMTo",
@@ -213,6 +237,25 @@
 		map = "qRiCMTo",
 		name = 'CustomInteractable#046 "Починить" (BrokenMG_Interaction)',
 		path = "CustomInteractable ",
+		type = "CustomInteractable",
+	},
+	{
+		Groups = {
+			"MuchineGunM2",
+		},
+		handle = 1528105212,
+		items = {
+			{
+				editor_view_abridged = "Given = true",
+				filter_type = "quest",
+				reference_id = "HideM2_Brpwning",
+				type = "QuestSetVariableBool",
+				var = "Given",
+			},
+		},
+		map = "qRiCMTo",
+		name = 'CustomInteractable#212 MuchineGunM2 "Тут что-то есть" (MuchineGunM2)',
+		path = "CustomInteractable MuchineGunM2",
 		type = "CustomInteractable",
 	},
 	{

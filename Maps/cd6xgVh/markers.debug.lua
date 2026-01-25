@@ -2,8 +2,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"LegionNoob_SKS",
-			"LegionNoob_Agram2000",
+			"9x18_smg_ammo",
 			"GrenadeBox",
 		},
 		handle = 108306432,
@@ -37,8 +36,9 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Noob_45ACP",
-			"EnemyValuablesLeaders",
+			"44cal_revolver_ammo",
+			"Container_Explosives_TNT",
+			"Container_Explosives_VariedUtility",
 		},
 		handle = 804257792,
 		map = "cd6xgVh",

@@ -2520,7 +2520,10 @@ PlaceObj('ContainerMarker', {
 	'AllowedMask', 4294966497,
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Strong_LeatherArmor",
+			'LootTableId', "LegionArmor_Pants_Head_T2",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "LegionArmor_OnlyPants_T1",
 		}),
 	},
 }, nil, 658096128)
@@ -2674,7 +2677,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(710145438390, "CONTAINER"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "LegionNoob_ZastavaM70",
+			'LootTableId', "RiflesSemi_ZastavaM76",
 		}),
 		PlaceObj('ConditionalLoot', {
 			'LootTableId', "WeaponShipment_Crafting",
@@ -2689,10 +2692,13 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(710145438390, "CONTAINER"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "LegionElite_CZ75",
+			'ItemId', "CZ75",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "LegionNoob_FRF2",
+			'LootTableId', "9x19_smg_ammo",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "9x19_smg_ammo",
 		}),
 	},
 }, nil, 33472512)
@@ -6037,6 +6043,22 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1042458242)
+PlaceObj('AL_PlayAnimVariation', {
+	'Entity', "Male_Body_01",
+	'Pos', point(127629, 137379, 6718),
+	'Angle', 61,
+	'Groups', {
+		"AL_Defender",
+		"Closest AmbientZoneMarker",
+	},
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'IgnoreHeightSurfaces', true,
+	'AllowedMask', 4294966497,
+	'anim', "civ_Ambient_Pee",
+	'VisitIdle', "civ_Ambient_Pee",
+	'IgnoreVisitSupportVME', true,
+}, nil, 1433424946)
 PlaceObj('FloorSlab', {
 	'Pos', point(127800, 137400, 9100),
 	'Saturation', 0,
@@ -11474,7 +11496,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "JAZZ_AMMO_50BMG_Basic",
-	'target_dist', 114000,
+	'target_dist', 91200,
 }, nil, 1870635959)
 PlaceObj('BunkerInterior_Locker_02', {
 	'Pos', point(136200, 95400),
@@ -18473,19 +18495,6 @@ PlaceObj('HangarSmall_Window_02', {
 	'CollectionIndex', 906,
 	'AllowedMask', 4294967279,
 }, nil, 1394367119)
-PlaceObj('AL_PlayAnimVariation', {
-	'Entity', "Male_Body_01",
-	'Pos', point(131141, 118156, 10468),
-	'Angle', 61,
-	'Groups', {
-		"AL_Defender",
-	},
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'anim', "civ_Ambient_Pee",
-	'VisitIdle', "civ_Ambient_Pee",
-}, nil, 1072594978)
 PlaceObj('HangarSmall_Wall_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(64, 68, 50, 255),
@@ -26388,7 +26397,7 @@ PlaceObj('SoundSource', {
 	'AllowedMask', 4294966497,
 	'Sounds', {
 		PlaceObj('SoundSourceSound', {
-			'Sound', "AK_50_Music",
+			'Sound', "radio-radiostation",
 		}),
 	},
 	'LoudDistance', 1891,

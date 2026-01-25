@@ -936,7 +936,10 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(710145438390, "CONTAINER"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "LegionGoon",
+			'LootTableId', "Revolvers_ColtM1917",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "SkillMagazine_Random",
 		}),
 		PlaceObj('ConditionalLoot', {
 			'LootTableId', "SkillMagazine_Random",
@@ -1013,6 +1016,10 @@ PlaceObj('ContainerMarker', {
 	'AllowedMask', 4294966497,
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
+			'LootTableId', "EmeraldCoast_Cave",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'ItemId', "BigDiamond",
 			'LootTableId', "EmeraldCoast_Cave",
 		}),
 	},
@@ -2495,7 +2502,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(710145438390, "CONTAINER"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "EmeraldCoast_Minefield_Chest",
+			'LootTableId', "9x19_pistol_ammo",
 		}),
 	},
 }, nil, 1725821718)
@@ -16333,7 +16340,7 @@ PlaceObj('CoastalPlant_01_Tree_02', {
 	'AllowedMask', 4294967279,
 }, nil, 1388038702)
 PlaceObj('TropicalFillerPlants_02', {
-	'Pos', point(130810, 135229),
+	'Pos', point(130801, 135228),
 	'Angle', 1847,
 	'Scale', 97,
 	'Axis', point(207, 38, 4090),
@@ -38602,7 +38609,7 @@ p("TropicalPlant_Grass_03",114710,158317,7874,17936,130,2097157)
 p("TropicalPlant_Grass_03",114928,159264,8376,6390,106,2097157)
 p("TropicalRockAssembly_04",116268,158304,8216,8220,107,"terrainchunk",10,0,0,75,100,10,40,60,2228229)
 p("TropicalRockAssembly_04",115865,158944,8116,20640,145,"terrainchunk",10,0,0,75,100,10,40,60,2228229)
-p("TropicalRockSharp_01",116121,158903,5352,4800,140,-354,2301,3369,"terrainchunk",10,0,0,75,100,10,40,60,2228245)
+p("TropicalRockSharp_01",116115,158905,5352,4800,140,-354,2301,3369,"terrainchunk",10,0,0,75,100,10,40,60,2228245)
 p("TropicalRockSharp_04",116817,159472,8374,19740,111,2425,-693,3227,2,"terrainchunk",10,0,0,75,100,10,40,60,2228373)
 p("TropicalPlant_Grass_03",118299,158103,6950,14890,122,2097157)
 p("TropicalPlant_Grass_03",115122,160597,8392,2582,123,2097157)

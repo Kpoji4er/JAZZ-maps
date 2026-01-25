@@ -5474,6 +5474,7 @@ PlaceObj('AL_Talk', {
 	'Pos', point(58497, 78548, 19550),
 	'Groups', {
 		"Closest AmbientZoneMarker",
+		"Legion_Shooters",
 	},
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -5486,6 +5487,7 @@ PlaceObj('AL_Talk', {
 	'Angle', 10394,
 	'Groups', {
 		"Closest AmbientZoneMarker",
+		"Legion_Shooters",
 	},
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -9371,8 +9373,8 @@ PlaceObj('TreeAttach_03', {
 	'AllowedMask', 0,
 }, nil, nil)
 PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(65890, 96991),
-	'Angle', 20126,
+	'Pos', point(65930, 96576, 19559),
+	'Angle', 18912,
 	'Scale', 101,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -9393,18 +9395,20 @@ PlaceObj('TreeAttach_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, nil)
-PlaceObj('AL_WallLean_NoSnap', {
-	'Entity', "Male_Body_01",
-	'Pos', point(66580, 97009, 19517),
-	'Angle', 11554,
+PlaceObj('AL_Talk', {
+	'Entity', "NPCCostumeMale_Shirt_01",
+	'Pos', point(66622, 96415, 19557),
+	'Angle', 21194,
 	'Groups', {
 		"Closest AmbientZoneMarker",
+		"Legion_Shooters",
 	},
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-	'anim', "editorMarkerAnim_Wall",
-}, nil, 1054617624)
+	'anim', "civ_Wall_Idle",
+	'VisitIdle', "civ_Wall_Idle",
+}, nil, 1287617048)
 PlaceObj('TreeAttach_06', {
 	'Pos', point(67000, 97000),
 	'Angle', 19106,
@@ -9578,21 +9582,12 @@ PlaceObj('TropicalFillerPlants_04', {
 	'AllowedMask', 0,
 }, nil, 1205955362)
 PlaceObj('TropicalPlant_02_Tree_02', {
-	'Pos', point(69455, 127951),
+	'Pos', point(69003, 127951, 13686),
 	'Angle', 2664,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1767038125)
-PlaceObj('AL_WallLean_NoSnap', {
-	'Entity', "Male_Body_01",
-	'Pos', point(69503, 128661, 13686),
-	'Angle', 17100,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'anim', "editorMarkerAnim_Wall",
-}, nil, 1169488733)
 PlaceObj('TropicalFillerPlants_01', {
 	'Pos', point(71243, 125448),
 	'Angle', 8651,
@@ -9602,7 +9597,7 @@ PlaceObj('TropicalFillerPlants_01', {
 	'AllowedMask', 0,
 }, nil, 1896344649)
 PlaceObj('TropicalPlant_06_Tree_01', {
-	'Pos', point(71114, 127696),
+	'Pos', point(71116, 127697),
 	'Angle', 16596,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -9666,15 +9661,6 @@ PlaceObj('TropicalPlant_04_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1007571512)
-PlaceObj('AL_WallLean_NoSnap', {
-	'Entity', "Male_Body_01",
-	'Pos', point(82397, 130428, 13686),
-	'Angle', 3801,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'anim', "editorMarkerAnim_Wall",
-}, nil, 1804011802)
 PlaceObj('TropicalPlant_06_Tree_02', {
 	'Pos', point(85185, 128307, 13686),
 	'Angle', 13636,
@@ -18834,15 +18820,20 @@ PlaceObj('CoastalPlant_01_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1867051212)
-PlaceObj('AL_WallLean_NoSnap', {
-	'Entity', "Male_Body_01",
-	'Pos', point(75085, 136620, 13686),
-	'Angle', 3801,
+PlaceObj('AL_Talk', {
+	'Entity', "NPCCostumeMale_Shirt_01",
+	'Pos', point(77309, 135071, 13682),
+	'Angle', 16200,
+	'Groups', {
+		"Closest AmbientZoneMarker",
+	},
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-	'anim', "editorMarkerAnim_Wall",
-}, nil, 1481193494)
+	'anim', "nw_Standing_IdlePassive",
+	'VisitAlternateChance', 29,
+	'EmotionChance', 11,
+}, nil, 1552649518)
 PlaceObj('CoastalPlant_01_Tree_04', {
 	'Pos', point(74912, 138931),
 	'Angle', 16384,
@@ -18918,6 +18909,20 @@ PlaceObj('TropicalPlant_02_Tree_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1017406418)
+PlaceObj('AL_Talk', {
+	'Entity', "NPCCostumeMale_Shirt_01",
+	'Pos', point(82168, 131255, 13686),
+	'Angle', 10800,
+	'Groups', {
+		"Closest AmbientZoneMarker",
+	},
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'anim', "nw_Standing_IdlePassive",
+	'VisitAlternateChance', 29,
+	'EmotionChance', 11,
+}, nil, 1652069446)
 PlaceObj('TropicalPlant_04_Tree_01', {
 	'Pos', point(83071, 131171),
 	'Angle', 1002,
@@ -19453,21 +19458,6 @@ PlaceObj('JungleCamp_FoodCanPile_06', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1134283831)
-PlaceObj('AL_SitChair', {
-	'Entity', "Male_Body_01",
-	'Pos', point(97925, 155330, 17953),
-	'Angle', 5059,
-	'Groups', {
-		"Closest AmbientZoneMarker",
-	},
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'anim', "editorMarkerAnim_Sit",
-	'VisitVariation', true,
-	'VisitAlternateChance', 29,
-	'EmotionChance', 11,
-}, nil, 1060577610)
 PlaceObj('Bunker_MetalBed_mattress', {
 	'Pos', point(93834, 156948, 18098),
 	'Angle', 1177,
@@ -20077,21 +20067,6 @@ PlaceObj('Bunker_MetalBed_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1178572946)
-PlaceObj('AL_WallLean_NoSnap', {
-	'Entity', "Male_Body_01",
-	'Pos', point(100271, 152215, 18040),
-	'Angle', 17257,
-	'Groups', {
-		"Closest AmbientZoneMarker",
-	},
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'anim', "editorMarkerAnim_Wall",
-	'VisitVariation', true,
-	'VisitAlternateChance', 29,
-	'EmotionChance', 11,
-}, nil, 1071105024)
 PlaceObj('Shanty_Chair_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(41, 55, 42, 255),
@@ -20245,6 +20220,78 @@ PlaceObj('AL_Roam', {
 	'VisitAlternateChance', 29,
 	'EmotionChance', 11,
 }, nil, 1898983970)
+PlaceObj('Bunker_MetalBed_mattress', {
+	'Pos', point(98429, 156408, 18389),
+	'Angle', 4964,
+	'Scale', 33,
+	'Axis', point(-55, 60, 4095),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1343874986)
+PlaceObj('Bunker_MetalBed_mattress', {
+	'Pos', point(98430, 156408, 18421),
+	'Angle', 6763,
+	'Scale', 33,
+	'Axis', point(-54, 34, 4095),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1714284233)
+PlaceObj('Bunker_MetalBed_mattress', {
+	'Pos', point(98443, 156408, 18452),
+	'Angle', 4821,
+	'Scale', 33,
+	'Axis', point(-54, 61, 4095),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1347712742)
+PlaceObj('Bunker_MetalBed_mattress', {
+	'Pos', point(98468, 156395, 18487),
+	'Angle', 5395,
+	'Scale', 33,
+	'Axis', point(-53, 51, 4095),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1043708414)
+PlaceObj('AL_SitChair', {
+	'Entity', "Male_Body_01",
+	'Pos', point(98434, 156637, 18055),
+	'Angle', 21259,
+	'Groups', {
+		"Closest AmbientZoneMarker",
+		"AL_Defender",
+	},
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'anim', "civ_Sit_Idle",
+	'VisitAlternateChance', 29,
+	'VisitAlternate', "civ_Sit_Idle",
+	'EmotionChance', 11,
+	'EmotionAnimation', "civ_Ambient_Cheering",
+	'GameStatesFilter', set({
+	Coastal = true,
+	Conflict = false,
+	Day = true,
+	DustStorm = true,
+	Farmlands = true,
+	FireStorm = true,
+	Fog = true,
+	Heat = true,
+	Jungle = true,
+	Marshlands = true,
+	Night = true,
+	RainLight = true,
+	Sunrise = true,
+	Sunset = true,
+}),
+	'IgnoreVisitSupportVME', true,
+	'EditorMarkerVisitAnim', "civ_Sit_Idle",
+	'VisitPose', 31,
+}, nil, 1060577610)
 PlaceObj('Shanty_BottleCrate_01', {
 	'Pos', point(99327, 155655),
 	'Saturation', 0,
@@ -20383,6 +20430,19 @@ PlaceObj('TropicalFillerPlants_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1731564206)
+PlaceObj('AL_Talk', {
+	'Entity', "NPCCostumeMale_Shirt_01",
+	'Pos', point(104937, 157734, 18151),
+	'Groups', {
+		"Closest AmbientZoneMarker",
+	},
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'anim', "nw_Standing_IdlePassive",
+	'VisitAlternateChance', 29,
+	'EmotionChance', 11,
+}, nil, 1208006610)
 PlaceObj('TropicalFillerPlants_03', {
 	'Pos', point(102714, 161259),
 	'Angle', 19951,
@@ -20454,6 +20514,20 @@ PlaceObj('TreeAttach_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, nil)
+PlaceObj('AL_Talk', {
+	'Entity', "NPCCostumeMale_Shirt_01",
+	'Pos', point(107421, 157684, 18290),
+	'Angle', 9433,
+	'Groups', {
+		"Closest AmbientZoneMarker",
+	},
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'anim', "nw_Standing_IdlePassive",
+	'VisitAlternateChance', 29,
+	'EmotionChance', 11,
+}, nil, 1428174509)
 PlaceObj('TropicalFillerPlants_08', {
 	'Pos', point(110033, 158233),
 	'Angle', 11600,
@@ -43953,9 +44027,11 @@ p("TropicalRockSharp_01",55954,49166,26947,11703,250,-3747,1377,916,"terrainchun
 p("TropicalPlant_04_Sapling_03",54000,57000,19058,103,2097156)
 p("TropicalRockSharp_01",49527,59700,16615,13604,250,1723,-3458,1359,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharpWalk_01",49800,61800,18900,10800,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalRockSharp_04",54960,61322,19340,17189,76,-3868,-775,1099,2097173)
 p("TropicalRockSharpWalk_01",53400,63000,18900,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalRockSharp_01",53613,64132,17294,17578,130,960,3631,1634,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharpWalk_01",57000,63000,18900,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalRockSharp_04",56169,65165,19340,17189,76,-3868,-775,1099,2097173)
 p("TropicalRockSharp_01",56495,63960,16629,14490,130,-195,2204,3446,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",60112,54607,30584,15433,250,409,3967,933,1307,"terrainchunk",10,0,0,34,86,10,40,60,2228501)
 p("TropicalRockSharp_01",62184,65498,17031,14490,130,-195,2204,3446,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -47326,6 +47402,7 @@ p("TropicalPlant_04_Sapling_01",40761,76944,1754,2097152)
 p("TropicalRockSharp_01",38954,78328,6708,6111,250,-2251,619,3365,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalCliffSharp_01",42600,67800,17500,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalRockSharp_01",44911,68698,13660,12843,130,1565,-1528,3463,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",45583,67768,14210,13097,130,1448,-1891,3332,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalCliffSharp_01",46200,71400,17500,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalRockSharp_01",41238,77076,12273,7146,250,49,331,4082,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",45759,74090,19445,10305,250,-3207,2101,1442,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -47445,6 +47522,7 @@ p("TropicalPlant_05_Shrub_01",57000,75000,20958,74,2097156)
 p("TropicalPlant_04_Sapling_03",56000,76000,127,102,2097156)
 p("TropicalPlant_04_Sapling_06",57000,76000,20261,80,2097156)
 p("TropicalCliffSharp_02",58200,66600,16800,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalRockSharp_04",60766,66461,19416,20240,76,2097157)
 p("TropicalCliffSharp_02",60600,70200,16800,10800,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalRockSharp_01",65013,73107,20445,10701,132,2606,-88,3158,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("DecForestMoss_01",57691,74260,17812,99,4281545007,2097164)
@@ -47466,6 +47544,8 @@ p("TropicalPlant_05_Shrub_01",61000,76000,1537,108,2097156)
 p("TropicalPlant_04_Sapling_05",62000,75000,18319,104,2097156)
 p("TropicalPlant_04_Sapling_04",62000,76000,16916,107,2097156)
 p("TropicalPlant_05_Shrub_01",63000,76000,2732,98,2097156)
+p("TropicalRockSharp_02",55004,83092,20135,18637,-1515,3795,274,"terrainchunk",10,0,0,40,60,10,40,60,2228241)
+p("TropicalRockSharp_02",55004,83092,20135,19698,-1920,2849,2229,"terrainchunk",10,0,0,40,60,10,40,60,2228241)
 p("TropicalCliffSharp_04",53400,84600,17500,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalCliffSharp_04",54600,85800,17500,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("TropicalPlant_Grass_01",56216,84586,19961,83,2097156)

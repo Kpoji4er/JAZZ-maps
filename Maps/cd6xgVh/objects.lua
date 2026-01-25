@@ -502,6 +502,13 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Name', "col_Cinematic_Map",
+	'Index', 1317,
+}, nil, 1578646455)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_ContainerMarker",
 	'Index', 2348,
 }, nil, 1580159697)
@@ -1092,7 +1099,7 @@ PlaceObj('HerbMarker', {
 	'range_in_tiles', 1,
 }, nil, 1070703813)
 PlaceObj('GridMarker', {
-	'Pos', point(119400, 132600, 6300),
+	'Pos', point(119400, 132600, 7000),
 	'Groups', {
 		"AL_Defender",
 	},
@@ -1625,10 +1632,13 @@ PlaceObj('ContainerIntelMarker', {
 	'DisplayName', T(654287758819, "ТАЙНИК"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Noob_45ACP",
+			'LootTableId', "44cal_revolver_ammo",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "EnemyValuablesLeaders",
+			'LootTableId', "Container_Explosives_TNT",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "Container_Explosives_VariedUtility",
 		}),
 	},
 }, nil, 804257792)
@@ -1698,10 +1708,10 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(128339974039, "ГОРА"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "LegionNoob_SKS",
+			'ItemId', "APS",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "LegionNoob_Agram2000",
+			'LootTableId', "9x18_smg_ammo",
 		}),
 		PlaceObj('ConditionalLoot', {
 			'LootTableId', "GrenadeBox",
@@ -6869,6 +6879,7 @@ PlaceObj('City_Plywood_04', {
 	'Axis', point(-1463, 3534, 1463),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1317,
 	'AllowedMask', 782,
 }, nil, 1227775239)
 PlaceObj('World_WoodenBox_04', {
@@ -6928,6 +6939,7 @@ PlaceObj('Cinematic_Map', {
 	'Axis', point(-5, -4, 4095),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1317,
 	'AllowedMask', 4294967279,
 }, nil, 1194914439)
 PlaceObj('World_WoodenBox_04', {
@@ -50839,7 +50851,7 @@ p("DecShantyRubbish_03",176182,118694,21327,166,4280557082,2097164)
 p("JungleCamp_TrenchFloor_02",180174,115019,12442,21271,4290225048,-1453,-3829,65,2097177)
 p("DecSteps_02",178953,117751,18458,165,2097408)
 p("JungleCamp_TrenchFloor_02",179759,117784,12494,1231,4290225048,2097161)
-p("THOMPSON_SMG",176992,119244,13262,5400,4096,0,0,7,2348,2097553)
+p("THOMPSON_SMG",176992,119244,13262,5400,4096,0,0,2348,2097425)
 p("MilitaryCamp_GrenadePile_01",176931,119609,13226,1)
 p("WeaponProp_AK47_01",177292,118898,13257,4704,4096,0,0,2348,2097425)
 p("DecSteps_02",177160,122696,14056,99,165,2097412)
@@ -50889,7 +50901,7 @@ p("TropicalPlant_04_Shrub_02",195124,104900,0)
 p("Bar_Cup_01",188462,107776,13240,9721,2097153)
 p("Bar_Cup_01",188550,108023,13240,1654,2097153)
 p("Bar_Cup_01",188729,107765,13240,21319,2097153)
-p("THOMPSON_SMG",189974,108425,12940,7795,1912,-2561,2561,2097169)
+p("THOMPSON_SMG",189974,108425,12940,7795,1912,-2561,2561,7,2097297)
 p("TropicalRockSharp_01",188557,112197,5844,10911,170,216,-2394,-3314,244,3145749)
 p("DecShantyRubbish_02",189860,111113,20258,133,2097156)
 p("TropicalPlant_04_Shrub_01",188755,113542,11773,10800,152,2097157)

@@ -48,6 +48,13 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Name', "col_MachineGunEmplacement",
+	'Index', 341,
+}, nil, 1022923492)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_TropicalRockSharp_9",
 	'Index', 22,
 }, nil, 1044689951)
@@ -67,14 +74,6 @@ PlaceObj('Collection', {
 	'Name', "col_TropicalRockSharp_35",
 	'Index', 2498,
 }, nil, 1055340071)
-PlaceObj('Collection', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'CollectionIndex', 736,
-	'AllowedMask', 4294966497,
-	'Name', "col_ContainerMarker_3",
-	'Index', 2535,
-}, nil, 1080195361)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -349,13 +348,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-	'Name', "col_CustomInteractable",
-	'Index', 736,
-}, nil, 1383995813)
-PlaceObj('Collection', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
 	'Name', "col_Shanty_WallShed_03",
 	'Index', 1200,
 }, nil, 1409352678)
@@ -583,13 +575,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-	'Name', "col_Mine_Shovel",
-	'Index', 3836,
-}, nil, 1650382535)
-PlaceObj('Collection', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
 	'Index', 3940,
 }, nil, 1662795143)
 PlaceObj('Collection', {
@@ -726,6 +711,13 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Name', "col_Mine_Shovel",
+	'Index', 1002,
+}, nil, 1830669915)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2059,
 	'AllowedMask', 4294966497,
 	'Name', "col_WaterPlane_3",
@@ -851,32 +843,39 @@ PlaceObj('IntelMarker', {
 	'Description', T(204773811847, "Имеет смысл обыскать местность"),
 }, nil, 1383588246)
 PlaceObj('ShowHideCollectionMarker', {
-	'Pos', point(95400, 143400, 7000),
-	'Groups', {
-		"BrokenMG_Interaction",
-	},
-	'CollectionIndex', 736,
+	'Pos', point(95400, 143400),
+	'CollectionIndex', 341,
 	'AllowedMask', 4294966497,
-	'ID', "Jazz_M2_ShowHide",
 	'Spawn_Conditions', {
-		PlaceObj('UnitHasInteraction', {
-			'TargetUnit', "player mercs on map",
-			'CombatAction', "Interact_CustomInteractable",
-			'Group', "MuchineGunM2",
+		PlaceObj('OR', {
+			Conditions = {
+				PlaceObj('QuestIsTCEState', {
+					Prop = "TCE_Given",
+					QuestId = "HideM2_Brpwning",
+					Value = true,
+				}),
+				PlaceObj('QuestIsVariableBool', {
+					QuestId = "HideM2_Brpwning",
+					Vars = set( "Completed" ),
+				}),
+			},
 		}),
 	},
-	'CollectionRange', 30000,
-}, nil, 1892863667)
+}, nil, 1219564211)
 PlaceObj('CustomInteractable', {
 	'Pos', point(97800, 143400, 7000),
 	'Angle', 16200,
 	'Groups', {
 		"BrokenMG_Interaction",
 	},
-	'CollectionIndex', 2535,
+	'CollectionIndex', 341,
 	'AllowedMask', 4294966497,
-	'DisplayName', T(201463584679, "Fix"),
-	'TriggerEffects', {},
+	'DisplayName', T(847919580703, "Починить"),
+	'TriggerEffects', {
+		PlaceObj('DisableInteractionMarkerEffect', {
+			Group = "BrokenMG_MachineGun",
+		}),
+	},
 	'ActionPoints', 3000,
 	'Visuals', "UI/Hud/iw_fix",
 	'special_highlight', false,
@@ -891,6 +890,10 @@ PlaceObj('CustomInteractable', {
 			},
 			'Effects', {
 				PlaceObj('DisableInteractionMarkerEffect', {}),
+				PlaceObj('DisableInteractionMarkerEffect', {
+					Group = "BrokenMG_MachineGun",
+					Negate = true,
+				}),
 				PlaceObj('PlayBanterEffect', {
 					Banters = {
 						"BrokenMGSuccess",
@@ -918,41 +921,31 @@ PlaceObj('CustomInteractable', {
 	'Groups', {
 		"MuchineGunM2",
 	},
-	'CollectionIndex', 3836,
+	'CollectionIndex', 1002,
 	'AllowedMask', 4294966497,
-	'DisplayName', T(606982136409, "Выкопать и открыть ящик"),
+	'DisplayName', T(880988512379, "Тут что-то есть"),
 	'ID', "MuchineGunM2",
-	'EnabledConditions', {
-		PlaceObj('SectorHasIntel', {}),
-	},
 	'ConditionalEffects', {
-		PlaceObj('ConditionalEffect', {
-			'Conditions', {
+		PlaceObj('EffectsWithCondition', {
+			Conditions = {
 				PlaceObj('UnitHasStat', {
-					Amount = 70,
-					FailText = T(642045694517, "Слабак!"),
+					Amount = 50,
+					FailText = T(581026537802, "Силёнок не хватило, черт с ним."),
 					Stat = "Strength",
-					SuccessText = T(236796610820, "Вот зачем нужны мышцы!"),
+					SuccessText = T(279300483548, "Вот это подарок!"),
 					TargetUnit = "current unit",
 				}),
 			},
-			'Effects', {
-				PlaceObj('ConditionalEffect', {
-					'Conditions', {},
-					'Effects', {
-						PlaceObj('DisableInteractionMarkerEffect', {}),
-						PlaceObj('DisableInteractionMarkerEffect', {
-							Group = "BrokenMG_MachineGun",
-							Negate = true,
-						}),
-					},
-					'EffectsElse', {},
+			Effects = {
+				PlaceObj('QuestSetVariableBool', {
+					Prop = "Given",
+					QuestId = "HideM2_Brpwning",
 				}),
+				PlaceObj('DisableInteractionMarkerEffect', {}),
 			},
-			'EffectsElse', {},
 		}),
 	},
-}, nil, 1559586047)
+}, nil, 1528105212)
 PlaceObj('IntelMarker', {
 	'Pos', point(129000, 147000, 7000),
 	'AllowedMask', 4294966497,
@@ -4283,7 +4276,7 @@ PlaceObj('DecExplosion_08', {
 	'AllowedMask', 0,
 }, nil, 1812067511)
 PlaceObj('DecExplosion_07', {
-	'Pos', point(92204, 140490),
+	'Pos', point(92272, 140509),
 	'Angle', 15370,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -4316,7 +4309,7 @@ PlaceObj('World_WoodenBox_04', {
 	'Axis', point(3143, 2502, 796),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'CollectionIndex', 3836,
+	'CollectionIndex', 1002,
 	'AllowedMask', 782,
 }, nil, 1178553710)
 PlaceObj('MachineGunEmplacement', {
@@ -4328,7 +4321,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Collision', false,
-	'CollectionIndex', 2535,
+	'CollectionIndex', 341,
 	'AllowedMask', 0,
 	'ammo_template', "_50BMG_Basic",
 	'target_dist', 91200,
@@ -8385,7 +8378,7 @@ PlaceObj('Mine_Shovel', {
 	'Axis', point(1283, -3490, 1716),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'CollectionIndex', 3836,
+	'CollectionIndex', 1002,
 	'AllowedMask', 4294967279,
 }, nil, 1466259099)
 PlaceObj('TropicalPlant_Liana_05', {
@@ -8806,7 +8799,7 @@ PlaceObj('TropicalPlant_04_Tree_01', {
 	'AllowedMask', 4294967279,
 }, nil, 1428094669)
 PlaceObj('TropicalFillerPlants_06', {
-	'Pos', point(121146, 165578, 11516),
+	'Pos', point(121211, 166805, 11516),
 	'Angle', 7994,
 	'Axis', point(327, 186, 4078),
 	'Saturation', 0,
@@ -17344,6 +17337,8 @@ p("TropicalPlant_Grass_02",55000,130000,52,4)
 p("TropicalRockAssembly_04",55060,130270,7080,12641,154,213,-72,4089,"terrainchunk",10,0,0,80,91,10,40,60,2228245)
 p("TropicalPlant_04_Shrub_01",55970,129030,6970,21291,95,141,-14,4093,2097173)
 p("TropicalRockAssembly_04",56050,130221,7116,19807,154,159,-822,4009,"terrainchunk",10,0,0,80,91,10,40,60,2228245)
+p("TropicalPlant_Grass_03",61398,123933,102,4)
+p("TropicalPlant_Grass_03",60983,126446,6942,17454,168,2097157)
 p("TropicalPlant_04_Shrub_01",63450,127645,6946,15597,127,2097157)
 p("TropicalPlant_Grass_02",64207,127415,6946,3600,148,2097157)
 p("TropicalPlant_Grass_02",64803,128823,6946,17515,148,2097157)
@@ -17566,6 +17561,7 @@ p("TropicalRockSharp_01",91760,118900,6783,14099,138,58,-4048,620,"terrainchunk"
 p("TropicalPlant_Grass_03",97846,116256,6944,18991,159,2097157)
 p("TropicalPlant_04_Sapling_03",97290,122980,6901,20816,124,-677,-340,4025,2097173)
 p("TropicalPlant_Grass_03",97746,122928,6946,18991,159,2097157)
+p("TropicalPlant_04_Sapling_03",97563,127331,6901,20714,91,-327,-140,4080,2097173)
 p("TropicalRockSharp_01",105419,71788,5974,19076,250,1648,2228,3015,190,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("TropicalRockSharp_01",110478,70974,9146,16093,250,-2247,-1383,3132,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",106760,79221,5952,15735,250,-1846,-1435,3362,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -17800,6 +17796,7 @@ p("TropicalRockSharp_01",111598,106313,12435,9749,250,4075,52,409,"terrainchunk"
 p("TropicalPlant_Grass_03",101534,118984,6946,18991,159,2097157)
 p("TropicalPlant_Grass_03",105022,114892,6944,18991,159,2097157)
 p("TropicalPlant_Grass_03",105943,116171,6946,8464,159,2097157)
+p("TropicalPlant_04_Sapling_03",99636,130054,6903,17609,91,-83,3,4095,2097173)
 p("TropicalPlant_Grass_03",102540,129983,6947,139,5)
 p("TropicalPlant_Grass_03",102540,129983,6947,139,5)
 p("TropicalPlant_Grass_01",105000,131000,93,4)
@@ -17850,6 +17847,7 @@ p("TropicalPlant_Grass_03",125851,107388,9514,3402,159,2097157)
 p("TropicalPlant_Grass_03",125800,109952,9112,6102,159,2097157)
 p("TropicalPlant_Grass_03",123403,114157,8432,6102,159,2097157)
 p("TropicalRockSharp_01",127375,107265,2422,17911,250,102,-3856,1376,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_01",115798,118758,7668,4391,144,-539,108,4058,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_02",117000,122000,110,4)
 p("TropicalPlant_Grass_02",118000,122000,121,4)
 p("TropicalRockAssembly_01",120180,121825,7117,5715,144,-264,367,4070,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -18718,8 +18716,10 @@ p("TropicalPlant_Grass_02",84000,142000,88,4)
 p("TropicalRockSharp_01",85964,142455,3015,17269,250,-2572,-1620,2744,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_01",82000,145000,115,4)
 p("TropicalPlant_Grass_04",83000,144000,63,4)
+p("TropicalPlant_VineCovered_01",89735,139719,8531,19345,2181,-3110,1530,2097169)
 p("TropicalPlant_Grass_02",89000,147000,57,4)
 p("TropicalPlant_Grass_04",90000,147000,99,4)
+p("TropicalPlant_VineCovered_01",90263,138465,7398,20007,133,2646,-2138,2280,2097173)
 p("TropicalRockSharp_01",90417,138404,4147,2407,250,2398,-3150,1052,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_03",98000,136000,118,4)
 p("TropicalPlant_Grass_02",98000,137000,144,4)
@@ -19018,6 +19018,7 @@ p("TropicalPlant_Grass_03",109000,133000,72,4)
 p("TropicalPlant_Grass_04",110000,132000,102,4)
 p("TropicalPlant_Grass_03",109821,145256,6940,18991,159,2097157)
 p("TropicalPlant_Grass_03",110188,146635,6940,18991,159,2097157)
+p("TropicalPlant_Dead_09",112187,143443,6927,21406,74,2109,1141,3320,2097173)
 p("TropicalPlant_Grass_02",99000,148000,74,4)
 p("TropicalPlant_Grass_02",99000,149000,104,4)
 p("TropicalPlant_Grass_01",100000,148000,86,4)
@@ -19064,6 +19065,7 @@ p("TropicalPlant_Grass_03",113130,150378,6944,18991,159,2097157)
 p("TropicalPlant_Dead_08",113408,161727,10054,19800,2097153)
 p("TropicalPlant_Dead_08",114129,162635,10731,7486,-162,474,4065,2097169)
 p("TropicalRockSharp_01",119398,133839,4147,14562,250,662,1445,3774,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalPlant_Dead_13",115797,143307,6884,700,335,-54,4081,2097169)
 p("TropicalPlant_Dead_09",121140,145192,6923,21406,49,2109,1141,3320,2097173)
 p("TropicalPlant_Dead_09",122402,146440,6923,21406,49,2109,1141,3320,2097173)
 p("TropicalPlant_Grass_01",123000,132000,118,4)
@@ -19142,6 +19144,10 @@ p("TropicalPlant_Dead_09",116040,150062,6847,21406,2109,1141,3320,2097169)
 p("TropicalPlant_Grass_03",116776,150692,6958,145,5)
 p("TropicalPlant_Grass_03",117520,152980,6958,5524,145,2097157)
 p("TropicalPlant_Grass_03",120830,153261,6958,10359,145,2097157)
+p("TropicalPlant_Dead_14",116716,158418,11396,1280,2117,3372,963,2097169)
+p("TropicalRockSharpWalk_02",118200,160200,10500,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
+p("TropicalRockAssembly_04",118791,158271,11063,20352,118,-2682,-2457,1882,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_04",119714,158926,11063,20095,140,-1692,-3725,177,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalPlant_Grass_01",122528,160725,9964,775,137,2097157)
 p("TropicalPlant_Dead_11",124396,159520,11077,16858,1031,3954,274,2097169)
 p("TropicalRockSharp_01",122911,160078,7295,11806,250,-3270,-2179,1153,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -19238,7 +19244,7 @@ p("TropicalPlant_Grass_02",116507,166295,11088,114,5)
 p("TropicalPlant_04_Sapling_03",117141,164045,11339,18647,116,-422,406,4053,2097173)
 p("TropicalPlant_Grass_02",117011,165136,11088,16035,114,2097157)
 p("TropicalRockAssembly_02",117895,170878,11774,21041,165,169,4089,"terrainchunk",10,0,0,40,60,10,40,60,2228241)
-p("TropicalRockSharp_01",119615,164626,10682,12069,153,-1267,-3839,656,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",119615,164626,10682,12840,153,-1490,-3815,8,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockAssembly_01",120031,164646,11468,8863,227,-261,4081,"terrainchunk",10,0,0,40,60,10,40,60,2228241)
 p("TropicalRockAssembly_01",122101,165002,11304,3642,563,545,4020,"terrainchunk",10,0,0,40,60,10,40,60,2228241)
 p("TropicalPlant_Grass_01",122000,172000,62,4)
@@ -20200,7 +20206,7 @@ p("TropicalPlant_Grass_04",211000,89000,124,4)
 p("TropicalPlant_Grass_01",211000,90000,51,4)
 p("TropicalPlant_Grass_03",212000,89000,121,4)
 p("TropicalPlant_Grass_04",212000,90000,111,4)
-p("SVT_40",205462,90836,12839,5400,4096,0,0,3668,2097425)
+p("SVT_40",205462,90836,12839,5400,4096,0,0,7,3668,2097553)
 p("TropicalPlant_Dead_15",205225,94609,11998,15997,-1469,-1827,3358,2097169)
 p("TropicalPlant_Dead_16",204862,95430,12469,7806,-1689,591,3684,2097169)
 p("TropicalPlant_Dead_16",204815,95772,12469,8118,-1684,497,3700,2097169)

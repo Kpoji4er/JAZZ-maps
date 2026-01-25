@@ -6691,6 +6691,7 @@ return {
 	South = false,
 }),
 					'BlockTravelRiver', set( "East" ),
+					'image', "Mod/FhNNYd/Images/JA3Debug_JIyFICPpQ9.jpg",
 				}),
 			}),
 			}),
@@ -7087,7 +7088,14 @@ return {
 					'display_name', T(767934028449, "Заброшенный вход в бункер"),
 					'StickySide', true,
 					'TerrainType', "Jungle",
+					'WeatherZone', "Erny",
 					'City', "Rebels_Ernie",
+					'Militia', true,
+					'MaxMilitia', 12,
+					'InitialSquads', {
+						"Legion_Patrol_1",
+						"LegionExtraSquadMelee_T2",
+					},
 					'InterestingSector', true,
 					'MinFlareCarriers', 5,
 					'MaxFlareCarriers', 11,
@@ -7099,6 +7107,7 @@ return {
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
+					'image', "Mod/FhNNYd/Images/Discord_CAIlnFu36n.jpg",
 					'combatTaskAmount', 2,
 				}),
 			}),
@@ -7146,7 +7155,7 @@ return {
 	West = false,
 }),
 					'BlockTravelRiver', set( "South" ),
-					'image', "UI/SatelliteView/SectorImages/E11",
+					'image', "Mod/FhNNYd/Images/NVIDIA_Overlay_3CncqSC7Jl.jpg",
 					'combatTaskAmount', 4,
 				}),
 			}),
@@ -7182,6 +7191,7 @@ return {
 	South = false,
 	West = false,
 }),
+					'image', "Mod/FhNNYd/Images/JA3Debug_vxild4zd1M.jpg",
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -7215,6 +7225,7 @@ return {
 	West = false,
 }),
 					'BlockTravelRiver', set( "South" ),
+					'image', "Mod/FhNNYd/Images/NVIDIA_Overlay_tddvitduk9.jpg",
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -7251,6 +7262,7 @@ return {
 	West = false,
 }),
 					'BlockTravelRiver', set( "South" ),
+					'image', "Mod/FhNNYd/Images/JA3Debug_F2I89aClgq.jpg",
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -7293,6 +7305,7 @@ return {
 	West = true,
 }),
 					'BlockTravelRiver', set( "South", "West" ),
+					'image', "Mod/FhNNYd/Images/JA3Debug_19GYshFG3m.jpg",
 					'Port', true,
 					'CanBeUsedForArrival', true,
 					'BobbyRayDeliveryCostMultiplier', 300,
@@ -7547,6 +7560,7 @@ return {
 	South = true,
 	West = false,
 }),
+					'image', "Mod/FhNNYd/Images/JA3Debug_KEVGDHzK25.jpg",
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -7581,6 +7595,7 @@ return {
 	West = false,
 }),
 					'BlockTravelRiver', set(),
+					'image', "Mod/FhNNYd/Images/JA3Debug_cWEYbSPEt1.jpg",
 				}),
 			}),
 			PlaceObj('ModItemChangeProp', {
@@ -7656,6 +7671,7 @@ return {
 	South = true,
 	West = false,
 }),
+					'image', "Mod/FhNNYd/Images/JA3Debug_Gi0wZWw76p.jpg",
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -7684,6 +7700,7 @@ return {
 	North = true,
 	West = false,
 }),
+					'image', "Mod/FhNNYd/Images/M2.jpg",
 					'combatTaskAmount', 3,
 				}),
 			}),
@@ -33210,6 +33227,7 @@ return {
 	South = false,
 }),
 					'BlockTravelRiver', set( "East" ),
+					'image', "Mod/FhNNYd/Images/JA3Debug_JIyFICPpQ9.jpg",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "K30",
@@ -33484,6 +33502,7 @@ return {
 	West = true,
 }),
 					'BlockTravelRiver', set( "South", "West" ),
+					'image', "Mod/FhNNYd/Images/JA3Debug_19GYshFG3m.jpg",
 					'Port', true,
 					'CanBeUsedForArrival', true,
 					'BobbyRayDeliveryCostMultiplier', 300,
@@ -33888,6 +33907,7 @@ return {
 	West = false,
 }),
 					'BlockTravelRiver', set( "South" ),
+					'image', "Mod/FhNNYd/Images/JA3Debug_F2I89aClgq.jpg",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L20",
@@ -34012,6 +34032,7 @@ return {
 	West = false,
 }),
 					'BlockTravelRiver', set( "South" ),
+					'image', "Mod/FhNNYd/Images/NVIDIA_Overlay_tddvitduk9.jpg",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L30",
@@ -34085,6 +34106,7 @@ return {
 	South = false,
 	West = false,
 }),
+					'image', "Mod/FhNNYd/Images/JA3Debug_vxild4zd1M.jpg",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L5",
@@ -34110,7 +34132,7 @@ return {
 	West = false,
 }),
 					'BlockTravelRiver', set( "South" ),
-					'image', "UI/SatelliteView/SectorImages/E11",
+					'image', "Mod/FhNNYd/Images/NVIDIA_Overlay_3CncqSC7Jl.jpg",
 					'combatTaskAmount', 4,
 				}),
 				PlaceObj('SatelliteSector', {
@@ -34120,7 +34142,14 @@ return {
 					'display_name', T(767934028449, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L6]] "Заброшенный вход в бункер"),
 					'StickySide', true,
 					'TerrainType', "Jungle",
+					'WeatherZone', "Erny",
 					'City', "Rebels_Ernie",
+					'Militia', true,
+					'MaxMilitia', 12,
+					'InitialSquads', {
+						"Legion_Patrol_1",
+						"LegionExtraSquadMelee_T2",
+					},
 					'InterestingSector', true,
 					'MinFlareCarriers', 5,
 					'MaxFlareCarriers', 11,
@@ -34132,6 +34161,7 @@ return {
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
+					'image', "Mod/FhNNYd/Images/Discord_CAIlnFu36n.jpg",
 					'combatTaskAmount', 2,
 				}),
 				PlaceObj('SatelliteSector', {
@@ -34332,6 +34362,7 @@ return {
 	North = true,
 	West = false,
 }),
+					'image', "Mod/FhNNYd/Images/M2.jpg",
 					'combatTaskAmount', 3,
 				}),
 				PlaceObj('SatelliteSector', {
@@ -34426,6 +34457,7 @@ return {
 	South = true,
 	West = false,
 }),
+					'image', "Mod/FhNNYd/Images/JA3Debug_Gi0wZWw76p.jpg",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M30",
@@ -34563,6 +34595,7 @@ return {
 	West = false,
 }),
 					'BlockTravelRiver', set(),
+					'image', "Mod/FhNNYd/Images/JA3Debug_cWEYbSPEt1.jpg",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M6",
@@ -34592,6 +34625,7 @@ return {
 	South = true,
 	West = false,
 }),
+					'image', "Mod/FhNNYd/Images/JA3Debug_KEVGDHzK25.jpg",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M7",
@@ -95328,6 +95362,56 @@ return {
 			'name', "Default",
 			'comment', 'Так оно обзывается в ванили, всякие квесты "под капотом"',
 		}, {
+			PlaceObj('ModItemFolder', {
+				'name', "Hiden",
+			}, {
+				PlaceObj('ModItemQuestsDef', {
+					Comment = "Квест под капотом",
+					Hidden = true,
+					KillTCEsConditions = {
+						PlaceObj('QuestKillTCEsOnCompleted', {}),
+					},
+					TCEs = {
+						PlaceObj('TriggeredConditionalEvent', {
+							Conditions = {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "HideM2_Brpwning",
+									Vars = set( "Given" ),
+								}),
+							},
+							Effects = {
+								PlaceObj('QuestSetVariableBool', {
+									Prop = "Completed",
+									QuestId = "HideM2_Brpwning",
+								}),
+							},
+							ParamId = "TCE_Given",
+							QuestId = "HideM2_Brpwning",
+						}),
+					},
+					Variables = {
+						PlaceObj('QuestVarBool', {
+							Name = "Completed",
+						}),
+						PlaceObj('QuestVarBool', {
+							Name = "Given",
+						}),
+						PlaceObj('QuestVarBool', {
+							Name = "Failed",
+						}),
+						PlaceObj('QuestVarBool', {
+							Name = "NotStarted",
+							Value = true,
+						}),
+						PlaceObj('QuestVarTCEState', {
+							Name = "TCE_Given",
+						}),
+					},
+					comment = "Квест под капотом",
+					group = "Default",
+					id = "HideM2_Brpwning",
+				}),
+				}),
 			PlaceObj('ModItemQuestsDef', {
 				Chapter = "Utility",
 				DevNotes = "for testing effects and variables",
@@ -99485,6 +99569,44 @@ return {
 				stack_min = 1,
 			}),
 		}),
+		PlaceObj('ModItemLootDef', {
+			Comment = "container",
+			group = "MapContainers",
+			id = "EmeraldCoast_Minefield_Chest",
+			loot = "all",
+			PlaceObj('LootEntryInventoryItem', {
+				RandomizeCondition = true,
+				guaranteed = true,
+				item = "MP40",
+				stack_max = 1,
+				stack_min = 1,
+			}),
+			PlaceObj('LootEntryInventoryItem', {
+				RandomizeCondition = true,
+				item = "JAZZ_AMMO_9x19_Poor",
+				stack_max = 30,
+				stack_min = 10,
+			}),
+			PlaceObj('LootEntryInventoryItem', {
+				Condition = 65,
+				RandomizeCondition = true,
+				game_conditions = {
+					PlaceObj('SectorHasIntel', {}),
+				},
+				item = "BAR",
+				stack_max = 1,
+				stack_min = 1,
+			}),
+			PlaceObj('LootEntryInventoryItem', {
+				RandomizeCondition = true,
+				game_conditions = {
+					PlaceObj('SectorHasIntel', {}),
+				},
+				item = "JAZZ_AMMO_762x51_Poor",
+				stack_max = 50,
+				stack_min = 20,
+			}),
+		}),
 		}),
 	PlaceObj('ModItemInventoryItemCompositeDef', {
 		'Group', "Quest - Items",
@@ -99683,4 +99805,12 @@ return {
 			value = 12,
 		}),
 		}),
+	PlaceObj('ModItemCamera', {
+		cam_lookat = point(206534, 81920, 39788),
+		cam_pos = point(210319, 79604, 42092),
+		group = "Characters",
+		id = "Camera_3_copy",
+		map = "KhrydjM",
+		order = 3,
+	}),
 }
