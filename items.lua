@@ -7074,6 +7074,10 @@ return {
 					'MaxFlareCarriers', 9,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	South = false,
+	West = false,
+}),
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -7122,8 +7126,18 @@ return {
 					'modId', "FhNNYd",
 					'GroundSector', "L6",
 					'display_name', T(362916261613, "Бункер партизан"),
+					'InitialSquads', {
+						"LegionExtraSquadFireArms_T2",
+						"LegionRaidSquad_01",
+						"LegionExtraSquadMeleeV2",
+						"LegionRaidSquad_01",
+					},
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set(),
+					'MusicCombat', "Battle_Tough",
+					'MusicConflict', "Underground_Conflict",
+					'MusicExploration', "Underground_Exploration",
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -21973,12 +21987,12 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
-								Text = T(208492606993, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Что вы делаете тут?]] "Считал, сколько человек Легион еще потеряет, прежде чем догадается, что в джунглях их кто-то очень сильно не любит.\nЯ хотел перехватить этот отряд, но вы успели быстрее. Хорошая работа"),
+								Text = T(208492606993, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Что вы делаете тут?]] "Считал, сколько человек Легион еще потеряет, прежде чем догадается, что в джунглях их кто-то очень сильно не любит.\nЯ хотел перехватить этот отряд, но вы успели перебить основную часть. Хорошая работа"),
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
-								Text = T(208492606993, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Что вы делаете тут?]] "Судя по тому, как вы справились с ними, вы можете мне помочь.\nНедалеко отсюда, к северу от <em>Водопада</em>, есть <em>Смотровая площадка</em> - одно из немногих мест, где Легион выгружает припасы для снабжения острова. Если мы всесте её атакуем, то сможем нарушить логистику в этой части острова"),
+								Text = T(208492606993, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Что вы делаете тут?]] "Судя по тому, как вы справились с ними, вы можете мне помочь.\nНедалеко отсюда, к северу от <em>Водопада</em>, есть <em>Смотровая площадка</em> - одно из немногих мест, где Легион выгружает припасы для снабжения острова. Если мы вместе её атакуем, то сможем нарушить логистику в этой части острова"),
 								param_bindings = false,
 							}),
 						},
@@ -34170,8 +34184,18 @@ return {
 					'modId', "FhNNYd",
 					'GroundSector', "L6",
 					'display_name', T(362916261613, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L6_Underground]] "Бункер партизан"),
+					'InitialSquads', {
+						"LegionExtraSquadFireArms_T2",
+						"LegionRaidSquad_01",
+						"LegionExtraSquadMeleeV2",
+						"LegionRaidSquad_01",
+					},
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set(),
+					'MusicCombat', "Battle_Tough",
+					'MusicConflict', "Underground_Conflict",
+					'MusicExploration', "Underground_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L7",
@@ -34187,6 +34211,10 @@ return {
 					'MaxFlareCarriers', 9,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	South = false,
+	West = false,
+}),
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M1",
