@@ -1629,7 +1629,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(604728008938, "СУНДУК"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "LargeContainer",
+			'LootTableId', "LargeContainer_Exceptional",
 		}),
 	},
 }, nil, 126304256)
@@ -4296,6 +4296,14 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1174710748)
+PlaceObj('TropicalPlant_03_Tree_01', {
+	'Pos', point(112465, 140931, 17415),
+	'Angle', 12817,
+	'Scale', 108,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1262375036)
 PlaceObj('TropicalPlant_04_Tree_02', {
 	'Pos', point(112046, 150421, 13899),
 	'Angle', 3855,
@@ -6172,7 +6180,7 @@ PlaceObj('MajorTent_RoofFace_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3283,
-	'AllowedMask', 782,
+	'AllowedMask', 846,
 }, nil, 1791115188)
 PlaceObj('SpotLight', {
 	'DetailClass', "Essential",
@@ -6214,7 +6222,7 @@ PlaceObj('MajorTent_RoofFace_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3283,
-	'AllowedMask', 782,
+	'AllowedMask', 846,
 }, nil, 1335989312)
 PlaceObj('Shanty_RagPile_01', {
 	'ColorizationPalette', "",
@@ -6580,7 +6588,7 @@ PlaceObj('MajorTent_RoofFace_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2373,
-	'AllowedMask', 782,
+	'AllowedMask', 846,
 }, nil, 1874782043)
 PlaceObj('MajorTent_Wall_02', {
 	'ColorizationPalette', "",
@@ -6705,7 +6713,7 @@ PlaceObj('MajorTent_RoofFace_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2373,
-	'AllowedMask', 782,
+	'AllowedMask', 846,
 }, nil, 1722464535)
 PlaceObj('MajorTent_Wall_02', {
 	'ColorizationPalette', "",
@@ -12851,7 +12859,7 @@ PlaceObj('TropicalPlant_04_Tree_02', {
 }, nil, 1807323138)
 PlaceObj('BunkerInterior_GasCan_01', {
 	'ColorizationPalette', "",
-	'EditableColor1', RGBA(38, 41, 43, 255),
+	'EditableColor1', RGBA(137, 77, 8, 255),
 	'Pos', point(152050, 162617, 7204),
 	'Angle', 1819,
 	'Saturation', 0,
@@ -44807,11 +44815,14 @@ p("TropicalPlant_Grass_03",113144,133612,28,4)
 p("TropicalPlant_Grass_03",113386,133387,154,4)
 p("TropicalPlant_Grass_03",113715,133859,108,4)
 p("TropicalPlant_Grass_03",114089,135311,158,4)
-p("TropicalPlant_04_Sapling_02",113874,137997,16935,13636,106,2097157)
+p("TropicalRockSharp_03",113626,138907,15976,"terrainchunk",10,0,0,40,60,10,40,60,131073)
+p("TropicalPlant_Grass_03",112172,141954,17984,142,5)
+p("TropicalPlant_04_Sapling_02",113919,139978,16655,13636,106,2097157)
+p("TropicalPlant_Dead_09",114515,139805,16812,6646,97,697,968,3918,3200,2097237)
 p("TropicalPlant_Grass_01",113057,142830,78,4)
 p("TropicalPlant_Grass_02",114082,142389,129,4)
 p("TropicalPlant_Grass_04",113919,143129,173,4)
-p("TropicalPlant_Grass_03",111353,144381,142,4)
+p("TropicalPlant_Grass_03",111355,144383,142,4)
 p("TropicalPlant_Grass_02",111165,145102,23,4)
 p("TropicalPlant_Grass_03",111994,143976,150,4)
 p("TropicalPlant_Grass_02",112149,145089,152,4)
@@ -45005,7 +45016,7 @@ p("TropicalPlant_Grass_02",114899,140760,172,4)
 p("TropicalPlant_Grass_01",115292,140321,142,4)
 p("TropicalPlant_Grass_03",116048,139285,159,4)
 p("TropicalPlant_Grass_03",115897,139863,45,4)
-p("TropicalPlant_Grass_03",116650,139291,137,4)
+p("TropicalPlant_Grass_03",116652,139286,137,4)
 p("TropicalPlant_Grass_04",116390,141146,122,4)
 p("TropicalPlant_Grass_02",115136,142296,166,4)
 p("TropicalPlant_Grass_02",116233,142287,57,4)
@@ -45042,7 +45053,7 @@ p("TropicalPlant_Grass_04",118179,146637,13,4)
 p("TropicalPlant_Vines_12",122828,140832,14632,121,5)
 p("TropicalPlant_Grass_03",119212,146149,55,4)
 p("TropicalPlant_Grass_01",119119,146693,20,4)
-p("DecBunker_ConcretePile_02",121799,145158,13990,16998,184,1368,-225,3854,"terrainchunk",10,0,0,60,80,10,40,60,2228245)
+p("DecBunker_ConcretePile_02",121805,145161,13990,16998,184,1368,-225,3854,"terrainchunk",10,0,0,60,80,10,40,60,2228245)
 p("TropicalRockSharp_02",124860,131889,14652,5776,87,-4090,139,164,"terrainchunk",10,0,0,42,96,10,40,60,2228245)
 p("TropicalPlant_Vines_12",124174,132508,16004,1)
 p("TropicalPlant_Vines_12",124265,133608,16004,155,5)
@@ -51822,6 +51833,7 @@ p("TropicalPlant_04_Sapling_03",162892,165406,83,4)
 p("DecBunkerFloor_02",163626,165249,6452,170,4285674009,2097164)
 p("DecBunker_ConcretePile_05",163539,167011,18275,134,"terrainchunk",10,0,0,59,82,10,40,60,2228228)
 p("TropicalPlant_04_Sapling_03",161712,169517,169,149,-2999,-2790,39,2097172)
+p("DecBunker_ConcretePile_02",160433,171893,6695,17966,184,-48,274,4086,"terrainchunk",10,0,0,60,80,10,40,60,2228245)
 p("TropicalPlant_04_Sapling_03",163248,169145,88,4)
 p("DecTyreTracks_01",156505,175793,6935,13613,99,4287269514,40,2098189)
 p("TropicalRockAssembly_01",156133,180099,6300,17932,193,-328,122,4081,"terrainchunk",10,0,0,78,86,10,40,60,2228245)
@@ -52141,7 +52153,7 @@ p("DecMudSteps_03",173247,150066,12544,17484,75,2098177)
 p("DecWallDirt_02",173109,151264,13202,14399,250,2365,2365,2365,2097173)
 p("DecWallDirt_02",173109,151264,15067,14399,250,2365,2365,2365,2097173)
 p("DecWallDirt_02",174199,148168,15583,10799,250,0,162,4092,2097173)
-p("TropicalPlant_Grass_01",174102,148280,11158,110,2097156)
+p("TropicalPlant_Grass_01",174100,148283,11158,110,2097156)
 p("DecBunkerFloor_02",174600,148200,12600,4537,1760,2097409)
 p("DecBunkerFloor_02",175380,148200,14000,6901,2233,2608,2233,3362,2097425)
 p("DecMudSteps_03",174397,150760,12544,6062,75,2098177)
@@ -52574,6 +52586,7 @@ p("TropicalRockAssembly_03",189111,166231,11096,8116,193,-244,269,4080,"terrainc
 p("DecPaperPile_02",191046,164348,11642,1382,-2528,457,3191,2097169)
 p("DecTree_03",190969,165699,0)
 p("TropicalPlant_04_Shrub_01",194310,167688,12603,17255,101,635,1240,3851,2097173)
+p("TropicalPlant_Grass_03",193967,171127,12340,6620,101,2097157)
 p("TropicalRockAssembly_01",188498,173703,10086,20204,193,1369,1158,3682,"terrainchunk",10,0,0,89,93,10,40,60,2228245)
 p("TropicalRockAssembly_01",191350,173545,11539,7457,151,-532,-207,4056,"terrainchunk",10,0,0,78,86,10,40,60,2228245)
 p("TropicalPlant_Dead_11",191241,175756,12242,10800,3547,0,2047,2097169)
