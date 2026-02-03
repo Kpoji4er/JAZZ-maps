@@ -21106,16 +21106,86 @@ return {
 								param_bindings = false,
 							}),
 						},
+						GoTo = "Greeting.Briefing",
 						Keyword = "Наконец мы до вас добрались",
 						KeywordT = T(285336071628, --[[ModItemConversation L1_RebelsCamp KeywordT]] "Наконец мы до вас добрались"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_L1",
-								Text = T(578038705636, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1 section:L1_RebelsCamp keyword:Наконец мы до вас добрались]] "Спасибо за помощь и спасибо что скоординировали защиту базы, Легион набирает эффективность, с каждым днем враг становится сильнее, их точно обучает какой-то военный, однако меня также оповестили о том, что вы помогли в уничтожении Рафаля и его прихвостней, спасибо, вы спасли много жизней."),
+								Text = T(578038705636, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1 section:L1_RebelsCamp keyword:Наконец мы до вас добрались]] "Спасибо за помощь и спасибо что скоординировали защиту базы, Легион набирает эффективность, с каждым днем враг становится сильнее, их точно обучает какой-то военный, но мы и с этим разберемся... Меня также оповестили о том, что вы помогли в уничтожении Рафаля и его прихвостней, спасибо, вы спасли много жизней."),
 								param_bindings = false,
 							}),
 						},
+						PhraseRolloverText = T(137789099060, --[[ModItemConversation L1_RebelsCamp PhraseRolloverText]] "Маркс бы вами гордился"),
 						id = "Greeting",
+						param_bindings = false,
+						PlaceObj('ConversationPhrase', {
+							Keyword = "Briefing",
+							KeywordT = T(621297538284, --[[ModItemConversation L1_RebelsCamp KeywordT]] "Briefing"),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "RebelSergeant_Immortal_L1",
+									Text = T(192074604300, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1]] "Нам нужна ваша помощь вновь, мерзавцы забились в наш бункер, с этой базы в него войти практически не реально, мы предпринимали попытки штурма, но бездарно теряли людей... Хороших людей."),
+								}),
+							},
+							id = "Briefing",
+							param_bindings = false,
+							PlaceObj('ConversationPhrase', {
+								GiveQuests = {
+									"Jazz_Alkatraz",
+								},
+								Keyword = "Это можно, почему бы не поиграть заодно в санитаров подземелий",
+								KeywordT = T(329170243044, --[[ModItemConversation L1_RebelsCamp KeywordT]] "Это можно, почему бы не поиграть заодно в санитаров подземелий"),
+								Lines = {
+									PlaceObj('ConversationLine', {
+										Character = "RebelSergeant_Immortal_L1",
+										Text = T(545718729802, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1]] "Хорошо, итак, перво-наперво вам необходимо добраться до <em>сектора L6</em>, взять его под контроль, затем войти в бункер и начать зачистку оттуда, они этого не ожидают, потому что тот вход был утрачен довольно давно, нас длительное время раздёргивали по разным позициям, в ходе чего бункер был окупирован. Внутри возможно остались наши люди, если они и смогли где-то держать оборону, то это штабное помещение, вы его не пропустите."),
+									}),
+								},
+								id = "Friendly",
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationPhrase', {
+								Keyword = "Возможно вам стоит самим о себе позаботиться.",
+								KeywordT = T(349722064830, --[[ModItemConversation L1_RebelsCamp KeywordT]] "Возможно вам стоит самим о себе позаботиться."),
+								Lines = {
+									PlaceObj('ConversationLine', {
+										Character = "RebelSergeant_Immortal_L1",
+										Text = T(994349809287, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1]] "Возможно вы правы,, надеюсь вы передумаете."),
+									}),
+								},
+								id = "2",
+								param_bindings = false,
+							}),
+						}),
+					}),
+					PlaceObj('ConversationPhrase', {
+						CompleteQuests = {
+							"Jazz_Alkatraz",
+						},
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_Alkatraz",
+								Vars = set( "All__Dead" ),
+								param_bindings = false,
+							}),
+						},
+						Effects = {
+							PlaceObj('UnitGrantItem', {
+								ItemId = "DiamondBriefcase",
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Торжественно вручаем обратно ключи от бункера.",
+						KeywordT = T(792807567622, --[[ModItemConversation L1_RebelsCamp KeywordT]] "Торжественно вручаем обратно ключи от бункера."),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "RebelSergeant_Immortal_L1",
+								Text = T(609668736560, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1]] "Нам больше нечего особо предложить вам в награду, но пока вы были внизу, мы перехватили груз с алмазами Легиона, не знаю что они тут забыли с этим кейсом, видимо решили прикарманить и спрятать на острове. В общем это ваше."),
+							}),
+						},
+						PhraseRolloverText = T(184615777878, --[[ModItemConversation L1_RebelsCamp PhraseRolloverText]] "Ни один коммунист не пострадал"),
+						id = "2",
 						param_bindings = false,
 					}),
 					PlaceObj('ConversationPhrase', {
@@ -48449,6 +48519,51 @@ return {
 			'name', "Jazz side",
 			'comment', "Джазовые сайды",
 		}, {
+			PlaceObj('ModItemQuestsDef', {
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {}),
+				},
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('SectorCheckOwner', {
+								sector_id = "L6_Underground",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "All__Dead",
+								QuestId = "Jazz_Alkatraz",
+							}),
+						},
+						ParamId = "All_Dead",
+						QuestId = "Jazz_Alkatraz",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "All_Dead",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "All__Dead",
+					}),
+				},
+				group = "Ernie",
+				id = "Jazz_Alkatraz",
+			}),
 			PlaceObj('ModItemQuestsDef', {
 				Chapter = "Ernie_Rebels",
 				Comment = "Помощь доктору на маяке",

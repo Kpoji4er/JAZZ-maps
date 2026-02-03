@@ -2,7 +2,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"LargeContainer",
+			"LargeContainer_Exceptional",
 		},
 		handle = 126304256,
 		map = "q5EJDsP",
