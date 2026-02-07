@@ -334,7 +334,6 @@
 	{
 		BanterGroups = {
 			"Banters_Civilians",
-			"Banters_Local_IlleMorat",
 		},
 		Groups = {
 			"AmbietLife_North",
@@ -348,14 +347,14 @@
 	{
 		BanterGroups = {
 			"Banters_Civilians",
-			"Banters_Local_IlleMorat",
 		},
 		Groups = {
 			"AmbietLife_North",
+			"AL_Defender",
 		},
 		handle = 1074392255,
 		map = "ubRwFgf",
-		name = "AmbientZone#255 (AmbietLife_North)",
+		name = "AmbientZone#255 (AmbietLife_North, AL_Defender)",
 		path = "AmbientZone ",
 		type = "AmbientZone",
 	},
@@ -760,14 +759,13 @@
 	{
 		BanterGroups = {
 			"Banters_Civilians",
-			"Banters_Local_IlleMorat",
 		},
 		Groups = {
-			"AmbietLife_North",
+			"AL_Defender",
 		},
 		handle = 1190482776,
 		map = "ubRwFgf",
-		name = "AmbientZone#776 (AmbietLife_North)",
+		name = "AmbientZone#776 (AL_Defender)",
 		path = "AmbientZone ",
 		type = "AmbientZone",
 	},
@@ -1419,7 +1417,6 @@
 	{
 		BanterGroups = {
 			"Banters_Civilians",
-			"Banters_Local_IlleMorat",
 		},
 		Groups = {
 			"AmbietLife_North",
@@ -2778,7 +2775,6 @@
 	{
 		BanterGroups = {
 			"Banters_Civilians",
-			"Banters_Local_IlleMorat",
 		},
 		Groups = {
 			"AmbietLife_North",
