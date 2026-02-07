@@ -21125,7 +21125,8 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "RebelSergeant_Immortal_L1",
-									Text = T(192074604300, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1]] "Нам нужна ваша помощь вновь, мерзавцы забились в наш бункер, с этой базы в него войти практически не реально, мы предпринимали попытки штурма, но бездарно теряли людей... Хороших людей."),
+									Text = T(192074604300, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1 section:L1_RebelsCamp keyword:Briefing]] "Нам нужна ваша помощь вновь, мерзавцы забились в наш бункер, с этой базы в него войти практически не реально, мы предпринимали попытки штурма, но бездарно теряли людей... Хороших людей."),
+									param_bindings = false,
 								}),
 							},
 							id = "Briefing",
@@ -21139,7 +21140,8 @@ return {
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "RebelSergeant_Immortal_L1",
-										Text = T(545718729802, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1]] "Хорошо, итак, перво-наперво вам необходимо добраться до <em>сектора L6</em>, взять его под контроль, затем войти в бункер и начать зачистку оттуда, они этого не ожидают, потому что тот вход был утрачен довольно давно, нас длительное время раздёргивали по разным позициям, в ходе чего бункер был окупирован. Внутри возможно остались наши люди, если они и смогли где-то держать оборону, то это штабное помещение, вы его не пропустите."),
+										Text = T(545718729802, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1 section:L1_RebelsCamp keyword:Это можно, почему бы не поиграть заодно в санитаров подземелий]] "Хорошо, итак, перво-наперво вам необходимо добраться до <em>сектора L6</em>, взять его под контроль, затем войти в бункер и начать зачистку оттуда, они этого не ожидают, потому что тот вход был утрачен довольно давно, нас длительное время раздёргивали по разным позициям, в ходе чего бункер был окупирован. Внутри возможно остались наши люди, если они и смогли где-то держать оборону, то это штабное помещение, вы его не пропустите."),
+										param_bindings = false,
 									}),
 								},
 								id = "Friendly",
@@ -21151,7 +21153,8 @@ return {
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "RebelSergeant_Immortal_L1",
-										Text = T(994349809287, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1]] "Возможно вы правы,, надеюсь вы передумаете."),
+										Text = T(994349809287, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1 section:L1_RebelsCamp keyword:Возможно вам стоит самим о себе позаботиться.]] "Возможно вы правы,, надеюсь вы передумаете."),
+										param_bindings = false,
 									}),
 								},
 								id = "2",
@@ -21181,7 +21184,8 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_L1",
-								Text = T(609668736560, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1]] "Нам больше нечего особо предложить вам в награду, но пока вы были внизу, мы перехватили груз с алмазами Легиона, не знаю что они тут забыли с этим кейсом, видимо решили прикарманить и спрятать на острове. В общем это ваше."),
+								Text = T(609668736560, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1 section:L1_RebelsCamp keyword:Торжественно вручаем обратно ключи от бункера.]] "Нам больше нечего особо предложить вам в награду, но пока вы были внизу, мы перехватили груз с алмазами Легиона, не знаю что они тут забыли с этим кейсом, видимо решили прикарманить и спрятать на острове. В общем это ваше."),
+								param_bindings = false,
 							}),
 						},
 						PhraseRolloverText = T(184615777878, --[[ModItemConversation L1_RebelsCamp PhraseRolloverText]] "Ни один коммунист не пострадал"),
