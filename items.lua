@@ -21301,9 +21301,9 @@ return {
 			}, {
 				PlaceObj('ModItemConversation', {
 					Conditions = {
-						PlaceObj('QuestIsVariableBool', {
-							QuestId = "01_Landing",
-							Vars = set( "M1_Captured", "M1_TalkWithRebels" ),
+						PlaceObj('PlayerControlSectors', {
+							Amount = 6,
+							Condition = ">=",
 							param_bindings = false,
 						}),
 					},
@@ -21328,6 +21328,12 @@ return {
 								param_bindings = false,
 							}),
 							PlaceObj('GrantExperienceSector', {
+								param_bindings = false,
+							}),
+							PlaceObj('GroupSetSide', {
+								CreateSquad = false,
+								Side = "ally",
+								TargetUnit = "Rebels_Base_Warriors",
 								param_bindings = false,
 							}),
 						},
@@ -28888,7 +28894,7 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "G5",
-					'Map', "d6UCKMn",
+					'Map', "false",
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'display_name', T(474123674046, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G5]] "Море"),
@@ -28906,7 +28912,7 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "G6",
-					'Map', "PPWaqQ",
+					'Map', "false",
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'display_name', T(425352677354, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G6]] "Море"),
@@ -28924,7 +28930,7 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "G7",
-					'Map', "upzGrL",
+					'Map', "false",
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'display_name', T(751493558101, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G7]] "Море"),
@@ -28942,7 +28948,7 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "G8",
-					'Map', "UFTtLfo",
+					'Map', "false",
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'display_name', T(598537018046, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G8]] "Море"),
@@ -30004,7 +30010,7 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "H5",
-					'Map', "DNhyGCa",
+					'Map', "false",
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'display_name', T(454365463215, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H5]] "Море"),
@@ -30022,7 +30028,7 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "H6",
-					'Map', "tKGh6N7",
+					'Map', "false",
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'display_name', T(965161379819, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H6]] "Море"),
@@ -30041,7 +30047,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "H7",
 					'Map', "uEv6fcx",
-					'modId', "FhNNYd",
+					'modId', "false",
 					'RunLoyaltyLogic', false,
 					'display_name', T(616765814267, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H7]] "Море"),
 					'Side', "neutral",
@@ -30058,7 +30064,7 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "H8",
-					'Map', "YdWaeVX",
+					'Map', "false",
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'display_name', T(291045680730, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H8]] "Море"),
@@ -30076,7 +30082,7 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "H9",
-					'Map', "dqwK6",
+					'Map', "false",
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'display_name', T(571483372008, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H9]] "Море"),
