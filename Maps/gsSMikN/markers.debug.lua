@@ -2307,7 +2307,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"EnemyValuables_LowTier",
+			"ExplosiveComponents",
 		},
 		handle = 1767391579,
 		map = "gsSMikN",
