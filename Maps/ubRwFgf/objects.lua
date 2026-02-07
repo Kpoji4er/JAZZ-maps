@@ -86,6 +86,13 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Name', "col_WallSlab",
+	'Index', 2377,
+}, nil, 1009756131)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_DecWallBrickConcrete_9",
 	'Index', 1535,
 }, nil, 1010048946)
@@ -550,6 +557,14 @@ PlaceObj('Collection', {
 	'Name', "col_DecForestMoss_6",
 	'Index', 85,
 }, nil, 1113369634)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2377,
+	'AllowedMask', 4294966497,
+	'Name', "col_AL_WallLean",
+	'Index', 121,
+}, nil, 1114542746)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -4511,6 +4526,49 @@ PlaceObj('GridMarker', {
 		}),
 	},
 }, nil, 1785071203)
+PlaceObj('AmbientZoneMarker', {
+	'Pos', point(65400, 215400, 6300),
+	'Groups', {
+		"AL_Workers_Storm",
+	},
+	'AllowedMask', 4294966497,
+	'AreaWidth', 5,
+	'AreaHeight', 10,
+	'EnabledConditions', {
+		PlaceObj('CheckOR', {
+			Conditions = {
+				PlaceObj('CheckGameState', {
+					GameState = "DustStorm",
+				}),
+				PlaceObj('CheckGameState', {
+					GameState = "FireStorm",
+				}),
+			},
+		}),
+	},
+	'AreaLevelZ', 3,
+	'SpawnDefs', {
+		PlaceObj('AmbientSpawnDef', {
+			'UnitDef', "VillagerMale",
+			'CountMin', 2,
+			'CountMax', 2,
+		}),
+		PlaceObj('AmbientSpawnDef', {
+			'UnitDef', "VillagerMale_2",
+			'CountMin', 1,
+			'CountMax', 1,
+		}),
+		PlaceObj('AmbientSpawnDef', {
+			'UnitDef', "VillagerMale_3",
+			'CountMin', 1,
+			'CountMax', 1,
+		}),
+	},
+	'BanterGroups', {
+		"Banters_Civilians",
+		"Banters_Workers",
+	},
+}, nil, 1488577934)
 PlaceObj('IntelMarker', {
 	'Pos', point(108600, 132600),
 	'AllowedMask', 4294966497,
@@ -4935,49 +4993,6 @@ PlaceObj('IntelMarker', {
 	'IntelAreaRadius', 15,
 	'IntelAreaText', T(551786061372, "Store House"),
 }, nil, 1889424449)
-PlaceObj('AmbientZoneMarker', {
-	'Pos', point(79800, 221400, 6300),
-	'Groups', {
-		"AL_Workers_Storm",
-	},
-	'AllowedMask', 4294966497,
-	'AreaWidth', 5,
-	'AreaHeight', 10,
-	'EnabledConditions', {
-		PlaceObj('CheckOR', {
-			Conditions = {
-				PlaceObj('CheckGameState', {
-					GameState = "DustStorm",
-				}),
-				PlaceObj('CheckGameState', {
-					GameState = "FireStorm",
-				}),
-			},
-		}),
-	},
-	'AreaLevelZ', 3,
-	'SpawnDefs', {
-		PlaceObj('AmbientSpawnDef', {
-			'UnitDef', "VillagerMale",
-			'CountMin', 2,
-			'CountMax', 2,
-		}),
-		PlaceObj('AmbientSpawnDef', {
-			'UnitDef', "VillagerMale_2",
-			'CountMin', 1,
-			'CountMax', 1,
-		}),
-		PlaceObj('AmbientSpawnDef', {
-			'UnitDef', "VillagerMale_3",
-			'CountMin', 1,
-			'CountMax', 1,
-		}),
-	},
-	'BanterGroups', {
-		"Banters_Civilians",
-		"Banters_Workers",
-	},
-}, nil, 1488577934)
 PlaceObj('UnitMarker', {
 	'Pos', point(81000, 222600),
 	'Angle', 5400,
@@ -5158,7 +5173,7 @@ PlaceObj('CustomInteractable', {
 				}),
 				PlaceObj('UnitGrantItem', {
 					Amount = 20,
-					ItemId = "JAZZ_AMMO_762x54_LPS",
+					ItemId = "JAZZ_AMMO_762x54_FMJ",
 				}),
 				PlaceObj('CustomCodeEffect', {
 					custom_code = 'PlayBanter("Purchased", {SelectedObj})',
@@ -5228,7 +5243,7 @@ PlaceObj('CustomInteractable', {
 			'Conditions', {},
 			'Effects', {
 				PlaceObj('UnitGrantItem', {
-					LootTableId = "Drop_762WP_Varied_Legion",
+					LootTableId = "Drop_762WP_HP",
 				}),
 				PlaceObj('UnitTakeItem', {
 					Amount = 100,
@@ -5479,13 +5494,13 @@ PlaceObj('CustomInteractable', {
 	},
 }, nil, 1415793634)
 PlaceObj('AmbientZoneMarker', {
-	'Pos', point(85800, 222600, 6300),
+	'Pos', point(84600, 222600, 6300),
 	'Groups', {
-		"AmbietLife_North",
+		"AL_Defender",
 	},
 	'AllowedMask', 4294966497,
-	'AreaWidth', 30,
-	'AreaHeight', 30,
+	'AreaWidth', 27,
+	'AreaHeight', 17,
 	'AreaLevelZ', 2,
 	'SpawnDefs', {
 		PlaceObj('AmbientSpawnDef', {
@@ -5516,7 +5531,6 @@ PlaceObj('AmbientZoneMarker', {
 	},
 	'BanterGroups', {
 		"Banters_Civilians",
-		"Banters_Local_IlleMorat",
 	},
 }, nil, 1190482776)
 PlaceObj('ShowHideCollectionMarker', {
@@ -7316,6 +7330,47 @@ PlaceObj('GridMarker', {
 	Stormer = false,
 }),
 }, nil, 1786491715)
+PlaceObj('AmbientZoneMarker', {
+	'Pos', point(165000, 159000, 7000),
+	'Groups', {
+		"AmbietLife_North",
+		"AL_Defender",
+	},
+	'AllowedMask', 4294966497,
+	'AreaWidth', 30,
+	'AreaHeight', 30,
+	'AreaLevelZ', 2,
+	'SpawnDefs', {
+		PlaceObj('AmbientSpawnDef', {
+			'UnitDef', "VillagerFemale",
+			'CountMin', 4,
+			'CountMax', 4,
+		}),
+		PlaceObj('AmbientSpawnDef', {
+			'UnitDef', "VillagerFemale_2",
+			'CountMin', 1,
+			'CountMax', 2,
+		}),
+		PlaceObj('AmbientSpawnDef', {
+			'UnitDef', "VillagerMale_2",
+			'CountMin', 1,
+			'CountMax', 3,
+		}),
+		PlaceObj('AmbientSpawnDef', {
+			'UnitDef', "VillagerMale",
+			'CountMin', 1,
+			'CountMax', 1,
+		}),
+		PlaceObj('AmbientSpawnDef', {
+			'UnitDef', "VillagerMale_3",
+			'CountMin', 1,
+			'CountMax', 1,
+		}),
+	},
+	'BanterGroups', {
+		"Banters_Civilians",
+	},
+}, nil, 1074392255)
 PlaceObj('GridMarker', {
 	'Pos', point(169800, 163800, 12600),
 	'Angle', 5400,
@@ -7504,47 +7559,6 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 1632912780)
-PlaceObj('AmbientZoneMarker', {
-	'Pos', point(169800, 169800, 7000),
-	'Groups', {
-		"AmbietLife_North",
-	},
-	'AllowedMask', 4294966497,
-	'AreaWidth', 30,
-	'AreaHeight', 30,
-	'AreaLevelZ', 2,
-	'SpawnDefs', {
-		PlaceObj('AmbientSpawnDef', {
-			'UnitDef', "VillagerFemale",
-			'CountMin', 4,
-			'CountMax', 4,
-		}),
-		PlaceObj('AmbientSpawnDef', {
-			'UnitDef', "VillagerFemale_2",
-			'CountMin', 1,
-			'CountMax', 2,
-		}),
-		PlaceObj('AmbientSpawnDef', {
-			'UnitDef', "VillagerMale_2",
-			'CountMin', 1,
-			'CountMax', 3,
-		}),
-		PlaceObj('AmbientSpawnDef', {
-			'UnitDef', "VillagerMale",
-			'CountMin', 1,
-			'CountMax', 1,
-		}),
-		PlaceObj('AmbientSpawnDef', {
-			'UnitDef', "VillagerMale_3",
-			'CountMin', 1,
-			'CountMax', 1,
-		}),
-	},
-	'BanterGroups', {
-		"Banters_Civilians",
-		"Banters_Local_IlleMorat",
-	},
-}, nil, 1074392255)
 PlaceObj('ContainerIntelMarker', {
 	'Pos', point(166200, 172200, 9800),
 	'CollectionIndex', 3687,
@@ -7602,7 +7616,7 @@ PlaceObj('GridMarker', {
 	'Type', "DefenderPriority",
 }, nil, 1103081685)
 PlaceObj('AmbientZoneMarker', {
-	'Pos', point(186600, 167400, 15400),
+	'Pos', point(184200, 179400, 7700),
 	'Groups', {
 		"AmbietLife_North",
 	},
@@ -7639,7 +7653,6 @@ PlaceObj('AmbientZoneMarker', {
 	},
 	'BanterGroups', {
 		"Banters_Civilians",
-		"Banters_Local_IlleMorat",
 	},
 }, nil, 1360460311)
 PlaceObj('GridMarker', {
@@ -7684,7 +7697,7 @@ PlaceObj('ContainerMarker', {
 	},
 }, nil, 539721728)
 PlaceObj('AmbientZoneMarker', {
-	'Pos', point(161400, 199800, 7000),
+	'Pos', point(162600, 201000, 7000),
 	'Groups', {
 		"AmbietLife_North",
 	},
@@ -7721,7 +7734,6 @@ PlaceObj('AmbientZoneMarker', {
 	},
 	'BanterGroups', {
 		"Banters_Civilians",
-		"Banters_Local_IlleMorat",
 	},
 }, nil, 1068216614)
 PlaceObj('GridMarker', {
@@ -7939,19 +7951,8 @@ PlaceObj('AmbientZone_Animal', {
 		}),
 	},
 }, nil, 1666705287)
-PlaceObj('GridMarker', {
-	'Pos', point(185400, 213000, 7000),
-	'Groups', {
-		"Battle_House",
-	},
-	'AllowedMask', 4294966497,
-	'Type', "Logic",
-	'ID', "Battle_House3",
-	'AreaWidth', 6,
-	'AreaHeight', 5,
-}, nil, 1789390086)
 PlaceObj('AmbientZoneMarker', {
-	'Pos', point(187800, 213000, 6300),
+	'Pos', point(186600, 209400, 7000),
 	'Groups', {
 		"AmbietLife_North",
 	},
@@ -7988,9 +7989,19 @@ PlaceObj('AmbientZoneMarker', {
 	},
 	'BanterGroups', {
 		"Banters_Civilians",
-		"Banters_Local_IlleMorat",
 	},
 }, nil, 1817855033)
+PlaceObj('GridMarker', {
+	'Pos', point(185400, 213000, 7000),
+	'Groups', {
+		"Battle_House",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Logic",
+	'ID', "Battle_House3",
+	'AreaWidth', 6,
+	'AreaHeight', 5,
+}, nil, 1789390086)
 PlaceObj('GridMarker', {
 	'Pos', point(220200, 151800, 21000),
 	'Angle', 5400,
@@ -52656,7 +52667,7 @@ PlaceObj('RoofEdgeSlab', {
 }, nil, 1548039443)
 PlaceObj('AL_Carry', {
 	'Entity', "Male_Body_01",
-	'Pos', point(75124, 214044, 6251),
+	'Pos', point(75124, 214044, 6294),
 	'Angle', 5426,
 	'Groups', {
 		"AL_Workers",
@@ -75202,7 +75213,7 @@ PlaceObj('MachineGunEmplacement', {
 	'CollectionIndex', 686,
 	'AllowedMask', 0,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 114000,
+	'target_dist', 91200,
 }, nil, 1873988111)
 PlaceObj('Shanty_TireHorizontal', {
 	'Pos', point(162948, 119926),
@@ -86211,7 +86222,7 @@ PlaceObj('MachineGunEmplacement', {
 	'CollectionIndex', 2327,
 	'AllowedMask', 0,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 114000,
+	'target_dist', 91200,
 }, nil, 1995060019)
 PlaceObj('Shanty_TireHorizontal', {
 	'Pos', point(168511, 120038, 6982),
@@ -136566,18 +136577,6 @@ PlaceObj('RoofPlaneSlab', {
 	'forceInvulnerableBecauseOfGameRules', true,
 	'dir', "West",
 }, nil, 1331419695)
-PlaceObj('AL_WallLean', {
-	'Entity', "Male_Body_01",
-	'Pos', point(162600, 192600),
-	'Angle', 5400,
-	'Groups', {
-		"Closest AmbientZoneMarker",
-	},
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'anim', "editorMarkerAnim_Wall",
-}, nil, 1133830645)
 PlaceObj('WallSlab', {
 	'Pos', point(162600, 193200, 7000),
 	'Angle', 16200,
@@ -136585,6 +136584,7 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
+	'CollectionIndex', 121,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "Tin",
@@ -136596,6 +136596,7 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
+	'CollectionIndex', 2377,
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "Tin",
@@ -181564,7 +181565,7 @@ PlaceObj('RoofEdgeSlab', {
 }, nil, 1442765109)
 PlaceObj('AL_PlayAnimVariation', {
 	'Entity', "Male_Body_01",
-	'Pos', point(157465, 201785, 6936),
+	'Pos', point(157465, 201785, 6961),
 	'Angle', 21414,
 	'Groups', {
 		"Ambient_Seawalk",
@@ -183320,7 +183321,7 @@ PlaceObj('RoofPlaneSlab', {
 }, nil, 1027644285)
 PlaceObj('AL_PlayAnimVariation', {
 	'Entity', "Male_Body_01",
-	'Pos', point(162810, 207832, 6938),
+	'Pos', point(162810, 207832, 7017),
 	'Angle', 21414,
 	'Groups', {
 		"Ambient_Seawalk",
@@ -183328,9 +183329,11 @@ PlaceObj('AL_PlayAnimVariation', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-	'anim', "civ_Ambient_LookingWall",
+	'anim', "civ_Ambient_LookingSomething",
 	'VisitIdle', "civ_Ambient_LookingWall",
 	'AttractGender', "Male",
+	'IgnoreVisitSupportVME', true,
+	'EditorMarkerVisitAnim', "civ_Ambient_LookingSomething",
 }, nil, 1673620852)
 PlaceObj('AL_Carry', {
 	'Entity', "Male_Body_01",
@@ -253338,11 +253341,11 @@ p("TropicalRockSharp_01",78722,226153,5914,10893,61,3760,-1603,257,3445,"terrain
 p("DecBunker_ConcretePile_02",78102,226537,6336,282,40,"terrainchunk",10,0,0,60,100,10,40,60,2228229)
 p("DecBunker_ConcretePile_02",79037,226075,6336,19263,64,"terrainchunk",10,0,0,60,100,10,40,60,2228229)
 p("TropicalPlant_01_Sapling",78793,229285,10,4)
-p("cartridge_box",80063,228557,6388,115,4279767053,2679,269)
-p("cartridge_box",80063,228557,6607,115,4279767053,2679,269)
-p("cartridge_box",80063,228557,6826,115,4279767053,2679,269)
-p("cartridge_box",80063,228557,7039,115,4279767053,2679,269)
-p("cartridge_box",80987,228425,7151,2563,115,4279767053,2679,2097421)
+p("cartridge_box",80063,228557,6388,115,4279767053,1,2679,397)
+p("cartridge_box",80063,228557,6607,115,4279767053,1,2679,397)
+p("cartridge_box",80063,228557,6826,115,4279767053,1,2679,397)
+p("cartridge_box",80063,228557,7039,115,4279767053,1,2679,397)
+p("cartridge_box",80987,228425,7151,2563,115,4279767053,1,2679,2097549)
 p("TropicalRockSharp_01",83485,199456,19283,20604,200,2946,1654,2316,"terrainchunk",10,0,0,92,96,10,40,60,2228245)
 p("TropicalPlant_04_Shrub_02",85769,201556,17043,105,-617,-165,4045,3264,2097236)
 p("TropicalPlant_04_Shrub_01",86153,199778,17571,106,3264,2097220)
@@ -253500,12 +253503,12 @@ p("DecBunkerFloor_03",82006,214301,17142,119,4285219089,27,2098188)
 p("DecForestMoss_01",82263,216693,7422,20669,57,41,2098181)
 p("Farmland_RiceCrop_01",84111,213136,6447,2149354716,2150054469,"",1073744385)
 p("Farmland_RiceCrop_02",84637,213068,6455,2149354716,2150054469,"",1073744385)
-p("cartridge_box",82417,217777,7487,18891,119,4280357386,-130,313,4081,1790,2097437)
+p("cartridge_box",82417,217777,7487,18891,119,4280357386,-130,313,4081,1,1790,2097565)
 p("DecForestMoss_01",82090,218372,7422,69,41,1029)
 p("TropicalRockAssembly_01",83618,217256,6071,19331,147,4286414205,149,-304,4081,"terrainchunk",0,0,0,76,91,42,40,60,2228253)
 p("TropicalRockAssembly_01",83167,218420,6142,347,101,4286414205,-1594,1473,3473,"terrainchunk",0,0,0,76,91,42,40,60,2228253)
 p("Floor_WoodScaff_Edge_01",82200,220800,6300,5400,1644,2151368536,2149194784,2150847085,"",1075845889)
-p("cartridge_box",83225,220104,7056,16200,119,4280357386,1401,2097421)
+p("cartridge_box",83225,220104,7056,16200,119,4280357386,1,1401,2097549)
 p("DecShantyRubbish_02",83928,220914,6250,774,102,55,2098181)
 p("Cigarette",84110,219462,6261,586,517,2097409)
 p("Cigarette",84142,219587,6261,8897,517,2097409)
@@ -253516,9 +253519,9 @@ p("Cigarette",84327,219746,6261,5339,517,2097409)
 p("JungleCamp_CigareteBox_01",84166,220383,6261,1038,517,2097409)
 p("DecBunker_ConcretePile_02",86945,213074,5920,8629,65,"terrainchunk",10,0,0,60,100,10,40,60,2228229)
 p("DecBunker_ConcretePile_02",87374,216176,6283,7485,65,"terrainchunk",10,0,0,60,100,10,40,60,2228229)
-p("cartridge_box",82347,221774,7161,18900,119,4280357386,4057,2097421)
+p("cartridge_box",82347,221774,7161,18900,119,4280357386,1,4057,2097549)
 p("TropicalRockAssembly_01",82842,222649,6142,20795,101,4286414205,580,-735,3987,"terrainchunk",0,0,0,76,91,42,40,60,2228253)
-p("cartridge_box",83425,221550,7094,119,4280357386,2573,269)
+p("cartridge_box",83425,221550,7094,119,4280357386,1,2573,397)
 p("MilitaryCamp_GrenadePile_02",81979,224014,6970,1456,257)
 p("DecBunkerFloor_02",81934,224658,6295,9304,143,4291010426,83,2098189)
 p("TropicalRockAssembly_01",83075,223828,6145,10705,101,4286414205,-78,-74,4094,"terrainchunk",0,0,0,76,91,42,40,60,2228253)
@@ -254134,7 +254137,7 @@ p("TropicalPlant_04_Sapling_02",109363,229009,109,4)
 p("TropicalPlant_06_Sapling_01",110445,228175,44,4)
 p("TropicalPlant_Grass_03",109726,229203,202,4)
 p("TropicalPlant_06_Sapling_01",110347,229313,16,4)
-p("HMMWV",111934,225574,7071,5124,136,-353,4078,2097169)
+p("HMMWV",111934,225574,7071,5124,136,-353,4078,1,2097297)
 p("TropicalPlant_Grass_03",111068,228351,207,4)
 p("TropicalPlant_Grass_03",110833,228760,32,4)
 p("TropicalPlant_04_Shrub_01",111195,228601,99,4)

@@ -274,13 +274,6 @@
 				type = "QuestIsVariableBool",
 				var = set( "Given", "M1_Captured" ),
 			},
-			{
-				editor_view_abridged = "if M1_TalkWithRebels",
-				filter_type = "quest",
-				reference_id = "01_Landing",
-				type = "QuestIsVariableBool",
-				var = set( "M1_TalkWithRebels" ),
-			},
 		},
 		map = "EPA7FVN",
 		name = "UnitMarker#689 (Helping_Rebels)",
@@ -393,25 +386,6 @@
 	},
 	{
 		Groups = {
-			"Helping_Rebels",
-		},
-		handle = 1241602659,
-		items = {
-			{
-				editor_view_abridged = "if Given and M1_Captured",
-				filter_type = "quest",
-				reference_id = "01_Landing",
-				type = "QuestIsVariableBool",
-				var = set( "Given", "M1_Captured" ),
-			},
-		},
-		map = "EPA7FVN",
-		name = "UnitMarker#659 (Helping_Rebels)",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
-	{
-		Groups = {
 			"Start_Legion",
 		},
 		handle = 1303356137,
@@ -511,25 +485,6 @@
 		},
 		map = "EPA7FVN",
 		name = "UnitMarker#005 (Start_Legion)",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
-	{
-		Groups = {
-			"Helping_Rebels",
-		},
-		handle = 1368969721,
-		items = {
-			{
-				editor_view_abridged = "if Given and M1_Captured",
-				filter_type = "quest",
-				reference_id = "01_Landing",
-				type = "QuestIsVariableBool",
-				var = set( "Given", "M1_Captured" ),
-			},
-		},
-		map = "EPA7FVN",
-		name = "UnitMarker#721 (Helping_Rebels)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
@@ -679,25 +634,6 @@
 		},
 		map = "EPA7FVN",
 		name = "UnitMarker#480 (Start_Legion)",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
-	{
-		Groups = {
-			"Helping_Rebels",
-		},
-		handle = 1410263136,
-		items = {
-			{
-				editor_view_abridged = "if Given and M1_Captured",
-				filter_type = "quest",
-				reference_id = "01_Landing",
-				type = "QuestIsVariableBool",
-				var = set( "Given", "M1_Captured" ),
-			},
-		},
-		map = "EPA7FVN",
-		name = "UnitMarker#136 (Helping_Rebels)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
@@ -1060,25 +996,6 @@
 	},
 	{
 		Groups = {
-			"Helping_Rebels",
-		},
-		handle = 1665887171,
-		items = {
-			{
-				editor_view_abridged = "if Given and M1_Captured",
-				filter_type = "quest",
-				reference_id = "01_Landing",
-				type = "QuestIsVariableBool",
-				var = set( "Given", "M1_Captured" ),
-			},
-		},
-		map = "EPA7FVN",
-		name = "UnitMarker#171 (Helping_Rebels)",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
-	{
-		Groups = {
 			"Start_Legion",
 		},
 		handle = 1671386075,
@@ -1152,6 +1069,25 @@
 		},
 		map = "EPA7FVN",
 		name = "UnitMarker#374 (Start_Legion)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Helping_Rebels",
+		},
+		handle = 1728739844,
+		items = {
+			{
+				editor_view_abridged = "if Given and M1_Captured",
+				filter_type = "quest",
+				reference_id = "01_Landing",
+				type = "QuestIsVariableBool",
+				var = set( "Given", "M1_Captured" ),
+			},
+		},
+		map = "EPA7FVN",
+		name = "UnitMarker#844 (Helping_Rebels)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
@@ -1317,25 +1253,6 @@
 		},
 		map = "EPA7FVN",
 		name = "UnitMarker#641 (M2_Quest_Stash)",
-		path = "UnitMarker ",
-		type = "UnitMarker",
-	},
-	{
-		Groups = {
-			"Helping_Rebels",
-		},
-		handle = 1878959805,
-		items = {
-			{
-				editor_view_abridged = "if Given and M1_Captured",
-				filter_type = "quest",
-				reference_id = "01_Landing",
-				type = "QuestIsVariableBool",
-				var = set( "Given", "M1_Captured" ),
-			},
-		},
-		map = "EPA7FVN",
-		name = "UnitMarker#805 (Helping_Rebels)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
 	},
