@@ -1377,6 +1377,13 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Name', "col_ContainerMarker_3",
+	'Index', 380,
+}, nil, 1521338670)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3151,
 	'AllowedMask', 4294966497,
 	'Name', "col_WW2_ConcreteCliffWallSolid_12",
@@ -1926,6 +1933,13 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Name', "col_ContainerMarker_4",
+	'Index', 2799,
+}, nil, 1768525374)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Index', 2627,
 }, nil, 1773078335)
 PlaceObj('Collection', {
@@ -2263,6 +2277,7 @@ PlaceObj('UnitMarker', {
 	'Pos', point(105000, 130200, 46200),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
 	'Appearance', "RebelFemaleSniper",
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
@@ -2275,6 +2290,7 @@ PlaceObj('GridMarker', {
 	'Pos', point(108600, 129000, 38500),
 	'Groups', {
 		"Rebels_Ambient",
+		"DefendPoint",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "AmbientZone",
@@ -2285,6 +2301,7 @@ PlaceObj('UnitMarker', {
 	'Pos', point(114600, 129000, 42000),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
 	'Appearance', "Marksman_Rebels_02",
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
@@ -2293,10 +2310,75 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1782683362)
+PlaceObj('ContainerMarker', {
+	'Pos', point(126600, 118200),
+	'CollectionIndex', 380,
+	'AllowedMask', 4294966497,
+	'Name', "Chest",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'DisplayName', T(604728008938, "CHEST"),
+	'ItemSpawners', {
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "3006_mg_ammo",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "762x39_mg_ammo",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "9x18_smg_ammo",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'ItemId', "AR10DMR",
+			'LootTableId', "762x51_ar_ammo",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'ItemId', "Type56",
+		}),
+	},
+}, nil, 743227392)
+PlaceObj('ContainerMarker', {
+	'Pos', point(125400, 119400),
+	'CollectionIndex', 2799,
+	'AllowedMask', 4294966497,
+	'Name', "Chest",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'DisplayName', T(604728008938, "CHEST"),
+	'ItemSpawners', {
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "AutoPistols_APS",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'ItemId', "APS",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "40mm",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "762x39_ar_ammo",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "GrenadeBox",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'ItemId', "BigDiamond",
+		}),
+	},
+}, nil, 343293952)
 PlaceObj('UnitMarker', {
 	'Pos', point(125400, 123000, 42000),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
@@ -2309,6 +2391,7 @@ PlaceObj('UnitMarker', {
 	'Pos', point(102600, 132600, 46200),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
 	'Appearance', "Heavy_Rebels_02",
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
@@ -2320,6 +2403,7 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(99000, 139800, 37100),
 	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
@@ -2331,6 +2415,7 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(100200, 141000, 37100),
 	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
 	'Appearance', "Commander_Rebels",
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
@@ -2343,6 +2428,7 @@ PlaceObj('UnitMarker', {
 	'Pos', point(106200, 141000),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels_03",
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
@@ -2355,6 +2441,7 @@ PlaceObj('UnitMarker', {
 	'Pos', point(109800, 141000),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels_03",
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
@@ -2367,6 +2454,7 @@ PlaceObj('UnitMarker', {
 	'Pos', point(125400, 133800, 38500),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
@@ -2397,6 +2485,66 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 20,
 	'AreaHeight', 20,
 }, nil, 1593468128)
+PlaceObj('UnitMarker', {
+	'Pos', point(121800, 169800, 23100),
+	'Angle', 5400,
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Ambient",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "AmmoTaken", "InjuredRebels_Healed", "MinesTaken" ),
+		}),
+	},
+	'Appearance', "Soldier_Rebels_03",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "RebelSoldier",
+		}),
+	},
+}, nil, 1860145624)
+PlaceObj('UnitMarker', {
+	'Pos', point(124200, 168600, 23100),
+	'Angle', 5400,
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Ambient",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "AmmoTaken", "InjuredRebels_Healed", "MinesTaken" ),
+		}),
+	},
+	'Appearance', "Soldier_Rebels_03",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "RebelSoldier",
+		}),
+	},
+}, nil, 1278295003)
+PlaceObj('UnitMarker', {
+	'Pos', point(123000, 171000, 23100),
+	'Angle', 5400,
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'RoutineArea', "Rebels_Ambient",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "AmmoTaken", "InjuredRebels_Healed", "MinesTaken" ),
+		}),
+	},
+	'Appearance', "Soldier_Rebels_03",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "RebelSoldier",
+		}),
+	},
+}, nil, 1377625848)
 PlaceObj('GridMarker', {
 	'Pos', point(129000, 177000, 22400),
 	'Groups', {
@@ -2408,7 +2556,7 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 20,
 }, nil, 1285186459)
 PlaceObj('UnitMarker', {
-	'Pos', point(121800, 181800, 23100),
+	'Pos', point(121800, 183000, 23100),
 	'Groups', {
 		"Jazz_Injured_Rebel_2",
 	},
@@ -2419,16 +2567,53 @@ PlaceObj('UnitMarker', {
 			Vars = set( "Given" ),
 		}),
 	},
+	'Despawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "AmmoTaken", "InjuredRebels_Healed", "MinesTaken" ),
+		}),
+	},
 	'Appearance', "Heavy_Rebels_02",
 	'SpecificBanters', {
 		"InjuredRebel",
 	},
+	'InteractionConditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Given" ),
+		}),
+	},
 	'InteractionEffects', {
-		PlaceObj('GroupSetRoutine', {
-			Routine = "Ambient",
-			RoutineArea = "Rebels_Ambient",
-			Running = true,
-			UseWeapons = true,
+		PlaceObj('ConditionalEffect', {
+			'Conditions', {
+				PlaceObj('UnitHasStat', {
+					Amount = 50,
+					Stat = "Medical",
+					SuccessText = T(149438735346, "Стабилизирован"),
+					TargetUnit = "current unit",
+				}),
+			},
+			'Effects', {
+				PlaceObj('QuestSetVariableBool', {
+					Prop = "InjuredRebels_Healed",
+					QuestId = "Jazz_Doctor_need_Help",
+				}),
+				PlaceObj('PlayBanterEffect', {
+					Banters = {
+						"InjuredRebel",
+					},
+					banterSequentialWaitFor = "BanterLineStart",
+					searchInMap = true,
+					searchInMarker = false,
+				}),
+			},
+			'EffectsElse', {
+				PlaceObj('PlayBanterEffect', {
+					Banters = {
+						"PoacherCamp_WoundedSkillCheck_Failure",
+					},
+				}),
+			},
 		}),
 	},
 	'InteractionVisuals', "UI/Hud/iw_speak",
@@ -2439,7 +2624,11 @@ PlaceObj('UnitMarker', {
 			'Name', T(360051447881, "Раненый Повстанец"),
 		}),
 	},
-}, nil, 1141945203)
+	'idle_stance', "Downed",
+	'status_effects', {
+		"Wounded",
+	},
+}, nil, 1867495034)
 PlaceObj('GridMarker', {
 	'Pos', point(124200, 189000, 23100),
 	'Groups', {
@@ -2486,6 +2675,76 @@ PlaceObj('GridMarker', {
 	'Archetypes', {},
 	'ArchetypesTriState', set(),
 }, nil, 1615193950)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(119400, 216600),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1568268017)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(119400, 220200, 19600),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1052808964)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(123000, 216600),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1026577713)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(126600, 223800),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1510278786)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(124200, 227400, 18200),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1449990104)
 PlaceObj('GridMarker', {
 	'Pos', point(129000, 227400, 18200),
 	'Groups', {
@@ -2502,6 +2761,7 @@ PlaceObj('UnitMarker', {
 	'Pos', point(138600, 120600, 42000),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
 	'Appearance', "Commander_Rebels",
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
@@ -2514,6 +2774,7 @@ PlaceObj('UnitMarker', {
 	'Pos', point(138600, 133800, 38500),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
 	'Side', "ally",
 	'UnitDataSpawnDefs', {
@@ -2577,6 +2838,90 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 6,
 	'ArchetypesTriState', set(),
 }, nil, 1571620810)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(151800, 175800),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1404331212)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(151800, 180600),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1275505576)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(155400, 183000),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1194581767)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(151800, 186600),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1116917973)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(154200, 189000),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1696728145)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(157800, 186600),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1750799832)
 PlaceObj('GridMarker', {
 	'Pos', point(157800, 192600, 14700),
 	'AllowedMask', 4294966497,
@@ -2597,6 +2942,20 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 6,
 	'ArchetypesTriState', set(),
 }, nil, 1496375496)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(157800, 196200),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1729828259)
 PlaceObj('GridMarker', {
 	'Pos', point(168600, 133800, 32200),
 	'Groups', {
@@ -2641,6 +3000,132 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 6,
 	'ArchetypesTriState', set(),
 }, nil, 1426879771)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(173400, 165000),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1226528644)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(179400, 165000),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1700233160)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(179400, 169800),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1451182487)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(185400, 177000),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1451064717)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(190200, 174600),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1458565791)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(193800, 179400),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1283875252)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(189000, 180600),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1264071410)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(133800, 228600),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1280034725)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(161400, 198600),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1378043376)
 PlaceObj('GridMarker', {
 	'Pos', point(162600, 210600, 13300),
 	'Groups', {
@@ -2663,8 +3148,36 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 6,
 	'ArchetypesTriState', set(),
 }, nil, 1813803492)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(132600, 233400, 18200),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1648610242)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(133800, 231000),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1810724658)
 PlaceObj('UnitMarker', {
-	'Pos', point(133800, 233400, 18200),
+	'Pos', point(133800, 232200, 18200),
 	'Groups', {
 		"Jazz_Injured_Rebel_3",
 	},
@@ -2675,16 +3188,53 @@ PlaceObj('UnitMarker', {
 			Vars = set( "Given" ),
 		}),
 	},
+	'Despawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "AmmoTaken", "InjuredRebels_Healed", "MinesTaken" ),
+		}),
+	},
 	'Appearance', "Heavy_Rebels_02",
 	'SpecificBanters', {
 		"InjuredRebel",
 	},
+	'InteractionConditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Given" ),
+		}),
+	},
 	'InteractionEffects', {
-		PlaceObj('GroupSetRoutine', {
-			Routine = "Ambient",
-			RoutineArea = "Rebels_Ambient",
-			Running = true,
-			UseWeapons = true,
+		PlaceObj('ConditionalEffect', {
+			'Conditions', {
+				PlaceObj('UnitHasStat', {
+					Amount = 50,
+					Stat = "Medical",
+					SuccessText = T(149438735346, "Стабилизирован"),
+					TargetUnit = "current unit",
+				}),
+			},
+			'Effects', {
+				PlaceObj('QuestSetVariableBool', {
+					Prop = "InjuredRebels_Healed",
+					QuestId = "Jazz_Doctor_need_Help",
+				}),
+				PlaceObj('PlayBanterEffect', {
+					Banters = {
+						"InjuredRebel",
+					},
+					banterSequentialWaitFor = "BanterLineStart",
+					searchInMap = true,
+					searchInMarker = false,
+				}),
+			},
+			'EffectsElse', {
+				PlaceObj('PlayBanterEffect', {
+					Banters = {
+						"PoacherCamp_WoundedSkillCheck_Failure",
+					},
+				}),
+			},
 		}),
 	},
 	'InteractionVisuals', "UI/Hud/iw_speak",
@@ -2695,7 +3245,11 @@ PlaceObj('UnitMarker', {
 			'Name', T(360051447881, "Раненый Повстанец"),
 		}),
 	},
-}, nil, 1317651479)
+	'idle_stance', "Downed",
+	'status_effects', {
+		"Wounded",
+	},
+}, nil, 1798783903)
 PlaceObj('GridMarker', {
 	'Pos', point(136200, 235800, 18200),
 	'Groups', {
@@ -2706,6 +3260,20 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 20,
 	'AreaHeight', 20,
 }, nil, 1261786766)
+PlaceObj('TrapSpawnMarker', {
+	'Pos', point(139800, 231000, 18200),
+	'Groups', {
+		"Jazz_Rebels_MInes",
+	},
+	'AllowedMask', 4294966497,
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Completed" ),
+		}),
+	},
+	'visibility', set( "Rebels", "ally", "neutral" ),
+}, nil, 1273874075)
 PlaceObj('GridMarker', {
 	'Pos', point(157800, 251400, 16100),
 	'Groups', {
@@ -2719,7 +3287,7 @@ PlaceObj('GridMarker', {
 	'ArchetypesTriState', set(),
 }, nil, 1380392495)
 PlaceObj('GridMarker', {
-	'Pos', point(160200, 250200, 14700),
+	'Pos', point(160200, 250200, 16100),
 	'Groups', {
 		"Rebels_Ambient",
 	},
@@ -2729,7 +3297,7 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 20,
 }, nil, 1045529923)
 PlaceObj('TrapSpawnMarker', {
-	'Pos', point(181800, 227400),
+	'Pos', point(166200, 197400),
 	'Groups', {
 		"Jazz_Rebels_MInes",
 	},
@@ -2741,9 +3309,9 @@ PlaceObj('TrapSpawnMarker', {
 		}),
 	},
 	'visibility', set( "Rebels", "ally", "neutral" ),
-}, nil, 1092069011)
+}, nil, 1485015044)
 PlaceObj('GridMarker', {
-	'Pos', point(181800, 229800, 14000),
+	'Pos', point(181800, 229800, 15400),
 	'Groups', {
 		"Rebels_Ambient",
 	},
@@ -2764,62 +3332,6 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 6,
 	'ArchetypesTriState', set(),
 }, nil, 1801010924)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(183000, 239400),
-	'Groups', {
-		"Jazz_Rebels_MInes",
-	},
-	'AllowedMask', 4294966497,
-	'Spawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_Doctor_need_Help",
-			Vars = set( "Completed" ),
-		}),
-	},
-	'visibility', set( "Rebels", "ally", "neutral" ),
-}, nil, 1798806069)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(190200, 232200),
-	'Groups', {
-		"Jazz_Rebels_MInes",
-	},
-	'AllowedMask', 4294966497,
-	'Spawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_Doctor_need_Help",
-			Vars = set( "Completed" ),
-		}),
-	},
-	'visibility', set( "Rebels", "ally", "neutral" ),
-}, nil, 1311840472)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(196200, 234600),
-	'Groups', {
-		"Jazz_Rebels_MInes",
-	},
-	'AllowedMask', 4294966497,
-	'Spawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_Doctor_need_Help",
-			Vars = set( "Completed" ),
-		}),
-	},
-	'visibility', set( "Rebels", "ally", "neutral" ),
-}, nil, 1412871259)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(190200, 239400),
-	'Groups', {
-		"Jazz_Rebels_MInes",
-	},
-	'AllowedMask', 4294966497,
-	'Spawn_Conditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_Doctor_need_Help",
-			Vars = set( "Completed" ),
-		}),
-	},
-	'visibility', set( "Rebels", "ally", "neutral" ),
-}, nil, 1658144337)
 PlaceObj('UnitMarker', {
 	'Pos', point(197400, 147000, 27300),
 	'Angle', 5400,
@@ -2856,16 +3368,53 @@ PlaceObj('UnitMarker', {
 			Vars = set( "Given" ),
 		}),
 	},
+	'Despawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "AmmoTaken", "InjuredRebels_Healed", "MinesTaken" ),
+		}),
+	},
 	'Appearance', "Heavy_Rebels_02",
 	'SpecificBanters', {
 		"InjuredRebel",
 	},
+	'InteractionConditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_Doctor_need_Help",
+			Vars = set( "Given" ),
+		}),
+	},
 	'InteractionEffects', {
-		PlaceObj('GroupSetRoutine', {
-			Routine = "Ambient",
-			RoutineArea = "Rebels_Ambient",
-			Running = true,
-			UseWeapons = true,
+		PlaceObj('ConditionalEffect', {
+			'Conditions', {
+				PlaceObj('UnitHasStat', {
+					Amount = 50,
+					Stat = "Medical",
+					SuccessText = T(149438735346, "Стабилизирован"),
+					TargetUnit = "current unit",
+				}),
+			},
+			'Effects', {
+				PlaceObj('QuestSetVariableBool', {
+					Prop = "InjuredRebels_Healed",
+					QuestId = "Jazz_Doctor_need_Help",
+				}),
+				PlaceObj('PlayBanterEffect', {
+					Banters = {
+						"InjuredRebel",
+					},
+					banterSequentialWaitFor = "BanterLineStart",
+					searchInMap = true,
+					searchInMarker = false,
+				}),
+			},
+			'EffectsElse', {
+				PlaceObj('PlayBanterEffect', {
+					Banters = {
+						"PoacherCamp_WoundedSkillCheck_Failure",
+					},
+				}),
+			},
 		}),
 	},
 	'InteractionVisuals', "UI/Hud/iw_speak",
@@ -2875,6 +3424,10 @@ PlaceObj('UnitMarker', {
 			'UnitDataDefId', "RebelGunner",
 			'Name', T(360051447881, "Раненый Повстанец"),
 		}),
+	},
+	'idle_stance', "Downed",
+	'status_effects', {
+		"Wounded",
 	},
 }, nil, 1024982262)
 PlaceObj('GridMarker', {
@@ -2919,34 +3472,102 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 332046336)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(197400, 216600),
+PlaceObj('UnitMarker', {
+	'Pos', point(203400, 228600, 15400),
+	'Angle', 10800,
 	'Groups', {
-		"Jazz_Rebels_MInes",
+		"LegionComing",
 	},
 	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
 	'Spawn_Conditions', {
 		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_Doctor_need_Help",
-			Vars = set( "Completed" ),
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
 		}),
 	},
-	'visibility', set( "Rebels", "ally", "neutral" ),
-}, nil, 1336457824)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(203400, 226200),
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Stormer",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
+		}),
+	},
+}, nil, 1642366892)
+PlaceObj('UnitMarker', {
+	'Pos', point(204600, 227400, 15400),
+	'Angle', 10800,
 	'Groups', {
-		"Jazz_Rebels_MInes",
+		"LegionComing",
 	},
 	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
 	'Spawn_Conditions', {
 		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_Doctor_need_Help",
-			Vars = set( "Completed" ),
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
 		}),
 	},
-	'visibility', set( "Rebels", "ally", "neutral" ),
-}, nil, 1735487181)
+	'CollectionRange', 15000,
+	'Appearance', "LegionSniper_Stronger_alt_2",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Ambusher",
+		}),
+	},
+}, nil, 1134885244)
+PlaceObj('UnitMarker', {
+	'Pos', point(205800, 223800, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionSniper_Stronger_alt_2",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Ambusher",
+		}),
+	},
+}, nil, 1705246403)
+PlaceObj('UnitMarker', {
+	'Pos', point(205800, 226200, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionGunner_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_GunnerT1_Gunner",
+		}),
+	},
+}, nil, 1093961538)
 PlaceObj('TrapSpawnMarker', {
 	'Pos', point(208200, 226200),
 	'Groups', {
@@ -2961,34 +3582,102 @@ PlaceObj('TrapSpawnMarker', {
 	},
 	'visibility', set( "Rebels", "ally", "neutral" ),
 }, nil, 1002808452)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(211800, 223800),
+PlaceObj('UnitMarker', {
+	'Pos', point(207000, 228600, 15400),
+	'Angle', 10800,
 	'Groups', {
-		"Jazz_Rebels_MInes",
+		"LegionComing",
 	},
 	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
 	'Spawn_Conditions', {
 		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_Doctor_need_Help",
-			Vars = set( "Completed" ),
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
 		}),
 	},
-	'visibility', set( "Rebels", "ally", "neutral" ),
-}, nil, 1367169819)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(211800, 228600),
+	'CollectionRange', 15000,
+	'Appearance', "LegionGrenadir",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
+		}),
+	},
+}, nil, 1221270899)
+PlaceObj('UnitMarker', {
+	'Pos', point(209400, 223800, 15400),
+	'Angle', 10800,
 	'Groups', {
-		"Jazz_Rebels_MInes",
+		"LegionComing",
 	},
 	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
 	'Spawn_Conditions', {
 		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_Doctor_need_Help",
-			Vars = set( "Completed" ),
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
 		}),
 	},
-	'visibility', set( "Rebels", "ally", "neutral" ),
-}, nil, 1202031087)
+	'CollectionRange', 15000,
+	'Appearance', "LegionSniper_Stronger_alt_2",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Ambusher",
+		}),
+	},
+}, nil, 1202150215)
+PlaceObj('UnitMarker', {
+	'Pos', point(210600, 226200, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionGrenadir",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
+		}),
+	},
+}, nil, 1483101648)
+PlaceObj('UnitMarker', {
+	'Pos', point(210600, 227400, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Stormer",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
+		}),
+	},
+}, nil, 1821684277)
 PlaceObj('ContainerMarker', {
 	'Pos', point(214200, 197400),
 	'CollectionIndex', 3033,
@@ -2999,6 +3688,315 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 978534400)
+PlaceObj('UnitMarker', {
+	'Pos', point(214200, 226200, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionMedic_Stronger_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Bonemaker",
+		}),
+	},
+}, nil, 1423886094)
+PlaceObj('UnitMarker', {
+	'Pos', point(214200, 228600, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionScout_Stronger",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FlankerT2_Scout",
+		}),
+	},
+}, nil, 1455157934)
+PlaceObj('UnitMarker', {
+	'Pos', point(217800, 225000, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionGoon_Stronger_alt_2",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT2_Pillager",
+		}),
+	},
+}, nil, 1453826420)
+PlaceObj('UnitMarker', {
+	'Pos', point(217800, 227400, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Soldier",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
+		}),
+	},
+}, nil, 1027714516)
+PlaceObj('UnitMarker', {
+	'Pos', point(217800, 228600, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Stormer",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
+		}),
+	},
+}, nil, 1368554084)
+PlaceObj('UnitMarker', {
+	'Pos', point(219000, 228600, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionSharpShooter",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
+		}),
+	},
+}, nil, 1088374966)
+PlaceObj('UnitMarker', {
+	'Pos', point(222600, 225000, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Soldier",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
+		}),
+	},
+}, nil, 1131278750)
+PlaceObj('UnitMarker', {
+	'Pos', point(225000, 225000, 15400),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "Given" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionRanger_Stronger_Elite_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FlankerT3_Pathfinder",
+		}),
+	},
+}, nil, 1145527184)
+PlaceObj('UnitMarker', {
+	'Pos', point(221400, 226200, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Stormer",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT2_ShockTrooper",
+		}),
+	},
+}, nil, 1436979707)
+PlaceObj('UnitMarker', {
+	'Pos', point(222600, 228600, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Soldier",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
+		}),
+	},
+}, nil, 1628992395)
+PlaceObj('UnitMarker', {
+	'Pos', point(223800, 227400, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Stormer",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
+		}),
+	},
+}, nil, 1393690077)
+PlaceObj('UnitMarker', {
+	'Pos', point(225000, 228600, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Stormer",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
+		}),
+	},
+}, nil, 1005532455)
+PlaceObj('UnitMarker', {
+	'Pos', point(226200, 226200, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionGunner_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_GunnerT1_Gunner",
+		}),
+	},
+}, nil, 1526193523)
 PlaceObj('ExitZoneInteractable', {
 	'Pos', point(226044, 228367, 15323),
 	'Groups', {
@@ -3016,6 +4014,174 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 5,
 	'AreaHeight', 5,
 }, nil, 1017536347)
+PlaceObj('UnitMarker', {
+	'Pos', point(199800, 234600, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Soldier",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
+		}),
+	},
+}, nil, 1762527714)
+PlaceObj('UnitMarker', {
+	'Pos', point(204600, 229800, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionSniper_Stronger_alt_2",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Ambusher",
+		}),
+	},
+}, nil, 1062451145)
+PlaceObj('UnitMarker', {
+	'Pos', point(204600, 231000, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Soldier",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
+		}),
+	},
+}, nil, 1791042928)
+PlaceObj('UnitMarker', {
+	'Pos', point(203400, 233400, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Stormer",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT2_ShockTrooper",
+		}),
+	},
+}, nil, 1105116076)
+PlaceObj('UnitMarker', {
+	'Pos', point(204600, 232200, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Stormer",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
+		}),
+	},
+}, nil, 1564476248)
+PlaceObj('UnitMarker', {
+	'Pos', point(201000, 235800, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionSharpShooter",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
+		}),
+	},
+}, nil, 1281226759)
+PlaceObj('UnitMarker', {
+	'Pos', point(202200, 237000, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Recon03",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
+		}),
+	},
+}, nil, 1387089401)
 PlaceObj('TrapSpawnMarker', {
 	'Pos', point(205800, 231000),
 	'Groups', {
@@ -3030,48 +4196,246 @@ PlaceObj('TrapSpawnMarker', {
 	},
 	'visibility', set( "Rebels", "ally", "neutral" ),
 }, nil, 1855583328)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(208200, 229800),
+PlaceObj('UnitMarker', {
+	'Pos', point(207000, 231000, 15400),
+	'Angle', 10800,
 	'Groups', {
-		"Jazz_Rebels_MInes",
+		"LegionComing",
 	},
 	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
 	'Spawn_Conditions', {
 		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_Doctor_need_Help",
-			Vars = set( "Completed" ),
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
 		}),
 	},
-	'visibility', set( "Rebels", "ally", "neutral" ),
-}, nil, 1359533455)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(208200, 233400),
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Heavy02",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_GunnerT2_GMPG",
+		}),
+	},
+}, nil, 1075634594)
+PlaceObj('UnitMarker', {
+	'Pos', point(207000, 232200, 15400),
+	'Angle', 10800,
 	'Groups', {
-		"Jazz_Rebels_MInes",
+		"LegionComing",
 	},
 	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
 	'Spawn_Conditions', {
 		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_Doctor_need_Help",
-			Vars = set( "Completed" ),
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
 		}),
 	},
-	'visibility', set( "Rebels", "ally", "neutral" ),
-}, nil, 1564572013)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(210600, 235800),
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Stormer",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
+		}),
+	},
+}, nil, 1275999669)
+PlaceObj('UnitMarker', {
+	'Pos', point(205800, 235800, 15400),
+	'Angle', 10800,
 	'Groups', {
-		"Jazz_Rebels_MInes",
+		"LegionComing",
 	},
 	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
 	'Spawn_Conditions', {
 		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_Doctor_need_Help",
-			Vars = set( "Completed" ),
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
 		}),
 	},
-	'visibility', set( "Rebels", "ally", "neutral" ),
-}, nil, 1533359351)
+	'CollectionRange', 15000,
+	'Appearance', "LegionSniper_Stronger_alt_2",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Ambusher",
+		}),
+	},
+}, nil, 1690377461)
+PlaceObj('UnitMarker', {
+	'Pos', point(209400, 231000, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Stormer",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
+		}),
+	},
+}, nil, 1079336558)
+PlaceObj('UnitMarker', {
+	'Pos', point(210600, 231000, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionSniper_Stronger_alt_2",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Ambusher",
+		}),
+	},
+}, nil, 1845790617)
+PlaceObj('UnitMarker', {
+	'Pos', point(213000, 229800, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "LegionMedic_Stronger_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Bonemaker",
+		}),
+	},
+}, nil, 1123032899)
+PlaceObj('UnitMarker', {
+	'Pos', point(217800, 231000, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Soldier",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
+		}),
+	},
+}, nil, 1457670245)
+PlaceObj('UnitMarker', {
+	'Pos', point(220200, 229800, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Recon03",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
+		}),
+	},
+}, nil, 1788815795)
+PlaceObj('UnitMarker', {
+	'Pos', point(225000, 231000, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Soldier",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
+		}),
+	},
+}, nil, 1814347588)
+PlaceObj('UnitMarker', {
+	'Pos', point(227400, 231000, 15400),
+	'Angle', 10800,
+	'Groups', {
+		"LegionComing",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "DefendPoint",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_LightHouseDefend",
+			Vars = set( "LegionHere" ),
+		}),
+	},
+	'CollectionRange', 15000,
+	'Appearance', "Legion_Heavy02",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_GunnerT2_GMPG",
+		}),
+	},
+}, nil, 1113337531)
 PlaceObj('ExitZoneInteractable', {
 	'Pos', point(177041, 266626, 15238),
 	'Groups', {
@@ -29905,6 +31269,7 @@ PlaceObj('MilitaryCamp_Projector', {
 	'Scale', 250,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'SIModulation', 0,
 	'CollectionIndex', 2697,
 	'AllowedMask', 0,
 	'Positions', {
@@ -52594,6 +53959,7 @@ PlaceObj('BunkerInterior_PropSet_03', {
 	'Pos', point(125400, 117000, 38500),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 380,
 	'AllowedMask', 782,
 }, nil, 1194719390)
 PlaceObj('RoofPlaneSlab', {
@@ -53562,6 +54928,7 @@ PlaceObj('BunkerInterior_PropSet_02', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2799,
 	'AllowedMask', 782,
 }, nil, 1562703675)
 PlaceObj('FloorSlab', {
@@ -66344,6 +67711,7 @@ PlaceObj('Explosive_Barrel', {
 	'EditableColor2', RGBA(220, 140, 28, 255),
 	'EditableColor3', RGBA(48, 25, 14, 255),
 	'Pos', point(107400, 137400),
+	'ColorModifier', RGBA(255, 255, 255, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
@@ -68277,17 +69645,6 @@ PlaceObj('FloorSlab', {
 		'EditableColor3', RGBA(0, 0, 0, 255),
 	}),
 }, nil, 1749421010)
-PlaceObj('Debris_Planks_04', {
-	'ColorizationPalette', "",
-	'EditableColor1', RGBA(60, 38, 8, 255),
-	'EditableColor2', RGBA(52, 45, 41, 255),
-	'Pos', point(121172, 196770, 23086),
-	'Angle', 5749,
-	'Axis', point(-52, 360, 4079),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 0,
-}, nil, 1363644770)
 PlaceObj('Mine_WoodenBeam_Vertical_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 45, 41, 255),
@@ -73328,6 +74685,7 @@ PlaceObj('WindowBig_Warehouse_Single_05', {
 	'EditableColor3', RGBA(48, 25, 14, 255),
 	'Pos', point(138600, 124800, 39200),
 	'Angle', 16200,
+	'StateText', "broken",
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -75878,7 +77236,6 @@ PlaceObj('RoomCorner', {
 PlaceObj('RoofCornerWallSlab', {
 	'Pos', point(146400, 142800, 26600),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -75889,7 +77246,6 @@ PlaceObj('RoofCornerWallSlab', {
 PlaceObj('RoofCorner', {
 	'Pos', point(146400, 142800, 27086),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -75953,7 +77309,6 @@ PlaceObj('WallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(147000, 142800, 26600),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -75966,7 +77321,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(147000, 142800, 27300),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -75979,7 +77333,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(147000, 142800, 27354),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -76051,7 +77404,6 @@ PlaceObj('WallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(146400, 143400, 26600),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -76064,7 +77416,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(146400, 143400, 27086),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -76153,7 +77504,6 @@ PlaceObj('WallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(146400, 144600, 26600),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -76166,7 +77516,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(146400, 144600, 27086),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -76186,7 +77535,6 @@ PlaceObj('FloorSlab', {
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(147000, 143400, 27354),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -76206,7 +77554,6 @@ PlaceObj('FloorSlab', {
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(147000, 144600, 27354),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -76270,7 +77617,6 @@ PlaceObj('WallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(146400, 145800, 26600),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -76283,7 +77629,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(146400, 145800, 27086),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -76347,7 +77692,6 @@ PlaceObj('WallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(146400, 147000, 26600),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -76371,7 +77715,6 @@ PlaceObj('EditorLineGuide', {
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(146400, 147000, 27086),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -76391,7 +77734,6 @@ PlaceObj('FloorSlab', {
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(147000, 145800, 27354),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -76434,7 +77776,6 @@ PlaceObj('FloorSlab', {
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(147000, 147000, 27354),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -76642,7 +77983,6 @@ PlaceObj('RoomCorner', {
 }, nil, 1852645419)
 PlaceObj('RoofCornerWallSlab', {
 	'Pos', point(146400, 147600, 26600),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -76662,7 +78002,6 @@ PlaceObj('RoofCornerWallSlab', {
 PlaceObj('RoofCorner', {
 	'Pos', point(146400, 147600, 27086),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -76988,7 +78327,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(147000, 147600, 26600),
 	'Angle', 5400,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77013,7 +78351,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(147000, 147600, 27300),
 	'Angle', 5400,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77026,7 +78363,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(147000, 147600, 27354),
 	'Angle', 5400,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77418,7 +78754,6 @@ PlaceObj('WallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(148200, 142800, 26600),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77431,7 +78766,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(148200, 142800, 27300),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77444,7 +78778,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(148200, 142800, 27890),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77456,7 +78789,6 @@ PlaceObj('RoofEdgeSlab', {
 PlaceObj('GableRoofWallSlab', {
 	'Pos', point(148800, 142800, 28000),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77528,7 +78860,6 @@ PlaceObj('WallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(149400, 142800, 26600),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77541,7 +78872,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(149400, 142800, 27300),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77554,7 +78884,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('GableCapRoofEdgeSlab', {
 	'Pos', point(149400, 142800, 28350),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77565,7 +78894,6 @@ PlaceObj('GableCapRoofEdgeSlab', {
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(149400, 142800, 28426),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77577,7 +78905,6 @@ PlaceObj('RoofEdgeSlab', {
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(149400, 142800, 28426),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77596,7 +78923,6 @@ PlaceObj('City_VHSTape_02', {
 PlaceObj('GableRoofWallSlab', {
 	'Pos', point(150000, 142800, 28000),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77661,7 +78987,6 @@ PlaceObj('WallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(150600, 142800, 26600),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77674,7 +78999,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(150600, 142800, 27300),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77687,7 +79011,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(150600, 142800, 27890),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77734,7 +79057,6 @@ PlaceObj('Shanty_ShelvesCorner_07', {
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(148200, 143400, 27890),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77754,7 +79076,6 @@ PlaceObj('FloorSlab', {
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(148200, 144600, 27890),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77782,7 +79103,6 @@ PlaceObj('FloorSlab', {
 PlaceObj('GableCapRoofPlaneSlab', {
 	'Pos', point(149400, 143400, 28350),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77793,7 +79113,6 @@ PlaceObj('GableCapRoofPlaneSlab', {
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(149400, 143400, 28426),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77804,7 +79123,6 @@ PlaceObj('RoofPlaneSlab', {
 }, nil, 1245363056)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(149400, 143400, 28426),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77831,7 +79149,6 @@ PlaceObj('FloorSlab', {
 PlaceObj('GableCapRoofPlaneSlab', {
 	'Pos', point(149400, 144600, 28350),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77841,7 +79158,6 @@ PlaceObj('GableCapRoofPlaneSlab', {
 }, nil, 1234260568)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(149400, 144600, 28426),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77853,7 +79169,6 @@ PlaceObj('RoofPlaneSlab', {
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(149400, 144600, 28426),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77938,7 +79253,6 @@ PlaceObj('FloorSlab', {
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(148200, 145800, 27890),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77958,7 +79272,6 @@ PlaceObj('FloorSlab', {
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(148200, 147000, 27890),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -77989,7 +79302,6 @@ PlaceObj('FloorSlab', {
 PlaceObj('GableCapRoofPlaneSlab', {
 	'Pos', point(149400, 145800, 28350),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78000,7 +79312,6 @@ PlaceObj('GableCapRoofPlaneSlab', {
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(149400, 145800, 28426),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78011,7 +79322,6 @@ PlaceObj('RoofPlaneSlab', {
 }, nil, 1657892361)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(149400, 145800, 28426),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78031,7 +79341,6 @@ PlaceObj('FloorSlab', {
 PlaceObj('GableCapRoofPlaneSlab', {
 	'Pos', point(149400, 147000, 28350),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78041,7 +79350,6 @@ PlaceObj('GableCapRoofPlaneSlab', {
 }, nil, 1641044052)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(149400, 147000, 28426),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78064,7 +79372,6 @@ PlaceObj('EditorLineGuide', {
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(149400, 147000, 28426),
 	'Angle', 10800,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78103,7 +79410,6 @@ PlaceObj('FloorSlab', {
 }, nil, 1728352555)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(150600, 143400, 27890),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78122,7 +79428,6 @@ PlaceObj('FloorSlab', {
 }, nil, 1140207600)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(150600, 144600, 27890),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78141,7 +79446,6 @@ PlaceObj('FloorSlab', {
 }, nil, 1749970521)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(150600, 145800, 27890),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78160,7 +79464,6 @@ PlaceObj('FloorSlab', {
 }, nil, 1069198359)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(150600, 147000, 27890),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78224,7 +79527,6 @@ PlaceObj('WallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(151800, 142800, 26600),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78237,7 +79539,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(151800, 142800, 27300),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78250,7 +79551,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(151800, 142800, 27354),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78366,7 +79666,6 @@ PlaceObj('RoofCornerWallSlab', {
 PlaceObj('RoofCornerWallSlab', {
 	'Pos', point(152400, 142800, 26600),
 	'Angle', 16200,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78387,7 +79686,6 @@ PlaceObj('RoofCorner', {
 }, nil, 1047894108)
 PlaceObj('RoofCorner', {
 	'Pos', point(152400, 142800, 27086),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78674,7 +79972,6 @@ PlaceObj('FloorSlab', {
 }, nil, 1439367316)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(151800, 143400, 27354),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78801,7 +80098,6 @@ PlaceObj('RoofWallSlab', {
 }, nil, 1413179066)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(152400, 143400, 26600),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78824,7 +80120,6 @@ PlaceObj('RoofEdgeSlab', {
 }, nil, 1602128845)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(152400, 143400, 27086),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78849,7 +80144,6 @@ PlaceObj('FloorSlab', {
 }, nil, 1055173273)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(151800, 144600, 27354),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78976,7 +80270,6 @@ PlaceObj('RoofWallSlab', {
 }, nil, 1450299261)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(152400, 144600, 26600),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -78999,7 +80292,6 @@ PlaceObj('RoofEdgeSlab', {
 }, nil, 1252633676)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(152400, 144600, 27086),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -79097,7 +80389,6 @@ PlaceObj('FloorSlab', {
 }, nil, 1259927516)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(151800, 145800, 27354),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -79223,7 +80514,6 @@ PlaceObj('WallSlab', {
 }, nil, 1775245282)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(152400, 145800, 26600),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -79269,7 +80559,6 @@ PlaceObj('RoofEdgeSlab', {
 }, nil, 1645200217)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(152400, 145800, 27086),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -79288,7 +80577,6 @@ PlaceObj('FloorSlab', {
 }, nil, 1531882015)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(151800, 147000, 27354),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -79403,7 +80691,6 @@ PlaceObj('WallSlab', {
 }, nil, 1536742094)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(152400, 147000, 26600),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -79438,7 +80725,6 @@ PlaceObj('RoofEdgeSlab', {
 }, nil, 1814598340)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(152400, 147000, 27086),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -80273,7 +81559,6 @@ PlaceObj('WallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(148200, 147600, 26600),
 	'Angle', 5400,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -80310,7 +81595,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(148200, 147600, 27300),
 	'Angle', 5400,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -80334,7 +81618,6 @@ PlaceObj('RoofEdgeSlab', {
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(148200, 147600, 27890),
 	'Angle', 5400,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -80396,7 +81679,6 @@ PlaceObj('GableRoofWallSlab', {
 PlaceObj('GableRoofWallSlab', {
 	'Pos', point(148800, 147600, 28000),
 	'Angle', 5400,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -80529,7 +81811,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(149400, 147600, 26600),
 	'Angle', 5400,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -80542,7 +81823,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(149400, 147600, 27300),
 	'Angle', 5400,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -80567,7 +81847,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('GableCapRoofEdgeSlab', {
 	'Pos', point(149400, 147600, 28350),
 	'Angle', 5400,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -80588,7 +81867,6 @@ PlaceObj('GableCapRoofEdgeSlab', {
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(149400, 147600, 28426),
 	'Angle', 5400,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -80622,7 +81900,6 @@ PlaceObj('RoofEdgeSlab', {
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(149400, 147600, 28426),
 	'Angle', 5400,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -81167,7 +82444,6 @@ PlaceObj('RoofEdgeSlab', {
 PlaceObj('GableRoofWallSlab', {
 	'Pos', point(150000, 147600, 28000),
 	'Angle', 5400,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -81312,7 +82588,6 @@ PlaceObj('WallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(150600, 147600, 26600),
 	'Angle', 5400,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -81349,7 +82624,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(150600, 147600, 27300),
 	'Angle', 5400,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -81362,7 +82636,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(150600, 147600, 27890),
 	'Angle', 5400,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -82156,7 +83429,6 @@ PlaceObj('WallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(151800, 147600, 26600),
 	'Angle', 5400,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -82181,7 +83453,6 @@ PlaceObj('RoofWallSlab', {
 PlaceObj('RoofWallSlab', {
 	'Pos', point(151800, 147600, 27300),
 	'Angle', 5400,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -82217,7 +83488,6 @@ PlaceObj('RoofEdgeSlab', {
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(151800, 147600, 27354),
 	'Angle', 5400,
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -82344,7 +83614,6 @@ PlaceObj('RoomCorner', {
 }, nil, 1747875418)
 PlaceObj('RoofCornerWallSlab', {
 	'Pos', point(152400, 147600, 26600),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -82374,7 +83643,6 @@ PlaceObj('RoofCorner', {
 }, nil, 1624578551)
 PlaceObj('RoofCorner', {
 	'Pos', point(152400, 147600, 27086),
-	'Opacity', 0,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -114427,9 +115695,9 @@ p("TropicalPlant_Grass_03",184444,201525,15434,13973,87,2097157)
 p("TropicalPlant_Grass_03",188269,201704,15195,9613,122,2097157)
 p("TropicalPlant_Grass_03",187001,203675,15195,16943,122,2097157)
 p("TropicalPlant_Grass_03",182623,206693,15474,15815,172,2097157)
-p("TropicalPlant_Grass_03",181569,212683,16088,6174,172,2097157)
-p("TropicalPlant_Grass_03",182505,209586,16088,15815,172,2097157)
-p("TropicalPlant_04_Sapling_01",182339,210836,15448,6133,148,2097157)
+p("TropicalPlant_Grass_03",181569,212683,16088,6174,172,6,2097285)
+p("TropicalPlant_Grass_03",182505,209586,16088,15815,172,6,2097285)
+p("TropicalPlant_04_Sapling_01",182339,210836,15448,6133,148,6,2097285)
 p("TropicalPlant_Grass_03",186141,208036,15195,16943,122,2097157)
 p("TropicalPlant_Grass_03",186390,205548,15195,16943,122,2097157)
 p("TropicalRockSharp_01",188368,205993,15559,11242,250,3543,-7,2054,3147,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
@@ -114459,7 +115727,7 @@ p("TropicalPlant_Grass_03",193093,204897,16127,13461,122,2097157)
 p("TropicalPlant_01_Shrub",193253,205054,16766,18665,92,2097157)
 p("TropicalPlant_Grass_03",194102,206430,16127,5883,122,2097157)
 p("TropicalPlant_Grass_03",192707,208008,17190,7530,122,2097157)
-p("TropicalPlant_Grass_03",180660,214787,16088,6174,172,2097157)
+p("TropicalPlant_Grass_03",180660,214787,16088,6174,172,6,2097285)
 p("TropicalPlant_Dead_09",180679,217960,15755,1)
 p("TropicalPlant_Grass_03",185768,216063,16412,6174,172,2097157)
 p("TropicalPlant_Grass_03",187163,214771,16716,6174,172,2097157)

@@ -2676,6 +2676,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -2701,6 +2702,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -2735,6 +2737,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -2760,6 +2763,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -2785,6 +2789,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -2805,6 +2810,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1480868191)
 PlaceObj('UnitMarker', {
 	'Pos', point(83400, 187800, 38500),
+	'Groups', {
+		"Rebels_Base_Warrior_Chief",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Commander_Rebels",
@@ -2822,6 +2830,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -2847,6 +2856,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -2912,6 +2922,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -2937,6 +2948,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -2962,6 +2974,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -2987,6 +3000,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3012,6 +3026,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3037,6 +3052,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3062,6 +3078,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3087,6 +3104,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3112,6 +3130,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3137,6 +3156,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3162,6 +3182,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3248,6 +3269,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3273,6 +3295,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3308,6 +3331,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3333,6 +3357,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3383,6 +3408,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3408,6 +3434,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3433,6 +3460,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3458,6 +3486,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3483,6 +3512,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3508,6 +3538,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3590,6 +3621,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3615,6 +3647,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3647,6 +3680,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3672,6 +3706,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3726,6 +3761,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3860,6 +3896,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -3904,6 +3941,7 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
+	'Trigger', "activation",
 	'TriggerConditions', {
 		PlaceObj('SectorIsInConflict', {}),
 	},
@@ -67070,7 +67108,7 @@ PlaceObj('TropicalPlant_LianaArc_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'CollectionIndex', 785,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, 1394478007)
 PlaceObj('MilitaryCamp_FenceCover_01', {
 	'ColorizationPalette', "",
@@ -67194,7 +67232,7 @@ PlaceObj('TropicalPlant_LianaArc_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'CollectionIndex', 785,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, 1017687999)
 PlaceObj('TropicalFillerPlants_04', {
 	'Pos', point(229056, 121666),
@@ -74984,7 +75022,7 @@ PlaceObj('Hangar_Canvas_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3007,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, 1176358935)
 PlaceObj('HangarSmall_Wall_03', {
 	'ColorizationPalette', "",
@@ -75558,7 +75596,7 @@ PlaceObj('Hangar_Canvas_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3007,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, 1787424201)
 PlaceObj('HangarSmall_FlatWall_04', {
 	'ColorizationPalette', "",
