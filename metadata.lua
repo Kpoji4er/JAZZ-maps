@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4876,
+	'version', 4879,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
@@ -21,7 +21,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1770854205,
+	'saved', 1771010717,
 	'code_hash', -4445560982361173495,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
@@ -1282,56 +1282,6 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
 			'Id', "HotDiamonds_P8_Underground",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
-			'Id', "HotDiamonds_B1",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
-			'Id', "HotDiamonds_H5",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
-			'Id', "HotDiamonds_H6",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
-			'Id', "HotDiamonds_H7",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
-			'Id', "HotDiamonds_H8",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
-			'Id', "HotDiamonds_H9",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
-			'Id', "HotDiamonds_G5",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
-			'Id', "HotDiamonds_G6",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
-			'Id', "HotDiamonds_G7",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
-			'Id', "HotDiamonds_G8",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
