@@ -1884,7 +1884,7 @@ PlaceObj('ContainerMarker', {
 	'DespawnIfEmpty', true,
 }, nil, 43237376)
 PlaceObj('GridMarker', {
-	'Pos', point(136200, 173400, 7700),
+	'Pos', point(135000, 178200, 7700),
 	'Groups', {
 		"JazzDoctorAmmoTaken",
 	},
@@ -1893,6 +1893,7 @@ PlaceObj('GridMarker', {
 	'ID', "JazzDoctorAmmoTaken",
 	'AreaWidth', 20,
 	'AreaHeight', 10,
+	'TriggerEffects', {},
 }, nil, 1813082513)
 PlaceObj('IntelMarker', {
 	'Pos', point(141000, 173400, 12600),
@@ -1982,37 +1983,244 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 6,
 	'AreaHeight', 6,
 }, nil, 1420888898)
-PlaceObj('GridMarker', {
-	'Pos', point(199800, 167400, 7000),
-	'Groups', {
-		"JazzQuestPatrol_I3",
-	},
+PlaceObj('UnitMarker', {
+	'Pos', point(219000, 161400, 7000),
+	'Angle', 10800,
 	'AllowedMask', 4294966497,
-	'Type', "Defender",
-	'ID', "JazzQuestPatrol_I3",
-	'Comment', "Появляется авангард легов",
-	'AreaWidth', 10,
-	'AreaHeight', 11,
-	'TriggerConditions', {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_Doctor_need_Help",
-			Vars = set( "Given" ),
-		}),
-	},
-	'TriggerEffects', {
-		PlaceObj('SectorSpawnSquad', {
-			sector_id = "I3",
-			squad_def_id = "LegionExtraSquadFireArms",
-		}),
-	},
-	'EnabledConditions', {
+	'Routine', "AdvanceTo",
+	'RoutineArea', "JazzDoctorAmmoTaken",
+	'Spawn_Conditions', {
 		PlaceObj('ItemIsFound', {
 			ItemId = "JazzQuestItem_AmmoBox",
 		}),
 	},
+	'Appearance', "Legion_Stormer03",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
+		}),
+	},
+}, nil, 1424620066)
+PlaceObj('UnitMarker', {
+	'Pos', point(220200, 163800, 7000),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "JazzDoctorAmmoTaken",
-}, nil, 1093286047)
+	'Spawn_Conditions', {
+		PlaceObj('ItemIsFound', {
+			ItemId = "JazzQuestItem_AmmoBox",
+		}),
+	},
+	'Appearance', "LegionRaider_Stronger_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Raider",
+		}),
+	},
+}, nil, 1753948863)
+PlaceObj('UnitMarker', {
+	'Pos', point(225000, 157800, 7000),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "JazzDoctorAmmoTaken",
+	'Spawn_Conditions', {
+		PlaceObj('ItemIsFound', {
+			ItemId = "JazzQuestItem_AmmoBox",
+		}),
+	},
+	'Appearance', "LegionScout_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
+		}),
+	},
+}, nil, 1770086775)
+PlaceObj('UnitMarker', {
+	'Pos', point(222600, 161400, 7000),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "JazzDoctorAmmoTaken",
+	'Spawn_Conditions', {
+		PlaceObj('ItemIsFound', {
+			ItemId = "JazzQuestItem_AmmoBox",
+		}),
+	},
+	'Appearance', "LegionRaider_Stronger_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Raider",
+		}),
+	},
+}, nil, 1534397548)
+PlaceObj('UnitMarker', {
+	'Pos', point(226200, 160200, 7000),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "JazzDoctorAmmoTaken",
+	'Spawn_Conditions', {
+		PlaceObj('ItemIsFound', {
+			ItemId = "JazzQuestItem_AmmoBox",
+		}),
+	},
+	'Appearance', "LegionScout_Stronger_Elite_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FlankerT3_Recon",
+		}),
+	},
+}, nil, 1695253590)
+PlaceObj('UnitMarker', {
+	'Pos', point(226200, 163800, 7000),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "JazzDoctorAmmoTaken",
+	'Spawn_Conditions', {
+		PlaceObj('ItemIsFound', {
+			ItemId = "JazzQuestItem_AmmoBox",
+		}),
+	},
+	'Appearance', "LegionScout_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
+		}),
+	},
+}, nil, 1883246790)
+PlaceObj('UnitMarker', {
+	'Pos', point(228600, 161400),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "JazzDoctorAmmoTaken",
+	'Spawn_Conditions', {
+		PlaceObj('ItemIsFound', {
+			ItemId = "JazzQuestItem_AmmoBox",
+		}),
+	},
+	'Appearance', "Legion_Soldier",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Marksman",
+		}),
+	},
+}, nil, 1680722891)
+PlaceObj('UnitMarker', {
+	'Pos', point(220200, 167400, 7000),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "JazzDoctorAmmoTaken",
+	'Spawn_Conditions', {
+		PlaceObj('ItemIsFound', {
+			ItemId = "JazzQuestItem_AmmoBox",
+		}),
+	},
+	'Appearance', "LegionMedic_Stronger_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Bonemaker",
+		}),
+	},
+}, nil, 1600521723)
+PlaceObj('UnitMarker', {
+	'Pos', point(223800, 166200, 7000),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "JazzDoctorAmmoTaken",
+	'Spawn_Conditions', {
+		PlaceObj('ItemIsFound', {
+			ItemId = "JazzQuestItem_AmmoBox",
+		}),
+	},
+	'Appearance', "LegionRaider_Stronger_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Raider",
+		}),
+	},
+}, nil, 1522468079)
+PlaceObj('UnitMarker', {
+	'Pos', point(225000, 168600, 7000),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "JazzDoctorAmmoTaken",
+	'Spawn_Conditions', {
+		PlaceObj('ItemIsFound', {
+			ItemId = "JazzQuestItem_AmmoBox",
+		}),
+	},
+	'Appearance', "Legion_Stormer03",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
+		}),
+	},
+}, nil, 1625294354)
+PlaceObj('UnitMarker', {
+	'Pos', point(228600, 167400, 7000),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "JazzDoctorAmmoTaken",
+	'Spawn_Conditions', {
+		PlaceObj('ItemIsFound', {
+			ItemId = "JazzQuestItem_AmmoBox",
+		}),
+	},
+	'Appearance', "LegionRaider_Stronger_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Raider",
+		}),
+	},
+}, nil, 1090679690)
+PlaceObj('UnitMarker', {
+	'Pos', point(226200, 169800, 7000),
+	'Angle', 10800,
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "JazzDoctorAmmoTaken",
+	'Spawn_Conditions', {
+		PlaceObj('ItemIsFound', {
+			ItemId = "JazzQuestItem_AmmoBox",
+		}),
+	},
+	'Appearance', "LegionScout_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
+		}),
+	},
+}, nil, 1564860655)
+PlaceObj('GridMarker', {
+	'Pos', point(221400, 214200, 9800),
+	'Groups', {
+		"AL_Defender",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+}, nil, 1841970385)
 PlaceObj('GridMarker', {
 	'Pos', point(201000, 234600),
 	'Groups', {
@@ -97032,7 +97240,7 @@ p("TropicalPlant_Grass_03",131137,167880,6479,10938,112,2097157)
 p("TropicalPlant_Grass_03",134060,164736,6948,11438,158,2097157)
 p("TropicalPlant_Grass_03",133473,166299,6986,11438,158,2097157)
 p("TropicalPlant_Grass_03",132870,169986,6625,4674,128,2097157)
-p("TropicalPlant_Dead_06",134503,169307,7165,420,3536,-2063,109,2097169)
+p("TropicalPlant_Dead_06",134507,169303,7165,420,3536,-2063,109,2097169)
 p("TropicalPlant_Grass_03",136879,165066,7266,9135,158,-221,166,4086,2097173)
 p("TropicalPlant_Grass_03",136568,167052,7557,9135,158,-221,166,4086,2097173)
 p("TropicalPlant_Grass_03",138783,164267,7266,9135,158,-221,166,4086,2097173)

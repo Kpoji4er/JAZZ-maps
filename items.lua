@@ -4904,11 +4904,12 @@ return {
 					},
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
-						East = false,
-						North = false,
+						East = true,
+						North = true,
 						South = true,
 						West = false,
 					},
+					'BlockTravelRiver', set( "East", "North", "South" ),
 					'image', "UI/SatelliteView/SectorImages/H04",
 					'Events', {
 						PlaceObj('SE_OnConflictStarted', {
@@ -5085,12 +5086,12 @@ return {
 	East = true,
 	North = false,
 	South = false,
-	West = false,
+	West = true,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
 						East = false,
-						North = false,
+						North = true,
 						South = true,
 						West = false,
 					},
@@ -5142,16 +5143,14 @@ return {
 					'RepairShop', true,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	East = false,
+	East = true,
 	North = false,
 	South = true,
-	West = false,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
 						East = false,
-						North = true,
-						South = true,
+						North = false,
 						West = true,
 					},
 					'image', "UI/SatelliteView/SectorImages/H02",
@@ -5276,10 +5275,11 @@ return {
 						"LegionDefenders_Entrenched_Easy",
 					},
 					'bidirectionalRoadApply', true,
+					'Roads', set( "South", "West" ),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = true,
-	North = false,
+	North = true,
 	South = false,
 	West = false,
 }),
@@ -5306,7 +5306,7 @@ return {
 					'MaxFlareCarriers', 12,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	East = false,
+	East = true,
 	North = false,
 	South = false,
 	West = true,
@@ -5314,7 +5314,7 @@ return {
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
-	North = false,
+	North = true,
 	South = true,
 	West = false,
 }),
@@ -6050,16 +6050,10 @@ return {
 					'MinFlareCarriers', 7,
 					'MaxFlareCarriers', 11,
 					'bidirectionalRoadApply', true,
-					'Roads', set({
-	East = true,
-	North = true,
-	South = true,
-	West = false,
-}),
-					'bidirectionalBlockApply', true,
+					'Roads', set( "East", "North", "South", "West" ),
 					'BlockTravel', set({
 	East = false,
-	North = true,
+	North = false,
 	South = false,
 	West = false,
 }),
@@ -6084,10 +6078,10 @@ return {
 					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	East = false,
+	East = true,
 	North = false,
 	South = false,
-	West = false,
+	West = true,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
@@ -9180,6 +9174,9 @@ return {
 					'Intel', false,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	South = false,
+}),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'Events', {},
 					'combatTaskGenerate', "never",
@@ -9205,6 +9202,7 @@ return {
 					'Intel', false,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set( "South" ),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'Events', {},
 					'combatTaskGenerate', "never",
@@ -9230,6 +9228,7 @@ return {
 					'Intel', false,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set( "South" ),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'Events', {},
 					'combatTaskGenerate', "never",
@@ -21300,63 +21299,65 @@ return {
 				'name', "Ernie Island",
 			}, {
 				PlaceObj('ModItemConversation', {
-					Conditions = {
-						PlaceObj('PlayerControlSectors', {
-							Amount = 6,
-							Condition = ">=",
-							param_bindings = false,
-						}),
-					},
+					AssignToGroup = "Rebels_Base_Warrior_Chief",
 					DefaultActor = "RebelSergeant_Immortal_L1",
-					disabledInConflict = true,
 					group = "Ernie",
 					id = "L1_RebelsCamp",
 					PlaceObj('ConversationPhrase', {
+						AutoRemove = true,
 						CompleteQuests = {
 							"JAZZ_REBELS_0_MeetTheRebels",
 						},
 						Effects = {
 							PlaceObj('GroupSetSide', {
 								CreateSquad = false,
-								Side = "Rebels",
+								Side = "ally",
 								TargetUnit = "Rebels_Base_Warriors",
 								param_bindings = false,
 							}),
 							PlaceObj('UnitGrantItem', {
 								ItemId = "FRF2",
-								LootTableId = "762x54_mg_ammo",
+								LootTableId = "762x51_sniper_ammo",
+								param_bindings = false,
+							}),
+							PlaceObj('UnitGrantItem', {
+								ItemId = "Type56",
+								LootTableId = "762x39_ar_ammo",
 								param_bindings = false,
 							}),
 							PlaceObj('GrantExperienceSector', {
 								param_bindings = false,
 							}),
-							PlaceObj('GroupSetSide', {
-								CreateSquad = false,
-								Side = "ally",
-								TargetUnit = "Rebels_Base_Warriors",
-								param_bindings = false,
-							}),
 						},
-						GoTo = "Greeting.Briefing",
-						Keyword = "Наконец мы до вас добрались",
-						KeywordT = T(285336071628, --[[ModItemConversation L1_RebelsCamp KeywordT]] "Наконец мы до вас добрались"),
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_L1",
-								Text = T(578038705636, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1 section:L1_RebelsCamp keyword:Наконец мы до вас добрались]] "Спасибо за помощь и спасибо что скоординировали защиту базы, Легион набирает эффективность, с каждым днем враг становится сильнее, их точно обучает какой-то военный, но мы и с этим разберемся... Меня также оповестили о том, что вы помогли в уничтожении Рафаля и его прихвостней, спасибо, вы спасли много жизней."),
+								Text = T(578038705636, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1 section:L1_RebelsCamp keyword:Greeting]] "Спасибо за помощь и спасибо что скоординировали защиту базы, Легион набирает эффективность, с каждым днем враг становится сильнее, их точно обучает какой-то военный, но мы и с этим разберемся... Меня также оповестили о том, что вы помогли в уничтожении Рафаля и его прихвостней, спасибо, вы спасли много жизней. Вот вам вдогонку."),
 								param_bindings = false,
 							}),
 						},
 						PhraseRolloverText = T(137789099060, --[[ModItemConversation L1_RebelsCamp PhraseRolloverText]] "Маркс бы вами гордился"),
 						id = "Greeting",
 						param_bindings = false,
+						target_units = {},
 						PlaceObj('ConversationPhrase', {
-							Keyword = "Briefing",
-							KeywordT = T(621297538284, --[[ModItemConversation L1_RebelsCamp KeywordT]] "Briefing"),
+							Conditions = {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "Jazz_Alkatraz",
+									Vars = set({
+	Given = false,
+}),
+									param_bindings = false,
+								}),
+							},
+							Keyword = "Хорошо, что мы прибыли вовремя",
+							KeywordT = T(196360289661, --[[ModItemConversation L1_RebelsCamp KeywordT]] "Хорошо, что мы прибыли вовремя"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "RebelSergeant_Immortal_L1",
-									Text = T(192074604300, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1 section:L1_RebelsCamp keyword:Briefing]] "Нам нужна ваша помощь вновь, мерзавцы забились в наш бункер, с этой базы в него войти практически не реально, мы предпринимали попытки штурма, но бездарно теряли людей... Хороших людей."),
+									Text = T(192074604300, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1 section:L1_RebelsCamp keyword:Хорошо, что мы прибыли вовремя]] "Нам нужна ваша помощь вновь, мерзавцы забились в наш бункер, с этой базы в него войти практически не реально, мы предпринимали попытки штурма, но бездарно теряли людей... Хороших людей."),
 									param_bindings = false,
 								}),
 							},
@@ -21366,6 +21367,7 @@ return {
 								GiveQuests = {
 									"Jazz_Alkatraz",
 								},
+								GoTo = "Goodbye",
 								Keyword = "Это можно, почему бы не поиграть заодно в санитаров подземелий",
 								KeywordT = T(329170243044, --[[ModItemConversation L1_RebelsCamp KeywordT]] "Это можно, почему бы не поиграть заодно в санитаров подземелий"),
 								Lines = {
@@ -21379,6 +21381,7 @@ return {
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationPhrase', {
+								GoTo = "Goodbye",
 								Keyword = "Возможно вам стоит самим о себе позаботиться.",
 								KeywordT = T(349722064830, --[[ModItemConversation L1_RebelsCamp KeywordT]] "Возможно вам стоит самим о себе позаботиться."),
 								Lines = {
@@ -21394,6 +21397,20 @@ return {
 						}),
 					}),
 					PlaceObj('ConversationPhrase', {
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "RebelSergeant_Immortal_L1",
+								Text = T(837598711699, --[[ModItemConversation L1_RebelsCamp Text voice:RebelSergeant_Immortal_L1 section:L1_RebelsCamp keyword:Greeting2]] "Здоров комрады!"),
+								param_bindings = false,
+							}),
+						},
+						id = "Greeting2",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						AutoRemove = true,
 						CompleteQuests = {
 							"Jazz_Alkatraz",
 						},
@@ -21410,6 +21427,7 @@ return {
 								param_bindings = false,
 							}),
 						},
+						GoTo = "Goodbye",
 						Keyword = "Торжественно вручаем обратно ключи от бункера.",
 						KeywordT = T(792807567622, --[[ModItemConversation L1_RebelsCamp KeywordT]] "Торжественно вручаем обратно ключи от бункера."),
 						Lines = {
@@ -21444,6 +21462,15 @@ return {
 					group = "Ernie",
 					id = "Ernie_LightHouse_DocLeevsy",
 					PlaceObj('ConversationPhrase', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_Doctor_need_Help",
+								Vars = set({
+	Given = false,
+}),
+								param_bindings = false,
+							}),
+						},
 						Keyword = "Greeting",
 						KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
 						Lines = {
@@ -21454,6 +21481,7 @@ return {
 								param_bindings = false,
 							}),
 						},
+						NoBackOption = true,
 						id = "Greeting",
 						param_bindings = false,
 						PlaceObj('ConversationPhrase', {
@@ -21487,7 +21515,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Doctor_Leevsy",
-									Text = T(260705215377, --[[ModItemConversation Ernie_LightHouse_DocLeevsy Text voice:Doctor_Leevsy section:Ernie_LightHouse_DocLeevsy keyword:Конечно, мы поможем, для этого нас и наняли.]] "Утром деньги, вечером стулья. Пообщаемся после... Итак, по моим расчётам мне нужна <em>медицина</em>, чем больше, тем лучше, в целом хватит <em>50</em> комплектов. Также необходимы боеприпасы, я точно знаю, что за мостом есть <em>тайник с боеприпасами</em>, заодно возьмите мины, они должны быть где-то в здании <em>около моста</em>. Также необходимо собрать раненых, пока они не истекли кровью, За дело!"),
+									Text = T(260705215377, --[[ModItemConversation Ernie_LightHouse_DocLeevsy Text voice:Doctor_Leevsy section:Ernie_LightHouse_DocLeevsy keyword:Конечно, мы поможем, для этого нас и наняли.]] "Утром деньги, вечером стулья. Пообщаемся после... Итак, по моим расчётам мне нужна <em>медицина</em>, чем больше, тем лучше, в целом хватит <em>50</em> комплектов. Также необходимы боеприпасы, я точно знаю, что за мостом есть <em>тайник с боеприпасами</em>, заодно возьмите мины,  <em>они должны быть где-то возле разваленного железного ангара в тайнике в вентиляции</em>. Также необходимо собрать раненых, пока они не истекли кровью, За дело!"),
 									param_bindings = false,
 								}),
 							},
@@ -21496,6 +21524,7 @@ return {
 						}),
 					}),
 					PlaceObj('ConversationPhrase', {
+						AutoRemove = true,
 						CompleteQuests = {
 							"Jazz_Doctor_need_Help",
 						},
@@ -21539,9 +21568,11 @@ return {
 								param_bindings = false,
 							}),
 						},
+						NoBackOption = true,
 						id = "Greeting3",
 						param_bindings = false,
 						PlaceObj('ConversationPhrase', {
+							AutoRemove = true,
 							Keyword = "Чем ты стал так не угоден Легиону?",
 							KeywordT = T(714579125139, --[[ModItemConversation Ernie_LightHouse_DocLeevsy KeywordT]] "Чем ты стал так не угоден Легиону?"),
 							Lines = {
@@ -21553,36 +21584,40 @@ return {
 							},
 							id = "2",
 							param_bindings = false,
+							PlaceObj('ConversationPhrase', {
+								AutoRemove = true,
+								Effects = {
+									PlaceObj('SectorSetHospital', {
+										param_bindings = false,
+										sector_id = "I2",
+									}),
+								},
+								GoTo = "Greeting3.4",
+								Keyword = "Теперь ты сможешь подлатать нас по необходимости?",
+								KeywordT = T(119861003959, --[[ModItemConversation Ernie_LightHouse_DocLeevsy KeywordT]] "Теперь ты сможешь подлатать нас по необходимости?"),
+								Lines = {
+									PlaceObj('ConversationLine', {
+										Character = "Doctor_Leevsy",
+										Text = T(592042986790, --[[ModItemConversation Ernie_LightHouse_DocLeevsy Text voice:Doctor_Leevsy section:Ernie_LightHouse_DocLeevsy keyword:Теперь ты сможешь подлатать нас по необходимости?]] "Разумеется, если мы переживём атаку Легиона."),
+										param_bindings = false,
+									}),
+								},
+								id = "3",
+								param_bindings = false,
+							}),
 						}),
 						PlaceObj('ConversationPhrase', {
-							Effects = {
-								PlaceObj('SectorSetHospital', {
-									param_bindings = false,
-									sector_id = "I2",
-								}),
-							},
-							Keyword = "Теперь ты сможешь подлатать нас по необходимости?",
-							KeywordT = T(119861003959, --[[ModItemConversation Ernie_LightHouse_DocLeevsy KeywordT]] "Теперь ты сможешь подлатать нас по необходимости?"),
-							Lines = {
-								PlaceObj('ConversationLine', {
-									Character = "Doctor_Leevsy",
-									Text = T(592042986790, --[[ModItemConversation Ernie_LightHouse_DocLeevsy Text voice:Doctor_Leevsy section:Ernie_LightHouse_DocLeevsy keyword:Теперь ты сможешь подлатать нас по необходимости?]] "Разумеется, если мы переживём атаку Легиона."),
-									param_bindings = false,
-								}),
-							},
-							id = "3",
-							param_bindings = false,
-						}),
-						PlaceObj('ConversationPhrase', {
+							AutoRemove = true,
 							Keyword = "Итак... Мы готовимся к обороне? Мы встретили дозорный отряд, пока бегали за патронами.",
 							KeywordT = T(382989617293, --[[ModItemConversation Ernie_LightHouse_DocLeevsy KeywordT]] "Итак... Мы готовимся к обороне? Мы встретили дозорный отряд, пока бегали за патронами."),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Doctor_Leevsy",
-									Text = T(178668264420, --[[ModItemConversation Ernie_LightHouse_DocLeevsy Text voice:Doctor_Leevsy section:Ernie_LightHouse_DocLeevsy keyword:Итак... Мы готовимся к обороне? Мы встретили дозорный отряд, пока бегали за патронами.]] "Так точно господа, нам предстоит бой, мины установим прямо у моста, также организуем оборону в ключевых местах на карте, мы надеемся на вашу помощь. Выбора, как водится, у вас сейчас нет."),
+									Text = T(178668264420, --[[ModItemConversation Ernie_LightHouse_DocLeevsy Text voice:Doctor_Leevsy section:Ernie_LightHouse_DocLeevsy keyword:Итак... Мы готовимся к обороне? Мы встретили дозорный отряд, пока бегали за патронами.]] "Так точно господа, нам предстоит бой, мины установим прямо у моста, это наша забота, также организуем оборону в ключевых местах на карте, мы надеемся на вашу помощь. Выбора, как водится, у вас сейчас нет."),
 									param_bindings = false,
 								}),
 							},
+							NoBackOption = true,
 							id = "4",
 							param_bindings = false,
 							PlaceObj('ConversationPhrase', {
@@ -21591,15 +21626,11 @@ return {
 										param_bindings = false,
 										visibility = set( "Rebels", "ally", "neutral" ),
 									}),
-									PlaceObj('TriggerSquadAttack', {
-										Squad = "LegionRaidSquad_01",
-										effect_target_sector_ids = {
-											"I2",
-										},
-										param_bindings = false,
-										source_sector_id = "I7",
-									}),
 								},
+								GiveQuests = {
+									"Jazz_LightHouseDefend",
+								},
+								GoTo = "<end conversation>",
 								Keyword = "Мы готовы",
 								KeywordT = T(327289513734, --[[ModItemConversation Ernie_LightHouse_DocLeevsy KeywordT]] "Мы готовы"),
 								Lines = {
@@ -21613,6 +21644,102 @@ return {
 								param_bindings = false,
 							}),
 						}),
+					}),
+					PlaceObj('ConversationPhrase', {
+						AutoRemove = true,
+						CompleteQuests = {
+							"Jazz_LightHouseDefend",
+						},
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_LightHouseDefend",
+								Vars = set( "LegionDead" ),
+								param_bindings = false,
+							}),
+						},
+						Effects = {
+							PlaceObj('GrantExperienceEffect', {
+								Amount = "XPQuestReward_Medium",
+								param_bindings = false,
+							}),
+							PlaceObj('UnitGrantItem', {
+								ItemId = "DiamondBriefcase",
+								param_bindings = false,
+							}),
+						},
+						GoTo = "Greeting2.2",
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "Doctor_Leevsy",
+								Text = T(443790235326, --[[ModItemConversation Ernie_LightHouse_DocLeevsy Text voice:Doctor_Leevsy section:Ernie_LightHouse_DocLeevsy keyword:Greeting4]] "Похоже мы справились! Спасибо наёмники, вы всегда можете расчитывать, что вам тут будут рады."),
+								param_bindings = false,
+							}),
+						},
+						id = "Greeting4",
+						param_bindings = false,
+					}),
+					PlaceObj('ConversationPhrase', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_Doctor_need_Help",
+								Vars = set( "Completed" ),
+								param_bindings = false,
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_LightHouseDefend",
+								Vars = set( "Completed" ),
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation FlagHill_Emma KeywordT]] "Greeting"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "Doctor_Leevsy",
+								Text = T(649017813474, --[[ModItemConversation Ernie_LightHouse_DocLeevsy Text voice:Doctor_Leevsy section:Ernie_LightHouse_DocLeevsy keyword:Greeting2]] "Здравствуйте бойцы."),
+								param_bindings = false,
+							}),
+						},
+						id = "Greeting2",
+						param_bindings = false,
+						PlaceObj('ConversationPhrase', {
+							Effects = {
+								PlaceObj('HealWounds', {
+									param_bindings = false,
+								}),
+								PlaceObj('RestoreHealth', {
+									amount = 100,
+									param_bindings = false,
+								}),
+							},
+							Keyword = "Нас бы подлатать",
+							KeywordT = T(776051309333, --[[ModItemConversation Ernie_LightHouse_DocLeevsy KeywordT]] "Нас бы подлатать"),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "Doctor_Leevsy",
+									Text = T(359542499937, --[[ModItemConversation Ernie_LightHouse_DocLeevsy Text voice:Doctor_Leevsy section:Ernie_LightHouse_DocLeevsy keyword:Нас бы подлатать]] "Надеюсь уколов не боитесь, есть у меня для вас кое-что."),
+									param_bindings = false,
+								}),
+							},
+							id = "2",
+							param_bindings = false,
+						}),
+					}),
+					PlaceObj('ConversationPhrase', {
+						GoTo = "<end conversation>",
+						Keyword = "Goodbye",
+						KeywordT = T(557225474228, --[[ModItemConversation FlagHill_Emma KeywordT]] "Goodbye"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "Doctor_Leevsy",
+								Text = T(732130249694, --[[ModItemConversation Ernie_LightHouse_DocLeevsy Text voice:Doctor_Leevsy section:Ernie_LightHouse_DocLeevsy keyword:Goodbye]] "До новых встреч."),
+								param_bindings = false,
+							}),
+						},
+						id = "Goodbye",
+						param_bindings = false,
 					}),
 				}),
 				PlaceObj('ModItemConversation', {
@@ -30022,6 +30149,9 @@ return {
 					'Intel', false,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	South = false,
+}),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'combatTaskGenerate', "never",
 					'combatTaskAmount', 0,
@@ -30040,6 +30170,7 @@ return {
 					'Intel', false,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set( "South" ),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'combatTaskGenerate', "never",
 					'combatTaskAmount', 0,
@@ -30058,6 +30189,7 @@ return {
 					'Intel', false,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set( "South" ),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'combatTaskGenerate', "never",
 					'combatTaskAmount', 0,
@@ -30897,7 +31029,7 @@ return {
 					'MaxFlareCarriers', 12,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	East = false,
+	East = true,
 	North = false,
 	South = false,
 	West = true,
@@ -30905,7 +31037,7 @@ return {
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
-	North = false,
+	North = true,
 	South = true,
 	West = false,
 }),
@@ -30993,10 +31125,11 @@ return {
 						"LegionDefenders_Entrenched_Easy",
 					},
 					'bidirectionalRoadApply', true,
+					'Roads', set( "South", "West" ),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = true,
-	North = false,
+	North = true,
 	South = false,
 	West = false,
 }),
@@ -31027,16 +31160,14 @@ return {
 					'RepairShop', true,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	East = false,
+	East = true,
 	North = false,
 	South = true,
-	West = false,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
 						East = false,
-						North = true,
-						South = true,
+						North = false,
 						West = true,
 					},
 					'image', "UI/SatelliteView/SectorImages/H02",
@@ -31171,16 +31302,14 @@ return {
 					'RepairShop', true,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	East = false,
+	East = true,
 	North = false,
 	South = true,
-	West = false,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
 						East = false,
-						North = true,
-						South = true,
+						North = false,
 						West = true,
 					},
 					'image', "UI/SatelliteView/SectorImages/H02",
@@ -31307,12 +31436,12 @@ return {
 	East = true,
 	North = false,
 	South = false,
-	West = false,
+	West = true,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
 						East = false,
-						North = false,
+						North = true,
 						South = true,
 						West = false,
 					},
@@ -31350,12 +31479,12 @@ return {
 	East = true,
 	North = false,
 	South = false,
-	West = false,
+	West = true,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
 						East = false,
-						North = false,
+						North = true,
 						South = true,
 						West = false,
 					},
@@ -31456,11 +31585,12 @@ return {
 					},
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
-						East = false,
-						North = false,
+						East = true,
+						North = true,
 						South = true,
 						West = false,
 					},
+					'BlockTravelRiver', set( "East", "North", "South" ),
 					'image', "UI/SatelliteView/SectorImages/H04",
 					'Events', {
 						PlaceObj('SE_OnConflictStarted', {
@@ -31602,11 +31732,12 @@ return {
 					},
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
-						East = false,
-						North = false,
+						East = true,
+						North = true,
 						South = true,
 						West = false,
 					},
+					'BlockTravelRiver', set( "East", "North", "South" ),
 					'image', "UI/SatelliteView/SectorImages/H04",
 					'Events', {
 						PlaceObj('SE_OnConflictStarted', {
@@ -31748,11 +31879,12 @@ return {
 					},
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
-						East = false,
-						North = false,
+						East = true,
+						North = true,
 						South = true,
 						West = false,
 					},
+					'BlockTravelRiver', set( "East", "North", "South" ),
 					'image', "UI/SatelliteView/SectorImages/H04",
 					'Events', {
 						PlaceObj('SE_OnConflictStarted', {
@@ -32886,10 +33018,10 @@ return {
 					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	East = false,
+	East = true,
 	North = false,
 	South = false,
-	West = false,
+	West = true,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
@@ -32923,16 +33055,10 @@ return {
 					'MinFlareCarriers', 7,
 					'MaxFlareCarriers', 11,
 					'bidirectionalRoadApply', true,
-					'Roads', set({
-	East = true,
-	North = true,
-	South = true,
-	West = false,
-}),
-					'bidirectionalBlockApply', true,
+					'Roads', set( "East", "North", "South", "West" ),
 					'BlockTravel', set({
 	East = false,
-	North = true,
+	North = false,
 	South = false,
 	West = false,
 }),
@@ -32980,7 +33106,7 @@ return {
 }),
 					'BlockTravel', set({
 	East = false,
-	North = false,
+	North = true,
 	West = false,
 }),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
@@ -48901,6 +49027,100 @@ return {
 			'comment', "Джазовые сайды",
 		}, {
 			PlaceObj('ModItemQuestsDef', {
+				DisplayName = T(205977590871, --[[ModItemQuestsDef Jazz_LightHouseDefend DisplayName]] "Оборона маяка"),
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {}),
+				},
+				NoteDefs = {
+					LastNoteIdx = 1,
+					PlaceObj('QuestNote', {
+						AddInHistory = true,
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_LightHouseDefend",
+								Vars = set( "Completed" ),
+							}),
+						},
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_LightHouseDefend",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(480404987558, --[[ModItemQuestsDef Jazz_LightHouseDefend Text]] "Скоро сюда прибудет крупный отряд Легиона, необходимо помочь местным с обороной"),
+					}),
+				},
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_LightHouseDefend",
+								Vars = set( "Given" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('SetTimer', {
+								Label = T(824593567046, --[[ModItemQuestsDef Jazz_LightHouseDefend Label]] "Прибытие Легиона"),
+								Name = "Легион скоро будет здесь!",
+								Time = 240000,
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "LegionHere",
+								QuestId = "Jazz_LightHouseDefend",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_LegionHere",
+						QuestId = "Jazz_LightHouseDefend",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('GroupIsDead', {
+								Group = "LegionComing",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "LegionDead",
+								QuestId = "Jazz_LightHouseDefend",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_LegionDead",
+						QuestId = "Jazz_LightHouseDefend",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "LegionHere",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_LegionHere",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_LegionDead",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "LegionDead",
+					}),
+				},
+				group = "Ernie",
+				id = "Jazz_LightHouseDefend",
+			}),
+			PlaceObj('ModItemQuestsDef', {
 				KillTCEsConditions = {
 					PlaceObj('QuestKillTCEsOnCompleted', {}),
 				},
@@ -49019,18 +49239,32 @@ return {
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
-							PlaceObj('QuestIsVariableBool', {
-								QuestId = "Jazz_Doctor_need_Help",
-								Vars = set( "Given" ),
+							PlaceObj('UnitSquadHasItem', {
+								ItemId = "JazzQuestItem_AmmoBox",
 							}),
 						},
 						Effects = {
 							PlaceObj('QuestSetVariableBool', {
-								Prop = "InjuredRebels_Healed",
+								Prop = "AmmoTaken",
 								QuestId = "Jazz_Doctor_need_Help",
 							}),
 						},
-						ParamId = "InjuredRebels",
+						ParamId = "TCE_AmmoTaken",
+						QuestId = "Jazz_Doctor_need_Help",
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('UnitSquadHasItem', {
+								ItemId = "JazzQuestItem_MinesBox",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "MinesTaken",
+								QuestId = "Jazz_Doctor_need_Help",
+							}),
+						},
+						ParamId = "TCE_MinesTaken",
 						QuestId = "Jazz_Doctor_need_Help",
 					}),
 				},
@@ -49046,16 +49280,12 @@ return {
 					}),
 					PlaceObj('QuestVarBool', {
 						Name = "NotStarted",
-						Value = true,
 					}),
 					PlaceObj('QuestVarBool', {
 						Name = "AmmoTaken",
 					}),
 					PlaceObj('QuestVarBool', {
 						Name = "MinesTaken",
-					}),
-					PlaceObj('QuestVarTCEState', {
-						Name = "InjuredRebels",
 					}),
 					PlaceObj('QuestVarBool', {
 						Name = "InjuredRebels_Healed",
@@ -49068,6 +49298,12 @@ return {
 					}),
 					PlaceObj('QuestVarBool', {
 						Name = "ItemsGiven",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_AmmoTaken",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_MinesTaken",
 					}),
 				},
 				comment = "Помощь доктору на маяке",
@@ -67220,7 +67456,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Jackhammer",
-								Sector = "L6",
+								Sector = "P8",
 							}),
 						},
 						HideConditions = {
@@ -67234,7 +67470,7 @@ return {
 						ShowConditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L6",
+									"P8",
 								},
 							}),
 						},
@@ -67244,7 +67480,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Jackhammer",
-								Sector = "L6",
+								Sector = "P8",
 							}),
 						},
 						CompletionConditions = {
@@ -67262,12 +67498,12 @@ return {
 								Vars = set( "JackhammerDocuments", "PrisonGiven" ),
 							}),
 						},
-						Text = T(461177545348, --[[ModItemQuestsDef TheGoodPlace Text]] "They are imprisoning <em>innocent people</em> at <em><SectorName('L6')></em>"),
+						Text = T(461177545348, --[[ModItemQuestsDef TheGoodPlace Text]] "Они заключают в тюрьму <em>невинных людей</em> в <em><SectorName('P6')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "L6_Underground",
+								Sector = "P8_Underground",
 							}),
 						},
 						CompletionConditions = {
@@ -67318,17 +67554,17 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Underground",
-								Sector = "L6",
+								Sector = "P8",
 							}),
 						},
 						CompletionConditions = {
 							PlaceObj('CheckOR', {
 								Conditions = {
 									PlaceObj('SectorCheckOwner', {
-										sector_id = "L6",
+										sector_id = "P8",
 									}),
 									PlaceObj('SectorCheckOwner', {
-										sector_id = "L6_Underground",
+										sector_id = "P8_Underground",
 									}),
 									PlaceObj('QuestIsVariableBool', {
 										QuestId = "TheGoodPlace",
@@ -67370,7 +67606,7 @@ return {
 						},
 						HideConditions = {
 							PlaceObj('SectorCheckOwner', {
-								sector_id = "L6",
+								sector_id = "P8",
 							}),
 						},
 						Idx = 6,
@@ -67381,13 +67617,13 @@ return {
 								QuestId = "TheGoodPlace",
 							}),
 						},
-						Text = T(684773656307, --[[ModItemQuestsDef TheGoodPlace Text]] "<em><PrisonersReleased> prisoners</em> will help fight the guards at <em><SectorName('L6')></em>"),
+						Text = T(684773656307, --[[ModItemQuestsDef TheGoodPlace Text]] "<em><PrisonersReleased> заключенные</em> будут помогать биться с охраной в <em><SectorName('P8')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Jackhammer",
-								Sector = "L6",
+								Sector = "P8",
 							}),
 						},
 						CompletionConditions = {
