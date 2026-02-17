@@ -4467,7 +4467,7 @@ return {
 												PlaceObj('SectorSetMap', {
 													MapFile = "K-11U - Cryolabor",
 													image = "UI/SatelliteView/SectorImages/K11U",
-													loading_screen = "UI/LoadingScreens/HotDiamonds/K11_Underground.png",
+													loading_screen = "UI/LoadingScreens/HotDiamonds/O26_Underground.png",
 													sector_id = "G12_Underground",
 												}),
 												PlaceObj('QuestSetVariableText', {
@@ -4861,8 +4861,8 @@ return {
 					'PatrolRespawnTime', 864000,
 					'TargetSectors', {
 						"I5",
-						"K9",
-						"K10",
+						"N13",
+						"O16",
 						"F7",
 						"E16",
 					},
@@ -5211,10 +5211,10 @@ return {
 								}),
 								PlaceObj('SectorIsInConflict', {
 									Negate = true,
-									sector_id = "H2",
+									sector_id = "I5",
 								}),
 								PlaceObj('SectorCheckOwner', {
-									sector_id = "H2",
+									sector_id = "I5",
 								}),
 							},
 							'Effects', {
@@ -5244,7 +5244,7 @@ return {
 									WaitClicked = true,
 								}),
 								PlaceObj('SectorEnableAutoDeploy', {
-									sector_id = "H2",
+									sector_id = "I5",
 								}),
 							},
 						}),
@@ -5993,6 +5993,95 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
+				'comment', "Пляж с ДиДи бомбой",
+				'mapName', "mvoLckN",
+				'campaignId', "HotDiamonds",
+				'sectorId', "J7",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "J7",
+					'Map', "mvoLckN",
+					'MapTier', 40,
+					'Label1', "Ernie",
+					'modId', "FhNNYd",
+					'display_name', T(844229616670, "Изумрудный берег"),
+					'TerrainType', "Jungle",
+					'WeatherZone', "Erny",
+					'TargetSectors', {
+						"J5",
+					},
+					'InterestingSector', true,
+					'bidirectionalRoadApply', true,
+					'Roads', set({
+	East = false,
+	North = false,
+	West = false,
+}),
+					'bidirectionalBlockApply', true,
+					'BlockTravel', {
+						East = true,
+						North = true,
+						West = false,
+					},
+					'image', "UI/SatelliteView/SectorImages/I03",
+					'Events', {
+						PlaceObj('SE_OnSquadReachSectorCenter', {
+							'Conditions', {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "02_LiberateErnie",
+									Vars = set( "Completed" ),
+								}),
+								PlaceObj('UnitHireStatus', {
+									Status = "Hired",
+									TargetUnit = "Raven",
+								}),
+								PlaceObj('UnitHireStatus', {
+									Status = "Hired",
+									TargetUnit = "Raider",
+								}),
+							},
+						}),
+						PlaceObj('SE_OnEnterMapVisual', {
+							'Conditions', {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "RescueHerMan",
+									Vars = set({
+	Failed = false,
+	HermanRescued = false,
+}),
+								}),
+							},
+							'SequentialEffects', true,
+							'Effects', {
+								PlaceObj('NeutralNPCDontMove', {
+									TargetUnit = "Herman",
+								}),
+								PlaceObj('PlaySetpiece', {
+									setpiece = "EncounterHerman",
+								}),
+							},
+						}),
+						PlaceObj('SE_OnEnterMap', {
+							'Conditions', {
+								PlaceObj('SectorHasIntel', {
+									sector_id = "I3",
+								}),
+							},
+							'Effects', {
+								PlaceObj('ModifyTrapSpawnersEffect', {
+									Group = "StartingMinefield",
+									SpawnActive = "enable",
+									disarmDifficulty = "Easy",
+									visibility = set( "enemy1", "enemy2", "enemyNeutral", "neutral", "player1", "player2" ),
+								}),
+							},
+						}),
+					},
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Ernie_Conflict",
+					'MusicExploration', "Ernie_Exploration",
+				}),
+			}),
+			PlaceObj('ModItemSector', {
 				'comment', "Аванпост туда ходи",
 				'mapName', "NrofrcM",
 				'campaignId', "HotDiamonds",
@@ -6376,8 +6465,8 @@ return {
 						"H14",
 						"I19",
 						"L18",
-						"K10",
-						"K9",
+						"O16",
+						"N13",
 					},
 					'ExtraDefenderSquads', {
 						"LegionExtraDefendres_Shock_Easy",
@@ -6563,6 +6652,7 @@ return {
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
+	East = false,
 	North = false,
 	South = false,
 	West = false,
@@ -6944,7 +7034,7 @@ return {
 						"I10",
 						"A2",
 						"H14",
-						"K10",
+						"O16",
 					},
 					'ExtraDefenderSquads', {
 						"LegionExtraDefenders_Ordnance_Easy",
@@ -7069,6 +7159,7 @@ return {
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
+	North = false,
 	South = false,
 	West = false,
 }),
@@ -7386,9 +7477,9 @@ return {
 				'comment', "Великий лес",
 				'mapName', "HpXRoyW",
 				'campaignId', "HotDiamonds",
-				'sectorId', "M18",
+				'sectorId', "N22",
 				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "M18",
+					'Id', "N22",
 					'Map', "HpXRoyW",
 					'MapTier', 20,
 					'modId', "FhNNYd",
@@ -7417,9 +7508,9 @@ return {
 				'comment', "Великий лес",
 				'mapName', "YbeGv36",
 				'campaignId', "HotDiamonds",
-				'sectorId', "M17",
+				'sectorId', "L27",
 				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "M17",
+					'Id', "L27",
 					'Map', "YbeGv36",
 					'MapTier', 20,
 					'modId', "FhNNYd",
@@ -7443,96 +7534,6 @@ return {
 					'image', "UI/SatelliteView/SectorImages/K12",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Jungle_Conflict",
-				}),
-			}),
-			PlaceObj('ModItemSector', {
-				'comment', "Пляж с ДиДи бомбой",
-				'mapName', "mvoLckN",
-				'campaignId', "HotDiamonds",
-				'sectorId', "M7",
-				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "M7",
-					'Map', "mvoLckN",
-					'MapTier', 40,
-					'Label1', "Ernie",
-					'modId', "FhNNYd",
-					'display_name', T(844229616670, "Изумрудный берег"),
-					'TerrainType', "Jungle",
-					'WeatherZone', "Erny",
-					'TargetSectors', {
-						"J5",
-					},
-					'InterestingSector', true,
-					'bidirectionalRoadApply', true,
-					'Roads', set({
-	East = false,
-	North = false,
-	West = false,
-}),
-					'bidirectionalBlockApply', true,
-					'BlockTravel', {
-						East = false,
-						North = false,
-						South = true,
-						West = false,
-					},
-					'image', "UI/SatelliteView/SectorImages/I03",
-					'Events', {
-						PlaceObj('SE_OnSquadReachSectorCenter', {
-							'Conditions', {
-								PlaceObj('QuestIsVariableBool', {
-									QuestId = "02_LiberateErnie",
-									Vars = set( "Completed" ),
-								}),
-								PlaceObj('UnitHireStatus', {
-									Status = "Hired",
-									TargetUnit = "Raven",
-								}),
-								PlaceObj('UnitHireStatus', {
-									Status = "Hired",
-									TargetUnit = "Raider",
-								}),
-							},
-						}),
-						PlaceObj('SE_OnEnterMapVisual', {
-							'Conditions', {
-								PlaceObj('QuestIsVariableBool', {
-									QuestId = "RescueHerMan",
-									Vars = set({
-	Failed = false,
-	HermanRescued = false,
-}),
-								}),
-							},
-							'SequentialEffects', true,
-							'Effects', {
-								PlaceObj('NeutralNPCDontMove', {
-									TargetUnit = "Herman",
-								}),
-								PlaceObj('PlaySetpiece', {
-									setpiece = "EncounterHerman",
-								}),
-							},
-						}),
-						PlaceObj('SE_OnEnterMap', {
-							'Conditions', {
-								PlaceObj('SectorHasIntel', {
-									sector_id = "I3",
-								}),
-							},
-							'Effects', {
-								PlaceObj('ModifyTrapSpawnersEffect', {
-									Group = "StartingMinefield",
-									SpawnActive = "enable",
-									disarmDifficulty = "Easy",
-									visibility = set( "enemy1", "enemy2", "enemyNeutral", "neutral", "player1", "player2" ),
-								}),
-							},
-						}),
-					},
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Ernie_Conflict",
-					'MusicExploration', "Ernie_Exploration",
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -8122,7 +8123,7 @@ return {
 								PlaceObj('SectorEnterConflict', {
 									disable_travel = true,
 									lock_conflict = true,
-									sector_id = "L8",
+									sector_id = "N12",
 								}),
 								PlaceObj('PlaySetpiece', {
 									setpiece = "PortCacaoCity_FirstEnter",
@@ -8172,6 +8173,146 @@ return {
 		PlaceObj('ModItemFolder', {
 			'name', "O",
 		}, {
+			PlaceObj('ModItemSector', {
+				'mapName', "a6dPwbe",
+				'campaignId', "HotDiamonds",
+				'sectorId', "O26",
+			}),
+			PlaceObj('ModItemSector', {
+				'mapName', "ApAvsXr",
+				'campaignId', "HotDiamonds",
+				'sectorId', "O26_Underground",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "O26_Underground",
+					'CanGoUp', false,
+					'Map', "ApAvsXr",
+					'MapTier', 30,
+					'modId', "FhNNYd",
+					'RunLoyaltyLogic', false,
+					'GroundSector', "O26",
+					'display_name', T(813545991003, "Подземная лаборатория"),
+					'never_autoresolve', true,
+					'discovered', false,
+					'ForceConflict', true,
+					'Intel', false,
+					'InterestingSector', true,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
+					'image', "UI/SatelliteView/SectorImages/Sector_Lab.png",
+					'Events', {
+						PlaceObj('SE_PreChangeMap', {
+							'Conditions', {
+								PlaceObj('QuestIsVariableText', {
+									Prop = "LabForK11U",
+									QuestId = "RandomLab",
+								}),
+							},
+							'Effects', {
+								PlaceObj('QuestSetVariableText', {
+									Prop = "LabForK11U",
+									QuestId = "RandomLab",
+								}),
+								PlaceObj('RandomEffectWithCondition', {
+									Effects = {
+										PlaceObj('ConditionalEffect', {
+											'Conditions', {
+												PlaceObj('QuestIsVariableBool', {
+													QuestId = "RandomLab",
+													Vars = set( "WaffenFree" ),
+												}),
+											},
+											'Effects', {
+												PlaceObj('QuestSetVariableBool', {
+													Prop = "WaffenFree",
+													QuestId = "RandomLab",
+													Set = false,
+												}),
+												PlaceObj('SectorSetMap', {
+													MapFile = "G-12U - Waffenlabor",
+													image = "UI/SatelliteView/SectorImages/G12U",
+													loading_screen = "UI/LoadingScreens/HotDiamonds/G12_Underground",
+													sector_id = "O26_Underground",
+												}),
+												PlaceObj('QuestSetVariableText', {
+													Prop = "LabForK11U",
+													QuestId = "RandomLab",
+													Text = "Waffen",
+												}),
+												PlaceObj('SectorSpawnSquad', {
+													sector_id = "O26_Underground",
+													squad_def_id = "Waffenlabor",
+												}),
+											},
+										}),
+										PlaceObj('ConditionalEffect', {
+											'Conditions', {
+												PlaceObj('QuestIsVariableBool', {
+													QuestId = "RandomLab",
+													Vars = set( "BioFree" ),
+												}),
+											},
+											'Effects', {
+												PlaceObj('QuestSetVariableBool', {
+													Prop = "BioFree",
+													QuestId = "RandomLab",
+													Set = false,
+												}),
+												PlaceObj('SectorSetMap', {
+													MapFile = "J-14U - Biolabor",
+													image = "UI/SatelliteView/SectorImages/J14U",
+													loading_screen = "UI/LoadingScreens/HotDiamonds/J14_Underground",
+													sector_id = "O26_Underground",
+												}),
+												PlaceObj('QuestSetVariableText', {
+													Prop = "LabForK11U",
+													QuestId = "RandomLab",
+													Text = "Bio",
+												}),
+												PlaceObj('SectorSpawnSquad', {
+													sector_id = "O26_Underground",
+													squad_def_id = "BioLabor",
+												}),
+											},
+										}),
+										PlaceObj('ConditionalEffect', {
+											'Conditions', {
+												PlaceObj('QuestIsVariableBool', {
+													QuestId = "RandomLab",
+													Vars = set({
+	BioFree = false,
+	CryoFree = true,
+	WaffenFree = false,
+}),
+												}),
+											},
+											'Effects', {
+												PlaceObj('SectorSetMap', {
+													MapFile = "K-11U - Cryolabor",
+													image = "UI/SatelliteView/SectorImages/K11U",
+													loading_screen = "UI/LoadingScreens/HotDiamonds/O26_Underground",
+													sector_id = "O26_Underground",
+												}),
+												PlaceObj('QuestSetVariableText', {
+													Prop = "LabForK11U",
+													QuestId = "RandomLab",
+													Text = "Cryo",
+												}),
+												PlaceObj('SectorSpawnSquad', {
+													sector_id = "O26_Underground",
+													squad_def_id = "Cryolabor",
+												}),
+											},
+										}),
+									},
+								}),
+							},
+						}),
+					},
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Underground_Conflict",
+					'MusicExploration', "Underground_Exploration",
+				}),
+			}),
 			PlaceObj('ModItemSector', {
 				'comment', "Филер",
 				'mapName', "LDXkV6z",
@@ -8509,11 +8650,11 @@ return {
 										PlaceObj('SectorEnterConflict', {
 											disable_travel = true,
 											lock_conflict = true,
-											sector_id = "L9",
+											sector_id = "O13",
 										}),
 										PlaceObj('SectorSetSide', {
 											disable_sticky = true,
-											sector_id = "L9",
+											sector_id = "O13",
 											side = "enemy1",
 										}),
 									},
@@ -8556,11 +8697,11 @@ return {
 								PlaceObj('SectorEnterConflict', {
 									disable_travel = true,
 									lock_conflict = true,
-									sector_id = "L9",
+									sector_id = "O13",
 								}),
 								PlaceObj('SectorSetSide', {
 									disable_sticky = true,
-									sector_id = "L9",
+									sector_id = "O13",
 									side = "enemy1",
 								}),
 							},
@@ -8750,10 +8891,10 @@ return {
 					'Guardpost', true,
 					'PatrolRespawnTime', 432000,
 					'TargetSectors', {
-						"K9",
-						"L8",
-						"L9",
-						"K10",
+						"N13",
+						"N12",
+						"O13",
+						"O16",
 						"I18",
 						"I19",
 						"F13",
@@ -8872,7 +9013,7 @@ return {
 													MapFile = "G-12U - Waffenlabor",
 													image = "UI/SatelliteView/SectorImages/G12U",
 													loading_screen = "UI/LoadingScreens/HotDiamonds/G12_Underground",
-													sector_id = "K11_Underground",
+													sector_id = "O26_Underground",
 												}),
 												PlaceObj('QuestSetVariableText', {
 													Prop = "LabForK11U",
@@ -8880,7 +9021,7 @@ return {
 													Text = "Waffen",
 												}),
 												PlaceObj('SectorSpawnSquad', {
-													sector_id = "K11_Underground",
+													sector_id = "O26_Underground",
 													squad_def_id = "Waffenlabor",
 												}),
 											},
@@ -8902,7 +9043,7 @@ return {
 													MapFile = "J-14U - Biolabor",
 													image = "UI/SatelliteView/SectorImages/J14U",
 													loading_screen = "UI/LoadingScreens/HotDiamonds/J14_Underground",
-													sector_id = "K11_Underground",
+													sector_id = "O26_Underground",
 												}),
 												PlaceObj('QuestSetVariableText', {
 													Prop = "LabForK11U",
@@ -8910,7 +9051,7 @@ return {
 													Text = "Bio",
 												}),
 												PlaceObj('SectorSpawnSquad', {
-													sector_id = "K11_Underground",
+													sector_id = "O26_Underground",
 													squad_def_id = "BioLabor",
 												}),
 											},
@@ -8930,8 +9071,8 @@ return {
 												PlaceObj('SectorSetMap', {
 													MapFile = "K-11U - Cryolabor",
 													image = "UI/SatelliteView/SectorImages/K11U",
-													loading_screen = "UI/LoadingScreens/HotDiamonds/K11_Underground",
-													sector_id = "K11_Underground",
+													loading_screen = "UI/LoadingScreens/HotDiamonds/O26_Underground",
+													sector_id = "O26_Underground",
 												}),
 												PlaceObj('QuestSetVariableText', {
 													Prop = "LabForK11U",
@@ -8939,7 +9080,7 @@ return {
 													Text = "Cryo",
 												}),
 												PlaceObj('SectorSpawnSquad', {
-													sector_id = "K11_Underground",
+													sector_id = "O26_Underground",
 													squad_def_id = "Cryolabor",
 												}),
 											},
@@ -12018,7 +12159,7 @@ return {
 					Conditions = {
 						PlaceObj('PlayerIsInSectors', {
 							Sectors = {
-								"I1",
+								"K4",
 							},
 							param_bindings = false,
 						}),
@@ -13175,7 +13316,7 @@ return {
 					Conditions = {
 						PlaceObj('PlayerIsInSectors', {
 							Sectors = {
-								"I1",
+								"K4",
 							},
 							param_bindings = false,
 						}),
@@ -28178,7 +28319,7 @@ return {
 												PlaceObj('SectorSetMap', {
 													MapFile = "K-11U - Cryolabor",
 													image = "UI/SatelliteView/SectorImages/K11U",
-													loading_screen = "UI/LoadingScreens/HotDiamonds/K11_Underground.png",
+													loading_screen = "UI/LoadingScreens/HotDiamonds/O26_Underground.png",
 													sector_id = "G12_Underground",
 												}),
 												PlaceObj('QuestSetVariableText', {
@@ -30236,19 +30377,6 @@ return {
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
-					'Id', "H4",
-					'Label1', "Blocked",
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H4]] "Sea"),
-					'Side', "neutral",
-					'StickySide', true,
-					'Passability', "Water",
-					'Intel', false,
-					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
 					'Id', "H5",
 					'Label1', "Blocked",
 					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H5]] "Sea"),
@@ -30928,7 +31056,7 @@ return {
 												PlaceObj('SectorSetMap', {
 													MapFile = "K-11U - Cryolabor",
 													image = "UI/SatelliteView/SectorImages/K11U",
-													loading_screen = "UI/LoadingScreens/HotDiamonds/K11_Underground.png",
+													loading_screen = "UI/LoadingScreens/HotDiamonds/O26_Underground.png",
 													sector_id = "G12_Underground",
 												}),
 												PlaceObj('QuestSetVariableText', {
@@ -31376,10 +31504,10 @@ return {
 								}),
 								PlaceObj('SectorIsInConflict', {
 									Negate = true,
-									sector_id = "H2",
+									sector_id = "I5",
 								}),
 								PlaceObj('SectorCheckOwner', {
-									sector_id = "H2",
+									sector_id = "I5",
 								}),
 							},
 							'Effects', {
@@ -31409,7 +31537,7 @@ return {
 									WaitClicked = true,
 								}),
 								PlaceObj('SectorEnableAutoDeploy', {
-									sector_id = "H2",
+									sector_id = "I5",
 								}),
 							},
 						}),
@@ -31518,10 +31646,10 @@ return {
 								}),
 								PlaceObj('SectorIsInConflict', {
 									Negate = true,
-									sector_id = "H2",
+									sector_id = "I5",
 								}),
 								PlaceObj('SectorCheckOwner', {
-									sector_id = "H2",
+									sector_id = "I5",
 								}),
 							},
 							'Effects', {
@@ -31551,7 +31679,7 @@ return {
 									WaitClicked = true,
 								}),
 								PlaceObj('SectorEnableAutoDeploy', {
-									sector_id = "H2",
+									sector_id = "I5",
 								}),
 							},
 						}),
@@ -31690,8 +31818,8 @@ return {
 					'PatrolRespawnTime', 864000,
 					'TargetSectors', {
 						"I5",
-						"K9",
-						"K10",
+						"N13",
+						"O16",
 						"F7",
 						"E16",
 					},
@@ -31837,8 +31965,8 @@ return {
 					'PatrolRespawnTime', 864000,
 					'TargetSectors', {
 						"I5",
-						"K9",
-						"K10",
+						"N13",
+						"O16",
 						"F7",
 						"E16",
 					},
@@ -31984,8 +32112,8 @@ return {
 					'PatrolRespawnTime', 864000,
 					'TargetSectors', {
 						"I5",
-						"K9",
-						"K10",
+						"N13",
+						"O16",
 						"F7",
 						"E16",
 					},
@@ -32448,7 +32576,7 @@ return {
 												PlaceObj('SectorSetMap', {
 													MapFile = "K-11U - Cryolabor",
 													image = "UI/SatelliteView/SectorImages/K11U",
-													loading_screen = "UI/LoadingScreens/HotDiamonds/K11_Underground",
+													loading_screen = "UI/LoadingScreens/HotDiamonds/O26_Underground",
 													sector_id = "J14_Underground",
 												}),
 												PlaceObj('QuestSetVariableText', {
@@ -33307,26 +33435,169 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "J7",
-					'Label1', "Blocked",
-					'display_name', T(200260269905, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J7]] "Море"),
-					'Side', "neutral",
-					'StickySide', true,
-					'Passability', "Water",
-					'Intel', false,
+					'Map', "mvoLckN",
+					'MapTier', 40,
+					'Label1', "Ernie",
+					'modId', "FhNNYd",
+					'display_name', T(844229616670, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J7]] "Изумрудный берег"),
+					'TerrainType', "Jungle",
+					'WeatherZone', "Erny",
+					'TargetSectors', {
+						"J5",
+					},
+					'InterestingSector', true,
+					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = false,
 	North = false,
 	West = false,
 }),
-					'BlockTravel', set({
+					'bidirectionalBlockApply', true,
+					'BlockTravel', {
+						East = true,
+						North = true,
+						West = false,
+					},
+					'image', "UI/SatelliteView/SectorImages/I03",
+					'Events', {
+						PlaceObj('SE_OnSquadReachSectorCenter', {
+							'Conditions', {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "02_LiberateErnie",
+									Vars = set( "Completed" ),
+								}),
+								PlaceObj('UnitHireStatus', {
+									Status = "Hired",
+									TargetUnit = "Raven",
+								}),
+								PlaceObj('UnitHireStatus', {
+									Status = "Hired",
+									TargetUnit = "Raider",
+								}),
+							},
+						}),
+						PlaceObj('SE_OnEnterMapVisual', {
+							'Conditions', {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "RescueHerMan",
+									Vars = set({
+	Failed = false,
+	HermanRescued = false,
+}),
+								}),
+							},
+							'SequentialEffects', true,
+							'Effects', {
+								PlaceObj('NeutralNPCDontMove', {
+									TargetUnit = "Herman",
+								}),
+								PlaceObj('PlaySetpiece', {
+									setpiece = "EncounterHerman",
+								}),
+							},
+						}),
+						PlaceObj('SE_OnEnterMap', {
+							'Conditions', {
+								PlaceObj('SectorHasIntel', {
+									sector_id = "I3",
+								}),
+							},
+							'Effects', {
+								PlaceObj('ModifyTrapSpawnersEffect', {
+									Group = "StartingMinefield",
+									SpawnActive = "enable",
+									disarmDifficulty = "Easy",
+									visibility = set( "enemy1", "enemy2", "enemyNeutral", "neutral", "player1", "player2" ),
+								}),
+							},
+						}),
+					},
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Ernie_Conflict",
+					'MusicExploration', "Ernie_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "J7",
+					'Map', "mvoLckN",
+					'MapTier', 40,
+					'Label1', "Ernie",
+					'modId', "FhNNYd",
+					'display_name', T(844229616670, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J7]] "Изумрудный берег"),
+					'TerrainType', "Jungle",
+					'WeatherZone', "Erny",
+					'TargetSectors', {
+						"J5",
+					},
+					'InterestingSector', true,
+					'bidirectionalRoadApply', true,
+					'Roads', set({
 	East = false,
-	North = true,
+	North = false,
 	West = false,
 }),
-					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'bidirectionalBlockApply', true,
+					'BlockTravel', {
+						East = true,
+						North = true,
+						West = false,
+					},
+					'image', "UI/SatelliteView/SectorImages/I03",
+					'Events', {
+						PlaceObj('SE_OnSquadReachSectorCenter', {
+							'Conditions', {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "02_LiberateErnie",
+									Vars = set( "Completed" ),
+								}),
+								PlaceObj('UnitHireStatus', {
+									Status = "Hired",
+									TargetUnit = "Raven",
+								}),
+								PlaceObj('UnitHireStatus', {
+									Status = "Hired",
+									TargetUnit = "Raider",
+								}),
+							},
+						}),
+						PlaceObj('SE_OnEnterMapVisual', {
+							'Conditions', {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "RescueHerMan",
+									Vars = set({
+	Failed = false,
+	HermanRescued = false,
+}),
+								}),
+							},
+							'SequentialEffects', true,
+							'Effects', {
+								PlaceObj('NeutralNPCDontMove', {
+									TargetUnit = "Herman",
+								}),
+								PlaceObj('PlaySetpiece', {
+									setpiece = "EncounterHerman",
+								}),
+							},
+						}),
+						PlaceObj('SE_OnEnterMap', {
+							'Conditions', {
+								PlaceObj('SectorHasIntel', {
+									sector_id = "I3",
+								}),
+							},
+							'Effects', {
+								PlaceObj('ModifyTrapSpawnersEffect', {
+									Group = "StartingMinefield",
+									SpawnActive = "enable",
+									disarmDifficulty = "Easy",
+									visibility = set( "enemy1", "enemy2", "enemyNeutral", "neutral", "player1", "player2" ),
+								}),
+							},
+						}),
+					},
 					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
+					'MusicConflict', "Ernie_Conflict",
+					'MusicExploration', "Ernie_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "J8",
@@ -33393,133 +33664,6 @@ return {
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "K11_Underground",
-					'CanGoUp', false,
-					'Map', "K-11U - Cryolabor",
-					'MapTier', 30,
-					'RunLoyaltyLogic', false,
-					'GroundSector', "K11",
-					'display_name', T(813545991003, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K11_Underground]] "Подземная лаборатория"),
-					'never_autoresolve', true,
-					'discovered', false,
-					'ForceConflict', true,
-					'Intel', false,
-					'InterestingSector', true,
-					'image', "UI/SatelliteView/SectorImages/Sector_Lab.png",
-					'Events', {
-						PlaceObj('SE_PreChangeMap', {
-							'Conditions', {
-								PlaceObj('QuestIsVariableText', {
-									Prop = "LabForK11U",
-									QuestId = "RandomLab",
-								}),
-							},
-							'Effects', {
-								PlaceObj('QuestSetVariableText', {
-									Prop = "LabForK11U",
-									QuestId = "RandomLab",
-								}),
-								PlaceObj('RandomEffectWithCondition', {
-									Effects = {
-										PlaceObj('ConditionalEffect', {
-											'Conditions', {
-												PlaceObj('QuestIsVariableBool', {
-													QuestId = "RandomLab",
-													Vars = set( "WaffenFree" ),
-												}),
-											},
-											'Effects', {
-												PlaceObj('QuestSetVariableBool', {
-													Prop = "WaffenFree",
-													QuestId = "RandomLab",
-													Set = false,
-												}),
-												PlaceObj('SectorSetMap', {
-													MapFile = "G-12U - Waffenlabor",
-													image = "UI/SatelliteView/SectorImages/G12U",
-													loading_screen = "UI/LoadingScreens/HotDiamonds/G12_Underground",
-													sector_id = "K11_Underground",
-												}),
-												PlaceObj('QuestSetVariableText', {
-													Prop = "LabForK11U",
-													QuestId = "RandomLab",
-													Text = "Waffen",
-												}),
-												PlaceObj('SectorSpawnSquad', {
-													sector_id = "K11_Underground",
-													squad_def_id = "Waffenlabor",
-												}),
-											},
-										}),
-										PlaceObj('ConditionalEffect', {
-											'Conditions', {
-												PlaceObj('QuestIsVariableBool', {
-													QuestId = "RandomLab",
-													Vars = set( "BioFree" ),
-												}),
-											},
-											'Effects', {
-												PlaceObj('QuestSetVariableBool', {
-													Prop = "BioFree",
-													QuestId = "RandomLab",
-													Set = false,
-												}),
-												PlaceObj('SectorSetMap', {
-													MapFile = "J-14U - Biolabor",
-													image = "UI/SatelliteView/SectorImages/J14U",
-													loading_screen = "UI/LoadingScreens/HotDiamonds/J14_Underground",
-													sector_id = "K11_Underground",
-												}),
-												PlaceObj('QuestSetVariableText', {
-													Prop = "LabForK11U",
-													QuestId = "RandomLab",
-													Text = "Bio",
-												}),
-												PlaceObj('SectorSpawnSquad', {
-													sector_id = "K11_Underground",
-													squad_def_id = "BioLabor",
-												}),
-											},
-										}),
-										PlaceObj('ConditionalEffect', {
-											'Conditions', {
-												PlaceObj('QuestIsVariableBool', {
-													QuestId = "RandomLab",
-													Vars = set({
-	BioFree = false,
-	CryoFree = true,
-	WaffenFree = false,
-}),
-												}),
-											},
-											'Effects', {
-												PlaceObj('SectorSetMap', {
-													MapFile = "K-11U - Cryolabor",
-													image = "UI/SatelliteView/SectorImages/K11U",
-													loading_screen = "UI/LoadingScreens/HotDiamonds/K11_Underground",
-													sector_id = "K11_Underground",
-												}),
-												PlaceObj('QuestSetVariableText', {
-													Prop = "LabForK11U",
-													QuestId = "RandomLab",
-													Text = "Cryo",
-												}),
-												PlaceObj('SectorSpawnSquad', {
-													sector_id = "K11_Underground",
-													squad_def_id = "Cryolabor",
-												}),
-											},
-										}),
-									},
-								}),
-							},
-						}),
-					},
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Underground_Conflict",
-					'MusicExploration', "Underground_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "K12",
@@ -33819,8 +33963,8 @@ return {
 						"H14",
 						"I19",
 						"L18",
-						"K10",
-						"K9",
+						"O16",
+						"N13",
 					},
 					'ExtraDefenderSquads', {
 						"LegionExtraDefendres_Shock_Easy",
@@ -33898,8 +34042,8 @@ return {
 						"H14",
 						"I19",
 						"L18",
-						"K10",
-						"K9",
+						"O16",
+						"N13",
 					},
 					'ExtraDefenderSquads', {
 						"LegionExtraDefendres_Shock_Easy",
@@ -34440,6 +34584,7 @@ return {
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
+	East = false,
 	North = false,
 	South = false,
 	West = false,
@@ -34471,6 +34616,7 @@ return {
 					'StickySide', true,
 					'Passability', "Water",
 					'Intel', false,
+					'BlockTravel', set( "West" ),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
@@ -34530,6 +34676,19 @@ return {
 					'BobbyRayDeliveryCostMultiplier', 300,
 				}),
 				PlaceObj('SatelliteSector', {
+					'Id', "L10",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L10]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
 					'Id', "L11",
 					'Map', "V4PtNEt",
 					'modId', "FhNNYd",
@@ -34575,7 +34734,7 @@ return {
 						"I10",
 						"A2",
 						"H14",
-						"K10",
+						"O16",
 					},
 					'ExtraDefenderSquads', {
 						"LegionExtraDefenders_Ordnance_Easy",
@@ -34671,7 +34830,7 @@ return {
 						"I10",
 						"A2",
 						"H14",
-						"K10",
+						"O16",
 					},
 					'ExtraDefenderSquads', {
 						"LegionExtraDefenders_Ordnance_Easy",
@@ -35220,6 +35379,7 @@ return {
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
+	North = false,
 	South = false,
 	West = false,
 }),
@@ -35305,59 +35465,122 @@ return {
 					},
 				}),
 				PlaceObj('SatelliteSector', {
-					'Id', "M11",
+					'Id', "M10",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M10]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "M11",
+					'MapTier', 30,
+					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M11]] "River"),
+					'Side', "neutral",
+					'StickySide', true,
+					'TerrainType', "Swamp",
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_River",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M12",
-					'Label1', "Blocked",
+					'MapTier', 30,
+					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M12]] "River"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'TerrainType', "Swamp",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_River",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "M13",
+					'MapTier', 30,
+					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M13]] "River"),
+					'Side', "neutral",
+					'StickySide', true,
+					'TerrainType', "Swamp",
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_River",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M14",
-					'Label1', "Blocked",
+					'MapTier', 30,
+					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M14]] "River"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'TerrainType', "Swamp",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_River",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M15",
-					'Label1', "Blocked",
+					'MapTier', 30,
+					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M15]] "River"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'TerrainType', "Swamp",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_River",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "M16",
+					'MapTier', 30,
+					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M16]] "River"),
+					'Side', "neutral",
+					'StickySide', true,
+					'TerrainType', "Swamp",
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_River",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M17",
+					'MapTier', 30,
+					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M17]] "River"),
+					'Side', "neutral",
+					'StickySide', true,
+					'TerrainType', "Swamp",
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_River",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "L27",
 					'Map', "YbeGv36",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(913920875470, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M17]] "Великий лес"),
+					'display_name', T(913920875470, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L27]] "Великий лес"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'bidirectionalRoadApply', true,
@@ -35379,11 +35602,11 @@ return {
 					'MusicConflict', "Jungle_Conflict",
 				}),
 				PlaceObj('SatelliteSector', {
-					'Id', "M18",
+					'Id', "N22",
 					'Map', "HpXRoyW",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(553366291840, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M18]] "Великий лес"),
+					'display_name', T(553366291840, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N22]] "Великий лес"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'bidirectionalRoadApply', true,
@@ -35402,6 +35625,34 @@ return {
 					'image', "UI/SatelliteView/SectorImages/K13",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Jungle_Conflict",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "M18",
+					'MapTier', 30,
+					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M18]] "River"),
+					'Side', "neutral",
+					'StickySide', true,
+					'TerrainType', "Swamp",
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_River",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "M19",
+					'MapTier', 30,
+					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M19]] "River"),
+					'Side', "neutral",
+					'StickySide', true,
+					'TerrainType', "Swamp",
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_River",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M2",
@@ -35428,13 +35679,71 @@ return {
 					'combatTaskAmount', 3,
 				}),
 				PlaceObj('SatelliteSector', {
-					'Id', "M22",
-					'Label1', "Blocked",
+					'Id', "M20",
+					'MapTier', 30,
+					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M20]] "River"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'TerrainType', "Swamp",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_River",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "M21",
+					'MapTier', 30,
+					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M21]] "River"),
+					'Side', "neutral",
+					'StickySide', true,
+					'TerrainType', "Swamp",
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_River",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "M22",
+					'MapTier', 30,
+					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M22]] "River"),
+					'Side', "neutral",
+					'StickySide', true,
+					'TerrainType', "Swamp",
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_River",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "M23",
+					'MapTier', 30,
+					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M23]] "River"),
+					'Side', "neutral",
+					'StickySide', true,
+					'TerrainType', "Swamp",
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_River",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "M24",
+					'MapTier', 30,
+					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M24]] "River"),
+					'Side', "neutral",
+					'StickySide', true,
+					'TerrainType', "Swamp",
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_River",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -35690,90 +35999,6 @@ return {
 					'image', "Mod/FhNNYd/Images/JA3Debug_KEVGDHzK25.jpg",
 				}),
 				PlaceObj('SatelliteSector', {
-					'Id', "M7",
-					'Map', "mvoLckN",
-					'MapTier', 40,
-					'Label1', "Ernie",
-					'modId', "FhNNYd",
-					'display_name', T(844229616670, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M7]] "Изумрудный берег"),
-					'TerrainType', "Jungle",
-					'WeatherZone', "Erny",
-					'TargetSectors', {
-						"J5",
-					},
-					'InterestingSector', true,
-					'bidirectionalRoadApply', true,
-					'Roads', set({
-	East = false,
-	North = false,
-	West = false,
-}),
-					'bidirectionalBlockApply', true,
-					'BlockTravel', {
-						East = false,
-						North = false,
-						South = true,
-						West = false,
-					},
-					'image', "UI/SatelliteView/SectorImages/I03",
-					'Events', {
-						PlaceObj('SE_OnSquadReachSectorCenter', {
-							'Conditions', {
-								PlaceObj('QuestIsVariableBool', {
-									QuestId = "02_LiberateErnie",
-									Vars = set( "Completed" ),
-								}),
-								PlaceObj('UnitHireStatus', {
-									Status = "Hired",
-									TargetUnit = "Raven",
-								}),
-								PlaceObj('UnitHireStatus', {
-									Status = "Hired",
-									TargetUnit = "Raider",
-								}),
-							},
-						}),
-						PlaceObj('SE_OnEnterMapVisual', {
-							'Conditions', {
-								PlaceObj('QuestIsVariableBool', {
-									QuestId = "RescueHerMan",
-									Vars = set({
-	Failed = false,
-	HermanRescued = false,
-}),
-								}),
-							},
-							'SequentialEffects', true,
-							'Effects', {
-								PlaceObj('NeutralNPCDontMove', {
-									TargetUnit = "Herman",
-								}),
-								PlaceObj('PlaySetpiece', {
-									setpiece = "EncounterHerman",
-								}),
-							},
-						}),
-						PlaceObj('SE_OnEnterMap', {
-							'Conditions', {
-								PlaceObj('SectorHasIntel', {
-									sector_id = "I3",
-								}),
-							},
-							'Effects', {
-								PlaceObj('ModifyTrapSpawnersEffect', {
-									Group = "StartingMinefield",
-									SpawnActive = "enable",
-									disarmDifficulty = "Easy",
-									visibility = set( "enemy1", "enemy2", "enemyNeutral", "neutral", "player1", "player2" ),
-								}),
-							},
-						}),
-					},
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Ernie_Conflict",
-					'MusicExploration', "Ernie_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
 					'Id', "M8",
 					'Label1', "Blocked",
 					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M8]] "Sea"),
@@ -35815,11 +36040,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N10",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N10]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -35898,7 +36124,7 @@ return {
 								PlaceObj('SectorEnterConflict', {
 									disable_travel = true,
 									lock_conflict = true,
-									sector_id = "L8",
+									sector_id = "N12",
 								}),
 								PlaceObj('PlaySetpiece', {
 									setpiece = "PortCacaoCity_FirstEnter",
@@ -36412,21 +36638,15 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N4",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N4]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "N4",
-					'Map', "SsWKoJQ",
-					'modId', "FhNNYd",
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "N5",
@@ -36440,13 +36660,6 @@ return {
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "N6",
-					'Map', "L6i3JKG",
-					'modId', "FhNNYd",
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "N6",
@@ -36464,21 +36677,15 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N7",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N7]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "N7",
-					'Map', "LkJi4Fv",
-					'modId', "FhNNYd",
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "N8",
@@ -36492,13 +36699,6 @@ return {
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "N8",
-					'Map', "ede6mpn",
-					'modId', "FhNNYd",
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "N9",
@@ -36522,18 +36722,6 @@ return {
 					'Passability', "Water",
 					'Intel', false,
 					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "O1",
-					'Label1', "Blocked",
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
-					'Intel', false,
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -36650,11 +36838,11 @@ return {
 										PlaceObj('SectorEnterConflict', {
 											disable_travel = true,
 											lock_conflict = true,
-											sector_id = "L9",
+											sector_id = "O13",
 										}),
 										PlaceObj('SectorSetSide', {
 											disable_sticky = true,
-											sector_id = "L9",
+											sector_id = "O13",
 											side = "enemy1",
 										}),
 									},
@@ -36697,11 +36885,11 @@ return {
 								PlaceObj('SectorEnterConflict', {
 									disable_travel = true,
 									lock_conflict = true,
-									sector_id = "L9",
+									sector_id = "O13",
 								}),
 								PlaceObj('SectorSetSide', {
 									disable_sticky = true,
-									sector_id = "L9",
+									sector_id = "O13",
 									side = "enemy1",
 								}),
 							},
@@ -36802,11 +36990,11 @@ return {
 										PlaceObj('SectorEnterConflict', {
 											disable_travel = true,
 											lock_conflict = true,
-											sector_id = "L9",
+											sector_id = "O13",
 										}),
 										PlaceObj('SectorSetSide', {
 											disable_sticky = true,
-											sector_id = "L9",
+											sector_id = "O13",
 											side = "enemy1",
 										}),
 									},
@@ -36849,11 +37037,11 @@ return {
 								PlaceObj('SectorEnterConflict', {
 									disable_travel = true,
 									lock_conflict = true,
-									sector_id = "L9",
+									sector_id = "O13",
 								}),
 								PlaceObj('SectorSetSide', {
 									disable_sticky = true,
-									sector_id = "L9",
+									sector_id = "O13",
 									side = "enemy1",
 								}),
 							},
@@ -37007,18 +37195,6 @@ return {
 					'Passability', "Water",
 					'Intel', false,
 					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "O2",
-					'Label1', "Blocked",
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
-					'Intel', false,
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -37232,6 +37408,136 @@ return {
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
+					'Id', "O26_Underground",
+					'CanGoUp', false,
+					'Map', "ApAvsXr",
+					'MapTier', 30,
+					'modId', "FhNNYd",
+					'RunLoyaltyLogic', false,
+					'GroundSector', "O26",
+					'display_name', T(813545991003, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O26_Underground]] "Подземная лаборатория"),
+					'never_autoresolve', true,
+					'discovered', false,
+					'ForceConflict', true,
+					'Intel', false,
+					'InterestingSector', true,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
+					'image', "UI/SatelliteView/SectorImages/Sector_Lab.png",
+					'Events', {
+						PlaceObj('SE_PreChangeMap', {
+							'Conditions', {
+								PlaceObj('QuestIsVariableText', {
+									Prop = "LabForK11U",
+									QuestId = "RandomLab",
+								}),
+							},
+							'Effects', {
+								PlaceObj('QuestSetVariableText', {
+									Prop = "LabForK11U",
+									QuestId = "RandomLab",
+								}),
+								PlaceObj('RandomEffectWithCondition', {
+									Effects = {
+										PlaceObj('ConditionalEffect', {
+											'Conditions', {
+												PlaceObj('QuestIsVariableBool', {
+													QuestId = "RandomLab",
+													Vars = set( "WaffenFree" ),
+												}),
+											},
+											'Effects', {
+												PlaceObj('QuestSetVariableBool', {
+													Prop = "WaffenFree",
+													QuestId = "RandomLab",
+													Set = false,
+												}),
+												PlaceObj('SectorSetMap', {
+													MapFile = "G-12U - Waffenlabor",
+													image = "UI/SatelliteView/SectorImages/G12U",
+													loading_screen = "UI/LoadingScreens/HotDiamonds/G12_Underground",
+													sector_id = "O26_Underground",
+												}),
+												PlaceObj('QuestSetVariableText', {
+													Prop = "LabForK11U",
+													QuestId = "RandomLab",
+													Text = "Waffen",
+												}),
+												PlaceObj('SectorSpawnSquad', {
+													sector_id = "O26_Underground",
+													squad_def_id = "Waffenlabor",
+												}),
+											},
+										}),
+										PlaceObj('ConditionalEffect', {
+											'Conditions', {
+												PlaceObj('QuestIsVariableBool', {
+													QuestId = "RandomLab",
+													Vars = set( "BioFree" ),
+												}),
+											},
+											'Effects', {
+												PlaceObj('QuestSetVariableBool', {
+													Prop = "BioFree",
+													QuestId = "RandomLab",
+													Set = false,
+												}),
+												PlaceObj('SectorSetMap', {
+													MapFile = "J-14U - Biolabor",
+													image = "UI/SatelliteView/SectorImages/J14U",
+													loading_screen = "UI/LoadingScreens/HotDiamonds/J14_Underground",
+													sector_id = "O26_Underground",
+												}),
+												PlaceObj('QuestSetVariableText', {
+													Prop = "LabForK11U",
+													QuestId = "RandomLab",
+													Text = "Bio",
+												}),
+												PlaceObj('SectorSpawnSquad', {
+													sector_id = "O26_Underground",
+													squad_def_id = "BioLabor",
+												}),
+											},
+										}),
+										PlaceObj('ConditionalEffect', {
+											'Conditions', {
+												PlaceObj('QuestIsVariableBool', {
+													QuestId = "RandomLab",
+													Vars = set({
+	BioFree = false,
+	CryoFree = true,
+	WaffenFree = false,
+}),
+												}),
+											},
+											'Effects', {
+												PlaceObj('SectorSetMap', {
+													MapFile = "K-11U - Cryolabor",
+													image = "UI/SatelliteView/SectorImages/K11U",
+													loading_screen = "UI/LoadingScreens/HotDiamonds/O26_Underground",
+													sector_id = "O26_Underground",
+												}),
+												PlaceObj('QuestSetVariableText', {
+													Prop = "LabForK11U",
+													QuestId = "RandomLab",
+													Text = "Cryo",
+												}),
+												PlaceObj('SectorSpawnSquad', {
+													sector_id = "O26_Underground",
+													squad_def_id = "Cryolabor",
+												}),
+											},
+										}),
+									},
+								}),
+							},
+						}),
+					},
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Underground_Conflict",
+					'MusicExploration', "Underground_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
 					'Id', "O27",
 					'Label1', "Blocked",
 					'Side', "neutral",
@@ -37245,18 +37551,6 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "O29",
-					'Label1', "Blocked",
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
-					'Intel', false,
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "O3",
 					'Label1', "Blocked",
 					'Side', "neutral",
 					'StickySide', true,
@@ -37319,36 +37613,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "O4",
 					'Label1', "Blocked",
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
-					'Intel', false,
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "O4",
-					'Label1', "Blocked",
 					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O4]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
 					'Intel', false,
 					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "O5",
-					'Label1', "Blocked",
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
-					'Intel', false,
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -37375,18 +37645,6 @@ return {
 					'Passability', "Water",
 					'Intel', false,
 					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "O7",
-					'Label1', "Blocked",
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
-					'Intel', false,
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -37631,7 +37889,7 @@ return {
 													MapFile = "G-12U - Waffenlabor",
 													image = "UI/SatelliteView/SectorImages/G12U",
 													loading_screen = "UI/LoadingScreens/HotDiamonds/G12_Underground",
-													sector_id = "K11_Underground",
+													sector_id = "O26_Underground",
 												}),
 												PlaceObj('QuestSetVariableText', {
 													Prop = "LabForK11U",
@@ -37639,7 +37897,7 @@ return {
 													Text = "Waffen",
 												}),
 												PlaceObj('SectorSpawnSquad', {
-													sector_id = "K11_Underground",
+													sector_id = "O26_Underground",
 													squad_def_id = "Waffenlabor",
 												}),
 											},
@@ -37661,7 +37919,7 @@ return {
 													MapFile = "J-14U - Biolabor",
 													image = "UI/SatelliteView/SectorImages/J14U",
 													loading_screen = "UI/LoadingScreens/HotDiamonds/J14_Underground",
-													sector_id = "K11_Underground",
+													sector_id = "O26_Underground",
 												}),
 												PlaceObj('QuestSetVariableText', {
 													Prop = "LabForK11U",
@@ -37669,7 +37927,7 @@ return {
 													Text = "Bio",
 												}),
 												PlaceObj('SectorSpawnSquad', {
-													sector_id = "K11_Underground",
+													sector_id = "O26_Underground",
 													squad_def_id = "BioLabor",
 												}),
 											},
@@ -37689,8 +37947,8 @@ return {
 												PlaceObj('SectorSetMap', {
 													MapFile = "K-11U - Cryolabor",
 													image = "UI/SatelliteView/SectorImages/K11U",
-													loading_screen = "UI/LoadingScreens/HotDiamonds/K11_Underground",
-													sector_id = "K11_Underground",
+													loading_screen = "UI/LoadingScreens/HotDiamonds/O26_Underground",
+													sector_id = "O26_Underground",
 												}),
 												PlaceObj('QuestSetVariableText', {
 													Prop = "LabForK11U",
@@ -37698,7 +37956,7 @@ return {
 													Text = "Cryo",
 												}),
 												PlaceObj('SectorSpawnSquad', {
-													sector_id = "K11_Underground",
+													sector_id = "O26_Underground",
 													squad_def_id = "Cryolabor",
 												}),
 											},
@@ -37766,10 +38024,10 @@ return {
 					'Guardpost', true,
 					'PatrolRespawnTime', 432000,
 					'TargetSectors', {
-						"K9",
-						"L8",
-						"L9",
-						"K10",
+						"N13",
+						"N12",
+						"O13",
+						"O16",
 						"I18",
 						"I19",
 						"F13",
@@ -37818,10 +38076,10 @@ return {
 					'Guardpost', true,
 					'PatrolRespawnTime', 432000,
 					'TargetSectors', {
-						"K9",
-						"L8",
-						"L9",
-						"K10",
+						"N13",
+						"N12",
+						"O13",
+						"O16",
 						"I18",
 						"I19",
 						"F13",
@@ -37963,18 +38221,6 @@ return {
 					'Passability', "Water",
 					'Intel', false,
 					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "P2",
-					'Label1', "Blocked",
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
-					'Intel', false,
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -38224,18 +38470,6 @@ return {
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
-					'Id', "P3",
-					'Label1', "Blocked",
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
-					'Intel', false,
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
 					'Id', "P30",
 					'Label1', "Blocked",
 					'Side', "neutral",
@@ -38274,36 +38508,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "P4",
 					'Label1', "Blocked",
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
-					'Intel', false,
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "P4",
-					'Label1', "Blocked",
 					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P4]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
 					'Intel', false,
 					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "P5",
-					'Label1', "Blocked",
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
-					'Intel', false,
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -38330,30 +38540,6 @@ return {
 					'Passability', "Water",
 					'Intel', false,
 					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "P6",
-					'Label1', "Blocked",
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
-					'Intel', false,
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "P7",
-					'Label1', "Blocked",
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
-					'Intel', false,
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -39229,7 +39415,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "F5",
+								Sector = "G9",
 							}),
 						},
 						HideConditions = {
@@ -39318,7 +39504,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"F5",
+									"G9",
 								},
 							}),
 						},
@@ -39331,14 +39517,14 @@ return {
 									}),
 								},
 								operation = "AbandonedBeach_EnablePort",
-								sector_id = "F5",
+								sector_id = "G9",
 							}),
 						},
 						Once = true,
 						ParamId = "TCE_EnableBoatOperation",
 						QuestId = "SavannaSideQuest",
 						requiredSectors = {
-							"F5",
+							"G9",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -39409,7 +39595,7 @@ return {
 						},
 						Effects = {
 							PlaceObj('SectorSetPort', {
-								sector_id = "F5",
+								sector_id = "G9",
 							}),
 							PlaceObj('GrantExperienceSector', {
 								logImportant = true,
@@ -47208,7 +47394,7 @@ return {
 								TimeAmount = 12,
 							}),
 							PlaceObj('SectorSquadDespawn', {
-								sector_id = "H2",
+								sector_id = "I5",
 							}),
 							PlaceObj('SectorSquadDespawn', {
 								sector_id = "I7",
@@ -47220,7 +47406,7 @@ return {
 								MusicCombat = "Battle_Normal",
 								MusicConflict = "ErnieFlip_Conflict",
 								MusicExploration = "ErnieFlip_Exploration",
-								SectorID = "I1",
+								SectorID = "K4",
 							}),
 							PlaceObj('MusicSetSectorPlaylist', {
 								MusicCombat = "Battle_Normal",
@@ -47244,7 +47430,7 @@ return {
 								MusicCombat = "Battle_Normal",
 								MusicConflict = "ErnieFlip_Conflict",
 								MusicExploration = "ErnieFlip_Exploration",
-								SectorID = "H2",
+								SectorID = "I5",
 							}),
 							PlaceObj('MusicSetSectorPlaylist', {
 								MusicCombat = "Battle_Normal",
@@ -47253,7 +47439,7 @@ return {
 								SectorID = "E9",
 							}),
 							PlaceObj('SectorSetSide', {
-								sector_id = "H2",
+								sector_id = "I5",
 								side = "enemy1",
 							}),
 							PlaceObj('SectorSetSide', {
@@ -47265,12 +47451,12 @@ return {
 								side = "enemy1",
 							}),
 							PlaceObj('SectorSetSide', {
-								sector_id = "I1",
+								sector_id = "K4",
 								side = "enemy1",
 							}),
 							PlaceObj('SectorSetForceConflict', {
 								force = true,
-								sector_id = "I1",
+								sector_id = "K4",
 							}),
 							PlaceObj('SectorSetSide', {
 								sector_id = "I2",
@@ -47358,9 +47544,9 @@ return {
 									"I18",
 									"I19",
 									"H14",
-									"K10",
-									"L8",
-									"K9",
+									"O16",
+									"N12",
+									"N13",
 								},
 								sector_id = "K16",
 							}),
@@ -67426,7 +67612,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "12Chairs_ChairMarker",
-								Sector = "I1",
+								Sector = "K4",
 							}),
 						},
 						CompletionConditions = {
@@ -67434,7 +67620,7 @@ return {
 								Conditions = {
 									PlaceObj('PlayerIsInSectors', {
 										Sectors = {
-											"I1",
+											"K4",
 										},
 									}),
 									PlaceObj('CheckOR', {
@@ -67468,7 +67654,7 @@ return {
 								Conditions = {
 									PlaceObj('PlayerIsInSectors', {
 										Sectors = {
-											"I1",
+											"K4",
 										},
 									}),
 									PlaceObj('QuestIsVariableBool', {
@@ -72190,7 +72376,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "I1",
+								Sector = "K4",
 							}),
 						},
 						HideConditions = {
@@ -72309,7 +72495,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "H2",
+								Sector = "I5",
 							}),
 						},
 						CompletionConditions = {
@@ -76930,7 +77116,7 @@ return {
 						Effects = {
 							PlaceObj('SectorTrainMilitia', {
 								Amount = 1,
-								sector_id = "L9",
+								sector_id = "O13",
 							}),
 						},
 						Once = true,
@@ -78018,7 +78204,7 @@ return {
 							}),
 							PlaceObj('SectorHasDepletedMine', {
 								Negate = true,
-								sector_id = "K10",
+								sector_id = "O16",
 							}),
 						},
 						Text = T(676018799925, --[[ModItemQuestsDef CorazonCaptureMine Text]] "<em>Legion impostors</em> killed: <em><SectorName('K10')></em> income slightly increased"),
@@ -78038,7 +78224,7 @@ return {
 							}),
 							PlaceObj('SectorHasDepletedMine', {
 								Negate = true,
-								sector_id = "K10",
+								sector_id = "O16",
 							}),
 						},
 						Text = T(882967405015, --[[ModItemQuestsDef CorazonCaptureMine Text]] "<em>Fournier</em> intimidated: <em><SectorName('K10')></em> income slightly increased"),
@@ -78056,7 +78242,7 @@ return {
 							}),
 							PlaceObj('SectorHasDepletedMine', {
 								Negate = true,
-								sector_id = "K10",
+								sector_id = "O16",
 							}),
 						},
 						Text = T(535891751276, --[[ModItemQuestsDef CorazonCaptureMine Text]] "<em>Fournier</em> is dead: <em><SectorName('K10')></em> income slightly decreased"),
@@ -78064,7 +78250,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "K10",
+								Sector = "O16",
 							}),
 						},
 						HideConditions = {
@@ -78081,7 +78267,7 @@ return {
 							}),
 							PlaceObj('SectorHasDepletedMine', {
 								Negate = true,
-								sector_id = "K10",
+								sector_id = "O16",
 							}),
 						},
 						Text = T(984175004115, --[[ModItemQuestsDef CorazonCaptureMine Text]] "<em>Operation</em>: <em>Prospect for diamonds</em> may increase the income of the <em><SectorName('K10')></em> mine"),
@@ -78101,7 +78287,7 @@ return {
 							}),
 							PlaceObj('SectorHasDepletedMine', {
 								Negate = true,
-								sector_id = "K10",
+								sector_id = "O16",
 							}),
 						},
 						Text = T(752093346663, --[[ModItemQuestsDef CorazonCaptureMine Text]] "Prospecting done: <em><SectorName('K10')></em> income greatly increased"),
@@ -78252,18 +78438,18 @@ return {
 						AddInHistory = true,
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "K10",
+								Sector = "O16",
 							}),
 						},
 						CompletionConditions = {
 							PlaceObj('SectorHasDepletedMine', {
-								sector_id = "K10",
+								sector_id = "O16",
 							}),
 						},
 						Idx = 29,
 						ShowConditions = {
 							PlaceObj('SectorHasDepletedMine', {
-								sector_id = "K10",
+								sector_id = "O16",
 							}),
 						},
 						Text = T(629392124745, --[[ModItemQuestsDef CorazonCaptureMine Text]] "The <em><SectorName('K10')></em> mine is depleted"),
@@ -78432,7 +78618,7 @@ return {
 							}),
 							PlaceObj('SectorModifyMineProperties', {
 								DailyIncome = 105,
-								sector_id = "K10",
+								sector_id = "O16",
 							}),
 							PlaceObj('SectorModifyMineProperties', {
 								DailyIncome = 105,
@@ -78666,7 +78852,7 @@ return {
 						Effects = {
 							PlaceObj('SectorModifyMineProperties', {
 								DailyIncome = 105,
-								sector_id = "K10",
+								sector_id = "O16",
 							}),
 						},
 						Once = true,
@@ -78683,7 +78869,7 @@ return {
 						Effects = {
 							PlaceObj('SectorModifyMineProperties', {
 								DailyIncome = 105,
-								sector_id = "K10",
+								sector_id = "O16",
 							}),
 						},
 						Once = true,
@@ -78698,7 +78884,7 @@ return {
 							}),
 							PlaceObj('SectorHasDepletedMine', {
 								Negate = true,
-								sector_id = "K10",
+								sector_id = "O16",
 							}),
 						},
 						Effects = {
@@ -78711,12 +78897,12 @@ return {
 									}),
 									PlaceObj('SectorModifyMineProperties', {
 										DailyIncome = 125,
-										sector_id = "K10",
+										sector_id = "O16",
 									}),
 								},
 								LootTableId = "Mining_Valuables",
 								operation = "OldDiamond_Prospecting",
-								sector_id = "K10",
+								sector_id = "O16",
 							}),
 						},
 						Once = true,
@@ -78827,7 +79013,7 @@ return {
 						Effects = {
 							PlaceObj('SectorModifyMineProperties', {
 								DailyIncome = 102,
-								sector_id = "K10",
+								sector_id = "O16",
 							}),
 						},
 						ParamId = "TCE_OldDiamond_BonusIncome",
@@ -80376,7 +80562,7 @@ return {
 									"B12_Underground",
 									"G12_Underground",
 									"J14_Underground",
-									"K11_Underground",
+									"O26_Underground",
 									"F12_Underground",
 									"G14_Underground",
 									"K15_Underground",
@@ -80402,7 +80588,7 @@ return {
 							"B12_Underground",
 							"G12_Underground",
 							"J14_Underground",
-							"K11_Underground",
+							"O26_Underground",
 							"F12_Underground",
 							"G14_Underground",
 							"K15_Underground",
@@ -80479,7 +80665,7 @@ return {
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('SectorCheckOwner', {
-								sector_id = "K11_Underground",
+								sector_id = "O26_Underground",
 							}),
 						},
 						Effects = {
@@ -81001,7 +81187,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "DrGruselheim",
-								Sector = "K11_Underground",
+								Sector = "O26_Underground",
 							}),
 						},
 						CompletionConditions = {
@@ -81091,7 +81277,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Gunther",
-								Sector = "K11_Underground",
+								Sector = "O26_Underground",
 							}),
 						},
 						HideConditions = {
@@ -81209,7 +81395,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "DrGruselheim",
-								Sector = "K11_Underground",
+								Sector = "O26_Underground",
 							}),
 						},
 						HideConditions = {
@@ -81685,7 +81871,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "DrGruselheim",
-								Sector = "K11_Underground",
+								Sector = "O26_Underground",
 							}),
 						},
 						HideConditions = {
@@ -82218,7 +82404,7 @@ return {
 									PlaceObj('SectorEnableCustomOperation', {
 										LootTableId = "KompositumCrafting",
 										operation = "CraftKompositum",
-										sector_id = "K11_Underground",
+										sector_id = "O26_Underground",
 									}),
 								},
 							}),
@@ -89286,7 +89472,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "H2",
+								Sector = "I5",
 							}),
 						},
 						HideConditions = {
@@ -89314,7 +89500,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "H2",
+								Sector = "I5",
 							}),
 						},
 						HideConditions = {
@@ -89354,7 +89540,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Hanging_Basil",
-								Sector = "H2",
+								Sector = "I5",
 							}),
 						},
 						HideConditions = {
@@ -89389,7 +89575,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Hanging_Herman",
-								Sector = "H2",
+								Sector = "I5",
 							}),
 						},
 						HideConditions = {
@@ -89455,7 +89641,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Martha",
-								Sector = "H2",
+								Sector = "I5",
 							}),
 						},
 						CompletionConditions = {
@@ -89591,7 +89777,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"M7",
+									"J7",
 								},
 							}),
 							PlaceObj('CombatIsActive', {
@@ -90943,7 +91129,7 @@ return {
 							PlaceObj('SectorMilitiaNumber', {
 								Amount = 1,
 								Condition = ">=",
-								sector_id = "H2",
+								sector_id = "I5",
 							}),
 						},
 						Effects = {
@@ -91075,7 +91261,7 @@ return {
 							PlaceObj('TriggerGuardPostAttack', {
 								custom_quest_id = "ErnieCounterAttack",
 								effect_target_sector_ids = {
-									"H2",
+									"I5",
 								},
 								guardpost_sector_id = "I7",
 								time = 57600,
@@ -91093,7 +91279,7 @@ return {
 							}),
 							PlaceObj('SectorCheckOwner', {
 								owner = "any enemy",
-								sector_id = "H2",
+								sector_id = "I5",
 							}),
 							PlaceObj('QuestIsTCEState', {
 								Prop = "TCE_AttackStarted",
@@ -91169,7 +91355,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H2",
+									"I5",
 								},
 							}),
 						},
@@ -91236,21 +91422,21 @@ return {
 							}),
 							PlaceObj('SectorEnableAutoDeploy', {
 								deploy = false,
-								sector_id = "H2",
+								sector_id = "I5",
 							}),
 						},
 						Once = true,
 						ParamId = "TCE_GatherPartisans",
 						QuestId = "ErnieSideQuests_WorldFlip",
 						requiredSectors = {
-							"H2",
+							"I5",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H2",
+									"I5",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -91323,7 +91509,7 @@ return {
 						ParamId = "TCE_PartisansJoinIn",
 						QuestId = "ErnieSideQuests_WorldFlip",
 						requiredSectors = {
-							"H2",
+							"I5",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -91334,7 +91520,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H2",
+									"I5",
 								},
 							}),
 							PlaceObj('SectorIsInConflict', {
@@ -91423,7 +91609,7 @@ return {
 						ParamId = "TCE_PostErnieBanters",
 						QuestId = "ErnieSideQuests_WorldFlip",
 						requiredSectors = {
-							"H2",
+							"I5",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -91434,7 +91620,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H2",
+									"I5",
 								},
 							}),
 							PlaceObj('SectorIsInConflict', {
@@ -91507,7 +91693,7 @@ return {
 						ParamId = "TCE_PostErniePierre",
 						QuestId = "ErnieSideQuests_WorldFlip",
 						requiredSectors = {
-							"H2",
+							"I5",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -91694,7 +91880,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H2",
+									"I5",
 									"I7",
 								},
 							}),
@@ -91733,7 +91919,7 @@ return {
 						ParamId = "TCE_PierreRearm",
 						QuestId = "ErnieSideQuests_WorldFlip",
 						requiredSectors = {
-							"H2",
+							"I5",
 							"I7",
 						},
 					}),
@@ -92169,7 +92355,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "K9",
+								Sector = "N13",
 							}),
 						},
 						CompletionConditions = {
@@ -92384,7 +92570,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "K9",
+								Sector = "N13",
 							}),
 						},
 						HideConditions = {
@@ -92406,7 +92592,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "K9",
+								Sector = "N13",
 							}),
 						},
 						HideConditions = {
@@ -92457,7 +92643,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "CacaoGang",
-								Sector = "K9",
+								Sector = "N13",
 							}),
 						},
 						HideConditions = {
@@ -92480,15 +92666,15 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Bomb1",
-								Sector = "K9",
+								Sector = "N13",
 							}),
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Bomb2",
-								Sector = "K9",
+								Sector = "N13",
 							}),
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Bomb3",
-								Sector = "K9",
+								Sector = "N13",
 							}),
 						},
 						CompletionConditions = {
@@ -92517,7 +92703,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "K9",
+								Sector = "N13",
 							}),
 						},
 						CompletionConditions = {
@@ -92721,7 +92907,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"K9",
+									"N13",
 								},
 							}),
 							PlaceObj('CombatIsActive', {}),
@@ -92831,7 +93017,7 @@ return {
 						ParamId = "TCE_GangInCombat",
 						QuestId = "Docks",
 						requiredSectors = {
-							"K9",
+							"N13",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -92859,7 +93045,7 @@ return {
 						},
 						Effects = {
 							PlaceObj('SectorSpawnSquad', {
-								sector_id = "K9",
+								sector_id = "N13",
 								squad_def_id = "NNightSquad",
 							}),
 							PlaceObj('ConditionalEffect', {
@@ -92871,7 +93057,7 @@ return {
 								},
 								'EffectsElse', {
 									PlaceObj('SectorSpawnSquad', {
-										sector_id = "K9",
+										sector_id = "N13",
 										squad_def_id = "NNightSquadSappers",
 									}),
 								},
@@ -92879,7 +93065,7 @@ return {
 							PlaceObj('ConditionalEffect', {
 								'Conditions', {
 									PlaceObj('PlayerSquadPresentInSectors', {
-										Sector = "K9",
+										Sector = "N13",
 									}),
 								},
 								'EffectsElse', {
@@ -92891,7 +93077,7 @@ return {
 							}),
 							PlaceObj('SectorSetForceConflict', {
 								force = true,
-								sector_id = "K9",
+								sector_id = "N13",
 							}),
 							PlaceObj('QuestSetVariableBool', {
 								Prop = "N-NightCombat",
@@ -92910,7 +93096,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"K9",
+									"N13",
 								},
 							}),
 							PlaceObj('SatelliteGameplayRunning', {
@@ -92926,7 +93112,7 @@ return {
 						ParamId = "TCE_NNightAlertEnemies",
 						QuestId = "Docks",
 						requiredSectors = {
-							"K9",
+							"N13",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -92959,7 +93145,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"K9",
+									"N13",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -92971,7 +93157,7 @@ return {
 }),
 							}),
 							PlaceObj('PlayerSquadPresentInSectors', {
-								Sector = "K9",
+								Sector = "N13",
 							}),
 						},
 						Effects = {
@@ -93088,7 +93274,7 @@ return {
 							PlaceObj('SectorEnterConflict', {
 								disable_travel = true,
 								lock_conflict = true,
-								sector_id = "K9",
+								sector_id = "N13",
 							}),
 							PlaceObj('PlaySetpiece', {
 								setpiece = "DocksLost",
@@ -93144,7 +93330,7 @@ return {
 							}),
 							PlaceObj('SectorEnterConflict', {
 								conflict_mode = false,
-								sector_id = "K9",
+								sector_id = "N13",
 							}),
 							PlaceObj('CustomCodeEffect', {
 								custom_code = 'for _, unit in ipairs(Groups["CacaoGang"]) do  unit.cower_forbidden = false end',
@@ -93154,7 +93340,7 @@ return {
 						ParamId = "TCE_BombLogic",
 						QuestId = "Docks",
 						requiredSectors = {
-							"K9",
+							"N13",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -93225,7 +93411,7 @@ return {
 						ParamId = "TCE_BombDisarmLogic",
 						QuestId = "Docks",
 						requiredSectors = {
-							"K9",
+							"N13",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -93563,7 +93749,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"K9",
+									"N13",
 								},
 							}),
 							PlaceObj('UnitIsAroundOtherUnit', {
@@ -93598,14 +93784,14 @@ return {
 						ParamId = "TCE_BombsArmedBanterTrudy",
 						QuestId = "Docks",
 						requiredSectors = {
-							"K9",
+							"N13",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"K9",
+									"N13",
 								},
 							}),
 							PlaceObj('UnitIsAroundOtherUnit', {
@@ -93653,14 +93839,14 @@ return {
 						ParamId = "TCE_BombsArmedBanterGran",
 						QuestId = "Docks",
 						requiredSectors = {
-							"K9",
+							"N13",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"K9",
+									"N13",
 								},
 							}),
 							PlaceObj('UnitIsAroundOtherUnit', {
@@ -93695,14 +93881,14 @@ return {
 						ParamId = "TCE_BombsArmedBanterVinnie",
 						QuestId = "Docks",
 						requiredSectors = {
-							"K9",
+							"N13",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"K9",
+									"N13",
 								},
 							}),
 							PlaceObj('UnitIsAroundOtherUnit', {
@@ -93737,14 +93923,14 @@ return {
 						ParamId = "TCE_BombsArmedBanterWilma",
 						QuestId = "Docks",
 						requiredSectors = {
-							"K9",
+							"N13",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"K9",
+									"N13",
 								},
 							}),
 							PlaceObj('QuestIsVariableNum', {
@@ -93787,7 +93973,7 @@ return {
 						ParamId = "TCE_GangBehaviorAfterBombsDisarmed",
 						QuestId = "Docks",
 						requiredSectors = {
-							"K9",
+							"N13",
 						},
 					}),
 				},
@@ -93953,7 +94139,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "L9",
+								Sector = "O13",
 							}),
 						},
 						CompletionConditions = {
@@ -93980,7 +94166,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "L9",
+								Sector = "O13",
 							}),
 						},
 						CompletionConditions = {
@@ -94009,7 +94195,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "L9",
+								Sector = "O13",
 							}),
 						},
 						CompletionConditions = {
@@ -94030,7 +94216,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "L9",
+								Sector = "O13",
 							}),
 						},
 						CompletionConditions = {
@@ -94152,7 +94338,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "L9",
+								Sector = "O13",
 							}),
 						},
 						CompletionConditions = {
@@ -94182,7 +94368,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L9",
+									"O13",
 								},
 							}),
 							PlaceObj('CheckOR', {
@@ -94261,14 +94447,14 @@ return {
 						ParamId = "TCE_StartFight",
 						QuestId = "TheTrashFief",
 						requiredSectors = {
-							"L9",
+							"O13",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L9",
+									"O13",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -94303,7 +94489,7 @@ return {
 							}),
 							PlaceObj('SectorSetSide', {
 								disable_sticky = true,
-								sector_id = "L9",
+								sector_id = "O13",
 							}),
 							PlaceObj('GrantExperienceSector', {
 								Amount = "XPQuestReward_Medium",
@@ -94327,10 +94513,10 @@ return {
 									}),
 									PlaceObj('SetSectorAutoResolveDefenderBonus', {
 										autoResolveDefenderBonus = 1000,
-										sector_id = "L9",
+										sector_id = "O13",
 									}),
 									PlaceObj('SectorTrainMilitia', {
-										sector_id = "L9",
+										sector_id = "O13",
 									}),
 									PlaceObj('UnitGrantItem', {
 										Amount = 2,
@@ -94350,7 +94536,7 @@ return {
 										DisplayLog = true,
 										LootTableId = "JunkHarvest_All",
 										operation = "HarvestJunk",
-										sector_id = "L9",
+										sector_id = "O13",
 									}),
 									PlaceObj('UnitGrantItem', {
 										LootTableId = "JunkHarvest_All",
@@ -94364,7 +94550,7 @@ return {
 										ItemId = "MoneyBag",
 									}),
 									PlaceObj('SectorSetRAndROperation', {
-										sector_id = "L9",
+										sector_id = "O13",
 									}),
 								},
 							}),
@@ -94377,14 +94563,14 @@ return {
 						ParamId = "TCE_ResolveFight",
 						QuestId = "TheTrashFief",
 						requiredSectors = {
-							"L9",
+							"O13",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L9",
+									"O13",
 								},
 							}),
 							PlaceObj('GroupIsDead', {
@@ -94401,11 +94587,11 @@ return {
 							}),
 							PlaceObj('SectorRemoveCustomOperation', {
 								operation = "HarvestJunk",
-								sector_id = "L9",
+								sector_id = "O13",
 							}),
 							PlaceObj('SectorSetSide', {
 								disable_sticky = true,
-								sector_id = "L9",
+								sector_id = "O13",
 							}),
 							PlaceObj('GrantExperienceSector', {
 								Amount = "XPQuestReward_Medium",
@@ -94416,7 +94602,7 @@ return {
 						ParamId = "TCE_AllKilled",
 						QuestId = "TheTrashFief",
 						requiredSectors = {
-							"L9",
+							"O13",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -94469,10 +94655,10 @@ return {
 							}),
 							PlaceObj('SectorSetSide', {
 								disable_sticky = true,
-								sector_id = "L9",
+								sector_id = "O13",
 							}),
 							PlaceObj('SectorSetRAndROperation', {
-								sector_id = "L9",
+								sector_id = "O13",
 							}),
 							PlaceObj('QuestSetVariableBool', {
 								Prop = "Completed",
@@ -94502,7 +94688,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L9",
+									"O13",
 								},
 							}),
 						},
@@ -94519,29 +94705,29 @@ return {
 							}),
 							PlaceObj('SectorRemoveCustomOperation', {
 								operation = "HarvestJunk",
-								sector_id = "L9",
+								sector_id = "O13",
 							}),
 							PlaceObj('SectorSetRepairShopOperation', {
 								enable = false,
-								sector_id = "L9",
+								sector_id = "O13",
 							}),
 							PlaceObj('SectorSetRAndROperation', {
 								enable = false,
-								sector_id = "L9",
+								sector_id = "O13",
 							}),
 						},
 						Once = true,
 						ParamId = "TCE_LegionResolution",
 						QuestId = "TheTrashFief",
 						requiredSectors = {
-							"L9",
+							"O13",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L9",
+									"O13",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -94559,14 +94745,14 @@ return {
 							}),
 							PlaceObj('SectorEnterConflict', {
 								conflict_mode = false,
-								sector_id = "L9",
+								sector_id = "O13",
 							}),
 						},
 						Once = true,
 						ParamId = "TCE_LegionResolution_End",
 						QuestId = "TheTrashFief",
 						requiredSectors = {
-							"L9",
+							"O13",
 						},
 					}),
 				},
@@ -94653,7 +94839,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Emma",
-								Sector = "L8",
+								Sector = "N12",
 							}),
 						},
 						HideConditions = {
@@ -94670,7 +94856,7 @@ return {
 									}),
 									PlaceObj('PlayerIsInSectors', {
 										Sectors = {
-											"L8",
+											"N12",
 										},
 									}),
 								},
@@ -94704,13 +94890,13 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Emma",
-								Sector = "L8",
+								Sector = "N12",
 							}),
 						},
 						CompletionConditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L8",
+									"N12",
 								},
 							}),
 						},
@@ -94727,7 +94913,7 @@ return {
 								Conditions = {
 									PlaceObj('PlayerIsInSectors', {
 										Sectors = {
-											"L8",
+											"N12",
 										},
 									}),
 									PlaceObj('QuestIsVariableBool', {
@@ -94743,7 +94929,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Emma",
-								Sector = "L8",
+								Sector = "N12",
 							}),
 						},
 						CompletionConditions = {
@@ -94764,7 +94950,7 @@ return {
 						ShowConditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L8",
+									"N12",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -94781,14 +94967,14 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Emma",
-								Sector = "L8",
+								Sector = "N12",
 							}),
 						},
 						CompletionConditions = {
 							PlaceObj('CombatIsActive', {}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L8",
+									"N12",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -94810,7 +94996,7 @@ return {
 						ShowConditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L8",
+									"N12",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -94827,7 +95013,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Emma",
-								Sector = "L8",
+								Sector = "N12",
 							}),
 						},
 						CompletionConditions = {
@@ -95016,7 +95202,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Emma",
-								Sector = "L8",
+								Sector = "N12",
 							}),
 						},
 						HideConditions = {
@@ -95046,7 +95232,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Emma",
-								Sector = "L8",
+								Sector = "N12",
 							}),
 						},
 						HideConditions = {
@@ -95086,7 +95272,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Gouvernour",
-								Sector = "L8",
+								Sector = "N12",
 							}),
 						},
 						CompletionConditions = {
@@ -95301,7 +95487,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L8",
+									"N12",
 								},
 							}),
 							PlaceObj('GroupIsDead', {
@@ -95314,7 +95500,7 @@ return {
 						Effects = {
 							PlaceObj('SectorEnterConflict', {
 								conflict_mode = false,
-								sector_id = "L8",
+								sector_id = "N12",
 							}),
 							PlaceObj('QuestSetVariableBool', {
 								Prop = "LiberatedPortCacao",
@@ -95325,7 +95511,7 @@ return {
 						ParamId = "TCE_LiberatedPortCacao",
 						QuestId = "PortCacaoSideQuests",
 						requiredSectors = {
-							"L8",
+							"N12",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -95339,7 +95525,7 @@ return {
 							}),
 							PlaceObj('SectorCheckOwner', {
 								owner = "any enemy",
-								sector_id = "L8",
+								sector_id = "N12",
 							}),
 						},
 						Effects = {
@@ -95452,8 +95638,8 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L8",
-									"I1",
+									"N12",
+									"K4",
 								},
 							}),
 							PlaceObj('UnitIsAroundOtherUnit', {
@@ -95472,15 +95658,15 @@ return {
 						ParamId = "TCE_EmmaReached",
 						QuestId = "PortCacaoSideQuests",
 						requiredSectors = {
-							"L8",
-							"I1",
+							"N12",
+							"K4",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L8",
+									"N12",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -95516,14 +95702,14 @@ return {
 						ParamId = "TCE_L8_WaveTrigger",
 						QuestId = "PortCacaoSideQuests",
 						requiredSectors = {
-							"L8",
+							"N12",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L8",
+									"N12",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -95546,14 +95732,14 @@ return {
 						ParamId = "TCE_AlertEnemySquad",
 						QuestId = "PortCacaoSideQuests",
 						requiredSectors = {
-							"L8",
+							"N12",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L8",
+									"N12",
 								},
 							}),
 							PlaceObj('UnitIsAroundMarkerOfGroup', {
@@ -95655,7 +95841,7 @@ return {
 						ParamId = "TCE_Assign_Waves_Initial",
 						QuestId = "PortCacaoSideQuests",
 						requiredSectors = {
-							"L8",
+							"N12",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -95675,7 +95861,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L8",
+									"N12",
 								},
 							}),
 						},
@@ -95703,14 +95889,14 @@ return {
 						ParamId = "TCE_FlankEast_Start",
 						QuestId = "PortCacaoSideQuests",
 						requiredSectors = {
-							"L8",
+							"N12",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L8",
+									"N12",
 								},
 							}),
 							PlaceObj('CheckAND', {
@@ -95751,7 +95937,7 @@ return {
 						ParamId = "TCE_FlankWest_Start",
 						QuestId = "PortCacaoSideQuests",
 						requiredSectors = {
-							"L8",
+							"N12",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -95774,7 +95960,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L8",
+									"N12",
 								},
 							}),
 							PlaceObj('CheckAND', {
@@ -95836,14 +96022,14 @@ return {
 						ParamId = "TCE_Flank_Backdoor",
 						QuestId = "PortCacaoSideQuests",
 						requiredSectors = {
-							"L8",
+							"N12",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L8",
+									"N12",
 								},
 							}),
 							PlaceObj('CheckAND', {
@@ -95881,7 +96067,7 @@ return {
 						ParamId = "TCE_Flank_Backdoor_Free",
 						QuestId = "PortCacaoSideQuests",
 						requiredSectors = {
-							"L8",
+							"N12",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -96048,7 +96234,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "LegionImpostors",
-								Sector = "K10",
+								Sector = "O16",
 							}),
 						},
 						CompletionConditions = {
@@ -96070,7 +96256,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Fournier",
-								Sector = "K10",
+								Sector = "O16",
 							}),
 						},
 						CompletionConditions = {
@@ -96096,7 +96282,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "LegionImpostors",
-								Sector = "K10",
+								Sector = "O16",
 							}),
 						},
 						CompletionConditions = {
@@ -96135,7 +96321,7 @@ return {
 						AddInHistory = true,
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "K10",
+								Sector = "O16",
 							}),
 						},
 						CompletionConditions = {
@@ -96207,7 +96393,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"K10",
+									"O16",
 								},
 							}),
 							PlaceObj('CheckOR', {
@@ -96244,14 +96430,14 @@ return {
 							}),
 							PlaceObj('SectorEnterConflict', {
 								disable_travel = true,
-								sector_id = "K10",
+								sector_id = "O16",
 							}),
 						},
 						Once = true,
 						ParamId = "TCE_ImpostorsFight",
 						QuestId = "OldDiamond",
 						requiredSectors = {
-							"K10",
+							"O16",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -96268,7 +96454,7 @@ return {
 							PlaceObj('SectorEnterConflict', {
 								conflict_mode = false,
 								disable_travel = true,
-								sector_id = "K10",
+								sector_id = "O16",
 							}),
 						},
 						Once = true,
@@ -96300,7 +96486,7 @@ return {
 							PlaceObj('SectorEnterConflict', {
 								conflict_mode = false,
 								disable_travel = true,
-								sector_id = "K10",
+								sector_id = "O16",
 							}),
 							PlaceObj('QuestSetVariableBool', {
 								Prop = "Completed",
@@ -96369,7 +96555,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "HeadshotHue",
-								Sector = "K9",
+								Sector = "N13",
 							}),
 						},
 						HideConditions = {
@@ -96385,13 +96571,13 @@ return {
 								Vars = set( "Given" ),
 							}),
 						},
-						Text = T(424240938925, --[[ModItemQuestsDef AyeMom Text]] "<em>Headshot Hue</em> at the <em><SectorName('K9')></em> needs a <em>red wig</em> to play a prank on the bartender <em>Lurch</em>"),
+						Text = T(424240938925, --[[ModItemQuestsDef AyeMom Text]] "<em>Headshot Hue</em> at the <em><SectorName('N13')></em> needs a <em>red wig</em> to play a prank on the bartender <em>Lurch</em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "HeadshotHue",
-								Sector = "K9",
+								Sector = "N13",
 							}),
 						},
 						HideConditions = {
@@ -96408,13 +96594,13 @@ return {
 								Vars = set( "Given", "WigFound" ),
 							}),
 						},
-						Text = T(592779994694, --[[ModItemQuestsDef AyeMom Text]] "<em>Headshot Hue</em> at the <em><SectorName('K9')></em> needs the <em>wig</em> to dress like Lurch's mom in order to convince him to give up the <em>shotgun</em>"),
+						Text = T(592779994694, --[[ModItemQuestsDef AyeMom Text]] "<em>Headshot Hue</em> at the <em><SectorName('N13')></em> needs the <em>wig</em> to dress like Lurch's mom in order to convince him to give up the <em>shotgun</em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "HeadshotHue",
-								Sector = "K9",
+								Sector = "N13",
 							}),
 						},
 						CompletionConditions = {
@@ -96446,10 +96632,10 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "L8",
+								Sector = "N12",
 							}),
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "L9",
+								Sector = "O13",
 							}),
 						},
 						CompletionConditions = {
@@ -96478,7 +96664,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "HeadshotHue",
-								Sector = "K9",
+								Sector = "N13",
 							}),
 						},
 						HideConditions = {
@@ -96495,13 +96681,13 @@ return {
 								Vars = set( "HeadshotHueStartSetPiece" ),
 							}),
 						},
-						Text = T(435695865334, --[[ModItemQuestsDef AyeMom Text]] "<em>Ma Baxter's Shotgun</em> is in the hands of <em>Headshot Hue</em> at the <em><SectorName('K9')></em>"),
+						Text = T(435695865334, --[[ModItemQuestsDef AyeMom Text]] "<em>Ma Baxter's Shotgun</em> is in the hands of <em>Headshot Hue</em> at the <em><SectorName('N13')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Granny",
-								Sector = "K9",
+								Sector = "N13",
 							}),
 						},
 						HideConditions = {
@@ -96526,7 +96712,7 @@ return {
 								Vars = set( "ShotgunShownGran" ),
 							}),
 						},
-						Text = T(922856971797, --[[ModItemQuestsDef AyeMom Text]] "<em>Granny Cohani</em> at the <em><SectorName('K9')></em> is ready to give an arm and a leg for <em>Ma Baxter's Shotgun</em>"),
+						Text = T(922856971797, --[[ModItemQuestsDef AyeMom Text]] "<em>Granny Cohani</em> at the <em><SectorName('N13')></em> is ready to give an arm and a leg for <em>Ma Baxter's Shotgun</em>"),
 					}),
 					PlaceObj('QuestNote', {
 						AddInHistory = true,
@@ -96651,7 +96837,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"K9",
+									"N13",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -96681,14 +96867,14 @@ return {
 						ParamId = "TCE_SetPieceStart",
 						QuestId = "AyeMom",
 						requiredSectors = {
-							"K9",
+							"N13",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"K9",
+									"N13",
 								},
 							}),
 							PlaceObj('UnitSquadHasItem', {
@@ -96705,14 +96891,14 @@ return {
 						ParamId = "TCE_GunTaken",
 						QuestId = "AyeMom",
 						requiredSectors = {
-							"K9",
+							"N13",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"K9",
+									"N13",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -96745,7 +96931,7 @@ return {
 						ParamId = "TCE_Completed",
 						QuestId = "AyeMom",
 						requiredSectors = {
-							"K9",
+							"N13",
 						},
 					}),
 				},
@@ -97297,7 +97483,7 @@ return {
 							}),
 							PlaceObj('SectorSetRAndROperation', {
 								enable = false,
-								sector_id = "K9",
+								sector_id = "N13",
 							}),
 						},
 						Once = true,
@@ -97542,7 +97728,7 @@ return {
 										Conditions = {
 											PlaceObj('PlayerIsInSectors', {
 												Sectors = {
-													"I1",
+													"K4",
 												},
 											}),
 											PlaceObj('PlayerIsInSectors', {
@@ -97637,11 +97823,11 @@ return {
 						Effects = {
 							PlaceObj('SectorRemoveCustomOperation', {
 								operation = "AbandonedBeach_EnablePort",
-								sector_id = "F5",
+								sector_id = "G9",
 							}),
 							PlaceObj('SectorSetPort', {
 								enable = false,
-								sector_id = "F5",
+								sector_id = "G9",
 							}),
 							PlaceObj('QuestSetVariableBool', {
 								Prop = "Failed",
@@ -98187,7 +98373,7 @@ return {
 									}),
 									PlaceObj('SectorModifyMineProperties', {
 										DailyIncome = 95,
-										sector_id = "K10",
+										sector_id = "O16",
 									}),
 									PlaceObj('SectorModifyMineProperties', {
 										DailyIncome = 95,
@@ -98541,7 +98727,7 @@ return {
 							}),
 							PlaceObj('SectorModifyMineProperties', {
 								DailyIncome = 95,
-								sector_id = "K10",
+								sector_id = "O16",
 							}),
 						},
 						Once = true,
@@ -98596,7 +98782,7 @@ return {
 							}),
 							PlaceObj('SectorRemoveCustomOperation', {
 								operation = "HarvestJunk",
-								sector_id = "L9",
+								sector_id = "O13",
 							}),
 						},
 						Once = true,
@@ -98637,7 +98823,7 @@ return {
 								'Effects', {
 									PlaceObj('SetSectorAutoResolveDefenderBonus', {
 										autoResolveDefenderBonus = -1000,
-										sector_id = "L9",
+										sector_id = "O13",
 									}),
 								},
 							}),
@@ -99171,7 +99357,7 @@ return {
 									}),
 									PlaceObj('SectorRemoveCustomOperation', {
 										operation = "CraftKompositum",
-										sector_id = "K11_Underground",
+										sector_id = "O26_Underground",
 									}),
 								},
 							}),
@@ -99862,16 +100048,16 @@ return {
 					PlaceObj('QuestEffectOnStatus', {
 						Effects = {
 							PlaceObj('SectorGrantIntel', {
-								sector_id = "I1",
+								sector_id = "K4",
 							}),
 							PlaceObj('SectorGrantIntel', {
-								sector_id = "I1",
+								sector_id = "K4",
 							}),
 							PlaceObj('SectorGrantIntel', {
-								sector_id = "H2",
+								sector_id = "I5",
 							}),
 							PlaceObj('SectorGrantIntel', {
-								sector_id = "H2",
+								sector_id = "I5",
 							}),
 						},
 						Prop = "Given",
@@ -100051,7 +100237,7 @@ return {
 										sector_id = "G10",
 									}),
 									PlaceObj('SectorCheckOwner', {
-										sector_id = "J8",
+										sector_id = "N12",
 									}),
 									PlaceObj('SectorCheckOwner', {
 										sector_id = "H9",
@@ -100089,7 +100275,7 @@ return {
 							PlaceObj('CheckAND', {
 								Conditions = {
 									PlaceObj('SectorCheckOwner', {
-										sector_id = "H2",
+										sector_id = "I5",
 									}),
 									PlaceObj('SectorCheckOwner', {
 										sector_id = "I7",

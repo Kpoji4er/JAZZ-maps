@@ -1721,24 +1721,25 @@ PlaceObj('WaypointMarker', {
 	},
 }, nil, 1401528470)
 PlaceObj('ExitZoneInteractable', {
-	'Pos', point(110875, 181640),
-	'Groups', {
-		"North",
-	},
-	'AllowedMask', 4294966497,
-	'entity', "TravelMarker_06",
-}, nil, 1844225105)
-PlaceObj('GridMarker', {
-	'Pos', point(112200, 184200),
+	'Pos', point(103906, 190143, 6857),
 	'Angle', 16200,
 	'Groups', {
-		"North",
+		"West",
+	},
+	'AllowedMask', 4294966497,
+	'entity', "TravelMarker_08",
+}, nil, 1546831878)
+PlaceObj('GridMarker', {
+	'Pos', point(105000, 189000, 7000),
+	'Angle', 10800,
+	'Groups', {
+		"West",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Entrance",
-	'AreaWidth', 5,
-	'AreaHeight', 5,
-}, nil, 1080932898)
+	'AreaWidth', 7,
+	'AreaHeight', 7,
+}, nil, 1223207346)
 PlaceObj('WaypointMarker', {
 	'Pos', point(124200, 181800),
 	'Groups', {
@@ -2473,26 +2474,6 @@ PlaceObj('ExamineMarker', {
 	},
 	'MultiSelectBehavior', "nearest",
 }, nil, 1118645816)
-PlaceObj('GridMarker', {
-	'Pos', point(160200, 154200),
-	'Angle', 10800,
-	'Groups', {
-		"West",
-	},
-	'AllowedMask', 4294966497,
-	'Type', "Entrance",
-	'AreaWidth', 5,
-	'AreaHeight', 15,
-}, nil, 1550515856)
-PlaceObj('ExitZoneInteractable', {
-	'Pos', point(161282, 154319),
-	'Angle', 16200,
-	'Groups', {
-		"West",
-	},
-	'AllowedMask', 4294966497,
-	'entity', "TravelMarker_08",
-}, nil, 1606377117)
 PlaceObj('ContainerMarker', {
 	'Pos', point(141000, 166200),
 	'Angle', 5400,
@@ -34628,7 +34609,7 @@ p("TropicalPlant_04_Shrub_01",25970,112982,4496,101,1032,-1038,3826,3264,2097236
 p("TropicalPlant_04_Sapling_03",26566,112686,19920,102,-3959,298,1006,3200,2097236)
 p("TropicalPlant_04_Sapling_03",27012,110648,11520,118,-35,-533,4061,3200,2097236)
 p("TropicalPlant_04_Shrub_01",27096,112336,15004,122,-739,-804,3948,3264,2097236)
-p("TropicalRockSharp_01",28029,112260,6452,12060,200,-117,343,4079,3200,2097237)
+p("TropicalRockSharp_01",28029,112260,6452,12060,200,-117,343,4079,1152,2097237)
 p("TropicalPlant_04_Shrub_01",27259,113885,2341,113,3201,-1470,2091,3264,2097236)
 p("TropicalPlant_04_Sapling_03",28137,112653,17700,109,-1884,-686,3571,3200,2097236)
 p("TropicalPlant_04_Sapling_03",29630,107401,18480,110,-181,-36,4092,3200,2097236)
