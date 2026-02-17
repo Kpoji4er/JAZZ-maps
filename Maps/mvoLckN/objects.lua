@@ -912,7 +912,7 @@ PlaceObj('IntelMarker', {
 		}),
 	},
 	'IntelAreaRadius', 15,
-	'IntelAreaText', T(361955255434, "Danger! Explosions!"),
+	'IntelAreaText', T(361955255434, "Опасно! Взрывы!"),
 }, nil, 1420772104)
 PlaceObj('UnitMarker', {
 	'Pos', point(118200, 106200, 9100),
@@ -933,7 +933,7 @@ PlaceObj('ContainerMarker', {
 	'AllowedMask', 4294966497,
 	'Name', "Container",
 	'range_in_tiles', 1,
-	'DisplayName', T(710145438390, "CONTAINER"),
+	'DisplayName', T(710145438390, "КОНТЕЙНЕР"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
 			'LootTableId', "Revolvers_ColtM1917",
@@ -974,7 +974,6 @@ PlaceObj('GridMarker', {
 		PlaceObj('Explosion', {
 			AreaOfEffect = 4,
 			Damage = 10,
-			ExplosionType = "FragGrenade",
 			LocationGroup = "Deedee_Explosion",
 		}),
 	},
@@ -1055,7 +1054,7 @@ PlaceObj('IntelMarker', {
 		}),
 	},
 	'IntelAreaRadius', 8,
-	'IntelAreaText', T(346511806336, "Sentries"),
+	'IntelAreaText', T(346511806336, "Караульные"),
 }, nil, 1833493899)
 PlaceObj('TrapSpawnMarker', {
 	'Pos', point(108600, 135000),
@@ -1430,7 +1429,7 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 	'Appearance', "LegionGoon_alt",
-	'InteractionName', T(426679404084, "Talk with <target.DisplayName>"),
+	'InteractionName', T(426679404084, "<target.DisplayName>: поговорить"),
 	'InteractionEffects', {
 		PlaceObj('UnitStartConversation', {
 			Conversation = "Herman_1",
@@ -1460,7 +1459,7 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 	'Appearance', "LegionRaider_alt",
-	'InteractionName', T(426679404084, "Talk with <target.DisplayName>"),
+	'InteractionName', T(426679404084, "<target.DisplayName>: поговорить"),
 	'InteractionEffects', {
 		PlaceObj('UnitStartConversation', {
 			Conversation = "Herman_1",
@@ -1536,7 +1535,7 @@ PlaceObj('UnitMarker', {
 	},
 	'Appearance', "LegionRaider_alt_2",
 	'ApproachRadius', 25,
-	'InteractionName', T(426679404084, "Talk with <target.DisplayName>"),
+	'InteractionName', T(426679404084, "<target.DisplayName>: поговорить"),
 	'InteractionEffects', {
 		PlaceObj('UnitStartConversation', {
 			Conversation = "Herman_1",
@@ -1568,7 +1567,7 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 	'Appearance', "LegionRaider",
-	'InteractionName', T(426679404084, "Talk with <target.DisplayName>"),
+	'InteractionName', T(426679404084, "<target.DisplayName>: поговорить"),
 	'InteractionEffects', {
 		PlaceObj('UnitStartConversation', {
 			Conversation = "Herman_1",
@@ -1621,7 +1620,7 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 	'Appearance', "LegionGoon_alt_2",
-	'InteractionName', T(426679404084, "Talk with <target.DisplayName>"),
+	'InteractionName', T(426679404084, "<target.DisplayName>: поговорить"),
 	'InteractionEffects', {
 		PlaceObj('UnitStartConversation', {
 			Conversation = "Herman_1",
@@ -1650,7 +1649,7 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 	'Appearance', "Legion_Recon",
-	'InteractionName', T(426679404084, "Talk with <target.DisplayName>"),
+	'InteractionName', T(426679404084, "<target.DisplayName>: поговорить"),
 	'InteractionEffects', {
 		PlaceObj('UnitStartConversation', {
 			Conversation = "Herman_1",
@@ -2079,7 +2078,7 @@ PlaceObj('IntelMarker', {
 		}),
 	},
 	'IntelAreaRadius', 20,
-	'IntelAreaText', T(424176951286, "Heavily-Patrolled Minefield"),
+	'IntelAreaText', T(424176951286, "Сплошь патрулируемое минное поле"),
 }, nil, 1047034999)
 PlaceObj('CustomInteractable', {
 	'Pos', point(132600, 150600),
@@ -2088,7 +2087,7 @@ PlaceObj('CustomInteractable', {
 	},
 	'CollectionIndex', 727,
 	'AllowedMask', 4294966497,
-	'DisplayName', T(832730558030, "Disarm Mine"),
+	'DisplayName', T(832730558030, "Обезвредить мину"),
 	'ID', "MineDisarm",
 	'SequentialTriggerEffects', false,
 	'EnabledConditions', {
@@ -2249,7 +2248,7 @@ PlaceObj('IntelMarker', {
 		}),
 	},
 	'IntelAreaRadius', 15,
-	'IntelAreaText', T(544078268082, "Minefield"),
+	'IntelAreaText', T(544078268082, "Минное поле"),
 }, nil, 1644322125)
 PlaceObj('TrapSpawnMarker', {
 	'Pos', point(136200, 154200),
@@ -2406,7 +2405,7 @@ PlaceObj('ContainerMarker', {
 	'CollectionIndex', 522,
 	'AllowedMask', 4294966497,
 	'Name', "Container",
-	'DisplayName', T(710145438390, "CONTAINER"),
+	'DisplayName', T(710145438390, "КОНТЕЙНЕР"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
 			'LootTableId', "EmeraldCoast_Minefield_Chest",
@@ -2435,7 +2434,7 @@ PlaceObj('CustomInteractable', {
 	'Pos', point(151800, 148200),
 	'CollectionIndex', 969,
 	'AllowedMask', 4294966497,
-	'DisplayName', T(701471800291, "Examine"),
+	'DisplayName', T(701471800291, "Осмотреть"),
 	'ID', "DeadBody",
 	'ConditionalEffects', {
 		PlaceObj('ConditionalEffect', {
@@ -2499,7 +2498,7 @@ PlaceObj('ContainerMarker', {
 	'CollectionIndex', 3725,
 	'AllowedMask', 4294966497,
 	'Name', "Container",
-	'DisplayName', T(710145438390, "CONTAINER"),
+	'DisplayName', T(710145438390, "КОНТЕЙНЕР"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
 			'LootTableId', "9x19_pistol_ammo",
@@ -2553,7 +2552,7 @@ PlaceObj('IntelMarker', {
 }),
 		}),
 	},
-	'IntelAreaText', T(322704009963, "Car Crash"),
+	'IntelAreaText', T(322704009963, "Место автомобильной аварии"),
 }, nil, 1685731397)
 PlaceObj('GridMarker', {
 	'Pos', point(144600, 190200),
@@ -2584,7 +2583,7 @@ PlaceObj('IntelMarker', {
 		}),
 	},
 	'IntelAreaRadius', 12,
-	'IntelAreaText', T(840989932899, "Patrolled Road"),
+	'IntelAreaText', T(840989932899, "Патрулируемая дорога"),
 }, nil, 1392692040)
 PlaceObj('TrapSpawnMarker', {
 	'Pos', point(154200, 177000),
@@ -2641,7 +2640,7 @@ PlaceObj('CustomInteractable', {
 	'Pos', point(148200, 186600),
 	'CollectionIndex', 3053,
 	'AllowedMask', 4294966497,
-	'DisplayName', T(204348077924, "Examine bloodstained note"),
+	'DisplayName', T(204348077924, "Осмотреть окровавленную записку"),
 	'ID', "CarCrash",
 	'SequentialTriggerEffects', false,
 	'EnabledConditions', {
