@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4923,
+	'version', 4939,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
@@ -22,7 +22,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1771394969,
+	'saved', 1771446347,
 	'code_hash', 8311704044312267199,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
@@ -577,6 +577,11 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_H17",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_H16_Underground",
 			'ClassDisplayName', "Satellite sector",
 		}),
@@ -922,6 +927,11 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_K13",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_K7",
 			'ClassDisplayName', "Satellite sector",
 		}),
@@ -992,12 +1002,7 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
-			'Id', "HotDiamonds_L14",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
-			'Id', "HotDiamonds_L12",
+			'Id', "HotDiamonds_L13",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
