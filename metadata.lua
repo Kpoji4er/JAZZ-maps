@@ -7,11 +7,12 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4907,
+	'version', 4920,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
 		"Code/Rebels_Loyalty.lua",
+		"MapPatches/SetPieces/NewSetpiece_JXrwUUA/EncounterHerman.lua",
 		"UnitData/JAZZ_Ernie_Locals_M2_SaveMyFamily_Man.lua",
 		"UnitData/JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman.lua",
 		"InventoryItem/Jazz_Browning_MuchineGun.lua",
@@ -21,8 +22,8 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1771366393,
-	'code_hash', 5543934372368836560,
+	'saved', 1771347358,
+	'code_hash', -8471274472744983181,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
@@ -1295,6 +1296,56 @@ return PlaceObj('ModDef', {
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_B1",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_H5",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_H6",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_H7",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_H8",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_H9",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_G5",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_G6",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_G7",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_G8",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
 			'Class', "XTemplate",
 			'Id', "SatelliteConflictSquadsAndEnemies",
 			'ClassDisplayName', "UI Template (XTemplate)",
@@ -1316,12 +1367,17 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "Conversation",
-			'Id', "FlagHill_Emma",
+			'Id', "Pierre_1",
 			'ClassDisplayName', "Conversation",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "Conversation",
-			'Id', "FlagHill_Corazon",
+			'Id', "Pierre_2",
+			'ClassDisplayName', "Conversation",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "Conversation",
+			'Id', "Pierre_Defeated",
 			'ClassDisplayName', "Conversation",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -1331,22 +1387,62 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "Conversation",
-			'Id', "Witch_1",
+			'Id', "Jose_2",
 			'ClassDisplayName', "Conversation",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "Conversation",
-			'Id', "Monday_1",
+			'Id', "FlagHill_Emma_1",
 			'ClassDisplayName', "Conversation",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "Conversation",
-			'Id', "DrLEnfer_2",
+			'Id', "FlagHill_Corazon_1",
 			'ClassDisplayName', "Conversation",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "Conversation",
-			'Id', "DrLEnfer_1",
+			'Id', "Corazon_Defeated",
+			'ClassDisplayName', "Conversation",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "SetpiecePrg",
+			'Id', "EncounterHerman",
+			'ClassDisplayName', "Setpiece",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "Conversation",
+			'Id', "Herman_1",
+			'ClassDisplayName', "Conversation",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "Conversation",
+			'Id', "Herman_2",
+			'ClassDisplayName', "Conversation",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "Conversation",
+			'Id', "Ernie_Luc",
+			'ClassDisplayName', "Conversation",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "Conversation",
+			'Id', "Deedee",
+			'ClassDisplayName', "Conversation",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "Conversation",
+			'Id', "Martha_1",
+			'ClassDisplayName', "Conversation",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "Conversation",
+			'Id', "GreasyBasil_1",
+			'ClassDisplayName', "Conversation",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "Conversation",
+			'Id', "GreasyBasil_2",
 			'ClassDisplayName', "Conversation",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -2093,6 +2189,171 @@ return PlaceObj('ModDef', {
 			'Class', "Camera",
 			'Id', "Camera_3_copy",
 			'ClassDisplayName', "Camera",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Herman_03_Lynch",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Herman_04_PostLynch_Luc",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Herman_04_PostLynch_NoOne",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Martha_01_Lynch",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Martha_01_Lynch2",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Martha_02_PostLynch_Herman",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Martha_02_PostLynch_Luc",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Martha_02_PostLynch_NoOne",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_VillagerFemale_12",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_VillagerFemale_13",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_VillagerFemale_14",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_VillagerMale_05",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_VillagerMale_17",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_VillagerMale_18",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_VillagerMale_19",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_Pierre_06",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_Pierre_07",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_Billy_07",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_Billy_08",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_Billy_09",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_Billy_10",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_Basil_01_approach",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_Basil_04",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_Basil_05",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Shared_Conversation_Civilians_19_Ernie",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Shared_Conversation_Legion_13_Outlook",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Shared_Conversation_Legion_07_Ernie",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "StealthTutorialNPC_01",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "StealthTutorialNPC_Approach",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "GuardpostObjective",
+			'Id', "Bunker",
+			'ClassDisplayName', "GuardpostObjectives",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "GuardpostObjective",
+			'Id', "EmeraldCoast",
+			'ClassDisplayName', "GuardpostObjectives",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "GuardpostObjective",
+			'Id', "H4_copy",
+			'ClassDisplayName', "GuardpostObjectives",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "GuardpostObjective",
+			'Id', "Bastien",
+			'ClassDisplayName', "GuardpostObjectives",
 		}),
 	},
 	'steam_id', "3322285655",
