@@ -2142,7 +2142,7 @@ return {
 						"D8",
 						"E9",
 						"C5",
-						"I10",
+						"K15",
 						"A2",
 						"D6",
 						"D10",
@@ -2255,6 +2255,9 @@ return {
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	South = false,
+}),
 					'image', "UI/SatelliteView/SectorImages/C03",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Savanna_Conflict",
@@ -3006,6 +3009,9 @@ return {
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	West = false,
+}),
 					'image', "UI/SatelliteView/SectorImages/D05",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Savanna_Conflict",
@@ -3033,6 +3039,7 @@ return {
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set( "West" ),
 					'image', "UI/SatelliteView/SectorImages/I07",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Savanna_Conflict",
@@ -3278,10 +3285,10 @@ return {
 						"D18",
 						"F19",
 						"F13",
-						"H14",
+						"P17",
 						"I18",
 						"I19",
-						"H8",
+						"H18",
 					},
 					'ExtraDefenderSquads', {
 						"LegionExtraDefenders_Ordnance_Easy",
@@ -4057,9 +4064,9 @@ return {
 				'comment', "Шахта Мфуму",
 				'mapName', "gULjNxW",
 				'campaignId', "HotDiamonds",
-				'sectorId', "H14",
+				'sectorId', "P17",
 				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "H14",
+					'Id', "P17",
 					'Map', "gULjNxW",
 					'MapTier', 10,
 					'Label1', "Mine",
@@ -6020,12 +6027,14 @@ return {
 					'Roads', set({
 	East = false,
 	North = false,
+	South = false,
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
 						East = true,
-						North = true,
+						North = false,
+						South = false,
 						West = false,
 					},
 					'image', "UI/SatelliteView/SectorImages/I03",
@@ -6105,12 +6114,14 @@ return {
 					'MaxFlareCarriers', 11,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
+	East = false,
 	North = false,
 	South = false,
 	West = true,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
+	East = false,
 	North = true,
 	South = false,
 	West = false,
@@ -6468,7 +6479,7 @@ return {
 					'TargetSectors', {
 						"D18",
 						"I18",
-						"H14",
+						"P17",
 						"I19",
 						"L18",
 						"O16",
@@ -6637,6 +6648,24 @@ return {
 					'image', "UI/SatelliteView/SectorImages/I10",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Jungle_Conflict",
+				}),
+			}),
+			PlaceObj('ModItemSector', {
+				'mapName', "XgdUCn7",
+				'campaignId', "HotDiamonds",
+				'sectorId', "K7",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "K7",
+					'Map', "XgdUCn7",
+					'modId', "FhNNYd",
+					'bidirectionalRoadApply', true,
+					'Roads', set({
+	East = true,
+	North = false,
+	South = false,
+	West = false,
+}),
+					'bidirectionalBlockApply', true,
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -7038,9 +7067,9 @@ return {
 						"J13",
 						"J14",
 						"F13",
-						"I10",
+						"K15",
 						"A2",
-						"H14",
+						"P17",
 						"O16",
 					},
 					'ExtraDefenderSquads', {
@@ -7166,6 +7195,7 @@ return {
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
+	East = true,
 	North = false,
 	South = false,
 	West = false,
@@ -7503,6 +7533,7 @@ return {
 					'Roads', {
 						East = false,
 						North = false,
+						South = false,
 						West = true,
 					},
 					'bidirectionalBlockApply', true,
@@ -7535,14 +7566,14 @@ return {
 						East = true,
 						North = false,
 						South = false,
-						West = true,
+						West = false,
 					},
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
 	North = false,
 	South = false,
-	West = false,
+	West = true,
 }),
 					'image', "UI/SatelliteView/SectorImages/K12",
 					'MusicCombat', "Battle_Normal",
@@ -7553,9 +7584,9 @@ return {
 				'comment', "Пляж с ДиДи бомбой",
 				'mapName', "mvoLckN",
 				'campaignId', "HotDiamonds",
-				'sectorId', "M7",
+				'sectorId', "J7",
 				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "M7",
+					'Id', "J7",
 					'Map', "mvoLckN",
 					'MapTier', 40,
 					'Label1', "Ernie",
@@ -7571,13 +7602,14 @@ return {
 					'Roads', set({
 	East = false,
 	North = false,
+	South = false,
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
 						East = false,
 						North = false,
-						South = true,
+						South = false,
 						West = false,
 					},
 					'image', "UI/SatelliteView/SectorImages/I03",
@@ -7621,7 +7653,7 @@ return {
 						PlaceObj('SE_OnEnterMap', {
 							'Conditions', {
 								PlaceObj('SectorHasIntel', {
-									sector_id = "M7",
+									sector_id = "J7",
 								}),
 							},
 							'Effects', {
@@ -8105,6 +8137,7 @@ return {
 						East = false,
 						North = true,
 						South = false,
+						West = false,
 					},
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
@@ -9370,275 +9403,6 @@ return {
 					'MusicConflict', "Underground_Conflict",
 					'MusicExploration', "Underground_Exploration",
 					'combatTaskGenerate', "afterFirstConflict",
-				}),
-			}),
-			}),
-		PlaceObj('ModItemFolder', {
-			'name', "WaterSectors",
-		}, {
-			PlaceObj('ModItemSector', {
-				'comment', "Море",
-				'mapName', "false",
-				'campaignId', "HotDiamonds",
-				'sectorId', "B1",
-				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "B1",
-					'modId', "FhNNYd",
-					'RunLoyaltyLogic', false,
-					'display_name', T(486135950365, "Море"),
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Water",
-					'Passability', "Water",
-					'discovered', false,
-					'Intel', false,
-					'bidirectionalRoadApply', true,
-					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'Events', {},
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
-				}),
-			}),
-			PlaceObj('ModItemSector', {
-				'comment', "Море",
-				'mapName', "false",
-				'campaignId', "HotDiamonds",
-				'sectorId', "H5",
-				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "H5",
-					'Map', "false",
-					'modId', "FhNNYd",
-					'RunLoyaltyLogic', false,
-					'display_name', T(454365463215, "Море"),
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Water",
-					'Passability', "Water",
-					'discovered', false,
-					'Intel', false,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
-					'BlockTravel', set({
-	East = false,
-	North = false,
-	South = false,
-}),
-					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'Events', {},
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
-				}),
-			}),
-			PlaceObj('ModItemSector', {
-				'comment', "Море",
-				'mapName', "false",
-				'campaignId', "HotDiamonds",
-				'sectorId', "H6",
-				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "H6",
-					'Map', "false",
-					'modId', "FhNNYd",
-					'RunLoyaltyLogic', false,
-					'display_name', T(965161379819, "Море"),
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Water",
-					'Passability', "Water",
-					'discovered', false,
-					'Intel', false,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
-					'BlockTravel', set({
-	East = false,
-	North = false,
-	South = true,
-	West = false,
-}),
-					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'Events', {},
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
-				}),
-			}),
-			PlaceObj('ModItemSector', {
-				'comment', "Море",
-				'mapName', "false",
-				'campaignId', "HotDiamonds",
-				'sectorId', "H7",
-				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "H7",
-					'Map', "uEv6fcx",
-					'modId', "false",
-					'RunLoyaltyLogic', false,
-					'display_name', T(616765814267, "Море"),
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Water",
-					'Passability', "Water",
-					'discovered', false,
-					'Intel', false,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
-					'BlockTravel', set({
-	East = false,
-	North = false,
-	South = false,
-	West = false,
-}),
-					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'Events', {},
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
-				}),
-			}),
-			PlaceObj('ModItemSector', {
-				'comment', "Море",
-				'mapName', "false",
-				'campaignId', "HotDiamonds",
-				'sectorId', "H8",
-				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "H8",
-					'Map', "false",
-					'modId', "FhNNYd",
-					'RunLoyaltyLogic', false,
-					'display_name', T(291045680730, "Море"),
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Water",
-					'Passability', "Water",
-					'discovered', false,
-					'Intel', false,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
-					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'Events', {},
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
-				}),
-			}),
-			PlaceObj('ModItemSector', {
-				'comment', "Море",
-				'mapName', "false",
-				'campaignId', "HotDiamonds",
-				'sectorId', "H9",
-				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "H9",
-					'Map', "false",
-					'modId', "FhNNYd",
-					'RunLoyaltyLogic', false,
-					'display_name', T(571483372008, "Море"),
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Water",
-					'Passability', "Water",
-					'discovered', false,
-					'Intel', false,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
-					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'Events', {},
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
-				}),
-			}),
-			PlaceObj('ModItemSector', {
-				'comment', "Море",
-				'mapName', "false",
-				'campaignId', "HotDiamonds",
-				'sectorId', "G5",
-				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "G5",
-					'Map', "false",
-					'modId', "FhNNYd",
-					'RunLoyaltyLogic', false,
-					'display_name', T(474123674046, "Море"),
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Water",
-					'Passability', "Water",
-					'discovered', false,
-					'Intel', false,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
-					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'Events', {},
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
-				}),
-			}),
-			PlaceObj('ModItemSector', {
-				'comment', "Море",
-				'mapName', "false",
-				'campaignId', "HotDiamonds",
-				'sectorId', "G6",
-				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "G6",
-					'Map', "false",
-					'modId', "FhNNYd",
-					'RunLoyaltyLogic', false,
-					'display_name', T(425352677354, "Море"),
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Water",
-					'Passability', "Water",
-					'discovered', false,
-					'Intel', false,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
-					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'Events', {},
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
-				}),
-			}),
-			PlaceObj('ModItemSector', {
-				'comment', "Море",
-				'mapName', "false",
-				'campaignId', "HotDiamonds",
-				'sectorId', "G7",
-				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "G7",
-					'Map', "false",
-					'modId', "FhNNYd",
-					'RunLoyaltyLogic', false,
-					'display_name', T(751493558101, "Море"),
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Water",
-					'Passability', "Water",
-					'discovered', false,
-					'Intel', false,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
-					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'Events', {},
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
-				}),
-			}),
-			PlaceObj('ModItemSector', {
-				'comment', "Море",
-				'mapName', "false",
-				'campaignId', "HotDiamonds",
-				'sectorId', "G8",
-				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "G8",
-					'Map', "false",
-					'modId', "FhNNYd",
-					'RunLoyaltyLogic', false,
-					'display_name', T(598537018046, "Море"),
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Water",
-					'Passability', "Water",
-					'discovered', false,
-					'Intel', false,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
-					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'Events', {},
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
 				}),
 			}),
 			}),
@@ -12532,21 +12296,25 @@ return {
 	TriggerWorldFlip = false,
 	WorldFlipDone = false,
 }),
+							param_bindings = false,
 						}),
 						PlaceObj('QuestIsVariableBool', {
 							QuestId = "PierreDefeated",
 							Vars = {
 								PierreInactive = false,
 							},
+							param_bindings = false,
 						}),
 						PlaceObj('PlayerIsInSectors', {
 							Sectors = {
 								"I7",
 							},
+							param_bindings = false,
 						}),
 						PlaceObj('VillainIsDefeated', {
 							Group = "Pierre",
 							Negate = true,
+							param_bindings = false,
 						}),
 						PlaceObj('CheckOR', {
 							Conditions = {
@@ -12555,12 +12323,15 @@ return {
 									Vars = set({
 	Given = false,
 }),
+									param_bindings = false,
 								}),
 								PlaceObj('QuestHasTimerPassed', {
 									QuestId = "LegionFlag",
 									TimerVariable = "FlagTimer",
+									param_bindings = false,
 								}),
 							},
+							param_bindings = false,
 						}),
 					},
 					DefaultActor = "Pierre",
@@ -12596,7 +12367,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -12639,7 +12410,7 @@ return {
 						},
 						GoTo = "RedirectFlag",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -12684,7 +12455,7 @@ return {
 						},
 						GoTo = "RedirectFlag",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -12714,7 +12485,7 @@ return {
 							},
 							GoTo = "<end conversation>",
 							Keyword = "Yes",
-							KeywordT = T(556648424716, --[[ModItemConversation Pierre_1 KeywordT]] "Да"),
+							KeywordT = T(556648424716, --[[ModItemConversation Pierre_1 KeywordT]] "Yes"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -12772,7 +12543,7 @@ return {
 							},
 							GoTo = "RedirectMajor",
 							Keyword = "No",
-							KeywordT = T(430002284053, --[[ModItemConversation Pierre_1 KeywordT]] "Нет"),
+							KeywordT = T(430002284053, --[[ModItemConversation Pierre_1 KeywordT]] "No"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -12839,7 +12610,7 @@ return {
 							},
 							GoTo = "RedirectMajor",
 							Keyword = "No",
-							KeywordT = T(430002284053, --[[ModItemConversation Pierre_1 KeywordT]] "Нет"),
+							KeywordT = T(430002284053, --[[ModItemConversation Pierre_1 KeywordT]] "No"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -12907,7 +12678,7 @@ return {
 							},
 							GoTo = "RedirectMajor",
 							Keyword = "We had to try",
-							KeywordT = T(326258162507, --[[ModItemConversation Pierre_1 KeywordT]] "Ну попытаться-то стоило"),
+							KeywordT = T(326258162507, --[[ModItemConversation Pierre_1 KeywordT]] "We had to try"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -12970,7 +12741,7 @@ return {
 						},
 						GoTo = "RedirectMajor",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -13054,7 +12825,7 @@ return {
 								param_bindings = false,
 							}),
 							PlaceObj('UnitIsInSector', {
-								Sector = "H4",
+								Sector = "I7",
 								TargetUnit = "LegionRaider_Jose",
 								param_bindings = false,
 							}),
@@ -13069,7 +12840,7 @@ return {
 						},
 						GoTo = "RedirectDefault",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -13128,14 +12899,14 @@ return {
 								param_bindings = false,
 							}),
 							PlaceObj('UnitIsInSector', {
-								Sector = "H4",
+								Sector = "I7",
 								TargetUnit = "LegionRaider_Jose",
 								param_bindings = false,
 							}),
 						},
 						GoTo = "RedirectDefault",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -13187,7 +12958,7 @@ return {
 						Comment = "",
 						GoTo = "RedirectDefault",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -13287,7 +13058,7 @@ return {
 							}),
 						},
 						Keyword = "Where is the President?",
-						KeywordT = T(160784594836, --[[ModItemConversation Pierre_1 KeywordT]] "Где президент?"),
+						KeywordT = T(160784594836, --[[ModItemConversation Pierre_1 KeywordT]] "Where is the President?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -13343,7 +13114,7 @@ return {
 							}),
 						},
 						Keyword = "So this is the Legion?",
-						KeywordT = T(612208610322, --[[ModItemConversation Pierre_1 KeywordT]] "Так это и есть Легион?"),
+						KeywordT = T(612208610322, --[[ModItemConversation Pierre_1 KeywordT]] "So this is the Legion?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -13414,7 +13185,7 @@ return {
 							}),
 						},
 						Keyword = "Your father is concerned about you",
-						KeywordT = T(256399752415, --[[ModItemConversation Pierre_1 KeywordT]] "Отец за тебя волнуется"),
+						KeywordT = T(256399752415, --[[ModItemConversation Pierre_1 KeywordT]] "Your father is concerned about you"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -13552,7 +13323,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Your father asked us to spare you",
-						KeywordT = T(352716076155, --[[ModItemConversation Pierre_1 KeywordT]] "Твой отец просил нас пощадить тебя"),
+						KeywordT = T(352716076155, --[[ModItemConversation Pierre_1 KeywordT]] "Your father asked us to spare you"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -13628,7 +13399,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "We are here to set things right",
-						KeywordT = T(887826897144, --[[ModItemConversation Pierre_1 KeywordT]] "Мы пришли разобраться с вашими проблемами"),
+						KeywordT = T(887826897144, --[[ModItemConversation Pierre_1 KeywordT]] "We are here to set things right"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -13706,7 +13477,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "We are here to set things right",
-						KeywordT = T(887826897144, --[[ModItemConversation Pierre_1 KeywordT]] "Мы пришли разобраться с вашими проблемами"),
+						KeywordT = T(887826897144, --[[ModItemConversation Pierre_1 KeywordT]] "We are here to set things right"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -13772,7 +13543,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "We are here to kick your ass",
-						KeywordT = T(258963698238, --[[ModItemConversation Pierre_1 KeywordT]] "Мы пришли надрать тебе зад"),
+						KeywordT = T(258963698238, --[[ModItemConversation Pierre_1 KeywordT]] "We are here to kick your ass"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -13843,7 +13614,7 @@ return {
 						Enabled = false,
 						GoTo = "<end conversation>",
 						Keyword = "We are here to join the Legion",
-						KeywordT = T(898257817748, --[[ModItemConversation Pierre_1 KeywordT]] "Мы хотим вступить в Легион"),
+						KeywordT = T(898257817748, --[[ModItemConversation Pierre_1 KeywordT]] "We are here to join the Legion"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -13905,6 +13676,7 @@ return {
 							Sectors = {
 								"F19",
 							},
+							param_bindings = false,
 						}),
 					},
 					DefaultActor = "Pierre",
@@ -13921,7 +13693,7 @@ return {
 						},
 						GoTo = "Redirect",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
@@ -13986,7 +13758,7 @@ return {
 						},
 						GoTo = "Redirect",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -14038,7 +13810,7 @@ return {
 						},
 						GoTo = "Redirect",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -14083,7 +13855,7 @@ return {
 						},
 						GoTo = "Redirect",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -14131,7 +13903,7 @@ return {
 							},
 							GoTo = "<root>",
 							Keyword = "Actually not",
-							KeywordT = T(368917462272, --[[ModItemConversation Pierre_2 KeywordT]] "Вообще-то нет"),
+							KeywordT = T(368917462272, --[[ModItemConversation Pierre_2 KeywordT]] "Actually not"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Spike",
@@ -14219,7 +13991,7 @@ return {
 							},
 							GoTo = "Redirect.Karmaisabitch",
 							Keyword = "Actually not",
-							KeywordT = T(368917462272, --[[ModItemConversation Pierre_2 KeywordT]] "Вообще-то нет"),
+							KeywordT = T(368917462272, --[[ModItemConversation Pierre_2 KeywordT]] "Actually not"),
 							PlayGoToPhrase = true,
 							StoryBranchIcon = "conversation_friendly",
 							id = "Actuallynot2",
@@ -14243,7 +14015,7 @@ return {
 							},
 							GoTo = "<root>",
 							Keyword = "They just used you",
-							KeywordT = T(576212148587, --[[ModItemConversation Pierre_2 KeywordT]] "Они просто использовали тебя"),
+							KeywordT = T(576212148587, --[[ModItemConversation Pierre_2 KeywordT]] "They just used you"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Pierre",
@@ -14324,7 +14096,7 @@ return {
 							},
 							GoTo = "<root>",
 							Keyword = "They just used you",
-							KeywordT = T(576212148587, --[[ModItemConversation Pierre_2 KeywordT]] "Они просто использовали тебя"),
+							KeywordT = T(576212148587, --[[ModItemConversation Pierre_2 KeywordT]] "They just used you"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Pierre",
@@ -14384,7 +14156,7 @@ return {
 							},
 							GoTo = "<root>",
 							Keyword = "Karma is a bitch!",
-							KeywordT = T(738430546132, --[[ModItemConversation Pierre_2 KeywordT]] "Карма - она такая"),
+							KeywordT = T(738430546132, --[[ModItemConversation Pierre_2 KeywordT]] "Karma is a bitch!"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -14512,7 +14284,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -14540,7 +14312,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -14587,7 +14359,7 @@ return {
 							}),
 						},
 						Keyword = "What happened to you?",
-						KeywordT = T(647698836002, --[[ModItemConversation Pierre_2 KeywordT]] "Что с тобой произошло?"),
+						KeywordT = T(647698836002, --[[ModItemConversation Pierre_2 KeywordT]] "What happened to you?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -14683,7 +14455,7 @@ return {
 							}),
 						},
 						Keyword = "What happened to you?",
-						KeywordT = T(647698836002, --[[ModItemConversation Pierre_2 KeywordT]] "Что с тобой произошло?"),
+						KeywordT = T(647698836002, --[[ModItemConversation Pierre_2 KeywordT]] "What happened to you?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -14779,7 +14551,7 @@ return {
 							}),
 						},
 						Keyword = "So the Legion isn't what you expected?",
-						KeywordT = T(268770720051, --[[ModItemConversation Pierre_2 KeywordT]] "Значит, Легион оказался не таким, как ты думал?"),
+						KeywordT = T(268770720051, --[[ModItemConversation Pierre_2 KeywordT]] "So the Legion isn't what you expected?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -14872,7 +14644,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "We killed Graaf",
-						KeywordT = T(906224439372, --[[ModItemConversation Pierre_2 KeywordT]] "Мы убили Граафа"),
+						KeywordT = T(906224439372, --[[ModItemConversation Pierre_2 KeywordT]] "We killed Graaf"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -14986,7 +14758,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "We hired Graaf to keep him in check",
-						KeywordT = T(431005492312, --[[ModItemConversation Pierre_2 KeywordT]] "Грааф теперь бригадир и отвечает перед нами"),
+						KeywordT = T(431005492312, --[[ModItemConversation Pierre_2 KeywordT]] "We hired Graaf to keep him in check"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -15105,7 +14877,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "We killed the Major",
-						KeywordT = T(958476395550, --[[ModItemConversation Pierre_2 KeywordT]] "Мы убили Майора"),
+						KeywordT = T(958476395550, --[[ModItemConversation Pierre_2 KeywordT]] "We killed the Major"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -15185,7 +14957,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "You can help us make things right",
-						KeywordT = T(507500331619, --[[ModItemConversation Pierre_2 KeywordT]] "Помоги нам всё исправить"),
+						KeywordT = T(507500331619, --[[ModItemConversation Pierre_2 KeywordT]] "You can help us make things right"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Annotation = "(angry)",
@@ -15363,7 +15135,7 @@ return {
 							}),
 						},
 						Keyword = "You can help us make things right",
-						KeywordT = T(507500331619, --[[ModItemConversation Pierre_2 KeywordT]] "Помоги нам всё исправить"),
+						KeywordT = T(507500331619, --[[ModItemConversation Pierre_2 KeywordT]] "You can help us make things right"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -15546,7 +15318,7 @@ return {
 								}),
 								PlaceObj('SectorGrantIntel', {
 									param_bindings = false,
-									sector_id = "H4",
+									sector_id = "I7",
 								}),
 								PlaceObj('SectorGrantIntel', {
 									param_bindings = false,
@@ -15564,7 +15336,7 @@ return {
 							},
 							GoTo = "<end conversation>",
 							Keyword = "Join us",
-							KeywordT = T(258733750188, --[[ModItemConversation Pierre_2 KeywordT]] "Примкни к нам"),
+							KeywordT = T(258733750188, --[[ModItemConversation Pierre_2 KeywordT]] "Join us"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Pierre",
@@ -15706,7 +15478,7 @@ return {
 								}),
 								PlaceObj('SectorGrantIntel', {
 									param_bindings = false,
-									sector_id = "H4",
+									sector_id = "I7",
 								}),
 								PlaceObj('SectorGrantIntel', {
 									param_bindings = false,
@@ -15730,7 +15502,7 @@ return {
 							},
 							GoTo = "<end conversation>",
 							Keyword = "Go home",
-							KeywordT = T(717548727795, --[[ModItemConversation Pierre_2 KeywordT]] "Иди домой"),
+							KeywordT = T(717548727795, --[[ModItemConversation Pierre_2 KeywordT]] "Go home"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Pierre",
@@ -15841,7 +15613,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -15870,7 +15642,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -15887,24 +15659,28 @@ return {
 					Conditions = {
 						PlaceObj('VillainIsDefeated', {
 							Group = "Pierre",
+							param_bindings = false,
 						}),
 						PlaceObj('QuestIsVariableBool', {
 							QuestId = "TakeTheFortress",
 							Vars = {
 								PierreDead = false,
 							},
+							param_bindings = false,
 						}),
 						PlaceObj('QuestIsVariableBool', {
 							QuestId = "TakeTheFortress",
 							Vars = {
 								PierreJoined = false,
 							},
+							param_bindings = false,
 						}),
 						PlaceObj('QuestIsVariableBool', {
 							QuestId = "TakeTheFortress",
 							Vars = {
 								PierreSpared = false,
 							},
+							param_bindings = false,
 						}),
 					},
 					DefaultActor = "Pierre",
@@ -15922,7 +15698,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -15952,7 +15728,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -15982,7 +15758,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -16011,7 +15787,7 @@ return {
 							}),
 						},
 						Keyword = "Where is the President being kept?",
-						KeywordT = T(986014151108, --[[ModItemConversation Pierre_Defeated KeywordT]] "Где держат президента?"),
+						KeywordT = T(986014151108, --[[ModItemConversation Pierre_Defeated KeywordT]] "Where is the President being kept?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -16086,7 +15862,7 @@ return {
 							}),
 						},
 						Keyword = "What will you do if we let you go?",
-						KeywordT = T(622656618097, --[[ModItemConversation Pierre_Defeated KeywordT]] "Чем займешься, если мы тебя отпустим?"),
+						KeywordT = T(622656618097, --[[ModItemConversation Pierre_Defeated KeywordT]] "What will you do if we let you go?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -16160,7 +15936,7 @@ return {
 							}),
 						},
 						Keyword = "What will you do if we let you go?",
-						KeywordT = T(622656618097, --[[ModItemConversation Pierre_Defeated KeywordT]] "Чем займешься, если мы тебя отпустим?"),
+						KeywordT = T(622656618097, --[[ModItemConversation Pierre_Defeated KeywordT]] "What will you do if we let you go?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -16219,7 +15995,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "Where do we find the Major?",
-						KeywordT = T(993367435241, --[[ModItemConversation Pierre_Defeated KeywordT]] "Как нам найти Майора?"),
+						KeywordT = T(993367435241, --[[ModItemConversation Pierre_Defeated KeywordT]] "Where do we find the Major?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -16286,7 +16062,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "Where do we find the Major?",
-						KeywordT = T(993367435241, --[[ModItemConversation Pierre_Defeated KeywordT]] "Как нам найти Майора?"),
+						KeywordT = T(993367435241, --[[ModItemConversation Pierre_Defeated KeywordT]] "Where do we find the Major?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -16360,7 +16136,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "Where do we find the Major?",
-						KeywordT = T(993367435241, --[[ModItemConversation Pierre_Defeated KeywordT]] "Как нам найти Майора?"),
+						KeywordT = T(993367435241, --[[ModItemConversation Pierre_Defeated KeywordT]] "Where do we find the Major?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -16434,7 +16210,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Time to die",
-						KeywordT = T(149721213565, --[[ModItemConversation Pierre_Defeated KeywordT]] "Время умирать"),
+						KeywordT = T(149721213565, --[[ModItemConversation Pierre_Defeated KeywordT]] "Time to die"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -16511,7 +16287,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Time to die",
-						KeywordT = T(149721213565, --[[ModItemConversation Pierre_Defeated KeywordT]] "Время умирать"),
+						KeywordT = T(149721213565, --[[ModItemConversation Pierre_Defeated KeywordT]] "Time to die"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -16576,7 +16352,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "You may go",
-						KeywordT = T(725537503858, --[[ModItemConversation Pierre_Defeated KeywordT]] "Ты можешь идти"),
+						KeywordT = T(725537503858, --[[ModItemConversation Pierre_Defeated KeywordT]] "You may go"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -16710,7 +16486,7 @@ return {
 							"JoseFamily",
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -16766,7 +16542,7 @@ return {
 							AutoRemove = true,
 							GoTo = "<root>",
 							Keyword = "Don't worry",
-							KeywordT = T(148546070726, --[[ModItemConversation Jose_1 KeywordT]] "Не беспокойся"),
+							KeywordT = T(148546070726, --[[ModItemConversation Jose_1 KeywordT]] "Don't worry"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -16825,7 +16601,7 @@ return {
 							},
 							GoTo = "<root>",
 							Keyword = "Civilian? Oh really?",
-							KeywordT = T(240336019316, --[[ModItemConversation Jose_1 KeywordT]] "Гражданский? Да неужто?"),
+							KeywordT = T(240336019316, --[[ModItemConversation Jose_1 KeywordT]] "Civilian? Oh really?"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -16891,7 +16667,7 @@ return {
 							},
 							GoTo = "<root>",
 							Keyword = "Why not just shoot you",
-							KeywordT = T(534366002207, --[[ModItemConversation Jose_1 KeywordT]] "А может, нам тебя просто застрелить?"),
+							KeywordT = T(534366002207, --[[ModItemConversation Jose_1 KeywordT]] "Why not just shoot you"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -16989,7 +16765,7 @@ return {
 							}),
 						},
 						Keyword = 'Tell us about that "Legion"',
-						KeywordT = T(428534945433, --[[ModItemConversation Jose_1 KeywordT]] "Расскажи нам об этом «Легионе»"),
+						KeywordT = T(428534945433, --[[ModItemConversation Jose_1 KeywordT]] 'Tell us about that "Legion"'),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17011,7 +16787,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "What do you know about Emma?",
-						KeywordT = T(323700809045, --[[ModItemConversation Jose_1 KeywordT]] "Что ты знаешь об Эмме?"),
+						KeywordT = T(323700809045, --[[ModItemConversation Jose_1 KeywordT]] "What do you know about Emma?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17087,7 +16863,7 @@ return {
 							}),
 						},
 						Keyword = "Who's the Major?",
-						KeywordT = T(134661127794, --[[ModItemConversation Jose_1 KeywordT]] "Что за Майор?"),
+						KeywordT = T(134661127794, --[[ModItemConversation Jose_1 KeywordT]] "Who's the Major?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17150,7 +16926,7 @@ return {
 							}),
 						},
 						Keyword = "Who's the Major?",
-						KeywordT = T(134661127794, --[[ModItemConversation Jose_1 KeywordT]] "Что за Майор?"),
+						KeywordT = T(134661127794, --[[ModItemConversation Jose_1 KeywordT]] "Who's the Major?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17179,7 +16955,7 @@ return {
 							}),
 						},
 						Keyword = "Emma's father - you mean the President?",
-						KeywordT = T(786851655348, --[[ModItemConversation Jose_1 KeywordT]] "Папаша Эммы - это президент ваш, что ли?"),
+						KeywordT = T(786851655348, --[[ModItemConversation Jose_1 KeywordT]] "Emma's father - you mean the President?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17240,7 +17016,7 @@ return {
 							}),
 						},
 						Keyword = "So you have a family?",
-						KeywordT = T(713820738802, --[[ModItemConversation Jose_1 KeywordT]] "Семья, говоришь?"),
+						KeywordT = T(713820738802, --[[ModItemConversation Jose_1 KeywordT]] "So you have a family?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17293,7 +17069,7 @@ return {
 							}),
 						},
 						Keyword = "Is this a soccer shirt?",
-						KeywordT = T(699951652390, --[[ModItemConversation Jose_1 KeywordT]] "Это у тебя клубная футболка?"),
+						KeywordT = T(699951652390, --[[ModItemConversation Jose_1 KeywordT]] "Is this a soccer shirt?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17346,7 +17122,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "You’re with the Legion!",
-						KeywordT = T(560655426421, --[[ModItemConversation Jose_1 KeywordT]] "Ты из Легиона!"),
+						KeywordT = T(560655426421, --[[ModItemConversation Jose_1 KeywordT]] "You're with the Legion!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17453,7 +17229,7 @@ return {
 							}),
 						},
 						Keyword = "Hands up!",
-						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Руки вверх!"),
+						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -17546,7 +17322,7 @@ return {
 							}),
 						},
 						Keyword = "Hands up!",
-						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Руки вверх!"),
+						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17599,7 +17375,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Hand over the diamonds",
-						KeywordT = T(967728070126, --[[ModItemConversation Jose_1 KeywordT]] "Отдавай алмазы"),
+						KeywordT = T(967728070126, --[[ModItemConversation Jose_1 KeywordT]] "Hand over the diamonds"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17678,7 +17454,7 @@ return {
 						Enabled = false,
 						GoTo = "<end conversation>",
 						Keyword = "Die!",
-						KeywordT = T(482976736771, --[[ModItemConversation Jose_1 KeywordT]] "Умри!"),
+						KeywordT = T(482976736771, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17745,7 +17521,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "You may go",
-						KeywordT = T(725537503858, --[[ModItemConversation Pierre_Defeated KeywordT]] "Ты можешь идти"),
+						KeywordT = T(725537503858, --[[ModItemConversation Pierre_Defeated KeywordT]] "You may go"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17816,7 +17592,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17892,7 +17668,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17928,6 +17704,7 @@ return {
 							Sectors = {
 								"I6",
 							},
+							param_bindings = false,
 						}),
 						PlaceObj('QuestIsVariableBool', {
 							QuestId = "JoseFamily",
@@ -17935,6 +17712,7 @@ return {
 	Failed = false,
 	Given = true,
 }),
+							param_bindings = false,
 						}),
 					},
 					DefaultActor = "LegionRaider_Jose",
@@ -17972,7 +17750,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -18034,7 +17812,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -18131,7 +17909,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Give up the diamonds",
-						KeywordT = T(436932644934, --[[ModItemConversation Jose_2 KeywordT]] "Отдавай алмазы"),
+						KeywordT = T(436932644934, --[[ModItemConversation Jose_2 KeywordT]] "Give up the diamonds"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -18213,7 +17991,7 @@ return {
 							}),
 						},
 						Keyword = "What hospitality?",
-						KeywordT = T(344822767756, --[[ModItemConversation Jose_2 KeywordT]] "О каком гостеприимстве ты говоришь?"),
+						KeywordT = T(344822767756, --[[ModItemConversation Jose_2 KeywordT]] "What hospitality?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -18308,7 +18086,7 @@ return {
 						Enabled = false,
 						GoTo = "<end conversation>",
 						Keyword = "He's been holding out on you",
-						KeywordT = T(632751436499, --[[ModItemConversation Jose_2 KeywordT]] "Он прячет от тебя заначку"),
+						KeywordT = T(632751436499, --[[ModItemConversation Jose_2 KeywordT]] "He's been holding out on you"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -18369,12 +18147,7 @@ return {
 						StoryBranchIcon = "conversation_sarcastic",
 						id = "HesBeenHoldingOut",
 						param_bindings = false,
-						target_units = {
-							nil,
-							nil,
-							nil,
-							nil,
-						},
+						target_units = {},
 					}),
 					PlaceObj('ConversationPhrase', {
 						Conditions = {
@@ -18407,7 +18180,7 @@ return {
 							}),
 						},
 						Keyword = "We'll pay",
-						KeywordT = T(719725459934, --[[ModItemConversation Jose_2 KeywordT]] "Мы заплатим"),
+						KeywordT = T(719725459934, --[[ModItemConversation Jose_2 KeywordT]] "We'll pay"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -18457,7 +18230,7 @@ return {
 							},
 							GoTo = "<end conversation>",
 							Keyword = "Here is $1000",
-							KeywordT = T(199712024037, --[[ModItemConversation Jose_2 KeywordT]] "Вот $1 000"),
+							KeywordT = T(199712024037, --[[ModItemConversation Jose_2 KeywordT]] "Here is $1000"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "LegionRaider_Jose",
@@ -18546,11 +18319,11 @@ return {
 							Enabled = false,
 							GoTo = "<end conversation>",
 							Keyword = "Here is $500",
-							KeywordT = T(352888218095, --[[ModItemConversation Jose_2 KeywordT]] "Вот $500"),
+							KeywordT = T(352888218095, --[[ModItemConversation Jose_2 KeywordT]] "Here is $500"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "LegionRaider_Jose",
-									Text = T(509697230087, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Here is $1000]] "Хе-хе! Давайте, парни, по стакану за мой счет!"),
+									Text = T(509697230087, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Here is $500]] "Хе-хе! Давайте, парни, по стакану за мой счет!"),
 									param_bindings = false,
 								}),
 							},
@@ -18585,7 +18358,7 @@ return {
 							},
 							GoTo = "<end conversation>",
 							Keyword = "Or rather not",
-							KeywordT = T(759926423881, --[[ModItemConversation Jose_2 KeywordT]] "Или нет"),
+							KeywordT = T(759926423881, --[[ModItemConversation Jose_2 KeywordT]] "Or rather not"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "LegionRaider_Jose",
@@ -18681,7 +18454,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "We'll pay",
-						KeywordT = T(719725459934, --[[ModItemConversation Jose_2 KeywordT]] "Мы заплатим"),
+						KeywordT = T(719725459934, --[[ModItemConversation Jose_2 KeywordT]] "We'll pay"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -18766,7 +18539,7 @@ return {
 							}),
 						},
 						Keyword = "We don't have much",
-						KeywordT = T(861727817158, --[[ModItemConversation Jose_2 KeywordT]] "У нас всего-то ничего"),
+						KeywordT = T(861727817158, --[[ModItemConversation Jose_2 KeywordT]] "We don't have much"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -18850,7 +18623,7 @@ return {
 							}),
 						},
 						Keyword = "We don't have much",
-						KeywordT = T(861727817158, --[[ModItemConversation Jose_2 KeywordT]] "У нас всего-то ничего"),
+						KeywordT = T(861727817158, --[[ModItemConversation Jose_2 KeywordT]] "We don't have much"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -18887,7 +18660,7 @@ return {
 							}),
 						},
 						Keyword = "Hands up!",
-						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Руки вверх!"),
+						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -18938,7 +18711,7 @@ return {
 							}),
 						},
 						Keyword = "Hands up!",
-						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Руки вверх!"),
+						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -18977,7 +18750,7 @@ return {
 							}),
 						},
 						Keyword = "You pay us",
-						KeywordT = T(203178249916, --[[ModItemConversation Jose_2 KeywordT]] "Это ты заплатишь нам"),
+						KeywordT = T(203178249916, --[[ModItemConversation Jose_2 KeywordT]] "You pay us"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -19015,7 +18788,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "What about the diamonds?",
-						KeywordT = T(287429964815, --[[ModItemConversation Jose_2 KeywordT]] "А алмазы?"),
+						KeywordT = T(287429964815, --[[ModItemConversation Jose_2 KeywordT]] "What about the diamonds?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -19074,7 +18847,7 @@ return {
 						Enabled = false,
 						GoTo = "<end conversation>",
 						Keyword = "Give us the diamonds and get out",
-						KeywordT = T(609379303340, --[[ModItemConversation Jose_2 KeywordT]] "Отдавай алмазы и проваливай"),
+						KeywordT = T(609379303340, --[[ModItemConversation Jose_2 KeywordT]] "Give us the diamonds and get out"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -19137,7 +18910,7 @@ return {
 							}),
 						},
 						Keyword = "Drop your guns!",
-						KeywordT = T(104328241789, --[[ModItemConversation Jose_2 KeywordT]] "Бросайте оружие!"),
+						KeywordT = T(104328241789, --[[ModItemConversation Jose_2 KeywordT]] "Drop your guns!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -19223,7 +18996,7 @@ return {
 						Enabled = false,
 						GoTo = "<end conversation>",
 						Keyword = "Your guns! Now!",
-						KeywordT = T(501179800326, --[[ModItemConversation Jose_2 KeywordT]] "Оружие! Живо!"),
+						KeywordT = T(501179800326, --[[ModItemConversation Jose_2 KeywordT]] "Your guns! Now!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -19261,11 +19034,11 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Die!",
-						KeywordT = T(482976736771, --[[ModItemConversation Jose_1 KeywordT]] "Умри!"),
+						KeywordT = T(482976736771, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-								Text = T(261668027576, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:He's been holding out on you]] "Merde!"),
+								Text = T(261668027576, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Die!]] "Merde!"),
 								param_bindings = false,
 							}),
 						},
@@ -19308,7 +19081,7 @@ return {
 							"01_Landing",
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
@@ -19416,7 +19189,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
@@ -19438,7 +19211,7 @@ return {
 						Align = "right",
 						AutoRemove = true,
 						Keyword = "We can handle them",
-						KeywordT = T(874564688424, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "Мы справимся"),
+						KeywordT = T(874564688424, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "We can handle them"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
@@ -19465,7 +19238,7 @@ return {
 							},
 							GoTo = "Redirect",
 							Keyword = "Thank you",
-							KeywordT = T(823660292993, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "Спасибо"),
+							KeywordT = T(823660292993, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "Thank you"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -19519,7 +19292,7 @@ return {
 							AutoRemove = true,
 							GoTo = "WeveHadWarmerWelcomes.Thatsnotnecessary2",
 							Keyword = "That's not necessary",
-							KeywordT = T(610507031100, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "В этом нет необходимости"),
+							KeywordT = T(610507031100, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "That's not necessary"),
 							PhraseRolloverText = T(476973554424, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Отказаться от $2 000"),
 							PlayGoToPhrase = true,
 							StoryBranchIcon = "conversation_action",
@@ -19531,7 +19304,7 @@ return {
 						Align = "right",
 						AutoRemove = true,
 						Keyword = "We've had warmer welcomes",
-						KeywordT = T(561065473208, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "Это был не самый теплый прием"),
+						KeywordT = T(561065473208, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "We've had warmer welcomes"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
@@ -19569,7 +19342,7 @@ return {
 							},
 							GoTo = "Redirect",
 							Keyword = "You can do better than that",
-							KeywordT = T(886972557176, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "И это всё?"),
+							KeywordT = T(886972557176, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "You can do better than that"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -19633,7 +19406,7 @@ return {
 							},
 							GoTo = "Redirect",
 							Keyword = "You can do better than that",
-							KeywordT = T(886972557176, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "И это всё?"),
+							KeywordT = T(886972557176, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "You can do better than that"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -19695,7 +19468,7 @@ return {
 							},
 							GoTo = "Redirect",
 							Keyword = "That's not necessary",
-							KeywordT = T(610507031100, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "В этом нет необходимости"),
+							KeywordT = T(610507031100, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "That's not necessary"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -19979,7 +19752,7 @@ return {
 							}),
 						},
 						Keyword = "Any more details about the Legion?",
-						KeywordT = T(182787560056, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "Что еще вы можете рассказать о Легионе?"),
+						KeywordT = T(182787560056, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "Any more details about the Legion?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
@@ -20067,7 +19840,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "Who is the Major?",
-						KeywordT = T(473631718058, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "Кто такой Майор?"),
+						KeywordT = T(473631718058, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "Who is the Major?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
@@ -20154,7 +19927,7 @@ return {
 							}),
 						},
 						Keyword = "Tell us about Ernie Island",
-						KeywordT = T(982598344010, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "Расскажите нам об острове Эрни"),
+						KeywordT = T(982598344010, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "Tell us about Ernie Island"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
@@ -20414,7 +20187,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
@@ -20447,7 +20220,7 @@ return {
 					id = "FlagHill_Corazon_1",
 					PlaceObj('ConversationPhrase', {
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -20460,7 +20233,7 @@ return {
 					}),
 					PlaceObj('ConversationPhrase', {
 						Keyword = "Tell us about the Legion",
-						KeywordT = T(371244402650, --[[ModItemConversation FlagHill_Corazon_1 KeywordT]] "Расскажите нам о Легионе"),
+						KeywordT = T(371244402650, --[[ModItemConversation FlagHill_Corazon_1 KeywordT]] "Tell us about the Legion"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -20534,7 +20307,7 @@ return {
 							}),
 						},
 						Keyword = "There were some other mercenaries",
-						KeywordT = T(903496103429, --[[ModItemConversation FlagHill_Corazon_1 KeywordT]] "В стране действуют еще какие-то наемники"),
+						KeywordT = T(903496103429, --[[ModItemConversation FlagHill_Corazon_1 KeywordT]] "There were some other mercenaries"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -20714,7 +20487,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "Eliminate the Major?",
-						KeywordT = T(426358908346, --[[ModItemConversation FlagHill_Corazon_1 KeywordT]] "Ликвидировать Майора?"),
+						KeywordT = T(426358908346, --[[ModItemConversation FlagHill_Corazon_1 KeywordT]] "Eliminate the Major?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -20781,7 +20554,7 @@ return {
 							}),
 						},
 						Keyword = "The diamond mines",
-						KeywordT = T(333044245251, --[[ModItemConversation FlagHill_Corazon_1 KeywordT]] "Алмазные прииски"),
+						KeywordT = T(333044245251, --[[ModItemConversation FlagHill_Corazon_1 KeywordT]] "The diamond mines"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -20814,7 +20587,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "Diamond Red?",
-						KeywordT = T(238723118159, --[[ModItemConversation FlagHill_Corazon_1 KeywordT]] "«Даймонд-Ред»?"),
+						KeywordT = T(238723118159, --[[ModItemConversation FlagHill_Corazon_1 KeywordT]] "Diamond Red?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -20866,13 +20639,13 @@ return {
 							PlaceObj('SectorCheckOwner', {
 								Negate = true,
 								param_bindings = false,
-								sector_id = "H14",
+								sector_id = "P17",
 							}),
 						},
 						Effects = {
 							PlaceObj('SectorGrantIntel', {
 								param_bindings = false,
-								sector_id = "H7",
+								sector_id = "H14",
 							}),
 							PlaceObj('QuestSetVariableBool', {
 								Prop = "Lead_RuinsMine",
@@ -20882,7 +20655,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "Mfumu's Mine?",
-						KeywordT = T(768450270814, --[[ModItemConversation FlagHill_Corazon_1 KeywordT]] "Шахта Мфуму?"),
+						KeywordT = T(768450270814, --[[ModItemConversation FlagHill_Corazon_1 KeywordT]] "Mfumu's Mine?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -20932,7 +20705,7 @@ return {
 						AutoRemove = true,
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -20947,7 +20720,7 @@ return {
 					PlaceObj('ConversationPhrase', {
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -20977,7 +20750,7 @@ return {
 					id = "Corazon_Defeated",
 					PlaceObj('ConversationPhrase', {
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -21060,7 +20833,7 @@ return {
 						},
 						GoTo = "FaucheuxRedirect",
 						Keyword = "Faucheux is dead",
-						KeywordT = T(381415625949, --[[ModItemConversation Corazon_Defeated KeywordT]] "Фошо мертв"),
+						KeywordT = T(381415625949, --[[ModItemConversation Corazon_Defeated KeywordT]] "Faucheux is dead"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -21083,7 +20856,7 @@ return {
 						},
 						GoTo = "FaucheuxRedirect",
 						Keyword = "Faucheux escaped",
-						KeywordT = T(202718980590, --[[ModItemConversation Corazon_Defeated KeywordT]] "Фошо сбежал"),
+						KeywordT = T(202718980590, --[[ModItemConversation Corazon_Defeated KeywordT]] "Faucheux escaped"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -21182,7 +20955,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "The news didn’t mention gas",
-						KeywordT = T(992815830144, --[[ModItemConversation Corazon_Defeated KeywordT]] "В новостях о газе не говорилось"),
+						KeywordT = T(992815830144, --[[ModItemConversation Corazon_Defeated KeywordT]] "The news didn’t mention gas"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -21286,7 +21059,7 @@ return {
 							}),
 						},
 						Keyword = "Faucheux is next",
-						KeywordT = T(122074528439, --[[ModItemConversation Corazon_Defeated KeywordT]] "Фошо будет следующим"),
+						KeywordT = T(122074528439, --[[ModItemConversation Corazon_Defeated KeywordT]] "Faucheux is next"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -21312,7 +21085,7 @@ return {
 							}),
 						},
 						Keyword = "What about me?",
-						KeywordT = T(369507054705, --[[ModItemConversation Corazon_Defeated KeywordT]] "А как насчет меня?"),
+						KeywordT = T(369507054705, --[[ModItemConversation Corazon_Defeated KeywordT]] "What about me?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -21396,7 +21169,7 @@ return {
 							}),
 						},
 						Keyword = "Is this your signature on this contract?",
-						KeywordT = T(647647391956, --[[ModItemConversation Corazon_Defeated KeywordT]] "Твоя подпись под контрактом?"),
+						KeywordT = T(647647391956, --[[ModItemConversation Corazon_Defeated KeywordT]] "Is this your signature on this contract?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -21434,7 +21207,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "We never mentioned the Major",
-						KeywordT = T(591786561138, --[[ModItemConversation Corazon_Defeated KeywordT]] "А кто говорил о Майоре?"),
+						KeywordT = T(591786561138, --[[ModItemConversation Corazon_Defeated KeywordT]] "We never mentioned the Major"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -21526,7 +21299,7 @@ return {
 							}),
 						},
 						Keyword = "What about the Major?",
-						KeywordT = T(608595438432, --[[ModItemConversation Corazon_Defeated KeywordT]] "А что насчет Майора?"),
+						KeywordT = T(608595438432, --[[ModItemConversation Corazon_Defeated KeywordT]] "What about the Major?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -21582,7 +21355,7 @@ return {
 							}),
 						},
 						Keyword = "This is not about the money",
-						KeywordT = T(702917014975, --[[ModItemConversation Corazon_Defeated KeywordT]] "Мы здесь не из-за денег."),
+						KeywordT = T(702917014975, --[[ModItemConversation Corazon_Defeated KeywordT]] "This is not about the money"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -21684,7 +21457,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "You are not talking your way out of this",
-						KeywordT = T(931582108304, --[[ModItemConversation Corazon_Defeated KeywordT]] "Съехать на базаре не выйдет"),
+						KeywordT = T(931582108304, --[[ModItemConversation Corazon_Defeated KeywordT]] "You are not talking your way out of this"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -21757,7 +21530,7 @@ return {
 							}),
 						},
 						Keyword = "You are involved in all this",
-						KeywordT = T(484847398454, --[[ModItemConversation Corazon_Defeated KeywordT]] "Ты в этом замешана"),
+						KeywordT = T(484847398454, --[[ModItemConversation Corazon_Defeated KeywordT]] "You are involved in all this"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -21782,7 +21555,7 @@ return {
 							},
 							GoTo = "Starttalkingnow.Money2",
 							Keyword = "Money",
-							KeywordT = T(400105882612, --[[ModItemConversation Corazon_Defeated KeywordT]] "Деньги"),
+							KeywordT = T(400105882612, --[[ModItemConversation Corazon_Defeated KeywordT]] "Money"),
 							PlayGoToPhrase = true,
 							StoryBranchIcon = "conversation_action",
 							id = "Money",
@@ -21806,7 +21579,7 @@ return {
 							},
 							GoTo = "Youarenottalkingyourwayoutofthis",
 							Keyword = "Body parts",
-							KeywordT = T(407496232658, --[[ModItemConversation Corazon_Defeated KeywordT]] "Части тела"),
+							KeywordT = T(407496232658, --[[ModItemConversation Corazon_Defeated KeywordT]] "Body parts"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -21855,7 +21628,7 @@ return {
 							},
 							GoTo = "Starttalkingnow.Information",
 							Keyword = "Information",
-							KeywordT = T(802795382127, --[[ModItemConversation Corazon_Defeated KeywordT]] "Информация"),
+							KeywordT = T(802795382127, --[[ModItemConversation Corazon_Defeated KeywordT]] "Information"),
 							PlayGoToPhrase = true,
 							StoryBranchIcon = "conversation_action",
 							id = "Information",
@@ -21873,7 +21646,7 @@ return {
 							},
 							GoTo = "Starttalkingnow.Thetruth",
 							Keyword = "The truth",
-							KeywordT = T(704613799039, --[[ModItemConversation Corazon_Defeated KeywordT]] "Правда"),
+							KeywordT = T(704613799039, --[[ModItemConversation Corazon_Defeated KeywordT]] "The truth"),
 							PlayGoToPhrase = true,
 							StoryBranchIcon = "conversation_action",
 							id = "Thetruth",
@@ -21898,7 +21671,7 @@ return {
 							},
 							GoTo = "<root>",
 							Keyword = "You will answer in court",
-							KeywordT = T(321176446625, --[[ModItemConversation Corazon_Defeated KeywordT]] "За свои дела ты ответишь в суде"),
+							KeywordT = T(321176446625, --[[ModItemConversation Corazon_Defeated KeywordT]] "You will answer in court"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -21988,7 +21761,7 @@ return {
 							},
 							GoTo = "<root>",
 							Keyword = "You will answer in court",
-							KeywordT = T(321176446625, --[[ModItemConversation Corazon_Defeated KeywordT]] "За свои дела ты ответишь в суде"),
+							KeywordT = T(321176446625, --[[ModItemConversation Corazon_Defeated KeywordT]] "You will answer in court"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "CorazonSantiago",
@@ -22029,7 +21802,7 @@ return {
 						},
 						GoTo = "Starttalkingnow.Information",
 						Keyword = "You promised to explain everything",
-						KeywordT = T(354600588921, --[[ModItemConversation Corazon_Defeated KeywordT]] "Ты обещала всё объяснить"),
+						KeywordT = T(354600588921, --[[ModItemConversation Corazon_Defeated KeywordT]] "You promised to explain everything"),
 						PlayGoToPhrase = true,
 						StoryBranchIcon = "conversation_arrow",
 						id = "Youpromisedtoexplaineverything",
@@ -22053,7 +21826,7 @@ return {
 							}),
 						},
 						Keyword = "Start talking. Now!",
-						KeywordT = T(964842290636, --[[ModItemConversation Corazon_Defeated KeywordT]] "Начинай говорить. Живо!"),
+						KeywordT = T(964842290636, --[[ModItemConversation Corazon_Defeated KeywordT]] "Start talking. Now!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -22090,7 +21863,7 @@ return {
 							},
 							GoTo = "<root>",
 							Keyword = "Money",
-							KeywordT = T(400105882612, --[[ModItemConversation Corazon_Defeated KeywordT]] "Деньги"),
+							KeywordT = T(400105882612, --[[ModItemConversation Corazon_Defeated KeywordT]] "Money"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "CorazonSantiago",
@@ -22167,7 +21940,7 @@ return {
 							},
 							GoTo = "<root>",
 							Keyword = "Information",
-							KeywordT = T(802795382127, --[[ModItemConversation Corazon_Defeated KeywordT]] "Информация"),
+							KeywordT = T(802795382127, --[[ModItemConversation Corazon_Defeated KeywordT]] "Information"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "CorazonSantiago",
@@ -22240,7 +22013,7 @@ return {
 							},
 							GoTo = "<root>",
 							Keyword = "The truth",
-							KeywordT = T(704613799039, --[[ModItemConversation Corazon_Defeated KeywordT]] "Правда"),
+							KeywordT = T(704613799039, --[[ModItemConversation Corazon_Defeated KeywordT]] "The truth"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "CorazonSantiago",
@@ -22394,7 +22167,7 @@ return {
 						Enabled = false,
 						GoTo = "<end conversation>",
 						Keyword = "Die, bitch!",
-						KeywordT = T(583633837579, --[[ModItemConversation Corazon_Defeated KeywordT]] "Сдохни, стерва!"),
+						KeywordT = T(583633837579, --[[ModItemConversation Corazon_Defeated KeywordT]] "Die, bitch!"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -22466,11 +22239,11 @@ return {
 						Enabled = false,
 						GoTo = "<end conversation>",
 						Keyword = "Stay here. You are under arrest",
-						KeywordT = T(935043220528, --[[ModItemConversation Corazon_Defeated KeywordT]] "Ни с места. Вы арестованы"),
+						KeywordT = T(935043220528, --[[ModItemConversation Corazon_Defeated KeywordT]] "Stay here. You are under arrest"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-								Text = T(260179220430, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Start talking. Now!]] "Ладно, только не надо меня пытать. Я сказала, что готова вам помочь. Что вам нужно?"),
+								Text = T(260179220430, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Stay here. You are under arrest]] "Ладно, только не надо меня пытать. Я сказала, что готова вам помочь. Что вам нужно?"),
 								param_bindings = false,
 							}),
 						},
@@ -22502,7 +22275,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Leave this country",
-						KeywordT = T(367108794284, --[[ModItemConversation Corazon_Defeated KeywordT]] "Покинь эту страну"),
+						KeywordT = T(367108794284, --[[ModItemConversation Corazon_Defeated KeywordT]] "Leave this country"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -22727,7 +22500,7 @@ return {
 					Conditions = {
 						PlaceObj('PlayerIsInSectors', {
 							Sectors = {
-								"M7",
+								"J7",
 							},
 							param_bindings = false,
 						}),
@@ -22757,7 +22530,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
@@ -22799,7 +22572,7 @@ return {
 						Comment = "Forces combat with the legionaires",
 						GoTo = "CombatRedirect",
 						Keyword = "Let him go",
-						KeywordT = T(791279735899, --[[ModItemConversation Herman_1 KeywordT]] "Отпусти его"),
+						KeywordT = T(791279735899, --[[ModItemConversation Herman_1 KeywordT]] "Let him go"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -22876,7 +22649,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Get out of here",
-						KeywordT = T(118462598598, --[[ModItemConversation Herman_1 KeywordT]] "Проваливай отсюда"),
+						KeywordT = T(118462598598, --[[ModItemConversation Herman_1 KeywordT]] "Get out of here"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -22928,7 +22701,7 @@ return {
 						},
 						GoTo = "CombatRedirect",
 						Keyword = "Get out of here",
-						KeywordT = T(118462598598, --[[ModItemConversation Herman_1 KeywordT]] "Проваливай отсюда"),
+						KeywordT = T(118462598598, --[[ModItemConversation Herman_1 KeywordT]] "Get out of here"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -23015,7 +22788,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Die!",
-						KeywordT = T(482976736771, --[[ModItemConversation Jose_1 KeywordT]] "Умри!"),
+						KeywordT = T(482976736771, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider",
@@ -23035,7 +22808,7 @@ return {
 					Conditions = {
 						PlaceObj('PlayerIsInSectors', {
 							Sectors = {
-								"M7",
+								"J7",
 							},
 							param_bindings = false,
 						}),
@@ -23084,7 +22857,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Herman",
@@ -23148,7 +22921,7 @@ return {
 						},
 						GoTo = "WhatHappened",
 						Keyword = "What’s this all about?",
-						KeywordT = T(135476786296, --[[ModItemConversation Herman_2 KeywordT]] "Что происходит?"),
+						KeywordT = T(135476786296, --[[ModItemConversation Herman_2 KeywordT]] "What’s this all about?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Herman",
@@ -23180,7 +22953,7 @@ return {
 						},
 						GoTo = "WhatHappened",
 						Keyword = "Are you the one that was kidnapped by the Legion?",
-						KeywordT = T(165094455716, --[[ModItemConversation Herman_2 KeywordT]] "Это тебя, что ли, боевики похитили?"),
+						KeywordT = T(165094455716, --[[ModItemConversation Herman_2 KeywordT]] "Are you the one that was kidnapped by the Legion?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Herman",
@@ -23197,7 +22970,7 @@ return {
 						AutoRemove = true,
 						Enabled = false,
 						Keyword = "What happened?",
-						KeywordT = T(852875594479, --[[ModItemConversation Herman_2 KeywordT]] "Что произошло?"),
+						KeywordT = T(852875594479, --[[ModItemConversation Herman_2 KeywordT]] "What happened?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Herman",
@@ -23298,7 +23071,7 @@ return {
 								}),
 							},
 							Keyword = "Tell us...",
-							KeywordT = T(374820773907, --[[ModItemConversation Herman_2 KeywordT]] "Скажи-ка..."),
+							KeywordT = T(374820773907, --[[ModItemConversation Herman_2 KeywordT]] "Tell us..."),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Herman",
@@ -23328,7 +23101,7 @@ return {
 							},
 							Enabled = false,
 							Keyword = "How about Deedee?",
-							KeywordT = T(473243993904, --[[ModItemConversation Herman_2 KeywordT]] "А что насчет Диди?"),
+							KeywordT = T(473243993904, --[[ModItemConversation Herman_2 KeywordT]] "How about Deedee?"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -23463,7 +23236,7 @@ return {
 						PlaceObj('ConversationPhrase', {
 							Align = "right",
 							Keyword = "Goodbye",
-							KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+							KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Herman",
@@ -23557,7 +23330,7 @@ return {
 								},
 								GoTo = "<end conversation>",
 								Keyword = "Okay, we won't tell",
-								KeywordT = T(556241067985, --[[ModItemConversation Herman_2 KeywordT]] "Ладно, мы не скажем"),
+								KeywordT = T(556241067985, --[[ModItemConversation Herman_2 KeywordT]] "Okay, we won't tell"),
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "Herman",
@@ -23624,7 +23397,7 @@ return {
 								},
 								GoTo = "<end conversation>",
 								Keyword = "We can't promise",
-								KeywordT = T(666454699911, --[[ModItemConversation Herman_2 KeywordT]] "Обещать ничего не можем"),
+								KeywordT = T(666454699911, --[[ModItemConversation Herman_2 KeywordT]] "We can't promise"),
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "Herman",
@@ -23757,7 +23530,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -23774,7 +23547,7 @@ return {
 							Comment = "The honest answer. Beneficial game state effect?",
 							GoTo = "Greeting.Redirect",
 							Keyword = "Emma LaFontaine sent us",
-							KeywordT = T(254294094138, --[[ModItemConversation Ernie_Luc KeywordT]] "Нас послала Эмма Лафонтен"),
+							KeywordT = T(254294094138, --[[ModItemConversation Ernie_Luc KeywordT]] "Emma LaFontaine sent us"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Luc",
@@ -23793,7 +23566,7 @@ return {
 							Comment = "The evasive answer. Negative or mixed game state effect?",
 							GoTo = "Greeting.Redirect",
 							Keyword = "Prefer not to say",
-							KeywordT = T(711124650892, --[[ModItemConversation Ernie_Luc KeywordT]] "Это неважно"),
+							KeywordT = T(711124650892, --[[ModItemConversation Ernie_Luc KeywordT]] "Prefer not to say"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Luc",
@@ -23847,7 +23620,7 @@ return {
 								},
 								GoTo = "<root>",
 								Keyword = "We'll do our best to spare Pierre",
-								KeywordT = T(757955844485, --[[ModItemConversation Ernie_Luc KeywordT]] "Мы постараемся пощадить Пьера"),
+								KeywordT = T(757955844485, --[[ModItemConversation Ernie_Luc KeywordT]] "We'll do our best to spare Pierre"),
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "Luc",
@@ -23864,7 +23637,7 @@ return {
 								AutoRemove = true,
 								GoTo = "<root>",
 								Keyword = "Pierre is a criminal!",
-								KeywordT = T(708200830097, --[[ModItemConversation Ernie_Luc KeywordT]] "Пьер - преступник!"),
+								KeywordT = T(708200830097, --[[ModItemConversation Ernie_Luc KeywordT]] "Pierre is a criminal!"),
 								Lines = {
 									PlaceObj('ConversationInterjectionList', {
 										Interjections = {
@@ -23896,7 +23669,7 @@ return {
 								AutoRemove = true,
 								GoTo = "<end conversation>",
 								Keyword = "Goodbye",
-								KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+								KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "Luc",
@@ -23940,7 +23713,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -23972,7 +23745,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -24004,7 +23777,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -24036,7 +23809,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -24059,7 +23832,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -24082,7 +23855,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -24114,7 +23887,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -24140,7 +23913,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -24164,7 +23937,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -24190,7 +23963,7 @@ return {
 							}),
 						},
 						Keyword = "What's the story with Pierre?",
-						KeywordT = T(544983199891, --[[ModItemConversation Ernie_Luc KeywordT]] "В чем проблема Пьера?"),
+						KeywordT = T(544983199891, --[[ModItemConversation Ernie_Luc KeywordT]] "What's the story with Pierre?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -24227,7 +24000,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "What choices?",
-						KeywordT = T(974861477890, --[[ModItemConversation Ernie_Luc KeywordT]] "Что за выбор?"),
+						KeywordT = T(974861477890, --[[ModItemConversation Ernie_Luc KeywordT]] "What choices?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -24242,7 +24015,7 @@ return {
 						AutoRemove = true,
 						Enabled = false,
 						Keyword = 'Pierre is just "misguided"?',
-						KeywordT = T(440073674464, --[[ModItemConversation Ernie_Luc KeywordT]] "Пьер всего лишь «сбился с пути»?"),
+						KeywordT = T(440073674464, --[[ModItemConversation Ernie_Luc KeywordT]] 'Pierre is just "misguided"?'),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -24256,7 +24029,7 @@ return {
 					PlaceObj('ConversationPhrase', {
 						Enabled = false,
 						Keyword = "Tell us about Ernie Island",
-						KeywordT = T(982598344010, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "Расскажите нам об острове Эрни"),
+						KeywordT = T(982598344010, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "Tell us about Ernie Island"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -24280,7 +24053,7 @@ return {
 							}),
 						},
 						Keyword = "What happened to Tinhay?",
-						KeywordT = T(827591520302, --[[ModItemConversation Ernie_Luc KeywordT]] "Что произошло с Тинхеем?"),
+						KeywordT = T(827591520302, --[[ModItemConversation Ernie_Luc KeywordT]] "What happened to Tinhay?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -24318,7 +24091,7 @@ return {
 							}),
 						},
 						Keyword = "Have you seen some other mercenaries?",
-						KeywordT = T(641939906503, --[[ModItemConversation Ernie_Luc KeywordT]] "А других наемников, кроме нас, вы не видели?"),
+						KeywordT = T(641939906503, --[[ModItemConversation Ernie_Luc KeywordT]] "Have you seen some other mercenaries?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -24338,7 +24111,7 @@ return {
 						Align = "right",
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -24373,7 +24146,7 @@ return {
 						AutoRemove = true,
 						Comment = "first",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
@@ -24389,7 +24162,7 @@ return {
 							AutoRemove = true,
 							GoTo = "<root>",
 							Keyword = "Are you okay?",
-							KeywordT = T(242677370659, --[[ModItemConversation Deedee KeywordT]] "Вы в порядке?"),
+							KeywordT = T(242677370659, --[[ModItemConversation Deedee KeywordT]] "Are you okay?"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -24441,7 +24214,7 @@ return {
 							AutoRemove = true,
 							GoTo = "<root>",
 							Keyword = "Nice house...",
-							KeywordT = T(795796153744, --[[ModItemConversation Deedee KeywordT]] "Милый домик..."),
+							KeywordT = T(795796153744, --[[ModItemConversation Deedee KeywordT]] "Nice house..."),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -24493,7 +24266,7 @@ return {
 							AutoRemove = true,
 							GoTo = "<root>",
 							Keyword = "Watch out with that!",
-							KeywordT = T(279389344548, --[[ModItemConversation Deedee KeywordT]] "Эй, поосторожней с этим!"),
+							KeywordT = T(279389344548, --[[ModItemConversation Deedee KeywordT]] "Watch out with that!"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -24580,7 +24353,7 @@ return {
 						Align = "right",
 						Comment = "repeated",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
@@ -24601,7 +24374,7 @@ return {
 							}),
 						},
 						Keyword = "Do you sell explosives?",
-						KeywordT = T(822978725697, --[[ModItemConversation Deedee KeywordT]] "Ты продаешь взрывчатку?"),
+						KeywordT = T(822978725697, --[[ModItemConversation Deedee KeywordT]] "Do you sell explosives?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
@@ -24687,7 +24460,7 @@ return {
 							}),
 						},
 						Keyword = "We can improve the design",
-						KeywordT = T(327678778994, --[[ModItemConversation Deedee KeywordT]] "Мы можем усовершенствовать их конструкцию"),
+						KeywordT = T(327678778994, --[[ModItemConversation Deedee KeywordT]] "We can improve the design"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -24765,7 +24538,7 @@ return {
 							}),
 						},
 						Keyword = "Where do we find parts?",
-						KeywordT = T(885691479423, --[[ModItemConversation Deedee KeywordT]] "Где нам искать эти запчасти?"),
+						KeywordT = T(885691479423, --[[ModItemConversation Deedee KeywordT]] "Where do we find parts?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
@@ -24855,7 +24628,7 @@ return {
 							}),
 						},
 						Keyword = "Make us some explosives",
-						KeywordT = T(954966894269, --[[ModItemConversation Deedee KeywordT]] "Сделай нам взрывчатку"),
+						KeywordT = T(954966894269, --[[ModItemConversation Deedee KeywordT]] "Make us some explosives"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
@@ -24901,7 +24674,7 @@ return {
 							}),
 						},
 						Keyword = "Make us some explosives",
-						KeywordT = T(954966894269, --[[ModItemConversation Deedee KeywordT]] "Сделай нам взрывчатку"),
+						KeywordT = T(954966894269, --[[ModItemConversation Deedee KeywordT]] "Make us some explosives"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
@@ -24968,7 +24741,7 @@ return {
 							}),
 						},
 						Keyword = "Make us some explosives",
-						KeywordT = T(954966894269, --[[ModItemConversation Deedee KeywordT]] "Сделай нам взрывчатку"),
+						KeywordT = T(954966894269, --[[ModItemConversation Deedee KeywordT]] "Make us some explosives"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
@@ -25051,7 +24824,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "Make us some explosives",
-						KeywordT = T(954966894269, --[[ModItemConversation Deedee KeywordT]] "Сделай нам взрывчатку"),
+						KeywordT = T(954966894269, --[[ModItemConversation Deedee KeywordT]] "Make us some explosives"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
@@ -25101,7 +24874,7 @@ return {
 					}),
 					PlaceObj('ConversationPhrase', {
 						Keyword = "Tell us...",
-						KeywordT = T(374820773907, --[[ModItemConversation Herman_2 KeywordT]] "Скажи-ка..."),
+						KeywordT = T(374820773907, --[[ModItemConversation Herman_2 KeywordT]] "Tell us..."),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
@@ -25136,7 +24909,7 @@ return {
 								}),
 							},
 							Keyword = 'Why "Boombastic"?',
-							KeywordT = T(752664871428, --[[ModItemConversation Deedee KeywordT]] "Почему «Бомба»?"),
+							KeywordT = T(752664871428, --[[ModItemConversation Deedee KeywordT]] 'Why "Boombastic"?'),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
@@ -25252,7 +25025,7 @@ return {
 							},
 							Enabled = false,
 							Keyword = "Stop helping the Legion",
-							KeywordT = T(287963674293, --[[ModItemConversation Deedee KeywordT]] "Перестань помогать Легиону"),
+							KeywordT = T(287963674293, --[[ModItemConversation Deedee KeywordT]] "Stop helping the Legion"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
@@ -25359,7 +25132,7 @@ return {
 							},
 							Enabled = false,
 							Keyword = "Stop helping the Legion",
-							KeywordT = T(287963674293, --[[ModItemConversation Deedee KeywordT]] "Перестань помогать Легиону"),
+							KeywordT = T(287963674293, --[[ModItemConversation Deedee KeywordT]] "Stop helping the Legion"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
@@ -25423,7 +25196,7 @@ return {
 							},
 							Enabled = false,
 							Keyword = "What do you think of Basil?",
-							KeywordT = T(705309260165, --[[ModItemConversation Deedee KeywordT]] "Что ты думаешь о Базиле?"),
+							KeywordT = T(705309260165, --[[ModItemConversation Deedee KeywordT]] "What do you think of Basil?"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
@@ -25436,7 +25209,7 @@ return {
 						}),
 						PlaceObj('ConversationPhrase', {
 							Keyword = "Why explosives?",
-							KeywordT = T(401500426103, --[[ModItemConversation Deedee KeywordT]] "Зачем ты возишься с взрывчаткой?"),
+							KeywordT = T(401500426103, --[[ModItemConversation Deedee KeywordT]] "Why explosives?"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
@@ -25465,7 +25238,7 @@ return {
 						PlaceObj('ConversationPhrase', {
 							Align = "right",
 							Keyword = "Know anything about President LaFontaine?",
-							KeywordT = T(376227526518, --[[ModItemConversation Deedee KeywordT]] "Знаешь что-нибудь о президенте Лафонтене?"),
+							KeywordT = T(376227526518, --[[ModItemConversation Deedee KeywordT]] "Know anything about President LaFontaine?"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
@@ -25516,7 +25289,7 @@ return {
 						PlaceObj('ConversationPhrase', {
 							Align = "right",
 							Keyword = "Joke",
-							KeywordT = T(872949881697, --[[ModItemConversation Deedee KeywordT]] "Шутка"),
+							KeywordT = T(872949881697, --[[ModItemConversation Deedee KeywordT]] "Joke"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
@@ -25567,7 +25340,7 @@ return {
 						PlaceObj('ConversationPhrase', {
 							Align = "right",
 							Keyword = "Joke",
-							KeywordT = T(872949881697, --[[ModItemConversation Deedee KeywordT]] "Шутка"),
+							KeywordT = T(872949881697, --[[ModItemConversation Deedee KeywordT]] "Joke"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
@@ -25625,7 +25398,7 @@ return {
 								}),
 							},
 							Keyword = "Joke",
-							KeywordT = T(872949881697, --[[ModItemConversation Deedee KeywordT]] "Шутка"),
+							KeywordT = T(872949881697, --[[ModItemConversation Deedee KeywordT]] "Joke"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
@@ -25665,7 +25438,7 @@ return {
 							Comment = "explosion",
 							GoTo = "Chat.Jokeexplosion",
 							Keyword = "Joke",
-							KeywordT = T(872949881697, --[[ModItemConversation Deedee KeywordT]] "Шутка"),
+							KeywordT = T(872949881697, --[[ModItemConversation Deedee KeywordT]] "Joke"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
@@ -25698,7 +25471,7 @@ return {
 							Enabled = false,
 							GoTo = "<end conversation>",
 							Keyword = "Joke explosion",
-							KeywordT = T(689964284904, --[[ModItemConversation Deedee KeywordT]] "Шутка про взрыв"),
+							KeywordT = T(689964284904, --[[ModItemConversation Deedee KeywordT]] "Joke explosion"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -25735,7 +25508,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "Hands up!",
-						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Руки вверх!"),
+						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -25802,7 +25575,7 @@ return {
 							AutoRemove = true,
 							GoTo = "Handsup1.DieExplosion",
 							Keyword = "Die!",
-							KeywordT = T(482976736771, --[[ModItemConversation Jose_1 KeywordT]] "Умри!"),
+							KeywordT = T(482976736771, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -25874,7 +25647,7 @@ return {
 							Enabled = false,
 							GoTo = "<end conversation>",
 							Keyword = "Die Explosion",
-							KeywordT = T(145857667402, --[[ModItemConversation Deedee KeywordT]] "Последняя шутка"),
+							KeywordT = T(145857667402, --[[ModItemConversation Deedee KeywordT]] "Die Explosion"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
@@ -25898,7 +25671,7 @@ return {
 							},
 							GoTo = "<root>",
 							Keyword = "Sorry...",
-							KeywordT = T(386331047600, --[[ModItemConversation Deedee KeywordT]] "Извини..."),
+							KeywordT = T(386331047600, --[[ModItemConversation Deedee KeywordT]] "Sorry..."),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
@@ -25957,7 +25730,7 @@ return {
 						Enabled = false,
 						GoTo = "<end conversation>",
 						Keyword = "Hands up!",
-						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Руки вверх!"),
+						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
@@ -25972,7 +25745,7 @@ return {
 						Align = "right",
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
@@ -26029,7 +25802,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -26104,7 +25877,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -26118,7 +25891,7 @@ return {
 					PlaceObj('ConversationPhrase', {
 						Align = "right",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -26163,7 +25936,7 @@ return {
 							}),
 						},
 						Keyword = "Your husband?",
-						KeywordT = T(860938909352, --[[ModItemConversation Martha_1 KeywordT]] "Муженька?"),
+						KeywordT = T(860938909352, --[[ModItemConversation Martha_1 KeywordT]] "Your husband?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -26247,7 +26020,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "We'll look for your husband",
-						KeywordT = T(423073816095, --[[ModItemConversation Martha_1 KeywordT]] "Мы отыщем вашего мужа"),
+						KeywordT = T(423073816095, --[[ModItemConversation Martha_1 KeywordT]] "We'll look for your husband"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -26369,7 +26142,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "We'll save your husband!",
-						KeywordT = T(974936739438, --[[ModItemConversation Martha_1 KeywordT]] "Мы спасем вашего мужа!"),
+						KeywordT = T(974936739438, --[[ModItemConversation Martha_1 KeywordT]] "We'll save your husband!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -26454,7 +26227,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "We'll save your husband!",
-						KeywordT = T(974936739438, --[[ModItemConversation Martha_1 KeywordT]] "Мы спасем вашего мужа!"),
+						KeywordT = T(974936739438, --[[ModItemConversation Martha_1 KeywordT]] "We'll save your husband!"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -26583,7 +26356,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "We'll save your husband!",
-						KeywordT = T(974936739438, --[[ModItemConversation Martha_1 KeywordT]] "Мы спасем вашего мужа!"),
+						KeywordT = T(974936739438, --[[ModItemConversation Martha_1 KeywordT]] "We'll save your husband!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -26665,7 +26438,7 @@ return {
 							}),
 						},
 						Keyword = "We saved your husband!",
-						KeywordT = T(751563457207, --[[ModItemConversation Martha_1 KeywordT]] "Мы спасли вашего мужа!"),
+						KeywordT = T(751563457207, --[[ModItemConversation Martha_1 KeywordT]] "We saved your husband!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -26690,7 +26463,7 @@ return {
 						Enabled = false,
 						GoTo = "<end conversation>",
 						Keyword = "Nothing to worry about",
-						KeywordT = T(770555183079, --[[ModItemConversation Martha_1 KeywordT]] "Вам не о чем беспокоиться"),
+						KeywordT = T(770555183079, --[[ModItemConversation Martha_1 KeywordT]] "Nothing to worry about"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -26727,7 +26500,7 @@ return {
 						Enabled = false,
 						GoTo = "<end conversation>",
 						Keyword = "Herman has his little secrets",
-						KeywordT = T(379688955376, --[[ModItemConversation Martha_1 KeywordT]] "Герман кое-что от вас скрывает"),
+						KeywordT = T(379688955376, --[[ModItemConversation Martha_1 KeywordT]] "Herman has his little secrets"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -26765,7 +26538,7 @@ return {
 							}),
 						},
 						Keyword = "Deedee?",
-						KeywordT = T(202639740607, --[[ModItemConversation Martha_1 KeywordT]] "Диди?"),
+						KeywordT = T(202639740607, --[[ModItemConversation Martha_1 KeywordT]] "Deedee?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -26873,7 +26646,7 @@ return {
 							}),
 						},
 						Keyword = "Emerald Coast?",
-						KeywordT = T(754433106027, --[[ModItemConversation Martha_1 KeywordT]] "Изумрудного берега?"),
+						KeywordT = T(754433106027, --[[ModItemConversation Martha_1 KeywordT]] "Emerald Coast?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -26955,7 +26728,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "This is none of our business",
-						KeywordT = T(149459385888, --[[ModItemConversation Martha_1 KeywordT]] "Это не наше дело"),
+						KeywordT = T(149459385888, --[[ModItemConversation Martha_1 KeywordT]] "This is none of our business"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -27008,7 +26781,7 @@ return {
 						Enabled = false,
 						GoTo = "<end conversation>",
 						Keyword = "He's probably dead...",
-						KeywordT = T(336198083268, --[[ModItemConversation Martha_1 KeywordT]] "Его, наверное, уже нет в живых..."),
+						KeywordT = T(336198083268, --[[ModItemConversation Martha_1 KeywordT]] "He's probably dead..."),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -27061,7 +26834,7 @@ return {
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "Martha",
-												Text = T(801415165107, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll save your husband!]] "«Успокоиться»?! Я ВАМ ДАМ ЩАС «УСПОКОИТЬСЯ»!!!"),
+												Text = T(801415165107, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:He's probably dead...]] "«Успокоиться»?! Я ВАМ ДАМ ЩАС «УСПОКОИТЬСЯ»!!!"),
 												param_bindings = false,
 											}),
 										},
@@ -27079,7 +26852,7 @@ return {
 						Align = "right",
 						AutoRemove = true,
 						Keyword = "What about the President?",
-						KeywordT = T(572323098107, --[[ModItemConversation Martha_1 KeywordT]] "А что насчет президента?"),
+						KeywordT = T(572323098107, --[[ModItemConversation Martha_1 KeywordT]] "What about the President?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -27104,7 +26877,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -27120,7 +26893,7 @@ return {
 						Align = "right",
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -27191,7 +26964,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -27230,7 +27003,7 @@ return {
 							},
 							GoTo = "Greeting.Redirect",
 							Keyword = "We don't require payment",
-							KeywordT = T(411645963465, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Денег нам не нужно"),
+							KeywordT = T(411645963465, --[[ModItemConversation GreasyBasil_1 KeywordT]] "We don't require payment"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -27286,7 +27059,7 @@ return {
 							},
 							GoTo = "Greeting.Redirect",
 							Keyword = "We don't require payment",
-							KeywordT = T(411645963465, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Денег нам не нужно"),
+							KeywordT = T(411645963465, --[[ModItemConversation GreasyBasil_1 KeywordT]] "We don't require payment"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
@@ -27328,7 +27101,7 @@ return {
 							},
 							GoTo = "Greeting.Redirect",
 							Keyword = "You can spare some coin",
-							KeywordT = T(353350286540, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Что, правда не можете раскошелиться?"),
+							KeywordT = T(353350286540, --[[ModItemConversation GreasyBasil_1 KeywordT]] "You can spare some coin"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
@@ -27390,7 +27163,7 @@ return {
 							},
 							GoTo = "Greeting.Redirect",
 							Keyword = "You can spare some coin",
-							KeywordT = T(353350286540, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Что, правда не можете раскошелиться?"),
+							KeywordT = T(353350286540, --[[ModItemConversation GreasyBasil_1 KeywordT]] "You can spare some coin"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
@@ -27449,7 +27222,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -27472,7 +27245,7 @@ return {
 							},
 							GoTo = "<root>",
 							Keyword = "We will keep him in check",
-							KeywordT = T(813249244391, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Мы будем за ним следить"),
+							KeywordT = T(813249244391, --[[ModItemConversation GreasyBasil_1 KeywordT]] "We will keep him in check"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
@@ -27520,7 +27293,7 @@ return {
 							},
 							GoTo = "<root>",
 							Keyword = "We will keep him in check",
-							KeywordT = T(813249244391, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Мы будем за ним следить"),
+							KeywordT = T(813249244391, --[[ModItemConversation GreasyBasil_1 KeywordT]] "We will keep him in check"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
@@ -27565,7 +27338,7 @@ return {
 							},
 							GoTo = "<root>",
 							Keyword = "It is our decision to make",
-							KeywordT = T(520112077537, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Это нам решать"),
+							KeywordT = T(520112077537, --[[ModItemConversation GreasyBasil_1 KeywordT]] "It is our decision to make"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
@@ -27607,7 +27380,7 @@ return {
 							},
 							GoTo = "<root>",
 							Keyword = "All fools deserve a second chance",
-							KeywordT = T(510162300356, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Даже дурак заслуживает в жизни второй шанс"),
+							KeywordT = T(510162300356, --[[ModItemConversation GreasyBasil_1 KeywordT]] "All fools deserve a second chance"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
@@ -27654,7 +27427,7 @@ return {
 						},
 						GoTo = "MachineGunRedirect",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -27695,7 +27468,7 @@ return {
 						},
 						GoTo = "MachineGunRedirect",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -27733,7 +27506,7 @@ return {
 							},
 							GoTo = "<root>",
 							Keyword = "The machine gun is yours",
-							KeywordT = T(727261496902, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Пулемет теперь ваш"),
+							KeywordT = T(727261496902, --[[ModItemConversation GreasyBasil_1 KeywordT]] "The machine gun is yours"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
@@ -27811,7 +27584,7 @@ return {
 							},
 							GoTo = "<root>",
 							Keyword = "We'll keep it",
-							KeywordT = T(639346096962, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Нет, ребята. Пулемета я вам не дам"),
+							KeywordT = T(639346096962, --[[ModItemConversation GreasyBasil_1 KeywordT]] "We'll keep it"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
@@ -27913,7 +27686,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -27946,7 +27719,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -28024,7 +27797,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -28114,7 +27887,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -28183,7 +27956,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Annotation = "*spits on the ground*",
@@ -28243,7 +28016,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -28302,7 +28075,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -28360,7 +28133,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -28383,7 +28156,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -28426,7 +28199,7 @@ return {
 							}),
 						},
 						Keyword = "Someone was killed?",
-						KeywordT = T(147052177935, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Кого-то убили?"),
+						KeywordT = T(147052177935, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Someone was killed?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -28469,7 +28242,7 @@ return {
 							}),
 						},
 						Keyword = "What is the story with Pierre?",
-						KeywordT = T(599451640813, --[[ModItemConversation GreasyBasil_1 KeywordT]] "А что за история с Пьером?"),
+						KeywordT = T(599451640813, --[[ModItemConversation GreasyBasil_1 KeywordT]] "What is the story with Pierre?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -28524,7 +28297,7 @@ return {
 						AutoRemove = true,
 						Enabled = false,
 						Keyword = "Do you know anything about the President?",
-						KeywordT = T(352695465395, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Вам известно что-нибудь о президенте?"),
+						KeywordT = T(352695465395, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Do you know anything about the President?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -28566,7 +28339,7 @@ return {
 							}),
 						},
 						Keyword = "What kind of help do you need?",
-						KeywordT = T(937079771614, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Какого рода помощь вам нужна?"),
+						KeywordT = T(937079771614, --[[ModItemConversation GreasyBasil_1 KeywordT]] "What kind of help do you need?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -28687,7 +28460,7 @@ return {
 							}),
 						},
 						Keyword = "Is that all the help you need?",
-						KeywordT = T(657235691875, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Это вся помощь, какая вам нужна?"),
+						KeywordT = T(657235691875, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Is that all the help you need?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -28835,7 +28608,7 @@ return {
 							}),
 						},
 						Keyword = "Help us help you!",
-						KeywordT = T(396160119711, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Помогите нам помочь вам!"),
+						KeywordT = T(396160119711, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Help us help you!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -28907,7 +28680,7 @@ return {
 						Enabled = false,
 						GoTo = "MachineGunRedirect",
 						Keyword = "We have found a machine gun",
-						KeywordT = T(358178388614, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Мы нашли пулемет"),
+						KeywordT = T(358178388614, --[[ModItemConversation GreasyBasil_1 KeywordT]] "We have found a machine gun"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -28925,7 +28698,7 @@ return {
 							PlaceObj('SectorCheckOwner', {
 								Negate = true,
 								param_bindings = false,
-								sector_id = "H4",
+								sector_id = "I7",
 							}),
 							PlaceObj('QuestIsVariableBool', {
 								QuestId = "TakeTheFortress",
@@ -28960,7 +28733,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "Any advice on taking the Fort?",
-						KeywordT = T(505655354054, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Есть совет, как лучше штурмовать форт?"),
+						KeywordT = T(505655354054, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Any advice on taking the Fort?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -29014,7 +28787,7 @@ return {
 							PlaceObj('SectorCheckOwner', {
 								Negate = true,
 								param_bindings = false,
-								sector_id = "H4",
+								sector_id = "I7",
 							}),
 							PlaceObj('QuestIsVariableBool', {
 								QuestId = "TakeTheFortress",
@@ -29057,7 +28830,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "Any advice on taking the Fort?",
-						KeywordT = T(505655354054, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Есть совет, как лучше штурмовать форт?"),
+						KeywordT = T(505655354054, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Any advice on taking the Fort?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -29131,7 +28904,7 @@ return {
 							PlaceObj('SectorCheckOwner', {
 								Negate = true,
 								param_bindings = false,
-								sector_id = "H4",
+								sector_id = "I7",
 							}),
 							PlaceObj('QuestIsVariableBool', {
 								QuestId = "TakeTheFortress",
@@ -29175,7 +28948,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "Any advice on taking the Fort?",
-						KeywordT = T(505655354054, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Есть совет, как лучше штурмовать форт?"),
+						KeywordT = T(505655354054, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Any advice on taking the Fort?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -29262,7 +29035,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "What other mercs?",
-						KeywordT = T(369811196542, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Какие другие наемники?"),
+						KeywordT = T(369811196542, --[[ModItemConversation GreasyBasil_1 KeywordT]] "What other mercs?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -29371,7 +29144,7 @@ return {
 							}),
 						},
 						Keyword = "We'll need a ride",
-						KeywordT = T(242175640491, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Нам понадобится транспорт"),
+						KeywordT = T(242175640491, --[[ModItemConversation GreasyBasil_1 KeywordT]] "We'll need a ride"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -29460,7 +29233,7 @@ return {
 							}),
 						},
 						Keyword = "We'll need a ride",
-						KeywordT = T(242175640491, --[[ModItemConversation GreasyBasil_1 KeywordT]] "Нам понадобится транспорт"),
+						KeywordT = T(242175640491, --[[ModItemConversation GreasyBasil_1 KeywordT]] "We'll need a ride"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -29508,7 +29281,7 @@ return {
 						Align = "right",
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -29526,7 +29299,7 @@ return {
 						Align = "right",
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -29603,7 +29376,7 @@ return {
 						},
 						GoTo = "GreetingInterjectionsRedirect",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -29665,11 +29438,11 @@ return {
 						},
 						GoTo = "GreetingInterjectionsRedirect",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-								Text = T(251750465153, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Greeting]] "Ты был моим другом, Люк. И другом <em>Тинхея</em>. В том, что случилось, виноват ты."),
+								Text = T(251750465153, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Greeting2]] "Ты был моим другом, Люк. И другом <em>Тинхея</em>. В том, что случилось, виноват ты."),
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
@@ -29759,7 +29532,7 @@ return {
 					}),
 					PlaceObj('ConversationPhrase', {
 						Keyword = "What's going on?",
-						KeywordT = T(532166642949, --[[ModItemConversation GreasyBasil_2 KeywordT]] "Что происходит?"),
+						KeywordT = T(532166642949, --[[ModItemConversation GreasyBasil_2 KeywordT]] "What's going on?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -29797,7 +29570,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "This is none of our business",
-						KeywordT = T(149459385888, --[[ModItemConversation Martha_1 KeywordT]] "Это не наше дело"),
+						KeywordT = T(149459385888, --[[ModItemConversation Martha_1 KeywordT]] "This is none of our business"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -29891,7 +29664,7 @@ return {
 						Align = "right",
 						Comment = "Do we make 2 versions of this only with different keyword? - Herman did it (break the deal)",
 						Keyword = "Herman did it!",
-						KeywordT = T(161338962307, --[[ModItemConversation GreasyBasil_2 KeywordT]] "Это был Герман!"),
+						KeywordT = T(161338962307, --[[ModItemConversation GreasyBasil_2 KeywordT]] "Herman did it!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -30011,7 +29784,7 @@ return {
 							},
 							GoTo = "<end conversation>",
 							Keyword = "Spare Herman",
-							KeywordT = T(406265648723, --[[ModItemConversation GreasyBasil_2 KeywordT]] "Не убивайте Германа"),
+							KeywordT = T(406265648723, --[[ModItemConversation GreasyBasil_2 KeywordT]] "Spare Herman"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -30108,7 +29881,7 @@ return {
 							},
 							GoTo = "<end conversation>",
 							Keyword = "Herman should hang",
-							KeywordT = T(798197434685, --[[ModItemConversation GreasyBasil_2 KeywordT]] "Герман заслужил виселицу"),
+							KeywordT = T(798197434685, --[[ModItemConversation GreasyBasil_2 KeywordT]] "Herman should hang"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
@@ -30241,7 +30014,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_L1",
@@ -30309,7 +30082,7 @@ return {
 					}),
 					PlaceObj('ConversationPhrase', {
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_L1",
@@ -30355,7 +30128,7 @@ return {
 					PlaceObj('ConversationPhrase', {
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_L1",
@@ -30383,7 +30156,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Annotation = '"Mala\'dets" - meaning champion',
@@ -30470,7 +30243,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Annotation = '"I respect you"',
@@ -30580,7 +30353,7 @@ return {
 						},
 						GoTo = "Greeting2.2",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Doctor_Leevsy",
@@ -30605,7 +30378,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Doctor_Leevsy",
@@ -30641,7 +30414,7 @@ return {
 					PlaceObj('ConversationPhrase', {
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Doctor_Leevsy",
@@ -30667,7 +30440,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergant_Immortal",
@@ -30810,7 +30583,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergant_Immortal",
@@ -30945,7 +30718,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_M1",
@@ -30972,7 +30745,7 @@ return {
 						},
 						GoTo = "2",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_M1",
@@ -31170,7 +30943,7 @@ return {
 							},
 							GoTo = "<end conversation>",
 							Keyword = "Goodbye",
-							KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+							KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "RebelSergeant_Immortal_M1",
@@ -31211,7 +30984,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
@@ -31260,7 +31033,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
@@ -31417,7 +31190,7 @@ return {
 					PlaceObj('ConversationPhrase', {
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
@@ -32417,19 +32190,16 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "B1",
-					'modId', "FhNNYd",
-					'RunLoyaltyLogic', false,
-					'display_name', T(486135950365, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B1]] "Море"),
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B1]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Water",
 					'Passability', "Water",
-					'discovered', false,
 					'Intel', false,
-					'bidirectionalRoadApply', true,
 					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "B10",
@@ -32649,6 +32419,19 @@ return {
 					'combatTaskAmount', 2,
 				}),
 				PlaceObj('SatelliteSector', {
+					'Id', "B2",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B2]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
 					'Id', "B20",
 					'Map', "B-20 - Clifftop Camp",
 					'MapTier', 40,
@@ -32835,6 +32618,19 @@ return {
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
+					'Id', "B3",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B3]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
 					'Id', "B30",
 					'Label1', "Blocked",
 					'Side', "neutral",
@@ -32942,6 +32738,19 @@ return {
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Savanna_Conflict",
 					'MusicExploration', "Savanna_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "C1",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C1]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "C10",
@@ -33175,6 +32984,19 @@ return {
 					'BlockTravel', set({
 	East = false,
 }),
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "C2",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C2]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -33580,6 +33402,19 @@ return {
 					'bidirectionalBlockApply', true,
 				}),
 				PlaceObj('SatelliteSector', {
+					'Id', "C5",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C5]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
 					'Id', "C6",
 					'Map', "pEfrj37",
 					'MapTier', 10,
@@ -33793,6 +33628,19 @@ return {
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Wasteland_Conflict",
 					'MusicExploration', "Wasteland_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "D1",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D1]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "D10",
@@ -34106,6 +33954,19 @@ return {
 					'image', "UI/SatelliteView/SectorImages/D19",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Jungle_Conflict",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "D2",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D2]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "D20",
@@ -34458,6 +34319,19 @@ return {
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
+					'Id', "D6",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D6]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
 					'Id', "D7",
 					'Map', "hjqPcAS",
 					'MapTier', 10,
@@ -34547,6 +34421,19 @@ return {
 					'combatTaskGenerate', "afterFirstConflict",
 				}),
 				PlaceObj('SatelliteSector', {
+					'Id', "E1",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E1]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
 					'Id', "E10",
 					'Map', "upzf6Nc",
 					'MapTier', 30,
@@ -34561,7 +34448,7 @@ return {
 						"D8",
 						"E9",
 						"C5",
-						"I10",
+						"K15",
 						"A2",
 						"D6",
 						"D10",
@@ -34623,7 +34510,7 @@ return {
 						"D8",
 						"E9",
 						"C5",
-						"I10",
+						"K15",
 						"A2",
 						"D6",
 						"D10",
@@ -35017,6 +34904,19 @@ return {
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
+					'Id', "E2",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E2]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
 					'Id', "E20",
 					'Label1', "Blocked",
 					'Side', "neutral",
@@ -35245,6 +35145,32 @@ return {
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
+					'Id', "E6",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E6]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "E7",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E7]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
 					'Id', "E8",
 					'Map', "tjjoSpt",
 					'MapTier', 10,
@@ -35260,6 +35186,9 @@ return {
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	South = false,
+}),
 					'image', "UI/SatelliteView/SectorImages/C03",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Savanna_Conflict",
@@ -35302,6 +35231,19 @@ return {
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Savanna_Conflict",
 					'MusicExploration', "Savanna_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "F1",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F1]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "F10",
@@ -36205,6 +36147,19 @@ return {
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
+					'Id', "F2",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F2]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
 					'Id', "F20",
 					'Map', "Qy5dqDn",
 					'MapTier', 20,
@@ -36720,6 +36675,19 @@ return {
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
+					'Id', "F3",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F3]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
 					'Id', "F30",
 					'Label1', "Blocked",
 					'Side', "neutral",
@@ -36751,6 +36719,59 @@ return {
 					'TerrainType', "Highlands",
 					'Passability', "Blocked",
 					'Intel', false,
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "F4",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F4]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "F5",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F5]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "F6",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F6]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "F7",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F7]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'BlockTravel', set( "East" ),
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -36792,6 +36813,7 @@ return {
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set( "West" ),
 					'image', "UI/SatelliteView/SectorImages/I07",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Savanna_Conflict",
@@ -36833,10 +36855,26 @@ return {
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	West = false,
+}),
 					'image', "UI/SatelliteView/SectorImages/D05",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Savanna_Conflict",
 					'MusicExploration', "Savanna_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "G1",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G1]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "G10",
@@ -37232,6 +37270,19 @@ return {
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
+					'Id', "G2",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G2]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
 					'Id', "G21",
 					'Label1', "Blocked",
 					'Side', "neutral",
@@ -37261,10 +37312,10 @@ return {
 						"D18",
 						"F19",
 						"F13",
-						"H14",
+						"P17",
 						"I18",
 						"I19",
-						"H8",
+						"H18",
 					},
 					'ExtraDefenderSquads', {
 						"LegionExtraDefenders_Ordnance_Easy",
@@ -37662,6 +37713,19 @@ return {
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
+					'Id', "G3",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G3]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
 					'Id', "G30",
 					'Map', "gRtnwGb",
 					'MapTier', 20,
@@ -37838,76 +37902,72 @@ return {
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
-					'Id', "G5",
-					'Map', "false",
-					'modId', "FhNNYd",
-					'RunLoyaltyLogic', false,
-					'display_name', T(474123674046, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G5]] "Море"),
+					'Id', "G4",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G4]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Water",
 					'Passability', "Water",
-					'discovered', false,
 					'Intel', false,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
 					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "G5",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G5]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "G6",
-					'Map', "false",
-					'modId', "FhNNYd",
-					'RunLoyaltyLogic', false,
-					'display_name', T(425352677354, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G6]] "Море"),
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G6]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Water",
 					'Passability', "Water",
-					'discovered', false,
 					'Intel', false,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
 					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "G7",
-					'Map', "false",
-					'modId', "FhNNYd",
-					'RunLoyaltyLogic', false,
-					'display_name', T(751493558101, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G7]] "Море"),
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G7]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Water",
 					'Passability', "Water",
-					'discovered', false,
 					'Intel', false,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
 					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "G8",
-					'Map', "false",
-					'modId', "FhNNYd",
-					'RunLoyaltyLogic', false,
-					'display_name', T(598537018046, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G8]] "Море"),
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G8]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Water",
 					'Passability', "Water",
-					'discovered', false,
 					'Intel', false,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	North = false,
+}),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "G8_Underground",
@@ -38014,6 +38074,19 @@ return {
 					'MusicConflict', "Savanna_Conflict",
 					'MusicExploration', "Savanna_Exploration",
 					'combatTaskAmount', 3,
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "H1",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H1]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "H10",
@@ -38138,144 +38211,6 @@ return {
 }),
 					'bidirectionalBlockApply', true,
 					'image', "UI/SatelliteView/SectorImages/G07",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Savanna_Conflict",
-					'MusicExploration', "Savanna_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "H14",
-					'Map', "gULjNxW",
-					'MapTier', 10,
-					'Label1', "Mine",
-					'modId', "FhNNYd",
-					'display_name', T(182607269744, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H14]] "Шахта Мфуму"),
-					'WeatherZone', "SavannahSouth",
-					'City', "Fleatown",
-					'Mine', true,
-					'DailyIncome', 7000,
-					'Depletion', true,
-					'DepletionTime', 500,
-					'Militia', true,
-					'MaxMilitia', 12,
-					'ForceConflict', true,
-					'InitialSquads', {
-						"LegionDefenders_Mobile_Easy",
-						"LegionDefenders_Mobile_Easy",
-						"LegionExtraDefenders_Balanced_Easy",
-						"LegionHeavyTroops",
-						"LegionJAZZSquadT2",
-					},
-					'bidirectionalRoadApply', true,
-					'Roads', set({
-	East = false,
-	North = false,
-	South = true,
-	West = true,
-}),
-					'bidirectionalBlockApply', true,
-					'BlockTravel', set({
-	East = false,
-	North = false,
-	South = false,
-	West = false,
-}),
-					'image', "UI/SatelliteView/SectorImages/H07",
-					'CanBeUsedForArrival', true,
-					'BobbyRayDeliveryCostMultiplier', 130,
-					'SectorImagePreview', "UI/PDA/ss_h7",
-					'DBSourceSector', true,
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Savanna_Conflict",
-					'MusicExploration', "Savanna_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "H14",
-					'Map', "gULjNxW",
-					'MapTier', 10,
-					'Label1', "Mine",
-					'modId', "FhNNYd",
-					'display_name', T(182607269744, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H14]] "Шахта Мфуму"),
-					'WeatherZone', "SavannahSouth",
-					'City', "Fleatown",
-					'Mine', true,
-					'DailyIncome', 7000,
-					'Depletion', true,
-					'DepletionTime', 500,
-					'Militia', true,
-					'MaxMilitia', 12,
-					'ForceConflict', true,
-					'InitialSquads', {
-						"LegionDefenders_Mobile_Easy",
-						"LegionDefenders_Mobile_Easy",
-						"LegionExtraDefenders_Balanced_Easy",
-						"LegionHeavyTroops",
-						"LegionJAZZSquadT2",
-					},
-					'bidirectionalRoadApply', true,
-					'Roads', set({
-	East = false,
-	North = false,
-	South = true,
-	West = true,
-}),
-					'bidirectionalBlockApply', true,
-					'BlockTravel', set({
-	East = false,
-	North = false,
-	South = false,
-	West = false,
-}),
-					'image', "UI/SatelliteView/SectorImages/H07",
-					'CanBeUsedForArrival', true,
-					'BobbyRayDeliveryCostMultiplier', 130,
-					'SectorImagePreview', "UI/PDA/ss_h7",
-					'DBSourceSector', true,
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Savanna_Conflict",
-					'MusicExploration', "Savanna_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "H14",
-					'Map', "gULjNxW",
-					'MapTier', 10,
-					'Label1', "Mine",
-					'modId', "FhNNYd",
-					'display_name', T(182607269744, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H14]] "Шахта Мфуму"),
-					'WeatherZone', "SavannahSouth",
-					'City', "Fleatown",
-					'Mine', true,
-					'DailyIncome', 7000,
-					'Depletion', true,
-					'DepletionTime', 500,
-					'Militia', true,
-					'MaxMilitia', 12,
-					'ForceConflict', true,
-					'InitialSquads', {
-						"LegionDefenders_Mobile_Easy",
-						"LegionDefenders_Mobile_Easy",
-						"LegionExtraDefenders_Balanced_Easy",
-						"LegionHeavyTroops",
-						"LegionJAZZSquadT2",
-					},
-					'bidirectionalRoadApply', true,
-					'Roads', set({
-	East = false,
-	North = false,
-	South = true,
-	West = true,
-}),
-					'bidirectionalBlockApply', true,
-					'BlockTravel', set({
-	East = false,
-	North = false,
-	South = false,
-	West = false,
-}),
-					'image', "UI/SatelliteView/SectorImages/H07",
-					'CanBeUsedForArrival', true,
-					'BobbyRayDeliveryCostMultiplier', 130,
-					'SectorImagePreview', "UI/PDA/ss_h7",
-					'DBSourceSector', true,
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Savanna_Conflict",
 					'MusicExploration', "Savanna_Exploration",
@@ -38579,6 +38514,19 @@ return {
 					'MusicExploration', "Village_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
+					'Id', "H2",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H2]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
 					'Id', "H20",
 					'Label1', "Blocked",
 					'display_name', T(337984969444, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H20]] "Река"),
@@ -38800,6 +38748,19 @@ return {
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
+					'Id', "H3",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H3]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
 					'Id', "H30",
 					'Map', "fSajNbs",
 					'MapTier', 30,
@@ -38952,113 +38913,110 @@ return {
 					'MusicCombat', "Battle_Normal",
 					'MusicExploration', "Village_Exploration",
 					'combatTaskAmount', 2,
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "H4",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H4]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "H5",
-					'Map', "false",
-					'modId', "FhNNYd",
-					'RunLoyaltyLogic', false,
-					'display_name', T(454365463215, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H5]] "Море"),
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H5]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Water",
 					'Passability', "Water",
-					'discovered', false,
 					'Intel', false,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
-					'BlockTravel', set({
-	East = false,
-	North = false,
-	South = false,
-}),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "H6",
-					'Map', "false",
-					'modId', "FhNNYd",
-					'RunLoyaltyLogic', false,
-					'display_name', T(965161379819, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H6]] "Море"),
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H6]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Water",
 					'Passability', "Water",
-					'discovered', false,
 					'Intel', false,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
-					'BlockTravel', set({
-	East = false,
-	North = false,
-	South = true,
-	West = false,
-}),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "H7",
-					'Map', "uEv6fcx",
-					'modId', "false",
-					'RunLoyaltyLogic', false,
-					'display_name', T(616765814267, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H7]] "Море"),
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H7]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Water",
 					'Passability', "Water",
-					'discovered', false,
 					'Intel', false,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
-					'BlockTravel', set({
-	East = false,
-	North = false,
-	South = false,
-	West = false,
-}),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "H8",
-					'Map', "false",
-					'modId', "FhNNYd",
-					'RunLoyaltyLogic', false,
-					'display_name', T(291045680730, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H8]] "Море"),
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H8]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Water",
 					'Passability', "Water",
-					'discovered', false,
 					'Intel', false,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
 					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "H9",
-					'Map', "false",
-					'modId', "FhNNYd",
-					'RunLoyaltyLogic', false,
-					'display_name', T(571483372008, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H9]] "Море"),
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H9]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Water",
 					'Passability', "Water",
-					'discovered', false,
 					'Intel', false,
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
 					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'combatTaskGenerate', "never",
-					'combatTaskAmount', 0,
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "I1",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I1]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "I10",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I10]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "I11",
@@ -40424,7 +40382,7 @@ return {
 					'BlockTravel', {
 						East = true,
 						North = false,
-						South = true,
+						South = false,
 						West = false,
 					},
 					'BlockTravelRiver', set( "East", "North", "South" ),
@@ -40696,10 +40654,7 @@ return {
 						"FortressPierre",
 						"FortressDefenders",
 						"LegionFortressDefenders",
-						"LegionExtraSquadFireArms",
-						"LegionExtraSquadMeleeV2",
 						"LegionAttackers_Ordnance_Easy",
-						"LegionExtraSquadFireArms",
 					},
 					'CustomConflictDescr', "I7_TheFortress_Initial",
 					'MinFlareCarriers', 5,
@@ -40715,7 +40670,7 @@ return {
 					'BlockTravel', {
 						East = true,
 						North = false,
-						South = true,
+						South = false,
 						West = false,
 					},
 					'BlockTravelRiver', set( "East", "North", "South" ),
@@ -40837,6 +40792,71 @@ return {
 					'MusicCombat', "Battle_Tough",
 					'MusicConflict', "Underground_Conflict",
 					'MusicExploration', "Underground_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "I8",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I8]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "I9",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I9]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "J1",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J1]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "J10",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J10]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+								PlaceObj('SatelliteSector', {
+					'Id', "J11",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J10]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "J12",
@@ -41913,12 +41933,14 @@ return {
 					'MaxFlareCarriers', 11,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
+	East = false,
 	North = false,
 	South = false,
 	West = true,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
+	East = false,
 	North = true,
 	South = false,
 	West = false,
@@ -41942,12 +41964,99 @@ return {
 					'Roads', set({
 	East = false,
 	North = false,
+	South = false,
+	West = false,
+}),
+					'bidirectionalBlockApply', true,
+					'BlockTravel', {
+						East = false,
+						North = false,
+						South = false,
+						West = false,
+					},
+					'image', "UI/SatelliteView/SectorImages/I03",
+					'Events', {
+						PlaceObj('SE_OnSquadReachSectorCenter', {
+							'Conditions', {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "02_LiberateErnie",
+									Vars = set( "Completed" ),
+								}),
+								PlaceObj('UnitHireStatus', {
+									Status = "Hired",
+									TargetUnit = "Raven",
+								}),
+								PlaceObj('UnitHireStatus', {
+									Status = "Hired",
+									TargetUnit = "Raider",
+								}),
+							},
+						}),
+						PlaceObj('SE_OnEnterMapVisual', {
+							'Conditions', {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "RescueHerMan",
+									Vars = set({
+	Failed = false,
+	HermanRescued = false,
+}),
+								}),
+							},
+							'SequentialEffects', true,
+							'Effects', {
+								PlaceObj('NeutralNPCDontMove', {
+									TargetUnit = "Herman",
+								}),
+								PlaceObj('PlaySetpiece', {
+									setpiece = "EncounterHerman",
+								}),
+							},
+						}),
+						PlaceObj('SE_OnEnterMap', {
+							'Conditions', {
+								PlaceObj('SectorHasIntel', {
+									sector_id = "J7",
+								}),
+							},
+							'Effects', {
+								PlaceObj('ModifyTrapSpawnersEffect', {
+									Group = "StartingMinefield",
+									SpawnActive = "enable",
+									disarmDifficulty = "Easy",
+									visibility = set( "enemy1", "enemy2", "enemyNeutral", "neutral", "player1", "player2" ),
+								}),
+							},
+						}),
+					},
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Ernie_Conflict",
+					'MusicExploration', "Ernie_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "J7",
+					'Map', "mvoLckN",
+					'MapTier', 40,
+					'Label1', "Ernie",
+					'modId', "FhNNYd",
+					'display_name', T(844229616670, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J7]] "Изумрудный берег"),
+					'TerrainType', "Jungle",
+					'WeatherZone', "Erny",
+					'TargetSectors', {
+						"J5",
+					},
+					'InterestingSector', true,
+					'bidirectionalRoadApply', true,
+					'Roads', set({
+	East = false,
+	North = false,
+	South = false,
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
 						East = true,
-						North = true,
+						North = false,
+						South = false,
 						West = false,
 					},
 					'image', "UI/SatelliteView/SectorImages/I03",
@@ -41992,6 +42101,90 @@ return {
 							'Conditions', {
 								PlaceObj('SectorHasIntel', {
 									sector_id = "I3",
+								}),
+							},
+							'Effects', {
+								PlaceObj('ModifyTrapSpawnersEffect', {
+									Group = "StartingMinefield",
+									SpawnActive = "enable",
+									disarmDifficulty = "Easy",
+									visibility = set( "enemy1", "enemy2", "enemyNeutral", "neutral", "player1", "player2" ),
+								}),
+							},
+						}),
+					},
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Ernie_Conflict",
+					'MusicExploration', "Ernie_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "J7",
+					'Map', "mvoLckN",
+					'MapTier', 40,
+					'Label1', "Ernie",
+					'modId', "FhNNYd",
+					'display_name', T(844229616670, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J7]] "Изумрудный берег"),
+					'TerrainType', "Jungle",
+					'WeatherZone', "Erny",
+					'TargetSectors', {
+						"J5",
+					},
+					'InterestingSector', true,
+					'bidirectionalRoadApply', true,
+					'Roads', set({
+	East = false,
+	North = false,
+	West = false,
+}),
+					'bidirectionalBlockApply', true,
+					'BlockTravel', {
+						East = false,
+						North = false,
+						South = true,
+						West = false,
+					},
+					'image', "UI/SatelliteView/SectorImages/I03",
+					'Events', {
+						PlaceObj('SE_OnSquadReachSectorCenter', {
+							'Conditions', {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "02_LiberateErnie",
+									Vars = set( "Completed" ),
+								}),
+								PlaceObj('UnitHireStatus', {
+									Status = "Hired",
+									TargetUnit = "Raven",
+								}),
+								PlaceObj('UnitHireStatus', {
+									Status = "Hired",
+									TargetUnit = "Raider",
+								}),
+							},
+						}),
+						PlaceObj('SE_OnEnterMapVisual', {
+							'Conditions', {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "RescueHerMan",
+									Vars = set({
+	Failed = false,
+	HermanRescued = false,
+}),
+								}),
+							},
+							'SequentialEffects', true,
+							'Effects', {
+								PlaceObj('NeutralNPCDontMove', {
+									TargetUnit = "Herman",
+								}),
+								PlaceObj('PlaySetpiece', {
+									setpiece = "EncounterHerman",
+								}),
+							},
+						}),
+						PlaceObj('SE_OnEnterMap', {
+							'Conditions', {
+								PlaceObj('SectorHasIntel', {
+									sector_id = "J7",
 								}),
 							},
 							'Effects', {
@@ -42087,6 +42280,71 @@ return {
 							},
 						}),
 					},
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Ernie_Conflict",
+					'MusicExploration', "Ernie_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "J8",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J8]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "J9",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J8]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "K1",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K1]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "K10",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K10]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "K11",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K10]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -42388,7 +42646,7 @@ return {
 					'TargetSectors', {
 						"D18",
 						"I18",
-						"H14",
+						"P17",
 						"I19",
 						"L18",
 						"O16",
@@ -42467,7 +42725,7 @@ return {
 					'TargetSectors', {
 						"D18",
 						"I18",
-						"H14",
+						"P17",
 						"I19",
 						"L18",
 						"O16",
@@ -43021,21 +43279,38 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "K7",
+					'Map', "XgdUCn7",
+					'modId', "FhNNYd",
+					'bidirectionalRoadApply', true,
+					'Roads', set({
+	East = true,
+	North = false,
+	South = false,
+	West = false,
+}),
+					'bidirectionalBlockApply', true,
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "K8",
 					'Label1', "Blocked",
-					'display_name', T(661259624010, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K7]] "Море"),
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K8]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
 					'Intel', false,
-					'Roads', set({
-	East = false,
-	South = false,
-	West = false,
-}),
-					'BlockTravel', set({
-	South = false,
-	West = false,
-}),
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "K9",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K9]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
 					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
@@ -43095,6 +43370,19 @@ return {
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
+					'Id', "L10",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L10]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
 					'Id', "L11",
 					'Map', "V4PtNEt",
 					'modId', "FhNNYd",
@@ -43137,9 +43425,9 @@ return {
 						"J13",
 						"J14",
 						"F13",
-						"I10",
+						"K15",
 						"A2",
-						"H14",
+						"P17",
 						"O16",
 					},
 					'ExtraDefenderSquads', {
@@ -43233,9 +43521,9 @@ return {
 						"J13",
 						"J14",
 						"F13",
-						"I10",
+						"K15",
 						"A2",
-						"H14",
+						"P17",
 						"O16",
 					},
 					'ExtraDefenderSquads', {
@@ -43570,14 +43858,14 @@ return {
 						East = true,
 						North = false,
 						South = false,
-						West = true,
+						West = false,
 					},
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
 	North = false,
 	South = false,
-	West = false,
+	West = true,
 }),
 					'image', "UI/SatelliteView/SectorImages/K12",
 					'MusicCombat', "Battle_Normal",
@@ -43585,15 +43873,29 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L27",
-					'Label1', "Blocked",
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
-					'Intel', false,
+					'Map', "YbeGv36",
+					'MapTier', 20,
+					'modId', "FhNNYd",
+					'display_name', T(913920875470, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L27]] "Великий лес"),
+					'TerrainType', "Jungle",
+					'WeatherZone', "SouthJungle",
+					'bidirectionalRoadApply', true,
+					'Roads', {
+						East = true,
+						North = false,
+						South = false,
+						West = false,
+					},
+					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = false,
+	North = false,
+	South = false,
+	West = true,
+}),
+					'image', "UI/SatelliteView/SectorImages/K12",
 					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
+					'MusicConflict', "Jungle_Conflict",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L28",
@@ -43773,6 +44075,7 @@ return {
 	South = false,
 	West = false,
 }),
+					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
 	North = false,
@@ -43816,10 +44119,37 @@ return {
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
+	East = true,
 	North = false,
 	South = false,
 	West = false,
 }),
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "L8",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L8]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "L9",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L9]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M1",
@@ -43945,76 +44275,6 @@ return {
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
-					'Id', "M15",
-					'MapTier', 30,
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M15]] "River"),
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Swamp",
-					'Passability', "Water",
-					'Intel', false,
-					'image', "UI/SatelliteView/SectorImages/_River",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "M16",
-					'MapTier', 30,
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M16]] "River"),
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Swamp",
-					'Passability', "Water",
-					'Intel', false,
-					'image', "UI/SatelliteView/SectorImages/_River",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "M17",
-					'MapTier', 30,
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M17]] "River"),
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Swamp",
-					'Passability', "Water",
-					'Intel', false,
-					'image', "UI/SatelliteView/SectorImages/_River",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "M18",
-					'MapTier', 30,
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M18]] "River"),
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Swamp",
-					'Passability', "Water",
-					'Intel', false,
-					'image', "UI/SatelliteView/SectorImages/_River",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "M19",
-					'MapTier', 30,
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M19]] "River"),
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Swamp",
-					'Passability', "Water",
-					'Intel', false,
-					'image', "UI/SatelliteView/SectorImages/_River",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
 					'Id', "M2",
 					'Map', "qRiCMTo",
 					'modId', "FhNNYd",
@@ -44084,20 +44344,6 @@ return {
 					'Id', "M23",
 					'MapTier', 30,
 					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M23]] "River"),
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Swamp",
-					'Passability', "Water",
-					'Intel', false,
-					'image', "UI/SatelliteView/SectorImages/_River",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "M24",
-					'MapTier', 30,
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M24]] "River"),
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -44360,99 +44606,69 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M7",
-					'Map', "mvoLckN",
-					'MapTier', 40,
-					'Label1', "Ernie",
-					'modId', "FhNNYd",
-					'display_name', T(844229616670, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M7]] "Изумрудный берег"),
-					'TerrainType', "Jungle",
-					'WeatherZone', "Erny",
-					'TargetSectors', {
-						"J5",
-					},
-					'InterestingSector', true,
-					'bidirectionalRoadApply', true,
-					'Roads', set({
-	East = false,
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M7]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'BlockTravel', set({
 	North = false,
 	West = false,
 }),
-					'bidirectionalBlockApply', true,
-					'BlockTravel', {
-						East = false,
-						North = false,
-						South = true,
-						West = false,
-					},
-					'image', "UI/SatelliteView/SectorImages/I03",
-					'Events', {
-						PlaceObj('SE_OnSquadReachSectorCenter', {
-							'Conditions', {
-								PlaceObj('QuestIsVariableBool', {
-									QuestId = "02_LiberateErnie",
-									Vars = set( "Completed" ),
-								}),
-								PlaceObj('UnitHireStatus', {
-									Status = "Hired",
-									TargetUnit = "Raven",
-								}),
-								PlaceObj('UnitHireStatus', {
-									Status = "Hired",
-									TargetUnit = "Raider",
-								}),
-							},
-						}),
-						PlaceObj('SE_OnEnterMapVisual', {
-							'Conditions', {
-								PlaceObj('QuestIsVariableBool', {
-									QuestId = "RescueHerMan",
-									Vars = set({
-	Failed = false,
-	HermanRescued = false,
-}),
-								}),
-							},
-							'SequentialEffects', true,
-							'Effects', {
-								PlaceObj('NeutralNPCDontMove', {
-									TargetUnit = "Herman",
-								}),
-								PlaceObj('PlaySetpiece', {
-									setpiece = "EncounterHerman",
-								}),
-							},
-						}),
-						PlaceObj('SE_OnEnterMap', {
-							'Conditions', {
-								PlaceObj('SectorHasIntel', {
-									sector_id = "M7",
-								}),
-							},
-							'Effects', {
-								PlaceObj('ModifyTrapSpawnersEffect', {
-									Group = "StartingMinefield",
-									SpawnActive = "enable",
-									disarmDifficulty = "Easy",
-									visibility = set( "enemy1", "enemy2", "enemyNeutral", "neutral", "player1", "player2" ),
-								}),
-							},
-						}),
-					},
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Ernie_Conflict",
-					'MusicExploration', "Ernie_Exploration",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "M8",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M8]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "M9",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M9]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "N1",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N1]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
-					'BlockTravel', set({
-	North = false,
-}),
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "N10",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N10]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -44678,14 +44894,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N2",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N2]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
-					'BlockTravel', set({
-	North = false,
-}),
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -44726,6 +44940,7 @@ return {
 					'Roads', {
 						East = false,
 						North = false,
+						South = false,
 						West = true,
 					},
 					'bidirectionalBlockApply', true,
@@ -44751,6 +44966,7 @@ return {
 					'Roads', {
 						East = false,
 						North = false,
+						South = false,
 						West = true,
 					},
 					'bidirectionalBlockApply', true,
@@ -44782,6 +44998,7 @@ return {
 						East = false,
 						North = true,
 						South = false,
+						West = false,
 					},
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
@@ -44952,11 +45169,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N3",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N3]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -45068,18 +45286,6 @@ return {
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Farmland_Conflict",
 					'MusicExploration', "Farmland_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "N32",
-					'Label1', "Blocked",
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
-					'Intel', false,
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "N4",
@@ -45097,12 +45303,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N5",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N5]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
-					'BlockTravel', set( "North" ),
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -45110,12 +45316,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N6",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N6]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
-					'BlockTravel', set( "North" ),
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -45123,12 +45329,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N7",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N7]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
-					'BlockTravel', set( "North" ),
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -45136,11 +45342,25 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N8",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N8]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "N9",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N9]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -45148,11 +45368,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "O1",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O1]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -45620,11 +45841,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "O2",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O2]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -45994,11 +46216,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "O3",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O3]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -46042,11 +46265,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "O4",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O4]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -46054,11 +46278,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "O5",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O5]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -46066,11 +46291,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "O6",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O6]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -46078,11 +46304,25 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "O7",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O7]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "O8",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O8]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -46090,11 +46330,25 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "O9",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O8]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "P1",
+					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P1]] "Sea"),
+					'Side', "neutral",
+					'StickySide', true,
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -46426,6 +46680,98 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "P17",
+					'Map', "gULjNxW",
+					'MapTier', 10,
+					'Label1', "Mine",
+					'modId', "FhNNYd",
+					'display_name', T(182607269744, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P17]] "Шахта Мфуму"),
+					'WeatherZone', "SavannahSouth",
+					'City', "Fleatown",
+					'Mine', true,
+					'DailyIncome', 7000,
+					'Depletion', true,
+					'DepletionTime', 500,
+					'Militia', true,
+					'MaxMilitia', 12,
+					'ForceConflict', true,
+					'InitialSquads', {
+						"LegionDefenders_Mobile_Easy",
+						"LegionDefenders_Mobile_Easy",
+						"LegionExtraDefenders_Balanced_Easy",
+						"LegionHeavyTroops",
+						"LegionJAZZSquadT2",
+					},
+					'bidirectionalRoadApply', true,
+					'Roads', set({
+	East = false,
+	North = false,
+	South = true,
+	West = true,
+}),
+					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = false,
+	North = false,
+	South = false,
+	West = false,
+}),
+					'image', "UI/SatelliteView/SectorImages/H07",
+					'CanBeUsedForArrival', true,
+					'BobbyRayDeliveryCostMultiplier', 130,
+					'SectorImagePreview', "UI/PDA/ss_h7",
+					'DBSourceSector', true,
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Savanna_Conflict",
+					'MusicExploration', "Savanna_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "P17",
+					'Map', "gULjNxW",
+					'MapTier', 10,
+					'Label1', "Mine",
+					'modId', "FhNNYd",
+					'display_name', T(182607269744, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P17]] "Шахта Мфуму"),
+					'WeatherZone', "SavannahSouth",
+					'City', "Fleatown",
+					'Mine', true,
+					'DailyIncome', 7000,
+					'Depletion', true,
+					'DepletionTime', 500,
+					'Militia', true,
+					'MaxMilitia', 12,
+					'ForceConflict', true,
+					'InitialSquads', {
+						"LegionDefenders_Mobile_Easy",
+						"LegionDefenders_Mobile_Easy",
+						"LegionExtraDefenders_Balanced_Easy",
+						"LegionHeavyTroops",
+						"LegionJAZZSquadT2",
+					},
+					'bidirectionalRoadApply', true,
+					'Roads', set({
+	East = false,
+	North = false,
+	South = true,
+	West = true,
+}),
+					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = false,
+	North = false,
+	South = false,
+	West = false,
+}),
+					'image', "UI/SatelliteView/SectorImages/H07",
+					'CanBeUsedForArrival', true,
+					'BobbyRayDeliveryCostMultiplier', 130,
+					'SectorImagePreview', "UI/PDA/ss_h7",
+					'DBSourceSector', true,
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Savanna_Conflict",
+					'MusicExploration', "Savanna_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "P17",
 					'Map', "JFxNeEb",
 					'MapTier', 30,
 					'Label1', "Outpost",
@@ -46475,6 +46821,52 @@ return {
 					'MusicCombat', "Battle_Tough",
 					'MusicConflict', "Outpost_Conflict",
 					'MusicExploration', "Outpost_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "P17",
+					'Map', "gULjNxW",
+					'MapTier', 10,
+					'Label1', "Mine",
+					'modId', "FhNNYd",
+					'display_name', T(182607269744, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P17]] "Шахта Мфуму"),
+					'WeatherZone', "SavannahSouth",
+					'City', "Fleatown",
+					'Mine', true,
+					'DailyIncome', 7000,
+					'Depletion', true,
+					'DepletionTime', 500,
+					'Militia', true,
+					'MaxMilitia', 12,
+					'ForceConflict', true,
+					'InitialSquads', {
+						"LegionDefenders_Mobile_Easy",
+						"LegionDefenders_Mobile_Easy",
+						"LegionExtraDefenders_Balanced_Easy",
+						"LegionHeavyTroops",
+						"LegionJAZZSquadT2",
+					},
+					'bidirectionalRoadApply', true,
+					'Roads', set({
+	East = false,
+	North = false,
+	South = true,
+	West = true,
+}),
+					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = false,
+	North = false,
+	South = false,
+	West = false,
+}),
+					'image', "UI/SatelliteView/SectorImages/H07",
+					'CanBeUsedForArrival', true,
+					'BobbyRayDeliveryCostMultiplier', 130,
+					'SectorImagePreview', "UI/PDA/ss_h7",
+					'DBSourceSector', true,
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Savanna_Conflict",
+					'MusicExploration', "Savanna_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "P17",
@@ -46627,11 +47019,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "P2",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P2]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -46870,11 +47263,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "P3",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P3]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -46918,11 +47312,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "P4",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P4]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -46930,11 +47325,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "P5",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P5]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -46942,11 +47338,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "P6",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P6]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -46954,11 +47351,12 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "P7",
 					'Label1', "Blocked",
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P7]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -47248,7 +47646,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Elliot",
-								Sector = "H14",
+								Sector = "P17",
 							}),
 						},
 						CompletionConditions = {
@@ -47270,7 +47668,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Elliot",
-								Sector = "H14",
+								Sector = "P17",
 							}),
 						},
 						CompletionConditions = {
@@ -47438,7 +47836,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H14",
+									"P17",
 								},
 							}),
 							PlaceObj('GroupIsDead', {
@@ -47485,7 +47883,7 @@ return {
 						ParamId = "TCE_ElliotCombatBanter",
 						QuestId = "Elliot",
 						requiredSectors = {
-							"H14",
+							"P17",
 						},
 					}),
 				},
@@ -48173,7 +48571,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Broker",
-								Sector = "H9",
+								Sector = "H19",
 							}),
 						},
 						CompletionConditions = {
@@ -48581,7 +48979,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Broker",
-								Sector = "H9",
+								Sector = "H19",
 							}),
 						},
 						HideConditions = {
@@ -50335,7 +50733,7 @@ return {
 							}),
 							PlaceObj('SectorModifyEnemySquads', {
 								count = -2,
-								sector_id = "H14",
+								sector_id = "P17",
 							}),
 							PlaceObj('SectorModifyEnemySquads', {
 								count = -3,
@@ -51919,7 +52317,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Elliot",
-								Sector = "H14",
+								Sector = "P17",
 							}),
 						},
 						HideConditions = {
@@ -52326,7 +52724,7 @@ return {
 							PlaceObj('ConditionalEffect', {
 								'Conditions', {
 									PlaceObj('SectorCheckOwner', {
-										sector_id = "H14",
+										sector_id = "P17",
 									}),
 								},
 								'Effects', {
@@ -55893,7 +56291,7 @@ return {
 								squad_def_id = "Adonis_Ernie_OutlookSquad",
 							}),
 							PlaceObj('SectorSpawnSquad', {
-								sector_id = "M7",
+								sector_id = "J7",
 								squad_def_id = "Adonis_Ernie_EmeraldSquad",
 							}),
 							PlaceObj('SectorDisableAutoResolve', {
@@ -55949,7 +56347,7 @@ return {
 									"L18",
 									"I18",
 									"I19",
-									"H14",
+									"P17",
 									"O16",
 									"N12",
 									"N13",
@@ -56066,7 +56464,7 @@ return {
 									"ArmyAttackers_Shock_Hard",
 									"ArmyAttackers_Siege_Hard",
 								},
-								sector_id = "H14",
+								sector_id = "P17",
 							}),
 							PlaceObj('SectorReplaceEnemySquadList', {
 								EnemySquadsList = {
@@ -57917,7 +58315,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
@@ -58143,7 +58541,7 @@ return {
 						},
 						GoTo = "Goodbye2",
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
@@ -58176,7 +58574,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
@@ -58206,7 +58604,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
@@ -58227,7 +58625,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
@@ -58263,7 +58661,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Привет"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
@@ -58305,7 +58703,7 @@ return {
 					}),
 					PlaceObj('ConversationPhrase', {
 						Keyword = "Goodbye",
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Пока"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
@@ -61222,7 +61620,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H9",
+									"H19",
 								},
 							}),
 							PlaceObj('BanterHasPlayed', {
@@ -61244,7 +61642,7 @@ return {
 						ParamId = "TCE_AbusersFlea",
 						QuestId = "PantagruelDramas",
 						requiredSectors = {
-							"H9",
+							"H19",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -61309,7 +61707,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H9",
+									"H19",
 									"D6",
 									"C5",
 								},
@@ -61338,7 +61736,7 @@ return {
 						ParamId = "TCE_AbusersPlayBanter",
 						QuestId = "PantagruelDramas",
 						requiredSectors = {
-							"H9",
+							"H19",
 							"D6",
 							"C5",
 						},
@@ -61347,7 +61745,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H9",
+									"H19",
 								},
 							}),
 							PlaceObj('GroupIsDead', {
@@ -61378,7 +61776,7 @@ return {
 						ParamId = "TCE_AbusersFleaDead",
 						QuestId = "PantagruelDramas",
 						requiredSectors = {
-							"H9",
+							"H19",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -62402,7 +62800,7 @@ return {
 							}),
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "AbuserFlea_Main",
-								Sector = "H9",
+								Sector = "H19",
 							}),
 						},
 						HideConditions = {
@@ -63855,7 +64253,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H14",
+									"P17",
 								},
 							}),
 							PlaceObj('CheckExpression', {
@@ -63901,14 +64299,14 @@ return {
 						ParamId = "TCE_StartedCombatInCampWhilePatrolIsAlive",
 						QuestId = "ReduceCrocodileCampStrength",
 						requiredSectors = {
-							"H14",
+							"P17",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H14",
+									"P17",
 								},
 							}),
 							PlaceObj('CombatIsActive', {
@@ -63926,21 +64324,21 @@ return {
 							PlaceObj('SectorEnterConflict', {
 								disable_travel = true,
 								lock_conflict = true,
-								sector_id = "H14",
+								sector_id = "P17",
 							}),
 						},
 						Once = true,
 						ParamId = "TCE_ReinforcementsConflict",
 						QuestId = "ReduceCrocodileCampStrength",
 						requiredSectors = {
-							"H14",
+							"P17",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H14",
+									"P17",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -63972,7 +64370,7 @@ return {
 						ParamId = "TCE_ReinforcementsArrived",
 						QuestId = "ReduceCrocodileCampStrength",
 						requiredSectors = {
-							"H14",
+							"P17",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -63984,7 +64382,7 @@ return {
 							}),
 							PlaceObj('SectorCheckOwner', {
 								Negate = true,
-								sector_id = "H14",
+								sector_id = "P17",
 							}),
 						},
 						Effects = {
@@ -64035,7 +64433,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H14",
+									"P17",
 								},
 							}),
 						},
@@ -64053,7 +64451,7 @@ return {
 						ParamId = "TCE_AlertInfected",
 						QuestId = "ReduceCrocodileCampStrength",
 						requiredSectors = {
-							"H14",
+							"P17",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -64471,7 +64869,7 @@ return {
 										Vars = set( "voodoo" ),
 									}),
 									PlaceObj('SectorHasIntel', {
-										sector_id = "H14",
+										sector_id = "P17",
 									}),
 								},
 							}),
@@ -64503,7 +64901,7 @@ return {
 										Vars = set( "voodoo" ),
 									}),
 									PlaceObj('SectorHasIntel', {
-										sector_id = "H14",
+										sector_id = "P17",
 									}),
 								},
 							}),
@@ -65416,7 +65814,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "J11",
+								Sector = "J18",
 							}),
 						},
 						CompletionConditions = {
@@ -65441,7 +65839,7 @@ return {
 								Vars = set( "MangelSamples" ),
 							}),
 						},
-						Text = T(186070330181, --[[ModItemQuestsDef Sanatorium Text]] "Virus sample: The ground is sour at the old <em><SectorName('J11')></em>"),
+						Text = T(186070330181, --[[ModItemQuestsDef Sanatorium Text]] "Virus sample: The ground is sour at the old <em><SectorName('J18')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -74080,7 +74478,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "H7",
+								Sector = "H14",
 							}),
 						},
 						HideConditions = {
@@ -74100,7 +74498,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "H7",
+								Sector = "H14",
 							}),
 						},
 						CompletionConditions = {
@@ -74266,7 +74664,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "J11",
+								Sector = "J18",
 							}),
 						},
 						HideConditions = {
@@ -74283,12 +74681,12 @@ return {
 								Vars = set( "voodootreasure" ),
 							}),
 						},
-						Text = T(254556052186, --[[ModItemQuestsDef TreasureHunting Text]] "<em>Lucky Veinard</em> said there is a <em>ritual book</em> pointing at a hidden treasure among the <em><SectorName('J11')></em>"),
+						Text = T(254556052186, --[[ModItemQuestsDef TreasureHunting Text]] "<em>Lucky Veinard</em> said there is a <em>ritual book</em> pointing at a hidden treasure among the <em><SectorName('J18')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "J11",
+								Sector = "J18",
 							}),
 						},
 						HideConditions = {
@@ -74305,12 +74703,12 @@ return {
 								},
 							}),
 						},
-						Text = T(462304999019, --[[ModItemQuestsDef TreasureHunting Text]] "According to the <em>ritual book</em> found at the <em><SectorName('J11')></em>: \"Three spirits are resting inside. Seven more are waiting outside. One of them is missing.\""),
+						Text = T(462304999019, --[[ModItemQuestsDef TreasureHunting Text]] "According to the <em>ritual book</em> found at the <em><SectorName('J18')></em>: \"Three spirits are resting inside. Seven more are waiting outside. One of them is missing.\""),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "J11",
+								Sector = "J18",
 							}),
 						},
 						CompletionConditions = {
@@ -74326,7 +74724,7 @@ return {
 								Vars = set( "foundvoodootreasure" ),
 							}),
 						},
-						Text = T(548094068432, --[[ModItemQuestsDef TreasureHunting Text]] "A hidden treasure found under one of the ritual stones at the <em><SectorName('J11')></em>"),
+						Text = T(548094068432, --[[ModItemQuestsDef TreasureHunting Text]] "A hidden treasure found under one of the ritual stones at the <em><SectorName('J18')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -74406,7 +74804,7 @@ return {
 								QuestId = "TreasureHunting",
 							}),
 							PlaceObj('SectorGrantIntel', {
-								sector_id = "H7",
+								sector_id = "H14",
 							}),
 						},
 						Once = true,
@@ -74450,7 +74848,7 @@ return {
 								QuestId = "TreasureHunting",
 							}),
 							PlaceObj('SectorGrantIntel', {
-								sector_id = "J11",
+								sector_id = "J18",
 							}),
 						},
 						Once = true,
@@ -74480,7 +74878,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H7",
+									"H14",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -74519,7 +74917,7 @@ return {
 						ParamId = "TCE_chickenmove1",
 						QuestId = "TreasureHunting",
 						requiredSectors = {
-							"H7",
+							"H14",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -74531,7 +74929,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H7",
+									"H14",
 								},
 							}),
 						},
@@ -74566,7 +74964,7 @@ return {
 						ParamId = "TCE_chickenmove2",
 						QuestId = "TreasureHunting",
 						requiredSectors = {
-							"H7",
+							"H14",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -74578,7 +74976,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H7",
+									"H14",
 								},
 							}),
 						},
@@ -74617,7 +75015,7 @@ return {
 						ParamId = "TCE_chickenmove3",
 						QuestId = "TreasureHunting",
 						requiredSectors = {
-							"H7",
+							"H14",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -74840,7 +75238,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"J11",
+									"J18",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -74879,7 +75277,7 @@ return {
 						ParamId = "TCE_voodoochickenmove1",
 						QuestId = "TreasureHunting",
 						requiredSectors = {
-							"J11",
+							"J18",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -74891,7 +75289,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"J11",
+									"J18",
 								},
 							}),
 						},
@@ -74926,7 +75324,7 @@ return {
 						ParamId = "TCE_voodoochickenmove2",
 						QuestId = "TreasureHunting",
 						requiredSectors = {
-							"J11",
+							"J18",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -74938,7 +75336,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"J11",
+									"J18",
 								},
 							}),
 						},
@@ -74973,7 +75371,7 @@ return {
 						ParamId = "TCE_voodoochickenmove3",
 						QuestId = "TreasureHunting",
 						requiredSectors = {
-							"J11",
+							"J18",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -75728,7 +76126,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "12Chairs_ChairMarker",
-								Sector = "H9",
+								Sector = "H19",
 							}),
 						},
 						CompletionConditions = {
@@ -75736,7 +76134,7 @@ return {
 								Conditions = {
 									PlaceObj('PlayerIsInSectors', {
 										Sectors = {
-											"H9",
+											"H19",
 										},
 									}),
 									PlaceObj('CheckOR', {
@@ -75770,7 +76168,7 @@ return {
 								Conditions = {
 									PlaceObj('PlayerIsInSectors', {
 										Sectors = {
-											"H9",
+											"H19",
 										},
 									}),
 									PlaceObj('QuestIsVariableBool', {
@@ -76424,7 +76822,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Broker",
-								Sector = "H9",
+								Sector = "H19",
 							}),
 						},
 						HideConditions = {
@@ -76450,7 +76848,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Broker",
-								Sector = "H9",
+								Sector = "H19",
 							}),
 						},
 						HideConditions = {
@@ -76495,7 +76893,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Broker",
-								Sector = "H9",
+								Sector = "H19",
 							}),
 						},
 						CompletionConditions = {
@@ -77358,7 +77756,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Broker",
-								Sector = "H9",
+								Sector = "H19",
 							}),
 						},
 						HideConditions = {
@@ -77574,7 +77972,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Pastor",
-								Sector = "H8",
+								Sector = "H18",
 							}),
 						},
 						CompletionConditions = {
@@ -77605,7 +78003,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "SmileyNPC",
-								Sector = "H8",
+								Sector = "H18",
 							}),
 						},
 						HideConditions = {
@@ -77629,7 +78027,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "SmileyNPC",
-								Sector = "H8",
+								Sector = "H18",
 							}),
 						},
 						CompletionConditions = {
@@ -77652,7 +78050,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "H8",
+								Sector = "H18",
 							}),
 						},
 						HideConditions = {
@@ -77949,7 +78347,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H8",
+									"H18",
 								},
 							}),
 						},
@@ -77970,7 +78368,7 @@ return {
 						ParamId = "TCE_UnlockDoor",
 						QuestId = "Smiley",
 						requiredSectors = {
-							"H8",
+							"H18",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -77987,7 +78385,7 @@ return {
 							PlaceObj('SectorEnterConflict', {
 								disable_travel = true,
 								lock_conflict = true,
-								sector_id = "H8",
+								sector_id = "H18",
 							}),
 							PlaceObj('ConditionalEffect', {
 								'Conditions', {
@@ -78066,7 +78464,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H8",
+									"H18",
 								},
 							}),
 						},
@@ -78116,7 +78514,7 @@ return {
 						ParamId = "TCE_ConfrontPastor",
 						QuestId = "Smiley",
 						requiredSectors = {
-							"H8",
+							"H18",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -78140,7 +78538,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H8",
+									"H18",
 								},
 							}),
 						},
@@ -78195,7 +78593,7 @@ return {
 						ParamId = "TCE_KillPastor",
 						QuestId = "Smiley",
 						requiredSectors = {
-							"H8",
+							"H18",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -78227,21 +78625,21 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H8",
+									"H18",
 								},
 							}),
 						},
 						Effects = {
 							PlaceObj('SectorEnterConflict', {
 								conflict_mode = false,
-								sector_id = "H8",
+								sector_id = "H18",
 							}),
 						},
 						Once = true,
 						ParamId = "TCE_RemoveConflictLaBoue",
 						QuestId = "Smiley",
 						requiredSectors = {
-							"H8",
+							"H18",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -78255,7 +78653,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H8",
+									"H18",
 								},
 							}),
 						},
@@ -78271,7 +78669,7 @@ return {
 						ParamId = "TCE_SmileyExitLaBoue",
 						QuestId = "Smiley",
 						requiredSectors = {
-							"H8",
+							"H18",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -78549,7 +78947,7 @@ return {
 								'Conditions', {
 									PlaceObj('PlayerIsInSectors', {
 										Sectors = {
-											"H8",
+											"H18",
 										},
 									}),
 									PlaceObj('QuestIsVariableBool', {
@@ -86300,7 +86698,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "H7",
+								Sector = "H14",
 							}),
 						},
 						HideConditions = {
@@ -86344,7 +86742,7 @@ return {
 							}),
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "ThugForeman",
-								Sector = "H9",
+								Sector = "H19",
 							}),
 						},
 						HideConditions = {
@@ -86571,7 +86969,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "H7",
+								Sector = "H14",
 							}),
 						},
 						CompletionConditions = {
@@ -86590,7 +86988,7 @@ return {
 							}),
 							PlaceObj('SectorHasDepletedMine', {
 								Negate = true,
-								sector_id = "H7",
+								sector_id = "H14",
 							}),
 						},
 						Text = T(704959784482, --[[ModItemQuestsDef CorazonCaptureMine Text]] "Hired <em>Martha</em> and <em>Herman</em> as workers: <em><SectorName('H7')></em> income increased"),
@@ -86804,18 +87202,18 @@ return {
 						AddInHistory = true,
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "H7",
+								Sector = "H14",
 							}),
 						},
 						CompletionConditions = {
 							PlaceObj('SectorHasDepletedMine', {
-								sector_id = "H7",
+								sector_id = "H14",
 							}),
 						},
 						Idx = 27,
 						ShowConditions = {
 							PlaceObj('SectorHasDepletedMine', {
-								sector_id = "H7",
+								sector_id = "H14",
 							}),
 						},
 						Text = T(952336328946, --[[ModItemQuestsDef CorazonCaptureMine Text]] "The <em><SectorName('H7')></em> is depleted"),
@@ -87016,7 +87414,7 @@ return {
 						Effects = {
 							PlaceObj('SectorModifyMineProperties', {
 								DailyIncome = 105,
-								sector_id = "H7",
+								sector_id = "H14",
 							}),
 							PlaceObj('SectorModifyMineProperties', {
 								DailyIncome = 105,
@@ -87241,7 +87639,7 @@ return {
 						Effects = {
 							PlaceObj('SectorModifyMineProperties', {
 								DailyIncome = 110,
-								sector_id = "H7",
+								sector_id = "H14",
 							}),
 						},
 						Once = true,
@@ -87355,7 +87753,7 @@ return {
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('SectorCheckOwner', {
-								sector_id = "H7",
+								sector_id = "H14",
 							}),
 						},
 						Effects = {
@@ -87380,7 +87778,7 @@ return {
 						Effects = {
 							PlaceObj('SectorModifyMineProperties', {
 								DailyIncome = 102,
-								sector_id = "H7",
+								sector_id = "H14",
 							}),
 						},
 						Once = true,
@@ -87982,7 +88380,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H9",
+									"H19",
 								},
 							}),
 							PlaceObj('OR', {
@@ -88014,7 +88412,7 @@ return {
 						ParamId = "TCE_BlaubertRemainingGoons",
 						QuestId = "RimvilleGuardsLogic",
 						requiredSectors = {
-							"H9",
+							"H19",
 						},
 					}),
 				},
@@ -88084,7 +88482,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Pastor",
-								Sector = "H8",
+								Sector = "H18",
 							}),
 						},
 						HideConditions = {
@@ -88117,7 +88515,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "H8",
+								Sector = "H18",
 							}),
 						},
 						HideConditions = {
@@ -88148,7 +88546,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "I10",
+								Sector = "K15",
 							}),
 						},
 						CompletionConditions = {
@@ -88176,7 +88574,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "I10",
+								Sector = "K15",
 							}),
 						},
 						HideConditions = {
@@ -88215,7 +88613,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "H8",
+								Sector = "H18",
 							}),
 						},
 						HideConditions = {
@@ -88366,7 +88764,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"I10",
+									"K15",
 								},
 							}),
 							PlaceObj('UnitIsOnMap', {
@@ -88382,7 +88780,7 @@ return {
 						ParamId = "TCE_WeirdoSpawned",
 						QuestId = "PiratesGold",
 						requiredSectors = {
-							"I10",
+							"K15",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -88412,7 +88810,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H8",
+									"H18",
 								},
 							}),
 						},
@@ -88446,14 +88844,14 @@ return {
 						ParamId = "TCE_GoldFound",
 						QuestId = "PiratesGold",
 						requiredSectors = {
-							"H8",
+							"H18",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H8",
+									"H18",
 								},
 							}),
 							PlaceObj('CheckOR', {
@@ -88485,7 +88883,7 @@ return {
 						ParamId = "TCE_Complete",
 						QuestId = "PiratesGold",
 						requiredSectors = {
-							"H8",
+							"H18",
 						},
 					}),
 				},
@@ -97613,7 +98011,7 @@ return {
 								Sector = "I7",
 							}),
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "M7",
+								Sector = "J7",
 							}),
 						},
 						HideConditions = {
@@ -97835,7 +98233,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Herman",
-								Sector = "M7",
+								Sector = "J7",
 							}),
 						},
 						CompletionConditions = {
@@ -106056,7 +106454,7 @@ return {
 								'Effects', {
 									PlaceObj('SectorModifyMineProperties', {
 										DailyIncome = 95,
-										sector_id = "H7",
+										sector_id = "H14",
 									}),
 									PlaceObj('GroupSetBehaviorExit', {
 										TargetUnit = "Herman",
@@ -106086,7 +106484,7 @@ return {
 								'Effects', {
 									PlaceObj('SectorModifyMineProperties', {
 										DailyIncome = 95,
-										sector_id = "H7",
+										sector_id = "H14",
 									}),
 									PlaceObj('GroupSetBehaviorExit', {
 										TargetUnit = "Martha",
@@ -106532,7 +106930,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"H9",
+									"H19",
 								},
 							}),
 						},
@@ -106552,7 +106950,7 @@ return {
 						ParamId = "TCE_ThugForeman",
 						QuestId = "_GroupsAttacked",
 						requiredSectors = {
-							"H9",
+							"H19",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -106606,7 +107004,7 @@ return {
 							}),
 							PlaceObj('SectorSetRAndROperation', {
 								enable = false,
-								sector_id = "H8",
+								sector_id = "H18",
 							}),
 						},
 						Once = true,
@@ -106771,7 +107169,7 @@ return {
 								'Effects', {
 									PlaceObj('SectorModifyMineProperties', {
 										DailyIncome = 95,
-										sector_id = "H7",
+										sector_id = "H14",
 									}),
 									PlaceObj('SectorModifyMineProperties', {
 										DailyIncome = 95,
@@ -107453,7 +107851,7 @@ return {
 								'Conditions', {
 									PlaceObj('PlayerIsInSectors', {
 										Sectors = {
-											"H14",
+											"P17",
 										},
 									}),
 								},
@@ -108646,7 +109044,7 @@ return {
 										sector_id = "N12",
 									}),
 									PlaceObj('SectorCheckOwner', {
-										sector_id = "H9",
+										sector_id = "H19",
 									}),
 									PlaceObj('SectorCheckOwner', {
 										sector_id = "D11",
@@ -108734,10 +109132,10 @@ return {
 							PlaceObj('CheckOR', {
 								Conditions = {
 									PlaceObj('SectorCheckOwner', {
-										sector_id = "H9",
+										sector_id = "H19",
 									}),
 									PlaceObj('SectorCheckOwner', {
-										sector_id = "H8",
+										sector_id = "H18",
 									}),
 								},
 							}),
@@ -110846,7 +111244,7 @@ return {
 					PlaceObj('SectorModifyEnemySquads', {
 						UnitTemplate = "LegionRaider",
 						percent = -50,
-						sector_id = "H4",
+						sector_id = "I7",
 					}),
 					PlaceObj('GrantExperienceSector', {
 						Amount = "XPQuestReward_Minor",
@@ -110865,7 +111263,7 @@ return {
 					PlaceObj('SectorModifyEnemySquads', {
 						UnitTemplate = "LegionGrenadier",
 						percent = -100,
-						sector_id = "H4",
+						sector_id = "I7",
 					}),
 					PlaceObj('GrantExperienceSector', {
 						Amount = "XPQuestReward_Minor",
@@ -110899,12 +111297,12 @@ return {
 					PlaceObj('SectorModifyEnemySquads', {
 						UnitTemplate = "LegionSniper",
 						percent = -50,
-						sector_id = "H4",
+						sector_id = "I7",
 					}),
 					PlaceObj('SectorModifyEnemySquads', {
 						UnitTemplate = "LegionRaider_Jose",
 						percent = -100,
-						sector_id = "H4",
+						sector_id = "I7",
 					}),
 					PlaceObj('GrantExperienceSector', {
 						Amount = "XPQuestReward_Minor",
