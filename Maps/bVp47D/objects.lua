@@ -1590,6 +1590,9 @@ PlaceObj('Collection', {
 SetNextSyncHandle(2000000001)
 PlaceObj('UnitMarker', {
 	'Pos', point(91800, 106200),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Demolishion_1",
@@ -1602,6 +1605,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1016342394)
 PlaceObj('UnitMarker', {
 	'Pos', point(87000, 115800),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Demolishion_1",
@@ -1614,6 +1620,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1066159816)
 PlaceObj('UnitMarker', {
 	'Pos', point(87000, 126600),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Officer",
@@ -1627,6 +1636,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(94200, 124200),
 	'Angle', 16200,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Soldier",
@@ -1639,6 +1651,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1319062082)
 PlaceObj('UnitMarker', {
 	'Pos', point(90600, 127800),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Officer",
@@ -1651,6 +1666,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1847657633)
 PlaceObj('UnitMarker', {
 	'Pos', point(90600, 129000),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Officer",
@@ -1672,6 +1690,9 @@ PlaceObj('TrapSpawnMarker', {
 }, nil, 1455762733)
 PlaceObj('UnitMarker', {
 	'Pos', point(100200, 118200),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Stormer",
@@ -1685,6 +1706,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(75000, 147000),
 	'Angle', 5400,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Heavy",
@@ -1698,6 +1722,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(76200, 147000),
 	'Angle', 5400,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Heavy",
@@ -1730,6 +1757,9 @@ PlaceObj('GridMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(89400, 139800),
 	'Angle', 5400,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Stormer",
@@ -1902,6 +1932,9 @@ PlaceObj('TrapSpawnMarker', {
 }, nil, 1357638513)
 PlaceObj('UnitMarker', {
 	'Pos', point(85800, 196200),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Soldier",
@@ -1924,6 +1957,9 @@ PlaceObj('TrapSpawnMarker', {
 }, nil, 1680153857)
 PlaceObj('UnitMarker', {
 	'Pos', point(87000, 195000),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Soldier",
@@ -1936,6 +1972,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1584960083)
 PlaceObj('UnitMarker', {
 	'Pos', point(91800, 193800),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Soldier_1",
@@ -1948,6 +1987,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1555723468)
 PlaceObj('UnitMarker', {
 	'Pos', point(102600, 142200),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Heavy",
@@ -1960,6 +2002,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1017358364)
 PlaceObj('UnitMarker', {
 	'Pos', point(109800, 148200, 21700),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
@@ -1972,6 +2017,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1637031692)
 PlaceObj('UnitMarker', {
 	'Pos', point(113400, 149400, 21700),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Marksman",
@@ -1984,6 +2032,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1654807746)
 PlaceObj('UnitMarker', {
 	'Pos', point(118200, 137400),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "RebelFemaleSniper",
@@ -1997,6 +2048,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(119400, 138600),
 	'Angle', 5400,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "RebelFemaleSniper",
@@ -2009,6 +2063,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1381338356)
 PlaceObj('UnitMarker', {
 	'Pos', point(115800, 145800, 21700),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels_02",
@@ -2022,6 +2079,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(117000, 162600, 13300),
 	'Angle', 10800,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "ForeignMerc_02",
@@ -2035,6 +2095,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1730160391)
 PlaceObj('UnitMarker', {
 	'Pos', point(129000, 155400),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "ForeignMerc_01",
@@ -2049,6 +2112,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(108600, 174600, 17500),
 	'Angle', 10800,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Soldier",
@@ -2062,6 +2128,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(108600, 175800, 17500),
 	'Angle', 10800,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Soldier",
@@ -2075,6 +2144,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(108600, 177000, 17500),
 	'Angle', 10800,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Soldier",
@@ -2088,6 +2160,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(111000, 175800, 17500),
 	'Angle', 10800,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Soldier",
@@ -2101,6 +2176,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(111000, 178200),
 	'Angle', 5400,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Soldier",
@@ -2113,6 +2191,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1181840386)
 PlaceObj('UnitMarker', {
 	'Pos', point(113400, 177000, 21700),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Marksman",
@@ -2125,6 +2206,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1396166304)
 PlaceObj('UnitMarker', {
 	'Pos', point(103800, 192600),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Soldier",
@@ -2138,6 +2222,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(108600, 196200),
 	'Angle', 10800,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Officer",
@@ -2151,6 +2238,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(124200, 168600),
 	'Angle', 10800,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "ForeignMerc_02",
@@ -2164,6 +2254,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1292986782)
 PlaceObj('UnitMarker', {
 	'Pos', point(117000, 190200),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Local_01",
@@ -2171,6 +2264,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1109308539)
 PlaceObj('UnitMarker', {
 	'Pos', point(126600, 187800, 18200),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Marksman",
@@ -2183,6 +2279,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1184630341)
 PlaceObj('UnitMarker', {
 	'Pos', point(129000, 187800, 15400),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "ForeignMerc_02",
@@ -2196,6 +2295,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1010986357)
 PlaceObj('UnitMarker', {
 	'Pos', point(126600, 190200, 18200),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Marksman_1",
@@ -2208,6 +2310,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1307642581)
 PlaceObj('UnitMarker', {
 	'Pos', point(84600, 197400),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Soldier_1",
@@ -2220,6 +2325,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1570595679)
 PlaceObj('UnitMarker', {
 	'Pos', point(93000, 203400),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Local_01",
@@ -2227,6 +2335,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1724060241)
 PlaceObj('UnitMarker', {
 	'Pos', point(93000, 207000),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Local_01",
@@ -2235,6 +2346,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(100200, 204600),
 	'Angle', 16200,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Local_01",
@@ -2242,6 +2356,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1832436910)
 PlaceObj('UnitMarker', {
 	'Pos', point(103800, 198600),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Officer",
@@ -2254,6 +2371,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1611868097)
 PlaceObj('UnitMarker', {
 	'Pos', point(102600, 202200),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Local_01",
@@ -2262,6 +2382,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(111000, 210600),
 	'Angle', 5400,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Recon",
@@ -2275,6 +2398,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(112200, 209400),
 	'Angle', 5400,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Recon_1",
@@ -2287,6 +2413,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1094040870)
 PlaceObj('UnitMarker', {
 	'Pos', point(106200, 220200),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Stormer_1",
@@ -2299,6 +2428,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1265720144)
 PlaceObj('UnitMarker', {
 	'Pos', point(106200, 221400),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Stormer_1",
@@ -2317,7 +2449,6 @@ PlaceObj('TrapSpawnMarker', {
 	'AllowedMask', 4294966497,
 	'BaseDamage', 50,
 	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
 	'revealDifficulty', "Medium",
 	'disarmDifficulty', "VeryHard",
 	'TriggerType', "Contact",
@@ -2330,13 +2461,15 @@ PlaceObj('TrapSpawnMarker', {
 	'AllowedMask', 4294966497,
 	'BaseDamage', 50,
 	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
 	'revealDifficulty', "Medium",
 	'disarmDifficulty', "VeryHard",
 	'TriggerType', "Contact",
 }, nil, 1496540102)
 PlaceObj('UnitMarker', {
 	'Pos', point(124200, 197400),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Demolishion_1",
@@ -2348,32 +2481,6 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1719092859)
 PlaceObj('TrapSpawnMarker', {
-	'Pos', point(120600, 216600),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1205998028)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(119400, 220200),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1547863865)
-PlaceObj('TrapSpawnMarker', {
 	'Pos', point(117000, 227400),
 	'Groups', {
 		"Thugs_Mines",
@@ -2381,193 +2488,10 @@ PlaceObj('TrapSpawnMarker', {
 	'AllowedMask', 4294966497,
 	'BaseDamage', 50,
 	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
 	'revealDifficulty', "Medium",
 	'disarmDifficulty', "VeryHard",
 	'TriggerType', "Contact",
 }, nil, 1599122103)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(120600, 222600),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1112016856)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(120600, 228600),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1424641703)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(121800, 226200),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1075083914)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(124200, 217800),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1148860580)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(123000, 220200),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1345889899)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(126600, 217800),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1534488789)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(127800, 215400),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1698545041)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(130200, 213000),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1302195944)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(130200, 215400),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1148028376)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(127800, 220200),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1260700887)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(130200, 217800),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1641211240)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(125400, 223800),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1172199468)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(124200, 228600),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1587871570)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(126600, 226200),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1417351728)
 PlaceObj('TrapSpawnMarker', {
 	'Pos', point(126600, 228600),
 	'Groups', {
@@ -2576,7 +2500,6 @@ PlaceObj('TrapSpawnMarker', {
 	'AllowedMask', 4294966497,
 	'BaseDamage', 50,
 	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
 	'revealDifficulty', "Medium",
 	'disarmDifficulty', "VeryHard",
 	'TriggerType', "Contact",
@@ -2589,63 +2512,10 @@ PlaceObj('TrapSpawnMarker', {
 	'AllowedMask', 4294966497,
 	'BaseDamage', 50,
 	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
 	'revealDifficulty', "Medium",
 	'disarmDifficulty', "VeryHard",
 	'TriggerType', "Contact",
 }, nil, 1011044085)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(129000, 225000),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1755904535)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(129000, 228600),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1303161170)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(119400, 231000),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1710846068)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(125400, 231000),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1766616299)
 PlaceObj('TrapSpawnMarker', {
 	'Pos', point(129000, 231000),
 	'Groups', {
@@ -2654,7 +2524,6 @@ PlaceObj('TrapSpawnMarker', {
 	'AllowedMask', 4294966497,
 	'BaseDamage', 50,
 	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
 	'revealDifficulty', "Medium",
 	'disarmDifficulty', "VeryHard",
 	'TriggerType', "Contact",
@@ -2667,7 +2536,6 @@ PlaceObj('TrapSpawnMarker', {
 	'AllowedMask', 4294966497,
 	'BaseDamage', 50,
 	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
 	'revealDifficulty', "Medium",
 	'disarmDifficulty', "VeryHard",
 	'TriggerType', "Contact",
@@ -2837,6 +2705,9 @@ PlaceObj('TrapSpawnMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(138600, 106200, 21000),
 	'Angle', 16200,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Demolishion_1",
@@ -2850,6 +2721,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(139800, 106200, 21000),
 	'Angle', 16200,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Heavy_1",
@@ -2862,6 +2736,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1117669611)
 PlaceObj('UnitMarker', {
 	'Pos', point(133800, 119400),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Stormer",
@@ -2875,6 +2752,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(136200, 117000),
 	'Angle', 16200,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Marksman_Rebels",
@@ -2887,6 +2767,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1704595884)
 PlaceObj('UnitMarker', {
 	'Pos', point(138600, 123000),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Marksman_Rebels",
@@ -2899,6 +2782,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1247637777)
 PlaceObj('UnitMarker', {
 	'Pos', point(149400, 107400, 16100),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Soldier",
@@ -2912,6 +2798,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(150600, 107400),
 	'Angle', 5400,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Soldier",
@@ -2925,6 +2814,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(156600, 107400),
 	'Angle', 16200,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Demolishion",
@@ -2937,6 +2829,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1382658540)
 PlaceObj('UnitMarker', {
 	'Pos', point(148200, 129000),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Local_01",
@@ -2944,6 +2839,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1755420435)
 PlaceObj('UnitMarker', {
 	'Pos', point(153000, 126600),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Local_01",
@@ -2951,6 +2849,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1308872554)
 PlaceObj('UnitMarker', {
 	'Pos', point(161400, 115800),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Marksman_1",
@@ -2964,6 +2865,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(169800, 115800),
 	'Angle', 10800,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Stormer_1",
@@ -2976,6 +2880,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1507427537)
 PlaceObj('UnitMarker', {
 	'Pos', point(175800, 120600),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Stormer_1",
@@ -2989,6 +2896,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(177000, 115800),
 	'Angle', 5400,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Stormer_1",
@@ -3002,6 +2912,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(187800, 99000, 23100),
 	'Angle', 10800,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Local_01",
@@ -3009,6 +2922,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1075587764)
 PlaceObj('UnitMarker', {
 	'Pos', point(185400, 119400),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Recon",
@@ -3043,6 +2959,9 @@ PlaceObj('GridMarker', {
 }, nil, 1865344117)
 PlaceObj('UnitMarker', {
 	'Pos', point(148200, 138600),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Local_01",
@@ -3050,6 +2969,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1257963540)
 PlaceObj('UnitMarker', {
 	'Pos', point(151800, 132600),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Local_01",
@@ -3058,6 +2980,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(154200, 133800),
 	'Angle', 5400,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Local_01",
@@ -3065,6 +2990,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1781209651)
 PlaceObj('UnitMarker', {
 	'Pos', point(155400, 155400, 16800),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Marksman_1",
@@ -3078,6 +3006,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(155400, 159000),
 	'Angle', 5400,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Soldier_1",
@@ -3090,6 +3021,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1567606115)
 PlaceObj('UnitMarker', {
 	'Pos', point(157800, 154200, 16800),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Heavy_1",
@@ -3111,6 +3045,9 @@ PlaceObj('GridMarker', {
 }, nil, 1659031954)
 PlaceObj('UnitMarker', {
 	'Pos', point(163800, 151800, 16800),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "RebelFemaleSniper",
@@ -3124,6 +3061,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(162600, 159000),
 	'Angle', 10800,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Soldier_1",
@@ -3136,6 +3076,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1228533894)
 PlaceObj('UnitMarker', {
 	'Pos', point(163800, 163800),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Soldier",
@@ -3148,6 +3091,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1728151497)
 PlaceObj('UnitMarker', {
 	'Pos', point(144600, 180600),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Heavy",
@@ -3161,6 +3107,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(150600, 179400),
 	'Angle', 5400,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Heavy",
@@ -3173,6 +3122,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1838110423)
 PlaceObj('UnitMarker', {
 	'Pos', point(156600, 165000),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Soldier",
@@ -3186,6 +3138,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(156600, 169800),
 	'Angle', 5400,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Marksman",
@@ -3212,6 +3167,9 @@ PlaceObj('ContainerMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(162600, 179400),
 	'Angle', 5400,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Heavy_1",
@@ -3225,6 +3183,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(169800, 139800),
 	'Angle', 5400,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Stormer",
@@ -3238,6 +3199,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(169800, 141000),
 	'Angle', 5400,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Stormer",
@@ -3251,6 +3215,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(172200, 143400),
 	'Angle', 5400,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Stormer",
@@ -3270,6 +3237,9 @@ PlaceObj('GridMarker', {
 }, nil, 1578911324)
 PlaceObj('UnitMarker', {
 	'Pos', point(191400, 155400),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Demolishion",
@@ -3283,6 +3253,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(175800, 184200, 18900),
 	'Angle', 10800,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Heavy",
@@ -3296,6 +3269,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(186600, 177000),
 	'Angle', 16200,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "ForeignMerc_03",
@@ -3310,6 +3286,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(193800, 165000),
 	'Angle', 16200,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Officer",
@@ -3323,6 +3302,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(189000, 177000),
 	'Angle', 16200,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "ForeignMerc_01",
@@ -3336,6 +3318,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1392927103)
 PlaceObj('UnitMarker', {
 	'Pos', point(190200, 179400),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Soldier",
@@ -3348,6 +3333,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1228363911)
 PlaceObj('UnitMarker', {
 	'Pos', point(191400, 185400),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Stormer_1",
@@ -3358,87 +3346,12 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1537653764)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(135000, 209400),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1399546325)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(133800, 211800),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1662823309)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(137400, 210600),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1215801418)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(139800, 208200),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1727825205)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(132600, 214200),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1357149980)
-PlaceObj('TrapSpawnMarker', {
-	'Pos', point(133800, 215400),
-	'Groups', {
-		"Thugs_Mines",
-	},
-	'AllowedMask', 4294966497,
-	'BaseDamage', 50,
-	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
-	'revealDifficulty', "Medium",
-	'disarmDifficulty', "VeryHard",
-	'TriggerType', "Contact",
-}, nil, 1158195205)
 PlaceObj('UnitMarker', {
 	'Pos', point(132600, 222600, 16800),
 	'Angle', 5400,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Stormer_1",
@@ -3452,6 +3365,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(133800, 222600, 16800),
 	'Angle', 5400,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Stormer_1",
@@ -3465,6 +3381,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(162600, 217800, 17500),
 	'Angle', 10800,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Heavy",
@@ -3483,7 +3402,6 @@ PlaceObj('TrapSpawnMarker', {
 	'AllowedMask', 4294966497,
 	'BaseDamage', 50,
 	'Noise', 70,
-	'visibility', set( "ally", "player1", "player2" ),
 	'revealDifficulty', "Medium",
 	'disarmDifficulty', "VeryHard",
 	'TriggerType', "Contact",
@@ -3510,6 +3428,9 @@ PlaceObj('ExitZoneInteractable', {
 PlaceObj('UnitMarker', {
 	'Pos', point(165000, 213000, 17500),
 	'Angle', 10800,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Heavy",
@@ -3523,6 +3444,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(165000, 215400, 17500),
 	'Angle', 10800,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Officer",
@@ -3535,6 +3459,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1527516410)
 PlaceObj('UnitMarker', {
 	'Pos', point(186600, 210600),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Marksman_1",
@@ -3548,6 +3475,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(191400, 209400),
 	'Angle', 16200,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Marksman",
@@ -3561,6 +3491,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(191400, 213000),
 	'Angle', 10800,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Marksman_1",
@@ -3574,6 +3507,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(177000, 239400),
 	'Angle', 16200,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Recon_1",
@@ -3587,6 +3523,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(185400, 240600),
 	'Angle', 16200,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Recon_1",
@@ -3599,6 +3538,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1516458453)
 PlaceObj('UnitMarker', {
 	'Pos', point(193800, 239400),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Recon",
@@ -3611,6 +3553,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1160228076)
 PlaceObj('UnitMarker', {
 	'Pos', point(198600, 147000),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Heavy",
@@ -3623,6 +3568,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1333273326)
 PlaceObj('UnitMarker', {
 	'Pos', point(198600, 156600),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Heavy_1",
@@ -3635,6 +3583,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1518511926)
 PlaceObj('UnitMarker', {
 	'Pos', point(209400, 187800),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Soldier_1",
@@ -3647,6 +3598,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1148728416)
 PlaceObj('UnitMarker', {
 	'Pos', point(211800, 186600),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Marksman_1",
@@ -3709,6 +3663,9 @@ PlaceObj('TrapSpawnMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(214200, 191400),
 	'Angle', 16200,
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Recon",
@@ -3789,6 +3746,9 @@ PlaceObj('TrapSpawnMarker', {
 }, nil, 1721840076)
 PlaceObj('UnitMarker', {
 	'Pos', point(198600, 214200),
+	'Groups', {
+		"Pigs",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Thug_Stormer",

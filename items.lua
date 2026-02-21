@@ -80,6 +80,17 @@ return {
 			group = "Banters_Vendors_Stalls",
 			id = "Stall_Barter_762x25_Knife",
 		}),
+		PlaceObj('ModItemBanterDef', {
+			Lines = {
+				PlaceObj('BanterLine', {
+					'Text', T(619128627841, --[[ModItemBanterDef Stall_Barter_762x39PS Text]] "Патроны 7.62x39 ПС (Армейские)"),
+					'Voiced', false,
+					'FloatUp', true,
+				}),
+			},
+			group = "Banters_Vendors_Stalls",
+			id = "Stall_Barter_762x39PS",
+		}),
 		}),
 	PlaceObj('ModItemFolder', {
 		'name', "Maps",
@@ -2256,6 +2267,8 @@ return {
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
+	East = false,
+	North = false,
 	South = false,
 }),
 					'image', "UI/SatelliteView/SectorImages/C03",
@@ -3010,6 +3023,9 @@ return {
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
+	East = false,
+	North = false,
+	South = false,
 	West = false,
 }),
 					'image', "UI/SatelliteView/SectorImages/D05",
@@ -3976,6 +3992,33 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
+				'comment', "Захоронения",
+				'mapName', "AYUbWe",
+				'campaignId', "HotDiamonds",
+				'sectorId', "H17",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "H17",
+					'Map', "AYUbWe",
+					'MapTier', 20,
+					'modId', "FhNNYd",
+					'display_name', T(584766347441, "Захоронения"),
+					'TerrainType', "Jungle",
+					'WeatherZone', "SouthJungle",
+					'InterestingSector', true,
+					'bidirectionalRoadApply', true,
+					'Roads', {
+						East = false,
+						North = true,
+						South = true,
+						West = true,
+					},
+					'bidirectionalBlockApply', true,
+					'image', "UI/SatelliteView/SectorImages/J11",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Jungle_Conflict",
+				}),
+			}),
+			PlaceObj('ModItemSector', {
 				'comment', "Бункер",
 				'mapName', "AXQt4bs",
 				'campaignId', "HotDiamonds",
@@ -4676,7 +4719,7 @@ return {
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = false,
-	North = false,
+	North = true,
 	South = true,
 	West = false,
 }),
@@ -5918,7 +5961,7 @@ return {
 	East = true,
 	North = false,
 	South = true,
-	West = true,
+	West = false,
 }),
 					'ImpassableForEnemies', true,
 					'bidirectionalBlockApply', true,
@@ -5941,25 +5984,17 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
-				'comment', "Побережье саванны",
-				'mapName', "UXbaSnf",
+				'comment', "Поселение кладоискателей",
+				'mapName', "esV6vTc",
 				'campaignId', "HotDiamonds",
 				'sectorId', "J13",
 				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
 					'Id', "J13",
-					'Map', "UXbaSnf",
-					'MapTier', 10,
+					'Map', "esV6vTc",
 					'modId', "FhNNYd",
-					'display_name', T(746831907861, "Побережье саванны"),
-					'WeatherZone', "SavannahSouth",
-					'Passability', "Land and Water",
+					'display_name', T(997744145858, "Поселение кладоискателей"),
 					'bidirectionalRoadApply', true,
-					'Roads', set( "East", "North", "West" ),
 					'bidirectionalBlockApply', true,
-					'image', "UI/SatelliteView/SectorImages/I07",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Savanna_Conflict",
-					'MusicExploration', "Savanna_Exploration",
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -5983,7 +6018,7 @@ return {
 					},
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	East = true,
+	East = false,
 	North = false,
 	South = false,
 	West = false,
@@ -6651,6 +6686,34 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
+				'comment', "Небольшой золотой прииск",
+				'mapName', "UXbaSnf",
+				'campaignId', "HotDiamonds",
+				'sectorId', "K13",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "K13",
+					'Map', "UXbaSnf",
+					'MapTier', 10,
+					'modId', "FhNNYd",
+					'display_name', T(746831907861, "Небольшой золотой прииск"),
+					'WeatherZone', "SavannahSouth",
+					'Passability', "Land and Water",
+					'bidirectionalRoadApply', true,
+					'Roads', set({
+	East = true,
+	North = false,
+	South = false,
+	West = true,
+}),
+					'bidirectionalBlockApply', true,
+					'image', "UI/SatelliteView/SectorImages/I07",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Savanna_Conflict",
+					'MusicExploration', "Savanna_Exploration",
+				}),
+			}),
+			PlaceObj('ModItemSector', {
+				'comment', "Заброшенный скалистый берег",
 				'mapName', "XgdUCn7",
 				'campaignId', "HotDiamonds",
 				'sectorId', "K7",
@@ -6658,6 +6721,7 @@ return {
 					'Id', "K7",
 					'Map', "XgdUCn7",
 					'modId', "FhNNYd",
+					'display_name', T(124799308713, "Заброшенный скалистый берег"),
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
@@ -6666,6 +6730,12 @@ return {
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = true,
+	North = false,
+	South = false,
+	West = false,
+}),
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -7020,39 +7090,12 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
-				'comment', "Захоронения",
-				'mapName', "AYUbWe",
+				'comment', "Кам-Ла-Барьер",
+				'mapName', "d6nSHQ",
 				'campaignId', "HotDiamonds",
 				'sectorId', "L15",
 				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
 					'Id', "L15",
-					'Map', "AYUbWe",
-					'MapTier', 20,
-					'modId', "FhNNYd",
-					'display_name', T(584766347441, "Захоронения"),
-					'TerrainType', "Jungle",
-					'WeatherZone', "SouthJungle",
-					'InterestingSector', true,
-					'bidirectionalRoadApply', true,
-					'Roads', {
-						East = true,
-						North = true,
-						South = true,
-						West = true,
-					},
-					'bidirectionalBlockApply', true,
-					'image', "UI/SatelliteView/SectorImages/J11",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Jungle_Conflict",
-				}),
-			}),
-			PlaceObj('ModItemSector', {
-				'comment', "Кам-Ла-Барьер",
-				'mapName', "d6nSHQ",
-				'campaignId', "HotDiamonds",
-				'sectorId', "L14",
-				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "L14",
 					'Map', "d6nSHQ",
 					'MapTier', 50,
 					'Label1', "Outpost",
@@ -7116,7 +7159,7 @@ return {
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
-	North = false,
+	North = true,
 	South = false,
 }),
 					'bidirectionalBlockApply', true,
@@ -7149,20 +7192,23 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
-				'comment', "Часто маленького острова",
-				'mapName', "aybsyQm",
+				'comment', "Остров контрабандистов",
+				'mapName', "EuSA4VN",
 				'campaignId', "HotDiamonds",
-				'sectorId', "L12",
+				'sectorId', "L13",
 				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "L12",
-					'Map', "aybsyQm",
+					'Id', "L13",
+					'Map', "EuSA4VN",
 					'modId', "FhNNYd",
+					'display_name', T(308732960633, "Безликий"),
+					'TerrainType', "Water",
+					'Passability', "Water",
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 				}),
 			}),
 			PlaceObj('ModItemSector', {
-				'comment', "Часто маленького острова",
+				'comment', "Укрепленный остров с орудиями",
 				'mapName', "V4PtNEt",
 				'campaignId', "HotDiamonds",
 				'sectorId', "L11",
@@ -7170,7 +7216,7 @@ return {
 					'Id', "L11",
 					'Map', "V4PtNEt",
 					'modId', "FhNNYd",
-					'display_name', T(896730749332, "Безымянный остров"),
+					'display_name', T(896730749332, 'Укреп "Центровой"'),
 					'TerrainType', "Water",
 					'Passability', "Water",
 				}),
@@ -8275,7 +8321,7 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
-				'comment', "Ферма Какао",
+				'comment', "Укреп в N11",
 				'mapName', "nMmefSY",
 				'campaignId', "HotDiamonds",
 				'sectorId', "N11",
@@ -8284,7 +8330,7 @@ return {
 					'Map', "nMmefSY",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(549508021001, "Великий лес"),
+					'display_name', T(549508021001, "Укреп район Какао"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'bidirectionalRoadApply', true,
@@ -8850,7 +8896,7 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
-				'comment', "Филер",
+				'comment', "Пригород Какао",
 				'mapName', "3qduS",
 				'campaignId', "HotDiamonds",
 				'sectorId', "O11",
@@ -8858,7 +8904,7 @@ return {
 					'Id', "O11",
 					'Map', "3qduS",
 					'modId', "FhNNYd",
-					'display_name', T(308781253074, "Очередное великое нихуя"),
+					'display_name', T(308781253074, "Пригород Какао"),
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 				}),
@@ -29983,6 +30029,193 @@ return {
 				'name', "Ernie Island",
 			}, {
 				PlaceObj('ModItemConversation', {
+					AssignToGroup = "ThugBoss_Balumba",
+					DefaultActor = "ThugBoss_Balumba",
+					group = "Default",
+					id = "ThugBalumba",
+					PlaceObj('ConversationPhrase', {
+						AutoRemove = true,
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_DeadPigs",
+								Vars = set( "NotStarted" ),
+								param_bindings = false,
+							}),
+						},
+						Effects = {
+							PlaceObj('UnitGrantItem', {
+								ItemId = "DiamondBriefcase",
+								param_bindings = false,
+							}),
+						},
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "ThugBoss_Balumba",
+								Text = T(223335313664, --[[ModItemConversation ThugBalumba Text voice:ThugBoss_Balumba section:ThugBalumba keyword:Greeting]] "Враг моего врага мой друг, спасибо, вот вам за помощь."),
+								param_bindings = false,
+							}),
+						},
+						NoBackOption = true,
+						id = "Greeting",
+						param_bindings = false,
+						PlaceObj('ConversationPhrase', {
+							Keyword = "Мы заметили среди нападавших бойцов с такой же экипировкой, как у вас...",
+							KeywordT = T(446448117426, --[[ModItemConversation ThugBalumba KeywordT]] "Мы заметили среди нападавших бойцов с такой же экипировкой, как у вас..."),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "ThugBoss_Balumba",
+									Text = T(496528000618, --[[ModItemConversation ThugBalumba Text voice:ThugBoss_Balumba section:ThugBalumba keyword:Мы заметили среди нападавших бойцов с такой же экипировкой, как у вас...]] "Произошел у нас тут разлад по взглядам на нынешнюю ситуацию, мы контрабандисты, централизация у нас имеется, но вот взгляды разнятся, после того как Легион начал захватывать страну некоторые поверили, что это теперь новая власть и лучше сразу налаживать с ними контакт, мол куй железо пока горячо."),
+									param_bindings = false,
+								}),
+							},
+							id = "2",
+							param_bindings = false,
+							PlaceObj('ConversationPhrase', {
+								Keyword = "Контрабандисты, значит можете организовать нам какие-то интересные игрушки?",
+								KeywordT = T(958865169204, --[[ModItemConversation ThugBalumba KeywordT]] "Контрабандисты, значит можете организовать нам какие-то интересные игрушки?"),
+								Lines = {
+									PlaceObj('ConversationLine', {
+										Character = "ThugBoss_Balumba",
+										Text = T(977289143439, --[[ModItemConversation ThugBalumba Text voice:ThugBoss_Balumba section:ThugBalumba keyword:Контрабандисты, значит можете организовать нам какие-то интересные игрушки?]] "За этим не заржавеет, мы оказались взаперти на острове, так что начали снабжать местных партизан, денег у нас хватает и от штучной торговли мы сильно не выиграем, так что есть к вам взаимовыгодное предложение."),
+										param_bindings = false,
+									}),
+								},
+								id = "Question",
+								param_bindings = false,
+								PlaceObj('ConversationPhrase', {
+									Keyword = "Briefing",
+									KeywordT = T(158495869880, --[[ModItemConversation ThugBalumba KeywordT]] "Briefing"),
+									Lines = {
+										PlaceObj('ConversationLine', {
+											Character = "ThugBoss_Balumba",
+											Text = T(660779522711, --[[ModItemConversation ThugBalumba Text voice:ThugBoss_Balumba section:ThugBalumba keyword:Briefing]] "Ниже нас расположен наш запасной лагерь, так вышло, что наши вчерашние друзья стали нам врагами, мы их теперь называем <em>хохлы</em>, потому что они чистые свиньи. Они встали на сторону Легиона и выход есть только один, даже если всё разрешится, Босс их не помилует, а мы ужиться уже не сможем. Поэтому предлагаю совместную военную операцию, зачищаем противника, а в замен можете выторговывать у нас то, что мы сможем предложить, естесственно по дисконту."),
+											param_bindings = false,
+										}),
+									},
+									id = "Briefing",
+									param_bindings = false,
+									PlaceObj('ConversationPhrase', {
+										Effects = {
+											PlaceObj('UnitGrantItem', {
+												ItemId = "JAZZ_AMMO_40mmFragGrenade",
+												LootTableId = "M79",
+												param_bindings = false,
+											}),
+											PlaceObj('UnitGrantItem', {
+												LootTableId = "40mm",
+												param_bindings = false,
+											}),
+										},
+										GiveQuests = {
+											"Jazz_DeadPigs",
+										},
+										GoTo = "<end conversation>",
+										Keyword = "Мы согласны",
+										KeywordT = T(441073052992, --[[ModItemConversation ThugBalumba KeywordT]] "Мы согласны"),
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "ThugBoss_Balumba",
+												Text = T(127671791399, --[[ModItemConversation ThugBalumba Text voice:ThugBoss_Balumba section:ThugBalumba keyword:Мы согласны]] "Значит смотрите, группа разведчиков уже не далеко от лагеря, вооружены они хорошо и охранение выставили, так что вот вам в довесок, как только вступите в бой, они тут же подключатся, я отобрал туда опытных бойцов. "),
+												param_bindings = false,
+											}),
+										},
+										id = "3",
+										param_bindings = false,
+									}),
+									PlaceObj('ConversationPhrase', {
+										GoTo = "<end conversation>",
+										Keyword = "Не охота вмешиваться в терки местного криминалитета",
+										KeywordT = T(522339243532, --[[ModItemConversation ThugBalumba KeywordT]] "Не охота вмешиваться в терки местного криминалитета"),
+										Lines = {
+											PlaceObj('ConversationLine', {
+												Character = "ThugBoss_Balumba",
+												Text = T(393865915300, --[[ModItemConversation ThugBalumba Text voice:ThugBoss_Balumba section:ThugBalumba keyword:Не охота вмешиваться в терки местного криминалитета]] "Что ж господа, тогда расход."),
+												param_bindings = false,
+											}),
+										},
+										id = "2",
+										param_bindings = false,
+									}),
+								}),
+							}),
+						}),
+					}),
+					PlaceObj('ConversationPhrase', {
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "ThugBoss_Balumba",
+								Text = T(770676561991, --[[ModItemConversation ThugBalumba Text voice:ThugBoss_Balumba section:ThugBalumba keyword:Greeting2]] "Здравствуйте наёмники."),
+								param_bindings = false,
+							}),
+						},
+						id = "Greeting2",
+						param_bindings = false,
+						PlaceObj('ConversationPhrase', {
+							CompleteQuests = {
+								"Jazz_DeadPigs",
+							},
+							Conditions = {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "Jazz_DeadPigs",
+									Vars = set( "PigsDead" ),
+									param_bindings = false,
+								}),
+							},
+							GoTo = "<end conversation>",
+							Keyword = "Дело сделано, лагерь зачищен",
+							KeywordT = T(315124002023, --[[ModItemConversation ThugBalumba KeywordT]] "Дело сделано, лагерь зачищен"),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "ThugBoss_Balumba",
+									Text = T(295779427512, --[[ModItemConversation ThugBalumba Text voice:ThugBoss_Balumba section:ThugBalumba keyword:Дело сделано, лагерь зачищен]] "Прекрасно господа, мои разведчики уже доложили, наша очередь, я дал команду бойцам, чтоб для вас они сделали исключения, по базе хранится различное снаряжение, цены для вас будут вполне приятные."),
+									param_bindings = false,
+								}),
+							},
+							id = "3",
+							param_bindings = false,
+						}),
+						PlaceObj('ConversationPhrase', {
+							Conditions = {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "Jazz_DeadPigs",
+									Vars = set( "NotStarted" ),
+									param_bindings = false,
+								}),
+							},
+							GoTo = "Greeting.2.Question.Briefing",
+							Keyword = "Мы передумали",
+							KeywordT = T(890077682633, --[[ModItemConversation ThugBalumba KeywordT]] "Мы передумали"),
+							Lines = {
+								PlaceObj('ConversationLine', {
+									Character = "ThugBoss_Balumba",
+									Text = T(441844334256, --[[ModItemConversation ThugBalumba Text voice:ThugBoss_Balumba section:ThugBalumba keyword:Мы передумали]] "Прекрасно, так что решили"),
+									param_bindings = false,
+								}),
+							},
+							id = "2",
+							param_bindings = false,
+						}),
+					}),
+					PlaceObj('ConversationPhrase', {
+						GoTo = "<end conversation>",
+						Keyword = "Goodbye",
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "ThugBoss_Balumba",
+								Text = T(470069340995, --[[ModItemConversation ThugBalumba Text voice:ThugBoss_Balumba section:ThugBalumba keyword:Goodbye]] "До новых встреч"),
+								param_bindings = false,
+							}),
+						},
+						id = "Goodbye",
+						param_bindings = false,
+					}),
+				}),
+				PlaceObj('ModItemConversation', {
 					AssignToGroup = "Rebels_Base_Warrior_Chief",
 					DefaultActor = "RebelSergeant_Immortal_L1",
 					group = "Ernie",
@@ -30904,7 +31137,7 @@ return {
 								},
 								GoTo = "2",
 								Keyword = "Мы согласны",
-								KeywordT = T(441073052992, --[[ModItemConversation Ernie_M1_Rebel_Briefing KeywordT]] "Мы согласны"),
+								KeywordT = T(441073052992, --[[ModItemConversation ThugBalumba KeywordT]] "Мы согласны"),
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "RebelSergeant_Immortal_M1",
@@ -31112,7 +31345,7 @@ return {
 							},
 							GoTo = "<end conversation>",
 							Keyword = "Мы согласны",
-							KeywordT = T(441073052992, --[[ModItemConversation Ernie_M1_Rebel_Briefing KeywordT]] "Мы согласны"),
+							KeywordT = T(441073052992, --[[ModItemConversation ThugBalumba KeywordT]] "Мы согласны"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
@@ -35187,6 +35420,8 @@ return {
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
+	East = false,
+	North = false,
 	South = false,
 }),
 					'image', "UI/SatelliteView/SectorImages/C03",
@@ -36792,6 +37027,11 @@ return {
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = false,
+	North = false,
+	West = true,
+}),
 					'image', "UI/SatelliteView/SectorImages/I07",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Savanna_Conflict",
@@ -36835,6 +37075,7 @@ return {
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set( "West" ),
 					'image', "UI/SatelliteView/SectorImages/I07",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Savanna_Conflict",
@@ -36856,6 +37097,9 @@ return {
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
+	East = false,
+	North = false,
+	South = false,
 	West = false,
 }),
 					'image', "UI/SatelliteView/SectorImages/D05",
@@ -37962,6 +38206,7 @@ return {
 					'Passability', "Water",
 					'Intel', false,
 					'BlockTravel', set({
+	East = false,
 	North = false,
 }),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
@@ -38307,6 +38552,27 @@ return {
 					'MusicConflict', "Underground_Conflict",
 					'MusicExploration', "Underground_Exploration",
 					'combatTaskAmount', 2,
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "H17",
+					'Map', "AYUbWe",
+					'MapTier', 20,
+					'modId', "FhNNYd",
+					'display_name', T(584766347441, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H17]] "Захоронения"),
+					'TerrainType', "Jungle",
+					'WeatherZone', "SouthJungle",
+					'InterestingSector', true,
+					'bidirectionalRoadApply', true,
+					'Roads', {
+						East = false,
+						North = true,
+						South = true,
+						West = true,
+					},
+					'bidirectionalBlockApply', true,
+					'image', "UI/SatelliteView/SectorImages/J11",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Jungle_Conflict",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "H18",
@@ -39230,7 +39496,7 @@ return {
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = false,
-	North = false,
+	North = true,
 	South = true,
 	West = false,
 }),
@@ -40670,7 +40936,7 @@ return {
 					'BlockTravel', {
 						East = true,
 						North = false,
-						South = false,
+						South = true,
 						West = false,
 					},
 					'BlockTravelRiver', set( "East", "North", "South" ),
@@ -40845,10 +41111,10 @@ return {
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
 				}),
-								PlaceObj('SatelliteSector', {
+				PlaceObj('SatelliteSector', {
 					'Id', "J11",
 					'Label1', "Blocked",
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J10]] "Sea"),
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J11]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -40874,7 +41140,7 @@ return {
 					},
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	East = true,
+	East = false,
 	North = false,
 	South = false,
 	West = false,
@@ -40934,19 +41200,11 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "J13",
-					'Map', "UXbaSnf",
-					'MapTier', 10,
+					'Map', "esV6vTc",
 					'modId', "FhNNYd",
-					'display_name', T(746831907861, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J13]] "Побережье саванны"),
-					'WeatherZone', "SavannahSouth",
-					'Passability', "Land and Water",
+					'display_name', T(997744145858, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J13]] "Поселение кладоискателей"),
 					'bidirectionalRoadApply', true,
-					'Roads', set( "East", "North", "West" ),
 					'bidirectionalBlockApply', true,
-					'image', "UI/SatelliteView/SectorImages/I07",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Savanna_Conflict",
-					'MusicExploration', "Savanna_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "J14",
@@ -40967,7 +41225,7 @@ return {
 	East = true,
 	North = false,
 	South = true,
-	West = true,
+	West = false,
 }),
 					'ImpassableForEnemies', true,
 					'bidirectionalBlockApply', true,
@@ -41969,7 +42227,7 @@ return {
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
-						East = false,
+						East = true,
 						North = false,
 						South = false,
 						West = false,
@@ -42015,7 +42273,7 @@ return {
 						PlaceObj('SE_OnEnterMap', {
 							'Conditions', {
 								PlaceObj('SectorHasIntel', {
-									sector_id = "J7",
+									sector_id = "I3",
 								}),
 							},
 							'Effects', {
@@ -42134,13 +42392,14 @@ return {
 					'Roads', set({
 	East = false,
 	North = false,
+	South = false,
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
 						East = false,
 						North = false,
-						South = true,
+						South = false,
 						West = false,
 					},
 					'image', "UI/SatelliteView/SectorImages/I03",
@@ -42218,12 +42477,14 @@ return {
 					'Roads', set({
 	East = false,
 	North = false,
+	South = false,
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
-						East = true,
-						North = true,
+						East = false,
+						North = false,
+						South = false,
 						West = false,
 					},
 					'image', "UI/SatelliteView/SectorImages/I03",
@@ -42267,7 +42528,7 @@ return {
 						PlaceObj('SE_OnEnterMap', {
 							'Conditions', {
 								PlaceObj('SectorHasIntel', {
-									sector_id = "I3",
+									sector_id = "J7",
 								}),
 							},
 							'Effects', {
@@ -42300,7 +42561,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "J9",
 					'Label1', "Blocked",
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J8]] "Sea"),
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J9]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -42339,7 +42600,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "K11",
 					'Label1', "Blocked",
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K10]] "Sea"),
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K11]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -42477,6 +42738,41 @@ return {
 					'MusicExploration', "Underground_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
+					'Id', "K12",
+					'MapTier', 30,
+					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K12]] "River"),
+					'Side', "neutral",
+					'StickySide', true,
+					'TerrainType', "Swamp",
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_River",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "K13",
+					'Map', "UXbaSnf",
+					'MapTier', 10,
+					'modId', "FhNNYd",
+					'display_name', T(746831907861, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K13]] "Небольшой золотой прииск"),
+					'WeatherZone', "SavannahSouth",
+					'Passability', "Land and Water",
+					'bidirectionalRoadApply', true,
+					'Roads', set({
+	East = true,
+	North = false,
+	South = false,
+	West = true,
+}),
+					'bidirectionalBlockApply', true,
+					'image', "UI/SatelliteView/SectorImages/I07",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Savanna_Conflict",
+					'MusicExploration', "Savanna_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
 					'Id', "K14",
 					'Map', "K-14 - Factory Ruins",
 					'MapTier', 30,
@@ -42492,7 +42788,7 @@ return {
 						East = false,
 						North = true,
 						South = false,
-						West = false,
+						West = true,
 					},
 					'BlockTravel', {
 						East = false,
@@ -43281,6 +43577,7 @@ return {
 					'Id', "K7",
 					'Map', "XgdUCn7",
 					'modId', "FhNNYd",
+					'display_name', T(124799308713, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K7]] "Заброшенный скалистый берег"),
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
@@ -43289,6 +43586,12 @@ return {
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
+					'BlockTravel', set({
+	East = true,
+	North = false,
+	South = false,
+	West = false,
+}),
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "K8",
@@ -43298,6 +43601,7 @@ return {
 					'StickySide', true,
 					'Passability', "Water",
 					'Intel', false,
+					'BlockTravel', set( "West" ),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
@@ -43370,148 +43674,58 @@ return {
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
-					'Id', "L10",
-					'Label1', "Blocked",
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L10]] "Sea"),
-					'Side', "neutral",
-					'StickySide', true,
-					'Passability', "Water",
-					'Intel', false,
-					'image', "UI/SatelliteView/SectorImages/_Sea",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
 					'Id', "L11",
 					'Map', "V4PtNEt",
 					'modId', "FhNNYd",
-					'display_name', T(896730749332, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L11]] "Безымянный остров"),
+					'display_name', T(896730749332, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L11]] 'Укреп "Центровой"'),
 					'TerrainType', "Water",
 					'Passability', "Water",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L12",
-					'Map', "aybsyQm",
-					'modId', "FhNNYd",
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "L13",
-					'Label1', "Blocked",
+					'MapTier', 30,
+					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L12]] "River"),
 					'Side', "neutral",
 					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
+					'TerrainType', "Swamp",
+					'Passability', "Water",
 					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_River",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
-					'Id', "L14",
-					'Map', "d6nSHQ",
-					'MapTier', 50,
-					'Label1', "Outpost",
+					'Id', "L13",
+					'Map', "EuSA4VN",
 					'modId', "FhNNYd",
-					'display_name', T(209909493905, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L14]] "Кам-Ла-Барьер"),
-					'TerrainType', "Jungle",
-					'WeatherZone', "GreatForest",
-					'Passability', "Land and Water",
-					'Guardpost', true,
-					'PatrolRespawnTime', 576000,
-					'TargetSectors', {
-						"J13",
-						"J14",
-						"F13",
-						"K15",
-						"A2",
-						"P17",
-						"O16",
-					},
-					'ExtraDefenderSquads', {
-						"LegionExtraDefenders_Ordnance_Easy",
-						"LegionExtraDefenders_Ordnance_Easy",
-						"LegionExtraDefenders_Ordnance_Easy",
-						"LegionExtraDefenders_Ordnance_Easy",
-						"LegionExtraDefenders_Ordnance_Easy",
-						"LegionExtraDefenders_Shock_Hard",
-						"LegionExtraDefenders_Shock_Hard",
-						"LegionExtraDefenders_Shock_Hard",
-					},
-					'EnemySquadsList', {
-						"LegionAttackers_Balanced_Easy",
-						"LegionAttackers_Balanced_Easy",
-						"LegionAttackers_Balanced_Easy",
-						"LegionAttackers_Ordnance_Easy",
-						"LegionAttackers_Ordnance_Easy",
-						"LegionAttackers_Shock_Easy",
-						"LegionAttackers_Shock_Easy",
-					},
-					'StrongEnemySquadsList', {
-						"LegionAttackers_Balanced_Hard",
-						"LegionAttackers_Balanced_Hard",
-						"LegionAttackers_Balanced_Hard",
-						"LegionAttackers_Shock_Hard",
-						"LegionAttackers_Shock_Hard",
-						"LegionAttackers_Ordnance_Hard",
-						"LegionAttackers_Ordnance_Hard",
-						"LegionAttackers_Ordnance_Hard",
-						"LegionAttackers_Ordnance_Hard",
-					},
-					'Militia', true,
-					'MaxMilitia', 12,
-					'ForceConflict', true,
-					'InitialSquads', {
-						"NightCombatGarrison",
-						"LegionExtraSquadFireArms",
-						"LegionExtraSquadFireArms_T2",
-						"LegionExtraSquadMelee_T2",
-					},
-					'MinFlareCarriers', 4,
-					'MaxFlareCarriers', 6,
+					'display_name', T(308732960633, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L13]] "Безликий"),
+					'TerrainType', "Water",
+					'Passability', "Water",
 					'bidirectionalRoadApply', true,
-					'Roads', set({
-	East = true,
-	North = false,
-	South = false,
-}),
 					'bidirectionalBlockApply', true,
-					'BlockTravelRiver', set(),
-					'image', "UI/SatelliteView/SectorImages/G10",
-					'Events', {
-						PlaceObj('SE_OnEnterMapVisual', {
-							'Conditions', {
-								PlaceObj('QuestIsVariableBool', {
-									QuestId = "ReduceBarrierCampStrength",
-									Vars = set( "BoatExploded" ),
-								}),
-								PlaceObj('SectorIsInConflict', {
-									sector_id = "G10",
-								}),
-							},
-							'SequentialEffects', true,
-							'Effects', {
-								PlaceObj('PlaySetpiece', {
-									setpiece = "ExplodingBoatAtOutpost",
-								}),
-							},
-						}),
-					},
-					'Port', true,
-					'DBDestinationSector', true,
-					'MusicCombat', "Battle_Tough",
-					'MusicConflict', "Outpost_Conflict",
-					'MusicExploration', "Outpost_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L14",
+					'MapTier', 30,
+					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L14]] "River"),
+					'Side', "neutral",
+					'StickySide', true,
+					'TerrainType', "Swamp",
+					'Passability', "Water",
+					'Intel', false,
+					'image', "UI/SatelliteView/SectorImages/_River",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "L15",
 					'Map', "d6nSHQ",
 					'MapTier', 50,
 					'Label1', "Outpost",
 					'modId', "FhNNYd",
-					'display_name', T(209909493905, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L14]] "Кам-Ла-Барьер"),
+					'display_name', T(209909493905, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L15]] "Кам-Ла-Барьер"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'Passability', "Land and Water",
@@ -43570,7 +43784,7 @@ return {
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
-	North = false,
+	North = true,
 	South = false,
 }),
 					'bidirectionalBlockApply', true,
@@ -43603,24 +43817,99 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L15",
-					'Map', "AYUbWe",
-					'MapTier', 20,
+					'Map', "d6nSHQ",
+					'MapTier', 50,
+					'Label1', "Outpost",
 					'modId', "FhNNYd",
-					'display_name', T(584766347441, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L15]] "Захоронения"),
+					'display_name', T(209909493905, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L15]] "Кам-Ла-Барьер"),
 					'TerrainType', "Jungle",
-					'WeatherZone', "SouthJungle",
-					'InterestingSector', true,
-					'bidirectionalRoadApply', true,
-					'Roads', {
-						East = true,
-						North = true,
-						South = true,
-						West = true,
+					'WeatherZone', "GreatForest",
+					'Passability', "Land and Water",
+					'Guardpost', true,
+					'PatrolRespawnTime', 576000,
+					'TargetSectors', {
+						"J13",
+						"J14",
+						"F13",
+						"K15",
+						"A2",
+						"P17",
+						"O16",
 					},
+					'ExtraDefenderSquads', {
+						"LegionExtraDefenders_Ordnance_Easy",
+						"LegionExtraDefenders_Ordnance_Easy",
+						"LegionExtraDefenders_Ordnance_Easy",
+						"LegionExtraDefenders_Ordnance_Easy",
+						"LegionExtraDefenders_Ordnance_Easy",
+						"LegionExtraDefenders_Shock_Hard",
+						"LegionExtraDefenders_Shock_Hard",
+						"LegionExtraDefenders_Shock_Hard",
+					},
+					'EnemySquadsList', {
+						"LegionAttackers_Balanced_Easy",
+						"LegionAttackers_Balanced_Easy",
+						"LegionAttackers_Balanced_Easy",
+						"LegionAttackers_Ordnance_Easy",
+						"LegionAttackers_Ordnance_Easy",
+						"LegionAttackers_Shock_Easy",
+						"LegionAttackers_Shock_Easy",
+					},
+					'StrongEnemySquadsList', {
+						"LegionAttackers_Balanced_Hard",
+						"LegionAttackers_Balanced_Hard",
+						"LegionAttackers_Balanced_Hard",
+						"LegionAttackers_Shock_Hard",
+						"LegionAttackers_Shock_Hard",
+						"LegionAttackers_Ordnance_Hard",
+						"LegionAttackers_Ordnance_Hard",
+						"LegionAttackers_Ordnance_Hard",
+						"LegionAttackers_Ordnance_Hard",
+					},
+					'Militia', true,
+					'MaxMilitia', 12,
+					'ForceConflict', true,
+					'InitialSquads', {
+						"NightCombatGarrison",
+						"LegionExtraSquadFireArms",
+						"LegionExtraSquadFireArms_T2",
+						"LegionExtraSquadMelee_T2",
+					},
+					'MinFlareCarriers', 4,
+					'MaxFlareCarriers', 6,
+					'bidirectionalRoadApply', true,
+					'Roads', set({
+	East = true,
+	North = false,
+	South = false,
+}),
 					'bidirectionalBlockApply', true,
-					'image', "UI/SatelliteView/SectorImages/J11",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Jungle_Conflict",
+					'BlockTravelRiver', set(),
+					'image', "UI/SatelliteView/SectorImages/G10",
+					'Events', {
+						PlaceObj('SE_OnEnterMapVisual', {
+							'Conditions', {
+								PlaceObj('QuestIsVariableBool', {
+									QuestId = "ReduceBarrierCampStrength",
+									Vars = set( "BoatExploded" ),
+								}),
+								PlaceObj('SectorIsInConflict', {
+									sector_id = "G10",
+								}),
+							},
+							'SequentialEffects', true,
+							'Effects', {
+								PlaceObj('PlaySetpiece', {
+									setpiece = "ExplodingBoatAtOutpost",
+								}),
+							},
+						}),
+					},
+					'Port', true,
+					'DBDestinationSector', true,
+					'MusicCombat', "Battle_Tough",
+					'MusicConflict', "Outpost_Conflict",
+					'MusicExploration', "Outpost_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L16",
@@ -44678,7 +44967,7 @@ return {
 					'Map', "nMmefSY",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(549508021001, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N11]] "Великий лес"),
+					'display_name', T(549508021001, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N11]] "Укреп район Какао"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'bidirectionalRoadApply', true,
@@ -45396,7 +45685,7 @@ return {
 					'Id', "O11",
 					'Map', "3qduS",
 					'modId', "FhNNYd",
-					'display_name', T(308781253074, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O11]] "Очередное великое нихуя"),
+					'display_name', T(308781253074, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O11]] "Пригород Какао"),
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 				}),
@@ -46330,7 +46619,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "O9",
 					'Label1', "Blocked",
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O8]] "Sea"),
+					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O9]] "Sea"),
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -46680,49 +46969,55 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "P17",
-					'Map', "gULjNxW",
-					'MapTier', 10,
-					'Label1', "Mine",
+					'Map', "JFxNeEb",
+					'MapTier', 30,
+					'Label1', "Outpost",
 					'modId', "FhNNYd",
-					'display_name', T(182607269744, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P17]] "Шахта Мфуму"),
-					'WeatherZone', "SavannahSouth",
-					'City', "Fleatown",
-					'Mine', true,
-					'DailyIncome', 7000,
-					'Depletion', true,
-					'DepletionTime', 500,
+					'display_name', T(250419918305, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P17]] "Камп Де Крокодиль"),
+					'TerrainType', "Swamp",
+					'WeatherZone', "Wetlands",
+					'Guardpost', true,
+					'PatrolRespawnTime', 432000,
+					'TargetSectors', {
+						"N13",
+						"N12",
+						"O13",
+						"O16",
+						"I18",
+						"I19",
+						"F13",
+						"G10",
+					},
+					'ExtraDefenderSquads', {
+						"LegionExtraDefenders_Shock_Hard",
+						"LegionExtraDefenders_Balanced_Hard",
+					},
+					'EnemySquadsList', {
+						"LegionAttackers_Shock_Easy",
+						"LegionAttackers_Balanced_Easy",
+					},
+					'StrongEnemySquadsList', {
+						"LegionAttackers_Balanced_Hard",
+						"LegionAttackers_Shock_Hard",
+					},
 					'Militia', true,
-					'MaxMilitia', 12,
 					'ForceConflict', true,
 					'InitialSquads', {
-						"LegionDefenders_Mobile_Easy",
-						"LegionDefenders_Mobile_Easy",
-						"LegionExtraDefenders_Balanced_Easy",
-						"LegionHeavyTroops",
-						"LegionJAZZSquadT2",
+						"SwampCamp",
 					},
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = false,
 	North = false,
-	South = true,
+	South = false,
 	West = true,
 }),
 					'bidirectionalBlockApply', true,
-					'BlockTravel', set({
-	East = false,
-	North = false,
-	South = false,
-	West = false,
-}),
-					'image', "UI/SatelliteView/SectorImages/H07",
-					'CanBeUsedForArrival', true,
-					'BobbyRayDeliveryCostMultiplier', 130,
-					'SectorImagePreview', "UI/PDA/ss_h7",
-					'DBSourceSector', true,
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Savanna_Conflict",
-					'MusicExploration', "Savanna_Exploration",
+					'image', "UI/SatelliteView/SectorImages/H14",
+					'DBDestinationSector', true,
+					'MusicCombat', "Battle_Tough",
+					'MusicConflict', "Outpost_Conflict",
+					'MusicExploration', "Outpost_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "P17",
@@ -58113,6 +58408,87 @@ return {
 			'name', "Jazz_Ernie_Locals",
 			'comment', "Деревенские жители в Эрни",
 		}, {
+			PlaceObj('ModItemQuestsDef', {
+				DisplayName = T(305448108904, --[[ModItemQuestsDef Jazz_DeadPigs DisplayName]] "Свинорез"),
+				KillTCEsConditions = {
+					PlaceObj('QuestKillTCEsOnCompleted', {}),
+				},
+				NoteDefs = {
+					LastNoteIdx = 2,
+					PlaceObj('QuestNote', {
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_DeadPigs",
+								Vars = set( "PigsDead" ),
+							}),
+						},
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_DeadPigs",
+								Vars = set( "Given" ),
+							}),
+						},
+						Text = T(492169252126, --[[ModItemQuestsDef Jazz_DeadPigs Text]] "Uno, Dos, Tres\nЯ достану свинорез\nТы откуда вылез, хлопчик\nТы зачем сюда полез?\nQuatro, Cinquo, Senco, Ses\nЯ протру мой свинорез\nЛучше б ты бежал на запад\nИ глотал х*и в ЕС"),
+					}),
+					PlaceObj('QuestNote', {
+						HideConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_DeadPigs",
+								Vars = set( "Completed" ),
+							}),
+						},
+						Idx = 2,
+						ShowConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_DeadPigs",
+								Vars = set( "Given", "PigsDead" ),
+							}),
+						},
+						Text = T(300377738197, --[[ModItemQuestsDef Jazz_DeadPigs Text]] "Мы свою часть сделки выполнили, можно докладываться"),
+					}),
+				},
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('GroupIsDead', {
+								Group = "Pigs",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "PigsDead",
+								QuestId = "Jazz_DeadPigs",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_PigsDead",
+						QuestId = "Jazz_DeadPigs",
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "PigsDead",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_PigsDead",
+					}),
+				},
+				group = "Ernie",
+				id = "Jazz_DeadPigs",
+			}),
 			PlaceObj('ModItemFolder', {
 				'name', "JAZZ_Ernie_Locals_M2_SaveMyFamily",
 			}, {
@@ -68903,7 +69279,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "MikeDitch",
-								Sector = "L12",
+								Sector = "P11",
 							}),
 						},
 						CompletionConditions = {
@@ -68931,7 +69307,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "L12",
+								Sector = "P11",
 							}),
 						},
 						HideConditions = {
@@ -68963,7 +69339,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "MikeDitch",
-								Sector = "L12",
+								Sector = "P11",
 							}),
 						},
 						HideConditions = {
@@ -69135,7 +69511,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "MikeDitch",
-								Sector = "L12",
+								Sector = "P11",
 							}),
 						},
 						CompletionConditions = {
@@ -69157,7 +69533,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "MikeDitch",
-								Sector = "L12",
+								Sector = "P11",
 							}),
 						},
 						CompletionConditions = {
@@ -69247,7 +69623,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L12",
+									"P11",
 								},
 							}),
 							PlaceObj('UnitIsAroundOtherUnit', {
@@ -69288,14 +69664,14 @@ return {
 						ParamId = "TCE_TriggerInitialEncounter",
 						QuestId = "Hermit",
 						requiredSectors = {
-							"L12",
+							"P11",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L12",
+									"P11",
 								},
 							}),
 							PlaceObj('UnitIsAware', {
@@ -69339,14 +69715,14 @@ return {
 						ParamId = "TCE_EndInitialEncounter",
 						QuestId = "Hermit",
 						requiredSectors = {
-							"L12",
+							"P11",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"L12",
+									"P11",
 								},
 							}),
 							PlaceObj('GroupIsDead', {
@@ -69363,7 +69739,7 @@ return {
 						ParamId = "TCE_KilledInitialEnemies",
 						QuestId = "Hermit",
 						requiredSectors = {
-							"L12",
+							"P11",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -86429,7 +86805,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "MikeDitch",
-								Sector = "L12",
+								Sector = "P11",
 							}),
 						},
 						CompletionConditions = {

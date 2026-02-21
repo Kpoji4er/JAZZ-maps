@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 4923,
+	'version', 4953,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
@@ -22,7 +22,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1771394969,
+	'saved', 1771518630,
 	'code_hash', 8311704044312267199,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
@@ -58,6 +58,11 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
 			'Id', "Stall_Barter_762x25_Knife",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Stall_Barter_762x39PS",
 			'ClassDisplayName', "Banter",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -577,6 +582,11 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_H17",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_H16_Underground",
 			'ClassDisplayName', "Satellite sector",
 		}),
@@ -922,6 +932,11 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_K13",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_K7",
 			'ClassDisplayName', "Satellite sector",
 		}),
@@ -992,12 +1007,7 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
-			'Id', "HotDiamonds_L14",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
-			'Id', "HotDiamonds_L12",
+			'Id', "HotDiamonds_L13",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -1407,6 +1417,11 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "Conversation",
+			'Id', "ThugBalumba",
+			'ClassDisplayName', "Conversation",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "Conversation",
 			'Id', "L1_RebelsCamp",
 			'ClassDisplayName', "Conversation",
 		}),
@@ -1538,6 +1553,11 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "QuestsDef",
 			'Id', "JAZZ_REBELS_1_SeizeTheOutlook",
+			'ClassDisplayName', "QuestsEditor",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "QuestsDef",
+			'Id', "Jazz_DeadPigs",
 			'ClassDisplayName', "QuestsEditor",
 		}),
 		PlaceObj('ModResourcePreset', {
