@@ -16,6 +16,13 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Name', "col_Shanty_BottleCrate_01",
+	'Index', 3240,
+}, nil, 1021662251)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_DecTyreTracksBrown_6",
 	'Index', 914,
 }, nil, 1032835563)
@@ -117,6 +124,13 @@ PlaceObj('Collection', {
 	'Name', "col_JungleCamp_Backpack_02",
 	'Index', 3073,
 }, nil, 1146500662)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Name', "col_Scaffolding_Planks_6",
+	'Index', 3151,
+}, nil, 1148467805)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -459,6 +473,13 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Name', "col_Shanty_Carpet_3",
+	'Index', 2644,
+}, nil, 1521837131)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_Shanty_CardboardBox_03",
 	'Index', 3347,
 }, nil, 1537778625)
@@ -554,6 +575,13 @@ PlaceObj('Collection', {
 	'Name', "col_DecWallLeak_3",
 	'Index', 190,
 }, nil, 1673714118)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Name', "col_WW2_SandBag_05",
+	'Index', 424,
+}, nil, 1677682324)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -19373,6 +19401,7 @@ PlaceObj('WW2_SandBag_06', {
 	'Angle', 2700,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 424,
 	'AllowedMask', 4294967279,
 }, nil, 1788970628)
 PlaceObj('RoofWallSlab', {
@@ -19433,6 +19462,7 @@ PlaceObj('FloorSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'floor', 2,
 	'subvariant', 4,
 	'material', "WoodScaff",
 	'colors', PlaceObj('ColorizationPropSet', {
@@ -19556,10 +19586,11 @@ PlaceObj('StairSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
+	'floor', 2,
 	'colors', PlaceObj('ColorizationPropSet', {
-		'EditableColor1', RGBA(60, 38, 8, 255),
-		'EditableColor2', RGBA(48, 25, 14, 255),
-		'EditableColor3', RGBA(38, 4, 4, 255),
+		'EditableColor1', RGBA(84, 74, 72, 255),
+		'EditableColor2', RGBA(52, 45, 41, 255),
+		'EditableColor3', RGBA(0, 0, 0, 255),
 	}),
 }, nil, 1819318105)
 PlaceObj('FloorSlab', {
@@ -19775,6 +19806,7 @@ PlaceObj('FloorSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'floor', 2,
 	'subvariant', 3,
 	'material', "WoodScaff",
 	'colors', PlaceObj('ColorizationPropSet', {
@@ -19841,10 +19873,11 @@ PlaceObj('StairSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
+	'floor', 2,
 	'colors', PlaceObj('ColorizationPropSet', {
-		'EditableColor1', RGBA(60, 38, 8, 255),
-		'EditableColor2', RGBA(48, 25, 14, 255),
-		'EditableColor3', RGBA(38, 4, 4, 255),
+		'EditableColor1', RGBA(84, 74, 72, 255),
+		'EditableColor2', RGBA(52, 45, 41, 255),
+		'EditableColor3', RGBA(0, 0, 0, 255),
 	}),
 }, nil, 1650652444)
 PlaceObj('Cinematic_Folder', {
@@ -20163,6 +20196,7 @@ PlaceObj('FloorSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'floor', 2,
 	'subvariant', 4,
 	'material', "WoodScaff",
 	'colors', PlaceObj('ColorizationPropSet', {
@@ -20178,7 +20212,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 114000,
+	'target_dist', 91200,
 	'appeal_per_target', 1005,
 	'appeal_optimal_dist', 45000,
 	'appeal_per_meter', 0,
@@ -20321,6 +20355,7 @@ PlaceObj('FloorSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'floor', 2,
 	'subvariant', 3,
 	'material', "WoodScaff",
 	'colors', PlaceObj('ColorizationPropSet', {
@@ -20337,6 +20372,7 @@ PlaceObj('WW2_SandBag_05', {
 	'Pos', point(143632, 102754, 13300),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 424,
 	'AllowedMask', 4294967279,
 }, nil, 1630636667)
 PlaceObj('RoofWallSlab', {
@@ -21257,10 +21293,11 @@ PlaceObj('StairSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
+	'floor', 2,
 	'colors', PlaceObj('ColorizationPropSet', {
-		'EditableColor1', RGBA(60, 38, 8, 255),
-		'EditableColor2', RGBA(48, 25, 14, 255),
-		'EditableColor3', RGBA(38, 4, 4, 255),
+		'EditableColor1', RGBA(84, 74, 72, 255),
+		'EditableColor2', RGBA(52, 45, 41, 255),
+		'EditableColor3', RGBA(0, 0, 0, 255),
 	}),
 }, nil, 1627510496)
 PlaceObj('RoofWallSlab', {
@@ -21295,6 +21332,7 @@ PlaceObj('WW2_SandBag_04', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 424,
 	'AllowedMask', 4294967279,
 }, nil, 1138120699)
 PlaceObj('FloorSlab', {
@@ -21390,10 +21428,11 @@ PlaceObj('StairSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
+	'floor', 2,
 	'colors', PlaceObj('ColorizationPropSet', {
-		'EditableColor1', RGBA(60, 38, 8, 255),
-		'EditableColor2', RGBA(48, 25, 14, 255),
-		'EditableColor3', RGBA(38, 4, 4, 255),
+		'EditableColor1', RGBA(84, 74, 72, 255),
+		'EditableColor2', RGBA(52, 45, 41, 255),
+		'EditableColor3', RGBA(0, 0, 0, 255),
 	}),
 }, nil, 1878349409)
 PlaceObj('BunkerInterior_FenceWire_01', {
@@ -21665,6 +21704,7 @@ PlaceObj('FloorSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'floor', 2,
 	'subvariant', 4,
 	'material', "WoodScaff",
 	'colors', PlaceObj('ColorizationPropSet', {
@@ -21737,6 +21777,7 @@ PlaceObj('FloorSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'floor', 2,
 	'subvariant', 4,
 	'material', "WoodScaff",
 	'colors', PlaceObj('ColorizationPropSet', {
@@ -21765,6 +21806,7 @@ PlaceObj('WW2_SandBag_05', {
 	'Angle', 4500,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 424,
 	'AllowedMask', 4294967279,
 }, nil, 1547719512)
 PlaceObj('Mine_MetalBeam_Vertical_01', {
@@ -21905,6 +21947,7 @@ PlaceObj('MilitaryCamp_Loudspeaker', {
 	'ColorModifier', RGBA(32, 35, 47, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 424,
 	'AllowedMask', 4294967279,
 }, nil, 1712709773)
 PlaceObj('WallSlab', {
@@ -22410,6 +22453,7 @@ PlaceObj('FloorSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'floor', 2,
 	'subvariant', 2,
 	'material', "WoodScaff",
 	'colors', PlaceObj('ColorizationPropSet', {
@@ -22558,7 +22602,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 114000,
+	'target_dist', 91200,
 	'appeal_per_target', 1005,
 	'appeal_optimal_dist', 45000,
 	'appeal_per_meter', 0,
@@ -22569,6 +22613,7 @@ PlaceObj('FloorSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'floor', 2,
 	'subvariant', 4,
 	'material', "WoodScaff",
 	'colors', PlaceObj('ColorizationPropSet', {
@@ -43168,6 +43213,7 @@ PlaceObj('Shanty_Canvas_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'SkewY', -342,
+	'CollectionIndex', 3151,
 	'AllowedMask', 0,
 }, nil, 1811615612)
 PlaceObj('FloorSlab', {
@@ -44945,7 +44991,7 @@ PlaceObj('TropicalPlant_Dead_07', {
 }, nil, 1451125183)
 PlaceObj('AL_Roam', {
 	'Entity', "NPCCostumeFemale_Shirt_01",
-	'Pos', point(136454, 247927, 6950),
+	'Pos', point(136454, 247927, 6981),
 	'Angle', 12956,
 	'Groups', {
 		"AL_All",
@@ -44962,7 +45008,7 @@ PlaceObj('AL_Roam', {
 }, nil, 1775103426)
 PlaceObj('AL_Roam', {
 	'Entity', "NPCCostumeFemale_Shirt_01",
-	'Pos', point(137697, 247221, 6949),
+	'Pos', point(137697, 247221, 7002),
 	'Angle', 4998,
 	'Groups', {
 		"AL_All",
@@ -46404,6 +46450,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 4,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1198521646)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(137400, 257400, 14218),
@@ -46620,6 +46667,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1058074477)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(138600, 257400, 14655),
@@ -47096,6 +47144,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1193816889)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(137400, 258600, 14218),
@@ -47143,6 +47192,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 7,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1518492604)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(137400, 259800, 14218),
@@ -47180,6 +47230,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1804052565)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(138600, 258600, 14655),
@@ -47209,6 +47260,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1666449940)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(138600, 259800, 14655),
@@ -47245,6 +47297,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1259271137)
 PlaceObj('Bunker_MetalBed_02', {
 	'Pos', point(137400, 261000, 11200),
@@ -47302,6 +47355,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1227016394)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(138600, 261000, 14655),
@@ -48065,6 +48119,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 6,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1064071041)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(139800, 257400, 15092),
@@ -48318,6 +48373,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1671530545)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(141000, 257400, 15529),
@@ -48804,6 +48860,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1339617349)
 PlaceObj('StairSlab', {
 	'Pos', point(142200, 257400, 11900),
@@ -48875,6 +48932,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1345659072)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(139800, 258600, 15092),
@@ -48904,6 +48962,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1630553632)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(139800, 259800, 15092),
@@ -48951,6 +49010,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1812518426)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(141000, 258600, 15529),
@@ -49030,6 +49090,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1764381194)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(141000, 259800, 15529),
@@ -49115,6 +49176,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1347026623)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(139800, 261000, 15092),
@@ -49152,6 +49214,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1530136152)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(141000, 261000, 15529),
@@ -49189,6 +49252,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 4,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1187314702)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(142200, 258600, 15966),
@@ -49218,6 +49282,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1453191797)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(142200, 259800, 15966),
@@ -49247,6 +49312,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1078972783)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(142200, 261000, 15966),
@@ -49952,6 +50018,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1790150824)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(143400, 257400, 16403),
@@ -50202,6 +50269,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1310418825)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(144600, 257400, 16403),
@@ -50828,6 +50896,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 4,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1720806002)
 PlaceObj('StairSlab', {
 	'Pos', point(145800, 257400, 11900),
@@ -51068,6 +51137,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1455987940)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(147000, 257400, 15529),
@@ -51104,6 +51174,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1534128395)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(143400, 258600, 16403),
@@ -51151,6 +51222,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 4,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1148475458)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(143400, 259800, 16403),
@@ -51235,6 +51307,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1781935155)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(144600, 258600, 16403),
@@ -51263,6 +51336,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1427472388)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(144600, 259800, 16403),
@@ -51299,6 +51373,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1617180990)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(143400, 261000, 16403),
@@ -51319,6 +51394,7 @@ PlaceObj('Room', {
 	'AllowedMask', 4294966497,
 	'box', box(136800, 256800, 11200, 151200, 265200, 14000),
 	'seed', 1055532058148884,
+	'floor', 2,
 	'position', point(136800, 256800, 11200),
 	'size', point(12, 7, 4),
 	'override_terrain_z', 6954,
@@ -51397,6 +51473,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1419854449)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(144600, 261000, 16403),
@@ -51433,6 +51510,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1164420205)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(145800, 258600, 15966),
@@ -51473,6 +51551,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 4,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1292124420)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(145800, 259800, 15966),
@@ -51509,6 +51588,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1868503162)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(147000, 258600, 15529),
@@ -51537,6 +51617,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1134343741)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(147000, 259800, 15529),
@@ -51565,6 +51646,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 4,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1429923873)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(145800, 261000, 15966),
@@ -51625,6 +51707,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 6,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1707515683)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(147000, 261000, 15529),
@@ -53018,6 +53101,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
+	'CollectionIndex', 2644,
 	'AllowedMask', 4294967279,
 }, nil, 1381572577)
 PlaceObj('FloorSlab', {
@@ -54489,6 +54573,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1200567996)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(148200, 257400, 15092),
@@ -54718,6 +54803,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1264214688)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(149400, 257400, 14655),
@@ -55683,6 +55769,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1543174019)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(150600, 257400, 14218),
@@ -55817,6 +55904,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1786396374)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(148200, 258600, 15092),
@@ -55866,6 +55954,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1392305034)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(148200, 259800, 15092),
@@ -55925,6 +56014,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1666735786)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(149400, 258600, 14655),
@@ -55961,6 +56051,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1607412050)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(149400, 259800, 14655),
@@ -55989,6 +56080,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 4,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1714690495)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(148200, 261000, 15092),
@@ -56025,6 +56117,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 4,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1483625705)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(149400, 261000, 14655),
@@ -56218,6 +56311,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1636531770)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(150600, 259800, 14218),
@@ -56360,6 +56454,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1895497363)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(150600, 261000, 14218),
@@ -56764,6 +56859,7 @@ PlaceObj('Shanty_BottleCrate_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
+	'CollectionIndex', 3240,
 	'AllowedMask', 4294967279,
 }, nil, 1083798339)
 PlaceObj('WallSlab', {
@@ -56864,6 +56960,7 @@ PlaceObj('Shanty_BottleCrate_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
+	'CollectionIndex', 3240,
 	'AllowedMask', 4294967279,
 }, nil, 1826904824)
 PlaceObj('FloorSlab', {
@@ -56899,6 +56996,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
+	'CollectionIndex', 3240,
 	'AllowedMask', 4294967279,
 }, nil, 1798324153)
 PlaceObj('Scaffolding_Planks_04', {
@@ -56912,6 +57010,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
+	'CollectionIndex', 3240,
 	'AllowedMask', 4294967279,
 }, nil, 1000285044)
 PlaceObj('WallSlab', {
@@ -57001,6 +57100,7 @@ PlaceObj('MilitaryCamp_Pallete_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
+	'CollectionIndex', 3240,
 	'AllowedMask', 4294967279,
 }, nil, 1726945798)
 PlaceObj('WallSlab', {
@@ -57381,6 +57481,7 @@ PlaceObj('Shanty_BottleCrate_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
+	'CollectionIndex', 3240,
 	'AllowedMask', 4294967279,
 }, nil, 1493361097)
 PlaceObj('RoofEdgeSlab', {
@@ -59748,6 +59849,7 @@ PlaceObj('Shanty_Canvas_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'SkewX', -342,
+	'CollectionIndex', 3151,
 	'AllowedMask', 0,
 }, nil, 1152717489)
 PlaceObj('WallSlab', {
@@ -59861,6 +59963,7 @@ PlaceObj('Scaffolding_Planks_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
+	'CollectionIndex', 3151,
 	'AllowedMask', 4294967279,
 }, nil, 1880352799)
 PlaceObj('FloorSlab', {
@@ -60203,6 +60306,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
+	'CollectionIndex', 3151,
 	'AllowedMask', 4294967279,
 }, nil, 1244928254)
 PlaceObj('FloorSlab', {
@@ -63785,7 +63889,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 114000,
+	'target_dist', 91200,
 }, nil, 1521644207)
 PlaceObj('SavannaPlant_03_Candelabra_01', {
 	'Pos', point(236399, 158871, 10818),
@@ -64271,7 +64375,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 	'ammo_template', "_50BMG_Basic",
-	'target_dist', 114000,
+	'target_dist', 91200,
 }, nil, 1275931329)
 PlaceObj('FloorSlab', {
 	'Pos', point(203400, 249000, 15400),
@@ -66746,6 +66850,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1856738223)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(137400, 262200, 14218),
@@ -66789,6 +66894,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1346940347)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(137400, 263400, 14218),
@@ -66826,6 +66932,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1010956720)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(138600, 262200, 14655),
@@ -66861,6 +66968,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 4,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1609193527)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(138600, 263400, 14655),
@@ -66896,6 +67004,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1710965803)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(137400, 264600, 14218),
@@ -67060,6 +67169,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1045205138)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(138600, 264600, 14655),
@@ -67248,6 +67358,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 4,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1515376196)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(139800, 262200, 15092),
@@ -67277,6 +67388,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 4,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1321473863)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(139800, 263400, 15092),
@@ -67338,6 +67450,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1468550537)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(141000, 262200, 15529),
@@ -67375,6 +67488,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 4,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1267184008)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(141000, 263400, 15529),
@@ -67412,6 +67526,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 5,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1699158529)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(139800, 264600, 15092),
@@ -67595,6 +67710,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1147850432)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(141000, 264600, 15529),
@@ -67775,6 +67891,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 5,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1002516047)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(142200, 262200, 15966),
@@ -67823,6 +67940,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1204979560)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(142200, 263400, 15966),
@@ -67865,6 +67983,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1369869342)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(142200, 264600, 15966),
@@ -68099,6 +68218,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1643049402)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(143400, 262200, 16403),
@@ -68146,6 +68266,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1657036314)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(143400, 263400, 16403),
@@ -68193,6 +68314,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 4,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1059419540)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(144600, 262200, 16403),
@@ -68221,6 +68343,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1076489270)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(144600, 263400, 16403),
@@ -68249,6 +68372,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1456032407)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(143400, 264600, 16403),
@@ -68493,6 +68617,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 5,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1384053298)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(144600, 264600, 16403),
@@ -68706,6 +68831,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1306870722)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(145800, 262200, 15966),
@@ -68742,6 +68868,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1236604417)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(145800, 263400, 15966),
@@ -68778,6 +68905,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1120265095)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(147000, 262200, 15529),
@@ -68806,6 +68934,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 4,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1325448259)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(147000, 263400, 15529),
@@ -68834,6 +68963,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1369985104)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(145800, 264600, 15966),
@@ -69062,6 +69192,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1468507588)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(147000, 264600, 15529),
@@ -69267,6 +69398,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1681443312)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(148200, 262200, 15092),
@@ -69295,6 +69427,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 4,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1799767008)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(148200, 263400, 15092),
@@ -69331,6 +69464,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1456148891)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(149400, 262200, 14655),
@@ -69367,6 +69501,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1634498707)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(149400, 263400, 14655),
@@ -69409,6 +69544,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 4,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1566115247)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(148200, 264600, 15092),
@@ -69622,6 +69758,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 2,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1622068174)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(149400, 264600, 14655),
@@ -69811,6 +69948,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 3,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1417788921)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(150600, 262200, 14218),
@@ -69953,6 +70091,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1519613633)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(150600, 263400, 14218),
@@ -70122,6 +70261,7 @@ PlaceObj('FloorSlab', {
 	'AllowedMask', 4294967279,
 	'subvariant', 1,
 	'material', "WoodScaff",
+	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1242216582)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(150600, 264600, 14218),
@@ -71350,8 +71490,15 @@ PlaceObj('CollectionsToHideContainer', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-	'contents', {o(1420646582),o(1649078451),o(1815080978),o(1778456337),o(1508997011),},
+	'contents', {o(1420646582),o(1649078451),o(1815080978),o(1778456337),o(1536723737),o(1757752041),o(1457310030),o(1190109862),},
 }, nil, 1034858489)
+PlaceObj('CollectionsToHidePersistableData', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'room', o(1265640921),
+	'Roof', {o(1677682324),},
+}, nil, 1190109862)
 PlaceObj('CollectionsToHidePersistableData', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -71365,9 +71512,16 @@ PlaceObj('CollectionsToHidePersistableData', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-	'room', o(1109353545),
-	'Roof', {o(1557256304),},
-}, nil, 1508997011)
+	'room', o(1639445179),
+	'Roof', {o(1521837131),},
+}, nil, 1457310030)
+PlaceObj('CollectionsToHidePersistableData', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'room', o(1885565149),
+	'Roof', {o(1021662251),},
+}, nil, 1536723737)
 PlaceObj('CollectionsToHidePersistableData', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -71376,6 +71530,13 @@ PlaceObj('CollectionsToHidePersistableData', {
 	'South', {o(1337493345),},
 	'Roof', {o(1150851263),},
 }, nil, 1649078451)
+PlaceObj('CollectionsToHidePersistableData', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'room', o(1292911828),
+	'Roof', {o(1148467805),},
+}, nil, 1757752041)
 PlaceObj('CollectionsToHidePersistableData', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -72810,7 +72971,7 @@ p("TropicalPlant_04_Shrub_01",109352,95222,164,4)
 p("TropicalPlant_04_Shrub_02",110270,98015,28,4)
 p("TropicalPlant_04_Shrub_02",111777,93111,81,4)
 p("TropicalRockAssembly_01",113577,92032,9617,8416,171,3200,"terrainchunk",10,0,0,58,86,10,40,60,2228293)
-p("TropicalRockAssembly_03",112673,92719,9697,14442,171,-6,-13,4096,3200,"terrainchunk",10,0,0,58,86,10,40,60,2228309)
+p("TropicalRockAssembly_03",112651,92749,9697,14442,171,-6,-13,4096,1152,"terrainchunk",10,0,0,58,86,10,40,60,2228309)
 p("TropicalRockAssembly_02",111905,94381,9654,11610,171,3200,"terrainchunk",10,0,0,58,86,10,40,60,2228293)
 p("TropicalRockAssembly_04",112107,94785,9654,14442,171,3200,"terrainchunk",10,0,0,58,86,10,40,60,2228293)
 p("TropicalPlant_04_Shrub_01",112203,95092,186,4)
@@ -84816,7 +84977,6 @@ p("DecWallDirt_01",142955,257055,8400,1)
 p("SavannaPlant_Grass_02",143231,257485,6019,130,3200,2097220)
 p("SavannaPlant_Grass_02",143231,257485,6019,130,3200,2097220)
 p("Shanty_Carpet_02",141396,258950,15909,16815,240,4281150765,-653,814,3960,3202,3748,2097501)
-p("SavannaPlant_Grass_02",141801,258775,11141,129,3200,2097220)
 p("SavannaPlant_Grass_04",142063,260093,18232,132,3200,2097220)
 p("SavannaPlant_Grass_01",143313,259525,4053,133,3200,2097220)
 p("SavannaPlant_Grass_02",142934,261172,15169,129,3200,2097220)
@@ -84834,7 +84994,6 @@ p("Shanty_Carpet_04",145687,255971,8400,1)
 p("DecBulletHoles_02",146898,254297,9374,5400,52,4096,0,0,2097173)
 p("DecBulletHoles_02",147399,254297,10666,5400,4096,0,0,2097169)
 p("SavannaPlant_Grass_04",147201,255300,6594,122,3200,2097220)
-p("SavannaPlant_Grass_02",144177,258761,14675,131,3200,2097220)
 p("SavannaPlant_Grass_02",144177,258761,14675,131,3200,2097220)
 p("SavannaPlant_Grass_04",145053,259302,683,129,3200,2097220)
 p("SavannaPlant_Grass_04",145053,259302,683,129,3200,2097220)
@@ -84899,7 +85058,7 @@ p("Scaffolding_Beam_01",161400,238200,10408,16200,0,4096,0,3968,6,2151892815,215
 p("Scaffolding_Beam_01",161400,239400,10408,16200,0,4096,0,3968,6,2151892815,2150776655,2150776655,"",1075845841)
 p("Shanty_SandPile_01",159822,240108,6156,200,-94,-176,4091,3200,2151571588,2149859942,"","terrainchunk",10,0,0,40,60,10,40,60,1075972692)
 p("Scaffolding_Beam_01",161400,240600,10408,16200,0,4096,0,3968,6,2151892815,2150776655,2150776655,"",1075845841)
-p("Shanty_Carpet_02",161795,238527,11115,16815,240,4281150765,-653,814,3960,3202,2097245)
+p("Shanty_Carpet_02",161795,238527,11115,16815,240,4281150765,-653,814,3960,3202,2644,2097501)
 p("Scaffolding_Beam_01",163814,238200,11239,16200,0,4096,0,3968,6,2151892815,2150776655,2150776655,"",1075845841)
 p("Scaffolding_Beam_01",163814,239400,11239,16200,0,4096,0,3968,6,2151892815,2150776655,2150776655,"",1075845841)
 p("Scaffolding_Beam_01",163814,240600,11239,16200,0,4096,0,3968,6,2151892815,2150776655,2150776655,"",1075845841)
@@ -84931,17 +85090,19 @@ p("SavannaPlant_Grass_02",147836,252398,17941,166,3200,2097220)
 p("SavannaPlant_Grass_01",148716,252620,7878,2924,133,3200,2097221)
 p("SavannaPlant_Grass_01",148527,253898,9272,164,3200,2097220)
 p("SavannaPlant_Grass_04",149421,253082,7810,6594,122,3200,2097221)
+p("SavannaPlant_Grass_02",149258,253311,7770,11141,129,3200,2097221)
 p("DecBunker_ConcretePile_05",150069,250896,9410,130,90,19,4095,3200,"terrainchunk",10,0,0,50,100,10,40,60,2228308)
 p("DecSteps_03",151583,252397,0)
+p("SavannaPlant_Grass_02",151634,253297,7756,14675,131,3200,2097221)
 p("SavannaPlant_Grass_04",153286,252603,7682,11740,159,3200,2097221)
 p("SavannaPlant_Grass_03",155042,250219,149,4)
+p("SavannaPlant_Grass_04",154926,250743,7866,2917,122,3200,2097221)
 p("SavannaPlant_Grass_02",155028,250971,17,4)
 p("SavannaPlant_Grass_01",154104,252833,185,4)
 p("SavannaPlant_Grass_04",154132,252069,182,4)
 p("SavannaPlant_Grass_03",155222,252012,186,4)
 p("SavannaPlant_Grass_02",155140,253228,105,4)
 p("SavannaPlant_Grass_04",148996,255358,3745,133,3200,2097220)
-p("SavannaPlant_Grass_04",147469,256207,2917,122,3200,2097220)
 p("SavannaPlant_Grass_04",147510,257658,6839,135,3200,2097220)
 p("SavannaPlant_Grass_01",148746,257112,2924,133,3200,2097220)
 p("DecBulletHoles_02",149908,254297,10666,5400,4096,0,0,2097169)

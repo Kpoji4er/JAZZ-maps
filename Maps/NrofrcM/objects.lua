@@ -3320,6 +3320,13 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Name', "col_BunkerInterior_PropSet_03",
+	'Index', 3321,
+}, nil, 1628168504)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 846,
 	'AllowedMask', 4294966497,
 	'Index', 764,
@@ -4980,6 +4987,9 @@ PlaceObj('Collection', {
 SetNextSyncHandle(2000000001)
 PlaceObj('UnitMarker', {
 	'Pos', point(105000, 125400, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Appearance', "LegionManiac",
 	'Side', "enemy1",
@@ -5073,6 +5083,9 @@ PlaceObj('ExitZoneInteractable', {
 }, nil, 1496472809)
 PlaceObj('UnitMarker', {
 	'Pos', point(95400, 136200, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "LegionScout_Stronger",
@@ -5085,6 +5098,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1454578213)
 PlaceObj('UnitMarker', {
 	'Pos', point(97800, 139800, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "LegionScout_Stronger_alt",
@@ -5118,6 +5134,9 @@ PlaceObj('GridMarker', {
 }, nil, 1256204835)
 PlaceObj('UnitMarker', {
 	'Pos', point(105000, 132600, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Appearance', "Legion_Stormer02",
 	'Side', "enemy1",
@@ -5129,6 +5148,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1027748526)
 PlaceObj('UnitMarker', {
 	'Pos', point(100200, 142200, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "LegionScout_Stronger",
@@ -5141,6 +5163,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1743844361)
 PlaceObj('UnitMarker', {
 	'Pos', point(112200, 143400, 7700),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Legion_Recon",
@@ -5153,6 +5178,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1540190738)
 PlaceObj('UnitMarker', {
 	'Pos', point(111000, 147000, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Legion_Recon",
@@ -5165,6 +5193,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1345940182)
 PlaceObj('UnitMarker', {
 	'Pos', point(106200, 148200, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Legion_Recon03",
@@ -5177,6 +5208,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1120249429)
 PlaceObj('UnitMarker', {
 	'Pos', point(106200, 149400, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Legion_Recon02",
@@ -5189,6 +5223,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1254466737)
 PlaceObj('UnitMarker', {
 	'Pos', point(103800, 154200),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "LegionGunner_Stronger_Elite_alt",
@@ -5201,6 +5238,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1332750613)
 PlaceObj('UnitMarker', {
 	'Pos', point(103800, 155400),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Legion_Recon",
@@ -5213,6 +5253,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1517865766)
 PlaceObj('UnitMarker', {
 	'Pos', point(102600, 163800, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Legion_Stormer",
@@ -5225,6 +5268,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1243176025)
 PlaceObj('UnitMarker', {
 	'Pos', point(106200, 163800, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Appearance', "LegionRanger_Stronger",
 	'Side', "enemy1",
@@ -5236,6 +5282,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1205474145)
 PlaceObj('UnitMarker', {
 	'Pos', point(107400, 150600, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "LegionScout_alt",
@@ -5248,6 +5297,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1471645493)
 PlaceObj('UnitMarker', {
 	'Pos', point(108600, 153000, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Legion_Recon03",
@@ -5260,6 +5312,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1249150449)
 PlaceObj('UnitMarker', {
 	'Pos', point(114600, 155400, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "LegionManiac",
@@ -5272,6 +5327,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1425792024)
 PlaceObj('UnitMarker', {
 	'Pos', point(109800, 156600, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "LegionManiac",
@@ -5284,6 +5342,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1610467164)
 PlaceObj('UnitMarker', {
 	'Pos', point(112200, 157800, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "LegionManiac",
@@ -5296,6 +5357,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1562257575)
 PlaceObj('UnitMarker', {
 	'Pos', point(113400, 160200, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "LegionManiac",
@@ -5308,6 +5372,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1881668573)
 PlaceObj('UnitMarker', {
 	'Pos', point(114600, 162600, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "LegionManiac_alt_2",
@@ -5397,6 +5464,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1183092933)
 PlaceObj('UnitMarker', {
 	'Pos', point(124200, 163800, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "LegionManiac",
@@ -5422,6 +5492,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1722782352)
 PlaceObj('UnitMarker', {
 	'Pos', point(101400, 167400, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Appearance', "Legion_Stormer02",
 	'Side', "enemy1",
@@ -5433,6 +5506,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1696393376)
 PlaceObj('UnitMarker', {
 	'Pos', point(101400, 168600, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Appearance', "Legion_Stormer03",
 	'Side', "enemy1",
@@ -5444,6 +5520,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1263977740)
 PlaceObj('UnitMarker', {
 	'Pos', point(105000, 165000, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Appearance', "LegionScout_alt",
 	'Side', "enemy1",
@@ -5455,6 +5534,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1820771494)
 PlaceObj('UnitMarker', {
 	'Pos', point(101400, 172200, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Appearance', "LegionGunner",
 	'Side', "enemy1",
@@ -5466,6 +5548,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1388035772)
 PlaceObj('UnitMarker', {
 	'Pos', point(101400, 173400, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Appearance', "LegionGunner_alt",
 	'Side', "enemy1",
@@ -5477,6 +5562,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1182803665)
 PlaceObj('UnitMarker', {
 	'Pos', point(106200, 172200, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Appearance', "Legion_Recon",
 	'Side', "enemy1",
@@ -5499,6 +5587,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1257002935)
 PlaceObj('UnitMarker', {
 	'Pos', point(109800, 166200, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Appearance', "Legion_Recon03",
 	'Side', "enemy1",
@@ -5510,6 +5601,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1425840750)
 PlaceObj('UnitMarker', {
 	'Pos', point(108600, 169800, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Appearance', "Legion_Recon02",
 	'Side', "enemy1",
@@ -5522,6 +5616,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(112200, 166200, 7000),
 	'Angle', 16200,
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Appearance', "Thug_Recon",
 	'Side', "ally",
@@ -5558,6 +5655,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1617669359)
 PlaceObj('UnitMarker', {
 	'Pos', point(100200, 181800, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "LegionRaider_alt",
@@ -5570,6 +5670,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1535512144)
 PlaceObj('UnitMarker', {
 	'Pos', point(100200, 189000, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "LegionRaider_Stronger_alt_2",
@@ -5582,6 +5685,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1869659736)
 PlaceObj('UnitMarker', {
 	'Pos', point(100200, 190200, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "LegionRaider",
@@ -5618,6 +5724,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1174791744)
 PlaceObj('UnitMarker', {
 	'Pos', point(108600, 189000, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Legion_Soldier03",
@@ -5631,6 +5740,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(115800, 171000, 7000),
 	'Angle', 16200,
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Appearance', "Thug_Marksman",
 	'Side', "ally",
@@ -5704,6 +5816,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1572491603)
 PlaceObj('UnitMarker', {
 	'Pos', point(115800, 186600, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Legion_Soldier",
@@ -5740,6 +5855,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1495309077)
 PlaceObj('UnitMarker', {
 	'Pos', point(119400, 195000, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Legion_Soldier04",
@@ -5752,6 +5870,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1226937517)
 PlaceObj('UnitMarker', {
 	'Pos', point(129000, 196200, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "LegionGoon_alt_2",
@@ -5764,6 +5885,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1036509637)
 PlaceObj('UnitMarker', {
 	'Pos', point(121800, 198600, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "LegionGoon",
@@ -6129,6 +6253,61 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1377796133)
+PlaceObj('ExamineMarker', {
+	'Pos', point(168600, 173400, 7000),
+	'Angle', 16200,
+	'CollectionIndex', 3321,
+	'AllowedMask', 4294966497,
+	'EnabledConditions', {
+		PlaceObj('CheckGameState', {
+			GameState = "Conflict",
+			Negate = true,
+		}),
+	},
+	'ConditionalSequentialEffects', false,
+	'ConditionalEffects', {
+		PlaceObj('PlayBanterEffect', {
+			Banters = {
+				"Stall_Barter_762x39PS",
+			},
+			banterSequentialWaitFor = "BanterStart",
+			searchInMap = true,
+			searchInMarker = false,
+		}),
+		PlaceObj('DisableInteractionMarkerEffect', {
+			Group = "Stall_Barter_762x39PS",
+		}),
+	},
+}, nil, 1240091435)
+PlaceObj('CustomInteractable', {
+	'Pos', point(168600, 173400),
+	'Groups', {
+		"Stall_Barter_762x39PS",
+	},
+	'CollectionIndex', 3321,
+	'AllowedMask', 4294966497,
+	'DisplayName', T(349917321797, "7.62x39 ПС"),
+	'EnabledConditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_DeadPigs",
+			Vars = set( "Completed" ),
+		}),
+		PlaceObj('BanterHasPlayed', {
+			Banters = {
+				"Stall_Barter_762x39PS",
+			},
+		}),
+	},
+	'ConditionalEffects', {
+		PlaceObj('UnitGrantItem', {
+			Amount = 240,
+			ItemId = "JAZZ_AMMO_762x39_FMJ",
+		}),
+		PlaceObj('PlayerPayMoney', {
+			Amount = 500,
+		}),
+	},
+}, nil, 1738471608)
 PlaceObj('UnitMarker', {
 	'Pos', point(175800, 165000),
 	'Angle', 16200,
@@ -6163,6 +6342,9 @@ PlaceObj('SalvageMarker', {
 }, nil, 1185237577)
 PlaceObj('UnitMarker', {
 	'Pos', point(131400, 198600, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Legion_Recon",
@@ -6175,6 +6357,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1268570840)
 PlaceObj('UnitMarker', {
 	'Pos', point(133800, 199800, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "LegionScout_alt_2",
@@ -6187,6 +6372,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1585290363)
 PlaceObj('UnitMarker', {
 	'Pos', point(135000, 201000, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "LegionScout_alt_2",
@@ -6199,6 +6387,9 @@ PlaceObj('UnitMarker', {
 }, nil, 1595171396)
 PlaceObj('UnitMarker', {
 	'Pos', point(137400, 203400, 7000),
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "Ambient",
 	'Appearance', "Legion_Recon02",
@@ -6212,6 +6403,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(151800, 219000, 7000),
 	'Angle', 16200,
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "AL_Defender",
@@ -6226,6 +6420,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(153000, 220200, 7000),
 	'Angle', 16200,
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "AL_Defender",
@@ -6240,6 +6437,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(155400, 217800, 7000),
 	'Angle', 16200,
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "AL_Defender",
@@ -6254,6 +6454,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(149400, 221400, 7000),
 	'Angle', 16200,
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "AL_Defender",
@@ -6268,6 +6471,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(155400, 221400, 7000),
 	'Angle', 16200,
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "AL_Defender",
@@ -6299,6 +6505,9 @@ PlaceObj('GridMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(160200, 220200, 7000),
 	'Angle', 16200,
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "AL_Defender",
@@ -6313,6 +6522,9 @@ PlaceObj('UnitMarker', {
 PlaceObj('UnitMarker', {
 	'Pos', point(157800, 221400, 7000),
 	'Angle', 16200,
+	'Groups', {
+		"Enemy_Attackers",
+	},
 	'AllowedMask', 4294966497,
 	'Routine', "AdvanceTo",
 	'RoutineArea', "AL_Defender",
@@ -134544,6 +134756,22 @@ PlaceObj('WW2_SandBag_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1159317937)
+PlaceObj('BunkerInterior_PropSet_02', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(68, 54, 37, 255),
+	'EditableColor2', RGBA(29, 24, 12, 255),
+	'EditableColor3', RGBA(134, 96, 63, 255),
+	'Pos', point(165000, 171000),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1058314179)
+PlaceObj('WeaponProp_Pile_01', {
+	'Pos', point(165081, 171125, 7673),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1625271442)
 PlaceObj('MajorTent_Pillon_01', {
 	'Pos', point(168910, 164413, 6940),
 	'Saturation', 0,
@@ -134685,6 +134913,7 @@ PlaceObj('BunkerInterior_PropSet_03', {
 	'Pos', point(168600, 174600),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 3321,
 	'AllowedMask', 782,
 }, nil, 1215299154)
 PlaceObj('MajorTent_Pillon_01', {
@@ -149729,6 +149958,13 @@ p("TropicalPlant_04_Shrub_01",192805,153108,6956,21002,2097153)
 p("DecBunkerFloor_02",188496,156674,8530,16107,140,667,-3985,668,2670,2097429)
 p("DecBunkerFloor_02",188496,161814,8355,14399,250,2365,-2362,2366,1074,2097429)
 p("TropicalRockAssembly_02",164110,168933,6794,19478,138,-191,221,4085,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("WeaponProp_Bullets_01",165229,170700,7653,1)
+p("WeaponProp_Beretta",165779,170742,7658,11539,-454,2887,2869,2097169)
+p("WeaponProp_Beretta",165873,171073,7658,9551,748,2858,2836,2097169)
+p("WeaponProp_Beretta",165913,170896,7658,11539,-454,2887,2869,2097169)
+p("WeaponProp_Beretta",166354,170661,7658,11117,-201,2903,2883,2097169)
+p("WeaponProp_Beretta",166298,170826,7658,10503,168,2904,2883,2097169)
+p("WeaponProp_Beretta",165904,171276,7658,10956,-103,2905,2885,2097169)
 p("MilitaryCamp_Canopy_03Top",170482,165665,8772,5437,-425,425,4051,3658,2148017724,2148276751,2150054469,"",1075845905)
 p("DecShantyRubbish_03",170926,167765,6950,12439,161,2097157)
 p("DecShantyRubbish_03",168873,171803,6950,1)

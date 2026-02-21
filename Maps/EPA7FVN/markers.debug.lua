@@ -262,6 +262,15 @@
 		type = "UnitMarker",
 	},
 	{
+		Groups = false,
+		handle = 1125735238,
+		items = {},
+		map = "EPA7FVN",
+		name = "UnitMarker#238",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
 		Groups = {
 			"Helping_Rebels",
 		},
@@ -638,6 +647,70 @@
 		type = "UnitMarker",
 	},
 	{
+		BanterTriggerEffects = {
+			PlaceObj('PlayBanterEffect', {
+				Banters = {
+					"Other_StoneSuccess",
+				},
+				banterSequentialWaitFor = "BanterStart",
+				searchInMap = true,
+				searchInMarker = false,
+			}),
+			PlaceObj('PlayBanterEffect', {
+				Banters = {
+					"Other_StoneFail",
+				},
+				banterSequentialWaitFor = "BanterStart",
+				searchInMap = true,
+				searchInMarker = false,
+			}),
+		},
+		Groups = false,
+		handle = 1418047555,
+		items = {
+			{
+				editor_view_abridged = "treasureF6 = true",
+				filter_type = "quest",
+				reference_id = "TreasureHunting",
+				type = "QuestSetVariableBool",
+				var = "treasureF6",
+			},
+			{
+				editor_view_abridged = "Play banter(s): Other_StoneSuccess",
+				filter_type = "banter",
+				reference_id = "Other_StoneSuccess",
+				type = "PlayBanterEffect",
+			},
+			{
+				editor_view_abridged = "Play banter(s): Other_StoneFail",
+				filter_type = "banter",
+				reference_id = "Other_StoneFail",
+				type = "PlayBanterEffect",
+			},
+		},
+		map = "EPA7FVN",
+		name = 'CustomInteractable#555 Strenght Check "Осмотреть"',
+		path = "CustomInteractable Strenght Check",
+		type = "CustomInteractable",
+	},
+	{
+		Groups = false,
+		handle = 1439479017,
+		items = {
+			{
+				editor_view_abridged = "if treasureF6",
+				filter_type = "quest",
+				reference_id = "TreasureHunting",
+				type = "QuestIsVariableBool",
+				var = set( "treasureF6" ),
+			},
+		},
+		map = "EPA7FVN",
+		name = "Position#017 ShowHideMarker",
+		path = "Position ShowHideMarker",
+		type = "Position",
+	},
+	{
 		Groups = {
 			"Start_Legion",
 		},
@@ -974,6 +1047,23 @@
 		name = "UnitMarker#080 (Start_Legion)",
 		path = "UnitMarker ",
 		type = "UnitMarker",
+	},
+	{
+		Groups = false,
+		handle = 1651195845,
+		items = {
+			{
+				editor_view_abridged = "if treasureF6",
+				filter_type = "quest",
+				reference_id = "TreasureHunting",
+				type = "QuestIsVariableBool",
+				var = set( "treasureF6" ),
+			},
+		},
+		map = "EPA7FVN",
+		name = "Position#845",
+		path = "Position ",
+		type = "Position",
 	},
 	{
 		Groups = {
