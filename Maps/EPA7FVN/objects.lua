@@ -2628,7 +2628,7 @@ PlaceObj('GridMarker', {
 	'Type', "DefenderPriority",
 }, nil, 1199176982)
 PlaceObj('GridMarker', {
-	'Pos', point(208200, 151800, 4900),
+	'Pos', point(208200, 161400, 4900),
 	'Angle', 5400,
 	'Groups', {
 		"GameIntro",
@@ -2637,7 +2637,7 @@ PlaceObj('GridMarker', {
 	'Type', "Defender",
 	'ID', "Start",
 	'AreaWidth', 7,
-	'AreaHeight', 36,
+	'AreaHeight', 20,
 	'EnabledConditions', {
 		PlaceObj('QuestIsVariableBool', {
 			QuestId = "01_Landing",
@@ -52977,7 +52977,7 @@ p("SavannaPlant_Bush_08",142898,94761,9864,92,4281479213,2097164)
 p("TropicalPlant_Grass_04",143991,93253,19271,88,4280822581,2097164)
 p("TropicalPlant_Grass_03",144204,93966,18032,81,4281215275,2097164)
 p("ParSystem",145927,90395,"Env_Fire1x1",268435456)
-p("Grease",147406,90334,15577,16200,4096,0,0,4,2033,2097553)
+p("Grease",147406,90334,15577,16200,4096,0,0,3,2033,2097553)
 p("TropicalPlant_Grass_03",147216,93986,19721,80,4281542954,2097164)
 p("SavannaPlant_Bush_06",143736,94491,8096,40,4280888879,2097164)
 p("SavannaPlant_Bush_06",143847,95317,15460,10541,79,4280954933,2097165)

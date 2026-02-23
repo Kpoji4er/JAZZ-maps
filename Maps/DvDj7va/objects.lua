@@ -1790,7 +1790,7 @@ PlaceObj('ExitZoneInteractable', {
 	},
 	'CollectionIndex', 4040,
 	'AllowedMask', 4294966497,
-	'SectorOverride', "K16_Underground",
+	'SectorOverride', "L17_Underground",
 	'IsUnderground', true,
 	'entity', "TravelMarker_07",
 }, nil, 1159266347)

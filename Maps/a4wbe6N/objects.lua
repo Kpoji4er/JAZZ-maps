@@ -2676,16 +2676,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
 	'Side', "ally",
@@ -2702,16 +2692,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
 	'Side', "ally",
@@ -2737,16 +2717,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Heavy_Rebels",
 	'Side', "ally",
@@ -2763,16 +2733,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
 	'Side', "ally",
@@ -2789,16 +2749,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels_02",
 	'Side', "ally",
@@ -2830,16 +2780,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Heavy_Rebels",
 	'Side', "ally",
@@ -2856,16 +2796,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels",
 	'Side', "ally",
@@ -2922,16 +2852,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
 	'Side', "ally",
@@ -2948,16 +2868,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels",
 	'Side', "ally",
@@ -2974,16 +2884,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
 	'Side', "ally",
@@ -3000,16 +2900,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
 	'Side', "ally",
@@ -3026,16 +2916,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
 	'Side', "ally",
@@ -3052,16 +2932,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels_02",
 	'Side', "ally",
@@ -3078,16 +2948,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels_02",
 	'Side', "ally",
@@ -3104,16 +2964,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Commander_Rebels",
 	'Side', "ally",
@@ -3130,16 +2980,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Demolitions_Rebels",
 	'Side', "ally",
@@ -3156,16 +2996,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels_02",
 	'Side', "ally",
@@ -3182,16 +3012,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels_02",
 	'Side', "ally",
@@ -3269,16 +3089,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels",
 	'Side', "ally",
@@ -3295,16 +3105,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Marksman_Rebels_02",
 	'Side', "ally",
@@ -3331,16 +3131,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
 	'Side', "ally",
@@ -3357,16 +3147,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
 	'Side', "ally",
@@ -3408,16 +3188,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
 	'Side', "ally",
@@ -3434,16 +3204,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Recon_Rebels",
 	'Side', "ally",
@@ -3460,16 +3220,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Demolitions_Rebels",
 	'Side', "ally",
@@ -3486,16 +3236,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Heavy_Rebels",
 	'Side', "ally",
@@ -3512,16 +3252,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels_02",
 	'Side', "ally",
@@ -3538,16 +3268,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels_02",
 	'Side', "ally",
@@ -3621,16 +3341,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels",
 	'Side', "ally",
@@ -3647,16 +3357,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "RebelFemaleSniper",
 	'Side', "ally",
@@ -3680,16 +3380,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Commander_Rebels",
 	'Side', "ally",
@@ -3706,16 +3396,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Soldier_Rebels",
 	'Side', "ally",
@@ -3761,16 +3441,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Demolitions_Rebels",
 	'Side', "ally",
@@ -3896,16 +3566,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "RebelFemaleSniper",
 	'Side', "ally",
@@ -3941,16 +3601,6 @@ PlaceObj('UnitMarker', {
 		"Rebels_Base_Warriors",
 	},
 	'AllowedMask', 4294966497,
-	'Trigger', "activation",
-	'TriggerConditions', {
-		PlaceObj('SectorIsInConflict', {}),
-	},
-	'TriggerEffects', {
-		PlaceObj('GroupSetSide', {
-			Side = "player1",
-			TargetUnit = "Rebels_Base_Warriors",
-		}),
-	},
 	'Routine', "Ambient",
 	'Appearance', "Demolitions_Rebels",
 	'Side', "ally",
@@ -67108,7 +66758,7 @@ PlaceObj('TropicalPlant_LianaArc_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'CollectionIndex', 785,
-	'AllowedMask', 64,
+	'AllowedMask', 0,
 }, nil, 1394478007)
 PlaceObj('MilitaryCamp_FenceCover_01', {
 	'ColorizationPalette', "",
@@ -67232,7 +66882,7 @@ PlaceObj('TropicalPlant_LianaArc_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'OnRoof', true,
 	'CollectionIndex', 785,
-	'AllowedMask', 64,
+	'AllowedMask', 0,
 }, nil, 1017687999)
 PlaceObj('TropicalFillerPlants_04', {
 	'Pos', point(229056, 121666),
@@ -75022,7 +74672,7 @@ PlaceObj('Hangar_Canvas_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3007,
-	'AllowedMask', 64,
+	'AllowedMask', 0,
 }, nil, 1176358935)
 PlaceObj('HangarSmall_Wall_03', {
 	'ColorizationPalette', "",
@@ -75596,7 +75246,7 @@ PlaceObj('Hangar_Canvas_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3007,
-	'AllowedMask', 64,
+	'AllowedMask', 0,
 }, nil, 1787424201)
 PlaceObj('HangarSmall_FlatWall_04', {
 	'ColorizationPalette', "",
