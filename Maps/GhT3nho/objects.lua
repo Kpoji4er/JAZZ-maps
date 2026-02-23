@@ -233,6 +233,13 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Name', "col_Vehicle_PickupTruck_1",
+	'Index', 1727,
+}, nil, 1282117894)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_DecBunkerFloor_3",
 	'Index', 1875,
 }, nil, 1284160530)
@@ -494,13 +501,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-	'Name', "col_SavannaRock_17",
-	'Index', 1397,
-}, nil, 1557277765)
-PlaceObj('Collection', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
 	'Name', "col_Scaffolding_Wall_7",
 	'Index', 330,
 }, nil, 1569610273)
@@ -512,13 +512,6 @@ PlaceObj('Collection', {
 	'Name', "col_Scaffolding_Wall_02",
 	'Index', 2904,
 }, nil, 1576737011)
-PlaceObj('Collection', {
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'Name', "col_SavannaRock_15",
-	'Index', 2184,
-}, nil, 1582036489)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -23604,7 +23597,7 @@ PlaceObj('Vehicle_LuxuryCar_Old', {
 	'EditableColor1', RGBA(48, 25, 14, 255),
 	'EditableColor2', RGBA(32, 35, 47, 255),
 	'EditableColor3', RGBA(48, 25, 14, 255),
-	'Pos', point(218114, 46441, 6974),
+	'Pos', point(218113, 46443, 6974),
 	'Angle', 144,
 	'Axis', point(4096, 0, 0),
 	'Saturation', 0,
@@ -24639,12 +24632,14 @@ PlaceObj('AutoMechanic_ToolCase', {
 	'Angle', 18000,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1727,
 	'AllowedMask', 4294967279,
 }, nil, 1890620108)
 PlaceObj('Corp_SatelliteCase', {
 	'Pos', point(231180, 121278, 10547),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1727,
 	'AllowedMask', 4294967279,
 }, nil, 1205780266)
 PlaceObj('Vehicle_PickupTruck', {
@@ -24656,6 +24651,7 @@ PlaceObj('Vehicle_PickupTruck', {
 	'Angle', 4500,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1727,
 	'AllowedMask', 4294967279,
 }, nil, 1246076916)
 PlaceObj('Corp_TransportCase_02', {
@@ -81535,7 +81531,6 @@ p("SavannaPlant_Grass_01",223004,120062,11274,135,3200,2097220)
 p("SavannaPlant_Grass_01",223004,120062,11274,135,3200,2097220)
 p("SavannaPlant_Grass_02",221847,122088,163,4)
 p("SavannaPlant_Grass_01",222235,121146,21,4)
-p("SavannaRock_10",223884,118794,9864,13559,102,51,4094,"terrainchunk",10,0,0,91,100,10,40,60,2228241)
 p("SavannaRock_10",223884,118794,9864,13559,102,51,4094,3200,"terrainchunk",10,0,0,91,100,10,40,60,2228305)
 p("SavannaPlant_Grass_01",224443,119124,2145,164,3200,2097220)
 p("SavannaPlant_Grass_01",224443,119124,2145,164,3200,2097220)
@@ -81547,20 +81542,16 @@ p("SavannaPlant_Grass_04",226962,115022,7108,139,3200,2097220)
 p("SavannaPlant_Grass_04",226384,116511,6781,139,3200,2097220)
 p("SavannaPlant_Grass_04",226384,116511,6781,139,3200,2097220)
 p("SavannaRock_03",225766,116745,9864,10167,383,-428,4055,3200,"terrainchunk",10,0,0,90,99,10,40,60,2228305)
-p("SavannaRock_03",225766,116745,9864,10167,383,-428,4055,"terrainchunk",10,0,0,90,99,10,40,60,2228241)
 p("SavannaPlant_Grass_04",227128,117640,12941,170,3200,2097220)
 p("SavannaPlant_Grass_04",227128,117640,12941,170,3200,2097220)
 p("SavannaPlant_Grass_04",227033,118078,111,4)
-p("SavannaRock_10",227121,118545,9864,7396,-166,84,4091,3200,"terrainchunk",10,0,0,90,99,10,40,60,2228305)
 p("SavannaRock_10",227121,118545,9864,7396,-166,84,4091,3200,"terrainchunk",10,0,0,90,99,10,40,60,2228305)
 p("SavannaPlant_Bush_02",228079,115175,184,4)
 p("SavannaPlant_Grass_02",228191,117193,158,4)
 p("SavannaPlant_Grass_03",228147,117848,122,4)
 p("SavannaRock_08",228121,118116,9864,17573,56,-1137,-2151,3294,"terrainchunk",10,0,0,90,99,10,40,60,2228245)
-p("SavannaRock_08",228121,118116,9864,17573,56,-1137,-2151,3294,3200,"terrainchunk",10,0,0,90,99,10,40,60,2228309)
 p("SavannaPlant_Grass_03",228960,117012,180,4)
 p("SavannaPlant_Grass_02",229058,118150,192,4)
-p("SavannaRock_03",226437,119136,9864,6496,-190,67,4091,3200,"terrainchunk",10,0,0,90,99,10,40,60,2228305)
 p("SavannaRock_03",226437,119136,9864,6496,-190,67,4091,"terrainchunk",10,0,0,90,99,10,40,60,2228241)
 p("SavannaPlant_Grass_02",226827,119188,177,4)
 p("SavannaPlant_Grass_03",226806,119821,178,4)
@@ -81572,7 +81563,6 @@ p("SavannaPlant_Grass_02",229116,118997,130,4)
 p("SavannaPlant_Grass_04",228959,119802,177,4)
 p("SavannaPlant_Grass_03",228861,120754,118,4)
 p("SavannaPlant_Grass_02",228041,121135,139,4)
-p("SavannaRock_01",228062,121541,9529,6617,52,-38,158,4092,3200,"terrainchunk",10,0,0,90,99,10,40,60,2228309)
 p("SavannaRock_01",228062,121541,9529,6617,52,-38,158,4092,3200,"terrainchunk",10,0,0,90,99,10,40,60,2228309)
 p("SavannaPlant_Grass_01",228049,121941,162,4)
 p("SavannaPlant_Grass_04",228832,122247,52,4)
@@ -82385,10 +82375,8 @@ p("SavannaPlant_Grass_01",244921,113068,43,4)
 p("SavannaPlant_Grass_01",245130,113866,192,4)
 p("SavannaPlant_Bush_03",229915,115183,66,4)
 p("SavannaRock_01",229781,116102,9864,5575,84,-3208,-249,2533,3200,764,"terrainchunk",10,0,0,90,99,10,40,60,2228565)
-p("SavannaRock_01",229781,116102,9864,5575,84,-3208,-249,2533,3200,1397,"terrainchunk",10,0,0,90,99,10,40,60,2228565)
 p("SavannaPlant_Grass_02",230201,117094,106,4)
 p("SavannaPlant_Grass_01",229984,118032,47,4)
-p("SavannaRock_01",230410,117347,9864,17832,87,2446,-2105,2521,3200,2184,"terrainchunk",10,0,0,90,99,10,40,60,2228565)
 p("SavannaRock_01",230410,117347,9864,17832,87,2446,-2105,2521,2511,"terrainchunk",10,0,0,90,99,10,40,60,2228501)
 p("SavannaPlant_Grass_01",231069,117169,120,4)
 p("SavannaPlant_Grass_02",231055,117807,42,4)

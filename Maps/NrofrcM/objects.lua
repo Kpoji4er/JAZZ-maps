@@ -5410,22 +5410,6 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1839057468)
 PlaceObj('UnitMarker', {
-	'Pos', point(126600, 137400, 11200),
-	'Angle', 10800,
-	'Groups', {
-		"ThugBoss_Balumba",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "Thug_Officer",
-	'Side', "ally",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "ThugBoss_Balumba",
-		}),
-	},
-}, nil, 1659519731)
-PlaceObj('UnitMarker', {
 	'Pos', point(120600, 156600),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
@@ -5938,6 +5922,22 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1746694448)
 PlaceObj('UnitMarker', {
+	'Pos', point(144600, 117000, 8400),
+	'Angle', 5400,
+	'Groups', {
+		"ThugBoss_Balumba",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Thug_Officer",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugBoss_Balumba",
+		}),
+	},
+}, nil, 1659519731)
+PlaceObj('UnitMarker', {
 	'Pos', point(139800, 129000, 8400),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
@@ -6341,6 +6341,47 @@ PlaceObj('SalvageMarker', {
 	'Difficulty', "Hard",
 }, nil, 1185237577)
 PlaceObj('UnitMarker', {
+	'Pos', point(186600, 181800, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Thug_Demolishion",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGrenadier",
+		}),
+	},
+}, nil, 1142660478)
+PlaceObj('UnitMarker', {
+	'Pos', point(186600, 187800, 7000),
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'Appearance', "Thug_Demolishion",
+	'Side', "ally",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGrenadier",
+		}),
+	},
+}, nil, 1653421719)
+PlaceObj('UnitMarker', {
+	'Pos', point(196200, 184200, 7000),
+	'Angle', 10800,
+	'Groups', {
+		"Enemy_Attackers",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "ThugBoss_Balumba",
+	'Appearance', "LegionRanger_Stronger",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FlankerT2_Skirmisher",
+		}),
+	},
+}, nil, 1270078589)
+PlaceObj('UnitMarker', {
 	'Pos', point(131400, 198600, 7000),
 	'Groups', {
 		"Enemy_Attackers",
@@ -6536,6 +6577,142 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1489821784)
+PlaceObj('UnitMarker', {
+	'Pos', point(198600, 177000, 7000),
+	'Angle', 10800,
+	'Groups', {
+		"Enemy_Attackers",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "ThugBoss_Balumba",
+	'Appearance', "LegionRanger_Stronger",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FlankerT2_Skirmisher",
+		}),
+	},
+}, nil, 1154385327)
+PlaceObj('UnitMarker', {
+	'Pos', point(198600, 179400, 7000),
+	'Angle', 10800,
+	'Groups', {
+		"Enemy_Attackers",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "ThugBoss_Balumba",
+	'Appearance', "LegionGunner_Stronger_Elite_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_GunnerT2_AssaultGunner",
+		}),
+	},
+}, nil, 1186732887)
+PlaceObj('UnitMarker', {
+	'Pos', point(203400, 177000, 7000),
+	'Angle', 10800,
+	'Groups', {
+		"Enemy_Attackers",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "ThugBoss_Balumba",
+	'Appearance', "LegionRanger_Stronger",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FlankerT2_Skirmisher",
+		}),
+	},
+}, nil, 1327371648)
+PlaceObj('UnitMarker', {
+	'Pos', point(205800, 178200),
+	'Angle', 10800,
+	'Groups', {
+		"Enemy_Attackers",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "ThugBoss_Balumba",
+	'Appearance', "LegionGunner_Stronger_Elite_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_GunnerT2_AssaultGunner",
+		}),
+	},
+}, nil, 1626286590)
+PlaceObj('UnitMarker', {
+	'Pos', point(198600, 181800, 7000),
+	'Angle', 10800,
+	'Groups', {
+		"Enemy_Attackers",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "ThugBoss_Balumba",
+	'Appearance', "LegionRanger_Stronger",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FlankerT2_Skirmisher",
+		}),
+	},
+}, nil, 1500702297)
+PlaceObj('UnitMarker', {
+	'Pos', point(203400, 184200, 7000),
+	'Angle', 10800,
+	'Groups', {
+		"Enemy_Attackers",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "ThugBoss_Balumba",
+	'Appearance', "LegionRanger_Stronger",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FlankerT2_Skirmisher",
+		}),
+	},
+}, nil, 1543970537)
+PlaceObj('UnitMarker', {
+	'Pos', point(201000, 185400, 7000),
+	'Angle', 10800,
+	'Groups', {
+		"Enemy_Attackers",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "ThugBoss_Balumba",
+	'Appearance', "LegionGunner_Stronger_Elite_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_GunnerT2_AssaultGunner",
+		}),
+	},
+}, nil, 1849793885)
+PlaceObj('UnitMarker', {
+	'Pos', point(207000, 185400, 7000),
+	'Angle', 10800,
+	'Groups', {
+		"Enemy_Attackers",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "ThugBoss_Balumba",
+	'Appearance', "LegionGunner_Stronger_Elite_alt",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_GunnerT2_AssaultGunner",
+		}),
+	},
+}, nil, 1114743700)
 PlaceObj('ExitZoneInteractable', {
 	'Pos', point(219072, 165250, 6950),
 	'Groups', {
@@ -11482,7 +11659,7 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'destroyed_neighbours', 8,
+	'destroyed_neighbours', 12,
 	'subvariant', 1,
 	'material', "Colonial",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -11493,7 +11670,7 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'destroyed_neighbours', 1,
+	'destroyed_neighbours', 5,
 	'subvariant', 1,
 	'material', "Colonial",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -11537,6 +11714,7 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'destroyed_neighbours', 1,
 	'subvariant', 1,
 	'material', "Colonial",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -11546,8 +11724,10 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
+	'AllowedMask', 0,
+	'is_destroyed', true,
+	'destroyed_neighbours', 1,
+	'pre_destruction_subvariant', 1,
 	'material', "Colonial",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1430859048)
@@ -11556,12 +11736,10 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
-	'destroyed_neighbours', 1,
-	'destroyed_entity', "WallExt_Colonial_Wall_ExEx_Broken_T_01",
-	'destroyed_entity_side', 1,
+	'AllowedMask', 0,
+	'is_destroyed', true,
+	'destroyed_neighbours', 7,
 	'pre_destruction_subvariant', 1,
-	'subvariant', 1,
 	'material', "Colonial",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1870129673)
@@ -11572,7 +11750,7 @@ PlaceObj('WallSlab', {
 	'Warped', true,
 	'AllowedMask', 0,
 	'is_destroyed', true,
-	'destroyed_neighbours', 13,
+	'destroyed_neighbours', 15,
 	'pre_destruction_subvariant', 1,
 	'material', "Colonial",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -11746,6 +11924,10 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'destroyed_neighbours', 9,
+	'destroyed_entity', "WallExt_Colonial_Wall_ExEx_Broken_T_01",
+	'destroyed_entity_side', 1,
+	'pre_destruction_subvariant', 1,
 	'subvariant', 1,
 	'material', "Colonial",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -11755,9 +11937,10 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
-	'destroyed_neighbours', 1,
-	'subvariant', 1,
+	'AllowedMask', 0,
+	'is_destroyed', true,
+	'destroyed_neighbours', 9,
+	'pre_destruction_subvariant', 1,
 	'material', "Colonial",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1260363817)
@@ -11768,7 +11951,7 @@ PlaceObj('WallSlab', {
 	'Warped', true,
 	'AllowedMask', 0,
 	'is_destroyed', true,
-	'destroyed_neighbours', 8,
+	'destroyed_neighbours', 10,
 	'pre_destruction_subvariant', 1,
 	'material', "Colonial",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -11809,6 +11992,10 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'destroyed_neighbours', 8,
+	'destroyed_entity', "WallExt_Colonial_Wall_ExEx_Broken_R_01",
+	'destroyed_entity_side', 8,
+	'pre_destruction_subvariant', 1,
 	'subvariant', 1,
 	'material', "Colonial",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -12748,6 +12935,7 @@ PlaceObj('Room', {
 	'south_wall_mat', "none",
 	'west_wall_mat', "none",
 	'floor_mat', "none",
+	'spawned_doors', {},
 	'spawned_floors', {o(1223147680),o(1387017826),o(1143107496),o(1010248771),o(1669831565),o(1788728225),o(1099846042),o(1558031127),o(1161957443),},
 	'spawned_walls', {
         East = {o(1577300011),o(1166453025),o(1558330978),o(1822797870),o(1628124989),o(1198461353),o(1763421499),o(1785136736),o(1369523908),o(1705061522),o(1479287169),o(1083917703),o(1539721769),o(1137513089),o(1727606771),o(1375077244),o(1778888031),o(1435221199),o(1028751943),o(1176794828),o(1478545373),o(1894826573),o(1339251747),o(1495862679),o(1199270804),o(1495962031),o(1307029667),o(1093002463),o(1308979696),o(1783930668),o(1596823992),o(1305244044),o(1403517689),o(1192194320),o(1481712524),o(1493592929),o(1151596472),o(1358466136),o(1348150195),o(1795985736),o(1073448425),o(1115475426),o(1514934417),o(1666215140),o(1691479460),},
@@ -13705,7 +13893,7 @@ PlaceObj('WallDec_Colonial_Column_Body_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 	'managed_by_slab', false,
-}, nil, 1705449104)
+}, nil, 1731573838)
 PlaceObj('WallDec_Colonial_Column_Body_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(255, 156, 84, 255),
@@ -13718,7 +13906,7 @@ PlaceObj('WallDec_Colonial_Column_Body_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 	'managed_by_slab', false,
-}, nil, 1396302644)
+}, nil, 1756150518)
 PlaceObj('WallDec_Colonial_Column_Body_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(255, 156, 84, 255),
@@ -13731,7 +13919,7 @@ PlaceObj('WallDec_Colonial_Column_Body_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 	'managed_by_slab', false,
-}, nil, 1021859496)
+}, nil, 1425677341)
 PlaceObj('WallDec_Colonial_Column_Body_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(255, 156, 84, 255),
@@ -13744,7 +13932,7 @@ PlaceObj('WallDec_Colonial_Column_Body_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 	'managed_by_slab', false,
-}, nil, 1059341972)
+}, nil, 1733977645)
 PlaceObj('WallDec_Colonial_Column_Body_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(255, 156, 84, 255),
@@ -13757,7 +13945,7 @@ PlaceObj('WallDec_Colonial_Column_Body_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 	'managed_by_slab', false,
-}, nil, 1066562540)
+}, nil, 1031352552)
 PlaceObj('WallDec_Colonial_Column_Bottom_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(255, 156, 84, 255),
@@ -13769,7 +13957,7 @@ PlaceObj('WallDec_Colonial_Column_Bottom_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1422662439)
+}, nil, 1102175018)
 PlaceObj('WallDec_Colonial_Column_Body_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(255, 156, 84, 255),
@@ -13781,7 +13969,7 @@ PlaceObj('WallDec_Colonial_Column_Body_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1541943347)
+}, nil, 1639692272)
 PlaceObj('WallDec_Colonial_Column_Body_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(255, 156, 84, 255),
@@ -13793,7 +13981,7 @@ PlaceObj('WallDec_Colonial_Column_Body_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1109150680)
+}, nil, 1873391185)
 PlaceObj('WallDec_Colonial_Column_Body_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(255, 156, 84, 255),
@@ -13805,7 +13993,7 @@ PlaceObj('WallDec_Colonial_Column_Body_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1323501750)
+}, nil, 1409894013)
 PlaceObj('WallDec_Colonial_Column_Body_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(255, 156, 84, 255),
@@ -13817,7 +14005,7 @@ PlaceObj('WallDec_Colonial_Column_Body_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
-}, nil, 1642297512)
+}, nil, 1208566767)
 PlaceObj('RoomCorner', {
 	'Pos', point(96000, 152400, 7000),
 	'Saturation', 0,
@@ -15545,7 +15733,7 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'destroyed_neighbours', 8,
+	'destroyed_neighbours', 12,
 	'destroyed_entity', "WallExt_Colonial_Wall_ExEx_Broken_R_01",
 	'destroyed_entity_side', 8,
 	'pre_destruction_subvariant', 1,
@@ -15559,7 +15747,7 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'destroyed_neighbours', 8,
+	'destroyed_neighbours', 12,
 	'destroyed_entity', "WallExt_Colonial_Wall_ExEx_Broken_R_01",
 	'destroyed_entity_side', 8,
 	'pre_destruction_subvariant', 1,
@@ -15573,6 +15761,7 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'destroyed_neighbours', 4,
 	'subvariant', 1,
 	'material', "Colonial",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -15611,8 +15800,10 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
+	'AllowedMask', 0,
+	'is_destroyed', true,
+	'destroyed_neighbours', 1,
+	'pre_destruction_subvariant', 1,
 	'material', "Colonial",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1517811357)
@@ -15621,8 +15812,10 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
+	'AllowedMask', 0,
+	'is_destroyed', true,
+	'destroyed_neighbours', 3,
+	'pre_destruction_subvariant', 1,
 	'material', "Colonial",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1102704338)
@@ -15631,12 +15824,10 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
-	'destroyed_neighbours', 4,
-	'destroyed_entity', "WallExt_Colonial_Wall_ExEx_Broken_R_01",
-	'destroyed_entity_side', 4,
+	'AllowedMask', 0,
+	'is_destroyed', true,
+	'destroyed_neighbours', 6,
 	'pre_destruction_subvariant', 1,
-	'subvariant', 1,
 	'material', "Colonial",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1404581085)
@@ -15646,6 +15837,7 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'destroyed_neighbours', 2,
 	'subvariant', 1,
 	'material', "Colonial",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -15725,6 +15917,7 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
+	'destroyed_neighbours', 8,
 	'subvariant', 1,
 	'material', "Colonial",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -15735,7 +15928,7 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-	'destroyed_neighbours', 1,
+	'destroyed_neighbours', 9,
 	'subvariant', 1,
 	'material', "Colonial",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -15747,6 +15940,7 @@ PlaceObj('WallSlab', {
 	'Warped', true,
 	'AllowedMask', 0,
 	'is_destroyed', true,
+	'destroyed_neighbours', 8,
 	'pre_destruction_subvariant', 1,
 	'material', "Colonial",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -148319,14 +148513,14 @@ p("Bar_Barrel_01",119190,137045,8400,1)
 p("Bar_Barrel_01",119549,136953,8400,1)
 p("Bar_Barrel_04",119164,137538,8400,1)
 p("Bar_Barrel_01",119722,137335,8400,13986,2097153)
-p("M16bayonet_weapon",119406,138553,11698,12619,-1293,2678,2817,7,2097297)
+p("M16bayonet_weapon",119406,138553,11698,12619,-1293,2678,2817,2097169)
 p("DecBunkerFloor_02",119400,138600,11200,14776,3709,2097409)
 p("WeaponProp_Bullets_01",119640,138615,11200,7909,2097153)
 p("DecBunkerFloor_02",121100,136200,8400,13174,-2702,1473,2702,2761,2097425)
 p("DecBunkerFloor_02",121100,136200,10500,13259,-2686,1531,2686,2761,2097425)
 p("DecBunkerFloor_02",121100,136200,13300,15904,-1152,3757,1152,2761,2097425)
 p("DecShantyRubbish_03",121403,136300,11200,1)
-p("Grease",120977,137880,12710,7739,1953,2546,2546,7,2097297)
+p("Grease",120977,137880,12710,7739,1953,2546,2546,2097169)
 p("Art_Painting_04",121300,138031,12929,2391,257)
 p("Art_Painting_03",121270,138404,12467,1)
 p("DecBunkerFloor_02",121300,138600,9100,16187,250,-4080,250,2761,2097425)
@@ -148343,7 +148537,7 @@ p("Faction_Bag_05",119893,140258,11294,15333,2150054469,2152221268,"",1075841537
 p("JungleCamp_GraveyardRifle_01",119965,140111,11593,8797,-256,151,4085,2097169)
 p("Faction_Bag_04",119998,140192,11294,2997,2150054469,2152221268,"",1075841537)
 p("EquipmentMale_WW2Helmet",120050,140175,11846,13262,-1365,-853,3766,2097169)
-p("G18",120201,140101,11644,15816,3663,-1295,1295,7,2097297)
+p("G18",120201,140101,11644,15816,3663,-1295,1295,2097169)
 p("DecBunkerFloor_02",120600,140500,8400,6762,-2728,2161,2161,2761,2097425)
 p("DecBunkerFloor_02",120600,140500,11200,15470,3307,1708,1708,2761,2097425)
 p("TropicalPlant_Flowers_02",120711,141328,13095,2097152)
@@ -148470,13 +148664,13 @@ p("TropicalPlant_Grass_03",128009,152077,6950,5281,137,2097157)
 p("TropicalPlant_Grass_03",123055,160552,6949,3555,202,2097157)
 p("TropicalPlant_Grass_03",123369,162251,6949,3555,202,2097157)
 p("TropicalPlant_Grass_03",126895,163138,6949,11655,202,2097157)
-p("TT33f",99780,164697,7661,6268,3173,1831,1831,7,2097297)
+p("TT33f",99780,164697,7661,6268,3173,1831,1831,2097169)
 p("TropicalRockAssembly_02",100625,164762,6752,19152,138,-231,167,4086,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockAssembly_02",100853,167651,6752,10782,138,27,96,4094,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
-p("cartridge_box",98845,169598,7283,16754,4279372545,2097161)
-p("cartridge_box",98840,169606,7086,16868,4279372545,1,2097289)
-p("cartridge_box",99425,169667,7086,5773,4279372545,2097161)
-p("cartridge_box",99427,169667,7275,373,4279372545,2097161)
+p("cartridge_box",98845,169598,7283,16754,4279372545,1,2097289)
+p("cartridge_box",98840,169606,7086,16868,4279372545,2097161)
+p("cartridge_box",99425,169667,7086,5773,4279372545,1,2097289)
+p("cartridge_box",99427,169667,7275,373,4279372545,1,2097289)
 p("TropicalRockAssembly_02",98307,170543,6833,7634,97,74,82,4094,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockAssembly_02",100821,168149,6752,19152,138,-231,167,4086,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockAssembly_02",100622,170543,6833,14380,97,-28,111,4094,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -148488,7 +148682,7 @@ p("DecBunkerFloor_02",103800,172900,7000,10693,63,-2896,2896,3651,2097425)
 p("DecBunkerFloor_02",103800,173400,9800,20412,3213,2097409)
 p("DecWallBrickConcrete_01",103100,174600,8400,5651,4280096533,-1066,-3808,1066,2151,2097433)
 p("DecBunkerFloor_02",103300,175800,7000,13252,-2688,1526,2688,3651,2097425)
-p("SVT_Byonet_Weapon",104397,174263,10460,12351,0,4096,0,2097169)
+p("SVT_Byonet_Weapon",104397,174263,10460,12351,0,4096,0,7,2097297)
 p("DecBunkerFloor_02",105000,172700,8400,5443,4044,-458,458,3937,2097425)
 p("DecWallBrickConcrete_01",106200,172700,8400,14468,4280096533,-2418,-2337,2337,2151,2097433)
 p("DecBunkerFloor_02",106200,172900,8400,6589,2877,-2062,2062,3651,2097425)
@@ -148664,7 +148858,7 @@ p("DecBunkerFloor_02",103800,188300,9100,15889,3741,1178,1178,119,2097425)
 p("DecBunkerFloor_02",103800,188300,11900,8056,-1726,2626,2626,143,2097425)
 p("DecBunkerFloor_04",105000,186600,7000,4561,2421,2097409)
 p("DecBunkerFloor_02",105000,188300,9800,5786,-3660,1299,1299,143,2097425)
-p("stoeger_outback",106269,187303,7716,8314,1548,2681,2681,2097169)
+p("stoeger_outback",106269,187303,7716,8314,1548,2681,2681,7,2097297)
 p("DecBunkerFloor_02",106200,187800,7000,16307,949,2097409)
 p("DecBunkerFloor_02",106200,187800,9800,4880,636,2097409)
 p("DecBunkerFloor_02",106200,188300,11900,15463,3301,1714,1714,143,2097425)
@@ -148694,11 +148888,11 @@ p("DecBunkerFloor_02",107400,181800,7000,17095,949,2097409)
 p("DecBunkerFloor_02",107400,181800,9800,3260,636,2097409)
 p("DecBunkerFloor_04",108600,183000,9800,10500,1580,2097409)
 p("DecShantyRubbish_02",107766,185056,9810,1)
-p("Garand",108376,185553,10262,15711,-3396,1688,1547,2097169)
-p("TT33f",106542,187236,7696,5797,3647,1318,1317,1,2097297)
+p("Garand",108376,185553,10262,15711,-3396,1688,1547,7,2097297)
+p("TT33f",106542,187236,7696,5797,3647,1318,1317,6,2097297)
 p("DecShantyRubbish_02",106840,187097,7000,17285,2097153)
 p("Prison_Decoration_05",107401,186485,8324,10800,4282726951,2097161)
-p("TT33f",106681,187505,7696,9534,762,2846,2846,2097169)
+p("TT33f",106681,187505,7696,9534,762,2846,2846,7,2097297)
 p("DecBunkerFloor_04",107400,187800,7000,19419,3113,2097409)
 p("DecBunkerFloor_02",107400,188300,8400,15136,2991,1978,1978,119,2097425)
 p("WallExt_Colonial_Stairs_01",109207,185401,7003,10800,1,2153028863,2153028863,2153028863,"",1075845697)
@@ -149484,7 +149678,7 @@ p("NPCHerman_Hat_01",140905,137353,11899,1030,610,3856,1239,2150182196,215005446
 p("NPCHyenaGilbert_Hat_01",141267,137371,11899,15834,2097153)
 p("DecBunkerFloor_02",141000,138100,11200,15733,3575,1413,1413,2761,2097425)
 p("DecWallLeak_02",141595,138100,8790,14399,43,-2365,-2365,2365,3099,2097429)
-p("cartridge_box",142076,137503,12014,13319,4280160512,-14,-85,4095,1,2097305)
+p("cartridge_box",142076,137503,12014,13319,4280160512,-14,-85,4095,2097177)
 p("DecBunkerFloor_02",142200,138100,9100,11269,279,2889,2889,2761,2097425)
 p("Prison_LaundryPile_06",141801,139101,11200,2150182196,2148407600,2150976820,"",1073748481)
 p("DecBunkerFloor_02",142200,138600,11200,16739,3709,2097409)
@@ -149519,8 +149713,8 @@ p("Bunker_ConcretePile_01",140374,144507,7082,10171,143,-189,799,4012,"terrainch
 p("Bunker_ConcretePile_01",140374,144507,7082,12528,143,-495,605,4020,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("DecBunkerFloor_02",145100,139800,9800,10202,-2885,-357,2885,2761,2097425)
 p("DecWallLeak_02",143411,142900,11744,14399,21,-2365,-2365,2365,1797,2097429)
-p("12Gauge_Ammo",144196,142370,11836,1)
-p("stoeger_outback",144548,141887,11845,9833,652,2851,2867,2097169)
+p("12Gauge_Ammo",144196,142370,11836,7,129)
+p("stoeger_outback",144548,141887,11845,9833,652,2851,2867,7,2097297)
 p("DecBunkerFloor_02",144600,142200,11200,3621,3709,2097409)
 p("DecBunkerFloor_02",144600,142900,12600,16199,4095,8,8,2761,2097425)
 p("Prison_LaundryPile_06",146493,140011,11200,5723,2150182196,2148407600,2150976820,"",1075845633)
@@ -149717,7 +149911,7 @@ p("Shanty_BrickSingle_03",138856,167160,7009,13601,2150182196,2150054469,"",1075
 p("Shanty_BrickSingle_02",138996,167629,7009,3350,2150182196,2150054469,"",1075841537)
 p("Farmland_Saw",137421,175516,7721,16099,-687,-3979,687,2097169)
 p("DecWallDirt_05",140407,164098,0)
-p("Spectr_M4",141251,164137,7126,6145,-3292,-1723,1723,7,2097297)
+p("Spectr_M4",141251,164137,7126,6145,-3292,-1723,1723,2097169)
 p("DecWallDirt_06",139303,166820,6455,10799,162,2896,0,2896,2097173)
 p("DecShantyRubbish_02",139810,169189,0)
 p("TropicalRockAssembly_01",140197,169073,5814,7060,221,"terrainchunk",10,0,0,70,91,10,40,60,2228229)
@@ -149725,7 +149919,7 @@ p("DecShantyRubbish_01",139845,169909,0)
 p("DecShantyRubbish_01",140663,168599,0)
 p("Scaffolding_Bridge_Wood_01",141000,171000,7000,16200,2150054469,2150182196,2148017724,"",1075845633)
 p("DecWallDirt_06",143376,170205,6754,14399,162,2364,2364,2365,2097173)
-p("JungleCamp_TrenchFloor_01",147110,169389,6470,5749,1041,-1045,3821,2150054469,2150182196,"",1075841553)
+p("JungleCamp_TrenchFloor_01",147110,169385,6470,5749,1041,-1045,3821,2150054469,2150182196,"",1075841553)
 p("Scaffolding_Bridge_Wood_02",147000,171000,5400,2150054469,2150182196,2148407600,"",1075845632)
 p("TropicalPlant_Grass_03",139356,176376,6853,13983,165,2097157)
 p("TropicalPlant_04_Shrub_01",140086,176603,6950,4328,123,143,-123,4091,2097173)
@@ -149973,10 +150167,10 @@ p("DecFloatersTrash3D_03",170198,168169,0)
 p("MilitaryCamp_Canopy_03Top",170482,169425,8772,5436,-422,422,4052,3658,2148017724,2148276751,2150054469,"",1075845905)
 p("Flashlight",170505,171114,7717,9423,139,-16,4093,2097169)
 p("DecShantyRubbish_03",167594,174567,0)
-p("Stanag",168216,174414,7799,7377,-2227,-2431,2431,7,2097297)
-p("Stanag",168335,174534,7799,6018,-3419,-1594,1595,6,2097297)
-p("TT33f",168263,174678,7806,5905,3534,1463,1463,7,2097297)
-p("Stanag",168216,174861,7799,15583,-3419,1595,1594,6,2097297)
+p("Stanag",168216,174414,7799,7377,-2227,-2431,2431,2097169)
+p("Stanag",168335,174534,7799,6018,-3419,-1594,1595,1,2097297)
+p("TT33f",168263,174678,7806,5905,3534,1463,1463,2097169)
+p("Stanag",168216,174861,7799,15583,-3419,1595,1594,1,2097297)
 p("DecShantyRubbish_02",168622,174300,12598,2097152)
 p("MilitaryCamp_Canopy_03Top",171803,174073,8772,16162,-425,-425,4051,3658,2148017724,2148276751,2150054469,"",1075845905)
 p("DecShantyRubbish_01",170256,178617,6901,6793,149,469,2097413)
