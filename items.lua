@@ -7825,6 +7825,7 @@ return {
 					'Map', "qRiCMTo",
 					'modId', "FhNNYd",
 					'display_name', T(691002711206, "Скалистый берег"),
+					'TerrainType', "Jungle",
 					'WeatherZone', "Erny",
 					'ForceConflict', true,
 					'MinFlareCarriers', 6,
@@ -7839,6 +7840,7 @@ return {
 					'BlockTravel', set({
 	East = false,
 	North = true,
+	South = true,
 	West = false,
 }),
 					'image', "Mod/FhNNYd/Images/M2.jpg",
@@ -30976,6 +30978,7 @@ return {
 				PlaceObj('ModItemConversation', {
 					AssignToGroup = "Rebel_NPC_Ghost",
 					DefaultActor = "Rebel_NPC_Ghost",
+					DefaultActorPortraitOverride = "Mod/Dv3mFVN/Images/REBELS_Ghost.png",
 					group = "Ernie",
 					id = "Rebels_Ghost",
 					PlaceObj('ConversationPhrase', {
@@ -32541,6 +32544,18 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "B26",
+					'Label1', "Blocked",
+					'Side', "neutral",
+					'StickySide', true,
+					'TerrainType', "Highlands",
+					'Passability', "Blocked",
+					'Intel', false,
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "B26",
 					'MapTier', 30,
 					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B26]] "River"),
 					'Side', "neutral",
@@ -32549,18 +32564,6 @@ return {
 					'Passability', "Water",
 					'Intel', false,
 					'image', "UI/SatelliteView/SectorImages/_River",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "B26",
-					'Label1', "Blocked",
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
-					'Intel', false,
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -44412,6 +44415,7 @@ return {
 					'Map', "qRiCMTo",
 					'modId', "FhNNYd",
 					'display_name', T(691002711206, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M2]] "Скалистый берег"),
+					'TerrainType', "Jungle",
 					'WeatherZone', "Erny",
 					'ForceConflict', true,
 					'MinFlareCarriers', 6,
@@ -44426,6 +44430,7 @@ return {
 					'BlockTravel', set({
 	East = false,
 	North = true,
+	South = true,
 	West = false,
 }),
 					'image', "Mod/FhNNYd/Images/M2.jpg",
@@ -45069,6 +45074,7 @@ return {
 					'StickySide', true,
 					'Passability', "Water",
 					'Intel', false,
+					'BlockTravel', set( "North" ),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
@@ -109924,6 +109930,793 @@ return {
 	PlaceObj('ModItemFolder', {
 		'name', "Containers",
 	}, {
+		PlaceObj('ModItemLootDef', {
+			Comment = "intel container",
+			group = "MapContainers",
+			id = "IntelSecretStash_Small",
+			PlaceObj('LootEntryLootDef', {
+				comment = "up to tier 3",
+				game_conditions = {
+					PlaceObj('PlayerIsInSectorsOfTier', {
+						MapTier = 30,
+					}),
+				},
+				loot_def = "Container_Explosives_VariedUtility",
+				weight = 700000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "up to tier 3",
+				game_conditions = {
+					PlaceObj('PlayerIsInSectorsOfTier', {
+						MapTier = 30,
+					}),
+				},
+				loot_def = "Container_ArmorFull_Light",
+				weight = 500000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "up to tier 3",
+				game_conditions = {
+					PlaceObj('PlayerIsInSectorsOfTier', {
+						MapTier = 30,
+					}),
+				},
+				loot_def = "Container_LauncherUpgrade",
+				weight = 650000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				amount_modifier = 2000000,
+				loot_def = "Container_WeaponUpgradeKit",
+				weight = 1000000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				loot_def = "Container_SpecialOptics",
+				weight = 1500000,
+			}),
+			PlaceObj('LootEntryInventoryItem', {
+				item = "BigDiamond",
+				stack_max = 2,
+				stack_min = 1,
+				weight = 700000,
+			}),
+			PlaceObj('LootEntryInventoryItem', {
+				item = "CamoArmor_Light",
+				stack_max = 1,
+				stack_min = 1,
+				weight = 500000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				amount_modifier = 2000000,
+				loot_def = "Container_MedStimms",
+				weight = 500000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				amount_modifier = 2000000,
+				loot_def = "Container_RandomCombinationItem",
+				weight = 500000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				loot_def = "SkillMagazine_TwoRandom",
+				weight = 500000,
+			}),
+			PlaceObj('LootEntryInventoryItem', {
+				item = "MetaviraShot",
+				stack_max = 2,
+				stack_min = 1,
+				weight = 500000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				amount_modifier = 2000000,
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_Explosives_VariedUtility",
+				weight = 700000,
+			}),
+			PlaceObj('LootEntryInventoryItem', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				item = "CamoArmor_Medium",
+				stack_max = 1,
+				stack_min = 1,
+				weight = 500000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_ArmorFull_Medium",
+				weight = 1200000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_ArmorFull_Heavy",
+				weight = 1000000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_Explosives_PETN",
+				weight = 1000000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				amount_modifier = 3000000,
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Drop_50cal_Varied",
+				weight = 1500000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_SniperUpgradePack",
+				weight = 600000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_StormerUpgradePack",
+				weight = 600000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_AmmoBucket_Special",
+				weight = 500000,
+			}),
+		}),
+		PlaceObj('ModItemLootDef', {
+			Comment = "intel container",
+			group = "MapContainers",
+			id = "IntelSecretStash_Large",
+			PlaceObj('LootEntryLootDef', {
+				comment = "up to tier 3",
+				game_conditions = {
+					PlaceObj('PlayerIsInSectorsOfTier', {
+						MapTier = 30,
+					}),
+				},
+				loot_def = "Container_WeaponUpgradableBeretta",
+				weight = 1600000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				loot_def = "Container_WeaponUpgradableGlock",
+				weight = 1900000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_WeaponUpgradableAnaconda",
+				weight = 600000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_WeaponUpgradableDesertEagle",
+				weight = 800000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "up to tier 3",
+				game_conditions = {
+					PlaceObj('PlayerIsInSectorsOfTier', {
+						MapTier = 30,
+					}),
+				},
+				loot_def = "Container_WeaponUpgradableAuto5",
+				weight = 2000000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				loot_def = "Container_WeaponUpgradableM41",
+				weight = 1200000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_WeaponUpgradableAA12",
+				weight = 1000000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "up to tier 3",
+				game_conditions = {
+					PlaceObj('PlayerIsInSectorsOfTier', {
+						MapTier = 30,
+					}),
+				},
+				loot_def = "Container_WeaponUpgradableUZI",
+				weight = 1600000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "up to tier 3",
+				game_conditions = {
+					PlaceObj('PlayerIsInSectorsOfTier', {
+						MapTier = 30,
+					}),
+				},
+				loot_def = "Container_WeaponUpgradableMP5",
+				weight = 1200000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "up to tier 3",
+				game_conditions = {
+					PlaceObj('PlayerIsInSectorsOfTier', {
+						MapTier = 30,
+					}),
+				},
+				loot_def = "Container_WeaponUpgradableMP5K",
+				weight = 1200000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_WeaponUpgradableAKSU",
+				weight = 1000000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_WeaponUpgradableM4",
+				weight = 1000000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "up to tier 3",
+				game_conditions = {
+					PlaceObj('PlayerIsInSectorsOfTier', {
+						MapTier = 30,
+					}),
+				},
+				loot_def = "Container_WeaponUpgradableAK47",
+				weight = 1000000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				loot_def = "Container_WeaponUpgradableFNFAL",
+				weight = 500000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				loot_def = "Container_WeaponUpgradableM16",
+				weight = 1000000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_WeaponUpgradableAR15",
+				weight = 1500000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_WeaponUpgradableM14",
+				weight = 700000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_WeaponUpgradableAUG",
+				weight = 1200000,
+			}),
+			PlaceObj('LootEntryInventoryItem', {
+				RandomizeCondition = true,
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				item = "Galil",
+				stack_max = 1,
+				stack_min = 1,
+				weight = 500000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_WeaponUpgradableAK74",
+				weight = 1000000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_WeaponUpgradableG36",
+				weight = 1000000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				loot_def = "Container_WeaponUpgradableDragunov",
+				weight = 800000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				loot_def = "Container_WeaponUpgradableM24",
+				weight = 600000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_WeaponUpgradablePSG",
+				weight = 400000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				loot_def = "Container_WeaponUpgradableRPK",
+				weight = 1000000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_WeaponUpgradableHK21",
+				weight = 1000000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_WeaponUpgradableMINIMI",
+				weight = 800000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_WeaponMortar",
+				weight = 600000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_WeaponRocket",
+				weight = 600000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				comment = "tier 3+",
+				game_conditions = {
+					PlaceObj('CheckOR', {
+						Conditions = {
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 30,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 40,
+								UpTo = false,
+							}),
+							PlaceObj('PlayerIsInSectorsOfTier', {
+								MapTier = 50,
+								UpTo = false,
+							}),
+						},
+					}),
+				},
+				loot_def = "Container_WeaponLauncher",
+				weight = 600000,
+			}),
+		}),
+		PlaceObj('ModItemLootDef', {
+			Comment = "intel container",
+			group = "MapContainers",
+			id = "IntelSecretStash",
+			PlaceObj('LootEntryLootDef', {
+				loot_def = "IntelSecretStash_Large",
+				weight = 1000000,
+			}),
+			PlaceObj('LootEntryLootDef', {
+				loot_def = "IntelSecretStash_Small",
+				weight = 2000000,
+			}),
+		}),
 		PlaceObj('ModItemLootDef', {
 			Comment = "ernie container",
 			group = "Default",
