@@ -3629,7 +3629,7 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
-				'comment', "Разореная деревня",
+				'comment', 'Деревня "Ла-Палисад"',
 				'mapName', "DHemvj6",
 				'campaignId', "HotDiamonds",
 				'sectorId', "G10",
@@ -3638,7 +3638,7 @@ return {
 					'Map', "DHemvj6",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(242442320813, "Разореная деревня"),
+					'display_name', T(242442320813, "Ла-Палисад"),
 					'WeatherZone', "SavannahSouth",
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -7719,7 +7719,6 @@ return {
 					'ForceConflict', true,
 					'InitialSquads', {
 						"LegionAttackers_JazzBalanced_Easy_Assault",
-						"LegionExtraDefenders_Marksmen_Hard",
 						"LegionExtraSquadFireArms_T2",
 					},
 					'bidirectionalRoadApply', true,
@@ -37041,7 +37040,7 @@ return {
 					'Map', "DHemvj6",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(242442320813, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G10]] "Разореная деревня"),
+					'display_name', T(242442320813, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G10]] "Ла-Палисад"),
 					'WeatherZone', "SavannahSouth",
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -44693,7 +44692,6 @@ return {
 					'ForceConflict', true,
 					'InitialSquads', {
 						"LegionAttackers_JazzBalanced_Easy_Assault",
-						"LegionExtraDefenders_Marksmen_Hard",
 						"LegionExtraSquadFireArms_T2",
 					},
 					'bidirectionalRoadApply', true,

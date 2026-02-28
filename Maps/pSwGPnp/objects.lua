@@ -362,6 +362,17 @@ PlaceObj('ContainerIntelMarker', {
 	},
 }, nil, 931381248)
 PlaceObj('GridMarker', {
+	'Pos', point(119400, 198600, 7000),
+	'Groups', {
+		"AL_Defender",
+	},
+	'AllowedMask', 4294966497,
+	'Type', "Defender",
+	'AreaWidth', 5,
+	'AreaHeight', 6,
+	'RoutineArea', "AL_Defender_Ambient",
+}, nil, 1423511987)
+PlaceObj('GridMarker', {
 	'Pos', point(149400, 91800, 8400),
 	'Groups', {
 		"AL_Defender",
@@ -624,17 +635,6 @@ PlaceObj('TrapSpawnMarker', {
 	'AllowedMask', 4294966497,
 }, nil, 1738355614)
 PlaceObj('GridMarker', {
-	'Pos', point(133800, 208200, 7000),
-	'Groups', {
-		"AL_Defender",
-	},
-	'AllowedMask', 4294966497,
-	'Type', "Defender",
-	'AreaWidth', 5,
-	'AreaHeight', 6,
-	'RoutineArea', "AL_Defender_Ambient",
-}, nil, 1088268852)
-PlaceObj('GridMarker', {
 	'Pos', point(162600, 198600),
 	'Groups', {
 		"AL_Defender",
@@ -650,17 +650,6 @@ PlaceObj('GridMarker', {
 	'AllowedMask', 4294966497,
 	'Type', "DefenderPriority",
 }, nil, 1543957537)
-PlaceObj('GridMarker', {
-	'Pos', point(149400, 219000, 6300),
-	'Groups', {
-		"AL_Defender",
-	},
-	'AllowedMask', 4294966497,
-	'Type', "Defender",
-	'AreaWidth', 5,
-	'AreaHeight', 6,
-	'RoutineArea', "AL_Defender_Ambient",
-}, nil, 1259585686)
 PlaceObj('GridMarker', {
 	'Pos', point(162600, 215400),
 	'Groups', {
