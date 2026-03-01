@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 5060,
+	'version', 5067,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
@@ -22,7 +22,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1772316938,
+	'saved', 1772403104,
 	'code_hash', 8311704044312267199,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
