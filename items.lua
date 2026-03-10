@@ -366,7 +366,10 @@ return {
 					'TerrainType', "Highlands",
 					'WeatherZone', "Highlands",
 					'bidirectionalRoadApply', true,
-					'Roads', set( "East", "West" ),
+					'Roads', set({
+	East = false,
+	West = true,
+}),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
 						East = false,
@@ -2559,12 +2562,14 @@ return {
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = false,
+	South = false,
 	West = true,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
 	North = false,
+	South = false,
 	West = false,
 }),
 					'BlockTravelRiver', set( "South" ),
@@ -3649,7 +3654,10 @@ return {
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
+	East = false,
+	North = false,
 	South = false,
+	West = false,
 }),
 				}),
 			}),
@@ -4286,13 +4294,15 @@ return {
 					'WeatherZone', "SavannahSouth",
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	East = true,
+	East = false,
 	North = false,
 	South = false,
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
+	East = false,
+	North = false,
 	South = false,
 	West = false,
 }),
@@ -4890,7 +4900,7 @@ return {
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
-	North = true,
+	North = false,
 	South = false,
 	West = false,
 }),
@@ -30994,13 +31004,6 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
-								Text = T(301982737228, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Greeting]] "Ха... вот это бойня. Рад, что мы на одной стороне."),
-								param_bindings = false,
-							}),
-							PlaceObj('ConversationLine', {
-								Character = "Rebel_NPC_Ghost",
-								Text = T(301982737228, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Greeting]] "Меня зовут Дьяло, но люди обычно называют меня Призрак"),
-								param_bindings = false,
 							}),
 						},
 						id = "Greeting",
@@ -31079,8 +31082,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
-									Text = T(194077002549, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Нам нужна помощь у особняка]] "С этим я могу вам помочь. Придем к вам на помощь если надо будет."),
-									param_bindings = false,
+									Text = T(701949042002, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost]] "С этим я могу вам помочь. Придем к вам на помощь если надо будет."),
 								}),
 							},
 							id = "2",
@@ -31101,13 +31103,6 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
-								Text = T(208492606993, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Что вы делаете тут?]] "Считал, сколько человек Легион еще потеряет, прежде чем догадается, что в джунглях их кто-то очень сильно не любит.\nЯ хотел перехватить этот отряд, но вы успели перебить основную часть. Хорошая работа"),
-								param_bindings = false,
-							}),
-							PlaceObj('ConversationLine', {
-								Character = "Rebel_NPC_Ghost",
-								Text = T(208492606993, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Что вы делаете тут?]] "Судя по тому, как вы справились с ними, вы можете мне помочь.\nНедалеко отсюда, к северу от <em>Водопада</em>, есть <em>Смотровая площадка</em> - одно из немногих мест, где Легион выгружает припасы для снабжения острова. Если мы вместе её атакуем, то сможем нарушить логистику в этой части острова"),
-								param_bindings = false,
 							}),
 						},
 						id = "2",
@@ -31122,8 +31117,6 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
-									Text = T(109547137433, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Мы согласны]] "Хорошо, значит встретимся после боя"),
-									param_bindings = false,
 								}),
 							},
 							StoryBranchIcon = "conversation_friendly",
@@ -31137,13 +31130,6 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
-									Text = T(800936062608, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Водопад?]] "Да, дальше по дороге находится <em>водопад</em>. Мы его обойдем и будем вас ждать на <em>Смотровой Площадке</em>"),
-									param_bindings = false,
-								}),
-								PlaceObj('ConversationLine', {
-									Character = "Rebel_NPC_Ghost",
-									Text = T(294541557607, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Водопад?]] "У <em>Водопада</em> вдоль реки находится небольшой отряд легиона - пытаются отрезать отряд Бурды. Но Легион не знает, что вдоль гор есть несколько тайных троп."),
-									param_bindings = false,
 								}),
 							},
 							id = "4",
@@ -31168,8 +31154,6 @@ return {
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "Rebel_NPC_Ghost",
-										Text = T(967669393189, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Тропы?]] "Если бы я рассказал - они перестали бы быть тайными."),
-										param_bindings = false,
 									}),
 								},
 								id = "2",
@@ -31184,8 +31168,6 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
-									Text = T(774684540869, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Мы как-нибудь сами справимся]] "Жаль. Ну, увидимся в лагере, если вы до туда дойдете"),
-									param_bindings = false,
 								}),
 							},
 							StoryBranchIcon = "conversation_sarcastic",
@@ -31200,8 +31182,6 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
-								Text = T(479802906082, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Goodbye]] "Удачи, наемники"),
-								param_bindings = false,
 							}),
 						},
 						id = "Goodbye",
@@ -31384,7 +31364,10 @@ return {
 					'TerrainType', "Highlands",
 					'WeatherZone', "Highlands",
 					'bidirectionalRoadApply', true,
-					'Roads', set( "East", "West" ),
+					'Roads', set({
+	East = false,
+	West = true,
+}),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
 						East = false,
@@ -31406,7 +31389,10 @@ return {
 					'TerrainType', "Highlands",
 					'WeatherZone', "Highlands",
 					'bidirectionalRoadApply', true,
-					'Roads', set( "East", "West" ),
+					'Roads', set({
+	East = false,
+	West = true,
+}),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
 						East = false,
@@ -31439,6 +31425,7 @@ return {
 					'BlockTravel', set({
 	East = false,
 	South = true,
+	West = false,
 }),
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
@@ -36603,12 +36590,14 @@ return {
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = false,
+	South = false,
 	West = true,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
 	North = false,
+	South = false,
 	West = false,
 }),
 					'BlockTravelRiver', set( "South" ),
@@ -37051,7 +37040,10 @@ return {
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
+	East = false,
+	North = false,
 	South = false,
+	West = false,
 }),
 				}),
 				PlaceObj('SatelliteSector', {
@@ -38227,13 +38219,15 @@ return {
 					'WeatherZone', "SavannahSouth",
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	East = true,
+	East = false,
 	North = false,
 	South = false,
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
+	East = false,
+	North = false,
 	South = false,
 	West = false,
 }),
@@ -38251,13 +38245,15 @@ return {
 					'WeatherZone', "SavannahSouth",
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	East = true,
+	East = false,
 	North = false,
 	South = false,
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
+	East = false,
+	North = false,
 	South = false,
 	West = false,
 }),
@@ -39233,7 +39229,10 @@ return {
 					'StickySide', true,
 					'Passability', "Water",
 					'Intel', false,
-					'BlockTravel', set( "East" ),
+					'BlockTravel', set({
+	East = true,
+	North = false,
+}),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
@@ -39354,7 +39353,7 @@ return {
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
-	North = true,
+	North = false,
 	South = false,
 	West = false,
 }),
@@ -41082,6 +41081,7 @@ return {
 					'Passability', "Water",
 					'Intel', false,
 					'BlockTravel', set({
+	East = false,
 	North = false,
 }),
 					'image', "UI/SatelliteView/SectorImages/_Sea",
