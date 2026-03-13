@@ -21,7 +21,7 @@ DefineMapData{
 		"Interactable",
 	},
 	IncludeClasses = {},
-	Lightmodel = "Wet_Jungle_Day_Cloudy",
+	Lightmodel = false,
 	LuaRevision = 366685,
 	MaxObjRadius = 15895,
 	MaxSurfRadius2D = 14843,

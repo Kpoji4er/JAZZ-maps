@@ -21,7 +21,7 @@ DefineMapData{
 		"Interactable",
 	},
 	IncludeClasses = {},
-	Lightmodel = "Wet_Jungle_Day_Cloudy",
+	Lightmodel = false,
 	LuaRevision = 366685,
 	MainMenuCampaign = "HotDiamonds",
 	MainMenuRegion = "Coastal",

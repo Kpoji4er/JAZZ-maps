@@ -15,7 +15,7 @@ DefineMapData{
 	HeightMapMin = 4,
 	IgnoreClasses = {},
 	IncludeClasses = {},
-	Lightmodel = "Wet_Jungle_Day_Overcast",
+	Lightmodel = false,
 	LuaRevision = 366685,
 	MaxObjRadius = 16627,
 	MaxSurfRadius2D = 16247,

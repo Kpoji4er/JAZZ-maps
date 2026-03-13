@@ -31004,6 +31004,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
+								param_bindings = false,
 							}),
 						},
 						id = "Greeting",
@@ -31082,7 +31083,8 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
-									Text = T(701949042002, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost]] "С этим я могу вам помочь. Придем к вам на помощь если надо будет."),
+									Text = T(701949042002, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Нам нужна помощь у особняка]] "С этим я могу вам помочь. Придем к вам на помощь если надо будет."),
+									param_bindings = false,
 								}),
 							},
 							id = "2",
@@ -31103,6 +31105,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
+								param_bindings = false,
 							}),
 						},
 						id = "2",
@@ -31117,6 +31120,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
+									param_bindings = false,
 								}),
 							},
 							StoryBranchIcon = "conversation_friendly",
@@ -31130,6 +31134,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
+									param_bindings = false,
 								}),
 							},
 							id = "4",
@@ -31154,6 +31159,7 @@ return {
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "Rebel_NPC_Ghost",
+										param_bindings = false,
 									}),
 								},
 								id = "2",
@@ -31168,6 +31174,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
+									param_bindings = false,
 								}),
 							},
 							StoryBranchIcon = "conversation_sarcastic",
@@ -31182,6 +31189,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
+								param_bindings = false,
 							}),
 						},
 						id = "Goodbye",
