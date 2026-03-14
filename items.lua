@@ -30447,10 +30447,13 @@ return {
 					group = "Ernie",
 					id = "Ernie_LegionCamp5_Rebels",
 					PlaceObj('ConversationPhrase', {
+						AutoRemove = true,
 						Conditions = {
 							PlaceObj('QuestIsVariableBool', {
 								QuestId = "RescueTeam",
-								Vars = set( "NotStarted" ),
+								Vars = {
+									Given = false,
+								},
 								param_bindings = false,
 							}),
 						},
@@ -30459,27 +30462,19 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergant_Immortal",
-								Text = T(712802681829, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Greeting]] "Здравствуйте наёмники."),
+								Text = T(712802681829, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Greeting2]] "Здравствуйте наёмники."),
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergant_Immortal",
-								Text = T(424647158478, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Greeting]] "Я никогда не думал, что буду просить о помощи боевых псов капитала, но выходит что враг моего врага - мой друг. А выбирать нам не из чего, у меня тут куча раненых и изнуренных бойцов, у нас почти нет патронов, а оружие, что удалось унести, да это практически и не оружие уже..."),
+								Text = T(424647158478, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Greeting2]] "Я никогда не думал, что буду просить о помощи боевых псов капитала, но выходит что враг моего врага - мой друг. А выбирать нам не из чего, у меня тут куча раненых и изнуренных бойцов, у нас почти нет патронов, а оружие, что удалось унести, да это практически и не оружие уже..."),
 								param_bindings = false,
 							}),
 						},
-						id = "Greeting",
+						id = "Greeting2",
 						param_bindings = false,
 						PlaceObj('ConversationPhrase', {
-							Conditions = {
-								PlaceObj('QuestIsVariableBool', {
-									QuestId = "RescueTeam",
-									Vars = {
-										NotStarted = true,
-									},
-									param_bindings = false,
-								}),
-							},
+							AutoRemove = true,
 							Effects = {
 								PlaceObj('SectorsGrantIntel', {
 									param_bindings = false,
@@ -30493,45 +30488,28 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "RebelSergant_Immortal",
-									Text = T(766138274062, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Что тут случилось?]] "Приятно слышать, что вам не безразлично происходящее. Рассказывать всё с самого начала нет времени, но если коротко, то Легион расплодился и захватил всю страну, ячейки партизан раздроблены по стране, наша пыталась отбить остров, но нас выдавили с наших позиций и мы вынуждены ютиться тут, надеюсь у остальных дела идут получше. Вы наверное видели тела внизу. Нам практически нечем стрелять. У нас нет медикаментов, да даже еды уже практически нет."),
+									Text = T(648674597635, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Что тут случилось?]] "Приятно слышать, что вам не безразлично происходящее. Рассказывать всё с самого начала нет времени, но если коротко, то Легион расплодился и захватил всю страну, ячейки партизан раздроблены по стране, наша пыталась отбить остров, но нас выдавили с наших позиций и мы вынуждены ютиться тут, надеюсь у остальных дела идут получше. Вы наверное видели тела внизу. Нам практически нечем стрелять. У нас нет медикаментов, да даже еды уже практически нет."),
 									param_bindings = false,
 								}),
 							},
-							id = "What hepened",
+							id = "3",
 							param_bindings = false,
 						}),
 						PlaceObj('ConversationPhrase', {
-							Conditions = {
-								PlaceObj('QuestIsVariableBool', {
-									QuestId = "RescueTeam",
-									Vars = {
-										NotStarted = true,
-									},
-									param_bindings = false,
-								}),
-							},
+							AutoRemove = true,
 							Keyword = "Итак, какая помощь вам нужна",
 							KeywordT = T(680417461250, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Итак, какая помощь вам нужна"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "RebelSergant_Immortal",
-									Text = T(122539962745, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Итак, какая помощь вам нужна]] "Как я уже сказал, нам нужно оружие, патроны и медикаменты, если вы готовы зачистить Легионовских псов, то я даже дам вам огневую поддержку. Но для начала... Надо спасти нашего бойца, который ещё должен быть жив, он должен быть на пирсе. Эти собаки собираются казнить его, это один из наших бойцов, который прикрывал отход из второго лагеря. Пожалуйста спасите его."),
+									Text = T(776552884653, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Итак, какая помощь вам нужна]] "Как я уже сказал, нам нужно оружие, патроны и медикаменты, если вы готовы зачистить Легионовских псов, то я даже дам вам огневую поддержку. Но для начала... Надо спасти нашего бойца, который ещё должен быть жив, он должен быть на пирсе. Эти собаки собираются казнить его, это один из наших бойцов, который прикрывал отход из второго лагеря. Пожалуйста спасите его."),
 									param_bindings = false,
 								}),
 							},
-							id = "2",
+							id = "4",
 							param_bindings = false,
 							PlaceObj('ConversationPhrase', {
 								Align = "right",
-								Conditions = {
-									PlaceObj('QuestIsVariableBool', {
-										QuestId = "RescueTeam",
-										Vars = {
-											NotStarted = true,
-										},
-										param_bindings = false,
-									}),
-								},
 								Effects = {
 									PlaceObj('QuestSetVariableBool', {
 										Prop = "Given",
@@ -30548,40 +30526,32 @@ return {
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "RebelSergant_Immortal",
-										Text = T(924519361059, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Мы берёмся]] "Поспешите..."),
+										Text = T(171480171093, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Мы берёмся]] "Поспешите..."),
 										param_bindings = false,
 									}),
 								},
-								id = "Mission",
+								id = "2",
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationPhrase', {
 								Align = "right",
-								Conditions = {
-									PlaceObj('QuestIsVariableBool', {
-										QuestId = "RescueTeam",
-										Vars = {
-											NotStarted = true,
-										},
-										param_bindings = false,
-									}),
-								},
 								GoTo = "<end conversation>",
 								Keyword = "Не, сами крутитесь.",
 								KeywordT = T(546142027509, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Не, сами крутитесь."),
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "RebelSergant_Immortal",
-										Text = T(560698081650, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Не, сами крутитесь.]] "Жаль, тогда идите своей дорогой и не мешайтесь."),
+										Text = T(699467126707, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Не, сами крутитесь.]] "Жаль, тогда идите своей дорогой и не мешайтесь."),
 										param_bindings = false,
 									}),
 								},
-								id = "3",
+								id = "4",
 								param_bindings = false,
 							}),
 						}),
 					}),
 					PlaceObj('ConversationPhrase', {
+						AutoRemove = true,
 						CompleteQuests = {
 							"RescueTeam",
 						},
@@ -30592,8 +30562,10 @@ return {
 								param_bindings = false,
 							}),
 							PlaceObj('QuestIsVariableBool', {
-								QuestId = "RebelsSavior",
-								Vars = set( "NotStarted" ),
+								QuestId = "RescueTeam",
+								Vars = set({
+	Completed = false,
+}),
 								param_bindings = false,
 							}),
 						},
@@ -30602,22 +30574,15 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergant_Immortal",
-								Text = T(157083449193, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Greeting3]] "Спасибо, что спасли нашего товарища."),
+								Text = T(157083449193, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Greeting]] "Спасибо, что спасли нашего товарища."),
 								param_bindings = false,
 							}),
 						},
-						id = "Greeting3",
+						id = "Greeting",
 						param_bindings = false,
 						PlaceObj('ConversationPhrase', {
-							CompleteQuests = {
-								"RescueTeam",
-							},
-							Conditions = {
-								PlaceObj('QuestIsVariableBool', {
-									QuestId = "RescueTeam",
-									Vars = set( "Rescued" ),
-									param_bindings = false,
-								}),
+							GiveQuests = {
+								"RebelsSavior",
 							},
 							Keyword = "Всегда пожалуйста",
 							KeywordT = T(996024122128, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Всегда пожалуйста"),
@@ -30628,7 +30593,7 @@ return {
 									param_bindings = false,
 								}),
 							},
-							id = "2",
+							id = "3",
 							param_bindings = false,
 							PlaceObj('ConversationPhrase', {
 								Keyword = "Оружие?",
@@ -30640,10 +30605,10 @@ return {
 										param_bindings = false,
 									}),
 								},
-								id = "2",
+								id = "3",
 								param_bindings = false,
 								PlaceObj('ConversationPhrase', {
-									GiveQuests = {
+									CompleteQuests = {
 										"RebelsSavior",
 									},
 									GoTo = "<end conversation>",
@@ -30656,64 +30621,87 @@ return {
 											param_bindings = false,
 										}),
 									},
-									id = "2",
+									id = "3",
 									param_bindings = false,
 								}),
 							}),
 						}),
 					}),
 					PlaceObj('ConversationPhrase', {
-						Conditions = {
-							PlaceObj('QuestIsVariableBool', {
-								QuestId = "RebelsSavior",
-								Vars = set( "All_Found" ),
-								param_bindings = false,
-							}),
-						},
-						Keyword = "Мы счастливы?",
-						KeywordT = T(407342596203, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Мы счастливы?"),
+						Keyword = "Greeting",
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergant_Immortal",
-								Text = T(468486052663, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Мы счастливы?]] "Тут всё?"),
+								Text = T(712802681829, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Greeting3]] "Здравствуйте наёмники."),
 								param_bindings = false,
 							}),
 						},
-						id = "2",
+						id = "Greeting3",
 						param_bindings = false,
 						PlaceObj('ConversationPhrase', {
-							CompleteQuests = {
-								"RebelsSavior",
-							},
-							Effects = {
-								PlaceObj('QuestSetVariableBool', {
-									Prop = "Completed",
+							Conditions = {
+								PlaceObj('QuestIsVariableBool', {
 									QuestId = "RebelsSavior",
+									Vars = set( "Given" ),
 									param_bindings = false,
 								}),
-								PlaceObj('UnitTakeItem', {
+								PlaceObj('UnitSquadHasItem', {
 									Amount = 4,
 									ItemId = "ZastavaM76",
 									param_bindings = false,
 								}),
-								PlaceObj('UnitTakeItem', {
+								PlaceObj('UnitSquadHasItem', {
 									Amount = 4,
 									ItemId = "Medkit",
 									param_bindings = false,
 								}),
 							},
-							GoTo = "<end conversation>",
-							Keyword = "Да мы счастливы",
-							KeywordT = T(403161852547, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Да мы счастливы"),
+							Keyword = "Тут всё?",
+							KeywordT = T(467521947075, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Тут всё?"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "RebelSergant_Immortal",
-									Text = T(480799336285, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Да мы счастливы]] "Вы очень сильно помогли нам, спасибо наемники, у нас тут затесался ваш колега по опасному бизнессу, такой же солдат удачи, думаю он с радостью пойдёт с вами, по началу бредил про какую-то несуществующую страну, под названием Арулько, но вроде отпустило. Он вроде как потерял память, но боевые навыки точно не растерял. Вон он стоит у палаток."),
+									Text = T(468486052663, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Тут всё?]] "Мы счастливы?"),
 									param_bindings = false,
 								}),
 							},
-							id = "2",
+							id = "3",
 							param_bindings = false,
+							PlaceObj('ConversationPhrase', {
+								CompleteQuests = {
+									"RebelsSavior",
+								},
+								Effects = {
+									PlaceObj('QuestSetVariableBool', {
+										Prop = "Completed",
+										QuestId = "RebelsSavior",
+										param_bindings = false,
+									}),
+									PlaceObj('UnitTakeItem', {
+										Amount = 4,
+										ItemId = "ZastavaM76",
+										param_bindings = false,
+									}),
+									PlaceObj('UnitTakeItem', {
+										Amount = 4,
+										ItemId = "Medkit",
+										param_bindings = false,
+									}),
+								},
+								GoTo = "<end conversation>",
+								Keyword = "Да мы счастливы",
+								KeywordT = T(403161852547, --[[ModItemConversation Ernie_LegionCamp5_Rebels KeywordT]] "Да мы счастливы"),
+								Lines = {
+									PlaceObj('ConversationLine', {
+										Character = "RebelSergant_Immortal",
+										Text = T(480799336285, --[[ModItemConversation Ernie_LegionCamp5_Rebels Text voice:RebelSergant_Immortal section:Ernie_LegionCamp5_Rebels keyword:Да мы счастливы]] "Вы очень сильно помогли нам, спасибо наемники, у нас тут затесался ваш колега по опасному бизнессу, такой же солдат удачи, думаю он с радостью пойдёт с вами, по началу бредил про какую-то несуществующую страну, под названием Арулько, но вроде отпустило. Он вроде как потерял память, но боевые навыки точно не растерял. Вон он стоит у палаток."),
+										param_bindings = false,
+									}),
+								},
+								id = "3",
+								param_bindings = false,
+							}),
 						}),
 					}),
 				}),
