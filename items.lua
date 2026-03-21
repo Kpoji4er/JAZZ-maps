@@ -30992,6 +30992,12 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
+								Text = T(376303174155, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Greeting]] "Ха... вот это бойня. Рад, что мы на одной стороне."),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "Rebel_NPC_Ghost",
+								Text = T(376303174155, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Greeting]] "Меня зовут Дьяло, но люди обычно называют меня Призрак"),
 								param_bindings = false,
 							}),
 						},
@@ -31093,6 +31099,12 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
+								Text = T(951978840332, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Что вы делаете тут?]] "Считал, сколько человек Легион еще потеряет, прежде чем догадается, что в джунглях их кто-то очень сильно не любит.\nЯ хотел перехватить этот отряд, но вы успели перебить основную часть. Хорошая работа"),
+								param_bindings = false,
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "Rebel_NPC_Ghost",
+								Text = T(951978840332, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Что вы делаете тут?]] "Судя по тому, как вы справились с ними, вы можете мне помочь.\nНедалеко отсюда, к северу от <em>Водопада</em>, есть <em>Смотровая площадка</em> - одно из немногих мест, где Легион выгружает припасы для снабжения острова. Если мы вместе её атакуем, то сможем нарушить логистику в этой части острова."),
 								param_bindings = false,
 							}),
 						},
@@ -31108,6 +31120,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
+									Text = T(413213220957, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Мы согласны]] "Хорошо, значит встретимся после боя"),
 									param_bindings = false,
 								}),
 							},
@@ -31122,6 +31135,12 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
+									Text = T(722088424749, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Водопад?]] "Да, дальше по дороге находится <em>водопад</em>. Мы его обойдем и будем вас ждать на <em>Смотровой Площадке</em>"),
+									param_bindings = false,
+								}),
+								PlaceObj('ConversationLine', {
+									Character = "Rebel_NPC_Ghost",
+									Text = T(722088424749, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Водопад?]] "У <em>Водопада</em> вдоль реки находится небольшой отряд легиона - пытаются отрезать отряд Бурды. Но Легион не знает, что вдоль гор есть несколько тайных троп."),
 									param_bindings = false,
 								}),
 							},
@@ -31147,6 +31166,7 @@ return {
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "Rebel_NPC_Ghost",
+										Text = T(840900289394, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Тропы?]] "Если бы я рассказал - они перестали бы быть тайными."),
 										param_bindings = false,
 									}),
 								},
@@ -31162,6 +31182,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
+									Text = T(971175592490, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Мы как-нибудь сами справимся]] "Жаль. Ну, увидимся в лагере, если вы до туда дойдете"),
 									param_bindings = false,
 								}),
 							},
@@ -31177,6 +31198,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
+								Text = T(566114041551, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Goodbye]] "Удачи, наемники"),
 								param_bindings = false,
 							}),
 						},
@@ -32526,6 +32548,18 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "B26",
+					'Label1', "Blocked",
+					'Side', "neutral",
+					'StickySide', true,
+					'TerrainType', "Highlands",
+					'Passability', "Blocked",
+					'Intel', false,
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Cursed_Conflict",
+					'MusicExploration', "Cursed_Exploration",
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "B26",
 					'MapTier', 30,
 					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B26]] "River"),
 					'Side', "neutral",
@@ -32534,18 +32568,6 @@ return {
 					'Passability', "Water",
 					'Intel', false,
 					'image', "UI/SatelliteView/SectorImages/_River",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "B26",
-					'Label1', "Blocked",
-					'Side', "neutral",
-					'StickySide', true,
-					'TerrainType', "Highlands",
-					'Passability', "Blocked",
-					'Intel', false,
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
