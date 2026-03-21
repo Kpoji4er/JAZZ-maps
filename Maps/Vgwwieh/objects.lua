@@ -3354,15 +3354,14 @@ PlaceObj('IntelMarker', {
 	'IntelAreaText', T(126451760131, "Башня"),
 }, nil, 1656714725)
 PlaceObj('GridMarker', {
-	'Pos', point(192600, 119400, 32900),
-	'Groups', {
-		"AL_Defender",
-	},
+	'Pos', point(191400, 121800, 32900),
 	'AllowedMask', 4294966497,
-	'Type', "Defender",
-	'AreaWidth', 3,
-	'AreaHeight', 3,
-}, nil, 1538060897)
+	'Type', "DefenderPriority",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+	'Routine', "AdvanceTo",
+	'ArchetypesTriState', set( "Medic", "Soldier" ),
+}, nil, 1538790190)
 PlaceObj('GridMarker', {
 	'Pos', point(191400, 123000, 32900),
 	'Groups', {
@@ -3430,7 +3429,8 @@ PlaceObj('GridMarker', {
 	'Type', "DefenderPriority",
 	'AreaWidth', 14,
 	'AreaHeight', 2,
-	'Routine', "Patrol",
+	'Routine', "AdvanceTo",
+	'ArchetypesTriState', set( "Soldier" ),
 }, nil, 1615544069)
 PlaceObj('SalvageMarker', {
 	'Pos', point(205800, 120600, 32900),
@@ -3463,6 +3463,7 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 6,
 	'AreaHeight', 6,
 	'Routine', "Patrol",
+	'ArchetypesTriState', set( "Soldier" ),
 }, nil, 1531547648)
 PlaceObj('ContainerMarker', {
 	'Pos', point(229800, 118200),
@@ -3522,24 +3523,30 @@ PlaceObj('HerbMarker', {
 	'AllowedMask', 4294966497,
 }, nil, 1847736067)
 PlaceObj('GridMarker', {
-	'Pos', point(168600, 139800, 26600),
-	'Groups', {
-		"AL_Defender",
-	},
+	'Pos', point(165000, 142200, 26600),
 	'AllowedMask', 4294966497,
-	'Type', "Defender",
-	'AreaWidth', 3,
-	'AreaHeight', 3,
-}, nil, 1884023313)
+	'Type', "DefenderPriority",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+	'ArchetypesTriState', set( "Heavy", "Soldier" ),
+}, nil, 1411158672)
 PlaceObj('GridMarker', {
-	'Pos', point(169800, 143400, 25900),
+	'Pos', point(169800, 143400, 26600),
 	'AllowedMask', 4294966497,
 	'Type', "DefenderPriority",
 	'AreaWidth', 6,
 	'AreaHeight', 6,
 	'Routine', "Patrol",
-	'ArchetypesTriState', set( "Medic" ),
+	'ArchetypesTriState', set( "Heavy", "Recon", "Soldier" ),
 }, nil, 1654466720)
+PlaceObj('GridMarker', {
+	'Pos', point(173400, 136200, 26600),
+	'AllowedMask', 4294966497,
+	'Type', "DefenderPriority",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+	'ArchetypesTriState', set( "Demolitions", "Heavy" ),
+}, nil, 1360902982)
 PlaceObj('GridMarker', {
 	'Pos', point(179400, 131400, 26600),
 	'Groups', {
@@ -3558,15 +3565,13 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 12,
 }, nil, 1547155181)
 PlaceObj('GridMarker', {
-	'Pos', point(177000, 143400, 26600),
-	'Groups', {
-		"AL_Defender",
-	},
+	'Pos', point(175800, 145800, 26600),
 	'AllowedMask', 4294966497,
-	'Type', "Defender",
-	'AreaWidth', 3,
-	'AreaHeight', 3,
-}, nil, 1604074931)
+	'Type', "DefenderPriority",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+	'ArchetypesTriState', set( "Heavy", "Soldier" ),
+}, nil, 1305852939)
 PlaceObj('GridMarker', {
 	'Pos', point(168600, 161400, 16100),
 	'AllowedMask', 4294966497,
@@ -3586,26 +3591,21 @@ PlaceObj('OverheardMarker', {
 }, nil, 1129662916)
 PlaceObj('GridMarker', {
 	'Pos', point(190200, 132600, 33600),
-	'Groups', {
-		"AL_Defender",
-	},
 	'AllowedMask', 4294966497,
 	'Type', "DefenderPriority",
 	'AreaWidth', 4,
 	'AreaHeight', 2,
-	'ArchetypesTriState', set( "Marksman" ),
-}, nil, 1888534341)
+	'ArchetypesTriState', set( "Heavy", "Soldier" ),
+}, nil, 1556209982)
 PlaceObj('GridMarker', {
 	'Pos', point(190200, 145800, 32900),
-	'Groups', {
-		"AL_Defender",
-	},
 	'AllowedMask', 4294966497,
 	'Type', "DefenderPriority",
 	'AreaWidth', 3,
 	'AreaHeight', 3,
-	'ArchetypesTriState', set( "Marksman" ),
-}, nil, 1852000006)
+	'Routine', "AdvanceTo",
+	'ArchetypesTriState', set( "Marksman", "Recon" ),
+}, nil, 1437644972)
 PlaceObj('IntelMarker', {
 	'Pos', point(190200, 147000, 32900),
 	'AllowedMask', 4294966497,
@@ -3651,14 +3651,6 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 12,
 	'AreaHeight', 12,
 }, nil, 1601238615)
-PlaceObj('GridMarker', {
-	'Pos', point(221400, 147000, 18200),
-	'AllowedMask', 4294966497,
-	'Type', "DefenderPriority",
-	'AreaWidth', 6,
-	'AreaHeight', 6,
-	'Routine', "Patrol",
-}, nil, 1770881746)
 PlaceObj('IntelMarker', {
 	'Pos', point(223800, 147000, 18200),
 	'AllowedMask', 4294966497,
@@ -3675,6 +3667,14 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 6,
 	'Routine', "Patrol",
 }, nil, 1281041934)
+PlaceObj('GridMarker', {
+	'Pos', point(219000, 149400, 18200),
+	'AllowedMask', 4294966497,
+	'Type', "DefenderPriority",
+	'AreaWidth', 6,
+	'AreaHeight', 6,
+	'Routine', "Patrol",
+}, nil, 1770881746)
 PlaceObj('GridMarker', {
 	'Pos', point(214200, 162600, 18200),
 	'AllowedMask', 4294966497,
@@ -15361,7 +15361,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1530355622)
 PlaceObj('MetalScaff_Side_09', {
 	'ColorizationPalette', "",
@@ -15743,7 +15746,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1594622495)
 PlaceObj('FloorSlab', {
 	'Pos', point(162600, 100200, 19600),
@@ -16220,7 +16226,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1679770944)
 PlaceObj('FloorSlab', {
 	'Pos', point(163800, 102600, 22400),
@@ -19702,7 +19711,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1746786098)
 PlaceObj('TropicalPlant_Ivy_V_01', {
 	'Pos', point(157388, 117239, 21124),
@@ -19799,7 +19811,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1206483336)
 PlaceObj('WallSlab', {
 	'Pos', point(158400, 115800, 27300),
@@ -20198,7 +20213,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1362096921)
 PlaceObj('FloorSlab', {
 	'Pos', point(157800, 117000, 31500),
@@ -20525,7 +20543,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1194620728)
 PlaceObj('FloorSlab', {
 	'Pos', point(160200, 117000, 31500),
@@ -21530,7 +21551,11 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
+	'lockpickDifficulty', "Impossible",
 }, nil, 1096504343)
 PlaceObj('MilitaryCamp_WireFence', {
 	'ColorizationPalette', "",
@@ -21541,7 +21566,11 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
+	'lockpickDifficulty', "Impossible",
 }, nil, 1897743065)
 PlaceObj('WW2_SandBag_05', {
 	'ColorizationPalette', "",
@@ -21600,7 +21629,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1454648350)
 PlaceObj('Cinematic_Magazine', {
 	'Pos', point(164740, 105963, 28021),
@@ -22198,7 +22230,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1559411160)
 PlaceObj('FloorSlab', {
 	'Pos', point(167400, 105000, 27300),
@@ -26270,7 +26305,10 @@ PlaceObj('MilitaryCamp_WireFence_02', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1034784348)
 PlaceObj('MilitaryCamp_Pallete_01', {
 	'Pos', point(175327, 106231, 27187),
@@ -26290,7 +26328,11 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
+	'lockpickDifficulty', "Impossible",
 }, nil, 1315693799)
 PlaceObj('MilitaryCamp_Pallete_01', {
 	'Pos', point(176572, 105515, 27123),
@@ -26395,7 +26437,11 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
+	'lockpickDifficulty', "Impossible",
 }, nil, 1219953530)
 PlaceObj('MetalScaff_Side_09', {
 	'ColorizationPalette', "",
@@ -29074,7 +29120,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1388484955)
 PlaceObj('TropicalFillerPlants_08', {
 	'Pos', point(181046, 103831, 23582),
@@ -29144,7 +29193,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1507936483)
 PlaceObj('FloorSlab', {
 	'Pos', point(184200, 103800, 26600),
@@ -29287,7 +29339,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1202576569)
 PlaceObj('FloorSlab', {
 	'Pos', point(185400, 103800, 28700),
@@ -29625,7 +29680,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1128625556)
 PlaceObj('FloorSlab', {
 	'Pos', point(189000, 103800, 25200),
@@ -29720,7 +29778,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1875843058)
 PlaceObj('FloorSlab', {
 	'Pos', point(191400, 105000, 28000),
@@ -29747,7 +29808,10 @@ PlaceObj('MilitaryCamp_WireFence_02', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1040874478)
 PlaceObj('MilitaryCamp_WireFence', {
 	'ColorizationPalette', "",
@@ -29758,7 +29822,11 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
+	'lockpickDifficulty', "Impossible",
 }, nil, 1214610622)
 PlaceObj('MetalScaff_Pillar_01', {
 	'ColorizationPalette', "",
@@ -29793,7 +29861,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1828281108)
 PlaceObj('MilitaryCamp_WireFence', {
 	'ColorizationPalette', "",
@@ -29804,7 +29875,11 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
+	'lockpickDifficulty', "Impossible",
 }, nil, 1506377870)
 PlaceObj('WW2_SandBag_04', {
 	'ColorizationPalette', "",
@@ -34058,7 +34133,11 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
+	'lockpickDifficulty', "Impossible",
 }, nil, 1689810912)
 PlaceObj('WW2_SandBag_04', {
 	'ColorizationPalette', "",
@@ -34090,7 +34169,11 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
+	'lockpickDifficulty', "Impossible",
 }, nil, 1214138937)
 PlaceObj('WW2_SandBag_03', {
 	'ColorizationPalette', "",
@@ -34125,7 +34208,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1684908790)
 PlaceObj('WW2_SandBag_01', {
 	'ColorizationPalette', "",
@@ -34160,7 +34246,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1610896119)
 PlaceObj('TropicalFillerPlants_03', {
 	'Pos', point(198462, 97459, 26616),
@@ -34179,7 +34268,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1412743629)
 PlaceObj('WW2_SandBag_03', {
 	'ColorizationPalette', "",
@@ -34236,7 +34328,11 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
+	'lockpickDifficulty', "Impossible",
 }, nil, 1806514696)
 PlaceObj('MilitaryCamp_WireFence', {
 	'ColorizationPalette', "",
@@ -34247,7 +34343,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1359703451)
 PlaceObj('TropicalPlant_06_Tree_02', {
 	'Pos', point(204178, 91493, 24598),
@@ -34266,7 +34365,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1580055357)
 PlaceObj('TropicalFillerPlants_06', {
 	'Pos', point(202559, 96924, 26549),
@@ -34419,7 +34521,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1722913410)
 PlaceObj('Scaffolding_Planks_02', {
 	'Pos', point(205895, 93581, 27376),
@@ -44538,7 +44643,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1716283517)
 PlaceObj('Shanty_PlasticChair_01', {
 	'ColorizationPalette', "",
@@ -44735,7 +44843,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1416420539)
 PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Pos', point(239837, 129133, 28740),
@@ -44776,7 +44887,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1891855133)
 PlaceObj('Shanty_PlasticChair_02', {
 	'ColorizationPalette', "",
@@ -44797,7 +44911,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1777202462)
 PlaceObj('JungleCamp_Lantern_01', {
 	'ColorizationPalette', "",
@@ -44821,7 +44938,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1730619069)
 PlaceObj('WW2_SandBag_04', {
 	'ColorizationPalette', "",
@@ -47802,7 +47922,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1337711931)
 PlaceObj('MilitaryCamp_Pallete_01', {
 	'Pos', point(165154, 148299, 27240),
@@ -47865,7 +47988,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1064060308)
 PlaceObj('MilitaryCamp_Pallete_01', {
 	'Pos', point(166276, 148539, 27240),
@@ -47981,7 +48107,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1207686018)
 PlaceObj('MetalScaff_Side_09', {
 	'ColorizationPalette', "",
@@ -48119,7 +48248,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1099888863)
 PlaceObj('TropicalFillerPlants_08', {
 	'Pos', point(171666, 148628, 25826),
@@ -48184,7 +48316,10 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'ColorModifier', RGBA(82, 78, 78, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 782,
+	'ApplyToGrids', false,
+	'Collision', false,
+	'AllowedMask', 0,
+	'lockpickStateMap', "cut",
 }, nil, 1478971819)
 PlaceObj('FloorSlab', {
 	'Pos', point(174600, 149400, 23800),
@@ -56546,6 +56681,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2280,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1271839926)
 PlaceObj('MetalScaff_Side_04', {
 	'ColorizationPalette', "",
@@ -57092,6 +57228,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2280,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1685780974)
 PlaceObj('Shanty_WallDecorTin_04', {
 	'ColorizationPalette', "",
@@ -57185,6 +57322,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2280,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1833270109)
 PlaceObj('FloorSlab', {
 	'Pos', point(211800, 160200, 23100),
@@ -68315,6 +68453,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2280,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1507434096)
 PlaceObj('MilitaryCamp_WireFence', {
 	'ColorizationPalette', "",
@@ -68326,6 +68465,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2280,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1446800140)
 PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Pos', point(210706, 178897),
@@ -68511,6 +68651,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2280,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1550627483)
 PlaceObj('WW2_SandBag_07', {
 	'ColorizationPalette', "",
@@ -68576,6 +68717,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2280,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1850193299)
 PlaceObj('Flies_Big', {
 	'Pos', point(211823, 181285, 18199),
@@ -68776,6 +68918,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2280,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1363805788)
 PlaceObj('MilitaryCamp_WireFence', {
 	'ColorizationPalette', "",
@@ -68787,6 +68930,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2280,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1399660172)
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(213457, 164172),
@@ -71113,6 +71257,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2280,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1119499298)
 PlaceObj('MetalScaff_Side_04', {
 	'ColorizationPalette', "",
@@ -71513,6 +71658,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2280,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1145624987)
 PlaceObj('WW2_SandBag_07', {
 	'ColorizationPalette', "",
@@ -71561,6 +71707,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2280,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1862575671)
 PlaceObj('Shanty_CardboardBox_01', {
 	'ColorizationPalette', "",
@@ -71761,6 +71908,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2280,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1666914553)
 PlaceObj('MilitaryCamp_WireFence', {
 	'ColorizationPalette', "",
@@ -71772,6 +71920,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2280,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1632058216)
 PlaceObj('HangarSmall_Roof_03', {
 	'ColorizationPalette', "",
@@ -71944,6 +72093,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2280,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1570621591)
 PlaceObj('MilitaryCamp_WireFence', {
 	'ColorizationPalette', "",
@@ -71955,6 +72105,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2280,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1097440338)
 PlaceObj('CameraCollider', {
 	'Pos', point(230147, 132488, 25936),
@@ -81090,6 +81241,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3528,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1615847150)
 PlaceObj('TreeAttach_Crawn_02', {
 	'Pos', point(241384, 158010, 23241),
@@ -81761,6 +81913,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3528,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1420744153)
 PlaceObj('MilitaryCamp_WireFence', {
 	'ColorizationPalette', "",
@@ -81771,6 +81924,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3528,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1216233894)
 PlaceObj('MilitaryCamp_WireFence', {
 	'ColorizationPalette', "",
@@ -81781,6 +81935,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3528,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1190212729)
 PlaceObj('MilitaryCamp_WireFence', {
 	'ColorizationPalette', "",
@@ -81791,6 +81946,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3528,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1410145144)
 PlaceObj('JungleCamp_Flashlight_01', {
 	'Pos', point(231556, 175347, 18597),
@@ -81963,6 +82119,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3528,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1635997167)
 PlaceObj('Flies', {
 	'Pos', point(234311, 180044, 18309),
@@ -81985,6 +82142,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3528,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1064352062)
 PlaceObj('MilitaryCamp_WireFence', {
 	'ColorizationPalette', "",
@@ -81995,6 +82153,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3528,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1395072236)
 PlaceObj('TropicalFillerPlants_08', {
 	'Pos', point(244622, 170427, 18260),
@@ -82353,6 +82512,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2280,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1153144653)
 PlaceObj('MilitaryCamp_WireFence', {
 	'ColorizationPalette', "",
@@ -82375,6 +82535,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3528,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1110028838)
 PlaceObj('MilitaryCamp_WireFence', {
 	'ColorizationPalette', "",
@@ -82385,6 +82546,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3528,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Medium",
 }, nil, 1727667172)
 PlaceObj('TropicalPlant_02_Tree_01', {
 	'Pos', point(236743, 184214, 18200),
@@ -82416,6 +82578,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2280,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1206297065)
 PlaceObj('MilitaryCamp_WireFence', {
 	'ColorizationPalette', "",
@@ -82426,6 +82589,7 @@ PlaceObj('MilitaryCamp_WireFence', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3528,
 	'AllowedMask', 4294967279,
+	'lockpickDifficulty', "Impossible",
 }, nil, 1429112763)
 PlaceObj('TropicalFillerPlants_03', {
 	'Pos', point(229519, 195755),
@@ -112194,11 +112358,11 @@ p("DecBunkerFloor_02",160200,105500,27300,10275,312,-2888,2888,2496,2097425)
 p("WW2_ConcreteCliffWallx3_01",159872,106220,30812,7198,4281610288,2364,-2364,2365,3515,"terrainchunk",10,0,0,84,100,10,40,60,2228505)
 p("Bunker_Cable_Hor_02",160200,106200,27300,5400,3574,2097409)
 p("DecBunker_ConcretePile_03",160019,106252,31440,14336,4280229149,3470,2097417)
-p("12Gauge_Ammo",161259,105902,28023,17416,7,1587,2097537)
-p("stoeger_outback",161131,106042,28040,15990,3854,-979,979,7,1587,2097553)
-p("12Gauge_Ammo",161205,106233,28023,1796,7,1587,2097537)
-p("UziMag30",161050,106445,28036,14772,4279900441,55,2670,-2196,2196,3145753)
-p("12Gauge_Ammo",161254,106342,28023,5954,7,1587,2097537)
+p("12Gauge_Ammo",161259,105902,28023,17416,1587,2097409)
+p("stoeger_outback",161131,106042,28040,15990,3854,-979,979,1587,2097425)
+p("12Gauge_Ammo",161205,106233,28023,1796,1587,2097409)
+p("UziMag30",161050,106445,28036,14772,4279900441,55,2670,-2196,2196,7,3145881)
+p("12Gauge_Ammo",161254,106342,28023,5954,1587,2097409)
 p("TropicalPlant_Moss_04",161302,105553,27226,1)
 p("DecBunkerFloor_02",161400,105500,29400,14305,-2290,-2401,2401,2496,2097425)
 p("DecBunkerFloor_02",161400,105700,28000,10891,-54,-2896,2896,1173,2097425)
@@ -112365,15 +112529,15 @@ p("TropicalPlant_Vines_09",159675,114039,31446,16171,3470,2097409)
 p("DecJungleForest_02",159403,114618,31500,1)
 p("TropicalPlant_Moss_04",160644,107318,31431,1033,257)
 p("DecConcreteShuttering_01",160640,107573,27302,10800,96,4280887079,2886,2907,0,2097181)
-p("UziMag30",161223,106577,28036,13645,4279900441,55,1798,-2602,2602,1,3145881)
-p("UziFull",161059,106830,28056,13675,4280427042,45,1819,-2595,2595,3145753)
+p("UziMag30",161223,106577,28036,13645,4279900441,55,1798,-2602,2602,6,3145881)
+p("UziFull",161059,106830,28056,13675,4280427042,45,1819,-2595,2595,7,3145881)
 p("TropicalPlant_Vines_10",161203,107012,31473,4520,3470,2097409)
 p("BunkerInterior_AirPipes_04",161400,106600,27235,10800,2863,2097409)
-p("UziSilencer",161298,106834,28050,15402,4280624164,39,3145737)
-p("UziMag30",161572,106555,28042,14378,4279900441,55,2347,-2373,2373,1,3145881)
-p("UziMag30",161572,106615,28042,14378,4279900441,55,2347,-2373,2373,1,3145881)
-p("UziMag30",161548,106639,28065,12314,4279900441,55,916,-2823,2823,1,3145881)
-p("UziMag30",161567,106679,28042,14378,4279900441,55,2347,-2373,2373,1,3145881)
+p("UziSilencer",161298,106834,28050,15402,4280624164,39,7,3145865)
+p("UziMag30",161572,106555,28042,14378,4279900441,55,2347,-2373,2373,6,3145881)
+p("UziMag30",161572,106615,28042,14378,4279900441,55,2347,-2373,2373,6,3145881)
+p("UziMag30",161548,106639,28065,12314,4279900441,55,916,-2823,2823,6,3145881)
+p("UziMag30",161567,106679,28042,14378,4279900441,55,2347,-2373,2373,6,3145881)
 p("DecBunkerFloor_02",161400,107400,27300,11051,183,4279374097,1597,2097421)
 p("DecWallDirt_03",161483,107402,27296,71,5)
 p("TropicalPlant_Vines_11",160988,107920,32888,2323,3470,2097409)
@@ -112400,7 +112564,7 @@ p("TropicalPlant_Vines_09",162411,108217,32888,10558,2239,2097409)
 p("DecBunker_ConcretePile_05",162769,108040,27300,50,4280755236,13)
 p("Shop_Shelf_02",162605,108436,27279,108,2149260059,2151365694,2148406052,"",1073748485)
 p("DecJungleForest_01",162978,106708,31500,1)
-p("TT33f",162850,106817,28002,8753,4281347630,-1256,-2757,2757,2097177)
+p("TT33f",162850,106817,28002,8753,4281347630,-1256,-2757,2757,7,2097305)
 p("WW2_ConcreteCliffWallx3_01",163581,108045,32169,16201,116,4281610288,0,4095,0,1,1329,"terrainchunk",10,0,0,84,100,10,40,60,2228573)
 p("TropicalPlant_Vines_09",163531,108396,32888,7538,3470,2097409)
 p("DecBunkerFloor_02",162100,108600,29400,5753,-1248,-3696,1248,2144,2097425)
@@ -112439,14 +112603,14 @@ p("DecConcreteShuttering_01",162065,114011,30146,10799,102,4280887079,-2887,-290
 p("WW2_ConcreteCliffWallx3_01",162119,114083,30634,5400,4281610288,1329,"terrainchunk",10,0,0,84,100,10,40,60,2228489)
 p("DecConcreteShuttering_01",161906,114367,29209,10784,74,4280887079,-2896,-9,2896,2097181)
 p("DecConcreteShuttering_01",162082,114367,29209,10784,74,4280887079,-2896,-9,2896,2097181)
-p("Garand",162293,114207,27658,9199,2458,-1654,2827,1,3789,2097553)
+p("Garand",162293,114207,27658,9199,2458,-1654,2827,6,3789,2097553)
 p("DecBunkerFloor_02",162100,114600,29400,5872,-1420,-3569,1420,1778,2097425)
 p("TropicalPlant_Vines_09",162540,113708,32888,21510,3470,2097409)
-p("Garand",162372,114378,27658,7633,1904,-2595,2532,1,3789,2097553)
+p("Garand",162372,114378,27658,7633,1904,-2595,2532,6,3789,2097553)
 p("DecBunkerFloor_02",163800,112700,29400,11742,-564,-2869,2869,3221,2097425)
 p("DecBunkerFloor_02",163800,112900,27300,5400,4095,-38,38,1778,2097425)
 p("DecBunkerFloor_02",163800,112900,29400,5806,3638,-1330,1330,1778,2097425)
-p("Garand",162835,114229,27658,11515,2880,-332,2893,3789,2097425)
+p("Garand",162835,114229,27658,11515,2880,-332,2893,7,3789,2097553)
 p("TropicalRockAssembly_01",148208,118464,17391,4890,165,-835,509,3978,"terrainchunk",10,0,0,0,100,10,40,60,2228245)
 p("TropicalPlant_04_Shrub_01",149775,115226,20657,4577,111,-2040,-80,3550,1024,2097237)
 p("TropicalPlant_04_Shrub_01",149415,119672,17030,17312,111,762,831,3938,2097173)
@@ -113724,18 +113888,21 @@ p("DecWallLeak_03",187179,114390,30569,5403,180,0,4096,0,2097173)
 p("DecWallLeak_03",187202,114371,33253,16198,150,0,-4096,0,2097173)
 p("TropicalRockAssembly_01",189563,100214,20923,9683,179,18,-1235,3905,"terrainchunk",10,0,0,20,65,20,40,60,2228245)
 p("DecWallLeak_01",188445,101629,23676,16200,211,-9,-4095,9,2097173)
+p("TropicalRockAssembly_03",188996,102243,21957,6403,199,819,-1090,3863,"terrainchunk",10,0,0,40,78,10,40,60,2228245)
 p("TropicalPlant_Grass_02",189441,102000,20250,10234,170,2097157)
 p("TropicalPlant_Grass_03",190616,98966,20374,10517,120,2097157)
 p("TropicalPlant_Grass_03",191858,99209,20374,5801,120,2097157)
 p("TropicalPlant_Grass_03",191237,100899,20374,21206,120,2097157)
 p("TropicalPlant_04_Shrub_01",190903,101824,20054,-3697,1763,0,2097168)
 p("BrokenOff_Concrete_10",188463,104179,25237,10933,66,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
+p("TropicalRockAssembly_03",189027,103497,22267,10619,250,"terrainchunk",10,0,0,40,78,10,40,60,2228229)
 p("WW2_ConcreteCliffWallx3_01",189750,103828,22608,16200,120,4281610288,"terrainchunk",10,0,0,69,100,24,40,60,15,42,10616845)
 p("Floor_MetalScaff_ParapetEnd_02",189080,104525,27963,11132,62,-67,-1976,3587,2147749413,2147749413,"",1075841557)
 p("BrokenOff_Concrete_10",189396,104477,25237,16351,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("DecWallLeak_01",189601,106177,26782,14391,157,-2368,-2358,2368,2097173)
 p("TropicalRockAssembly_01",190597,102555,22368,4636,202,567,-1016,3927,"terrainchunk",10,0,0,20,65,20,40,60,2228245)
 p("DecWallLeak_01",190650,103108,22946,14399,158,-2365,-2365,2365,2097173)
+p("TropicalRockAssembly_04",191000,103000,22144,19180,214,-3489,-53,2145,"terrainchunk",10,0,0,14,50,20,40,60,2228245)
 p("DecWallLeak_01",190650,104420,25696,14399,158,-2365,-2365,2365,2097173)
 p("BrokenOff_Concrete_10",190638,104477,25237,16351,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("WW2_ConcreteCliffWallx4_01",191442,105017,25129,16200,4281610288,"terrainchunk",10,0,0,69,100,24,40,60,15,42,10616841)
@@ -114261,7 +114428,7 @@ p("Floor_MetalScaff_Edge_01",195447,126911,31831,16200,3691,2147749413,214774941
 p("Floor_MetalScaff_Edge_01",195447,126911,32075,16200,3691,2147749413,2147749413,"",1075841793)
 p("DecWallLeak_01",195684,125945,28272,14401,109,4281539088,2364,2365,2364,2097181)
 p("Floor_MetalScaff_Parapet_01",196200,125400,32968,5400,2147749413,2147749413,"",1075841537)
-p("Garand",195874,126854,27310,13062,-1398,2722,2722,7,3058,2097553)
+p("Garand",195874,126854,27310,13062,-1398,2722,2722,3058,2097425)
 p("DecWallRust_01",196275,126005,31767,7199,153,4282332469,-2365,2365,2365,2097181)
 p("BrokenOff_Concrete_08",193019,127600,26596,21160,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("DecBunker_ConcretePile_03",193388,128460,0)
@@ -115015,8 +115182,8 @@ p("Floor_MetalScaff_Edge_01",199689,126911,32075,16200,1214,2147749413,214774941
 p("Floor_MetalScaff_ParapetEnd_01",199926,126850,31998,10800,90,2896,-2896,0,1214,2147749413,2147749413,"",1075841813)
 p("Floor_MetalScaff_ParapetEnd_01",200689,126854,31482,16200,90,1214,2147749413,2147749413,"",1075841797)
 p("Shanty_Carpet_02",198669,127937,26630,21475,64,4282458658,3153,2097421)
-p("stoeger_outback",198885,128485,27111,5866,3576,1412,1411,7,3153,2097553)
-p("stoeger_outback",200191,127174,27027,15940,-4020,642,444,7,3153,2097553)
+p("stoeger_outback",198885,128485,27111,5866,3576,1412,1411,3153,2097425)
+p("stoeger_outback",200191,127174,27027,15940,-4020,642,444,3153,2097425)
 p("BrokenOff_Concrete_04",199654,130794,26614,5487,110,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
 p("BunkerInterior_AirPipes_02",201000,123000,32900,16200,2097153)
 p("Bunker_Cable_Hor_02",201000,123000,32900,16200,1430,2097409)
@@ -116177,10 +116344,10 @@ p("TropicalRockAssembly_04",230711,116381,28700,5338,"terrainchunk",10,0,0,75,10
 p("WW2_ConcreteCliffTop",229800,117000,28000,5400,4281610288,"terrainchunk",10,0,0,84,100,10,40,60,2228233)
 p("TropicalRockAssembly_01",232580,115855,28700,17373,141,"terrainchunk",10,0,0,75,100,20,40,60,2228229)
 p("DecBunker_ConcretePile_02",232609,118417,0)
-p("12Gauge_Ammo",229830,119364,29515,1796,7,2446,2097537)
-p("12Gauge_Ammo",229839,119442,29515,5954,7,2446,2097537)
-p("stoeger_outback",229737,119798,29532,15591,3428,-1584,1584,7,2446,2097553)
-p("12Gauge_Ammo",229891,119467,29515,17416,7,2446,2097537)
+p("12Gauge_Ammo",229830,119364,29515,1796,2446,2097409)
+p("12Gauge_Ammo",229839,119442,29515,5954,2446,2097409)
+p("stoeger_outback",229737,119798,29532,15591,3428,-1584,1584,2446,2097425)
+p("12Gauge_Ammo",229891,119467,29515,17416,2446,2097409)
 p("JungleCamp_CigareteBox_01",231229,118927,29509,2694,2097153)
 p("JungleCamp_CigareteBox_01",231229,118927,29531,6606,2097153)
 p("JungleCamp_CigareteBox_01",231321,119004,29509,13753,2097153)
@@ -116197,13 +116364,13 @@ p("TropicalRockAssembly_01",237342,116374,28617,16112,107,"terrainchunk",10,0,0,
 p("WW2_ConcreteCliffWallx4_01",235698,116844,24364,14621,4281610288,2545,-2267,2270,2567,"terrainchunk",10,0,0,84,100,10,40,60,2228505)
 p("Shanty_Carpet_03",234536,119554,132,82,2097156)
 p("DecBunker_ConcretePile_03",234166,122058,3627,64,2097156)
-p("stoeger_outback",236647,118833,29095,15003,-2970,2114,1866,7,2494,2097553)
+p("stoeger_outback",236647,118833,29095,15003,-2970,2114,1866,2494,2097425)
 p("Shanty_Carpet_02",236559,119691,28735,21475,81,2494,2097413)
 p("BrokenOff_Concrete_09",237208,121862,28679,16200,4281282094,"terrainchunk",10,0,0,92,100,10,40,60,2228233)
 p("DecBunker_ConcretePile_03",230869,123894,4768,2097152)
 p("DecBunker_ConcretePile_03",230852,123930,0)
 p("BrokenOff_Concrete_08",229828,126451,28696,8513,73,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
-p("Garand",229888,126380,29387,8864,1397,2649,2793,768,6,1260,2097617)
+p("Garand",229888,126380,29387,8864,1397,2649,2793,768,1,1260,2097617)
 p("TropicalRockAssembly_01",230420,128226,28638,5432,107,"terrainchunk",10,0,0,75,100,20,40,60,2228229)
 p("Floor_MetalScaff_Parapet_01",229800,130200,28698,5400,2147749413,2147749413,"",1075841537)
 p("WW2_ConcreteCliffWallx4Solid_01",231088,129530,24473,15389,4281610288,3229,-1781,1782,2567,"terrainchunk",10,0,0,69,100,24,40,60,15,42,10617113)
@@ -116213,7 +116380,7 @@ p("Floor_MetalScaff_Parapet_01",232200,130200,28698,5400,2147749413,2147749413,"
 p("Floor_MetalScaff_Parapet_01",233200,130200,28698,5400,2147749413,2147749413,"",1075841537)
 p("WW2_ConcreteCliffWallx3Solid_01",233328,130832,28042,7838,4281610288,1879,2574,2573,2567,"terrainchunk",10,0,0,69,100,24,40,60,15,42,10617113)
 p("Shanty_Carpet_04",235436,125008,28733,16215,2097153)
-p("Garand",235098,126296,28916,6542,2921,2029,2030,7,2097297)
+p("Garand",235098,126296,28916,6542,2921,2029,2030,2097169)
 p("BrokenOff_Concrete_08",235529,122969,28723,5204,67,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
 p("BrokenOff_Concrete_04",234490,128219,28735,5487,104,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
 p("BrokenOff_Concrete_08",234355,128413,28723,4900,67,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
@@ -116612,14 +116779,14 @@ p("DecShantyRubbish_03",163266,140238,16247,2097152)
 p("BrokenOff_Concrete_09",163219,143218,26625,10788,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("WW2_ConcreteCliffWallx3Solid_01",160211,143539,25992,9999,4281610288,477,2876,2877,"terrainchunk",10,0,0,69,100,24,40,60,15,42,10616857)
 p("WW2_ConcreteCliffWallx4Solid_01",160425,143906,22423,10672,4281610288,-75,-2896,2896,"terrainchunk",10,0,0,69,100,24,40,60,15,42,10616857)
-p("Garand__Supressor",160618,144979,26732,9583,-726,-2497,3165,3927,2097425)
+p("Garand__Supressor",160618,144979,26732,9583,-726,-2497,3165,7,3927,2097553)
 p("WW2_ConcreteCliffWallx3Solid_01",160747,145359,22400,15900,4281610288,3754,-1157,1157,"terrainchunk",10,0,0,69,100,24,40,60,15,42,10616857)
 p("JungleCamp_CigareteBox_01",160968,144377,26721,13480,3771,2097409)
 p("TropicalRockSharp_01",161671,144025,19667,"terrainchunk",10,0,0,80,100,18,40,60,131073)
 p("MODScreen_Canvas_01",161751,144304,26731,14148,73,4280688158,-47,24,4095,2097181)
-p("G3Sniper_Scope",161224,144603,26784,9583,83,-726,-2497,3165,3927,2097429)
+p("G3Sniper_Scope",161224,144603,26784,9583,83,-726,-2497,3165,7,3927,2097557)
 p("TropicalRockSharp_01",161036,145317,15993,20141,129,-2318,-3243,938,"terrainchunk",10,0,0,80,100,18,40,60,2228245)
-p("Garand",161346,144658,26765,9583,-726,-2497,3165,3927,2097425)
+p("Garand",161346,144658,26765,9583,-726,-2497,3165,7,3927,2097553)
 p("TropicalRockSharp_01",161467,144712,16337,16551,118,3842,-1301,564,"terrainchunk",10,0,0,7,32,10,40,60,2228245)
 p("DecWallLeak_01",160458,146036,24540,9982,146,-2875,489,2875,2097173)
 p("Floor_MetalScaff_Edge_01",160024,146931,25525,19273,1108,2147749413,2147749413,"",1075841793)
@@ -118022,8 +118189,8 @@ p("TropicalPlant_Grass_03",133783,222527,0)
 p("TropicalRockAssembly_01",133758,224016,14553,17288,175,-42,354,4080,"terrainchunk",10,0,0,0,100,10,40,60,2228245)
 p("TropicalPlant_06_Sapling_02",134089,224907,14480,657,198,1024,2097221)
 p("TropicalRockSharp_01",131699,226670,14982,7484,103,1724,-3644,723,2099,"terrainchunk",10,0,0,22,51,10,40,60,2228501)
-p("TT33f",131854,229192,15263,13429,-1664,2641,2651,7,2097297)
-p("Garand",132755,228199,15296,10228,-341,-2886,2886,2097169)
+p("TT33f",131854,229192,15263,13429,-1664,2641,2651,2097169)
+p("Garand",132755,228199,15296,10228,-341,-2886,2886,7,2097297)
 p("TropicalPlant_Grass_03",133989,226249,12647,16750,134,2097157)
 p("TropicalPlant_Grass_04",134673,226972,0)
 p("TropicalRockSharpWalk_02",133800,227400,14000,10800,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
@@ -119337,7 +119504,7 @@ p("TropicalRockSharp_01",207468,155984,22559,14281,118,4282663747,1989,2096,2902
 p("TropicalRockSharp_01",205330,160525,16497,4519,118,4282663747,-220,-1315,3872,"terrainchunk",10,0,0,18,71,10,40,60,2228253)
 p("TropicalPlant_04_Shrub_01",204820,161342,18475,18944,147,3644,-1069,1534,1024,2097237)
 p("TropicalRockAssembly_01",205947,161346,17956,3022,138,-370,-634,4029,"terrainchunk",10,0,0,39,100,10,40,60,2228245)
-p("TropicalPlant_Grass_03",205280,163680,18047,8141,133,32,2097221)
+p("TropicalPlant_Grass_03",205280,163679,18047,8141,133,32,2097221)
 p("TropicalRockAssembly_01",208249,160213,18119,2985,138,39,-111,4094,"terrainchunk",10,0,0,39,100,10,40,60,2228245)
 p("TropicalPlant_Grass_02",207189,162392,18148,8458,180,32,2097221)
 p("TropicalRockAssembly_01",207321,163818,18119,21352,138,175,1363,3859,"terrainchunk",10,0,0,39,100,10,40,60,2228245)
@@ -120011,7 +120178,7 @@ p("DecForestMoss_03",219133,176987,17785,736,157,4287110666,268,-807,4006,35,209
 p("MetalScaff_Base_01",217200,178800,18200,16200,2174,2150911028,"",1075839745)
 p("MetalScaff_WallDec_01",217200,178800,21700,2761,2150911028,"",1073742593)
 p("MetalScaff_WallDec_01",217200,178800,23800,975,2150911028,"",1073742593)
-p("Garand",217151,178990,18477,16184,-691,4029,255,7,2097297)
+p("Garand",217151,178990,18477,16184,-691,4029,255,2097169)
 p("DecPaperPile_02",217927,179225,18582,50,4281545266,2097164)
 p("DecTyreTracksBrown_05",223976,165741,17919,73,2098176)
 p("DecForestMoss_01",221454,168468,18190,18011,142,2097157)
@@ -120038,7 +120205,7 @@ p("DecJungleForest_01",223993,179104,18147,16804,70,32,2097221)
 p("JungleCamp_CigareteBox_01",225170,178964,18626,7017,2097153)
 p("HangarSmall_FlatSide_01",224400,179400,18200,10800,2857,2151628607,2149325853,2147944718,"",1075845889)
 p("BrokenOff_Concrete_02",226660,173089,18181,11396,135,"terrainchunk",10,0,0,47,100,10,40,60,2228229)
-p("Garand",227174,173693,18910,5597,3867,954,954,7,956,2097553)
+p("Garand",227174,173693,18910,5597,3867,954,954,956,2097425)
 p("BrokenOff_Concrete_03",225523,174817,18200,13991,"terrainchunk",10,0,0,47,100,10,40,60,2228225)
 p("DecBunkerFloor_04",225508,175181,0)
 p("BrokenOff_Concrete_04",226725,175683,18182,21587,32,"terrainchunk",10,0,0,40,60,10,40,60,2228289)
@@ -120050,10 +120217,10 @@ p("BrokenOff_Concrete_04",229287,175024,18182,5476,32,"terrainchunk",10,0,0,40,6
 p("Mine_WoodenBeam_Rope_05",225838,176998,18198,1987,2150641716,2150641716,2150641716,"",1075845633)
 p("BrokenOff_Concrete_01",226200,177600,18134,10800,63,32,32,"terrainchunk",10,0,0,89,100,10,40,60,2228421)
 p("TropicalPlant_Grass_01",226276,177833,18150,10800,125,32,2097221)
-p("TT33f",227000,177000,18923,6259,3170,1844,1823,7,2097297)
+p("TT33f",227000,177000,18923,6259,3170,1844,1823,2097169)
 p("DecForestMoss_01",226413,177283,17854,10745,121,4283053354,2097165)
 p("Mine_WoodenBeam_Rope_04",227070,177380,18190,18483,2148209965,2150641716,2150641716,"",1075845633)
-p("TT33f",227399,177555,18923,9876,504,3010,2731,6,2097297)
+p("TT33f",227399,177555,18923,9876,504,3010,2731,1,2097297)
 p("DecForestMoss_01",227944,177390,0)
 p("BrokenOff_Concrete_01",228396,177496,18190,10444,66,32,32,"terrainchunk",10,0,0,89,100,10,40,60,2228421)
 p("DecWallDirt_04",228687,178090,18052,10616,250,4280161293,32,50,2098253)
@@ -120759,7 +120926,7 @@ p("TropicalPlant_Grass_03",243284,177764,18438,19180,90,2097157)
 p("TropicalPlant_Grass_03",241760,178277,18438,4080,90,2097157)
 p("DecBunker_ConcretePile_02",245433,178729,18276,10011,111,"terrainchunk",10,0,0,60,87,61,40,60,2228229)
 p("Shanty_Carpet_03",231203,181690,4970,2097152)
-p("cartridge_box",229984,183124,18318,20193,4278912518,32895,3145737)
+p("cartridge_box",229984,183124,18318,20193,4278912518,32895,1,3145865)
 p("HangarSmall_RoofSide_02",232800,181200,18200,2825,2151628607,2149325853,2147944718,"",1073748737)
 p("HangarSmall_FlatSide_03",232800,183000,18200,2857,2151628607,2149325853,2147944718,"",1073748737)
 p("TropicalPlant_04_Sapling_04",232711,183446,18148,2040,117,2097157)
@@ -121845,7 +122012,7 @@ p("DecBunker_ConcretePile_02",252397,231523,16762,14721,127,296,166,4082,"terrai
 p("TropicalPlant_Grass_03",250830,235270,16103,15575,137,1024,2097221)
 p("TropicalPlant_Grass_02",253741,234242,122,1024,68)
 p("TropicalPlant_Grass_02",253476,236023,122,1024,68)
-p("SVDCustom",247059,237937,17367,13752,-1023,2001,3424,7,3773,2097553)
+p("SVDCustom",247059,237937,17367,13752,-1023,2001,3424,3773,2097425)
 p("JungleCamp_GraveyardHelmet_01",247190,238061,17105,18282,-577,-3530,1994,3609,2097425)
 p("TropicalPlant_04_Shrub_01",246537,239878,17043,3442,143,266,-16,4087,1024,2097237)
 p("TropicalPlant_Grass_03",247299,241638,16101,2500,137,1024,2097221)
