@@ -2,6 +2,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Index', 1239,
+}, nil, 1000775821)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_Shanty_WallShed_05",
 	'Index', 635,
 }, nil, 1006135074)
@@ -32,6 +38,12 @@ PlaceObj('Collection', {
 	'Name', "col_Shanty_WallShed_5",
 	'Index', 1750,
 }, nil, 1028651390)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Index', 2700,
+}, nil, 1029223315)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -123,6 +135,13 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Name', "col_Scaffolding_Planks_6",
+	'Index', 1346,
+}, nil, 1066409094)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Index', 719,
 }, nil, 1067291488)
 PlaceObj('Collection', {
@@ -178,6 +197,12 @@ PlaceObj('Collection', {
 	'AllowedMask', 4294966497,
 	'Index', 1025,
 }, nil, 1097911995)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Index', 2826,
+}, nil, 1098672370)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -311,6 +336,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Index', 267,
+}, nil, 1150295564)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Index', 187,
 }, nil, 1151298570)
 PlaceObj('Collection', {
@@ -333,6 +364,12 @@ PlaceObj('Collection', {
 	'AllowedMask', 4294966497,
 	'Index', 2617,
 }, nil, 1164846875)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Index', 307,
+}, nil, 1174326029)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -417,6 +454,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Index', 876,
+}, nil, 1222797561)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_Shanty_WoodenFence_19",
 	'Index', 1852,
 }, nil, 1224584842)
@@ -441,6 +484,12 @@ PlaceObj('Collection', {
 	'Name', "col_JungleCamp_Lantern_01",
 	'Index', 1121,
 }, nil, 1234900848)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Index', 1029,
+}, nil, 1236456456)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -483,6 +532,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Index', 2841,
+}, nil, 1254630804)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_ContainerIntelMarker",
 	'Index', 1981,
 }, nil, 1261453921)
@@ -494,6 +549,12 @@ PlaceObj('Collection', {
 	'Name', "col_Shanty_BottleCrate_24",
 	'Index', 3427,
 }, nil, 1266018161)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Index', 3246,
+}, nil, 1266255365)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -634,6 +695,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Index', 2737,
+}, nil, 1323818235)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Index', 3705,
 }, nil, 1324883924)
 PlaceObj('Collection', {
@@ -643,6 +710,12 @@ PlaceObj('Collection', {
 	'Name', "col_Shanty_WallShed_01",
 	'Index', 2061,
 }, nil, 1326361021)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Index', 2607,
+}, nil, 1327274919)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -752,8 +825,20 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Index', 1708,
+}, nil, 1374806334)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Index', 2817,
 }, nil, 1378895968)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Index', 1985,
+}, nil, 1384188415)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -811,6 +896,18 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Index', 1551,
+}, nil, 1424698772)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Index', 3074,
+}, nil, 1425338930)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_Mine_WoodenBeam_Vertical_42",
 	'Index', 2770,
 }, nil, 1426302574)
@@ -820,6 +917,13 @@ PlaceObj('Collection', {
 	'AllowedMask', 4294966497,
 	'Index', 943,
 }, nil, 1433636868)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Name', "col_WindowVent_Planks_Small_01",
+	'Index', 2905,
+}, nil, 1434175845)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -844,6 +948,13 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Name', "col_Prison_Shelves_01",
+	'Index', 2051,
+}, nil, 1446817782)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Index', 3420,
 }, nil, 1449129193)
 PlaceObj('Collection', {
@@ -856,9 +967,21 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Index', 3677,
+}, nil, 1457195728)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_WW2_SandBag_03",
 	'Index', 3683,
 }, nil, 1458668631)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Index', 1023,
+}, nil, 1464035725)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -935,6 +1058,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Index', 2111,
+}, nil, 1501233003)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_Shanty_WoodenFence_8",
 	'Index', 1014,
 }, nil, 1501355802)
@@ -978,6 +1107,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Index', 2087,
+}, nil, 1510171988)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_Aimpoint5000",
 	'Index', 587,
 }, nil, 1513331739)
@@ -994,6 +1129,12 @@ PlaceObj('Collection', {
 	'Name', "col_MilitaryCamp_Truck_01",
 	'Index', 3667,
 }, nil, 1520916963)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Index', 1933,
+}, nil, 1521811460)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -1049,6 +1190,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Index', 3210,
+}, nil, 1545078292)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Index', 214,
 }, nil, 1553959336)
 PlaceObj('Collection', {
@@ -1071,6 +1218,12 @@ PlaceObj('Collection', {
 	'Name', "col_TropicalRockAssembly_04",
 	'Index', 627,
 }, nil, 1579503381)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Index', 456,
+}, nil, 1580244630)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -1135,6 +1288,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Index', 2665,
+}, nil, 1614954984)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_Burn_Inactive_03",
 	'Index', 3666,
 }, nil, 1617567942)
@@ -1168,6 +1327,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Index', 4013,
+}, nil, 1637112076)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Index', 45,
 }, nil, 1637582992)
 PlaceObj('Collection', {
@@ -1186,6 +1351,12 @@ PlaceObj('Collection', {
 	'Name', "col_Shanty_BottleCrate_25",
 	'Index', 3242,
 }, nil, 1639276596)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Index', 3626,
+}, nil, 1639656964)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -1215,6 +1386,12 @@ PlaceObj('Collection', {
 	'Name', "col_Shanty_WoodenFence_13",
 	'Index', 932,
 }, nil, 1653425873)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Index', 364,
+}, nil, 1658548509)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -1333,6 +1510,18 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Index', 2435,
+}, nil, 1722899210)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Index', 1733,
+}, nil, 1730202493)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Index', 49,
 }, nil, 1738165556)
 PlaceObj('Collection', {
@@ -1348,6 +1537,12 @@ PlaceObj('Collection', {
 	'AllowedMask', 4294966497,
 	'Index', 3766,
 }, nil, 1741642529)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Index', 759,
+}, nil, 1743161598)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -1473,9 +1668,21 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
+	'Index', 1715,
+}, nil, 1791471671)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
 	'Name', "col_Mine_WoodenBeam_Vertical_24",
 	'Index', 3313,
 }, nil, 1791746875)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Index', 1447,
+}, nil, 1793653794)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -1559,6 +1766,14 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1346,
+	'AllowedMask', 4294966497,
+	'Name', "col_Scaffolding_Planks_05",
+	'Index', 1741,
+}, nil, 1840804277)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
 	'Index', 2818,
 }, nil, 1843952947)
@@ -1605,11 +1820,23 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Index', 2963,
+}, nil, 1866472344)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2475,
 	'AllowedMask', 4294966497,
 	'Name', "col_Shanty_BottleCrate_20",
 	'Index', 508,
 }, nil, 1870086674)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Index', 2980,
+}, nil, 1872450739)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -1624,6 +1851,12 @@ PlaceObj('Collection', {
 	'Name', "col_AL_Football",
 	'Index', 3721,
 }, nil, 1883847733)
+PlaceObj('Collection', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'Index', 3249,
+}, nil, 1887525676)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -23215,7 +23448,7 @@ PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Angle', 11234,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1379643213)
 PlaceObj('Colonial_Bookshelf_Books_02', {
 	'Pos', point(194762, 119653, 11206),
@@ -23223,7 +23456,7 @@ PlaceObj('Colonial_Bookshelf_Books_02', {
 	'Axis', point(-3830, -1026, 1026),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1671850173)
 PlaceObj('FloorSlab', {
 	'Pos', point(195000, 119400, 9800),
@@ -23261,7 +23494,7 @@ PlaceObj('JungleCamp_FoodCanPile_04', {
 	'Pos', point(195002, 119596, 10501),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1471145642)
 PlaceObj('Mine_WoodenBeam_Vertical_01', {
 	'ColorizationPalette', "",
@@ -23539,7 +23772,7 @@ PlaceObj('Shanty_Canvas_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Mirrored', true,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1049321141)
 PlaceObj('FloorSlab', {
 	'Pos', point(195000, 121800, 9800),
@@ -24083,7 +24316,7 @@ PlaceObj('JungleCamp_Boots_01', {
 	'Angle', 15289,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1048295380)
 PlaceObj('WallSlab', {
 	'Pos', point(192600, 123600, 9800),
@@ -24232,7 +24465,7 @@ PlaceObj('City_Shade_03', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3904,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1738500797)
 PlaceObj('WallSlab', {
 	'Pos', point(193800, 123600, 9800),
@@ -24342,7 +24575,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Pos', point(193546, 125185),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1647993086)
 PlaceObj('StairSlab', {
 	'Pos', point(193800, 125400, 9800),
@@ -24368,7 +24601,7 @@ PlaceObj('JungleCamp_Boots_02', {
 	'Angle', 16764,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1575747268)
 PlaceObj('FloorSlab', {
 	'Pos', point(195000, 123000, 9800),
@@ -25224,7 +25457,7 @@ PlaceObj('Shanty_Canvas_03', {
 	'Pos', point(195526, 127227, 10902),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1805899109)
 PlaceObj('StairSlab', {
 	'Pos', point(195000, 129000, 9800),
@@ -25250,7 +25483,7 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Angle', 10264,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1579148079)
 PlaceObj('Farmland_CratePileEmpty_06', {
 	'ColorizationPalette', "",
@@ -25925,7 +26158,7 @@ PlaceObj('Colonial_Carpet_01', {
 	'Pos', point(197901, 123547, 9800),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1348902311)
 PlaceObj('Room', {
 	'roof_type', "Shed",
@@ -26110,7 +26343,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1055,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1800885580)
 PlaceObj('WallSlab', {
 	'Pos', point(197400, 126000, 9800),
@@ -26362,7 +26595,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2771,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1896998897)
 PlaceObj('WallSlab', {
 	'Pos', point(198600, 126000, 9800),
@@ -26584,7 +26817,7 @@ PlaceObj('Prison_Decoration_03', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1019032579)
 PlaceObj('Mine_WoodenBeam_Vertical_01', {
 	'ColorizationPalette', "",
@@ -27166,7 +27399,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1055,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1009308032)
 PlaceObj('Scaffolding_Planks_01', {
 	'Pos', point(196970, 127360, 11971),
@@ -27175,7 +27408,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1055,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1614700671)
 PlaceObj('Scaffolding_Planks_04', {
 	'Pos', point(197079, 127396, 11980),
@@ -27185,7 +27418,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1055,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1108388038)
 PlaceObj('Mine_WoodenBeam_Vertical_01', {
 	'ColorizationPalette', "",
@@ -27252,7 +27485,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1055,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1693302406)
 PlaceObj('Mine_WoodenBeam_Vertical_01', {
 	'ColorizationPalette', "",
@@ -27371,7 +27604,7 @@ PlaceObj('JungleCamp_Boots_02', {
 	'Pos', point(198285, 127966, 9800),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1157821480)
 PlaceObj('FloorSlab', {
 	'Pos', point(198600, 127800, 9800),
@@ -27409,7 +27642,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2771,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1301980728)
 PlaceObj('Mine_WoodenBeam_Vertical_01', {
 	'ColorizationPalette', "",
@@ -27504,7 +27737,7 @@ PlaceObj('JungleCamp_Boots_01', {
 	'Angle', 19620,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1665562241)
 PlaceObj('FloorSlab', {
 	'Pos', point(198600, 129000, 9800),
@@ -27542,7 +27775,7 @@ PlaceObj('Scaffolding_Planks_05', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1055,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1461266469)
 PlaceObj('Shanty_WallDecorTin_04', {
 	'ColorizationPalette', "",
@@ -27568,7 +27801,7 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1055,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1305327522)
 PlaceObj('Mine_WoodenBeam_Vertical_01', {
 	'ColorizationPalette', "",
@@ -27589,7 +27822,7 @@ PlaceObj('Scaffolding_Planks_04', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1055,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1516503235)
 PlaceObj('Shanty_WallDecorTin_04', {
 	'ColorizationPalette', "",
@@ -27650,14 +27883,14 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2771,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1693258539)
 PlaceObj('JungleCamp_Boots_02', {
 	'Pos', point(198360, 129585, 9800),
 	'Angle', 21010,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1524889233)
 PlaceObj('WallSlab', {
 	'Pos', point(198000, 130200, 9800),
@@ -28467,7 +28700,7 @@ PlaceObj('Colonial_Carpet_01', {
 	'Scale', 140,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1445527505)
 PlaceObj('FloorSlab', {
 	'Pos', point(201000, 129000, 9800),
@@ -33134,6 +33367,24 @@ PlaceObj('FlyingGrass', {
 	'Pos', point(160736, 162080, 8892),
 	'AllowedMask', 4294966497,
 }, nil, 1224881741)
+PlaceObj('Shanty_Canopy_02', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(61, 122, 153, 255),
+	'EditableRoughness1', -79,
+	'EditableMetallic1', 33,
+	'EditableColor2', RGBA(182, 58, 52, 255),
+	'EditableRoughness2', -75,
+	'EditableMetallic2', 90,
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'EditableRoughness3', -89,
+	'EditableMetallic3', 65,
+	'Pos', point(161389, 163131, 8301),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Mirrored', true,
+	'AllowedMask', 782,
+}, nil, 1535175506)
 PlaceObj('RoomCorner', {
 	'Pos', point(136800, 164400, 8400),
 	'Angle', 5400,
@@ -41407,6 +41658,48 @@ PlaceObj('BunkerInterior_BarrelPile_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1598089318)
+PlaceObj('FloorSlab', {
+	'Pos', point(181800, 138600, 9800),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 3,
+	'material', "WoodScaff",
+	'colors', PlaceObj('ColorizationPropSet', {
+		'EditableColor1', RGBA(52, 45, 41, 255),
+		'EditableColor2', RGBA(25, 19, 12, 255),
+		'EditableColor3', RGBA(69, 58, 39, 255),
+	}),
+}, nil, 1266612461)
+PlaceObj('FloorSlab', {
+	'Pos', point(183000, 138600, 9800),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 3,
+	'material', "WoodScaff",
+	'colors', PlaceObj('ColorizationPropSet', {
+		'EditableColor1', RGBA(52, 45, 41, 255),
+		'EditableColor2', RGBA(25, 19, 12, 255),
+		'EditableColor3', RGBA(69, 58, 39, 255),
+	}),
+}, nil, 1459330828)
+PlaceObj('FloorSlab', {
+	'Pos', point(184200, 138600, 9800),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 3,
+	'material', "WoodScaff",
+	'colors', PlaceObj('ColorizationPropSet', {
+		'EditableColor1', RGBA(52, 45, 41, 255),
+		'EditableColor2', RGBA(25, 19, 12, 255),
+		'EditableColor3', RGBA(69, 58, 39, 255),
+	}),
+}, nil, 1614314153)
 PlaceObj('RoomCorner', {
 	'Pos', point(181200, 140400, 9800),
 	'Angle', 10800,
@@ -41529,6 +41822,20 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Straw",
 	'dir', "East",
 }, nil, 1822395176)
+PlaceObj('FloorSlab', {
+	'Pos', point(181800, 139800, 9800),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 3,
+	'material', "WoodScaff",
+	'colors', PlaceObj('ColorizationPropSet', {
+		'EditableColor1', RGBA(52, 45, 41, 255),
+		'EditableColor2', RGBA(25, 19, 12, 255),
+		'EditableColor3', RGBA(69, 58, 39, 255),
+	}),
+}, nil, 1381148711)
 PlaceObj('WallSlab', {
 	'Pos', point(181800, 140400, 9800),
 	'Angle', 16200,
@@ -41689,6 +41996,20 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Straw",
 	'dir', "East",
 }, nil, 1306170447)
+PlaceObj('FloorSlab', {
+	'Pos', point(183000, 139800, 9800),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 3,
+	'material', "WoodScaff",
+	'colors', PlaceObj('ColorizationPropSet', {
+		'EditableColor1', RGBA(52, 45, 41, 255),
+		'EditableColor2', RGBA(25, 19, 12, 255),
+		'EditableColor3', RGBA(69, 58, 39, 255),
+	}),
+}, nil, 1242423937)
 PlaceObj('WallSlab', {
 	'Pos', point(183000, 140400, 9800),
 	'Angle', 16200,
@@ -41792,6 +42113,20 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Straw",
 	'dir', "East",
 }, nil, 1626898017)
+PlaceObj('FloorSlab', {
+	'Pos', point(184200, 139800, 9800),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 3,
+	'material', "WoodScaff",
+	'colors', PlaceObj('ColorizationPropSet', {
+		'EditableColor1', RGBA(52, 45, 41, 255),
+		'EditableColor2', RGBA(25, 19, 12, 255),
+		'EditableColor3', RGBA(69, 58, 39, 255),
+	}),
+}, nil, 1120095731)
 PlaceObj('WallSlab', {
 	'Pos', point(184200, 140400, 9800),
 	'Angle', 16200,
@@ -42143,13 +42478,30 @@ PlaceObj('WallSlab', {
 	'material', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1222009416)
+PlaceObj('Window_Planks_Single_03', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(110, 70, 19, 255),
+	'EditableRoughness1', 52,
+	'EditableColor2', RGBA(48, 25, 14, 255),
+	'EditableRoughness2', 53,
+	'EditableColor3', RGBA(69, 58, 39, 255),
+	'EditableRoughness3', 57,
+	'Pos', point(181200, 147000, 10500),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 782,
+	'subvariant', 3,
+	'height', 2,
+}, nil, 1337603978)
 PlaceObj('WallSlab', {
 	'Pos', point(181200, 147000, 10500),
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 3,
 	'material', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -42160,7 +42512,7 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 4,
 	'material', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -42422,18 +42774,35 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 4,
 	'material', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1144860779)
+PlaceObj('Window_Planks_Single_02', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(110, 70, 19, 255),
+	'EditableRoughness1', 52,
+	'EditableColor2', RGBA(48, 25, 14, 255),
+	'EditableRoughness2', 53,
+	'EditableColor3', RGBA(69, 58, 39, 255),
+	'EditableRoughness3', 57,
+	'Pos', point(185400, 140400, 10500),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 782,
+	'subvariant', 2,
+	'height', 2,
+}, nil, 1842023638)
 PlaceObj('WallSlab', {
 	'Pos', point(185400, 140400, 11200),
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 2,
 	'material', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -42655,13 +43024,30 @@ PlaceObj('WallSlab', {
 	'material', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1782772264)
+PlaceObj('Window_Planks_Single_04', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(110, 70, 19, 255),
+	'EditableRoughness1', 52,
+	'EditableColor2', RGBA(48, 25, 14, 255),
+	'EditableRoughness2', 53,
+	'EditableColor3', RGBA(69, 58, 39, 255),
+	'EditableRoughness3', 57,
+	'Pos', point(187800, 140400, 10500),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 782,
+	'subvariant', 4,
+	'height', 2,
+}, nil, 1044572292)
 PlaceObj('WallSlab', {
 	'Pos', point(187800, 140400, 10500),
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 1,
 	'material', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -42672,7 +43058,7 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 4,
 	'material', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -42855,6 +43241,11 @@ PlaceObj('Room', {
 	'spawned_doors', {
         North = {o(1755527472),},
         South = {o(1119430039),},},
+	'spawned_windows', {
+        East = {o(1269654652),o(1868115676),o(1287711688),},
+        North = {o(1842023638),o(1044572292),},
+        South = {o(1436471181),},
+        West = {o(1337603978),},},
 	'spawned_floors', {o(1557129056),o(1410256875),o(1152047936),o(1585689955),o(1890257601),o(1379081021),o(1052257938),o(1692663528),o(1348785859),o(1027243666),o(1186993776),o(1329601191),o(1114929329),o(1613358266),o(1696263183),o(1068813897),o(1183240127),o(1141319783),o(1167528878),o(1896110582),o(1827150594),o(1325231761),o(1044543346),o(1465387282),o(1728941132),o(1591317537),o(1461997928),o(1347223721),o(1283357370),o(1665478666),o(1773407337),o(1447849549),o(1468775736),o(1535415053),o(1184098952),o(1780078413),o(1180348170),o(1824617781),o(1609589618),o(1856657607),o(1247045008),o(1049537914),o(1605112621),o(1390550855),o(1433967624),o(1459355210),o(1434976608),o(1317020415),o(1180668218),o(1338826314),o(1702462916),o(1681997810),o(1849963169),o(1449869079),o(1613576843),o(1009464723),},
 	'spawned_walls', {
         East = {o(1129711558),o(1501044442),o(1673673805),o(1026411462),o(1060992990),o(1262839064),o(1888394086),o(1657675291),o(1574017496),o(1050451534),o(1419172925),o(1182791765),o(1687268153),o(1324263991),o(1404553492),o(1759786364),o(1103527947),o(1600292495),o(1238668853),o(1788057530),o(1187069903),o(1124648403),o(1553961543),o(1854129741),o(1886663317),o(1517317824),o(1634992604),o(1262596114),},
@@ -43148,7 +43539,7 @@ PlaceObj('Cinematic_Ashtray_02', {
 	'Angle', 11894,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1505149746)
 PlaceObj('Shanty_WoodenFence_03', {
 	'ColorizationPalette', "",
@@ -43191,7 +43582,7 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Angle', 11168,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1117611473)
 PlaceObj('WallSlab', {
 	'Pos', point(189000, 140400, 9800),
@@ -43530,17 +43921,33 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 3,
 	'material', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1262839064)
+PlaceObj('Window_Planks_Single_03', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(110, 70, 19, 255),
+	'EditableRoughness1', 52,
+	'EditableColor2', RGBA(48, 25, 14, 255),
+	'EditableRoughness2', 53,
+	'EditableColor3', RGBA(69, 58, 39, 255),
+	'EditableRoughness3', 57,
+	'Pos', point(190800, 142200, 10500),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 782,
+	'subvariant', 3,
+	'height', 2,
+}, nil, 1287711688)
 PlaceObj('WallSlab', {
 	'Pos', point(190800, 142200, 11200),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 5,
 	'material', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -43799,17 +44206,33 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 4,
 	'material', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1324263991)
+PlaceObj('Window_Planks_Single_03', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(110, 70, 19, 255),
+	'EditableRoughness1', 52,
+	'EditableColor2', RGBA(48, 25, 14, 255),
+	'EditableRoughness2', 53,
+	'EditableColor3', RGBA(69, 58, 39, 255),
+	'EditableRoughness3', 57,
+	'Pos', point(190800, 144600, 10500),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 782,
+	'subvariant', 3,
+	'height', 2,
+}, nil, 1868115676)
 PlaceObj('WallSlab', {
 	'Pos', point(190800, 144600, 11200),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 4,
 	'material', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -43899,17 +44322,33 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 6,
 	'material', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1124648403)
+PlaceObj('Window_Planks_Single_02', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(110, 70, 19, 255),
+	'EditableRoughness1', 52,
+	'EditableColor2', RGBA(48, 25, 14, 255),
+	'EditableRoughness2', 53,
+	'EditableColor3', RGBA(69, 58, 39, 255),
+	'EditableRoughness3', 57,
+	'Pos', point(190800, 147000, 10500),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 782,
+	'subvariant', 2,
+	'height', 2,
+}, nil, 1269654652)
 PlaceObj('WallSlab', {
 	'Pos', point(190800, 147000, 11200),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 2,
 	'material', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -44323,18 +44762,35 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 1,
 	'material', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1341198340)
+PlaceObj('Window_Planks_Single_03', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(110, 70, 19, 255),
+	'EditableRoughness1', 52,
+	'EditableColor2', RGBA(48, 25, 14, 255),
+	'EditableRoughness2', 53,
+	'EditableColor3', RGBA(69, 58, 39, 255),
+	'EditableRoughness3', 57,
+	'Pos', point(183000, 148800, 10500),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 782,
+	'subvariant', 3,
+	'height', 2,
+}, nil, 1436471181)
 PlaceObj('WallSlab', {
 	'Pos', point(183000, 148800, 11200),
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 2,
 	'material', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -48330,6 +48786,394 @@ PlaceObj('RoomCorner', {
 	'material', "Brick",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1892868630)
+PlaceObj('Shanty_WoodenFence_03', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(57, 43, 28, 255),
+	'EditableColor2', RGBA(57, 43, 28, 255),
+	'EditableColor3', RGBA(57, 43, 28, 255),
+	'Pos', point(194354, 173989, 7621),
+	'Angle', 139,
+	'Scale', 120,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1074565220)
+PlaceObj('RoomCorner', {
+	'Pos', point(194400, 174000, 7700),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1285471744)
+PlaceObj('RoomCorner', {
+	'Pos', point(194400, 174000, 8400),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1458364960)
+PlaceObj('RoomCorner', {
+	'Pos', point(194400, 174000, 9100),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1090851116)
+PlaceObj('RoomCorner', {
+	'Pos', point(194400, 174000, 9100),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+	'isPlug', true,
+}, nil, 1780465366)
+PlaceObj('RoofCorner', {
+	'Pos', point(194400, 174000, 9800),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 1,
+	'material', "Tin",
+	'dir', "South",
+}, nil, 1519548909)
+PlaceObj('WallSlab', {
+	'Pos', point(194400, 174600, 7700),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1727425623)
+PlaceObj('WallSlab', {
+	'Pos', point(194400, 174600, 8400),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1246973253)
+PlaceObj('WallSlab', {
+	'Pos', point(194400, 174600, 9100),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1212397963)
+PlaceObj('RoofWallSlab', {
+	'Pos', point(194400, 174600, 9800),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+}, nil, 1612147692)
+PlaceObj('RoofEdgeSlab', {
+	'Pos', point(194400, 174600, 9949),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 1,
+	'material', "Tin",
+	'dir', "South",
+}, nil, 1634621045)
+PlaceObj('WallSlab', {
+	'Pos', point(194400, 175800, 7700),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1675823594)
+PlaceObj('WallSlab', {
+	'Pos', point(194400, 175800, 8400),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1893581666)
+PlaceObj('WallSlab', {
+	'Pos', point(194400, 175800, 9100),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1357903313)
+PlaceObj('RoofWallSlab', {
+	'Pos', point(194400, 175800, 9800),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+}, nil, 1044184125)
+PlaceObj('RoofEdgeSlab', {
+	'Pos', point(194400, 175800, 10248),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 1,
+	'material', "Tin",
+	'dir', "South",
+}, nil, 1364698138)
+PlaceObj('WallSlab', {
+	'Pos', point(195000, 174000, 7700),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1151561088)
+PlaceObj('WallSlab', {
+	'Pos', point(195000, 174000, 8400),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 3,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1532953370)
+PlaceObj('WallSlab', {
+	'Pos', point(195000, 174000, 9100),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1224442765)
+PlaceObj('RoofEdgeSlab', {
+	'Pos', point(195000, 174000, 9800),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 1,
+	'material', "Tin",
+	'dir', "South",
+}, nil, 1362797424)
+PlaceObj('WallSlab', {
+	'Pos', point(196200, 174000, 7700),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 3,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1048579710)
+PlaceObj('WallSlab', {
+	'Pos', point(196200, 174000, 8400),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1703985834)
+PlaceObj('WallSlab', {
+	'Pos', point(196200, 174000, 9100),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1034276074)
+PlaceObj('RoofEdgeSlab', {
+	'Pos', point(196200, 174000, 9800),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 1,
+	'material', "Tin",
+	'dir', "South",
+}, nil, 1043051619)
+PlaceObj('FloorSlab', {
+	'Pos', point(195000, 174600, 7700),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+}, nil, 1715974566)
+PlaceObj('RoofPlaneSlab', {
+	'Pos', point(195000, 174600, 9949),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 1,
+	'material', "Tin",
+	'dir', "South",
+}, nil, 1853798814)
+PlaceObj('FloorSlab', {
+	'Pos', point(195000, 175800, 7700),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+}, nil, 1821992288)
+PlaceObj('RoofPlaneSlab', {
+	'Pos', point(195000, 175800, 10248),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 1,
+	'material', "Tin",
+	'dir', "South",
+}, nil, 1592346092)
+PlaceObj('FloorSlab', {
+	'Pos', point(196200, 174600, 7700),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+}, nil, 1020784935)
+PlaceObj('RoofPlaneSlab', {
+	'Pos', point(196200, 174600, 9949),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 1,
+	'material', "Tin",
+	'dir', "South",
+}, nil, 1410020545)
+PlaceObj('Room', {
+	'roof_type', "Shed",
+	'roof_mat', "Tin",
+	'roof_direction', "South",
+	'roof_inclination', 841,
+	'roof_colors', PlaceObj('ColorizationPropSet', {
+		'EditableColor1', RGBA(61, 122, 153, 255),
+		'EditableRoughness1', -70,
+		'EditableMetallic1', 55,
+		'EditableColor2', RGBA(61, 122, 153, 255),
+		'EditableRoughness2', -70,
+		'EditableMetallic2', 55,
+		'EditableColor3', RGBA(48, 25, 14, 255),
+		'EditableRoughness3', 31,
+		'EditableMetallic3', -70,
+	}),
+	'roof_objs', {o(1410020545),o(1853798814),o(1583140218),o(1592346092),o(1413888013),o(1614428461),o(1634621045),o(1364698138),o(1043051619),o(1362797424),o(1869997129),o(1186561698),o(1579476272),o(1455818371),o(1519548909),o(1180237814),o(1126655321),o(1475315589),o(1612147692),o(1044184125),o(1450427588),o(1381347668),o(1774516562),o(1801595530),},
+	'AllowedMask', 4294966497,
+	'box', box(194400, 174000, 7700, 196800, 176400, 9800),
+	'seed', 1029143451926550,
+	'position', point(194400, 174000, 7700),
+	'size', point(2, 2, 3),
+	'override_terrain_z', 8028,
+	'name', "Room 1119553618 copy4",
+	'wall_mat', "Tin",
+	'outer_colors', PlaceObj('ColorizationPropSet', {
+		'EditableColor1', RGBA(69, 58, 39, 255),
+		'EditableRoughness1', -70,
+		'EditableMetallic1', 55,
+		'EditableColor2', RGBA(69, 58, 39, 255),
+		'EditableRoughness2', -70,
+		'EditableMetallic2', 55,
+		'EditableColor3', RGBA(48, 25, 14, 255),
+		'EditableRoughness3', 31,
+		'EditableMetallic3', -70,
+	}),
+	'inner_wall_mat', "none",
+	'north_wall_mat', "none",
+	'south_wall_mat', "none",
+	'east_wall_mat', "none",
+	'west_wall_mat', "none",
+	'floor_mat', "none",
+	'spawned_floors', {o(1715974566),o(1821992288),o(1020784935),o(1533137757),},
+	'spawned_walls', {
+        East = {o(1881623756),o(1870831083),o(1128132729),o(1492429513),o(1119998262),o(1715354159),},
+        North = {o(1151561088),o(1532953370),o(1224442765),o(1048579710),o(1703985834),o(1034276074),},
+        South = {o(1219956843),o(1853814264),o(1303704276),o(1666504528),o(1889332542),o(1615614843),},
+        West = {o(1727425623),o(1246973253),o(1212397963),o(1675823594),o(1893581666),o(1357903313),},},
+	'spawned_corners', {
+        East = {o(1199107657),o(1216416655),o(1624312044),o(1141801479),},
+        North = {o(1285471744),o(1458364960),o(1090851116),o(1780465366),},
+        South = {o(1165234476),o(1034539507),o(1202598043),o(1304068636),},
+        West = {o(1648859835),o(1893238739),o(1695776977),o(1214087041),},},
+}, nil, 1867822983)
+PlaceObj('FloorSlab', {
+	'Pos', point(196200, 175800, 7700),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+}, nil, 1533137757)
+PlaceObj('RoofPlaneSlab', {
+	'Pos', point(196200, 175800, 10248),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 2,
+	'material', "Tin",
+	'dir', "South",
+}, nil, 1583140218)
 PlaceObj('RoomCorner', {
 	'Pos', point(193200, 176400, 7700),
 	'Angle', 10800,
@@ -48537,6 +49381,62 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1761696755)
+PlaceObj('RoomCorner', {
+	'Pos', point(194400, 176400, 7700),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1648859835)
+PlaceObj('RoomCorner', {
+	'Pos', point(194400, 176400, 8400),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1893238739)
+PlaceObj('RoomCorner', {
+	'Pos', point(194400, 176400, 9100),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+	'isPlug', true,
+}, nil, 1214087041)
+PlaceObj('RoomCorner', {
+	'Pos', point(194400, 176400, 9100),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1695776977)
+PlaceObj('RoofCornerWallSlab', {
+	'Pos', point(194400, 176400, 9800),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+}, nil, 1801595530)
+PlaceObj('RoofCorner', {
+	'Pos', point(194400, 176400, 10398),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "Tin",
+	'dir', "South",
+}, nil, 1455818371)
 PlaceObj('WallSlab', {
 	'Pos', point(193200, 178200, 7700),
 	'Angle', 10800,
@@ -49003,11 +49903,22 @@ PlaceObj('RoofEdgeSlab', {
 }, nil, 1336628058)
 PlaceObj('WallSlab', {
 	'Pos', point(195000, 176400, 7700),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1219956843)
+PlaceObj('WallSlab', {
+	'Pos', point(195000, 176400, 7700),
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 3,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -49018,18 +49929,40 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 1,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1256114892)
+PlaceObj('WallSlab', {
+	'Pos', point(195000, 176400, 8400),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1853814264)
+PlaceObj('WallSlab', {
+	'Pos', point(195000, 176400, 9100),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1303704276)
 PlaceObj('WallSlab', {
 	'Pos', point(195000, 176400, 9100),
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 1,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -49045,6 +49978,26 @@ PlaceObj('WallSlab', {
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1008195314)
+PlaceObj('RoofWallSlab', {
+	'Pos', point(195000, 176400, 9800),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+}, nil, 1475315589)
+PlaceObj('RoofEdgeSlab', {
+	'Pos', point(195000, 176400, 10398),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "Tin",
+	'dir', "South",
+}, nil, 1614428461)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(195000, 176400, 10500),
 	'Angle', 16200,
@@ -49082,33 +50035,75 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 1,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1444288005)
+PlaceObj('WallSlab', {
+	'Pos', point(196200, 176400, 7700),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1666504528)
 PlaceObj('WallSlab', {
 	'Pos', point(196200, 176400, 8400),
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 1,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1131468807)
+PlaceObj('WallSlab', {
+	'Pos', point(196200, 176400, 8400),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1889332542)
 PlaceObj('WallSlab', {
 	'Pos', point(196200, 176400, 9100),
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 1,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1212556048)
+PlaceObj('WallSlab', {
+	'Pos', point(196200, 176400, 9100),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1615614843)
+PlaceObj('RoofWallSlab', {
+	'Pos', point(196200, 176400, 9800),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+}, nil, 1126655321)
 PlaceObj('WallSlab', {
 	'Pos', point(196200, 176400, 9800),
 	'Angle', 16200,
@@ -49120,6 +50115,17 @@ PlaceObj('WallSlab', {
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1790192479)
+PlaceObj('RoofEdgeSlab', {
+	'Pos', point(196200, 176400, 10398),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "Tin",
+	'dir', "South",
+}, nil, 1413888013)
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(196200, 176400, 10500),
 	'Angle', 16200,
@@ -49386,6 +50392,8 @@ PlaceObj('Room', {
 	}),
 	'inner_wall_mat', "none",
 	'floor_mat', "none",
+	'spawned_doors', {},
+	'spawned_windows', {},
 	'spawned_floors', {o(1895778599),o(1401435053),o(1145408616),o(1742269334),o(1040504698),o(1485158049),o(1583139579),o(1710815572),o(1182945951),o(1315208023),o(1030614861),o(1704893585),},
 	'spawned_walls', {
         East = {o(1753056243),o(1870590816),o(1723206865),o(1001646473),o(1636671488),o(1782657595),o(1802744185),o(1520332430),o(1198324659),o(1696386098),o(1615866095),o(1726057669),},
@@ -49444,11 +50452,28 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 1,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1276081108)
+PlaceObj('Door_Shanty_Single_03', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(69, 58, 39, 255),
+	'EditableColor2', RGBA(52, 45, 41, 255),
+	'EditableColor3', RGBA(38, 4, 4, 255),
+	'Pos', point(196200, 180000, 7700),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 782,
+	'subvariant', 3,
+	'material', "Shanty",
+	'lockpickDifficulty', "VeryHard",
+	'aoeType', "fire",
+	'HitPoints', 25,
+}, nil, 1301578368)
 PlaceObj('WallSlab', {
 	'Pos', point(196200, 180000, 7700),
 	'Angle', 5400,
@@ -49466,7 +50491,7 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 1,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -49488,7 +50513,7 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 1,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -49578,6 +50603,15 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1647004137)
+PlaceObj('MilitaryCamp_Toilet_02', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(69, 58, 39, 255),
+	'EditableColor2', RGBA(48, 25, 14, 255),
+	'Pos', point(186600, 183000),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1713809075)
 PlaceObj('WallSlab', {
 	'Pos', point(193200, 180600, 7700),
 	'Angle', 10800,
@@ -49728,6 +50762,15 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1465847752)
+PlaceObj('Shanty_Sofa_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(69, 58, 39, 255),
+	'Pos', point(193573, 180627, 7700),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1382284869)
 PlaceObj('FloorSlab', {
 	'Pos', point(193800, 180600, 7700),
 	'Saturation', 0,
@@ -49735,7 +50778,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1899474696)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(193800, 180600, 11490),
@@ -49748,6 +50791,26 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1526814425)
+PlaceObj('WW2_SandBag_04', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(52, 45, 41, 255),
+	'EditableColor2', RGBA(52, 45, 41, 255),
+	'EditableColor3', RGBA(52, 45, 41, 255),
+	'Pos', point(193821, 181563, 8169),
+	'Angle', 16963,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1520165780)
+PlaceObj('Shanty_Sofa_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(69, 58, 39, 255),
+	'Pos', point(193858, 181699, 7700),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1800875837)
 PlaceObj('FloorSlab', {
 	'Pos', point(193800, 181800, 7700),
 	'Saturation', 0,
@@ -49755,7 +50818,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1872851726)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(193800, 181800, 11270),
@@ -49905,7 +50968,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1159501753)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(193800, 183000, 11050),
@@ -49925,7 +50988,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1681994385)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(193800, 184200, 10830),
@@ -49945,7 +51008,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1740769785)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(195000, 180600, 11490),
@@ -49965,7 +51028,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1495354458)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(195000, 181800, 11270),
@@ -49985,7 +51048,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1309394329)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(196200, 180600, 11490),
@@ -50005,7 +51068,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1859933905)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(196200, 181800, 11270),
@@ -50025,7 +51088,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1214078598)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(195000, 183000, 11050),
@@ -50045,7 +51108,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1863533171)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(195000, 184200, 10830),
@@ -50058,6 +51121,18 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1026561740)
+PlaceObj('City_Plywood_06', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(66, 48, 26, 255),
+	'EditableColor2', RGBA(44, 36, 22, 255),
+	'EditableColor3', RGBA(98, 74, 42, 255),
+	'Pos', point(195835, 182692, 8311),
+	'Angle', 5400,
+	'Axis', point(0, 4096, 0),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1007012047)
 PlaceObj('FloorSlab', {
 	'Pos', point(196200, 183000, 7700),
 	'Saturation', 0,
@@ -50065,7 +51140,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1410026993)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(196200, 183000, 11050),
@@ -50078,6 +51153,24 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1234756532)
+PlaceObj('WeaponProp_Box_01', {
+	'Pos', point(196260, 182898, 8200),
+	'Angle', 14056,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1383386861)
+PlaceObj('World_WoodenBox_04', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(87, 67, 42, 255),
+	'EditableColor2', RGBA(33, 28, 22, 255),
+	'EditableColor3', RGBA(16, 7, 1, 255),
+	'Pos', point(196240, 182947, 7700),
+	'Scale', 66,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1717966086)
 PlaceObj('FloorSlab', {
 	'Pos', point(196200, 184200, 7700),
 	'Saturation', 0,
@@ -50085,7 +51178,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1617720295)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(196200, 184200, 10830),
@@ -50237,7 +51330,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1627848319)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(193800, 185400, 10610),
@@ -50312,7 +51405,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1403804797)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(195000, 185400, 10610),
@@ -50325,13 +51418,30 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1619156187)
+PlaceObj('Door_Shanty_Single_05', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(69, 58, 39, 255),
+	'EditableColor2', RGBA(52, 45, 41, 255),
+	'EditableColor3', RGBA(38, 4, 4, 255),
+	'Pos', point(195000, 186000, 7700),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 782,
+	'subvariant', 5,
+	'material', "Shanty",
+	'lockpickDifficulty', "VeryHard",
+	'aoeType', "fire",
+	'HitPoints', 25,
+}, nil, 1042116501)
 PlaceObj('WallSlab', {
 	'Pos', point(195000, 186000, 7700),
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 2,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -50342,7 +51452,7 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 1,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -50353,7 +51463,7 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 1,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -50387,7 +51497,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1621010981)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(196200, 185400, 10610),
@@ -50794,7 +51904,7 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 2771,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1697380133)
 PlaceObj('WallSlab', {
 	'Pos', point(198000, 131400, 9800),
@@ -51220,14 +52330,14 @@ PlaceObj('Cinematic_CoffeeCup_01', {
 	'Angle', 18262,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1619341897)
 PlaceObj('Cinematic_CoffeeCup_01', {
 	'Pos', point(197629, 133597, 10497),
 	'Angle', 12907,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1521508405)
 PlaceObj('FloorSlab', {
 	'Pos', point(197400, 133800, 9800),
@@ -51263,7 +52373,7 @@ PlaceObj('City_BoulPeanuts', {
 	'Angle', 19077,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1769423347)
 PlaceObj('Mine_WoodenBeam_Vertical_01', {
 	'ColorizationPalette', "",
@@ -51380,7 +52490,7 @@ PlaceObj('BunkerInterior_PlatePile_04', {
 	'Angle', 18562,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1448416720)
 PlaceObj('Shanty_Chair_01', {
 	'ColorizationPalette', "",
@@ -51425,7 +52535,7 @@ PlaceObj('BunkerInterior_PlatePile_05', {
 	'Angle', 20118,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1258393926)
 PlaceObj('Shanty_Chair_01', {
 	'ColorizationPalette', "",
@@ -52155,7 +53265,7 @@ PlaceObj('City_Shade_02', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3355,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1356228900)
 PlaceObj('Mine_WoodenBeam_Vertical_01', {
 	'ColorizationPalette', "",
@@ -52205,7 +53315,7 @@ PlaceObj('JungleCamp_Radio_01', {
 	'Angle', 13569,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1612986454)
 PlaceObj('FloorSlab', {
 	'Pos', point(201000, 131400, 9800),
@@ -52433,7 +53543,7 @@ PlaceObj('BunkerInterior_PlatePile_03', {
 	'Angle', 2810,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1544124318)
 PlaceObj('FloorSlab', {
 	'Pos', point(202200, 131400, 9800),
@@ -52600,7 +53710,7 @@ PlaceObj('JungleCamp_FoodCanPile_07', {
 	'Axis', point(-367, 212, 4074),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1584859686)
 PlaceObj('JungleCamp_FoodCanPile_07', {
 	'Pos', point(201928, 132555, 11189),
@@ -52608,7 +53718,7 @@ PlaceObj('JungleCamp_FoodCanPile_07', {
 	'Axis', point(-742, 1041, 3891),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1357352589)
 PlaceObj('Shanty_ShelvesCorner_02', {
 	'ColorizationPalette', "",
@@ -52834,7 +53944,7 @@ PlaceObj('Shanty_Grill_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 1098,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 }, nil, 1304878818)
 PlaceObj('Shanty_TireHorizontal', {
 	'Pos', point(202600, 134909, 12640),
@@ -53465,7 +54575,7 @@ PlaceObj('Shanty_Canvas_06', {
 	'Scale', 45,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
+	'AllowedMask', 0,
 }, nil, 1201891683)
 PlaceObj('Shanty_Saucepan_01', {
 	'Pos', point(203677, 134812, 10509),
@@ -54011,7 +55121,7 @@ PlaceObj('City_ElectricityLamp_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'SIModulation', 120,
-	'AllowedMask', 4294966497,
+	'AllowedMask', 4294967279,
 	'ActivationRequiredStates', set({
 	Day = false,
 }),
@@ -54108,10 +55218,235 @@ PlaceObj('Scaffolding_Planks_02', {
 	'CollectionIndex', 2920,
 	'AllowedMask', 4294967279,
 }, nil, 1687242918)
+PlaceObj('RoomCorner', {
+	'Pos', point(196800, 174000, 7700),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1199107657)
+PlaceObj('RoomCorner', {
+	'Pos', point(196800, 174000, 8400),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1216416655)
+PlaceObj('RoomCorner', {
+	'Pos', point(196800, 174000, 9100),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+	'isPlug', true,
+}, nil, 1141801479)
+PlaceObj('RoomCorner', {
+	'Pos', point(196800, 174000, 9100),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1624312044)
+PlaceObj('RoofCorner', {
+	'Pos', point(196800, 174000, 9800),
+	'Angle', 16200,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 1,
+	'material', "Tin",
+	'dir', "South",
+}, nil, 1180237814)
+PlaceObj('Shanty_WoodenFence_03', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(57, 43, 28, 255),
+	'EditableColor2', RGBA(57, 43, 28, 255),
+	'EditableColor3', RGBA(57, 43, 28, 255),
+	'Pos', point(196838, 173989, 7621),
+	'Angle', 139,
+	'Scale', 120,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1483943760)
+PlaceObj('Shanty_WoodenFence_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(57, 43, 28, 255),
+	'EditableColor2', RGBA(57, 43, 28, 255),
+	'EditableColor3', RGBA(57, 43, 28, 255),
+	'Pos', point(196833, 174088, 8240),
+	'Angle', 14401,
+	'Scale', 115,
+	'Axis', point(2365, 2365, 2365),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1623056420)
+PlaceObj('WallSlab', {
+	'Pos', point(196800, 174600, 7700),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1881623756)
+PlaceObj('WallSlab', {
+	'Pos', point(196800, 174600, 8400),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 2,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1870831083)
+PlaceObj('WallSlab', {
+	'Pos', point(196800, 174600, 9100),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1128132729)
+PlaceObj('RoofWallSlab', {
+	'Pos', point(196800, 174600, 9800),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+}, nil, 1450427588)
+PlaceObj('RoofEdgeSlab', {
+	'Pos', point(196800, 174600, 9949),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 1,
+	'material', "Tin",
+	'dir', "South",
+}, nil, 1869997129)
+PlaceObj('WallSlab', {
+	'Pos', point(196800, 175800, 7700),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1492429513)
+PlaceObj('WallSlab', {
+	'Pos', point(196800, 175800, 8400),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1119998262)
+PlaceObj('WallSlab', {
+	'Pos', point(196800, 175800, 9100),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1715354159)
+PlaceObj('RoofWallSlab', {
+	'Pos', point(196800, 175800, 9800),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+}, nil, 1381347668)
+PlaceObj('RoofEdgeSlab', {
+	'Pos', point(196800, 175800, 10248),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 4294967279,
+	'subvariant', 1,
+	'material', "Tin",
+	'dir', "South",
+}, nil, 1186561698)
 PlaceObj('FlyingGrass', {
 	'Pos', point(199070, 173488, 8304),
 	'AllowedMask', 4294966497,
 }, nil, 1559274891)
+PlaceObj('RoomCorner', {
+	'Pos', point(196800, 176400, 7700),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1165234476)
+PlaceObj('RoomCorner', {
+	'Pos', point(196800, 176400, 8400),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1034539507)
+PlaceObj('RoomCorner', {
+	'Pos', point(196800, 176400, 9100),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1202598043)
+PlaceObj('RoomCorner', {
+	'Pos', point(196800, 176400, 9100),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+	'forceInvulnerableBecauseOfGameRules', false,
+	'isPlug', true,
+}, nil, 1304068636)
+PlaceObj('RoofCornerWallSlab', {
+	'Pos', point(196800, 176400, 9800),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'material', "none",
+}, nil, 1774516562)
+PlaceObj('RoofCorner', {
+	'Pos', point(196800, 176400, 10398),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 16,
+	'subvariant', 1,
+	'material', "Tin",
+	'dir', "South",
+}, nil, 1579476272)
 PlaceObj('WallSlab', {
 	'Pos', point(197400, 176400, 7700),
 	'Angle', 16200,
@@ -54978,7 +56313,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1103065848)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(197400, 180600, 11490),
@@ -54998,7 +56333,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1616398984)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(197400, 181800, 11270),
@@ -55011,6 +56346,17 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1779479732)
+PlaceObj('Bunker_MetalBed_02', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(29, 30, 29, 255),
+	'EditableMetallic1', -82,
+	'EditableColor2', RGBA(156, 135, 96, 255),
+	'EditableColor3', RGBA(143, 107, 68, 255),
+	'Pos', point(198600, 180600, 7700),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1014943321)
 PlaceObj('FloorSlab', {
 	'Pos', point(198600, 180600, 7700),
 	'Saturation', 0,
@@ -55018,7 +56364,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1111271167)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(198600, 180600, 11490),
@@ -55038,7 +56384,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1211058337)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(198600, 181800, 11270),
@@ -55051,6 +56397,13 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1609121074)
+PlaceObj('Shanty_BeerBottle_01', {
+	'Pos', point(196772, 182675, 7700),
+	'Angle', 18517,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1871625974)
 PlaceObj('SpotLight', {
 	'Pos', point(196794, 182723, 10795),
 	'Saturation', 0,
@@ -55068,6 +56421,14 @@ PlaceObj('SpotLight', {
 	'ConeInnerAngle', 59,
 	'ConeOuterAngle', 140,
 }, nil, 1223051949)
+PlaceObj('Shanty_BeerBottle_01', {
+	'Pos', point(196891, 182658, 7731),
+	'Angle', 5537,
+	'Axis', point(2986, 2782, 339),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1658684461)
 PlaceObj('Room', {
 	'roof_type', "Shed",
 	'roof_mat', "Tin",
@@ -55104,7 +56465,16 @@ PlaceObj('Room', {
 		'EditableMetallic3', -70,
 	}),
 	'inner_wall_mat', "none",
-	'floor_mat', "none",
+	'floor_mat', "Adobe",
+	'floor_colors', PlaceObj('ColorizationPropSet', {
+		'EditableColor1', RGBA(118, 78, 26, 255),
+	}),
+	'spawned_doors', {
+        North = {o(1301578368),},
+        South = {o(1042116501),},},
+	'spawned_windows', {
+        East = {o(1705157170),o(1271007861),o(1437434228),},
+        South = {o(1796253614),},},
 	'spawned_floors', {o(1899474696),o(1872851726),o(1159501753),o(1681994385),o(1627848319),o(1740769785),o(1495354458),o(1214078598),o(1863533171),o(1403804797),o(1309394329),o(1859933905),o(1410026993),o(1617720295),o(1621010981),o(1103065848),o(1616398984),o(1556311615),o(1299711677),o(1779731071),o(1111271167),o(1211058337),o(1820997627),o(1765867455),o(1898229882),o(1557686734),o(1602522643),o(1757100502),o(1278413125),o(1386879708),},
 	'spawned_walls', {
         East = {o(1442746434),o(1534883755),o(1460572943),o(1168079579),o(1183421533),o(1264420628),o(1553043890),o(1120858273),o(1228790663),o(1582549735),o(1149863191),o(1658834217),o(1571333338),o(1717460399),o(1730261515),o(1289143481),o(1401507675),o(1468106101),o(1552891026),o(1785123300),},
@@ -55117,6 +56487,25 @@ PlaceObj('Room', {
         South = {o(1476294742),o(1240591385),o(1589410478),o(1055512822),o(1482849577),},
         West = {o(1715124825),o(1890176667),o(1593063825),o(1423040914),o(1021083876),},},
 }, nil, 1696282951)
+PlaceObj('WeaponProp_Box_01', {
+	'Pos', point(197369, 182972, 8200),
+	'Angle', 423,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1108123949)
+PlaceObj('World_WoodenBox_04', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(87, 67, 42, 255),
+	'EditableColor2', RGBA(33, 28, 22, 255),
+	'EditableColor3', RGBA(16, 7, 1, 255),
+	'Pos', point(197290, 183068, 7700),
+	'Angle', 20117,
+	'Scale', 66,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1301785696)
 PlaceObj('FloorSlab', {
 	'Pos', point(197400, 183000, 7700),
 	'Saturation', 0,
@@ -55124,7 +56513,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1556311615)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(197400, 183000, 11050),
@@ -55137,6 +56526,21 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1883382072)
+PlaceObj('Shanty_TireHorizontal', {
+	'Pos', point(196673, 183392, 11022),
+	'Angle', 7111,
+	'Axis', point(-274, 113, 4085),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1346,
+	'AllowedMask', 782,
+}, nil, 1110006341)
+PlaceObj('JungleCamp_FoodCanPile_02', {
+	'Pos', point(196620, 183527, 7700),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1831876157)
 PlaceObj('FloorSlab', {
 	'Pos', point(197400, 184200, 7700),
 	'Saturation', 0,
@@ -55144,7 +56548,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1299711677)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(197400, 184200, 10830),
@@ -55157,6 +56561,28 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1216370274)
+PlaceObj('Shanty_BottleCrate_02', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(52, 77, 53, 255),
+	'Pos', point(197888, 182690, 7700),
+	'Angle', 19917,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1303990457)
+PlaceObj('City_Plywood_03', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(84, 64, 32, 255),
+	'EditableColor2', RGBA(46, 39, 24, 255),
+	'EditableColor3', RGBA(98, 74, 42, 255),
+	'Pos', point(198257, 182912, 11018),
+	'Angle', 15472,
+	'Axis', point(1680, 3575, 1083),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1346,
+	'AllowedMask', 782,
+}, nil, 1243121535)
 PlaceObj('FloorSlab', {
 	'Pos', point(198600, 183000, 7700),
 	'Saturation', 0,
@@ -55164,7 +56590,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1820997627)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(198600, 183000, 11050),
@@ -55184,7 +56610,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1765867455)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(198600, 184200, 10830),
@@ -55204,7 +56630,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1557686734)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(199800, 180600, 11490),
@@ -55217,6 +56643,28 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1509283949)
+PlaceObj('WW2_SandBag_03', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(52, 45, 41, 255),
+	'EditableColor2', RGBA(52, 45, 41, 255),
+	'EditableColor3', RGBA(30, 47, 27, 255),
+	'Pos', point(199834, 180489, 9378),
+	'Angle', 7433,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1521532765)
+PlaceObj('WW2_SandBag_04', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(52, 45, 41, 255),
+	'EditableColor2', RGBA(52, 45, 41, 255),
+	'EditableColor3', RGBA(130, 128, 120, 255),
+	'Pos', point(200067, 180514, 8323),
+	'Angle', 10429,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1115012960)
 PlaceObj('WallSlab', {
 	'Pos', point(200400, 180600, 7700),
 	'Saturation', 0,
@@ -55262,10 +56710,68 @@ PlaceObj('RoofWallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 2,
 	'material', "Tin",
 }, nil, 1032745978)
+PlaceObj('WallSlab', {
+	'Pos', point(200400, 180600, 10500),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 0,
+	'subvariant', 2,
+	'material', "Tin",
+	'colors', PlaceObj('ColorizationPropSet', {
+		'EditableColor1', RGBA(69, 58, 39, 255),
+		'EditableRoughness1', -70,
+		'EditableMetallic1', 55,
+		'EditableColor2', RGBA(69, 58, 39, 255),
+		'EditableRoughness2', -70,
+		'EditableMetallic2', 55,
+		'EditableColor3', RGBA(48, 25, 14, 255),
+		'EditableRoughness3', 31,
+		'EditableMetallic3', -70,
+	}),
+	'always_visible', true,
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1330254326)
+PlaceObj('WallSlab', {
+	'Pos', point(200400, 180600, 10500),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'Warped', true,
+	'AllowedMask', 0,
+	'subvariant', 2,
+	'material', "Tin",
+	'colors', PlaceObj('ColorizationPropSet', {
+		'EditableColor1', RGBA(69, 58, 39, 255),
+		'EditableRoughness1', -70,
+		'EditableMetallic1', 55,
+		'EditableColor2', RGBA(69, 58, 39, 255),
+		'EditableRoughness2', -70,
+		'EditableMetallic2', 55,
+		'EditableColor3', RGBA(48, 25, 14, 255),
+		'EditableRoughness3', 31,
+		'EditableMetallic3', -70,
+	}),
+	'always_visible', true,
+	'forceInvulnerableBecauseOfGameRules', false,
+}, nil, 1582408901)
+PlaceObj('WindowVent_Planks_Small_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(69, 58, 39, 255),
+	'EditableColor2', RGBA(48, 25, 14, 255),
+	'EditableColor3', RGBA(48, 25, 14, 255),
+	'Pos', point(200400, 180600, 10500),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2905,
+	'AllowedMask', 782,
+	'width', 0,
+	'height', 1,
+	'owned_slabs', {o(1582408901),o(1330254326),},
+}, nil, 1705157170)
 PlaceObj('RoofWallSlab', {
 	'Pos', point(200400, 180600, 11200),
 	'Saturation', 0,
@@ -55292,7 +56798,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1602522643)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(199800, 181800, 11270),
@@ -55320,17 +56826,30 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 1,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1264420628)
+PlaceObj('Window_Shanty_Single_02', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(52, 77, 53, 255),
+	'EditableColor2', RGBA(67, 42, 10, 255),
+	'EditableColor3', RGBA(69, 58, 39, 255),
+	'Pos', point(200400, 181800, 8400),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+	'subvariant', 2,
+	'material', "Shanty",
+	'height', 2,
+}, nil, 1437434228)
 PlaceObj('WallSlab', {
 	'Pos', point(200400, 181800, 9100),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 1,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -55380,7 +56899,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1757100502)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(199800, 183000, 11050),
@@ -55459,7 +56978,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1278413125)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(199800, 184200, 10830),
@@ -55482,12 +57001,24 @@ PlaceObj('WallSlab', {
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1571333338)
+PlaceObj('Window_Shanty_Single_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(52, 77, 53, 255),
+	'EditableColor2', RGBA(67, 42, 10, 255),
+	'EditableColor3', RGBA(69, 58, 39, 255),
+	'Pos', point(200400, 184200, 8400),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+	'material', "Shanty",
+	'height', 2,
+}, nil, 1271007861)
 PlaceObj('WallSlab', {
 	'Pos', point(200400, 184200, 8400),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 1,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -55497,7 +57028,7 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-	'AllowedMask', 4294967279,
+	'AllowedMask', 16,
 	'subvariant', 1,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -55531,6 +57062,59 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1171238157)
+PlaceObj('Shanty_CardboardBox_04', {
+	'Pos', point(197177, 185168, 7700),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1225055622)
+PlaceObj('Shanty_CardboardBox_04', {
+	'Pos', point(197080, 185367, 7848),
+	'Angle', 16835,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1296424785)
+PlaceObj('Shanty_CardboardBox_04', {
+	'Pos', point(197120, 185620, 7700),
+	'Angle', 15770,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1400105576)
+PlaceObj('JungleCamp_FoodCanPile_04', {
+	'Pos', point(197335, 185637, 8210),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1725069239)
+PlaceObj('Prison_Shelves_01', {
+	'Pos', point(197363, 185635, 7700),
+	'Angle', 16200,
+	'Scale', 74,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2051,
+	'AllowedMask', 782,
+}, nil, 1199594011)
+PlaceObj('Prison_Shelves_01', {
+	'Pos', point(197363, 185635, 8352),
+	'Angle', 16200,
+	'Scale', 74,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2051,
+	'AllowedMask', 782,
+}, nil, 1245235632)
+PlaceObj('Prison_Shelves_01', {
+	'Pos', point(197363, 185635, 9024),
+	'Angle', 16200,
+	'Scale', 74,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 2051,
+	'AllowedMask', 782,
+}, nil, 1780750155)
 PlaceObj('FloorSlab', {
 	'Pos', point(197400, 185400, 7700),
 	'Saturation', 0,
@@ -55538,7 +57122,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1779731071)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(197400, 185400, 10610),
@@ -55551,6 +57135,20 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1469314760)
+PlaceObj('Shanty_CardboardBox_03', {
+	'Pos', point(197626, 185570, 7700),
+	'Angle', 16122,
+	'Scale', 129,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1741941208)
+PlaceObj('JungleCamp_FoodCanPile_06', {
+	'Pos', point(197508, 185606, 8848),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1025944665)
 PlaceObj('WallSlab', {
 	'Pos', point(197400, 186000, 7700),
 	'Angle', 5400,
@@ -55606,6 +57204,33 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1088181618)
+PlaceObj('Scaffolding_Planks_04', {
+	'Pos', point(198270, 185029, 10753),
+	'Angle', 18313,
+	'Axis', point(774, 562, 3982),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1741,
+	'AllowedMask', 4294967279,
+}, nil, 1813988449)
+PlaceObj('Scaffolding_Planks_03', {
+	'Pos', point(198624, 185259, 10718),
+	'Angle', 4935,
+	'Axis', point(-572, 761, 3983),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1741,
+	'AllowedMask', 4294967279,
+}, nil, 1710040402)
+PlaceObj('Scaffolding_Planks_05', {
+	'Pos', point(198337, 185359, 10704),
+	'Angle', 18229,
+	'Axis', point(1293, 324, 3872),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'CollectionIndex', 1741,
+	'AllowedMask', 4294967279,
+}, nil, 1030094784)
 PlaceObj('FloorSlab', {
 	'Pos', point(198600, 185400, 7700),
 	'Saturation', 0,
@@ -55613,7 +57238,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1898229882)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(198600, 185400, 10610),
@@ -55648,6 +57273,19 @@ PlaceObj('WallSlab', {
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1452850547)
+PlaceObj('Window_Shanty_Single_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(52, 77, 53, 255),
+	'EditableColor2', RGBA(67, 42, 10, 255),
+	'EditableColor3', RGBA(69, 58, 39, 255),
+	'Pos', point(198600, 186000, 8400),
+	'Angle', 5400,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+	'material', "Shanty",
+	'height', 2,
+}, nil, 1796253614)
 PlaceObj('WallSlab', {
 	'Pos', point(198600, 186000, 9100),
 	'Angle', 5400,
@@ -55681,6 +57319,12 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1330231511)
+PlaceObj('Cinematic_Ashtray_02', {
+	'Pos', point(200447, 184426, 8443),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1714774359)
 PlaceObj('FloorSlab', {
 	'Pos', point(199800, 185400, 7700),
 	'Saturation', 0,
@@ -55688,7 +57332,7 @@ PlaceObj('FloorSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 1,
-	'material', "none",
+	'material', "Adobe",
 }, nil, 1386879708)
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(199800, 185400, 10610),
@@ -55877,6 +57521,41 @@ PlaceObj('RoofCorner', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1336748937)
+PlaceObj('WW2_SandBag_02', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(55, 46, 31, 255),
+	'EditableColor2', RGBA(29, 24, 12, 255),
+	'EditableColor3', RGBA(55, 46, 41, 255),
+	'Pos', point(200947, 184243, 7639),
+	'Angle', 10800,
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1808350256)
+PlaceObj('Mine_WoodenBeam_Assembly_04', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(79, 71, 67, 255),
+	'EditableColor2', RGBA(79, 63, 50, 255),
+	'EditableColor3', RGBA(79, 63, 50, 255),
+	'Pos', point(201479, 183664, 9440),
+	'Angle', 5446,
+	'Axis', point(4042, -468, 468),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1411925575)
+PlaceObj('WW2_SandBag_01', {
+	'ColorizationPalette', "",
+	'EditableColor1', RGBA(55, 46, 31, 255),
+	'EditableColor2', RGBA(29, 24, 12, 255),
+	'EditableColor3', RGBA(55, 46, 41, 255),
+	'Pos', point(202568, 193899, 7888),
+	'Angle', 2648,
+	'Axis', point(-42, -27, 4095),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 782,
+}, nil, 1836882458)
 PlaceObj('Shanty_WoodenFence_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(57, 43, 28, 255),
@@ -56112,6 +57791,14 @@ PlaceObj('CollectionsToHidePersistableData', {
 	'room', o(1119553618),
 	'Roof', {o(1092922223),},
 }, nil, 1272821903)
+PlaceObj('CollectionsToHidePersistableData', {
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294966497,
+	'room', o(1696282951),
+	'East', {o(1434175845),},
+	'Roof', {o(1434175845),o(1066409094),o(1840804277),},
+}, nil, 1457458668)
 PlaceObj('CollectionsToHidePersistableData', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -66710,7 +68397,9 @@ p("TropicalRockAssembly_01",154798,177564,8234,14684,250,-51,-223,4089,"terrainc
 p("DecSteps_03",159314,167061,8542,16415,4288123784,60,2098185)
 p("DecSteps_02",162169,165652,8446,926,4288123784,2097161)
 p("DecForestMoss_01",163773,163967,8349,21235,117,4289373851,3028,2758,22,42,2098205)
+p("Shanty_BrickPile_12",162555,175763,8266,16200,2150182196,2151371879,"",1075841537)
 p("Shanty_BrickPile_09",160292,177065,8390,16200,2907195988,2888379700,8405826,"",1075849729)
+p("Shanty_BrickPile_13",163654,177031,8346,5400,2150182196,2151371879,"",1075841537)
 p("SavannaPlant_Grass_02",147977,180315,10343,116,2097156)
 p("TropicalRockSharp_01",148424,181986,6717,5648,198,-405,2905,2858,"terrainchunk",10,0,0,55,100,10,40,60,2228245)
 p("TropicalRockSharp_01",151125,181819,7556,14725,150,1202,-48,3915,"terrainchunk",10,0,0,35,59,10,40,60,2228245)
@@ -66814,7 +68503,7 @@ p("SavannaPlant_Grass_03",164290,146150,15295,139,2735,2097412)
 p("TropicalRockAssembly_01",168469,139761,8850,11350,104,4,-57,4095,"terrainchunk",0,0,0,72,97,10,40,60,2228245)
 p("TropicalRockAssembly_01",168445,141758,8851,8188,104,-23,-58,4095,"terrainchunk",0,0,0,72,97,10,40,60,2228245)
 p("Floor_MetalScaff_02",173408,131424,9119,2151241583,2150054469,"",1073744385)
-p("HMMWV",172650,135447,9021,1,129)
+p("HMMWV",172651,135446,9021,1,129)
 p("TropicalRockAssembly_01",176947,133252,9041,6558,104,"terrainchunk",0,0,0,72,97,10,40,60,2228229)
 p("TropicalRockAssembly_01",179380,131281,7734,10008,132,-65,174,4091,6,"terrainchunk",0,0,0,82,93,10,40,60,2228373)
 p("TropicalRockAssembly_01",176761,139151,8850,11350,104,4,-57,4095,"terrainchunk",0,0,0,72,97,10,40,60,2228245)
@@ -66854,6 +68543,7 @@ p("SavannaPlant_Grass_04",174503,150766,11394,141,2735,2097412)
 p("SavannaPlant_Grass_01",175406,149675,9034,2802,137,2735,2097413)
 p("DecBunker_ConcretePile_02",173160,152078,8801,684,69,-500,-354,4049,"terrainchunk",10,0,0,44,59,10,40,60,2228245)
 p("SavannaPlant_Grass_04",173544,152245,16871,145,2735,2097412)
+p("TropicalRockAssembly_01",173200,153404,8656,6891,91,4286414205,49,-17,4095,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
 p("SavannaPlant_Grass_01",174212,152666,8942,8322,142,2735,2097413)
 p("SavannaPlant_Grass_02",177131,148844,1233,136,2735,2097412)
 p("SavannaPlant_Grass_04",176209,151102,16885,144,2735,2097412)
@@ -67315,7 +69005,7 @@ p("TropicalRockAssembly_01",189207,162007,7525,19629,122,-44,-565,4056,6,"terrai
 p("TropicalRockAssembly_01",188770,162870,7603,2417,122,6,"terrainchunk",0,0,0,56,82,10,40,60,2228357)
 p("DecBunkerFloor_03",196426,157030,9233,145,4282396445,3200,20,2098252)
 p("DecBunker_ConcretePile_02",196515,157351,17386,129,"terrainchunk",10,0,0,44,59,10,40,60,2228228)
-p("DecBunker_ConcretePile_02",194856,159228,17412,129,-166,-247,4085,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
+p("DecBunker_ConcretePile_02",194856,159228,16645,129,7,-61,4095,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
 p("DecSteps_02",163987,166599,8618,6423,4288123784,2097161)
 p("DecBunker_ConcretePile_02",175642,175113,8365,1446,149,244,-9,4088,"terrainchunk",10,0,0,44,59,10,40,60,2228245)
 p("DecBunker_ConcretePile_04",179733,175642,8346,2632,129,-176,47,4091,"terrainchunk",10,0,0,31,56,10,40,60,2228245)
@@ -67431,6 +69121,7 @@ p("TropicalRockAssembly_01",179424,194462,13360,2714,152,2898,975,2724,"terrainc
 p("TropicalRockAssembly_01",178206,194812,13908,13423,128,192,-1583,3773,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("TropicalRockAssembly_01",179016,195381,13980,3890,128,2877,448,2881,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("MODScreen_Canvas_01",183740,163883,8344,16219,69,4278657900,2097165)
+p("Shanty_BrickPile_10",186665,164999,0)
 p("DecBunker_ConcretePile_02",186739,165195,12502,78,-287,-5,4086,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
 p("SavannaPlant_Grass_04",187950,165107,472,134,2097156)
 p("SavannaPlant_Grass_04",186584,167183,1720,125,2097156)
@@ -67445,6 +69136,8 @@ p("SavannaPlant_Grass_02",188245,169794,12713,126,2097156)
 p("SavannaPlant_Grass_04",186600,170511,5873,120,2097156)
 p("SavannaPlant_Grass_04",187183,170430,9368,109,2097156)
 p("SavannaPlant_Bush_05",180375,177791,8352,11412,76,2097157)
+p("SavannaPlant_Grass_04",188016,173269,8348,17862,180,2097157)
+p("SavannaPlant_Grass_03",187734,175005,8348,18746,93,2097157)
 p("SavannaPlant_Grass_01",185803,179561,13115,157,2097156)
 p("SavannaPlant_Grass_02",186562,179186,20363,162,2097156)
 p("SavannaPlant_Grass_02",186753,180024,19432,160,2097156)
@@ -67454,12 +69147,37 @@ p("SavannaPlant_Grass_01",189328,164327,13993,132,2097156)
 p("SavannaPlant_Bush_05",188878,164888,8346,16051,118,41,-451,4070,2097173)
 p("SavannaPlant_AloeMarlothii_01",189428,165224,8348,2120,103,2097157)
 p("SavannaPlant_AloeMarlothii_02",189568,164726,8412,19552,120,2097157)
+p("SavannaRockWalk_01",190200,165000,7700,10800,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("SavannaPlant_Grass_01",189489,166441,8954,157,2097156)
 p("SavannaPlant_Grass_04",189032,168030,3815,118,2097156)
 p("SavannaPlant_Grass_04",188843,169204,472,134,2097156)
 p("DecBunkerFloor_03",193403,164414,13535,149,4282396445,3200,20,2098252)
-p("DecBunker_ConcretePile_02",195671,168049,8102,18205,129,466,-315,4057,"terrainchunk",10,0,0,44,59,10,40,60,2228245)
+p("DecBunker_ConcretePile_02",195671,168049,7735,18052,129,-62,-75,4094,"terrainchunk",10,0,0,44,59,10,40,60,2228245)
 p("DecBunkerFloor_03",189742,179789,1607,165,4282396445,20,2098188)
+p("TropicalRockAssembly_01",193857,174857,7679,21254,128,2078,-1479,3205,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
+p("DecWallDirt_06",193199,177265,10699,623,4095,5,0,1551,2097425)
+p("DecWallDirt_07",193201,177739,12056,20976,4095,-5,0,2841,2097425)
+p("DecWallRust_02",193552,178086,10849,10799,110,0,4079,370,1239,2097429)
+p("DecWallLeak_02",193901,177739,12056,20976,4095,-5,0,1029,2097425)
+p("DecWallLeak_04",193950,177776,10821,5427,368,-368,4062,2087,2097425)
+p("DecWallRust_01",194236,177782,10794,622,150,4096,5,1,2826,2097429)
+p("DecWallRust_02",193554,180201,11604,10799,110,0,-4079,370,759,2097429)
+p("DecBunkerFloor_02",193800,179905,8400,14994,145,-2862,-2071,2071,456,2097429)
+p("DecWallRust_01",194234,179289,11769,20977,150,4096,-5,1,267,2097429)
+p("DecWallLeak_03",194598,176595,10576,623,4095,5,0,876,2097425)
+p("DecWallRust_02",195166,176747,10633,10360,110,-2890,2890,261,364,2097429)
+p("DecWallRust_01",195475,177419,10756,5427,150,368,-368,4062,2665,2097429)
+p("DecWallLeak_03",195381,177776,10821,5427,368,-368,4062,2087,2097425)
+p("DecWallDirt_06",196000,176399,10570,5427,368,-368,4062,2111,2097425)
+p("DecWallLeak_04",196602,176528,10565,10799,0,4079,370,1708,2097425)
+p("DecWallLeak_01",194601,178623,10980,10361,-2890,2890,261,1985,2097425)
+p("DecWallLeak_01",194599,178642,10951,623,4095,5,0,876,2097425)
+p("DecWallRust_01",195476,178981,11043,10361,150,-2891,2890,262,2435,2097429)
+p("DecWallRust_02",195167,179652,11167,5427,110,367,-367,4062,4013,2097429)
+p("DecBunkerFloor_02",195429,179984,9770,7807,145,-1904,2564,2564,456,2097429)
+p("DecWallLeak_01",196601,178642,10951,10799,0,4079,370,1708,2097425)
+p("DecWallDirt_06",196000,179999,11670,5428,-368,368,4062,1447,2097425)
+p("DecWallDirt_06",196001,180000,11231,10361,-2890,2890,261,1023,2097425)
 p("SavannaPlant_Grass_03",181223,180274,2694,143,2097156)
 p("DecBunkerFloor_03",181013,180856,10408,145,4282396445,20,2098188)
 p("SavannaPlant_Grass_04",181062,182283,1603,128,2097156)
@@ -67509,11 +69227,37 @@ p("TropicalRockAssembly_04",185806,195182,11432,17034,157,-525,-1560,3751,"terra
 p("SavannaPlant_Grass_01",186862,192754,18863,143,2097156)
 p("DecBunker_ConcretePile_04",186468,193174,10339,8452,129,805,-592,3972,"terrainchunk",10,0,0,31,56,10,40,60,2228245)
 p("TropicalRockAssembly_01",186506,193240,10004,12050,128,519,-543,4026,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
+p("SavannaRockWalk_01",189000,180600,7700,"terrainchunk",10,0,0,40,60,10,40,60,131073)
 p("SavannaPlant_Grass_02",188868,181836,2210,162,2097156)
 p("SavannaPlant_Grass_04",189443,181601,1022,155,2097156)
+p("SavannaRockWalk_02",189000,184200,7700,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("SavannaPlant_Grass_04",189949,182934,6865,147,2097156)
+p("SavannaPlant_Grass_04",189255,188215,8024,19865,210,2097157)
 p("SavannaPlant_Grass_02",189536,187521,20250,130,2097156)
-p("SavannaPlant_Grass_02",192028,188376,17674,171,3200,2097220)
+p("DecBunkerFloor_02",193187,180235,9770,11511,145,-2880,425,2880,456,2097429)
+p("DecWallLeak_04",193950,181376,11419,5428,-368,368,4062,2737,2097425)
+p("Prison_Decoration_02",193512,182409,7700,1)
+p("DecBunkerFloor_02",193105,183000,8400,14803,145,-2180,2697,2180,456,2097429)
+p("DecWallDirt_07",193200,183246,11046,20976,4095,-5,0,2841,2097425)
+p("DecBunkerFloor_02",193187,183985,8817,11511,145,-2880,425,2880,456,2097429)
+p("DecBunkerFloor_02",193800,183000,7700,17759,190,1733,2097413)
+p("DecWallLeak_02",193900,183246,11046,20976,4095,-5,0,1029,2097425)
+p("DecWallRust_02",193553,184067,10895,10799,110,0,-4079,370,759,2097429)
+p("DecWallRust_01",194235,183763,10950,20977,150,4096,-5,1,267,2097429)
+p("DecWallRust_02",195166,180347,11607,10362,110,2890,-2890,261,2963,2097429)
+p("Faction_BagMedic_01",195211,180265,7868,1252,2097153)
+p("DecWallRust_01",195475,181019,11483,5429,150,-368,368,4062,3246,2097429)
+p("DecWallLeak_04",195449,181376,11419,5428,-368,368,4062,2737,2097425)
+p("Shanty_Carpet_05",196405,180613,7700,1)
+p("DecBunkerFloor_02",193105,185400,7700,11511,145,-2880,425,2880,456,2097429)
+p("DecWallLeak_04",193949,184624,10821,10360,2890,-2891,262,2700,2097425)
+p("DecBunkerFloor_02",193800,186095,9800,6187,145,-3252,1760,1760,456,2097429)
+p("DecBunkerFloor_02",194408,185982,8940,13355,145,-1595,-2667,2667,456,2097429)
+p("Shanty_Carpet_01",194881,185217,7700,1)
+p("DecWallRust_01",195474,184981,10757,10360,150,2890,-2891,262,1933,2097429)
+p("DecWallRust_02",195165,185653,10633,5427,110,-369,368,4062,3626,2097429)
+p("DecWallDirt_03",195999,185380,10683,5427,108,-369,368,4062,3210,2097429)
+p("DecBunkerFloor_02",196200,186095,9800,16147,145,4034,501,501,456,2097429)
 p("SavannaPlant_Grass_04",188534,190013,12179,157,2097156)
 p("DecBunker_ConcretePile_05",188939,190133,12460,129,7,-705,4035,"terrainchunk",10,0,0,31,56,10,40,60,2228244)
 p("SavannaPlant_Grass_02",189587,190046,9771,158,2097156)
@@ -67532,11 +69276,10 @@ p("TropicalRockAssembly_01",189735,195175,10193,7955,128,1005,-675,3913,"terrain
 p("SavannaPlant_Grass_01",191777,193443,17546,78,2097156)
 p("SavannaPlant_Grass_01",190784,194903,4040,104,2097156)
 p("SavannaPlant_Grass_03",191785,195572,3412,103,2097156)
-p("DecBunkerFloor_03",194515,188972,20726,165,4282396445,3200,20,2098252)
+p("DecBunkerFloor_03",194515,188559,7969,20343,250,4282396445,-1178,-1300,3701,3200,20,2098269)
 p("SavannaPlant_Grass_01",193982,190158,18082,93,2097156)
 p("SavannaPlant_Grass_03",193700,192163,2358,159,2097156)
-p("SavannaPlant_Grass_04",194910,189115,19865,210,2097156)
-p("SavannaPlant_Grass_03",195398,190611,2066,144,2097156)
+p("SavannaPlant_Grass_01",195309,191138,10673,168,2097156)
 p("SavannaPlant_Grass_01",195043,192380,847,75,2097156)
 p("SavannaPlant_Grass_01",193246,193933,20795,68,2097156)
 p("SavannaPlant_Grass_02",193483,195143,19760,149,2097156)
@@ -69093,7 +70836,7 @@ p("SavannaPlant_Grass_04",204677,155569,18872,61,2097156)
 p("DecBunker_ConcretePile_02",197822,157402,11074,129,-10,18,4095,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
 p("TropicalRockAssembly_01",200456,156959,7435,1313,162,-279,236,4079,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("SavannaPlant_Grass_03",200354,158552,15818,125,3200,2097220)
-p("DecBunker_ConcretePile_02",197343,162481,11869,116,"terrainchunk",10,0,0,44,59,10,40,60,2228228)
+p("DecBunker_ConcretePile_02",197343,162481,11823,116,-81,1,4095,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
 p("SavannaPlant_Grass_02",202132,157600,2544,126,3200,2097220)
 p("SavannaPlant_Grass_04",201103,158318,5274,131,3200,2097220)
 p("SavannaPlant_Grass_04",202148,159462,6898,125,3200,2097220)
@@ -69325,6 +71068,7 @@ p("DecBunkerFloor_03",226019,158432,3599,165,4282396445,56,81,4095,3200,20,20982
 p("SavannaPlant_Grass_04",229084,156493,4115,197,2097156)
 p("SavannaPlant_AloeMarlothii_03",199570,164110,20852,125,3200,2097220)
 p("SavannaPlant_Grass_04",201628,163870,14972,133,3200,2097220)
+p("SavannaPlant_Grass_02",200918,165629,17674,171,2097156)
 p("SavannaPlant_Grass_02",201663,165736,19632,132,3200,2097220)
 p("SavannaPlant_Grass_01",202726,165413,7650,4272,128,3200,2097221)
 p("SavannaPlant_Grass_03",202383,167174,3116,134,3200,2097220)
@@ -69338,8 +71082,22 @@ p("SavannaPlant_Bush_05",204604,169975,2059,168,2097156)
 p("SavannaPlant_Grass_04",202999,171517,2051,144,2097156)
 p("SavannaPlant_Bush_05",203074,171380,12760,154,2097156)
 p("SavannaPlant_Grass_01",200369,175634,2231,192,2097156)
+p("DecWallLeak_03",196744,177776,10821,5427,368,-368,4062,2087,2097425)
+p("DecWallRust_01",196964,177782,10794,10799,150,0,4079,370,3677,2097429)
+p("DecWallDirt_03",197370,177265,10699,20978,108,-4095,12,2,307,2097429)
+p("DecWallRust_02",197647,178086,10850,20978,110,-4095,12,2,3074,2097429)
+p("DecWallLeak_01",197400,178623,10981,10361,-2890,2890,261,1985,2097425)
+p("DecBunkerFloor_02",197400,179905,8400,11564,145,-457,-2878,2878,456,2097429)
+p("DecWallRust_02",199097,176746,10633,10360,110,-2890,2890,261,364,2097429)
+p("DecWallLeak_01",198825,177775,10821,5427,368,-368,4062,2087,2097425)
+p("DecWallRust_01",200024,177418,10755,5427,150,368,-368,4062,2665,2097429)
 p("SavannaPlant_Grass_01",200378,177463,21091,183,2097156)
-p("SavannaPlant_Grass_04",200263,179356,17862,180,2097156)
+p("DecWallDirt_07",200400,177738,12050,10800,0,-4079,370,2980,2097425)
+p("DecWallRust_02",199098,179652,11168,5427,110,367,-367,4062,4013,2097429)
+p("DecBunkerFloor_02",199002,179984,9770,7807,145,-1904,2564,2564,456,2097429)
+p("DecWallRust_01",199364,179289,11768,10800,150,0,-4079,370,1715,2097429)
+p("DecWallRust_01",200025,178982,11043,10361,150,-2891,2890,262,2435,2097429)
+p("DecWallRust_02",200047,180201,11600,621,110,-4095,0,0,3249,2097429)
 p("SavannaPlant_Grass_01",201797,173038,1211,192,2097156)
 p("SavannaPlant_Grass_04",201556,174645,18150,103,2097156)
 p("SavannaPlant_Grass_02",203168,172630,20128,206,2097156)
@@ -69378,7 +71136,7 @@ p("SavannaPlant_Grass_04",212918,166527,1703,185,2097156)
 p("SavannaPlant_Grass_03",209519,169457,20569,85,2097156)
 p("SavannaPlant_Grass_02",210802,168130,18283,157,2097156)
 p("SavannaPlant_Grass_01",209341,171066,3311,75,2097156)
-p("SavannaPlant_Bush_05",210233,170629,5920,165,3200,2097220)
+p("SavannaPlant_Bush_05",210233,170629,5920,165,2097156)
 p("SavannaPlant_Grass_04",210964,169728,20221,110,2097156)
 p("SavannaPlant_Grass_01",211042,170849,2588,92,2097156)
 p("SavannaPlant_Grass_01",212749,171581,19725,173,2097156)
@@ -69403,7 +71161,7 @@ p("SavannaPlant_Grass_01",209643,173135,379,71,2097156)
 p("SavannaPlant_Grass_01",209385,174436,641,90,2097156)
 p("SavannaPlant_Grass_04",211223,173059,20569,189,2097156)
 p("SavannaPlant_Grass_04",212976,172768,4001,66,2097156)
-p("SavannaPlant_Bush_05",211235,174185,2560,154,3200,2097220)
+p("SavannaPlant_Bush_05",211235,174185,2560,154,2097156)
 p("SavannaPlant_Grass_01",211359,174323,1572,214,2097156)
 p("SavannaPlant_Grass_02",211288,175968,20159,89,2097156)
 p("SavannaPlant_Grass_03",212734,174735,20763,137,2097156)
@@ -69415,33 +71173,44 @@ p("SavannaPlant_Grass_01",212706,176255,2953,145,2097156)
 p("SavannaPlant_Grass_02",212791,177544,2247,144,2097156)
 p("SavannaPlant_Grass_03",211015,179027,3690,114,2097156)
 p("SavannaPlant_Grass_03",212632,179161,18187,147,2097156)
-p("SavannaPlant_Grass_03",199981,181092,18746,93,2097156)
-p("SavannaPlant_Grass_02",196909,187354,2685,82,2097156)
-p("SavannaPlant_Grass_03",198208,187532,4091,142,2097156)
-p("DecBunker_ConcretePile_05",199826,186692,6980,129,-214,8,4090,3200,"terrainchunk",10,0,0,31,56,10,40,60,2228308)
+p("Prison_Decoration_06",198234,180607,7963,5400,4280424202,2097161)
+p("DecBunkerFloor_02",198600,183000,7700,4674,190,1733,2097413)
+p("DecWallLeak_01",199000,180395,11562,10800,0,-4079,370,2607,2097425)
+p("DecWallRust_02",199097,180347,11607,10362,110,2890,-2890,261,2963,2097429)
+p("DecWallLeak_02",198998,180687,11545,5428,-368,368,4062,2737,2097425)
+p("City_Suitcase_01",199553,180769,7700,6045,2097153)
+p("DecWallRust_01",200024,181020,11482,5429,150,-368,368,4062,3246,2097429)
+p("DecBunkerFloor_02",200495,180600,8400,11510,145,2881,-424,2881,456,2097429)
+p("DecBunkerFloor_02",200398,182119,9770,5472,145,592,4009,591,456,2097429)
+p("DecWallLeak_01",199000,183149,11060,10800,0,-4079,370,2607,2097425)
+p("DecWallRust_01",199364,183763,10950,10800,150,0,-4079,370,1715,2097429)
+p("DecWallDirt_03",199770,183246,11044,621,108,-4095,0,0,2980,2097429)
+p("City_Suitcase_01",200327,183074,7972,17100,0,4096,0,2097169)
+p("DecBunkerFloor_02",200495,183000,8400,15420,145,1755,-3258,1755,456,2097429)
+p("DecWallRust_02",200047,184067,10894,621,110,-4095,0,0,3249,2097429)
+p("DecWallLeak_02",197498,185311,10694,10360,2890,-2891,262,2700,2097425)
+p("DecBunkerFloor_02",197400,186095,7700,9448,145,-815,2838,2838,456,2097429)
+p("DecBunkerFloor_02",198585,185982,9770,14951,145,-2824,-2098,2099,456,2097429)
+p("DecWallLeak_04",199000,185263,10675,10800,0,-4079,370,2607,2097425)
+p("DecWallRust_02",199096,185652,10632,5427,110,-369,368,4062,3626,2097429)
+p("DecWallRust_01",200023,184980,10757,10360,150,2890,-2891,262,1933,2097429)
+p("DecBunkerFloor_02",199800,186095,7700,7845,145,-1877,2574,2574,456,2097429)
+p("DecBunkerFloor_02",200495,185400,9800,9273,145,2821,924,2821,456,2097429)
+p("DecBunker_ConcretePile_05",199826,186692,4074,129,9,38,4095,"terrainchunk",10,0,0,31,56,10,40,60,2228244)
+p("DecWallDirt_03",201599,180619,11557,10362,108,2890,-2890,261,1447,2097429)
 p("SavannaPlant_Grass_01",201756,181092,2580,149,2097156)
 p("SavannaPlant_Grass_02",203469,180433,1090,155,2097156)
-p("SavannaPlant_Bush_05",203132,182022,19240,108,2097156)
 p("SavannaPlant_Grass_04",203595,182230,147,2097152)
 p("SavannaPlant_Grass_02",203304,184243,17656,151,2097156)
 p("SavannaPlant_Grass_01",204626,182582,1808,182,2097156)
 p("SavannaPlant_Grass_04",204646,184084,21556,182,2097156)
-p("TropicalRockAssembly_01",202600,184500,7900,687,128,3200,"terrainchunk",10,0,0,13,34,10,40,60,2228293)
-p("TropicalRockAssembly_01",201008,186885,7855,20983,128,1072,1645,3595,3200,"terrainchunk",10,0,0,13,34,10,40,60,2228309)
-p("TropicalRockAssembly_01",204202,184770,8167,9916,110,-132,-20,4093,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
-p("TropicalRockAssembly_04",204382,184397,8236,9398,108,-160,103,4091,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
-p("SavannaPlant_Grass_04",203526,187479,3711,79,2097156)
-p("DecBunker_ConcretePile_02",204001,186400,7031,129,-185,-18,4092,"terrainchunk",10,0,0,31,56,10,40,60,2228244)
-p("SavannaPlant_Grass_04",196749,189026,4467,114,2097156)
-p("SavannaPlant_Grass_02",198584,189156,19721,185,2097156)
-p("SavannaPlant_Grass_03",197108,190732,1593,78,2097156)
-p("SavannaPlant_Grass_03",196954,192125,33,192,2097156)
-p("SavannaPlant_Grass_04",199716,188655,21271,97,2097156)
-p("SavannaPlant_Grass_02",200428,189042,7904,21191,185,2097157)
-p("SavannaPlant_Grass_01",198701,190639,446,155,2097156)
-p("SavannaPlant_Grass_04",198677,191638,2622,151,2097156)
-p("SavannaPlant_Grass_03",200286,190498,4048,149,2097156)
-p("SavannaPlant_Grass_02",200116,192107,4462,172,2097156)
+p("DecWallLeak_03",200979,184621,10819,10360,2890,-2891,262,2700,2097425)
+p("TropicalRockAssembly_01",201607,185507,7655,1280,128,-290,-1635,3744,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
+p("DecWallDirt_07",201598,185998,10569,10360,2890,-2891,262,3210,2097425)
+p("TropicalRockAssembly_01",204126,184770,7975,10104,110,-237,-48,4088,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
+p("TropicalRockAssembly_04",204470,185423,8067,10230,108,-207,151,4087,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("DecBunker_ConcretePile_02",204001,186400,8087,7347,129,-222,-53,4089,"terrainchunk",10,0,0,31,56,10,40,60,2228245)
+p("SavannaPlant_Grass_04",197440,192147,17315,199,2097156)
 p("SavannaPlant_Grass_04",196779,193998,19532,203,2097156)
 p("SavannaPlant_Grass_01",198044,193745,17601,116,2097156)
 p("TropicalRockAssembly_03",198386,194376,8226,19833,150,-1954,-2067,2946,3876,"terrainchunk",10,0,0,55,76,10,40,60,2228501)
@@ -69450,23 +71219,16 @@ p("SavannaPlant_Grass_02",196722,194981,870,165,2097156)
 p("SavannaPlant_Grass_01",196738,196577,19159,75,2097156)
 p("SavannaPlant_Grass_02",198526,195272,4253,168,2097156)
 p("TropicalRockAssembly_01",198447,195682,8731,3890,161,1167,234,3919,3876,"terrainchunk",10,0,0,13,34,10,40,60,2228501)
+p("SavannaPlant_Bush_05",198802,192974,7880,19240,108,2097157)
 p("DecBunker_ConcretePile_02",199119,194225,4302,149,385,0,4078,3200,"terrainchunk",10,0,0,44,59,10,40,60,2228308)
 p("SavannaPlant_Grass_04",199954,193287,17315,199,2097156)
 p("DecBunker_ConcretePile_04",199981,194188,3860,129,-19,203,4091,3200,"terrainchunk",10,0,0,31,56,10,40,60,2228308)
 p("SavannaPlant_Grass_03",200167,195534,19188,141,2097156)
 p("JungleCamp_Stake_03",200199,196600,8253,18026,1055,-380,3939,2150579017,2150579017,2150579017,"",1075845649)
 p("JungleCamp_Stake_03",200487,196384,8232,6450,137,235,4086,2150579017,2150579017,2150579017,"",1075845649)
-p("SavannaPlant_Grass_01",201843,188476,17439,68,2097156)
-p("SavannaPlant_Grass_01",201964,190202,2044,142,2097156)
-p("SavannaPlant_Grass_04",201889,192286,3477,80,2097156)
-p("SavannaPlant_Grass_04",203477,188779,18712,134,2097156)
-p("SavannaPlant_Grass_01",203516,190048,3308,164,2097156)
-p("SavannaPlant_Grass_02",204656,190047,17325,210,2097156)
-p("SavannaPlant_Grass_01",203462,191821,20402,66,2097156)
 p("SavannaPlant_Grass_03",201615,193975,19957,99,2097156)
 p("SavannaPlant_Grass_03",201237,194955,2401,124,2097156)
 p("DecBunker_ConcretePile_05",201770,194932,7648,9712,129,75,128,4093,3200,"terrainchunk",10,0,0,31,56,10,40,60,2228309)
-p("SavannaPlant_Grass_02",203248,193449,20479,128,2097156)
 p("SavannaPlant_Grass_03",204432,193814,18607,110,2097156)
 p("SavannaPlant_Grass_02",203406,195443,17693,179,2097156)
 p("SavannaPlant_Grass_02",204976,180949,3739,80,2097156)
@@ -69477,6 +71239,8 @@ p("SavannaPlant_Grass_04",207796,180471,2074,117,2097156)
 p("SavannaPlant_Bush_05",207237,183063,126,150,2097156)
 p("SavannaPlant_Grass_01",207900,182679,19538,69,2097156)
 p("SavannaPlant_Grass_02",208027,183754,17148,103,2097156)
+p("JungleCamp_Stake_01",206662,187776,8374,5216,93,593,405,4032,2150579017,2150579017,2150579017,"",1075845653)
+p("JungleCamp_Stake_01",206729,188384,8413,3015,106,1421,525,3805,2150579017,2150579017,2150579017,"",1075845653)
 p("DecBunker_ConcretePile_05",207251,185620,7058,129,-106,-33,4094,"terrainchunk",10,0,0,31,56,10,40,60,2228244)
 p("SavannaRock_09",208537,186605,9009,7122,133,-3573,-1224,1583,"terrainchunk",10,0,0,93,99,10,40,60,2228245)
 p("SavannaPlant_Bush_05",209200,181442,11231,165,2097156)
@@ -69494,7 +71258,6 @@ p("SavannaPlant_Grass_03",211100,185313,411,166,2097156)
 p("SavannaPlant_Grass_04",212712,185719,1245,140,2097156)
 p("SavannaPlant_Grass_02",211013,187368,20514,125,2097156)
 p("SavannaPlant_Grass_02",212463,187426,21526,171,2097156)
-p("SavannaPlant_Grass_01",204998,192155,3644,135,2097156)
 p("JungleCamp_Stake_03",206161,191406,8048,6261,-222,-117,4088,2150579017,2150579017,2150579017,"",1075845649)
 p("SavannaPlant_Grass_02",206747,192339,403,97,2097156)
 p("JungleCamp_Stake_01",207429,188943,8016,3527,106,-1637,3490,1382,2150579017,2150579017,2150579017,"",1075845653)
