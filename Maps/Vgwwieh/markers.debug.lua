@@ -3,6 +3,7 @@
 		Groups = false,
 		LootTableIds = {
 			"Drop_762NATO_Basic",
+			"Drop_762NATO_HP",
 		},
 		handle = 591224832,
 		map = "Vgwwieh",

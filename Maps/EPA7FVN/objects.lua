@@ -2628,7 +2628,7 @@ PlaceObj('GridMarker', {
 	'Type', "DefenderPriority",
 }, nil, 1199176982)
 PlaceObj('GridMarker', {
-	'Pos', point(208200, 161400, 4900),
+	'Pos', point(208200, 151800, 4900),
 	'Angle', 5400,
 	'Groups', {
 		"GameIntro",
@@ -2637,7 +2637,7 @@ PlaceObj('GridMarker', {
 	'Type', "Defender",
 	'ID', "Start",
 	'AreaWidth', 7,
-	'AreaHeight', 20,
+	'AreaHeight', 36,
 	'EnabledConditions', {
 		PlaceObj('QuestIsVariableBool', {
 			QuestId = "01_Landing",
@@ -25256,12 +25256,6 @@ PlaceObj('Shanty_WoodenFence_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1355893444)
-PlaceObj('Cinematic_Cassette_01', {
-	'Pos', point(155890, 187880),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1543994615)
 PlaceObj('JungleCamp_Lantern_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(49, 19, 19, 255),
@@ -25274,6 +25268,14 @@ PlaceObj('JungleCamp_Lantern_01', {
 	'AllowedMask', 0,
 	'AutoAttachMode', "Warm light A",
 }, nil, 1813705287)
+PlaceObj('Cinematic_Cassette_01', {
+	'Pos', point(156430, 188330, 11610),
+	'Angle', 12703,
+	'ColorModifier', RGBA(51, 48, 48, 255),
+	'Saturation', 0,
+	'Gamma', RGBA(0, 0, 128, 255),
+	'AllowedMask', 4294967279,
+}, nil, 1543994615)
 PlaceObj('BunkerInterior_AmmoBox_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(46, 41, 32, 255),
@@ -25338,7 +25340,7 @@ PlaceObj('Shanty_Canvas_10', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 3829,
-	'AllowedMask', 0,
+	'AllowedMask', 64,
 }, nil, 1379882833)
 PlaceObj('Shanty_WoodenFence_03', {
 	'ColorizationPalette', "",
@@ -25427,16 +25429,16 @@ PlaceObj('BunkerInterior_AmmoBox_01', {
 	'EditableColor1', RGBA(46, 41, 32, 255),
 	'EditableColor2', RGBA(12, 21, 12, 255),
 	'EditableColor3', RGBA(153, 68, 31, 255),
-	'Pos', point(162478, 183584, 11197),
-	'Angle', 10547,
+	'Pos', point(162479, 183692, 11197),
+	'Angle', 10894,
 	'ColorModifier', RGBRM(100, 100, 100, -10, 0),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1592990291)
 PlaceObj('Shanty_CardboardBox_03', {
-	'Pos', point(162493, 183603, 11606),
-	'Angle', 19558,
+	'Pos', point(162491, 183711, 11606),
+	'Angle', 19905,
 	'ColorModifier', RGBA(37, 34, 32, 255),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -29457,7 +29459,7 @@ PlaceObj('DummyUnit', {
 	'Pos', point(229762, 162938, 5527),
 	'Angle', 7927,
 	'Axis', point(444, 154, 4068),
-	'StateText', "deadPose3",
+	'StateText', "deadPose4",
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Walkable', false,
@@ -29465,7 +29467,7 @@ PlaceObj('DummyUnit', {
 	'Collision', false,
 	'AllowedMask', 0,
 	'Appearance', "VillagerMale_07",
-	'anim', "deadPose3",
+	'anim', "deadPose4",
 }, nil, 1047489086)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(237800, 155000, 5600),
@@ -51784,6 +51786,9 @@ p("TropicalRockSharp_01",111607,157281,13586,6997,127,2378,-2968,1519,"terrainch
 p("TropicalRockSharp_01",110701,158311,11297,12941,105,2690,2078,2284,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharp_01",112139,159586,9330,12623,118,3326,2346,456,"terrainchunk",10,0,0,23,52,10,40,60,2228245)
 p("TropicalRockAssembly_02",112268,161124,8022,4772,216,462,1390,3825,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_04",113035,162553,8082,4068,-187,1780,3684,"terrainchunk",10,0,0,68,91,50,40,60,2228241)
+p("TropicalRockAssembly_03",113060,163711,7353,10341,161,573,86,4055,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_02",113423,163323,7309,17547,127,805,-805,3935,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("DecBunker_ConcretePile_02",115192,133889,16769,11746,123,-4,1,4096,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockAssembly_01",116745,133446,16729,141,"terrainchunk",10,0,0,40,60,10,40,60,131077)
 p("TropicalRockSharpWalk_02",117000,133800,16100,"terrainchunk",10,0,0,40,60,10,40,60,131073)
@@ -51864,8 +51869,9 @@ p("TropicalRockSharp_02",122501,154653,10233,9176,151,-1905,3369,1338,"terrainch
 p("TropicalRockSharp_01",115159,159085,11297,6783,105,2144,-3234,1312,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharp_02",118008,156787,11516,11674,116,-2148,3487,80,"terrainchunk",10,0,0,47,92,78,40,60,2228245)
 p("TropicalRockSharp_01",117319,157806,8530,12159,118,3314,2263,816,"terrainchunk",10,0,0,23,52,10,40,60,2228245)
-p("TropicalRockAssembly_02",115036,161084,7019,17354,216,649,-628,3995,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_02",115036,161084,6742,17354,216,649,-628,3995,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockAssembly_02",118034,160306,6456,641,216,252,2046,3539,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockAssembly_03",118773,160149,6479,20731,199,64,-1154,3929,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharp_01",119530,156061,10315,9991,105,1454,-3813,346,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockSharp_02",120213,157073,7257,8623,123,-1824,3434,1287,"terrainchunk",10,0,0,40,60,82,40,60,2228245)
 p("TropicalRockSharp_01",121244,157838,7424,6224,105,2214,-3067,1569,"terrainchunk",10,0,0,23,52,10,40,60,2228245)
@@ -53404,8 +53410,8 @@ p("DecBunker_ConcretePile_02",189711,104178,4732,14775,188,"terrainchunk",10,0,0
 p("RiverStones_01",195935,103511,4807,10704,250,177,-3779,-1573,118,2150970677,2149523232,2156572107,"",1076894229)
 p("RiverStones_01",188577,109053,2833,7902,250,177,2150970677,2149523232,2156572107,"",1076894213)
 p("RiverStones_01",194305,106631,4861,10800,250,177,-2792,-2996,0,2150970677,2149523232,2156572107,"",1076894229)
-p("RiverStones_02",181184,117030,3342,1400,250,177,1063,-1562,3634,2150970677,2149523232,2156572107,"",1076894229)
-p("RiverStones_01",181860,118011,4094,5087,142,177,2150970677,2149523232,2156572107,"",1076894213)
+p("RiverStones_02",181184,117030,3342,1400,250,177,1063,-1562,3634,2150970677,2149523232,2156572107,"","terrainchunk",10,0,0,98,100,10,40,60,1077025301)
+p("RiverStones_01",181860,118011,4094,5087,142,177,2150970677,2149523232,2156572107,"","terrainchunk",10,0,0,98,100,10,40,60,1077025285)
 p("RiverStones_02",183523,121665,5145,10426,250,177,-3440,2222,50,2150970677,2149523232,2156572107,"",1076894229)
 p("DecBunker_ConcretePile_02",187733,120845,4066,8697,250,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
 p("DecBunker_ConcretePile_02",183713,123526,4749,20679,188,-569,-2510,3186,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -54527,6 +54533,7 @@ p("TropicalRockSharp_02",161028,176584,12310,11246,101,100,3130,2639,2097173)
 p("TropicalRockSharpWalk_02",160200,179400,10500,16200,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalRockAssembly_01",160402,179341,11110,15915,104,4286478455,"terrainchunk",10,0,0,40,60,10,40,60,2228237)
 p("TropicalRockSharp_01",161605,178342,7307,14827,-2427,-2271,2393,"terrainchunk",10,0,0,25,39,10,40,60,2228241)
+p("TropicalPlant_Dead_16",161738,180185,11190,2755,4281084201,2097161)
 p("TropicalRockSharp_01",161887,176616,9515,16240,542,1255,3861,"terrainchunk",10,0,0,84,100,10,40,60,2228241)
 p("TropicalRockAssembly_01",163478,179970,11055,14840,170,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
 p("DecFloatersTrashGround_01",150558,183712,0)
@@ -54577,7 +54584,6 @@ p("Mine_WoodenBeam_Rope_05",158501,184290,13983,63,4281346083,2097164)
 p("DecBunker_ConcretePile_03",156773,184591,11190,20329,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalPlant_Grass_01",156553,188271,5269,4281610802,2097160)
 p("WeaponProp_Browning",159235,184541,11906,13829,1990,-2493,2568,2097169)
-p("TropicalPlant_Dead_16",162265,181607,11190,2755,4281084201,2097161)
 p("TropicalPlant_Grass_03",163111,180462,11046,11375,81,4281543468,2097165)
 p("TropicalPlant_Dead_16",163106,181160,11190,11160,4281084201,2097161)
 p("TropicalRockAssembly_01",163630,182859,11110,19037,143,4286478455,"terrainchunk",10,0,0,40,60,10,40,60,2228237)
