@@ -6945,6 +6945,18 @@ return {
 					'image', "Mod/FhNNYd/Images/JA3Debug_JIyFICPpQ9.jpg",
 				}),
 			}),
+			PlaceObj('ModItemSector', {
+				'mapName', "GoDqhMQ",
+				'campaignId', "HotDiamonds",
+				'sectorId', "K2",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "K2",
+					'Map', "GoDqhMQ",
+					'modId', "FhNNYd",
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
+				}),
+			}),
 			}),
 		PlaceObj('ModItemFolder', {
 			'name', "L",
