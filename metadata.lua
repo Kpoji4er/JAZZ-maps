@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-	'version', 5094,
+	'version', 5122,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
@@ -19,11 +19,12 @@ return PlaceObj('ModDef', {
 		"InventoryItem/Jazz_Browning_Bench.lua",
 		"InventoryItem/JazzQuestItem_AmmoBox.lua",
 		"InventoryItem/JazzQuestItem_MinesBox.lua",
+		"MapPatches/SetPieces/NewSetpiece_HaWEyLS/M1Landing.lua",
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1777649741,
-	'code_hash', 8311704044312267199,
+	'saved', 1784988379,
+	'code_hash', -7239735443028690212,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
@@ -138,6 +139,11 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
 			'Id', "HotDiamonds_B24",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_B17",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -868,16 +874,6 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
 			'Id', "HotDiamonds_J4",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
-			'Id', "HotDiamonds_J3",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
-			'Id', "HotDiamonds_J2",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -2186,11 +2182,6 @@ return PlaceObj('ModDef', {
 			'ClassDisplayName', "Constant",
 		}),
 		PlaceObj('ModResourcePreset', {
-			'Class', "Camera",
-			'Id', "Camera_3_copy",
-			'ClassDisplayName', "Camera",
-		}),
-		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
 			'Id', "Herman_03_Lynch",
 			'ClassDisplayName', "Banter",
@@ -2354,6 +2345,14 @@ return PlaceObj('ModDef', {
 			'Class', "GuardpostObjective",
 			'Id', "Bastien",
 			'ClassDisplayName', "GuardpostObjectives",
+		}),
+		PlaceObj('ModResourceMap', {
+			'Map', "EPA7FVN",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "SetpiecePrg",
+			'Id', "M1Landing",
+			'ClassDisplayName', "Setpiece",
 		}),
 	},
 	'steam_id', "3322285655",

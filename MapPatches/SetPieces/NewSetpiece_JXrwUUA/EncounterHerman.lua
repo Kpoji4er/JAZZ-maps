@@ -27,7 +27,7 @@ SetpiecePrgs.EncounterHerman = function(seed, state, TriggerUnits)
 	prgdbg(li, 1, 17) sprocall(SetpieceTeleport.Exec, SetpieceTeleport, state, Raider04, "RaiderActor04", true)
 	prgdbg(li, 1, 18) sprocall(SetpieceAnimation.Exec, SetpieceAnimation, state, rand, false, "", Raider04, "RaiderActor04", true, "civ_Ambient_LeanAgainstHighProp3", 1000, 0, range(1, 1), 0, true, true, false, "")
 	local _, Raider05
-	prgdbg(li, 1, 19) _, Raider05 = sprocall(SetpieceAssignFromGroup.Exec, SetpieceAssignFromGroup, state, rand, Raider05, "", "RaiderActor05", "Object", false)
+	prgdbg(li, 1, 19) _, Raider05 = sprocall(SetpieceAssignFromGroup.Exec, SetpieceAssignFromGroup, state, rand, Raider05, "SP_Merc1_GoTo", "RaiderActor05", "Object", false)
 	prgdbg(li, 1, 20) sprocall(SetpieceTeleport.Exec, SetpieceTeleport, state, Raider05, "RaiderActor05", true)
 	prgdbg(li, 1, 21) sprocall(SetpieceAnimation.Exec, SetpieceAnimation, state, rand, false, "", Raider05, "RaiderActor05", true, "civ_Ambient_LookingWall", 1000, 0, range(1, 1), 0, true, true, false, "")
 	prgdbg(li, 1, 22) sprocall(SetpieceFadeIn.Exec, SetpieceFadeIn, state, rand, false, "", 0, 2600)

@@ -21450,7 +21450,7 @@ PlaceObj('TropicalPlant_Liana_05', {
 	'AllowedMask', 0,
 }, nil, 1013765632)
 PlaceObj('TropicalPlant_01_Tree_02', {
-	'Pos', point(182181, 90764, 15453),
+	'Pos', point(182151, 90751, 15453),
 	'Scale', 139,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),

@@ -28864,6 +28864,11 @@ PlaceObj('WaterPlaneWaves', {
 	'AllowedMask', 4294967279,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1826480144)
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(204804, 145696),
+	'AllowedMask', 4294966497,
+	'Name', "SP_Merc6_Start",
+}, nil, 1696627185)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(207800, 145000, 5600),
 	'ForcedLODState', "Minimum",
@@ -28875,33 +28880,22 @@ PlaceObj('WaterPlaneWaves', {
 }, nil, 1693134123)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(197800, 155000, 5600),
-	'ForcedLODState', "Minimum",
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 888,
 	'AllowedMask', 4294967279,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1368248586)
-PlaceObj('SetpieceMarker', {
-	'Pos', point(204534, 151859),
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc5_GoTo",
-}, nil, 1305034996)
-PlaceObj('SetpieceMarker', {
-	'Pos', point(204714, 153020),
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(204667, 147494),
 	'AllowedMask', 4294966497,
 	'Name', "SP_Merc5_Start",
-}, nil, 1088603402)
-PlaceObj('SetpieceMarker', {
-	'Pos', point(204559, 157820),
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc4_GoTo",
-}, nil, 1091469985)
-PlaceObj('SetpieceMarker', {
-	'Pos', point(204677, 159084),
+}, nil, 1748078574)
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(208156, 149751),
 	'AllowedMask', 4294966497,
 	'Name', "SP_Merc4_Start",
-}, nil, 1391004667)
+}, nil, 1539108372)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(207800, 155000, 5600),
 	'ForcedLODState', "Minimum",
@@ -28911,26 +28905,41 @@ PlaceObj('WaterPlaneWaves', {
 	'AllowedMask', 4294967279,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1271267752)
-PlaceObj('SetpieceMarker', {
-	'Pos', point(207075, 160164),
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc3_GoTo",
-}, nil, 1324963329)
-PlaceObj('SetpieceMarker', {
-	'Pos', point(207146, 161443),
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc3_Start",
-}, nil, 1030103078)
-PlaceObj('SetpieceMarker', {
-	'Pos', point(210693, 156661),
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(205519, 155923),
 	'AllowedMask', 4294966497,
 	'Name', "SP_Merc6_GoTo",
-}, nil, 1763409881)
-PlaceObj('SetpieceMarker', {
-	'Pos', point(210696, 157832),
+}, nil, 1290130866)
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(205371, 158750),
 	'AllowedMask', 4294966497,
-	'Name', "SP_Merc6_Start",
-}, nil, 1141203841)
+	'Name', "SP_Merc5_GoTo",
+}, nil, 1050115972)
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(207070, 157315, 5050),
+	'AllowedMask', 4294966497,
+	'Name', "SP_Merc7_GoTo",
+}, nil, 1820390545)
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(205446, 162727),
+	'AllowedMask', 4294966497,
+	'Name', "SP_Merc3_GoTo",
+}, nil, 1737209015)
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(208361, 163091),
+	'AllowedMask', 4294966497,
+	'Name', "SP_Merc4_GoTo",
+}, nil, 1332095396)
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(211750, 157786, 5034),
+	'AllowedMask', 4294966497,
+	'Name', "SP_Merc7_Start",
+}, nil, 1452890432)
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(211704, 160694),
+	'AllowedMask', 4294966497,
+	'Name', "SP_Merc3_Start",
+}, nil, 1405155082)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(217800, 135000, 5600),
 	'ForcedLODState', "Minimum",
@@ -29080,11 +29089,11 @@ PlaceObj('World_WoodenBox_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1483112009)
-PlaceObj('SetpieceMarker', {
-	'Pos', point(205887, 165001, 5050),
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(205643, 164958),
 	'AllowedMask', 4294966497,
 	'Name', "SP_Merc1_GoTo",
-}, nil, 1083997103)
+}, nil, 1882547366)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(207800, 165000, 5600),
 	'ForcedLODState', "Minimum",
@@ -29094,21 +29103,21 @@ PlaceObj('WaterPlaneWaves', {
 	'AllowedMask', 4294967279,
 	'waterpreset', "Ocean_Fortress",
 }, nil, 1034202985)
-PlaceObj('SetpieceMarker', {
-	'Pos', point(208259, 163856, 5050),
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc1_Start",
-}, nil, 1380256923)
-PlaceObj('SetpieceMarker', {
-	'Pos', point(207032, 166249),
-	'AllowedMask', 4294966497,
-	'Name', "SP_Merc2_Start",
-}, nil, 1648198375)
-PlaceObj('SetpieceMarker', {
-	'Pos', point(207087, 167419),
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(208730, 165504),
 	'AllowedMask', 4294966497,
 	'Name', "SP_Merc2_GoTo",
-}, nil, 1726215716)
+}, nil, 1332995625)
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(211517, 164424),
+	'AllowedMask', 4294966497,
+	'Name', "SP_Merc2_Start",
+}, nil, 1225191330)
+PlaceObj('SetpiecePosMarker', {
+	'Pos', point(211731, 167686),
+	'AllowedMask', 4294966497,
+	'Name', "SP_Merc1_Start",
+}, nil, 1205524210)
 PlaceObj('WaterPlaneWaves', {
 	'Pos', point(207800, 175000, 5600),
 	'ForcedLODState', "Minimum",
@@ -54681,7 +54690,7 @@ p("TropicalRockAssembly_04",189049,133081,4830,1078,194,174,3145733)
 p("TropicalRockAssemblySand_01",192488,137229,4956,9504,224,4281873717,2097165)
 p("TropicalRockSharp_01",193012,132757,3043,11410,120,4282334782,176,1403,-604,3800,1024,3145821)
 p("RiverStones_04",195804,133776,3253,15422,169,177,2150970677,2149523232,2156572107,"",1076894213)
-p("TropicalRockSharp_02",195773,134483,5930,9738,149,-3851,-259,1369,"terrainchunk",10,0,0,64,100,100,40,60,2228245)
+p("TropicalRockSharp_02",195780,134480,5930,9738,149,-3851,-259,1369,"terrainchunk",10,0,0,64,100,100,40,60,2228245)
 p("TropicalRockAssemblySand_01",196465,137780,4955,462,224,4281873717,142,-655,4041,2097181)
 p("DecBunker_ConcretePile_02",189360,140959,5086,9426,250,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
 p("TropicalRockAssemblySand_01",194543,141464,4955,16093,224,4281873717,38,49,4095,2097181)
