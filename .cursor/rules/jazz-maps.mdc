@@ -20,7 +20,8 @@ alwaysApply: true
 - Override `HotDiamonds`, старт `InitialSector = "M1"` (карта `EPA7FVN`), setpiece `M1Landing`.
 - Тесты катсцен/старта — **новая игра**, не старый сейв.
 - `Code/AIMechanism.lua` сейчас не в metadata — не считать активным без ревью.
-- Автотранспорт: `Code/System_JAZZ_Vehicles.lua` (сателлит, active) + `Code/System_JAZZ_VehicleCombat.lua` (loaded, tactical spawn dormant). Docs: `../jazz/docs/technical/systems/satellite-vehicles.md`.
+- Автотранспорт: `Code/System_JAZZ_Vehicles.lua` (сателлит, active) + `Code/System_JAZZ_VehicleCombat.lua` (loaded, tactical spawn dormant). Docs: `docs/TZ_JAZZ_Combat_Vehicle_MVP.md`, suite `../jazz/docs/technical/systems/satellite-vehicles.md`.
+- Локальная документация пакета: `docs/README.md`; handoff: `docs/AGENT_HANDOFF.md`.
 
 ## Ссылки и зависимости
 

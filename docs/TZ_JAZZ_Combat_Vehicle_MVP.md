@@ -6,11 +6,12 @@
 Статус кода: **реализован на диске (статический анализ)**; runtime-приёмка владельцем ещё нужна.
 
 Связанные файлы в репозитории:
-- `AGENT_HANDOFF.md` — короткий handoff для агента
-- `AGENT_BRIEFING.md` — общий контекст JAZZ Maps
-- `AGENTS.md` — правила пакета
-- `../jazz/docs/technical/systems/satellite-vehicles.md` — technical docs
-- `../jazz/docs/wiki/strategy-and-world.md` — секция «Транспорт» для игрока
+- [`AGENT_HANDOFF.md`](AGENT_HANDOFF.md) — короткий handoff для агента
+- [`AGENT_BRIEFING.md`](AGENT_BRIEFING.md) — общий контекст JAZZ Maps
+- [`../AGENTS.md`](../AGENTS.md) — правила пакета
+- [`README.md`](README.md) — оглавление `docs/`
+- `../../jazz/docs/technical/systems/satellite-vehicles.md` — technical docs suite
+- `../../jazz/docs/wiki/strategy-and-world.md` — секция «Транспорт» для игрока
 
 ---
 

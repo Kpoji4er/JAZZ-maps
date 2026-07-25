@@ -13,6 +13,8 @@
 - [техническая документация](../jazz/docs/technical/README.md)
 - [wiki по механикам](../jazz/docs/wiki/README.md)
 
+Локальная документация этого пакета (handoff, брифинг, ТЗ, каталог Эрни): [docs/README.md](docs/README.md). Актуальный handoff: [docs/AGENT_HANDOFF.md](docs/AGENT_HANDOFF.md).
+
 ## AI-first-режим
 
 С 25 июля 2026 года все четыре пакета JAZZ разрабатываются в AI-first-режиме. Предшествующая кодовая база считается результатом полностью ручной разработки. AI является основным рабочим инструментом, но владелец проекта сохраняет дизайн, баланс, расширение scope, runtime-приёмку и релиз. Полный контракт: [переход на AI-first-разработку](../jazz/docs/technical/ai-first-development.md).
@@ -53,7 +55,7 @@ AI-first не разрешает пропускать редактор, игро
 - Проверять deployment, входы/выходы, conflict markers, квестовые маркеры, setpieces и переходы на стратегическую карту.
 - `Code/AIMechanism.lua` сейчас не загружается metadata. Не считать его активным и не подключать без отдельного ревью поведения.
 - `Code/System_JAZZ_Vehicles.lua` — loaded: сателлитный автотранспорт (GameVar, board/exit, travel hook, hp/wrecked). Спавн HMMWV на M1 через эффект `JAZZ_SpawnSatelliteVehicle`.
-- `Code/System_JAZZ_VehicleCombat.lua` — loaded, тактический spawn **dormant** (`tactical_enabled=false`): заглушки Unit/Idle/path/pivot; на карте не спавнится. Сателлит — в `System_JAZZ_Vehicles.lua`. Документация: `../jazz/docs/technical/systems/satellite-vehicles.md`.
+- `Code/System_JAZZ_VehicleCombat.lua` — loaded, тактический spawn **dormant** (`tactical_enabled=false`): заглушки Unit/Idle/path/pivot; на карте не спавнится. Сателлит — в `System_JAZZ_Vehicles.lua`. Документация: [docs/TZ_JAZZ_Combat_Vehicle_MVP.md](docs/TZ_JAZZ_Combat_Vehicle_MVP.md), suite `../jazz/docs/technical/systems/satellite-vehicles.md`.
 
 ## Два контура документации
 
