@@ -1,12 +1,34 @@
--- JAZZ Maps: tactical combat vehicle MVP
--- Spawns a player Unit for satellite vehicle tokens, car-facing movement, pivot + turret.
--- Animations/model are stubs; user replaces entity later.
+-- JAZZ Maps: tactical combat vehicle — STUB / dormant spawn
+-- Satellite travel lives in System_JAZZ_Vehicles.lua (active).
+-- This file keeps Unit/Idle/path/pivot stubs for later; tactical_enabled=false → no map spawn.
 
-JAZZ_VehicleCombat = JAZZ_VehicleCombat or {
+-- rawget: JA3 forbids reading undefined globals (_G __index); plain `X = X or {}` fails on first load
+local JAZZ_VehicleCombatDefaults = {
+	-- false: satellite-only. Set true to re-enable tactical Unit spawn + combat hooks.
+	tactical_enabled = false,
 	max_turn_per_step = 90 * 60, -- ±90 degrees
-	entity_stub = "Vehicle_PickupTruck",
+	-- Prefer Jazz Assets HMMWV (static idle/walk/run in .ent); then vanilla UAZ / pickup
+	entity_candidates = { "HMMWV", "Vehicle_UAZ", "Vehicle_PickupTruck" },
+	idle_state = "idle",
 	spawn_group = "JAZZ_VehicleSpawn",
 }
+JAZZ_VehicleCombat = rawget(_G, "JAZZ_VehicleCombat") or {}
+for k, v in pairs(JAZZ_VehicleCombatDefaults) do
+	if JAZZ_VehicleCombat[k] == nil then
+		JAZZ_VehicleCombat[k] = v
+	end
+end
+-- Force satellite-only until tactical unit is ready (overrides older hot-reload state)
+JAZZ_VehicleCombat.tactical_enabled = false
+-- Migrate older sessions that disabled ChangeEntity
+if JAZZ_VehicleCombat.entity_stub == false then
+	JAZZ_VehicleCombat.entity_stub = nil
+	JAZZ_VehicleCombat.entity_candidates = JAZZ_VehicleCombatDefaults.entity_candidates
+end
+
+function JAZZ_VehicleCombat.IsTacticalEnabled()
+	return JAZZ_VehicleCombat.tactical_enabled and true or false
+end
 
 local function JAZZ_AP(n)
 	local scale = const and const.Scale and const.Scale.AP or 1000
@@ -74,13 +96,43 @@ local function JAZZ_ResolveVehicleSpawnPos(veh)
 	return GetPassSlab(center) or center, 0
 end
 
-local function JAZZ_ApplyVehicleStubEntity(unit)
-	local entity = JAZZ_VehicleCombat.entity_stub
-	if EntityData and EntityData["HMMWV"] then
-		entity = "HMMWV"
+local function JAZZ_ResolveVehicleEntity()
+	local list = JAZZ_VehicleCombat.entity_candidates or empty_table
+	for _, name in ipairs(list) do
+		if name and EntityData and EntityData[name] then
+			return name
+		end
 	end
-	if entity and EntityData[entity] then
-		pcall(unit.ChangeEntity, unit, entity)
+	-- EntityData may lag ArtSpec reload; still try known names if IsValidEntity exists
+	for _, name in ipairs(list) do
+		if name and IsValidEntity and IsValidEntity(name) then
+			return name
+		end
+	end
+end
+
+local function JAZZ_VehicleIdleState(unit)
+	local preferred = JAZZ_VehicleCombat.idle_state or "idle"
+	if IsValid(unit) and unit.HasState and unit:HasState(preferred) then
+		return preferred
+	end
+	if IsValid(unit) and unit.HasState and unit:HasState("Idle") then
+		return "Idle"
+	end
+	return preferred
+end
+
+local function JAZZ_ApplyVehicleStubEntity(unit)
+	if not IsValid(unit) then return end
+	local entity = JAZZ_ResolveVehicleEntity()
+	if not entity then return end
+	if unit.GetEntity and unit:GetEntity() == entity then
+		return
+	end
+	sprocall(unit.ChangeEntity, unit, entity)
+	local state = JAZZ_VehicleIdleState(unit)
+	if unit.HasState and unit:HasState(state) then
+		sprocall(unit.SetState, unit, state)
 	end
 end
 
@@ -102,6 +154,10 @@ local function JAZZ_GiveVehicleTestWeapon(unit)
 end
 
 function JAZZ_SpawnTacticalVehicle(veh)
+	-- Stub entry: re-enable via JAZZ_VehicleCombat.tactical_enabled when Unit/idle is ready
+	if not JAZZ_VehicleCombat.IsTacticalEnabled() then
+		return
+	end
 	if not veh or veh.wrecked then return end
 	JAZZ_NormalizeVehicleToken(veh)
 	local existing = JAZZ_FindTacticalVehicleUnit(veh.id)
@@ -119,18 +175,17 @@ function JAZZ_SpawnTacticalVehicle(veh)
 		return g_Units[session_id]
 	end
 	local pos, angle = JAZZ_ResolveVehicleSpawnPos(veh)
-	local unit = SpawnUnit(template, session_id, pos, angle)
-	if not unit then return end
+	local ok, unit = sprocall(SpawnUnit, template, session_id, pos, angle)
+	if not ok or not IsValid(unit) then
+		return
+	end
 	JAZZ_MarkUnitAsVehicle(unit, veh.id)
 	unit:SetSide("player1")
-	JAZZ_ApplyVehicleStubEntity(unit)
-	JAZZ_GiveVehicleTestWeapon(unit)
+	sprocall(JAZZ_ApplyVehicleStubEntity, unit)
+	sprocall(JAZZ_GiveVehicleTestWeapon, unit)
 	local hp = Clamp(veh.hp or veh.max_hp or 120, 1, veh.max_hp or 120)
 	unit.HitPoints = hp
 	unit.MaxHitPoints = veh.max_hp or unit.MaxHitPoints
-	if unit.command == "Idle" or not unit.command then
-		unit:SetCommand("Idle")
-	end
 	Msg("JAZZ_TacticalVehicleSpawned", unit, veh)
 	return unit
 end
@@ -166,6 +221,9 @@ function JAZZ_SyncAllTacticalVehiclesFromMap()
 end
 
 function JAZZ_TrySpawnVehiclesForCurrentSector()
+	if not JAZZ_VehicleCombat.IsTacticalEnabled() then
+		return
+	end
 	local sector_id = gv_CurrentSectorId
 	if not sector_id or gv_SatelliteView then return end
 	local list = JAZZ_GetVehiclesPresentInSector(sector_id)
@@ -237,9 +295,11 @@ function JAZZ_FilterCombatPathForVehicle(combatPath, unit)
 end
 
 local JAZZ_OrigGetCombatPath = false
+local JAZZ_VehicleCombatPathWrapper = false
 function JAZZ_InstallCombatPathHook()
 	if type(GetCombatPath) ~= "function" then return end
-	if GetCombatPath.JAZZ_VehicleWrapper then return end
+	-- Identity check: Lua functions are not tables
+	if GetCombatPath == JAZZ_VehicleCombatPathWrapper then return end
 	local orig = GetCombatPath
 	JAZZ_OrigGetCombatPath = orig
 	local function wrapper(unit, stance, ap, end_stance)
@@ -249,7 +309,7 @@ function JAZZ_InstallCombatPathHook()
 		end
 		return path
 	end
-	wrapper.JAZZ_VehicleWrapper = true
+	JAZZ_VehicleCombatPathWrapper = wrapper
 	GetCombatPath = wrapper
 end
 
@@ -272,9 +332,10 @@ local function JAZZ_VehicleSnapAlongPackedPath(unit, path)
 end
 
 local JAZZ_OrigCombatGoto = false
+local JAZZ_VehicleCombatGotoWrapper = false
 function JAZZ_InstallCombatGotoHook()
 	if not Unit or type(Unit.CombatGoto) ~= "function" then return end
-	if Unit.CombatGoto.JAZZ_VehicleWrapper then return end
+	if Unit.CombatGoto == JAZZ_VehicleCombatGotoWrapper then return end
 	local orig = Unit.CombatGoto
 	JAZZ_OrigCombatGoto = orig
 	local function wrapper(self, action_id, cost_ap, pos, interrupt_path, forced_run, stanceAtStart, stanceAtEnd, fallbackMoveTracking, visibleMovement)
@@ -308,15 +369,16 @@ function JAZZ_InstallCombatGotoHook()
 		Msg("UnitMovementDone", self)
 		return true
 	end
-	wrapper.JAZZ_VehicleWrapper = true
+	JAZZ_VehicleCombatGotoWrapper = wrapper
 	Unit.CombatGoto = wrapper
 end
 
 -- Exploration: snap GotoSlab for vehicles (avoids missing Walk anims)
 local JAZZ_OrigGotoSlab = false
+local JAZZ_VehicleGotoSlabWrapper = false
 function JAZZ_InstallGotoSlabHook()
 	if not Unit or type(Unit.GotoSlab) ~= "function" then return end
-	if Unit.GotoSlab.JAZZ_VehicleWrapper then return end
+	if Unit.GotoSlab == JAZZ_VehicleGotoSlabWrapper then return end
 	local orig = Unit.GotoSlab
 	JAZZ_OrigGotoSlab = orig
 	local function wrapper(self, pos, distance, min_distance, move_anim_type, follow_target, use_stop_anim, interrupted)
@@ -345,7 +407,7 @@ function JAZZ_InstallGotoSlabHook()
 		end
 		return orig(self, pos, distance, min_distance, move_anim_type, follow_target, use_stop_anim, interrupted)
 	end
-	wrapper.JAZZ_VehicleWrapper = true
+	JAZZ_VehicleGotoSlabWrapper = wrapper
 	Unit.GotoSlab = wrapper
 end
 
@@ -535,9 +597,10 @@ end
 
 -- Inject vehicle actions into unit HUD list when available
 local JAZZ_OrigEnumUIActions = false
+local JAZZ_VehicleEnumUIActionsWrapper = false
 function JAZZ_InstallEnumUIActionsHook()
 	if not Unit or type(Unit.EnumUIActions) ~= "function" then return end
-	if Unit.EnumUIActions.JAZZ_VehicleWrapper then return end
+	if Unit.EnumUIActions == JAZZ_VehicleEnumUIActionsWrapper then return end
 	local orig = Unit.EnumUIActions
 	JAZZ_OrigEnumUIActions = orig
 	local function wrapper(self, ...)
@@ -555,18 +618,113 @@ function JAZZ_InstallEnumUIActionsHook()
 		end
 		return actions
 	end
-	wrapper.JAZZ_VehicleWrapper = true
+	JAZZ_VehicleEnumUIActionsWrapper = wrapper
 	Unit.EnumUIActions = wrapper
+end
+
+----- Idle / anim: vehicle entity has static idle (no human ar_Standing_*); avoid freeze
+
+local JAZZ_OrigGetIdleBaseAnim = false
+local JAZZ_VehicleGetIdleBaseAnimWrapper = false
+function JAZZ_InstallGetIdleBaseAnimHook()
+	if not Unit or type(Unit.GetIdleBaseAnim) ~= "function" then return end
+	if Unit.GetIdleBaseAnim == JAZZ_VehicleGetIdleBaseAnimWrapper then return end
+	local orig = Unit.GetIdleBaseAnim
+	JAZZ_OrigGetIdleBaseAnim = orig
+	local function wrapper(self, stance)
+		if JAZZ_IsVehicleUnit(self) then
+			return JAZZ_VehicleIdleState(self)
+		end
+		return orig(self, stance)
+	end
+	JAZZ_VehicleGetIdleBaseAnimWrapper = wrapper
+	Unit.GetIdleBaseAnim = wrapper
+end
+
+local JAZZ_OrigIdle = false
+local JAZZ_VehicleIdleWrapper = false
+function JAZZ_InstallIdleHook()
+	if not Unit or type(Unit.Idle) ~= "function" then return end
+	if Unit.Idle == JAZZ_VehicleIdleWrapper then return end
+	local orig = Unit.Idle
+	JAZZ_OrigIdle = orig
+	local function wrapper(self)
+		if not JAZZ_IsVehicleUnit(self) then
+			return orig(self)
+		end
+		-- Minimal Idle: set static vehicle state and Halt (no PlayTransitionAnims / human cycles)
+		if self.WaitResumeOnCommandStart then
+			self:WaitResumeOnCommandStart()
+		end
+		if SetCombatActionState then
+			SetCombatActionState(self, nil)
+		end
+		self.being_interacted_with = false
+		if self.SetQueuedAction then
+			self:SetQueuedAction()
+		end
+		if self:IsDead() then
+			self:SetCommand("Dead")
+			return
+		end
+		local state = JAZZ_VehicleIdleState(self)
+		if self.HasState and self:HasState(state) then
+			self:SetState(state)
+		end
+		if self.SetTargetDummyFromPos then
+			self:SetTargetDummyFromPos()
+		elseif self.SetTargetDummy then
+			local pos = (GetPassSlab and GetPassSlab(self)) or self:GetPos()
+			self:SetTargetDummy(pos, self:GetOrientationAngle(), state, 0)
+		end
+		if g_Combat then
+			Msg("Idle", self)
+		end
+		if self.aim_action_id and HasCombatActionInProgress and not HasCombatActionInProgress(self) then
+			self:SetCommand("AimIdle")
+			return
+		end
+		Halt()
+	end
+	JAZZ_VehicleIdleWrapper = wrapper
+	Unit.Idle = wrapper
+end
+
+local JAZZ_OrigAimIdle = false
+local JAZZ_VehicleAimIdleWrapper = false
+function JAZZ_InstallAimIdleHook()
+	if not Unit or type(Unit.AimIdle) ~= "function" then return end
+	if Unit.AimIdle == JAZZ_VehicleAimIdleWrapper then return end
+	local orig = Unit.AimIdle
+	JAZZ_OrigAimIdle = orig
+	local function wrapper(self, ...)
+		if not JAZZ_IsVehicleUnit(self) then
+			return orig(self, ...)
+		end
+		local state = JAZZ_VehicleIdleState(self)
+		if self.HasState and self:HasState(state) then
+			self:SetState(state)
+		end
+		Halt()
+	end
+	JAZZ_VehicleAimIdleWrapper = wrapper
+	Unit.AimIdle = wrapper
 end
 
 ----- Lifecycle
 
 local function JAZZ_InstallVehicleCombatHooks()
+	if not JAZZ_VehicleCombat.IsTacticalEnabled() then
+		return
+	end
 	JAZZ_RegisterVehicleCombatActions()
 	JAZZ_InstallCombatPathHook()
 	JAZZ_InstallCombatGotoHook()
 	JAZZ_InstallGotoSlabHook()
 	JAZZ_InstallEnumUIActionsHook()
+	JAZZ_InstallGetIdleBaseAnimHook()
+	JAZZ_InstallIdleHook()
+	JAZZ_InstallAimIdleHook()
 end
 
 function OnMsg.ModsReloaded()
@@ -589,29 +747,74 @@ function OnMsg.LoadGame()
 	JAZZ_InstallVehicleCombatHooks()
 end
 
-function OnMsg.EnterSector(game_start, load_game)
-	JAZZ_InstallVehicleCombatHooks()
-	-- Defer until teams/units exist
-	CreateRealTimeThread(function()
+local function JAZZ_WaitUntilTacticalSpawnSafe()
+	local guard = 0
+	while IsChangingMap and IsChangingMap() do
 		Sleep(100)
-		JAZZ_TrySpawnVehiclesForCurrentSector()
+		guard = guard + 1
+		if guard > 200 then break end
+	end
+	guard = 0
+	while GetLoadingScreenDialog and GetLoadingScreenDialog() do
+		Sleep(100)
+		guard = guard + 1
+		if guard > 600 then break end
+	end
+	guard = 0
+	while IsSetpiecePlaying and IsSetpiecePlaying() do
+		Sleep(200)
+		guard = guard + 1
+		if guard > 300 then break end
+	end
+	Sleep(500)
+end
+
+local function JAZZ_DeferSpawnVehiclesAfterSectorReady()
+	if not JAZZ_VehicleCombat.IsTacticalEnabled() then
+		return
+	end
+	-- RealTimeThread: must not run under loading-screen "Start" or mid-setpiece.
+	CreateRealTimeThread(function()
+		JAZZ_WaitUntilTacticalSpawnSafe()
+		sprocall(JAZZ_TrySpawnVehiclesForCurrentSector)
 	end)
 end
 
+function OnMsg.EnterSector(game_start, load_game)
+	JAZZ_InstallVehicleCombatHooks()
+	if load_game then
+		JAZZ_DeferSpawnVehiclesAfterSectorReady()
+	end
+end
+
 function OnMsg.CombatStart()
-	JAZZ_TrySpawnVehiclesForCurrentSector()
+	if not JAZZ_VehicleCombat.IsTacticalEnabled() then
+		return
+	end
+	CreateRealTimeThread(function()
+		JAZZ_WaitUntilTacticalSpawnSafe()
+		sprocall(JAZZ_TrySpawnVehiclesForCurrentSector)
+	end)
+end
+
+function OnMsg.ExplorationStart()
+	JAZZ_DeferSpawnVehiclesAfterSectorReady()
 end
 
 function OnMsg.CombatEnd()
-	JAZZ_SyncAllTacticalVehiclesFromMap()
+	if JAZZ_VehicleCombat.IsTacticalEnabled() then
+		JAZZ_SyncAllTacticalVehiclesFromMap()
+	end
 end
 
 function OnMsg.OpenSatelliteView()
-	JAZZ_SyncAllTacticalVehiclesFromMap()
+	if JAZZ_VehicleCombat.IsTacticalEnabled() then
+		JAZZ_SyncAllTacticalVehiclesFromMap()
+	end
 end
 
 function OnMsg.UnitDied(unit)
-	if JAZZ_IsVehicleUnit(unit) then
+	if JAZZ_VehicleCombat.IsTacticalEnabled() and JAZZ_IsVehicleUnit(unit) then
 		JAZZ_SyncVehicleTokenFromUnit(unit)
 		CombatLog("important", T(872401100067, "Транспорт уничтожен"))
 	end

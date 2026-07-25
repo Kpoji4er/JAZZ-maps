@@ -190,5 +190,5 @@
 - Маркеры Merc1–7 Start/GoTo на M1 — Pos  
 - Камеры M1Landing пользователь снимал; Teleport/Goto/Fade агент дописывал — **проверять, что редактор не откатил**  
 - B17 — отдельный санаторий «Лазурь», не квест I12  
-- Автотранспорт MVP: `System_JAZZ_Vehicles.lua` + `System_JAZZ_VehicleCombat.lua` (loaded); сателлит board/exit/road travel; тактический Unit `JAZZ_CombatHMMWV` (car-move, Pivot, турель); stub appearance  
+- Автотранспорт: `System_JAZZ_Vehicles.lua` (сателлит board/exit/road travel, active); `System_JAZZ_VehicleCombat.lua` loaded но tactical spawn dormant (`tactical_enabled=false`); stub UnitData/Appearance для будущего Unit  
 - Дальше типичные задачи: runtime-приёмка транспорта, модель/анимации HMMWV, экипаж (TBD), достройка локаций, setpiece

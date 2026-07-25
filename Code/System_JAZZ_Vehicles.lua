@@ -303,6 +303,7 @@ end
 ----- Travel hook: road-only + faster when mounted
 
 local JAZZ_OrigGetSectorTravelTime = false
+local JAZZ_VehicleTravelWrapper = false
 
 local function JAZZ_ResolveMountedFromTravelArgs(route, units)
 	if route and route.JAZZ_vehicle then
@@ -320,8 +321,9 @@ end
 
 function JAZZ_InstallTravelHook()
 	if type(GetSectorTravelTime) ~= "function" then return end
-	-- Safe re-wrap: if jazz-core reloaded GetSectorTravelTime after us, wrap again.
-	if GetSectorTravelTime.JAZZ_VehicleWrapper then return end
+	-- Identity check (Lua functions are not tables; cannot set .JAZZ_VehicleWrapper).
+	-- If jazz-core replaced GetSectorTravelTime after us, wrap the new function again.
+	if GetSectorTravelTime == JAZZ_VehicleTravelWrapper then return end
 	local orig = GetSectorTravelTime
 	JAZZ_OrigGetSectorTravelTime = orig
 	local function wrapper(from_sector_id, to_sector_id, route, units, pass_mode, a6, side, dir, cache_shortcuts, cache_neighbors)
@@ -366,15 +368,16 @@ function JAZZ_InstallTravelHook()
 		end
 		return t1, t2, t3, breakdown
 	end
-	wrapper.JAZZ_VehicleWrapper = true
+	JAZZ_VehicleTravelWrapper = wrapper
 	GetSectorTravelTime = wrapper
 end
 
 -- Mark route with vehicle flag when a mounted squad starts travelling (helps pathfinding that only has units)
 local JAZZ_OrigAssignRoute = false
+local JAZZ_VehicleAssignRouteWrapper = false
 function JAZZ_InstallAssignRouteHook()
 	if not NetSyncEvents or type(NetSyncEvents.AssignSatelliteSquadRoute) ~= "function" then return end
-	if NetSyncEvents.AssignSatelliteSquadRoute.JAZZ_VehicleWrapper then return end
+	if NetSyncEvents.AssignSatelliteSquadRoute == JAZZ_VehicleAssignRouteWrapper then return end
 	local orig = NetSyncEvents.AssignSatelliteSquadRoute
 	JAZZ_OrigAssignRoute = orig
 	local function wrapper(squad_id, route, keepJoiningSquad, pos, cancel)
@@ -387,7 +390,7 @@ function JAZZ_InstallAssignRouteHook()
 		end
 		return orig(squad_id, route, keepJoiningSquad, pos, cancel)
 	end
-	wrapper.JAZZ_VehicleWrapper = true
+	JAZZ_VehicleAssignRouteWrapper = wrapper
 	NetSyncEvents.AssignSatelliteSquadRoute = wrapper
 end
 

@@ -16,9 +16,15 @@ return PlaceObj('ModDef', {
 			'title', "JAZZ",
 			'required', false,
 		}),
+		PlaceObj('ModDependency', {
+			'id', "pDGDhr",
+			'title', "Jazz Assets",
+			'required', false,
+		}),
 	},
 	'code', {
 		"Code/Rebels_Loyalty.lua",
+		"Code/System_JAZZ_CrocodilePatrol.lua",
 		"Code/System_JAZZ_Vehicles.lua",
 		"Code/System_JAZZ_VehicleCombat.lua",
 		"MapPatches/SetPieces/NewSetpiece_JXrwUUA/EncounterHerman.lua",

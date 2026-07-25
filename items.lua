@@ -9249,6 +9249,10 @@ return {
 			'CodeFileName', "Code/Rebels_Loyalty.lua",
 		}),
 		PlaceObj('ModItemCode', {
+			'name', "System_JAZZ_CrocodilePatrol",
+			'CodeFileName', "Code/System_JAZZ_CrocodilePatrol.lua",
+		}),
+		PlaceObj('ModItemCode', {
 			'name', "System_JAZZ_Vehicles",
 			'CodeFileName', "Code/System_JAZZ_Vehicles.lua",
 		}),
@@ -58467,8 +58471,8 @@ return {
 					'gender', "Male",
 				}),
 				PlaceObj('ModItemAppearancePreset', {
-					Body = "Vehicle_PickupTruck",
-					Comment = "Stub appearance for JAZZ combat HMMWV until custom anims/model",
+					Body = "Vehicle_UAZ",
+					Comment = "Stub appearance for future tactical vehicle Unit (spawn off: JAZZ_VehicleCombat.tactical_enabled=false). Runtime may upgrade Body to HMMWV.",
 					group = "JAZZ",
 					id = "JAZZ_HMMWV_Stub",
 				}),

@@ -124,7 +124,7 @@ GitHub: https://github.com/Kpoji4er/JAZZ-maps , https://github.com/Kpoji4er/jazz
 
 | Файл | Назначение | Load |
 |------|------------|------|
-| `Code/System_JAZZ_Vehicles.lua` | GameVar, board/exit, NetSync, travel hook (`.JAZZ_VehicleWrapper`), hp/wrecked, эффект спавна | loaded (`metadata.code`) |
+| `Code/System_JAZZ_Vehicles.lua` | GameVar, board/exit, NetSync, travel hook (identity re-wrap), hp/wrecked, эффект спавна | loaded (`metadata.code`) |
 | `Code/System_JAZZ_VehicleCombat.lua` | EnterSector spawn, path filter, snap Move, Pivot, Turret, HP sync | loaded (после Vehicles) |
 | `UnitData/JAZZ_CombatHMMWV.lua` | UnitData companion | loaded |
 | `items.lua` | ModItemCode ×2, ModItemUnitDataCompositeDef, ModItemAppearancePreset | editor + runtime |

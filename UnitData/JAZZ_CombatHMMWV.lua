@@ -35,6 +35,7 @@ DefineClass.JAZZ_CombatHMMWV = {
 		"ArmyHeavy",
 	},
 	species = "Human",
+	-- Stub UnitData for future tactical vehicle. Spawn gated by JAZZ_VehicleCombat.tactical_enabled.
 	body_type = "Large animal",
 	gender = "Male",
 }
