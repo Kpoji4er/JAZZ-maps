@@ -7889,6 +7889,11 @@ return {
 									Prop = "Given",
 									QuestId = "JAZZ_LegionTier",
 								}),
+								PlaceObj('JAZZ_SpawnSatelliteVehicle', {
+									Sector = "M1",
+									UniqueKey = "M1_HMMWV",
+									VehicleType = "HMMWV",
+								}),
 							},
 						}),
 						PlaceObj('SE_OnConflictStarted', {
@@ -9242,6 +9247,14 @@ return {
 		PlaceObj('ModItemCode', {
 			'name', "Rebels_Loyalty",
 			'CodeFileName', "Code/Rebels_Loyalty.lua",
+		}),
+		PlaceObj('ModItemCode', {
+			'name', "System_JAZZ_Vehicles",
+			'CodeFileName', "Code/System_JAZZ_Vehicles.lua",
+		}),
+		PlaceObj('ModItemCode', {
+			'name', "System_JAZZ_VehicleCombat",
+			'CodeFileName', "Code/System_JAZZ_VehicleCombat.lua",
 		}),
 		PlaceObj('ModItemFolder', {
 			'name', "UI",
@@ -44237,6 +44250,11 @@ return {
 									Prop = "Given",
 									QuestId = "JAZZ_LegionTier",
 								}),
+								PlaceObj('JAZZ_SpawnSatelliteVehicle', {
+									Sector = "M1",
+									UniqueKey = "M1_HMMWV",
+									VehicleType = "HMMWV",
+								}),
 							},
 						}),
 						PlaceObj('SE_OnConflictStarted', {
@@ -58415,6 +58433,44 @@ return {
 						}),
 					},
 					'FallbackMissingVR', "VillagerFemale",
+				}),
+				PlaceObj('ModItemUnitDataCompositeDef', {
+					'Id', "JAZZ_CombatHMMWV",
+					'object_class', "UnitData",
+					'Health', 100,
+					'Agility', 40,
+					'Dexterity', 50,
+					'Strength', 90,
+					'Wisdom', 30,
+					'Leadership', 20,
+					'Marksmanship', 75,
+					'Name', T(872401100070, --[[ModItemUnitDataCompositeDef JAZZ_CombatHMMWV Name]] "HMMWV"),
+					'Affiliation', "Other",
+					'StartingLevel', 5,
+					'CanManEmplacements', false,
+					'MaxAttacks', 2,
+					'MaxHitPoints', 120,
+					'StartingPerks', {
+						"AutoWeapons",
+					},
+					'AppearancesList', {
+						PlaceObj('AppearanceWeight', {
+							'Preset', "JAZZ_HMMWV_Stub",
+							'Weight', 100,
+						}),
+					},
+					'Equipment', {
+						"ArmyHeavy",
+					},
+					'species', "Human",
+					'body_type', "Large animal",
+					'gender', "Male",
+				}),
+				PlaceObj('ModItemAppearancePreset', {
+					Body = "Vehicle_PickupTruck",
+					Comment = "Stub appearance for JAZZ combat HMMWV until custom anims/model",
+					group = "JAZZ",
+					id = "JAZZ_HMMWV_Stub",
 				}),
 				PlaceObj('ModItemConversation', {
 					AssignToGroup = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",

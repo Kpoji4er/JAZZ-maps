@@ -2,6 +2,8 @@
 
 Документ для нового чата/агента. Пользователь — Doctor_Leevsy. Язык общения: русский. Не просить пересказывать пути и базу по JA3 — читать этот файл.
 
+**Актуальный handoff (статус + следующая задача «боевой HMMWV»):** [`AGENT_HANDOFF.md`](AGENT_HANDOFF.md) — читать первым.
+
 ---
 
 ## Пути
@@ -188,4 +190,5 @@
 - Маркеры Merc1–7 Start/GoTo на M1 — Pos  
 - Камеры M1Landing пользователь снимал; Teleport/Goto/Fade агент дописывал — **проверять, что редактор не откатил**  
 - B17 — отдельный санаторий «Лазурь», не квест I12  
-- Дальше типичные задачи: достройка локаций по слоям, setpiece, секторная логика, loading screens, цоколь/Invulnerable
+- Автотранспорт MVP: `System_JAZZ_Vehicles.lua` + `System_JAZZ_VehicleCombat.lua` (loaded); сателлит board/exit/road travel; тактический Unit `JAZZ_CombatHMMWV` (car-move, Pivot, турель); stub appearance  
+- Дальше типичные задачи: runtime-приёмка транспорта, модель/анимации HMMWV, экипаж (TBD), достройка локаций, setpiece

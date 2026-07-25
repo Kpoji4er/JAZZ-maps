@@ -10,11 +10,21 @@ return PlaceObj('ModDef', {
 	'version', 5122,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
+	'dependencies', {
+		PlaceObj('ModDependency', {
+			'id', "e6L4ECj",
+			'title', "JAZZ",
+			'required', false,
+		}),
+	},
 	'code', {
 		"Code/Rebels_Loyalty.lua",
+		"Code/System_JAZZ_Vehicles.lua",
+		"Code/System_JAZZ_VehicleCombat.lua",
 		"MapPatches/SetPieces/NewSetpiece_JXrwUUA/EncounterHerman.lua",
 		"UnitData/JAZZ_Ernie_Locals_M2_SaveMyFamily_Man.lua",
 		"UnitData/JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman.lua",
+		"UnitData/JAZZ_CombatHMMWV.lua",
 		"InventoryItem/Jazz_Browning_MuchineGun.lua",
 		"InventoryItem/Jazz_Browning_Bench.lua",
 		"InventoryItem/JazzQuestItem_AmmoBox.lua",
@@ -1575,6 +1585,16 @@ return PlaceObj('ModDef', {
 			'Class', "UnitDataCompositeDef",
 			'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
 			'ClassDisplayName', "Unit",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "UnitDataCompositeDef",
+			'Id', "JAZZ_CombatHMMWV",
+			'ClassDisplayName', "Unit",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "AppearancePreset",
+			'Id', "JAZZ_HMMWV_Stub",
+			'ClassDisplayName', "Appearance preset",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "Conversation",

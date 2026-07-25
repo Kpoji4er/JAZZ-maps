@@ -52,6 +52,8 @@ AI-first не разрешает пропускать редактор, игро
 - Новые ссылки `Mod/<id>/...` сопровождать metadata dependency; сейчас уже есть ссылки на `jazz-units`.
 - Проверять deployment, входы/выходы, conflict markers, квестовые маркеры, setpieces и переходы на стратегическую карту.
 - `Code/AIMechanism.lua` сейчас не загружается metadata. Не считать его активным и не подключать без отдельного ревью поведения.
+- `Code/System_JAZZ_Vehicles.lua` — loaded: сателлитный автотранспорт (GameVar, board/exit, travel hook, hp/wrecked). Спавн HMMWV на M1 через эффект `JAZZ_SpawnSatelliteVehicle`.
+- `Code/System_JAZZ_VehicleCombat.lua` — loaded: тактический боевой Unit (`JAZZ_CombatHMMWV`), car-facing Move/Pivot, турель, sync HP с токеном. Документация: `../jazz/docs/technical/systems/satellite-vehicles.md`.
 
 ## Два контура документации
 

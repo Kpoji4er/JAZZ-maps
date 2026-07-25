@@ -1,0 +1,27 @@
+---
+description: Правила пакета jazz-maps — сектора, карты, setpiece, generated data
+alwaysApply: true
+---
+
+# jazz-maps
+
+Пакет владеет: секторами, картами, map patches, quests, conversations, banters, setpieces.
+
+## Геометрия vs логика
+
+- `mapdata.lua`, `objects.lua`, grids, marker/debug — выход Map Editor; **не** править вручную массово.
+- Геометрия/Room/Pos — пользователь в F3, Save map.
+- Секторная логика, Events, дороги, campaign — `ModItemSector` / `CampaignPreset` (оба места согласованы).
+- Setpiece: и `ModItemSetpiecePrg` в `items.lua`, и companion в `MapPatches/SetPieces/...`, и запись в `metadata.code`.
+- Агент не кликает в Mod Editor; даёт чеклисты для F3/Ged. После правок на диске — Reload, иначе Save из памяти затрёт файлы.
+
+## Кампания (локальный статус)
+
+- Override `HotDiamonds`, старт `InitialSector = "M1"` (карта `EPA7FVN`), setpiece `M1Landing`.
+- Тесты катсцен/старта — **новая игра**, не старый сейв.
+- `Code/AIMechanism.lua` сейчас не в metadata — не считать активным без ревью.
+- Автотранспорт: `Code/System_JAZZ_Vehicles.lua` + `Code/System_JAZZ_VehicleCombat.lua` (loaded). Сателлит + тактический Unit; docs в `../jazz/docs/technical/systems/satellite-vehicles.md`.
+
+## Ссылки и зависимости
+
+Новые `Mod/<id>/...` — dependency в metadata. Уже есть ссылки на `jazz-units` / ассеты. Проверять deployment, входы/выходы, conflict/quest markers, setpieces, переходы на сателлит.
