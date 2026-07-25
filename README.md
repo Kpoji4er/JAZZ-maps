@@ -1,93 +1,46 @@
-# Jazz Maps
+# JAZZ Maps
 
+> Пакет карт и кампанийных данных JAZZ. Самостоятельная игра не поддерживается.
 
+`jazz-maps` формирует тактический и кампанийный контент [JAZZ — Tactical Overhaul](../jazz/README.md): карты, сектора, map patches, квесты, диалоги, banters и setpieces.
 
-## Getting started
+| Свойство | Значение |
+| --- | --- |
+| Mod ID | `FhNNYd` |
+| Автор metadata | `Doctor_Leevsy` |
+| Роль | Карты, сектора и кампанийные данные |
+| Самостоятельная установка | Не поддерживается |
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+## Что находится в пакете
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+- тактические карты и их terrain/object/grid data;
+- `SatelliteSector`, map patches, входы, deployment и conflict-маркеры;
+- квесты, разговоры, banters, события и setpieces;
+- точки интереса и связанные стратегические данные;
+- отдельные quest-specific предметы и UnitData, принадлежащие конкретным секторам.
 
-## Add your files
+Текущая демо-версия JAZZ полностью поддерживает остров Эрни. Контент других областей может быть незавершённым, не подключённым к кампании или предназначенным для дальнейшей разработки.
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+## Граница ответственности
 
-```
-cd existing_repo
-git remote add origin http://gitlab.example.com/jazzmod/jazz-maps.git
-git branch -M main
-git push -uf origin main
-```
+Пакет задаёт мир и размещение контента, но не является владельцем основных боевых формул, общего тактического AI, большинства Entity или базовой прогрессии противников. Эти области принадлежат `jazz`, `jazz_assets` и `jazz-units`.
 
-## Integrate with your tools
+## Зависимости и установка
 
-- [ ] [Set up project integrations](http://gitlab.example.com/jazzmod/jazz-maps/-/settings/integrations)
+Для поддерживаемой конфигурации нужны последняя опубликованная [`JA3_CommonLib`](https://gitlab.com/injto4ka/ja3_commonlib) и все четыре пакета JAZZ. Metadata `jazz-maps` пока не объявляет все фактические зависимости, хотя карты и квестовые данные содержат прямые ссылки на ресурсы `jazz-units`. Неполная установка не поддерживается.
 
-## Collaborate with your team
+## Разработка
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+Карты, `mapdata.lua`, `objects.lua`, grids и patches изменяются через Map Editor. Массовое ручное форматирование или редактирование этих generated-файлов запрещено. Для изменения существующей карты другого пакета используется Map Patch с явной dependency от владельца карты.
 
-## Test and Deploy
+`Code/Rebels_Loyalty.lua` загружается metadata. `Code/AIMechanism.lua` существует на диске, но не включён в `metadata.code` и не является частью обычного runtime.
 
-Use the built-in continuous integration in GitLab.
+После изменения карты проверяйте strategic/tactical entry, deployment, выходы, conflict markers, квестовые маркеры, setpieces и возврат на стратегическую карту.
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+## Документация
 
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+- [Общее описание JAZZ](../jazz/README.md)
+- [Гайд по установке](../jazz/docs/wiki/getting-started.md)
+- [Стратегия и мир](../jazz/docs/wiki/strategy-and-world.md)
+- [Карты, квесты и диалоги](../jazz/docs/technical/systems/maps-quests-dialogue.md)
+- [Правила работы](AGENTS.md)
