@@ -3,13 +3,6 @@ return PlaceObj('ModDef', {
 	'description', "Maps for JAZZ\n\nКарты для ДЖАЗ",
 	'image', "Mod/FhNNYd/Images/J 2.png",
 	'last_changes', "Update 1.2",
-	'id', "FhNNYd",
-	'author', "Doctor_Leevsy",
-	'version_major', 1,
-	'version_minor', 6,
-	'version', 5122,
-	'lua_revision', 233360,
-	'saved_with_revision', 366685,
 	'dependencies', {
 		PlaceObj('ModDependency', {
 			'id', "e6L4ECj",
@@ -22,6 +15,13 @@ return PlaceObj('ModDef', {
 			'required', false,
 		}),
 	},
+	'id', "FhNNYd",
+	'author', "Doctor_Leevsy",
+	'version_major', 1,
+	'version_minor', 6,
+	'version', 5129,
+	'lua_revision', 233360,
+	'saved_with_revision', 366685,
 	'code', {
 		"Code/Rebels_Loyalty.lua",
 		"Code/System_JAZZ_CrocodilePatrol.lua",
@@ -39,8 +39,8 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1784988379,
-	'code_hash', -7239735443028690212,
+	'saved', 1785102257,
+	'code_hash', -8985938646543829046,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
@@ -890,16 +890,6 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
 			'Id', "HotDiamonds_J4",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
-			'Id', "HotDiamonds_J3",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
-			'Id', "HotDiamonds_J2",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -2218,11 +2208,6 @@ return PlaceObj('ModDef', {
 			'ClassDisplayName', "Constant",
 		}),
 		PlaceObj('ModResourcePreset', {
-			'Class', "Camera",
-			'Id', "Camera_3_copy",
-			'ClassDisplayName', "Camera",
-		}),
-		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
 			'Id', "Herman_03_Lynch",
 			'ClassDisplayName', "Banter",
@@ -2394,6 +2379,171 @@ return PlaceObj('ModDef', {
 			'Class', "SetpiecePrg",
 			'Id', "M1Landing",
 			'ClassDisplayName', "Setpiece",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Herman_03_Lynch",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Herman_04_PostLynch_Luc",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Herman_04_PostLynch_NoOne",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Martha_01_Lynch",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Martha_01_Lynch2",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Martha_02_PostLynch_Herman",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Martha_02_PostLynch_Luc",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Martha_02_PostLynch_NoOne",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_VillagerFemale_12",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_VillagerFemale_13",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_VillagerFemale_14",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_VillagerMale_05",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_VillagerMale_17",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_VillagerMale_18",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_VillagerMale_19",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_Pierre_06",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_Pierre_07",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_Billy_07",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_Billy_08",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_Billy_09",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_Billy_10",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_Basil_01_approach",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_Basil_04",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Ernie_Basil_05",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Shared_Conversation_Civilians_19_Ernie",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Shared_Conversation_Legion_13_Outlook",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Shared_Conversation_Legion_07_Ernie",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "StealthTutorialNPC_01",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "StealthTutorialNPC_Approach",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "GuardpostObjective",
+			'Id', "Bunker",
+			'ClassDisplayName', "GuardpostObjectives",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "GuardpostObjective",
+			'Id', "EmeraldCoast",
+			'ClassDisplayName', "GuardpostObjectives",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "GuardpostObjective",
+			'Id', "H4_copy",
+			'ClassDisplayName', "GuardpostObjectives",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "GuardpostObjective",
+			'Id', "Bastien",
+			'ClassDisplayName', "GuardpostObjectives",
 		}),
 	},
 	'steam_id', "3322285655",

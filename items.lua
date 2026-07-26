@@ -2602,14 +2602,6 @@ return {
 					'MusicConflict', "Jungle_Conflict",
 				}),
 			}),
-			}),
-		PlaceObj('ModItemFolder', {
-			'name', "E",
-		}, {
-			}),
-		PlaceObj('ModItemFolder', {
-			'name', "F",
-		}, {
 			PlaceObj('ModItemSector', {
 				'comment', "Проклятый лес (Хижина ведьмы)",
 				'mapName', "XnEjf6n",
@@ -12233,7 +12225,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -12276,7 +12268,7 @@ return {
 						},
 						GoTo = "RedirectFlag",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -12321,7 +12313,7 @@ return {
 						},
 						GoTo = "RedirectFlag",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -12351,7 +12343,7 @@ return {
 							},
 							GoTo = "<end conversation>",
 							Keyword = "Yes",
-							KeywordT = T(890000000000719, --[[ModItemConversation Pierre_1 KeywordT]] "Yes"),
+							KeywordT = T(556648424716, --[[ModItemConversation Pierre_1 KeywordT]] "Yes"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -12379,7 +12371,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Barry",
-													Text = T(875451970681, --[[ModItemConversation Pierre_1 Text voice:Barry section:Pierre_1 keyword:Yes]] "I think this is maybe trick question, but I will say \"yes.\""),
+													Text = T(875451970681, --[[ModItemConversation Pierre_1 Text voice:Barry section:Pierre_1 keyword:Yes]] 'I think this is maybe trick question, but I will say "yes."'),
 													param_bindings = false,
 												}),
 											},
@@ -12607,7 +12599,7 @@ return {
 						},
 						GoTo = "RedirectMajor",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -12706,7 +12698,7 @@ return {
 						},
 						GoTo = "RedirectDefault",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -12772,7 +12764,7 @@ return {
 						},
 						GoTo = "RedirectDefault",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -12824,7 +12816,7 @@ return {
 						Comment = "",
 						GoTo = "RedirectDefault",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -13013,7 +13005,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Blood",
-												Text = T(498157476249, --[[ModItemConversation Pierre_1 Text voice:Blood section:Pierre_1 keyword:So this is the Legion?]] "I can respect that, but I think some of your neighbors object to your \"protection\" methods."),
+												Text = T(498157476249, --[[ModItemConversation Pierre_1 Text voice:Blood section:Pierre_1 keyword:So this is the Legion?]] 'I can respect that, but I think some of your neighbors object to your "protection" methods.'),
 												param_bindings = false,
 											}),
 										},
@@ -13559,7 +13551,7 @@ return {
 						},
 						GoTo = "Redirect",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
@@ -13624,7 +13616,7 @@ return {
 						},
 						GoTo = "Redirect",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -13676,7 +13668,7 @@ return {
 						},
 						GoTo = "Redirect",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -13721,7 +13713,7 @@ return {
 						},
 						GoTo = "Redirect",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -13743,7 +13735,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "Redirect",
-						KeywordT = T(890000000000352, --[[ModItemConversation Pierre_2 KeywordT]] "Redirect"),
+						KeywordT = T(328092960140, --[[ModItemConversation Pierre_2 KeywordT]] "Redirect"),
 						NoBackOption = true,
 						id = "Redirect",
 						param_bindings = false,
@@ -13797,7 +13789,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Buns",
-													Text = T(910007453979, --[[ModItemConversation Pierre_2 Text voice:Buns section:Pierre_2 keyword:Actually not]] "Major Scallion, now is not the time for one of your \"jokes\"."),
+													Text = T(910007453979, --[[ModItemConversation Pierre_2 Text voice:Buns section:Pierre_2 keyword:Actually not]] 'Major Scallion, now is not the time for one of your "jokes".'),
 													param_bindings = false,
 												}),
 											},
@@ -14150,7 +14142,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -14178,7 +14170,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -14225,7 +14217,7 @@ return {
 							}),
 						},
 						Keyword = "What happened to you?",
-						KeywordT = T(890000000000850, --[[ModItemConversation Pierre_2 KeywordT]] "What happened to you?"),
+						KeywordT = T(647698836002, --[[ModItemConversation Pierre_2 KeywordT]] "What happened to you?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -14321,7 +14313,7 @@ return {
 							}),
 						},
 						Keyword = "What happened to you?",
-						KeywordT = T(890000000000850, --[[ModItemConversation Pierre_2 KeywordT]] "What happened to you?"),
+						KeywordT = T(647698836002, --[[ModItemConversation Pierre_2 KeywordT]] "What happened to you?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -15479,7 +15471,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -15508,7 +15500,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -15564,7 +15556,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -15594,7 +15586,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -15624,7 +15616,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
@@ -16352,7 +16344,7 @@ return {
 							"JoseFamily",
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17095,7 +17087,7 @@ return {
 							}),
 						},
 						Keyword = "Hands up!",
-						KeywordT = T(890000000000761, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
+						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -17188,7 +17180,7 @@ return {
 							}),
 						},
 						Keyword = "Hands up!",
-						KeywordT = T(890000000000761, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
+						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17320,7 +17312,7 @@ return {
 						Enabled = false,
 						GoTo = "<end conversation>",
 						Keyword = "Die!",
-						KeywordT = T(890000000000599, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
+						KeywordT = T(482976736771, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17458,7 +17450,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17534,7 +17526,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17616,7 +17608,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -17678,7 +17670,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -18526,7 +18518,7 @@ return {
 							}),
 						},
 						Keyword = "Hands up!",
-						KeywordT = T(890000000000761, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
+						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -18577,7 +18569,7 @@ return {
 							}),
 						},
 						Keyword = "Hands up!",
-						KeywordT = T(890000000000761, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
+						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -18900,7 +18892,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Die!",
-						KeywordT = T(890000000000599, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
+						KeywordT = T(482976736771, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -18947,7 +18939,7 @@ return {
 							"01_Landing",
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
@@ -19055,7 +19047,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
@@ -19406,7 +19398,7 @@ return {
 							"02_LiberateErnie",
 						},
 						Keyword = "Redirect",
-						KeywordT = T(890000000000352, --[[ModItemConversation Pierre_2 KeywordT]] "Redirect"),
+						KeywordT = T(328092960140, --[[ModItemConversation Pierre_2 KeywordT]] "Redirect"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
@@ -20053,7 +20045,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
@@ -20086,7 +20078,7 @@ return {
 					id = "FlagHill_Corazon_1",
 					PlaceObj('ConversationPhrase', {
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -20571,7 +20563,7 @@ return {
 						AutoRemove = true,
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -20586,7 +20578,7 @@ return {
 					PlaceObj('ConversationPhrase', {
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -20616,7 +20608,7 @@ return {
 					id = "Corazon_Defeated",
 					PlaceObj('ConversationPhrase', {
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
@@ -20768,7 +20760,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Kalyna",
-												Text = T(309495096893, --[[ModItemConversation Corazon_Defeated Text voice:Kalyna section:Corazon_Defeated keyword:FaucheuxRedirect]] "I do not mean to offend, but \"your power\" does not seem very impressive right now."),
+												Text = T(309495096893, --[[ModItemConversation Corazon_Defeated Text voice:Kalyna section:Corazon_Defeated keyword:FaucheuxRedirect]] 'I do not mean to offend, but "your power" does not seem very impressive right now.'),
 												param_bindings = false,
 											}),
 										},
@@ -21096,7 +21088,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Livewire",
-												Text = T(386132145137, --[[ModItemConversation Corazon_Defeated Text voice:Livewire section:Corazon_Defeated keyword:We never mentioned the Major]] "Actually, no. After several hours of database hacking, I did not find any connection between the former A.I.M. mercenary and the so-called \"Major.\" Only his most recent employer would know - I guess that's you!"),
+												Text = T(386132145137, --[[ModItemConversation Corazon_Defeated Text voice:Livewire section:Corazon_Defeated keyword:We never mentioned the Major]] 'Actually, no. After several hours of database hacking, I did not find any connection between the former A.I.M. mercenary and the so-called "Major." Only his most recent employer would know - I guess that\'s you!'),
 												param_bindings = false,
 											}),
 										},
@@ -22396,7 +22388,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
@@ -22515,7 +22507,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Get out of here",
-						KeywordT = T(890000000000033, --[[ModItemConversation Herman_1 KeywordT]] "Get out of here"),
+						KeywordT = T(118462598598, --[[ModItemConversation Herman_1 KeywordT]] "Get out of here"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -22567,7 +22559,7 @@ return {
 						},
 						GoTo = "CombatRedirect",
 						Keyword = "Get out of here",
-						KeywordT = T(890000000000033, --[[ModItemConversation Herman_1 KeywordT]] "Get out of here"),
+						KeywordT = T(118462598598, --[[ModItemConversation Herman_1 KeywordT]] "Get out of here"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -22626,7 +22618,7 @@ return {
 						Enabled = false,
 						GoTo = "<end conversation>",
 						Keyword = "CombatRedirect",
-						KeywordT = T(890000000000180, --[[ModItemConversation Herman_1 KeywordT]] "CombatRedirect"),
+						KeywordT = T(236527406375, --[[ModItemConversation Herman_1 KeywordT]] "CombatRedirect"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider",
@@ -22654,7 +22646,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Die!",
-						KeywordT = T(890000000000599, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
+						KeywordT = T(482976736771, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider",
@@ -22723,7 +22715,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Herman",
@@ -23102,7 +23094,7 @@ return {
 						PlaceObj('ConversationPhrase', {
 							Align = "right",
 							Keyword = "Goodbye",
-							KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+							KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Herman",
@@ -23396,7 +23388,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -23449,7 +23441,7 @@ return {
 							AutoRemove = true,
 							Enabled = false,
 							Keyword = "Redirect",
-							KeywordT = T(890000000000352, --[[ModItemConversation Pierre_2 KeywordT]] "Redirect"),
+							KeywordT = T(328092960140, --[[ModItemConversation Pierre_2 KeywordT]] "Redirect"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Luc",
@@ -23535,7 +23527,7 @@ return {
 								AutoRemove = true,
 								GoTo = "<end conversation>",
 								Keyword = "Goodbye",
-								KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+								KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "Luc",
@@ -23579,7 +23571,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -23611,7 +23603,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -23643,7 +23635,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -23675,7 +23667,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -23698,7 +23690,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -23721,7 +23713,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -23753,7 +23745,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -23779,7 +23771,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -23803,7 +23795,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -23977,7 +23969,7 @@ return {
 						Align = "right",
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
@@ -24012,7 +24004,7 @@ return {
 						AutoRemove = true,
 						Comment = "first",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
@@ -24028,7 +24020,7 @@ return {
 							AutoRemove = true,
 							GoTo = "<root>",
 							Keyword = "Are you okay?",
-							KeywordT = T(890000000000184, --[[ModItemConversation Deedee KeywordT]] "Are you okay?"),
+							KeywordT = T(242677370659, --[[ModItemConversation Deedee KeywordT]] "Are you okay?"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -24088,7 +24080,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Wolf",
-													Text = T(664332341259, --[[ModItemConversation Deedee Text voice:Wolf section:Deedee keyword:Nice house...]] "Interesting place you got here. The furnishings say \"take cover\" while the scorch marks on the wall say \"it probably won't matter\"."),
+													Text = T(664332341259, --[[ModItemConversation Deedee Text voice:Wolf section:Deedee keyword:Nice house...]] 'Interesting place you got here. The furnishings say "take cover" while the scorch marks on the wall say "it probably won\'t matter".'),
 													param_bindings = false,
 												}),
 											},
@@ -24219,7 +24211,7 @@ return {
 						Align = "right",
 						Comment = "repeated",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
@@ -24713,7 +24705,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fox",
-												Text = T(387860591529, --[[ModItemConversation Deedee Text voice:Fox section:Deedee keyword:Make us some explosives]] "\"Uncle Fidel\"?! Is this how their kind reproduces?"),
+												Text = T(387860591529, --[[ModItemConversation Deedee Text voice:Fox section:Deedee keyword:Make us some explosives]] '"Uncle Fidel"?! Is this how their kind reproduces?'),
 												param_bindings = false,
 											}),
 										},
@@ -25374,7 +25366,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "Hands up!",
-						KeywordT = T(890000000000761, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
+						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -25441,7 +25433,7 @@ return {
 							AutoRemove = true,
 							GoTo = "Handsup1.DieExplosion",
 							Keyword = "Die!",
-							KeywordT = T(890000000000599, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
+							KeywordT = T(482976736771, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -25596,7 +25588,7 @@ return {
 						Enabled = false,
 						GoTo = "<end conversation>",
 						Keyword = "Hands up!",
-						KeywordT = T(890000000000761, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
+						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
@@ -25611,7 +25603,7 @@ return {
 						Align = "right",
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
@@ -25668,7 +25660,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -25743,7 +25735,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -25757,7 +25749,7 @@ return {
 					PlaceObj('ConversationPhrase', {
 						Align = "right",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -25944,7 +25936,7 @@ return {
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "Raven",
-												Text = T(888023374290, --[[ModItemConversation Martha_1 Text voice:Raven section:Martha_1 keyword:We'll look for your husband]] "But if we were, we would take a \"lead by example\" approach: The couple that shoots together, stays together."),
+												Text = T(888023374290, --[[ModItemConversation Martha_1 Text voice:Raven section:Martha_1 keyword:We'll look for your husband]] 'But if we were, we would take a "lead by example" approach: The couple that shoots together, stays together.'),
 												param_bindings = false,
 											}),
 										},
@@ -26743,7 +26735,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -26759,7 +26751,7 @@ return {
 						Align = "right",
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
@@ -26830,7 +26822,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -27059,7 +27051,7 @@ return {
 							Enabled = false,
 							GoTo = "<root>",
 							Keyword = "Redirect",
-							KeywordT = T(890000000000352, --[[ModItemConversation Pierre_2 KeywordT]] "Redirect"),
+							KeywordT = T(328092960140, --[[ModItemConversation Pierre_2 KeywordT]] "Redirect"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
@@ -27088,7 +27080,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -27293,7 +27285,7 @@ return {
 						},
 						GoTo = "MachineGunRedirect",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -27334,7 +27326,7 @@ return {
 						},
 						GoTo = "MachineGunRedirect",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -27552,7 +27544,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -27585,7 +27577,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -27663,7 +27655,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -27753,7 +27745,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -27822,7 +27814,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Annotation = "*spits on the ground*",
@@ -27882,7 +27874,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -27941,7 +27933,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -27999,7 +27991,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -28022,7 +28014,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -28424,7 +28416,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grunty",
-												Text = T(207587705040, --[[ModItemConversation GreasyBasil_1 Text voice:Grunty section:GreasyBasil_1 keyword:Is that all the help you need?]] "As Mother always likes to say, \"There are few problems a machine gun cannot solve\"."),
+												Text = T(207587705040, --[[ModItemConversation GreasyBasil_1 Text voice:Grunty section:GreasyBasil_1 keyword:Is that all the help you need?]] 'As Mother always likes to say, "There are few problems a machine gun cannot solve".'),
 												param_bindings = false,
 											}),
 										},
@@ -29147,7 +29139,7 @@ return {
 						Align = "right",
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -29165,7 +29157,7 @@ return {
 						Align = "right",
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -29242,7 +29234,7 @@ return {
 						},
 						GoTo = "GreetingInterjectionsRedirect",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -29304,7 +29296,7 @@ return {
 						},
 						GoTo = "GreetingInterjectionsRedirect",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -29869,7 +29861,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "ThugBoss_Balumba",
@@ -29964,7 +29956,7 @@ return {
 					}),
 					PlaceObj('ConversationPhrase', {
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "ThugBoss_Balumba",
@@ -30023,7 +30015,7 @@ return {
 					PlaceObj('ConversationPhrase', {
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "ThugBoss_Balumba",
@@ -30067,7 +30059,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_L1",
@@ -30135,7 +30127,7 @@ return {
 					}),
 					PlaceObj('ConversationPhrase', {
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_L1",
@@ -30181,7 +30173,7 @@ return {
 					PlaceObj('ConversationPhrase', {
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_L1",
@@ -30209,7 +30201,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Annotation = '"Mala\'dets" - meaning champion',
@@ -30296,7 +30288,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Annotation = '"I respect you"',
@@ -30406,7 +30398,7 @@ return {
 						},
 						GoTo = "Greeting2.2",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Doctor_Leevsy",
@@ -30431,7 +30423,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Doctor_Leevsy",
@@ -30467,7 +30459,7 @@ return {
 					PlaceObj('ConversationPhrase', {
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Doctor_Leevsy",
@@ -30496,7 +30488,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergant_Immortal",
@@ -30608,7 +30600,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergant_Immortal",
@@ -30667,7 +30659,7 @@ return {
 					}),
 					PlaceObj('ConversationPhrase', {
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergant_Immortal",
@@ -30759,7 +30751,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_M1",
@@ -30786,7 +30778,7 @@ return {
 						},
 						GoTo = "2",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_M1",
@@ -30984,7 +30976,7 @@ return {
 							},
 							GoTo = "<end conversation>",
 							Keyword = "Goodbye",
-							KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+							KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "RebelSergeant_Immortal_M1",
@@ -31026,7 +31018,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
@@ -31076,7 +31068,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
@@ -31128,7 +31120,7 @@ return {
 						PlaceObj('ConversationPhrase', {
 							GoTo = "<end conversation>",
 							Keyword = "Goodbye",
-							KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+							KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
@@ -31249,7 +31241,7 @@ return {
 					PlaceObj('ConversationPhrase', {
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
@@ -31433,7 +31425,7 @@ return {
 					'Map', "UfXn5Ky",
 					'MapTier', 40,
 					'modId', "FhNNYd",
-					'display_name', T(351600997529, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A12]] "Горы"),
+					'display_name', T(964205144819, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A12]] "Highlands"),
 					'TerrainType', "Highlands",
 					'WeatherZone', "Highlands",
 					'bidirectionalRoadApply', true,
@@ -31484,7 +31476,7 @@ return {
 					'Map', "onJGJze",
 					'MapTier', 40,
 					'modId', "FhNNYd",
-					'display_name', T(308950187945, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A15]] "Лагерь на холме"),
+					'display_name', T(781205272716, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A15]] "Hill Station"),
 					'TerrainType', "Highlands",
 					'WeatherZone', "Highlands",
 					'PatrolRespawnTime', 504000,
@@ -31573,9 +31565,13 @@ return {
 					'InitialSquads', {
 						"A17",
 					},
-					'Roads', set( "South", "West" ),
+					'Roads', set({
+	South = false,
+	West = true,
+}),
 					'BlockTravel', {
 						North = true,
+						South = false,
 					},
 					'image', "UI/SatelliteView/SectorImages/A17",
 					'MusicCombat', "Battle_Normal",
@@ -31691,7 +31687,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "A24",
-					'display_name', T(854571918784, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A24_Underground]] "Станция метро А"),
+					'display_name', T(828544218367, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A24_Underground]] "U-Bahn Station A"),
 					'discovered', false,
 					'InitialSquads', {
 						"SmallStations",
@@ -31715,7 +31711,7 @@ return {
 					'MapTier', 40,
 					'Label1', "Mine",
 					'modId', "FhNNYd",
-					'display_name', T(442516764606, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A25]] "Шахта «Драхенберг»"),
+					'display_name', T(246964272688, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A25]] "Drachenberg Mine"),
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Highlands",
@@ -31772,7 +31768,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "A25",
-					'display_name', T(323466597390, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A25_Underground]] "«Дизельклиника»"),
+					'display_name', T(765521273692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A25_Underground]] "Diesel Klinik"),
 					'discovered', false,
 					'InitialSquads', {
 						"Klinik",
@@ -31793,7 +31789,7 @@ return {
 					'MapTier', 40,
 					'Label1', "City",
 					'modId', "FhNNYd",
-					'display_name', T(620219516865, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A26]] "Ландсбах"),
+					'display_name', T(230692696131, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A26]] "Landsbach"),
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Urban",
@@ -31922,7 +31918,7 @@ return {
 					'MapTier', 10,
 					'Label1', "Mine",
 					'modId', "FhNNYd",
-					'display_name', T(495513640483, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A4]] "Даймонд-Ред"),
+					'display_name', T(189910903608, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A4]] "Diamond Red"),
 					'WeatherZone', "SavannahNorth",
 					'Passability', "Land and Water",
 					'Mine', true,
@@ -32083,7 +32079,7 @@ return {
 					'Id', "A9",
 					'Map', "KKzpYnk",
 					'modId', "FhNNYd",
-					'display_name', T(296385373440, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A9]] "Highlands"),
+					'display_name', T(109599909548, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A9]] "Highlands"),
 					'TerrainType', "Highlands",
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
@@ -32145,7 +32141,7 @@ return {
 					'Map', "sVQSE5",
 					'MapTier', 40,
 					'modId', "FhNNYd",
-					'display_name', T(849469414167, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B11]] "Горы"),
+					'display_name', T(109599909548, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B11]] "Highlands"),
 					'TerrainType', "Highlands",
 					'WeatherZone', "Highlands",
 					'bidirectionalRoadApply', true,
@@ -32190,7 +32186,7 @@ return {
 					'Map', "kATGgxm",
 					'MapTier', 40,
 					'modId', "FhNNYd",
-					'display_name', T(263718848685, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B15]] "Нигде"),
+					'display_name', T(107689269757, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B15]] "Middle of Nowhere"),
 					'TerrainType', "Highlands",
 					'WeatherZone', "Highlands",
 					'InterestingSector', true,
@@ -32226,9 +32222,9 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "B17",
-					'Map', "B-17 - Oasis",
-					'MapTier', 40,
-					'display_name', T(834500050121, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B17]] "Oasis"),
+					'Map', "PKLpuCd",
+					'modId', "FhNNYd",
+					'display_name', T(978218324840, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B17]] 'Санаторий "Лазурь"'),
 					'TerrainType', "Highlands",
 					'WeatherZone', "Highlands",
 					'Donations', true,
@@ -32256,6 +32252,7 @@ return {
 					'Roads', set( "East", "West" ),
 					'BlockTravel', {
 						South = false,
+						West = false,
 					},
 					'image', "UI/SatelliteView/SectorImages/B18",
 					'MusicCombat', "Battle_Normal",
@@ -32434,7 +32431,7 @@ return {
 					'Label1', "Outpost",
 					'modId', "FhNNYd",
 					'Label2', "Boss",
-					'display_name', T(890000000000023, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B28]] "Орлиное гнездо"),
+					'display_name', T(111536912824, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B28]] "The Eagle's Nest"),
 					'TerrainType', "Highlands",
 					'WeatherZone', "Barrens",
 					'Guardpost', true,
@@ -32586,7 +32583,7 @@ return {
 					'Map', "idDivnV",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(468290459033, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B7]] "Пещера в саванне"),
+					'display_name', T(785363607069, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B7]] "Savanna Cave"),
 					'WeatherZone', "SavannahNorth",
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -32686,7 +32683,7 @@ return {
 					'Map', "uSeN6U",
 					'MapTier', 40,
 					'modId', "FhNNYd",
-					'display_name', T(278429472343, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C12]] "Пит-стоп"),
+					'display_name', T(292780704413, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C12]] "The PitStop"),
 					'TerrainType', "Highlands",
 					'WeatherZone', "Highlands",
 					'bidirectionalRoadApply', true,
@@ -32712,7 +32709,7 @@ return {
 					'Map', "cSypFKz",
 					'MapTier', 40,
 					'modId', "FhNNYd",
-					'display_name', T(849469414167, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C13]] "Горы"),
+					'display_name', T(109599909548, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C13]] "Highlands"),
 					'TerrainType', "Highlands",
 					'WeatherZone', "Highlands",
 					'bidirectionalRoadApply', true,
@@ -32739,7 +32736,7 @@ return {
 					'Map', "fM3uffW",
 					'MapTier', 40,
 					'modId', "FhNNYd",
-					'display_name', T(468361198430, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C14]] "Старая бензоколонка"),
+					'display_name', T(607387504891, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C14]] "Old Gas Station"),
 					'WeatherZone', "Highlands",
 					'InterestingSector', true,
 					'bidirectionalRoadApply', true,
@@ -32800,12 +32797,13 @@ return {
 					'Passability', "Blocked",
 					'Intel', false,
 					'Roads', set({
-	North = false,
+	North = true,
 	South = false,
 	West = false,
 }),
 					'BlockTravel', set({
 	East = false,
+	North = false,
 	South = false,
 }),
 					'MusicCombat', "Battle_Normal",
@@ -32978,7 +32976,7 @@ return {
 					'Map', "uP4JNpT",
 					'MapTier', 40,
 					'modId', "FhNNYd",
-					'display_name', T(641955441671, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C22]] "Пустоши"),
+					'display_name', T(354140743120, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C22]] "Barrens"),
 					'TerrainType', "Highlands",
 					'WeatherZone', "Barrens",
 					'PatrolRespawnTime', 1800000,
@@ -33012,7 +33010,7 @@ return {
 					'Map', "mdV5qwe",
 					'MapTier', 40,
 					'modId', "FhNNYd",
-					'display_name', T(760941588357, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C23]] "Пустоши"),
+					'display_name', T(774425543634, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C23]] "Barrens"),
 					'TerrainType', "Highlands",
 					'WeatherZone', "Barrens",
 					'InitialSquads', {
@@ -33042,7 +33040,7 @@ return {
 					'Map', "ew4nkhg",
 					'MapTier', 40,
 					'modId', "FhNNYd",
-					'display_name', T(620660665480, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C24]] "Перекресток Дохлых Зверей"),
+					'display_name', T(426114319628, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C24]] "Dead Animal Crossing"),
 					'TerrainType', "Highlands",
 					'WeatherZone', "Barrens",
 					'Passability', "Land and Water",
@@ -33088,7 +33086,7 @@ return {
 					'Map', "3vhEUg",
 					'MapTier', 40,
 					'modId', "FhNNYd",
-					'display_name', T(826339210077, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C26]] "Вершина скалы"),
+					'display_name', T(592928139416, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C26]] "Clifftop Overlook"),
 					'TerrainType', "Wasteland",
 					'WeatherZone', "Barrens",
 					'ForceConflict', true,
@@ -33119,7 +33117,7 @@ return {
 					'Id', "C27",
 					'Map', "nyAYoYY",
 					'modId', "FhNNYd",
-					'display_name', T(982737667772, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C27]] "Горы"),
+					'display_name', T(109599909548, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C27]] "Highlands"),
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 				}),
@@ -33135,7 +33133,7 @@ return {
 					'Map', "SexCTTP",
 					'MapTier', 40,
 					'modId', "FhNNYd",
-					'display_name', T(535901703196, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C29]] "Пустоши"),
+					'display_name', T(130761115220, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C29]] "Barrens"),
 					'TerrainType', "Highlands",
 					'WeatherZone', "Barrens",
 					'Passability', "Land and Water",
@@ -33208,7 +33206,7 @@ return {
 					'Id', "C4",
 					'Map', "X4v4S7",
 					'modId', "FhNNYd",
-					'display_name', T(776271330418, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C4]] "Чаячий остров"),
+					'display_name', T(451604040075, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C4]] "Seagull Island"),
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 				}),
@@ -33230,7 +33228,7 @@ return {
 					'Map', "pEfrj37",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(105841267978, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C6]] "Побережье саванны"),
+					'display_name', T(868894864770, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C6]] "Savanna Coast"),
 					'WeatherZone', "SavannahNorth",
 					'Passability', "Land and Water",
 					'InitialSquads', {
@@ -33265,7 +33263,7 @@ return {
 					'Map', "aoNitXa",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(851181592647, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C7]] "Саванна"),
+					'display_name', T(771114970857, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C7]] "Savanna"),
 					'WeatherZone', "SavannahNorth",
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -33311,7 +33309,7 @@ return {
 					'Map', "PjNRUc7",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(547505775524, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C8]] "Саванна"),
+					'display_name', T(791011159552, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C8]] "Savanna"),
 					'WeatherZone', "SavannahNorth",
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -33519,7 +33517,7 @@ return {
 					'MapTier', 10,
 					'Label1', "Mine",
 					'modId', "FhNNYd",
-					'display_name', T(890000000001100, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D15]] "Фосс-Нуар"),
+					'display_name', T(816330931329, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D15]] "Фосс-Нуар"),
 					'StickySide', true,
 					'WeatherZone', "SavannahNorth",
 					'City', "Pantagruel",
@@ -33586,7 +33584,7 @@ return {
 					'MapTier', 10,
 					'Label1', "Outpost",
 					'modId', "FhNNYd",
-					'display_name', T(890000000001298, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D18]] "Кам-Гран-При"),
+					'display_name', T(929083374712, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D18]] "Camp Grand Prix"),
 					'WeatherZone', "Highlands",
 					'Passability', "Land and Water",
 					'Guardpost', true,
@@ -33732,7 +33730,7 @@ return {
 					'Map', "YFjugXX",
 					'MapTier', 40,
 					'modId', "FhNNYd",
-					'display_name', T(282257107633, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D23]] "Оазис"),
+					'display_name', T(834500050121, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D23]] "Oasis"),
 					'TerrainType', "Highlands",
 					'WeatherZone', "Barrens",
 					'InitialSquads', {
@@ -33777,7 +33775,7 @@ return {
 					'Map', "KMykuzc",
 					'MapTier', 40,
 					'modId', "FhNNYd",
-					'display_name', T(299254523561, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D26]] "Каменные ступени"),
+					'display_name', T(271555251523, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D26]] "Stone Stairs"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "CursedForest",
 					'ForceConflict', true,
@@ -33812,7 +33810,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "D26",
-					'display_name', T(367207549789, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D26_Underground]] "Пещера Халявщика"),
+					'display_name', T(592602310517, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D26_Underground]] "Freeloader's Cavern"),
 					'discovered', false,
 					'ForceConflict', true,
 					'Intel', false,
@@ -33829,7 +33827,7 @@ return {
 					'Map', "saFGCtu",
 					'MapTier', 40,
 					'modId', "FhNNYd",
-					'display_name', T(861144476559, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D27]] "Штурмвассерский каньон"),
+					'display_name', T(869195336024, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D27]] "Sturmwasser Canyon"),
 					'TerrainType', "Highlands",
 					'WeatherZone', "Barrens",
 					'InitialSquads', {
@@ -33860,7 +33858,7 @@ return {
 					'MapTier', 50,
 					'Label1', "Special",
 					'modId', "FhNNYd",
-					'display_name', T(890000000000898, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D28]] "Разлом"),
+					'display_name', T(685901275490, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D28]] "The Fracture"),
 					'TerrainType', "Highlands",
 					'WeatherZone', "Barrens",
 					'Guardpost', true,
@@ -33925,7 +33923,7 @@ return {
 					'Map', "ruSomEb",
 					'MapTier', 40,
 					'modId', "FhNNYd",
-					'display_name', T(743091327405, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D29]] "Остров Штурмвассер"),
+					'display_name', T(375119513470, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D29]] "Sturmwasser Island"),
 					'TerrainType', "Highlands",
 					'WeatherZone', "Barrens",
 					'Passability', "Land and Water",
@@ -34126,7 +34124,7 @@ return {
 					'MapTier', 30,
 					'Label1', "Outpost",
 					'modId', "FhNNYd",
-					'display_name', T(890000000000722, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E10]] "Кам-Саван"),
+					'display_name', T(561867464607, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E10]] "Кам-Саван"),
 					'WeatherZone', "SavannahSouth",
 					'Guardpost', true,
 					'PatrolRespawnTime', 576000,
@@ -34255,7 +34253,7 @@ return {
 					'MapTier', 10,
 					'Label1', "City",
 					'modId', "FhNNYd",
-					'display_name', T(890000000000068, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E14]] "Окраины Пантагрюэля"),
+					'display_name', T(149503142162, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E14]] "Окраины Пантагрюэля"),
 					'WeatherZone', "SavannahNorth",
 					'City', "Pantagruel",
 					'ShowCity', true,
@@ -34293,7 +34291,7 @@ return {
 					'MapTier', 10,
 					'Label1', "City",
 					'modId', "FhNNYd",
-					'display_name', T(890000000000747, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E15]] "Трущобы Пантагрюэля"),
+					'display_name', T(580447225647, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E15]] "Трущобы Пантагрюэля"),
 					'TerrainType', "Urban",
 					'WeatherZone', "SavannahNorth",
 					'City', "Pantagruel",
@@ -34784,7 +34782,7 @@ return {
 					'Map', "uzPscJH",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(642649418249, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F10]] "Саванна"),
+					'display_name', T(932097434495, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F10]] "Savanna"),
 					'WeatherZone', "SavannahSouth",
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -34810,7 +34808,7 @@ return {
 					'Map', "XkdorHn",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(750412214505, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F11]] "Саванна"),
+					'display_name', T(991978958821, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F11]] "Savanna"),
 					'WeatherZone', "SavannahSouth",
 					'InterestingSector', true,
 					'bidirectionalRoadApply', true,
@@ -34854,7 +34852,7 @@ return {
 					'Map', "mkLLdVK",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(541857328963, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F12]] "Саванна"),
+					'display_name', T(503047310675, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F12]] "Savanna"),
 					'WeatherZone', "SavannahSouth",
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -34892,7 +34890,7 @@ return {
 					'Map', "EtnVji3",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(954736904055, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F13]] "Лагерь беженцев"),
+					'display_name', T(605614248181, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F13]] "Refugee Camp"),
 					'TerrainType', "Urban",
 					'WeatherZone', "SavannahSouth",
 					'Passability', "Land and Water",
@@ -35131,7 +35129,7 @@ return {
 					'Map', "TNJpJYg",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(890000000000917, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F17]] "Берег реки в джунглях"),
+					'display_name', T(697092134355, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F17]] "Jungle River Bank"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'Passability', "Land and Water",
@@ -35203,7 +35201,7 @@ return {
 					'Map', "Qy5dqDn",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(514212765118, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F20]] "Проклятый лес"),
+					'display_name', T(115280237493, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F20]] "Cursed Forest"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "CursedForest",
 					'bidirectionalRoadApply', true,
@@ -35250,7 +35248,7 @@ return {
 					'Map', "XnEjf6n",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(256134986000, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F22]] "Проклятый лес"),
+					'display_name', T(786216029389, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F22]] "Cursed Forest"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "CursedForest",
 					'bidirectionalRoadApply', true,
@@ -35355,7 +35353,7 @@ return {
 					'MapTier', 20,
 					'Label1', "City",
 					'modId', "FhNNYd",
-					'display_name', T(890000000000766, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F28]] "Иль-Мора"),
+					'display_name', T(588901431087, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F28]] "Иль-Мора"),
 					'TerrainType', "Urban",
 					'WeatherZone', "CursedForest",
 					'Passability', "Land and Water",
@@ -35547,7 +35545,7 @@ return {
 					'Map', "Wz4ej",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(746831907861, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F8]] "Побережье саванны"),
+					'display_name', T(102139312765, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F8]] "Savanna Coast"),
 					'WeatherZone', "SavannahSouth",
 					'Passability', "Land and Water",
 					'bidirectionalRoadApply', true,
@@ -35573,7 +35571,7 @@ return {
 					'Map', "cV4TTQL",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(755793762628, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F9]] "Саванна"),
+					'display_name', T(258117774774, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F9]] "Savanna"),
 					'WeatherZone', "SavannahNorth",
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -35634,7 +35632,7 @@ return {
 					'Map', "Cxu5w7",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(541857328963, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G11]] "Саванна"),
+					'display_name', T(503047310675, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G11]] "Savanna"),
 					'WeatherZone', "SavannahSouth",
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -35790,7 +35788,7 @@ return {
 					'Map', "jfUUwFo",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(300355091122, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G13]] "Саванна"),
+					'display_name', T(352010995873, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G13]] "Savanna"),
 					'WeatherZone', "SavannahSouth",
 					'bidirectionalRoadApply', true,
 					'Roads', set( "East", "North", "South", "West" ),
@@ -35811,7 +35809,7 @@ return {
 					'Map', "evrj7Dq",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(884980086575, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G14]] "Саванна"),
+					'display_name', T(293659664903, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G14]] "Savanna"),
 					'WeatherZone', "SavannahSouth",
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -35831,7 +35829,7 @@ return {
 					'Map', "aApUtcM",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(641120547141, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G16]] "Минное поле"),
+					'display_name', T(751456951679, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G16]] "Minefield"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'bidirectionalRoadApply', true,
@@ -35858,7 +35856,7 @@ return {
 					'Map', "GgmzYs",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(493913960829, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G17]] "Великий лес"),
+					'display_name', T(785169160617, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G17]] "Great Forest"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'bidirectionalRoadApply', true,
@@ -35885,7 +35883,7 @@ return {
 					'Map', "cqxkQM",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(278065061283, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G18]] "Берег реки в джунглях"),
+					'display_name', T(893101227500, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G18]] "Jungle River Bank"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'Passability', "Land and Water",
@@ -35945,7 +35943,7 @@ return {
 					'MapTier', 20,
 					'Label1', "Outpost",
 					'modId', "FhNNYd",
-					'display_name', T(890000000000789, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G22]] "Кам-Шьен-Саваж"),
+					'display_name', T(612776379237, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G22]] "Camp Chien Sauvage"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "CursedForest",
 					'Passability', "Land and Water",
@@ -36067,7 +36065,7 @@ return {
 					'Map', "eEi4fwE",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(433703198777, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G23]] "Проклятый лес"),
+					'display_name', T(344714388063, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G23]] "Cursed Forest"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "CursedForest",
 					'bidirectionalRoadApply', true,
@@ -36107,7 +36105,7 @@ return {
 					'MapTier', 20,
 					'Label1', "City",
 					'modId', "FhNNYd",
-					'display_name', T(890000000001067, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G25]] "Шале-де-ла-Пе"),
+					'display_name', T(794687208333, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G25]] "Chalet de la Paix"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'Passability', "Land and Water",
@@ -36349,7 +36347,7 @@ return {
 					'Map', "sCDAnt",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(544596907986, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G31]] "Болота"),
+					'display_name', T(880605825419, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G31]] "Wetlands"),
 					'TerrainType', "Swamp",
 					'WeatherZone', "Wetlands",
 					'Passability', "Land and Water",
@@ -36443,7 +36441,7 @@ return {
 					'Map', "GhT3nho",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(890000000000123, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G9]] "Кот д'Азур"),
+					'display_name', T(191576416065, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G9]] "Côte d'Azur"),
 					'WeatherZone', "SavannahSouth",
 					'Passability', "Land and Water",
 					'Militia', true,
@@ -36502,7 +36500,7 @@ return {
 					'Map', "qDthgQR",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(504394602813, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H10]] "Побережье саванны"),
+					'display_name', T(651631302344, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H10]] "Savanna Coast"),
 					'WeatherZone', "SavannahSouth",
 					'Passability', "Land and Water",
 					'bidirectionalRoadApply', true,
@@ -36529,7 +36527,7 @@ return {
 					'Map', "GwWr43D",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(221818809422, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H11]] "Саванна"),
+					'display_name', T(806536099316, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H11]] "Savanna"),
 					'WeatherZone', "SavannahSouth",
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -36583,7 +36581,7 @@ return {
 					'Map', "tJYzTJq",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(705677396519, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H13]] "Саванна"),
+					'display_name', T(939476433141, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H13]] "Savanna"),
 					'WeatherZone', "SavannahSouth",
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -36604,7 +36602,7 @@ return {
 					'MapTier', 10,
 					'Label1', "Mine",
 					'modId', "FhNNYd",
-					'display_name', T(890000000000105, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H14]] "Шахта Мфуму"),
+					'display_name', T(182607269744, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H14]] "Mfumu's Mine"),
 					'WeatherZone', "SavannahSouth",
 					'City', "Fleatown",
 					'Mine', true,
@@ -36649,7 +36647,7 @@ return {
 					'Map', "gnTmhJs",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(404334134277, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H15]] "Джунгли"),
+					'display_name', T(479373881405, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H15]] "Jungle"),
 					'WeatherZone', "GreatForest",
 					'Passability', "Land and Water",
 					'bidirectionalRoadApply', true,
@@ -36697,7 +36695,7 @@ return {
 					'MapTier', 20,
 					'Label1', "City",
 					'modId', "FhNNYd",
-					'display_name', T(890000000000582, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H18]] "Флитаунский район Ла-Буэ"),
+					'display_name', T(473242751429, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H18]] "Fleatown La Boue"),
 					'TerrainType', "Urban",
 					'WeatherZone', "GreatForest",
 					'City', "Fleatown",
@@ -36735,7 +36733,7 @@ return {
 					'MapTier', 10,
 					'Label1', "City",
 					'modId', "FhNNYd",
-					'display_name', T(890000000000848, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H19]] "Флитаунский блошиный рынок"),
+					'display_name', T(647441593762, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H19]] "Fleatown Flea Market"),
 					'TerrainType', "Urban",
 					'WeatherZone', "GreatForest",
 					'Passability', "Land and Water",
@@ -36816,7 +36814,7 @@ return {
 					'Map', "a6LhfeS",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(932397913085, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H22]] "Старые укрепления"),
+					'display_name', T(253851641741, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H22]] "Old Fortifications"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'bidirectionalRoadApply', true,
@@ -36857,7 +36855,7 @@ return {
 					'Map', "caEYxx7",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(651098705600, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H23]] "Великий лес"),
+					'display_name', T(250036862857, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H23]] "Great Forest"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'bidirectionalRoadApply', true,
@@ -36880,7 +36878,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "H23",
-					'display_name', T(272495633070, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H23_Underground]] "Станция метро В"),
+					'display_name', T(785033708635, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H23_Underground]] "U-Bahn Station B"),
 					'discovered', false,
 					'InitialSquads', {
 						"BigStation",
@@ -36955,7 +36953,7 @@ return {
 					'Map', "r5AcnGP",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(130230429232, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H27]] "Берег реки в джунглях"),
+					'display_name', T(128516117143, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H27]] "Jungle River Bank"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "CursedForest",
 					'Passability', "Land and Water",
@@ -36990,7 +36988,7 @@ return {
 					'Map', "GwkPAyF",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(441551571400, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H29]] "Остров Бьян-Шьен"),
+					'display_name', T(452842482038, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H29]] "Bien Chien Island"),
 					'TerrainType', "Swamp",
 					'WeatherZone', "EastSwamp",
 					'Passability', "Land and Water",
@@ -37036,7 +37034,7 @@ return {
 					'Map', "fSajNbs",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(297761234111, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H30]] "Болота"),
+					'display_name', T(905273324952, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H30]] "Wetlands"),
 					'TerrainType', "Swamp",
 					'WeatherZone', "Wetlands",
 					'Passability', "Land and Water",
@@ -37053,7 +37051,7 @@ return {
 					'MapTier', 30,
 					'Label1', "Mine",
 					'modId', "FhNNYd",
-					'display_name', T(402575772484, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H31]] "Вассерграбское месторождение"),
+					'display_name', T(372265675362, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H31]] "Wassergrab Mining Area"),
 					'TerrainType', "Farmland",
 					'WeatherZone', "Farmland",
 					'Passability', "Land and Water",
@@ -37229,7 +37227,7 @@ return {
 					'Map', "DojDrmH",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(812039020425, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I11]] "Побережье саванны"),
+					'display_name', T(686125655967, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I11]] "Savanna Coast"),
 					'WeatherZone', "SavannahSouth",
 					'Passability', "Land and Water",
 					'bidirectionalRoadApply', true,
@@ -37275,7 +37273,7 @@ return {
 					'Map', "PdvkRLV",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(642649418249, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I12]] "Саванна"),
+					'display_name', T(932097434495, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I12]] "Savanna"),
 					'WeatherZone', "SavannahSouth",
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -37301,7 +37299,7 @@ return {
 					'Map', "PLy7PuR",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(234271709521, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I15]] "Джунгли"),
+					'display_name', T(212115428613, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I15]] "Jungle"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'Passability', "Land and Water",
@@ -37323,7 +37321,7 @@ return {
 					'Map', "KDcPRa7",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(761775516206, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I16]] "Заброшенный особняк"),
+					'display_name', T(255718656499, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I16]] "Abandoned Mansion"),
 					'WeatherZone', "SavannahSouth",
 					'ForceConflict', true,
 					'InitialSquads', {
@@ -37361,7 +37359,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "I16",
-					'display_name', T(978845165648, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I16_Underground]] "Подвал особняка"),
+					'display_name', T(330382796368, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I16_Underground]] "Mansion Cellar"),
 					'discovered', false,
 					'Intel', false,
 					'bidirectionalRoadApply', true,
@@ -37404,7 +37402,7 @@ return {
 					'Map', "E3WFaEy",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(303504379957, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I18]] "Великий лес"),
+					'display_name', T(549167447088, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I18]] "Great Forest"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'bidirectionalRoadApply', true,
@@ -37424,7 +37422,7 @@ return {
 					'Map', "aqcRXzW",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(613098814399, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I19]] "Болота"),
+					'display_name', T(868506312221, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I19]] "Wetlands"),
 					'TerrainType', "Swamp",
 					'WeatherZone', "Wetlands",
 					'InitialSquads', {
@@ -37531,7 +37529,7 @@ return {
 					'Map', "hnJFd4t",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(280630965085, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I22]] "Великий лес"),
+					'display_name', T(213555945745, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I22]] "Great Forest"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'bidirectionalRoadApply', true,
@@ -37559,7 +37557,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "I22",
-					'display_name', T(665104084642, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I22_Underground]] "Секретный туннель"),
+					'display_name', T(247989068796, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I22_Underground]] "Secret Tunnel"),
 					'discovered', false,
 					'InitialSquads', {
 						"TunnelSentry",
@@ -37578,7 +37576,7 @@ return {
 					'Map', "cYPzytW",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(458949895555, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I23]] "Великий лес"),
+					'display_name', T(809938488396, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I23]] "Great Forest"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'bidirectionalRoadApply', true,
@@ -37601,7 +37599,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "I23",
-					'display_name', T(460717026135, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I23_Underground]] "Подземная лаборатория"),
+					'display_name', T(744626507262, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I23_Underground]] "Underground Lab"),
 					'never_autoresolve', true,
 					'discovered', false,
 					'ForceConflict', true,
@@ -37729,7 +37727,7 @@ return {
 					'Map', "UYYHCow",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(317461696416, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I24]] "Великий лес"),
+					'display_name', T(707260253276, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I24]] "Great Forest"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'bidirectionalRoadApply', true,
@@ -37749,7 +37747,7 @@ return {
 					'Map', "PzmTQGD",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(890000000001044, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I25]] "Грязноводный мост"),
+					'display_name', T(788677023307, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I25]] "Mudwater Bridge"),
 					'WeatherZone', "GreatForest",
 					'Passability', "Land and Water",
 					'Militia', true,
@@ -37954,7 +37952,7 @@ return {
 					'MapTier', 30,
 					'Label1', "Ernie",
 					'modId', "FhNNYd",
-					'display_name', T(173542934345, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I5]] "Деревня Эрни"),
+					'display_name', T(804645601283, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I5]] "Village of Ernie"),
 					'TerrainType', "Urban",
 					'WeatherZone', "Erny",
 					'Passability', "Land and Water",
@@ -38097,7 +38095,7 @@ return {
 					'MapTier', 40,
 					'Label1', "Ernie",
 					'modId', "FhNNYd",
-					'display_name', T(890000000000058, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I6]] "Жестянка"),
+					'display_name', T(141041612699, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I6]] "The Rust"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "Erny",
 					'Militia', true,
@@ -38141,7 +38139,7 @@ return {
 					'Label1', "Ernie",
 					'modId', "FhNNYd",
 					'GroundSector', "I6",
-					'display_name', T(890000000000701, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I6_Underground]] "Бункер FB45-68"),
+					'display_name', T(549697085851, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I6_Underground]] "Bunker FB45-68"),
 					'discovered', false,
 					'ForceConflict', true,
 					'Intel', false,
@@ -38164,7 +38162,7 @@ return {
 					'Label1', "Ernie",
 					'modId', "FhNNYd",
 					'Label2', "Outpost",
-					'display_name', T(844521108189, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I7]] "Форт Ло-Блё"),
+					'display_name', T(636794988947, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I7]] "Fort L'Eau Bleu"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "Erny",
 					'City', "ErnieVillage",
@@ -38190,6 +38188,18 @@ return {
 						"LegionJAZZSquadT2",
 						"LegionHeavyTroops",
 						"LegionAttackSquad_01",
+					},
+					'EnemySquadsGarrisonList', {
+						"LegionJAZZSquadT1",
+					},
+					'EnemySquadsPatroolList', {
+						"LegionAttackers_Balanced_Easy_Assault",
+					},
+					'EnemySquadsReconList', {
+						"LegionOutlook_Easy",
+					},
+					'EnemySquadsQRFList', {
+						"LegionJAZZSquadT2",
 					},
 					'Militia', true,
 					'MaxMilitia', 12,
@@ -38414,7 +38424,7 @@ return {
 					'Map', "mVm5mPU",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-					'display_name', T(890000000000633, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J12]] "Побережье саванны"),
+					'display_name', T(504402203656, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J12]] "Savanna Coast"),
 					'WeatherZone', "SavannahSouth",
 					'Passability', "Land and Water",
 					'Militia', true,
@@ -38460,7 +38470,7 @@ return {
 					'MapTier', 20,
 					'Label1', "Special",
 					'modId', "FhNNYd",
-					'display_name', T(683335127705, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J14]] "Римвилль"),
+					'display_name', T(499129490679, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J14]] "Rimville"),
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Urban",
@@ -38622,7 +38632,7 @@ return {
 					'Map', "Q3CabXD",
 					'MapTier', 40,
 					'modId', "FhNNYd",
-					'display_name', T(697926662034, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J15]] "Берег реки в саванне"),
+					'display_name', T(813854540497, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J15]] "Savanna River Bank"),
 					'WeatherZone', "Highlands",
 					'Passability', "Land and Water",
 					'bidirectionalRoadApply', true,
@@ -38653,7 +38663,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "J15",
-					'display_name', T(279103202332, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J15_Underground]] "Подземная лаборатория"),
+					'display_name', T(744626507262, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J15_Underground]] "Underground Lab"),
 					'never_autoresolve', true,
 					'discovered', false,
 					'ForceConflict', true,
@@ -38776,7 +38786,7 @@ return {
 					'Map', "qdha3hm",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(737138748415, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J16]] "Великий лес"),
+					'display_name', T(656751822276, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J16]] "Great Forest"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'bidirectionalRoadApply', true,
@@ -38803,7 +38813,7 @@ return {
 					'Map', "GkWADM6",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(904326907181, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J17]] "Берег реки в джунглях"),
+					'display_name', T(491457898220, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J17]] "Jungle River Bank"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'bidirectionalRoadApply', true,
@@ -38829,7 +38839,7 @@ return {
 					'Map', "ipL6Vk4",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(240546278957, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J18]] "Земли мертвых"),
+					'display_name', T(989088992609, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J18]] "Burial Grounds"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'InterestingSector', true,
@@ -38884,6 +38894,7 @@ return {
 					'BlockTravel', set({
 	East = false,
 	North = false,
+	South = false,
 }),
 				}),
 				PlaceObj('SatelliteSector', {
@@ -38891,7 +38902,7 @@ return {
 					'Map', "ihuFJkn",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(425685949746, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J20]] "Болота"),
+					'display_name', T(386849526320, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J20]] "Wetlands"),
 					'TerrainType', "Swamp",
 					'WeatherZone', "Wetlands",
 					'InterestingSector', true,
@@ -38912,7 +38923,7 @@ return {
 					'Map', "TMAVkEL",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(641120547141, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J21]] "Минное поле"),
+					'display_name', T(751456951679, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J21]] "Minefield"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'bidirectionalRoadApply', true,
@@ -38939,7 +38950,7 @@ return {
 					'Map', "aDTrzgY",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(204825610373, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J23]] "Старое кладбище"),
+					'display_name', T(717251570912, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J23]] "Old Graveyard"),
 					'TerrainType', "Farmland",
 					'WeatherZone', "Farmland",
 					'PatrolRespawnTime', 1800000,
@@ -38983,7 +38994,7 @@ return {
 					'Map', "WEhxnMU",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(798506381727, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J25]] "Берег реки в джунглях"),
+					'display_name', T(797363541950, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J25]] "Jungle River Bank"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'Passability', "Land and Water",
@@ -39012,7 +39023,7 @@ return {
 					'Map', "SQASJXH",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(613098814399, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J28]] "Болота"),
+					'display_name', T(868506312221, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J28]] "Wetlands"),
 					'TerrainType', "Swamp",
 					'WeatherZone', "Wetlands",
 					'InitialSquads', {
@@ -39039,7 +39050,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "J28",
-					'display_name', T(816855262914, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J28_Underground]] "Станция метро С"),
+					'display_name', T(648391059464, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J28_Underground]] "U-Bahn Station C"),
 					'discovered', false,
 					'InitialSquads', {
 						"SmallStations",
@@ -39626,7 +39637,7 @@ return {
 					'Label1', "Special",
 					'modId', "FhNNYd",
 					'Label2', "Dungeon",
-					'display_name', T(881042435123, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K19]] "Развалины фабрики"),
+					'display_name', T(784417792360, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K19]] "Factory Ruins"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'InitialSquads', {
@@ -39693,7 +39704,7 @@ return {
 					'MapTier', 30,
 					'Label1', "Outpost",
 					'modId', "FhNNYd",
-					'display_name', T(837364987352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K21]] "Кам-Бьян-Шьен"),
+					'display_name', T(520135539808, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K21]] "Camp Bien Chien"),
 					'TerrainType', "Swamp",
 					'WeatherZone', "EastSwamp",
 					'Passability', "Land and Water",
@@ -39771,7 +39782,7 @@ return {
 					'Map', "P45egwt",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(549994988586, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K22]] "Остров Бьян-Шьен"),
+					'display_name', T(119007272810, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K22]] "Bien Chien Island"),
 					'TerrainType', "Swamp",
 					'WeatherZone', "EastSwamp",
 					'bidirectionalRoadApply', true,
@@ -39797,7 +39808,7 @@ return {
 					'Map', "aVwkXoE",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(234932279754, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K23]] "Остров Бьян-Шьен"),
+					'display_name', T(282699334168, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K23]] "Bien Chien Island"),
 					'TerrainType', "Swamp",
 					'WeatherZone', "EastSwamp",
 					'Passability', "Land and Water",
@@ -39842,7 +39853,7 @@ return {
 					'Map', "HxKeAVE",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(164902617534, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K26]] "Гдетотам"),
+					'display_name', T(173354836621, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K26]] "Middle of Somewhere"),
 					'TerrainType', "Farmland",
 					'WeatherZone', "Farmland",
 					'InterestingSector', true,
@@ -39986,7 +39997,7 @@ return {
 					'Map', "YFuRKj",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(463695279475, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K32]] "Усадьбы-близнецы"),
+					'display_name', T(514347454600, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K32]] "Twin Manors"),
 					'TerrainType', "Farmland",
 					'WeatherZone', "Farmland",
 					'City', "Payak",
@@ -40015,7 +40026,7 @@ return {
 					'MapTier', 40,
 					'Label1', "Ernie",
 					'modId', "FhNNYd",
-					'display_name', T(890000000000112, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K4]] "Флаговый холм"),
+					'display_name', T(185948484340, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K4]] "Flag Hill"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "Erny",
 					'Passability', "Land and Water",
@@ -40251,7 +40262,7 @@ return {
 					'MapTier', 50,
 					'Label1', "Outpost",
 					'modId', "FhNNYd",
-					'display_name', T(209909493905, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L15]] "Кам-Ла-Барьер"),
+					'display_name', T(209909493905, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L15]] "Camp La Barrière"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'Passability', "Land and Water",
@@ -40346,7 +40357,7 @@ return {
 					'Map', "Cpootzp",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(739270215925, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L16]] "Великий лес"),
+					'display_name', T(504986718282, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L16]] "Great Forest"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'bidirectionalRoadApply', true,
@@ -40375,7 +40386,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "L16",
-					'display_name', T(721531935723, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L16_Underground]] "Станция метро D"),
+					'display_name', T(733648875060, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L16_Underground]] "U-Bahn Station D"),
 					'discovered', false,
 					'InitialSquads', {
 						"SmallStations",
@@ -40395,7 +40406,7 @@ return {
 					'Label1', "Outpost",
 					'modId', "FhNNYd",
 					'Label2', "Boss",
-					'display_name', T(210475281605, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L17]] "Разбойничий форт"),
+					'display_name', T(435786085300, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L17]] "Fort Brigand"),
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -40430,7 +40441,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "L17",
-					'display_name', T(995951843740, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L17_Underground]] "Underground Tunnel"),
+					'display_name', T(465909367256, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L17_Underground]] "Underground Tunnel"),
 					'discovered', false,
 					'Intel', false,
 					'InterestingSector', true,
@@ -40572,7 +40583,7 @@ return {
 					'Map', "jEeRz5a",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(849503984001, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L26]] "Фермы"),
+					'display_name', T(960290634722, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L26]] "Farmland"),
 					'TerrainType', "Farmland",
 					'WeatherZone', "Farmland",
 					'bidirectionalRoadApply', true,
@@ -40593,7 +40604,7 @@ return {
 					'Map', "YbeGv36",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(913920875470, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L27]] "Великий лес"),
+					'display_name', T(123414445659, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L27]] "Great Forest"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'bidirectionalRoadApply', true,
@@ -40683,7 +40694,7 @@ return {
 					'Map', "GSWNb",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(849503984001, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L31]] "Фермы"),
+					'display_name', T(960290634722, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L31]] "Farmland"),
 					'TerrainType', "Farmland",
 					'WeatherZone', "Farmland",
 					'bidirectionalRoadApply', true,
@@ -41158,7 +41169,7 @@ return {
 					'Map', "PNDrqcf",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(283125335704, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M26]] "Фермы"),
+					'display_name', T(126600612391, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M26]] "Farmland"),
 					'TerrainType', "Farmland",
 					'WeatherZone', "Farmland",
 					'bidirectionalRoadApply', true,
@@ -41252,7 +41263,7 @@ return {
 					'Map', "tP7vqmh",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(540072216084, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M31]] "Фермы"),
+					'display_name', T(696031593743, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M31]] "Farmland"),
 					'TerrainType', "Farmland",
 					'WeatherZone', "Farmland",
 					'bidirectionalRoadApply', true,
@@ -41292,7 +41303,7 @@ return {
 					'MapTier', 40,
 					'Label1', "Ernie",
 					'modId', "FhNNYd",
-					'display_name', T(444373326278, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M4]] "Смотровая площадка"),
+					'display_name', T(890743593540, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M4]] "The Outlook"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "Erny",
 					'Passability', "Land and Water",
@@ -41473,7 +41484,7 @@ return {
 					'MapTier', 30,
 					'Label1', "City",
 					'modId', "FhNNYd",
-					'display_name', T(890000000000938, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N12]] "Порт-Какао"),
+					'display_name', T(708524428129, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N12]] "Port Cacao City"),
 					'TerrainType', "Urban",
 					'WeatherZone', "SouthJungle",
 					'Passability', "Land and Water",
@@ -41536,7 +41547,7 @@ return {
 					'MapTier', 20,
 					'Label1', "City",
 					'modId', "FhNNYd",
-					'display_name', T(890000000000546, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N13]] "Доки Порт-Какао"),
+					'display_name', T(451163287007, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N13]] "Port Cacao Docks"),
 					'TerrainType', "Urban",
 					'WeatherZone', "SouthJungle",
 					'Passability', "Land and Water",
@@ -41582,7 +41593,7 @@ return {
 					'Map', "DvDj7va",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(603757752539, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N16]] "Wetlands"),
+					'display_name', T(880605825419, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N16]] "Wetlands"),
 					'TerrainType', "Swamp",
 					'WeatherZone', "Wetlands",
 					'Passability', "Land and Water",
@@ -41683,7 +41694,7 @@ return {
 					'Map', "HpXRoyW",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(553366291840, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N22]] "Великий лес"),
+					'display_name', T(685169154774, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N22]] "Great Forest"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'bidirectionalRoadApply', true,
@@ -41709,7 +41720,7 @@ return {
 					'Map', "Qz4yGQr",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(204825610373, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N23]] "Старое кладбище"),
+					'display_name', T(717251570912, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N23]] "Old Graveyard"),
 					'TerrainType', "Farmland",
 					'WeatherZone', "Farmland",
 					'PatrolRespawnTime', 1800000,
@@ -41741,7 +41752,7 @@ return {
 					'Map', "MuKKhYV",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(564176759847, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N24]] "Фермы"),
+					'display_name', T(103040008364, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N24]] "Farmland"),
 					'TerrainType', "Farmland",
 					'WeatherZone', "Farmland",
 					'bidirectionalRoadApply', true,
@@ -41781,7 +41792,7 @@ return {
 					'Map', "HvHnpEm",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(108512072925, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N27]] "Фермы"),
+					'display_name', T(671801258616, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N27]] "Farmland"),
 					'TerrainType', "Farmland",
 					'WeatherZone', "Farmland",
 					'InterestingSector', true,
@@ -41835,7 +41846,7 @@ return {
 					'Map', "Rofukov",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(164902617534, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N29]] "Гдетотам"),
+					'display_name', T(173354836621, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N29]] "Middle of Somewhere"),
 					'TerrainType', "Farmland",
 					'WeatherZone', "Farmland",
 					'InterestingSector', true,
@@ -41873,7 +41884,7 @@ return {
 					'Map', "kKvrCA6",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(522760622153, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N30]] "Фермы"),
+					'display_name', T(568113508607, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N30]] "Farmland"),
 					'TerrainType', "Farmland",
 					'WeatherZone', "Farmland",
 					'bidirectionalRoadApply', true,
@@ -41899,7 +41910,7 @@ return {
 					'Map', "Den4PN",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-					'display_name', T(733323401700, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N31]] "Фермы"),
+					'display_name', T(857182189161, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N31]] "Farmland"),
 					'TerrainType', "Farmland",
 					'WeatherZone', "Farmland",
 					'Passability', "Land and Water",
@@ -42034,7 +42045,7 @@ return {
 					'Map', "KkR53xA",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(147018837237, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O13]] "Помойка"),
+					'display_name', T(323317575390, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O13]] "The Dump"),
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Urban",
@@ -42202,7 +42213,7 @@ return {
 					'MapTier', 20,
 					'Label1', "Mine",
 					'modId', "FhNNYd",
-					'display_name', T(890000000001101, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O16]] "Олд-Даймонд"),
+					'display_name', T(816624650190, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O16]] "Old Diamond"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'City', "PortDiancie",
@@ -42281,7 +42292,7 @@ return {
 					'Map', "NYrtAxS",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(788666771457, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O20]] "Берег реки в джунглях"),
+					'display_name', T(389634246053, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O20]] "Jungle River Bank"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'Passability', "Land and Water",
@@ -42306,7 +42317,7 @@ return {
 					'Map', "RVMSRbW",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(218370018046, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O21]] "Великий лес"),
+					'display_name', T(848825509009, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O21]] "Great Forest"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'InterestingSector', true,
@@ -42588,7 +42599,7 @@ return {
 					'Map', "cSFjTT",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(305225889431, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P11]] "Великий лес"),
+					'display_name', T(471933787811, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P11]] "Great Forest"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'InitialSquads', {
@@ -42682,7 +42693,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "P15",
-					'display_name', T(813545991003, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P15_Underground]] "Подземная лаборатория"),
+					'display_name', T(744626507262, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P15_Underground]] "Underground Lab"),
 					'never_autoresolve', true,
 					'discovered', false,
 					'ForceConflict', true,
@@ -43188,7 +43199,7 @@ return {
 					'Label1', "Dungeon",
 					'modId', "FhNNYd",
 					'Label2', "Boss",
-					'display_name', T(958946630257, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P8]] "«Хорошее место»"),
+					'display_name', T(991219243860, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P8]] "The Good Place"),
 					'TerrainType', "Urban",
 					'WeatherZone', "SouthJungle",
 					'Passability', "Land and Water",
@@ -43222,7 +43233,7 @@ return {
 					'Label1', "Dungeon",
 					'modId', "FhNNYd",
 					'GroundSector', "P8",
-					'display_name', T(100373069792, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P8_Underground]] "«Хорошее место» (подземелье)"),
+					'display_name', T(735717978531, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P8_Underground]] "The Good Place (Underground)"),
 					'discovered', false,
 					'Intel', false,
 					'bidirectionalRoadApply', true,
@@ -43238,7 +43249,7 @@ return {
 					'Map', "PciM4k",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-					'display_name', T(788666771457, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P9]] "Берег реки в джунглях"),
+					'display_name', T(389634246053, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P9]] "Jungle River Bank"),
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'Passability', "Land and Water",
@@ -53796,33 +53807,6 @@ return {
 						QuestId = "JAZZ_REBELS_0_MeetTheRebels",
 					}),
 				},
-				TCEs = {
-					PlaceObj('TriggeredConditionalEvent', {
-						Conditions = {
-							PlaceObj('AND', {
-								Conditions = {
-									PlaceObj('PlayerIsInSectors', {
-										Sectors = {
-											"L1",
-										},
-									}),
-									PlaceObj('QuestIsVariableBool', {
-										QuestId = "JAZZ_REBELS_0_MeetTheRebels",
-										Vars = set( "Given" ),
-									}),
-								},
-							}),
-						},
-						Effects = {
-							PlaceObj('GroupSetSide', {
-								Side = "player1",
-								TargetUnit = "Rebels_Base_Warriors",
-							}),
-						},
-						ParamId = "TCE_AIMinL1",
-						QuestId = "JAZZ_REBELS_0_MeetTheRebels",
-					}),
-				},
 				Variables = {
 					PlaceObj('QuestVarBool', {
 						Name = "Completed",
@@ -54255,7 +54239,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
@@ -54481,7 +54465,7 @@ return {
 						},
 						GoTo = "Goodbye2",
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
@@ -54514,7 +54498,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
@@ -54544,7 +54528,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
@@ -54565,7 +54549,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
@@ -54601,7 +54585,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
+						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
@@ -54643,7 +54627,7 @@ return {
 					}),
 					PlaceObj('ConversationPhrase', {
 						Keyword = "Goodbye",
-						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
+						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
@@ -108127,9 +108111,11 @@ return {
 		Map = "EPA7FVN",
 		MapPatchPath = "Mod/FhNNYd/MapPatches/SetPieces/NewSetpiece_HaWEyLS/EPA7FVN.patch",
 		RecordFileName = "M1Landing.png",
+		RestoreCamera = true,
 		affected_grids = {},
 		compacted_obj_boxes = {},
 		group = "TownOfErny",
+		hidden_actors = false,
 		id = "M1Landing",
 		mapName = "NewSetpiece_HaWEyLS",
 		PlaceObj('SetpieceFadeOut', {
@@ -108284,7 +108270,6 @@ return {
 			LookAt1 = point(233181, 76750, 16659),
 			Pos1 = point(236828, 73537, 17831),
 			Wait = false,
-			Zoom = 100,
 		}),
 		PlaceObj('SetpieceFadeIn', {
 			FadeInDelay = 0,
@@ -108293,22 +108278,30 @@ return {
 		}),
 		PlaceObj('SetpieceCamera', {
 			Duration = 10000,
-			LookAt1 = point(233181, 76750, 16659),
-			LookAt2 = point(256029, 169149, 22338),
+			LookAt1 = point(207124, 88187, 39896),
+			LookAt2 = point(123393, 168078, 25123),
 			Movement = "harmonic",
-			Pos1 = point(236828, 73537, 17831),
-			Pos2 = point(260762, 169201, 23950),
-			Zoom = 100,
+			Pos1 = point(209288, 84655, 42697),
+			Pos2 = point(119298, 169449, 27644),
 		}),
 		PlaceObj('SetpieceFadeOut', {
 			FadeOutTime = 1700,
 		}),
 		PlaceObj('SetpieceCamera', {
+			CamProps = {
+				floor = 0,
+			},
 			CamType = "Tac",
 			Duration = 0,
-			LookAt1 = point(256029, 169149, 22338),
-			Pos1 = point(260762, 169201, 23950),
-			Zoom = 1300,
+			LookAt1 = point(150491, 153648, 22253),
+			Pos1 = point(145847, 153241, 24060),
+			Zoom = 970,
+		}),
+		PlaceObj('SetpieceTacCamera', {
+			Actors = "Merc1",
+			FaceActor = true,
+			TransitionTime = 0,
+			Zoom = true,
 		}),
 	}),
 	PlaceObj('ModItemFolder', {
@@ -108523,7 +108516,7 @@ return {
 					Lines = {
 						PlaceObj('BanterLine', {
 							'Character', "Martha",
-							'Text', T(347177621288, --[[ModItemBanterDef Martha_02_PostLynch_Herman Text section:Banters_Local_Ernie/Martha_02_PostLynch_Herman voice:Martha]] "I told him. I said, \"Herman! You stay away from that Deedee or it'll be the death of you!\" Well, I was right."),
+							'Text', T(347177621288, --[[ModItemBanterDef Martha_02_PostLynch_Herman Text section:Banters_Local_Ernie/Martha_02_PostLynch_Herman voice:Martha]] 'I told him. I said, "Herman! You stay away from that Deedee or it\'ll be the death of you!" Well, I was right.'),
 							'playOnce', true,
 						}),
 					},
