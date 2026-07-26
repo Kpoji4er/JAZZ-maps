@@ -5016,13 +5016,13 @@ return {
 						"LegionAttackSquad_01",
 					},
 					'EnemySquadsGarrisonList', {
-						"LegionJAZZSquadT1",
+						"LegionGlobalAI_Garrison",
 					},
 					'EnemySquadsPatroolList', {
-						"LegionAttackers_Balanced_Easy_Assault",
+						"LegionGlobalAI_Patrol",
 					},
 					'EnemySquadsReconList', {
-						"LegionOutlook_Easy",
+						"LegionGlobalAI_Recon",
 					},
 					'EnemySquadsQRFList', {
 						"LegionJAZZSquadT2",
@@ -38190,13 +38190,13 @@ return {
 						"LegionAttackSquad_01",
 					},
 					'EnemySquadsGarrisonList', {
-						"LegionJAZZSquadT1",
+						"LegionGlobalAI_Garrison",
 					},
 					'EnemySquadsPatroolList', {
-						"LegionAttackers_Balanced_Easy_Assault",
+						"LegionGlobalAI_Patrol",
 					},
 					'EnemySquadsReconList', {
-						"LegionOutlook_Easy",
+						"LegionGlobalAI_Recon",
 					},
 					'EnemySquadsQRFList', {
 						"LegionJAZZSquadT2",
