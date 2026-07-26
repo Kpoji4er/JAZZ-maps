@@ -7,11 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 6,
-<<<<<<< HEAD
-	'version', 5102,
-=======
 	'version', 5122,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'dependencies', {
@@ -28,12 +24,9 @@ return PlaceObj('ModDef', {
 	},
 	'code', {
 		"Code/Rebels_Loyalty.lua",
-<<<<<<< HEAD
-=======
 		"Code/System_JAZZ_CrocodilePatrol.lua",
 		"Code/System_JAZZ_Vehicles.lua",
 		"Code/System_JAZZ_VehicleCombat.lua",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 		"MapPatches/SetPieces/NewSetpiece_JXrwUUA/EncounterHerman.lua",
 		"UnitData/JAZZ_Ernie_Locals_M2_SaveMyFamily_Man.lua",
 		"UnitData/JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman.lua",
@@ -46,13 +39,8 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-<<<<<<< HEAD
-	'saved', 1774828155,
-	'code_hash', 8311704044312267199,
-=======
 	'saved', 1784988379,
 	'code_hash', -7239735443028690212,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
@@ -906,7 +894,6 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
-<<<<<<< HEAD
 			'Id', "HotDiamonds_J3",
 			'ClassDisplayName', "Satellite sector",
 		}),
@@ -917,8 +904,6 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
-=======
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 			'Id', "HotDiamonds_K32",
 			'ClassDisplayName', "Satellite sector",
 		}),
@@ -2233,14 +2218,11 @@ return PlaceObj('ModDef', {
 			'ClassDisplayName', "Constant",
 		}),
 		PlaceObj('ModResourcePreset', {
-<<<<<<< HEAD
 			'Class', "Camera",
 			'Id', "Camera_3_copy",
 			'ClassDisplayName', "Camera",
 		}),
 		PlaceObj('ModResourcePreset', {
-=======
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 			'Class', "BanterDef",
 			'Id', "Herman_03_Lynch",
 			'ClassDisplayName', "Banter",
@@ -2404,8 +2386,6 @@ return PlaceObj('ModDef', {
 			'Class', "GuardpostObjective",
 			'Id', "Bastien",
 			'ClassDisplayName', "GuardpostObjectives",
-<<<<<<< HEAD
-=======
 		}),
 		PlaceObj('ModResourceMap', {
 			'Map', "EPA7FVN",
@@ -2414,7 +2394,6 @@ return PlaceObj('ModDef', {
 			'Class', "SetpiecePrg",
 			'Id', "M1Landing",
 			'ClassDisplayName', "Setpiece",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 		}),
 	},
 	'steam_id', "3322285655",

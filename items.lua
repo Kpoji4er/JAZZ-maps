@@ -257,11 +257,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "A24",
-<<<<<<< HEAD
 					'display_name', T(828544218367, "U-Bahn Station A"),
-=======
-					'display_name', T(854571918784, "Станция метро А"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'discovered', false,
 					'InitialSquads', {
 						"SmallStations",
@@ -826,11 +822,7 @@ return {
 					'Map', "SexCTTP",
 					'MapTier', 40,
 					'modId', "FhNNYd",
-<<<<<<< HEAD
 					'display_name', T(130761115220, "Barrens"),
-=======
-					'display_name', T(535901703196, "Пустоши"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'TerrainType', "Highlands",
 					'WeatherZone', "Barrens",
 					'Passability', "Land and Water",
@@ -1328,11 +1320,7 @@ return {
 					'MapTier', 50,
 					'Label1', "Special",
 					'modId', "FhNNYd",
-<<<<<<< HEAD
 					'display_name', T(685901275490, "The Fracture"),
-=======
-					'display_name', T(685901275490, "Разлом"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'TerrainType', "Highlands",
 					'WeatherZone', "Barrens",
 					'Guardpost', true,
@@ -1554,11 +1542,7 @@ return {
 					'MapTier', 10,
 					'Label1', "Outpost",
 					'modId', "FhNNYd",
-<<<<<<< HEAD
 					'display_name', T(929083374712, "Camp Grand Prix"),
-=======
-					'display_name', T(929083374712, "Кам-Гран-При"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'WeatherZone', "Highlands",
 					'Passability', "Land and Water",
 					'Guardpost', true,
@@ -1632,8 +1616,6 @@ return {
 					'BlockTravel', set({
 	East = false,
 	North = false,
-<<<<<<< HEAD
-=======
 	South = false,
 	West = false,
 }),
@@ -2611,7 +2593,6 @@ return {
 					'BlockTravel', set({
 	East = false,
 	North = false,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	South = false,
 	West = false,
 }),
@@ -4581,11 +4562,7 @@ return {
 					'Map', "evrj7Dq",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-<<<<<<< HEAD
 					'display_name', T(293659664903, "Savanna"),
-=======
-					'display_name', T(884980086575, "Саванна"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'WeatherZone', "SavannahSouth",
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -4822,11 +4799,7 @@ return {
 					'Map', "GwkPAyF",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-<<<<<<< HEAD
 					'display_name', T(452842482038, "Bien Chien Island"),
-=======
-					'display_name', T(441551571400, "Остров Бьян-Шьен"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'TerrainType', "Swamp",
 					'WeatherZone', "EastSwamp",
 					'Passability', "Land and Water",
@@ -4865,11 +4838,7 @@ return {
 					'Map', "fSajNbs",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-<<<<<<< HEAD
 					'display_name', T(905273324952, "Wetlands"),
-=======
-					'display_name', T(297761234111, "Болота"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'TerrainType', "Swamp",
 					'WeatherZone', "Wetlands",
 					'Passability', "Land and Water",
@@ -4967,11 +4936,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "H23",
-<<<<<<< HEAD
 					'display_name', T(785033708635, "U-Bahn Station B"),
-=======
-					'display_name', T(272495633070, "Станция метро В"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'discovered', false,
 					'InitialSquads', {
 						"BigStation",
@@ -4995,11 +4960,7 @@ return {
 					'Map', "a6LhfeS",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-<<<<<<< HEAD
 					'display_name', T(253851641741, "Old Fortifications"),
-=======
-					'display_name', T(932397913085, "Старые укрепления"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'bidirectionalRoadApply', true,
@@ -5501,11 +5462,7 @@ return {
 					'Map', "cYPzytW",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-<<<<<<< HEAD
 					'display_name', T(809938488396, "Great Forest"),
-=======
-					'display_name', T(458949895555, "Великий лес"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'bidirectionalRoadApply', true,
@@ -5533,11 +5490,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "I23",
-<<<<<<< HEAD
 					'display_name', T(744626507262, "Underground Lab"),
-=======
-					'display_name', T(460717026135, "Подземная лаборатория"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'never_autoresolve', true,
 					'discovered', false,
 					'ForceConflict', true,
@@ -5671,11 +5624,7 @@ return {
 					'Map', "hnJFd4t",
 					'MapTier', 20,
 					'modId', "FhNNYd",
-<<<<<<< HEAD
 					'display_name', T(213555945745, "Great Forest"),
-=======
-					'display_name', T(280630965085, "Великий лес"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'bidirectionalRoadApply', true,
@@ -5708,11 +5657,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "I22",
-<<<<<<< HEAD
 					'display_name', T(247989068796, "Secret Tunnel"),
-=======
-					'display_name', T(665104084642, "Секретный туннель"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'discovered', false,
 					'InitialSquads', {
 						"TunnelSentry",
@@ -6688,11 +6633,7 @@ return {
 					'Map', "SQASJXH",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-<<<<<<< HEAD
 					'display_name', T(868506312221, "Wetlands"),
-=======
-					'display_name', T(613098814399, "Болота"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'TerrainType', "Swamp",
 					'WeatherZone', "Wetlands",
 					'InitialSquads', {
@@ -6725,11 +6666,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "J28",
-<<<<<<< HEAD
 					'display_name', T(648391059464, "U-Bahn Station C"),
-=======
-					'display_name', T(816855262914, "Станция метро С"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'discovered', false,
 					'InitialSquads', {
 						"SmallStations",
@@ -7054,11 +6991,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "J15",
-<<<<<<< HEAD
 					'display_name', T(744626507262, "Underground Lab"),
-=======
-					'display_name', T(279103202332, "Подземная лаборатория"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'never_autoresolve', true,
 					'discovered', false,
 					'ForceConflict', true,
@@ -7290,11 +7223,7 @@ return {
 					'Map', "qJApdx",
 					'MapTier', 10,
 					'modId', "FhNNYd",
-<<<<<<< HEAD
 					'display_name', T(468789385226, "Emerald Coast"),
-=======
-					'display_name', T(149201225676, "Изумрудный берег"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'WeatherZone', "Erny",
 					'MaxFlareCarriers', 5,
 					'bidirectionalRoadApply', true,
@@ -7417,48 +7346,6 @@ return {
 					'combatTaskAmount', 2,
 				}),
 			}),
-<<<<<<< HEAD
-			PlaceObj('ModItemSector', {
-				'comment', "Филер",
-				'mapName', "pnD4jzE",
-				'campaignId', "HotDiamonds",
-				'sectorId', "J3",
-				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "J3",
-					'Map', "pnD4jzE",
-					'modId', "FhNNYd",
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
-					'BlockTravel', set({
-	East = false,
-	North = true,
-	South = false,
-	West = false,
-}),
-				}),
-			}),
-			PlaceObj('ModItemSector', {
-				'comment', "Дикое место",
-				'mapName', "C3jAvYn",
-				'campaignId', "HotDiamonds",
-				'sectorId', "J2",
-				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
-					'Id', "J2",
-					'Map', "C3jAvYn",
-					'modId', "FhNNYd",
-					'display_name', T(555133792190, "Дикое место"),
-					'TerrainType', "Jungle",
-					'WeatherZone', "Wetlands",
-					'bidirectionalRoadApply', true,
-					'bidirectionalBlockApply', true,
-					'BlockTravel', set({
-	East = false,
-	North = false,
-}),
-				}),
-			}),
-=======
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 			}),
 		PlaceObj('ModItemFolder', {
 			'name', "K",
@@ -7795,11 +7682,7 @@ return {
 					'Label1', "Special",
 					'modId', "FhNNYd",
 					'Label2', "Dungeon",
-<<<<<<< HEAD
 					'display_name', T(784417792360, "Factory Ruins"),
-=======
-					'display_name', T(881042435123, "Развалины фабрики"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
 					'InitialSquads', {
@@ -8023,9 +7906,6 @@ return {
 	West = false,
 }),
 					'BlockTravelRiver', set( "East" ),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/JA3Debug_JIyFICPpQ9.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/K3_LegionCamp.jpg",
 				}),
 			}),
@@ -8039,7 +7919,6 @@ return {
 					'modId', "FhNNYd",
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 				}),
 			}),
 			}),
@@ -8167,11 +8046,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "L17",
-<<<<<<< HEAD
 					'display_name', T(465909367256, "Underground Tunnel"),
-=======
-					'display_name', T(995951843740, "Underground Tunnel"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'discovered', false,
 					'Intel', false,
 					'InterestingSector', true,
@@ -8228,11 +8103,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "L16",
-<<<<<<< HEAD
 					'display_name', T(733648875060, "U-Bahn Station D"),
-=======
-					'display_name', T(721531935723, "Станция метро D"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'discovered', false,
 					'InitialSquads', {
 						"SmallStations",
@@ -8442,11 +8313,7 @@ return {
 	South = false,
 	West = false,
 }),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/Discord_CAIlnFu36n.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/Ernie_L6.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'combatTaskAmount', 2,
 				}),
 			}),
@@ -8504,11 +8371,7 @@ return {
 	West = false,
 }),
 					'BlockTravelRiver', set( "South" ),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/NVIDIA_Overlay_3CncqSC7Jl.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/L5_LegionCamp.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'combatTaskAmount', 4,
 				}),
 			}),
@@ -8544,11 +8407,7 @@ return {
 	South = false,
 	West = false,
 }),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/JA3Debug_vxild4zd1M.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/L4_LegionCamp.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -8582,11 +8441,7 @@ return {
 	West = false,
 }),
 					'BlockTravelRiver', set( "South" ),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/NVIDIA_Overlay_tddvitduk9.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/L3_LegionCamp.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -8625,11 +8480,7 @@ return {
 	West = false,
 }),
 					'BlockTravelRiver', set( "South" ),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/JA3Debug_F2I89aClgq.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/L2_Debris.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -8672,11 +8523,7 @@ return {
 	West = true,
 }),
 					'BlockTravelRiver', set( "South", "West" ),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/JA3Debug_19GYshFG3m.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/L1_Rebels_Base.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Port', true,
 					'CanBeUsedForArrival', true,
 					'BobbyRayDeliveryCostMultiplier', 300,
@@ -8842,11 +8689,7 @@ return {
 	South = true,
 	West = false,
 }),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/JA3Debug_KEVGDHzK25.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/M6_OldBase.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -8880,11 +8723,7 @@ return {
 	West = false,
 }),
 					'BlockTravelRiver', set(),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/JA3Debug_cWEYbSPEt1.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/M5_Coast.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 				}),
 			}),
 			PlaceObj('ModItemChangeProp', {
@@ -8960,11 +8799,7 @@ return {
 	South = true,
 	West = false,
 }),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/JA3Debug_Gi0wZWw76p.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/M2_WaterFall.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -8995,11 +8830,7 @@ return {
 	South = true,
 	West = false,
 }),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/M2.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/M2.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'combatTaskAmount', 3,
 				}),
 			}),
@@ -9033,11 +8864,7 @@ return {
 	South = true,
 	West = true,
 }),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/NVIDIA_Overlay_FbmSxu7QZR.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/M1_Landing.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Events', {
 						PlaceObj('SE_OnEnterMap', {
 							'Effects', {
@@ -9283,11 +9110,7 @@ return {
 					'Map', "MuKKhYV",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-<<<<<<< HEAD
 					'display_name', T(103040008364, "Farmland"),
-=======
-					'display_name', T(564176759847, "Фермы"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'TerrainType', "Farmland",
 					'WeatherZone', "Farmland",
 					'bidirectionalRoadApply', true,
@@ -9357,11 +9180,7 @@ return {
 					'Map', "DvDj7va",
 					'MapTier', 30,
 					'modId', "FhNNYd",
-<<<<<<< HEAD
 					'display_name', T(880605825419, "Wetlands"),
-=======
-					'display_name', T(603757752539, "Wetlands"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'TerrainType', "Swamp",
 					'WeatherZone', "Wetlands",
 					'Passability', "Land and Water",
@@ -10140,11 +9959,7 @@ return {
 					'modId', "FhNNYd",
 					'RunLoyaltyLogic', false,
 					'GroundSector', "P15",
-<<<<<<< HEAD
 					'display_name', T(744626507262, "Underground Lab"),
-=======
-					'display_name', T(813545991003, "Подземная лаборатория"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'never_autoresolve', true,
 					'discovered', false,
 					'ForceConflict', true,
@@ -13383,19 +13198,11 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
 								Text = T(540628623881, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Greeting3]] "<em>My father</em> was a fool, but he was my father after all. Now that he's dead because of you foreigners, I hate you more than ever. You spread pain and misery wherever you go! No more. The <em>Legion</em> will destroy you and everyone who deals with you!"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Pierre",
-								Text = T(540628623881, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Greeting3]] "<em>Мой отец</em> был дураком, но он был моим отцом. Он умер из-за вас, чужеземцы, и теперь я ненавижу вас еще больше. Вы несете с собой боль и разрушение, куда бы ни пришли! Хватит. <em>Легион</em> раздавит вас как гнид - вас и всех, кто с вами сотрудничает!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -13434,19 +13241,11 @@ return {
 						},
 						GoTo = "RedirectFlag",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
 								Text = T(244461347527, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Greeting4]] "I do not see our colors above <em>Flag Hill</em>. But then, you never intended to do it in the first place, did you? You just wanted to see how big a fool I am. Do you think I am a fool?"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Pierre",
-								Text = T(244461347527, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Greeting4]] "Я не вижу нашего флага на <em>Флаговом холме</em>. С другой стороны, вы же и не думали его там поднимать, верно? Вы просто хотели сделать из меня дурака. Считаете, что я дурак, да?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -13487,19 +13286,11 @@ return {
 						},
 						GoTo = "RedirectFlag",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
 								Text = T(655186393434, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Greeting7]] "I see our colors fly above <em>Flag Hill</em>. I almost want to let you in, just to see what you will do, but I know you are no Legion recruits. You only wanted to trick me! Do you think I am a fool?"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Pierre",
-								Text = T(655186393434, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Greeting7]] "Вижу, наш флаг поднят на <em>Флаговом холме</em>. Я почти что хочу впустить вас внутрь - просто чтобы глянуть, что вы станете делать. Но я знаю, что вы не рекруты Легиона. Хотели надуть меня! Считаете, что я дурак, да?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -13525,11 +13316,7 @@ return {
 							},
 							GoTo = "<end conversation>",
 							Keyword = "Yes",
-<<<<<<< HEAD
 							KeywordT = T(890000000000719, --[[ModItemConversation Pierre_1 KeywordT]] "Yes"),
-=======
-							KeywordT = T(556648424716, --[[ModItemConversation Pierre_1 KeywordT]] "Yes"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -13537,11 +13324,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Thor",
-<<<<<<< HEAD
 													Text = T(839081096190, --[[ModItemConversation Pierre_1 Text voice:Thor section:Pierre_1 keyword:Yes]] "The only fool here is the one who's lying to himself about what a beautiful and powerful soul he has inside. Do you know who that fool might be?"),
-=======
-													Text = T(839081096190, --[[ModItemConversation Pierre_1 Text voice:Thor section:Pierre_1 keyword:Yes]] "Единственный дурак здесь тот, кто лжет себе о том, какая у него благостная и величественная душа. Случайно не знаешь, кто бы это мог быть?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -13551,11 +13334,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Raven",
-<<<<<<< HEAD
 													Text = T(307998988209, --[[ModItemConversation Pierre_1 Text voice:Raven section:Pierre_1 keyword:Yes]] "I don't know. You're the one terrorizing your home town and killing your own neighbors... you tell me."),
-=======
-													Text = T(307998988209, --[[ModItemConversation Pierre_1 Text voice:Raven section:Pierre_1 keyword:Yes]] "Не знаю. Это ты терроризируешь родную деревню и убиваешь соседей... ты и скажи."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -13565,11 +13344,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Barry",
-<<<<<<< HEAD
 													Text = T(875451970681, --[[ModItemConversation Pierre_1 Text voice:Barry section:Pierre_1 keyword:Yes]] "I think this is maybe trick question, but I will say \"yes.\""),
-=======
-													Text = T(875451970681, --[[ModItemConversation Pierre_1 Text voice:Barry section:Pierre_1 keyword:Yes]] "Чую, что вопрос с подвохом, но рискну ответить «да»."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -13580,11 +13355,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Pierre",
-<<<<<<< HEAD
 									Text = T(662560113846, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Yes]] "Well, I am not. Foreign mercenaires will never join the Legion, not on my watch. Prepare to die."),
-=======
-									Text = T(662560113846, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Yes]] "Так вот, я не дурак. Иностранным наемникам путь в Легион закрыт. Не пущу. Готовьтесь к смерти!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -13611,11 +13382,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Buns",
-<<<<<<< HEAD
 													Text = T(890000000000061, --[[ModItemConversation Pierre_1 Text voice:Buns section:Pierre_1 keyword:No]] "Конечно же, нет. Просто исследуем поле возможностей."),
-=======
-													Text = T(144212800631, --[[ModItemConversation Pierre_1 Text voice:Buns section:Pierre_1 keyword:No]] "Конечно же, нет. Просто исследуем поле возможностей."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -13625,11 +13392,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Raider",
-<<<<<<< HEAD
 													Text = T(628460176862, --[[ModItemConversation Pierre_1 Text voice:Raider section:Pierre_1 keyword:No]] "Calm down, sir. We're not doing anything but investigating at this time."),
-=======
-													Text = T(628460176862, --[[ModItemConversation Pierre_1 Text voice:Raider section:Pierre_1 keyword:No]] "Успокойтесь, мистер. Мы сейчас просто зондируем почву."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -13639,11 +13402,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Sidney",
-<<<<<<< HEAD
 													Text = T(310688238588, --[[ModItemConversation Pierre_1 Text voice:Sidney section:Pierre_1 keyword:No]] "Perish the thought, my good man!"),
-=======
-													Text = T(310688238588, --[[ModItemConversation Pierre_1 Text voice:Sidney section:Pierre_1 keyword:No]] "Боже упаси, молодой человек!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -13654,11 +13413,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Pierre",
-<<<<<<< HEAD
 									Text = T(650531923318, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:No]] "Oh, really? Then you just needed an opportunity to see more of this beautiful island, did you?"),
-=======
-									Text = T(650531923318, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:No]] "Да неужели? Будете мне тут врать, что просто гуляли и наслаждались видами?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -13694,11 +13449,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Grunty",
-<<<<<<< HEAD
 													Text = T(487871387258, --[[ModItemConversation Pierre_1 Text voice:Grunty section:Pierre_1 keyword:No]] "I do not think you are a fool, but you are perhaps a little high-strung."),
-=======
-													Text = T(487871387258, --[[ModItemConversation Pierre_1 Text voice:Grunty section:Pierre_1 keyword:No]] "Не могу сказать, что ты дурак, но вот что ты на взводе - это точно."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -13708,11 +13459,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Kalyna",
-<<<<<<< HEAD
 													Text = T(257615784595, --[[ModItemConversation Pierre_1 Text voice:Kalyna section:Pierre_1 keyword:No]] "My babusya told me that if I do not have anything nice to say about someone, I should say nothing at all. So... um..."),
-=======
-													Text = T(257615784595, --[[ModItemConversation Pierre_1 Text voice:Kalyna section:Pierre_1 keyword:No]] "Babusya всегда говорила: о людях либо хорошо, либо ничего. Так что... э-э... вот..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -13722,11 +13469,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Grizzly",
-<<<<<<< HEAD
 													Text = T(855718746402, --[[ModItemConversation Pierre_1 Text voice:Grizzly section:Pierre_1 keyword:No]] "What's the matter? Can't take a joke?"),
-=======
-													Text = T(855718746402, --[[ModItemConversation Pierre_1 Text voice:Grizzly section:Pierre_1 keyword:No]] "Что такое? Чувство юмора отбило?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -13737,19 +13480,11 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Pierre",
-<<<<<<< HEAD
 									Text = T(104759547084, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:No]] "Then YOU are the fools and the joke is on you. But I am a soldier of the Legion and to me this is no game."),
 									param_bindings = false,
 								}),
 							},
 							PhraseConditionRolloverText = T(927795438681, --[[ModItemConversation Pierre_1 PhraseConditionRolloverText]] "Lost a bit of influence over Pierre"),
-=======
-									Text = T(104759547084, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:No]] "Выходит, это ВЫ дураки! И сами такие! А я - солдат Легиона, и для меня это всё вовсе не игрушки."),
-									param_bindings = false,
-								}),
-							},
-							PhraseConditionRolloverText = T(927795438681, --[[ModItemConversation Pierre_1 PhraseConditionRolloverText]] "Пьер начинает вас чуть меньше уважать"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 							PlayGoToPhrase = true,
 							StoryBranchIcon = "conversation_action",
 							id = "No_failure",
@@ -13782,11 +13517,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Livewire",
-<<<<<<< HEAD
 													Text = T(398301950977, --[[ModItemConversation Pierre_1 Text voice:Livewire section:Pierre_1 keyword:We had to try]] "It seemed like a good scam at the time, but in retrospect, it probably needed a little more lying and cheating."),
-=======
-													Text = T(398301950977, --[[ModItemConversation Pierre_1 Text voice:Livewire section:Pierre_1 keyword:We had to try]] "Мне показалось, что афера может выгореть, но, пожалуй, нужно было врать больше."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -13796,11 +13527,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fox",
-<<<<<<< HEAD
 													Text = T(890000000001282, --[[ModItemConversation Pierre_1 Text voice:Fox section:Pierre_1 keyword:We had to try]] "Ну, девчоночка хоть попыталась."),
-=======
-													Text = T(921366285292, --[[ModItemConversation Pierre_1 Text voice:Fox section:Pierre_1 keyword:We had to try]] "Ну, девчоночка хоть попыталась."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -13810,11 +13537,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Magic",
-<<<<<<< HEAD
 													Text = T(457690966404, --[[ModItemConversation Pierre_1 Text voice:Magic section:Pierre_1 keyword:We had to try]] "Worth a shot. Gotta give us some credit for the effort."),
-=======
-													Text = T(457690966404, --[[ModItemConversation Pierre_1 Text voice:Magic section:Pierre_1 keyword:We had to try]] "Оно того стоило. Попытка, как говорится, не пытка."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -13824,11 +13547,7 @@ return {
 									param_bindings = false,
 								}),
 							},
-<<<<<<< HEAD
 							PhraseConditionRolloverText = T(115433413866, --[[ModItemConversation Pierre_1 PhraseConditionRolloverText]] "Gained a bit of influence over Pierre"),
-=======
-							PhraseConditionRolloverText = T(115433413866, --[[ModItemConversation Pierre_1 PhraseConditionRolloverText]] "Пьер начинает вас чуть больше уважать"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 							PlayGoToPhrase = true,
 							StoryBranchIcon = "conversation_action",
 							id = "Wehadtotry",
@@ -13853,19 +13572,11 @@ return {
 						},
 						GoTo = "RedirectMajor",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
 								Text = T(426702400312, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Greeting10]] "So you are all les mercenaires the <em>President's money</em> could buy! And you have the audacity to come and challenge me here, in my own forteresse?! You have some guts, I give you that."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Pierre",
-								Text = T(426702400312, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Greeting10]] "Значит, <em>президентских денег</em> хватило только на вас? Ха! И у вас достаточно наглости, чтобы прийти ко мне, в мою крепость? Что ж, яйца у вас есть, этого не отнять."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -13874,11 +13585,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Vicki",
-<<<<<<< HEAD
 												Text = T(890000000000986, --[[ModItemConversation Pierre_1 Text voice:Vicki section:Pierre_1 keyword:Greeting10]] "Это что ли твоя крепость, man? По мне, так она на свалку больше похожа."),
-=======
-												Text = T(740040046583, --[[ModItemConversation Pierre_1 Text voice:Vicki section:Pierre_1 keyword:Greeting10]] "Это что ли твоя крепость, man? По мне, так она на свалку больше похожа."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -13888,11 +13595,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(409010208973, --[[ModItemConversation Pierre_1 Text voice:Wolf section:Pierre_1 keyword:Greeting10]] "Guts, guns, ammo, explosives... we got all different kinds of stuff. "),
-=======
-												Text = T(409010208973, --[[ModItemConversation Pierre_1 Text voice:Wolf section:Pierre_1 keyword:Greeting10]] "Яйца, пушки, патроны, взрывчатка... у нас много чего есть."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -13902,11 +13605,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Steroid",
-<<<<<<< HEAD
 												Text = T(890000000000635, --[[ModItemConversation Pierre_1 Text voice:Steroid section:Pierre_1 keyword:Greeting10]] "Исчо у меня есть мускулы. Много мускулов!"),
-=======
-												Text = T(505682863026, --[[ModItemConversation Pierre_1 Text voice:Steroid section:Pierre_1 keyword:Greeting10]] "Исчо у меня есть мускулы. Много мускулов!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -13941,11 +13640,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(250462096604, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:RedirectMajor]] "I am tempted to kill you all right now, but I will spare you this time. My reasons are my own. You should walk out of here while you still can and never return."),
-=======
-								Text = T(250462096604, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:RedirectMajor]] "Мне хочется убить вас прямо здесь, но на первый раз пощажу. Почему - не вашего ума дело. Бегите отсюда, пока ноги целы, и никогда не возвращайтесь."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -13976,19 +13671,11 @@ return {
 						},
 						GoTo = "RedirectDefault",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
 								Text = T(960399101663, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Greeting8]] "So you are les mercenaires <em>Bastien</em> was so excited about. You don't look half as tough as he describes you - but we both know he's a coward and a fool. Well, I am not."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Pierre",
-								Text = T(960399101663, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Greeting8]] "Значит, вы и есть те наемники, о которых так кричал <em>Бастьен</em>. Вы выглядите совсем не так круто, как он описывал. С другой стороны, мы все тут знаем, что он трус и дурак. А вот я - нет."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -13997,11 +13684,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fox",
-<<<<<<< HEAD
 												Text = T(890000000000203, --[[ModItemConversation Pierre_1 Text voice:Fox section:Pierre_1 keyword:Greeting8]] "Выглядеть круто необязательно. Надо выглядеть хорошо и тебе бы, конечно, малёк заняться собой."),
-=======
-												Text = T(249046682190, --[[ModItemConversation Pierre_1 Text voice:Fox section:Pierre_1 keyword:Greeting8]] "Выглядеть круто необязательно. Надо выглядеть хорошо и тебе бы, конечно, малёк заняться собой."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14011,11 +13694,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raven",
-<<<<<<< HEAD
 												Text = T(722714431739, --[[ModItemConversation Pierre_1 Text voice:Raven section:Pierre_1 keyword:Greeting8]] "You'll have to pardon us if we don't just take your word for it."),
-=======
-												Text = T(722714431739, --[[ModItemConversation Pierre_1 Text voice:Raven section:Pierre_1 keyword:Greeting8]] "Ты уж прости, если мы не станем верить тебе на слово."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14025,11 +13704,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grizzly",
-<<<<<<< HEAD
 												Text = T(256312461888, --[[ModItemConversation Pierre_1 Text voice:Grizzly section:Pierre_1 keyword:Greeting8]] "Don't be too quick to judge. You haven't seen us in action yet."),
-=======
-												Text = T(256312461888, --[[ModItemConversation Pierre_1 Text voice:Grizzly section:Pierre_1 keyword:Greeting8]] "Слишком быстро ты вердикты выносишь. Ты еще не видел нас в деле."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14062,19 +13737,11 @@ return {
 						},
 						GoTo = "RedirectDefault",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
 								Text = T(383984896904, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Greeting9]] "So you are les mercenaires <em>Bastien</em> told me about. I'm not impressed - neither was he, and he's a coward! But let's pretend for a moment that there is more to you than meets the eye."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Pierre",
-								Text = T(383984896904, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Greeting9]] "Значит, вы и есть те наемники, о которых говорил <em>Бастьен</em>. Я не впечатлен. И он тоже, хоть он и трус! Но ладно, давайте сделаем вид, что в вас действительно что-то есть."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -14083,11 +13750,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "MD",
-<<<<<<< HEAD
 												Text = T(395385273175, --[[ModItemConversation Pierre_1 Text voice:MD section:Pierre_1 keyword:Greeting9]] "Probably isn't, if I'm being honest."),
-=======
-												Text = T(395385273175, --[[ModItemConversation Pierre_1 Text voice:MD section:Pierre_1 keyword:Greeting9]] "По правде говоря, ничего там нет."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14097,11 +13760,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Kalyna",
-<<<<<<< HEAD
 												Text = T(512836316734, --[[ModItemConversation Pierre_1 Text voice:Kalyna section:Pierre_1 keyword:Greeting9]] "Oh, I love playing pretend! Hang on. Let me get my magic wand and slippers."),
-=======
-												Text = T(512836316734, --[[ModItemConversation Pierre_1 Text voice:Kalyna section:Pierre_1 keyword:Greeting9]] "О, я люблю, как ты говоришь, делать вид! Подожди, я только достану волшебную палочку и башмачки."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14111,11 +13770,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Mouse",
-<<<<<<< HEAD
 												Text = T(890000000000057, --[[ModItemConversation Pierre_1 Text voice:Mouse section:Pierre_1 keyword:Greeting9]] "Часто это слышу, но нет. Прости. Я просто серая мышь."),
-=======
-												Text = T(141034429526, --[[ModItemConversation Pierre_1 Text voice:Mouse section:Pierre_1 keyword:Greeting9]] "Часто это слышу, но нет. Прости. Я просто серая мышь."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14134,19 +13789,11 @@ return {
 						Comment = "",
 						GoTo = "RedirectDefault",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
 								Text = T(296924389629, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Greeting11]] "So you are the reason why <em>Bastien's</em> squad did not return from Flag Hill. We shall honor them later, but first things first."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Pierre",
-								Text = T(296924389629, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Greeting11]] "Так, значит, это из-за вас отряд <em>Бастьена</em> не вернулся с Флагового холма. Мы почтим их память потом. Сейчас нужно разобраться с главным."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -14162,11 +13809,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grizzly",
-<<<<<<< HEAD
 												Text = T(782389216479, --[[ModItemConversation Pierre_1 Text voice:Grizzly section:Pierre_1 keyword:Greeting11]] "We just mopped up the remains of it."),
-=======
-												Text = T(782389216479, --[[ModItemConversation Pierre_1 Text voice:Grizzly section:Pierre_1 keyword:Greeting11]] "Не было уже никакого отряда. Мы добили его остатки."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14183,11 +13826,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Igor",
-<<<<<<< HEAD
 												Text = T(603334130262, --[[ModItemConversation Pierre_1 Text voice:Igor section:Pierre_1 keyword:Greeting11]] "This Bastien deserve no medal. Unlike Dolviches."),
-=======
-												Text = T(603334130262, --[[ModItemConversation Pierre_1 Text voice:Igor section:Pierre_1 keyword:Greeting11]] "Бастьен не заслуживает медали. В отличие от Долвичей!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14204,11 +13843,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(166147681163, --[[ModItemConversation Pierre_1 Text voice:Wolf section:Pierre_1 keyword:Greeting11]] "There's nothing honorable about that guy. Trust me, I know the type."),
-=======
-												Text = T(166147681163, --[[ModItemConversation Pierre_1 Text voice:Wolf section:Pierre_1 keyword:Greeting11]] "Нечего там «почитать», уж поверь. Я таких красавчиков много повидал."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14237,11 +13872,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(731171771382, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:RedirectDefault]] "<em>Le Major</em> teaches us to know our enemy. And so, before we start shooting each other, I have one thing to ask you - why have you come to <em>Grand Chien</em>?"),
-=======
-								Text = T(731171771382, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:RedirectDefault]] "<em>Le Major</em> учит нас: нужно знать своего врага. Поэтому, прежде чем мы начнем друг в друга палить, у меня к вам один вопрос: зачем вы прибыли в <em>Гран-Шьен</em>?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -14262,11 +13893,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(145367702026, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Where is the President?]] "If you're looking for him, then you came to the wrong place. <em>Le Major</em> has him in his camp, so why don't you go ask him yourself?"),
-=======
-								Text = T(145367702026, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Where is the President?]] "Если вы ищете его, то вы ошиблись местом. <em>Le Major</em> держит его в своем лагере - почему бы вам не наведаться туда и спросить?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -14275,11 +13902,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Igor",
-<<<<<<< HEAD
 												Text = T(726224228762, --[[ModItemConversation Pierre_1 Text voice:Igor section:Pierre_1 keyword:Where is the President?]] "In Russia, you don't kidnap President. President kidnap you!"),
-=======
-												Text = T(726224228762, --[[ModItemConversation Pierre_1 Text voice:Igor section:Pierre_1 keyword:Where is the President?]] "В России не ты похищаешь президента, а президент - тебя!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14289,11 +13912,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(819958441690, --[[ModItemConversation Pierre_1 Text voice:Raider section:Pierre_1 keyword:Where is the President?]] "Don't worry. It's on the to-do list."),
-=======
-												Text = T(819958441690, --[[ModItemConversation Pierre_1 Text voice:Raider section:Pierre_1 keyword:Where is the President?]] "Не волнуйся, это у нас следующее по списку."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14303,11 +13922,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Omryn",
-<<<<<<< HEAD
 												Text = T(316923892545, --[[ModItemConversation Pierre_1 Text voice:Omryn section:Pierre_1 keyword:Where is the President?]] "More work that way. Easier to just ask you."),
-=======
-												Text = T(316923892545, --[[ModItemConversation Pierre_1 Text voice:Omryn section:Pierre_1 keyword:Where is the President?]] "Слишком много работы. Спросить тебя всяко проще."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14334,11 +13949,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(881120290314, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:So this is the Legion?]] "Yes! We are the Patriotic Legion of Grand Chien, the new protectors of this country against foreigners like you!"),
-=======
-								Text = T(881120290314, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:So this is the Legion?]] "Да! Мы - Легион патриотов Гран-Шьен, мы новые защитники этой страны против иноземцев вроде вас."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -14347,11 +13958,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ice",
-<<<<<<< HEAD
 												Text = T(302347888608, --[[ModItemConversation Pierre_1 Text voice:Ice section:Pierre_1 keyword:So this is the Legion?]] "Hell of a gang name, killah."),
-=======
-												Text = T(302347888608, --[[ModItemConversation Pierre_1 Text voice:Ice section:Pierre_1 keyword:So this is the Legion?]] "Крутое имечко у вашей банды, чо."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14361,11 +13968,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grunty",
-<<<<<<< HEAD
 												Text = T(514911998297, --[[ModItemConversation Pierre_1 Text voice:Grunty section:Pierre_1 keyword:So this is the Legion?]] "Do you have uniforms? I would recommend you stay away from brown shirts or red arm bands."),
-=======
-												Text = T(514911998297, --[[ModItemConversation Pierre_1 Text voice:Grunty section:Pierre_1 keyword:So this is the Legion?]] "А форма у вас есть? Я бы рекомендовал держаться подальше от коричневых рубах и красных нарукавных повязок."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14375,11 +13978,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Blood",
-<<<<<<< HEAD
 												Text = T(498157476249, --[[ModItemConversation Pierre_1 Text voice:Blood section:Pierre_1 keyword:So this is the Legion?]] "I can respect that, but I think some of your neighbors object to your \"protection\" methods."),
-=======
-												Text = T(498157476249, --[[ModItemConversation Pierre_1 Text voice:Blood section:Pierre_1 keyword:So this is the Legion?]] "Идея хорошая, но, боюсь, некоторые из ваших соседей крайне против таких методов «защиты»."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14421,11 +14020,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(308298242231, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Your father is concerned about you]] "What my father is concerned about is none of your business!... Is... Is he safe?"),
-=======
-								Text = T(308298242231, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Your father is concerned about you]] "Заботы моего отца не вашего ума дело!.. Он... с ним все в порядке?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -14434,11 +14029,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Livewire",
-<<<<<<< HEAD
 												Text = T(600525276387, --[[ModItemConversation Pierre_1 Text voice:Livewire section:Pierre_1 keyword:Your father is concerned about you]] "He just worries about you too much. Some fathers are like that."),
-=======
-												Text = T(600525276387, --[[ModItemConversation Pierre_1 Text voice:Livewire section:Pierre_1 keyword:Your father is concerned about you]] "Он просто очень о тебе беспокоится. Бывают, знаешь, на свете такие отцы."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14448,11 +14039,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Barry",
-<<<<<<< HEAD
 												Text = T(467191978974, --[[ModItemConversation Pierre_1 Text voice:Barry section:Pierre_1 keyword:Your father is concerned about you]] "He is safe, but worries about his son. You should call."),
-=======
-												Text = T(467191978974, --[[ModItemConversation Pierre_1 Text voice:Barry section:Pierre_1 keyword:Your father is concerned about you]] "С ним все в порядке, но он волнуется о сыне. Ты бы ему позвенел хоть."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14462,11 +14049,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Buns",
-<<<<<<< HEAD
 												Text = T(890000000000360, --[[ModItemConversation Pierre_1 Text voice:Buns section:Pierre_1 keyword:Your father is concerned about you]] "Всё хорошо. Но постарайся быть ему сыном получше. Можно, например, не убивать его друзей."),
-=======
-												Text = T(333166141128, --[[ModItemConversation Pierre_1 Text voice:Buns section:Pierre_1 keyword:Your father is concerned about you]] "Всё хорошо. Но постарайся быть ему сыном получше. Можно, например, не убивать его друзей."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14476,11 +14059,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "DrQ",
-<<<<<<< HEAD
 												Text = T(476162344074, --[[ModItemConversation Pierre_1 Text voice:DrQ section:Pierre_1 keyword:Your father is concerned about you]] "He is safe, but he is old and time is the great enemy. Spend some with him."),
-=======
-												Text = T(476162344074, --[[ModItemConversation Pierre_1 Text voice:DrQ section:Pierre_1 keyword:Your father is concerned about you]] "С ним все в порядке, но он уже старый, и время не на его стороне. Бывай с ним почаще."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14490,11 +14069,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Gus",
-<<<<<<< HEAD
 												Text = T(129659756011, --[[ModItemConversation Pierre_1 Text voice:Gus section:Pierre_1 keyword:Your father is concerned about you]] "Heck of a lot safer than you, I expect."),
-=======
-												Text = T(129659756011, --[[ModItemConversation Pierre_1 Text voice:Gus section:Pierre_1 keyword:Your father is concerned about you]] "Полагаю, с ним гораздо более все в порядке, чем с тобой."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14504,11 +14079,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "MD",
-<<<<<<< HEAD
 												Text = T(396095040471, --[[ModItemConversation Pierre_1 Text voice:MD section:Pierre_1 keyword:Your father is concerned about you]] "Well, his vitals are mostly good. Blood pressure's a little high... Oh! But, yes, he's safe."),
-=======
-												Text = T(396095040471, --[[ModItemConversation Pierre_1 Text voice:MD section:Pierre_1 keyword:Your father is concerned about you]] "Ну, его показатели в целом в норме. Давление немного повышено... А! Но да, так с ним все в порядке."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14518,11 +14089,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Scully",
-<<<<<<< HEAD
 												Text = T(644784902435, --[[ModItemConversation Pierre_1 Text voice:Scully section:Pierre_1 keyword:Your father is concerned about you]] "About as safe as can be expected. You should see him more often. You're the only son he's got!"),
-=======
-												Text = T(644784902435, --[[ModItemConversation Pierre_1 Text voice:Scully section:Pierre_1 keyword:Your father is concerned about you]] "В порядке - насколько это вообще возможно. Наведывался бы ты к нему почаще. Ты ж его единственный сын!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14532,11 +14099,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Thor",
-<<<<<<< HEAD
 												Text = T(321196383231, --[[ModItemConversation Pierre_1 Text voice:Thor section:Pierre_1 keyword:Your father is concerned about you]] "He is safe, but his soul needs nourishment. I think you could help with that."),
-=======
-												Text = T(321196383231, --[[ModItemConversation Pierre_1 Text voice:Thor section:Pierre_1 keyword:Your father is concerned about you]] "Он в порядке, но душа его жаждет исцеления. Мне кажется, ты мог бы ему в этом помочь."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14546,11 +14109,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Vicki",
-<<<<<<< HEAD
 												Text = T(890000000000208, --[[ModItemConversation Pierre_1 Text voice:Vicki section:Pierre_1 keyword:Your father is concerned about you]] "Да он в поряде, правда. И вообще ему будет лучше, если ты бросишь эту пушку и поможешь ему чинить Эрни."),
-=======
-												Text = T(251150765605, --[[ModItemConversation Pierre_1 Text voice:Vicki section:Pierre_1 keyword:Your father is concerned about you]] "Да он в поряде, правда. И вообще ему будет лучше, если ты бросишь эту пушку и поможешь ему чинить Эрни."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14560,11 +14119,7 @@ return {
 								param_bindings = false,
 							}),
 						},
-<<<<<<< HEAD
 						PhraseConditionRolloverText = T(922199398125, --[[ModItemConversation Pierre_1 PhraseConditionRolloverText]] "Gained a bit of influence over Pierre"),
-=======
-						PhraseConditionRolloverText = T(922199398125, --[[ModItemConversation Pierre_1 PhraseConditionRolloverText]] "Пьер начинает вас чуть больше уважать"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						id = "Yourfatherisconcernedaboutyou",
 						param_bindings = false,
 					}),
@@ -14603,11 +14158,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(628214674331, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Your father asked us to spare you]] "Did he now? Oh, how generous of you! I think I should save you the trouble."),
-=======
-								Text = T(628214674331, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Your father asked us to spare you]] "Серьезно? Так благородно с вашей стороны! Мне бы стоило избавить вас от хлопот."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -14616,11 +14167,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Steroid",
-<<<<<<< HEAD
 												Text = T(747092917456, --[[ModItemConversation Pierre_1 Text voice:Steroid section:Pierre_1 keyword:Your father asked us to spare you]] "It is no trouble. We will just pummel you until you have been properly pummeled."),
-=======
-												Text = T(747092917456, --[[ModItemConversation Pierre_1 Text voice:Steroid section:Pierre_1 keyword:Your father asked us to spare you]] "Это не хлопоты. Поколотить тебя - просто разминка перед настоящей тренировкой."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14630,11 +14177,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(391009890359, --[[ModItemConversation Pierre_1 Text voice:Meltdown section:Pierre_1 keyword:Your father asked us to spare you]] "Don't sweat it, tough guy. Your old man didn't say nothin' about sparing your kneecaps."),
-=======
-												Text = T(391009890359, --[[ModItemConversation Pierre_1 Text voice:Meltdown section:Pierre_1 keyword:Your father asked us to spare you]] "Не кипиши, мелочь. Твой старик не просил тебе коленки сохранить."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14644,11 +14187,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Omryn",
-<<<<<<< HEAD
 												Text = T(870476474836, --[[ModItemConversation Pierre_1 Text voice:Omryn section:Pierre_1 keyword:Your father asked us to spare you]] "Thank you. I don't like trouble. It always make me tired."),
-=======
-												Text = T(870476474836, --[[ModItemConversation Pierre_1 Text voice:Omryn section:Pierre_1 keyword:Your father asked us to spare you]] "Спасибо. Не люблю хлопоты. Я от них устаю."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14659,19 +14198,11 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(334425014198, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Your father asked us to spare you]] "Legion! Attention! Prepare for battle!"),
 								param_bindings = false,
 							}),
 						},
 						PhraseConditionRolloverText = T(733836516293, --[[ModItemConversation Pierre_1 PhraseConditionRolloverText]] "Lost a bit of influence over Pierre"),
-=======
-								Text = T(334425014198, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:Your father asked us to spare you]] "Легион! Внимание! К бою готовьсь!"),
-								param_bindings = false,
-							}),
-						},
-						PhraseConditionRolloverText = T(733836516293, --[[ModItemConversation Pierre_1 PhraseConditionRolloverText]] "Пьер начинает вас чуть меньше уважать"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						id = "Yourfatherisconcernedaboutyou2",
 						param_bindings = false,
 					}),
@@ -14703,11 +14234,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(109484208245, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:We are here to set things right]] "Are you? Hmm, I can see that you believe what you're saying, and that counts for something in my book."),
-=======
-								Text = T(109484208245, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:We are here to set things right]] "Неужели? Гм, я вижу, что вы верите в то, что говорите. И это кое-что для меня значит."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -14716,11 +14243,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(891483169319, --[[ModItemConversation Pierre_1 Text voice:Raider section:Pierre_1 keyword:We are here to set things right]] "We're just here to restore order and help a young woman find her father."),
-=======
-												Text = T(891483169319, --[[ModItemConversation Pierre_1 Text voice:Raider section:Pierre_1 keyword:We are here to set things right]] "Мы здесь лишь для того, чтобы навести порядок и помочь одной юной леди найти своего отца."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14730,11 +14253,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Buns",
-<<<<<<< HEAD
 												Text = T(890000000001329, --[[ModItemConversation Pierre_1 Text voice:Buns section:Pierre_1 keyword:We are here to set things right]] "Мы здесь, чтобы вернуть одну даму родному отцу."),
-=======
-												Text = T(962839695195, --[[ModItemConversation Pierre_1 Text voice:Buns section:Pierre_1 keyword:We are here to set things right]] "Мы здесь, чтобы вернуть одну даму родному отцу."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14744,11 +14263,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Sidney",
-<<<<<<< HEAD
 												Text = T(653496487522, --[[ModItemConversation Pierre_1 Text voice:Sidney section:Pierre_1 keyword:We are here to set things right]] "Happy to hear you say that! We don't mean to be a bother. Just trying to reunite a lost father with his daughter."),
-=======
-												Text = T(653496487522, --[[ModItemConversation Pierre_1 Text voice:Sidney section:Pierre_1 keyword:We are here to set things right]] "Рад это слышать! Мы не доставим вам неудобств. Просто хотим найти потерявшегося отца одной милой молодой леди."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14759,19 +14274,11 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(335625125781, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:We are here to set things right]] "Your purpose may be noble, but this is my island - and I did not invite you. I'm giving you one last chance to leave."),
 								param_bindings = false,
 							}),
 						},
 						PhraseConditionRolloverText = T(483930736806, --[[ModItemConversation Pierre_1 PhraseConditionRolloverText]] "Gained some influence over Pierre"),
-=======
-								Text = T(335625125781, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:We are here to set things right]] "Ваши стремления, может быть, и благородны, но это мой остров. И вас я сюда не приглашал. Даю вам последний шанс убраться подобру-поздорову."),
-								param_bindings = false,
-							}),
-						},
-						PhraseConditionRolloverText = T(483930736806, --[[ModItemConversation Pierre_1 PhraseConditionRolloverText]] "Пьер начинает вас больше уважать"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						StoryBranchIcon = "conversation_arrow",
 						id = "Weareheretosetthingsright_success",
 						param_bindings = false,
@@ -14805,11 +14312,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(115395963374, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:We are here to set things right]] "Oh really. As if this is what my country needed - a bunch of armed foreign mercenaires to come and solve our problems. Get out of here, before I solve YOUR problems in the most final way possible."),
-=======
-								Text = T(115395963374, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:We are here to set things right]] "Да неужели? Только моей стране не хватало банды незваных наемников, которая пытается решить наши проблемы. Убирайтесь отсюда. Пока я не решил ВАШИ проблемы - в самой ультимативной форме из возможных."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -14818,11 +14321,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grizzly",
-<<<<<<< HEAD
 												Text = T(629539762589, --[[ModItemConversation Pierre_1 Text voice:Grizzly section:Pierre_1 keyword:We are here to set things right]] "That's some tough talk. Let's see if you can back it up."),
-=======
-												Text = T(629539762589, --[[ModItemConversation Pierre_1 Text voice:Grizzly section:Pierre_1 keyword:We are here to set things right]] "Крутые слова ты выучил. Давай посмотрим, сможешь ли ты подкрепить их делом."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14832,11 +14331,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(803620173547, --[[ModItemConversation Pierre_1 Text voice:Wolf section:Pierre_1 keyword:We are here to set things right]] "For the record, I don't actually care about setting things right."),
-=======
-												Text = T(803620173547, --[[ModItemConversation Pierre_1 Text voice:Wolf section:Pierre_1 keyword:We are here to set things right]] "Для протокола: вообще-то мне плевать на «восстановление справедливости»."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14846,11 +14341,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Omryn",
-<<<<<<< HEAD
 												Text = T(890000000001283, --[[ModItemConversation Pierre_1 Text voice:Omryn section:Pierre_1 keyword:We are here to set things right]] "Складно говоришь, однако. Я аж вздремнул на середине."),
-=======
-												Text = T(921498755537, --[[ModItemConversation Pierre_1 Text voice:Omryn section:Pierre_1 keyword:We are here to set things right]] "Складно говоришь, однако. Я аж вздремнул на середине."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14860,11 +14351,7 @@ return {
 								param_bindings = false,
 							}),
 						},
-<<<<<<< HEAD
 						PhraseConditionRolloverText = T(313931959615, --[[ModItemConversation Pierre_1 PhraseConditionRolloverText]] "Lost a bit of influence over Pierre"),
-=======
-						PhraseConditionRolloverText = T(313931959615, --[[ModItemConversation Pierre_1 PhraseConditionRolloverText]] "Пьер начинает вас чуть меньше уважать"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						StoryBranchIcon = "conversation_arrow",
 						id = "Weareheretosetthingsright_failure",
 						param_bindings = false,
@@ -14891,11 +14378,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(591072391496, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:We are here to kick your ass]] "Bring it on! Let's see what you dogs on a leash can do in battle."),
-=======
-								Text = T(591072391496, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:We are here to kick your ass]] "Что ж, приступим! Заодно помотрим, на что вы, псы, способны."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -14904,11 +14387,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Thor",
-<<<<<<< HEAD
 												Text = T(925081064899, --[[ModItemConversation Pierre_1 Text voice:Thor section:Pierre_1 keyword:We are here to kick your ass]] "I like that positive attitude, but I think you need to focus on being CONstructive instead of DEstructive, okay?"),
-=======
-												Text = T(925081064899, --[[ModItemConversation Pierre_1 Text voice:Thor section:Pierre_1 keyword:We are here to kick your ass]] "Мне нравится твой положительный настрой, но, мне кажется, тебе следует сосредоточиться на КОНструктивных мыслях вместо ДЕСтруктивных?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14918,11 +14397,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fox",
-<<<<<<< HEAD
 												Text = T(890000000000727, --[[ModItemConversation Pierre_1 Text voice:Fox section:Pierre_1 keyword:We are here to kick your ass]] "Что, прости?! Я тебе не пёс!"),
-=======
-												Text = T(565486457373, --[[ModItemConversation Pierre_1 Text voice:Fox section:Pierre_1 keyword:We are here to kick your ass]] "Что, прости?! Я тебе не пёс!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14932,11 +14407,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Barry",
-<<<<<<< HEAD
 												Text = T(300914905417, --[[ModItemConversation Pierre_1 Text voice:Barry section:Pierre_1 keyword:We are here to kick your ass]] "There is no need for name-calling. It is like no one wants to be polite these days."),
-=======
-												Text = T(300914905417, --[[ModItemConversation Pierre_1 Text voice:Barry section:Pierre_1 keyword:We are here to kick your ass]] "Ну вот, чуть что - и сразу обзываться. Ну и молодость пошла, никакого уважения к старшим."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -14946,11 +14417,7 @@ return {
 								param_bindings = false,
 							}),
 						},
-<<<<<<< HEAD
 						PhraseConditionRolloverText = T(208081198112, --[[ModItemConversation Pierre_1 PhraseConditionRolloverText]] "Gained a bit of influence over Pierre"),
-=======
-						PhraseConditionRolloverText = T(208081198112, --[[ModItemConversation Pierre_1 PhraseConditionRolloverText]] "Пьер начинает вас чуть больше уважать"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						StoryBranchIcon = "conversation_arrow",
 						id = "Fight",
 						param_bindings = false,
@@ -14982,11 +14449,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(679158968797, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:We are here to join the Legion]] "You? You wish to be... Legionnaires? Ha. Well, perhaps you know a winning side when you see one."),
-=======
-								Text = T(679158968797, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:We are here to join the Legion]] "Вы? Вы хотите стать... легионерами? Ха. Что ж, похоже, вы чуете, откуда ветер дует."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -14995,11 +14458,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Livewire",
-<<<<<<< HEAD
 												Text = T(772317832426, --[[ModItemConversation Pierre_1 Text voice:Livewire section:Pierre_1 keyword:We are here to join the Legion]] "Totally! It's not technically losing when you swap sides, right?"),
-=======
-												Text = T(772317832426, --[[ModItemConversation Pierre_1 Text voice:Livewire section:Pierre_1 keyword:We are here to join the Legion]] "Именно так! Ты не проиграла, если успела сменить сторону, верно?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -15009,11 +14468,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000000094, --[[ModItemConversation Pierre_1 Text voice:Fidel section:Pierre_1 keyword:We are here to join the Legion]] "Так. Фидель не понял. Теперь мы убиваем Эмму или… или что?"),
-=======
-												Text = T(173040026698, --[[ModItemConversation Pierre_1 Text voice:Fidel section:Pierre_1 keyword:We are here to join the Legion]] "Так. Фидель не понял. Теперь мы убиваем Эмму или… или что?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -15023,11 +14478,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fox",
-<<<<<<< HEAD
 												Text = T(890000000000653, --[[ModItemConversation Pierre_1 Text voice:Fox section:Pierre_1 keyword:We are here to join the Legion]] "Ну, я бы предпочла сначала посмотреть соцпакет, но по части выплат я гибкая женщина. Очень гибкая."),
-=======
-												Text = T(526034776799, --[[ModItemConversation Pierre_1 Text voice:Fox section:Pierre_1 keyword:We are here to join the Legion]] "Ну, я бы предпочла сначала посмотреть соцпакет, но по части выплат я гибкая женщина. Очень гибкая."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -15038,19 +14489,11 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(157953865870, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:We are here to join the Legion]] "Very well. To show me your worth I want you to do what my soldiers failed to achieve. Place the <em>flag</em> of the Legion on <em>Flag Hill</em> and you will be welcome in our forteresse."),
 								param_bindings = false,
 							}),
 						},
 						PhraseRolloverText = T(945615564921, --[[ModItemConversation Pierre_1 PhraseRolloverText]] "Lie"),
-=======
-								Text = T(157953865870, --[[ModItemConversation Pierre_1 Text voice:Pierre section:Pierre_1 keyword:We are here to join the Legion]] "Хорошо. Хотите показать, что достойны? Выполните то, что не смогли сделать мои солдаты. Поднимите <em>флаг</em> Легиона на <em>Флаговом холме</em>, и я впущу вас в крепость."),
-								param_bindings = false,
-							}),
-						},
-						PhraseRolloverText = T(945615564921, --[[ModItemConversation Pierre_1 PhraseRolloverText]] "Неправда"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						StoryBranchIcon = "conversation_arrow",
 						id = "WeareheretojointheLegion",
 						param_bindings = false,
@@ -15081,48 +14524,28 @@ return {
 						},
 						GoTo = "Redirect",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
 								Character = "Spike",
-<<<<<<< HEAD
 								Text = T(532557680534, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Greeting5]] "How are you doing, kid? You enjoying your stay in the camp?"),
-=======
-								Text = T(532557680534, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Greeting5]] "Как дела, парень? Нравится тебе в лагере?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(687840174146, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Greeting5]] "Major! You... Les mercenaires worked for you all along?!"),
-=======
-								Text = T(687840174146, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Greeting5]] "Майор! Вы... наемники все это время работали на вас?!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
 								Character = "Spike",
-<<<<<<< HEAD
 								Text = T(919552159436, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Greeting5]] "Nah. We came to an agreement. Let's just say we're helping each other tie up a few loose ends. "),
-=======
-								Text = T(919552159436, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Greeting5]] "Не-а. Мы пришли к соглашению. Скажем так: мы помогаем друг другу подчистить оставшиеся хвосты."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(729390699599, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Greeting5]] "I... I don't understand. Have you come here to mock me?"),
-=======
-								Text = T(729390699599, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Greeting5]] "Я... я не понимаю. Вы пришли сюда, чтобы издеваться надо мной?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -15166,19 +14589,11 @@ return {
 						},
 						GoTo = "Redirect",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
 								Text = T(212706256484, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Greeting1]] "What are you doing here? You came to mock me for being wrong about the <em>Legion</em>? Mock me if you will, but you are no better than them."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Pierre",
-								Text = T(212706256484, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Greeting1]] "Что вы здесь делаете? Пришли сюда, чтобы издеваться надо мной из-за того, что я ошибался насчет <em>Легиона</em>? Тогда издевайтесь сколько влезет. Но вы ничем не лучше, чем они."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -15226,19 +14641,11 @@ return {
 						},
 						GoTo = "Redirect",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
 								Text = T(204661593180, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Greeting2]] "What are you doing here? You came to mock me for being wrong about the <em>Legion</em>?"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Pierre",
-								Text = T(204661593180, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Greeting2]] "Что вы здесь делаете? Пришли сюда, чтобы издеваться надо мной из-за того, что я ошибся в <em>Легионе</em>?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -15279,19 +14686,11 @@ return {
 						},
 						GoTo = "Redirect",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
 								Text = T(551938073766, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Greeting3]] "You, here? I have heard about your deeds, but I didn't expect you to come to this god-forsaken place. I... I feel compelled to admit that you were right and I was wrong about the <em>Legion</em>."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Pierre",
-								Text = T(551938073766, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Greeting3]] "Вы... и здесь? Я наслышан о ваших поступках, но не ожидал, что вы прибудете в эту богом забытую дыру. Я... вынужден признать, что вы были правы, а я ошибался насчет <em>Легиона</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -15309,11 +14708,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "Redirect",
-<<<<<<< HEAD
 						KeywordT = T(890000000000352, --[[ModItemConversation Pierre_2 KeywordT]] "Redirect"),
-=======
-						KeywordT = T(328092960140, --[[ModItemConversation Pierre_2 KeywordT]] "Redirect"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						NoBackOption = true,
 						id = "Redirect",
 						param_bindings = false,
@@ -15343,20 +14738,12 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Spike",
-<<<<<<< HEAD
 									Text = T(935542863031, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Actually not]] "Do you remember what I taught you about honor, valor and nobility?..."),
-=======
-									Text = T(935542863031, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Actually not]] "Ты помнишь, что я тебе говорил о чести, доблести и благородстве?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Pierre",
-<<<<<<< HEAD
 									Text = T(483345115217, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Actually not]] "Yes, I remember all too well."),
-=======
-									Text = T(483345115217, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Actually not]] "Да, я помню. Слишком хорошо."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -15365,11 +14752,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Raider",
-<<<<<<< HEAD
 													Text = T(584135058994, --[[ModItemConversation Pierre_2 Text voice:Raider section:Pierre_2 keyword:Actually not]] "Careful what you're about to say, Spike."),
-=======
-													Text = T(584135058994, --[[ModItemConversation Pierre_2 Text voice:Raider section:Pierre_2 keyword:Actually not]] "Спайк, подумай хорошенько, что ты хочешь сейчас сказать."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -15379,11 +14762,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Buns",
-<<<<<<< HEAD
 													Text = T(910007453979, --[[ModItemConversation Pierre_2 Text voice:Buns section:Pierre_2 keyword:Actually not]] "Major Scallion, now is not the time for one of your \"jokes\"."),
-=======
-													Text = T(910007453979, --[[ModItemConversation Pierre_2 Text voice:Buns section:Pierre_2 keyword:Actually not]] "Майор Скэллион, сейчас не время для ваших фирменных «шуточек»."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -15393,11 +14772,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Sidney",
-<<<<<<< HEAD
 													Text = T(209444188142, --[[ModItemConversation Pierre_2 Text voice:Sidney section:Pierre_2 keyword:Actually not]] "Major Scallion, if I may, I would ensure your next words are of a conciliatory nature."),
-=======
-													Text = T(209444188142, --[[ModItemConversation Pierre_2 Text voice:Sidney section:Pierre_2 keyword:Actually not]] "Майор Скэллион, если позволите: я бы предложил следующую вашу фразу дать в примирительном ключе."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -15408,46 +14783,26 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Spike",
-<<<<<<< HEAD
 									Text = T(489933714043, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Actually not]] "Well... I was full of shit. I was using you and all the other Legion boys just to get what I wanted. Most of the Legionnaires were just thieves and murderers, so I don't feel too bad about it. But you... Well, you were different. You deserved better than that."),
-=======
-									Text = T(489933714043, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Actually not]] "Что могу сказать... Я вам лапшу на уши вешал. Использовал тебя и остальных парней из Легиона в своих личных целях. Большинство народу в Легионе в любом случае были ворами и убийцами, так что их мне не особо и жалко. Но ты... ты - исключение. Ты заслуживаешь лучшей жизни."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Pierre",
-<<<<<<< HEAD
 									Text = T(328051068689, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Actually not]] "Then why did you send me to the mines? Why did you send me here?"),
-=======
-									Text = T(328051068689, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Actually not]] "Тогда почему вы отправили меня на прииски? Почему отправили сюда?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Spike",
-<<<<<<< HEAD
 									Text = T(559653792460, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Actually not]] "Because I couldn't bring myself to kill you, but I had to punish you to make an example for the others. And I knew you were strong enough to take it. Simple as that. Look, I don't expect you to forgive me, but... I am sorry."),
-=======
-									Text = T(559653792460, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Actually not]] "Потому что я не смог заставить себя убить тебя, но тебя нужно было наказать так, чтоб остальным неповадно было. И я знал, что ты достаточно силен, чтобы выжить. Вот так все просто. Слушай, я не жду, что ты меня простишь, но... Извини. Мне очень жаль."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Pierre",
-<<<<<<< HEAD
 									Text = T(922392073809, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Actually not]] "I do not know if I believe you, but I... will think about what you said."),
 									param_bindings = false,
 								}),
 							},
 							PhraseConditionRolloverText = T(556880007853, --[[ModItemConversation Pierre_2 PhraseConditionRolloverText]] "Gained some influence over Pierre"),
-=======
-									Text = T(922392073809, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Actually not]] "Не уверен, что я вам верю, но... я подумаю о том, что вы сказали."),
-									param_bindings = false,
-								}),
-							},
-							PhraseConditionRolloverText = T(556880007853, --[[ModItemConversation Pierre_2 PhraseConditionRolloverText]] "Пьер начинает вас больше уважать"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 							StoryBranchIcon = "conversation_friendly",
 							id = "Actuallynot",
 							param_bindings = false,
@@ -15495,11 +14850,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Pierre",
-<<<<<<< HEAD
 									Text = T(844073640067, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:They just used you]] "Yes, and now you want to use me as well. I would rather rot here in this hell hole than serve someone else's \"great purpose\". Leave me be."),
-=======
-									Text = T(844073640067, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:They just used you]] "А сейчас меня хотите использовать вы. Да я лучше сгнию в этой дыре, чем снова позволю кому-то кататься на моей шее «во имя великой цели». Оставьте меня в покое."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -15508,11 +14859,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Red",
-<<<<<<< HEAD
 													Text = T(228510617600, --[[ModItemConversation Pierre_2 Text voice:Red section:Pierre_2 keyword:They just used you]] "Have it your way, ya thick-headed ninny!"),
-=======
-													Text = T(228510617600, --[[ModItemConversation Pierre_2 Text voice:Red section:Pierre_2 keyword:They just used you]] "Будь по-твоему, дубина ты стоеросовая!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -15522,11 +14869,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Mouse",
-<<<<<<< HEAD
 													Text = T(890000000000295, --[[ModItemConversation Pierre_2 Text voice:Mouse section:Pierre_2 keyword:They just used you]] "Ну сиди и загнивай. Мне то что."),
-=======
-													Text = T(289264459421, --[[ModItemConversation Pierre_2 Text voice:Mouse section:Pierre_2 keyword:They just used you]] "Ну сиди и загнивай. Мне то что."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -15536,11 +14879,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Wolf",
-<<<<<<< HEAD
 													Text = T(623408036196, --[[ModItemConversation Pierre_2 Text voice:Wolf section:Pierre_2 keyword:They just used you]] "I don't know about any \"great purpose\" but you're sure missing out on a lot of fun!"),
-=======
-													Text = T(623408036196, --[[ModItemConversation Pierre_2 Text voice:Wolf section:Pierre_2 keyword:They just used you]] "Не знаю насчет «великих целей», но вот большую веселуху ты точно пропускаешь!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -15592,11 +14931,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Pierre",
-<<<<<<< HEAD
 									Text = T(370925631429, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:They just used you]] "Yes, they did. How could I not see through all those hollow words and promises for a great future? I was so easy to fool."),
-=======
-									Text = T(370925631429, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:They just used you]] "Да, именно так. Как я раньше не замечал правды за всеми этими пустыми словами и обещаниями великого будущего? Я был таким дурнем."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -15605,11 +14940,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Livewire",
-<<<<<<< HEAD
 													Text = T(704795156285, --[[ModItemConversation Pierre_2 Text voice:Livewire section:Pierre_2 keyword:They just used you]] "Yes, it is true. You are very naive. But you are not completely without hope."),
-=======
-													Text = T(704795156285, --[[ModItemConversation Pierre_2 Text voice:Livewire section:Pierre_2 keyword:They just used you]] "Это правда, ты очень наивный. Но небезнадежный."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -15619,11 +14950,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fox",
-<<<<<<< HEAD
 													Text = T(382427878561, --[[ModItemConversation Pierre_2 Text voice:Fox section:Pierre_2 keyword:They just used you]] "Don't feel bad. You're young and cute, so it's easy for people to take advantage of you. I have some experience in that area."),
-=======
-													Text = T(382427878561, --[[ModItemConversation Pierre_2 Text voice:Fox section:Pierre_2 keyword:They just used you]] "Ну, не расстраивайся. Ты юный и очень милый, людям очень просто тобой воспользоваться. Поверь, уж я в этом разбираюсь."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -15633,11 +14960,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Magic",
-<<<<<<< HEAD
 													Text = T(424980254154, --[[ModItemConversation Pierre_2 Text voice:Magic section:Pierre_2 keyword:They just used you]] "Hey, don't sweat it. Everybody falls for an illusion every now and again, ya' dig?"),
-=======
-													Text = T(424980254154, --[[ModItemConversation Pierre_2 Text voice:Magic section:Pierre_2 keyword:They just used you]] "Да не парься. Лохом каждый может оказаться, даже я. Сечешь?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -15647,11 +14970,7 @@ return {
 									param_bindings = false,
 								}),
 							},
-<<<<<<< HEAD
 							PhraseConditionRolloverText = T(366785024531, --[[ModItemConversation Pierre_2 PhraseConditionRolloverText]] "Gained a bit of influence over Pierre"),
-=======
-							PhraseConditionRolloverText = T(366785024531, --[[ModItemConversation Pierre_2 PhraseConditionRolloverText]] "Пьер начинает вас чуть больше уважать"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 							StoryBranchIcon = "conversation_friendly",
 							id = "Theyjustusedyou2",
 							param_bindings = false,
@@ -15684,65 +15003,37 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Spike",
-<<<<<<< HEAD
 													Text = T(725076407162, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Karma is a bitch!]] "Do you remember what I taught you about honor, valor and nobility?"),
-=======
-													Text = T(725076407162, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Karma is a bitch!]] "Ты помнишь, что я тебе говорил о чести, доблести и благородстве?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 												PlaceObj('ConversationLine', {
 													Character = "Pierre",
-<<<<<<< HEAD
 													Text = T(444904794822, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Karma is a bitch!]] "Yes, I remember all too well."),
-=======
-													Text = T(444904794822, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Karma is a bitch!]] "Да, я помню. Слишком хорошо."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 												PlaceObj('ConversationLine', {
 													Character = "Spike",
-<<<<<<< HEAD
 													Text = T(576786024509, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Karma is a bitch!]] "And everything I said about your sacred patriotic duty to your country?"),
-=======
-													Text = T(576786024509, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Karma is a bitch!]] "И все, что я говорил о священном долге перед родиной?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 												PlaceObj('ConversationLine', {
 													Character = "Pierre",
-<<<<<<< HEAD
 													Text = T(254526675594, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Karma is a bitch!]] "Yes?"),
-=======
-													Text = T(254526675594, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Karma is a bitch!]] "Да?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 												PlaceObj('ConversationLine', {
 													Character = "Spike",
-<<<<<<< HEAD
 													Text = T(745173921514, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Karma is a bitch!]] "And about the virtues of the Legion?"),
-=======
-													Text = T(745173921514, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Karma is a bitch!]] "И о добродетелях Легиона?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 												PlaceObj('ConversationLine', {
 													Character = "Pierre",
-<<<<<<< HEAD
 													Text = T(687287190028, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Karma is a bitch!]] "Yes, I do!"),
-=======
-													Text = T(687287190028, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Karma is a bitch!]] "Да, помню!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 												PlaceObj('ConversationLine', {
 													Character = "Spike",
-<<<<<<< HEAD
 													Text = T(690879477618, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Karma is a bitch!]] "Well, it was complete and utter bullshit, kid."),
-=======
-													Text = T(690879477618, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Karma is a bitch!]] "Так вот, парень, всё это была чушь собачья."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 												PlaceObj('ConversationLine', {
@@ -15758,11 +15049,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Pierre",
-<<<<<<< HEAD
 									Text = T(574518737993, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Karma is a bitch!]] "You want me to admit I was a fool? Okay, I was. Gloat all you want."),
-=======
-									Text = T(574518737993, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Karma is a bitch!]] "Хотите, чтобы я расписался в том, что был дураком? Да, был. Давайте, смейтесь, сколько влезет."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -15771,11 +15058,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Meltdown",
-<<<<<<< HEAD
 													Text = T(777897245896, --[[ModItemConversation Pierre_2 Text voice:Meltdown section:Pierre_2 keyword:Karma is a bitch!]] "Dumbass."),
-=======
-													Text = T(777897245896, --[[ModItemConversation Pierre_2 Text voice:Meltdown section:Pierre_2 keyword:Karma is a bitch!]] "Дубина."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -15785,11 +15068,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "DrQ",
-<<<<<<< HEAD
 													Text = T(878988524489, --[[ModItemConversation Pierre_2 Text voice:DrQ section:Pierre_2 keyword:Karma is a bitch!]] "Fate is a wheel trapped in a waterfall, but a person can choose to be the water or the wheel."),
-=======
-													Text = T(878988524489, --[[ModItemConversation Pierre_2 Text voice:DrQ section:Pierre_2 keyword:Karma is a bitch!]] "Судьба - это водяное колесо под водопадом, но человек может выбирать, кем ему быть - колесом или водой."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -15799,11 +15078,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Thor",
-<<<<<<< HEAD
 													Text = T(560633958361, --[[ModItemConversation Pierre_2 Text voice:Thor section:Pierre_2 keyword:Karma is a bitch!]] "To learn the lessons karma teaches, you must calm your soul and align your chakra."),
-=======
-													Text = T(560633958361, --[[ModItemConversation Pierre_2 Text voice:Thor section:Pierre_2 keyword:Karma is a bitch!]] "Чтобы воспринимать уроки кармы, ты должен умиротворить свою душу и выровнять чакры."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -15813,11 +15088,7 @@ return {
 									param_bindings = false,
 								}),
 							},
-<<<<<<< HEAD
 							PhraseConditionRolloverText = T(884386300243, --[[ModItemConversation Pierre_2 PhraseConditionRolloverText]] "Lost some influence over Pierre"),
-=======
-							PhraseConditionRolloverText = T(884386300243, --[[ModItemConversation Pierre_2 PhraseConditionRolloverText]] "Пьер начинает вас меньше уважать"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 							StoryBranchIcon = "conversation_sarcastic",
 							id = "Karmaisabitch",
 							param_bindings = false,
@@ -15844,19 +15115,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
 								Text = T(506157627423, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Greeting]] "What do you want from me?"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Pierre",
-								Text = T(506157627423, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Greeting]] "Что вы от меня хотите?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -15880,19 +15143,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
 								Text = T(159196371816, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Greeting4]] "Yes?"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Pierre",
-								Text = T(159196371816, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Greeting4]] "Да?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -15935,19 +15190,11 @@ return {
 							}),
 						},
 						Keyword = "What happened to you?",
-<<<<<<< HEAD
 						KeywordT = T(890000000000850, --[[ModItemConversation Pierre_2 KeywordT]] "What happened to you?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
 								Text = T(670913960132, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:What happened to you?]] "YOU happened to me. Le Major does not tolerate failure, and I accepted my punishment. I deserved it... "),
-=======
-						KeywordT = T(647698836002, --[[ModItemConversation Pierre_2 KeywordT]] "What happened to you?"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Pierre",
-								Text = T(670913960132, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:What happened to you?]] "ВЫ со мной случились. Le Major не терпит ошибок, и я принял положенное мне наказание. Я его заслужил..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -15956,11 +15203,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Gus",
-<<<<<<< HEAD
 												Text = T(998829496570, --[[ModItemConversation Pierre_2 Text voice:Gus section:Pierre_2 keyword:What happened to you?]] "No, you didn't, Woodman. A good commander doesn't throw his soldiers in prison for losing a battle. That's what the commies do. "),
-=======
-												Text = T(998829496570, --[[ModItemConversation Pierre_2 Text voice:Gus section:Pierre_2 keyword:What happened to you?]] "Хрена с два, Дровишкин. Хороший командир не бросает своих солдат в тюрьму за поражение. Только коммунисты так поступают."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -15970,11 +15213,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Len",
-<<<<<<< HEAD
 												Text = T(242932209142, --[[ModItemConversation Pierre_2 Text voice:Len section:Pierre_2 keyword:What happened to you?]] "I don't think so. Only dictators throw their soldiers in prison for losing a battle."),
-=======
-												Text = T(242932209142, --[[ModItemConversation Pierre_2 Text voice:Len section:Pierre_2 keyword:What happened to you?]] "Я так не думаю. Только диктаторы бросают своих солдат в тюрьму за поражение."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -15984,11 +15223,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(174265082140, --[[ModItemConversation Pierre_2 Text voice:Meltdown section:Pierre_2 keyword:What happened to you?]] "You're welcome, dumbass."),
-=======
-												Text = T(174265082140, --[[ModItemConversation Pierre_2 Text voice:Meltdown section:Pierre_2 keyword:What happened to you?]] "Всегда пожалуйста, дубина."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -15998,11 +15233,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ice",
-<<<<<<< HEAD
 												Text = T(157415276217, --[[ModItemConversation Pierre_2 Text voice:Ice section:Pierre_2 keyword:What happened to you?]] "You're welcome, dude. Anytime."),
-=======
-												Text = T(157415276217, --[[ModItemConversation Pierre_2 Text voice:Ice section:Pierre_2 keyword:What happened to you?]] "Обращайся, чувак. В любое время."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16013,11 +15244,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(381470023913, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:What happened to you?]] "But in <em>Diamond Red</em> I saw... I saw how they treat our people in the name of the <em>Legion</em>. I learned of all the slavery and the abuse, I heard the stories and I saw what kind of people Le Major favors. People like <em>Slave Master Graaf</em>."),
-=======
-								Text = T(381470023913, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:What happened to you?]] "Но в <em>«Даймонд-Ред»</em> я видел... я видел, как они обращаются с нашими людьми во имя <em>Легиона</em>. Я узнал о рабстве и насилии, я слышал истории и видел, каким людям благоволит Le Major. Людям вроде <em>надсмотрщика Граафа</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -16059,64 +15286,36 @@ return {
 							}),
 						},
 						Keyword = "What happened to you?",
-<<<<<<< HEAD
 						KeywordT = T(890000000000850, --[[ModItemConversation Pierre_2 KeywordT]] "What happened to you?"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
 								Text = T(526603521696, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:What happened to you?]] "YOU happened to me. And you, <em>Major</em>, punished me for failing to defeat those that you have now joined. Isn't that ironic? I accepted my punishment, but what about you?"),
-=======
-						KeywordT = T(647698836002, --[[ModItemConversation Pierre_2 KeywordT]] "What happened to you?"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Pierre",
-								Text = T(526603521696, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:What happened to you?]] "ВЫ со мной случились. И вы же, <em>Майор</em>, наказали меня за то, что я не смог победить тех, к кому вы теперь переметнулись. Какая ирония, не находите? Я-то принял свое наказание. А вы?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Spike",
-<<<<<<< HEAD
 								Text = T(733431113016, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:What happened to you?]] "Don't worry about me, kid. When the time comes, I'll take my punishment and I doubt I'll get off as easy as just being sent to <em>Diamond Red</em>."),
-=======
-								Text = T(733431113016, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:What happened to you?]] "Обо мне, парень, не волнуйся. Когда придет время, я свое огребу по полной. И сомневаюсь, что я отделаюсь такой малостью, как ссылка в <em>«Даймонд-Ред»</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(983505512925, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:What happened to you?]] "In Diamond Red I saw... I saw how you treated our people in the name of the <em>Legion</em>. I learned of all the slavery and the abuse, I heard the stories and I saw what kind of people you favor. People like <em>Slave Master Graaf</em>."),
-=======
-								Text = T(983505512925, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:What happened to you?]] "Но в «Даймонд-Ред» я видел... я видел, как вы обращались с нашими людьми во имя <em>Легиона</em>. Я узнал о рабстве и насилии, я слышал истории и видел, каким людям вы благоволите. Людям вроде <em>надсмотрщика Граафа</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Spike",
-<<<<<<< HEAD
 								Text = T(138287654015, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:What happened to you?]] "He served his purpose. I couldn't afford to have you escape and come try to kill me. You were the only one in the whole Legion I think could've actually done it."),
-=======
-								Text = T(138287654015, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:What happened to you?]] "Он свою роль выполнил. Я не мог позволить, чтобы ты сбежал и пришел меня убивать. Ты, я думаю, единственный во всем Легионе, кто смог бы это сделать."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(305140808694, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:What happened to you?]] "I... How do you do that? Your words fill me with anger and pride at the same time."),
-=======
-								Text = T(305140808694, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:What happened to you?]] "Я... как вы это делаете? От ваших слов я одновременно испытываю и гнев, и гордость."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Spike",
-<<<<<<< HEAD
 								Text = T(621126904860, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:What happened to you?]] "What can I say? I got a gift."),
-=======
-								Text = T(621126904860, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:What happened to you?]] "Что тут сказать? У меня талант."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -16125,11 +15324,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Len",
-<<<<<<< HEAD
 												Text = T(480173606773, --[[ModItemConversation Pierre_2 Text voice:Len section:Pierre_2 keyword:What happened to you?]] "I'd say it's more like a curse, old buddy."),
-=======
-												Text = T(480173606773, --[[ModItemConversation Pierre_2 Text voice:Len section:Pierre_2 keyword:What happened to you?]] "Скорее уж проклятье, дружище."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16139,11 +15334,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Gus",
-<<<<<<< HEAD
 												Text = T(571053977097, --[[ModItemConversation Pierre_2 Text voice:Gus section:Pierre_2 keyword:What happened to you?]] "Yeah, you got a gift. A real gift for getting into trouble."),
-=======
-												Text = T(571053977097, --[[ModItemConversation Pierre_2 Text voice:Gus section:Pierre_2 keyword:What happened to you?]] "О да, талант у тебя есть. Талант попадать в неприятности."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16153,11 +15344,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grunty",
-<<<<<<< HEAD
 												Text = T(308239521331, --[[ModItemConversation Pierre_2 Text voice:Grunty section:Pierre_2 keyword:What happened to you?]] "It's called demagoguery and it is a gift no one wants."),
-=======
-												Text = T(308239521331, --[[ModItemConversation Pierre_2 Text voice:Grunty section:Pierre_2 keyword:What happened to you?]] "Это называется «демагогия», и такой талант не нужен никому."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16167,11 +15354,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Shadow",
-<<<<<<< HEAD
 												Text = T(828660889164, --[[ModItemConversation Pierre_2 Text voice:Shadow section:Pierre_2 keyword:What happened to you?]] "It's called manipulation. It's like a form of camouflage, but for words."),
-=======
-												Text = T(828660889164, --[[ModItemConversation Pierre_2 Text voice:Shadow section:Pierre_2 keyword:What happened to you?]] "Это называется манипуляция. Как камуфляж, только для слов."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16181,11 +15364,7 @@ return {
 								param_bindings = false,
 							}),
 						},
-<<<<<<< HEAD
 						PhraseConditionRolloverText = T(223774274822, --[[ModItemConversation Pierre_2 PhraseConditionRolloverText]] "Lost a bit of influence over Pierre"),
-=======
-						PhraseConditionRolloverText = T(223774274822, --[[ModItemConversation Pierre_2 PhraseConditionRolloverText]] "Пьер начинает вас чуть меньше уважать"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						id = "Whathappenedtoyou2",
 						param_bindings = false,
 					}),
@@ -16207,11 +15386,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(667694528109, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:So the Legion isn't what you expected?]] "We needed a cause to unite us, a promise that we can serve our country and work for a better future... At least some of us did. Others just needed an excuse."),
-=======
-								Text = T(667694528109, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:So the Legion isn't what you expected?]] "Нам было нужно общее дело, возможность послужить своей стране во имя лучшего будущего... По крайней мере, части из нас. А остальным нужен был только повод."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -16221,11 +15396,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Spike",
-<<<<<<< HEAD
 												Text = T(421787582824, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:So the Legion isn't what you expected?]] "You nailed it! I always knew you were smart, kid."),
-=======
-												Text = T(421787582824, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:So the Legion isn't what you expected?]] "Именно так! Всегда знал, что ты умен, парень."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16240,11 +15411,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Len",
-<<<<<<< HEAD
 												Text = T(351035044624, --[[ModItemConversation Pierre_2 Text voice:Len section:Pierre_2 keyword:So the Legion isn't what you expected?]] "It's always like that. War attracts those types of people like shit attracts flies."),
-=======
-												Text = T(351035044624, --[[ModItemConversation Pierre_2 Text voice:Len section:Pierre_2 keyword:So the Legion isn't what you expected?]] "Оно всегда так. На войну такие люди слетаются, как мухи на говно."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16254,11 +15421,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fauda",
-<<<<<<< HEAD
 												Text = T(780198116497, --[[ModItemConversation Pierre_2 Text voice:Fauda section:Pierre_2 keyword:So the Legion isn't what you expected?]] "Where there is war, there are always profiteers."),
-=======
-												Text = T(780198116497, --[[ModItemConversation Pierre_2 Text voice:Fauda section:Pierre_2 keyword:So the Legion isn't what you expected?]] "Кому война, а кому мать родна."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16268,11 +15431,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "DrQ",
-<<<<<<< HEAD
 												Text = T(478525738078, --[[ModItemConversation Pierre_2 Text voice:DrQ section:Pierre_2 keyword:So the Legion isn't what you expected?]] "It is much easier to add evil to evil than it is to add good."),
-=======
-												Text = T(478525738078, --[[ModItemConversation Pierre_2 Text voice:DrQ section:Pierre_2 keyword:So the Legion isn't what you expected?]] "Всегда проще преумножать зло, нежели добро."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16283,11 +15442,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(355192996073, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:So the Legion isn't what you expected?]] "At the end of the day, the <em>Legion</em> turned out to be just a cover for greed and violence, and for the madness of <em>Le Major</em>."),
-=======
-								Text = T(355192996073, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:So the Legion isn't what you expected?]] "В конце концов <em>Легион</em> стал просто прикрытием для алчности и жестокости. И для безумия <em>Le Major</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -16297,11 +15452,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Spike",
-<<<<<<< HEAD
 												Text = T(185786517265, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:So the Legion isn't what you expected?]] "I am not mad. I am differently sane."),
-=======
-												Text = T(185786517265, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:So the Legion isn't what you expected?]] "Я не безумец. Я альтернативно разумен."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16328,11 +15479,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(638847357261, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:We killed Graaf]] "Yes, I heard that and I'm glad you did. For some people, it is a real shame they can be killed only once. "),
-=======
-								Text = T(638847357261, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:We killed Graaf]] "Да, я слышал об этом и рад. Жаль, что некоторых людей нельзя убить дважды."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -16341,11 +15488,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(829455518738, --[[ModItemConversation Pierre_2 Text voice:Meltdown section:Pierre_2 keyword:We killed Graaf]] "You got that right!"),
-=======
-												Text = T(829455518738, --[[ModItemConversation Pierre_2 Text voice:Meltdown section:Pierre_2 keyword:We killed Graaf]] "Это ты прав!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16355,11 +15498,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(857561951511, --[[ModItemConversation Pierre_2 Text voice:Fidel section:Pierre_2 keyword:We killed Graaf]] "Some people? Why only some people?"),
-=======
-												Text = T(857561951511, --[[ModItemConversation Pierre_2 Text voice:Fidel section:Pierre_2 keyword:We killed Graaf]] "Некоторых? Почему только некоторых?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16369,11 +15508,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ivan",
-<<<<<<< HEAD
 												Text = T(890000000001117, --[[ModItemConversation Pierre_2 Text voice:Ivan section:Pierre_2 keyword:We killed Graaf]] "Да. Фашист должен умереть."),
-=======
-												Text = T(826635085918, --[[ModItemConversation Pierre_2 Text voice:Ivan section:Pierre_2 keyword:We killed Graaf]] "Да. Фашист должен умереть."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16388,11 +15523,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Spike",
-<<<<<<< HEAD
 												Text = T(191634186969, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:We killed Graaf]] "Don't look at me! I've been killed at least three times, judging from the rumors I've heard."),
-=======
-												Text = T(191634186969, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:We killed Graaf]] "На меня не смотри! Я, по слухам, умирал как минимум трижды."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16403,11 +15534,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(306271458975, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:We killed Graaf]] "My only regret is I couldn't kill him myself. I tried. Yes, it's true... and I almost succeeded. That's why they moved me here."),
-=======
-								Text = T(306271458975, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:We killed Graaf]] "Единственное, о чем я жалею - что не смог убить его сам. Я пытался. Серьезно... и почти преуспел. Из-за того меня сюда и перевели."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -16416,29 +15543,17 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Spike",
-<<<<<<< HEAD
 												Text = T(403833907579, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:We killed Graaf]] "Bullshit. I sent you here, because if you tried again and succeeded, the boys would have expected me to execute you. To tell the truth, I was kinda hoping you'd break out of here and come try to kill me instead."),
-=======
-												Text = T(403833907579, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:We killed Graaf]] "Чушь собачья. Я тебя сюда отправил, чтобы не пришлось тебя казнить, когда ты наконец его убьешь. Меня бы не поняли. Сказать по правде, я даже надеялся, что ты сбежишь отсюда и придешь по мою душу."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "Pierre",
-<<<<<<< HEAD
 												Text = T(217628264504, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:We killed Graaf]] "Why would you want that?"),
-=======
-												Text = T(217628264504, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:We killed Graaf]] "Но это вам зачем?!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "Spike",
-<<<<<<< HEAD
 												Text = T(200014328549, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:We killed Graaf]] "I wasn't planning on letting you succeed! It was my getaway plan. You and I could fake my death, you could take over the Legion and do what you want with it, and I could disappear. But these A.I.M. yahoos got to me first, so there went that idea."),
-=======
-												Text = T(200014328549, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:We killed Graaf]] "Нет-нет, мне жить не надоело. Наоборот, это был бы для меня отличный выход. Мы с тобой инсценировали бы мою смерть, ты бы стал во главе Легиона и делал бы с ним, что хотел. А я бы просто исчез. Только вот эти бравые молодцы из A.I.M. добрались до меня первыми. А какой был план, а."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16482,11 +15597,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Livewire",
-<<<<<<< HEAD
 												Text = T(700606619707, --[[ModItemConversation Pierre_2 Text voice:Livewire section:Pierre_2 keyword:We hired Graaf to keep him in check]] "Oh, we found an original solution for the problem with that asshole Graaf. We hired him! That way, we can always keep an eye on him. Brilliant, right?"),
-=======
-												Text = T(700606619707, --[[ModItemConversation Pierre_2 Text voice:Livewire section:Pierre_2 keyword:We hired Graaf to keep him in check]] "О, мы нашли оригинальное решение проблемы с этим мерзавцем Граафом. Мы его наняли! Так мы сможем постоянно за ним приглядывать. Гениально, правда?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16496,11 +15607,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fox",
-<<<<<<< HEAD
 												Text = T(890000000000382, --[[ModItemConversation Pierre_2 Text voice:Fox section:Pierre_2 keyword:We hired Graaf to keep him in check]] "Мы тоже Граафу не верили! Поэтому и наняли - чтобы смотреть за ним. Нельзя же позволять ему шалить?"),
-=======
-												Text = T(343731086561, --[[ModItemConversation Pierre_2 Text voice:Fox section:Pierre_2 keyword:We hired Graaf to keep him in check]] "Мы тоже Граафу не верили! Поэтому и наняли - чтобы смотреть за ним. Нельзя же позволять ему шалить?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16510,11 +15617,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Magic",
-<<<<<<< HEAD
 												Text = T(507529579794, --[[ModItemConversation Pierre_2 Text voice:Magic section:Pierre_2 keyword:We hired Graaf to keep him in check]] "Graaf's working for us now. We cut a deal. He plays it straight, he gets to live."),
-=======
-												Text = T(507529579794, --[[ModItemConversation Pierre_2 Text voice:Magic section:Pierre_2 keyword:We hired Graaf to keep him in check]] "Грааф теперь работает на нас. Мы заключили сделку. Он не выкидывает никаких фокусов - мы сохраняем ему жизнь."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16529,20 +15632,12 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Spike",
-<<<<<<< HEAD
 												Text = T(392401217872, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:We hired Graaf to keep him in check]] "Yeah. Just like me. They're collectors of lost souls, our friends here. When do you join in?"),
-=======
-												Text = T(392401217872, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:We hired Graaf to keep him in check]] "Ага. Со мной точно так же. Наши друзья - просто таки ловцы заблудших душ. Когда ты станешь одним из нас?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "Pierre",
-<<<<<<< HEAD
 												Text = T(272983003543, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:We hired Graaf to keep him in check]] "Don't even think about it."),
-=======
-												Text = T(272983003543, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:We hired Graaf to keep him in check]] "Даже не думайте об этом!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16553,11 +15648,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(925067743087, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:We hired Graaf to keep him in check]] "You could have just killed Graaf!"),
-=======
-								Text = T(925067743087, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:We hired Graaf to keep him in check]] "Вы могли спокойно убить Граафа!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -16566,11 +15657,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fox",
-<<<<<<< HEAD
 												Text = T(750799056907, --[[ModItemConversation Pierre_2 Text voice:Fox section:Pierre_2 keyword:We hired Graaf to keep him in check]] "And become just like him? No thanks."),
-=======
-												Text = T(750799056907, --[[ModItemConversation Pierre_2 Text voice:Fox section:Pierre_2 keyword:We hired Graaf to keep him in check]] "И уподобиться ему? Нет уж, спасибо."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16580,11 +15667,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Livewire",
-<<<<<<< HEAD
 												Text = T(796826177202, --[[ModItemConversation Pierre_2 Text voice:Livewire section:Pierre_2 keyword:We hired Graaf to keep him in check]] "True, but then we would have had to hire someone else and there would have been this big long interview process and... ugh! Who needs that?"),
-=======
-												Text = T(796826177202, --[[ModItemConversation Pierre_2 Text voice:Livewire section:Pierre_2 keyword:We hired Graaf to keep him in check]] "Верно, но тогда нам пришлось бы нанимать кого-то другого, а это значит - череда долгих, утомительных интервью... Тьфу! Кому это нужно?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16594,11 +15677,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Magic",
-<<<<<<< HEAD
 												Text = T(954260307510, --[[ModItemConversation Pierre_2 Text voice:Magic section:Pierre_2 keyword:We hired Graaf to keep him in check]] "Still might. Guess we'll see if he can keep his nose clean."),
-=======
-												Text = T(954260307510, --[[ModItemConversation Pierre_2 Text voice:Magic section:Pierre_2 keyword:We hired Graaf to keep him in check]] "Все еще можем. Посмотрим, как он будет себя вести."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16609,21 +15688,12 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(100102020065, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:We hired Graaf to keep him in check]] "Anyway, I hope you will make him atone for his sins."),
 								param_bindings = false,
 							}),
 						},
 						PhraseConditionRolloverText = T(275301358227, --[[ModItemConversation Pierre_2 PhraseConditionRolloverText]] "Gained some influence over Pierre"),
 						PhraseRolloverText = T(927395308953, --[[ModItemConversation Pierre_2 PhraseRolloverText]] "Lie"),
-=======
-								Text = T(100102020065, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:We hired Graaf to keep him in check]] "В любом случае, надеюсь, вы заставите его искупить свои грехи."),
-								param_bindings = false,
-							}),
-						},
-						PhraseConditionRolloverText = T(275301358227, --[[ModItemConversation Pierre_2 PhraseConditionRolloverText]] "Пьер начинает вас больше уважать"),
-						PhraseRolloverText = T(927395308953, --[[ModItemConversation Pierre_2 PhraseRolloverText]] "Неправда"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						StoryBranchIcon = "conversation_sarcastic",
 						id = "WehiredGraaftokeephimincheck",
 						param_bindings = false,
@@ -16642,11 +15712,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(809763418118, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:We killed the Major]] "This is for the best. You should have met him before... He was an inspiring leader and a good man."),
-=======
-								Text = T(809763418118, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:We killed the Major]] "Это к лучшему. Видели бы вы его раньше... Он был отличным лидером и порядочным человеком."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -16655,11 +15721,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Gus",
-<<<<<<< HEAD
 												Text = T(911941841332, --[[ModItemConversation Pierre_2 Text voice:Gus section:Pierre_2 keyword:We killed the Major]] "Some of us have, Woody. You're right, he was one of the good ones."),
-=======
-												Text = T(911941841332, --[[ModItemConversation Pierre_2 Text voice:Gus section:Pierre_2 keyword:We killed the Major]] "Некоторые из нас его давно знали, Деревяшкин. Ты прав, он был хорошим человеком."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16669,11 +15731,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Len",
-<<<<<<< HEAD
 												Text = T(346287104546, --[[ModItemConversation Pierre_2 Text voice:Len section:Pierre_2 keyword:We killed the Major]] "I had the honor of knowing him... before. He was a good soldier, and a good friend."),
-=======
-												Text = T(346287104546, --[[ModItemConversation Pierre_2 Text voice:Len section:Pierre_2 keyword:We killed the Major]] "Я имел честь знать его... до всего этого. Он был хорошим солдатом и другом."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16684,11 +15742,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(642689657672, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:We killed the Major]] "But it seems like he had been rotting from the inside, and that rot slowly turned him into a madman. Yes, I think even he knew at some point he had to be stopped."),
-=======
-								Text = T(642689657672, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:We killed the Major]] "Но, судя по всему, он начал гнить изнутри, и эта гниль постепенно превратила его в безумца. Да, мне кажется, в какой-то момент он и сам понял, что его нужно остановить."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -16739,11 +15793,7 @@ return {
 							PlaceObj('ConversationLine', {
 								Annotation = "(angry)",
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(499133323428, --[[ModItemConversation Pierre_2 Text (angry) voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "Really?..."),
-=======
-								Text = T(499133323428, --[[ModItemConversation Pierre_2 Text (angry) voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "Вы это серьезно?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -16752,11 +15802,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Spike",
-<<<<<<< HEAD
 												Text = T(154956675907, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:You can help us make things right]] "You and me, like the good old days - what could go wrong?"),
-=======
-												Text = T(154956675907, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:You can help us make things right]] "Ты и я, как в старые добрые деньки. Разве может что-то пойти не так?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16778,11 +15824,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Pierre",
-<<<<<<< HEAD
 												Text = T(927450701284, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "You let them hang <em>my father</em> and now you will make that right, will you?"),
-=======
-												Text = T(927450701284, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "Вы позволили им повесить <em>моего отца</em>, а теперь заявляете, что все исправите?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16798,11 +15840,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Pierre",
-<<<<<<< HEAD
 												Text = T(892834283965, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "You hired <em>Le Major</em> here, the monster who filled my head with lies..."),
-=======
-												Text = T(892834283965, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "Вы наняли <em>Le Major</em>, мерзавца, что забил мне голову ложью..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16819,11 +15857,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Pierre",
-<<<<<<< HEAD
 												Text = T(151208596759, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "You hired that bloodsucker <em>Graaf</em> and let him abuse your workers just to squeeze more tiny diamonds out of them..."),
-=======
-												Text = T(151208596759, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "Вы наняли кровопийцу <em>Граафа</em> и позволили ему издеваться над рабочими, лишь бы только выжать из трубки еще немного алмазов..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16833,11 +15867,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Pierre",
-<<<<<<< HEAD
 												Text = T(134367460530, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "...You have taken the riches of my country and handed them over to those <em>greedy foreigners</em>..."),
-=======
-												Text = T(134367460530, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "...Вы захватили богатства моей страны и отдали их <em>алчным иноземцам</em>..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16849,11 +15879,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(986227696858, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "...And you want me to believe that somehow you will make things right? No, I don't trust you. I would rather rot to death in this hell hole than help you."),
-=======
-								Text = T(986227696858, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "...И теперь хотите, чтобы я поверил, что вы все исправите? Нет, я вам не верю. Лучше я сгнию в этой дыре, чем стану вам помогать."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -16862,11 +15888,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Red",
-<<<<<<< HEAD
 												Text = T(171126126307, --[[ModItemConversation Pierre_2 Text voice:Red section:Pierre_2 keyword:You can help us make things right]] "Oh, look who's a fine judge of character all of a sudden. Well, to hell with ya!"),
-=======
-												Text = T(171126126307, --[[ModItemConversation Pierre_2 Text voice:Red section:Pierre_2 keyword:You can help us make things right]] "Ты смотри-ка, судья нам нашелся. Ну и черт с тобой!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16876,11 +15898,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Tex",
-<<<<<<< HEAD
 												Text = T(890000000001166, --[[ModItemConversation Pierre_2 Text voice:Tex section:Pierre_2 keyword:You can help us make things right]] "Правосудие на фронтире сурово, кемосабе."),
-=======
-												Text = T(856860570415, --[[ModItemConversation Pierre_2 Text voice:Tex section:Pierre_2 keyword:You can help us make things right]] "Правосудие на фронтире сурово, кемосабе."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16890,11 +15908,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Shadow",
-<<<<<<< HEAD
 												Text = T(209777807778, --[[ModItemConversation Pierre_2 Text voice:Shadow section:Pierre_2 keyword:You can help us make things right]] "Well, we never claimed to be perfect."),
-=======
-												Text = T(209777807778, --[[ModItemConversation Pierre_2 Text voice:Shadow section:Pierre_2 keyword:You can help us make things right]] "Ну, мы никогда и не говорили, что идеальны."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16960,11 +15974,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Buns",
-<<<<<<< HEAD
 												Text = T(387607330222, --[[ModItemConversation Pierre_2 Text voice:Buns section:Pierre_2 keyword:You can help us make things right]] "It's not too late to help fix the damage the Legion has done."),
-=======
-												Text = T(387607330222, --[[ModItemConversation Pierre_2 Text voice:Buns section:Pierre_2 keyword:You can help us make things right]] "Еще не поздно возместить нанесенный Легионом урон."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16974,11 +15984,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Sidney",
-<<<<<<< HEAD
 												Text = T(462598276375, --[[ModItemConversation Pierre_2 Text voice:Sidney section:Pierre_2 keyword:You can help us make things right]] "Not to sound unreasonably optimistic, but I believe there is still a chance to undo the damage the Legion has done."),
-=======
-												Text = T(462598276375, --[[ModItemConversation Pierre_2 Text voice:Sidney section:Pierre_2 keyword:You can help us make things right]] "Не хочу казаться излише оптимистичным, но, полагаю, у нас еще есть шанс возместить урон, нанесенный Легионом."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -16988,11 +15994,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(452536334743, --[[ModItemConversation Pierre_2 Text voice:Raider section:Pierre_2 keyword:You can help us make things right]] "There's still a chance to restore law and order to this country."),
-=======
-												Text = T(452536334743, --[[ModItemConversation Pierre_2 Text voice:Raider section:Pierre_2 keyword:You can help us make things right]] "У нас еще есть шанс восстановить закон и порядок в этой стране."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -17003,11 +16005,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(125142740845, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "It sounds weird, but... From what I have been hearing about you, I feel I can trust you."),
-=======
-								Text = T(125142740845, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "Это странно, но... судя по тому, что я о вас слышал, я чувствую, что могу вам доверять."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -17022,29 +16020,17 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Pierre",
-<<<<<<< HEAD
 												Text = T(891774866972, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "Even though you spared this madman here..."),
-=======
-												Text = T(891774866972, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "Даже несмотря на то, что вы пощадили этого безумца..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "Spike",
-<<<<<<< HEAD
 												Text = T(348946284732, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:You can help us make things right]] "They gave me a second chance. Look at me, full of remorse, but reformed, all in white like an angel!"),
-=======
-												Text = T(348946284732, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:You can help us make things right]] "Они дали мне второй шанс. Ты только посмотри на меня: полон раскаяния, перерожденный и весь в белом, словно агнец божий!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "Pierre",
-<<<<<<< HEAD
 												Text = T(129782519903, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "Shut up. I'm talking to les mercenaires. As I said, despite not killing him, you did some good."),
-=======
-												Text = T(129782519903, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "Замолчите. Я говорю с les mercenaires. Как я уже сказал, несмотря на то, что вы его не убили, вы совершили и хорошие поступки тоже."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -17060,11 +16046,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Pierre",
-<<<<<<< HEAD
 												Text = T(179409844417, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "You ended the bloody reign of <em>Le Major</em>..."),
-=======
-												Text = T(179409844417, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "Вы свергли кровавый режим <em>Le Major</em>..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -17081,11 +16063,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Pierre",
-<<<<<<< HEAD
 												Text = T(519412989064, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "You killed that slaver and murderer <em>Graaf</em>..."),
-=======
-												Text = T(519412989064, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "Вы убили рабовладельца и убийцу <em>Граафа</em>..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -17102,11 +16080,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Pierre",
-<<<<<<< HEAD
 												Text = T(455149236934, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "You made sure that snitch <em>Herman</em> was punished..."),
-=======
-												Text = T(455149236934, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "Вы убедились, что этот стукач <em>Герман</em> понес заслуженное наказание..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -17123,11 +16097,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Pierre",
-<<<<<<< HEAD
 												Text = T(744484459850, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "You have taken care of my dad's friends in <em>Ernie</em>..."),
-=======
-												Text = T(744484459850, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "Вы позаботились о друзьях моего отца в <em>Эрни</em>..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -17144,11 +16114,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Pierre",
-<<<<<<< HEAD
 												Text = T(318083800791, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "You achieved something unheard of when you forced that snake <em>Bastien</em> to help people instead of abusing them..."),
-=======
-												Text = T(318083800791, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "Вы добились неслыханного - заставили эту змею <em>Бастьена</em> помогать людям вместо того, чтобы использовать их..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -17160,20 +16126,12 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(243554787031, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "...And above all, you seem to genuinely care about our country. So... what do you want me to do for you?"),
-=======
-								Text = T(243554787031, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:You can help us make things right]] "...И, самое главное, вас, кажется, действительно волнует судьба нашей страны. В общем... что вы хотите, чтобы я для вас сделал?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
 						NoBackOption = true,
-<<<<<<< HEAD
 						PhraseConditionRolloverText = T(751467055605, --[[ModItemConversation Pierre_2 PhraseConditionRolloverText]] "<em>Influence</em> check successful"),
-=======
-						PhraseConditionRolloverText = T(751467055605, --[[ModItemConversation Pierre_2 PhraseConditionRolloverText]] "Вы прошли проверку на <em>уважение</em>"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						StoryBranchIcon = "conversation_arrow",
 						id = "Youcanhelpusmakethingsright_success",
 						param_bindings = false,
@@ -17213,11 +16171,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Pierre",
-<<<<<<< HEAD
 									Text = T(340229163981, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Join us]] "And you want to... take me with you? Let me become one of you? This is a great honor and I hope I won't disappoint you, mercenaires."),
-=======
-									Text = T(340229163981, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Join us]] "И вы хотите... взять меня с собой? Позволить мне стать одним из вас? Это большая честь для меня. Надеюсь, я вас не разочарую."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -17226,11 +16180,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Spike",
-<<<<<<< HEAD
 													Text = T(381797875732, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Join us]] "I don't know about great honor... But I promise you we'll have a lot of fun."),
-=======
-													Text = T(381797875732, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Join us]] "Уж не знаю насчет чести... Но вот веселья с нами будет много."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -17240,11 +16190,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Nails",
-<<<<<<< HEAD
 													Text = T(890000000000998, --[[ModItemConversation Pierre_2 Text voice:Nails section:Pierre_2 keyword:Join us]] "Я за тобой слежу, бандит."),
-=======
-													Text = T(753356430598, --[[ModItemConversation Pierre_2 Text voice:Nails section:Pierre_2 keyword:Join us]] "Я за тобой слежу, бандит."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -17254,11 +16200,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Len",
-<<<<<<< HEAD
 													Text = T(983603319960, --[[ModItemConversation Pierre_2 Text voice:Len section:Pierre_2 keyword:Join us]] "Guess we'll see. Fall in."),
-=======
-													Text = T(983603319960, --[[ModItemConversation Pierre_2 Text voice:Len section:Pierre_2 keyword:Join us]] "Поживем - увидим. Вставай в строй."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -17268,11 +16210,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Raider",
-<<<<<<< HEAD
 													Text = T(752786285986, --[[ModItemConversation Pierre_2 Text voice:Raider section:Pierre_2 keyword:Join us]] "As long as you're sincere about being reformed, I'm sure you won't."),
-=======
-													Text = T(752786285986, --[[ModItemConversation Pierre_2 Text voice:Raider section:Pierre_2 keyword:Join us]] "Уверен, что не разочаруешь, пока ты искренне хочешь измениться."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -17282,11 +16220,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Gus",
-<<<<<<< HEAD
 													Text = T(817742945459, --[[ModItemConversation Pierre_2 Text voice:Gus section:Pierre_2 keyword:Join us]] "Yeah, we'll see. Now let's get you some gear, Woodstock."),
-=======
-													Text = T(817742945459, --[[ModItemConversation Pierre_2 Text voice:Gus section:Pierre_2 keyword:Join us]] "Ага, поглядим. А теперь давай-ка найдем тебе снарягу, Деревяха."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -17296,11 +16230,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Scope",
-<<<<<<< HEAD
 													Text = T(229564125495, --[[ModItemConversation Pierre_2 Text voice:Scope section:Pierre_2 keyword:Join us]] "Brilliant! I'm sure you'll do fine. Just maybe check with us first before killing any civilians, right?"),
-=======
-													Text = T(229564125495, --[[ModItemConversation Pierre_2 Text voice:Scope section:Pierre_2 keyword:Join us]] "Великолепно! Уверена, все с тобой будет в порядке. Ты только, если вдруг захочешь убивать гражданских, сначала у нас спроси, ага?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -17310,11 +16240,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fauda",
-<<<<<<< HEAD
 													Text = T(842029966234, --[[ModItemConversation Pierre_2 Text voice:Fauda section:Pierre_2 keyword:Join us]] "Fight well and with honor and you will fit right in."),
-=======
-													Text = T(842029966234, --[[ModItemConversation Pierre_2 Text voice:Fauda section:Pierre_2 keyword:Join us]] "Сражайся с честью, и мы тебя примем как родного."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -17324,11 +16250,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Grunty",
-<<<<<<< HEAD
 													Text = T(805940946938, --[[ModItemConversation Pierre_2 Text voice:Grunty section:Pierre_2 keyword:Join us]] "I am sure you won't. I only have one rule: Stay away from my foot powder."),
-=======
-													Text = T(805940946938, --[[ModItemConversation Pierre_2 Text voice:Grunty section:Pierre_2 keyword:Join us]] "Уверен, что не разочаруешь. У меня правило только одно: не трогай мою присыпку для ног."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -17338,11 +16260,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Shadow",
-<<<<<<< HEAD
 													Text = T(955896518299, --[[ModItemConversation Pierre_2 Text voice:Shadow section:Pierre_2 keyword:Join us]] "I'll be watching you. You won't see me, but I'll see you."),
-=======
-													Text = T(955896518299, --[[ModItemConversation Pierre_2 Text voice:Shadow section:Pierre_2 keyword:Join us]] "Я буду за тобой наблюдать. Ты меня видеть не будешь, а я тебя - буду."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -17354,11 +16272,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Pierre",
-<<<<<<< HEAD
 									Text = T(503295640395, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Join us]] "And I have just one thing to ask - please, don't disappoint me as well. Be honorable to the end."),
-=======
-									Text = T(503295640395, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Join us]] "И у меня к вам тоже будет одна просьба: пожалуйста, вы тоже меня не разочаруйте. Будьте благородны до конца."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -17367,11 +16281,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Spike",
-<<<<<<< HEAD
 													Text = T(314516261496, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Join us]] "I'll try not to disappoint you, kid. I suppose I owe you that much. But I'll leave that whole \"honor\" thing up to you."),
-=======
-													Text = T(314516261496, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Join us]] "Постараюсь не разочаровать тебя, парень. Полагаю, это самое меньшее, чем я могу тебе отплатить. А все эти разговоры про «благородство» я лучше оставлю тебе."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -17412,11 +16322,7 @@ return {
 								PlaceObj('CityGrantLoyalty', {
 									Amount = 30,
 									City = "ErnieVillage",
-<<<<<<< HEAD
 									SpecialConversationMessage = T(170949785343, --[[ModItemConversation Pierre_2 SpecialConversationMessage]] "sent <em>Pierre</em> back to protect Ernie"),
-=======
-									SpecialConversationMessage = T(170949785343, --[[ModItemConversation Pierre_2 SpecialConversationMessage]] "отправили <em>Пьера</em> защищать Эрни"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('GroupSetBehaviorExit', {
@@ -17431,11 +16337,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Pierre",
-<<<<<<< HEAD
 									Text = T(258536304207, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Go home]] "Yes... I can do that. I will return to <em>Ernie</em> and do my best to heal the damage I have done. I will protect my people from those who are like the fool I was."),
-=======
-									Text = T(258536304207, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Go home]] "Да... Это я могу. Я вернусь в <em>Эрни</em> и приложу все силы, чтобы компенсировать нанесенный мною ущерб. Я буду защищать свой народ от таких же дураков, каким я когда-то был."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -17444,11 +16346,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Spike",
-<<<<<<< HEAD
 													Text = T(551703472366, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Go home]] "He's looking at me again!"),
-=======
-													Text = T(551703472366, --[[ModItemConversation Pierre_2 Text voice:Spike section:Pierre_2 keyword:Go home]] "Он опять смотрит на меня!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -17458,11 +16356,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Blood",
-<<<<<<< HEAD
 													Text = T(800484809741, --[[ModItemConversation Pierre_2 Text voice:Blood section:Pierre_2 keyword:Go home]] "That's the best news I heard in a while."),
-=======
-													Text = T(800484809741, --[[ModItemConversation Pierre_2 Text voice:Blood section:Pierre_2 keyword:Go home]] "Пожалуй, это лучшие новости за долгое время."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -17472,11 +16366,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fox",
-<<<<<<< HEAD
 													Text = T(890000000000811, --[[ModItemConversation Pierre_2 Text voice:Fox section:Pierre_2 keyword:Go home]] "Передавай привет своему милашке-папе!"),
-=======
-													Text = T(623470915074, --[[ModItemConversation Pierre_2 Text voice:Fox section:Pierre_2 keyword:Go home]] "Передавай привет своему милашке-папе!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -17486,11 +16376,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Barry",
-<<<<<<< HEAD
 													Text = T(327362892653, --[[ModItemConversation Pierre_2 Text voice:Barry section:Pierre_2 keyword:Go home]] "I have full heart from wholesomeness."),
-=======
-													Text = T(327362892653, --[[ModItemConversation Pierre_2 Text voice:Barry section:Pierre_2 keyword:Go home]] "У меня одухотворение."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -17500,11 +16386,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Raven",
-<<<<<<< HEAD
 													Text = T(496308930670, --[[ModItemConversation Pierre_2 Text voice:Raven section:Pierre_2 keyword:Go home]] "Be good! Don't kill any more of your dad's friends!"),
-=======
-													Text = T(496308930670, --[[ModItemConversation Pierre_2 Text voice:Raven section:Pierre_2 keyword:Go home]] "Веди себя хорошо! И не убивай больше друзей отца!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -17514,11 +16396,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "DrQ",
-<<<<<<< HEAD
 													Text = T(209539095292, --[[ModItemConversation Pierre_2 Text voice:DrQ section:Pierre_2 keyword:Go home]] "Your path will be no less easy, but it will offer you riches you have not yet known existed."),
-=======
-													Text = T(209539095292, --[[ModItemConversation Pierre_2 Text voice:DrQ section:Pierre_2 keyword:Go home]] "Твой путь не станет легче, но он принесет тебе богатства, о которых ты не мог даже помышлять."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -17528,11 +16406,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Ice",
-<<<<<<< HEAD
 													Text = T(877107765188, --[[ModItemConversation Pierre_2 Text voice:Ice section:Pierre_2 keyword:Go home]] "Be cool, playah. Don't make us come find you."),
-=======
-													Text = T(877107765188, --[[ModItemConversation Pierre_2 Text voice:Ice section:Pierre_2 keyword:Go home]] "Живи четко, бро. Не заставляй нас тебя искать."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -17570,19 +16444,11 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
 								Text = T(441695769517, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Goodbye]] "Leave me be."),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Pierre",
-								Text = T(441695769517, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Goodbye]] "Оставьте меня в покое."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -17607,19 +16473,11 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
 								Text = T(663715701872, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Goodbye]] "Farewell."),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Pierre",
-								Text = T(663715701872, --[[ModItemConversation Pierre_2 Text voice:Pierre section:Pierre_2 keyword:Goodbye]] "Прощайте."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -17671,19 +16529,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
 								Text = T(870357128665, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:Greeting]] "Well, you did it, mercenaires. You have won and I... I lost everything... Father, forgive me..."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Pierre",
-								Text = T(870357128665, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:Greeting]] "Что ж, наемники, вы это сделали. Вы победили, а я... я потерял все... прости меня, отец..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -17709,19 +16559,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
 								Text = T(365175135291, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:Greeting4]] "Cease fire, mercenaires! You have won. There is no shame in losing to stronger warriors. My life is in your hands."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Pierre",
-								Text = T(365175135291, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:Greeting4]] "Прекратите огонь! Вы победили. Проиграть сильным воинам не стыдно. Моя жизнь - в ваших руках."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -17747,19 +16589,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
 								Text = T(155315053597, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:Greeting2]] "Cease fire, mercenaires! You have won. There is no shame in losing to honorable opponents. My life is in your hands."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Pierre",
-								Text = T(155315053597, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:Greeting2]] "Прекратите огонь! Вы победили. Проиграть благородным противникам не стыдно. Моя жизнь - в ваших руках."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -17788,11 +16622,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(161189169106, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:Where is the President being kept?]] "<em>Le Major</em> has him back in his camp. Don't even think about trying to rescue him - on the mainland there is no other power but the Legion, and no God but Le Major himself."),
-=======
-								Text = T(161189169106, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:Where is the President being kept?]] "<em>Le Major</em> держит его в своем лагере. Даже не помышляйте его спасать: на материке нет другой силы кроме Легиона и нет Бога кроме Майора."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -17801,11 +16631,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Barry",
-<<<<<<< HEAD
 												Text = T(854991139197, --[[ModItemConversation Pierre_Defeated Text voice:Barry section:Pierre_Defeated keyword:Where is the President being kept?]] "The Lord's light shines everywhere, even into the dark and stinky hole where this Major hides."),
-=======
-												Text = T(854991139197, --[[ModItemConversation Pierre_Defeated Text voice:Barry section:Pierre_Defeated keyword:Where is the President being kept?]] "Свет Господень сияет везде, даже в той пахучей дыре, в которой прячется Майор."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -17815,11 +16641,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Kalyna",
-<<<<<<< HEAD
 												Text = T(162814770959, --[[ModItemConversation Pierre_Defeated Text voice:Kalyna section:Pierre_Defeated keyword:Where is the President being kept?]] "Ooo, it sounds cursed! When can we go? "),
-=======
-												Text = T(162814770959, --[[ModItemConversation Pierre_Defeated Text voice:Kalyna section:Pierre_Defeated keyword:Where is the President being kept?]] "О, звучит как проклятые земли! Когда выступаем?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -17829,11 +16651,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grizzly",
-<<<<<<< HEAD
 												Text = T(887860763831, --[[ModItemConversation Pierre_Defeated Text voice:Grizzly section:Pierre_Defeated keyword:Where is the President being kept?]] "I'll come loaded for bear."),
-=======
-												Text = T(887860763831, --[[ModItemConversation Pierre_Defeated Text voice:Grizzly section:Pierre_Defeated keyword:Where is the President being kept?]] "Тогда я возьму ружье на медведя."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -17879,11 +16697,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(683298590649, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:What will you do if we let you go?]] "I will leave this cursed island. I must report to <em>Le Major</em>, and then... I don't know. My life belongs to the <em>Legion</em>."),
-=======
-								Text = T(683298590649, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:What will you do if we let you go?]] "Я покину этот проклятый остров. Я должен доложиться <em>Майору</em>, а что будет потом... я не знаю. Моя жизнь принадлежит <em>Легиону</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -17892,11 +16706,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Thor",
-<<<<<<< HEAD
 												Text = T(473032573507, --[[ModItemConversation Pierre_Defeated Text voice:Thor section:Pierre_Defeated keyword:What will you do if we let you go?]] "No, your life belongs to you. Unlock your potential! Do not fear success!"),
-=======
-												Text = T(473032573507, --[[ModItemConversation Pierre_Defeated Text voice:Thor section:Pierre_Defeated keyword:What will you do if we let you go?]] "Нет, твоя жизнь принадлежит тебе. Раскрой свой потенциал! Не бойся успеха!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -17906,11 +16716,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Mouse",
-<<<<<<< HEAD
 												Text = T(890000000001242, --[[ModItemConversation Pierre_Defeated Text voice:Mouse section:Pierre_Defeated keyword:What will you do if we let you go?]] "Честно? Считаю, ты способный. Так и вижу — создаёшь тур-агентство, экскурсии там водишь."),
-=======
-												Text = T(882728187539, --[[ModItemConversation Pierre_Defeated Text voice:Mouse section:Pierre_Defeated keyword:What will you do if we let you go?]] "Честно? Считаю, ты способный. Так и вижу — создаёшь тур-агентство, экскурсии там водишь."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -17920,11 +16726,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Livewire",
-<<<<<<< HEAD
 												Text = T(655018451953, --[[ModItemConversation Pierre_Defeated Text voice:Livewire section:Pierre_Defeated keyword:What will you do if we let you go?]] "If I am being completely honest, I think the Legion is yesterday's fashion. Time to put it away and move on."),
-=======
-												Text = T(655018451953, --[[ModItemConversation Pierre_Defeated Text voice:Livewire section:Pierre_Defeated keyword:What will you do if we let you go?]] "Если честно, я считаю, что этот ваш Легион себя изжил. Пора про него забыть и двигаться дальше."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -17969,11 +16771,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(602965250217, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:What will you do if we let you go?]] "You may have bested me, but my life belongs to the <em>Legion</em>. I will not lie to you - I will report to <em>Le Major</em>, and he will probably order me to hunt you down and kill you. If you don't want that... You know what to do."),
-=======
-								Text = T(602965250217, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:What will you do if we let you go?]] "Хоть вы меня и победили, но моя жизнь принадлежит <em>Легиону</em>. Не стану лгать: я доложу о вас <em>Майору</em>, и он, скорее всего, прикажет мне выследить вас и уничтожить. Если вы этого не хотите... вы знаете, что делать."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -17982,11 +16780,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(190817616609, --[[ModItemConversation Pierre_Defeated Text voice:Meltdown section:Pierre_Defeated keyword:What will you do if we let you go?]] "Don't need to tell me how to do my job, dumbass. I can kill you whenever I want. "),
-=======
-												Text = T(190817616609, --[[ModItemConversation Pierre_Defeated Text voice:Meltdown section:Pierre_Defeated keyword:What will you do if we let you go?]] "Чтобы еще какой-то молокосос поучал, как мне мою работу делать! Я могу убить тебя, когда захочу."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -17996,11 +16790,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(890000000000625, --[[ModItemConversation Pierre_Defeated Text voice:Wolf section:Pierre_Defeated keyword:What will you do if we let you go?]] "Не ты охотишься на Волка, парень. А Волк на тебя. Когда волк на тебя смотрит — это значит, что он тебя видит. Ну ты понял, думаю."),
-=======
-												Text = T(498520092366, --[[ModItemConversation Pierre_Defeated Text voice:Wolf section:Pierre_Defeated keyword:What will you do if we let you go?]] "Не ты охотишься на Волка, парень. А Волк на тебя. Когда волк на тебя смотрит — это значит, что он тебя видит. Ну ты понял, думаю."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18010,11 +16800,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Omryn",
-<<<<<<< HEAD
 												Text = T(836554835931, --[[ModItemConversation Pierre_Defeated Text voice:Omryn section:Pierre_Defeated keyword:What will you do if we let you go?]] "You should hunt elk or rabbit instead. Much better for stew."),
-=======
-												Text = T(836554835931, --[[ModItemConversation Pierre_Defeated Text voice:Omryn section:Pierre_Defeated keyword:What will you do if we let you go?]] "Лучше на зайца или олешка, однако. Похлебка из них вкуснее."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18044,11 +16830,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(184964133779, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:Where do we find the Major?]] "It is not a big secret, but you won't learn it from me. Kill me if you will... I am no traitor like <em>Herman</em>. "),
-=======
-								Text = T(184964133779, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:Where do we find the Major?]] "Это не то чтобы большая тайна, но от меня вы ее не узнаете. Убивайте меня, если хотите... Но я не предатель, как <em>Герман</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -18057,11 +16839,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "MD",
-<<<<<<< HEAD
 												Text = T(512207376993, --[[ModItemConversation Pierre_Defeated Text voice:MD section:Pierre_Defeated keyword:Where do we find the Major?]] "I don't mean to be nit-picky, but you DID sell out your home town to the Legion, so you're sorta exactly like him... I guess?"),
-=======
-												Text = T(512207376993, --[[ModItemConversation Pierre_Defeated Text voice:MD section:Pierre_Defeated keyword:Where do we find the Major?]] "Не хочу показаться занудой, но... вообще-то вы сдали свою родную деревню Легиону, так что вы вполне себе как он."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18071,11 +16849,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raven",
-<<<<<<< HEAD
 												Text = T(433066313053, --[[ModItemConversation Pierre_Defeated Text voice:Raven section:Pierre_Defeated keyword:Where do we find the Major?]] "Sure. You brought a bunch of armed thugs into your home town. Totally different."),
-=======
-												Text = T(433066313053, --[[ModItemConversation Pierre_Defeated Text voice:Raven section:Pierre_Defeated keyword:Where do we find the Major?]] "Ага. Ты просто привел к себе домой банду вооруженных боевиков. Совершенно другое дело."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18085,11 +16859,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ice",
-<<<<<<< HEAD
 												Text = T(650786714079, --[[ModItemConversation Pierre_Defeated Text voice:Ice section:Pierre_Defeated keyword:Where do we find the Major?]] "Nah, man. Not like Herman. You come back to your old 'hood with gangbangers and guns, You WAY worse than Herman."),
-=======
-												Text = T(650786714079, --[[ModItemConversation Pierre_Defeated Text voice:Ice section:Pierre_Defeated keyword:Where do we find the Major?]] "Не, чувак, ты не как Герман. Ты пришел на свой район с пушками и бандитами. Ты ГОРАЗДО хуже Германа."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18127,11 +16897,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(611312162675, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:Where do we find the Major?]] "It is not a big secret, but you won't learn it from me. Kill me if you will... I am no traitor. "),
-=======
-								Text = T(611312162675, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:Where do we find the Major?]] "Это не то чтобы большая тайна, но от меня вы ее не узнаете. Убивайте меня, если хотите... Но я не предатель."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -18140,11 +16906,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(271750334678, --[[ModItemConversation Pierre_Defeated Text voice:Meltdown section:Pierre_Defeated keyword:Where do we find the Major?]] "What if I kick you in the teeth? Just a few times, or maybe a few dozen times."),
-=======
-												Text = T(271750334678, --[[ModItemConversation Pierre_Defeated Text voice:Meltdown section:Pierre_Defeated keyword:Where do we find the Major?]] "А если я пну тебя в грызло? Пару раз? Ну или пару десятков раз."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18154,11 +16916,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000000532, --[[ModItemConversation Pierre_Defeated Text voice:Fidel section:Pierre_Defeated keyword:Where do we find the Major?]] "Фиделю нравится. Фидель может убивать его, да? М?"),
-=======
-												Text = T(438497055015, --[[ModItemConversation Pierre_Defeated Text voice:Fidel section:Pierre_Defeated keyword:Where do we find the Major?]] "Фиделю нравится. Фидель может убивать его, да? М?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18168,11 +16926,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Igor",
-<<<<<<< HEAD
 												Text = T(440134473128, --[[ModItemConversation Pierre_Defeated Text voice:Igor section:Pierre_Defeated keyword:Where do we find the Major?]] "This is no problem."),
-=======
-												Text = T(440134473128, --[[ModItemConversation Pierre_Defeated Text voice:Igor section:Pierre_Defeated keyword:Where do we find the Major?]] "Никаких проблем."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18217,11 +16971,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(116550078766, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:Where do we find the Major?]] "It is not a big secret, and you are honorable opponents. Le Major would enjoy meeting you in battle. You will find his fort at the <em>Eagle's Nest</em>, up in the highlands."),
-=======
-								Text = T(116550078766, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:Where do we find the Major?]] "Это не особая тайна, к тому же вы достойные противники. Le Major будет рад встретить вас в битве. Его форт - в <em>Орлином гнезде</em>, в горах."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -18230,11 +16980,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(703590059364, --[[ModItemConversation Pierre_Defeated Text voice:Meltdown section:Pierre_Defeated keyword:Where do we find the Major?]] "His face will enjoy meeting my fist, just like yours did."),
-=======
-												Text = T(703590059364, --[[ModItemConversation Pierre_Defeated Text voice:Meltdown section:Pierre_Defeated keyword:Where do we find the Major?]] "Его рожа будет рада встретить мой кулак. Прям как твоя."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18244,11 +16990,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Omryn",
-<<<<<<< HEAD
 												Text = T(890000000000547, --[[ModItemConversation Pierre_Defeated Text voice:Omryn section:Pierre_Defeated keyword:Where do we find the Major?]] "Ууу, это далеко. Надо побольше жратвы с собой взять."),
-=======
-												Text = T(453710864793, --[[ModItemConversation Pierre_Defeated Text voice:Omryn section:Pierre_Defeated keyword:Where do we find the Major?]] "Ууу, это далеко. Надо побольше жратвы с собой взять."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18258,11 +17000,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Red",
-<<<<<<< HEAD
 												Text = T(410425596923, --[[ModItemConversation Pierre_Defeated Text voice:Red section:Pierre_Defeated keyword:Where do we find the Major?]] "Perfect! Blowing up forts in the highlands was how I spent my youth."),
-=======
-												Text = T(410425596923, --[[ModItemConversation Pierre_Defeated Text voice:Red section:Pierre_Defeated keyword:Where do we find the Major?]] "Отлично! Так я и провел молодость - взрывая форты в горах."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18272,11 +17010,7 @@ return {
 								param_bindings = false,
 							}),
 						},
-<<<<<<< HEAD
 						PhraseConditionRolloverText = T(925624949011, --[[ModItemConversation Pierre_Defeated PhraseConditionRolloverText]] "<em>Influence</em> check successful"),
-=======
-						PhraseConditionRolloverText = T(925624949011, --[[ModItemConversation Pierre_Defeated PhraseConditionRolloverText]] "Вы прошли проверку на <em>уважение</em>"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						StoryBranchIcon = "conversation_arrow",
 						id = "WheredowefindtheMajor_high",
 						param_bindings = false,
@@ -18297,11 +17031,7 @@ return {
 							PlaceObj('CityGrantLoyalty', {
 								Amount = 30,
 								City = "ErnieVillage",
-<<<<<<< HEAD
 								SpecialConversationMessage = T(871788700271, --[[ModItemConversation Pierre_Defeated SpecialConversationMessage]] "executed <em>Pierre</em>"),
-=======
-								SpecialConversationMessage = T(871788700271, --[[ModItemConversation Pierre_Defeated SpecialConversationMessage]] "казнили <em>Пьера</em>"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('PlaySetpiece', {
@@ -18315,11 +17045,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(553424692545, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:Time to die]] "Yes. I shall go to join my mother and father. And you? I hope you kill every rotten, lying, worthless inhabitant of this god forsaken country."),
-=======
-								Text = T(553424692545, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:Time to die]] "Да. Я отправлюсь к своим родителям. А вы? Надеюсь, вы убьете всех гнилых, лживых, никчемных обитателей этой богом забытой страны."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -18328,11 +17054,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(181019949298, --[[ModItemConversation Pierre_Defeated Text voice:Fidel section:Pierre_Defeated keyword:Time to die]] "Thank you! Fidel will try his best!"),
-=======
-												Text = T(181019949298, --[[ModItemConversation Pierre_Defeated Text voice:Fidel section:Pierre_Defeated keyword:Time to die]] "Спасибо! Фидель постарается!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18342,11 +17064,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(856797015118, --[[ModItemConversation Pierre_Defeated Text voice:Meltdown section:Pierre_Defeated keyword:Time to die]] "Oh yes we will. Such a shame you won't be there to see it, dumbass."),
-=======
-												Text = T(856797015118, --[[ModItemConversation Pierre_Defeated Text voice:Meltdown section:Pierre_Defeated keyword:Time to die]] "Это разумеется. Жаль только, ты этого не увидишь, дубина."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18356,11 +17074,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fauda",
-<<<<<<< HEAD
 												Text = T(664431506531, --[[ModItemConversation Pierre_Defeated Text voice:Fauda section:Pierre_Defeated keyword:Time to die]] "You are a disgrace to your people. Shaitan take you!"),
-=======
-												Text = T(664431506531, --[[ModItemConversation Pierre_Defeated Text voice:Fauda section:Pierre_Defeated keyword:Time to die]] "Ты - позор своего народа, шайтан тебя побери!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18370,11 +17084,7 @@ return {
 								param_bindings = false,
 							}),
 						},
-<<<<<<< HEAD
 						PhraseRolloverText = T(968781949182, --[[ModItemConversation Pierre_Defeated PhraseRolloverText]] "This action may have major consequences!"),
-=======
-						PhraseRolloverText = T(968781949182, --[[ModItemConversation Pierre_Defeated PhraseRolloverText]] "Это может иметь крупные последствия!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						StoryBranchIcon = "conversation_attack",
 						id = "TimeToDie",
 						param_bindings = false,
@@ -18395,11 +17105,7 @@ return {
 							PlaceObj('CityGrantLoyalty', {
 								Amount = 30,
 								City = "ErnieVillage",
-<<<<<<< HEAD
 								SpecialConversationMessage = T(871788700271, --[[ModItemConversation Pierre_Defeated SpecialConversationMessage]] "executed <em>Pierre</em>"),
-=======
-								SpecialConversationMessage = T(871788700271, --[[ModItemConversation Pierre_Defeated SpecialConversationMessage]] "казнили <em>Пьера</em>"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ApplyGuiltyOrRighteous', {
@@ -18416,11 +17122,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(445294838707, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:Time to die]] "I understand. <em>Le Major</em> teaches us to show no mercy to a beaten enemy. Go ahead, I'm ready!"),
-=======
-								Text = T(445294838707, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:Time to die]] "Понимаю. <em>Le Major</em> учит, что нельзя давать пощады поверженному врагу. Давайте. Я готов!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -18429,11 +17131,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(591434759042, --[[ModItemConversation Pierre_Defeated Text voice:Fidel section:Pierre_Defeated keyword:Time to die]] "Fidel is even more ready!"),
-=======
-												Text = T(591434759042, --[[ModItemConversation Pierre_Defeated Text voice:Fidel section:Pierre_Defeated keyword:Time to die]] "Фидель еще больше готов!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18443,11 +17141,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(236155514048, --[[ModItemConversation Pierre_Defeated Text voice:Meltdown section:Pierre_Defeated keyword:Time to die]] "Oh, cut the dramatics and just die."),
-=======
-												Text = T(236155514048, --[[ModItemConversation Pierre_Defeated Text voice:Meltdown section:Pierre_Defeated keyword:Time to die]] "Сколько драмы. Просто умри."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18457,11 +17151,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Barry",
-<<<<<<< HEAD
 												Text = T(443219304486, --[[ModItemConversation Pierre_Defeated Text voice:Barry section:Pierre_Defeated keyword:Time to die]] "May God have mercy on your soul."),
-=======
-												Text = T(443219304486, --[[ModItemConversation Pierre_Defeated Text voice:Barry section:Pierre_Defeated keyword:Time to die]] "Да смилуется Господь над твоей душой."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18471,11 +17161,7 @@ return {
 								param_bindings = false,
 							}),
 						},
-<<<<<<< HEAD
 						PhraseRolloverText = T(972303600884, --[[ModItemConversation Pierre_Defeated PhraseRolloverText]] "This action may have major consequences!"),
-=======
-						PhraseRolloverText = T(972303600884, --[[ModItemConversation Pierre_Defeated PhraseRolloverText]] "Это может иметь крупные последствия!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						StoryBranchIcon = "conversation_attack",
 						id = "Timetodie",
 						param_bindings = false,
@@ -18501,11 +17187,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(710759065186, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:You may go]] "What? Mercy? To a beaten enemy?... I... I thank you, I guess."),
-=======
-								Text = T(710759065186, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:You may go]] "Что? Пощада? Поверженному врагу?.. Я... спасибо вам... наверное."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -18514,11 +17196,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000000782, --[[ModItemConversation Pierre_Defeated Text voice:Fidel section:Pierre_Defeated keyword:You may go]] "Кто такой «пощада»? Зачем отпускать? Он сказал можно забрать его жизнь!"),
-=======
-												Text = T(608283380098, --[[ModItemConversation Pierre_Defeated Text voice:Fidel section:Pierre_Defeated keyword:You may go]] "Кто такой «пощада»? Зачем отпускать? Он сказал можно забрать его жизнь!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18528,11 +17206,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raven",
-<<<<<<< HEAD
 												Text = T(732243758274, --[[ModItemConversation Pierre_Defeated Text voice:Raven section:Pierre_Defeated keyword:You may go]] "Remember - we are not like your stupid Legion."),
-=======
-												Text = T(732243758274, --[[ModItemConversation Pierre_Defeated Text voice:Raven section:Pierre_Defeated keyword:You may go]] "Запомни: мы - не ваш идиотский Легион."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18542,11 +17216,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Steroid",
-<<<<<<< HEAD
 												Text = T(890000000001338, --[[ModItemConversation Pierre_Defeated Text voice:Steroid section:Pierre_Defeated keyword:You may go]] "Давай, беги отседа, иначе еще получишь."),
-=======
-												Text = T(968013272003, --[[ModItemConversation Pierre_Defeated Text voice:Steroid section:Pierre_Defeated keyword:You may go]] "Давай, беги отседа, иначе еще получишь."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18556,11 +17226,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Thor",
-<<<<<<< HEAD
 												Text = T(918566160071, --[[ModItemConversation Pierre_Defeated Text voice:Thor section:Pierre_Defeated keyword:You may go]] "Everyone deserves a second chance. Go. Make today the first day of the rest of your life!"),
-=======
-												Text = T(918566160071, --[[ModItemConversation Pierre_Defeated Text voice:Thor section:Pierre_Defeated keyword:You may go]] "Все заслуживают второй шанс. Иди. И пусть сегодня станет первым днем твоей новой жизни!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18572,11 +17238,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Pierre",
-<<<<<<< HEAD
 								Text = T(170287929525, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:You may go]] "Perhaps we will meet again - but I can't promise not to fight you when the time comes."),
-=======
-								Text = T(170287929525, --[[ModItemConversation Pierre_Defeated Text voice:Pierre section:Pierre_Defeated keyword:You may go]] "Возможно, мы еще встретимся. Но не могу обещать не сражаться с вами, когда это время наступит."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -18585,11 +17247,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(238564867788, --[[ModItemConversation Pierre_Defeated Text voice:Meltdown section:Pierre_Defeated keyword:You may go]] "Anytime, dumbass. "),
-=======
-												Text = T(238564867788, --[[ModItemConversation Pierre_Defeated Text voice:Meltdown section:Pierre_Defeated keyword:You may go]] "В любое время, дубина."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18599,11 +17257,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Buns",
-<<<<<<< HEAD
 												Text = T(890000000000456, --[[ModItemConversation Pierre_Defeated Text voice:Buns section:Pierre_Defeated keyword:You may go]] "Мы превзошли тебя, и превзойдём снова."),
-=======
-												Text = T(395878046670, --[[ModItemConversation Pierre_Defeated Text voice:Buns section:Pierre_Defeated keyword:You may go]] "Мы превзошли тебя, и превзойдём снова."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18613,11 +17267,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(890000000000113, --[[ModItemConversation Pierre_Defeated Text voice:Wolf section:Pierre_Defeated keyword:You may go]] "В следующий раз старайся чуть лучше, ага? Я почти не вспотел. Хочешь жить — умей жить."),
-=======
-												Text = T(186400032612, --[[ModItemConversation Pierre_Defeated Text voice:Wolf section:Pierre_Defeated keyword:You may go]] "В следующий раз старайся чуть лучше, ага? Я почти не вспотел. Хочешь жить — умей жить."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18627,11 +17277,7 @@ return {
 								param_bindings = false,
 							}),
 						},
-<<<<<<< HEAD
 						PhraseRolloverText = T(972303600884, --[[ModItemConversation Pierre_Defeated PhraseRolloverText]] "This action may have major consequences!"),
-=======
-						PhraseRolloverText = T(972303600884, --[[ModItemConversation Pierre_Defeated PhraseRolloverText]] "Это может иметь крупные последствия!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						StoryBranchIcon = "conversation_goodbye",
 						id = "Lethimgo",
 						param_bindings = false,
@@ -18671,19 +17317,11 @@ return {
 							"JoseFamily",
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
 								Text = T(177981455531, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Greeting]] "Oh la la! Don't shoot! I'm just a bystander here. An innocent civilian! I heard some shots fired up the hill. I came to take a look and I saw the <em>Legion</em> getting their asses kicked."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "LegionRaider_Jose",
-								Text = T(177981455531, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Greeting]] "Oh la la! Не стреляйте! Я просто невинный прохожий, гражданский! Услышал выстрелы на холме, пошел посмотреть и увидел, как <em>Легиону</em> надрали задницы."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -18692,11 +17330,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raven",
-<<<<<<< HEAD
 												Text = T(934603064041, --[[ModItemConversation Jose_1 Text voice:Raven section:Jose_1 keyword:Greeting]] "Exactly what an innocent civilian would do."),
-=======
-												Text = T(934603064041, --[[ModItemConversation Jose_1 Text voice:Raven section:Jose_1 keyword:Greeting]] "Ага, ведь невинный гражданский как раз так бы и поступил."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18706,11 +17340,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Omryn",
-<<<<<<< HEAD
 												Text = T(981381740319, --[[ModItemConversation Jose_1 Text voice:Omryn section:Jose_1 keyword:Greeting]] "Makes sense to me. Better to watch a fight than be in one."),
-=======
-												Text = T(981381740319, --[[ModItemConversation Jose_1 Text voice:Omryn section:Jose_1 keyword:Greeting]] "Что ж, дело ясное. На драку лучше смотреть, чем в ней участвовать."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18720,11 +17350,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Livewire",
-<<<<<<< HEAD
 												Text = T(564648221278, --[[ModItemConversation Jose_1 Text voice:Livewire section:Jose_1 keyword:Greeting]] "I want you to know that I completely believe you, but I really don't think anyone else does."),
-=======
-												Text = T(564648221278, --[[ModItemConversation Jose_1 Text voice:Livewire section:Jose_1 keyword:Greeting]] "Хочу тебе сказать, что я тебе на сто процентов верю, но, если честно, вряд ли поверит кто-то еще."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -18735,11 +17361,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(214036121306, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Greeting]] "But I'm not with them! I was just... umm... doing a bit of scavenging on the beach. Yeah, that's how I provide for my <em>family</em>!"),
-=======
-								Text = T(214036121306, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Greeting]] "Но я не с ними! Я просто... эм-м... искал потерянные ценности на пляже. Да, вот так я обеспечиваю свою <em>семью</em>!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -18759,11 +17381,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Raven",
-<<<<<<< HEAD
 													Text = T(635727490710, --[[ModItemConversation Jose_1 Text voice:Raven section:Jose_1 keyword:Don't worry]] "Take it easy, mister. We don't shoot civilians... generally."),
-=======
-													Text = T(635727490710, --[[ModItemConversation Jose_1 Text voice:Raven section:Jose_1 keyword:Don't worry]] "Спокойно, мистер. Мы не стреляем в гражданских... как правило."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -18773,11 +17391,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Buns",
-<<<<<<< HEAD
 													Text = T(126318722694, --[[ModItemConversation Jose_1 Text voice:Buns section:Jose_1 keyword:Don't worry]] "That's all right, dear. We don't shoot civilians... generally."),
-=======
-													Text = T(126318722694, --[[ModItemConversation Jose_1 Text voice:Buns section:Jose_1 keyword:Don't worry]] "Все в порядке. Мы не стреляем в гражданских... как правило."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -18787,11 +17401,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "MD",
-<<<<<<< HEAD
 													Text = T(774211252033, --[[ModItemConversation Jose_1 Text voice:MD section:Jose_1 keyword:Don't worry]] "Oh, we don't shoot civilians! I mean, sometimes we do. I do. By accident, though. Not on purpose."),
-=======
-													Text = T(774211252033, --[[ModItemConversation Jose_1 Text voice:MD section:Jose_1 keyword:Don't worry]] "О, ну, в гражданских мы не стреляем! То есть, иногда стреляем. Я стреляю. Но только случайно. Специально - никогда!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -18802,11 +17412,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 									Text = T(720507828662, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Don't worry]] "Oh, thank you! Maybe you just let me go on my way now, eh?"),
-=======
-									Text = T(720507828662, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Don't worry]] "Спасибо большое! Может... тогда я просто пойду своей дорогой, а?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -18834,11 +17440,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Meltdown",
-<<<<<<< HEAD
 													Text = T(227943237719, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Civilian? Oh really?]] "Yeah, and I'm the fucking tooth fairy."),
-=======
-													Text = T(227943237719, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Civilian? Oh really?]] "Ага, а я тогда сраная зубная фея."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -18848,11 +17450,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Raider",
-<<<<<<< HEAD
 													Text = T(294244076370, --[[ModItemConversation Jose_1 Text voice:Raider section:Jose_1 keyword:Civilian? Oh really?]] "A well armed civilian, I see."),
-=======
-													Text = T(294244076370, --[[ModItemConversation Jose_1 Text voice:Raider section:Jose_1 keyword:Civilian? Oh really?]] "Весьма неплохо вооруженный гражданский, я вижу."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -18862,11 +17460,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Grizzly",
-<<<<<<< HEAD
 													Text = T(588034929881, --[[ModItemConversation Jose_1 Text voice:Grizzly section:Jose_1 keyword:Civilian? Oh really?]] "That gun just for shooting squirrels then?"),
-=======
-													Text = T(588034929881, --[[ModItemConversation Jose_1 Text voice:Grizzly section:Jose_1 keyword:Civilian? Oh really?]] "А пушка у тебя, значит, белок стрелять?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -18877,11 +17471,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 									Text = T(755919150765, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Civilian? Oh really?]] "Oh, you mean this gun here? It's just, eh, heh-heh... iiiit's just for protection, boss. These are dangerous times on the island."),
-=======
-									Text = T(755919150765, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Civilian? Oh really?]] "А, вы про мое оружие, да? Это просто... хе-хе-хе... это просто для самозащиты, босс. На острове наступили опасные времена."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -18916,11 +17506,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fidel",
-<<<<<<< HEAD
 													Text = T(890000000000771, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Why not just shoot you]] "Вот, как Фидель всегда говорит: не бывает случайный прохожих. Когда стреляют, ты либо проходишь — прячешься, либо тут стреляешь. Ай-йа!"),
-=======
-													Text = T(594818594730, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Why not just shoot you]] "Вот, как Фидель всегда говорит: не бывает случайный прохожих. Когда стреляют, ты либо проходишь — прячешься, либо тут стреляешь. Ай-йа!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -18930,11 +17516,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Meltdown",
-<<<<<<< HEAD
 													Text = T(112995705878, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Why not just shoot you]] "Don't bullshit me, boy. I shot the kneecaps off the last dumbass who tried that."),
-=======
-													Text = T(112995705878, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Why not just shoot you]] "Не дури мне голову, парень. Последнему кретину, который пытался это сделать, я коленки прострелила."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -18944,11 +17526,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Nails",
-<<<<<<< HEAD
 													Text = T(890000000000824, --[[ModItemConversation Jose_1 Text voice:Nails section:Jose_1 keyword:Why not just shoot you]] "Невинные прохожие — всего лишь те, кто не успел в меня шмальнуть пока."),
-=======
-													Text = T(631597366042, --[[ModItemConversation Jose_1 Text voice:Nails section:Jose_1 keyword:Why not just shoot you]] "Невинные прохожие — всего лишь те, кто не успел в меня шмальнуть пока."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -18959,11 +17537,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 									Text = T(837926788822, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Why not just shoot you]] "Please, boss, I... I don't want any trouble! I have a <em>family</em>. You won't snuff out a family man, right?"),
-=======
-									Text = T(837926788822, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Why not just shoot you]] "Пожалуйста, босс, я... я не хочу проблем! У меня <em>семья</em>. Вы же не станете убивать семейного человека?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -18972,11 +17546,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fidel",
-<<<<<<< HEAD
 													Text = T(890000000000316, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Why not just shoot you]] "Кстати, это точно! Надо позвать семью — пусть посмотрят, а."),
-=======
-													Text = T(301882344056, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Why not just shoot you]] "Кстати, это точно! Надо позвать семью — пусть посмотрят, а."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -18986,11 +17556,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Meltdown",
-<<<<<<< HEAD
 													Text = T(717490531891, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Why not just shoot you]] "Depends on how cranky I am. And just so you know, I ain't pooped yet today."),
-=======
-													Text = T(717490531891, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Why not just shoot you]] "Зависит от того, насколько я раздражена. И, чтоб ты знал, меня с утра запор мучает."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -19000,11 +17566,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Nails",
-<<<<<<< HEAD
 													Text = T(890000000000139, --[[ModItemConversation Jose_1 Text voice:Nails section:Jose_1 keyword:Why not just shoot you]] "Чёрт, да у всех есть семья. Мне вообще какое дело."),
-=======
-													Text = T(197496099895, --[[ModItemConversation Jose_1 Text voice:Nails section:Jose_1 keyword:Why not just shoot you]] "Чёрт, да у всех есть семья. Мне вообще какое дело."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -19038,11 +17600,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(964208183887, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Tell us about that "Legion"]] "Well, that's the Patriotic Legion of Grand Chien! Quite a gang, they are. I think some of them were trying to snatch that <em>Emma</em> girl, the President's daughter, but I guess it didn't work out."),
-=======
-								Text = T(964208183887, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Tell us about that "Legion"]] "Ну, это Легион патриотов Гран-Шьена! Настоящие бандиты. Думаю, кто-то из них решил похитить эту <em>Эмму</em>, президентскую дочку, но, похоже, ничего не вышло."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -19064,11 +17622,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(140695646710, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:What do you know about Emma?]] "Don't know nothing, boss! I've just heard that the <em>Major</em> wants the girl. I guess he wishes to complete the set with her <em>father</em>, he-he."),
-=======
-								Text = T(140695646710, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:What do you know about Emma?]] "Я ничего не знаю, босс! Просто слышал, что девчонка <em>Майору</em> понадобилась. Наверное, в комплект к <em>папаше</em>, хе-хе-хе."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -19077,11 +17631,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ice",
-<<<<<<< HEAD
 												Text = T(206424046193, --[[ModItemConversation Jose_1 Text voice:Ice section:Jose_1 keyword:What do you know about Emma?]] "That dude got kidnapped and that's his daughter you're talkin' about. Put some respect in your mouth."),
-=======
-												Text = T(206424046193, --[[ModItemConversation Jose_1 Text voice:Ice section:Jose_1 keyword:What do you know about Emma?]] "Чувака похитили, а ты про его дочку говоришь. Прояви побольше уважения."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19091,11 +17641,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raven",
-<<<<<<< HEAD
 												Text = T(865713424221, --[[ModItemConversation Jose_1 Text voice:Raven section:Jose_1 keyword:What do you know about Emma?]] "I can tell how upset you are about it."),
-=======
-												Text = T(865713424221, --[[ModItemConversation Jose_1 Text voice:Raven section:Jose_1 keyword:What do you know about Emma?]] "По тебе прямо видно, как ты из-за этого расстраиваешься."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19105,20 +17651,12 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Barry",
-<<<<<<< HEAD
 												Text = T(628310807167, --[[ModItemConversation Jose_1 Text voice:Barry section:Jose_1 keyword:What do you know about Emma?]] "What is wrong with you? Where is your compassion?"),
-=======
-												Text = T(628310807167, --[[ModItemConversation Jose_1 Text voice:Barry section:Jose_1 keyword:What do you know about Emma?]] "Да что с тобой в общем?! Где сострадание?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 												Text = T(861880871058, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:What do you know about Emma?]] "Oh, sorry, boss. I guess I dropped it."),
-=======
-												Text = T(861880871058, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:What do you know about Emma?]] "Прости, босс. Кажись, выронил где-то."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19160,11 +17698,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(107928525214, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Who's the Major?]] "Oh, well, he's the leader of the <em>Legion</em>, of course! No one really seems to know him at all. They say he operates from a secret base up there in the <em>Highlands</em>..."),
-=======
-								Text = T(107928525214, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Who's the Major?]] "Ну, это командир <em>Легиона</em>, конечно. Похоже, никто его толком не знает. Говорят, он командует из секретной базы где-то в <em>горах</em>..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -19173,11 +17707,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Tex",
-<<<<<<< HEAD
 												Text = T(890000000001080, --[[ModItemConversation Jose_1 Text voice:Tex section:Jose_1 keyword:Who's the Major?]] "Да, похоже, забрарся он со своей бандой так, что не выкуришь. Как же мы туда попадем?"),
-=======
-												Text = T(803956718064, --[[ModItemConversation Jose_1 Text voice:Tex section:Jose_1 keyword:Who's the Major?]] "Да, похоже, забрарся он со своей бандой так, что не выкуришь. Как же мы туда попадем?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19187,11 +17717,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Red",
-<<<<<<< HEAD
 												Text = T(397572941722, --[[ModItemConversation Jose_1 Text voice:Red section:Jose_1 keyword:Who's the Major?]] "Speakin' as a Highlander, can ye be more specific? Highlands can be damn tricky terrain."),
-=======
-												Text = T(397572941722, --[[ModItemConversation Jose_1 Text voice:Red section:Jose_1 keyword:Who's the Major?]] "Ты можешь подробнее объяснить? Я сам горец, так что знаю, что горы разные бывают."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19201,11 +17727,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Mouse",
-<<<<<<< HEAD
 												Text = T(890000000001302, --[[ModItemConversation Jose_1 Text voice:Mouse section:Jose_1 keyword:Who's the Major?]] "Ух! Обожаю секреты! Расскажешь мне? Я — мим. Сам понимаешь — я ни звука."),
-=======
-												Text = T(935266069317, --[[ModItemConversation Jose_1 Text voice:Mouse section:Jose_1 keyword:Who's the Major?]] "Ух! Обожаю секреты! Расскажешь мне? Я — мим. Сам понимаешь — я ни звука."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19216,11 +17738,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(961613359310, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Who's the Major?]] "Well I don't know for sure. It wouldn't be much of a secret if I knew it, right?"),
-=======
-								Text = T(961613359310, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Who's the Major?]] "Я точно не знаю, где это место... Если бы я знал, то это бы не было секретом, верно?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -19243,11 +17761,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(374686359258, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Who's the Major?]] "Oh, well, he's the leader of the <em>Legion</em>, of course! No one really seems to know him at all. Very mysterious figure. Very dangerous. May I go now? Please?"),
-=======
-								Text = T(374686359258, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Who's the Major?]] "Ну, это командир <em>Легиона</em>, конечно. Похоже, никто его толком не знает. Очень загадочный человек. И очень опасный. Можно, я пойду? Пожалуйста."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -19276,11 +17790,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(252734673052, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Emma's father - you mean the President?]] "You know, you're right. I think I heard something about that. But I don't know anything! I don't want to be involved in any of this, you know. Can I just go back to my <em>family</em>?"),
-=======
-								Text = T(252734673052, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Emma's father - you mean the President?]] "А ведь похоже на то. Кажется, я что-то об этом слышал. Но я ничего не знаю! Я во все это лезть не хочу, ага? Можно, я просто вернусь к своей <em>семье?</em>"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -19289,20 +17799,12 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(974953304222, --[[ModItemConversation Jose_1 Text voice:Raider section:Jose_1 keyword:Emma's father - you mean the President?]] "You seem to know a lot for someone who's not involved, don't you?"),
-=======
-												Text = T(974953304222, --[[ModItemConversation Jose_1 Text voice:Raider section:Jose_1 keyword:Emma's father - you mean the President?]] "Ты многовато знаешь для того, кто не хочет в это лезть, тебе не кажется?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 												Text = T(343605753409, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Emma's father - you mean the President?]] "Don't know what you're talking about, boss."),
-=======
-												Text = T(343605753409, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Emma's father - you mean the President?]] "Не понимаю, о чем ты, босс."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19312,11 +17814,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(627309243002, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Emma's father - you mean the President?]] "Jeez, you're shadier than my ass crack."),
-=======
-												Text = T(627309243002, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Emma's father - you mean the President?]] "Да ты, мужик, скользкий, как палец в жопе."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19326,11 +17824,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grizzly",
-<<<<<<< HEAD
 												Text = T(335222742303, --[[ModItemConversation Jose_1 Text voice:Grizzly section:Jose_1 keyword:Emma's father - you mean the President?]] "Something stinks here, and I'm not talking about my armpits."),
-=======
-												Text = T(335222742303, --[[ModItemConversation Jose_1 Text voice:Grizzly section:Jose_1 keyword:Emma's father - you mean the President?]] "Что-то здесь воняет, и я не о своих подмышках."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19357,11 +17851,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(294739172012, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:So you have a family?]] "Oh yes, boss. A big family over in <em>the Rust</em>! That's what we call the area just east of town. It's not a nice place. My boys cannot play <em>football</em> without tripping on old war equipment, hehe."),
-=======
-								Text = T(294739172012, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:So you have a family?]] "Да-да, босс. Большая семья в <em>Жестянке</em>! Мы так называем район к востоку от деревни. Не самое хорошее место. Мои ребятки даже в <em>футбол</em> поиграть не могут, не наткнувшись на старое военное снаряжение, хе-хе."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -19370,11 +17860,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Igor",
-<<<<<<< HEAD
 												Text = T(809212341827, --[[ModItemConversation Jose_1 Text voice:Igor section:Jose_1 keyword:So you have a family?]] "Family is best important. Dolviches understand."),
-=======
-												Text = T(809212341827, --[[ModItemConversation Jose_1 Text voice:Igor section:Jose_1 keyword:So you have a family?]] "Семья важнее всего. Долвичи это понимают."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19384,11 +17870,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(428450856055, --[[ModItemConversation Jose_1 Text voice:Wolf section:Jose_1 keyword:So you have a family?]] "Old war equipment? Could be worth checking out."),
-=======
-												Text = T(428450856055, --[[ModItemConversation Jose_1 Text voice:Wolf section:Jose_1 keyword:So you have a family?]] "Старое военное снаряжение? Стоит проверить."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19399,11 +17881,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(375929023599, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:So you have a family?]] "They depend on me, you see. If I don't bring home the bacon, they don't eat! My poor family."),
-=======
-								Text = T(375929023599, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:So you have a family?]] "Они зависят от меня, понимаете? Если я не принесу еды, им есть будет нечего! Бедная моя семья..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -19426,11 +17904,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(350524679233, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Is this a soccer shirt?]] "Oui! Chiens Sauvages, the best team in Grand Chien! Their merchandise is shit though. I asked for a 13, and they printed 31..."),
-=======
-								Text = T(350524679233, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Is this a soccer shirt?]] "Oui! «Шьенские дикари» - лучшая команда в Гран-Шьене! А вот сувенирка у них отстой. Я попросил с номером 13, а мне напечатали 31..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -19483,11 +17957,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(539590466353, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:You’re with the Legion!]] "No, no, no! This is not true! Don't shoot me, boss! I mean... Maybe I had some dealings with the Legion in the past, but who doesn't? It is a small island."),
-=======
-								Text = T(539590466353, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:You’re with the Legion!]] "Нет-нет-нет! Это неправда! Не стреляй, босс! То есть... может быть, в прошлом у меня и были какие-то дела с Легионом, но у кого их не было? Это маленький остров."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -19496,11 +17966,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Buns",
-<<<<<<< HEAD
 												Text = T(890000000000800, --[[ModItemConversation Jose_1 Text voice:Buns section:Jose_1 keyword:You’re with the Legion!]] "Тем не менее, я почему-то уверена, что ты с Легионом… э… «в семье»."),
-=======
-												Text = T(621057787057, --[[ModItemConversation Jose_1 Text voice:Buns section:Jose_1 keyword:You’re with the Legion!]] "Тем не менее, я почему-то уверена, что ты с Легионом… э… «в семье»."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19510,11 +17976,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "DrQ",
-<<<<<<< HEAD
 												Text = T(505683499593, --[[ModItemConversation Jose_1 Text voice:DrQ section:Jose_1 keyword:You’re with the Legion!]] "It is difficult to hide one's true self on such a small island."),
-=======
-												Text = T(505683499593, --[[ModItemConversation Jose_1 Text voice:DrQ section:Jose_1 keyword:You’re with the Legion!]] "На таком маленьком острове трудно скрыть свою истинную личность."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19524,11 +17986,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Thor",
-<<<<<<< HEAD
 												Text = T(565765933356, --[[ModItemConversation Jose_1 Text voice:Thor section:Jose_1 keyword:You’re with the Legion!]] "My friend, you are hiding mostly from yourself. Let the truth set you free."),
-=======
-												Text = T(565765933356, --[[ModItemConversation Jose_1 Text voice:Thor section:Jose_1 keyword:You’re with the Legion!]] "Ты прячешься от себя самого, мой друг. Позволь правде тебя освободить."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19539,11 +17997,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(268494219542, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:You’re with the Legion!]] "Look, just let me go to my family and I... I will give you <em>diamonds</em> from my secret stash, I swear!"),
-=======
-								Text = T(268494219542, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:You’re with the Legion!]] "Слушайте, просто отпустите меня к семье, и я... я вам отдам <em>алмазы</em> из секретного тайника, клянусь!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -19614,11 +18068,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000000489, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Hands up!]] "Ух! Давно я никого не убивал! Рука чешется."),
-=======
-												Text = T(421463678968, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Hands up!]] "Ух! Давно я никого не убивал! Рука чешется."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19628,11 +18078,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(737188717279, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Hands up!]] "I got a hair trigger and a nasty rash on my finger. Got it?"),
-=======
-												Text = T(737188717279, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Hands up!]] "У меня курок на взводе и палец ужасно чешется. Сечешь?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19642,11 +18088,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Nails",
-<<<<<<< HEAD
 												Text = T(163893585175, --[[ModItemConversation Jose_1 Text voice:Nails section:Jose_1 keyword:Hands up!]] "I can't help wondering what you'd look like dead."),
-=======
-												Text = T(163893585175, --[[ModItemConversation Jose_1 Text voice:Nails section:Jose_1 keyword:Hands up!]] "Мне ужасно интересно, как ты будешь выглядеть мертвым."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19657,11 +18099,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(126193699971, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Hands up!]] "No, boss! Please, don't shoot! Look, just let me go to my family and I... I will give you <em>diamonds</em> from my secret stash, I swear!"),
-=======
-								Text = T(126193699971, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Hands up!]] "Нет, босс! Не стреляй, пожалуйста! Слушайте, просто отпустите меня к семье, и я... я вам отдам <em>алмазы</em> из секретного тайника, клянусь!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -19719,11 +18157,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(904309806327, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Hands up!]] "Non-non, no need for violence, boss! I've done nothing wrong! See? I'm cooperating."),
-=======
-								Text = T(904309806327, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Hands up!]] "Нет-нет, не нужно насилия, босс! Я не сделал ничего плохого! Смотрите, я сотрудничаю!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -19776,11 +18210,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(938617713641, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Hand over the diamonds]] "Bien sur! Please, take these. I just found them on the beach, I swear... All yours now. I... I can go? And... You won't shoot me in the back?"),
-=======
-								Text = T(938617713641, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Hand over the diamonds]] "Bien sur! Вот, возьмите, пожалуйста. Я их нашел на пляже, клянусь... Забирайте, они ваши. Я... я ведь могу идти? Вы ведь не станете стрелять в спину?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -19789,11 +18219,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000000637, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Hand over the diamonds]] "Нет. Фидель любит целиться в живот. Так больше крика. М?"),
-=======
-												Text = T(507624499391, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Hand over the diamonds]] "Нет. Фидель любит целиться в живот. Так больше крика. М?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19803,11 +18229,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Omryn",
-<<<<<<< HEAD
 												Text = T(617019210759, --[[ModItemConversation Jose_1 Text voice:Omryn section:Jose_1 keyword:Hand over the diamonds]] "I only shoot people for money... and for food."),
-=======
-												Text = T(617019210759, --[[ModItemConversation Jose_1 Text voice:Omryn section:Jose_1 keyword:Hand over the diamonds]] "Я стреляю в людей только за деньги... и за еду."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19817,11 +18239,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Steroid",
-<<<<<<< HEAD
 												Text = T(364026078742, --[[ModItemConversation Jose_1 Text voice:Steroid section:Jose_1 keyword:Hand over the diamonds]] "Just drop your lunch money and run, little man!"),
-=======
-												Text = T(364026078742, --[[ModItemConversation Jose_1 Text voice:Steroid section:Jose_1 keyword:Hand over the diamonds]] "Сдавай свои карманные деньги и беги, малявка!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19831,11 +18249,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Vicki",
-<<<<<<< HEAD
 												Text = T(890000000000407, --[[ModItemConversation Jose_1 Text voice:Vicki section:Jose_1 keyword:Hand over the diamonds]] "Жизнь полна загадок, чел. Только одним путем можно узнать."),
-=======
-												Text = T(358543447833, --[[ModItemConversation Jose_1 Text voice:Vicki section:Jose_1 keyword:Hand over the diamonds]] "Жизнь полна загадок, чел. Только одним путем можно узнать."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19845,11 +18259,7 @@ return {
 								param_bindings = false,
 							}),
 						},
-<<<<<<< HEAD
 						PhraseRolloverText = T(773771104694, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
-=======
-						PhraseRolloverText = T(773771104694, --[[ModItemConversation Jose_1 PhraseRolloverText]] "Это может иметь крупные последствия!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						StoryBranchIcon = "conversation_action",
 						id = "HandOverTheDiamonds",
 						param_bindings = false,
@@ -19889,11 +18299,7 @@ return {
 											PlaceObj('ConversationLine', {
 												Annotation = "Laughing as if he just figured it's a great idea",
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(219498159041, --[[ModItemConversation Jose_1 Text Laughing as if he just figured it's a great idea voice:Fidel section:Jose_1 keyword:Die!]] "Hehehehee... Bad news for you. Good news for Fidel!"),
-=======
-												Text = T(219498159041, --[[ModItemConversation Jose_1 Text Laughing as if he just figured it's a great idea voice:Fidel section:Jose_1 keyword:Die!]] "Хе-хе-хе... Плохие новости для тебя. Хорошие для Фиделя!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19903,11 +18309,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(257855744152, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Die!]] "Time to make some fur fly!"),
-=======
-												Text = T(257855744152, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:Die!]] "Ну, сейчас шерсть полетит клочьями!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19917,11 +18319,7 @@ return {
 								param_bindings = false,
 							}),
 						},
-<<<<<<< HEAD
 						PhraseRolloverText = T(230534807131, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
-=======
-						PhraseRolloverText = T(230534807131, --[[ModItemConversation Jose_1 PhraseRolloverText]] "Это может иметь крупные последствия!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						StoryBranchIcon = "conversation_attack",
 						id = "Openfire",
 						param_bindings = false,
@@ -19958,11 +18356,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(696618160649, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:You may go]] "Thank you, boss, I knew you were kind and gentle people! I go now. Please... um... Please, don't shoot me in the back."),
-=======
-								Text = T(696618160649, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:You may go]] "Спасибо, босс! Я знал, что вы добрые и вежливые люди! Я ухожу. Пожалуйста... пожалуйста, не стреляйте мне в спину."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -19971,11 +18365,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(233577286338, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:You may go]] "No. Fidel like to aim for belly. More screaming that way."),
-=======
-												Text = T(233577286338, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:You may go]] "Нет. Фидель любит целиться в живот. Так больше крика."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19985,11 +18375,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(867384693378, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:You may go]] "I'll consider it."),
-=======
-												Text = T(867384693378, --[[ModItemConversation Jose_1 Text voice:Meltdown section:Jose_1 keyword:You may go]] "Я подумаю над этим."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -19999,11 +18385,7 @@ return {
 								param_bindings = false,
 							}),
 						},
-<<<<<<< HEAD
 						PhraseRolloverText = T(945969342573, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
-=======
-						PhraseRolloverText = T(945969342573, --[[ModItemConversation Jose_1 PhraseRolloverText]] "Это может иметь крупные последствия!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						StoryBranchIcon = "conversation_goodbye",
 						id = "YouMayGo",
 						param_bindings = false,
@@ -20041,19 +18423,11 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
 								Text = T(430373932141, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Goodbye]] "Very kind of you to let me be on my way. Thank you! If your travels take you through <em>the Rust</em> any time soon, you're welcome to visit my family. We'll give you all the hospitality you deserve. I'll give it to you good, I promise!"),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "LegionRaider_Jose",
-								Text = T(430373932141, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Goodbye]] "Благодарю за любезное разрешение продолжить путь. Спасибо! Если в своих походах вы вдруг окажетесь в <em>Жестянке</em>, приглашаю в гости к нашей семье. Мы вам окажем прием, которого вы заслуживаете. Вы его навсегда запомните, обещаю!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -20062,11 +18436,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Mouse",
-<<<<<<< HEAD
 												Text = T(890000000000982, --[[ModItemConversation Jose_1 Text voice:Mouse section:Jose_1 keyword:Goodbye]] "Эм… Показалось или, хи-хикс, звучит, как угроза?"),
-=======
-												Text = T(735500021250, --[[ModItemConversation Jose_1 Text voice:Mouse section:Jose_1 keyword:Goodbye]] "Эм… Показалось или, хи-хикс, звучит, как угроза?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -20076,11 +18446,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(714964496630, --[[ModItemConversation Jose_1 Text voice:Wolf section:Jose_1 keyword:Goodbye]] "Could have phrased that a little better."),
-=======
-												Text = T(714964496630, --[[ModItemConversation Jose_1 Text voice:Wolf section:Jose_1 keyword:Goodbye]] "Сформулировать можно было бы и получше."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -20090,11 +18456,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fox",
-<<<<<<< HEAD
 												Text = T(890000000000839, --[[ModItemConversation Jose_1 Text voice:Fox section:Jose_1 keyword:Goodbye]] "Давали бы мне по монетке за такие обещания, я бы купила остров."),
-=======
-												Text = T(641272850679, --[[ModItemConversation Jose_1 Text voice:Fox section:Jose_1 keyword:Goodbye]] "Давали бы мне по монетке за такие обещания, я бы купила остров."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -20104,11 +18466,7 @@ return {
 								param_bindings = false,
 							}),
 						},
-<<<<<<< HEAD
 						PhraseRolloverText = T(325030565636, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
-=======
-						PhraseRolloverText = T(325030565636, --[[ModItemConversation Jose_1 PhraseRolloverText]] "Это может иметь крупные последствия!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						StoryBranchIcon = "conversation_goodbye",
 						id = "Goodbye",
 						param_bindings = false,
@@ -20141,19 +18499,11 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
 								Text = T(408447178916, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Goodbye]] "Thank you for sparing me, boss! Heavens bless you! I'm getting out of sight, right away! Thank you! Have a nice day! Au revoir!"),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "LegionRaider_Jose",
-								Text = T(408447178916, --[[ModItemConversation Jose_1 Text voice:LegionRaider_Jose section:Jose_1 keyword:Goodbye]] "Спасибо, что пощадил меня, босс! Да хранят вас небеса! Я немедленно убираюсь с ваших глаз долой! Спасибо! Хорошего дня! Au revoir!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -20162,11 +18512,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000000750, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Goodbye]] "Но зачем отпускать? Фидель не понимает. А! Может, потом его пристрелим? М?"),
-=======
-												Text = T(581934187146, --[[ModItemConversation Jose_1 Text voice:Fidel section:Jose_1 keyword:Goodbye]] "Но зачем отпускать? Фидель не понимает. А! Может, потом его пристрелим? М?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -20176,11 +18522,7 @@ return {
 								param_bindings = false,
 							}),
 						},
-<<<<<<< HEAD
 						PhraseRolloverText = T(226307279156, --[[ModItemConversation Jose_1 PhraseRolloverText]] "This action may have major consequences!"),
-=======
-						PhraseRolloverText = T(226307279156, --[[ModItemConversation Jose_1 PhraseRolloverText]] "Это может иметь крупные последствия!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						StoryBranchIcon = "conversation_goodbye",
 						id = "Goodbye2",
 						param_bindings = false,
@@ -20239,19 +18581,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
 								Text = T(844497991077, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Greeting]] "Eh bien! My friends from the beach! I was just talking about you, wasn't I?"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "LegionRaider_Jose",
-								Text = T(844497991077, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Greeting]] "Eh bien! Это же мои друзья с пляжа! А я как раз только что о вас рассказывал, правда?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
@@ -20261,38 +18595,22 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(604231757423, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Greeting]] "And now you have come to meet my big family, eh?"),
-=======
-								Text = T(604231757423, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Greeting]] "Вы ведь пришли познакомиться с моей большой семьей, да?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider",
-<<<<<<< HEAD
 								Text = T(924695461017, --[[ModItemConversation Jose_2 Text voice:LegionRaider section:Jose_2 keyword:Greeting]] "Yes, big family. Many mouths."),
-=======
-								Text = T(924695461017, --[[ModItemConversation Jose_2 Text voice:LegionRaider section:Jose_2 keyword:Greeting]] "Да, большая семья. Много ртов."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(254578467078, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Greeting]] "So true! But I'm sure our friends here are willing to help pay for our <em>hospitality</em>. After all, they saw little miss <em>Emma</em> and her rich friend. I'm thinking they gave you money, non? You don't want to be selfish and let my poor family starve!"),
-=======
-								Text = T(254578467078, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Greeting]] "Верно, верно! Но я не сомневаюсь, что наши друзья готовы заплатить за наше <em>гостеприимство</em>. В конце концов, они встречались с маленькой мисс <em>Эммой</em> и ее богатой подругой. Вам ведь наверняка дали денег, да? Нельзя думать только о себе и позволять моей бедной семье голодать!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider",
-<<<<<<< HEAD
 								Text = T(933419927959, --[[ModItemConversation Jose_2 Text voice:LegionRaider section:Jose_2 keyword:Greeting]] "Hospitality does not fill stomachs. Your money... Now."),
-=======
-								Text = T(933419927959, --[[ModItemConversation Jose_2 Text voice:LegionRaider section:Jose_2 keyword:Greeting]] "Гостеприимством желудок не набьешь. Выкладывайте деньги... живо."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -20325,19 +18643,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
 								Text = T(730470133077, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Greeting2]] "Eh bien! My friends from the beach! I was just talking about you, wasn't I?"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "LegionRaider_Jose",
-								Text = T(730470133077, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Greeting2]] "Eh bien! Это же мои друзья с пляжа! А я как раз только что о вас рассказывал, правда?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -20346,11 +18656,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "PierreMerc",
-<<<<<<< HEAD
 												Text = T(956157833880, --[[ModItemConversation Jose_2 Text voice:PierreMerc section:Jose_2 keyword:Greeting2]] "How about me, my dear Bastien? Don't you consider me a friend?"),
-=======
-												Text = T(956157833880, --[[ModItemConversation Jose_2 Text voice:PierreMerc section:Jose_2 keyword:Greeting2]] "А как насчет меня, мой дорогой Бастьен? Разве ты не считаешь меня другом?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -20361,11 +18667,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(988150449200, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Greeting2]] "But of course, Pierre! I just didn't expect to see you here... And I was unaware these people are part of the family, boss."),
-=======
-								Text = T(988150449200, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Greeting2]] "Конечно, считаю, Пьер. Просто не ожидал вас здесь увидеть... И я не знал, что эти люди входят в семью, босс."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -20374,11 +18676,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "PierreMerc",
-<<<<<<< HEAD
 												Text = T(885027266847, --[[ModItemConversation Jose_2 Text voice:PierreMerc section:Jose_2 keyword:Greeting2]] "They are now. What are you doing here, Bastien?"),
-=======
-												Text = T(885027266847, --[[ModItemConversation Jose_2 Text voice:PierreMerc section:Jose_2 keyword:Greeting2]] "Теперь входят. А что ты тут делаешь, Бастьен?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -20389,11 +18687,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(409634180385, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Greeting2]] "Well, um, me and my frérots happened to get the <em>diamond</em> shipment from the Major. I was trying to call you and report, boss, I swear!"),
-=======
-								Text = T(409634180385, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Greeting2]] "Ну, мы с frérots случайно заполучили груз <em>алмазов</em> от Майора. Я пытался вам позвонить и доложить, босс, клянусь!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -20435,11 +18729,7 @@ return {
 							PlaceObj('CityGrantLoyalty', {
 								Amount = 5,
 								City = "ErnieVillage",
-<<<<<<< HEAD
 								SpecialConversationMessage = T(506164274816, --[[ModItemConversation Jose_2 SpecialConversationMessage]] "humiliated <em>Bastien's gang</em>"),
-=======
-								SpecialConversationMessage = T(506164274816, --[[ModItemConversation Jose_2 SpecialConversationMessage]] "унизили <em>банду Бастьена</em>"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('QuestSetVariableBool', {
@@ -20454,11 +18744,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(385186154482, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Give up the diamonds]] "Of course, Pierre, I was just about to suggest you take them! In fact, I was searching for you, but I couldn't find you anywhere. Here, that's all I've got. May I go now, boss?"),
-=======
-								Text = T(385186154482, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Give up the diamonds]] "Конечно, Пьер, я как раз собирался предложить вам их забрать! На самом деле, я вас даже искал, но нигде не мог найти. Вот, это все, что у меня есть. Теперь можно идти, босс?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -20467,11 +18753,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "PierreMerc",
-<<<<<<< HEAD
 												Text = T(960933764269, --[[ModItemConversation Jose_2 Text voice:PierreMerc section:Jose_2 keyword:Give up the diamonds]] "Yes, get lost. You and your boys, I don't want to see you again."),
-=======
-												Text = T(960933764269, --[[ModItemConversation Jose_2 Text voice:PierreMerc section:Jose_2 keyword:Give up the diamonds]] "Ага, проваливай. И ты, и твои ребята. Видеть вас больше не хочу."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -20482,11 +18764,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(202792123293, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Give up the diamonds]] "Yes, Pierre! We were just leaving, boss!"),
-=======
-								Text = T(202792123293, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Give up the diamonds]] "Слушаюсь, Пьер! Мы как раз уходим, босс!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -20495,11 +18773,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "PierreMerc",
-<<<<<<< HEAD
 												Text = T(830122511545, --[[ModItemConversation Jose_2 Text voice:PierreMerc section:Jose_2 keyword:Give up the diamonds]] "Weren't you just searching for me to give me the diamonds? No, don't answer. Get out before I change my mind."),
-=======
-												Text = T(830122511545, --[[ModItemConversation Jose_2 Text voice:PierreMerc section:Jose_2 keyword:Give up the diamonds]] "Разве ты не меня искал, чтобы отдать алмазы? Нет-нет, не отвечай. Убирайся, пока я не передумал."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -20509,11 +18783,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000001359, --[[ModItemConversation Jose_2 Text voice:Fidel section:Jose_2 keyword:Give up the diamonds]] "Теперь можно убить, да? А?! Почему нет?! Алмазы-то у нас, нет?"),
-=======
-												Text = T(983732751190, --[[ModItemConversation Jose_2 Text voice:Fidel section:Jose_2 keyword:Give up the diamonds]] "Теперь можно убить, да? А?! Почему нет?! Алмазы-то у нас, нет?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -20556,47 +18826,27 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(737227830741, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:What hospitality?]] "That's right. I showed you hospitality by letting you visit my <em>shack</em>, now you have to pay for accommodation, plus interest."),
-=======
-								Text = T(737227830741, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:What hospitality?]] "Я проявил гостеприимство, разрешив посетить свою <em>хижину</em>, и теперь вы должны заплатить за проживание, плюс проценты."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider",
-<<<<<<< HEAD
 								Text = T(413431673678, --[[ModItemConversation Jose_2 Text voice:LegionRaider section:Jose_2 keyword:What hospitality?]] "Wait, what shack?"),
-=======
-								Text = T(413431673678, --[[ModItemConversation Jose_2 Text voice:LegionRaider section:Jose_2 keyword:What hospitality?]] "Подожди, какую еще хижину?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(954888742007, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:What hospitality?]] "Oh, it's actually just a lean-to, not like I stash things there or something..."),
-=======
-								Text = T(954888742007, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:What hospitality?]] "А... да это просто навес от непогоды... не то чтобы там был тайник с вещами или что-то в этом роде..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider",
-<<<<<<< HEAD
 								Text = T(522090388259, --[[ModItemConversation Jose_2 Text voice:LegionRaider section:Jose_2 keyword:What hospitality?]] "Uh, stash? Hey! You been holding out on us?"),
-=======
-								Text = T(522090388259, --[[ModItemConversation Jose_2 Text voice:LegionRaider section:Jose_2 keyword:What hospitality?]] "Тайник? Эй! Ты что от нас скрываешь?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(903045187059, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:What hospitality?]] "No! I would never!"),
-=======
-								Text = T(903045187059, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:What hospitality?]] "Ничего! Я бы ни за что!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -20675,11 +18925,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Livewire",
-<<<<<<< HEAD
 												Text = T(270815176056, --[[ModItemConversation Jose_2 Text voice:Livewire section:Jose_2 keyword:He's been holding out on you]] "Oh, perhaps you have forgotten all the diamonds you showed us?"),
-=======
-												Text = T(270815176056, --[[ModItemConversation Jose_2 Text voice:Livewire section:Jose_2 keyword:He's been holding out on you]] "О, так ты, наверное, уже забыл про алмазы, что нам показывал?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -20689,11 +18935,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Buns",
-<<<<<<< HEAD
 												Text = T(890000000000812, --[[ModItemConversation Jose_2 Text voice:Buns section:Jose_2 keyword:He's been holding out on you]] "Должна заметить, что врёшь ты плоховато."),
-=======
-												Text = T(623898582202, --[[ModItemConversation Jose_2 Text voice:Buns section:Jose_2 keyword:He's been holding out on you]] "Должна заметить, что врёшь ты плоховато."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -20703,11 +18945,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(414835194755, --[[ModItemConversation Jose_2 Text voice:Raider section:Jose_2 keyword:He's been holding out on you]] "Back in my day, in the L.A.P.D. I dealt with some good swindlers. You're nowhere near their level. You're not convincing at all."),
-=======
-												Text = T(414835194755, --[[ModItemConversation Jose_2 Text voice:Raider section:Jose_2 keyword:He's been holding out on you]] "В свое время в полиции Лос-Анджелеса я имел дело с прожженными мошенниками. Ты до их уровня и близко не дотягиваешь. Совершенно неубедительно."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -20717,11 +18955,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fox",
-<<<<<<< HEAD
 												Text = T(248930850511, --[[ModItemConversation Jose_2 Text voice:Fox section:Jose_2 keyword:He's been holding out on you]] "But, Bastien! You were so proud when you told us about how you've been stealing from your friends for so long without them noticing! Don't be shy about it now. "),
-=======
-												Text = T(248930850511, --[[ModItemConversation Jose_2 Text voice:Fox section:Jose_2 keyword:He's been holding out on you]] "Послушай, Бастьен, ты ведь с такой гордостью рассказывал, как долго воровал у друзей, а они ничего не замечали! Чего сейчас-то стесняться?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -20732,11 +18966,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider",
-<<<<<<< HEAD
 								Text = T(646125386624, --[[ModItemConversation Jose_2 Text voice:LegionRaider section:Jose_2 keyword:He's been holding out on you]] "I thought so! I knew he's been stealing from us! Get him, boys!"),
-=======
-								Text = T(646125386624, --[[ModItemConversation Jose_2 Text voice:LegionRaider section:Jose_2 keyword:He's been holding out on you]] "Я так и думал! Я знал, что он нас обворовывает! Бей его, парни!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
@@ -20785,11 +19015,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(163470043973, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:We'll pay]] "Nice doing business with you, boss! Now give me the money."),
-=======
-								Text = T(163470043973, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:We'll pay]] "С тобой приятно иметь дело, босс. А теперь давай деньги."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -20839,11 +19065,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 									Text = T(509697230087, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Here is $1000]] "Heheheee... Come on, boys, drinks are on me."),
-=======
-									Text = T(509697230087, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Here is $1000]] "Хе-хе! Давайте, парни, по стакану за мой счет!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -20852,11 +19074,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "MD",
-<<<<<<< HEAD
 													Text = T(603532482869, --[[ModItemConversation Jose_2 Text voice:MD section:Jose_2 keyword:Here is $1000]] "Well, that seemed a reasonable fee to pay."),
-=======
-													Text = T(603532482869, --[[ModItemConversation Jose_2 Text voice:MD section:Jose_2 keyword:Here is $1000]] "Что ж, оплата кажется разумной."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -20866,11 +19084,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Thor",
-<<<<<<< HEAD
 													Text = T(937548764029, --[[ModItemConversation Jose_2 Text voice:Thor section:Jose_2 keyword:Here is $1000]] "It's good to find other ways besides violence to solve our problems."),
-=======
-													Text = T(937548764029, --[[ModItemConversation Jose_2 Text voice:Thor section:Jose_2 keyword:Here is $1000]] "Хорошо, что с нашими проблемами можно разобраться не только насилием."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -20880,11 +19094,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Red",
-<<<<<<< HEAD
 													Text = T(766317663709, --[[ModItemConversation Jose_2 Text voice:Red section:Jose_2 keyword:Here is $1000]] "Choke on it, ya wee dobber."),
-=======
-													Text = T(766317663709, --[[ModItemConversation Jose_2 Text voice:Red section:Jose_2 keyword:Here is $1000]] "Чтоб ты подавился!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -20944,11 +19154,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 									Text = T(509697230087, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Here is $500]] "Heheheee... Come on, boys, drinks are on me."),
-=======
-									Text = T(509697230087, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Here is $500]] "Хе-хе! Давайте, парни, по стакану за мой счет!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -20987,11 +19193,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 									Text = T(875545780450, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Or rather not]] "Putain merde, you think I'm joking?!"),
-=======
-									Text = T(875545780450, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Or rather not]] "Putain merde, вы думаете, я шучу?!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -21087,11 +19289,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(163470043973, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:We'll pay]] "Nice doing business with you, boss! Now give me the money."),
-=======
-								Text = T(163470043973, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:We'll pay]] "С тобой приятно иметь дело, босс. А теперь давай деньги."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -21101,11 +19299,7 @@ return {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
 												SoundAfter = "Sounds/ConversationEffects/38-S&W_shot4m_dry.wav",
-<<<<<<< HEAD
 												Text = T(232941943774, --[[ModItemConversation Jose_2 Text voice:Meltdown section:Jose_2 keyword:We'll pay]] "The fuck I'll give you the money! Take this, you piece of shit!"),
-=======
-												Text = T(232941943774, --[[ModItemConversation Jose_2 Text voice:Meltdown section:Jose_2 keyword:We'll pay]] "Хер тебе, а не деньги. Получай, дерьма кусок!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21115,11 +19309,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Nails",
-<<<<<<< HEAD
 												Text = T(890000000001169, --[[ModItemConversation Jose_2 Text voice:Nails section:Jose_2 keyword:We'll pay]] "А давай зубов отсыплю? Только выбью их тебе сначала."),
-=======
-												Text = T(859087181358, --[[ModItemConversation Jose_2 Text voice:Nails section:Jose_2 keyword:We'll pay]] "А давай зубов отсыплю? Только выбью их тебе сначала."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21130,11 +19320,7 @@ return {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
 												SoundAfter = "Sounds/ConversationEffects/38-S&W_shot4m_dry.wav",
-<<<<<<< HEAD
 												Text = T(364369096812, --[[ModItemConversation Jose_2 Text voice:Fidel section:Jose_2 keyword:We'll pay]] "Fidel does not pay in money. Fidel pays in bullets!"),
-=======
-												Text = T(364369096812, --[[ModItemConversation Jose_2 Text voice:Fidel section:Jose_2 keyword:We'll pay]] "Фидель не платит деньгами. Фидель платит пулями!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21144,11 +19330,7 @@ return {
 								param_bindings = false,
 							}),
 						},
-<<<<<<< HEAD
 						PhraseConditionRolloverText = T(174128475882, --[[ModItemConversation Jose_2 PhraseConditionRolloverText]] "<color EmStyle>Psycho</color> perk activated"),
-=======
-						PhraseConditionRolloverText = T(174128475882, --[[ModItemConversation Jose_2 PhraseConditionRolloverText]] "Задействована черта «<color EmStyle>психопат</color>»"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						ShowPhraseRollover = false,
 						StoryBranchIcon = "conversation_threaten",
 						id = "Wellpay_failure",
@@ -21196,11 +19378,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Buns",
-<<<<<<< HEAD
 												Text = T(890000000000601, --[[ModItemConversation Jose_2 Text voice:Buns section:Jose_2 keyword:We don't have much]] "Думаю, что можно договориться о скидке. Представь только — устроим перестрелку! Как будет гадко и негигиенично истечь кровью в этой грязи…"),
-=======
-												Text = T(485237875644, --[[ModItemConversation Jose_2 Text voice:Buns section:Jose_2 keyword:We don't have much]] "Думаю, что можно договориться о скидке. Представь только — устроим перестрелку! Как будет гадко и негигиенично истечь кровью в этой грязи…"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21210,11 +19388,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(348063442348, --[[ModItemConversation Jose_2 Text voice:Raider section:Jose_2 keyword:We don't have much]] "We'll give you half. Not a penny more."),
-=======
-												Text = T(348063442348, --[[ModItemConversation Jose_2 Text voice:Raider section:Jose_2 keyword:We don't have much]] "Мы дадим тебе половину. И ни центом больше."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21225,11 +19399,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(189040698738, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:We don't have much]] "Oh yeah, boss, but of course I'll make a discount for you! After all, you're our first client of the day! Half price for you, eh?"),
-=======
-								Text = T(189040698738, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:We don't have much]] "Ага, босс, конечно, я сделаю тебе скидку! В конце концов, ты наш первый клиент за день! Для тебя - половина цены, идет?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -21238,11 +19408,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Barry",
-<<<<<<< HEAD
 												Text = T(751216382007, --[[ModItemConversation Jose_2 Text voice:Barry section:Jose_2 keyword:We don't have much]] "In terms of highway robbery, this is reasonable."),
-=======
-												Text = T(751216382007, --[[ModItemConversation Jose_2 Text voice:Barry section:Jose_2 keyword:We don't have much]] "Для грабежа на широкой дороге условия вполне разумные."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21252,11 +19418,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ice",
-<<<<<<< HEAD
 												Text = T(103835508067, --[[ModItemConversation Jose_2 Text voice:Ice section:Jose_2 keyword:We don't have much]] "This is some bullshit."),
-=======
-												Text = T(103835508067, --[[ModItemConversation Jose_2 Text voice:Ice section:Jose_2 keyword:We don't have much]] "Это чушь какая-то."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21296,11 +19458,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(155914863205, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:We don't have much]] "No way, boss. These are trying times. Everyone has to contribute. Your money. Now."),
-=======
-								Text = T(155914863205, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:We don't have much]] "Не пойдет, босс. Сейчас трудные времена, и каждый должен внести свой вклад. Деньги давай. Живо."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -21333,11 +19491,7 @@ return {
 							}),
 						},
 						Keyword = "Hands up!",
-<<<<<<< HEAD
 						KeywordT = T(890000000000761, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
-=======
-						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -21345,11 +19499,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(678250846572, --[[ModItemConversation Jose_2 Text voice:Fidel section:Jose_2 keyword:Hands up!]] "Maybe Fidel fill your stomachs. Fill your stomachs with lead!"),
-=======
-												Text = T(678250846572, --[[ModItemConversation Jose_2 Text voice:Fidel section:Jose_2 keyword:Hands up!]] "Может, Фидель поможет вам набить желудки? Набить желудки свинцом!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21359,11 +19509,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(731536328898, --[[ModItemConversation Jose_2 Text voice:Meltdown section:Jose_2 keyword:Hands up!]] "Got a counter offer. How about we just kill every last one of you fuckheads?"),
-=======
-												Text = T(731536328898, --[[ModItemConversation Jose_2 Text voice:Meltdown section:Jose_2 keyword:Hands up!]] "У меня встречное предложение. Как насчет того, чтобы мы вас всех нахер перебили, скоты?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21374,11 +19520,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(268657785629, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Hands up!]] "Uhhh... heh-heh... We're just kidding, my friend! My associates, they, uh... they watch too many gangster movies, oui?"),
-=======
-								Text = T(268657785629, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Hands up!]] "Э-э-э... хе-хе... мы же просто пошутили, дружище! Мои коллеги, они... пересмотрели гангстерских фильмов, oui?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -21400,19 +19542,11 @@ return {
 							}),
 						},
 						Keyword = "Hands up!",
-<<<<<<< HEAD
 						KeywordT = T(890000000000761, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
 								Text = T(148558765537, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Hands up!]] "Hehe, you hear that, boys? Is it just me, or is le petit chien trying to bark?"),
-=======
-						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "LegionRaider_Jose",
-								Text = T(148558765537, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Hands up!]] "Хе-хе... слышали, парни? Мне послышалось, или щеночек пытается лаять?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -21451,20 +19585,12 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(152388376227, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:You pay us]] "Okay, okay, let us be reasonable. We're just poor scavengers, aren't we, boys? We don't have much! Look at my wallet. It's all yours. There is no need for violence, yeah?"),
-=======
-								Text = T(152388376227, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:You pay us]] "Ладно, ладно, будем благоразумными. Мы же просто бедные падальщики, правда, парни? У нас ничего нету! Вот, гляди: мой бумажник. Бери всё, что хочешь. Нет необходимости в насилии, да?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider",
-<<<<<<< HEAD
 								Text = T(287413394920, --[[ModItemConversation Jose_2 Text voice:LegionRaider section:Jose_2 keyword:You pay us]] "You have a wallet? I don't even have that! Bastien, we are going to have a talk..."),
-=======
-								Text = T(287413394920, --[[ModItemConversation Jose_2 Text voice:LegionRaider section:Jose_2 keyword:You pay us]] "У тебя что, бумажник есть? Откуда такая роскошь?! Бастьен, нам надо серьезно поговорить..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -21497,30 +19623,18 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(569709897454, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:What about the diamonds?]] "Oh, umm... Well..."),
-=======
-								Text = T(569709897454, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:What about the diamonds?]] "А, эм-м... Ну..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
 								Character = "LegionButcher",
-<<<<<<< HEAD
 								Text = T(938211639716, --[[ModItemConversation Jose_2 Text voice:LegionButcher section:Jose_2 keyword:What about the diamonds?]] "You idiot, you blabbered about that?!"),
-=======
-								Text = T(938211639716, --[[ModItemConversation Jose_2 Text voice:LegionButcher section:Jose_2 keyword:What about the diamonds?]] "Ты, кретин тупой, ты зачем об этом проболтался?!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(904289681021, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:What about the diamonds?]] "Shut up, I was going to bamboozle them something... Damn, forget it. Look, boss, we have the diamonds. They are hidden nearby. You can have 'em. Just let us go, okay?"),
-=======
-								Text = T(904289681021, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:What about the diamonds?]] "Заткнись! Я собирался их обхитрить... а, проехали. Послушай, босс, у нас есть алмазы. Они спрятаны тут, неподалеку. Можешь их забрать, только нас отпусти, ладно?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -21568,11 +19682,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(319788739857, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Give us the diamonds and get out]] "Thank you, boss, we won't forget your kindness, boss. Here, you can have 'em. We will meet again some sunny day, I promise."),
-=======
-								Text = T(319788739857, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Give us the diamonds and get out]] "Спасибо, босс, мы твоей доброты не забудем, босс. Вот, бери. Наступит день, и мы снова встретимся, обещаю."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -21581,11 +19691,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Vicki",
-<<<<<<< HEAD
 												Text = T(890000000000994, --[[ModItemConversation Jose_2 Text voice:Vicki section:Jose_2 keyword:Give us the diamonds and get out]] "Я надеяться, что нет, man, ради твоего же блага."),
-=======
-												Text = T(749004257439, --[[ModItemConversation Jose_2 Text voice:Vicki section:Jose_2 keyword:Give us the diamonds and get out]] "Я надеяться, что нет, man, ради твоего же блага."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21595,11 +19701,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Tex",
-<<<<<<< HEAD
 												Text = T(890000000001171, --[[ModItemConversation Jose_2 Text voice:Tex section:Jose_2 keyword:Give us the diamonds and get out]] "Тебе с твоими бандитами пора сваривать. Давай, живо!"),
-=======
-												Text = T(859532544657, --[[ModItemConversation Jose_2 Text voice:Tex section:Jose_2 keyword:Give us the diamonds and get out]] "Тебе с твоими бандитами пора сваривать. Давай, живо!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21611,11 +19713,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(223009992803, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Give us the diamonds and get out]] "Allez, boys, let's get out of here while we can..."),
-=======
-								Text = T(223009992803, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Give us the diamonds and get out]] "Allez, парни. Давайте убираться отсюда, пока можем..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -21647,11 +19745,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(386137005362, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Drop your guns!]] "Eh... I don't know if that's such a good deal for us. This a dangerous island. A lot of people are up to a lot of trouble. You'd be forcing us to be at the mercy of thugs and robbers!"),
-=======
-								Text = T(386137005362, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Drop your guns!]] "Эх... Не знаю, так ли уж это для нас выгодно. Это опасный остров. Много людей, много планов, много неприятностей. А ты оставляешь нас на милость бандитов и грабителей!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -21660,11 +19754,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(856827326713, --[[ModItemConversation Jose_2 Text voice:Wolf section:Jose_2 keyword:Drop your guns!]] "Sounds like your kind of people. So I'm sure you'd feel right at home."),
-=======
-												Text = T(856827326713, --[[ModItemConversation Jose_2 Text voice:Wolf section:Jose_2 keyword:Drop your guns!]] "Так вы же сами такие. Так что я уверен, что чувствовать вы себя будете как дома."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21674,11 +19764,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raven",
-<<<<<<< HEAD
 												Text = T(792820008159, --[[ModItemConversation Jose_2 Text voice:Raven section:Jose_2 keyword:Drop your guns!]] "And yet somehow I don't feel bad about it."),
-=======
-												Text = T(792820008159, --[[ModItemConversation Jose_2 Text voice:Raven section:Jose_2 keyword:Drop your guns!]] "По какой-то причине мне на это наплевать."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21688,11 +19774,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Steroid",
-<<<<<<< HEAD
 												Text = T(886371729783, --[[ModItemConversation Jose_2 Text voice:Steroid section:Jose_2 keyword:Drop your guns!]] "Ya, that is why you should lift."),
-=======
-												Text = T(886371729783, --[[ModItemConversation Jose_2 Text voice:Steroid section:Jose_2 keyword:Drop your guns!]] "Ага, поэтому вам надо качать железо."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21738,11 +19820,7 @@ return {
 							PlaceObj('CityGrantLoyalty', {
 								Amount = 5,
 								City = "ErnieVillage",
-<<<<<<< HEAD
 								SpecialConversationMessage = T(506164274816, --[[ModItemConversation Jose_2 SpecialConversationMessage]] "humiliated <em>Bastien's gang</em>"),
-=======
-								SpecialConversationMessage = T(506164274816, --[[ModItemConversation Jose_2 SpecialConversationMessage]] "унизили <em>банду Бастьена</em>"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -21753,11 +19831,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
-<<<<<<< HEAD
 								Text = T(981588171822, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Your guns! Now!]] "Easy now! Take it easy. That's okay. No problem. Take our weapons. Me and the boys, maybe we'll just take up fishing, right?"),
-=======
-								Text = T(981588171822, --[[ModItemConversation Jose_2 Text voice:LegionRaider_Jose section:Jose_2 keyword:Your guns! Now!]] "Полегче! Спокойно. Все в порядке. Без проблем. Берите наше оружие. А мы с парнями, наверное, перейдем на рыбалку."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -21791,11 +19865,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Die!",
-<<<<<<< HEAD
 						KeywordT = T(890000000000599, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
-=======
-						KeywordT = T(482976736771, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider_Jose",
@@ -21842,37 +19912,21 @@ return {
 							"01_Landing",
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
 								Text = T(117867967717, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Greeting]] "Thank God, you made it! I wanted to warn you, but you were already enroute. <em>Legion</em> forces have landed on Ernie! They even tried to attack us here at the villa. I can't imagine what they want with this tiny island."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Emma",
-								Text = T(117867967717, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Greeting]] "Слава богу, вы добрались. Я хотела вас предупредить, но вы уже выступили. Боевики <em>Легиона</em> высадились на Эрни! Они даже попробовали напасть на виллу. Ума не приложу, на что им понадобился наш островок."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(354020584288, --[[ModItemConversation FlagHill_Emma_1 Text voice:CorazonSantiago section:FlagHill_Emma_1 keyword:Greeting]] "It is neither <em>Ernie Island</em> nor my villa they want. It is you. Perhaps they think capturing you would make your father more cooperative."),
-=======
-								Text = T(354020584288, --[[ModItemConversation FlagHill_Emma_1 Text voice:CorazonSantiago section:FlagHill_Emma_1 keyword:Greeting]] "Их интересует не <em>остров Эрни</em> и не моя вилла, а вы. Возможно, они решили захватить вас, чтобы ваш отец стал более сговорчивым."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
-<<<<<<< HEAD
 								Text = T(886096052817, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Greeting]] "Then I'm sorry I came. I didn't mean to put anyone else in jeopardy."),
-=======
-								Text = T(886096052817, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Greeting]] "В таком случае мне жаль, что я приехала сюда и подвергла всех опасности."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -21881,11 +19935,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "MD",
-<<<<<<< HEAD
 												Text = T(600467147655, --[[ModItemConversation FlagHill_Emma_1 Text voice:MD section:FlagHill_Emma_1 keyword:Greeting]] "I know how you feel. That's why I prefer bandages over bullets."),
-=======
-												Text = T(600467147655, --[[ModItemConversation FlagHill_Emma_1 Text voice:MD section:FlagHill_Emma_1 keyword:Greeting]] "Как я вас понимаю. Поэтому-то я предпочитаю сшивать, а не стрелять."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21895,11 +19945,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Tex",
-<<<<<<< HEAD
 												Text = T(275211540292, --[[ModItemConversation FlagHill_Emma_1 Text voice:Tex section:FlagHill_Emma_1 keyword:Greeting]] "Don't you worry, little lady. Jeopardy is my business!"),
-=======
-												Text = T(275211540292, --[[ModItemConversation FlagHill_Emma_1 Text voice:Tex section:FlagHill_Emma_1 keyword:Greeting]] "Не беспокойтесь, мисс. Опасность - моя профессия!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21909,11 +19955,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Barry",
-<<<<<<< HEAD
 												Text = T(677692574229, --[[ModItemConversation FlagHill_Emma_1 Text voice:Barry section:FlagHill_Emma_1 keyword:Greeting]] "Have faith. Barry is here."),
-=======
-												Text = T(677692574229, --[[ModItemConversation FlagHill_Emma_1 Text voice:Barry section:FlagHill_Emma_1 keyword:Greeting]] "Не унывай сердцем. Барри здесь."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21923,11 +19965,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grizzly",
-<<<<<<< HEAD
 												Text = T(864433869279, --[[ModItemConversation FlagHill_Emma_1 Text voice:Grizzly section:FlagHill_Emma_1 keyword:Greeting]] "Don't sweat it. You got yourself a Grizzly now."),
-=======
-												Text = T(864433869279, --[[ModItemConversation FlagHill_Emma_1 Text voice:Grizzly section:FlagHill_Emma_1 keyword:Greeting]] "Спокойно. Теперь у тебя есть личный Гризли."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21937,11 +19975,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Vicki",
-<<<<<<< HEAD
 												Text = T(890000000000171, --[[ModItemConversation FlagHill_Emma_1 Text voice:Vicki section:FlagHill_Emma_1 keyword:Greeting]] "Не парься, сестра! Мы разобрать эти железки! Все быть пучком!"),
-=======
-												Text = T(228560503827, --[[ModItemConversation FlagHill_Emma_1 Text voice:Vicki section:FlagHill_Emma_1 keyword:Greeting]] "Не парься, сестра! Мы разобрать эти железки! Все быть пучком!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21951,11 +19985,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Blood",
-<<<<<<< HEAD
 												Text = T(890000000000841, --[[ModItemConversation FlagHill_Emma_1 Text voice:Blood section:FlagHill_Emma_1 keyword:Greeting]] "Скоро в опасности будут только тварюги, которые похитили твоего отца."),
-=======
-												Text = T(642809570861, --[[ModItemConversation FlagHill_Emma_1 Text voice:Blood section:FlagHill_Emma_1 keyword:Greeting]] "Скоро в опасности будут только тварюги, которые похитили твоего отца."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21965,11 +19995,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Livewire",
-<<<<<<< HEAD
 												Text = T(209571505120, --[[ModItemConversation FlagHill_Emma_1 Text voice:Livewire section:FlagHill_Emma_1 keyword:Greeting]] "I really think you should place the blame on the enemy and not on yourself."),
-=======
-												Text = T(209571505120, --[[ModItemConversation FlagHill_Emma_1 Text voice:Livewire section:FlagHill_Emma_1 keyword:Greeting]] "По-моему, тут надо винить не вас, а ваших врагов."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -21994,30 +20020,18 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(199139010121, --[[ModItemConversation FlagHill_Emma_1 Text voice:CorazonSantiago section:FlagHill_Emma_1 keyword:Greeting2]] "Hello again. What would you like to know?"),
-=======
-								Text = T(199139010121, --[[ModItemConversation FlagHill_Emma_1 Text voice:CorazonSantiago section:FlagHill_Emma_1 keyword:Greeting2]] "Снова здравствуйте. Что вы хотите знать?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
 								Character = "Emma",
-<<<<<<< HEAD
 								Text = T(221667014851, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Greeting2]] "Did you need something?"),
-=======
-								Text = T(221667014851, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Greeting2]] "Вам что-нибудь нужно?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -22032,11 +20046,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
-<<<<<<< HEAD
 								Text = T(605426932479, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:We can handle them]] "I am so grateful to hear you say that. Grand Chien's own government can't do a thing to help. I'm reassured by your confidence. Here, please take this as a gesture of my appreciation."),
-=======
-								Text = T(605426932479, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:We can handle them]] "Ох, как я вам благодарна! Правительство Гран-Шьена пальцем о палец не ударит, а ваше спокойствие вселяет в меня уверенность. Пожалуйста, возьмите это - в знак моей признательности."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -22067,11 +20077,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Kalyna",
-<<<<<<< HEAD
 													Text = T(559455269200, --[[ModItemConversation FlagHill_Emma_1 Text voice:Kalyna section:FlagHill_Emma_1 keyword:Thank you]] "Thank you so much! This is the nicest gift I have ever received for shooting at someone."),
-=======
-													Text = T(559455269200, --[[ModItemConversation FlagHill_Emma_1 Text voice:Kalyna section:FlagHill_Emma_1 keyword:Thank you]] "Ой, спасибо! Это лучший подарок, который мне дарили за то, что я в кого-то стреляю."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -22081,11 +20087,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Ice",
-<<<<<<< HEAD
 													Text = T(341274771036, --[[ModItemConversation FlagHill_Emma_1 Text voice:Ice section:FlagHill_Emma_1 keyword:Thank you]] "Ain't nothin' wrong with a little extra dough. Thanks!"),
-=======
-													Text = T(341274771036, --[[ModItemConversation FlagHill_Emma_1 Text voice:Ice section:FlagHill_Emma_1 keyword:Thank you]] "Деньжата лишними не бывают. Спасибочки!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -22095,11 +20097,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Red",
-<<<<<<< HEAD
 													Text = T(944948727771, --[[ModItemConversation FlagHill_Emma_1 Text voice:Red section:FlagHill_Emma_1 keyword:Thank you]] "I dunnae think I've ever been appreciated by a woman before... er, thank you, lassie."),
-=======
-													Text = T(944948727771, --[[ModItemConversation FlagHill_Emma_1 Text voice:Red section:FlagHill_Emma_1 keyword:Thank you]] "Кажись, это первый раз, когда женщины меня еще и благодарят... Гм. Спасибо."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -22110,19 +20108,11 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Emma",
-<<<<<<< HEAD
 									Text = T(234170275015, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Thank you]] "You're quite welcome."),
 									param_bindings = false,
 								}),
 							},
 							PhraseRolloverText = T(153443670599, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Accept $2000"),
-=======
-									Text = T(234170275015, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Thank you]] "Не благодарите меня."),
-									param_bindings = false,
-								}),
-							},
-							PhraseRolloverText = T(153443670599, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Принять $2 000"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 							PlayGoToPhrase = true,
 							StoryBranchIcon = "conversation_action",
 							id = "Thankyou",
@@ -22134,11 +20124,7 @@ return {
 							GoTo = "WeveHadWarmerWelcomes.Thatsnotnecessary2",
 							Keyword = "That's not necessary",
 							KeywordT = T(610507031100, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "That's not necessary"),
-<<<<<<< HEAD
 							PhraseRolloverText = T(476973554424, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Refuse $2000"),
-=======
-							PhraseRolloverText = T(476973554424, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Отказаться от $2 000"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 							PlayGoToPhrase = true,
 							StoryBranchIcon = "conversation_action",
 							id = "Thatsnotnecessary",
@@ -22153,11 +20139,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
-<<<<<<< HEAD
 								Text = T(864752020866, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:We've had warmer welcomes]] "Yes. Again, you have my apologies. Please, accept this as recompense for having to fight your way to our rendezvous."),
-=======
-								Text = T(864752020866, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:We've had warmer welcomes]] "Да. И вновь - прошу у вас прощения. Пожалуйста, примите это как компенсацию за то, что назначила вам встречу в таком месте."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -22199,11 +20181,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fox",
-<<<<<<< HEAD
 													Text = T(344489911054, --[[ModItemConversation FlagHill_Emma_1 Text voice:Fox section:FlagHill_Emma_1 keyword:You can do better than that]] "Not to sound bitchy, but I got my hair done because I thought we'd be meeting in front of cameras. Thankfully, we're not, because now my hair is a complete disaster..."),
-=======
-													Text = T(344489911054, --[[ModItemConversation FlagHill_Emma_1 Text voice:Fox section:FlagHill_Emma_1 keyword:You can do better than that]] "Не то чтоб я жаловалась, но я укладку сделала - думала, ты фотографов позовешь. Ну и хорошо, что не позвала - потому что на голове у меня сейчас черт-те что..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -22213,11 +20191,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Livewire",
-<<<<<<< HEAD
 													Text = T(763143317850, --[[ModItemConversation FlagHill_Emma_1 Text voice:Livewire section:FlagHill_Emma_1 keyword:You can do better than that]] "That is a nice gesture, but technically you are in breach of contract, so I truly feel a little more compensation is warranted."),
-=======
-													Text = T(763143317850, --[[ModItemConversation FlagHill_Emma_1 Text voice:Livewire section:FlagHill_Emma_1 keyword:You can do better than that]] "Жест, конечно, приятный, но, строго говоря, вы нарушили свою сторону договора. Так что тут была бы уместна более существенная компенсация."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -22228,19 +20202,11 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Emma",
-<<<<<<< HEAD
 									Text = T(360988722871, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:You can do better than that]] "Y-yes, of course. I have some extra cash I was saving for... never mind. Please, take it."),
 									param_bindings = false,
 								}),
 							},
 							PhraseRolloverText = T(148723557614, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Accept $2000 and request more"),
-=======
-									Text = T(360988722871, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:You can do better than that]] "Д-да, разумеется. У меня были деньги, которые я откладывала на... впрочем, неважно. Пожалуйста, вот они."),
-									param_bindings = false,
-								}),
-							},
-							PhraseRolloverText = T(148723557614, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Принять $2 000 и потребовать больше"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 							PlayGoToPhrase = true,
 							StoryBranchIcon = "conversation_action",
 							id = "Youcandobetterthanthat",
@@ -22279,11 +20245,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Omryn",
-<<<<<<< HEAD
 													Text = T(890000000000264, --[[ModItemConversation FlagHill_Emma_1 Text voice:Omryn section:FlagHill_Emma_1 keyword:You can do better than that]] "Деньги это хорошо, но Омрын от всей этой драки проголодался. Может, у вас пожрать есть, а?"),
-=======
-													Text = T(279314023855, --[[ModItemConversation FlagHill_Emma_1 Text voice:Omryn section:FlagHill_Emma_1 keyword:You can do better than that]] "Деньги это хорошо, но Омрын от всей этой драки проголодался. Может, у вас пожрать есть, а?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -22293,11 +20255,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Meltdown",
-<<<<<<< HEAD
 													Text = T(890000000001373, --[[ModItemConversation FlagHill_Emma_1 Text voice:Meltdown section:FlagHill_Emma_1 keyword:You can do better than that]] "Это, конечно, мило, но у меня от этой грёбаной высадки теперь вся жопа песком забилась. Ты бы отвалила побольше, а?"),
-=======
-													Text = T(995252931207, --[[ModItemConversation FlagHill_Emma_1 Text voice:Meltdown section:FlagHill_Emma_1 keyword:You can do better than that]] "Это, конечно, мило, но у меня от этой грёбаной высадки теперь вся жопа песком забилась. Ты бы отвалила побольше, а?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -22307,11 +20265,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Nails",
-<<<<<<< HEAD
 													Text = T(890000000000490, --[[ModItemConversation FlagHill_Emma_1 Text voice:Nails section:FlagHill_Emma_1 keyword:You can do better than that]] "И это всё? Не внушает мне уверенности, что ты вообще нам сможешь проплатить."),
-=======
-													Text = T(423029914059, --[[ModItemConversation FlagHill_Emma_1 Text voice:Nails section:FlagHill_Emma_1 keyword:You can do better than that]] "И это всё? Не внушает мне уверенности, что ты вообще нам сможешь проплатить."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -22322,19 +20276,11 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Emma",
-<<<<<<< HEAD
 									Text = T(985915112039, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:You can do better than that]] "I'm sorry, it's all I have to spare. Please, take it."),
 									param_bindings = false,
 								}),
 							},
 							PhraseRolloverText = T(246952293895, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Accept $2000 and request more"),
-=======
-									Text = T(985915112039, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:You can do better than that]] "Извините, это всё, что у меня есть. Пожалуйста, возьмите."),
-									param_bindings = false,
-								}),
-							},
-							PhraseRolloverText = T(246952293895, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Принять $2 000 и потребовать больше"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 							PlayGoToPhrase = true,
 							StoryBranchIcon = "conversation_action",
 							id = "Youcandobetterthanthat2",
@@ -22347,11 +20293,7 @@ return {
 								PlaceObj('CityGrantLoyalty', {
 									Amount = 5,
 									City = "ErnieVillage",
-<<<<<<< HEAD
 									SpecialConversationMessage = T(789704699274, --[[ModItemConversation FlagHill_Emma_1 SpecialConversationMessage]] "good impression on <em>Emma</em>"),
-=======
-									SpecialConversationMessage = T(789704699274, --[[ModItemConversation FlagHill_Emma_1 SpecialConversationMessage]] "<em>Эмма</em> довольна"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -22365,11 +20307,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Hitman",
-<<<<<<< HEAD
 													Text = T(138684567217, --[[ModItemConversation FlagHill_Emma_1 Text voice:Hitman section:FlagHill_Emma_1 keyword:That's not necessary]] "Oh, well that's mighty nice of you, but you go ahead and keep it. We're just here to put a smile back on that pretty face of yours."),
-=======
-													Text = T(138684567217, --[[ModItemConversation FlagHill_Emma_1 Text voice:Hitman section:FlagHill_Emma_1 keyword:That's not necessary]] "Милая, это ужасно любезно с твоей стороны, но оставь их пока у себя. Для нас главное - сделать так, чтобы ты снова улыбалась."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -22379,11 +20317,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Thor",
-<<<<<<< HEAD
 													Text = T(740039436674, --[[ModItemConversation FlagHill_Emma_1 Text voice:Thor section:FlagHill_Emma_1 keyword:That's not necessary]] "Your gift would be better donated to help your people rise up and realize their potential!"),
-=======
-													Text = T(740039436674, --[[ModItemConversation FlagHill_Emma_1 Text voice:Thor section:FlagHill_Emma_1 keyword:That's not necessary]] "Лучше употребите этот дар на то, чтобы помочь людям вашей страны реализовать свой потенциал!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -22393,11 +20327,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "MD",
-<<<<<<< HEAD
 													Text = T(188705929821, --[[ModItemConversation FlagHill_Emma_1 Text voice:MD section:FlagHill_Emma_1 keyword:That's not necessary]] "Oh, you don't have to do that... Right, guys?"),
-=======
-													Text = T(188705929821, --[[ModItemConversation FlagHill_Emma_1 Text voice:MD section:FlagHill_Emma_1 keyword:That's not necessary]] "Ой, ну что вы. Это совсем не обязательно... Верно, ребята?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -22408,19 +20338,11 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Emma",
-<<<<<<< HEAD
 									Text = T(313097213233, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:That's not necessary]] "Your professionalism is admirable and I'll make sure everyone knows it."),
 									param_bindings = false,
 								}),
 							},
 							PhraseRolloverText = T(265154709855, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Refuse $2000"),
-=======
-									Text = T(313097213233, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:That's not necessary]] "Ваш профессионализм заслуживает восхищения. Я сделаю так, чтобы об этом узнали другие."),
-									param_bindings = false,
-								}),
-							},
-							PhraseRolloverText = T(265154709855, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Отказаться от $2 000"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 							PlayGoToPhrase = true,
 							StoryBranchIcon = "conversation_action",
 							id = "Thatsnotnecessary2",
@@ -22449,28 +20371,16 @@ return {
 							"02_LiberateErnie",
 						},
 						Keyword = "Redirect",
-<<<<<<< HEAD
 						KeywordT = T(890000000000352, --[[ModItemConversation Pierre_2 KeywordT]] "Redirect"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
 								Text = T(377769449600, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Redirect]] "Now, as to beginning your search, I suppose questioning the Legion soldiers on <em>Ernie</em> about <em>my father</em> would be a good way for you to start."),
-=======
-						KeywordT = T(328092960140, --[[ModItemConversation Pierre_2 KeywordT]] "Redirect"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Emma",
-								Text = T(377769449600, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Redirect]] "Ну а теперь - что касается ваших поисков. Полагаю, для начала вам стоит допросить боевиков Легиона на острове <em>Эрни</em> и выяснить, где <em>мой отец</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
-<<<<<<< HEAD
 								Text = T(579935892986, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Redirect]] "This is <em>Corazon Santiago</em>. She's the Director of Operations in Grand Chien for the Adonis Corporation. Her people encountered <em>the Legion</em> face to face. She will manage additional funding while you are in the field."),
-=======
-								Text = T(579935892986, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Redirect]] "Это - <em>Корасон Сантьяго</em>, операционный директор корпорации «Адонис» в Гран-Шьене. Ее люди сталкивались с боевиками <em>Легиона</em> лицом к лицу. Дополнительное финансирование вашей операции будет находиться в ее ведении."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -22479,11 +20389,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(316826174218, --[[ModItemConversation FlagHill_Emma_1 Text voice:Wolf section:FlagHill_Emma_1 keyword:Redirect]] "Doesn't matter to me who writes the checks, chief - just so long as they don't bounce."),
-=======
-												Text = T(316826174218, --[[ModItemConversation FlagHill_Emma_1 Text voice:Wolf section:FlagHill_Emma_1 keyword:Redirect]] "Шеф, нам неважно, чья подпись под чеком. Главное, чтоб его в банке приняли."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22493,11 +20399,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Omryn",
-<<<<<<< HEAD
 												Text = T(890000000001087, --[[ModItemConversation FlagHill_Emma_1 Text voice:Omryn section:FlagHill_Emma_1 keyword:Redirect]] "Хорошо, когда платят сверху. И пожрать тоже - хорошо."),
-=======
-												Text = T(808521072911, --[[ModItemConversation FlagHill_Emma_1 Text voice:Omryn section:FlagHill_Emma_1 keyword:Redirect]] "Хорошо, когда платят сверху. И пожрать тоже - хорошо."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22507,11 +20409,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Igor",
-<<<<<<< HEAD
 												Text = T(702752661115, --[[ModItemConversation FlagHill_Emma_1 Text voice:Igor section:FlagHill_Emma_1 keyword:Redirect]] "Good! I also wish to encounter enemy faces."),
-=======
-												Text = T(702752661115, --[[ModItemConversation FlagHill_Emma_1 Text voice:Igor section:FlagHill_Emma_1 keyword:Redirect]] "Хорошо! Я тоже хочу встретить врага лицом к лицу."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22521,11 +20419,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(119928515182, --[[ModItemConversation FlagHill_Emma_1 Text voice:Raider section:FlagHill_Emma_1 keyword:Redirect]] "That's fine by me. Something tells me we're going to need significant operational support."),
-=======
-												Text = T(119928515182, --[[ModItemConversation FlagHill_Emma_1 Text voice:Raider section:FlagHill_Emma_1 keyword:Redirect]] "Я только за. Что-то мне подсказывает, без значительного оперативного обеспечения нам будет не обойтись."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22535,11 +20429,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Kalyna",
-<<<<<<< HEAD
 												Text = T(724253208767, --[[ModItemConversation FlagHill_Emma_1 Text voice:Kalyna section:FlagHill_Emma_1 keyword:Redirect]] "Oh, how nice! This is like having two fairy godmothers!"),
-=======
-												Text = T(724253208767, --[[ModItemConversation FlagHill_Emma_1 Text voice:Kalyna section:FlagHill_Emma_1 keyword:Redirect]] "Ой, как здорово! У меня словно две феи-крестных!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22549,11 +20439,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Nails",
-<<<<<<< HEAD
 												Text = T(890000000000559, --[[ModItemConversation FlagHill_Emma_1 Text voice:Nails section:FlagHill_Emma_1 keyword:Redirect]] "Так. Но есть подвох, да?"),
-=======
-												Text = T(463292741712, --[[ModItemConversation FlagHill_Emma_1 Text voice:Nails section:FlagHill_Emma_1 keyword:Redirect]] "Так. Но есть подвох, да?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22565,11 +20451,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(232418677809, --[[ModItemConversation FlagHill_Emma_1 Text voice:CorazonSantiago section:FlagHill_Emma_1 keyword:Redirect]] "Hello. It is good to meet you. As Emma said, I will provide you with a cut of the proceeds from the Adonis diamond mines to help fund your mission as you liberate each one from Legion control."),
-=======
-								Text = T(232418677809, --[[ModItemConversation FlagHill_Emma_1 Text voice:CorazonSantiago section:FlagHill_Emma_1 keyword:Redirect]] "Здравствуйте. Рада знакомству. Как уже сказала Эмма, я отвечаю за добавочные источники финансирования вашей операции. Часть доходов от освобожденных вами у Легиона алмазных шахт будет отчисляться вам."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -22578,11 +20460,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Blood",
-<<<<<<< HEAD
 												Text = T(868254652532, --[[ModItemConversation FlagHill_Emma_1 Text voice:Blood section:FlagHill_Emma_1 keyword:Redirect]] "Just so you know, I like my cut nice and thick."),
-=======
-												Text = T(868254652532, --[[ModItemConversation FlagHill_Emma_1 Text voice:Blood section:FlagHill_Emma_1 keyword:Redirect]] "Чтоб вы знали: я люблю, когда добавка не меньше самой порции."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22592,11 +20470,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raven",
-<<<<<<< HEAD
 												Text = T(307833275817, --[[ModItemConversation FlagHill_Emma_1 Text voice:Raven section:FlagHill_Emma_1 keyword:Redirect]] "As long as I don't have to do any cavity searches for loose diamonds, I'm in."),
-=======
-												Text = T(307833275817, --[[ModItemConversation FlagHill_Emma_1 Text voice:Raven section:FlagHill_Emma_1 keyword:Redirect]] "Если мне для этого не потребуется проводить досмотр полостей тела - без проблем."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22606,11 +20480,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000000544, --[[ModItemConversation FlagHill_Emma_1 Text voice:Fidel section:FlagHill_Emma_1 keyword:Redirect]] "Ай! Фидель любит шахты! Столько динамита. Это радость!"),
-=======
-												Text = T(450814190201, --[[ModItemConversation FlagHill_Emma_1 Text voice:Fidel section:FlagHill_Emma_1 keyword:Redirect]] "Ай! Фидель любит шахты! Столько динамита. Это радость!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22620,11 +20490,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fox",
-<<<<<<< HEAD
 												Text = T(194641948517, --[[ModItemConversation FlagHill_Emma_1 Text voice:Fox section:FlagHill_Emma_1 keyword:Redirect]] "Whole mines full of diamonds!? Well, now you've got this girl's attention."),
-=======
-												Text = T(194641948517, --[[ModItemConversation FlagHill_Emma_1 Text voice:Fox section:FlagHill_Emma_1 keyword:Redirect]] "Полные шахты алмазов?! У меня уже ушки на макушке."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22634,11 +20500,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Mouse",
-<<<<<<< HEAD
 												Text = T(890000000000631, --[[ModItemConversation FlagHill_Emma_1 Text voice:Mouse section:FlagHill_Emma_1 keyword:Redirect]] "Ой, обожаю шахты! Сплошные норы — прячься, не хочу."),
-=======
-												Text = T(504255453473, --[[ModItemConversation FlagHill_Emma_1 Text voice:Mouse section:FlagHill_Emma_1 keyword:Redirect]] "Ой, обожаю шахты! Сплошные норы — прячься, не хочу."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22648,11 +20510,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Livewire",
-<<<<<<< HEAD
 												Text = T(729259967892, --[[ModItemConversation FlagHill_Emma_1 Text voice:Livewire section:FlagHill_Emma_1 keyword:Redirect]] "If I am being completely honest, this would not be the first time I have liberated diamonds."),
-=======
-												Text = T(729259967892, --[[ModItemConversation FlagHill_Emma_1 Text voice:Livewire section:FlagHill_Emma_1 keyword:Redirect]] "Ну, если уж совсем начистоту, освобождать нехороших парней от их ценностей - это вроде как мое хобби."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22664,11 +20522,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
-<<<<<<< HEAD
 								Text = T(151685000826, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Redirect]] "But first things first. The <em>Legion</em> has overrun the island, capturing the town and the old fortress. Liberating the town is essential to securing transport to the mainland, but securing the whole island will ensure you have a good base of operations. Additionally, the locals may be appreciative and give useful intel."),
-=======
-								Text = T(151685000826, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Redirect]] "Но всему свое время. Пока что этот остров кишит боевиками <em>Легиона</em>. Они захватили деревню и старую крепость. Вам придется освободить деревню, чтобы иметь надежную связь с материком, но если вы освободите весь остров, он станет для вас неплохим оперативным плацдармом. Кроме того, местные жители будут благодарны вам за это и, возможно, помогут информацией."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -22677,11 +20531,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Thor",
-<<<<<<< HEAD
 												Text = T(288279210993, --[[ModItemConversation FlagHill_Emma_1 Text voice:Thor section:FlagHill_Emma_1 keyword:Redirect]] "I am feeling confident and optimistic, like I just had a good bowel movement."),
-=======
-												Text = T(288279210993, --[[ModItemConversation FlagHill_Emma_1 Text voice:Thor section:FlagHill_Emma_1 keyword:Redirect]] "Я полон оптимизма и готов действовать. Прямо как после отличной клизмы."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22691,11 +20541,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(614531946239, --[[ModItemConversation FlagHill_Emma_1 Text voice:Meltdown section:FlagHill_Emma_1 keyword:Redirect]] "The hell we waitin' for? Let's start crackin' skulls!"),
-=======
-												Text = T(614531946239, --[[ModItemConversation FlagHill_Emma_1 Text voice:Meltdown section:FlagHill_Emma_1 keyword:Redirect]] "Ну так какого тогда чёрта мы ждем? Пора вдарить им по яйцам!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22705,11 +20551,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(436493051543, --[[ModItemConversation FlagHill_Emma_1 Text voice:Wolf section:FlagHill_Emma_1 keyword:Redirect]] "Sounds like this little island could serve as a good HQ, chief."),
-=======
-												Text = T(436493051543, --[[ModItemConversation FlagHill_Emma_1 Text voice:Wolf section:FlagHill_Emma_1 keyword:Redirect]] "Шеф, похоже, из этого островка выйдет неплохая база."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22746,11 +20588,7 @@ return {
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000001350, --[[ModItemConversation FlagHill_Emma_1 Text voice:CorazonSantiago section:FlagHill_Emma_1 keyword:Any more details about the Legion?]] "Крупнейшее незаконное вооруженное формирование в регионе. Их предводитель называет себя <em>Майор</em>. Они захватили все наши алмазные прииски. Отряды охраны даже вмешаться не успели. У них прекрасно получается измываться над гражданским населением, но им недостает ума и подготовки. Профессиональные солдаты, вроде вас, легко с ними справятся."),
-=======
-								Text = T(976667367308, --[[ModItemConversation FlagHill_Emma_1 Text voice:CorazonSantiago section:FlagHill_Emma_1 keyword:Any more details about the Legion?]] "Крупнейшее незаконное вооруженное формирование в регионе. Их предводитель называет себя <em>Майор</em>. Они захватили все наши алмазные прииски. Отряды охраны даже вмешаться не успели. У них прекрасно получается измываться над гражданским населением, но им недостает ума и подготовки. Профессиональные солдаты, вроде вас, легко с ними справятся."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -22759,11 +20597,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Buns",
-<<<<<<< HEAD
 												Text = T(890000000000775, --[[ModItemConversation FlagHill_Emma_1 Text voice:Buns section:FlagHill_Emma_1 keyword:Any more details about the Legion?]] "Детка… Для меня ещё соперник не родился."),
-=======
-												Text = T(598576758828, --[[ModItemConversation FlagHill_Emma_1 Text voice:Buns section:FlagHill_Emma_1 keyword:Any more details about the Legion?]] "Детка… Для меня ещё соперник не родился."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22773,11 +20607,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grizzly",
-<<<<<<< HEAD
 												Text = T(172412953945, --[[ModItemConversation FlagHill_Emma_1 Text voice:Grizzly section:FlagHill_Emma_1 keyword:Any more details about the Legion?]] "Beating up dumb bullies happens to be my favorite type of mission. This will be fun."),
-=======
-												Text = T(172412953945, --[[ModItemConversation FlagHill_Emma_1 Text voice:Grizzly section:FlagHill_Emma_1 keyword:Any more details about the Legion?]] "Вам повезло: разбираться с тупыми быками - мое любимое занятие. Будет весело!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22787,11 +20617,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Barry",
-<<<<<<< HEAD
 												Text = T(264836936460, --[[ModItemConversation FlagHill_Emma_1 Text voice:Barry section:FlagHill_Emma_1 keyword:Any more details about the Legion?]] "Our training is of exceeding professional. We will be victorious."),
-=======
-												Text = T(264836936460, --[[ModItemConversation FlagHill_Emma_1 Text voice:Barry section:FlagHill_Emma_1 keyword:Any more details about the Legion?]] "Мы очень профессиональные солдаты. Победа будет позади нас."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22801,11 +20627,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Steroid",
-<<<<<<< HEAD
 												Text = T(162962457061, --[[ModItemConversation FlagHill_Emma_1 Text voice:Steroid section:FlagHill_Emma_1 keyword:Any more details about the Legion?]] "I will show them the force of my incredible biceps and they will run or I will smash them! HAHAHAHAHA!"),
-=======
-												Text = T(162962457061, --[[ModItemConversation FlagHill_Emma_1 Text voice:Steroid section:FlagHill_Emma_1 keyword:Any more details about the Legion?]] "Я покажу им свои невероятной толщины бицепсы, и они в страхе убегут. Или я раздавлю их в лепешку! ХА-ХА-ХА-ХА-ХА!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22815,11 +20637,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "DrQ",
-<<<<<<< HEAD
 												Text = T(182723052012, --[[ModItemConversation FlagHill_Emma_1 Text voice:DrQ section:FlagHill_Emma_1 keyword:Any more details about the Legion?]] "It is always satisfying to discover how a bully will react when they are themselves bullied."),
-=======
-												Text = T(182723052012, --[[ModItemConversation FlagHill_Emma_1 Text voice:DrQ section:FlagHill_Emma_1 keyword:Any more details about the Legion?]] "Всегда приятно видеть реакцию агрессора, когда он сам становится жертвой."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22829,11 +20647,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grunty",
-<<<<<<< HEAD
 												Text = T(643144193803, --[[ModItemConversation FlagHill_Emma_1 Text voice:Grunty section:FlagHill_Emma_1 keyword:Any more details about the Legion?]] "My mother taught me to shoot a gun when she found out I was being bullied at school. The next thing she taught me was how to hide a body."),
-=======
-												Text = T(643144193803, --[[ModItemConversation FlagHill_Emma_1 Text voice:Grunty section:FlagHill_Emma_1 keyword:Any more details about the Legion?]] "Когда мама узнала, что надо мной издеваются в школе, она показала мне, как стрелять из пистолета. Потом ей пришлось показывать, как прятать тело."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22861,11 +20675,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
-<<<<<<< HEAD
 								Text = T(890000000000066, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Who is the Major?]] "Наверное, самый могущественный полевой командир в Гран-Шьене. О нем мало что известно кроме того, что в Легионе насаждается что-то наподобие культа его личности. Бандиты боготворят его и боятся. Чтобы спасти отца, вам наверняка придется столкнуться с Майором напрямую."),
-=======
-								Text = T(147497512265, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Who is the Major?]] "Наверное, самый могущественный полевой командир в Гран-Шьене. О нем мало что известно кроме того, что в Легионе насаждается что-то наподобие культа его личности. Бандиты боготворят его и боятся. Чтобы спасти отца, вам наверняка придется столкнуться с Майором напрямую."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -22874,11 +20684,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ice",
-<<<<<<< HEAD
 												Text = T(973585010358, --[[ModItemConversation FlagHill_Emma_1 Text voice:Ice section:FlagHill_Emma_1 keyword:Who is the Major?]] "Sounds like this dude needs an attitude adjustment."),
-=======
-												Text = T(973585010358, --[[ModItemConversation FlagHill_Emma_1 Text voice:Ice section:FlagHill_Emma_1 keyword:Who is the Major?]] "Похоже, чувака надо поставить на место."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22888,11 +20694,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Red",
-<<<<<<< HEAD
 												Text = T(143706012615, --[[ModItemConversation FlagHill_Emma_1 Text voice:Red section:FlagHill_Emma_1 keyword:Who is the Major?]] "Dinnae fear, lassie. I've dealt with plenty of Majors in my day."),
-=======
-												Text = T(143706012615, --[[ModItemConversation FlagHill_Emma_1 Text voice:Red section:FlagHill_Emma_1 keyword:Who is the Major?]] "Не бойся. Много я таких Майоров повидал."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22902,11 +20704,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(595972913327, --[[ModItemConversation FlagHill_Emma_1 Text voice:Wolf section:FlagHill_Emma_1 keyword:Who is the Major?]] "Sounds like a real bozo. Can't wait to meet him."),
-=======
-												Text = T(595972913327, --[[ModItemConversation FlagHill_Emma_1 Text voice:Wolf section:FlagHill_Emma_1 keyword:Who is the Major?]] "Судя по рассказам, тот еще клоун. С нетерпением жду с ним встречи."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22916,11 +20714,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(714774766507, --[[ModItemConversation FlagHill_Emma_1 Text voice:Meltdown section:FlagHill_Emma_1 keyword:Who is the Major?]] "Oh, we'll deal with him directly, all right. My boot is going to go directly in his ass!"),
-=======
-												Text = T(714774766507, --[[ModItemConversation FlagHill_Emma_1 Text voice:Meltdown section:FlagHill_Emma_1 keyword:Who is the Major?]] "Столкнемся, столкнемся. Мой ботинок - с его жопой!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22930,11 +20724,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "DrQ",
-<<<<<<< HEAD
 												Text = T(178675939812, --[[ModItemConversation FlagHill_Emma_1 Text voice:DrQ section:FlagHill_Emma_1 keyword:Who is the Major?]] "It is every warlord's fate to die violently. I see no reason why this one would be an exception."),
-=======
-												Text = T(178675939812, --[[ModItemConversation FlagHill_Emma_1 Text voice:DrQ section:FlagHill_Emma_1 keyword:Who is the Major?]] "Еще ни один полевой командир не умирал своей смертью. Не вижу причин делать для него исключение."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22944,11 +20734,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Hitman",
-<<<<<<< HEAD
 												Text = T(643437925606, --[[ModItemConversation FlagHill_Emma_1 Text voice:Hitman section:FlagHill_Emma_1 keyword:Who is the Major?]] "If he's dreaming of being a god, he's about to get a real wake-up call."),
-=======
-												Text = T(643437925606, --[[ModItemConversation FlagHill_Emma_1 Text voice:Hitman section:FlagHill_Emma_1 keyword:Who is the Major?]] "Если он мечтает стать богом, его ждет неприятный сюрприз."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -22976,11 +20762,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
-<<<<<<< HEAD
 								Text = T(662382605920, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "This island is isolated and defensible and will serve as a good launch point for missions into the Adjani River Valley. The people here are docile, but resourceful. Help them and they'll help you."),
-=======
-								Text = T(662382605920, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Это отделенный проливом и легко обороняемый остров. Он послужит вам неплохой базой для вылазок в долину реки Аджани. Люди здесь уступчивые, но изобретательные. Помогите им - и они помогут вам."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -22989,11 +20771,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Igor",
-<<<<<<< HEAD
 												Text = T(721083044938, --[[ModItemConversation FlagHill_Emma_1 Text voice:Igor section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "They will all soon know the love of a Dolvich!"),
-=======
-												Text = T(721083044938, --[[ModItemConversation FlagHill_Emma_1 Text voice:Igor section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Они узнают, что значит любовь Долвича!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23003,11 +20781,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Hitman",
-<<<<<<< HEAD
 												Text = T(637906203726, --[[ModItemConversation FlagHill_Emma_1 Text voice:Hitman section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Resourceful is okay, but docile is for the birds. Sounds like they need someone to show them how to throw a punch... or a grenade."),
-=======
-												Text = T(637906203726, --[[ModItemConversation FlagHill_Emma_1 Text voice:Hitman section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Изобретательные - это хорошо, но уступчивые - это никуда не годится. Похоже, надо научить их давать сдачи... Желательно разрывными."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23017,11 +20791,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "MD",
-<<<<<<< HEAD
 												Text = T(317185237382, --[[ModItemConversation FlagHill_Emma_1 Text voice:MD section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Oh, that's swell! They sound nice."),
-=======
-												Text = T(317185237382, --[[ModItemConversation FlagHill_Emma_1 Text voice:MD section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "О, замечательно! Они мне уже нравятся."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23031,11 +20801,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Barry",
-<<<<<<< HEAD
 												Text = T(413052188191, --[[ModItemConversation FlagHill_Emma_1 Text voice:Barry section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "I like this. It is the Christian thing to do."),
-=======
-												Text = T(413052188191, --[[ModItemConversation FlagHill_Emma_1 Text voice:Barry section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Хорошо. Это по-христиански."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23046,39 +20812,23 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
-<<<<<<< HEAD
 								Text = T(990397230043, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Some may prove more helpful than others, I'm sure, but you should talk with as many of them as you can. They may have information that could be of use to..."),
-=======
-								Text = T(990397230043, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Уверена, некоторые будут вам полезнее других, но я бы советовала поговорить со всеми. Возможно, они знают что-то, что может быть вам полезно."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
 								SoundBefore = "Sounds/ConversationEffects/90s_ringtone-maintheme.wav",
-<<<<<<< HEAD
 								Text = T(561666316890, --[[ModItemConversation FlagHill_Emma_1 Text voice:CorazonSantiago section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Please excuse me. I must take this."),
-=======
-								Text = T(561666316890, --[[ModItemConversation FlagHill_Emma_1 Text voice:CorazonSantiago section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Извините, у меня звонок."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000000776, --[[ModItemConversation FlagHill_Emma_1 Text voice:CorazonSantiago section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Да?.. Нет!.. Просто скажи им, чтобы ждали... Пусть ждут сигнала, понятно тебе?"),
-=======
-								Text = T(600284249154, --[[ModItemConversation FlagHill_Emma_1 Text voice:CorazonSantiago section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Да?.. Нет!.. Просто скажи им, чтобы ждали... Пусть ждут сигнала, понятно тебе?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000000951, --[[ModItemConversation FlagHill_Emma_1 Text voice:CorazonSantiago section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Кх-хм. Простите. На чем мы остановились?"),
-=======
-								Text = T(714959176684, --[[ModItemConversation FlagHill_Emma_1 Text voice:CorazonSantiago section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Кх-хм. Простите. На чем мы остановились?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -23087,11 +20837,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Livewire",
-<<<<<<< HEAD
 												Text = T(383719434844, --[[ModItemConversation FlagHill_Emma_1 Text voice:Livewire section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "That did not sound good."),
-=======
-												Text = T(383719434844, --[[ModItemConversation FlagHill_Emma_1 Text voice:Livewire section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Похоже, у кого-то проблемы."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23101,11 +20847,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(272361527117, --[[ModItemConversation FlagHill_Emma_1 Text voice:Meltdown section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "That your mom? Mine's always calling me at a bad time."),
-=======
-												Text = T(272361527117, --[[ModItemConversation FlagHill_Emma_1 Text voice:Meltdown section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Что, мамка твоя? Моя тоже всегда звонит в самый неподходящий момент."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23115,11 +20857,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grizzly",
-<<<<<<< HEAD
 												Text = T(850980540778, --[[ModItemConversation FlagHill_Emma_1 Text voice:Grizzly section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Let me guess - cable guys?"),
-=======
-												Text = T(850980540778, --[[ModItemConversation FlagHill_Emma_1 Text voice:Grizzly section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Дайте угадаю: Интернет дома проводят?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23129,11 +20867,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Buns",
-<<<<<<< HEAD
 												Text = T(217338510208, --[[ModItemConversation FlagHill_Emma_1 Text voice:Buns section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "What was that about?"),
-=======
-												Text = T(217338510208, --[[ModItemConversation FlagHill_Emma_1 Text voice:Buns section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Что такое?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23143,11 +20877,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Barry",
-<<<<<<< HEAD
 												Text = T(364162526948, --[[ModItemConversation FlagHill_Emma_1 Text voice:Barry section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Who was that?"),
-=======
-												Text = T(364162526948, --[[ModItemConversation FlagHill_Emma_1 Text voice:Barry section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Кто вам звонил?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23157,11 +20887,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(429978276975, --[[ModItemConversation FlagHill_Emma_1 Text voice:Raider section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Problem?"),
-=======
-												Text = T(429978276975, --[[ModItemConversation FlagHill_Emma_1 Text voice:Raider section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Какие-то проблемы?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23171,11 +20897,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "MD",
-<<<<<<< HEAD
 												Text = T(883675160308, --[[ModItemConversation FlagHill_Emma_1 Text voice:MD section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "What was that about?"),
-=======
-												Text = T(883675160308, --[[ModItemConversation FlagHill_Emma_1 Text voice:MD section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "У вас что-то случилось?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23185,11 +20907,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "DrQ",
-<<<<<<< HEAD
 												Text = T(359205355424, --[[ModItemConversation FlagHill_Emma_1 Text voice:DrQ section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "That conversation sounded... distressing."),
-=======
-												Text = T(359205355424, --[[ModItemConversation FlagHill_Emma_1 Text voice:DrQ section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Это был... неприятный разговор."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23199,11 +20917,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Mouse",
-<<<<<<< HEAD
 												Text = T(890000000000784, --[[ModItemConversation FlagHill_Emma_1 Text voice:Mouse section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Ну чего — плохие новости?"),
-=======
-												Text = T(611022926029, --[[ModItemConversation FlagHill_Emma_1 Text voice:Mouse section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Ну чего — плохие новости?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23213,11 +20927,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(890000000000269, --[[ModItemConversation FlagHill_Emma_1 Text voice:Wolf section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Это не что-то, о чем нам следует беспокоиться? Так-то мне не страшны удары в спину. Главное - ниже не лезьте."),
-=======
-												Text = T(282727160329, --[[ModItemConversation FlagHill_Emma_1 Text voice:Wolf section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Это не что-то, о чем нам следует беспокоиться? Так-то мне не страшны удары в спину. Главное - ниже не лезьте."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23279,11 +20989,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "CorazonSantiago",
-<<<<<<< HEAD
 												Text = T(890000000000341, --[[ModItemConversation FlagHill_Emma_1 Text voice:CorazonSantiago section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Это… ну... не относится к вашему заданию. Приходится периодически решать небольшие проблемы с... логистикой. Еще раз извиняюсь. У вас еще остались вопросы?"),
-=======
-												Text = T(324723406529, --[[ModItemConversation FlagHill_Emma_1 Text voice:CorazonSantiago section:FlagHill_Emma_1 keyword:Tell us about Ernie Island]] "Это… ну... не относится к вашему заданию. Приходится периодически решать небольшие проблемы с... логистикой. Еще раз извиняюсь. У вас еще остались вопросы?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23312,19 +21018,11 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
 								Text = T(595519103007, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Goodbye]] "Good luck. Corazon and I will be keeping in touch via <em>radio</em>."),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Emma",
-								Text = T(595519103007, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Goodbye]] "Удачи вам. Мисс Корасон и я будем поддерживать с вами <em>радиосвязь</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -23353,19 +21051,11 @@ return {
 					id = "FlagHill_Corazon_1",
 					PlaceObj('ConversationPhrase', {
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
 								Text = T(890000000000721, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:Greeting]] "Снова здравствуйте. О чем хотели поговорить?"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "CorazonSantiago",
-								Text = T(560246133384, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:Greeting]] "Снова здравствуйте. О чем хотели поговорить?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -23378,20 +21068,12 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000000644, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:Tell us about the Legion]] "Крупнейшее незаконное вооруженное формирование в регионе. Их предводитель называет себя <em>Майор</em>. Они захватили все наши алмазные прииски. Отряды охраны даже вмешаться не успели. У них прекрасно получается измываться над гражданским населением, но им недостает ума и подготовки. Профессиональные солдаты, вроде вас, легко с ними справятся."),
-=======
-								Text = T(514532090320, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:Tell us about the Legion]] "Крупнейшее незаконное вооруженное формирование в регионе. Их предводитель называет себя <em>Майор</em>. Они захватили все наши алмазные прииски. Отряды охраны даже вмешаться не успели. У них прекрасно получается измываться над гражданским населением, но им недостает ума и подготовки. Профессиональные солдаты, вроде вас, легко с ними справятся."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(449686482528, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:Tell us about the Legion]] "Little is known about the <em>Major</em> himself, but we do know he's as dependent on the diamond mines as we are. Securing the mines will no doubt force him into the open, where we'll stand a good chance to eliminate him."),
-=======
-								Text = T(449686482528, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:Tell us about the Legion]] "О самом <em>Майоре</em> известно очень мало. Однако мы знаем, что он, как и мы, зависит от этих приисков. Отбив у Легиона месторождения, вы, без сомнения, вынудите его на открытое столкновение - в котором мы наверняка сможем его ликвидировать."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -23400,11 +21082,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raven",
-<<<<<<< HEAD
 												Text = T(255956201170, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Raven section:FlagHill_Corazon_1 keyword:Tell us about the Legion]] "Just give me a nice clean shot and I'll make him part of this country's history."),
-=======
-												Text = T(255956201170, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Raven section:FlagHill_Corazon_1 keyword:Tell us about the Legion]] "Доставьте меня на расстояние прямого выстрела - и я сделаю его частью истории этой страны."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23414,11 +21092,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grizzly",
-<<<<<<< HEAD
 												Text = T(843106978769, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Grizzly section:FlagHill_Corazon_1 keyword:Tell us about the Legion]] "The big, scary monster doesn't like his doggie bowl taken away, huh? Good to know."),
-=======
-												Text = T(843106978769, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Grizzly section:FlagHill_Corazon_1 keyword:Tell us about the Legion]] "Страшный монстр не любит, когда у него отнимают косточку, да? Будем знать."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23428,11 +21102,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Tex",
-<<<<<<< HEAD
 												Text = T(890000000001094, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Tex section:FlagHill_Corazon_1 keyword:Tell us about the Legion]] "Открытое пространство - ручшее место для курьминационной перестрерки!"),
-=======
-												Text = T(813532355903, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Tex section:FlagHill_Corazon_1 keyword:Tell us about the Legion]] "Открытое пространство - ручшее место для курьминационной перестрерки!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23472,11 +21142,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(832474326960, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Yes, we hired a team from <em>M.E.R.C.</em> I assume you're familiar with them. "),
-=======
-								Text = T(832474326960, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Да, мы наняли отряд наемников из <em>M.E.R.C.</em> Полагаю, вы с ними знакомы."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -23485,11 +21151,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(502223473508, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Meltdown section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "What the hell you go and do a dumbass thing like that for?"),
-=======
-												Text = T(502223473508, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Meltdown section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Вы чё, с дуба рухнули? Это ж кем надо быть?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23499,11 +21161,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ice",
-<<<<<<< HEAD
 												Text = T(971252296673, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Ice section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Yeah, I used to run with them. Got out before they got me killed."),
-=======
-												Text = T(971252296673, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Ice section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Да, я с ними работал, но ушел. Предпочитаю умереть из-за собственных ошибок."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23513,11 +21171,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(913693290793, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Raider section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Only by reputation."),
-=======
-												Text = T(913693290793, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Raider section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Наслышаны."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23527,11 +21181,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Buns",
-<<<<<<< HEAD
 												Text = T(890000000000224, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Buns section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Да, это диетическая версия A.I.M. Безвкусны и без удовольствия."),
-=======
-												Text = T(258591428001, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Buns section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Да, это диетическая версия A.I.M. Безвкусны и без удовольствия."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23541,11 +21191,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grizzly",
-<<<<<<< HEAD
 												Text = T(150165866674, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Grizzly section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Bunch of clowns without a circus, you ask me."),
-=======
-												Text = T(150165866674, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Grizzly section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "По мне они - шоу клоунов на выезде."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23556,20 +21202,12 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(392322431077, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Their primary objective was to eliminate <em>The Major</em> himself. At the time, we thought he was a more manageable threat than he's proven to be."),
-=======
-								Text = T(392322431077, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Главной их задачей было ликвидировать самого <em>Майора</em>. В то время он казался нам куда менее опасным противником."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000000172, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Само собой, с задачей они не справились. О них самих с тех пор ничего не слышно, а вот Майор живее всех живых."),
-=======
-								Text = T(229167509462, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Само собой, с задачей они не справились. О них самих с тех пор ничего не слышно, а вот Майор живее всех живых."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -23578,11 +21216,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ice",
-<<<<<<< HEAD
 												Text = T(776960955798, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Ice section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Gonna have to thank Magic again for pulling me out of that sketchy-ass group."),
-=======
-												Text = T(776960955798, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Ice section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Надо не забыть еще раз поблагодарить Мага, что вытащил меня из этой стремной конторы."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23592,11 +21226,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(952937350237, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Meltdown section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "I ain't one goddamn bit surprised."),
-=======
-												Text = T(952937350237, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Meltdown section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Сюрприз, блин."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23606,11 +21236,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Buns",
-<<<<<<< HEAD
 												Text = T(890000000000267, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Buns section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Как говорится… Получил, за что платил."),
-=======
-												Text = T(281954062325, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Buns section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Как говорится… Получил, за что платил."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23621,11 +21247,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000001135, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Ваша первоочередная задача по-прежнему - вернуть под наш контроль месторождения алмазов и спасти президента. Но если вы вдруг узнаете, что стало с наемниками из M.E.R.C., то прошу вас немедленно мне сообщить."),
-=======
-								Text = T(842181908732, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:There were some other mercenaries]] "Ваша первоочередная задача по-прежнему - вернуть под наш контроль месторождения алмазов и спасти президента. Но если вы вдруг узнаете, что стало с наемниками из M.E.R.C., то прошу вас немедленно мне сообщить."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -23639,11 +21261,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(320490406222, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:M.E.R.C.?]] "We haven't heard from <em>Biff Apscott</em>, the M.E.R.C. team's leader, since they left Ernie Island."),
-=======
-								Text = T(320490406222, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:M.E.R.C.?]] "От <em>Биффа Эпскотта</em>, командира их отряда, ничего не слышно с тех самых пор, как они выдвинулись с острова Эрни."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -23652,11 +21270,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(696943183879, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Meltdown section:FlagHill_Corazon_1 keyword:M.E.R.C.?]] "Biff! That guy's five cans short of a six pack."),
-=======
-												Text = T(696943183879, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Meltdown section:FlagHill_Corazon_1 keyword:M.E.R.C.?]] "Бифф?! Да у этого дебила одна извилина - и та посреди жопы!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23666,11 +21280,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ice",
-<<<<<<< HEAD
 												Text = T(139915542600, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Ice section:FlagHill_Corazon_1 keyword:M.E.R.C.?]] "I had a lot of reasons for leaving M.E.R.C. Biff's about half of them."),
-=======
-												Text = T(139915542600, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Ice section:FlagHill_Corazon_1 keyword:M.E.R.C.?]] "Есть целый ряд причин, по которым я ушел из M.E.R.C. Половина из них называется Бифф."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23680,11 +21290,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(878445755842, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Wolf section:FlagHill_Corazon_1 keyword:M.E.R.C.?]] "Biff couldn't lead a dog to a tennis ball factory carrying a pocket full of jerky!"),
-=======
-												Text = T(878445755842, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Wolf section:FlagHill_Corazon_1 keyword:M.E.R.C.?]] "Командира? Бифф не смог бы командовать даже голодным пуделем, имея полный карман вкусняшек!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23695,11 +21301,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000000458, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:M.E.R.C.?]] "Я знаю только, что они пробыли здесь совсем немного, а затем отправились на материк. Я потеряла связь с ними вскоре после высадки. Уверена, местные жители смогут поведать вам больше. Бифф и его люди, как бы это сказать... не очень заботились о конспирации."),
-=======
-								Text = T(396542499336, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:M.E.R.C.?]] "Я знаю только, что они пробыли здесь совсем немного, а затем отправились на материк. Я потеряла связь с ними вскоре после высадки. Уверена, местные жители смогут поведать вам больше. Бифф и его люди, как бы это сказать... не очень заботились о конспирации."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -23720,20 +21322,12 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000000393, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:Eliminate the Major?]] "Да. Это было до того, как он похитил президента. Он захватил наши алмазные прииски и отказался вести переговоры, так что я предприняла единственный доступный мне шаг."),
-=======
-								Text = T(347754309751, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:Eliminate the Major?]] "Да. Это было до того, как он похитил президента. Он захватил наши алмазные прииски и отказался вести переговоры, так что я предприняла единственный доступный мне шаг."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000001374, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:Eliminate the Major?]] "Очевидно, результатов он не дал. Надеюсь, моя ошибка послужит вам уроком: <em>Майора</em> нельзя недооценивать."),
-=======
-								Text = T(995928836458, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:Eliminate the Major?]] "Очевидно, результатов он не дал. Надеюсь, моя ошибка послужит вам уроком: <em>Майора</em> нельзя недооценивать."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -23742,11 +21336,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Igor",
-<<<<<<< HEAD
 												Text = T(559173755854, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Igor section:FlagHill_Corazon_1 keyword:Eliminate the Major?]] "Where others have failed, Igor Dolvich will succeed!"),
-=======
-												Text = T(559173755854, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Igor section:FlagHill_Corazon_1 keyword:Eliminate the Major?]] "Там, где другие терпят неудачи, Игорь Долвич не терпит!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23756,11 +21346,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Barry",
-<<<<<<< HEAD
 												Text = T(710375581244, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Barry section:FlagHill_Corazon_1 keyword:Eliminate the Major?]] "I always learn from mistakes of others. It is how I still retain full number of fingers."),
-=======
-												Text = T(710375581244, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Barry section:FlagHill_Corazon_1 keyword:Eliminate the Major?]] "Я всегда учу уроки. Поэтому у меня все пальцы на руках."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23770,11 +21356,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Mouse",
-<<<<<<< HEAD
 												Text = T(890000000000038, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Mouse section:FlagHill_Corazon_1 keyword:Eliminate the Major?]] "Ох, да уж, мужик явно опасный!"),
-=======
-												Text = T(121248531303, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Mouse section:FlagHill_Corazon_1 keyword:Eliminate the Major?]] "Ох, да уж, мужик явно опасный!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23807,11 +21389,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(451639115412, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:The diamond mines]] "There are two mines that are perhaps the easiest to reach from here - <em>Diamond Red</em> and <em>Mfumu's Mine</em>."),
-=======
-								Text = T(451639115412, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:The diamond mines]] "Пожалуй, два ближайших к нам прииска - это <em>«Даймонд-Ред»</em> и <em>шахта Мфуму</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -23844,11 +21422,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(216687927947, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:Diamond Red?]] "<em>Diamond Red</em> is a strip mine located almost due north from here on the Savanna Coast. It is rumored the <em>Major</em> is using slave labor to mine the diamonds there."),
-=======
-								Text = T(216687927947, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:Diamond Red?]] "<em>«Даймонд-Ред»</em> - карьер, расположенный практически строго к северу от побережья саванны. Говорят, что <em>Майор</em> добывает там алмазы, используя рабский труд."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -23857,11 +21431,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Blood",
-<<<<<<< HEAD
 												Text = T(890000000001142, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Blood section:FlagHill_Corazon_1 keyword:Diamond Red?]] "Жду-не дождусь, когда заставлю его об этом пожалеть."),
-=======
-												Text = T(844783435820, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Blood section:FlagHill_Corazon_1 keyword:Diamond Red?]] "Жду-не дождусь, когда заставлю его об этом пожалеть."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23871,11 +21441,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grunty",
-<<<<<<< HEAD
 												Text = T(537564244740, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Grunty section:FlagHill_Corazon_1 keyword:Diamond Red?]] "Anyone who employs such methods needs to become a part of the past... and stay there."),
-=======
-												Text = T(537564244740, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Grunty section:FlagHill_Corazon_1 keyword:Diamond Red?]] "Тем, кто пользуется подобными методами, место на страницах учебников... и на кладбищах."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23885,11 +21451,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Thor",
-<<<<<<< HEAD
 												Text = T(311501655844, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Thor section:FlagHill_Corazon_1 keyword:Diamond Red?]] "That kind of thing makes me very angry... and I am not an angry person."),
-=======
-												Text = T(311501655844, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Thor section:FlagHill_Corazon_1 keyword:Diamond Red?]] "Когда я слышу о таком, я делаюсь очень зол... при том, что вообще-то я не злюсь."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23928,11 +21490,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(658567123520, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:Mfumu's Mine?]] "The excavation of Mfumu's Palace began as part of an initiative by <em>Alphonse LaFontaine</em> to recover artifacts from the past and raise national pride after the revolution. After digging started, diamond deposits were found. They now call the place <em>Mfumu's Mine</em>."),
-=======
-								Text = T(658567123520, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:Mfumu's Mine?]] "<em>Альфонс Лафонтен</em> приказал раскопать древний дворец Мфуму, чтобы поднять национальный дух после произошедшей революции. Но вскоре после начала раскопок там обнаружили алмазы. Теперь это месторождение называют просто <em>шахта Мфуму</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -23941,11 +21499,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "DrQ",
-<<<<<<< HEAD
 												Text = T(969182680128, --[[ModItemConversation FlagHill_Corazon_1 Text voice:DrQ section:FlagHill_Corazon_1 keyword:Mfumu's Mine?]] "Where profit trumps culture, there is where humanity is lost."),
-=======
-												Text = T(969182680128, --[[ModItemConversation FlagHill_Corazon_1 Text voice:DrQ section:FlagHill_Corazon_1 keyword:Mfumu's Mine?]] "Когда деньги становятся важнее культуры, жертвой становится сама человечность."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23955,11 +21509,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Kalyna",
-<<<<<<< HEAD
 												Text = T(777356371290, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Kalyna section:FlagHill_Corazon_1 keyword:Mfumu's Mine?]] "That is very sad. So many stories lost..."),
-=======
-												Text = T(777356371290, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Kalyna section:FlagHill_Corazon_1 keyword:Mfumu's Mine?]] "Как жалко. Сколько древних историй сгинет без следа..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23969,11 +21519,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Blood",
-<<<<<<< HEAD
 												Text = T(890000000000905, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Blood section:FlagHill_Corazon_1 keyword:Mfumu's Mine?]] "История стара, как мир. Я даже не зол, а… разочарован, что -ли."),
-=======
-												Text = T(694086737023, --[[ModItemConversation FlagHill_Corazon_1 Text voice:Blood section:FlagHill_Corazon_1 keyword:Mfumu's Mine?]] "История стара, как мир. Я даже не зол, а… разочарован, что -ли."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -23990,19 +21536,11 @@ return {
 						AutoRemove = true,
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
 								Text = T(916304309968, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:Goodbye]] "Good luck. I'll be keeping in touch via radio but feel free to return to me if you need to."),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "CorazonSantiago",
-								Text = T(916304309968, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:Goodbye]] "Удачи. Я буду поддерживать с вами радиосвязь, но вы вольны возвращаться, когда в этом будет необходимость."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -24013,19 +21551,11 @@ return {
 					PlaceObj('ConversationPhrase', {
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
 								Text = T(270037332702, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:Goodbye]] "Goodbye."),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "CorazonSantiago",
-								Text = T(270037332702, --[[ModItemConversation FlagHill_Corazon_1 Text voice:CorazonSantiago section:FlagHill_Corazon_1 keyword:Goodbye]] "До свидания."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -24051,19 +21581,11 @@ return {
 					id = "Corazon_Defeated",
 					PlaceObj('ConversationPhrase', {
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
 								Text = T(207424840986, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Greeting]] "Please, just listen! I am not responsible for that mess <em>Emma</em> and <em>Faucheux</em> have dragged you into."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "CorazonSantiago",
-								Text = T(207424840986, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Greeting]] "Пожалуйста, выслушайте меня! Я не в ответе за то дерьмо, в которое вас втянули <em>Эмма</em> и <em>Фошо</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -24072,11 +21594,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Spike",
-<<<<<<< HEAD
 												Text = T(366072662569, --[[ModItemConversation Corazon_Defeated Text voice:Spike section:Corazon_Defeated keyword:Greeting]] "And me! Don't forget about me!"),
-=======
-												Text = T(366072662569, --[[ModItemConversation Corazon_Defeated Text voice:Spike section:Corazon_Defeated keyword:Greeting]] "И я! Меня не забудь!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24087,11 +21605,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000000050, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Greeting]] "Они вас явно используют для своих грязных делишек. Я помогу вам соскочить... Деньги, паспорта... что угодно! Только не надо меня бить!"),
-=======
-								Text = T(135429352585, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Greeting]] "Они вас явно используют для своих грязных делишек. Я помогу вам соскочить... Деньги, паспорта... что угодно! Только не надо меня бить!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -24100,11 +21614,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000001079, --[[ModItemConversation Corazon_Defeated Text voice:Fidel section:Corazon_Defeated keyword:Greeting]] "Насилия много не бывает! Ха-ха-ха!"),
-=======
-												Text = T(802951575607, --[[ModItemConversation Corazon_Defeated Text voice:Fidel section:Corazon_Defeated keyword:Greeting]] "Насилия много не бывает! Ха-ха-ха!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24114,11 +21624,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(720032985962, --[[ModItemConversation Corazon_Defeated Text voice:Raider section:Corazon_Defeated keyword:Greeting]] "You cannot bribe my team, miss."),
-=======
-												Text = T(720032985962, --[[ModItemConversation Corazon_Defeated Text voice:Raider section:Corazon_Defeated keyword:Greeting]] "Моя команда не продается, мисс."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24128,11 +21634,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Magic",
-<<<<<<< HEAD
 												Text = T(932705596066, --[[ModItemConversation Corazon_Defeated Text voice:Magic section:Corazon_Defeated keyword:Greeting]] "Keep talking. I'll let you know if I like what I hear."),
-=======
-												Text = T(932705596066, --[[ModItemConversation Corazon_Defeated Text voice:Magic section:Corazon_Defeated keyword:Greeting]] "Говори дальше. Если мне понравится, я скажу."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24166,11 +21668,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(920600866212, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Faucheux is dead]] "Is he?... Very well!"),
-=======
-								Text = T(920600866212, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Faucheux is dead]] "Да?.. Ну ладно!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -24193,11 +21691,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(850242048360, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Faucheux escaped]] "Ah... what a pity!"),
-=======
-								Text = T(850242048360, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Faucheux escaped]] "Ах... Какая жалость!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -24220,11 +21714,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000000025, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:FaucheuxRedirect]] "Это он во всем виноват. Он <em>обстрелял газом</em> всех этих невинных людей, чтобы вас подставить! В этой стране никакой бизнес не построишь, везде только кровь и хаос. Если вы отпустите меня, я все силы пущу на то, чтобы вернуть вам доброе имя."),
-=======
-								Text = T(114167501942, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:FaucheuxRedirect]] "Это он во всем виноват. Он <em>обстрелял газом</em> всех этих невинных людей, чтобы вас подставить! В этой стране никакой бизнес не построишь, везде только кровь и хаос. Если вы отпустите меня, я все силы пущу на то, чтобы вернуть вам доброе имя."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -24233,11 +21723,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "PierreMerc",
-<<<<<<< HEAD
 												Text = T(826964241356, --[[ModItemConversation Corazon_Defeated Text voice:PierreMerc section:Corazon_Defeated keyword:FaucheuxRedirect]] "Your type of business is not anything the people of Grand Chien need."),
-=======
-												Text = T(826964241356, --[[ModItemConversation Corazon_Defeated Text voice:PierreMerc section:Corazon_Defeated keyword:FaucheuxRedirect]] "Твой «бизнес» - не то, что нужно народу Гран-Шьена."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24247,11 +21733,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Kalyna",
-<<<<<<< HEAD
 												Text = T(309495096893, --[[ModItemConversation Corazon_Defeated Text voice:Kalyna section:Corazon_Defeated keyword:FaucheuxRedirect]] "I do not mean to offend, but \"your power\" does not seem very impressive right now."),
-=======
-												Text = T(309495096893, --[[ModItemConversation Corazon_Defeated Text voice:Kalyna section:Corazon_Defeated keyword:FaucheuxRedirect]] "Не хочу обидеть, но «ваши силы» в настоящее время не слишком впечатляют."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24261,11 +21743,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Hitman",
-<<<<<<< HEAD
 												Text = T(985259779158, --[[ModItemConversation Corazon_Defeated Text voice:Hitman section:Corazon_Defeated keyword:FaucheuxRedirect]] "Look around, lady. You don't even have the power to make me a ham sandwich."),
-=======
-												Text = T(985259779158, --[[ModItemConversation Corazon_Defeated Text voice:Hitman section:Corazon_Defeated keyword:FaucheuxRedirect]] "Да очнись ты! Твоих сил сейчас не хватит даже на то, чтобы приготовить мне сэндвич."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24312,11 +21790,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000001170, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:The news didn’t mention gas]] "Правда? Ну... да, а зачем им? Такое транслировать, только панику сеять в окрестных городах? Я только предположила, что это мог быть газ. Это самый практичный способ убить зараз кучу народа."),
-=======
-								Text = T(859257824691, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:The news didn’t mention gas]] "Правда? Ну... да, а зачем им? Такое транслировать, только панику сеять в окрестных городах? Я только предположила, что это мог быть газ. Это самый практичный способ убить зараз кучу народа."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -24325,11 +21799,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Livewire",
-<<<<<<< HEAD
 												Text = T(887174010463, --[[ModItemConversation Corazon_Defeated Text voice:Livewire section:Corazon_Defeated keyword:The news didn’t mention gas]] "Miss, sometimes I do not know when is the right time to stop talking. I can see that you have the same problem."),
-=======
-												Text = T(887174010463, --[[ModItemConversation Corazon_Defeated Text voice:Livewire section:Corazon_Defeated keyword:The news didn’t mention gas]] "Мисс, иногда я не умею вовремя заткнуться. Похоже, у вас те же проблемы."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24339,11 +21809,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Buns",
-<<<<<<< HEAD
 												Text = T(195293214423, --[[ModItemConversation Corazon_Defeated Text voice:Buns section:Corazon_Defeated keyword:The news didn’t mention gas]] "I am disappointed. I expected you to be a better liar."),
-=======
-												Text = T(195293214423, --[[ModItemConversation Corazon_Defeated Text voice:Buns section:Corazon_Defeated keyword:The news didn’t mention gas]] "Я разочарована. Я думала, вы умеете врать."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24353,11 +21819,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fox",
-<<<<<<< HEAD
 												Text = T(890000000000037, --[[ModItemConversation Corazon_Defeated Text voice:Fox section:Corazon_Defeated keyword:The news didn’t mention gas]] "Радость моя, румяна потрясающие, но даже под ними видно, как ты краснеешь от вранья."),
-=======
-												Text = T(120906945430, --[[ModItemConversation Corazon_Defeated Text voice:Fox section:Corazon_Defeated keyword:The news didn’t mention gas]] "Радость моя, румяна потрясающие, но даже под ними видно, как ты краснеешь от вранья."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24367,11 +21829,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Magic",
-<<<<<<< HEAD
 												Text = T(308966518750, --[[ModItemConversation Corazon_Defeated Text voice:Magic section:Corazon_Defeated keyword:The news didn’t mention gas]] "Smooth. A good lie works on most folks, but I always know when someone is trying to pull a trick on me."),
-=======
-												Text = T(308966518750, --[[ModItemConversation Corazon_Defeated Text voice:Magic section:Corazon_Defeated keyword:The news didn’t mention gas]] "Очень похоже на правду. Большинство бы поверило, но меня так просто не проведешь."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24381,11 +21839,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Gus",
-<<<<<<< HEAD
 												Text = T(856348317277, --[[ModItemConversation Corazon_Defeated Text voice:Gus section:Corazon_Defeated keyword:The news didn’t mention gas]] "Woodnose, you're about as convincing as a snake oil salesman."),
-=======
-												Text = T(856348317277, --[[ModItemConversation Corazon_Defeated Text voice:Gus section:Corazon_Defeated keyword:The news didn’t mention gas]] "Эй, Деревяшка, ты убедительна, как сивый мерин."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24395,11 +21849,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "MD",
-<<<<<<< HEAD
 												Text = T(163382338613, --[[ModItemConversation Corazon_Defeated Text voice:MD section:Corazon_Defeated keyword:The news didn’t mention gas]] "Flushed skin around the throat and cheeks, averted gaze, altered speech pattern... Yep. She's lying."),
-=======
-												Text = T(163382338613, --[[ModItemConversation Corazon_Defeated Text voice:MD section:Corazon_Defeated keyword:The news didn’t mention gas]] "Покраснение кожи, характерные движения глазных яблок, немного сбивчивая речь... Да. Она лжет."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24409,11 +21859,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Thor",
-<<<<<<< HEAD
 												Text = T(735126369488, --[[ModItemConversation Corazon_Defeated Text voice:Thor section:Corazon_Defeated keyword:The news didn’t mention gas]] "I can tell you are lying. Your aura is blushing."),
-=======
-												Text = T(735126369488, --[[ModItemConversation Corazon_Defeated Text voice:Thor section:Corazon_Defeated keyword:The news didn’t mention gas]] "Уверен, ты лжешь. Твоя аура покраснела."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24448,11 +21894,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000000177, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Faucheux is next]] "Как по мне, не стоит дальше лезть в дела этой богом забытой дыры, но решайте сами."),
-=======
-								Text = T(235602515858, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Faucheux is next]] "Как по мне, не стоит дальше лезть в дела этой богом забытой дыры, но решайте сами."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -24478,11 +21920,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000000086, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:What about me?]] "Слушай, ты! У тебя нет никакого права мне угрожать. Я расторгла наш контракт, а ты потом ты свалил и заделался местным бандитским царьком!"),
-=======
-								Text = T(163849104390, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:What about me?]] "Слушай, ты! У тебя нет никакого права мне угрожать. Я расторгла наш контракт, а ты потом ты свалил и заделался местным бандитским царьком!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -24491,11 +21929,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Spike",
-<<<<<<< HEAD
 												Text = T(727630932319, --[[ModItemConversation Corazon_Defeated Text voice:Spike section:Corazon_Defeated keyword:What about me?]] "I like that one!"),
-=======
-												Text = T(727630932319, --[[ModItemConversation Corazon_Defeated Text voice:Spike section:Corazon_Defeated keyword:What about me?]] "Вот это мне нравится!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24506,11 +21940,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000000026, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:What about me?]] "Зря эти наемники тебя сюда притащили! Гнить в тюрьме тебе самое место!"),
-=======
-								Text = T(114419851586, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:What about me?]] "Зря эти наемники тебя сюда притащили! Гнить в тюрьме тебе самое место!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -24519,38 +21949,22 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Spike",
-<<<<<<< HEAD
 												Text = T(782932520411, --[[ModItemConversation Corazon_Defeated Text voice:Spike section:Corazon_Defeated keyword:What about me?]] "They brought me here because we have the same score to settle. You screwed me over and then you went ahead and did it to them too. "),
-=======
-												Text = T(782932520411, --[[ModItemConversation Corazon_Defeated Text voice:Spike section:Corazon_Defeated keyword:What about me?]] "Они притащили меня сюда, потому что нам надо свести кое-какие счеты. Ты кинула меня, а потом точно так же поступила и с ними."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "CorazonSantiago",
-<<<<<<< HEAD
 												Text = T(198214379288, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:What about me?]] "No, this is not at all..."),
-=======
-												Text = T(198214379288, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:What about me?]] "Нет, всё совсем не так..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "Spike",
-<<<<<<< HEAD
 												Text = T(115689193031, --[[ModItemConversation Corazon_Defeated Text voice:Spike section:Corazon_Defeated keyword:What about me?]] "Thanks, by the way. I think they needed to hear you admit that you hired me in the first place."),
-=======
-												Text = T(115689193031, --[[ModItemConversation Corazon_Defeated Text voice:Spike section:Corazon_Defeated keyword:What about me?]] "Кстати, спасибо. Прилюдно призналась, что это ты меня наняла."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "CorazonSantiago",
-<<<<<<< HEAD
 												Text = T(558380153224, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:What about me?]] "I... You... I'm finished talking to you."),
-=======
-												Text = T(558380153224, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:What about me?]] "Я... Ты... Я с тобой больше не разговариваю."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24590,19 +22004,11 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000001380, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Is this your signature on this contract?]] "Что это? Контракт о найме со <em>Спайком Скэллионом</em>? Нет, это не моя подпись. Ничего я с <em>Майором</em> не заключала!"),
 								param_bindings = false,
 							}),
 						},
 						PhraseRolloverText = T(420411424600, --[[ModItemConversation Corazon_Defeated PhraseRolloverText]] "Show the <em>Major's contract</em> with Adonis"),
-=======
-								Text = T(999560132592, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Is this your signature on this contract?]] "Что это? Контракт о найме со <em>Спайком Скэллионом</em>? Нет, это не моя подпись. Ничего я с <em>Майором</em> не заключала!"),
-								param_bindings = false,
-							}),
-						},
-						PhraseRolloverText = T(420411424600, --[[ModItemConversation Corazon_Defeated PhraseRolloverText]] "Показать <em>контракт Майора</em> с «Адонисом»"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						id = "Isthisyoursignatureonthiscontract",
 						param_bindings = false,
 					}),
@@ -24636,11 +22042,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000001043, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:We never mentioned the Major]] "Ну… так..., что Майора зовут <em>Спайк Скэллион</em>, это общеизвестный факт."),
-=======
-								Text = T(788556639809, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:We never mentioned the Major]] "Ну… так..., что Майора зовут <em>Спайк Скэллион</em>, это общеизвестный факт."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -24649,11 +22051,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(947877047252, --[[ModItemConversation Corazon_Defeated Text voice:Raider section:Corazon_Defeated keyword:We never mentioned the Major]] "Actually, it is not. The Major's identity is a well kept secret."),
-=======
-												Text = T(947877047252, --[[ModItemConversation Corazon_Defeated Text voice:Raider section:Corazon_Defeated keyword:We never mentioned the Major]] "Вовсе нет. Настоящая личность Майора засекречена."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24663,11 +22061,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Livewire",
-<<<<<<< HEAD
 												Text = T(386132145137, --[[ModItemConversation Corazon_Defeated Text voice:Livewire section:Corazon_Defeated keyword:We never mentioned the Major]] "Actually, no. After several hours of database hacking, I did not find any connection between the former A.I.M. mercenary and the so-called \"Major.\" Only his most recent employer would know - I guess that's you!"),
-=======
-												Text = T(386132145137, --[[ModItemConversation Corazon_Defeated Text voice:Livewire section:Corazon_Defeated keyword:We never mentioned the Major]] "Отнюдь. Я несколько часов рылась в базах данных, но так и не нашла никаких связей между бывшим наемником A.I.M. и так называемым «Майором». Это может знать только его последний работодатель. Полагаю, это вы и есть!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24677,11 +22071,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Buns",
-<<<<<<< HEAD
 												Text = T(890000000000059, --[[ModItemConversation Corazon_Defeated Text voice:Buns section:Corazon_Defeated keyword:We never mentioned the Major]] "Неправда. Этот факт известен только нам и, что ни сколечки не удивило, вам тоже."),
-=======
-												Text = T(141472428520, --[[ModItemConversation Corazon_Defeated Text voice:Buns section:Corazon_Defeated keyword:We never mentioned the Major]] "Неправда. Этот факт известен только нам и, что ни сколечки не удивило, вам тоже."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24691,11 +22081,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "DrQ",
-<<<<<<< HEAD
 												Text = T(252607005887, --[[ModItemConversation Corazon_Defeated Text voice:DrQ section:Corazon_Defeated keyword:We never mentioned the Major]] "While trying to confuse the hunter, the fox led him to her lair."),
-=======
-												Text = T(252607005887, --[[ModItemConversation Corazon_Defeated Text voice:DrQ section:Corazon_Defeated keyword:We never mentioned the Major]] "Пытаясь запутать охотника, лиса привела его прямо к своей норе."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24705,11 +22091,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Gus",
-<<<<<<< HEAD
 												Text = T(371267913987, --[[ModItemConversation Corazon_Defeated Text voice:Gus section:Corazon_Defeated keyword:We never mentioned the Major]] "Well known only to you, Woodhead. Now I wonder how that could be?"),
-=======
-												Text = T(371267913987, --[[ModItemConversation Corazon_Defeated Text voice:Gus section:Corazon_Defeated keyword:We never mentioned the Major]] "Этот факт известен только тебе, Деревянда. И мне очень интересно, откуда."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24719,11 +22101,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Sidney",
-<<<<<<< HEAD
 												Text = T(304361646892, --[[ModItemConversation Corazon_Defeated Text voice:Sidney section:Corazon_Defeated keyword:We never mentioned the Major]] "Terribly sorry, but I do think you may be mistaken in that regard. The only person who knows that Spike Scallion is the Major is... well, the person that hired him to be the Major."),
-=======
-												Text = T(304361646892, --[[ModItemConversation Corazon_Defeated Text voice:Sidney section:Corazon_Defeated keyword:We never mentioned the Major]] "Ужасно извиняюсь, но, по-моему, в этом отношении вы неправы. О том, что Спайк Скэллион - это Майор, может знать... ну, тот, кто нанял его на роль Майора."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24756,11 +22134,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000000602, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:What about the Major?]] "Я не имею ничего общего с этим психопатом. Он пытался вымогать у меня деньги с тех самых пор, как я назначила его региональным директором «Адониса». Впрочем, для меня это обычный профессиональный риск."),
-=======
-								Text = T(485961694059, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:What about the Major?]] "Я не имею ничего общего с этим психопатом. Он пытался вымогать у меня деньги с тех самых пор, как я назначила его региональным директором «Адониса». Впрочем, для меня это обычный профессиональный риск."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -24769,11 +22143,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "PierreMerc",
-<<<<<<< HEAD
 												Text = T(361846663567, --[[ModItemConversation Corazon_Defeated Text voice:PierreMerc section:Corazon_Defeated keyword:What about the Major?]] "I don't know what the Major really cared about, but I am certain it was not your filthy money."),
-=======
-												Text = T(361846663567, --[[ModItemConversation Corazon_Defeated Text voice:PierreMerc section:Corazon_Defeated keyword:What about the Major?]] "Не знаю, что было нужно Майору, но уж точно не твои грязные деньги."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24783,11 +22153,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Red",
-<<<<<<< HEAD
 												Text = T(440943425605, --[[ModItemConversation Corazon_Defeated Text voice:Red section:Corazon_Defeated keyword:What about the Major?]] "What was that, lass? Sorry, I cannae hear ye on account of the all the SAD VIOLINS!"),
-=======
-												Text = T(440943425605, --[[ModItemConversation Corazon_Defeated Text voice:Red section:Corazon_Defeated keyword:What about the Major?]] "Ах, бедненькая-несчастненькая... Все-то нас обижают!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24797,11 +22163,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Kalyna",
-<<<<<<< HEAD
 												Text = T(821206564162, --[[ModItemConversation Corazon_Defeated Text voice:Kalyna section:Corazon_Defeated keyword:What about the Major?]] "That sounds awful. I have been shot, exploded, punched, kicked, cut, and cursed, but never extorted."),
-=======
-												Text = T(821206564162, --[[ModItemConversation Corazon_Defeated Text voice:Kalyna section:Corazon_Defeated keyword:What about the Major?]] "Какой кошмар. Меня расстреливали, взрывали, били, резали и проклинали, но денег у меня не вымогали ни разу."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24828,11 +22190,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000000941, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:This is not about the money]] "А из-за чего же? Вы же наемники, вы работаете за деньги! Смотрите, давайте я вам оплачу отпуск на то время, пока не улажу местные дела. Вам ведь отпуск явно не помешает, а?"),
-=======
-								Text = T(710862957808, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:This is not about the money]] "А из-за чего же? Вы же наемники, вы работаете за деньги! Смотрите, давайте я вам оплачу отпуск на то время, пока не улажу местные дела. Вам ведь отпуск явно не помешает, а?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -24841,11 +22199,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000001144, --[[ModItemConversation Corazon_Defeated Text voice:Fidel section:Corazon_Defeated keyword:This is not about the money]] "Фиделю не нужны деньги. Фиделю нужна кровь, крики и… части тел. Ха-ха."),
-=======
-												Text = T(845130068448, --[[ModItemConversation Corazon_Defeated Text voice:Fidel section:Corazon_Defeated keyword:This is not about the money]] "Фиделю не нужны деньги. Фиделю нужна кровь, крики и… части тел. Ха-ха."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24855,11 +22209,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fox",
-<<<<<<< HEAD
 												Text = T(890000000000555, --[[ModItemConversation Corazon_Defeated Text voice:Fox section:Corazon_Defeated keyword:This is not about the money]] "Первые твои слова, похожие на правду."),
-=======
-												Text = T(460103764590, --[[ModItemConversation Corazon_Defeated Text voice:Fox section:Corazon_Defeated keyword:This is not about the money]] "Первые твои слова, похожие на правду."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24869,11 +22219,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(890000000000427, --[[ModItemConversation Corazon_Defeated Text voice:Wolf section:Corazon_Defeated keyword:This is not about the money]] "Скорее волк откажется от мяса, чем я поеду в отпуск по твоей путевке."),
-=======
-												Text = T(362580473060, --[[ModItemConversation Corazon_Defeated Text voice:Wolf section:Corazon_Defeated keyword:This is not about the money]] "Скорее волк откажется от мяса, чем я поеду в отпуск по твоей путевке."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24884,11 +22230,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000000624, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:This is not about the money]] "Вы можете временно залечь на дно, а когда эта печальная история забудется, у вас будет куча других контрактов. Я знаю как минимум одну компанию, которой нужны люди с вашими талантами."),
-=======
-								Text = T(497954241265, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:This is not about the money]] "Вы можете временно залечь на дно, а когда эта печальная история забудется, у вас будет куча других контрактов. Я знаю как минимум одну компанию, которой нужны люди с вашими талантами."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -24897,11 +22239,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(690935176243, --[[ModItemConversation Corazon_Defeated Text voice:Fidel section:Corazon_Defeated keyword:This is not about the money]] "You have all that Fidel needs. Body parts."),
-=======
-												Text = T(690935176243, --[[ModItemConversation Corazon_Defeated Text voice:Fidel section:Corazon_Defeated keyword:This is not about the money]] "У тебя есть все, что нужно Фиделю... Части тела!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24911,11 +22249,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fox",
-<<<<<<< HEAD
 												Text = T(890000000000511, --[[ModItemConversation Corazon_Defeated Text voice:Fox section:Corazon_Defeated keyword:This is not about the money]] "…И опять пошло враньё."),
-=======
-												Text = T(431483694278, --[[ModItemConversation Corazon_Defeated Text voice:Fox section:Corazon_Defeated keyword:This is not about the money]] "…И опять пошло враньё."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24925,11 +22259,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grizzly",
-<<<<<<< HEAD
 												Text = T(495666542075, --[[ModItemConversation Corazon_Defeated Text voice:Grizzly section:Corazon_Defeated keyword:This is not about the money]] "Any company recommended by you is one I plan on staying very far away from."),
-=======
-												Text = T(495666542075, --[[ModItemConversation Corazon_Defeated Text voice:Grizzly section:Corazon_Defeated keyword:This is not about the money]] "От любой компании, которую ты посоветуешь, я буду держаться как можно дальше."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24966,11 +22296,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000000863, --[[ModItemConversation Corazon_Defeated Text voice:Fidel section:Corazon_Defeated keyword:You are not talking your way out of this]] "Фидель пришёл взять своё."),
-=======
-												Text = T(655156390901, --[[ModItemConversation Corazon_Defeated Text voice:Fidel section:Corazon_Defeated keyword:You are not talking your way out of this]] "Фидель пришёл взять своё."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24980,11 +22306,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Nails",
-<<<<<<< HEAD
 												Text = T(890000000000204, --[[ModItemConversation Corazon_Defeated Text voice:Nails section:Corazon_Defeated keyword:You are not talking your way out of this]] "Не пори чушь, дамочка, а то я тебя выпорю."),
-=======
-												Text = T(250548265683, --[[ModItemConversation Corazon_Defeated Text voice:Nails section:Corazon_Defeated keyword:You are not talking your way out of this]] "Не пори чушь, дамочка, а то я тебя выпорю."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -24994,11 +22316,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(464325156503, --[[ModItemConversation Corazon_Defeated Text voice:Meltdown section:Corazon_Defeated keyword:You are not talking your way out of this]] "Listen up, bitch. In case you hadn't noticed, I ain't here to negotiate. Just ask your guards. Oh, wait. You can't, because they're all dead."),
-=======
-												Text = T(464325156503, --[[ModItemConversation Corazon_Defeated Text voice:Meltdown section:Corazon_Defeated keyword:You are not talking your way out of this]] "Слышь, ты, сука! Если ты не заметила, я пришла сюда не для переговоров. Хоть своих охранников спроси. Ох, нет, не выйдет: они же мертвы."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -25009,11 +22327,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000000217, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:You are not talking your way out of this]] "Ладно, ладно, не надо мне угрожать!.. Я расскажу вам все, что попросите."),
-=======
-								Text = T(255987944044, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:You are not talking your way out of this]] "Ладно, ладно, не надо мне угрожать!.. Я расскажу вам все, что попросите."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -25051,11 +22365,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000000725, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:You are involved in all this]] "Я просто жертва обстоятельств. Я пришла сюда делать бизнес, а не подставляться под пули. Я понимаю, что вы огорчены таким развитием событий, и готова вам помогать. Давайте начнем все сначала. Скажите, что вам нужно?"),
-=======
-								Text = T(564390066553, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:You are involved in all this]] "Я просто жертва обстоятельств. Я пришла сюда делать бизнес, а не подставляться под пули. Я понимаю, что вы огорчены таким развитием событий, и готова вам помогать. Давайте начнем все сначала. Скажите, что вам нужно?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -25108,11 +22418,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fidel",
-<<<<<<< HEAD
 													Text = T(890000000000533, --[[ModItemConversation Corazon_Defeated Text voice:Fidel section:Corazon_Defeated keyword:Body parts]] "Ха-ха-ха-ха. Фиделю нужны части тела."),
-=======
-													Text = T(439293170620, --[[ModItemConversation Corazon_Defeated Text voice:Fidel section:Corazon_Defeated keyword:Body parts]] "Ха-ха-ха-ха. Фиделю нужны части тела."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25123,11 +22429,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "CorazonSantiago",
-<<<<<<< HEAD
 									Text = T(517035312463, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Body parts]] "Excuse me?..."),
-=======
-									Text = T(517035312463, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Body parts]] "Прошу прощения?.."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -25208,11 +22510,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Raider",
-<<<<<<< HEAD
 													Text = T(834081691198, --[[ModItemConversation Corazon_Defeated Text voice:Raider section:Corazon_Defeated keyword:You will answer in court]] "Ma'am, you have a lot to answer for and you're going to do it in a court of law."),
-=======
-													Text = T(834081691198, --[[ModItemConversation Corazon_Defeated Text voice:Raider section:Corazon_Defeated keyword:You will answer in court]] "Вам есть за что ответить, мэм. И вы сделаете это в суде."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25222,11 +22520,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fauda",
-<<<<<<< HEAD
 													Text = T(988948445303, --[[ModItemConversation Corazon_Defeated Text voice:Fauda section:Corazon_Defeated keyword:You will answer in court]] "You will face justice. It can be here or it can be someplace else."),
-=======
-													Text = T(988948445303, --[[ModItemConversation Corazon_Defeated Text voice:Fauda section:Corazon_Defeated keyword:You will answer in court]] "Ты предстанешь перед судом. Здесь или где-то еще."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25236,11 +22530,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Gus",
-<<<<<<< HEAD
 													Text = T(387808218425, --[[ModItemConversation Corazon_Defeated Text voice:Gus section:Corazon_Defeated keyword:You will answer in court]] "Time to face the music, Woodwind!"),
-=======
-													Text = T(387808218425, --[[ModItemConversation Corazon_Defeated Text voice:Gus section:Corazon_Defeated keyword:You will answer in court]] "Пора платить по счетам, Деревяшка!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25250,11 +22540,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Len",
-<<<<<<< HEAD
 													Text = T(297806017785, --[[ModItemConversation Corazon_Defeated Text voice:Len section:Corazon_Defeated keyword:You will answer in court]] "Ms. Santiago, war crimes have been committed here. The Hague has some questions for you."),
-=======
-													Text = T(297806017785, --[[ModItemConversation Corazon_Defeated Text voice:Len section:Corazon_Defeated keyword:You will answer in court]] "Мисс Сантьяго, здесь были совершены военные преступления. Вас с нетерпением ждут в Гааге."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25264,11 +22550,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Scully",
-<<<<<<< HEAD
 													Text = T(456122223737, --[[ModItemConversation Corazon_Defeated Text voice:Scully section:Corazon_Defeated keyword:You will answer in court]] "I think you're going to need a lawyer. I know several, but I can't recommend any of them."),
-=======
-													Text = T(456122223737, --[[ModItemConversation Corazon_Defeated Text voice:Scully section:Corazon_Defeated keyword:You will answer in court]] "Думаю, тебе понадобится адвокат. Я знаю нескольких, но не возьмусь их рекомендовать."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25278,11 +22560,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Thor",
-<<<<<<< HEAD
 													Text = T(659887881705, --[[ModItemConversation Corazon_Defeated Text voice:Thor section:Corazon_Defeated keyword:You will answer in court]] "It is time for you to cleanse your aura... in front of a judge."),
-=======
-													Text = T(659887881705, --[[ModItemConversation Corazon_Defeated Text voice:Thor section:Corazon_Defeated keyword:You will answer in court]] "Тебе надо очистить свою ауру... перед судом."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25293,11 +22571,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "CorazonSantiago",
-<<<<<<< HEAD
 									Text = T(933327854226, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:You will answer in court]] "I acknowledge that there may be some... irregularities pertaining to my conduct, but I am sure we can reach an agreement that is beneficial to us both."),
-=======
-									Text = T(933327854226, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:You will answer in court]] "Признаю, что иногда я вела себя... некорректно, но я уверена, что мы сможем прийти к взаимовыгодному соглашению."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -25322,11 +22596,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "CorazonSantiago",
-<<<<<<< HEAD
 									Text = T(890000000001286, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:You will answer in court]] "За что? Я ничего не делала! Во всем виноват Фошо, а ваша агрессия в мой адрес ничем не обоснована. Впрочем, я готова всё забыть и пойти с вами на мировую."),
-=======
-									Text = T(925696735562, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:You will answer in court]] "За что? Я ничего не делала! Во всем виноват Фошо, а ваша агрессия в мой адрес ничем не обоснована. Впрочем, я готова всё забыть и пойти с вами на мировую."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -25391,11 +22661,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000000228, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Start talking. Now!]] "Ладно, только не надо меня пытать. Я сказала, что готова вам помочь. Что вам нужно?"),
-=======
-								Text = T(260179220430, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Start talking. Now!]] "Ладно, только не надо меня пытать. Я сказала, что готова вам помочь. Что вам нужно?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -25432,11 +22698,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "CorazonSantiago",
-<<<<<<< HEAD
 									Text = T(581746325747, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Money]] "Of course, I will see that you are properly reimbursed once you let me go."),
-=======
-									Text = T(581746325747, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Money]] "Разумеется, как только вы меня отпустите, я прослежу, чтобы вас должным образом вознаградили."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -25445,11 +22707,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Igor",
-<<<<<<< HEAD
 													Text = T(710970204131, --[[ModItemConversation Corazon_Defeated Text voice:Igor section:Corazon_Defeated keyword:Money]] "And commendation. Do not forget commendation. Is very important."),
-=======
-													Text = T(710970204131, --[[ModItemConversation Corazon_Defeated Text voice:Igor section:Corazon_Defeated keyword:Money]] "А грамоту почетную дашь? Не забудь про грамоту."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25459,11 +22717,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Omryn",
-<<<<<<< HEAD
 													Text = T(555594981596, --[[ModItemConversation Corazon_Defeated Text voice:Omryn section:Corazon_Defeated keyword:Money]] "Do not forget to include bonus rations. I prefer elk jerky."),
-=======
-													Text = T(555594981596, --[[ModItemConversation Corazon_Defeated Text voice:Omryn section:Corazon_Defeated keyword:Money]] "И паек увеличишь? Мне оленинки сушеной, если что."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25473,11 +22727,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Mouse",
-<<<<<<< HEAD
 													Text = T(890000000001173, --[[ModItemConversation Corazon_Defeated Text voice:Mouse section:Corazon_Defeated keyword:Money]] "И не забудь про ещё про выплату для Стеллы. За… моральный ущерб."),
-=======
-													Text = T(859799876035, --[[ModItemConversation Corazon_Defeated Text voice:Mouse section:Corazon_Defeated keyword:Money]] "И не забудь про ещё про выплату для Стеллы. За… моральный ущерб."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25525,11 +22775,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "CorazonSantiago",
-<<<<<<< HEAD
 									Text = T(909841251213, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Information]] "All this mess is the fault of <em>Colonel Faucheux</em>. He planned a coup against his own president, the father of your friend <em>Emma LaFontaine</em>. He tried to get financial support from me, but I refused to be involved in such a thing."),
-=======
-									Text = T(909841251213, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Information]] "Всю эту грязь развел <em>полковник Фошо</em>. Он собирался свергнуть президента, отца вашей подружки <em>Эммы Лафонтен</em>. Он и ко мне обращался за финансовой помощью, но я отказалась в это ввязываться."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -25538,11 +22784,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Raven",
-<<<<<<< HEAD
 													Text = T(572241336462, --[[ModItemConversation Corazon_Defeated Text voice:Raven section:Corazon_Defeated keyword:Information]] "Yeah right, of course you did."),
-=======
-													Text = T(572241336462, --[[ModItemConversation Corazon_Defeated Text voice:Raven section:Corazon_Defeated keyword:Information]] "Да-да, конечно."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25552,11 +22794,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Shadow",
-<<<<<<< HEAD
 													Text = T(694707100106, --[[ModItemConversation Corazon_Defeated Text voice:Shadow section:Corazon_Defeated keyword:Information]] "At least not publicly anyway, right?"),
-=======
-													Text = T(694707100106, --[[ModItemConversation Corazon_Defeated Text voice:Shadow section:Corazon_Defeated keyword:Information]] "По крайней мере, публично, да?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25566,11 +22804,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Ice",
-<<<<<<< HEAD
 													Text = T(492000644772, --[[ModItemConversation Corazon_Defeated Text voice:Ice section:Corazon_Defeated keyword:Information]] "Yeah, I bet. You were too busy trying to get mercs to kill other mercs."),
-=======
-													Text = T(492000644772, --[[ModItemConversation Corazon_Defeated Text voice:Ice section:Corazon_Defeated keyword:Information]] "Ну да. Тебе было не до того: ты стравливала наемников друг с другом."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25581,11 +22815,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "CorazonSantiago",
-<<<<<<< HEAD
 									Text = T(766183871867, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Information]] "Please let me go and I will send you all that I know, so that you can eliminate him... If that is your current contract. I don't need to know the details."),
-=======
-									Text = T(766183871867, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Information]] "Если вы меня отпустите, я скину вам всё, что знаю, и тогда вы сможете его устранить... если этого требует ваш контракт. Подробности мне ни к чему."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -25618,11 +22848,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "CorazonSantiago",
-<<<<<<< HEAD
 									Text = T(890000000000376, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:The truth]] "Конечно, я сообщу вам все, что знаю. Уверена, за такую информацию вы согласитесь меня отпустить."),
-=======
-									Text = T(341129834640, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:The truth]] "Конечно, я сообщу вам все, что знаю. Уверена, за такую информацию вы согласитесь меня отпустить."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -25631,11 +22857,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Spike",
-<<<<<<< HEAD
 													Text = T(868845792035, --[[ModItemConversation Corazon_Defeated Text voice:Spike section:Corazon_Defeated keyword:The truth]] "You better be convincing. You know you can't fool me."),
-=======
-													Text = T(868845792035, --[[ModItemConversation Corazon_Defeated Text voice:Spike section:Corazon_Defeated keyword:The truth]] "Постарайся быть убедительной. Ты знаешь, что меня не проведешь."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25645,11 +22867,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Raider",
-<<<<<<< HEAD
 													Text = T(651056630336, --[[ModItemConversation Corazon_Defeated Text voice:Raider section:Corazon_Defeated keyword:The truth]] "Don't worry about that right now. Please just concentrate on swearing out a full and accurate confession."),
-=======
-													Text = T(651056630336, --[[ModItemConversation Corazon_Defeated Text voice:Raider section:Corazon_Defeated keyword:The truth]] "Об этом не беспокойтесь. От вас сейчас требуются полные и честные признательные показания."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25659,11 +22877,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Wolf",
-<<<<<<< HEAD
 													Text = T(946700790513, --[[ModItemConversation Corazon_Defeated Text voice:Wolf section:Corazon_Defeated keyword:The truth]] "I guess we'll burn that bridge when we come to it."),
-=======
-													Text = T(946700790513, --[[ModItemConversation Corazon_Defeated Text voice:Wolf section:Corazon_Defeated keyword:The truth]] "Полагаю, этот мост мы сожжем, когда доберемся до него."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25674,11 +22888,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "CorazonSantiago",
-<<<<<<< HEAD
 									Text = T(682404983026, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:The truth]] "I have been in contact with <em>Colonel Faucheux</em>, who planned a coup against his own president, the father of your friend <em>Emma LaFontaine</em>."),
-=======
-									Text = T(682404983026, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:The truth]] "Я вступила в контакт с <em>полковником Фошо</em>, который собирался свергнуть президента, отца вашей подружки <em>Эммы Лафонтен</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -25698,11 +22908,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Blood",
-<<<<<<< HEAD
 													Text = T(890000000001161, --[[ModItemConversation Corazon_Defeated Text voice:Blood section:Corazon_Defeated keyword:The truth]] "Затравка неплохая. Перейдем к главному блюду."),
-=======
-													Text = T(853795630059, --[[ModItemConversation Corazon_Defeated Text voice:Blood section:Corazon_Defeated keyword:The truth]] "Затравка неплохая. Перейдем к главному блюду."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25712,11 +22918,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fauda",
-<<<<<<< HEAD
 													Text = T(339059540901, --[[ModItemConversation Corazon_Defeated Text voice:Fauda section:Corazon_Defeated keyword:The truth]] "And he wanted money... or maybe mercenaries?"),
-=======
-													Text = T(339059540901, --[[ModItemConversation Corazon_Defeated Text voice:Fauda section:Corazon_Defeated keyword:The truth]] "Ему были нужны деньги... или, может быть, наемники?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25727,11 +22929,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "CorazonSantiago",
-<<<<<<< HEAD
 									Text = T(890000000000325, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:The truth]] "В обмен на финансовую поддержку он обещал мне монополию на добычу алмазов в долине, но, честное благородное слово, я не знала, что он планировал убить этих людей, чтобы подставить вас. Вот <em>контракт</em>, который я с ним заключила. Прошу, отпустите меня."),
-=======
-									Text = T(312080382125, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:The truth]] "В обмен на финансовую поддержку он обещал мне монополию на добычу алмазов в долине, но, честное благородное слово, я не знала, что он планировал убить этих людей, чтобы подставить вас. Вот <em>контракт</em>, который я с ним заключила. Прошу, отпустите меня."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -25740,11 +22938,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Len",
-<<<<<<< HEAD
 													Text = T(314310431004, --[[ModItemConversation Corazon_Defeated Text voice:Len section:Corazon_Defeated keyword:The truth]] "Now that's something!"),
-=======
-													Text = T(314310431004, --[[ModItemConversation Corazon_Defeated Text voice:Len section:Corazon_Defeated keyword:The truth]] "Вот это другое дело!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25754,11 +22948,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Barry",
-<<<<<<< HEAD
 													Text = T(805182191875, --[[ModItemConversation Corazon_Defeated Text voice:Barry section:Corazon_Defeated keyword:The truth]] "This is first time I have seen a real contract with the devil."),
-=======
-													Text = T(805182191875, --[[ModItemConversation Corazon_Defeated Text voice:Barry section:Corazon_Defeated keyword:The truth]] "Впервые в жизни я вижу настоящий контракт с дьяволом."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25768,11 +22958,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Grunty",
-<<<<<<< HEAD
 													Text = T(456181393675, --[[ModItemConversation Corazon_Defeated Text voice:Grunty section:Corazon_Defeated keyword:The truth]] "I admit that I am surprised it is not signed in blood."),
-=======
-													Text = T(456181393675, --[[ModItemConversation Corazon_Defeated Text voice:Grunty section:Corazon_Defeated keyword:The truth]] "Удивительно, что он не подписан кровью."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -25820,11 +23006,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Reaper",
-<<<<<<< HEAD
 												Text = T(720867182600, --[[ModItemConversation Corazon_Defeated Text voice:Reaper section:Corazon_Defeated keyword:Die, bitch!]] "These are your final moments. I ache to know the thoughts that must be racing through your mind right now."),
-=======
-												Text = T(720867182600, --[[ModItemConversation Corazon_Defeated Text voice:Reaper section:Corazon_Defeated keyword:Die, bitch!]] "Ты стоишь на пороге смерти. Мне очень интересно, какие мысли заполняют сейчас твою голову."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -25834,11 +23016,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Flay",
-<<<<<<< HEAD
 												Text = T(646869687721, --[[ModItemConversation Corazon_Defeated Text voice:Flay section:Corazon_Defeated keyword:Die, bitch!]] "I will make this quick... but also painful."),
-=======
-												Text = T(646869687721, --[[ModItemConversation Corazon_Defeated Text voice:Flay section:Corazon_Defeated keyword:Die, bitch!]] "Я сделаю все быстро... но очень болезненно."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -25848,11 +23026,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Spike",
-<<<<<<< HEAD
 												Text = T(469661400353, --[[ModItemConversation Corazon_Defeated Text voice:Spike section:Corazon_Defeated keyword:Die, bitch!]] "Ol' Spike has come to collect his pound of flesh... and then some."),
-=======
-												Text = T(469661400353, --[[ModItemConversation Corazon_Defeated Text voice:Spike section:Corazon_Defeated keyword:Die, bitch!]] "Старина Спайк пришел получить свою долю... и еще кое-что сверху."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -25863,11 +23037,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(613570290071, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Die, bitch!]] "No, no, don't do this, this is murder..."),
-=======
-								Text = T(613570290071, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Die, bitch!]] "Нет, нет, пожалуйста, не убивайте..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -25904,11 +23074,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000000228, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Stay here. You are under arrest]] "Ладно, только не надо меня пытать. Я сказала, что готова вам помочь. Что вам нужно?"),
-=======
-								Text = T(260179220430, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Stay here. You are under arrest]] "Ладно, только не надо меня пытать. Я сказала, что готова вам помочь. Что вам нужно?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -25944,11 +23110,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-<<<<<<< HEAD
 								Text = T(890000000001110, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Leave this country]] "Да, конечно. Я не хочу больше лезть в эти дела."),
-=======
-								Text = T(822850880670, --[[ModItemConversation Corazon_Defeated Text voice:CorazonSantiago section:Corazon_Defeated keyword:Leave this country]] "Да, конечно. Я не хочу больше лезть в эти дела."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -25957,11 +23119,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(626656126580, --[[ModItemConversation Corazon_Defeated Text voice:Raider section:Corazon_Defeated keyword:Leave this country]] "We will see each other in court. Don't make me come find you."),
-=======
-												Text = T(626656126580, --[[ModItemConversation Corazon_Defeated Text voice:Raider section:Corazon_Defeated keyword:Leave this country]] "Увидимся в суде. И лучше не вынуждайте меня вас искать."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -25971,11 +23129,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Tex",
-<<<<<<< HEAD
 												Text = T(890000000001284, --[[ModItemConversation Corazon_Defeated Text voice:Tex section:Corazon_Defeated keyword:Leave this country]] "Убирайся, пока можешь. И чтоб ноги твоей больше в этом городе не видери!"),
-=======
-												Text = T(923552389671, --[[ModItemConversation Corazon_Defeated Text voice:Tex section:Corazon_Defeated keyword:Leave this country]] "Убирайся, пока можешь. И чтоб ноги твоей больше в этом городе не видери!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -25985,11 +23139,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Scope",
-<<<<<<< HEAD
 												Text = T(746782557948, --[[ModItemConversation Corazon_Defeated Text voice:Scope section:Corazon_Defeated keyword:Leave this country]] "You will still need to testify. Don't make us come looking for you."),
-=======
-												Text = T(746782557948, --[[ModItemConversation Corazon_Defeated Text voice:Scope section:Corazon_Defeated keyword:Leave this country]] "Тебе еще показания в суде давать, золотце. Не заставляй нас за собой гоняться."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -26102,10 +23252,6 @@ return {
 					PlaceObj('SetpieceAssignFromGroup', {
 						AssignTo = "Raider05",
 						Group = "RaiderActor05",
-<<<<<<< HEAD
-=======
-						Marker = "SP_Merc1_GoTo",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					}),
 					PlaceObj('SetpieceTeleport', {
 						Actors = "Raider05",
@@ -26215,60 +23361,36 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
 								Character = "LegionRaider",
 								SoundAfter = "Sounds/ConversationEffects/Herman_shots.wav",
-<<<<<<< HEAD
 								Text = T(890000000000854, --[[ModItemConversation Herman_1 Text voice:LegionRaider section:Herman_1 keyword:Greeting2]] "Ха-ха, Герман, ты танцуешь, как беременная свинья! Выше колени!"),
-=======
-								Text = T(651040808250, --[[ModItemConversation Herman_1 Text voice:LegionRaider section:Herman_1 keyword:Greeting2]] "Ха-ха, Герман, ты танцуешь, как беременная свинья! Выше колени!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Herman",
-<<<<<<< HEAD
 								Text = T(890000000000270, --[[ModItemConversation Herman_1 Text voice:Herman section:Herman_1 keyword:Greeting2]] "Да за что?! Я рассказал вам все, что вы просили!"),
-=======
-								Text = T(282865324856, --[[ModItemConversation Herman_1 Text voice:Herman section:Herman_1 keyword:Greeting2]] "Да за что?! Я рассказал вам все, что вы просили!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
 								Character = "LegionRaider",
-<<<<<<< HEAD
 								Text = T(124111237846, --[[ModItemConversation Herman_1 Text voice:LegionRaider section:Herman_1 keyword:Greeting2]] "Yes, you ratted out your friend. Well done. Now, I want you to dance in a <em>minefield</em>. If you survive, you get paid."),
-=======
-								Text = T(124111237846, --[[ModItemConversation Herman_1 Text voice:LegionRaider section:Herman_1 keyword:Greeting2]] "Да, ты сдал своего дружка. Молодец. А теперь я хочу, чтобы ты потанцевал на <em>минном поле</em>. Выживешь, получишь деньги."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Herman",
-<<<<<<< HEAD
 								Text = T(890000000000405, --[[ModItemConversation Herman_1 Text voice:Herman section:Herman_1 keyword:Greeting2]] "Денег не надо, только отпустите!.."),
-=======
-								Text = T(357107362756, --[[ModItemConversation Herman_1 Text voice:Herman section:Herman_1 keyword:Greeting2]] "Денег не надо, только отпустите!.."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
 								Character = "Herman",
 								SoundBefore = "Sounds/ConversationEffects/iact_steponmine1m.wav",
-<<<<<<< HEAD
 								Text = T(890000000001168, --[[ModItemConversation Herman_1 Text voice:Herman section:Herman_1 keyword:Greeting2]] "...О святая куриная ножка, кажется, я наступил…"),
-=======
-								Text = T(858245047843, --[[ModItemConversation Herman_1 Text voice:Herman section:Herman_1 keyword:Greeting2]] "...О святая куриная ножка, кажется, я наступил…"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -26289,11 +23411,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(165306391611, --[[ModItemConversation Herman_1 Text voice:Raider section:Herman_1 keyword:Let him go]] "Sir, I'm going to have to ask you to cease discharging your firearm at the man in the minefield."),
-=======
-												Text = T(165306391611, --[[ModItemConversation Herman_1 Text voice:Raider section:Herman_1 keyword:Let him go]] "Сэр, прошу вас прекратить вести огонь по человеку на минном поле."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -26303,11 +23421,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grizzly",
-<<<<<<< HEAD
 												Text = T(350171780028, --[[ModItemConversation Herman_1 Text voice:Grizzly section:Herman_1 keyword:Let him go]] "Cut the crap, buttwad. Let him go."),
-=======
-												Text = T(350171780028, --[[ModItemConversation Herman_1 Text voice:Grizzly section:Herman_1 keyword:Let him go]] "Хорош дурью маяться. Отпусти беднягу."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -26317,11 +23431,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Livewire",
-<<<<<<< HEAD
 												Text = T(235599288424, --[[ModItemConversation Herman_1 Text voice:Livewire section:Herman_1 keyword:Let him go]] "Perhaps it is not my place to say, but I really think you are being very mean to that man."),
-=======
-												Text = T(235599288424, --[[ModItemConversation Herman_1 Text voice:Livewire section:Herman_1 keyword:Let him go]] "Возможно, я лезу не в свое дело, но, мне кажется, вы к нему слишком жестоки."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -26370,11 +23480,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Get out of here",
-<<<<<<< HEAD
 						KeywordT = T(890000000000033, --[[ModItemConversation Herman_1 KeywordT]] "Get out of here"),
-=======
-						KeywordT = T(118462598598, --[[ModItemConversation Herman_1 KeywordT]] "Get out of here"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -26382,11 +23488,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000000319, --[[ModItemConversation Herman_1 Text voice:Fidel section:Herman_1 keyword:Get out of here]] "Ох! Фидель любит мины, тоже! Я может возьму эти мины. А ты побежишь, пока есть ещё ноги?!"),
-=======
-												Text = T(306228815291, --[[ModItemConversation Herman_1 Text voice:Fidel section:Herman_1 keyword:Get out of here]] "Ох! Фидель любит мины, тоже! Я может возьму эти мины. А ты побежишь, пока есть ещё ноги?!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -26396,11 +23498,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(919290748274, --[[ModItemConversation Herman_1 Text voice:Meltdown section:Herman_1 keyword:Get out of here]] "There's just one fucking mine field between you and me, dumbass. And guess what, my bullets don't need boots to cross it."),
-=======
-												Text = T(919290748274, --[[ModItemConversation Herman_1 Text voice:Meltdown section:Herman_1 keyword:Get out of here]] "Нас разделяет всего лишь минное поле, дубина. И моей пуле не нужны ботинки, чтобы его пересечь."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -26411,11 +23509,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider",
-<<<<<<< HEAD
 								Text = T(483250742133, --[[ModItemConversation Herman_1 Text voice:LegionRaider section:Herman_1 keyword:Get out of here]] "Okay, fine. Forget it. Fun's over, I guess. Let's go find some more booze."),
-=======
-								Text = T(483250742133, --[[ModItemConversation Herman_1 Text voice:LegionRaider section:Herman_1 keyword:Get out of here]] "Ладно-ладно. Все. Веселье окончено. Пошли искать бухло."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -26438,11 +23532,7 @@ return {
 						},
 						GoTo = "CombatRedirect",
 						Keyword = "Get out of here",
-<<<<<<< HEAD
 						KeywordT = T(890000000000033, --[[ModItemConversation Herman_1 KeywordT]] "Get out of here"),
-=======
-						KeywordT = T(118462598598, --[[ModItemConversation Herman_1 KeywordT]] "Get out of here"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -26450,11 +23540,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Steroid",
-<<<<<<< HEAD
 												Text = T(106727324111, --[[ModItemConversation Herman_1 Text voice:Steroid section:Herman_1 keyword:Get out of here]] "Make like a leaf and split!"),
-=======
-												Text = T(106727324111, --[[ModItemConversation Herman_1 Text voice:Steroid section:Herman_1 keyword:Get out of here]] "Чтоб духу твоего здесь не было, а то весь дух вышибу!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -26464,11 +23550,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raven",
-<<<<<<< HEAD
 												Text = T(160940183001, --[[ModItemConversation Herman_1 Text voice:Raven section:Herman_1 keyword:Get out of here]] "Cease, desist, and disperse!"),
-=======
-												Text = T(160940183001, --[[ModItemConversation Herman_1 Text voice:Raven section:Herman_1 keyword:Get out of here]] "Немедленно прекратить и разойтись!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -26478,11 +23560,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(890000000000740, --[[ModItemConversation Herman_1 Text voice:Wolf section:Herman_1 keyword:Get out of here]] "Всё, смотали в ужасе! Друг в друга постреляете!"),
-=======
-												Text = T(575037729025, --[[ModItemConversation Herman_1 Text voice:Wolf section:Herman_1 keyword:Get out of here]] "Всё, смотали в ужасе! Друг в друга постреляете!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -26513,19 +23591,11 @@ return {
 						Enabled = false,
 						GoTo = "<end conversation>",
 						Keyword = "CombatRedirect",
-<<<<<<< HEAD
 						KeywordT = T(890000000000180, --[[ModItemConversation Herman_1 KeywordT]] "CombatRedirect"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider",
 								Text = T(887141502836, --[[ModItemConversation Herman_1 Text voice:LegionRaider section:Herman_1 keyword:CombatRedirect]] "Who are you?! No, don't tell me, I don't care. First we kill you, then this rat here."),
-=======
-						KeywordT = T(236527406375, --[[ModItemConversation Herman_1 KeywordT]] "CombatRedirect"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "LegionRaider",
-								Text = T(887141502836, --[[ModItemConversation Herman_1 Text voice:LegionRaider section:Herman_1 keyword:CombatRedirect]] "Кто вы такие?! Хотя не говорите, мне плевать. Сперва мы прибьем вас, а потом эту крысу."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -26549,19 +23619,11 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Die!",
-<<<<<<< HEAD
 						KeywordT = T(890000000000599, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "LegionRaider",
 								Text = T(924177724087, --[[ModItemConversation Herman_1 Text voice:LegionRaider section:Herman_1 keyword:Die!]] "Merde! Kill them all!"),
-=======
-						KeywordT = T(482976736771, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "LegionRaider",
-								Text = T(924177724087, --[[ModItemConversation Herman_1 Text voice:LegionRaider section:Herman_1 keyword:Die!]] "Merde! Убить их всех!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -26626,19 +23688,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Herman",
 								Text = T(809987209632, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:Greeting]] "I don't know who you are, but I owe you my life!"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Herman",
-								Text = T(809987209632, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:Greeting]] "Не знаю, кто вы такие, но я обязан вам жизнью!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -26647,11 +23701,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Steroid",
-<<<<<<< HEAD
 												Text = T(732822953197, --[[ModItemConversation Herman_2 Text voice:Steroid section:Herman_2 keyword:Greeting]] "Then you must know you are saved by the mighty arms of Bobby Gontarski!"),
-=======
-												Text = T(732822953197, --[[ModItemConversation Herman_2 Text voice:Steroid section:Herman_2 keyword:Greeting]] "Тогда знай, что тебя спасли могучие руки Бобби Гонтарски!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -26661,11 +23711,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Thor",
-<<<<<<< HEAD
 												Text = T(614953454563, --[[ModItemConversation Herman_2 Text voice:Thor section:Herman_2 keyword:Greeting]] "Then take your life back! Realize your potential!"),
-=======
-												Text = T(614953454563, --[[ModItemConversation Herman_2 Text voice:Thor section:Herman_2 keyword:Greeting]] "Оставь свою жизнь себе! Раскрой свой потенциал!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -26675,11 +23721,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Igor",
-<<<<<<< HEAD
 												Text = T(922502116699, --[[ModItemConversation Herman_2 Text voice:Igor section:Herman_2 keyword:Greeting]] "I hope I get medal for this."),
-=======
-												Text = T(922502116699, --[[ModItemConversation Herman_2 Text voice:Igor section:Herman_2 keyword:Greeting]] "Надеюсь, за это мне дадут медаль."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -26690,11 +23732,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Herman",
-<<<<<<< HEAD
 								Text = T(890000000001136, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:Greeting]] "Ну, мне пора домой. А то меня <em>Марта</em> пилить будет… Сколько ж можно, твою мать…"),
-=======
-								Text = T(842723231714, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:Greeting]] "Ну, мне пора домой. А то меня <em>Марта</em> пилить будет… Сколько ж можно, твою мать…"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -26718,11 +23756,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Herman",
-<<<<<<< HEAD
 								Text = T(146310410908, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:What’s this all about?]] "The goddamned <em>Legion</em>!"),
-=======
-								Text = T(146310410908, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:What’s this all about?]] "Чертов <em>Легион</em>!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -26754,11 +23788,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Herman",
-<<<<<<< HEAD
 								Text = T(806646706819, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:Are you the one that was kidnapped by the Legion?]] "Yes... They said they will pay me, and now I see what they meant!"),
-=======
-								Text = T(806646706819, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:Are you the one that was kidnapped by the Legion?]] "Ну да... Они обещали мне заплатить - и видите, чем это кончилось!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -26775,11 +23805,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Herman",
-<<<<<<< HEAD
 								Text = T(402037263054, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:What happened?]] "They came into the village, taking what they please. But then that idiot <em>Tinhay</em> shot at them! They started beating people up and asking questions, so... I told them who did it."),
-=======
-								Text = T(402037263054, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:What happened?]] "Они пришли в деревню и начали грабеж. А потом этот идиот <em>Тинхей</em> в них выстрелил! Они стали бить и допрашивать людей, и я... сказал им, кто это сделал."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -26788,11 +23814,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ice",
-<<<<<<< HEAD
 												Text = T(515781603752, --[[ModItemConversation Herman_2 Text voice:Ice section:Herman_2 keyword:What happened?]] "You did what?! You squealed? Daaaamn."),
-=======
-												Text = T(515781603752, --[[ModItemConversation Herman_2 Text voice:Ice section:Herman_2 keyword:What happened?]] "Чего?! Так ты стукач? Бли-и-ин."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -26802,11 +23824,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Mouse",
-<<<<<<< HEAD
 												Text = T(890000000000192, --[[ModItemConversation Herman_2 Text voice:Mouse section:Herman_2 keyword:What happened?]] "Ты навёл? Ух-ох, нехорошо это. Всегда любила тихих мышек, больше, чем крыс."),
-=======
-												Text = T(245208346289, --[[ModItemConversation Herman_2 Text voice:Mouse section:Herman_2 keyword:What happened?]] "Ты навёл? Ух-ох, нехорошо это. Всегда любила тихих мышек, больше, чем крыс."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -26816,11 +23834,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(255398991603, --[[ModItemConversation Herman_2 Text voice:Meltdown section:Herman_2 keyword:What happened?]] "Nobody likes a rat."),
-=======
-												Text = T(255398991603, --[[ModItemConversation Herman_2 Text voice:Meltdown section:Herman_2 keyword:What happened?]] "Крыс никто не любит."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -26831,11 +23845,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Herman",
-<<<<<<< HEAD
 								Text = T(231780475358, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:What happened?]] "I thought they would just slap him around! How could I know they'd shoot him?! "),
-=======
-								Text = T(231780475358, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:What happened?]] "Я-то думал, они просто дадут ему в рыло. Кто же знал, что они его пристрелят?!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -26844,11 +23854,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raven",
-<<<<<<< HEAD
 												Text = T(304755419820, --[[ModItemConversation Herman_2 Text voice:Raven section:Herman_2 keyword:What happened?]] "Sure. Hard to imagine armed criminals killing anyone."),
-=======
-												Text = T(304755419820, --[[ModItemConversation Herman_2 Text voice:Raven section:Herman_2 keyword:What happened?]] "Ну да. Кто знал, что вооруженные преступники могут убить?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -26858,11 +23864,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ice",
-<<<<<<< HEAD
 												Text = T(568044686333, --[[ModItemConversation Herman_2 Text voice:Ice section:Herman_2 keyword:What happened?]] "Not cool, dude, not cool."),
-=======
-												Text = T(568044686333, --[[ModItemConversation Herman_2 Text voice:Ice section:Herman_2 keyword:What happened?]] "Плохо, чувак. Очень плохо."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -26872,11 +23874,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Tex",
-<<<<<<< HEAD
 												Text = T(890000000001337, --[[ModItemConversation Herman_2 Text voice:Tex section:Herman_2 keyword:What happened?]] "Десперадос не дают в рыро. Они сразу стреряют."),
-=======
-												Text = T(967893164704, --[[ModItemConversation Herman_2 Text voice:Tex section:Herman_2 keyword:What happened?]] "Десперадос не дают в рыро. Они сразу стреряют."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -26887,11 +23885,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Herman",
-<<<<<<< HEAD
 								Text = T(353341976896, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:What happened?]] "Then they brought me here and I thought I was a goner..."),
-=======
-								Text = T(353341976896, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:What happened?]] "А потом они приволокли меня сюда. Я думал, мне конец..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -26912,11 +23906,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Herman",
-<<<<<<< HEAD
 									Text = T(450719094920, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:Tell us...]] "I wish I could stay and chat, but I really should be getting back to <em>Martha</em>, my wife."),
-=======
-									Text = T(450719094920, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:Tell us...]] "Я бы с радостью поговорил еще, но меня ждет <em>Марта</em>, моя жена."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -26950,11 +23940,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fox",
-<<<<<<< HEAD
 													Text = T(890000000000440, --[[ModItemConversation Herman_2 Text voice:Fox section:Herman_2 keyword:How about Deedee?]] "У жены вопросики к девочке по имени <em>Диди</em>."),
-=======
-													Text = T(374042501226, --[[ModItemConversation Herman_2 Text voice:Fox section:Herman_2 keyword:How about Deedee?]] "У жены вопросики к девочке по имени <em>Диди</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -26964,11 +23950,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Ice",
-<<<<<<< HEAD
 													Text = T(106468230349, --[[ModItemConversation Herman_2 Text voice:Ice section:Herman_2 keyword:How about Deedee?]] "Your old lady says you got a side piece named <em>Deedee</em> around here."),
-=======
-													Text = T(106468230349, --[[ModItemConversation Herman_2 Text voice:Ice section:Herman_2 keyword:How about Deedee?]] "Твоя старуха говорит, что ты завел подружку на стороне, какую-то <em>Диди</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -26978,11 +23960,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Kalyna",
-<<<<<<< HEAD
 													Text = T(613533777959, --[[ModItemConversation Herman_2 Text voice:Kalyna section:Herman_2 keyword:How about Deedee?]] "Your wife said there is an evil sorceress named <em>Deedee</em> who lives near here."),
-=======
-													Text = T(613533777959, --[[ModItemConversation Herman_2 Text voice:Kalyna section:Herman_2 keyword:How about Deedee?]] "Твоя жена сказала, что где-то здесь живет злая колдунья <em>Диди</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -26993,11 +23971,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Herman",
-<<<<<<< HEAD
 									Text = T(392499589986, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:How about Deedee?]] "What about her? Oh, no! Don't tell me my wife is all worked up about that wacko again. She gave me a kiss ONE time when I let her borrow something from the store and Martha won't ever let me forget it. But it was nothing! I would never get anywhere near her blast radius... If you follow me."),
-=======
-									Text = T(392499589986, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:How about Deedee?]] "Что, опять? О нет! Только не говорите, что я опять влип из-за этой дуры. Она меня ОДИН раз поцеловала, когда я приволок ей кое-что из лавки, а Марта до сих пор забыть не может. Ничего у нас не было! Я к ней не сунусь без саперного костюма... и вам не советую."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -27006,11 +23980,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Mouse",
-<<<<<<< HEAD
 													Text = T(890000000000044, --[[ModItemConversation Herman_2 Text voice:Mouse section:Herman_2 keyword:How about Deedee?]] "Ха! Девчонка пугает больше, чем все бандиты вместе взятые!"),
-=======
-													Text = T(127354946460, --[[ModItemConversation Herman_2 Text voice:Mouse section:Herman_2 keyword:How about Deedee?]] "Ха! Девчонка пугает больше, чем все бандиты вместе взятые!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -27030,11 +24000,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Red",
-<<<<<<< HEAD
 													Text = T(418921082890, --[[ModItemConversation Herman_2 Text voice:Red section:Herman_2 keyword:How about Deedee?]] "Now, she's a fine lassie."),
-=======
-													Text = T(418921082890, --[[ModItemConversation Herman_2 Text voice:Red section:Herman_2 keyword:How about Deedee?]] "По-моему, нормальная дамочка."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -27044,11 +24010,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Steroid",
-<<<<<<< HEAD
 													Text = T(890000000000945, --[[ModItemConversation Herman_2 Text voice:Steroid section:Herman_2 keyword:How about Deedee?]] "Чокнутые дуры - это плохо. Чокнутые дуры с бомбами... это крайне плохо."),
-=======
-													Text = T(712794925043, --[[ModItemConversation Herman_2 Text voice:Steroid section:Herman_2 keyword:How about Deedee?]] "Чокнутые дуры - это плохо. Чокнутые дуры с бомбами... это крайне плохо."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -27059,11 +24021,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Herman",
-<<<<<<< HEAD
 									Text = T(890000000001260, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:How about Deedee?]] "Она же тронутая в край! Гм, я про эту девчонку, конечно, а не про жену. Разумеется, не про жену."),
-=======
-									Text = T(904059892650, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:How about Deedee?]] "Она же тронутая в край! Гм, я про эту девчонку, конечно, а не про жену. Разумеется, не про жену."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -27072,11 +24030,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fox",
-<<<<<<< HEAD
 													Text = T(890000000001125, --[[ModItemConversation Herman_2 Text voice:Fox section:Herman_2 keyword:How about Deedee?]] "Солнышко, ты для себя главное это реши"),
-=======
-													Text = T(833546185179, --[[ModItemConversation Herman_2 Text voice:Fox section:Herman_2 keyword:How about Deedee?]] "Солнышко, ты для себя главное это реши"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -27086,11 +24040,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Ice",
-<<<<<<< HEAD
 													Text = T(207014777776, --[[ModItemConversation Herman_2 Text voice:Ice section:Herman_2 keyword:How about Deedee?]] "I hear ya, playah."),
-=======
-													Text = T(207014777776, --[[ModItemConversation Herman_2 Text voice:Ice section:Herman_2 keyword:How about Deedee?]] "Ага, все ясно."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -27100,11 +24050,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Raven",
-<<<<<<< HEAD
 													Text = T(311779845580, --[[ModItemConversation Herman_2 Text voice:Raven section:Herman_2 keyword:How about Deedee?]] "Riiiiiiight."),
-=======
-													Text = T(311779845580, --[[ModItemConversation Herman_2 Text voice:Raven section:Herman_2 keyword:How about Deedee?]] "Та-а-ак."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -27121,19 +24067,11 @@ return {
 						PlaceObj('ConversationPhrase', {
 							Align = "right",
 							Keyword = "Goodbye",
-<<<<<<< HEAD
 							KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Herman",
 									Text = T(890000000000875, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:Goodbye]] "Только пусть насчет <em>Тинхея</em> останется между нами, да? А то в деревне могут не так понять."),
-=======
-							KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-							Lines = {
-								PlaceObj('ConversationLine', {
-									Character = "Herman",
-									Text = T(667595871645, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:Goodbye]] "Только пусть насчет <em>Тинхея</em> останется между нами, да? А то в деревне могут не так понять."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -27142,11 +24080,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Ice",
-<<<<<<< HEAD
 													Text = T(618023136945, --[[ModItemConversation Herman_2 Text voice:Ice section:Herman_2 keyword:Goodbye]] "What's to get wrong, dude? Ya sold out one of your peeps. Time to face the music."),
-=======
-													Text = T(618023136945, --[[ModItemConversation Herman_2 Text voice:Ice section:Herman_2 keyword:Goodbye]] "Чего тут понимать? Ты сдал товарища. Пора держать ответ."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -27165,20 +24099,12 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fox",
-<<<<<<< HEAD
 													Text = T(890000000000746, --[[ModItemConversation Herman_2 Text voice:Fox section:Herman_2 keyword:Goodbye]] "И Диди мы тоже никак не вспоминаем?"),
-=======
-													Text = T(579511437188, --[[ModItemConversation Herman_2 Text voice:Fox section:Herman_2 keyword:Goodbye]] "И Диди мы тоже никак не вспоминаем?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 												PlaceObj('ConversationLine', {
 													Character = "Herman",
-<<<<<<< HEAD
 													Text = T(595340078332, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:Goodbye]] "What? For the last time, I have nothing to do with her!... Oh Gott, what I have gotten myself into..."),
-=======
-													Text = T(595340078332, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:Goodbye]] "Чего? Еще раз говорю, у нас ничего не было!.. Mein Gott, во что я вляпался..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -27188,11 +24114,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Omryn",
-<<<<<<< HEAD
 													Text = T(673011415792, --[[ModItemConversation Herman_2 Text voice:Omryn section:Herman_2 keyword:Goodbye]] "I think there is only one idea here, unless I have miscounted."),
-=======
-													Text = T(673011415792, --[[ModItemConversation Herman_2 Text voice:Omryn section:Herman_2 keyword:Goodbye]] "По-моему, тут можно понять только одним способом. Если я правильно посчитал."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -27202,11 +24124,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Livewire",
-<<<<<<< HEAD
 													Text = T(797358386260, --[[ModItemConversation Herman_2 Text voice:Livewire section:Herman_2 keyword:Goodbye]] "I completely know what you mean. People can be so judgemental."),
-=======
-													Text = T(797358386260, --[[ModItemConversation Herman_2 Text voice:Livewire section:Herman_2 keyword:Goodbye]] "Отлично тебя понимаю. Люди такие ханжи!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -27217,11 +24135,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Herman",
-<<<<<<< HEAD
 									Text = T(141319539633, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:Goodbye]] "See, I know you don't work for free, but I'll reward you when I'm back at my shop... I'll give you everything I've got, just please keep my little secret. Okay?"),
-=======
-									Text = T(141319539633, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:Goodbye]] "Слушайте, я знаю, что вы не работаете бесплатно, но я вас награжу, когда вернусь в лавку... Я отдам вам всё, только пожалуйста: сохраните мою тайну! Идет?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -27251,11 +24165,7 @@ return {
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "Herman",
-<<<<<<< HEAD
 										Text = T(798273607806, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:Okay, we won't tell]] "Thank you! You've saved my life twice over. Come see me at my shop and I'll give you everything I have."),
-=======
-										Text = T(798273607806, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:Okay, we won't tell]] "Спасибо! Вы снова спасли мне жизнь! Заходите в лавку - и я отдам вам все, что у меня есть."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 										param_bindings = false,
 									}),
 									PlaceObj('ConversationInterjectionList', {
@@ -27264,11 +24174,7 @@ return {
 												Lines = {
 													PlaceObj('ConversationLine', {
 														Character = "Ice",
-<<<<<<< HEAD
 														Text = T(631359419875, --[[ModItemConversation Herman_2 Text voice:Ice section:Herman_2 keyword:Okay, we won't tell]] "I like a little bling if I'm not gonna sing, know what I'm sayin'?"),
-=======
-														Text = T(631359419875, --[[ModItemConversation Herman_2 Text voice:Ice section:Herman_2 keyword:Okay, we won't tell]] "Ну да, как говорится, молчание - золото."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 														param_bindings = false,
 													}),
 												},
@@ -27278,11 +24184,7 @@ return {
 												Lines = {
 													PlaceObj('ConversationLine', {
 														Character = "Meltdown",
-<<<<<<< HEAD
 														Text = T(126848372631, --[[ModItemConversation Herman_2 Text voice:Meltdown section:Herman_2 keyword:Okay, we won't tell]] "Your secret's safe with us, pal!"),
-=======
-														Text = T(126848372631, --[[ModItemConversation Herman_2 Text voice:Meltdown section:Herman_2 keyword:Okay, we won't tell]] "Не боись, мы твой секрет не выдадим!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 														param_bindings = false,
 													}),
 												},
@@ -27292,11 +24194,7 @@ return {
 												Lines = {
 													PlaceObj('ConversationLine', {
 														Character = "Mouse",
-<<<<<<< HEAD
 														Text = T(890000000000935, --[[ModItemConversation Herman_2 Text voice:Mouse section:Herman_2 keyword:Okay, we won't tell]] "Ага. В таком случае я буду тиха, как… Ну… Ты понял."),
-=======
-														Text = T(706375361526, --[[ModItemConversation Herman_2 Text voice:Mouse section:Herman_2 keyword:Okay, we won't tell]] "Ага. В таком случае я буду тиха, как… Ну… Ты понял."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 														param_bindings = false,
 													}),
 												},
@@ -27334,11 +24232,7 @@ return {
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "Herman",
-<<<<<<< HEAD
 										Text = T(777469532430, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:We can't promise]] "Is there no end to my suffering? Please reconsider. They'll kill me! And if something happens to me, who will look after Martha?"),
-=======
-										Text = T(777469532430, --[[ModItemConversation Herman_2 Text voice:Herman section:Herman_2 keyword:We can't promise]] "Когда же кончатся мои мучения? Пожалуйста, не надо. Они же меня убьют! А если со мной что-то случится, кто позаботится о моей Марте?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 										param_bindings = false,
 									}),
 									PlaceObj('ConversationInterjectionList', {
@@ -27347,11 +24241,7 @@ return {
 												Lines = {
 													PlaceObj('ConversationLine', {
 														Character = "Ice",
-<<<<<<< HEAD
 														Text = T(979184163111, --[[ModItemConversation Herman_2 Text voice:Ice section:Herman_2 keyword:We can't promise]] "No deal with a rat, dude."),
-=======
-														Text = T(979184163111, --[[ModItemConversation Herman_2 Text voice:Ice section:Herman_2 keyword:We can't promise]] "Извини, с крысами дел не имею."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 														param_bindings = false,
 													}),
 												},
@@ -27361,11 +24251,7 @@ return {
 												Lines = {
 													PlaceObj('ConversationLine', {
 														Character = "Raider",
-<<<<<<< HEAD
 														Text = T(749388017899, --[[ModItemConversation Herman_2 Text voice:Raider section:Herman_2 keyword:We can't promise]] "I won't judge you, but it's only right that someone from your town should."),
-=======
-														Text = T(749388017899, --[[ModItemConversation Herman_2 Text voice:Raider section:Herman_2 keyword:We can't promise]] "Я тебя судить не буду, а вот у твоих односельчан есть на это полное право."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 														param_bindings = false,
 													}),
 												},
@@ -27375,11 +24261,7 @@ return {
 												Lines = {
 													PlaceObj('ConversationLine', {
 														Character = "Buns",
-<<<<<<< HEAD
 														Text = T(890000000000306, --[[ModItemConversation Herman_2 Text voice:Buns section:Herman_2 keyword:We can't promise]] "Уверена, драгоценная Марта сама о себе позаботится."),
-=======
-														Text = T(296034893002, --[[ModItemConversation Herman_2 Text voice:Buns section:Herman_2 keyword:We can't promise]] "Уверена, драгоценная Марта сама о себе позаботится."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 														param_bindings = false,
 													}),
 												},
@@ -27479,19 +24361,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
 								Text = T(222541729395, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Greeting]] "Who are you? You are soldiers, but not with the <em>Legion</em>. Who sent you?"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Luc",
-								Text = T(222541729395, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Greeting]] "Кто вы такие? Вы солдаты, но не из <em>Легиона</em>. Кто вас прислал?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -27508,11 +24382,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Luc",
-<<<<<<< HEAD
 									Text = T(890000000000410, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Emma LaFontaine sent us]] "Эмма? Дочь президента? Она жива? Я так рад! Я хотел уйти из деревни и сказать ей о планах Легиона, что ее хотят захватить, но мой... мой сын <em>Пьер</em> был против."),
-=======
-									Text = T(359587331904, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Emma LaFontaine sent us]] "Эмма? Дочь президента? Она жива? Я так рад! Я хотел уйти из деревни и сказать ей о планах Легиона, что ее хотят захватить, но мой... мой сын <em>Пьер</em> был против."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -27531,11 +24401,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Luc",
-<<<<<<< HEAD
 									Text = T(350805934900, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Prefer not to say]] "But... Well, of course. I just hope that if you are fighting the Legion you are helping Emma LaFontaine. I tried to leave the village to warn her about the Legion troops trying to capture her, but my... My son <em>Pierre</em> didn't like that."),
-=======
-									Text = T(350805934900, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Prefer not to say]] "Но... Ну да, конечно. Надеюсь, что вы сражаетесь против Легиона для того, чтобы помочь Эмме Лафонтен. Я хотел уйти из деревни и сказать ей, что Легион хочет ее захватить, но мой... мой сын <em>Пьер</em> был против."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -27548,19 +24414,11 @@ return {
 							AutoRemove = true,
 							Enabled = false,
 							Keyword = "Redirect",
-<<<<<<< HEAD
 							KeywordT = T(890000000000352, --[[ModItemConversation Pierre_2 KeywordT]] "Redirect"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Luc",
 									Text = T(388257124053, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Redirect]] "He commands the <em>Legion</em> forces here on the island, but he's not really one of them. I mean, he is not like them. He's a good boy. Please, if you are here to fight the Legion, please try to spare my boy."),
-=======
-							KeywordT = T(328092960140, --[[ModItemConversation Pierre_2 KeywordT]] "Redirect"),
-							Lines = {
-								PlaceObj('ConversationLine', {
-									Character = "Luc",
-									Text = T(388257124053, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Redirect]] "Он командует силами <em>Легиона</em> на острове, но он не из них. Ну, то есть он по духу не такой. Он хороший мальчик. Если вы пришли сражаться с Легионом, прошу вас, постарайтесь пощадить моего сына."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -27574,11 +24432,7 @@ return {
 									PlaceObj('CityGrantLoyalty', {
 										Amount = 5,
 										City = "ErnieVillage",
-<<<<<<< HEAD
 										SpecialConversationMessage = T(725909423124, --[[ModItemConversation Ernie_Luc SpecialConversationMessage]] "promised <em>Luc</em> to spare Pierre"),
-=======
-										SpecialConversationMessage = T(725909423124, --[[ModItemConversation Ernie_Luc SpecialConversationMessage]] "обещали <em>Люку</em> пощадить Пьера"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 										param_bindings = {
 											Amount = "LoyaltyGain",
 										},
@@ -27601,11 +24455,7 @@ return {
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "Luc",
-<<<<<<< HEAD
 										Text = T(178831362394, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:We'll do our best to spare Pierre]] "Thank you! You have a heart of gold! Now I have some hope for the future."),
-=======
-										Text = T(178831362394, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:We'll do our best to spare Pierre]] "Спасибо! У вас золотое сердце! Вы дали мне надежду."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 										param_bindings = false,
 									}),
 								},
@@ -27626,11 +24476,7 @@ return {
 												Lines = {
 													PlaceObj('ConversationLine', {
 														Character = "Fidel",
-<<<<<<< HEAD
 														Text = T(890000000000035, --[[ModItemConversation Ernie_Luc Text voice:Fidel section:Ernie_Luc keyword:Pierre is a criminal!]] "Фидель не любит этот Пьер! Пфх! Вам полегчает, убью —не волнуйся."),
-=======
-														Text = T(119537904310, --[[ModItemConversation Ernie_Luc Text voice:Fidel section:Ernie_Luc keyword:Pierre is a criminal!]] "Фидель не любит этот Пьер! Пфх! Вам полегчает, убью —не волнуйся."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 														param_bindings = false,
 													}),
 												},
@@ -27641,11 +24487,7 @@ return {
 									}),
 									PlaceObj('ConversationLine', {
 										Character = "Luc",
-<<<<<<< HEAD
 										Text = T(476268743634, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Pierre is a criminal!]] "I... I suppose I deserved that. Still, there is no need to be cruel to an old man."),
-=======
-										Text = T(476268743634, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Pierre is a criminal!]] "Да... да, наверное, я это заслужил. Но, прошу вас, не издевайтесь над стариком."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 										param_bindings = false,
 									}),
 								},
@@ -27658,19 +24500,11 @@ return {
 								AutoRemove = true,
 								GoTo = "<end conversation>",
 								Keyword = "Goodbye",
-<<<<<<< HEAD
 								KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "Luc",
 										Text = T(384075125143, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Goodbye]] "I beg you, mercenary. I know you are not here to help an old man save his son, but if you see him again, please spare my Pierre. "),
-=======
-								KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-								Lines = {
-									PlaceObj('ConversationLine', {
-										Character = "Luc",
-										Text = T(384075125143, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Goodbye]] "Наемники, я вас умоляю. Я знаю, что вы здесь не для того, чтобы вернуть старику сына, но, пожалуйста, если вы снова увидите Пьера, пощадите его."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 										param_bindings = false,
 									}),
 								},
@@ -27710,19 +24544,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
 								Text = T(726073854853, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Greeting10]] "Thank you, my friends! My boy is alive, thanks to you. If I die today, I die a happy man. Here, I was keeping these for Pierre. Take them, I insist!"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Luc",
-								Text = T(726073854853, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Greeting10]] "Спасибо, друзья! Мой мальчик жив - благодаря вам. Если я умру сегодня, то умру счастливым. Вот, я берег это для Пьера. Берите, я настаиваю!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -27750,19 +24576,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
 								Text = T(462142857885, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Greeting7]] "I wish it had not needed to come to this. Now that we have raised a hand against our own, things can never be the same again."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Luc",
-								Text = T(462142857885, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Greeting7]] "Очень жаль, что все так закончилось. Теперь, когда мы подняли руку на своего, деревня уже никогда не будет прежней."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -27790,19 +24608,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
 								Text = T(766564409607, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Greeting8]] "I'm so glad you talked Basil out of hanging <em>Herman</em>. The village would never be the same if we raised a hand against our own."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Luc",
-								Text = T(766564409607, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Greeting8]] "Я так рад, что вы убедили Базиля не вешать <em>Германа</em>. Если бы мы подняли руку на своего, деревня уже никогда не стала бы прежней."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -27830,19 +24640,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
 								Text = T(512922049926, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Greeting9]] "We came here to escape violence, and now we need violence to protect ourselves. Peace is forsaken in this wicked country."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Luc",
-								Text = T(512922049926, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Greeting9]] "Мы пришли сюда, спасаясь от насилия, а теперь прибегаем к насилию, чтобы защитить себя. Воистину, эта проклятая страна не знает мира."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -27861,19 +24663,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
 								Text = T(638994977276, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Greeting2]] "Do you bring any news about <em>Pierre</em>?"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Luc",
-								Text = T(638994977276, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Greeting2]] "Есть новости о <em>Пьере</em>?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -27892,19 +24686,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
 								Text = T(890000000001357, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Greeting6]] "Bonjour! Рад видеть хороших друзей."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Luc",
-								Text = T(981370948077, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Greeting6]] "Bonjour! Рад видеть хороших друзей."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -27932,19 +24718,11 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
 								Text = T(890000000001372, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:GreetingDead1]] "Говорят, вы дрались с <em>Пьером</em>! Вы убили его, да? А ведь вы... вы обещали его пощадить! Зачем давать надежду старику, а потом разбивать его сердце?"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Luc",
-								Text = T(994584443885, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:GreetingDead1]] "Говорят, вы дрались с <em>Пьером</em>! Вы убили его, да? А ведь вы... вы обещали его пощадить! Зачем давать надежду старику, а потом разбивать его сердце?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -27966,19 +24744,11 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
 								Text = T(890000000000391, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:GreetingDead2]] "Говорят, вы дрались с <em>Пьером</em>! Вы ведь убили его, да? Нет! Нет, мальчик мой!.."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Luc",
-								Text = T(347222355033, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:GreetingDead2]] "Говорят, вы дрались с <em>Пьером</em>! Вы ведь убили его, да? Нет! Нет, мальчик мой!.."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -27998,19 +24768,11 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
 								Text = T(700613658920, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:GreetingDead3]] "Leave me to my grief!"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Luc",
-								Text = T(700613658920, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:GreetingDead3]] "Оставьте меня наедине с моим горем!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -28036,11 +24798,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
-<<<<<<< HEAD
 								Text = T(890000000000773, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:What's the story with Pierre?]] "Он... Он не понимает, какой <em>выбор</em> мне пришлось сделать. Меня он не уважает и не слушает. Но, может быть, он послушает вас. Он <em>сбился с пути</em>. Покажите ему, что эта дорога ведет лишь к смерти."),
-=======
-								Text = T(595922171434, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:What's the story with Pierre?]] "Он... Он не понимает, какой <em>выбор</em> мне пришлось сделать. Меня он не уважает и не слушает. Но, может быть, он послушает вас. Он <em>сбился с пути</em>. Покажите ему, что эта дорога ведет лишь к смерти."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -28049,11 +24807,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "DrQ",
-<<<<<<< HEAD
 												Text = T(796221158307, --[[ModItemConversation Ernie_Luc Text voice:DrQ section:Ernie_Luc keyword:What's the story with Pierre?]] "Wisdom only comes to the willing, never to the willful."),
-=======
-												Text = T(796221158307, --[[ModItemConversation Ernie_Luc Text voice:DrQ section:Ernie_Luc keyword:What's the story with Pierre?]] "Мудрость приходит к усердным, а не к упрямым."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -28081,11 +24835,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
-<<<<<<< HEAD
 								Text = T(725878901646, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:What choices?]] "After my wife was killed by a band of river pirates, I convinced a group of friends to move with me and my son to <em>Ernie Island</em>, away from all the fighting. But <em>Pierre</em>... Well, he doesn't understand why I did not seek vengeance. So, he ran away and joined the Legion."),
-=======
-								Text = T(725878901646, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:What choices?]] "Когда мою жену убили речные пираты, я собрал компанию друзей, взял сына и переехал на <em>остров Эрни</em>, подальше от войны. Но <em>Пьер</em>... ну, он не понял, почему я не хочу мстить. И сбежал от меня в Легион."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -28100,11 +24850,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
-<<<<<<< HEAD
 								Text = T(389501344350, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Pierre is just "misguided"?]] "Pierre always had a sense of honor. But the Legion corrupted him, made him do bad things in the name of discipline and strength. Now, he can't tell the difference between justice and cruelty."),
-=======
-								Text = T(389501344350, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Pierre is just "misguided"?]] "Пьер с детства знал, что такое честь. Но Легион его испортил, заставил поступать дурно ради дисциплины и силы. Теперь он не отличает справедливость от жестокости."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -28118,11 +24864,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
-<<<<<<< HEAD
 								Text = T(595672343906, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Tell us about Ernie Island]] "Pierre hates this place, but he also wants to protect it. When my friends and I came here, we dreamed of building a safe haven. In his own way, so does Pierre."),
-=======
-								Text = T(595672343906, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Tell us about Ernie Island]] "Пьер ненавидит этот остров, но в то же время хочет его защищать. Приехав сюда, мы с друзьями мечтали о тихой гавани. Пьер хочет того же, но по-своему."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -28146,11 +24888,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
-<<<<<<< HEAD
 								Text = T(474421116932, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:What happened to Tinhay?]] "He was my oldest and dearest friend. He used to take care of my son when he was little, but when <em>Pierre</em> came back with his new Legion friends, they slaughtered old <em>Tinhay</em> like a dog in the street. \nAnd Pierre just watched and did nothing to stop them."),
-=======
-								Text = T(474421116932, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:What happened to Tinhay?]] "Он был моим самым близким другом. Он заботился о моем сыне, когда тот был еще совсем маленьким. Но когда <em>Пьер</em> вернулся сюда с новыми друзьями из Легиона, они убили старого <em>Тинхея</em>, как бродячую собаку. \nА Пьер смотрел и даже не пытался вмешаться."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -28159,11 +24897,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000000562, --[[ModItemConversation Ernie_Luc Text voice:Fidel section:Ernie_Luc keyword:What happened to Tinhay?]] "Фидель тоже любит смотреть на такое. Ха-ха!"),
-=======
-												Text = T(463826081473, --[[ModItemConversation Ernie_Luc Text voice:Fidel section:Ernie_Luc keyword:What happened to Tinhay?]] "Фидель тоже любит смотреть на такое. Ха-ха!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -28192,20 +24926,12 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
-<<<<<<< HEAD
 								Text = T(338815231288, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Have you seen some other mercenaries?]] "Oh, those people. One of them - what was his name? Beef? Bev? ...can't remember. Anyway, he was planning to dock at the abandoned resort, <em>Côte d'Azur</em>. I warned him to avoid it..."),
-=======
-								Text = T(338815231288, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Have you seen some other mercenaries?]] "А, эти... Один из них - как там его? Биф? Бев? Не помню. В общем, он собирался плыть на тот заброшенный курорт, «<em>Кот д'Азур</em>». Я пытался его отговорить..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
-<<<<<<< HEAD
 								Text = T(192419149041, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Have you seen some other mercenaries?]] "The underwater rocks there are treacherous - that's why they canceled construction. He laughed at me - said his <em>fancy new boat</em> with the modern fiberglass hull could handle it."),
-=======
-								Text = T(192419149041, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Have you seen some other mercenaries?]] "Там очень коварные рифы - именно из-за них и прекратили стройку. Но он рассмеялся мне в лицо и сказал, что его <em>новый катер</em> с современным фиберглассовым корпусом выдержит что угодно."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -28216,19 +24942,11 @@ return {
 						Align = "right",
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Luc",
 								Text = T(328189118728, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Goodbye]] "Farewell."),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Luc",
-								Text = T(328189118728, --[[ModItemConversation Ernie_Luc Text voice:Luc section:Ernie_Luc keyword:Goodbye]] "Прощайте."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -28259,19 +24977,11 @@ return {
 						AutoRemove = true,
 						Comment = "first",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
 								Text = T(890000000000452, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Greeting]] "Сработало! Видали? Сработало! О, да, здаров!. Я <em>Бомбическая Диди</em>! Вы ведь пришли за моими хлопушками? Последнюю партию я только что взорвала, но я могу сделать еще!"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Deedee",
-								Text = T(388875162568, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Greeting]] "Сработало! Видали? Сработало! О, да, здаров!. Я <em>Бомбическая Диди</em>! Вы ведь пришли за моими хлопушками? Последнюю партию я только что взорвала, но я могу сделать еще!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -28283,11 +24993,7 @@ return {
 							AutoRemove = true,
 							GoTo = "<root>",
 							Keyword = "Are you okay?",
-<<<<<<< HEAD
 							KeywordT = T(890000000000184, --[[ModItemConversation Deedee KeywordT]] "Are you okay?"),
-=======
-							KeywordT = T(242677370659, --[[ModItemConversation Deedee KeywordT]] "Are you okay?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -28295,11 +25001,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Omryn",
-<<<<<<< HEAD
 													Text = T(890000000000563, --[[ModItemConversation Deedee Text voice:Omryn section:Deedee keyword:Are you okay?]] "Большой взрыв в маленькой комнатке - беда. Ты не ранена?"),
-=======
-													Text = T(463929266040, --[[ModItemConversation Deedee Text voice:Omryn section:Deedee keyword:Are you okay?]] "Большой взрыв в маленькой комнатке - беда. Ты не ранена?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -28309,11 +25011,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "MD",
-<<<<<<< HEAD
 													Text = T(585131381791, --[[ModItemConversation Deedee Text voice:MD section:Deedee keyword:Are you okay?]] "Are you hurt? Any dizziness, ringing in the ears?"),
-=======
-													Text = T(585131381791, --[[ModItemConversation Deedee Text voice:MD section:Deedee keyword:Are you okay?]] "Как вы себя чувствуете? Головокружение, звон в ушах?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -28323,11 +25021,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Thor",
-<<<<<<< HEAD
 													Text = T(279285702252, --[[ModItemConversation Deedee Text voice:Thor section:Deedee keyword:Are you okay?]] "Are you on fire a little bit or is that just your aura?"),
-=======
-													Text = T(279285702252, --[[ModItemConversation Deedee Text voice:Thor section:Deedee keyword:Are you okay?]] "Это на тебе одежда горит, или просто аура такая?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -28338,11 +25032,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(648071935199, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Are you okay?]] "Oh, don't worry about me! Explosions are common around here. I put a blast shield under the workbench and I've gotten really good at vaulting over it."),
-=======
-									Text = T(648071935199, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Are you okay?]] "Ох, не беспокойтесь! Взрывы здесь - обычное дело. У меня под верстаком противоосколочный щит, я умею очень быстро за ним прятаться."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -28363,11 +25053,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Wolf",
-<<<<<<< HEAD
 													Text = T(664332341259, --[[ModItemConversation Deedee Text voice:Wolf section:Deedee keyword:Nice house...]] "Interesting place you got here. The furnishings say \"take cover\" while the scorch marks on the wall say \"it probably won't matter\"."),
-=======
-													Text = T(664332341259, --[[ModItemConversation Deedee Text voice:Wolf section:Deedee keyword:Nice house...]] "Интересно тут у тебя... Мебель прямо-таки кричит «прячься в укрытие», а следы копоти на стене отвечают «все равно не поможет»."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -28377,11 +25063,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Buns",
-<<<<<<< HEAD
 													Text = T(278045926775, --[[ModItemConversation Deedee Text voice:Buns section:Deedee keyword:Nice house...]] "Though I have to point out there isn't much left of it."),
-=======
-													Text = T(278045926775, --[[ModItemConversation Deedee Text voice:Buns section:Deedee keyword:Nice house...]] "Хочу заметить, что от него уже мало что осталось."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -28391,11 +25073,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Vicki",
-<<<<<<< HEAD
 													Text = T(225291837518, --[[ModItemConversation Deedee Text voice:Vicki section:Deedee keyword:Nice house...]] "This place has seen more backfires than my garage. I like it!"),
-=======
-													Text = T(225291837518, --[[ModItemConversation Deedee Text voice:Vicki section:Deedee keyword:Nice house...]] "Тут пожаров быть больше, чем у меня в гараже! Я одобрять!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -28406,11 +25084,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(890000000000027, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Nice house...]] "Спасибо! Кстати, краска огнеупорная. Сама готовила. Магазинная нифига не выдерживает."),
-=======
-									Text = T(114758288414, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Nice house...]] "Спасибо! Кстати, краска огнеупорная. Сама готовила. Магазинная нифига не выдерживает."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -28431,11 +25105,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Meltdown",
-<<<<<<< HEAD
 													Text = T(492081531985, --[[ModItemConversation Deedee Text voice:Meltdown section:Deedee keyword:Watch out with that!]] "Careful with that, dumbass!"),
-=======
-													Text = T(492081531985, --[[ModItemConversation Deedee Text voice:Meltdown section:Deedee keyword:Watch out with that!]] "Осторожней, дура!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -28445,11 +25115,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Barry",
-<<<<<<< HEAD
 													Text = T(430944505664, --[[ModItemConversation Deedee Text voice:Barry section:Deedee keyword:Watch out with that!]] "Explosives are not boom-toys! Explosives are just... boom!"),
-=======
-													Text = T(430944505664, --[[ModItemConversation Deedee Text voice:Barry section:Deedee keyword:Watch out with that!]] "Взрывчатка - это не хлопушки! Взрывчатка - это... взрывчатка."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -28459,11 +25125,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Wolf",
-<<<<<<< HEAD
 													Text = T(344206798941, --[[ModItemConversation Deedee Text voice:Wolf section:Deedee keyword:Watch out with that!]] "You trying to get yourself killed?"),
-=======
-													Text = T(344206798941, --[[ModItemConversation Deedee Text voice:Wolf section:Deedee keyword:Watch out with that!]] "Тебе что, жить надоело?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -28474,11 +25136,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(890000000000426, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Watch out with that!]] "Ну чё вы сердитесь? Никто же не пострадал. Обычно, когда что-то взрывается, люди сердятся, если теряют любимую руку, а у вас, вон - даже пальцы на месте!"),
-=======
-									Text = T(362575615024, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Watch out with that!]] "Ну чё вы сердитесь? Никто же не пострадал. Обычно, когда что-то взрывается, люди сердятся, если теряют любимую руку, а у вас, вон - даже пальцы на месте!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -28487,11 +25145,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fidel",
-<<<<<<< HEAD
 													Text = T(890000000001262, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Watch out with that!]] "Э! Э-э-э. Фидель теряет палец — ты теряешь ногу. Обе их."),
-=======
-													Text = T(908093182581, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Watch out with that!]] "Э! Э-э-э. Фидель теряет палец — ты теряешь ногу. Обе их."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -28501,11 +25155,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Red",
-<<<<<<< HEAD
 													Text = T(260813439218, --[[ModItemConversation Deedee Text voice:Red section:Deedee keyword:Watch out with that!]] "And let's keep it that way, lass!"),
-=======
-													Text = T(260813439218, --[[ModItemConversation Deedee Text voice:Red section:Deedee keyword:Watch out with that!]] "Эй, эй, дамочка! Вот пусть так и остается!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -28515,11 +25165,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Grizzly",
-<<<<<<< HEAD
 													Text = T(568343595601, --[[ModItemConversation Deedee Text voice:Grizzly section:Deedee keyword:Watch out with that!]] "True, but I might have gained a few gray hairs."),
-=======
-													Text = T(568343595601, --[[ModItemConversation Deedee Text voice:Grizzly section:Deedee keyword:Watch out with that!]] "Ну да, но седых волос у меня добавилось."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -28538,19 +25184,11 @@ return {
 						Align = "right",
 						Comment = "repeated",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
 								Text = T(888916594123, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Greeting2]] "Oh hi! Bombastic's the name, boombastic's the game! Get it?"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Deedee",
-								Text = T(888916594123, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Greeting2]] "О, привет! Меня зовут Бомба - и не просто так! Дошло?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -28571,11 +25209,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
-<<<<<<< HEAD
 								Text = T(890000000000047, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Do you sell explosives?]] "Ага, но у меня кончаются припасы. Ах, если принесете <em>запчасти</em>, я сделаю вам <em>хлопушки</em>! Можно старые и скучные, но у меня есть парочка новых идей!"),
-=======
-								Text = T(133944997432, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Do you sell explosives?]] "Ага, но у меня кончаются припасы. Ах, если принесете <em>запчасти</em>, я сделаю вам <em>хлопушки</em>! Можно старые и скучные, но у меня есть парочка новых идей!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -28584,11 +25218,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000000227, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Do you sell explosives?]] "Хо-хо-хо-хо! Фидель бы посмотрел!"),
-=======
-												Text = T(259686519463, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Do you sell explosives?]] "Хо-хо-хо-хо! Фидель бы посмотрел!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -28598,11 +25228,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ice",
-<<<<<<< HEAD
 												Text = T(475287020390, --[[ModItemConversation Deedee Text voice:Ice section:Deedee keyword:Do you sell explosives?]] "Imma stick with the boring ones. Plannin' to keep my arms and legs where they are."),
-=======
-												Text = T(475287020390, --[[ModItemConversation Deedee Text voice:Ice section:Deedee keyword:Do you sell explosives?]] "Уж лучше скучные. Мне нравится, когда у меня две руки и две ноги."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -28612,11 +25238,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Kalyna",
-<<<<<<< HEAD
 												Text = T(299958726808, --[[ModItemConversation Deedee Text voice:Kalyna section:Deedee keyword:Do you sell explosives?]] "Oh! A quest! I will gather up all the parts on the island!"),
-=======
-												Text = T(299958726808, --[[ModItemConversation Deedee Text voice:Kalyna section:Deedee keyword:Do you sell explosives?]] "Ух ты! Прям квест! Я соберу все запчасти на этом острове!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -28677,11 +25299,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000000297, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:We can improve the design]] "О. Сделано мило, но дядя Фидель научит экономить запчасти. А? Видишь предохранитель? Ха-ха-ха! Он для разминирования, но кому это надо! Уберём — взрывчатки пихнём! Ха-ха-ха!"),
-=======
-												Text = T(290426013069, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:We can improve the design]] "О. Сделано мило, но дядя Фидель научит экономить запчасти. А? Видишь предохранитель? Ха-ха-ха! Он для разминирования, но кому это надо! Уберём — взрывчатки пихнём! Ха-ха-ха!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -28692,11 +25310,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
-<<<<<<< HEAD
 								Text = T(890000000000395, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:We can improve the design]] "Ух ты, прямо суперопасно! Сама бы ни за что не додумалась! Спасибище!"),
-=======
-								Text = T(348585236157, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:We can improve the design]] "Ух ты, прямо суперопасно! Сама бы ни за что не додумалась! Спасибище!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -28705,11 +25319,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "DrQ",
-<<<<<<< HEAD
 												Text = T(565171697921, --[[ModItemConversation Deedee Text voice:DrQ section:Deedee keyword:We can improve the design]] "This advice seems of profoundly dubious merit."),
-=======
-												Text = T(565171697921, --[[ModItemConversation Deedee Text voice:DrQ section:Deedee keyword:We can improve the design]] "Такой совет кажется мне очень сомнительным."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -28719,11 +25329,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Mouse",
-<<<<<<< HEAD
 												Text = T(890000000000993, --[[ModItemConversation Deedee Text voice:Mouse section:Deedee keyword:We can improve the design]] "А голосок в моей голове вопит «плохая идея»…"),
-=======
-												Text = T(748960352227, --[[ModItemConversation Deedee Text voice:Mouse section:Deedee keyword:We can improve the design]] "А голосок в моей голове вопит «плохая идея»…"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -28733,11 +25339,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raven",
-<<<<<<< HEAD
 												Text = T(524552415868, --[[ModItemConversation Deedee Text voice:Raven section:Deedee keyword:We can improve the design]] "I just got a sinking feeling. Did anyone else just get a sinking feeling?"),
-=======
-												Text = T(524552415868, --[[ModItemConversation Deedee Text voice:Raven section:Deedee keyword:We can improve the design]] "У меня гнетущее предчувствие. У кого-нибудь еще оно есть?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -28771,11 +25373,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
-<<<<<<< HEAD
 								Text = T(890000000000453, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Where do we find parts?]] "А в <em>Жестянке</em> вы были? Там в бункере полно всяких классных штук, из которых можно делать помпезные взрывы!"),
-=======
-								Text = T(390464785016, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Where do we find parts?]] "А в <em>Жестянке</em> вы были? Там в бункере полно всяких классных штук, из которых можно делать помпезные взрывы!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -28791,11 +25389,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(298478786364, --[[ModItemConversation Deedee Text voice:Raider section:Deedee keyword:Where do we find parts?]] "It's also full of your Legion friends, I presume."),
-=======
-												Text = T(298478786364, --[[ModItemConversation Deedee Text voice:Raider section:Deedee keyword:Where do we find parts?]] "А еще, наверное, там полно твоих дружков из Легиона."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -28812,11 +25406,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Red",
-<<<<<<< HEAD
 												Text = T(415513620959, --[[ModItemConversation Deedee Text voice:Red section:Deedee keyword:Where do we find parts?]] "This bunker would nae be occupied by soldiers, would it?"),
-=======
-												Text = T(415513620959, --[[ModItemConversation Deedee Text voice:Red section:Deedee keyword:Where do we find parts?]] "А этот бункер часом не занят солдатами, а?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -28833,11 +25423,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Omryn",
-<<<<<<< HEAD
 												Text = T(890000000000029, --[[ModItemConversation Deedee Text voice:Omryn section:Deedee keyword:Where do we find parts?]] "Бункер? Может, там есть запасы еды? Ааа, может, их уже и сожрали бандиты."),
-=======
-												Text = T(116201517125, --[[ModItemConversation Deedee Text voice:Omryn section:Deedee keyword:Where do we find parts?]] "Бункер? Может, там есть запасы еды? Ааа, может, их уже и сожрали бандиты."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -28848,11 +25434,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
-<<<<<<< HEAD
 								Text = T(890000000001104, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Where do we find parts?]] "Ну, да, там есть мальчики из Легиона, но они вовсе не такие плохие, если познакомиться с ними поближе. Погодьте, ща карту нарисую!"),
-=======
-								Text = T(820592462879, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Where do we find parts?]] "Ну, да, там есть мальчики из Легиона, но они вовсе не такие плохие, если познакомиться с ними поближе. Погодьте, ща карту нарисую!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -28881,11 +25463,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
-<<<<<<< HEAD
 								Text = T(460112610932, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Make us some explosives]] "Gladly! But I must have something to work with. I can't make explosives out of thin air."),
-=======
-								Text = T(460112610932, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Make us some explosives]] "С радостью, но мне нужны материалы. Я не умею делать бомбы из воздуха."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -28894,11 +25472,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Larry",
-<<<<<<< HEAD
 												Text = T(555613892339, --[[ModItemConversation Deedee Text voice:Larry section:Deedee keyword:Make us some explosives]] "Ha! Amateur."),
-=======
-												Text = T(555613892339, --[[ModItemConversation Deedee Text voice:Larry section:Deedee keyword:Make us some explosives]] "Ха! Дилетантка."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -28908,11 +25482,7 @@ return {
 								param_bindings = false,
 							}),
 						},
-<<<<<<< HEAD
 						PhraseRolloverText = T(488861110344, --[[ModItemConversation Deedee PhraseRolloverText]] "<color EmStyle>25 Parts</color> required"),
-=======
-						PhraseRolloverText = T(488861110344, --[[ModItemConversation Deedee PhraseRolloverText]] "Требуется: <color EmStyle>25 запчастей</color>"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						StoryBranchIcon = "conversation_action",
 						id = "Makeussomeexplosives_NoPartsDefault",
 						param_bindings = false,
@@ -28939,11 +25509,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
-<<<<<<< HEAD
 								Text = T(460112610932, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Make us some explosives]] "Gladly! But I must have something to work with. I can't make explosives out of thin air."),
-=======
-								Text = T(460112610932, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Make us some explosives]] "С радостью, но мне нужны материалы. Я не умею делать бомбы из воздуха."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -28952,11 +25518,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Larry",
-<<<<<<< HEAD
 												Text = T(555613892339, --[[ModItemConversation Deedee Text voice:Larry section:Deedee keyword:Make us some explosives]] "Ha! Amateur."),
-=======
-												Text = T(555613892339, --[[ModItemConversation Deedee Text voice:Larry section:Deedee keyword:Make us some explosives]] "Ха! Дилетантка."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -28966,11 +25528,7 @@ return {
 								param_bindings = false,
 							}),
 						},
-<<<<<<< HEAD
 						PhraseRolloverText = T(982637606002, --[[ModItemConversation Deedee PhraseRolloverText]] "<color EmStyle>15 Parts</color> required"),
-=======
-						PhraseRolloverText = T(982637606002, --[[ModItemConversation Deedee PhraseRolloverText]] "Требуется: <color EmStyle>15 запчастей</color>"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						StoryBranchIcon = "conversation_action",
 						id = "Makeussomeexplosives_NoPartsImproved",
 						param_bindings = false,
@@ -29018,11 +25576,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
-<<<<<<< HEAD
 								Text = T(890000000000678, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Make us some explosives]] "Оу! А чо, уже Новый Год? Спасибки! Ну, давайте меняться: запчасти на хлопушки!"),
-=======
-								Text = T(536759496951, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Make us some explosives]] "Оу! А чо, уже Новый Год? Спасибки! Ну, давайте меняться: запчасти на хлопушки!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -29031,11 +25585,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ice",
-<<<<<<< HEAD
 												Text = T(237524957773, --[[ModItemConversation Deedee Text voice:Ice section:Deedee keyword:Make us some explosives]] "Then I say we should be goin' already."),
-=======
-												Text = T(237524957773, --[[ModItemConversation Deedee Text voice:Ice section:Deedee keyword:Make us some explosives]] "Тогда, пожалуй, нам пора."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -29045,11 +25595,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Barry",
-<<<<<<< HEAD
 												Text = T(397180425004, --[[ModItemConversation Deedee Text voice:Barry section:Deedee keyword:Make us some explosives]] "I confess, I am curious. I usually order out of catalogue."),
-=======
-												Text = T(397180425004, --[[ModItemConversation Deedee Text voice:Barry section:Deedee keyword:Make us some explosives]] "Если честно, мне любознательно. Обычно я заказываю по каталогу."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -29059,11 +25605,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(960095550001, --[[ModItemConversation Deedee Text voice:Meltdown section:Deedee keyword:Make us some explosives]] "Know a guy back home that runs the same kind of operation out of the back of his pick-up."),
-=======
-												Text = T(960095550001, --[[ModItemConversation Deedee Text voice:Meltdown section:Deedee keyword:Make us some explosives]] "У нас в городке был тип, который так же торговал со своего пикапа."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -29117,11 +25659,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
-<<<<<<< HEAD
 								Text = T(890000000001162, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Make us some explosives]] "Оу! А чо, уже Новый Год? Спасибки! Вот, это мой подарок дяде Фиделю и его друзьям!"),
-=======
-								Text = T(854746601877, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Make us some explosives]] "Оу! А чо, уже Новый Год? Спасибки! Вот, это мой подарок дяде Фиделю и его друзьям!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -29130,11 +25668,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Mouse",
-<<<<<<< HEAD
 												Text = T(890000000000315, --[[ModItemConversation Deedee Text voice:Mouse section:Deedee keyword:Make us some explosives]] "О, боже мой. Фидель, как дядюшка, который с прибаутками случайно поджигает дом на вечеринке."),
-=======
-												Text = T(299751977373, --[[ModItemConversation Deedee Text voice:Mouse section:Deedee keyword:Make us some explosives]] "О, боже мой. Фидель, как дядюшка, который с прибаутками случайно поджигает дом на вечеринке."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -29144,11 +25678,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fox",
-<<<<<<< HEAD
 												Text = T(387860591529, --[[ModItemConversation Deedee Text voice:Fox section:Deedee keyword:Make us some explosives]] "\"Uncle Fidel\"?! Is this how their kind reproduces?"),
-=======
-												Text = T(387860591529, --[[ModItemConversation Deedee Text voice:Fox section:Deedee keyword:Make us some explosives]] "«Дядя Фидель»? Так вот как они размножаются?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -29158,11 +25688,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Igor",
-<<<<<<< HEAD
 												Text = T(293325695673, --[[ModItemConversation Deedee Text voice:Igor section:Deedee keyword:Make us some explosives]] "Fidel is uncle? Okay. Let us toast to our uncles!"),
-=======
-												Text = T(293325695673, --[[ModItemConversation Deedee Text voice:Igor section:Deedee keyword:Make us some explosives]] "Фидель стал дядей? За это надо выпить!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -29183,11 +25709,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
-<<<<<<< HEAD
 								Text = T(890000000000889, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Tell us...]] "Э! Говорите быстрее, я только что поставила таймер! Хи-хи-хи, <em>шучу</em>! Я вообще не пользуюсь таймерами! Хи-хи-хи! О! <em>Бомбы</em> - это так весело!"),
-=======
-								Text = T(678921777037, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Tell us...]] "Э! Говорите быстрее, я только что поставила таймер! Хи-хи-хи, <em>шучу</em>! Я вообще не пользуюсь таймерами! Хи-хи-хи! О! <em>Бомбы</em> - это так весело!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -29222,11 +25744,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(890000000000454, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Why "Boombastic"?]] "Потому что меня так и прозвали. Ну, или я сама себя прозвала. Старый брюзга <em>Базиль</em> называет меня всякими другими словами, половину из которых я даже не понимаю. Кстати, а что значит «раздолбайка»?"),
-=======
-									Text = T(392992508038, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Why "Boombastic"?]] "Потому что меня так и прозвали. Ну, или я сама себя прозвала. Старый брюзга <em>Базиль</em> называет меня всякими другими словами, половину из которых я даже не понимаю. Кстати, а что значит «раздолбайка»?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -29235,11 +25753,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fidel",
-<<<<<<< HEAD
 													Text = T(357614346671, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Why "Boombastic"?]] "Whack job means you do good job wrecking stuff. Whack job is best job!"),
-=======
-													Text = T(357614346671, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Why "Boombastic"?]] "Ну, это значит, что ты здорово умеешь раздалбывать все вокруг своими бомбами!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29250,11 +25764,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(890000000001159, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Why "Boombastic"?]] "Ну да, мальчики из <em>Легиона</em> за это меня очень уважают. Когда они приходят ко мне в гости, они ведут себя очень вежливо и приносят всякие полезные запчасти для бомб!"),
-=======
-									Text = T(849955228634, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Why "Boombastic"?]] "Ну да, мальчики из <em>Легиона</em> за это меня очень уважают. Когда они приходят ко мне в гости, они ведут себя очень вежливо и приносят всякие полезные запчасти для бомб!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -29263,11 +25773,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Red",
-<<<<<<< HEAD
 													Text = T(966043019025, --[[ModItemConversation Deedee Text voice:Red section:Deedee keyword:Why "Boombastic"?]] "Sorry to disappoint ya, lassie, but yar chums willnae be able to show up after we're done with 'em."),
-=======
-													Text = T(966043019025, --[[ModItemConversation Deedee Text voice:Red section:Deedee keyword:Why "Boombastic"?]] "Мне жаль тебя огорчать, дамочка, но, боюсь, эти мальчики больше не смогут тебя навещать."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29277,11 +25783,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Blood",
-<<<<<<< HEAD
 													Text = T(890000000000718, --[[ModItemConversation Deedee Text voice:Blood section:Deedee keyword:Why "Boombastic"?]] "Не хочу тебя расстраивать, но, похоже, клиентов на острове у тебя поубавится."),
-=======
-													Text = T(556302062434, --[[ModItemConversation Deedee Text voice:Blood section:Deedee keyword:Why "Boombastic"?]] "Не хочу тебя расстраивать, но, похоже, клиентов на острове у тебя поубавится."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29291,11 +25793,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Livewire",
-<<<<<<< HEAD
 													Text = T(784879969485, --[[ModItemConversation Deedee Text voice:Livewire section:Deedee keyword:Why "Boombastic"?]] "Honestly - and I do not mean to judge - I think you should consider looking for better clientele."),
-=======
-													Text = T(784879969485, --[[ModItemConversation Deedee Text voice:Livewire section:Deedee keyword:Why "Boombastic"?]] "Не мне судить, конечно, но, по-моему, тебе стоит поискать клиентов получше."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29352,11 +25850,7 @@ return {
 								PlaceObj('CityGrantLoyalty', {
 									Amount = 5,
 									City = "ErnieVillage",
-<<<<<<< HEAD
 									SpecialConversationMessage = T(207898515224, --[[ModItemConversation Deedee SpecialConversationMessage]] "convinced <em>Deedee</em> to stop helping the Legion"),
-=======
-									SpecialConversationMessage = T(207898515224, --[[ModItemConversation Deedee SpecialConversationMessage]] "убедили <em>Диди</em> перестать помогать Легиону"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -29366,11 +25860,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(525705150892, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Stop helping the Legion]] "But... but... they are nice! They bring me parts to make boom-toys!"),
-=======
-									Text = T(525705150892, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Stop helping the Legion]] "Но... но... они хорошие! Они дают мне запчасти для хлопушек!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -29379,11 +25869,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fox",
-<<<<<<< HEAD
 													Text = T(536217713512, --[[ModItemConversation Deedee Text voice:Fox section:Deedee keyword:Stop helping the Legion]] "They lie to you, girl, just like all men do. They keep the best parts for themselves!"),
-=======
-													Text = T(536217713512, --[[ModItemConversation Deedee Text voice:Fox section:Deedee keyword:Stop helping the Legion]] "Они тебя обманывают, как и все мужики. Самое вкусное они оставляют себе!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29393,11 +25879,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Barry",
-<<<<<<< HEAD
 													Text = T(528178895857, --[[ModItemConversation Deedee Text voice:Barry section:Deedee keyword:Stop helping the Legion]] "These parts? Very low quality."),
-=======
-													Text = T(528178895857, --[[ModItemConversation Deedee Text voice:Barry section:Deedee keyword:Stop helping the Legion]] "Вот эти запчасти, что ли? Очень барахло."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29407,11 +25889,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Red",
-<<<<<<< HEAD
 													Text = T(116073481214, --[[ModItemConversation Deedee Text voice:Red section:Deedee keyword:Stop helping the Legion]] "Oh come on, lass! They dinnae give ye the good stuff!"),
-=======
-													Text = T(116073481214, --[[ModItemConversation Deedee Text voice:Red section:Deedee keyword:Stop helping the Legion]] "Да ладно, дамочка! Они дают тебе всякий хлам!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29422,11 +25900,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(354440729538, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Stop helping the Legion]] "However, they don't allow me to go near their Fort which is full of wonderful stuff... If you can convince them to let me inside, I'll have enough parts to make boom toys just for myself!"),
-=======
-									Text = T(354440729538, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Stop helping the Legion]] "Но они не пускают меня в свой форт, а там столько всяких чудесных штук... Если вы убедите их меня пустить, у меня будет столько запчастей, что я смогу делать хлопушки просто так!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -29435,11 +25909,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fidel",
-<<<<<<< HEAD
 													Text = T(890000000000265, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Stop helping the Legion]] "Дядя Фидель надерет им задницы и принесет тебе лучший запчасти."),
-=======
-													Text = T(280781170424, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Stop helping the Legion]] "Дядя Фидель надерет им задницы и принесет тебе лучший запчасти."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29449,11 +25919,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Livewire",
-<<<<<<< HEAD
 													Text = T(569089713012, --[[ModItemConversation Deedee Text voice:Livewire section:Deedee keyword:Stop helping the Legion]] "You bet! Pinky promise!"),
-=======
-													Text = T(569089713012, --[[ModItemConversation Deedee Text voice:Livewire section:Deedee keyword:Stop helping the Legion]] "Обязательно! Обещаю!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29501,11 +25967,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(525705150892, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Stop helping the Legion]] "But... but... they are nice! They bring me parts to make boom-toys!"),
-=======
-									Text = T(525705150892, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Stop helping the Legion]] "Но... но... они хорошие! Они дают мне запчасти для хлопушек!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -29514,20 +25976,12 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Raider",
-<<<<<<< HEAD
 													Text = T(364343867625, --[[ModItemConversation Deedee Text voice:Raider section:Deedee keyword:Stop helping the Legion]] "This is wrong! They use your explosives to terrorize people."),
-=======
-													Text = T(364343867625, --[[ModItemConversation Deedee Text voice:Raider section:Deedee keyword:Stop helping the Legion]] "Это недопустимо! Они используют твою взрывчатку, чтобы терроризировать население."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 												PlaceObj('ConversationLine', {
 													Character = "Deedee",
-<<<<<<< HEAD
 													Text = T(892341062673, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Stop helping the Legion]] "Well, if those people brought me parts, I could give them boom toys to terrorize them right back!"),
-=======
-													Text = T(892341062673, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Stop helping the Legion]] "Ну, если это население принесет мне запчасти, я дам ему хлопушки, чтобы оно само всех терроризировало!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29538,11 +25992,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(769740648850, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Stop helping the Legion]] "And... Once a boom-toy is made, I don't care where it goes off. I just want it to make a beautiful explosion!"),
-=======
-									Text = T(769740648850, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Stop helping the Legion]] "А еще... Когда я делаю хлопушки, мне все равно, где они взорвутся. Я просто люблю красивые взрывы!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -29581,11 +26031,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(959660112567, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:What do you think of Basil?]] "He's not a bad person, he just doesn't see things my way. He likes putting things together. I like blowing them up."),
-=======
-									Text = T(959660112567, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:What do you think of Basil?]] "Он не плохой, он просто другой. Он любит чинить всякие штуки. А я люблю их взрывать."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -29598,11 +26044,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(605476269895, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Why explosives?]] "Well, it started as a hobby. There's a bunch of old war stuff all along the coast - land mines, artillery shells, mortar rounds. I used to play real life minesweeper with my friends until I ran out of friends."),
-=======
-									Text = T(605476269895, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Why explosives?]] "Ну, сначала это было хобби. Тут на берегу валяется много всякого железа со старой войны - мины там, снаряды... В детстве я любила играть в сапера с друзьями, но потом друзья у меня закончились."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -29611,11 +26053,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fidel",
-<<<<<<< HEAD
 													Text = T(890000000000320, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Why explosives?]] "А! Эх. У Фидель был такое же детство. Мы играли в вышибалу гранатами. *вздыхает* Золотое время."),
-=======
-													Text = T(306478899184, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Why explosives?]] "А! Эх. У Фидель был такое же детство. Мы играли в вышибалу гранатами. *вздыхает* Золотое время."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29635,11 +26073,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(890000000001251, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Know anything about President LaFontaine?]] "Э-э, что за президент? Извините, не знаю такого. Надеюсь, я случайно его не взорвала? А то люди так беззаботно ведут себя с минами... Как будто у них дома их нет, хе-хе-хе!"),
-=======
-									Text = T(893586109774, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Know anything about President LaFontaine?]] "Э-э, что за президент? Извините, не знаю такого. Надеюсь, я случайно его не взорвала? А то люди так беззаботно ведут себя с минами... Как будто у них дома их нет, хе-хе-хе!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -29648,11 +26082,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fidel",
-<<<<<<< HEAD
 													Text = T(890000000000798, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Know anything about President LaFontaine?]] "Да! И Фидель всегда удивляет."),
-=======
-													Text = T(620011986212, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Know anything about President LaFontaine?]] "Да! И Фидель всегда удивляет."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29662,11 +26092,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Larry",
-<<<<<<< HEAD
 													Text = T(236223261177, --[[ModItemConversation Deedee Text voice:Larry section:Deedee keyword:Know anything about President LaFontaine?]] "Nah, you can always make one when you need one. Home is where the minefield is."),
-=======
-													Text = T(236223261177, --[[ModItemConversation Deedee Text voice:Larry section:Deedee keyword:Know anything about President LaFontaine?]] "Ну да, мина - вещь в хозяйстве незаменимая. Минное поле в каждый дом!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29676,11 +26102,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Tex",
-<<<<<<< HEAD
 													Text = T(302960477139, --[[ModItemConversation Deedee Text voice:Tex section:Deedee keyword:Know anything about President LaFontaine?]] "I have cow pasture near home. Very similar to minefield."),
-=======
-													Text = T(302960477139, --[[ModItemConversation Deedee Text voice:Tex section:Deedee keyword:Know anything about President LaFontaine?]] "У меня возле дома коровье пастбище. Почти минное поле."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29702,11 +26124,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(890000000000713, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Joke]] "Ха-ха-ха! Взрывчатка - это та-а-ак круто! Прямо башню сносит! Ха-ха-ха!"),
-=======
-									Text = T(554106182426, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Joke]] "Ха-ха-ха! Взрывчатка - это та-а-ак круто! Прямо башню сносит! Ха-ха-ха!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -29715,11 +26133,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Grizzly",
-<<<<<<< HEAD
 													Text = T(890000000001109, --[[ModItemConversation Deedee Text voice:Grizzly section:Deedee keyword:Joke]] "...ЧО?"),
-=======
-													Text = T(822678596965, --[[ModItemConversation Deedee Text voice:Grizzly section:Deedee keyword:Joke]] "...ЧО?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29729,11 +26143,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Raven",
-<<<<<<< HEAD
 													Text = T(947084766313, --[[ModItemConversation Deedee Text voice:Raven section:Deedee keyword:Joke]] "...What?"),
-=======
-													Text = T(947084766313, --[[ModItemConversation Deedee Text voice:Raven section:Deedee keyword:Joke]] "...Чего?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29743,11 +26153,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Steroid",
-<<<<<<< HEAD
 													Text = T(890000000000207, --[[ModItemConversation Deedee Text voice:Steroid section:Deedee keyword:Joke]] "Ха-ха-ха-ха! Да! Смешно!"),
-=======
-													Text = T(250925488139, --[[ModItemConversation Deedee Text voice:Steroid section:Deedee keyword:Joke]] "Ха-ха-ха-ха! Да! Смешно!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29769,11 +26175,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(890000000000732, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Joke]] "Идет сапер по минному полю... Бум! Мины нет! Сапера тоже! Хе-хе, дошло?"),
-=======
-									Text = T(570765357321, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Joke]] "Идет сапер по минному полю... Бум! Мины нет! Сапера тоже! Хе-хе, дошло?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -29782,11 +26184,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Red",
-<<<<<<< HEAD
 													Text = T(999638239606, --[[ModItemConversation Deedee Text voice:Red section:Deedee keyword:Joke]] "Hehe... Not bad, lass. Not bad."),
-=======
-													Text = T(999638239606, --[[ModItemConversation Deedee Text voice:Red section:Deedee keyword:Joke]] "Хе-хе... Неплохо, дамочка. Неплохо."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29796,11 +26194,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Barry",
-<<<<<<< HEAD
 													Text = T(566904845622, --[[ModItemConversation Deedee Text voice:Barry section:Deedee keyword:Joke]] "I do... unfortunately."),
-=======
-													Text = T(566904845622, --[[ModItemConversation Deedee Text voice:Barry section:Deedee keyword:Joke]] "Дошло... До сожаления."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29810,11 +26204,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Steroid",
-<<<<<<< HEAD
 													Text = T(624773179118, --[[ModItemConversation Deedee Text voice:Steroid section:Deedee keyword:Joke]] "Uh... no."),
-=======
-													Text = T(624773179118, --[[ModItemConversation Deedee Text voice:Steroid section:Deedee keyword:Joke]] "Хм... нет."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29843,11 +26233,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(890000000001265, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Joke]] "Знаете, куда саперы отправляются после смерти? Во все стороны! Ха-ха-ха-ха-ха!"),
-=======
-									Text = T(912206196515, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Joke]] "Знаете, куда саперы отправляются после смерти? Во все стороны! Ха-ха-ха-ха-ха!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -29856,11 +26242,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fidel",
-<<<<<<< HEAD
 													Text = T(890000000000157, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Joke]] "Ха-ха-ха-ха!  Какая милая девочка! А? Забавная!"),
-=======
-													Text = T(212279544856, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Joke]] "Ха-ха-ха-ха!  Какая милая девочка! А? Забавная!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29872,11 +26254,7 @@ return {
 								PlaceObj('ConversationLine', {
 									Annotation = "says the second sentence quietly",
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(214636245612, --[[ModItemConversation Deedee Text says the second sentence quietly voice:Deedee section:Deedee keyword:Joke]] "Oh by the way, what do you think about this design? Please try it out and tell me if it works... if you still can."),
-=======
-									Text = T(214636245612, --[[ModItemConversation Deedee Text says the second sentence quietly voice:Deedee section:Deedee keyword:Joke]] "О, кстати, что вы скажете об этой конструкции? Пожалуйста, испытайте ее в деле и расскажите, что получится... если сможете."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -29895,11 +26273,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(890000000000465, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Joke]] "Тик-так... Хы-хы-хы! Что это там тикает? Ох, бомбануться!"),
-=======
-									Text = T(400834756143, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Joke]] "Тик-так... Хы-хы-хы! Что это там тикает? Ох, бомбануться!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -29936,11 +26310,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fidel",
-<<<<<<< HEAD
 													Text = T(890000000000924, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Joke explosion]] "Хе-хе-хе... Хороший шутка, но не хватает в шутке криков."),
-=======
-													Text = T(698280913654, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Joke explosion]] "Хе-хе-хе... Хороший шутка, но не хватает в шутке криков."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -29969,11 +26339,7 @@ return {
 						},
 						Enabled = false,
 						Keyword = "Hands up!",
-<<<<<<< HEAD
 						KeywordT = T(890000000000761, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
-=======
-						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationInterjectionList', {
 								Interjections = {
@@ -29981,11 +26347,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "MD",
-<<<<<<< HEAD
 												Text = T(350527392902, --[[ModItemConversation Deedee Text voice:MD section:Deedee keyword:Hands up!]] "Drop the grenade! I mean, don't drop the grenade! Ah, shoot! I mean, don't shoot!"),
-=======
-												Text = T(350527392902, --[[ModItemConversation Deedee Text voice:MD section:Deedee keyword:Hands up!]] "Брось гранату! Ой, то есть не бросай гранату! Да гори оно все огнем! Эй, потуши сейчас же!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -29995,11 +26357,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Tex",
-<<<<<<< HEAD
 												Text = T(653131942606, --[[ModItemConversation Deedee Text voice:Tex section:Deedee keyword:Hands up!]] "Reach for the sky, little lady!"),
-=======
-												Text = T(653131942606, --[[ModItemConversation Deedee Text voice:Tex section:Deedee keyword:Hands up!]] "Дотянись до небес, малышка!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30009,11 +26367,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(450399969091, --[[ModItemConversation Deedee Text voice:Wolf section:Deedee keyword:Hands up!]] "I wanna see those hands!"),
-=======
-												Text = T(450399969091, --[[ModItemConversation Deedee Text voice:Wolf section:Deedee keyword:Hands up!]] "Хочу видеть эти ручки!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30024,11 +26378,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
-<<<<<<< HEAD
 								Text = T(732311883484, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Hands up!]] "No-no-no-no, put that gun down and get out of my workshop! Are you nuts? You trying to blow us all up?"),
-=======
-								Text = T(732311883484, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Hands up!]] "Не-не-не-не, опусти пушку и выметайся из мастерской! Ты совсем того? Хочешь нас всех взорвать?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -30037,11 +26387,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(880118514881, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Hands up!]] "Ehehehee..."),
-=======
-												Text = T(880118514881, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Hands up!]] "Хе-хе-хе-хе..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30060,11 +26406,7 @@ return {
 							AutoRemove = true,
 							GoTo = "Handsup1.DieExplosion",
 							Keyword = "Die!",
-<<<<<<< HEAD
 							KeywordT = T(890000000000599, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
-=======
-							KeywordT = T(482976736771, --[[ModItemConversation Jose_1 KeywordT]] "Die!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 							Lines = {
 								PlaceObj('ConversationInterjectionList', {
 									Interjections = {
@@ -30072,11 +26414,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Raven",
-<<<<<<< HEAD
 													Text = T(696548370710, --[[ModItemConversation Deedee Text voice:Raven section:Deedee keyword:Die!]] "We're ending your little bomb-making operation right here and now!"),
-=======
-													Text = T(696548370710, --[[ModItemConversation Deedee Text voice:Raven section:Deedee keyword:Die!]] "Сейчас мы закроем твою маленькую фабрику бомб!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -30086,11 +26424,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Omryn",
-<<<<<<< HEAD
 													Text = T(890000000000537, --[[ModItemConversation Deedee Text voice:Omryn section:Deedee keyword:Die!]] "Умри, маленький взрывной демон!"),
-=======
-													Text = T(442133144936, --[[ModItemConversation Deedee Text voice:Omryn section:Deedee keyword:Die!]] "Умри, маленький взрывной демон!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -30100,11 +26434,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Meltdown",
-<<<<<<< HEAD
 													Text = T(962435805719, --[[ModItemConversation Deedee Text voice:Meltdown section:Deedee keyword:Die!]] "Time to let some lead fly!"),
-=======
-													Text = T(962435805719, --[[ModItemConversation Deedee Text voice:Meltdown section:Deedee keyword:Die!]] "Пришло время свинца!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -30115,11 +26445,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(890000000001328, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Die!]] "Играем грубо, да? Ну, у меня полный карман хлопушек спецом для таких контуженных!"),
-=======
-									Text = T(962803371885, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Die!]] "Играем грубо, да? Ну, у меня полный карман хлопушек спецом для таких контуженных!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -30156,11 +26482,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(617128859646, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Die Explosion]] "Take that!"),
-=======
-									Text = T(617128859646, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Die Explosion]] "Лови!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -30184,11 +26506,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Deedee",
-<<<<<<< HEAD
 									Text = T(726523820443, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Sorry...]] "Huh. Apology accepted. But don't you ever threaten a boom-toy expert again!"),
-=======
-									Text = T(726523820443, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Sorry...]] "Гм. Извинения приняты. Но больше не смейте угрожать эксперту по хлопушкам!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -30197,11 +26515,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fidel",
-<<<<<<< HEAD
 													Text = T(460466081001, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Sorry...]] "Yeah! That right!"),
-=======
-													Text = T(460466081001, --[[ModItemConversation Deedee Text voice:Fidel section:Deedee keyword:Sorry...]] "Ага! Точно!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -30247,19 +26561,11 @@ return {
 						Enabled = false,
 						GoTo = "<end conversation>",
 						Keyword = "Hands up!",
-<<<<<<< HEAD
 						KeywordT = T(890000000000761, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
 								Text = T(890000000001155, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Hands up!]] "Чё, откиснуть захотелось?! Ну что ж, я буду феечкой! Желание исполнено!"),
-=======
-						KeywordT = T(586177032721, --[[ModItemConversation Jose_1 KeywordT]] "Hands up!"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Deedee",
-								Text = T(848161864706, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Hands up!]] "Чё, откиснуть захотелось?! Ну что ж, я буду феечкой! Желание исполнено!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -30270,19 +26576,11 @@ return {
 						Align = "right",
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Deedee",
 								Text = T(890000000000700, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Goodbye]] "Всего бомбастерно-бомбического! Приятно разлететься!"),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Deedee",
-								Text = T(549654274476, --[[ModItemConversation Deedee Text voice:Deedee section:Deedee keyword:Goodbye]] "Всего бомбастерно-бомбического! Приятно разлететься!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -30335,19 +26633,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
 								Text = T(890000000001267, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Greeting]] "Надо ж, умеете вы ставить на место этих мерзавцев из Легиона... Хотела бы я сказать то же самое о моём <em>муже</em>... Они всего лишь наставили на него пушку, а тот поникся да пошел, куда ведут."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Martha",
-								Text = T(914926958596, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Greeting]] "Надо ж, умеете вы ставить на место этих мерзавцев из Легиона... Хотела бы я сказать то же самое о моём <em>муже</em>... Они всего лишь наставили на него пушку, а тот поникся да пошел, куда ведут."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -30357,11 +26647,7 @@ return {
 											PlaceObj('ConversationLine', {
 												Annotation = 'reference to "Dr. Horrible\'s Sing-Along Blog"',
 												Character = "Steroid",
-<<<<<<< HEAD
 												Text = T(306616624462, --[[ModItemConversation Martha_1 Text reference to "Dr. Horrible's Sing-Along Blog" voice:Steroid section:Martha_1 keyword:Greeting]] "Everyone's a hero in their own way. Just not everyone has my MIGHTY BICEPS! Just look at them!"),
-=======
-												Text = T(306616624462, --[[ModItemConversation Martha_1 Text reference to "Dr. Horrible's Sing-Along Blog" voice:Steroid section:Martha_1 keyword:Greeting]] "Каждый герой по-своему. Просто не у всех есть ТАКИЕ БИЦЕПСЫ! Вы только на них посмотрите!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30371,11 +26657,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Mouse",
-<<<<<<< HEAD
 												Text = T(127790313907, --[[ModItemConversation Martha_1 Text voice:Mouse section:Martha_1 keyword:Greeting]] "You make it sound like that's a bad thing."),
-=======
-												Text = T(127790313907, --[[ModItemConversation Martha_1 Text voice:Mouse section:Martha_1 keyword:Greeting]] "Вы так говорите, как будто это что-то плохое."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30385,11 +26667,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "MD",
-<<<<<<< HEAD
 												Text = T(405839260163, --[[ModItemConversation Martha_1 Text voice:MD section:Martha_1 keyword:Greeting]] "That's what I did the first time someone waved a gun at me... And the second time. And the third..."),
-=======
-												Text = T(405839260163, --[[ModItemConversation Martha_1 Text voice:MD section:Martha_1 keyword:Greeting]] "Именно так я и поступил, когда на меня в первый раз наставили ствол. И во второй. И в третий..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30399,11 +26677,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(890000000000780, --[[ModItemConversation Martha_1 Text voice:Wolf section:Martha_1 keyword:Greeting]] "Некоторые парни не любят драться. Не понимаю я этих анти-драчунов."),
-=======
-												Text = T(603827246734, --[[ModItemConversation Martha_1 Text voice:Wolf section:Martha_1 keyword:Greeting]] "Некоторые парни не любят драться. Не понимаю я этих анти-драчунов."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30414,11 +26688,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(978457442009, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Greeting]] "If he isn't kidnapped, he's going to wish he were dead when I lay my hands on him."),
-=======
-								Text = T(978457442009, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Greeting]] "Если его не похитили, пусть молится о том, чтобы попасть мне в руки уже мертвым."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -30438,19 +26708,11 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
 								Text = T(282644613635, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Greeting3]] "Welcome to Martha and Herman's... Or probably just Martha's.\nNow if you would excuse me, I've got work to do."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Martha",
-								Text = T(282644613635, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Greeting3]] "Добро пожаловать в магазин Марты и Германа... наверное, уже только Марты.\nА теперь прошу меня извинить, у меня полно работы."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -30460,19 +26722,11 @@ return {
 					PlaceObj('ConversationPhrase', {
 						Align = "right",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
 								Text = T(243745806388, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Greeting2]] "Still no trace of my dummy <em>husband</em>? I'm starting to worry."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Martha",
-								Text = T(243745806388, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Greeting2]] "Моего <em>дурня-муженька</em> все еще нет? Я начинаю волноваться."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -30517,11 +26771,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(829761527683, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Your husband?]] "Those <em>Legion</em> bastards came here and drank everything, and then they pushed my Herman outside and said they want to pay him for his services..."),
-=======
-								Text = T(829761527683, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Your husband?]] "Эти мерзавцы из <em>Легиона</em> завалились сюда, выпили все, что горит, а затем вытолкали Германа наружу и сказали, что хотят заплатить за его услуги..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -30530,11 +26780,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Steroid",
-<<<<<<< HEAD
 												Text = T(879876096800, --[[ModItemConversation Martha_1 Text voice:Steroid section:Martha_1 keyword:Your husband?]] "If I was here, they'd never take your husband alive!"),
-=======
-												Text = T(879876096800, --[[ModItemConversation Martha_1 Text voice:Steroid section:Martha_1 keyword:Your husband?]] "Если бы я был там, они бы ни за что не взяли вашего мужа живым!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30544,11 +26790,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Igor",
-<<<<<<< HEAD
 												Text = T(226982544048, --[[ModItemConversation Martha_1 Text voice:Igor section:Martha_1 keyword:Your husband?]] "They drank... everything?"),
-=======
-												Text = T(226982544048, --[[ModItemConversation Martha_1 Text voice:Igor section:Martha_1 keyword:Your husband?]] "Совсем всё выпили?.."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30558,11 +26800,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grizzly",
-<<<<<<< HEAD
 												Text = T(839781393939, --[[ModItemConversation Martha_1 Text voice:Grizzly section:Martha_1 keyword:Your husband?]] "I'm guessing that didn't mean they wanted to lay some cash on him."),
-=======
-												Text = T(839781393939, --[[ModItemConversation Martha_1 Text voice:Grizzly section:Martha_1 keyword:Your husband?]] "Полагаю, что насовать ему полные карманы купюр в их планы не входило?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30572,11 +26810,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Omryn",
-<<<<<<< HEAD
 												Text = T(890000000000763, --[[ModItemConversation Martha_1 Text voice:Omryn section:Martha_1 keyword:Your husband?]] "А пожрать у вас ничего не осталось? Просто любопытно."),
-=======
-												Text = T(587368152532, --[[ModItemConversation Martha_1 Text voice:Omryn section:Martha_1 keyword:Your husband?]] "А пожрать у вас ничего не осталось? Просто любопытно."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30588,11 +26822,7 @@ return {
 							PlaceObj('ConversationLine', {
 								Annotation = 'emphasis on "I am"',
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(890000000001112, --[[ModItemConversation Martha_1 Text emphasis on "I am" voice:Martha section:Martha_1 keyword:Your husband?]] "Я за него волнуюсь, но меня опять терзают смутные сомнения по поводу всей этой авантюры!"),
-=======
-								Text = T(824853246758, --[[ModItemConversation Martha_1 Text emphasis on "I am" voice:Martha section:Martha_1 keyword:Your husband?]] "Я за него волнуюсь, но меня опять терзают смутные сомнения по поводу всей этой авантюры!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -30625,11 +26855,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(890000000000230, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll look for your husband]] "Благодарю! Рада знать, что в мире еще остались порядочные люди. Прошу вас, верните мне моего Германа."),
-=======
-								Text = T(261707413904, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll look for your husband]] "Благодарю! Рада знать, что в мире еще остались порядочные люди. Прошу вас, верните мне моего Германа."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -30638,11 +26864,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Omryn",
-<<<<<<< HEAD
 												Text = T(890000000000596, --[[ModItemConversation Martha_1 Text voice:Omryn section:Martha_1 keyword:We'll look for your husband]] "Не волнуйтесь, однако. Омрын - лучший следопыт. Сейчас поедим, и можно будет и пойти."),
-=======
-												Text = T(481779829623, --[[ModItemConversation Martha_1 Text voice:Omryn section:Martha_1 keyword:We'll look for your husband]] "Не волнуйтесь, однако. Омрын - лучший следопыт. Сейчас поедим, и можно будет и пойти."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30652,11 +26874,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(890000000000815, --[[ModItemConversation Martha_1 Text voice:Wolf section:Martha_1 keyword:We'll look for your husband]] "Если ваш муж жив, значит... ваш муж жив. И мы его найдем."),
-=======
-												Text = T(625383267111, --[[ModItemConversation Martha_1 Text voice:Wolf section:Martha_1 keyword:We'll look for your husband]] "Если ваш муж жив, значит... ваш муж жив. И мы его найдем."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30666,11 +26884,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "MD",
-<<<<<<< HEAD
 												Text = T(413879261286, --[[ModItemConversation Martha_1 Text voice:MD section:Martha_1 keyword:We'll look for your husband]] "We'll make sure he gets home safely."),
-=======
-												Text = T(413879261286, --[[ModItemConversation Martha_1 Text voice:MD section:Martha_1 keyword:We'll look for your husband]] "Не волнуйтесь, доставим его к вам в целости и сохранности."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30681,11 +26895,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(550602548502, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll look for your husband]] "And if he happens to be fooling around with that little hussy - <em>Deedee</em> from the <em>Emerald Coast</em>, be sure to tell me!"),
-=======
-								Text = T(550602548502, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll look for your husband]] "Да, и если застанете его с этой мелкой сучкой <em>Диди</em> с <em>Изумрудного берега</em> - обязательно скажите мне."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -30694,20 +26904,12 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(378296268195, --[[ModItemConversation Martha_1 Text voice:Raider section:Martha_1 keyword:We'll look for your husband]] "With all due respect, ma'am, we're not marriage counselors."),
-=======
-												Text = T(378296268195, --[[ModItemConversation Martha_1 Text voice:Raider section:Martha_1 keyword:We'll look for your husband]] "При всем уважении, мэм, мы не семейные терапевты."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "Raven",
-<<<<<<< HEAD
 												Text = T(888023374290, --[[ModItemConversation Martha_1 Text voice:Raven section:Martha_1 keyword:We'll look for your husband]] "But if we were, we would take a \"lead by example\" approach: The couple that shoots together, stays together."),
-=======
-												Text = T(888023374290, --[[ModItemConversation Martha_1 Text voice:Raven section:Martha_1 keyword:We'll look for your husband]] "А если бы и были, мы бы пропагандировали собственный подход: залог крепкой семьи - регулярные совместные стрельбы!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30717,11 +26919,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(378296268195, --[[ModItemConversation Martha_1 Text voice:Raider section:Martha_1 keyword:We'll look for your husband]] "With all due respect, ma'am, we're not marriage counselors."),
-=======
-												Text = T(378296268195, --[[ModItemConversation Martha_1 Text voice:Raider section:Martha_1 keyword:We'll look for your husband]] "При всем уважении, мэм, мы не семейные терапевты."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30762,11 +26960,7 @@ return {
 							PlaceObj('CityGrantLoyalty', {
 								Amount = 5,
 								City = "ErnieVillage",
-<<<<<<< HEAD
 								SpecialConversationMessage = T(905166098481, --[[ModItemConversation Martha_1 SpecialConversationMessage]] "promised <em>Martha</em> to save Herman"),
-=======
-								SpecialConversationMessage = T(905166098481, --[[ModItemConversation Martha_1 SpecialConversationMessage]] "пообещали <em>Марте</em> спасти Германа"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = {
 									Amount = "LoyaltyGain",
 								},
@@ -30783,11 +26977,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(672431494920, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll save your husband!]] "I wish he was as brave as you are! Please bring him back to me."),
-=======
-								Text = T(672431494920, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll save your husband!]] "Хотела бы я, чтобы он был столь же храбр, как и вы! Прошу вас, верните его мне."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -30796,11 +26986,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(486438016438, --[[ModItemConversation Martha_1 Text voice:Raider section:Martha_1 keyword:We'll save your husband!]] "Don't worry, ma'am. We'll do our best to bring your husband home."),
-=======
-												Text = T(486438016438, --[[ModItemConversation Martha_1 Text voice:Raider section:Martha_1 keyword:We'll save your husband!]] "Не волнуйтесь, мэм. Приложим все силы."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30810,11 +26996,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Hitman",
-<<<<<<< HEAD
 												Text = T(593722049931, --[[ModItemConversation Martha_1 Text voice:Hitman section:Martha_1 keyword:We'll save your husband!]] "Sure, we'll bring him back to you... if that's what you want."),
-=======
-												Text = T(593722049931, --[[ModItemConversation Martha_1 Text voice:Hitman section:Martha_1 keyword:We'll save your husband!]] "Конечно, мы его приведем... если вы так хотите."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30824,11 +27006,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Thor",
-<<<<<<< HEAD
 												Text = T(660357947305, --[[ModItemConversation Martha_1 Text voice:Thor section:Martha_1 keyword:We'll save your husband!]] "Don't worry. We will fetch your husband with all his chakras intact."),
-=======
-												Text = T(660357947305, --[[ModItemConversation Martha_1 Text voice:Thor section:Martha_1 keyword:We'll save your husband!]] "Не волнуйтесь. Доставим вашего мужа обратно, ни одной чакры не повредив."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30839,11 +27017,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(890000000000628, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll save your husband!]] "Надеюсь, он не с этой мелкой сучкой <em>Диди</em> с <em>Изумрудного берега</em>. Если он к ней поперся, то я ему устрою кенгурячью морду!"),
-=======
-								Text = T(499955103515, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll save your husband!]] "Надеюсь, он не с этой мелкой сучкой <em>Диди</em> с <em>Изумрудного берега</em>. Если он к ней поперся, то я ему устрою кенгурячью морду!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -30892,11 +27066,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Steroid",
-<<<<<<< HEAD
 												Text = T(890000000000296, --[[ModItemConversation Martha_1 Text voice:Steroid section:Martha_1 keyword:We'll save your husband!]] "Не волнуйтесь, мэм! Выручим мы вашего бедномужа."),
-=======
-												Text = T(290047471909, --[[ModItemConversation Martha_1 Text voice:Steroid section:Martha_1 keyword:We'll save your husband!]] "Не волнуйтесь, мэм! Выручим мы вашего бедномужа."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30906,11 +27076,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Kalyna",
-<<<<<<< HEAD
 												Text = T(468039687392, --[[ModItemConversation Martha_1 Text voice:Kalyna section:Martha_1 keyword:We'll save your husband!]] "Fear not! We will vanquish the evil-doers and return your beloved!"),
-=======
-												Text = T(468039687392, --[[ModItemConversation Martha_1 Text voice:Kalyna section:Martha_1 keyword:We'll save your husband!]] "Не бойтесь! Мы покараем злоумышленников и вернем вашего возлюбленного!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30920,11 +27086,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Igor",
-<<<<<<< HEAD
 												Text = T(624904529495, --[[ModItemConversation Martha_1 Text voice:Igor section:Martha_1 keyword:We'll save your husband!]] "It is good. We will retrieve wayward husband."),
-=======
-												Text = T(624904529495, --[[ModItemConversation Martha_1 Text voice:Igor section:Martha_1 keyword:We'll save your husband!]] "Хорошо. Мы вернем беглого мужа."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30935,11 +27097,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(909750959084, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll save your husband!]] "You're just saying that to comfort me. But in fact, he may be dead, or worse!"),
-=======
-								Text = T(909750959084, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll save your husband!]] "Вы так говорите, только чтобы утешить меня. А на самом деле он может быть мертв! Или того хуже!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -30948,11 +27106,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Red",
-<<<<<<< HEAD
 												Text = T(220687917889, --[[ModItemConversation Martha_1 Text voice:Red section:Martha_1 keyword:We'll save your husband!]] "What the hell could be worse, woman?!"),
-=======
-												Text = T(220687917889, --[[ModItemConversation Martha_1 Text voice:Red section:Martha_1 keyword:We'll save your husband!]] "Что, что может быть хуже, женщина?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30962,20 +27116,12 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Steroid",
-<<<<<<< HEAD
 												Text = T(220796766667, --[[ModItemConversation Martha_1 Text voice:Steroid section:Martha_1 keyword:We'll save your husband!]] "I'll bring him dead or alive."),
-=======
-												Text = T(220796766667, --[[ModItemConversation Martha_1 Text voice:Steroid section:Martha_1 keyword:We'll save your husband!]] "Я верну его. Живым или мертвым."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "Martha",
-<<<<<<< HEAD
 												Text = T(890000000000191, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll save your husband!]] "Постарайтесь живым, пожалуйста."),
-=======
-												Text = T(244558524415, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll save your husband!]] "Постарайтесь живым, пожалуйста."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -30985,11 +27131,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Kalyna",
-<<<<<<< HEAD
 												Text = T(962406195418, --[[ModItemConversation Martha_1 Text voice:Kalyna section:Martha_1 keyword:We'll save your husband!]] "Oh, worse than death is very bad."),
-=======
-												Text = T(962406195418, --[[ModItemConversation Martha_1 Text voice:Kalyna section:Martha_1 keyword:We'll save your husband!]] "Ох, хуже, чем мертв - это очень плохо."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -31000,11 +27142,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(890000000001113, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll save your husband!]] "Он мог спутаться с этой мелкой сучкой <em>Диди</em> с <em>Изумрудного берега</em>. Если это так, то я сама его прибью!"),
-=======
-								Text = T(825541053549, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll save your husband!]] "Он мог спутаться с этой мелкой сучкой <em>Диди</em> с <em>Изумрудного берега</em>. Если это так, то я сама его прибью!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -31043,11 +27181,7 @@ return {
 							PlaceObj('CityGrantLoyalty', {
 								Amount = -5,
 								City = "ErnieVillage",
-<<<<<<< HEAD
 								SpecialConversationMessage = T(492440381517, --[[ModItemConversation Martha_1 SpecialConversationMessage]] "bad impression on <em>Martha</em>"),
-=======
-								SpecialConversationMessage = T(492440381517, --[[ModItemConversation Martha_1 SpecialConversationMessage]] "<em>Марта</em> недовольна"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = {},
 							}),
 						},
@@ -31057,20 +27191,12 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(909750959084, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll save your husband!]] "You're just saying that to comfort me. But in fact, he may be dead, or worse!"),
-=======
-								Text = T(909750959084, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll save your husband!]] "Вы так говорите, только чтобы утешить меня. А на самом деле он может быть мертв! Или того хуже!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(621186886579, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll save your husband!]] "I am sure he is fooling around with that little hussy <em>Deedee</em> from the <em>Emerald Coast</em>. But that's none of your business!..."),
-=======
-								Text = T(621186886579, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll save your husband!]] "Уверена, он спутался с этой мелкой сучкой <em>Диди</em> с <em>Изумрудного берега</em>. Но это не вашего ума дело!.."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -31079,11 +27205,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fox",
-<<<<<<< HEAD
 												Text = T(884230455095, --[[ModItemConversation Martha_1 Text voice:Fox section:Martha_1 keyword:We'll save your husband!]] "Oh, I see... You think he's stepping out on you, right?"),
-=======
-												Text = T(884230455095, --[[ModItemConversation Martha_1 Text voice:Fox section:Martha_1 keyword:We'll save your husband!]] "А, понимаю... Думаете, он вам изменяет, да?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -31093,20 +27215,12 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Livewire",
-<<<<<<< HEAD
 												Text = T(391493558898, --[[ModItemConversation Martha_1 Text voice:Livewire section:Martha_1 keyword:We'll save your husband!]] "You think he's with another woman? It's hard to see how that's worse than death. I think if you calm down and..."),
-=======
-												Text = T(391493558898, --[[ModItemConversation Martha_1 Text voice:Livewire section:Martha_1 keyword:We'll save your husband!]] "Думаете, что он с другой женщиной? Не могу согласиться, что это хуже, чем смерть. Думаю, если вы немного успокоитесь..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "Martha",
-<<<<<<< HEAD
 												Text = T(890000000001077, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll save your husband!]] "«Успокоиться»?! Я ВАМ ДАМ ЩАС «УСПОКОИТЬСЯ»!!!"),
-=======
-												Text = T(801415165107, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll save your husband!]] "«Успокоиться»?! Я ВАМ ДАМ ЩАС «УСПОКОИТЬСЯ»!!!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -31117,11 +27231,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(390315187162, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll save your husband!]] "...If he's with her, I swear I'll kill him myself!"),
-=======
-								Text = T(390315187162, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We'll save your husband!]] "...Если он с ней, клянусь, я сама его убью!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -31163,11 +27273,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(547024292487, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We saved your husband!]] "Then where is he?! Don't tell me that he is with that harlot <em>Deedee</em>!... I'll kill him myself!!!"),
-=======
-								Text = T(547024292487, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:We saved your husband!]] "Тогда где же он? Только не говорите, что он с этой шлюхой <em>Диди</em>!.. Я сама его убью!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -31192,11 +27298,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(364062624244, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Nothing to worry about]] "We'll see about that. In any case, Herman will have a lot of explaining to do. Now if you'll excuse me, I need to get back to work."),
-=======
-								Text = T(364062624244, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Nothing to worry about]] "Это мы еще посмотрим. В любом случае, Герману предстоит многое мне объяснить. А теперь, если позволите, у меня много работы."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -31237,11 +27339,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ice",
-<<<<<<< HEAD
 												Text = T(811743856435, --[[ModItemConversation Martha_1 Text voice:Ice section:Martha_1 keyword:Herman has his little secrets]] "He's a playah, your man."),
-=======
-												Text = T(811743856435, --[[ModItemConversation Martha_1 Text voice:Ice section:Martha_1 keyword:Herman has his little secrets]] "Он бабник, твой мужик."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -31252,11 +27350,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(890000000000545, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Herman has his little secrets]] "ДА НЕУЖЕЛИ? Это мы еще посмотрим! Спасибо, что рассказали - ох, ему придется выложить мне ВСЕ, пусть только домой вернется!"),
-=======
-								Text = T(450820488813, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Herman has his little secrets]] "ДА НЕУЖЕЛИ? Это мы еще посмотрим! Спасибо, что рассказали - ох, ему придется выложить мне ВСЕ, пусть только домой вернется!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -31279,11 +27373,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(890000000001253, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Deedee?]] "«БОМБЕЗНАЯ Диди». Шизанутая девка, делает взрывчатку для <em>Легиона</em>. Водой её не пои, но дай всё повзрывать!"),
-=======
-								Text = T(897809008443, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Deedee?]] "«БОМБЕЗНАЯ Диди». Шизанутая девка, делает взрывчатку для <em>Легиона</em>. Водой её не пои, но дай всё повзрывать!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -31292,11 +27382,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000000354, --[[ModItemConversation Martha_1 Text voice:Fidel section:Martha_1 keyword:Deedee?]] "М! Фидель таких любит!"),
-=======
-												Text = T(328998729710, --[[ModItemConversation Martha_1 Text voice:Fidel section:Martha_1 keyword:Deedee?]] "М! Фидель таких любит!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -31316,11 +27402,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raven",
-<<<<<<< HEAD
 												Text = T(312844003501, --[[ModItemConversation Martha_1 Text voice:Raven section:Martha_1 keyword:Deedee?]] "So she's an accomplice."),
-=======
-												Text = T(312844003501, --[[ModItemConversation Martha_1 Text voice:Raven section:Martha_1 keyword:Deedee?]] "Значит, она сообщница."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -31330,11 +27412,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(314578928560, --[[ModItemConversation Martha_1 Text voice:Meltdown section:Martha_1 keyword:Deedee?]] "You just take the middle part of that and you could be talking about any one of my nieces."),
-=======
-												Text = T(314578928560, --[[ModItemConversation Martha_1 Text voice:Meltdown section:Martha_1 keyword:Deedee?]] "Вы прям племянниц моих описываете. Каждую из них."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -31345,11 +27423,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(709530499987, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Deedee?]] "She's had her eye on my <em>Herman</em> for a while now. Wouldn't surprise me if she sent those thugs to kidnap him for her!"),
-=======
-								Text = T(709530499987, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Deedee?]] "Она уже давно на <em>Германа</em> глаз положила. Не удивлюсь, если это она тех головорезов и подослала, чтобы они привели Германа к ней!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -31358,11 +27432,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Mouse",
-<<<<<<< HEAD
 												Text = T(890000000000632, --[[ModItemConversation Martha_1 Text voice:Mouse section:Martha_1 keyword:Deedee?]] "Ну, как-то это за уши притянуто."),
-=======
-												Text = T(504337664375, --[[ModItemConversation Martha_1 Text voice:Mouse section:Martha_1 keyword:Deedee?]] "Ну, как-то это за уши притянуто."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -31372,11 +27442,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Vicki",
-<<<<<<< HEAD
 												Text = T(890000000001086, --[[ModItemConversation Martha_1 Text voice:Vicki section:Martha_1 keyword:Deedee?]] "Я б сильно усомнилась!"),
-=======
-												Text = T(808013904988, --[[ModItemConversation Martha_1 Text voice:Vicki section:Martha_1 keyword:Deedee?]] "Я б сильно усомнилась!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -31386,11 +27452,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Kalyna",
-<<<<<<< HEAD
 												Text = T(525644805671, --[[ModItemConversation Martha_1 Text voice:Kalyna section:Martha_1 keyword:Deedee?]] "An evil sorceress who kidnaps young men! I have heard of such things."),
-=======
-												Text = T(525644805671, --[[ModItemConversation Martha_1 Text voice:Kalyna section:Martha_1 keyword:Deedee?]] "Злобная колдунья, что похищает молодых парней? Я о таком слышала."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -31419,11 +27481,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(677083647189, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Emerald Coast?]] "It's a nice stretch of beach and sand dunes. Herman and I were planning to build a cottage up there, but we found out the place is littered with land mines."),
-=======
-								Text = T(677083647189, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Emerald Coast?]] "Там хорошее место - пляж и песчаные дюны. Мы с Германом хотели построить там коттедж, но обнаружили, что все буквально усыпано минами."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -31432,11 +27490,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(628994024409, --[[ModItemConversation Martha_1 Text voice:Fidel section:Martha_1 keyword:Emerald Coast?]] "A few mines never hurt anybody! I mean, mostly anybody."),
-=======
-												Text = T(628994024409, --[[ModItemConversation Martha_1 Text voice:Fidel section:Martha_1 keyword:Emerald Coast?]] "Несколько мин никого не повредят! Ну, почти никого."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -31446,11 +27500,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Livewire",
-<<<<<<< HEAD
 												Text = T(357023838307, --[[ModItemConversation Martha_1 Text voice:Livewire section:Martha_1 keyword:Emerald Coast?]] "This is so true! Good real estate is very hard to find."),
-=======
-												Text = T(357023838307, --[[ModItemConversation Martha_1 Text voice:Livewire section:Martha_1 keyword:Emerald Coast?]] "Как я вас понимаю! Так сложно в наше время найти хороший дом."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -31460,11 +27510,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Omryn",
-<<<<<<< HEAD
 												Text = T(225449168526, --[[ModItemConversation Martha_1 Text voice:Omryn section:Martha_1 keyword:Emerald Coast?]] "Minefields always make me so tired."),
-=======
-												Text = T(225449168526, --[[ModItemConversation Martha_1 Text voice:Omryn section:Martha_1 keyword:Emerald Coast?]] "У меня от минных полей одышка."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -31474,11 +27520,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Barry",
-<<<<<<< HEAD
 												Text = T(187735119756, --[[ModItemConversation Martha_1 Text voice:Barry section:Martha_1 keyword:Emerald Coast?]] "I do not like minelayers. They never pick up after themselves."),
-=======
-												Text = T(187735119756, --[[ModItemConversation Martha_1 Text voice:Barry section:Martha_1 keyword:Emerald Coast?]] "Не люблю миноукладчики. Они никогда за собой не подбирают."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -31489,11 +27531,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(890000000000200, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Emerald Coast?]] "Я вот уверена, что это всё - ее рук дело! Этой простифульды!"),
-=======
-								Text = T(247850946771, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Emerald Coast?]] "Я вот уверена, что это всё - ее рук дело! Этой простифульды!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -31525,11 +27563,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(695021917784, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:This is none of our business]] "But... he could be hurt, or... worse! He may be seduced by some other woman! Isn't there anything you can do?"),
-=======
-								Text = T(695021917784, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:This is none of our business]] "Но... ему может быть плохо или... еще хуже! Его могла соблазнить другая женщина! Неужели вы ничего не можете сделать?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -31538,20 +27572,12 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Mouse",
-<<<<<<< HEAD
 												Text = T(890000000000185, --[[ModItemConversation Martha_1 Text voice:Mouse section:Martha_1 keyword:This is none of our business]] "Мы не частные сыщики. Мы не разыскиваем здесь изменщиков."),
-=======
-												Text = T(243044760509, --[[ModItemConversation Martha_1 Text voice:Mouse section:Martha_1 keyword:This is none of our business]] "Мы не частные сыщики. Мы не разыскиваем здесь изменщиков."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "Martha",
-<<<<<<< HEAD
 												Text = T(890000000000212, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:This is none of our business]] "Пусть только попробует мне изменить! Я устрою ему кенгурячью морду!"),
-=======
-												Text = T(252413091850, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:This is none of our business]] "Пусть только попробует мне изменить! Я устрою ему кенгурячью морду!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -31594,11 +27620,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Buns",
-<<<<<<< HEAD
 												Text = T(623746948350, --[[ModItemConversation Martha_1 Text voice:Buns section:Martha_1 keyword:He's probably dead...]] "You should consider the possibility that instead of flirting with some girl, he may be dead."),
-=======
-												Text = T(623746948350, --[[ModItemConversation Martha_1 Text voice:Buns section:Martha_1 keyword:He's probably dead...]] "Вам стоит подумать вот о чем: вместо того, чтобы флиртовать с другими девочками, он может быть мертв."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -31608,11 +27630,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(583484681129, --[[ModItemConversation Martha_1 Text voice:Meltdown section:Martha_1 keyword:He's probably dead...]] "Hate to break it to you, but by now he's probably takin' a dirt nap."),
-=======
-												Text = T(583484681129, --[[ModItemConversation Martha_1 Text voice:Meltdown section:Martha_1 keyword:He's probably dead...]] "Западло, конечно, такое говорить - но, скорее всего, он уже мертв."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -31622,11 +27640,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Nails",
-<<<<<<< HEAD
 												Text = T(890000000000959, --[[ModItemConversation Martha_1 Text voice:Nails section:Martha_1 keyword:He's probably dead...]] "Этот Герман твой скорей всего мертв, но… найдём тебе тело, если надо."),
-=======
-												Text = T(722317074668, --[[ModItemConversation Martha_1 Text voice:Nails section:Martha_1 keyword:He's probably dead...]] "Этот Герман твой скорей всего мертв, но… найдём тебе тело, если надо."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -31637,11 +27651,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(890000000000930, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:He's probably dead...]] "Как у вас язык поворачивается такое мне говорить! Вы жестокие! Даже не знаю, почему я решила, что вы чем-то отличаетесь от дикарей из Легиона... не желаю больше иметь с вами никаких дел."),
-=======
-								Text = T(704396677683, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:He's probably dead...]] "Как у вас язык поворачивается такое мне говорить! Вы жестокие! Даже не знаю, почему я решила, что вы чем-то отличаетесь от дикарей из Легиона... не желаю больше иметь с вами никаких дел."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -31650,20 +27660,12 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Red",
-<<<<<<< HEAD
 												Text = T(767826499215, --[[ModItemConversation Martha_1 Text voice:Red section:Martha_1 keyword:He's probably dead...]] "Calm down, woman, we'll see what we can do."),
-=======
-												Text = T(767826499215, --[[ModItemConversation Martha_1 Text voice:Red section:Martha_1 keyword:He's probably dead...]] "Успокойся, женщина. Мы посмотрим, что тут можно сделать."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "Martha",
-<<<<<<< HEAD
 												Text = T(890000000001077, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:He's probably dead...]] "«Успокоиться»?! Я ВАМ ДАМ ЩАС «УСПОКОИТЬСЯ»!!!"),
-=======
-												Text = T(801415165107, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:He's probably dead...]] "«Успокоиться»?! Я ВАМ ДАМ ЩАС «УСПОКОИТЬСЯ»!!!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -31685,11 +27687,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(122810028067, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:What about the President?]] "What president? Oh, come on. My man's missing, I don't care about politics!"),
-=======
-								Text = T(122810028067, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:What about the President?]] "Какой еще президент? Я вас умоляю. Мне плевать на политику, у меня муж пропал!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -31710,19 +27708,11 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
 								Text = T(890000000000699, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Goodbye]] "Если Герман мне изменяет, хочу придушить его собственноручно."),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Martha",
-								Text = T(549346271050, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Goodbye]] "Если Герман мне изменяет, хочу придушить его собственноручно."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -31734,19 +27724,11 @@ return {
 						Align = "right",
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
 								Text = T(890000000001012, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Goodbye]] "Ладно, мне нужно работать. Прошу вас, сообщите, если узнаете что-либо о моем муже."),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Martha",
-								Text = T(766007532839, --[[ModItemConversation Martha_1 Text voice:Martha section:Martha_1 keyword:Goodbye]] "Ладно, мне нужно работать. Прошу вас, сообщите, если узнаете что-либо о моем муже."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -31813,19 +27795,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								Text = T(777239424052, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting]] "I saw you handle those <em>Legion</em> thugs. Not bad. I don't expect you did it for free, huh? We don't have the money to pay for your protection."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "GreasyBasil",
-								Text = T(777239424052, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting]] "Я видел, как вы разобрались с этими бандитами из <em>Легиона</em>. Неплохо. Но я сомневаюсь, что вы сделали это бесплатно. Увы, нам нечем платить вам за защиту."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -31854,11 +27828,7 @@ return {
 								PlaceObj('CityGrantLoyalty', {
 									Amount = 5,
 									City = "ErnieVillage",
-<<<<<<< HEAD
 									SpecialConversationMessage = T(433642054389, --[[ModItemConversation GreasyBasil_1 SpecialConversationMessage]] "good impression on <em>Basil</em>"),
-=======
-									SpecialConversationMessage = T(433642054389, --[[ModItemConversation GreasyBasil_1 SpecialConversationMessage]] "<em>Базиль</em> доволен"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -31872,11 +27842,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Raider",
-<<<<<<< HEAD
 													Text = T(898223872762, --[[ModItemConversation GreasyBasil_1 Text voice:Raider section:GreasyBasil_1 keyword:We don't require payment]] "Our client wanted us to get the Legion out of your town for you."),
-=======
-													Text = T(898223872762, --[[ModItemConversation GreasyBasil_1 Text voice:Raider section:GreasyBasil_1 keyword:We don't require payment]] "Мы очистили ваш город от Легиона по заказу другого клиента."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -31886,11 +27852,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Buns",
-<<<<<<< HEAD
 													Text = T(890000000000557, --[[ModItemConversation GreasyBasil_1 Text voice:Buns section:GreasyBasil_1 keyword:We don't require payment]] "Не волнуйтесь. Наш клиент желает вам помочь. И мы поможем."),
-=======
-													Text = T(462663650674, --[[ModItemConversation GreasyBasil_1 Text voice:Buns section:GreasyBasil_1 keyword:We don't require payment]] "Не волнуйтесь. Наш клиент желает вам помочь. И мы поможем."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -31901,11 +27863,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
-<<<<<<< HEAD
 									Text = T(890000000001311, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We don't require payment]] "Правда? Не понимаю, в чем ваша выгода, но я только за, разумеется."),
-=======
-									Text = T(943891981772, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We don't require payment]] "Правда? Не понимаю, в чем ваша выгода, но я только за, разумеется."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -31936,11 +27894,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
-<<<<<<< HEAD
 									Text = T(890000000000390, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We don't require payment]] "Ну да, да. Бесплатный сыр бывает только в мышеловке. Пожалуйста, хотя бы не убивайте нас."),
-=======
-									Text = T(346496975903, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We don't require payment]] "Ну да, да. Бесплатный сыр бывает только в мышеловке. Пожалуйста, хотя бы не убивайте нас."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -31972,11 +27926,7 @@ return {
 								PlaceObj('CityGrantLoyalty', {
 									Amount = -5,
 									City = "ErnieVillage",
-<<<<<<< HEAD
 									SpecialConversationMessage = T(333360536421, --[[ModItemConversation GreasyBasil_1 SpecialConversationMessage]] "bad impression on <em>Basil</em>"),
-=======
-									SpecialConversationMessage = T(333360536421, --[[ModItemConversation GreasyBasil_1 SpecialConversationMessage]] "<em>Базиль</em> недоволен"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -31986,11 +27936,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
-<<<<<<< HEAD
 									Text = T(341083876288, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:You can spare some coin]] "Does it look like I'm hiding money bags in my pants? "),
-=======
-									Text = T(341083876288, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:You can spare some coin]] "Я похож на богача с мешками денег в штанах?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -31999,11 +27945,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fox",
-<<<<<<< HEAD
 													Text = T(215981072977, --[[ModItemConversation GreasyBasil_1 Text voice:Fox section:GreasyBasil_1 keyword:You can spare some coin]] "I can always tell when a man is hiding something in his pants."),
-=======
-													Text = T(215981072977, --[[ModItemConversation GreasyBasil_1 Text voice:Fox section:GreasyBasil_1 keyword:You can spare some coin]] "Ну, если у мужчины есть что-то в штанах, я сразу это замечаю."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -32013,11 +27955,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Livewire",
-<<<<<<< HEAD
 													Text = T(924159144635, --[[ModItemConversation GreasyBasil_1 Text voice:Livewire section:GreasyBasil_1 keyword:You can spare some coin]] "While it is true that I know little of your pants, I think that maybe you have more than just the one pair."),
-=======
-													Text = T(924159144635, --[[ModItemConversation GreasyBasil_1 Text voice:Livewire section:GreasyBasil_1 keyword:You can spare some coin]] "Не знаю, что там у вас в штанах, но вижу, что они явно не последние."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -32028,11 +27966,7 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
-<<<<<<< HEAD
 									Text = T(890000000000922, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:You can spare some coin]] "Ладно, пожалуй, будет лучше, если наши деньги достанутся вам, а не Легиону. Вот, держите - вы их честно заработали."),
-=======
-									Text = T(697360481429, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:You can spare some coin]] "Ладно, пожалуй, будет лучше, если наши деньги достанутся вам, а не Легиону. Вот, держите - вы их честно заработали."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -32054,11 +27988,7 @@ return {
 								PlaceObj('CityGrantLoyalty', {
 									Amount = -5,
 									City = "ErnieVillage",
-<<<<<<< HEAD
 									SpecialConversationMessage = T(333360536421, --[[ModItemConversation GreasyBasil_1 SpecialConversationMessage]] "bad impression on <em>Basil</em>"),
-=======
-									SpecialConversationMessage = T(333360536421, --[[ModItemConversation GreasyBasil_1 SpecialConversationMessage]] "<em>Базиль</em> недоволен"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -32068,11 +27998,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
-<<<<<<< HEAD
 									Text = T(890000000001278, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:You can spare some coin]] "Посмотрите вокруг. Вы правда думаете, что мы прячем деньги в стенах? Да у нас тут и стен-то толком нет. Все, что было, уже выгреб Легион."),
-=======
-									Text = T(918651014875, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:You can spare some coin]] "Посмотрите вокруг. Вы правда думаете, что мы прячем деньги в стенах? Да у нас тут и стен-то толком нет. Все, что было, уже выгреб Легион."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -32098,19 +28024,11 @@ return {
 							Enabled = false,
 							GoTo = "<root>",
 							Keyword = "Redirect",
-<<<<<<< HEAD
 							KeywordT = T(890000000000352, --[[ModItemConversation Pierre_2 KeywordT]] "Redirect"),
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
 									Text = T(890000000001369, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Redirect]] "Если вы действительно хотите нам <em>помочь</em>, лучше сделайте это до того, как Легион вернется и еще кого-нибудь <em>убьет</em>. Постойте… Или вы планируете свалить, как те, <em>другие наемники</em>?"),
-=======
-							KeywordT = T(328092960140, --[[ModItemConversation Pierre_2 KeywordT]] "Redirect"),
-							Lines = {
-								PlaceObj('ConversationLine', {
-									Character = "GreasyBasil",
-									Text = T(991873754701, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Redirect]] "Если вы действительно хотите нам <em>помочь</em>, лучше сделайте это до того, как Легион вернется и еще кого-нибудь <em>убьет</em>. Постойте… Или вы планируете свалить, как те, <em>другие наемники</em>?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -32135,19 +28053,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								Text = T(883511991160, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting8]] "What is this? After all <em>Pierre</em> has done to us, you have recruited him?!"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "GreasyBasil",
-								Text = T(883511991160, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting8]] "Чего? Вы наняли <em>Пьера</em>? После всего, что он тут наделал?!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -32170,11 +28080,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
-<<<<<<< HEAD
 									Text = T(131294188279, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We will keep him in check]] "I hope you will. I really do - not for your sake, but for poor <em>Luc</em>. I almost hanged him because of this unworthy son of his."),
-=======
-									Text = T(131294188279, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We will keep him in check]] "Надеюсь. Я правда надеюсь - не ради вас, а ради бедного <em>Люка</em>. Я ведь чуть его не повесил за то, что натворил его недостойный сын."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -32183,11 +28089,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Len",
-<<<<<<< HEAD
 													Text = T(108174733891, --[[ModItemConversation GreasyBasil_1 Text voice:Len section:GreasyBasil_1 keyword:We will keep him in check]] "Don't worry, sir. I'll make a good soldier out of this young man."),
-=======
-													Text = T(108174733891, --[[ModItemConversation GreasyBasil_1 Text voice:Len section:GreasyBasil_1 keyword:We will keep him in check]] "Не волнуйтесь, сэр. Я сделаю из этого юноши хорошего солдата."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -32214,11 +28116,7 @@ return {
 								PlaceObj('CityGrantLoyalty', {
 									Amount = -10,
 									City = "ErnieVillage",
-<<<<<<< HEAD
 									SpecialConversationMessage = T(628897142269, --[[ModItemConversation GreasyBasil_1 SpecialConversationMessage]] "bad impression on <em>Basil</em>"),
-=======
-									SpecialConversationMessage = T(628897142269, --[[ModItemConversation GreasyBasil_1 SpecialConversationMessage]] "<em>Базиль</em> недоволен"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = {
 										Amount = "LoyaltyLoss_High",
 									},
@@ -32230,11 +28128,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
-<<<<<<< HEAD
 									Text = T(769993302546, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We will keep him in check]] "Yeah, tell that to <em>Tinhay</em>. You should never trust a snake not to bite you. If you do, then you are just a fool."),
-=======
-									Text = T(769993302546, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We will keep him in check]] "Да-да, <em>Тинхею</em> это скажите. Не верь змее, когда она обещает не кусаться. А если веришь, значит, ты дурак."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -32243,20 +28137,12 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "PierreMerc",
-<<<<<<< HEAD
 													Text = T(424025395776, --[[ModItemConversation GreasyBasil_1 Text voice:PierreMerc section:GreasyBasil_1 keyword:We will keep him in check]] "You are the fool here, uncle Basil. You almost hanged papa because of your thick head."),
-=======
-													Text = T(424025395776, --[[ModItemConversation GreasyBasil_1 Text voice:PierreMerc section:GreasyBasil_1 keyword:We will keep him in check]] "Дурак здесь ты, дядя Базиль. Из-за своего твердолобого упрямства ты чуть не повесил папу."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 												PlaceObj('ConversationLine', {
 													Character = "GreasyBasil",
-<<<<<<< HEAD
 													Text = T(884195037124, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We will keep him in check]] "Shut up, boy. If I had done that, it would have been because of your actions."),
-=======
-													Text = T(884195037124, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We will keep him in check]] "Заткнись, щенок. Если бы я это сделал, то виноват в этом был бы ты."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -32275,11 +28161,7 @@ return {
 								PlaceObj('CityGrantLoyalty', {
 									Amount = -5,
 									City = "ErnieVillage",
-<<<<<<< HEAD
 									SpecialConversationMessage = T(609676340389, --[[ModItemConversation GreasyBasil_1 SpecialConversationMessage]] "bad impression on <em>Basil</em>"),
-=======
-									SpecialConversationMessage = T(609676340389, --[[ModItemConversation GreasyBasil_1 SpecialConversationMessage]] "<em>Базиль</em> недоволен"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = {
 										Amount = "LoyaltyLoss_Low",
 									},
@@ -32291,11 +28173,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
-<<<<<<< HEAD
 									Text = T(615042250119, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:It is our decision to make]] "It's easy to say \"I decided this and that\", but when things go south, will you handle it? It's your responsibility if someone else dies because of this boy."),
-=======
-									Text = T(615042250119, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:It is our decision to make]] "Легко сказать «я так решил», но хватит ли у вас сил исполнить свое решение? Если из-за этого мальчишки еще кто-нибудь умрет, отвечать будете вы."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -32304,20 +28182,12 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "PierreMerc",
-<<<<<<< HEAD
 													Text = T(237454323620, --[[ModItemConversation GreasyBasil_1 Text voice:PierreMerc section:GreasyBasil_1 keyword:It is our decision to make]] "No, it is my own responsibility. I'm not a wild dog, you know. I know right from wrong."),
-=======
-													Text = T(237454323620, --[[ModItemConversation GreasyBasil_1 Text voice:PierreMerc section:GreasyBasil_1 keyword:It is our decision to make]] "Нет, отвечать буду я сам. Я не бродячий пес. Я различаю добро и зло."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 												PlaceObj('ConversationLine', {
 													Character = "GreasyBasil",
-<<<<<<< HEAD
 													Text = T(531475082181, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:It is our decision to make]] "I doubt that."),
-=======
-													Text = T(531475082181, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:It is our decision to make]] "Сомневаюсь."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -32345,11 +28215,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
-<<<<<<< HEAD
 									Text = T(547749030570, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:All fools deserve a second chance]] "Just as <em>Luc</em> said it, and he is a wise man. But wisdom alone cannot help the foolish, especially when good people can die because of them. You should well remember this and keep a close watch on this <em>Pierre</em>."),
-=======
-									Text = T(547749030570, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:All fools deserve a second chance]] "То же самое говорил и <em>Люк</em>, а он мудрый человек. Но одной мудрости мало, чтобы победить глупость, особенно когда из-за нее гибнут хорошие люди. Помните об этом и не спускайте глаз с <em>Пьера</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -32392,19 +28258,11 @@ return {
 						},
 						GoTo = "MachineGunRedirect",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								Text = T(733352944646, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting13]] "I appreciate you taking the time to teach us how to defend the town. I have to say, the <em>militia</em> that you trained would certainly benefit from having that <em>machine gun</em> you got there to back them up, if you can spare it."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "GreasyBasil",
-								Text = T(733352944646, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting13]] "Спасибо, что нашли время научить нас обороне. Должен сказать, что <em>ополчению</em>, которое вы подготовили, очень пригодился бы тот ваш <em>пулемет</em>. Вы можете его оставить?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -32441,19 +28299,11 @@ return {
 						},
 						GoTo = "MachineGunRedirect",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								Text = T(666949665943, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting9]] "I see you've got a machine gun! I hope you can spare it. We could sure use it to keep those <em>Legion</em> types away."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "GreasyBasil",
-								Text = T(666949665943, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting9]] "Я смотрю, у вас есть пулемет! Надеюсь, вы оставите его здесь. Он бы нам очень пригодился для защиты от <em>Легиона</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -32491,11 +28341,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
-<<<<<<< HEAD
 									Text = T(406153122315, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:The machine gun is yours]] "Now that's a hell of a weed-wacker. A little grease, a new tripod and it'll be ready to keep those Legion types from sprouting up again. "),
-=======
-									Text = T(406153122315, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:The machine gun is yours]] "Эх, хороша косилка! Немного смазки, новая станина - и никакой Легион нам будет не страшен."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -32504,11 +28350,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Vicki",
-<<<<<<< HEAD
 													Text = T(890000000001303, --[[ModItemConversation GreasyBasil_1 Text voice:Vicki section:GreasyBasil_1 keyword:The machine gun is yours]] "Ага, man. Лентопротягу не забывай чистить и мазать. Эта обжора ест очень грязно."),
-=======
-													Text = T(935419481624, --[[ModItemConversation GreasyBasil_1 Text voice:Vicki section:GreasyBasil_1 keyword:The machine gun is yours]] "Ага, man. Лентопротягу не забывай чистить и мазать. Эта обжора ест очень грязно."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -32518,11 +28360,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fidel",
-<<<<<<< HEAD
 													Text = T(300329706971, --[[ModItemConversation GreasyBasil_1 Text voice:Fidel section:GreasyBasil_1 keyword:The machine gun is yours]] "Why is machine gun leaving?"),
-=======
-													Text = T(300329706971, --[[ModItemConversation GreasyBasil_1 Text voice:Fidel section:GreasyBasil_1 keyword:The machine gun is yours]] "Зачем мы оставляем пулемет?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -32532,11 +28370,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Grizzly",
-<<<<<<< HEAD
 													Text = T(903431602065, --[[ModItemConversation GreasyBasil_1 Text voice:Grizzly section:GreasyBasil_1 keyword:The machine gun is yours]] "Hate to see her go, but at least she'll have a good home."),
-=======
-													Text = T(903431602065, --[[ModItemConversation GreasyBasil_1 Text voice:Grizzly section:GreasyBasil_1 keyword:The machine gun is yours]] "Жаль расставаться с этой красавицей, но теперь у нее есть новый дом."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -32546,11 +28380,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Meltdown",
-<<<<<<< HEAD
 													Text = T(118982008485, --[[ModItemConversation GreasyBasil_1 Text voice:Meltdown section:GreasyBasil_1 keyword:The machine gun is yours]] "Aw, hell. Was hoping I could play with that a little longer."),
-=======
-													Text = T(118982008485, --[[ModItemConversation GreasyBasil_1 Text voice:Meltdown section:GreasyBasil_1 keyword:The machine gun is yours]] "Ох, черт. А я так хотела с ним еще поиграться."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -32560,11 +28390,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Omryn",
-<<<<<<< HEAD
 													Text = T(890000000000215, --[[ModItemConversation GreasyBasil_1 Text voice:Omryn section:GreasyBasil_1 keyword:The machine gun is yours]] "Пулемет - оружие обороны, а не нападения. Он нам не нужен. Мы собираемся нападать, однако!"),
-=======
-													Text = T(254491909264, --[[ModItemConversation GreasyBasil_1 Text voice:Omryn section:GreasyBasil_1 keyword:The machine gun is yours]] "Пулемет - оружие обороны, а не нападения. Он нам не нужен. Мы собираемся нападать, однако!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -32593,11 +28419,7 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
-<<<<<<< HEAD
 									Text = T(890000000000160, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We'll keep it]] "Кокосы-бананы. Понимаю, не переживайте. Наверное, в ваших руках он убьет больше мерзавцев из <em>Легиона</em>, чем в наших."),
-=======
-									Text = T(216488275866, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We'll keep it]] "Кокосы-бананы. Понимаю, не переживайте. Наверное, в ваших руках он убьет больше мерзавцев из <em>Легиона</em>, чем в наших."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -32606,11 +28428,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Grizzly",
-<<<<<<< HEAD
 													Text = T(844108465808, --[[ModItemConversation GreasyBasil_1 Text voice:Grizzly section:GreasyBasil_1 keyword:We'll keep it]] "Count on it. I'll make sure she eats right and gets plenty of exercise."),
-=======
-													Text = T(844108465808, --[[ModItemConversation GreasyBasil_1 Text voice:Grizzly section:GreasyBasil_1 keyword:We'll keep it]] "Уж поверьте. Обещаю, у нас эта зверушка всегда будет сыта и довольна."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -32620,11 +28438,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Meltdown",
-<<<<<<< HEAD
 													Text = T(830478250913, --[[ModItemConversation GreasyBasil_1 Text voice:Meltdown section:GreasyBasil_1 keyword:We'll keep it]] "You're goddamn right it will."),
-=======
-													Text = T(830478250913, --[[ModItemConversation GreasyBasil_1 Text voice:Meltdown section:GreasyBasil_1 keyword:We'll keep it]] "А то как же."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -32634,20 +28448,12 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Grunty",
-<<<<<<< HEAD
 													Text = T(800691838711, --[[ModItemConversation GreasyBasil_1 Text voice:Grunty section:GreasyBasil_1 keyword:We'll keep it]] "Ja. Every time this adorable kitty purrs, I will stroke it and think of you."),
-=======
-													Text = T(800691838711, --[[ModItemConversation GreasyBasil_1 Text voice:Grunty section:GreasyBasil_1 keyword:We'll keep it]] "Йа. Каждый раз, когда эта киска будет мурчать, я буду ее гладить и вспоминать вас."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 												PlaceObj('ConversationLine', {
 													Character = "GreasyBasil",
-<<<<<<< HEAD
 													Text = T(945213070620, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We'll keep it]] "Uhhh... Thank you?"),
-=======
-													Text = T(945213070620, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We'll keep it]] "Хм-м-м... Спасибо?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -32711,19 +28517,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								Text = T(560277227396, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting11]] "Hello, my friends. I appreciate what you have done for us. I really do. But as long as Pierre's bandits still control the old <em>Fort</em>, we'll never be safe."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "GreasyBasil",
-								Text = T(560277227396, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting11]] "Привет, друзья. Спасибо за все, что вы для нас сделали. Правда, спасибо. Но пока бандиты Пьера сидят в старом <em>форте</em>, покоя нам не будет."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -32752,19 +28550,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								Text = T(853415310668, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting7]] "All my life, I never trusted foreigners. And now some foreigners helped us regain our freedom. Fate loves to challenge our assumptions, huh?"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "GreasyBasil",
-								Text = T(853415310668, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting7]] "Я никогда в жизни не верил иностранцам. А теперь иностранцы помогли нам вернуть свободу. Судьба любит проверять убеждения на прочность, да?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -32773,20 +28563,12 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(629218775434, --[[ModItemConversation GreasyBasil_1 Text voice:Wolf section:GreasyBasil_1 keyword:Greeting7]] "The Legion don't seem like foreigners here. Would you trust them one bit?"),
-=======
-												Text = T(629218775434, --[[ModItemConversation GreasyBasil_1 Text voice:Wolf section:GreasyBasil_1 keyword:Greeting7]] "Легион состоит из местных. Вы ему сильно верите?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "GreasyBasil",
-<<<<<<< HEAD
 												Text = T(457338671863, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting7]] "You have got a point."),
-=======
-												Text = T(457338671863, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting7]] "Крыть нечем."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -32796,11 +28578,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Thor",
-<<<<<<< HEAD
 												Text = T(946202303175, --[[ModItemConversation GreasyBasil_1 Text voice:Thor section:GreasyBasil_1 keyword:Greeting7]] "This is how Karma works."),
-=======
-												Text = T(946202303175, --[[ModItemConversation GreasyBasil_1 Text voice:Thor section:GreasyBasil_1 keyword:Greeting7]] "Именно так и работает карма."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -32810,11 +28588,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grizzly",
-<<<<<<< HEAD
 												Text = T(103131989426, --[[ModItemConversation GreasyBasil_1 Text voice:Grizzly section:GreasyBasil_1 keyword:Greeting7]] "We're here to help."),
-=======
-												Text = T(103131989426, --[[ModItemConversation GreasyBasil_1 Text voice:Grizzly section:GreasyBasil_1 keyword:Greeting7]] "Мы пришли вам помогать."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -32825,11 +28599,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(865244332405, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting7]] "But I guess what I was trying to say is, uh, thanks. I've been thinking what a grease monkey can do for you, and... I came up with this. It's a bit ugly, but it works. Hope it serves you well."),
-=======
-								Text = T(865244332405, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting7]] "Но, понимаете, я вот о чем хотел сказать. Я думал, чем простой механик сможет вас отблагодарить, и... Вот. Выглядит коряво, но работает. Надеюсь, он вам пригодится."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -32858,19 +28628,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								Text = T(890000000001120, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Militiatrained3]] "Племянник говорит, что вы охрененно крутецкие. И, пожалуй, я с ним соглашусь. Спасибо, что учите нас защищаться."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "GreasyBasil",
-								Text = T(830209337166, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Militiatrained3]] "Племянник говорит, что вы охрененно крутецкие. И, пожалуй, я с ним соглашусь. Спасибо, что учите нас защищаться."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -32879,11 +28641,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(958307958931, --[[ModItemConversation GreasyBasil_1 Text voice:Wolf section:GreasyBasil_1 keyword:Militiatrained3]] "It was good to teach people how to defend themselves. I've been teaching businessmen how to throw paint at each other for too long."),
-=======
-												Text = T(958307958931, --[[ModItemConversation GreasyBasil_1 Text voice:Wolf section:GreasyBasil_1 keyword:Militiatrained3]] "Мне самому понравилось вас учить защищаться. Слишком долго я учил бизнесменов пачкать друг друга краской из игрушечного оружия."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -32893,11 +28651,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(225522063439, --[[ModItemConversation GreasyBasil_1 Text voice:Raider section:GreasyBasil_1 keyword:Militiatrained3]] "Next time those Legion criminals show up, you'll be in good shape to protect yourselves."),
-=======
-												Text = T(225522063439, --[[ModItemConversation GreasyBasil_1 Text voice:Raider section:GreasyBasil_1 keyword:Militiatrained3]] "Когда бандиты из Легиона явятся в следующий раз, вы будете готовы их встретить."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -32907,11 +28661,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Red",
-<<<<<<< HEAD
 												Text = T(382412632959, --[[ModItemConversation GreasyBasil_1 Text voice:Red section:GreasyBasil_1 keyword:Militiatrained3]] "They still barely know whether to wipe their watches or wind their arses, so don't thank us yet!"),
-=======
-												Text = T(382412632959, --[[ModItemConversation GreasyBasil_1 Text voice:Red section:GreasyBasil_1 keyword:Militiatrained3]] "Рано благодарите! Они еще стволы-то толком держать не научились!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -32921,11 +28671,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fox",
-<<<<<<< HEAD
 												Text = T(989866870255, --[[ModItemConversation GreasyBasil_1 Text voice:Fox section:GreasyBasil_1 keyword:Militiatrained3]] "He's a very energetic young man with a lot of stamina. I like that!"),
-=======
-												Text = T(989866870255, --[[ModItemConversation GreasyBasil_1 Text voice:Fox section:GreasyBasil_1 keyword:Militiatrained3]] "Он очень энергичный и выносливый юноша. Обожаю таких!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -32935,11 +28681,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ice",
-<<<<<<< HEAD
 												Text = T(791649459030, --[[ModItemConversation GreasyBasil_1 Text voice:Ice section:GreasyBasil_1 keyword:Militiatrained3]] "Hey, it's learn fast or die young. You feel me?"),
-=======
-												Text = T(791649459030, --[[ModItemConversation GreasyBasil_1 Text voice:Ice section:GreasyBasil_1 keyword:Militiatrained3]] "Тут как: учись быстро или умри молодым. Сечете?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -32949,11 +28691,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Tex",
-<<<<<<< HEAD
 												Text = T(986775737098, --[[ModItemConversation GreasyBasil_1 Text voice:Tex section:GreasyBasil_1 keyword:Militiatrained3]] "All you homesteaders are now one mean posse!"),
-=======
-												Text = T(986775737098, --[[ModItemConversation GreasyBasil_1 Text voice:Tex section:GreasyBasil_1 keyword:Militiatrained3]] "Теперь вы настоящие защитники своего дома!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -32980,19 +28718,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								Text = T(842132684538, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting4]] "I am still wondering if I did the right thing. I suppose I always will. I... I miss him sometimes."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "GreasyBasil",
-								Text = T(842132684538, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting4]] "Я до сих пор не уверен, что поступил правильно. И никогда не буду уверен. Мне... мне его не хватает."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -33001,11 +28731,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Mouse",
-<<<<<<< HEAD
 												Text = T(890000000000853, --[[ModItemConversation GreasyBasil_1 Text voice:Mouse section:GreasyBasil_1 keyword:Greeting4]] "Скорбеть нормально. Не значит, что решение было неверным."),
-=======
-												Text = T(650519898246, --[[ModItemConversation GreasyBasil_1 Text voice:Mouse section:GreasyBasil_1 keyword:Greeting4]] "Скорбеть нормально. Не значит, что решение было неверным."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33015,11 +28741,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Thor",
-<<<<<<< HEAD
 												Text = T(431160001317, --[[ModItemConversation GreasyBasil_1 Text voice:Thor section:GreasyBasil_1 keyword:Greeting4]] "Doing what you think is right is one thing. Living with it is another."),
-=======
-												Text = T(431160001317, --[[ModItemConversation GreasyBasil_1 Text voice:Thor section:GreasyBasil_1 keyword:Greeting4]] "Поступить по правде - это одно. Жить с этим - совсем другое."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33029,11 +28751,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(610925656189, --[[ModItemConversation GreasyBasil_1 Text voice:Meltdown section:GreasyBasil_1 keyword:Greeting4]] "That why you keep his body hanging up there?"),
-=======
-												Text = T(610925656189, --[[ModItemConversation GreasyBasil_1 Text voice:Meltdown section:GreasyBasil_1 keyword:Greeting4]] "Ты потому до сих пор не снял его труп?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33043,11 +28761,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(460766812950, --[[ModItemConversation GreasyBasil_1 Text voice:Raider section:GreasyBasil_1 keyword:Greeting4]] "Sometimes justice demands a sacrifice. I'm sorry for your loss."),
-=======
-												Text = T(460766812950, --[[ModItemConversation GreasyBasil_1 Text voice:Raider section:GreasyBasil_1 keyword:Greeting4]] "Справедливость иногда требует жертв. Сочувствую вашей утрате."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33073,20 +28787,12 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Annotation = "*spits on the ground*",
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(643290433677, --[[ModItemConversation GreasyBasil_1 Text *spits on the ground* voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting5]] "Sometimes I feel bad when I see <em>Herman</em> hanging there. Then I remember I almost hanged my old friend <em>Luc</em> because of that weasel."),
-=======
-								Text = T(643290433677, --[[ModItemConversation GreasyBasil_1 Text *spits on the ground* voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting5]] "Иногда при виде этого повешенного <em>Германа</em> мне становится грустно. Тогда я вспоминаю, что из-за этого хорька я едва не повесил старину <em>Люка</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -33095,11 +28801,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ice",
-<<<<<<< HEAD
 												Text = T(400314869064, --[[ModItemConversation GreasyBasil_1 Text voice:Ice section:GreasyBasil_1 keyword:Greeting5]] "Nah. That snitch got what was comin' to him. "),
-=======
-												Text = T(400314869064, --[[ModItemConversation GreasyBasil_1 Text voice:Ice section:GreasyBasil_1 keyword:Greeting5]] "Не. Стукач получил по заслугам."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33109,11 +28811,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grizzly",
-<<<<<<< HEAD
 												Text = T(890000000001206, --[[ModItemConversation GreasyBasil_1 Text voice:Grizzly section:GreasyBasil_1 keyword:Greeting5]] "Лить слёзок по нему не буду. Дурной он нытик был."),
-=======
-												Text = T(866957883605, --[[ModItemConversation GreasyBasil_1 Text voice:Grizzly section:GreasyBasil_1 keyword:Greeting5]] "Лить слёзок по нему не буду. Дурной он нытик был."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33123,11 +28821,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(792100015031, --[[ModItemConversation GreasyBasil_1 Text voice:Wolf section:GreasyBasil_1 keyword:Greeting5]] "You got the right guy. That's all that matters."),
-=======
-												Text = T(792100015031, --[[ModItemConversation GreasyBasil_1 Text voice:Wolf section:GreasyBasil_1 keyword:Greeting5]] "Вы повесили того, кого надо. Остальное неважно."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33153,19 +28847,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								Text = T(620707192827, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting6]] "In the end, it is a good thing we didn't use that noose. Still... I'm going to leave it up there - it is a good reminder of what we almost did."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "GreasyBasil",
-								Text = T(620707192827, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting6]] "Все-таки я рад, что в итоге петля нам не понадобилась. Но... Я оставлю ее висеть - как напоминание о том, что мы чуть не натворили."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -33174,11 +28860,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raven",
-<<<<<<< HEAD
 												Text = T(949216061400, --[[ModItemConversation GreasyBasil_1 Text voice:Raven section:GreasyBasil_1 keyword:Greeting6]] "That's a good purpose to serve. Makes people think a bit before doing something stupid."),
-=======
-												Text = T(949216061400, --[[ModItemConversation GreasyBasil_1 Text voice:Raven section:GreasyBasil_1 keyword:Greeting6]] "Разумно. Пусть она заставит людей подумать, прежде чем делать глупости."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33188,11 +28870,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000000119, --[[ModItemConversation GreasyBasil_1 Text voice:Fidel section:GreasyBasil_1 keyword:Greeting6]] "Фиделю грустно. Бедная, ненужная петля."),
-=======
-												Text = T(191065544873, --[[ModItemConversation GreasyBasil_1 Text voice:Fidel section:GreasyBasil_1 keyword:Greeting6]] "Фиделю грустно. Бедная, ненужная петля."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33202,11 +28880,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Mouse",
-<<<<<<< HEAD
 												Text = T(961162680620, --[[ModItemConversation GreasyBasil_1 Text voice:Mouse section:GreasyBasil_1 keyword:Greeting6]] "Yeah... Just maybe keep the kids away from it, huh?"),
-=======
-												Text = T(961162680620, --[[ModItemConversation GreasyBasil_1 Text voice:Mouse section:GreasyBasil_1 keyword:Greeting6]] "Ага... Только не пускайте к ней детей, ладно?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33232,19 +28906,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								Text = T(746710977734, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting10]] "Good thing you helped the boy with that movie projector of his. It will keep him from doing mischief. I was just too busy to fix it myself."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "GreasyBasil",
-								Text = T(746710977734, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting10]] "Хорошо, что вы помогли мальчику починить проектор. Теперь ему будет чем заняться. А то у меня все руки не доходили..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -33253,11 +28919,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Steroid",
-<<<<<<< HEAD
 												Text = T(890000000000921, --[[ModItemConversation GreasyBasil_1 Text voice:Steroid section:GreasyBasil_1 keyword:Greeting10]] "Самое сложное было его не раздавить! Ну, то есть проектор, а не племяшку."),
-=======
-												Text = T(697290114142, --[[ModItemConversation GreasyBasil_1 Text voice:Steroid section:GreasyBasil_1 keyword:Greeting10]] "Самое сложное было его не раздавить! Ну, то есть проектор, а не племяшку."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33267,11 +28929,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Livewire",
-<<<<<<< HEAD
 												Text = T(289562298486, --[[ModItemConversation GreasyBasil_1 Text voice:Livewire section:GreasyBasil_1 keyword:Greeting10]] "It was my pleasure, but you should know that I cannot be held responsible for the type of movie he might use it to watch."),
-=======
-												Text = T(289562298486, --[[ModItemConversation GreasyBasil_1 Text voice:Livewire section:GreasyBasil_1 keyword:Greeting10]] "Всегда пожалуйста, но предупреждаю: я не несу ответственности за то, какие фильмы он будет на нем смотреть."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33281,11 +28939,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Kalyna",
-<<<<<<< HEAD
 												Text = T(755218480596, --[[ModItemConversation GreasyBasil_1 Text voice:Kalyna section:GreasyBasil_1 keyword:Greeting10]] "I used to fix the one back home every time it broke, which was a lot."),
-=======
-												Text = T(755218480596, --[[ModItemConversation GreasyBasil_1 Text voice:Kalyna section:GreasyBasil_1 keyword:Greeting10]] "У меня дома был такой же, я его постоянно чинила."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33310,19 +28964,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								Text = T(836679728026, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting2]] "What do you want?"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "GreasyBasil",
-								Text = T(836679728026, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting2]] "Что вам нужно?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -33341,19 +28987,11 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								Text = T(718244823016, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting3]] "Hello, my friends."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "GreasyBasil",
-								Text = T(718244823016, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Greeting3]] "Привет, друзья."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -33396,11 +29034,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(890000000000708, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Someone was killed?]] "Моего друга <em>Тинхея</em>. Когда Легион пришел нас грабить, он выстрелил в <em>Пьера</em> из снайперского гнезда. И промахнулся. А потом его схватили... и если я узнаю, кто его выдал, этот урод очень сильно пожалеет."),
-=======
-								Text = T(552444516586, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Someone was killed?]] "Моего друга <em>Тинхея</em>. Когда Легион пришел нас грабить, он выстрелил в <em>Пьера</em> из снайперского гнезда. И промахнулся. А потом его схватили... и если я узнаю, кто его выдал, этот урод очень сильно пожалеет."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -33443,11 +29077,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(302114348835, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:What is the story with Pierre?]] "He took off when he was just a kid and joined the <em>Legion</em>. Came back home recently leading a bunch of marauders. Broke his papa's heart."),
-=======
-								Text = T(302114348835, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:What is the story with Pierre?]] "Еще мальчишкой он бежал из дома и вступил <em>Легион</em>. А недавно вернулся во главе шайки мародеров. Разбил сердце бедному папаше."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -33456,11 +29086,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Igor",
-<<<<<<< HEAD
 												Text = T(790220972643, --[[ModItemConversation GreasyBasil_1 Text voice:Igor section:GreasyBasil_1 keyword:What is the story with Pierre?]] "You don't do this to your old papa. Family is important. Dolviches know."),
-=======
-												Text = T(790220972643, --[[ModItemConversation GreasyBasil_1 Text voice:Igor section:GreasyBasil_1 keyword:What is the story with Pierre?]] "Родителей обижать нельзя. Семья - это важно. Долвичи это помнят."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33470,11 +29096,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Thor",
-<<<<<<< HEAD
 												Text = T(197494132007, --[[ModItemConversation GreasyBasil_1 Text voice:Thor section:GreasyBasil_1 keyword:What is the story with Pierre?]] "I feel that his journey has yet to complete its circle."),
-=======
-												Text = T(197494132007, --[[ModItemConversation GreasyBasil_1 Text voice:Thor section:GreasyBasil_1 keyword:What is the story with Pierre?]] "Сдается мне, этот круг нам еще предстоит замкнуть."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33484,11 +29106,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(985280680192, --[[ModItemConversation GreasyBasil_1 Text voice:Meltdown section:GreasyBasil_1 keyword:What is the story with Pierre?]] "Sounds like that little shit's overdue for a spanking."),
-=======
-												Text = T(985280680192, --[[ModItemConversation GreasyBasil_1 Text voice:Meltdown section:GreasyBasil_1 keyword:What is the story with Pierre?]] "По-моему, этот засранец напрашивается на порку."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33499,11 +29117,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(399392000658, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:What is the story with Pierre?]] "<em>Luc</em> still loves his son, still sticks up for him, even after Pierre killed our friend <em>Tinhay</em>. Sometimes I'm wondering... But no, Luc wouldn't betray his old friend, would he?"),
-=======
-								Text = T(399392000658, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:What is the story with Pierre?]] "Несмотря ни на что, <em>Люк</em> продолжает любить сына - даже после того, как Пьер убил нашего друга <em>Тинхея</em>. Иногда мне кажется... но нет, Люк бы не стал предавать старого друга, верно?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -33518,11 +29132,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(890000000001358, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Do you know anything about the President?]] "Нет, извините. Я политикой не интересуюсь. От государства мы никогда не видели ничего хорошего. Плевать мне, жив этот ваш президент или сдох."),
-=======
-								Text = T(981380858345, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Do you know anything about the President?]] "Нет, извините. Я политикой не интересуюсь. От государства мы никогда не видели ничего хорошего. Плевать мне, жив этот ваш президент или сдох."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -33564,11 +29174,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(890000000000807, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:What kind of help do you need?]] "Мы не знаем, как отбиться от Легиона. Никто из нас не служил в армии. Даже в детстве в войнушку не играл. Я могу научить племянника починить винтовку, но не стрелять из нее."),
-=======
-								Text = T(621772834111, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:What kind of help do you need?]] "Мы не знаем, как отбиться от Легиона. Никто из нас не служил в армии. Даже в детстве в войнушку не играл. Я могу научить племянника починить винтовку, но не стрелять из нее."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -33577,11 +29183,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Steroid",
-<<<<<<< HEAD
 												Text = T(661061820661, --[[ModItemConversation GreasyBasil_1 Text voice:Steroid section:GreasyBasil_1 keyword:What kind of help do you need?]] "I can teach you how to use a gun to break a head, and THEN fix it! The gun, I mean."),
-=======
-												Text = T(661061820661, --[[ModItemConversation GreasyBasil_1 Text voice:Steroid section:GreasyBasil_1 keyword:What kind of help do you need?]] "А я могу научить, как разбить винтовкой голову, а потом ее починить. Винтовку, не голову."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33591,11 +29193,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Livewire",
-<<<<<<< HEAD
 												Text = T(321657441576, --[[ModItemConversation GreasyBasil_1 Text voice:Livewire section:GreasyBasil_1 keyword:What kind of help do you need?]] "I know precisely what you mean."),
-=======
-												Text = T(321657441576, --[[ModItemConversation GreasyBasil_1 Text voice:Livewire section:GreasyBasil_1 keyword:What kind of help do you need?]] "Хорошо вас понимаю."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33605,11 +29203,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Kalyna",
-<<<<<<< HEAD
 												Text = T(999054887017, --[[ModItemConversation GreasyBasil_1 Text voice:Kalyna section:GreasyBasil_1 keyword:What kind of help do you need?]] "I am very good at both, but not very good at teaching."),
-=======
-												Text = T(999054887017, --[[ModItemConversation GreasyBasil_1 Text voice:Kalyna section:GreasyBasil_1 keyword:What kind of help do you need?]] "Я отлично умею и то, и другое, но учитель из меня никакой."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33620,11 +29214,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(890000000000494, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:What kind of help do you need?]] "Если вы мне поможете собрать <em>ополчение</em>, у нас будет хоть какой-то шанс против этих бандитов."),
-=======
-								Text = T(424518101926, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:What kind of help do you need?]] "Если вы мне поможете собрать <em>ополчение</em>, у нас будет хоть какой-то шанс против этих бандитов."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -33633,11 +29223,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Tex",
-<<<<<<< HEAD
 												Text = T(985646054626, --[[ModItemConversation GreasyBasil_1 Text voice:Tex section:GreasyBasil_1 keyword:What kind of help do you need?]] "You got it, partner! Time for training montage."),
-=======
-												Text = T(985646054626, --[[ModItemConversation GreasyBasil_1 Text voice:Tex section:GreasyBasil_1 keyword:What kind of help do you need?]] "По рукам, партнер! Снимаем сцену тренировок!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33647,11 +29233,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(890000000001139, --[[ModItemConversation GreasyBasil_1 Text voice:Wolf section:GreasyBasil_1 keyword:What kind of help do you need?]] "Подготовка ополчения - моё второе имя! Запомните, а то забудете."),
-=======
-												Text = T(844180614842, --[[ModItemConversation GreasyBasil_1 Text voice:Wolf section:GreasyBasil_1 keyword:What kind of help do you need?]] "Подготовка ополчения - моё второе имя! Запомните, а то забудете."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33661,11 +29243,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(401311843740, --[[ModItemConversation GreasyBasil_1 Text voice:Raider section:GreasyBasil_1 keyword:What kind of help do you need?]] "This town needs a security force, no doubt about it."),
-=======
-												Text = T(401311843740, --[[ModItemConversation GreasyBasil_1 Text voice:Raider section:GreasyBasil_1 keyword:What kind of help do you need?]] "Да, этому городу нужны силы охраны порядка."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33717,11 +29295,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(667416975836, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Is that all the help you need?]] "Well, some time ago I had buried a few old rifles. I could clean them and do some repairs, but that's hardly enough to defend ourselves."),
-=======
-								Text = T(667416975836, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Is that all the help you need?]] "Ну, в свое время я прикопал тут несколько старых винтовок. Я могу привести их в порядок, но этого вряд ли хватит для защиты."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -33730,11 +29304,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Igor",
-<<<<<<< HEAD
 												Text = T(997586644681, --[[ModItemConversation GreasyBasil_1 Text voice:Igor section:GreasyBasil_1 keyword:Is that all the help you need?]] "This works only for one kind of gun. It is Russian."),
-=======
-												Text = T(997586644681, --[[ModItemConversation GreasyBasil_1 Text voice:Igor section:GreasyBasil_1 keyword:Is that all the help you need?]] "Так можно делать только с русскими винтовками."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33744,11 +29314,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(824196279862, --[[ModItemConversation GreasyBasil_1 Text voice:Wolf section:GreasyBasil_1 keyword:Is that all the help you need?]] "Couldn't agree more, chief. Any idea where you could find more firepower?"),
-=======
-												Text = T(824196279862, --[[ModItemConversation GreasyBasil_1 Text voice:Wolf section:GreasyBasil_1 keyword:Is that all the help you need?]] "Полностью согласен, шеф. Есть идеи, где можно пополнить арсенал?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33758,11 +29324,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fox",
-<<<<<<< HEAD
 												Text = T(890000000000326, --[[ModItemConversation GreasyBasil_1 Text voice:Fox section:GreasyBasil_1 keyword:Is that all the help you need?]] "Ну, этого не хватит даже для легкого перепиха... ой, перепалки, что это я!"),
-=======
-												Text = T(313655502033, --[[ModItemConversation GreasyBasil_1 Text voice:Fox section:GreasyBasil_1 keyword:Is that all the help you need?]] "Ну, этого не хватит даже для легкого перепиха... ой, перепалки, что это я!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33773,11 +29335,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(890000000000377, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Is that all the help you need?]] "Я точно знаю, что еще с войны где-то на острове спрятан <em>пулемет</em>. Если вы его найдете, я приведу его в порядок, а потом мы подберем ему подходящую позицию."),
-=======
-								Text = T(342146316175, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Is that all the help you need?]] "Я точно знаю, что еще с войны где-то на острове спрятан <em>пулемет</em>. Если вы его найдете, я приведу его в порядок, а потом мы подберем ему подходящую позицию."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -33786,29 +29344,17 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000001243, --[[ModItemConversation GreasyBasil_1 Text voice:Fidel section:GreasyBasil_1 keyword:Is that all the help you need?]] "Да! Фидель заслужил пулемет! Тра-та-та-та-та! Хе-хе-хе…"),
-=======
-												Text = T(887648515955, --[[ModItemConversation GreasyBasil_1 Text voice:Fidel section:GreasyBasil_1 keyword:Is that all the help you need?]] "Да! Фидель заслужил пулемет! Тра-та-та-та-та! Хе-хе-хе…"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "GreasyBasil",
-<<<<<<< HEAD
 												Text = T(339862770092, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Is that all the help you need?]] "But... I was hoping to..."),
-=======
-												Text = T(339862770092, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Is that all the help you need?]] "Но... Я надеялся..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000001325, --[[ModItemConversation GreasyBasil_1 Text voice:Fidel section:GreasyBasil_1 keyword:Is that all the help you need?]] "Ах! Пулемет и Фидель станут лучшими друзья."),
-=======
-												Text = T(957735968140, --[[ModItemConversation GreasyBasil_1 Text voice:Fidel section:GreasyBasil_1 keyword:Is that all the help you need?]] "Ах! Пулемет и Фидель станут лучшими друзья."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33818,20 +29364,12 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(892271507000, --[[ModItemConversation GreasyBasil_1 Text voice:Meltdown section:GreasyBasil_1 keyword:Is that all the help you need?]] "I have a better idea. Why don't we just grab the fucking machine gun and fucking kill them all with it, and then keep it for ourselves?"),
-=======
-												Text = T(892271507000, --[[ModItemConversation GreasyBasil_1 Text voice:Meltdown section:GreasyBasil_1 keyword:Is that all the help you need?]] "У меня есть идея получше. Может, мы возьмем этот долбаный пулемет, грохнем нафиг всех этих уродов, а потом оставим его себе?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "GreasyBasil",
-<<<<<<< HEAD
 												Text = T(588983703562, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Is that all the help you need?]] "I guess that also works."),
-=======
-												Text = T(588983703562, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Is that all the help you need?]] "Да, наверное, так тоже можно."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33841,11 +29379,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grizzly",
-<<<<<<< HEAD
 												Text = T(890000000001321, --[[ModItemConversation GreasyBasil_1 Text voice:Grizzly section:GreasyBasil_1 keyword:Is that all the help you need?]] "Пулемет? Ой-ля-ля, вот это я понимаю!"),
-=======
-												Text = T(955114111580, --[[ModItemConversation GreasyBasil_1 Text voice:Grizzly section:GreasyBasil_1 keyword:Is that all the help you need?]] "Пулемет? Ой-ля-ля, вот это я понимаю!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33855,11 +29389,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grunty",
-<<<<<<< HEAD
 												Text = T(207587705040, --[[ModItemConversation GreasyBasil_1 Text voice:Grunty section:GreasyBasil_1 keyword:Is that all the help you need?]] "As Mother always likes to say, \"There are few problems a machine gun cannot solve\"."),
-=======
-												Text = T(207587705040, --[[ModItemConversation GreasyBasil_1 Text voice:Grunty section:GreasyBasil_1 keyword:Is that all the help you need?]] "Как говорила мама, нет таких проблем, которых не мог бы решить пулемет."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33913,11 +29443,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(823516860251, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Help us help you!]] "I don't know how a poor man can help people like you... I'm not in the business of killing people."),
-=======
-								Text = T(823516860251, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Help us help you!]] "Не знаю, чем бедолага вроде меня может вам помочь... людей убивать я не умею."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -33926,11 +29452,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Buns",
-<<<<<<< HEAD
 												Text = T(890000000000327, --[[ModItemConversation GreasyBasil_1 Text voice:Buns section:GreasyBasil_1 keyword:Help us help you!]] "С этим мы и сами справимся. Нам пригодится материально-техническая поддержка."),
-=======
-												Text = T(314529093772, --[[ModItemConversation GreasyBasil_1 Text voice:Buns section:GreasyBasil_1 keyword:Help us help you!]] "С этим мы и сами справимся. Нам пригодится материально-техническая поддержка."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33940,11 +29462,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(722467041664, --[[ModItemConversation GreasyBasil_1 Text voice:Raider section:GreasyBasil_1 keyword:Help us help you!]] "Leave the perps to us, mister. We will appreciate any material support you can provide. "),
-=======
-												Text = T(722467041664, --[[ModItemConversation GreasyBasil_1 Text voice:Raider section:GreasyBasil_1 keyword:Help us help you!]] "Оставьте это нам. А вот материальную помощь мы бы приняли с радостью."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -33955,11 +29473,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(583116846563, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Help us help you!]] "Well, I work with gizmos and gadgets. See if these are any use to you."),
-=======
-								Text = T(583116846563, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Help us help you!]] "Ну, я люблю возиться со всякими железками. Посмотрите, что у меня есть."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -34001,11 +29515,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(890000000000475, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We have found a machine gun]] "Ого! Я смотрю, вы время не теряете! Надеюсь, вы нам его оставите. Он бы нам очень пригодился для защиты от <em>Легиона</em>."),
-=======
-								Text = T(411490929893, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We have found a machine gun]] "Ого! Я смотрю, вы время не теряете! Надеюсь, вы нам его оставите. Он бы нам очень пригодился для защиты от <em>Легиона</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -34058,11 +29568,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(965781615337, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "From what I know, they store their ammo supplies in the <em>old bunker</em> at <em>The Rust</em>. If you take it from them, they'll have trouble shooting back at some point."),
-=======
-								Text = T(965781615337, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Насколько мне известно, они хранят запасы патронов в <em>старом бункере</em> посреди <em>Жестянки</em>. Если вы обчистите его, скоро им станет нечем отстреливаться."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -34071,11 +29577,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Steroid",
-<<<<<<< HEAD
 												Text = T(624150789775, --[[ModItemConversation GreasyBasil_1 Text voice:Steroid section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "...And then I will crush their tiny heads with my bare hands!"),
-=======
-												Text = T(624150789775, --[[ModItemConversation GreasyBasil_1 Text voice:Steroid section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "...И тогда я раздавлю их черепушки вот этими голыми руками!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -34085,11 +29587,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Mouse",
-<<<<<<< HEAD
 												Text = T(890000000001092, --[[ModItemConversation GreasyBasil_1 Text voice:Mouse section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Ой, приятно ж, когда не отстреливаются!"),
-=======
-												Text = T(811373249883, --[[ModItemConversation GreasyBasil_1 Text voice:Mouse section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Ой, приятно ж, когда не отстреливаются!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -34099,11 +29597,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Omryn",
-<<<<<<< HEAD
 												Text = T(493213755192, --[[ModItemConversation GreasyBasil_1 Text voice:Omryn section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Taking supplies is good. Omryn favors having many supplies."),
-=======
-												Text = T(493213755192, --[[ModItemConversation GreasyBasil_1 Text voice:Omryn section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Запасы - это хорошо. Омрын знает толк в запасах."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -34171,11 +29665,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(757100728549, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Have you met <em>Deedee</em> from the <em>Emerald Coast</em>? That wacko is happily supplying the Legion with grenades and all kinds of explosives and just doesn't seem to grasp what the hell is wrong with that."),
-=======
-								Text = T(757100728549, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Вы уже знаете <em>Диди</em> с <em>Изумрудного берега</em>? Эта психопатка с милой улыбочкой снабжает Легион гранатами и прочей взрывчаткой, даже не задумываясь о том, что тут не так."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -34184,20 +29674,12 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(740726220583, --[[ModItemConversation GreasyBasil_1 Text voice:Fidel section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Uh... What is wrong with that?"),
-=======
-												Text = T(740726220583, --[[ModItemConversation GreasyBasil_1 Text voice:Fidel section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Хм... А что тут не так?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "GreasyBasil",
-<<<<<<< HEAD
 												Text = T(188041400543, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Anyway..."),
-=======
-												Text = T(188041400543, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Ладно, проехали..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -34217,11 +29699,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Red",
-<<<<<<< HEAD
 												Text = T(370756187815, --[[ModItemConversation GreasyBasil_1 Text voice:Red section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Aye, she's a bit addled, but a good lass."),
-=======
-												Text = T(370756187815, --[[ModItemConversation GreasyBasil_1 Text voice:Red section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Ага. Милая дамочка, хоть и слегка того."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -34231,11 +29709,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Barry",
-<<<<<<< HEAD
 												Text = T(372713216824, --[[ModItemConversation GreasyBasil_1 Text voice:Barry section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Very much is wrong with that. Explosives are not to be given like candy on holidays!"),
-=======
-												Text = T(372713216824, --[[ModItemConversation GreasyBasil_1 Text voice:Barry section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Тут много чего не так. Взрывчатка - не конфеты, которые можно дарить налево и направо!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -34246,11 +29720,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(134306262802, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "If you talk sense into her, you should have better chances at the Fort."),
-=======
-								Text = T(134306262802, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Если вы сумеете привести ее в чувство, вам будет проще разобраться с фортом."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -34313,11 +29783,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(714225131746, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "There is another nasty gang around here, <em>Bastien's Family</em>. I'm sure they work with the Legion. I've seen him going towards <em>Flag Hill</em>, probably running some errands for Pierre."),
-=======
-								Text = T(714225131746, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Тут у нас есть еще одна банда, <em>семейка Бастьена</em>. Уверен, они работают на Легион. Я видел, как этот Бастьен ходил на <em>Флаговый холм</em> - наверняка по поручению Пьера."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -34333,11 +29799,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Omryn",
-<<<<<<< HEAD
 												Text = T(102202139167, --[[ModItemConversation GreasyBasil_1 Text voice:Omryn section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Face like rat? Move like crab? Yes, we have met him."),
-=======
-												Text = T(102202139167, --[[ModItemConversation GreasyBasil_1 Text voice:Omryn section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Крысиная морда? Крабья походка? Да, мы его видели."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -34354,11 +29816,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Mouse",
-<<<<<<< HEAD
 												Text = T(890000000001065, --[[ModItemConversation GreasyBasil_1 Text voice:Mouse section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Такой забавный… Как мужчинка-продаван-с-курорта-одной-рукой-у-меня-в-сумке."),
-=======
-												Text = T(793121700594, --[[ModItemConversation GreasyBasil_1 Text voice:Mouse section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Такой забавный… Как мужчинка-продаван-с-курорта-одной-рукой-у-меня-в-сумке."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -34375,11 +29833,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ice",
-<<<<<<< HEAD
 												Text = T(853661612755, --[[ModItemConversation GreasyBasil_1 Text voice:Ice section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "That dude was sketchy as fuck."),
-=======
-												Text = T(853661612755, --[[ModItemConversation GreasyBasil_1 Text voice:Ice section:GreasyBasil_1 keyword:Any advice on taking the Fort?]] "Чертовски сомнительный тип."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -34416,11 +29870,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(919939126097, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:What other mercs?]] "Some buffoons who tried to look tough, but mostly failed. I asked them to give us a hand with just another gang, but they said they were too busy with some important mission they had."),
-=======
-								Text = T(919939126097, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:What other mercs?]] "Какие-то клоуны, которые пытались выглядеть крутыми, но по большей части делали глупости. Я попросил их помочь разобраться с одной местной бандой, но они отказались, сославшись на какое-то важное задание."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -34429,20 +29879,12 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Tex",
-<<<<<<< HEAD
 												Text = T(906183317683, --[[ModItemConversation GreasyBasil_1 Text voice:Tex section:GreasyBasil_1 keyword:What other mercs?]] "You think maybe they kidnap <em>President</em>?"),
-=======
-												Text = T(906183317683, --[[ModItemConversation GreasyBasil_1 Text voice:Tex section:GreasyBasil_1 keyword:What other mercs?]] "Думаете, они могли похитить <em>президента</em>?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "GreasyBasil",
-<<<<<<< HEAD
 												Text = T(890000000000462, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:What other mercs?]] "Я не знаю."),
-=======
-												Text = T(399123923371, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:What other mercs?]] "Я не знаю."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -34452,11 +29894,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Vicki",
-<<<<<<< HEAD
 												Text = T(890000000001285, --[[ModItemConversation GreasyBasil_1 Text voice:Vicki section:GreasyBasil_1 keyword:What other mercs?]] "Другие наемники? Но не крутые?  У меня аж подозрительные мурашки поползли, правда"),
-=======
-												Text = T(924207872800, --[[ModItemConversation GreasyBasil_1 Text voice:Vicki section:GreasyBasil_1 keyword:What other mercs?]] "Другие наемники? Но не крутые?  У меня аж подозрительные мурашки поползли, правда"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -34466,11 +29904,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Omryn",
-<<<<<<< HEAD
 												Text = T(890000000001299, --[[ModItemConversation GreasyBasil_1 Text voice:Omryn section:GreasyBasil_1 keyword:What other mercs?]] "Ну и ладно. Может, они уже всех убили. Тогда нам будет мала-мала работки, хех."),
-=======
-												Text = T(932407275626, --[[ModItemConversation GreasyBasil_1 Text voice:Omryn section:GreasyBasil_1 keyword:What other mercs?]] "Ну и ладно. Может, они уже всех убили. Тогда нам будет мала-мала работки, хех."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -34481,11 +29915,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(687995371696, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:What other mercs?]] "They had a shiny new boat with the <em>Adonis</em> logo on it, but I don't think they were the corporate types. I told them they could just hire me to <em>give them a ride</em> - these waters are treacherous - but they didn't listen."),
-=======
-								Text = T(687995371696, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:What other mercs?]] "У них был новенький катер с эмблемой «<em>Адониса</em>», но они не были похожи на бизнесменов. Я предупредил, что здешние воды опасны, и предложил им <em>свои услуги</em>, но они отказались."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -34494,11 +29924,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raider",
-<<<<<<< HEAD
 												Text = T(326519639936, --[[ModItemConversation GreasyBasil_1 Text voice:Raider section:GreasyBasil_1 keyword:What other mercs?]] "<em>Adonis</em> seem to have their own troops on payroll, why would they need to hire independent mercenaries?"),
-=======
-												Text = T(326519639936, --[[ModItemConversation GreasyBasil_1 Text voice:Raider section:GreasyBasil_1 keyword:What other mercs?]] "У «<em>Адониса</em>» есть штатные силы безопасности. Зачем им посторонние наемники?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -34508,11 +29934,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Raven",
-<<<<<<< HEAD
 												Text = T(801528204229, --[[ModItemConversation GreasyBasil_1 Text voice:Raven section:GreasyBasil_1 keyword:What other mercs?]] "My gut says something's not right here."),
-=======
-												Text = T(801528204229, --[[ModItemConversation GreasyBasil_1 Text voice:Raven section:GreasyBasil_1 keyword:What other mercs?]] "Нутром чую, что-то тут нечисто."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -34522,11 +29944,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Wolf",
-<<<<<<< HEAD
 												Text = T(890000000000396, --[[ModItemConversation GreasyBasil_1 Text voice:Wolf section:GreasyBasil_1 keyword:What other mercs?]] "Шеф, думается мне, стоит покалякать с леди Корасон."),
-=======
-												Text = T(352365512855, --[[ModItemConversation GreasyBasil_1 Text voice:Wolf section:GreasyBasil_1 keyword:What other mercs?]] "Шеф, думается мне, стоит покалякать с леди Корасон."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -34561,11 +29979,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(133081536519, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We'll need a ride]] "Well, I'm available for charter, but I'll make you a deal - if you take care of our problems with the <em>Legion</em>, I can give you a <em>discount</em> on my fee."),
-=======
-								Text = T(133081536519, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We'll need a ride]] "Ну, сейчас мой катер свободен, а вообще для вас есть особое предложение: если вы решите наши проблемы с <em>Легионом</em>, я сделаю вам <em>скидку</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -34574,29 +29988,17 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000000964, --[[ModItemConversation GreasyBasil_1 Text voice:Fidel section:GreasyBasil_1 keyword:We'll need a ride]] "А если мы убьём легионеров, возьмём катер — привезём ещё и тоже здесь убьём… Будет твоя скидка… больше?"),
-=======
-												Text = T(726278915656, --[[ModItemConversation GreasyBasil_1 Text voice:Fidel section:GreasyBasil_1 keyword:We'll need a ride]] "А если мы убьём легионеров, возьмём катер — привезём ещё и тоже здесь убьём… Будет твоя скидка… больше?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "GreasyBasil",
-<<<<<<< HEAD
 												Text = T(353851173766, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We'll need a ride]] "Um... No."),
-=======
-												Text = T(353851173766, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We'll need a ride]] "Гм... Нет."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000000845, --[[ModItemConversation GreasyBasil_1 Text voice:Fidel section:GreasyBasil_1 keyword:We'll need a ride]] "Хмх. Фидель уточнил."),
-=======
-												Text = T(644005266987, --[[ModItemConversation GreasyBasil_1 Text voice:Fidel section:GreasyBasil_1 keyword:We'll need a ride]] "Хмх. Фидель уточнил."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -34606,29 +30008,17 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(314385979692, --[[ModItemConversation GreasyBasil_1 Text voice:Meltdown section:GreasyBasil_1 keyword:We'll need a ride]] "If we kill every fucking last one of 'em, do we get to travel for free?"),
-=======
-												Text = T(314385979692, --[[ModItemConversation GreasyBasil_1 Text voice:Meltdown section:GreasyBasil_1 keyword:We'll need a ride]] "А если мы прикончим их всех до единого, вы отвезете нас бесплатно?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "GreasyBasil",
-<<<<<<< HEAD
 												Text = T(656250773467, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We'll need a ride]] "I'm sorry, but... No. I have to feed my family after all."),
-=======
-												Text = T(656250773467, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We'll need a ride]] "Извините, но... нет. Мне надо кормить семью."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(462356350233, --[[ModItemConversation GreasyBasil_1 Text voice:Meltdown section:GreasyBasil_1 keyword:We'll need a ride]] "Doesn't matter. We'll kill every fucking last one of 'em anyway."),
-=======
-												Text = T(462356350233, --[[ModItemConversation GreasyBasil_1 Text voice:Meltdown section:GreasyBasil_1 keyword:We'll need a ride]] "Ладно, проехали. Мы все равно прикончим их всех до единого."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -34638,11 +30028,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Livewire",
-<<<<<<< HEAD
 												Text = T(566221708425, --[[ModItemConversation GreasyBasil_1 Text voice:Livewire section:GreasyBasil_1 keyword:We'll need a ride]] "Offering discounts to people who kill your enemies is really a very brilliant marketing strategy! I only hope you never have a competitor. "),
-=======
-												Text = T(566221708425, --[[ModItemConversation GreasyBasil_1 Text voice:Livewire section:GreasyBasil_1 keyword:We'll need a ride]] "Предлагать скидки за убийство своих врагов - гениальный маркетинговый ход! Надеюсь, у вас не появятся конкуренты."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -34653,11 +30039,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(868374565754, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We'll need a ride]] "When you're good to go, just open the map and show me the route, and I'll get old Betty gassed up and ready for travel. Keep in mind that once I drop you on the mainland, I'll be heading back home. You can rent another boat from any <em>Port</em> sector on the mainland."),
-=======
-								Text = T(868374565754, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We'll need a ride]] "Когда решите отправляться, откройте карту и покажите мне маршрут, а я заправлю старушку «Бетти». Учтите: высадив вас на материке, я сразу же отчалю домой. Если захотите вернуться, ищите другой катер в любом местном <em>порту</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -34686,11 +30068,7 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(102238046407, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We'll need a ride]] "Of course, friends. You have a <em>discount</em> for helping us, you know."),
-=======
-								Text = T(102238046407, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We'll need a ride]] "Конечно, друзья. За то, что вы нам помогли, я готов перевезти вас со <em>скидкой</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -34699,29 +30077,17 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000000478, --[[ModItemConversation GreasyBasil_1 Text voice:Fidel section:GreasyBasil_1 keyword:We'll need a ride]] "Вот! Фидель принёс вам печень восьми легионеров. Теперь скидка будет больше? А?"),
-=======
-												Text = T(414327951669, --[[ModItemConversation GreasyBasil_1 Text voice:Fidel section:GreasyBasil_1 keyword:We'll need a ride]] "Вот! Фидель принёс вам печень восьми легионеров. Теперь скидка будет больше? А?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "GreasyBasil",
-<<<<<<< HEAD
 												Text = T(257493033360, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We'll need a ride]] "Eurgh... No."),
-=======
-												Text = T(257493033360, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We'll need a ride]] "Ой... Нет."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000000129, --[[ModItemConversation GreasyBasil_1 Text voice:Fidel section:GreasyBasil_1 keyword:We'll need a ride]] "Ах. Фидель знал. Надо было все десять печёнок собрать, чтобы сдать квест. Ах…"),
-=======
-												Text = T(193897156757, --[[ModItemConversation GreasyBasil_1 Text voice:Fidel section:GreasyBasil_1 keyword:We'll need a ride]] "Ах. Фидель знал. Надо было все десять печёнок собрать, чтобы сдать квест. Ах…"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -34733,11 +30099,7 @@ return {
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(868374565754, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We'll need a ride]] "When you're good to go, just open the map and show me the route, and I'll get old Betty gassed up and ready for travel. Keep in mind that once I drop you on the mainland, I'll be heading back home. You can rent another boat from any <em>Port</em> sector on the mainland."),
-=======
-								Text = T(868374565754, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:We'll need a ride]] "Когда решите отправляться, откройте карту и покажите мне маршрут, а я заправлю старушку «Бетти». Учтите: высадив вас на материке, я сразу же отчалю домой. Если захотите вернуться, ищите другой катер в любом местном <em>порту</em>."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -34750,19 +30112,11 @@ return {
 						Align = "right",
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								Text = T(204597426705, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Goodbye]] "Goodbye, my friends."),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "GreasyBasil",
-								Text = T(204597426705, --[[ModItemConversation GreasyBasil_1 Text voice:GreasyBasil section:GreasyBasil_1 keyword:Goodbye]] "Прощайте, друзья."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -34776,11 +30130,7 @@ return {
 						Align = "right",
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
@@ -34857,70 +30207,42 @@ return {
 						},
 						GoTo = "GreetingInterjectionsRedirect",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								Text = T(251750465153, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Greeting]] "You were my friend, Luc. <em>Tinhay</em> was your friend, too. What happened is all your fault."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "GreasyBasil",
-								Text = T(251750465153, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Greeting]] "Ты был моим другом, Люк. И другом <em>Тинхея</em>. В том, что случилось, виноват ты."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
 								Character = "Luc",
-<<<<<<< HEAD
 								Text = T(890000000001310, --[[ModItemConversation GreasyBasil_2 Text voice:Luc section:GreasyBasil_2 keyword:Greeting]] "Я вижу, ты уже принял решение, Базиль. Мои слова ничего не изменят."),
-=======
-								Text = T(942557161340, --[[ModItemConversation GreasyBasil_2 Text voice:Luc section:GreasyBasil_2 keyword:Greeting]] "Я вижу, ты уже принял решение, Базиль. Мои слова ничего не изменят."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								SoundAfter = "Sounds/ConversationEffects/iact_crowdreactions2_murmur1.wav",
-<<<<<<< HEAD
 								Text = T(941252303313, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Greeting]] "Your goddamn <em>Pierre</em> has become a monster, yet you still protect him like a baby. And now Tinhay's dead because of it!"),
-=======
-								Text = T(941252303313, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Greeting]] "Твой долбаный <em>Пьер</em> превратился в чудовище, а ты все еще считаешь его беззащитным мальчиком. А теперь из-за него погиб Тинхей!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
 								Annotation = "resigned sigh; unfinished sentence",
 								Character = "Luc",
-<<<<<<< HEAD
 								Text = T(289562549825, --[[ModItemConversation GreasyBasil_2 Text resigned sigh; unfinished sentence voice:Luc section:GreasyBasil_2 keyword:Greeting]] "You are right, Basil. I have failed both as a father and as a friend. I should have taught my son to..."),
-=======
-								Text = T(289562549825, --[[ModItemConversation GreasyBasil_2 Text resigned sigh; unfinished sentence voice:Luc section:GreasyBasil_2 keyword:Greeting]] "Ты прав, Базиль. Я плохой отец и плохой друг. Я должен был научить сына..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								SoundAfter = "Sounds/ConversationEffects/iact_crowdreactions2_boooo1.wav",
-<<<<<<< HEAD
 								Text = T(388008687176, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Greeting]] "Is that all you can think of? He is not YOUR Pierre! Pierre is a vile gangster! Tinhay was a good man! And now he is gone and Pierre walks free and that is why you stand here today with a noose around your neck!"),
-=======
-								Text = T(388008687176, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Greeting]] "Это все, что ты можешь сказать? Это уже не ТВОЙ Пьер! Это жестокий бандит! Тинхей был нашим другом! А теперь он мертв, а Пьер разгуливает на свободе! И именно из-за этого ты и стоишь тут с петлей на шее!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
 								Character = "Luc",
-<<<<<<< HEAD
 								Text = T(860505979670, --[[ModItemConversation GreasyBasil_2 Text voice:Luc section:GreasyBasil_2 keyword:Greeting]] "Then do what needs to be done."),
-=======
-								Text = T(860505979670, --[[ModItemConversation GreasyBasil_2 Text voice:Luc section:GreasyBasil_2 keyword:Greeting]] "Тогда делай, что должен."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -34947,49 +30269,29 @@ return {
 						},
 						GoTo = "GreetingInterjectionsRedirect",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								Text = T(251750465153, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Greeting2]] "You were my friend, Luc. <em>Tinhay</em> was your friend, too. What happened is all your fault."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "GreasyBasil",
-								Text = T(251750465153, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Greeting2]] "Ты был моим другом, Люк. И другом <em>Тинхея</em>. В том, что случилось, виноват ты."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
 								Character = "Luc",
-<<<<<<< HEAD
 								Text = T(191033053472, --[[ModItemConversation GreasyBasil_2 Text voice:Luc section:GreasyBasil_2 keyword:Greeting2]] "Do whatever you want. I have outlived my son... There is no reason for me to go on living."),
-=======
-								Text = T(191033053472, --[[ModItemConversation GreasyBasil_2 Text voice:Luc section:GreasyBasil_2 keyword:Greeting2]] "Поступай как знаешь. Я пережил сына... мне больше незачем жить."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								SoundAfter = "Sounds/ConversationEffects/iact_crowdreactions2_murmur1.wav",
-<<<<<<< HEAD
 								Text = T(890000000001111, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Greeting2]] "Да, <em>Пьер</em> мертв. Туда ему и дорога! Он стал злодеем и получил по заслугам, но ты ему помог - и из-за этого погиб Тинхей. Если бы не ты..."),
-=======
-								Text = T(824243373361, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Greeting2]] "Да, <em>Пьер</em> мертв. Туда ему и дорога! Он стал злодеем и получил по заслугам, но ты ему помог - и из-за этого погиб Тинхей. Если бы не ты..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								AlwaysInterject = true,
 								Character = "Luc",
-<<<<<<< HEAD
 								Text = T(783341050000, --[[ModItemConversation GreasyBasil_2 Text voice:Luc section:GreasyBasil_2 keyword:Greeting2]] "Enough talk. Do what needs to be done. Me and Pierre, we will be together soon."),
-=======
-								Text = T(783341050000, --[[ModItemConversation GreasyBasil_2 Text voice:Luc section:GreasyBasil_2 keyword:Greeting2]] "Заткнись. Делай, что должен. Мы с Пьером скоро встретимся."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -35010,11 +30312,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(890000000000156, --[[ModItemConversation GreasyBasil_2 Text voice:Fidel section:GreasyBasil_2 keyword:GreetingInterjectionsRedirect]] "Ах! Mira! Смотрите! Они его вешают! Хаха! Интересно, а попкорн тут есть какой-нибудь,.. что-нибудь? Конфеты — не знаю…"),
-=======
-												Text = T(211536007870, --[[ModItemConversation GreasyBasil_2 Text voice:Fidel section:GreasyBasil_2 keyword:GreetingInterjectionsRedirect]] "Ах! Mira! Смотрите! Они его вешают! Хаха! Интересно, а попкорн тут есть какой-нибудь,.. что-нибудь? Конфеты — не знаю…"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -35024,11 +30322,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(241036513196, --[[ModItemConversation GreasyBasil_2 Text voice:Meltdown section:GreasyBasil_2 keyword:GreetingInterjectionsRedirect]] "Hey, check out that gallows! Damn near nicest thing they got in this town."),
-=======
-												Text = T(241036513196, --[[ModItemConversation GreasyBasil_2 Text voice:Meltdown section:GreasyBasil_2 keyword:GreetingInterjectionsRedirect]] "Эй, гляньте, какая виселица! Черт возьми, это лучшее, что есть в ихней жопе мира."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -35038,11 +30332,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Grizzly",
-<<<<<<< HEAD
 												Text = T(587914854521, --[[ModItemConversation GreasyBasil_2 Text voice:Grizzly section:GreasyBasil_2 keyword:GreetingInterjectionsRedirect]] "This doesn't look good."),
-=======
-												Text = T(587914854521, --[[ModItemConversation GreasyBasil_2 Text voice:Grizzly section:GreasyBasil_2 keyword:GreetingInterjectionsRedirect]] "Не нравится мне это."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -35052,11 +30342,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ice",
-<<<<<<< HEAD
 												Text = T(642762635512, --[[ModItemConversation GreasyBasil_2 Text voice:Ice section:GreasyBasil_2 keyword:GreetingInterjectionsRedirect]] "This is fucked up."),
-=======
-												Text = T(642762635512, --[[ModItemConversation GreasyBasil_2 Text voice:Ice section:GreasyBasil_2 keyword:GreetingInterjectionsRedirect]] "Они там охренели?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -35068,11 +30354,7 @@ return {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								SoundAfter = "Sounds/ConversationEffects/iact_crowdreactions2_murmur3.wav",
-<<<<<<< HEAD
 								Text = T(835372071602, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:GreetingInterjectionsRedirect]] "What are you staring at, merc? This is village business. It doesn't concern you."),
-=======
-								Text = T(835372071602, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:GreetingInterjectionsRedirect]] "Чего уставились, наемники? Это наше внутреннее дело. Вас оно не касается."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -35085,20 +30367,12 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(867550783779, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:What's going on?]] "Tinhay, Luc and I - we were best pals. We built this village. Now, Tinhay's dead, because of Luc."),
-=======
-								Text = T(867550783779, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:What's going on?]] "Тинхей, Люк и я... мы были лучшими друзьями. Мы основали эту деревню. А теперь Тинхей мертв... из-за Люка."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(728483185351, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:What's going on?]] "<em>Tinhay</em> hated how the Legion was trying to bully us. So, he tried to take out some of Pierre's men hanging around the town, but missed. Luc would do anything for his damned son! He told them who did the shooting and he doesn't even deny it."),
-=======
-								Text = T(728483185351, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:What's going on?]] "<em>Тинхей</em> ненавидел бандитов из Легиона. Он попытался пристрелить одного из людей Пьера, когда они шатались по деревне, но промахнулся. А Люк готов на любую подлость ради своего проклятого сыночка! Он рассказал им, кто стрелял, и даже не стал это отрицать."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -35121,11 +30395,7 @@ return {
 							PlaceObj('CityGrantLoyalty', {
 								Amount = 10,
 								City = "ErnieVillage",
-<<<<<<< HEAD
 								SpecialConversationMessage = T(668492263985, --[[ModItemConversation GreasyBasil_2 SpecialConversationMessage]] "<em>Luc</em> was hanged"),
-=======
-								SpecialConversationMessage = T(668492263985, --[[ModItemConversation GreasyBasil_2 SpecialConversationMessage]] "эрнийцы повесили <em>Люка</em>"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -35136,11 +30406,7 @@ return {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								SoundAfter = "Sounds/ConversationEffects/iact_crowdreactions2_murmur1.wav",
-<<<<<<< HEAD
 								Text = T(532939717885, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:This is none of our business]] "Even so, I'm sorry you have to see this. I'm sorry any of us have to be here today. Let's get this over with. Goodbye, Luc. May God have mercy on your soul."),
-=======
-								Text = T(532939717885, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:This is none of our business]] "Но даже при этом мне жаль, что вам приходится это видеть. Простите, что собрал вас здесь. Пора заканчивать. Прощай, Люк. Помилуй Господь твою душу."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -35149,11 +30415,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Fidel",
-<<<<<<< HEAD
 												Text = T(489215672697, --[[ModItemConversation GreasyBasil_2 Text voice:Fidel section:GreasyBasil_2 keyword:This is none of our business]] "Ehehehee! Look at his feet shake!"),
-=======
-												Text = T(489215672697, --[[ModItemConversation GreasyBasil_2 Text voice:Fidel section:GreasyBasil_2 keyword:This is none of our business]] "Хе-хе-хе! Смотрите, как ножками задрыгал!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -35163,11 +30425,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Omryn",
-<<<<<<< HEAD
 												Text = T(890000000000055, --[[ModItemConversation GreasyBasil_2 Text voice:Omryn section:GreasyBasil_2 keyword:This is none of our business]] "Беда. Его дух не защитит это место. Даже проклянет его, немножко."),
-=======
-												Text = T(137066535063, --[[ModItemConversation GreasyBasil_2 Text voice:Omryn section:GreasyBasil_2 keyword:This is none of our business]] "Беда. Его дух не защитит это место. Даже проклянет его, немножко."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -35177,11 +30435,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Vicki",
-<<<<<<< HEAD
 												Text = T(890000000000614, --[[ModItemConversation GreasyBasil_2 Text voice:Vicki section:GreasyBasil_2 keyword:This is none of our business]] "Ужасно. Он был хороший."),
-=======
-												Text = T(492981393888, --[[ModItemConversation GreasyBasil_2 Text voice:Vicki section:GreasyBasil_2 keyword:This is none of our business]] "Ужасно. Он был хороший."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -35191,11 +30445,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Mouse",
-<<<<<<< HEAD
 												Text = T(890000000000759, --[[ModItemConversation GreasyBasil_2 Text voice:Mouse section:GreasyBasil_2 keyword:This is none of our business]] "Как-то мне нехорошо. Не хочу это видеть."),
-=======
-												Text = T(584979740250, --[[ModItemConversation GreasyBasil_2 Text voice:Mouse section:GreasyBasil_2 keyword:This is none of our business]] "Как-то мне нехорошо. Не хочу это видеть."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -35215,11 +30465,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Meltdown",
-<<<<<<< HEAD
 												Text = T(536286427274, --[[ModItemConversation GreasyBasil_2 Text voice:Meltdown section:GreasyBasil_2 keyword:This is none of our business]] "Oh, damn! He really did it!"),
-=======
-												Text = T(536286427274, --[[ModItemConversation GreasyBasil_2 Text voice:Meltdown section:GreasyBasil_2 keyword:This is none of our business]] "Мать вашу! Он и правда это сделал!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -35229,11 +30475,7 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Ice",
-<<<<<<< HEAD
 												Text = T(550350635455, --[[ModItemConversation GreasyBasil_2 Text voice:Ice section:GreasyBasil_2 keyword:This is none of our business]] "Fucked. Up."),
-=======
-												Text = T(550350635455, --[[ModItemConversation GreasyBasil_2 Text voice:Ice section:GreasyBasil_2 keyword:This is none of our business]] "Абзац. Полный."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -35244,11 +30486,7 @@ return {
 								param_bindings = false,
 							}),
 						},
-<<<<<<< HEAD
 						PhraseRolloverText = T(478591394532, --[[ModItemConversation GreasyBasil_2 PhraseRolloverText]] "This action may have major consequences!"),
-=======
-						PhraseRolloverText = T(478591394532, --[[ModItemConversation GreasyBasil_2 PhraseRolloverText]] "Это может иметь крупные последствия!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						StoryBranchIcon = "conversation_arrow",
 						id = "Noneofmybusiness",
 						param_bindings = false,
@@ -35262,75 +30500,43 @@ return {
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
 								SoundAfter = "Sounds/ConversationEffects/iact_crowdreactions2_murmur2.wav",
-<<<<<<< HEAD
 								Text = T(953382416787, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Herman did it!]] "Wait, what?! Herman? Herman, is this true?"),
-=======
-								Text = T(953382416787, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Herman did it!]] "Что-что?! Герман? Герман, это правда?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Herman",
-<<<<<<< HEAD
 								Text = T(229383232255, --[[ModItemConversation GreasyBasil_2 Text voice:Herman section:GreasyBasil_2 keyword:Herman did it!]] "I... I don't have to explain myself to you!"),
-=======
-								Text = T(229383232255, --[[ModItemConversation GreasyBasil_2 Text voice:Herman section:GreasyBasil_2 keyword:Herman did it!]] "Я... я не обязан объясняться перед тобой!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(587786120498, --[[ModItemConversation GreasyBasil_2 Text voice:Martha section:GreasyBasil_2 keyword:Herman did it!]] "WHAT?! Herman, what's going on?"),
-=======
-								Text = T(587786120498, --[[ModItemConversation GreasyBasil_2 Text voice:Martha section:GreasyBasil_2 keyword:Herman did it!]] "ЧТО?! Герман, как это понимать?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Herman",
 								SoundAfter = "Sounds/ConversationEffects/iact_crowdreactions2_murmur1.wav",
-<<<<<<< HEAD
 								Text = T(245636066272, --[[ModItemConversation GreasyBasil_2 Text voice:Herman section:GreasyBasil_2 keyword:Herman did it!]] "I did it for you, my dear! You were the one who said you couldn't stand it here! Kept nagging me about how we should have gone to Arulco. The beaches! The peace and quiet! Well, that takes money, doesn't it?"),
-=======
-								Text = T(245636066272, --[[ModItemConversation GreasyBasil_2 Text voice:Herman section:GreasyBasil_2 keyword:Herman did it!]] "Я сделал это ради тебя, милая! Кто ныл, что ему здесь осточертело? Кто мне всю плешь проел с этим переездом в Арулько? Пляжи! Тишина и покой! А ведь на это, знаешь ли, деньги нужны!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(811028147042, --[[ModItemConversation GreasyBasil_2 Text voice:Martha section:GreasyBasil_2 keyword:Herman did it!]] "You... You idiot! Why?! The one time you decide to listen to me, and you do this stupid thing! \nBasil, please, let him live! He couldn't have known they'd kill Tinhay!"),
-=======
-								Text = T(811028147042, --[[ModItemConversation GreasyBasil_2 Text voice:Martha section:GreasyBasil_2 keyword:Herman did it!]] "Ты... Ты идиот! Зачем?! Первый раз в жизни решил меня послушать - и тут же сделал глупость! \nБазиль, пощади его! Он же не знал, что они убьют Тинхея!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(986939909809, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Herman did it!]] "Shut up, Martha! Men! Grab that bastard!"),
-=======
-								Text = T(986939909809, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Herman did it!]] "Заткнись, Марта! Люди! Хватайте ублюдка!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Martha",
-<<<<<<< HEAD
 								Text = T(169236322082, --[[ModItemConversation GreasyBasil_2 Text voice:Martha section:GreasyBasil_2 keyword:Herman did it!]] "Noooo! Please, don't..."),
-=======
-								Text = T(169236322082, --[[ModItemConversation GreasyBasil_2 Text voice:Martha section:GreasyBasil_2 keyword:Herman did it!]] "Не-е-ет! Пожалуйста..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "GreasyBasil",
-<<<<<<< HEAD
 								Text = T(155237357255, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Herman did it!]] "Luc, I'm sorry. I see now it wasn't Pierre you were protecting."),
-=======
-								Text = T(155237357255, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Herman did it!]] "Прости меня, Люк. Теперь я вижу, что ты защищал вовсе не Пьера."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationInterjectionList', {
@@ -35349,11 +30555,7 @@ return {
 											PlaceObj('ConversationLine', {
 												Character = "Luc",
 												SoundAfter = "Sounds/ConversationEffects/iact_crowdreactions2_murmur3.wav",
-<<<<<<< HEAD
 												Text = T(701941408603, --[[ModItemConversation GreasyBasil_2 Text voice:Luc section:GreasyBasil_2 keyword:Herman did it!]] "Herman is just a fool, Basil. And I'm the fool that raised a bad seed, and twice the fool for still loving him. But you made a fool of yourself just now, right? Maybe all fools deserve a second chance."),
-=======
-												Text = T(701941408603, --[[ModItemConversation GreasyBasil_2 Text voice:Luc section:GreasyBasil_2 keyword:Herman did it!]] "Базиль, Герман - просто дурак. А я - дурак, который воспитал негодного сына, и дважды дурак, потому что по-прежнему его люблю. Но сейчас в дураках оказался и ты, верно? Может быть, все дураки заслуживают второго шанса?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -35370,20 +30572,12 @@ return {
 										Lines = {
 											PlaceObj('ConversationLine', {
 												Character = "Luc",
-<<<<<<< HEAD
 												Text = T(114498724607, --[[ModItemConversation GreasyBasil_2 Text voice:Luc section:GreasyBasil_2 keyword:Herman did it!]] "No need to be sorry, Basil. I have no reason to live, now that my son is dead. Leave this fool be and take me instead."),
-=======
-												Text = T(114498724607, --[[ModItemConversation GreasyBasil_2 Text voice:Luc section:GreasyBasil_2 keyword:Herman did it!]] "Не нужно извиняться, Базиль. Мне все равно незачем жить. Мой сын умер. Отпусти этого дурака и возьми меня вместо него."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 											PlaceObj('ConversationLine', {
 												Character = "GreasyBasil",
-<<<<<<< HEAD
 												Text = T(193772736580, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Herman did it!]] "That's nonsense, Luc."),
-=======
-												Text = T(193772736580, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Herman did it!]] "Люк, не говори глупостей."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 												param_bindings = false,
 											}),
 										},
@@ -35394,11 +30588,7 @@ return {
 							}),
 						},
 						NoBackOption = true,
-<<<<<<< HEAD
 						PhraseRolloverText = T(192644574243, --[[ModItemConversation GreasyBasil_2 PhraseRolloverText]] "This action may have major consequences!"),
-=======
-						PhraseRolloverText = T(192644574243, --[[ModItemConversation GreasyBasil_2 PhraseRolloverText]] "Это может иметь крупные последствия!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						StoryBranchIcon = "conversation_arrow",
 						id = "Hermandiditbreakthedeal",
 						param_bindings = false,
@@ -35419,11 +30609,7 @@ return {
 								PlaceObj('CityGrantLoyalty', {
 									Amount = 5,
 									City = "ErnieVillage",
-<<<<<<< HEAD
 									SpecialConversationMessage = T(572944147588, --[[ModItemConversation GreasyBasil_2 SpecialConversationMessage]] "no one was hanged"),
-=======
-									SpecialConversationMessage = T(572944147588, --[[ModItemConversation GreasyBasil_2 SpecialConversationMessage]] "эрнийцы никого не повесили"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -35437,11 +30623,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Raider",
-<<<<<<< HEAD
 													Text = T(499770145900, --[[ModItemConversation GreasyBasil_2 Text voice:Raider section:GreasyBasil_2 keyword:Spare Herman]] "What he did was dumb, but he doesn't deserve to die for it."),
-=======
-													Text = T(499770145900, --[[ModItemConversation GreasyBasil_2 Text voice:Raider section:GreasyBasil_2 keyword:Spare Herman]] "Он сделал глупость, но не заслуживает смерти."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -35451,11 +30633,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "MD",
-<<<<<<< HEAD
 													Text = T(835588116840, --[[ModItemConversation GreasyBasil_2 Text voice:MD section:GreasyBasil_2 keyword:Spare Herman]] "Haven't you people seen enough bloodshed?"),
-=======
-													Text = T(835588116840, --[[ModItemConversation GreasyBasil_2 Text voice:MD section:GreasyBasil_2 keyword:Spare Herman]] "Вам всем что, мало крови?"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -35465,11 +30643,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Grizzly",
-<<<<<<< HEAD
 													Text = T(236442552833, --[[ModItemConversation GreasyBasil_2 Text voice:Grizzly section:GreasyBasil_2 keyword:Spare Herman]] "Cut the guy some slack, will ya? Wait I... didn't mean that the way it came out."),
-=======
-													Text = T(236442552833, --[[ModItemConversation GreasyBasil_2 Text voice:Grizzly section:GreasyBasil_2 keyword:Spare Herman]] "Да ладно, не мучайте его... то есть, я хотел сказать, не судите строго."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -35480,38 +30654,22 @@ return {
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
-<<<<<<< HEAD
 									Text = T(971700738797, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Spare Herman]] "Right. Enough is enough. Herman, you can go, but I don't ever want to see your face again."),
-=======
-									Text = T(971700738797, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Spare Herman]] "Ладно. Хватит. Герман, можешь идти, но чтоб я духу твоего здесь больше не видел."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Herman",
-<<<<<<< HEAD
 									Text = T(861508840968, --[[ModItemConversation GreasyBasil_2 Text voice:Herman section:GreasyBasil_2 keyword:Spare Herman]] "But..."),
-=======
-									Text = T(861508840968, --[[ModItemConversation GreasyBasil_2 Text voice:Herman section:GreasyBasil_2 keyword:Spare Herman]] "Но..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Martha",
 									SoundAfter = "Sounds/ConversationEffects/iact_crowdreactions2_approval1.wav",
-<<<<<<< HEAD
 									Text = T(191161701193, --[[ModItemConversation GreasyBasil_2 Text voice:Martha section:GreasyBasil_2 keyword:Spare Herman]] "Shut up, before he changes his mind, dear, or I'll hang you myself! Come, help me gather our belongings."),
 									param_bindings = false,
 								}),
 							},
 							PhraseRolloverText = T(309518342493, --[[ModItemConversation GreasyBasil_2 PhraseRolloverText]] "This action may have major consequences!"),
-=======
-									Text = T(191161701193, --[[ModItemConversation GreasyBasil_2 Text voice:Martha section:GreasyBasil_2 keyword:Spare Herman]] "Милый, заткнись, пока он не передумал, или я сама тебя вздерну! Идем, поможешь собрать вещи."),
-									param_bindings = false,
-								}),
-							},
-							PhraseRolloverText = T(309518342493, --[[ModItemConversation GreasyBasil_2 PhraseRolloverText]] "Это может иметь крупные последствия!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 							StoryBranchIcon = "conversation_arrow",
 							id = "SpareHerman",
 							param_bindings = false,
@@ -35528,11 +30686,7 @@ return {
 								PlaceObj('CityGrantLoyalty', {
 									Amount = 20,
 									City = "ErnieVillage",
-<<<<<<< HEAD
 									SpecialConversationMessage = T(679479886813, --[[ModItemConversation GreasyBasil_2 SpecialConversationMessage]] "<em>Herman</em> was hanged"),
-=======
-									SpecialConversationMessage = T(679479886813, --[[ModItemConversation GreasyBasil_2 SpecialConversationMessage]] "эрнийцы повесили <em>Германа</em>"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('QuestSetVariableBool', {
@@ -35562,30 +30716,18 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
-<<<<<<< HEAD
 									Text = T(842490026970, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Herman should hang]] "Oh yes, he will! Ratted on Tinhay and was just about to watch Luc hang for his own crime? You're garbage, Herman!"),
-=======
-									Text = T(842490026970, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Herman should hang]] "О да! Сдал Тинхея, а потом смотрел, как Люка вешают за твое преступление? Ну ты и мразь, Герман!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Herman",
-<<<<<<< HEAD
 									Text = T(107088882078, --[[ModItemConversation GreasyBasil_2 Text voice:Herman section:GreasyBasil_2 keyword:Herman should hang]] "No! Please..."),
-=======
-									Text = T(107088882078, --[[ModItemConversation GreasyBasil_2 Text voice:Herman section:GreasyBasil_2 keyword:Herman should hang]] "Нет! Пожалуйста..."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "GreasyBasil",
 									SoundAfter = "Sounds/ConversationEffects/iact_crowdreactions2_approval1.wav",
-<<<<<<< HEAD
 									Text = T(890000000001076, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Herman should hang]] "Герман, ты будешь висеть, пока не сдохнешь! Марта, катись отсюда и больше не возвращайся. "),
-=======
-									Text = T(800930361275, --[[ModItemConversation GreasyBasil_2 Text voice:GreasyBasil section:GreasyBasil_2 keyword:Herman should hang]] "Герман, ты будешь висеть, пока не сдохнешь! Марта, катись отсюда и больше не возвращайся. "),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationInterjectionList', {
@@ -35594,11 +30736,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Fidel",
-<<<<<<< HEAD
 													Text = T(860524075453, --[[ModItemConversation GreasyBasil_2 Text voice:Fidel section:GreasyBasil_2 keyword:Herman should hang]] "No! Hang them both! Hang them all!"),
-=======
-													Text = T(860524075453, --[[ModItemConversation GreasyBasil_2 Text voice:Fidel section:GreasyBasil_2 keyword:Herman should hang]] "Нет! Вешайте обоих! Вешайте всех!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -35608,11 +30746,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Vicki",
-<<<<<<< HEAD
 													Text = T(183737908602, --[[ModItemConversation GreasyBasil_2 Text voice:Vicki section:GreasyBasil_2 keyword:Herman should hang]] "Seems a bit harsh."),
-=======
-													Text = T(183737908602, --[[ModItemConversation GreasyBasil_2 Text voice:Vicki section:GreasyBasil_2 keyword:Herman should hang]] "Сурово как-то."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -35622,11 +30756,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Buns",
-<<<<<<< HEAD
 													Text = T(209029186390, --[[ModItemConversation GreasyBasil_2 Text voice:Buns section:GreasyBasil_2 keyword:Herman should hang]] "Good. That sniveling little man will get what he deserves."),
-=======
-													Text = T(209029186390, --[[ModItemConversation GreasyBasil_2 Text voice:Buns section:GreasyBasil_2 keyword:Herman should hang]] "Все правильно. Это ничтожество получит по заслугам."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -35636,11 +30766,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Ivan",
-<<<<<<< HEAD
 													Text = T(176721708698, --[[ModItemConversation GreasyBasil_2 Text voice:Ivan section:GreasyBasil_2 keyword:Herman should hang]] "This drama like American TV. Boring."),
-=======
-													Text = T(176721708698, --[[ModItemConversation GreasyBasil_2 Text voice:Ivan section:GreasyBasil_2 keyword:Herman should hang]] "Прямо как американский телек смотреть. Скучища."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -35650,11 +30776,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Meltdown",
-<<<<<<< HEAD
 													Text = T(810616236703, --[[ModItemConversation GreasyBasil_2 Text voice:Meltdown section:GreasyBasil_2 keyword:Herman should hang]] "Good. Never did like that little creep."),
-=======
-													Text = T(810616236703, --[[ModItemConversation GreasyBasil_2 Text voice:Meltdown section:GreasyBasil_2 keyword:Herman should hang]] "Так ему и надо. Этот уродец мне сразу не понравился."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -35664,11 +30786,7 @@ return {
 											Lines = {
 												PlaceObj('ConversationLine', {
 													Character = "Tex",
-<<<<<<< HEAD
 													Text = T(890000000000534, --[[ModItemConversation GreasyBasil_2 Text voice:Tex section:GreasyBasil_2 keyword:Herman should hang]] "Предатерей надо вешать!"),
-=======
-													Text = T(439765129641, --[[ModItemConversation GreasyBasil_2 Text voice:Tex section:GreasyBasil_2 keyword:Herman should hang]] "Предатерей надо вешать!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 													param_bindings = false,
 												}),
 											},
@@ -35679,11 +30797,7 @@ return {
 									param_bindings = false,
 								}),
 							},
-<<<<<<< HEAD
 							PhraseRolloverText = T(348508638318, --[[ModItemConversation GreasyBasil_2 PhraseRolloverText]] "This action may have major consequences!"),
-=======
-							PhraseRolloverText = T(348508638318, --[[ModItemConversation GreasyBasil_2 PhraseRolloverText]] "Это может иметь крупные последствия!"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 							StoryBranchIcon = "conversation_arrow",
 							id = "Hermanshouldhang",
 							param_bindings = false,
@@ -35720,11 +30834,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "ThugBoss_Balumba",
@@ -35819,11 +30929,7 @@ return {
 					}),
 					PlaceObj('ConversationPhrase', {
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "ThugBoss_Balumba",
@@ -35882,11 +30988,7 @@ return {
 					PlaceObj('ConversationPhrase', {
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "ThugBoss_Balumba",
@@ -35930,11 +31032,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_L1",
@@ -36002,11 +31100,7 @@ return {
 					}),
 					PlaceObj('ConversationPhrase', {
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_L1",
@@ -36052,11 +31146,7 @@ return {
 					PlaceObj('ConversationPhrase', {
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_L1",
@@ -36084,11 +31174,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Annotation = '"Mala\'dets" - meaning champion',
@@ -36175,11 +31261,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Annotation = '"I respect you"',
@@ -36289,11 +31371,7 @@ return {
 						},
 						GoTo = "Greeting2.2",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Doctor_Leevsy",
@@ -36318,11 +31396,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Doctor_Leevsy",
@@ -36358,11 +31432,7 @@ return {
 					PlaceObj('ConversationPhrase', {
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Doctor_Leevsy",
@@ -36391,11 +31461,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergant_Immortal",
@@ -36507,11 +31573,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergant_Immortal",
@@ -36570,11 +31632,7 @@ return {
 					}),
 					PlaceObj('ConversationPhrase', {
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergant_Immortal",
@@ -36666,11 +31724,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_M1",
@@ -36697,11 +31751,7 @@ return {
 						},
 						GoTo = "2",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "RebelSergeant_Immortal_M1",
@@ -36899,11 +31949,7 @@ return {
 							},
 							GoTo = "<end conversation>",
 							Keyword = "Goodbye",
-<<<<<<< HEAD
 							KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-=======
-							KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "RebelSergeant_Immortal_M1",
@@ -36945,28 +31991,16 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
 								Text = T(890000000000442, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Greeting]] "Ха... вот это бойня. Рад, что мы на одной стороне."),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-						Lines = {
-							PlaceObj('ConversationLine', {
-								Character = "Rebel_NPC_Ghost",
-								Text = T(376303174155, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Greeting]] "Ха... вот это бойня. Рад, что мы на одной стороне."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
-<<<<<<< HEAD
 								Text = T(890000000000441, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Greeting]] "Меня зовут Дьяло, но люди обычно называют меня Призрак"),
-=======
-								Text = T(376303174155, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Greeting]] "Меня зовут Дьяло, но люди обычно называют меня Призрак"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -37007,11 +32041,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
@@ -37063,11 +32093,7 @@ return {
 						PlaceObj('ConversationPhrase', {
 							GoTo = "<end conversation>",
 							Keyword = "Goodbye",
-<<<<<<< HEAD
 							KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-=======
-							KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
@@ -37093,20 +32119,12 @@ return {
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
-<<<<<<< HEAD
 								Text = T(890000000001318, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Что вы делаете тут?]] "Считал, сколько человек Легион еще потеряет, прежде чем догадается, что в джунглях их кто-то очень сильно не любит.\nЯ хотел перехватить этот отряд, но вы успели перебить основную часть. Хорошая работа"),
-=======
-								Text = T(951978840332, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Что вы делаете тут?]] "Считал, сколько человек Легион еще потеряет, прежде чем догадается, что в джунглях их кто-то очень сильно не любит.\nЯ хотел перехватить этот отряд, но вы успели перебить основную часть. Хорошая работа"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
-<<<<<<< HEAD
 								Text = T(890000000001317, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Что вы делаете тут?]] "Судя по тому, как вы справились с ними, вы можете мне помочь.\nНедалеко отсюда, к северу от <em>Водопада</em>, есть <em>Смотровая площадка</em> - одно из немногих мест, где Легион выгружает припасы для снабжения острова. Если мы вместе её атакуем, то сможем нарушить логистику в этой части острова."),
-=======
-								Text = T(951978840332, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Что вы делаете тут?]] "Судя по тому, как вы справились с ними, вы можете мне помочь.\nНедалеко отсюда, к северу от <em>Водопада</em>, есть <em>Смотровая площадка</em> - одно из немногих мест, где Легион выгружает припасы для снабжения острова. Если мы вместе её атакуем, то сможем нарушить логистику в этой части острова."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 								param_bindings = false,
 							}),
 						},
@@ -37137,20 +32155,12 @@ return {
 							Lines = {
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
-<<<<<<< HEAD
 									Text = T(890000000000957, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Водопад?]] "Да, дальше по дороге находится <em>водопад</em>. Мы его обойдем и будем вас ждать на <em>Смотровой Площадке</em>"),
-=======
-									Text = T(722088424749, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Водопад?]] "Да, дальше по дороге находится <em>водопад</em>. Мы его обойдем и будем вас ждать на <em>Смотровой Площадке</em>"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 								PlaceObj('ConversationLine', {
 									Character = "Rebel_NPC_Ghost",
-<<<<<<< HEAD
 									Text = T(890000000000958, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Водопад?]] "У <em>Водопада</em> вдоль реки находится небольшой отряд легиона - пытаются отрезать отряд Бурды. Но Легион не знает, что вдоль гор есть несколько тайных троп."),
-=======
-									Text = T(722088424749, --[[ModItemConversation Rebels_Ghost Text voice:Rebel_NPC_Ghost section:Rebels_Ghost keyword:Водопад?]] "У <em>Водопада</em> вдоль реки находится небольшой отряд легиона - пытаются отрезать отряд Бурды. Но Легион не знает, что вдоль гор есть несколько тайных троп."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 									param_bindings = false,
 								}),
 							},
@@ -37204,11 +32214,7 @@ return {
 					PlaceObj('ConversationPhrase', {
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "Rebel_NPC_Ghost",
@@ -37880,11 +32886,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "A27",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A27]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A27]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -38246,11 +33248,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "B1",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B1]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B1]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -38411,15 +33409,9 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "B17",
-<<<<<<< HEAD
 					'Map', "B-17 - Oasis",
 					'MapTier', 40,
 					'display_name', T(834500050121, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B17]] "Oasis"),
-=======
-					'Map', "PKLpuCd",
-					'modId', "FhNNYd",
-					'display_name', T(978218324840, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B17]] 'Санаторий "Лазурь"'),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'TerrainType', "Highlands",
 					'WeatherZone', "Highlands",
 					'Donations', true,
@@ -38478,11 +33470,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "B2",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B2]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B2]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -38709,11 +33697,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "B3",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B3]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B3]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -38835,11 +33819,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "C1",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(969974346859, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C1]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C1]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -39088,11 +34068,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "C2",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(559688672673, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C2]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C2]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -39364,11 +34340,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "C25",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C25]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C25]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -39542,11 +34514,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "C5",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C5]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for C5]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -39774,11 +34742,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "D1",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(631515697711, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D1]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D1]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -40083,11 +35047,7 @@ return {
 					'MapTier', 10,
 					'Label1', "Outpost",
 					'modId', "FhNNYd",
-<<<<<<< HEAD
 					'display_name', T(890000000001298, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D18]] "Кам-Гран-При"),
-=======
-					'display_name', T(929083374712, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D18]] "Кам-Гран-При"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'WeatherZone', "Highlands",
 					'Passability', "Land and Water",
 					'Guardpost', true,
@@ -40178,11 +35138,7 @@ return {
 					'MapTier', 10,
 					'Label1', "Outpost",
 					'modId', "FhNNYd",
-<<<<<<< HEAD
 					'display_name', T(890000000001298, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D18]] "Кам-Гран-При"),
-=======
-					'display_name', T(929083374712, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D18]] "Кам-Гран-При"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'WeatherZone', "Highlands",
 					'Passability', "Land and Water",
 					'Guardpost', true,
@@ -40294,11 +35250,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "D2",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(575455589672, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D2]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D2]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -40361,11 +35313,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "D25",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D25]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D25]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -40494,11 +35442,7 @@ return {
 					'MapTier', 50,
 					'Label1', "Special",
 					'modId', "FhNNYd",
-<<<<<<< HEAD
 					'display_name', T(890000000000898, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D28]] "Разлом"),
-=======
-					'display_name', T(685901275490, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D28]] "Разлом"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'TerrainType', "Highlands",
 					'WeatherZone', "Barrens",
 					'Guardpost', true,
@@ -40564,11 +35508,7 @@ return {
 					'MapTier', 50,
 					'Label1', "Special",
 					'modId', "FhNNYd",
-<<<<<<< HEAD
 					'display_name', T(890000000000898, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D28]] "Разлом"),
-=======
-					'display_name', T(685901275490, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D28]] "Разлом"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'TerrainType', "Highlands",
 					'WeatherZone', "Barrens",
 					'Guardpost', true,
@@ -40747,11 +35687,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "D6",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D6]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for D6]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -40853,11 +35789,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "E1",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(148124647924, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E1]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E1]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -41361,11 +36293,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "E2",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(494550432902, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E2]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E2]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -41453,11 +36381,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "E25",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E25]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E25]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -41483,11 +36407,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "E26",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E26]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E26]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -41615,11 +36535,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "E6",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E6]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E6]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -41632,11 +36548,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "E7",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E7]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E7]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -41713,11 +36625,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "F1",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(992844337726, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F1]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F1]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -42610,11 +37518,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "F2",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(799185194458, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F2]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F2]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -42748,11 +37652,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "F26",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F26]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F26]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -43001,11 +37901,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "F4",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(643264404673, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F4]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F4]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -43018,11 +37914,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "F5",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F5]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F5]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -43035,11 +37927,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "F6",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F6]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F6]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -43052,11 +37940,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "F7",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F7]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for F7]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -43174,11 +38058,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "G1",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(993558834336, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G1]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G1]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -43546,11 +38426,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "G2",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(591067403168, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G2]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G2]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -43767,11 +38643,7 @@ return {
 					'MapTier', 20,
 					'Label1', "City",
 					'modId', "FhNNYd",
-<<<<<<< HEAD
 					'display_name', T(890000000001067, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G25]] "Шале-де-ла-Пе"),
-=======
-					'display_name', T(794687208333, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G25]] "Шале-де-ла-Пе"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'Passability', "Land and Water",
@@ -43837,11 +38709,7 @@ return {
 					'MapTier', 20,
 					'Label1', "City",
 					'modId', "FhNNYd",
-<<<<<<< HEAD
 					'display_name', T(890000000001067, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G25]] "Шале-де-ла-Пе"),
-=======
-					'display_name', T(794687208333, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G25]] "Шале-де-ла-Пе"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'Passability', "Land and Water",
@@ -43904,11 +38772,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "G26",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G26]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G26]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -44007,11 +38871,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "G3",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(556676479025, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G3]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G3]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -44200,11 +39060,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "G4",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(470822575985, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G4]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G4]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -44217,11 +39073,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "G5",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(943764606580, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G5]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G5]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -44234,11 +39086,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "G6",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G6]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G6]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -44251,11 +39099,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "G7",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G7]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G7]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -44268,11 +39112,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "G8",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G8]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for G8]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -44377,11 +39217,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "H1",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(863989562304, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H1]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H1]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -44845,11 +39681,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "H2",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H2]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H2]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -45044,11 +39876,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "H25",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H25]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H25]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -45062,11 +39890,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "H26",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H26]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H26]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -45209,11 +40033,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "H3",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H3]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H3]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -45380,11 +40200,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "H4",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H4]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H4]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -45397,11 +40213,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "H5",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(732245445310, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H5]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H5]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -45414,11 +40226,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "H6",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H6]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H6]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -45431,11 +40239,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "H7",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H7]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H7]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -45451,11 +40255,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "H8",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H8]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H8]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -45468,11 +40268,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "H9",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H9]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for H9]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -45489,11 +40285,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "I1",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I1]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I1]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -45507,11 +40299,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "I10",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I10]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I10]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -47276,11 +42064,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "I8",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I8]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I8]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -47296,11 +42080,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "I9",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I9]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I9]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -47313,11 +42093,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "J1",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(933891919263, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J1]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J1]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -47330,11 +42106,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "J10",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J10]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J10]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -47347,11 +42119,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "J11",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J11]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J11]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -47922,7 +42690,6 @@ return {
 					'MusicExploration', "Swamp_Exploration",
 				}),
 				PlaceObj('SatelliteSector', {
-<<<<<<< HEAD
 					'Id', "J2",
 					'Map', "C3jAvYn",
 					'modId', "FhNNYd",
@@ -47937,8 +42704,6 @@ return {
 }),
 				}),
 				PlaceObj('SatelliteSector', {
-=======
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Id', "J20",
 					'Map', "ihuFJkn",
 					'MapTier', 30,
@@ -48408,7 +43173,6 @@ return {
 					'MusicConflict', "Jungle_Conflict",
 				}),
 				PlaceObj('SatelliteSector', {
-<<<<<<< HEAD
 					'Id', "J3",
 					'Map', "pnD4jzE",
 					'modId', "FhNNYd",
@@ -48422,8 +43186,6 @@ return {
 }),
 				}),
 				PlaceObj('SatelliteSector', {
-=======
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Id', "J30",
 					'Label1', "Blocked",
 					'Side', "neutral",
@@ -48566,11 +43328,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "J8",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J8]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J8]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -48584,11 +43342,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "J9",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J9]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J9]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -48601,11 +43355,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "K1",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(726415642347, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K1]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K1]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -48618,11 +43368,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "K10",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K10]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K10]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -48635,11 +43381,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "K11",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K11]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K11]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -48779,11 +43521,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "K12",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K12]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K12]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -48797,11 +43535,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "K13",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K13]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K13]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -48924,10 +43658,6 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "K2",
-<<<<<<< HEAD
-					'Label1', "Blocked",
-					'display_name', T(980050431606, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K2]] "Sea"),
-=======
 					'Map', "GoDqhMQ",
 					'modId', "FhNNYd",
 					'bidirectionalRoadApply', true,
@@ -48937,23 +43667,12 @@ return {
 					'Id', "K20",
 					'MapTier', 30,
 					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K20]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
 					'Passability', "Water",
 					'Intel', false,
-<<<<<<< HEAD
-					'BlockTravel', set({
-	East = false,
-	North = false,
-	South = false,
-	West = false,
-}),
-					'image', "UI/SatelliteView/SectorImages/_Sea",
-=======
 					'image', "UI/SatelliteView/SectorImages/_River",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Cursed_Conflict",
 					'MusicExploration', "Cursed_Exploration",
@@ -49213,11 +43932,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "K25",
 					'MapTier', 30,
-<<<<<<< HEAD
-					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K25]] "River"),
-=======
 					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K25]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -49411,11 +44126,7 @@ return {
 	West = false,
 }),
 					'BlockTravelRiver', set( "East" ),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/JA3Debug_JIyFICPpQ9.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/K3_LegionCamp.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "K30",
@@ -49643,11 +44354,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "K8",
 					'Label1', "Blocked",
-<<<<<<< HEAD
-					'display_name', T(536426354025, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K8]] "Sea"),
-=======
 					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K8]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -49661,11 +44368,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "K9",
 					'Label1', "Blocked",
-<<<<<<< HEAD
-					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K9]] "Sea"),
-=======
 					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K9]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -49710,11 +44413,7 @@ return {
 	West = true,
 }),
 					'BlockTravelRiver', set( "South", "West" ),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/JA3Debug_19GYshFG3m.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/L1_Rebels_Base.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Port', true,
 					'CanBeUsedForArrival', true,
 					'BobbyRayDeliveryCostMultiplier', 300,
@@ -49722,11 +44421,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "L10",
 					'Label1', "Blocked",
-<<<<<<< HEAD
-					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L10]] "Sea"),
-=======
 					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L10]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -49747,11 +44442,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "L12",
 					'MapTier', 30,
-<<<<<<< HEAD
-					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L12]] "River"),
-=======
 					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L12]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -49775,11 +44466,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "L14",
 					'MapTier', 30,
-<<<<<<< HEAD
-					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L14]] "River"),
-=======
 					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L14]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -49796,11 +44483,7 @@ return {
 					'MapTier', 50,
 					'Label1', "Outpost",
 					'modId', "FhNNYd",
-<<<<<<< HEAD
-					'display_name', T(890000000000154, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L15]] "Кам-Ла-Барьер"),
-=======
 					'display_name', T(209909493905, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L15]] "Кам-Ла-Барьер"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'Passability', "Land and Water",
@@ -49896,11 +44579,7 @@ return {
 					'MapTier', 50,
 					'Label1', "Outpost",
 					'modId', "FhNNYd",
-<<<<<<< HEAD
-					'display_name', T(890000000000154, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L15]] "Кам-Ла-Барьер"),
-=======
 					'display_name', T(209909493905, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L15]] "Кам-Ла-Барьер"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'TerrainType', "Jungle",
 					'WeatherZone', "GreatForest",
 					'Passability', "Land and Water",
@@ -50165,20 +44844,12 @@ return {
 	West = false,
 }),
 					'BlockTravelRiver', set( "South" ),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/JA3Debug_F2I89aClgq.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/L2_Debris.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L20",
 					'MapTier', 30,
-<<<<<<< HEAD
-					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L20]] "River"),
-=======
 					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L20]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -50192,11 +44863,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "L21",
 					'MapTier', 30,
-<<<<<<< HEAD
-					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L21]] "River"),
-=======
 					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L21]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -50210,11 +44877,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "L22",
 					'MapTier', 30,
-<<<<<<< HEAD
-					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L22]] "River"),
-=======
 					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L22]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -50228,11 +44891,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "L23",
 					'MapTier', 30,
-<<<<<<< HEAD
-					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L23]] "River"),
-=======
 					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L23]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -50246,11 +44905,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "L24",
 					'MapTier', 30,
-<<<<<<< HEAD
-					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L24]] "River"),
-=======
 					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L24]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -50264,11 +44919,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "L25",
 					'MapTier', 30,
-<<<<<<< HEAD
-					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L25]] "River"),
-=======
 					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L25]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -50402,11 +45053,7 @@ return {
 	West = false,
 }),
 					'BlockTravelRiver', set( "South" ),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/NVIDIA_Overlay_tddvitduk9.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/L3_LegionCamp.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L30",
@@ -50480,11 +45127,7 @@ return {
 	South = false,
 	West = false,
 }),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/JA3Debug_vxild4zd1M.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/L4_LegionCamp.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "L5",
@@ -50510,11 +45153,7 @@ return {
 	West = false,
 }),
 					'BlockTravelRiver', set( "South" ),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/NVIDIA_Overlay_3CncqSC7Jl.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/L5_LegionCamp.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'combatTaskAmount', 4,
 				}),
 				PlaceObj('SatelliteSector', {
@@ -50549,11 +45188,7 @@ return {
 	South = false,
 	West = false,
 }),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/Discord_CAIlnFu36n.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/Ernie_L6.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'combatTaskAmount', 2,
 				}),
 				PlaceObj('SatelliteSector', {
@@ -50599,11 +45234,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "L8",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L8]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L8]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -50617,11 +45248,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "L9",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L9]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L9]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -50656,11 +45283,7 @@ return {
 	South = true,
 	West = true,
 }),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/NVIDIA_Overlay_FbmSxu7QZR.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/M1_Landing.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Events', {
 						PlaceObj('SE_OnEnterMap', {
 							'Effects', {
@@ -50705,11 +45328,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "M10",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M10]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M10]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -50722,11 +45341,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "M11",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M11]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M11]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -50740,11 +45355,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "M12",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M12]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M12]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -50758,11 +45369,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "M13",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M13]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M13]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -50776,11 +45383,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "M14",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M14]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M14]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -50794,11 +45397,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "M15",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M15]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M15]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -50812,11 +45411,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "M16",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M16]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M16]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -50830,11 +45425,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "M17",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M17]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M17]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -50848,11 +45439,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "M18",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M18]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M18]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -50866,11 +45453,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "M19",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M19]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M19]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -50904,21 +45487,13 @@ return {
 	South = true,
 	West = false,
 }),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/M2.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/M2.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'combatTaskAmount', 3,
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M20",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M20]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M20]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -50932,11 +45507,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "M21",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M21]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M21]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -50950,11 +45521,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "M22",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M22]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M22]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -50968,11 +45535,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "M23",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M23]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M23]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -51063,11 +45626,7 @@ return {
 	South = true,
 	West = false,
 }),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/JA3Debug_Gi0wZWw76p.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/M2_WaterFall.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M30",
@@ -51204,11 +45763,7 @@ return {
 	West = false,
 }),
 					'BlockTravelRiver', set(),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/JA3Debug_cWEYbSPEt1.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/M5_Coast.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M6",
@@ -51238,20 +45793,12 @@ return {
 	South = true,
 	West = false,
 }),
-<<<<<<< HEAD
-					'image', "Mod/FhNNYd/Images/JA3Debug_KEVGDHzK25.jpg",
-=======
 					'image', "Mod/FhNNYd/Images/Maps_Images/M6_OldBase.jpg",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "M7",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M7]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M7]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -51265,11 +45812,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "M8",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M8]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M8]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -51282,11 +45825,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "M9",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M9]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for M9]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -51299,11 +45838,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N1",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N1]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N1]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -51317,11 +45852,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N10",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N10]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N10]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -51550,11 +46081,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N17",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N17]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N17]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -51568,11 +46095,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N18",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N18]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N18]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -51586,11 +46109,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N19",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N19]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N19]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -51604,11 +46123,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N2",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N2]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N2]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -51622,11 +46137,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N20",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N20]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N20]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -51640,11 +46151,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N21",
 					'MapTier', 30,
-<<<<<<< HEAD
 					'display_name', T(890000000000314, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N21]] "River"),
-=======
-					'display_name', T(297775590352, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N21]] "River"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'TerrainType', "Swamp",
@@ -51915,11 +46422,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N3",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N3]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N3]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -52040,11 +46543,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N4",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N4]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N4]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -52057,11 +46556,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N5",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N5]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N5]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -52074,11 +46569,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N6",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N6]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N6]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -52092,11 +46583,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N7",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N7]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N7]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -52109,11 +46596,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N8",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N8]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N8]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -52126,11 +46609,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "N9",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N9]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for N9]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -52143,11 +46622,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "O1",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O1]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O1]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -52620,11 +47095,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "O2",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O2]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O2]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -52881,11 +47352,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "O3",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O3]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O3]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -52934,11 +47401,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "O4",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O4]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O4]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -52951,11 +47414,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "O5",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O5]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O5]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -52968,11 +47427,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "O6",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O6]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O6]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -52985,11 +47440,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "O7",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O7]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O7]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -53002,11 +47453,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "O8",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O8]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O8]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -53019,11 +47466,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "O9",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O9]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for O9]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -53036,11 +47479,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "P1",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P1]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P1]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -53734,11 +48173,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "P2",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P2]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P2]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -53901,11 +48336,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "P3",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P3]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P3]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -53954,11 +48385,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "P4",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P4]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P4]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -53971,11 +48398,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "P5",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P5]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P5]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -53988,11 +48411,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "P6",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P6]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P6]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -54005,11 +48424,7 @@ return {
 				PlaceObj('SatelliteSector', {
 					'Id', "P7",
 					'Label1', "Blocked",
-<<<<<<< HEAD
 					'display_name', T(890000000001128, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P7]] "Sea"),
-=======
-					'display_name', T(838031250692, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for P7]] "Sea"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					'Side', "neutral",
 					'StickySide', true,
 					'Passability', "Water",
@@ -60548,11 +54963,7 @@ return {
 				Author = "Boyan",
 				Chapter = "Act2",
 				DevNotes = "To Do - on betrayal remember to flip L17 to enemy set it as a guardpost, foce conflict, add squad and add militia option. Also probabaly a destination for diamond shipments.\n\nThe bools for Faucheux are here, but some of the Notes are in 03_DefeatTheLegion in order to avoid spoilers.",
-<<<<<<< HEAD
 				DisplayName = T(887414655774, --[[ModItemQuestsDef 05_TakeDownFaucheux DisplayName]] "Taking Down Col. Faucheux"),
-=======
-				DisplayName = T(765682144269, --[[ModItemQuestsDef 05_TakeDownFaucheux DisplayName]] "Нейтрализация полковника Фошо"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 				Main = true,
 				NoteDefs = {
 					PlaceObj('QuestNote', {
@@ -64750,11 +59161,7 @@ return {
 			}),
 			PlaceObj('ModItemQuestsDef', {
 				Chapter = "Ernie_Rebels",
-<<<<<<< HEAD
 				DisplayName = T(890000000000943, --[[ModItemQuestsDef JAZZ_REBELS_1_SeizeTheOutlook DisplayName]] "Атака на Смотровую Площадку"),
-=======
-				DisplayName = T(711512520142, --[[ModItemQuestsDef JAZZ_REBELS_1_SeizeTheOutlook DisplayName]] "Атака на Смотровую Площадку"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 				LastNoteIdx = 1,
 				NoteDefs = {
 					LastNoteIdx = 1,
@@ -65161,11 +59568,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
@@ -65323,11 +59726,7 @@ return {
 								Lines = {
 									PlaceObj('ConversationLine', {
 										Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
-<<<<<<< HEAD
 										Text = T(890000000000710, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Мы поможем]] "Спасибо, наемники. Я нашел ящик с гранатами на берегу. Вот, возьмите."),
-=======
-										Text = T(552716187636, --[[ModItemConversation JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Text voice:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man section:JAZZ_Ernie_Locals_M2_SaveMyFamily_Man keyword:Мы поможем]] "Спасибо, наемники. Я нашел ящик с гранатами на берегу. Вот, возьмите."),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 										param_bindings = false,
 									}),
 								},
@@ -65395,11 +59794,7 @@ return {
 						},
 						GoTo = "Goodbye2",
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
@@ -65432,11 +59827,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
@@ -65466,11 +59857,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
@@ -65491,11 +59878,7 @@ return {
 						},
 						GoTo = "<end conversation>",
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
@@ -65531,11 +59914,7 @@ return {
 							}),
 						},
 						Keyword = "Greeting",
-<<<<<<< HEAD
 						KeywordT = T(890000000001023, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
-=======
-						KeywordT = T(774381032385, --[[ModItemConversation Pierre_1 KeywordT]] "Greeting"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
@@ -65577,11 +59956,7 @@ return {
 					}),
 					PlaceObj('ConversationPhrase', {
 						Keyword = "Goodbye",
-<<<<<<< HEAD
 						KeywordT = T(890000000000720, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
-=======
-						KeywordT = T(557225474228, --[[ModItemConversation Pierre_2 KeywordT]] "Goodbye"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
@@ -65939,11 +60314,7 @@ return {
 								sector_id = "K3",
 							}),
 						},
-<<<<<<< HEAD
 						Text = T(890000000000753, --[[ModItemQuestsDef Jazz_ClearTheWay Text]] "Зачистить сектор K3"),
-=======
-						Text = T(583544470909, --[[ModItemQuestsDef Jazz_ClearTheWay Text]] "Зачистить сектор K3"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -65968,11 +60339,7 @@ return {
 								sector_id = "K5",
 							}),
 						},
-<<<<<<< HEAD
 						Text = T(890000000000754, --[[ModItemQuestsDef Jazz_ClearTheWay Text]] "Зачистить сектор K5"),
-=======
-						Text = T(583544470909, --[[ModItemQuestsDef Jazz_ClearTheWay Text]] "Зачистить сектор K5"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -65997,11 +60364,7 @@ return {
 								sector_id = "L3",
 							}),
 						},
-<<<<<<< HEAD
 						Text = T(890000000000755, --[[ModItemQuestsDef Jazz_ClearTheWay Text]] "Зачистить сектор L3"),
-=======
-						Text = T(583544470909, --[[ModItemQuestsDef Jazz_ClearTheWay Text]] "Зачистить сектор L3"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -66026,11 +60389,7 @@ return {
 								sector_id = "L4",
 							}),
 						},
-<<<<<<< HEAD
 						Text = T(890000000000756, --[[ModItemQuestsDef Jazz_ClearTheWay Text]] "Зачистить сектор L4"),
-=======
-						Text = T(583544470909, --[[ModItemQuestsDef Jazz_ClearTheWay Text]] "Зачистить сектор L4"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -66055,11 +60414,7 @@ return {
 								sector_id = "L5",
 							}),
 						},
-<<<<<<< HEAD
 						Text = T(890000000000757, --[[ModItemQuestsDef Jazz_ClearTheWay Text]] "Зачистить сектор L5"),
-=======
-						Text = T(583544470909, --[[ModItemQuestsDef Jazz_ClearTheWay Text]] "Зачистить сектор L5"),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 					}),
 				},
 				TCEs = {
@@ -118033,15 +112388,6 @@ return {
 			value = 12,
 		}),
 		}),
-<<<<<<< HEAD
-	PlaceObj('ModItemCamera', {
-		cam_lookat = point(206534, 81920, 39788),
-		cam_pos = point(210319, 79604, 42092),
-		group = "Characters",
-		id = "Camera_3_copy",
-		map = "KhrydjM",
-		order = 3,
-=======
 	PlaceObj('ModItemFolder', {
 		'name', "Banters",
 	}, {
@@ -119277,7 +113623,6 @@ return {
 			Pos1 = point(260762, 169201, 23950),
 			Zoom = 1300,
 		}),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	}),
 	PlaceObj('ModItemFolder', {
 		'name', "Banters",

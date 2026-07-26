@@ -1,6 +1,5 @@
 # JAZZ Maps
 
-<<<<<<< HEAD
 > Пакет карт и кампанийных данных JAZZ. Самостоятельная игра не поддерживается.
 
 `jazz-maps` формирует тактический и кампанийный контент [JAZZ — Tactical Overhaul](../jazz/README.md): карты, сектора, map patches, квесты, диалоги, banters и setpieces.
@@ -45,7 +44,6 @@
 - [Стратегия и мир](../jazz/docs/wiki/strategy-and-world.md)
 - [Карты, квесты и диалоги](../jazz/docs/technical/systems/maps-quests-dialogue.md)
 - [Правила работы](AGENTS.md)
-=======
 Пакет карт и кампании JAZZ для Jagged Alliance 3 (`FhNNYd`): сектора, quests, conversations, setpieces, сателлитный транспорт.
 
 Репозиторий: <https://github.com/Kpoji4er/JAZZ-maps>
@@ -59,4 +57,3 @@
 - каталог квестов, локаций и врагов (остров Эрни).
 
 Suite-wide docs (бой, оружие, AI, общая архитектура): пакет `jazz` → `../jazz/docs/`.
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
