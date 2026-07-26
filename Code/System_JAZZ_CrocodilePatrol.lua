@@ -3,6 +3,7 @@
 -- place = table.find(G13..G14 route, sector_id). JAZZ spawns the patrol on I19
 -- and starts ReduceCrocodileCampStrength on M1, so place is often nil →
 -- "'for' limit must be a number". Replace vanilla handlers and remap setup.
+-- Shipping runtime often has debug == nil; surgical upvalue replace is optional.
 
 local JAZZ_CROCODILE_DEF = "CampCrocodile_CirclingPatrol"
 local JAZZ_CROCODILE_HOME = "I19"
@@ -11,10 +12,21 @@ local JAZZ_CROCODILE_SKIP = false
 -- Compact adjacent wetlands loop around I19 (I18 north, J19 east via J19.West).
 local JAZZ_CROCODILE_ROUTE = { "I18", "I19", "J19" }
 
+local function JAZZ_GetDebugLib()
+	local dbg = rawget(_G, "debug")
+	if type(dbg) == "table" and type(dbg.getupvalue) == "function" then
+		return dbg
+	end
+end
+
 local function JAZZ_GetMsgStaticFuncs()
+	local dbg = JAZZ_GetDebugLib()
+	if not dbg then
+		return
+	end
 	local i = 1
 	while true do
-		local name, val = debug.getupvalue(Msg, i)
+		local name, val = dbg.getupvalue(Msg, i)
 		if not name then
 			return
 		end
@@ -26,7 +38,11 @@ local function JAZZ_GetMsgStaticFuncs()
 end
 
 local function JAZZ_IsHotDiamondsSource(fn)
-	local info = debug.getinfo(fn, "S")
+	local dbg = JAZZ_GetDebugLib()
+	if not dbg or type(dbg.getinfo) ~= "function" then
+		return false
+	end
+	local info = dbg.getinfo(fn, "S")
 	local src = info and info.source
 	return type(src) == "string" and string.find(src, "HotDiamonds", 1, true) and true or false
 end
@@ -114,11 +130,32 @@ function SetupCrocodilePatrolSquad()
 	end)
 end
 
-function JAZZ_InstallCrocodilePatrolFix()
+local JAZZ_CrocodileMsgWrapped = false
+local JAZZ_OrigMsg
+
+-- Without debug.getupvalue, surgically replace HotDiamonds handlers is impossible.
+-- Wrap Msg: run our loop update, then hide enemy_squad_def so vanilla skips `for i=1,nil`.
+local function JAZZ_MsgReachSectorCenterGuard(message, ...)
+	if message == "ReachSectorCenter" then
+		local squad_id = ...
+		local squad = gv_Squads and gv_Squads[squad_id]
+		if squad and squad.enemy_squad_def == JAZZ_CROCODILE_DEF then
+			JAZZ_OnCrocodileReachSectorCenter(...)
+			local prev = squad.enemy_squad_def
+			squad.enemy_squad_def = false
+			JAZZ_OrigMsg(message, ...)
+			squad.enemy_squad_def = prev
+			return
+		end
+	end
+	return JAZZ_OrigMsg(message, ...)
+end
+
+local function JAZZ_InstallViaStaticReplace()
 	local static = JAZZ_GetMsgStaticFuncs()
 	local funcs = static and static.ReachSectorCenter
 	if not funcs then
-		return
+		return false
 	end
 	local replaced = false
 	for i, fn in ipairs(funcs) do
@@ -128,14 +165,30 @@ function JAZZ_InstallCrocodilePatrolFix()
 		end
 	end
 	if not replaced then
-		-- HotDiamonds handler not present yet / already replaced; ensure ours is registered once
 		for _, fn in ipairs(funcs) do
 			if fn == JAZZ_OnCrocodileReachSectorCenter then
-				return
+				return true
 			end
 		end
 		funcs[#funcs + 1] = JAZZ_OnCrocodileReachSectorCenter
 	end
+	return true
+end
+
+local function JAZZ_InstallViaMsgWrap()
+	if Msg == JAZZ_MsgReachSectorCenterGuard then
+		return
+	end
+	JAZZ_OrigMsg = Msg
+	Msg = JAZZ_MsgReachSectorCenterGuard
+	JAZZ_CrocodileMsgWrapped = true
+end
+
+function JAZZ_InstallCrocodilePatrolFix()
+	if JAZZ_InstallViaStaticReplace() then
+		return
+	end
+	JAZZ_InstallViaMsgWrap()
 end
 
 function OnMsg.ModsReloaded()

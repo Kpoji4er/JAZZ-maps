@@ -50,11 +50,20 @@ Suite: [`../../jazz/docs/technical/systems/satellite-vehicles.md`](../../jazz/do
 
 ---
 
+## Локации Эрни (конвейер)
+
+Playbook: [`LOCATION_PIPELINE.md`](LOCATION_PIPELINE.md). Брифы: [`briefs/`](briefs/).
+
+**Текущая локация очереди:** J7 «Изумрудный берег» (`qJApdx`, setpiece `EncounterHerman`) — см. [`briefs/J7.md`](briefs/J7.md).
+
+Геометрию правит владелец в F3; агент — бриф, чеклист, sector/campaign обвязка, docs.
+
 ## Возможные следующие задачи
 
-1. Фаза 1 по [`combat-vehicle-design.md`](combat-vehicle-design.md) — класс + fuel stub + driver pick (**без** `tactical_enabled` до smoke).
-2. Entity/анимации кабины (Jazz Assets).
-3. Фаза 2: cover, турель item, confirm move UI.
+1. Достройка локаций Эрни по [`LOCATION_PIPELINE.md`](LOCATION_PIPELINE.md) (очередь: J7 → M2/M3 → I6 → K4 → хабы).
+2. Фаза 1 по [`combat-vehicle-design.md`](combat-vehicle-design.md) — класс + fuel stub + driver pick (**без** `tactical_enabled` до smoke).
+3. Entity/анимации кабины (Jazz Assets).
+4. Фаза 2: cover, турель item, confirm move UI.
 
 ---
 

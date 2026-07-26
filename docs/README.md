@@ -8,12 +8,15 @@ Suite-wide technical/wiki (бой, оружие, AI, общая архитект
 
 1. [`AGENT_HANDOFF.md`](AGENT_HANDOFF.md) — актуальный статус и следующая задача  
 2. [`AGENT_BRIEFING.md`](AGENT_BRIEFING.md) — архитектура локаций, setpiece, B17, loading screens  
-3. [`../AGENTS.md`](../AGENTS.md) — правила пакета и связь с четырьмя репозиториями  
+3. [`LOCATION_PIPELINE.md`](LOCATION_PIPELINE.md) — конвейер достройки локаций Эрни (бриф → F3 → обвязка)  
+4. [`../AGENTS.md`](../AGENTS.md) — правила пакета и связь с четырьмя репозиториями  
 
 ## Контент кампании
 
 | Документ | Для кого | Содержание |
 |---|---|---|
+| [`LOCATION_PIPELINE.md`](LOCATION_PIPELINE.md) | Владелец + агент | Роли, шаблон брифа, фазы, очередь Эрни |
+| [`briefs/`](briefs/) | Сессия | Брифы и чеклисты F3 по секторам |
 | [`content/ernie-island-guide.md`](content/ernie-island-guide.md) | Игрок / приёмка | Локации, квесты и ожидания по боям на Эрни |
 | [`content/quests-locations-enemies.md`](content/quests-locations-enemies.md) | Разработчик | ID секторов, квестов, squad refs, составы врагов |
 
