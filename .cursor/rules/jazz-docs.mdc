@@ -1,0 +1,18 @@
+---
+description: Документация и skills JAZZ — обязательный change set с кодом
+alwaysApply: true
+---
+
+# Документация JAZZ
+
+Если доступен пакет `jazz`, для задач использовать skills:
+
+- `../jazz/.agents/skills/work-on-jazz-mod/SKILL.md`
+- `../jazz/.agents/skills/sync-jazz-generated-data/SKILL.md`
+- `../jazz/.agents/skills/document-jazz-systems/SKILL.md`
+
+Два suite-контура: `jazz/docs/technical/` (истина для разработки) и `jazz/docs/wiki/` (для игрока).
+
+Локальная документация пакета maps: `docs/` (`docs/README.md`, handoff, брифинг, ТЗ, `docs/content/` для Эрни). Новые заметки по maps класть туда, не в корень.
+
+Изменение поведения не завершено без согласованной документации в той же задаче: systems, file-coverage при смене файлов, override-matrix при новом пересечении слоёв, wiki если заметно игроку; для maps-контента — также `docs/content/`. Не описывать нереализованное как действующее; dormant — помечать dormant. Не подтверждено в runtime — явно «статический анализ».

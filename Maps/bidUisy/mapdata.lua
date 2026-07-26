@@ -6,8 +6,13 @@ DefineMapData{
 	CameraLookAt = false,
 	CameraPos = false,
 	CameraType = "Max",
+<<<<<<<< HEAD:Maps/bidUisy/mapdata.lua
 	Comment = "Sector H12 (HotDiamonds)",
 	DisplayName = T("Sector H12 (HotDiamonds)"),
+========
+	Comment = "Sector J13 (HotDiamonds)",
+	DisplayName = T("Sector J13 (HotDiamonds)"),
+>>>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817:Maps/esV6vTc/mapdata.lua
 	Height = 513,
 	HeightMapAvg = 6950,
 	HeightMapMax = 6950,
@@ -15,13 +20,21 @@ DefineMapData{
 	LuaRevision = 347926,
 	MaxObjRadius = 2684,
 	MaxSurfRadius2D = 261,
+<<<<<<<< HEAD:Maps/bidUisy/mapdata.lua
 	ModMapPath = "Mod/FhNNYd/Maps/bidUisy/",
+========
+	ModMapPath = "Mod/FhNNYd/Maps/esV6vTc/",
+>>>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817:Maps/esV6vTc/mapdata.lua
 	NetHash = -6167808117743312683,
 	ObjectsHash = -2966984555801493510,
 	OrgLuaRevision = 0,
 	TerrainHash = -4482272297996846588,
 	Width = 513,
 	group = "Default",
+<<<<<<<< HEAD:Maps/bidUisy/mapdata.lua
 	id = "bidUisy",
+========
+	id = "esV6vTc",
+>>>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817:Maps/esV6vTc/mapdata.lua
 	markers = {},
 }

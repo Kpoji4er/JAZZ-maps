@@ -9,7 +9,11 @@ DefineMapData{
 	EditorLightmodel = "Dry_Savanna_Day",
 	GameLogic = true,
 	Height = 513,
+<<<<<<< HEAD
 	HeightMapAvg = 7976,
+=======
+	HeightMapAvg = 7986,
+>>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	HeightMapMax = 19030,
 	HeightMapMin = 398,
 	Lightmodel = false,
@@ -20,11 +24,19 @@ DefineMapData{
 	MinimapActiveArea = box(0, 0, -1, -1),
 	MinimapSize = point(0, 0),
 	ModMapPath = "Mod/FhNNYd/Maps/DHemvj6/",
+<<<<<<< HEAD
 	NetHash = 407017750811699732,
 	ObjectsHash = -7298219987744473816,
 	OrgLuaRevision = 366685,
 	Region = "Savanna",
 	TerrainHash = 7929711689694350619,
+=======
+	NetHash = 8867624614096616799,
+	ObjectsHash = -2049696350472016140,
+	OrgLuaRevision = 366685,
+	Region = "Savanna",
+	TerrainHash = 4579200124600345273,
+>>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	Width = 513,
 	group = "CurrentMilestone",
 	id = "DHemvj6",
