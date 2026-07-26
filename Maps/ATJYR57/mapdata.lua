@@ -26,17 +26,10 @@ DefineMapData{
 	MaxObjRadius = 175242,
 	MaxSurfRadius2D = 14841,
 	ModMapPath = "Mod/FhNNYd/Maps/ATJYR57/",
-<<<<<<< HEAD
-	NetHash = 515245118504193052,
-	ObjectsHash = -3420882279281664223,
-	OrgLuaRevision = 366685,
-	TerrainHash = 5755179645305591530,
-=======
 	NetHash = -4775308555806349117,
 	ObjectsHash = 8991506155243691488,
 	OrgLuaRevision = 366685,
 	TerrainHash = 5222879323535963098,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	Width = 513,
 	group = "Default",
 	id = "ATJYR57",

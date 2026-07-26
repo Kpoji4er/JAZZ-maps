@@ -27,17 +27,10 @@ DefineMapData{
 	MaxObjRadius = 199492,
 	MaxSurfRadius2D = 14838,
 	ModMapPath = "Mod/FhNNYd/Maps/Vgwwieh/",
-<<<<<<< HEAD
-	NetHash = -1816708954197519868,
-	ObjectsHash = 1901883176178789971,
-	OrgLuaRevision = 366685,
-	TerrainHash = 2688328294181598251,
-=======
 	NetHash = 2553697774692797452,
 	ObjectsHash = -5273924969313302006,
 	OrgLuaRevision = 366685,
 	TerrainHash = 4844230243120019294,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	Tod = "none",
 	Weather = "none",
 	Width = 513,

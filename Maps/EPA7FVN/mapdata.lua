@@ -21,28 +21,17 @@ DefineMapData{
 		"Interactable",
 	},
 	IncludeClasses = {},
-<<<<<<< HEAD
-	Lightmodel = false,
-=======
 	Lightmodel = "Wet_Jungle_Day_Cloudy",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	LuaRevision = 366685,
 	MainMenuCampaign = "HotDiamonds",
 	MainMenuRegion = "Coastal",
 	MaxObjRadius = 159029,
 	MaxSurfRadius2D = 15826,
 	ModMapPath = "Mod/FhNNYd/Maps/EPA7FVN/",
-<<<<<<< HEAD
-	NetHash = 8725683637356180393,
-	ObjectsHash = 8566397296303278283,
-	OrgLuaRevision = 366685,
-	TerrainHash = -2583850039130700071,
-=======
 	NetHash = -6858975115499611716,
 	ObjectsHash = 4994560290829682478,
 	OrgLuaRevision = 366685,
 	TerrainHash = -3898394765753267445,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	Width = 513,
 	group = "Default",
 	id = "EPA7FVN",

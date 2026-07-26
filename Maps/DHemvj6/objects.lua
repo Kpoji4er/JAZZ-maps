@@ -8,8 +8,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2113,
 }, nil, 1001431549)
 PlaceObj('Collection', {
@@ -22,7 +20,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Shanty_WallShed_05",
 	'Index', 635,
 }, nil, 1006135074)
@@ -30,8 +27,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 780,
 }, nil, 1006137856)
 PlaceObj('Collection', {
@@ -52,7 +47,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Assembly_05",
 	'Index', 3741,
 }, nil, 1018632168)
@@ -67,8 +61,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 396,
 }, nil, 1021819196)
 PlaceObj('Collection', {
@@ -100,7 +92,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 2608,
 }, nil, 1028621529)
 PlaceObj('Collection', {
@@ -127,8 +118,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Name', "col_AutoMechanic_Screwdriver",
 	'Index', 1318,
 }, nil, 1033374127)
@@ -136,21 +125,17 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 3643,
 }, nil, 1034234020)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'AllowedMask', 4294966497,
 	'Index', 400,
 }, nil, 1038269198)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'CollectionIndex', 2129,
 	'AllowedMask', 4294966497,
 	'Name', "col_Shanty_WoodenFence_14",
@@ -166,15 +151,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3966,
 }, nil, 1042903543)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_TropicalRockAssembly_4",
 	'Index', 1157,
 }, nil, 1043335335)
@@ -182,15 +164,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 383,
 }, nil, 1048054132)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 3767,
 }, nil, 1050356223)
 PlaceObj('Collection', {
@@ -217,15 +196,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1524,
 }, nil, 1051678297)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_SavannaRock_07",
 	'Index', 2166,
 }, nil, 1053331501)
@@ -246,8 +222,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Name', "col_Shanty_WallDecorTin_3",
 	'Index', 3127,
 }, nil, 1058807311)
@@ -268,7 +242,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Vertical_4",
 	'Index', 1798,
 }, nil, 1065877133)
@@ -289,8 +262,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3049,
 }, nil, 1068043648)
 PlaceObj('Collection', {
@@ -309,7 +280,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Vertical_5",
 	'Index', 3751,
 }, nil, 1075538381)
@@ -317,15 +287,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3563,
 }, nil, 1077413119)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Scaffolding_Planks_4",
 	'Index', 2684,
 }, nil, 1079030528)
@@ -333,8 +300,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Name', "col_TropicalRockAssembly_6",
 	'Index', 1638,
 }, nil, 1079950405)
@@ -354,7 +319,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 2855,
 }, nil, 1084568498)
 PlaceObj('Collection', {
@@ -374,8 +338,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3001,
 }, nil, 1087906138)
 PlaceObj('Collection', {
@@ -400,7 +362,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_BunkerInterior_WaterPipesCross_3",
 	'Index', 1817,
 }, nil, 1092922223)
@@ -415,15 +376,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 373,
 }, nil, 1094700361)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 1025,
 }, nil, 1097911995)
 PlaceObj('Collection', {
@@ -448,15 +406,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 34,
 }, nil, 1107601555)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 3056,
 }, nil, 1108058114)
 PlaceObj('Collection', {
@@ -483,15 +438,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 672,
 }, nil, 1113695359)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 1543,
 }, nil, 1114832402)
 PlaceObj('Collection', {
@@ -511,15 +463,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2294,
 }, nil, 1124415600)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Scaffolding_Planks_2",
 	'Index', 3768,
 }, nil, 1125215933)
@@ -534,8 +483,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3476,
 }, nil, 1130154225)
 PlaceObj('Collection', {
@@ -554,7 +501,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Shanty_Tire",
 	'Index', 3615,
 }, nil, 1130562397)
@@ -581,8 +527,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3381,
 }, nil, 1135900696)
 PlaceObj('Collection', {
@@ -607,7 +551,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Vertical_25",
 	'Index', 1584,
 }, nil, 1138786539)
@@ -615,15 +558,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3150,
 }, nil, 1139617827)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 1890,
 }, nil, 1139988832)
 PlaceObj('Collection', {
@@ -649,15 +589,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 621,
 }, nil, 1146547743)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 267,
 }, nil, 1150295564)
 PlaceObj('Collection', {
@@ -677,15 +614,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3523,
 }, nil, 1157082630)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Vertical_12",
 	'Index', 2007,
 }, nil, 1160005801)
@@ -699,15 +633,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1305,
 }, nil, 1169769919)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 307,
 }, nil, 1174326029)
 PlaceObj('Collection', {
@@ -734,23 +665,18 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1099,
 }, nil, 1178297851)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 1415,
 }, nil, 1178785575)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 877,
 }, nil, 1181522211)
 PlaceObj('Collection', {
@@ -763,7 +689,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_ContainerIntelMarker_1",
 	'Index', 1761,
 }, nil, 1186011931)
@@ -771,8 +696,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1527,
 }, nil, 1188689328)
 PlaceObj('Collection', {
@@ -785,22 +708,18 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 1302,
 }, nil, 1198256653)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2169,
 }, nil, 1200687087)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Shanty_WoodenFence_24",
 	'Index', 3958,
 }, nil, 1200785465)
@@ -808,15 +727,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1407,
 }, nil, 1202322860)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Vertical_19",
 	'Index', 875,
 }, nil, 1203359366)
@@ -830,15 +746,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3000,
 }, nil, 1216242335)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_TropicalRockAssembly_2",
 	'Index', 3876,
 }, nil, 1217147576)
@@ -853,15 +766,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1652,
 }, nil, 1217294741)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Vertical_23",
 	'Index', 1357,
 }, nil, 1221908007)
@@ -890,8 +800,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3065,
 }, nil, 1231522130)
 PlaceObj('Collection', {
@@ -906,7 +814,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 979,
 }, nil, 1233936808)
 PlaceObj('Collection', {
@@ -920,23 +827,18 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2358,
 }, nil, 1235068532)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 1029,
 }, nil, 1236456456)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1088,
 }, nil, 1237403802)
 PlaceObj('Collection', {
@@ -956,7 +858,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Vertical_30",
 	'Index', 2990,
 }, nil, 1240292482)
@@ -983,8 +884,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2397,
 }, nil, 1246583312)
 PlaceObj('Collection', {
@@ -1009,7 +908,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 1831,
 }, nil, 1249817361)
 PlaceObj('Collection', {
@@ -1022,8 +920,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3320,
 }, nil, 1250588462)
 PlaceObj('Collection', {
@@ -1036,15 +932,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 2841,
 }, nil, 1254630804)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 4054,
 }, nil, 1256434911)
 PlaceObj('Collection', {
@@ -1057,22 +950,18 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_ContainerIntelMarker",
 	'Index', 1981,
 }, nil, 1261453921)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'AllowedMask', 4294966497,
 	'Index', 1390,
 }, nil, 1263513542)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'CollectionIndex', 2475,
 	'AllowedMask', 4294966497,
 	'Name', "col_Shanty_BottleCrate_24",
@@ -1095,8 +984,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3809,
 }, nil, 1271708309)
 PlaceObj('Collection', {
@@ -1109,7 +996,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_TropicalRockAssembly_5",
 	'Index', 3204,
 }, nil, 1273130570)
@@ -1137,8 +1023,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1119,
 }, nil, 1278561060)
 PlaceObj('Collection', {
@@ -1151,7 +1035,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 1919,
 }, nil, 1281454539)
 PlaceObj('Collection', {
@@ -1171,15 +1054,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2945,
 }, nil, 1289484829)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Shanty_WallShed_8",
 	'Index', 53,
 }, nil, 1294516824)
@@ -1187,8 +1067,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 329,
 }, nil, 1296816190)
 PlaceObj('Collection', {
@@ -1207,7 +1085,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Vertical_8",
 	'Index', 3064,
 }, nil, 1298033290)
@@ -1220,8 +1097,6 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'AllowedMask', 4294966497,
 	'Index', 2037,
 }, nil, 1302464688)
@@ -1234,7 +1109,6 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'CollectionIndex', 2475,
 	'AllowedMask', 4294966497,
 	'Name', "col_Shanty_BottleCrate_21",
@@ -1250,8 +1124,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1509,
 }, nil, 1306550876)
 PlaceObj('Collection', {
@@ -1264,7 +1136,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Shanty_WoodenFence_4",
 	'Index', 2996,
 }, nil, 1308388627)
@@ -1272,15 +1143,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1287,
 }, nil, 1309708550)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_MetalBeam_Horizontal_03",
 	'Index', 1673,
 }, nil, 1310522326)
@@ -1303,30 +1171,24 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 431,
 }, nil, 1313854199)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 1130,
 }, nil, 1321061583)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3272,
 }, nil, 1322275552)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Vertical_40",
 	'Index', 460,
 }, nil, 1322699172)
@@ -1347,30 +1209,24 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 933,
 }, nil, 1324194269)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 3705,
 }, nil, 1324883924)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1049,
 }, nil, 1325357912)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Shanty_WallShed_01",
 	'Index', 2061,
 }, nil, 1326361021)
@@ -1378,8 +1234,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2287,
 }, nil, 1326448173)
 PlaceObj('Collection', {
@@ -1392,7 +1246,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 2607,
 }, nil, 1327274919)
 PlaceObj('Collection', {
@@ -1404,8 +1257,6 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'AllowedMask', 4294966497,
 	'Index', 2527,
 }, nil, 1331018373)
@@ -1418,7 +1269,6 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'CollectionIndex', 2475,
 	'AllowedMask', 4294966497,
 	'Name', "col_Shanty_BottleCrate_19",
@@ -1442,8 +1292,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1955,
 }, nil, 1335242712)
 PlaceObj('Collection', {
@@ -1456,7 +1304,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Vertical_17",
 	'Index', 2021,
 }, nil, 1340534721)
@@ -1464,8 +1311,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 629,
 }, nil, 1341803029)
 PlaceObj('Collection', {
@@ -1478,7 +1323,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Shanty_WallShed_02",
 	'Index', 2853,
 }, nil, 1344875671)
@@ -1486,8 +1330,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3518,
 }, nil, 1344886121)
 PlaceObj('Collection', {
@@ -1500,7 +1342,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_SavannaRock_10",
 	'Index', 1738,
 }, nil, 1351696594)
@@ -1522,8 +1363,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2292,
 }, nil, 1354775891)
 PlaceObj('Collection', {
@@ -1536,7 +1375,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Shanty_TireHorizontal",
 	'Index', 727,
 }, nil, 1355032935)
@@ -1551,8 +1389,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3099,
 }, nil, 1357693173)
 PlaceObj('Collection', {
@@ -1566,7 +1402,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Shanty_WoodenFence_17",
 	'Index', 73,
 }, nil, 1361699382)
@@ -1574,8 +1409,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3632,
 }, nil, 1363820781)
 PlaceObj('Collection', {
@@ -1588,7 +1421,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Shanty_WoodenFence_10",
 	'Index', 3017,
 }, nil, 1366758395)
@@ -1601,15 +1433,12 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'AllowedMask', 4294966497,
 	'Index', 3806,
 }, nil, 1371238842)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'CollectionIndex', 2475,
 	'AllowedMask', 4294966497,
 	'Name', "col_Shanty_BottleCrate_22",
@@ -1625,23 +1454,18 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1680,
 }, nil, 1377161531)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 2817,
 }, nil, 1378895968)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 100,
 }, nil, 1379195286)
 PlaceObj('Collection', {
@@ -1654,7 +1478,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 1985,
 }, nil, 1384188415)
 PlaceObj('Collection', {
@@ -1675,8 +1498,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3914,
 }, nil, 1387111115)
 PlaceObj('Collection', {
@@ -1695,7 +1516,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Shanty_BottleCrate_16",
 	'Index', 2475,
 }, nil, 1390203142)
@@ -1703,8 +1523,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2997,
 }, nil, 1394749716)
 PlaceObj('Collection', {
@@ -1717,7 +1535,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 895,
 }, nil, 1397313745)
 PlaceObj('Collection', {
@@ -1731,8 +1548,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1134,
 }, nil, 1399999784)
 PlaceObj('Collection', {
@@ -1757,7 +1572,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 1920,
 }, nil, 1415464258)
 PlaceObj('Collection', {
@@ -1770,8 +1584,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Name', "col_Farmland_ContainerCover_01",
 	'Index', 208,
 	'HideFromCamera', true,
@@ -1780,7 +1592,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Scaffolding_Planks_04",
 	'Index', 1055,
 }, nil, 1422589529)
@@ -1788,15 +1599,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1799,
 }, nil, 1423343403)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 1551,
 }, nil, 1424698772)
 PlaceObj('Collection', {
@@ -1816,8 +1624,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 832,
 }, nil, 1428669503)
 PlaceObj('Collection', {
@@ -1830,7 +1636,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 943,
 }, nil, 1433636868)
 PlaceObj('Collection', {
@@ -1864,8 +1669,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2894,
 }, nil, 1438452477)
 PlaceObj('Collection', {
@@ -1878,7 +1681,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Prison_Shelves_01",
 	'Index', 2051,
 }, nil, 1446817782)
@@ -1886,23 +1688,18 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 557,
 }, nil, 1449080591)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 3420,
 }, nil, 1449129193)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Name', "col_Weapon_StunGrenadeM84",
 	'Index', 2583,
 }, nil, 1450216509)
@@ -1910,37 +1707,30 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 913,
 }, nil, 1454194614)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1618,
 }, nil, 1455091744)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 3677,
 }, nil, 1457195728)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 518,
 }, nil, 1457464253)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_WW2_SandBag_03",
 	'Index', 3683,
 }, nil, 1458668631)
@@ -1948,8 +1738,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1510,
 }, nil, 1459901988)
 PlaceObj('Collection', {
@@ -1962,22 +1750,18 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 1023,
 }, nil, 1464035725)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 27,
 }, nil, 1465137787)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 413,
 }, nil, 1469647821)
 PlaceObj('Collection', {
@@ -1996,8 +1780,6 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'AllowedMask', 4294966497,
 	'Index', 3333,
 }, nil, 1474629921)
@@ -2010,7 +1792,6 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'CollectionIndex', 2129,
 	'AllowedMask', 4294966497,
 	'Name', "col_Shanty_WoodenFence_15",
@@ -2020,15 +1801,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1846,
 }, nil, 1478628229)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Vertical_36",
 	'Index', 3236,
 }, nil, 1480627006)
@@ -2036,15 +1814,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1731,
 }, nil, 1480650620)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_DecAsphalt_12",
 	'Index', 65,
 }, nil, 1480710545)
@@ -2052,22 +1827,17 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1033,
 }, nil, 1483294369)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 3361,
 }, nil, 1484592092)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'CollectionIndex', 2364,
 	'AllowedMask', 4294966497,
 	'Name', "col_Shanty_WallShed_3",
@@ -2119,7 +1889,6 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 4294966497,
 	'Name', "col_Mine_WoodenBeam_Vertical_7",
 	'Index', 3504,
@@ -2134,15 +1903,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3344,
 }, nil, 1491120713)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 2260,
 }, nil, 1494285248)
 PlaceObj('Collection', {
@@ -2155,8 +1921,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3590,
 }, nil, 1496274565)
 PlaceObj('Collection', {
@@ -2169,7 +1933,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 2111,
 }, nil, 1501233003)
 PlaceObj('Collection', {
@@ -2225,8 +1988,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1530,
 }, nil, 1510495291)
 PlaceObj('Collection', {
@@ -2245,7 +2006,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Aimpoint5000",
 	'Index', 587,
 }, nil, 1513331739)
@@ -2266,23 +2026,18 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1334,
 }, nil, 1521714954)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 1933,
 }, nil, 1521811460)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2628,
 }, nil, 1523628920)
 PlaceObj('Collection', {
@@ -2301,15 +2056,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 660,
 }, nil, 1525945450)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2423,
 }, nil, 1526136497)
 PlaceObj('Collection', {
@@ -2322,22 +2074,18 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 1616,
 }, nil, 1530639597)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3199,
 }, nil, 1531447083)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Vertical_26",
 	'Index', 478,
 }, nil, 1532149400)
@@ -2377,8 +2125,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1865,
 }, nil, 1543698119)
 PlaceObj('Collection', {
@@ -2391,22 +2137,18 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 3210,
 }, nil, 1545078292)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1094,
 }, nil, 1545494894)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 214,
 }, nil, 1553959336)
 PlaceObj('Collection', {
@@ -2419,8 +2161,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1849,
 }, nil, 1557801782)
 PlaceObj('Collection', {
@@ -2464,7 +2204,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Vertical_34",
 	'Index', 221,
 }, nil, 1578400111)
@@ -2479,38 +2218,30 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2903,
 }, nil, 1579980617)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 456,
 }, nil, 1580244630)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1102,
 }, nil, 1580590241)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 2689,
 }, nil, 1581257449)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 774,
 }, nil, 1582469547)
 PlaceObj('Collection', {
@@ -2529,22 +2260,18 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 103,
 }, nil, 1586383004)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1432,
 }, nil, 1586399391)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Vertical_39",
 	'Index', 960,
 }, nil, 1586534804)
@@ -2552,30 +2279,24 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 638,
 }, nil, 1587208256)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 1721,
 }, nil, 1588642585)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3869,
 }, nil, 1589030529)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Shanty_WoodenFence_03",
 	'Index', 2058,
 }, nil, 1590846824)
@@ -2590,8 +2311,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Name', "col_MajorTent_Roof_01",
 	'Index', 769,
 }, nil, 1595836656)
@@ -2599,22 +2318,18 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_SavannaPlant_Grass_4",
 	'Index', 3906,
 }, nil, 1599204443)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'AllowedMask', 4294966497,
 	'Index', 911,
 }, nil, 1604656322)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'CollectionIndex', 2475,
 	'AllowedMask', 4294966497,
 	'Name', "col_Shanty_BottleCrate_28",
@@ -2650,15 +2365,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1961,
 }, nil, 1625446663)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Burn_Inactive_01",
 	'Index', 3077,
 }, nil, 1628662999)
@@ -2672,23 +2384,18 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 885,
 }, nil, 1633484990)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 2758,
 }, nil, 1633802717)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Name', "col_Farmland_RakerShovel",
 	'Index', 2342,
 }, nil, 1634888275)
@@ -2696,7 +2403,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 4013,
 }, nil, 1637112076)
 PlaceObj('Collection', {
@@ -2708,15 +2414,12 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'AllowedMask', 4294966497,
 	'Index', 2746,
 }, nil, 1637686373)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'CollectionIndex', 3504,
 	'AllowedMask', 4294966497,
 	'Name', "col_Mine_WoodenBeam_Vertical_6",
@@ -2734,23 +2437,18 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3130,
 }, nil, 1639353955)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 3626,
 }, nil, 1639656964)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1540,
 }, nil, 1642774363)
 PlaceObj('Collection', {
@@ -2769,7 +2467,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Shanty_WoodenFence_18",
 	'Index', 144,
 }, nil, 1647614747)
@@ -2777,8 +2474,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2107,
 }, nil, 1648099676)
 PlaceObj('Collection', {
@@ -2791,7 +2486,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Shanty_WallShed_04",
 	'Index', 2568,
 }, nil, 1648757260)
@@ -2814,8 +2508,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Name', "col_Shanty_WallShed_10",
 	'Index', 1129,
 }, nil, 1653791869)
@@ -2823,7 +2515,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 364,
 }, nil, 1658548509)
 PlaceObj('Collection', {
@@ -2848,15 +2539,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1777,
 }, nil, 1662603277)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Scaffolding_Planks_5",
 	'Index', 2422,
 }, nil, 1664479816)
@@ -2864,15 +2552,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3659,
 }, nil, 1664942613)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Shanty_WoodenFence_22",
 	'Index', 2259,
 }, nil, 1668741274)
@@ -2900,15 +2585,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 652,
 }, nil, 1674797404)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Vertical_9",
 	'Index', 946,
 }, nil, 1676978229)
@@ -2916,15 +2598,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2232,
 }, nil, 1680828066)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Vertical_10",
 	'Index', 3663,
 }, nil, 1684464106)
@@ -2973,8 +2652,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1574,
 }, nil, 1711377925)
 PlaceObj('Collection', {
@@ -3005,7 +2682,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Vertical_20",
 	'Index', 1179,
 }, nil, 1715739094)
@@ -3013,15 +2689,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2598,
 }, nil, 1718939803)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 2435,
 }, nil, 1722899210)
 PlaceObj('Collection', {
@@ -3034,8 +2707,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1408,
 }, nil, 1730843633)
 PlaceObj('Collection', {
@@ -3055,22 +2726,18 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 49,
 }, nil, 1738165556)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3511,
 }, nil, 1739641612)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Assembly_5",
 	'Index', 3219,
 }, nil, 1739978903)
@@ -3078,30 +2745,24 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2944,
 }, nil, 1741153631)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 3766,
 }, nil, 1741642529)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 14,
 }, nil, 1742957255)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 759,
 }, nil, 1743161598)
 PlaceObj('Collection', {
@@ -3129,8 +2790,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2396,
 }, nil, 1747139795)
 PlaceObj('Collection', {
@@ -3162,7 +2821,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 2544,
 }, nil, 1754201483)
 PlaceObj('Collection', {
@@ -3201,23 +2859,18 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2324,
 }, nil, 1758789386)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 345,
 }, nil, 1762968572)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 4022,
 }, nil, 1764951312)
 PlaceObj('Collection', {
@@ -3236,7 +2889,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 2170,
 }, nil, 1766405737)
 PlaceObj('Collection', {
@@ -3257,15 +2909,12 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'AllowedMask', 4294966497,
 	'Index', 1343,
 }, nil, 1778537452)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'CollectionIndex', 1414,
 	'AllowedMask', 4294966497,
 	'Name', "col_Mine_WoodenBeam_Vertical_2",
@@ -3282,23 +2931,18 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3502,
 }, nil, 1782168463)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 3380,
 }, nil, 1784352766)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1154,
 }, nil, 1784721379)
 PlaceObj('Collection', {
@@ -3311,7 +2955,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Shanty_WallShed_6",
 	'Index', 3449,
 }, nil, 1784882047)
@@ -3345,8 +2988,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2709,
 }, nil, 1794828293)
 PlaceObj('Collection', {
@@ -3380,7 +3021,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 3454,
 }, nil, 1809523812)
 PlaceObj('Collection', {
@@ -3415,8 +3055,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1827,
 }, nil, 1814667510)
 PlaceObj('Collection', {
@@ -3454,7 +3092,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 581,
 }, nil, 1822166806)
 PlaceObj('Collection', {
@@ -3467,8 +3104,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 3655,
 }, nil, 1827750437)
 PlaceObj('Collection', {
@@ -3481,7 +3116,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 3457,
 }, nil, 1828263509)
 PlaceObj('Collection', {
@@ -3543,8 +3177,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Name', "col_WindowVent_Planks_Small_3",
 	'Index', 1939,
 }, nil, 1848300868)
@@ -3552,7 +3184,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 1974,
 }, nil, 1848580929)
 PlaceObj('Collection', {
@@ -3573,15 +3204,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1704,
 }, nil, 1859296194)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Shanty_WoodenFence_9",
 	'Index', 398,
 }, nil, 1865592023)
@@ -3594,15 +3222,12 @@ PlaceObj('Collection', {
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'AllowedMask', 4294966497,
 	'Index', 3668,
 }, nil, 1868411534)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'CollectionIndex', 2475,
 	'AllowedMask', 4294966497,
 	'Name', "col_Shanty_BottleCrate_20",
@@ -3612,15 +3237,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 486,
 }, nil, 1870508382)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 2980,
 }, nil, 1872450739)
 PlaceObj('Collection', {
@@ -3634,8 +3256,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 1589,
 }, nil, 1874661444)
 PlaceObj('Collection', {
@@ -3654,7 +3274,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_AL_Football",
 	'Index', 3721,
 }, nil, 1883847733)
@@ -3662,29 +3281,23 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2782,
 }, nil, 1886802266)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Index', 3249,
 }, nil, 1887525676)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'AllowedMask', 4294966497,
 	'Index', 1995,
 }, nil, 1888219631)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'CollectionIndex', 1798,
 	'AllowedMask', 4294966497,
 	'Name', "col_Mine_WoodenBeam_Vertical_01",
@@ -3700,15 +3313,12 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'Index', 2637,
 }, nil, 1893046342)
 PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Name', "col_Mine_WoodenBeam_Vertical_15",
 	'Index', 792,
 }, nil, 1893371811)
@@ -3716,11 +3326,6 @@ PlaceObj('Collection', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-	'Index', 12,
-}, nil, 1897466573)
-SetNextSyncHandle(2000000001)
-=======
 	'Index', 1103,
 }, nil, 1893391200)
 PlaceObj('Collection', {
@@ -3736,7 +3341,6 @@ PlaceObj('HerbMarker', {
 	'AllowedMask', 4294966497,
 	'range_in_tiles', 1,
 }, nil, 1110913421)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('ContainerIntelMarker', {
 	'Pos', point(105000, 95400, 7000),
 	'CollectionIndex', 1761,
@@ -4093,8 +3697,6 @@ PlaceObj('TropicalPlant_Dead_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1548495910)
-<<<<<<< HEAD
-=======
 PlaceObj('FlyingDustRoad', {
 	'Pos', point(84649, 83792),
 	'AllowedMask', 4294966497,
@@ -4103,7 +3705,6 @@ PlaceObj('FlyingGrass', {
 	'Pos', point(93534, 94634, 7849),
 	'AllowedMask', 4294966497,
 }, nil, 1897377642)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WindMarker', {
 	'Pos', point(68861, 103849, 6148),
 	'Saturation', 0,
@@ -4120,8 +3721,6 @@ PlaceObj('SavannaPlant_04_Umbrella_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1211069113)
-<<<<<<< HEAD
-=======
 PlaceObj('FlyingGrass', {
 	'Pos', point(88552, 101752, 7973),
 	'AllowedMask', 4294966497,
@@ -4130,7 +3729,6 @@ PlaceObj('FlyingGrass', {
 	'Pos', point(84695, 123868, 5826),
 	'AllowedMask', 4294966497,
 }, nil, 1126038251)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('TropicalPlant_Dead_03', {
 	'Pos', point(104528, 95649, 7533),
 	'Angle', 10257,
@@ -4306,8 +3904,6 @@ PlaceObj('World_WoodenBox_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1486634336)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_Debris_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 45, 41, 255),
@@ -4325,7 +3921,6 @@ PlaceObj('Shanty_Debris_01', {
 	'DepositionNoiseGamma', 3,
 	'DepositionNoiseFreq', 46,
 }, nil, 1606918598)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Shanty_Canvas_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(69, 58, 39, 255),
@@ -4732,10 +4327,7 @@ PlaceObj('Shanty_Debris_03', {
 	'Pos', point(115830, 118179, 6243),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'CollectionIndex', 1105,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 0,
 	'DepositionType', "terrainchunk",
 	'DepositionFadeStart', 3,
@@ -4869,10 +4461,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'CollectionIndex', 1105,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 0,
 	'DepositionType', "terrainchunk",
 	'DepositionFadeStart', 3,
@@ -5642,10 +5231,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'CollectionIndex', 1105,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 0,
 	'DepositionType', "terrainchunk",
 	'DepositionFadeStart', 3,
@@ -6712,8 +6298,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tiles",
 	'dir', "East",
 }, nil, 1363115486)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_Debris_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 45, 41, 255),
@@ -6731,7 +6315,6 @@ PlaceObj('Shanty_Debris_01', {
 	'DepositionNoiseGamma', 3,
 	'DepositionNoiseFreq', 46,
 }, nil, 1083844526)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(116400, 126600, 6300),
 	'Angle', 10800,
@@ -7462,8 +7045,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tiles",
 	'dir', "East",
 }, nil, 1072400228)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_Debris_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 45, 41, 255),
@@ -7481,7 +7062,6 @@ PlaceObj('Shanty_Debris_01', {
 	'DepositionNoiseGamma', 3,
 	'DepositionNoiseFreq', 46,
 }, nil, 1820357550)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('BunkerInterior_WaterPipesCross_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(11, 63, 97, 255),
@@ -7597,8 +7177,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tiles",
 	'dir', "East",
 }, nil, 1223431008)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_Debris_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 45, 41, 255),
@@ -7616,7 +7194,6 @@ PlaceObj('Shanty_Debris_01', {
 	'DepositionNoiseGamma', 3,
 	'DepositionNoiseFreq', 46,
 }, nil, 1302446391)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(116400, 130200, 6300),
 	'Angle', 10800,
@@ -8753,10 +8330,7 @@ PlaceObj('Shanty_SandDebris_03', {
 	'Pos', point(121812, 124196, 6235),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'CollectionIndex', 2325,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 0,
 	'DepositionType', "terrainchunk",
 	'DepositionFadeStart', 0,
@@ -8878,10 +8452,7 @@ PlaceObj('Shanty_Debris_05', {
 	'Pos', point(121755, 125360, 6230),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'CollectionIndex', 2325,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 0,
 	'DepositionType', "terrainchunk",
 	'DepositionFadeStart', 3,
@@ -9293,10 +8864,7 @@ PlaceObj('Shanty_Debris_02', {
 	'Pos', point(121804, 127822, 6225),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'CollectionIndex', 2325,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 0,
 	'DepositionType', "terrainchunk",
 	'DepositionFadeStart', 59,
@@ -9479,10 +9047,7 @@ PlaceObj('Shanty_Debris_02', {
 	'Pos', point(121804, 130158, 6225),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'CollectionIndex', 2325,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 0,
 	'DepositionType', "terrainchunk",
 	'DepositionFadeStart', 59,
@@ -9789,10 +9354,7 @@ PlaceObj('Shanty_Debris_03', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'CollectionIndex', 1105,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 0,
 	'DepositionType', "terrainchunk",
 	'DepositionFadeStart', 3,
@@ -10416,10 +9978,7 @@ PlaceObj('Shanty_Debris_01', {
 	'Pos', point(125419, 119954, 6235),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'CollectionIndex', 2325,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 0,
 	'DepositionType', "terrainchunk",
 	'DepositionFadeStart', 3,
@@ -10635,10 +10194,7 @@ PlaceObj('Shanty_Debris_03', {
 	'Angle', 10800,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'CollectionIndex', 2325,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 0,
 	'DepositionType', "terrainchunk",
 	'DepositionFadeStart', 3,
@@ -10949,20 +10505,12 @@ PlaceObj('Shanty_Canopy_01', {
 	'AllowedMask', 0,
 }, nil, 1577318432)
 PlaceObj('SavannaPlant_02_Baobab_02', {
-<<<<<<< HEAD
-	'Pos', point(72237, 144044, 2736),
-=======
 	'Pos', point(72236, 144044, 2736),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Scale', 138,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1513377864)
-<<<<<<< HEAD
-PlaceObj('SavannaPlant_04_Umbrella_01', {
-	'Pos', point(84583, 170915, 4590),
-=======
 PlaceObj('JungleCamp_Skeleton_12', {
 	'Pos', point(80946, 134932),
 	'Saturation', 0,
@@ -11064,7 +10612,6 @@ PlaceObj('TropicalPlant_Dead_07', {
 }, nil, 1241536273)
 PlaceObj('SavannaPlant_04_Umbrella_01', {
 	'Pos', point(84580, 170917, 4590),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Scale', 169,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -11103,8 +10650,6 @@ PlaceObj('BunkerInterior_FenceWire_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1439945167)
-<<<<<<< HEAD
-=======
 PlaceObj('Flies', {
 	'Pos', point(105744, 135446, 4573),
 	'AllowedMask', 4294966497,
@@ -11119,7 +10664,6 @@ PlaceObj('Flies', {
 		}),
 	},
 }, nil, 1423620884)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('BunkerInterior_FenceWire_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(22, 24, 19, 255),
@@ -12054,8 +11598,6 @@ PlaceObj('Mine_WoodenBeam_Assembly_05', {
 	'CollectionIndex', 3741,
 	'AllowedMask', 782,
 }, nil, 1482333506)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_WallDecorTin_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(60, 38, 8, 255),
@@ -12114,7 +11656,6 @@ PlaceObj('Shanty_WallDecorTin_01', {
 	'CollectionIndex', 3127,
 	'AllowedMask', 782,
 }, nil, 1888780913)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoomCorner', {
 	'Pos', point(111600, 152400, 8400),
 	'Angle', 10800,
@@ -12320,8 +11861,6 @@ PlaceObj('FloorSlab', {
 	'subvariant', 1,
 	'material', "WoodScaff",
 }, nil, 1104027704)
-<<<<<<< HEAD
-=======
 PlaceObj('BunkerInterior_PropSet_03', {
 	'ColorizationPalette', "",
 	'EditableColor2', RGBA(29, 24, 12, 255),
@@ -12331,7 +11870,6 @@ PlaceObj('BunkerInterior_PropSet_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1527227416)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(112200, 153000, 11200),
 	'Angle', 5400,
@@ -12462,8 +12000,6 @@ PlaceObj('FloorSlab', {
 	'subvariant', 1,
 	'material', "WoodScaff",
 }, nil, 1267580924)
-<<<<<<< HEAD
-=======
 PlaceObj('BunkerInterior_PropSet_04', {
 	'ColorizationPalette', "",
 	'EditableColor2', RGBA(29, 24, 12, 255),
@@ -12473,7 +12009,6 @@ PlaceObj('BunkerInterior_PropSet_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1625739751)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(112200, 154200, 11200),
 	'Angle', 5400,
@@ -12485,8 +12020,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1133767394)
-<<<<<<< HEAD
-=======
 PlaceObj('MilitaryCamp_Pallete_03', {
 	'Pos', point(111935, 155421, 9037),
 	'Angle', 15300,
@@ -12503,7 +12036,6 @@ PlaceObj('MilitaryCamp_Pallete_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1662076787)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(112200, 155400, 8400),
 	'Saturation', 0,
@@ -12524,8 +12056,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1020589374)
-<<<<<<< HEAD
-=======
 PlaceObj('MilitaryCamp_Pallete_02', {
 	'Pos', point(112263, 155526, 8933),
 	'Angle', 3600,
@@ -12534,7 +12064,6 @@ PlaceObj('MilitaryCamp_Pallete_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1381114597)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('StairSlab', {
 	'Pos', point(113400, 151800, 7700),
 	'Angle', 16200,
@@ -12783,8 +12312,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1853821702)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_WallDecorTin_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(32, 35, 47, 255),
@@ -12814,7 +12341,6 @@ PlaceObj('BunkerInterior_PropSet_05', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1136036995)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(114600, 155400, 8400),
 	'Saturation', 0,
@@ -12910,8 +12436,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1660703457)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_Barrel_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(225, 29, 19, 255),
@@ -12934,7 +12458,6 @@ PlaceObj('Shanty_Barrel_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1717618362)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(111600, 157800, 8400),
 	'Angle', 10800,
@@ -13143,8 +12666,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1453688707)
-<<<<<<< HEAD
-=======
 PlaceObj('BunkerInterior_GasCan_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(137, 77, 8, 255),
@@ -13171,7 +12692,6 @@ PlaceObj('BunkerInterior_GasCan_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1083872487)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Mine_WoodenBeam_Vertical_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(79, 71, 67, 255),
@@ -13324,8 +12844,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1402151425)
-<<<<<<< HEAD
-=======
 PlaceObj('World_WoodenBox_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(87, 67, 42, 255),
@@ -13358,7 +12876,6 @@ PlaceObj('BunkerInterior_GasCan_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1575715650)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(113400, 157800, 8400),
 	'Saturation', 0,
@@ -13503,8 +13020,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1652667507)
-<<<<<<< HEAD
-=======
 PlaceObj('MilitaryCamp_Pallete_02', {
 	'Pos', point(114516, 158836, 8585),
 	'Saturation', 0,
@@ -13524,7 +13039,6 @@ PlaceObj('MilitaryCamp_Pallete_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1175033447)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(114600, 159000, 8400),
 	'Saturation', 0,
@@ -13903,8 +13417,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1644377897)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_Barrel_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(179, 106, 12, 255),
@@ -13923,7 +13435,6 @@ PlaceObj('Explosive_Barrel', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1116089226)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(114600, 161400, 8400),
 	'Saturation', 0,
@@ -14007,8 +13518,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1761007989)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_TirePile_02', {
 	'Pos', point(114649, 162690, 7948),
 	'Angle', 21333,
@@ -14017,7 +13526,6 @@ PlaceObj('Shanty_TirePile_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1093178632)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(116400, 131400, 6300),
 	'Angle', 10800,
@@ -14849,10 +14357,7 @@ PlaceObj('Shanty_Debris_05', {
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'CollectionIndex', 2325,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 0,
 	'DepositionType', "terrainchunk",
 	'DepositionFadeStart', 3,
@@ -14882,8 +14387,6 @@ PlaceObj('Vehicle_PickupTruck_Destroyed', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1387990692)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_TirePainted_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(48, 25, 14, 255),
@@ -14910,7 +14413,6 @@ PlaceObj('Shanty_TirePainted_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1310354394)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Shanty_Canvas_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(69, 58, 39, 255),
@@ -15006,8 +14508,6 @@ PlaceObj('Mine_WoodenBeam_Assembly_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1791272218)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_Barrel_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(179, 106, 12, 255),
@@ -15145,7 +14645,6 @@ PlaceObj('Mine_WoodenBeam_Vertical_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1884274967)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(115800, 151800, 8400),
 	'Saturation', 0,
@@ -15221,8 +14720,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1309372289)
-<<<<<<< HEAD
-=======
 PlaceObj('World_WoodenBox_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(87, 67, 42, 255),
@@ -15235,7 +14732,6 @@ PlaceObj('World_WoodenBox_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1008925827)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(115800, 153000, 8400),
 	'Saturation', 0,
@@ -15524,8 +15020,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1708725651)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_WallDecorTin_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(32, 35, 47, 255),
@@ -15546,7 +15040,6 @@ PlaceObj('Shanty_WallDecorTin_01', {
 	'CollectionIndex', 2008,
 	'AllowedMask', 782,
 }, nil, 1031513595)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(117000, 155400, 8400),
 	'Saturation', 0,
@@ -15567,8 +15060,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1810088414)
-<<<<<<< HEAD
-=======
 PlaceObj('World_WoodenBox_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(87, 67, 42, 255),
@@ -15579,7 +15070,6 @@ PlaceObj('World_WoodenBox_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1383934778)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(118200, 154200, 8400),
 	'Saturation', 0,
@@ -15620,8 +15110,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1700641476)
-<<<<<<< HEAD
-=======
 PlaceObj('AL_Roam', {
 	'Entity', "NPCCostumeMale_Shirt_01",
 	'Pos', point(119211, 150153, 6884),
@@ -15641,7 +15129,6 @@ PlaceObj('AL_Roam', {
 	'VisitMinDuration', 45000,
 	'AttractGender', "Male",
 }, nil, 1223182768)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoomCorner', {
 	'Pos', point(118800, 152400, 8400),
 	'Angle', 16200,
@@ -15992,15 +15479,11 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-<<<<<<< HEAD
-	'subvariant', 1,
-=======
 	'destroyed_neighbours', 4,
 	'destroyed_entity', "WallExt_Tin_Wall_ExEx_Broken_R_03",
 	'destroyed_entity_side', 4,
 	'pre_destruction_subvariant', 1,
 	'subvariant', 3,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1516954893)
@@ -16278,8 +15761,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1566446276)
-<<<<<<< HEAD
-=======
 PlaceObj('WW2_SandBag_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(55, 46, 31, 255),
@@ -16318,7 +15799,6 @@ PlaceObj('Bunker_MetalBed_mattress', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1587717670)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(121800, 155400, 7700),
 	'Saturation', 0,
@@ -16339,8 +15819,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1706636053)
-<<<<<<< HEAD
-=======
 PlaceObj('WW2_SandBag_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(55, 46, 31, 255),
@@ -16387,7 +15865,6 @@ PlaceObj('Shanty_WallDecorTin_01', {
 	'CollectionIndex', 2008,
 	'AllowedMask', 782,
 }, nil, 1752076947)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Room', {
 	'roof_type', "Flat",
 	'roof_mat', "Tin",
@@ -16451,8 +15928,6 @@ PlaceObj('Room', {
         South = {o(1880002698),o(1198326504),o(1463483358),o(1479718111),o(1333869412),},
         West = {o(1847440614),o(1558106764),o(1619978623),o(1074572974),o(1405699667),},},
 }, nil, 1349654525)
-<<<<<<< HEAD
-=======
 PlaceObj('City_Plywood_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(66, 48, 26, 255),
@@ -16465,7 +15940,6 @@ PlaceObj('City_Plywood_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1038228604)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('SpotLight', {
 	'Pos', point(114955, 157374, 10875),
 	'Saturation', 0,
@@ -16503,8 +15977,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1691564710)
-<<<<<<< HEAD
-=======
 PlaceObj('World_WoodenBox_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(87, 67, 42, 255),
@@ -16516,7 +15988,6 @@ PlaceObj('World_WoodenBox_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1171477344)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(115800, 157800, 8400),
 	'Saturation', 0,
@@ -17366,14 +16837,9 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-<<<<<<< HEAD
-	'AllowedMask', 4294967279,
-	'subvariant', 2,
-=======
 	'AllowedMask', 0,
 	'is_destroyed', true,
 	'pre_destruction_subvariant', 2,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1811633554)
@@ -17436,8 +16902,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1091448134)
-<<<<<<< HEAD
-=======
 PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Pos', point(119795, 157572, 7700),
 	'Angle', 9818,
@@ -17460,7 +16924,6 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1048603308)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(120600, 156600, 7700),
 	'Saturation', 0,
@@ -17481,8 +16944,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1277352381)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_BottleCrate_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(48, 25, 14, 255),
@@ -17493,7 +16954,6 @@ PlaceObj('Shanty_BottleCrate_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1215275968)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(118800, 157800, 7700),
 	'Angle', 10800,
@@ -17583,15 +17043,11 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-<<<<<<< HEAD
-	'subvariant', 1,
-=======
 	'destroyed_neighbours', 8,
 	'destroyed_entity', "WallExt_Tin_Wall_ExEx_Broken_R_02",
 	'destroyed_entity_side', 8,
 	'pre_destruction_subvariant', 1,
 	'subvariant', 2,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1473760409)
@@ -18102,8 +17558,6 @@ PlaceObj('SpotLight', {
 	'ConeInnerAngle', 59,
 	'ConeOuterAngle', 140,
 }, nil, 1763811740)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_WhiskeyBottle_01', {
 	'Pos', point(122320, 155985, 7700),
 	'Angle', 5923,
@@ -18132,7 +17586,6 @@ PlaceObj('City_TV_Small', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1713362876)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(121800, 157800, 7700),
 	'Saturation', 0,
@@ -18239,8 +17692,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1031353323)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(122332, 158263, 7734),
 	'Angle', 16237,
@@ -18270,7 +17721,6 @@ PlaceObj('Colonial_Bookshelf_Books_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1735463218)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoofEdgeSlab', {
 	'Pos', point(118800, 160200, 11200),
 	'Saturation', 0,
@@ -18302,8 +17752,6 @@ PlaceObj('RoofCorner', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1883407036)
-<<<<<<< HEAD
-=======
 PlaceObj('Scaffolding_Planks_01', {
 	'Pos', point(119546, 163685, 8081),
 	'Angle', 20234,
@@ -18313,7 +17761,6 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1237120957)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(123000, 154800, 7700),
 	'Angle', 16200,
@@ -18389,8 +17836,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1550647086)
-<<<<<<< HEAD
-=======
 PlaceObj('WW2_SandBag_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(55, 46, 31, 255),
@@ -18409,7 +17854,6 @@ PlaceObj('Shanty_CardboardBox_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1788250044)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoomCorner', {
 	'Pos', point(123600, 154800, 7700),
 	'Angle', 16200,
@@ -18536,8 +17980,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1805363405)
-<<<<<<< HEAD
-=======
 PlaceObj('MilitaryCamp_Pallete_02', {
 	'Pos', point(124326, 155022, 7657),
 	'Angle', 21196,
@@ -18573,7 +18015,6 @@ PlaceObj('Shanty_CardboardBox_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1527016030)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(123000, 156600, 7700),
 	'Saturation', 0,
@@ -18653,8 +18094,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1751480599)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(122967, 157652, 7700),
 	'Angle', 10976,
@@ -18675,7 +18114,6 @@ PlaceObj('Prison_Shelves_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1369591804)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(123000, 157800, 7700),
 	'Saturation', 0,
@@ -18696,8 +18134,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1606380949)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(122983, 157847, 7700),
 	'Saturation', 0,
@@ -18730,7 +18166,6 @@ PlaceObj('BunkerInterior_AmmoBox_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1191923093)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(123000, 158400, 7700),
 	'Angle', 5400,
@@ -19725,8 +19160,6 @@ PlaceObj('Mine_WoodenBeam_Assembly_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1039032261)
-<<<<<<< HEAD
-=======
 PlaceObj('SavannaPlant_04_Umbrella_02', {
 	'Pos', point(124201, 176987),
 	'Scale', 130,
@@ -19734,7 +19167,6 @@ PlaceObj('SavannaPlant_04_Umbrella_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1859395796)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Shanty_WoodenFence_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(57, 43, 28, 255),
@@ -19748,8 +19180,6 @@ PlaceObj('Shanty_WoodenFence_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1658643722)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_PlasticChair_Sit_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(16, 29, 12, 255),
@@ -19758,7 +19188,6 @@ PlaceObj('Shanty_PlasticChair_Sit_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1490056615)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Mine_WoodenBeam_Assembly_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(79, 71, 67, 255),
@@ -19838,8 +19267,6 @@ PlaceObj('Mine_WoodenBeam_Assembly_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1087277719)
-<<<<<<< HEAD
-=======
 PlaceObj('SavannaPlant_04_Umbrella_02', {
 	'Pos', point(99685, 207892, 2684),
 	'Angle', 1602,
@@ -19856,7 +19283,6 @@ PlaceObj('SavannaPlant_04_Umbrella_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1357903338)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FlyingDustRoad', {
 	'Pos', point(136488, 59037),
 	'AllowedMask', 4294966497,
@@ -19895,11 +19321,7 @@ PlaceObj('Shanty_PlasticBarrel_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
-<<<<<<< HEAD
-}, nil, 1751267100)
-=======
 }, nil, 1250347341)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Shanty_PlasticBarrel_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(124, 130, 96, 255),
@@ -19912,11 +19334,7 @@ PlaceObj('Shanty_PlasticBarrel_01', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
-<<<<<<< HEAD
-}, nil, 1610480370)
-=======
 }, nil, 1370552917)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Vehicle_Minivan_Cargo_01', {
 	'Pos', point(145372, 109507, 9060),
 	'Angle', 5403,
@@ -20190,8 +19608,6 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1668920649)
-<<<<<<< HEAD
-=======
 PlaceObj('BunkerInterior_AmmoBox_01', {
 	'ColorizationPalette', "",
 	'EditableColor2', RGBA(29, 24, 12, 255),
@@ -20249,7 +19665,6 @@ PlaceObj('BunkerInterior_AmmoBox_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1639277326)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('TropicalPlant_Dead_07', {
 	'Pos', point(139802, 123659, 7654),
 	'Angle', 3209,
@@ -20390,8 +19805,6 @@ PlaceObj('Shanty_WoodenFence_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1605927573)
-<<<<<<< HEAD
-=======
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(149556, 107732),
 	'Saturation', 0,
@@ -20435,7 +19848,6 @@ PlaceObj('Mine_WoodenBeam_Assembly_06', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1523945896)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('MilitaryCamp_Toilet', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 77, 53, 255),
@@ -20450,15 +19862,12 @@ PlaceObj('MilitaryCamp_Toilet', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1526057725)
-<<<<<<< HEAD
-=======
 PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Pos', point(152215, 108118),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1013189961)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('MilitaryCamp_Toilet_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 77, 53, 255),
@@ -20473,8 +19882,6 @@ PlaceObj('MilitaryCamp_Toilet_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1088211303)
-<<<<<<< HEAD
-=======
 PlaceObj('Flies', {
 	'Pos', point(153100, 108667, 9582),
 	'AllowedMask', 4294966497,
@@ -20489,7 +19896,6 @@ PlaceObj('Flies', {
 		}),
 	},
 }, nil, 1481899938)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Shanty_WoodenFence_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(57, 43, 28, 255),
@@ -20586,11 +19992,7 @@ PlaceObj('MilitaryCamp_Truck_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(29, 19, 14, 255),
 	'EditableColor2', RGBA(52, 77, 53, 255),
-<<<<<<< HEAD
-	'Pos', point(160677, 114171, 9356),
-=======
 	'Pos', point(160680, 114166, 9356),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Angle', 16199,
 	'Axis', point(50, 50, 4095),
 	'Saturation', 0,
@@ -20598,8 +20000,6 @@ PlaceObj('MilitaryCamp_Truck_01', {
 	'CollectionIndex', 3667,
 	'AllowedMask', 782,
 }, nil, 1413775533)
-<<<<<<< HEAD
-=======
 PlaceObj('Mine_WaterPump', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(177, 22, 14, 255),
@@ -20683,7 +20083,6 @@ PlaceObj('Mine_WoodenBeam_Assembly_06', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1669227956)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FlyingGrass', {
 	'Pos', point(153993, 116573, 9338),
 	'AllowedMask', 4294966497,
@@ -20704,8 +20103,6 @@ PlaceObj('MajorTent_Pillon_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1748316144)
-<<<<<<< HEAD
-=======
 PlaceObj('SpotLight', {
 	'Pos', point(147739, 125785, 15175),
 	'Angle', 11993,
@@ -20732,7 +20129,6 @@ PlaceObj('Mine_Sift', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1466883631)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('MajorTent_Pillon_01', {
 	'Pos', point(152470, 124896, 8527),
 	'Scale', 106,
@@ -20752,8 +20148,6 @@ PlaceObj('MajorTent_Roof_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1632424825)
-<<<<<<< HEAD
-=======
 PlaceObj('Mine_Shovel', {
 	'Pos', point(153463, 124993, 8749),
 	'Angle', 12676,
@@ -20762,7 +20156,6 @@ PlaceObj('Mine_Shovel', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1578204301)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Shanty_Canvas_14', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 77, 53, 255),
@@ -20881,8 +20274,6 @@ PlaceObj('MajorTent_Pillon_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1614538013)
-<<<<<<< HEAD
-=======
 PlaceObj('Mine_WaterPump', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 77, 53, 255),
@@ -20898,7 +20289,6 @@ PlaceObj('Mine_WaterPump', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1611092620)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('MilitaryCamp_Truck_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(60, 38, 8, 255),
@@ -20907,11 +20297,7 @@ PlaceObj('MilitaryCamp_Truck_02', {
 	'EditableColor2', RGBA(61, 122, 153, 255),
 	'EditableRoughness2', -67,
 	'EditableMetallic2', 107,
-<<<<<<< HEAD
-	'Pos', point(156103, 123738, 8816),
-=======
 	'Pos', point(156097, 123741, 8816),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'StateText', "doorsOpen",
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -21063,8 +20449,6 @@ PlaceObj('AL_Roam', {
 	'VisitMinDuration', 30000,
 	'AttractGender', "Male",
 }, nil, 1717122964)
-<<<<<<< HEAD
-=======
 PlaceObj('SavannaPlant_Knobthorn_03', {
 	'Pos', point(196096, 85607, 8532),
 	'Angle', 5838,
@@ -21073,7 +20457,6 @@ PlaceObj('SavannaPlant_Knobthorn_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1706460667)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Shanty_Canopy_03Top', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(61, 122, 153, 255),
@@ -21449,8 +20832,6 @@ PlaceObj('WallSlab', {
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1606059975)
-<<<<<<< HEAD
-=======
 PlaceObj('Window_Planks_Single_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(110, 70, 19, 255),
@@ -21468,7 +20849,6 @@ PlaceObj('Window_Planks_Single_03', {
 	'subvariant', 3,
 	'height', 2,
 }, nil, 1661366309)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(165600, 125400, 10500),
 	'Angle', 10800,
@@ -21717,8 +21097,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "East",
 }, nil, 1494065165)
-<<<<<<< HEAD
-=======
 PlaceObj('BunkerInterior_Chair_01', {
 	'Pos', point(167828, 124869, 9100),
 	'Angle', 6415,
@@ -21726,7 +21104,6 @@ PlaceObj('BunkerInterior_Chair_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1891196309)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(166200, 125400, 9100),
 	'Saturation', 0,
@@ -21804,8 +21181,6 @@ PlaceObj('SpotLight', {
 	'ConeInnerAngle', 59,
 	'ConeOuterAngle', 140,
 }, nil, 1855047916)
-<<<<<<< HEAD
-=======
 PlaceObj('BunkerInterior_Desk_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(215, 159, 80, 255),
@@ -21835,7 +21210,6 @@ PlaceObj('Cinematic_CoffeeCup_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1418582149)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Room', {
 	'roof_type', "Flat",
 	'roof_mat', "Tin",
@@ -21876,11 +21250,8 @@ PlaceObj('Room', {
 	'floor_mat', "Adobe",
 	'spawned_doors', {
         East = {o(1589730468),},},
-<<<<<<< HEAD
-=======
 	'spawned_windows', {
         West = {o(1661366309),},},
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'spawned_floors', {o(1068031489),o(1697805412),o(1709897452),o(1292795828),o(1263879821),o(1429622919),o(1382517655),o(1330300690),o(1023847226),o(1359544547),o(1190835957),o(1060339483),},
 	'spawned_walls', {
         East = {o(1003621211),o(1429547861),o(1588098218),o(1794500038),o(1676077467),o(1412482745),o(1744632562),o(1346218293),o(1048722268),o(1160080185),o(1270704951),o(1666194643),o(1868516725),o(1720989928),o(1289231517),o(1665390376),},
@@ -21913,8 +21284,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "East",
 }, nil, 1656058083)
-<<<<<<< HEAD
-=======
 PlaceObj('BunkerInterior_BarrelPile_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 77, 53, 255),
@@ -21932,7 +21301,6 @@ PlaceObj('BunkerInterior_BarrelPile_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1866490978)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(165600, 127800, 9100),
 	'Angle', 10800,
@@ -22075,8 +21443,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "East",
 }, nil, 1764873538)
-<<<<<<< HEAD
-=======
 PlaceObj('Prison_MetalCloset_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 77, 53, 255),
@@ -22088,7 +21454,6 @@ PlaceObj('Prison_MetalCloset_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1145784379)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(166200, 128400, 9100),
 	'Angle', 5400,
@@ -22160,8 +21525,6 @@ PlaceObj('BunkerInterior_BarrelPile_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1780509425)
-<<<<<<< HEAD
-=======
 PlaceObj('Prison_MetalCloset_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 77, 53, 255),
@@ -22173,7 +21536,6 @@ PlaceObj('Prison_MetalCloset_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1145801155)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(167400, 127800, 9100),
 	'Saturation', 0,
@@ -22304,8 +21666,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "East",
 }, nil, 1810512894)
-<<<<<<< HEAD
-=======
 PlaceObj('Cinematic_Pencil_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(95, 64, 28, 255),
@@ -22332,7 +21692,6 @@ PlaceObj('JungleCamp_NewspaperPile_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1540939758)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(168600, 124200, 9100),
 	'Saturation', 0,
@@ -22353,8 +21712,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "East",
 }, nil, 1594478301)
-<<<<<<< HEAD
-=======
 PlaceObj('Prison_PaperPileSmall_01', {
 	'Pos', point(168678, 124233, 9796),
 	'Angle', 19800,
@@ -22363,7 +21720,6 @@ PlaceObj('Prison_PaperPileSmall_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1579071796)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoomCorner', {
 	'Pos', point(169200, 123600, 9100),
 	'Saturation', 0,
@@ -22675,8 +22031,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "East",
 }, nil, 1766700342)
-<<<<<<< HEAD
-=======
 PlaceObj('Cinematic_CoffeeCup_01', {
 	'Pos', point(168102, 125166, 9782),
 	'Angle', 19296,
@@ -22691,7 +22045,6 @@ PlaceObj('Prison_PaperPileLarge_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1716765618)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(168600, 125400, 9100),
 	'Saturation', 0,
@@ -22712,8 +22065,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "East",
 }, nil, 1895783906)
-<<<<<<< HEAD
-=======
 PlaceObj('BunkerInterior_Desk_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(215, 159, 80, 255),
@@ -22724,7 +22075,6 @@ PlaceObj('BunkerInterior_Desk_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1571107816)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(168600, 126600, 9100),
 	'Saturation', 0,
@@ -22870,8 +22220,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "East",
 }, nil, 1458996238)
-<<<<<<< HEAD
-=======
 PlaceObj('BunkerInterior_PropSet_04', {
 	'ColorizationPalette', "",
 	'EditableColor2', RGBA(29, 24, 12, 255),
@@ -22881,7 +22229,6 @@ PlaceObj('BunkerInterior_PropSet_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1043579808)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(169200, 126600, 9100),
 	'Saturation', 0,
@@ -23630,8 +22977,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "East",
 }, nil, 1753673944)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_TireHorizontal', {
 	'Pos', point(169406, 127950, 11982),
 	'Angle', 21223,
@@ -23641,7 +22986,6 @@ PlaceObj('Shanty_TireHorizontal', {
 	'CollectionIndex', 31,
 	'AllowedMask', 782,
 }, nil, 1720706417)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(169800, 127800, 9100),
 	'Saturation', 0,
@@ -23662,8 +23006,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "East",
 }, nil, 1204469316)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_Locker_01', {
 	'Pos', point(169800, 127800),
 	'Angle', 10800,
@@ -23671,7 +23013,6 @@ PlaceObj('Shanty_Locker_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1077204984)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoomCorner', {
 	'Pos', point(169200, 128400, 9100),
 	'Saturation', 0,
@@ -23804,8 +23145,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "East",
 }, nil, 1387215479)
-<<<<<<< HEAD
-=======
 PlaceObj('AutoMechanic_GasCylinder', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(92, 18, 12, 255),
@@ -23816,7 +23155,6 @@ PlaceObj('AutoMechanic_GasCylinder', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1067535164)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(169200, 130200, 9100),
 	'Angle', 10800,
@@ -23872,8 +23210,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "East",
 }, nil, 1019570812)
-<<<<<<< HEAD
-=======
 PlaceObj('AutoMechanic_GasCylinder', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(92, 18, 12, 255),
@@ -23885,7 +23221,6 @@ PlaceObj('AutoMechanic_GasCylinder', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1020786804)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(169800, 130200, 9100),
 	'Saturation', 0,
@@ -23906,8 +23241,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "East",
 }, nil, 1859512860)
-<<<<<<< HEAD
-=======
 PlaceObj('Scaffolding_Planks_01', {
 	'Pos', point(170060, 127469, 12043),
 	'Angle', 18871,
@@ -23918,7 +23251,6 @@ PlaceObj('Scaffolding_Planks_01', {
 	'CollectionIndex', 31,
 	'AllowedMask', 4294967279,
 }, nil, 1012688056)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(170400, 127800, 9100),
 	'Angle', 10800,
@@ -23952,8 +23284,6 @@ PlaceObj('WallSlab', {
 	'material', "none",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1267746314)
-<<<<<<< HEAD
-=======
 PlaceObj('Scaffolding_Planks_01', {
 	'Pos', point(170815, 127490, 12091),
 	'Angle', 20574,
@@ -23964,7 +23294,6 @@ PlaceObj('Scaffolding_Planks_01', {
 	'CollectionIndex', 31,
 	'AllowedMask', 4294967279,
 }, nil, 1200648786)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(171000, 127800, 9100),
 	'Saturation', 0,
@@ -24100,8 +23429,6 @@ PlaceObj('WallSlab', {
 	'material', "ConcreteThin",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1001226734)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_TireHorizontal', {
 	'Pos', point(170705, 130038, 12082),
 	'Angle', 21223,
@@ -24111,7 +23438,6 @@ PlaceObj('Shanty_TireHorizontal', {
 	'CollectionIndex', 31,
 	'AllowedMask', 782,
 }, nil, 1753016368)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(170400, 130200, 9100),
 	'Angle', 10800,
@@ -24197,11 +23523,7 @@ PlaceObj('WallSlab', {
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1112784515)
 PlaceObj('SavannaPlant_04_Umbrella_02', {
-<<<<<<< HEAD
-	'Pos', point(175834, 115667, 9336),
-=======
 	'Pos', point(175832, 115671, 9336),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Angle', 782,
 	'Scale', 130,
 	'Saturation', 0,
@@ -25169,8 +24491,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "East",
 }, nil, 1198211297)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_Locker_01', {
 	'Pos', point(174600, 125400),
 	'Saturation', 0,
@@ -25192,7 +24512,6 @@ PlaceObj('AutoMechanic_MACToolBox', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1679872690)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(174600, 126600, 9100),
 	'Saturation', 0,
@@ -25495,8 +24814,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "East",
 }, nil, 1523607933)
-<<<<<<< HEAD
-=======
 PlaceObj('Scaffolding_Planks_01', {
 	'Pos', point(172253, 127993, 12268),
 	'Angle', 2427,
@@ -25526,7 +24843,6 @@ PlaceObj('Shanty_WallDecorTin_01', {
 	'CollectionIndex', 31,
 	'AllowedMask', 782,
 }, nil, 1117462813)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(172800, 127800, 7700),
 	'Saturation', 0,
@@ -25605,8 +24921,6 @@ PlaceObj('WallSlab', {
 	'material', "ConcreteThin",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1446946331)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_TireHorizontal', {
 	'Pos', point(173565, 127116, 12414),
 	'Angle', 20926,
@@ -25616,7 +24930,6 @@ PlaceObj('Shanty_TireHorizontal', {
 	'CollectionIndex', 31,
 	'AllowedMask', 782,
 }, nil, 1738690242)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(173400, 127800, 9100),
 	'Saturation', 0,
@@ -25676,8 +24989,6 @@ PlaceObj('WallSlab', {
 	'material', "none",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1894176880)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_WallDecorTin_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(60, 38, 8, 255),
@@ -25697,7 +25008,6 @@ PlaceObj('Shanty_WallDecorTin_01', {
 	'CollectionIndex', 31,
 	'AllowedMask', 782,
 }, nil, 1269495490)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(173400, 129000, 9100),
 	'Saturation', 0,
@@ -25902,8 +25212,6 @@ PlaceObj('WallSlab', {
 	'material', "none",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1338602416)
-<<<<<<< HEAD
-=======
 PlaceObj('AutoMechanic_MACToolBox', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 44, 40, 255),
@@ -25920,7 +25228,6 @@ PlaceObj('AutoMechanic_MACToolBox', {
 	'Mirrored', true,
 	'AllowedMask', 782,
 }, nil, 1629677849)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(174600, 127800, 9100),
 	'Saturation', 0,
@@ -26302,8 +25609,6 @@ PlaceObj('Shanty_Canopy_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1022968399)
-<<<<<<< HEAD
-=======
 PlaceObj('BunkerInterior_BarrelPile_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 77, 53, 255),
@@ -26314,7 +25619,6 @@ PlaceObj('BunkerInterior_BarrelPile_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1810467735)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Shanty_Canopy_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(40, 60, 36, 255),
@@ -26329,8 +25633,6 @@ PlaceObj('Shanty_Canopy_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1055465355)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_TirePainted_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(48, 25, 14, 255),
@@ -26343,13 +25645,10 @@ PlaceObj('Shanty_TirePainted_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1491113336)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FlyingPetals', {
 	'Pos', point(182517, 131053, 9387),
 	'AllowedMask', 4294966497,
 }, nil, 1326524425)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_TirePile_02', {
 	'Pos', point(184343, 123484, 9304),
 	'Angle', 5002,
@@ -26358,7 +25657,6 @@ PlaceObj('Shanty_TirePile_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1486601273)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Shanty_Canopy_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(61, 122, 153, 255),
@@ -27900,8 +27198,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "West",
 }, nil, 1095084853)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_CardboardBox_03', {
 	'Pos', point(191133, 123949, 9706),
 	'Angle', 8441,
@@ -27961,7 +27257,6 @@ PlaceObj('Shanty_CardboardBox_03', {
 	'CollectionIndex', 226,
 	'AllowedMask', 782,
 }, nil, 1650156582)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(192000, 123000, 9800),
 	'Angle', 10800,
@@ -33265,8 +32560,6 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1018596409)
-<<<<<<< HEAD
-=======
 PlaceObj('Scaffolding_Planks_02', {
 	'Pos', point(138906, 143065, 8018),
 	'Angle', 21570,
@@ -33275,15 +32568,12 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1402678404)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Shanty_WoodenPile_02', {
 	'Pos', point(136200, 145800),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1446664600)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_BottleCrate_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(69, 58, 39, 255),
@@ -33294,7 +32584,6 @@ PlaceObj('Shanty_BottleCrate_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1027330101)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Shanty_WoodenPile_01', {
 	'Pos', point(137400, 145800),
 	'Saturation', 0,
@@ -33302,11 +32591,7 @@ PlaceObj('Shanty_WoodenPile_01', {
 	'AllowedMask', 782,
 }, nil, 1577918921)
 PlaceObj('Scaffolding_Planks_02', {
-<<<<<<< HEAD
-	'Pos', point(137531, 147328, 8024),
-=======
 	'Pos', point(137527, 147332, 8024),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Angle', 3374,
 	'Scale', 170,
 	'Saturation', 0,
@@ -33373,8 +32658,6 @@ PlaceObj('Marketplace_Table_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1624891896)
-<<<<<<< HEAD
-=======
 PlaceObj('TwoPointsAttach', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -33386,7 +32669,6 @@ PlaceObj('TwoPointsAttach', {
 	'curve', "Parabola",
 	'length_percents', 101,
 }, nil, 1559558411)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('MilitaryCamp_Landmine', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 77, 53, 255),
@@ -34644,8 +33926,6 @@ PlaceObj('BunkerInterior_AmmoBox_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1026030714)
-<<<<<<< HEAD
-=======
 PlaceObj('Weapon_TearGasGrenade', {
 	'Pos', point(145206, 143418, 8765),
 	'Angle', 8464,
@@ -34672,7 +33952,6 @@ PlaceObj('Weapon_StunGrenadeM84', {
 	'CollectionIndex', 2583,
 	'AllowedMask', 0,
 }, nil, 1457399413)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('AnimalBones_CrocodileSkull', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(123, 112, 101, 255),
@@ -34730,61 +34009,6 @@ PlaceObj('Shanty_WoodenFence_03', {
 	'CollectionIndex', 932,
 	'AllowedMask', 782,
 }, nil, 1173683048)
-<<<<<<< HEAD
-PlaceObj('JungleCamp_Skeleton_12', {
-	'Pos', point(135527, 155136),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1543498870)
-PlaceObj('JungleCamp_Skeleton_09', {
-	'Pos', point(135511, 155596),
-	'Angle', 592,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1002579695)
-PlaceObj('JungleCamp_Skeleton_08', {
-	'Pos', point(134641, 155846),
-	'Angle', 2384,
-	'Axis', point(4096, 0, 0),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1226433231)
-PlaceObj('JungleCamp_Skeleton_11', {
-	'Pos', point(134777, 157351),
-	'Angle', 6051,
-	'Axis', point(-251, -70, 4087),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1609521830)
-PlaceObj('JungleCamp_Skeleton_10', {
-	'Pos', point(134989, 157987, 7788),
-	'Angle', 10296,
-	'Axis', point(-3605, -279, 1923),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1647286220)
-PlaceObj('JungleCamp_Skeleton_14', {
-	'Pos', point(135228, 158316, 7767),
-	'Angle', 9445,
-	'Axis', point(4071, 442, 87),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1808028961)
-PlaceObj('JungleCamp_Skeleton_14', {
-	'Pos', point(137303, 156331, 8010),
-	'Angle', 2605,
-	'Axis', point(-388, -475, 4050),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294967279,
-}, nil, 1408283183)
-=======
 PlaceObj('Scaffolding_Planks_02', {
 	'Pos', point(131417, 155030, 7968),
 	'Angle', 3374,
@@ -34818,7 +34042,6 @@ PlaceObj('Mine_PickShovelCrate_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1339306479)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoomCorner', {
 	'Pos', point(136800, 160800, 8400),
 	'Angle', 10800,
@@ -34925,9 +34148,6 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-<<<<<<< HEAD
-	'AllowedMask', 4294967279,
-=======
 	'AllowedMask', 0,
 	'subvariant', 1,
 	'material', "Tin",
@@ -34991,7 +34211,6 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 16,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 1,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -35377,8 +34596,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1287700835)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_WallShed_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 77, 53, 255),
@@ -35393,7 +34610,6 @@ PlaceObj('Shanty_WallShed_03', {
 	'CollectionIndex', 505,
 	'AllowedMask', 782,
 }, nil, 1668314655)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Door_Shanty_Single_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(69, 58, 39, 255),
@@ -35407,10 +34623,6 @@ PlaceObj('Door_Shanty_Single_03', {
 	'AllowedMask', 782,
 	'subvariant', 3,
 	'material', "Shanty",
-<<<<<<< HEAD
-	'lockpickStateMap', "locked",
-=======
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'lockpickDifficulty', "VeryHard",
 	'aoeType', "fire",
 	'HitPoints', 25,
@@ -35470,8 +34682,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1358223731)
-<<<<<<< HEAD
-=======
 PlaceObj('Mine_WoodenBeam_Assembly_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(79, 71, 67, 255),
@@ -35484,7 +34694,6 @@ PlaceObj('Mine_WoodenBeam_Assembly_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1654448860)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(139800, 161400, 8400),
 	'Saturation', 0,
@@ -35679,13 +34888,10 @@ PlaceObj('Room', {
 	'spawned_doors', {
         North = {o(1440445413),},
         South = {o(1817044558),},},
-<<<<<<< HEAD
-=======
 	'spawned_windows', {
         East = {o(1622468765),},
         North = {o(1811672074),},
         West = {o(1353733391),},},
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'spawned_floors', {o(1794551900),o(1078852115),o(1386504345),o(1020205788),o(1129467821),o(1420736921),o(1304496645),o(1294939841),o(1048781906),o(1185475103),o(1815262106),o(1738364096),o(1688383117),o(1611938513),o(1360631800),o(1406490131),o(1477506148),o(1492788393),},
 	'spawned_walls', {
         East = {o(1303736214),o(1312929627),o(1868760736),o(1224465656),o(1241086930),o(1652492087),o(1652119234),o(1470656828),o(1036207471),o(1628629230),o(1804672207),o(1789638112),},
@@ -35755,17 +34961,11 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-<<<<<<< HEAD
-	'AllowedMask', 4294967279,
-=======
 	'AllowedMask', 16,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 2,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1781452766)
-<<<<<<< HEAD
-=======
 PlaceObj('Window_Shanty_Single_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(22, 66, 8, 255),
@@ -35787,18 +34987,13 @@ PlaceObj('Window_Shanty_Single_02', {
 	'material', "Shanty",
 	'height', 2,
 }, nil, 1811672074)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(142200, 160800, 9800),
 	'Angle', 16200,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-<<<<<<< HEAD
-	'AllowedMask', 4294967279,
-=======
 	'AllowedMask', 16,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 1,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -35825,8 +35020,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1701499596)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_WallShed_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 77, 53, 255),
@@ -35845,7 +35038,6 @@ PlaceObj('Shanty_WallShed_01', {
 	'CollectionIndex', 3875,
 	'AllowedMask', 782,
 }, nil, 1234755847)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(142200, 161400, 8400),
 	'Saturation', 0,
@@ -35866,8 +35058,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1637056009)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_CardboardBox_01', {
 	'Pos', point(143091, 159794, 8327),
 	'Angle', 7105,
@@ -35892,7 +35082,6 @@ PlaceObj('Shanty_CardboardBox_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1121630824)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(142200, 162600, 8400),
 	'Saturation', 0,
@@ -35933,8 +35122,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1519444814)
-<<<<<<< HEAD
-=======
 PlaceObj('Scaffolding_Planks_02', {
 	'Pos', point(142946, 162564, 8300),
 	'Angle', 10413,
@@ -35959,7 +35146,6 @@ PlaceObj('Colonial_Closet_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1621239177)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(143400, 160800, 8400),
 	'Angle', 16200,
@@ -36181,8 +35367,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1872689224)
-<<<<<<< HEAD
-=======
 PlaceObj('Scaffolding_Planks_02', {
 	'Pos', point(143454, 162564, 8300),
 	'Angle', 21570,
@@ -36199,7 +35383,6 @@ PlaceObj('Scaffolding_Planks_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1576787324)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(144000, 162600, 8400),
 	'Saturation', 0,
@@ -36210,8 +35393,6 @@ PlaceObj('WallSlab', {
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1241086930)
-<<<<<<< HEAD
-=======
 PlaceObj('Window_Shanty_Single_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(73, 109, 61, 255),
@@ -36231,17 +35412,12 @@ PlaceObj('Window_Shanty_Single_01', {
 	'material', "Shanty",
 	'height', 2,
 }, nil, 1622468765)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(144000, 162600, 9100),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-<<<<<<< HEAD
-	'AllowedMask', 4294967279,
-=======
 	'AllowedMask', 16,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 1,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -36251,11 +35427,7 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-<<<<<<< HEAD
-	'AllowedMask', 4294967279,
-=======
 	'AllowedMask', 16,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 1,
 	'material', "Tin",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -36368,26 +35540,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1172061395)
-<<<<<<< HEAD
-PlaceObj('SpotLight', {
-	'Pos', point(147472, 134123, 14672),
-	'Angle', 11993,
-	'Axis', point(40, -967, 3979),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'AllowedMask', 4294966497,
-	'LightmodelColorIndex', set( "A" ),
-	'Intensity', 21,
-	'ConstantIntensity', 20,
-	'AttenuationShape', 13,
-	'CastShadows', true,
-	'DetailedShadows', true,
-	'AttenuationRadius', 10975,
-	'AnimPeriod', 0,
-	'ConeInnerAngle', 59,
-	'ConeOuterAngle', 140,
-}, nil, 1334024422)
-=======
 PlaceObj('Farmland_HandCart', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(51, 54, 57, 255),
@@ -36412,7 +35564,6 @@ PlaceObj('City_ElectricityPole_01', {
 	'AllowedMask', 782,
 	'AutoAttachMode', "Warm light A Soft",
 }, nil, 1680680881)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Shanty_CardboardBox_03', {
 	'Pos', point(150509, 137071, 8692),
 	'Angle', 10861,
@@ -36420,10 +35571,7 @@ PlaceObj('Shanty_CardboardBox_03', {
 	'Axis', point(35, -44, 4095),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'CollectionIndex', 1252,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 782,
 }, nil, 1358473882)
 PlaceObj('Shanty_CardboardBox_03', {
@@ -36433,10 +35581,7 @@ PlaceObj('Shanty_CardboardBox_03', {
 	'Axis', point(-9, -79, 4095),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'CollectionIndex', 1252,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 782,
 }, nil, 1230300818)
 PlaceObj('Shanty_CardboardBox_03', {
@@ -36445,10 +35590,7 @@ PlaceObj('Shanty_CardboardBox_03', {
 	'Scale', 169,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'CollectionIndex', 1252,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 782,
 }, nil, 1261320080)
 PlaceObj('Shanty_CardboardBox_03', {
@@ -36458,10 +35600,7 @@ PlaceObj('Shanty_CardboardBox_03', {
 	'Axis', point(35, -44, 4095),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'CollectionIndex', 1252,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 782,
 }, nil, 1066236664)
 PlaceObj('Shanty_CardboardBox_01', {
@@ -36519,10 +35658,7 @@ PlaceObj('MilitaryCamp_Pallete_01', {
 	'Axis', point(0, 4096, 0),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'CollectionIndex', 1252,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 782,
 }, nil, 1293420713)
 PlaceObj('Shanty_CardboardBox_03', {
@@ -36532,10 +35668,7 @@ PlaceObj('Shanty_CardboardBox_03', {
 	'Axis', point(-17, -85, 4095),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'CollectionIndex', 1252,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 782,
 }, nil, 1401295428)
 PlaceObj('Mine_WoodenBeam_Assembly_05', {
@@ -36632,8 +35765,6 @@ PlaceObj('Shanty_CardboardBox_Smokes_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1532439410)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_PlasticBarrel_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(61, 122, 153, 255),
@@ -36660,7 +35791,6 @@ PlaceObj('Shanty_PlasticBarrel_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1408336042)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Shanty_CardboardBox_Smokes_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(150, 133, 107, 255),
@@ -36856,8 +35986,6 @@ PlaceObj('SavannaPlant_Knobthorn_03', {
 	'CollectionIndex', 109,
 	'AllowedMask', 4294967279,
 }, nil, 1130519595)
-<<<<<<< HEAD
-=======
 PlaceObj('Scaffolding_Planks_02', {
 	'Pos', point(157479, 140011, 9064),
 	'Angle', 20474,
@@ -36886,7 +36014,6 @@ PlaceObj('Shanty_BeerBottle_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1479869534)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('AL_Roam', {
 	'Entity', "NPCCostumeMale_Shirt_01",
 	'Pos', point(148457, 148538, 8047),
@@ -37247,8 +36374,6 @@ PlaceObj('Shanty_BottleCrate_01', {
 	'CollectionIndex', 2475,
 	'AllowedMask', 4294967279,
 }, nil, 1852104520)
-<<<<<<< HEAD
-=======
 PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Pos', point(150496, 148554),
 	'Angle', 3960,
@@ -37256,7 +36381,6 @@ PlaceObj('JungleCamp_NewspaperPile_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1195760580)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Shanty_BottleCrate_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(30, 75, 111, 255),
@@ -37329,405 +36453,6 @@ PlaceObj('Shanty_BottleCrate_01', {
 	'CollectionIndex', 2475,
 	'AllowedMask', 4294967279,
 }, nil, 1854278682)
-<<<<<<< HEAD
-PlaceObj('RoomCorner', {
-	'Pos', point(151200, 163200, 8400),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1804936701)
-PlaceObj('RoomCorner', {
-	'Pos', point(151200, 163200, 9100),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1720275176)
-PlaceObj('RoomCorner', {
-	'Pos', point(151200, 163200, 9800),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'forceInvulnerableBecauseOfGameRules', false,
-	'isPlug', true,
-}, nil, 1315751029)
-PlaceObj('RoomCorner', {
-	'Pos', point(151200, 163200, 9800),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1707376929)
-PlaceObj('RoofCorner', {
-	'Pos', point(151200, 163200, 10500),
-	'Angle', 10800,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Wood",
-	'dir', "West",
-}, nil, 1706808790)
-PlaceObj('WallSlab', {
-	'Pos', point(151200, 163800, 8400),
-	'Angle', 10800,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'variant', "OutdoorIndoor",
-	'indoor_material_1', "Wood",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1050744858)
-PlaceObj('WallSlab', {
-	'Pos', point(151200, 163800, 9100),
-	'Angle', 10800,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'variant', "OutdoorIndoor",
-	'indoor_material_1', "Wood",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1834392399)
-PlaceObj('WallSlab', {
-	'Pos', point(151200, 163800, 9800),
-	'Angle', 10800,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'variant', "OutdoorIndoor",
-	'indoor_material_1', "Wood",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1834125271)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(151200, 163800, 10500),
-	'Angle', 10800,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Wood",
-	'dir', "West",
-}, nil, 1381726752)
-PlaceObj('WallSlab', {
-	'Pos', point(151800, 163200, 8400),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'variant', "OutdoorIndoor",
-	'indoor_material_1', "Wood",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1451561489)
-PlaceObj('WallSlab', {
-	'Pos', point(151800, 163200, 9100),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'variant', "OutdoorIndoor",
-	'indoor_material_1', "Wood",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1609205301)
-PlaceObj('WallSlab', {
-	'Pos', point(151800, 163200, 9800),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'variant', "OutdoorIndoor",
-	'indoor_material_1', "Wood",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1296675892)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(151800, 163200, 10500),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Wood",
-	'dir', "West",
-}, nil, 1842611852)
-PlaceObj('FloorSlab', {
-	'Pos', point(151800, 163800, 8400),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'subvariant', 4,
-	'material', "WoodScaff",
-}, nil, 1228436292)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(151800, 163800, 10500),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 3,
-	'material', "Wood",
-	'dir', "West",
-}, nil, 1300096198)
-PlaceObj('Room', {
-	'roof_type', "Flat",
-	'roof_mat', "Wood",
-	'roof_direction', "West",
-	'roof_inclination', 420,
-	'roof_colors', PlaceObj('ColorizationPropSet', {
-		'EditableColor1', RGBA(61, 122, 153, 255),
-		'EditableRoughness1', -70,
-		'EditableMetallic1', 55,
-		'EditableColor2', RGBA(61, 122, 153, 255),
-		'EditableRoughness2', -70,
-		'EditableMetallic2', 55,
-		'EditableColor3', RGBA(48, 25, 14, 255),
-		'EditableRoughness3', 31,
-		'EditableMetallic3', -70,
-	}),
-	'roof_objs', {o(1288946047),o(1300096198),o(1381726752),o(1793198023),o(1842611852),o(1217936571),o(1517057000),o(1835731036),o(1391731403),o(1706808790),o(1086147465),o(1507733532),},
-	'AllowedMask', 4294966497,
-	'box', box(151200, 163200, 8400, 153600, 164400, 10500),
-	'seed', 1051133699162136,
-	'position', point(151200, 163200, 8400),
-	'size', point(2, 1, 3),
-	'override_terrain_z', 8106,
-	'name', "Room 1170974140 copy3",
-	'wall_mat', "Wood",
-	'outer_colors', PlaceObj('ColorizationPropSet', {
-		'EditableColor1', RGBA(69, 58, 39, 255),
-		'EditableRoughness1', 64,
-		'EditableMetallic1', -46,
-		'EditableColor2', RGBA(60, 38, 8, 255),
-		'EditableRoughness2', 37,
-		'EditableMetallic2', -72,
-		'EditableColor3', RGBA(52, 45, 41, 255),
-		'EditableRoughness3', 31,
-		'EditableMetallic3', -70,
-	}),
-	'inner_wall_mat', "Wood",
-	'inner_colors', PlaceObj('ColorizationPropSet', {
-		'EditableColor1', RGBA(69, 58, 39, 255),
-		'EditableRoughness1', 64,
-		'EditableMetallic1', -46,
-		'EditableColor2', RGBA(60, 38, 8, 255),
-		'EditableRoughness2', 37,
-		'EditableMetallic2', -72,
-		'EditableColor3', RGBA(52, 45, 41, 255),
-		'EditableRoughness3', 31,
-		'EditableMetallic3', -70,
-	}),
-	'north_wall_mat', "none",
-	'south_wall_mat', "none",
-	'east_wall_mat', "none",
-	'west_wall_mat', "none",
-	'floor_mat', "WoodScaff",
-	'floor_colors', PlaceObj('ColorizationPropSet', {
-		'EditableColor1', RGBA(69, 58, 39, 255),
-		'EditableRoughness1', 64,
-		'EditableMetallic1', -46,
-		'EditableColor2', RGBA(60, 38, 8, 255),
-		'EditableRoughness2', 37,
-		'EditableMetallic2', -72,
-		'EditableColor3', RGBA(52, 45, 41, 255),
-		'EditableRoughness3', 31,
-		'EditableMetallic3', -70,
-	}),
-	'spawned_floors', {o(1228436292),o(1579919979),},
-	'spawned_walls', {
-        East = {o(1307787483),o(1532849152),o(1687706722),},
-        North = {o(1451561489),o(1609205301),o(1296675892),o(1062017516),o(1691488460),o(1446440681),},
-        South = {o(1114476538),o(1638417515),o(1229862226),o(1644288406),o(1561779840),o(1442089924),},
-        West = {o(1050744858),o(1834392399),o(1834125271),},},
-	'spawned_corners', {
-        East = {o(1223629679),o(1859803688),o(1695800217),o(1854477773),},
-        North = {o(1804936701),o(1720275176),o(1707376929),o(1315751029),},
-        South = {o(1005461647),o(1122768754),o(1102012757),o(1104752307),},
-        West = {o(1817239265),o(1848359207),o(1197495355),o(1886496654),},},
-}, nil, 1593092258)
-PlaceObj('WallSlab', {
-	'Pos', point(153000, 163200, 8400),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'variant', "OutdoorIndoor",
-	'indoor_material_1', "Wood",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1062017516)
-PlaceObj('WallSlab', {
-	'Pos', point(153000, 163200, 9100),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'variant', "OutdoorIndoor",
-	'indoor_material_1', "Wood",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1691488460)
-PlaceObj('WallSlab', {
-	'Pos', point(153000, 163200, 9800),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'variant', "OutdoorIndoor",
-	'indoor_material_1', "Wood",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1446440681)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(153000, 163200, 10500),
-	'Angle', 16200,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Wood",
-	'dir', "West",
-}, nil, 1793198023)
-PlaceObj('FloorSlab', {
-	'Pos', point(153000, 163800, 8400),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "WoodScaff",
-}, nil, 1579919979)
-PlaceObj('RoofPlaneSlab', {
-	'Pos', point(153000, 163800, 10500),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 3,
-	'material', "Wood",
-	'dir', "West",
-}, nil, 1288946047)
-PlaceObj('RoomCorner', {
-	'Pos', point(153600, 163200, 8400),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1223629679)
-PlaceObj('RoomCorner', {
-	'Pos', point(153600, 163200, 9100),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1859803688)
-PlaceObj('RoomCorner', {
-	'Pos', point(153600, 163200, 9800),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1695800217)
-PlaceObj('RoomCorner', {
-	'Pos', point(153600, 163200, 9800),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'forceInvulnerableBecauseOfGameRules', false,
-	'isPlug', true,
-}, nil, 1854477773)
-PlaceObj('RoofCorner', {
-	'Pos', point(153600, 163200, 10500),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 1,
-	'material', "Wood",
-	'dir', "West",
-}, nil, 1086147465)
-PlaceObj('WallSlab', {
-	'Pos', point(153600, 163800, 8400),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'variant', "OutdoorIndoor",
-	'indoor_material_1', "Wood",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1307787483)
-PlaceObj('WallSlab', {
-	'Pos', point(153600, 163800, 9100),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'variant', "OutdoorIndoor",
-	'indoor_material_1', "Wood",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1532849152)
-PlaceObj('WallSlab', {
-	'Pos', point(153600, 163800, 9800),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'variant', "OutdoorIndoor",
-	'indoor_material_1', "Wood",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1687706722)
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(153600, 163800, 10500),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 4294967279,
-	'subvariant', 2,
-	'material', "Wood",
-	'dir', "West",
-}, nil, 1217936571)
-PlaceObj('FlyingGrass', {
-	'Pos', point(160736, 162080, 8892),
-	'AllowedMask', 4294966497,
-}, nil, 1224881741)
-=======
 PlaceObj('Farmland_CratePileEmpty_01', {
 	'ColorizationPalette', "",
 	'EditableColor2', RGBA(78, 60, 44, 255),
@@ -37807,7 +36532,6 @@ PlaceObj('JungleCamp_NewspaperPile_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1319847841)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Shanty_Canopy_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(61, 122, 153, 255),
@@ -37826,8 +36550,6 @@ PlaceObj('Shanty_Canopy_02', {
 	'Mirrored', true,
 	'AllowedMask', 782,
 }, nil, 1535175506)
-<<<<<<< HEAD
-=======
 PlaceObj('Marketplace_Table_01', {
 	'Pos', point(161635, 163522, 7768),
 	'Angle', 10517,
@@ -37874,7 +36596,6 @@ PlaceObj('World_WoodenBox_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1349342208)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoomCorner', {
 	'Pos', point(136800, 164400, 8400),
 	'Angle', 5400,
@@ -38082,8 +36803,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1151683138)
-<<<<<<< HEAD
-=======
 PlaceObj('Scaffolding_Planks_01', {
 	'Pos', point(139161, 167924, 8285),
 	'Angle', 21527,
@@ -38121,7 +36840,6 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1759805116)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Shanty_WoodenFence_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(57, 43, 28, 255),
@@ -38200,8 +36918,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1624167165)
-<<<<<<< HEAD
-=======
 PlaceObj('Marketplace_Table_03', {
 	'Pos', point(139598, 165205, 8324),
 	'Angle', 2447,
@@ -38231,7 +36947,6 @@ PlaceObj('WW2_SandBag_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1705870659)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoomCorner', {
 	'Pos', point(140400, 164400, 8400),
 	'Saturation', 0,
@@ -38539,8 +37254,6 @@ PlaceObj('FloorSlab', {
 	'subvariant', 4,
 	'material', "WoodScaff",
 }, nil, 1065478434)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_ShelvesCorner_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(69, 58, 39, 255),
@@ -38549,7 +37262,6 @@ PlaceObj('Shanty_ShelvesCorner_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1158757493)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(141000, 165000, 11714),
 	'Angle', 5400,
@@ -38561,8 +37273,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1638116110)
-<<<<<<< HEAD
-=======
 PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Pos', point(141156, 165374, 9122),
 	'Angle', 163,
@@ -38570,7 +37280,6 @@ PlaceObj('JungleCamp_FoodCanPile_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1719393948)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(140400, 166200, 8400),
 	'Angle', 10800,
@@ -38646,8 +37355,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1800236114)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_RagPile_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 45, 41, 255),
@@ -38659,7 +37366,6 @@ PlaceObj('Shanty_RagPile_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1041721151)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(141000, 166200, 8400),
 	'Saturation', 0,
@@ -38680,8 +37386,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1515061714)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_RagPile_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 45, 41, 255),
@@ -38705,7 +37409,6 @@ PlaceObj('Shanty_RagPile_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1170804230)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(140400, 167400, 8400),
 	'Angle', 10800,
@@ -38781,8 +37484,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1615133919)
-<<<<<<< HEAD
-=======
 PlaceObj('JungleCamp_Backpack_02', {
 	'Pos', point(140893, 167015, 9091),
 	'Angle', 20071,
@@ -38799,7 +37500,6 @@ PlaceObj('Shanty_ShelvesCorner_07', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1309699933)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(141000, 167400, 8400),
 	'Saturation', 0,
@@ -38809,8 +37509,6 @@ PlaceObj('FloorSlab', {
 	'subvariant', 1,
 	'material', "WoodScaff",
 }, nil, 1533401564)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_ShelvesCorner_06', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(69, 58, 39, 255),
@@ -38819,7 +37517,6 @@ PlaceObj('Shanty_ShelvesCorner_06', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1433482292)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(141000, 167400, 11420),
 	'Angle', 5400,
@@ -38831,8 +37528,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1147085780)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_Fan_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(61, 122, 153, 255),
@@ -38852,7 +37547,6 @@ PlaceObj('City_TV_Small', {
 	'AutoAttachMode', "On Strong",
 	'anim_type', 1,
 }, nil, 1634890026)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('BunkerInterior_WaterPipesCross_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(11, 63, 97, 255),
@@ -38906,10 +37600,6 @@ PlaceObj('Door_Shanty_Single_05', {
 	'AllowedMask', 782,
 	'subvariant', 5,
 	'material', "Shanty",
-<<<<<<< HEAD
-	'lockpickStateMap', "locked",
-=======
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'lockpickDifficulty', "VeryHard",
 	'aoeType', "fire",
 	'HitPoints', 25,
@@ -39033,8 +37723,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1295029054)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(141526, 165584, 8400),
 	'Saturation', 0,
@@ -39048,7 +37736,6 @@ PlaceObj('Shanty_BeerBottle_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1095441383)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(142200, 165000, 8400),
 	'Saturation', 0,
@@ -39069,8 +37756,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1782478411)
-<<<<<<< HEAD
-=======
 PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Pos', point(142882, 164806, 8400),
 	'Angle', 19613,
@@ -39078,7 +37763,6 @@ PlaceObj('JungleCamp_FoodCanPile_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1618538052)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(142200, 166200, 8400),
 	'Saturation', 0,
@@ -39120,11 +37804,7 @@ PlaceObj('RoofPlaneSlab', {
 	'dir', "North",
 }, nil, 1270187783)
 PlaceObj('SpotLight', {
-<<<<<<< HEAD
-	'Pos', point(143324, 166623, 11309),
-=======
 	'Pos', point(143328, 166622, 11555),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
@@ -39465,8 +38145,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1483031030)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_WallShed_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(7, 35, 108, 255),
@@ -39495,7 +38173,6 @@ PlaceObj('Mine_WoodenBeam_Assembly_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1144596435)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(143400, 164400, 8400),
 	'Angle', 5400,
@@ -39640,8 +38317,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1854618542)
-<<<<<<< HEAD
-=======
 PlaceObj('Colonial_AfricanMask_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 77, 53, 255),
@@ -39659,7 +38334,6 @@ PlaceObj('Colonial_AfricanMask_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1322300005)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoomCorner', {
 	'Pos', point(144000, 164400, 8400),
 	'Saturation', 0,
@@ -39727,8 +38401,6 @@ PlaceObj('RoofCorner', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1874499772)
-<<<<<<< HEAD
-=======
 PlaceObj('Mine_WoodenBeam_Vertical_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(79, 71, 67, 255),
@@ -39753,7 +38425,6 @@ PlaceObj('Mine_WoodenBeam_Vertical_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1285008781)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(143400, 165000, 8400),
 	'Saturation', 0,
@@ -39774,8 +38445,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1198166784)
-<<<<<<< HEAD
-=======
 PlaceObj('Mine_WoodenBeam_Vertical_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(79, 71, 67, 255),
@@ -39878,7 +38547,6 @@ PlaceObj('Mine_WoodenBeam_Vertical_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1322938790)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(144600, 164400, 8400),
 	'Angle', 16200,
@@ -39954,8 +38622,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1548498546)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_Bed_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(69, 58, 39, 255),
@@ -39978,7 +38644,6 @@ PlaceObj('Shanty_Bed_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1026898823)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(144600, 165000, 8400),
 	'Saturation', 0,
@@ -39999,8 +38664,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1009689462)
-<<<<<<< HEAD
-=======
 PlaceObj('JungleCamp_Backpack_01', {
 	'Pos', point(145259, 165727, 8400),
 	'Angle', 5039,
@@ -40008,7 +38671,6 @@ PlaceObj('JungleCamp_Backpack_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1152859935)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(143400, 166200, 8400),
 	'Saturation', 0,
@@ -40090,12 +38752,9 @@ PlaceObj('Room', {
 	}),
 	'spawned_doors', {
         South = {o(1611222194),},},
-<<<<<<< HEAD
-=======
 	'spawned_windows', {
         East = {o(1776890663),o(1607154808),},
         South = {o(1175637873),},},
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'spawned_floors', {o(1065478434),o(1312515355),o(1533401564),o(1844258445),o(1384755778),o(1844349129),o(1865888862),o(1688973277),o(1090871251),o(1744950896),o(1291825793),o(1301861230),o(1339747353),o(1511205958),o(1360255621),o(1781802799),o(1562429137),o(1304302390),o(1659837569),o(1826054786),},
 	'spawned_walls', {
         East = {o(1322461126),o(1295626352),o(1830760390),o(1685014427),o(1390877782),o(1662447248),o(1153305585),o(1502110812),o(1244689343),o(1104110115),o(1473189769),o(1429192293),o(1291523311),o(1005203122),o(1743900047),o(1441790115),},
@@ -40243,8 +38902,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1239617317)
-<<<<<<< HEAD
-=======
 PlaceObj('Mine_WoodenBeam_Vertical_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(79, 71, 67, 255),
@@ -40258,7 +38915,6 @@ PlaceObj('Mine_WoodenBeam_Vertical_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1212358982)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoomCorner', {
 	'Pos', point(146400, 164400, 8400),
 	'Angle', 16200,
@@ -40336,8 +38992,6 @@ PlaceObj('RoofCorner', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1431304933)
-<<<<<<< HEAD
-=======
 PlaceObj('Mine_WoodenBeam_Vertical_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(79, 71, 67, 255),
@@ -40373,7 +39027,6 @@ PlaceObj('WW2_SandBag_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1176285307)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(145800, 165000, 8400),
 	'Saturation', 0,
@@ -40394,8 +39047,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1809363659)
-<<<<<<< HEAD
-=======
 PlaceObj('WW2_SandBag_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(69, 58, 39, 255),
@@ -40406,7 +39057,6 @@ PlaceObj('WW2_SandBag_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1543760793)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(146400, 165000, 8400),
 	'Saturation', 0,
@@ -40476,8 +39126,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1689469126)
-<<<<<<< HEAD
-=======
 PlaceObj('Mine_WoodenBeam_Vertical_05', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(79, 71, 67, 255),
@@ -40517,7 +39165,6 @@ PlaceObj('Mine_WoodenBeam_Vertical_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1711535968)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(145800, 166200, 8400),
 	'Saturation', 0,
@@ -40538,8 +39185,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1636527194)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_WallShed_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 77, 53, 255),
@@ -40558,7 +39203,6 @@ PlaceObj('Shanty_WallShed_04', {
 	'CollectionIndex', 2364,
 	'AllowedMask', 782,
 }, nil, 1617181018)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(146400, 166200, 8400),
 	'Saturation', 0,
@@ -40571,8 +39215,6 @@ PlaceObj('WallSlab', {
 	'indoor_material_1', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1390877782)
-<<<<<<< HEAD
-=======
 PlaceObj('Window_Planks_Single_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 45, 41, 255),
@@ -40587,17 +39229,12 @@ PlaceObj('Window_Planks_Single_04', {
 	'subvariant', 4,
 	'height', 2,
 }, nil, 1607154808)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(146400, 166200, 9100),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-<<<<<<< HEAD
-	'AllowedMask', 4294967279,
-=======
 	'AllowedMask', 16,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 2,
 	'material', "Wood",
 	'variant', "OutdoorIndoor",
@@ -40609,11 +39246,7 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-<<<<<<< HEAD
-	'AllowedMask', 4294967279,
-=======
 	'AllowedMask', 16,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 2,
 	'material', "Wood",
 	'variant', "OutdoorIndoor",
@@ -40653,8 +39286,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1870153017)
-<<<<<<< HEAD
-=======
 PlaceObj('Cinematic_Ashtray_01', {
 	'Pos', point(146337, 166549, 9120),
 	'Saturation', 0,
@@ -40676,7 +39307,6 @@ PlaceObj('Shanty_Table_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1525327401)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(145800, 167400, 8400),
 	'Saturation', 0,
@@ -40697,8 +39327,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1730605702)
-<<<<<<< HEAD
-=======
 PlaceObj('BunkerInterior_PlatePile_05', {
 	'Pos', point(145805, 167814, 9220),
 	'Angle', 10563,
@@ -40714,7 +39342,6 @@ PlaceObj('BunkerInterior_PlatePile_05', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1348795387)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(146400, 167400, 8400),
 	'Saturation', 0,
@@ -40784,8 +39411,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1411735217)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(146091, 167889, 8400),
 	'Angle', 13878,
@@ -40793,7 +39418,6 @@ PlaceObj('Shanty_BeerBottle_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1824718711)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(143400, 168600, 8400),
 	'Saturation', 0,
@@ -40897,8 +39521,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1392497253)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_WallShed_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 77, 53, 255),
@@ -40917,7 +39539,6 @@ PlaceObj('Shanty_WallShed_04', {
 	'CollectionIndex', 2364,
 	'AllowedMask', 782,
 }, nil, 1388445890)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(144600, 169200, 8400),
 	'Angle', 5400,
@@ -40937,19 +39558,13 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-<<<<<<< HEAD
-	'AllowedMask', 4294967279,
-=======
 	'AllowedMask', 16,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 2,
 	'material', "Wood",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1050720378)
-<<<<<<< HEAD
-=======
 PlaceObj('Window_Planks_Single_04', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(52, 45, 41, 255),
@@ -40964,18 +39579,13 @@ PlaceObj('Window_Planks_Single_04', {
 	'subvariant', 4,
 	'height', 2,
 }, nil, 1175637873)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(144600, 169200, 9800),
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-<<<<<<< HEAD
-	'AllowedMask', 4294967279,
-=======
 	'AllowedMask', 16,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 1,
 	'material', "Wood",
 	'variant', "OutdoorIndoor",
@@ -41006,8 +39616,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1161486780)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(144934, 169367),
 	'Angle', 6138,
@@ -41021,7 +39629,6 @@ PlaceObj('Shanty_BeerBottle_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1645968282)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(145800, 168600, 8400),
 	'Saturation', 0,
@@ -41083,9 +39690,6 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-<<<<<<< HEAD
-	'AllowedMask', 4294967279,
-=======
 	'AllowedMask', 0,
 	'subvariant', 4,
 	'material', "Wood",
@@ -41122,15 +39726,12 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 16,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 4,
 	'material', "Wood",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1441790115)
-<<<<<<< HEAD
-=======
 PlaceObj('WallSlab', {
 	'Pos', point(146400, 168600, 10500),
 	'Saturation', 0,
@@ -41182,7 +39783,6 @@ PlaceObj('WindowVent_Planks_Small_02', {
 	'height', 1,
 	'owned_slabs', {o(1112053089),o(1744397910),},
 }, nil, 1776890663)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoofWallSlab', {
 	'Pos', point(146400, 168600, 11200),
 	'Saturation', 0,
@@ -41346,11 +39946,7 @@ PlaceObj('AL_Roam', {
 	'AttractGender', "Male",
 }, nil, 1675467728)
 PlaceObj('SavannaPlant_04_Umbrella_01', {
-<<<<<<< HEAD
-	'Pos', point(146046, 179464, 10535),
-=======
 	'Pos', point(146045, 179465, 10535),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Angle', 5130,
 	'Scale', 125,
 	'Saturation', 0,
@@ -41546,8 +40142,6 @@ PlaceObj('RoomCorner', {
 	'forceInvulnerableBecauseOfGameRules', false,
 	'isPlug', true,
 }, nil, 1542281447)
-<<<<<<< HEAD
-=======
 PlaceObj('Farmland_PalmBundle_01', {
 	'Pos', point(150510, 165545, 8400),
 	'Angle', 20786,
@@ -41564,7 +40158,6 @@ PlaceObj('Farmland_RakerShovel', {
 	'CollectionIndex', 2342,
 	'AllowedMask', 4294967279,
 }, nil, 1480241241)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(150600, 164400, 8400),
 	'Angle', 16200,
@@ -41648,11 +40241,7 @@ PlaceObj('RoomCorner', {
 	'AllowedMask', 16,
 	'material', "none",
 	'forceInvulnerableBecauseOfGameRules', false,
-<<<<<<< HEAD
-}, nil, 1817239265)
-=======
 }, nil, 1790322664)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoomCorner', {
 	'Pos', point(151200, 164400, 9100),
 	'Saturation', 0,
@@ -41661,11 +40250,7 @@ PlaceObj('RoomCorner', {
 	'AllowedMask', 16,
 	'material', "none",
 	'forceInvulnerableBecauseOfGameRules', false,
-<<<<<<< HEAD
-}, nil, 1848359207)
-=======
 }, nil, 1796727654)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoomCorner', {
 	'Pos', point(151200, 164400, 9800),
 	'Saturation', 0,
@@ -41674,11 +40259,7 @@ PlaceObj('RoomCorner', {
 	'AllowedMask', 16,
 	'material', "none",
 	'forceInvulnerableBecauseOfGameRules', false,
-<<<<<<< HEAD
-}, nil, 1197495355)
-=======
 }, nil, 1067361367)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoomCorner', {
 	'Pos', point(151200, 164400, 9800),
 	'Saturation', 0,
@@ -41688,22 +40269,7 @@ PlaceObj('RoomCorner', {
 	'material', "none",
 	'forceInvulnerableBecauseOfGameRules', false,
 	'isPlug', true,
-<<<<<<< HEAD
-}, nil, 1886496654)
-PlaceObj('RoofCorner', {
-	'Pos', point(151200, 164400, 10500),
-	'Angle', 10800,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'subvariant', 1,
-	'material', "Wood",
-	'dir', "West",
-}, nil, 1391731403)
-=======
 }, nil, 1078470590)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(150600, 165000, 8400),
 	'Saturation', 0,
@@ -41723,8 +40289,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "West",
 }, nil, 1358141411)
-<<<<<<< HEAD
-=======
 PlaceObj('Farmland_PalmBucket_01', {
 	'Pos', point(150695, 164994, 8400),
 	'Angle', 605,
@@ -41732,7 +40296,6 @@ PlaceObj('Farmland_PalmBucket_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1608634955)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(150600, 165600, 8400),
 	'Angle', 16200,
@@ -41772,8 +40335,6 @@ PlaceObj('WallSlab', {
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1841464753)
 PlaceObj('WallSlab', {
-<<<<<<< HEAD
-=======
 	'Pos', point(151200, 165000, 8400),
 	'Angle', 10800,
 	'Saturation', 0,
@@ -41813,7 +40374,6 @@ PlaceObj('WallSlab', {
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1856708196)
 PlaceObj('WallSlab', {
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Pos', point(150000, 166200, 8400),
 	'Angle', 10800,
 	'Saturation', 0,
@@ -41927,8 +40487,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "West",
 }, nil, 1617538581)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_WallShed_05', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(69, 58, 39, 255),
@@ -41940,7 +40498,6 @@ PlaceObj('Shanty_WallShed_05', {
 	'CollectionIndex', 1129,
 	'AllowedMask', 782,
 }, nil, 1561470546)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(150000, 167400, 8400),
 	'Angle', 10800,
@@ -42083,8 +40640,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "West",
 }, nil, 1392529552)
-<<<<<<< HEAD
-=======
 PlaceObj('WallSlab', {
 	'Pos', point(151200, 166200, 8400),
 	'Angle', 10800,
@@ -42124,7 +40679,6 @@ PlaceObj('WallSlab', {
 	'indoor_material_1', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1445875448)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Room', {
 	'roof_direction', "West",
 	'roof_inclination', 420,
@@ -42186,10 +40740,7 @@ PlaceObj('Room', {
 		'EditableRoughness3', 31,
 		'EditableMetallic3', -70,
 	}),
-<<<<<<< HEAD
-=======
 	'spawned_windows', {},
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'spawned_floors', {o(1523772287),o(1561942057),o(1331085906),o(1846285717),},
 	'spawned_walls', {
         East = {o(1118264388),o(1199180246),o(1808357221),o(1212366881),o(1159526914),o(1161341847),},
@@ -42202,8 +40753,6 @@ PlaceObj('Room', {
         South = {o(1384779361),o(1112752892),o(1030001219),o(1377881877),},
         West = {o(1835770373),o(1686065484),o(1626342171),o(1372066449),},},
 }, nil, 1618603823)
-<<<<<<< HEAD
-=======
 PlaceObj('RoomCorner', {
 	'Pos', point(151200, 166800, 8400),
 	'Saturation', 0,
@@ -42241,7 +40790,6 @@ PlaceObj('RoomCorner', {
 	'forceInvulnerableBecauseOfGameRules', false,
 	'isPlug', true,
 }, nil, 1653495139)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(150600, 167400, 8400),
 	'Saturation', 0,
@@ -42459,8 +41007,6 @@ PlaceObj('RoofCorner', {
 	'material', "Tin",
 	'dir', "West",
 }, nil, 1134451171)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_PlasticBarrel_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(124, 130, 96, 255),
@@ -42474,7 +41020,6 @@ PlaceObj('Shanty_PlasticBarrel_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1422133642)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(150600, 168000, 8400),
 	'Angle', 5400,
@@ -42540,10 +41085,7 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-<<<<<<< HEAD
-=======
 	'destroyed_neighbours', 1,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 4,
 	'material', "Wood",
 	'variant', "OutdoorIndoor",
@@ -42556,14 +41098,9 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-<<<<<<< HEAD
-	'AllowedMask', 4294967279,
-	'subvariant', 3,
-=======
 	'AllowedMask', 0,
 	'is_destroyed', true,
 	'pre_destruction_subvariant', 3,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'material', "Wood",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
@@ -42576,13 +41113,10 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-<<<<<<< HEAD
-=======
 	'destroyed_neighbours', 2,
 	'destroyed_entity', "WallExt_Wood_Wall_ExIn_Broken_B_01",
 	'destroyed_entity_side', 2,
 	'pre_destruction_subvariant', 1,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 1,
 	'material', "Wood",
 	'variant', "OutdoorIndoor",
@@ -42625,8 +41159,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "West",
 }, nil, 1415278569)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_PlasticBarrel_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(124, 130, 96, 255),
@@ -42653,7 +41185,6 @@ PlaceObj('Shanty_PlasticBarrel_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1265878079)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(151800, 164400, 8400),
 	'Angle', 16200,
@@ -42669,51 +41200,30 @@ PlaceObj('WallSlab', {
 }, nil, 1076285513)
 PlaceObj('WallSlab', {
 	'Pos', point(151800, 164400, 8400),
-<<<<<<< HEAD
-	'Angle', 5400,
-=======
 	'Angle', 16200,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 16,
-<<<<<<< HEAD
-=======
 	'subvariant', 4,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'material', "none",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
-<<<<<<< HEAD
-}, nil, 1114476538)
-PlaceObj('WallSlab', {
-	'Pos', point(151800, 164400, 9100),
-	'Angle', 5400,
-=======
 }, nil, 1707954939)
 PlaceObj('WallSlab', {
 	'Pos', point(151800, 164400, 9100),
 	'Angle', 16200,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 16,
-<<<<<<< HEAD
-=======
 	'subvariant', 2,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'material', "none",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
-<<<<<<< HEAD
-}, nil, 1638417515)
-=======
 }, nil, 1636209148)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(151800, 164400, 9100),
 	'Angle', 16200,
@@ -42729,11 +41239,7 @@ PlaceObj('WallSlab', {
 }, nil, 1684405051)
 PlaceObj('WallSlab', {
 	'Pos', point(151800, 164400, 9800),
-<<<<<<< HEAD
-	'Angle', 5400,
-=======
 	'Angle', 16200,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
@@ -42742,11 +41248,7 @@ PlaceObj('WallSlab', {
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
-<<<<<<< HEAD
-}, nil, 1229862226)
-=======
 }, nil, 1252888450)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(151800, 164400, 9800),
 	'Angle', 16200,
@@ -42760,20 +41262,6 @@ PlaceObj('WallSlab', {
 	'indoor_material_1', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1327698870)
-<<<<<<< HEAD
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(151800, 164400, 10500),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'subvariant', 1,
-	'material', "Wood",
-	'dir', "West",
-}, nil, 1835731036)
-=======
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(151800, 164400, 10500),
 	'Angle', 16200,
@@ -42810,8 +41298,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "West",
 }, nil, 1780374508)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_WallShed_05', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(69, 58, 39, 255),
@@ -42824,18 +41310,11 @@ PlaceObj('Shanty_WallShed_05', {
 	'CollectionIndex', 1129,
 	'AllowedMask', 782,
 }, nil, 1029372764)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(151800, 165000, 8400),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-<<<<<<< HEAD
-	'AllowedMask', 4294967279,
-	'subvariant', 4,
-	'material', "WoodScaff",
-}, nil, 1394638836)
-=======
 	'AllowedMask', 16,
 	'subvariant', 4,
 	'material', "WoodScaff",
@@ -42849,7 +41328,6 @@ PlaceObj('FloorSlab', {
 	'subvariant', 4,
 	'material', "WoodScaff",
 }, nil, 1517106306)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(151800, 165000, 11567),
 	'Saturation', 0,
@@ -42907,8 +41385,6 @@ PlaceObj('RoomCorner', {
 	'material', "none",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1131210436)
-<<<<<<< HEAD
-=======
 PlaceObj('Room', {
 	'roof_direction', "West",
 	'roof_inclination', 420,
@@ -42982,7 +41458,6 @@ PlaceObj('Room', {
         South = {o(1718663407),o(1414314573),o(1684819365),o(1377276434),},
         West = {o(1680200825),o(1567009968),o(1480046592),o(1653495139),},},
 }, nil, 1809281881)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoomCorner', {
 	'Pos', point(152400, 165600, 9100),
 	'Saturation', 0,
@@ -43019,8 +41494,6 @@ PlaceObj('WallSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 3,
-<<<<<<< HEAD
-=======
 	'material', "none",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
@@ -43034,37 +41507,24 @@ PlaceObj('WallSlab', {
 	'Warped', true,
 	'AllowedMask', 16,
 	'subvariant', 3,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'material', "Wood",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1329937814)
 PlaceObj('WallSlab', {
-<<<<<<< HEAD
-	'Pos', point(153000, 164400, 8400),
-	'Angle', 5400,
-=======
 	'Pos', point(153000, 164400, 9100),
 	'Angle', 16200,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 16,
-<<<<<<< HEAD
-=======
 	'subvariant', 1,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'material', "none",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
-<<<<<<< HEAD
-}, nil, 1644288406)
-=======
 }, nil, 1244648017)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(153000, 164400, 9100),
 	'Angle', 16200,
@@ -43079,33 +41539,6 @@ PlaceObj('WallSlab', {
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1289519223)
 PlaceObj('WallSlab', {
-<<<<<<< HEAD
-	'Pos', point(153000, 164400, 9100),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'variant', "OutdoorIndoor",
-	'indoor_material_1', "Wood",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1561779840)
-PlaceObj('WallSlab', {
-	'Pos', point(153000, 164400, 9800),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'material', "none",
-	'variant', "OutdoorIndoor",
-	'indoor_material_1', "Wood",
-	'forceInvulnerableBecauseOfGameRules', false,
-}, nil, 1442089924)
-PlaceObj('WallSlab', {
-=======
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Pos', point(153000, 164400, 9800),
 	'Angle', 16200,
 	'Saturation', 0,
@@ -43119,8 +41552,6 @@ PlaceObj('WallSlab', {
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1630213316)
 PlaceObj('WallSlab', {
-<<<<<<< HEAD
-=======
 	'Pos', point(153000, 164400, 9800),
 	'Angle', 16200,
 	'Saturation', 0,
@@ -43133,7 +41564,6 @@ PlaceObj('WallSlab', {
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1739247812)
 PlaceObj('WallSlab', {
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Pos', point(153000, 164400, 10500),
 	'Angle', 16200,
 	'Saturation', 0,
@@ -43146,20 +41576,6 @@ PlaceObj('WallSlab', {
 	'indoor_material_1', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1136180656)
-<<<<<<< HEAD
-PlaceObj('RoofEdgeSlab', {
-	'Pos', point(153000, 164400, 10500),
-	'Angle', 5400,
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'subvariant', 1,
-	'material', "Wood",
-	'dir', "West",
-}, nil, 1517057000)
-=======
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoofWallSlab', {
 	'Pos', point(153000, 164400, 11200),
 	'Angle', 16200,
@@ -43188,9 +41604,6 @@ PlaceObj('FloorSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-<<<<<<< HEAD
-	'AllowedMask', 4294967279,
-=======
 	'AllowedMask', 16,
 	'subvariant', 3,
 	'material', "WoodScaff",
@@ -43201,7 +41614,6 @@ PlaceObj('FloorSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 16,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 2,
 	'material', "WoodScaff",
 }, nil, 1783038123)
@@ -43221,8 +41633,6 @@ PlaceObj('FloorSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 16,
-<<<<<<< HEAD
-=======
 	'subvariant', 2,
 	'material', "WoodScaff",
 }, nil, 1200103642)
@@ -43232,7 +41642,6 @@ PlaceObj('FloorSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 16,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 3,
 	'material', "WoodScaff",
 }, nil, 1331085906)
@@ -43241,11 +41650,7 @@ PlaceObj('FloorSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-<<<<<<< HEAD
-	'AllowedMask', 4294967279,
-=======
 	'AllowedMask', 16,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 4,
 	'material', "WoodScaff",
 }, nil, 1836511474)
@@ -43260,8 +41665,6 @@ PlaceObj('RoofPlaneSlab', {
 	'dir', "West",
 }, nil, 1730610615)
 PlaceObj('WallSlab', {
-<<<<<<< HEAD
-=======
 	'Pos', point(151800, 166800, 8400),
 	'Angle', 5400,
 	'Saturation', 0,
@@ -43301,7 +41704,6 @@ PlaceObj('WallSlab', {
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1872537714)
 PlaceObj('WallSlab', {
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Pos', point(152400, 166200, 8400),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -43414,10 +41816,7 @@ PlaceObj('Room', {
 		'EditableRoughness3', 31,
 		'EditableMetallic3', -70,
 	}),
-<<<<<<< HEAD
-=======
 	'spawned_windows', {},
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'spawned_floors', {o(1672204245),o(1178456597),o(1570790403),o(1226188664),o(1394638836),o(1836511474),o(1212131132),o(1286406710),o(1783038123),o(1884115742),o(1573721067),o(1126663893),o(1207683445),o(1612676252),o(1570986567),o(1133625166),},
 	'spawned_walls', {
         East = {o(1693996202),o(1057760363),o(1820865077),o(1838648299),o(1348471456),o(1337995289),o(1856039889),o(1229471392),o(1838227267),o(1000872731),o(1801974636),o(1310617976),o(1499883406),o(1630727010),o(1842827384),o(1452651125),},
@@ -43494,8 +41893,6 @@ PlaceObj('WallSlab', {
 	'indoor_material_1', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1161341847)
-<<<<<<< HEAD
-=======
 PlaceObj('Farmland_CratePileEmpty_01', {
 	'ColorizationPalette', "",
 	'EditableColor2', RGBA(78, 60, 44, 255),
@@ -43506,15 +41903,11 @@ PlaceObj('Farmland_CratePileEmpty_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1349395080)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(153000, 166200, 8400),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-<<<<<<< HEAD
-	'AllowedMask', 4294967279,
-=======
 	'AllowedMask', 16,
 	'subvariant', 4,
 	'material', "WoodScaff",
@@ -43525,7 +41918,6 @@ PlaceObj('FloorSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 16,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 2,
 	'material', "WoodScaff",
 }, nil, 1884115742)
@@ -43539,8 +41931,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "West",
 }, nil, 1702361189)
-<<<<<<< HEAD
-=======
 PlaceObj('WallSlab', {
 	'Pos', point(153000, 166800, 8400),
 	'Angle', 5400,
@@ -43580,7 +41970,6 @@ PlaceObj('WallSlab', {
 	'indoor_material_1', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1660449112)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(153000, 167400, 8400),
 	'Saturation', 0,
@@ -43600,8 +41989,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "West",
 }, nil, 1784461683)
-<<<<<<< HEAD
-=======
 PlaceObj('Farmland_ContainerFull_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(215, 159, 80, 255),
@@ -43612,7 +41999,6 @@ PlaceObj('Farmland_ContainerFull_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1088799740)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoomCorner', {
 	'Pos', point(153600, 164400, 8400),
 	'Saturation', 0,
@@ -43621,11 +42007,7 @@ PlaceObj('RoomCorner', {
 	'AllowedMask', 16,
 	'material', "none",
 	'forceInvulnerableBecauseOfGameRules', false,
-<<<<<<< HEAD
-}, nil, 1005461647)
-=======
 }, nil, 1583540951)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoomCorner', {
 	'Pos', point(153600, 164400, 9100),
 	'Saturation', 0,
@@ -43634,11 +42016,7 @@ PlaceObj('RoomCorner', {
 	'AllowedMask', 16,
 	'material', "none",
 	'forceInvulnerableBecauseOfGameRules', false,
-<<<<<<< HEAD
-}, nil, 1122768754)
-=======
 }, nil, 1643849822)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoomCorner', {
 	'Pos', point(153600, 164400, 9800),
 	'Saturation', 0,
@@ -43647,11 +42025,7 @@ PlaceObj('RoomCorner', {
 	'AllowedMask', 16,
 	'material', "none",
 	'forceInvulnerableBecauseOfGameRules', false,
-<<<<<<< HEAD
-}, nil, 1102012757)
-=======
 }, nil, 1023642959)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoomCorner', {
 	'Pos', point(153600, 164400, 9800),
 	'Saturation', 0,
@@ -43661,21 +42035,7 @@ PlaceObj('RoomCorner', {
 	'material', "none",
 	'forceInvulnerableBecauseOfGameRules', false,
 	'isPlug', true,
-<<<<<<< HEAD
-}, nil, 1104752307)
-PlaceObj('RoofCorner', {
-	'Pos', point(153600, 164400, 10500),
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'Warped', true,
-	'AllowedMask', 16,
-	'subvariant', 1,
-	'material', "Wood",
-	'dir', "West",
-}, nil, 1507733532)
-=======
 }, nil, 1838896244)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(154200, 164400, 8400),
 	'Angle', 16200,
@@ -43751,8 +42111,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "West",
 }, nil, 1827172538)
-<<<<<<< HEAD
-=======
 PlaceObj('WallSlab', {
 	'Pos', point(153600, 165000, 8400),
 	'Saturation', 0,
@@ -43789,7 +42147,6 @@ PlaceObj('WallSlab', {
 	'indoor_material_1', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1042533686)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(154200, 165000, 8400),
 	'Saturation', 0,
@@ -43905,10 +42262,7 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-<<<<<<< HEAD
-=======
 	'destroyed_neighbours', 4,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 1,
 	'material', "Wood",
 	'variant', "OutdoorIndoor",
@@ -43937,8 +42291,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "West",
 }, nil, 1792271468)
-<<<<<<< HEAD
-=======
 PlaceObj('WallSlab', {
 	'Pos', point(153600, 166200, 8400),
 	'Saturation', 0,
@@ -44012,7 +42364,6 @@ PlaceObj('RoomCorner', {
 	'material', "none",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1684819365)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(154200, 166200, 8400),
 	'Saturation', 0,
@@ -44069,15 +42420,11 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-<<<<<<< HEAD
-	'subvariant', 2,
-=======
 	'destroyed_neighbours', 1,
 	'destroyed_entity', "WallExt_Wood_Wall_ExIn_Broken_T_01",
 	'destroyed_entity_side', 1,
 	'pre_destruction_subvariant', 2,
 	'subvariant', 1,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'material', "Wood",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
@@ -44088,13 +42435,9 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-<<<<<<< HEAD
-	'AllowedMask', 4294967279,
-=======
 	'AllowedMask', 0,
 	'is_destroyed', true,
 	'pre_destruction_subvariant', 2,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 2,
 	'material', "Wood",
 	'variant', "OutdoorIndoor",
@@ -44107,10 +42450,7 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-<<<<<<< HEAD
-=======
 	'destroyed_neighbours', 2,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 3,
 	'material', "Wood",
 	'variant', "OutdoorIndoor",
@@ -44157,15 +42497,11 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-<<<<<<< HEAD
-	'subvariant', 2,
-=======
 	'destroyed_neighbours', 8,
 	'destroyed_entity', "WallExt_Wood_Wall_ExIn_Broken_R_03",
 	'destroyed_entity_side', 8,
 	'pre_destruction_subvariant', 2,
 	'subvariant', 3,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'material', "Wood",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
@@ -44308,15 +42644,11 @@ PlaceObj('WallSlab', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
 	'AllowedMask', 4294967279,
-<<<<<<< HEAD
-	'subvariant', 3,
-=======
 	'destroyed_neighbours', 4,
 	'destroyed_entity', "WallExt_Wood_Wall_ExIn_Broken_R_01",
 	'destroyed_entity_side', 4,
 	'pre_destruction_subvariant', 3,
 	'subvariant', 1,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'material', "Wood",
 	'variant', "OutdoorIndoor",
 	'indoor_material_1', "Wood",
@@ -44371,8 +42703,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "West",
 }, nil, 1786826953)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_PlasticBarrel_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(124, 130, 96, 255),
@@ -44386,7 +42716,6 @@ PlaceObj('Shanty_PlasticBarrel_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1062837733)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(153000, 168600, 8400),
 	'Saturation', 0,
@@ -44481,8 +42810,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "West",
 }, nil, 1644944328)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_PlasticBarrel_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(124, 130, 96, 255),
@@ -44496,7 +42823,6 @@ PlaceObj('Shanty_PlasticBarrel_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1673906851)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(154200, 168600, 8400),
 	'Saturation', 0,
@@ -46392,8 +44718,6 @@ PlaceObj('RoomCorner', {
 	'material', "ConcreteThin",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1280248341)
-<<<<<<< HEAD
-=======
 PlaceObj('MajorTent_Roof_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(29, 27, 21, 255),
@@ -46570,7 +44894,6 @@ PlaceObj('Shanty_TirePainted_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1239304153)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FlyingGrass', {
 	'Pos', point(171567, 144531, 9440),
 	'AllowedMask', 4294966497,
@@ -47213,8 +45536,6 @@ PlaceObj('RoofCorner', {
 	'material', "Tin",
 	'dir', "East",
 }, nil, 1396518174)
-<<<<<<< HEAD
-=======
 PlaceObj('City_ElectricityPole_Small_04', {
 	'Pos', point(175275, 132112, 11679),
 	'Angle', 8100,
@@ -47265,13 +45586,10 @@ PlaceObj('AutoMechanic_FloorJack', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1429401132)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FlyingPetals', {
 	'Pos', point(174338, 137765, 9099),
 	'AllowedMask', 4294966497,
 }, nil, 1739592825)
-<<<<<<< HEAD
-=======
 PlaceObj('TwoPointsAttach', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -47326,13 +45644,10 @@ PlaceObj('StairSlab', {
 		'EditableColor3', RGBA(69, 58, 39, 255),
 	}),
 }, nil, 1673159951)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FlyingPetals', {
 	'Pos', point(176035, 143807, 9715),
 	'AllowedMask', 4294966497,
 }, nil, 1589831511)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_WoodenFence_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(57, 43, 28, 255),
@@ -47357,13 +45672,10 @@ PlaceObj('Shanty_WoodenFence_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1391169613)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Butterflies', {
 	'Pos', point(178354, 145472, 9873),
 	'AllowedMask', 4294966497,
 }, nil, 1114638498)
-<<<<<<< HEAD
-=======
 PlaceObj('Vehicle_LuxuryCar_Old', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(48, 25, 14, 255),
@@ -47382,17 +45694,12 @@ PlaceObj('Vehicle_LuxuryCar_Old', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1469589269)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('AL_PlayAnimVariation', {
 	'Entity', "NPCCostumeMale_Shirt_01",
 	'Pos', point(168180, 150906, 8651),
 	'Angle', 7050,
 	'Groups', {
-<<<<<<< HEAD
-		"AL_Beach",
-=======
 		"Closest AmbientZoneMarker",
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	},
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -48024,34 +46331,6 @@ PlaceObj('FlyingGrass', {
 	'Pos', point(174518, 159386, 8892),
 	'AllowedMask', 4294966497,
 }, nil, 1070295449)
-<<<<<<< HEAD
-PlaceObj('AL_Football', {
-	'Entity', "EquipmentSmiley_Top",
-	'Pos', point(178162, 156947, 8495),
-	'Angle', 9756,
-	'Groups', {
-		"AL_Beach",
-	},
-	'Saturation', 0,
-	'Gamma', RGBA(0, 0, 128, 255),
-	'CollectionIndex', 3721,
-	'AllowedMask', 4294966497,
-	'anim', "civ_Ambient_PlayFootball",
-	'VisitMinDuration', 9999000,
-	'GameStatesFilter', set({
-	Conflict = false,
-}),
-	'ChanceSpawn', 100,
-	'AttractGender', "Male",
-	'PartnerUnitDataDef', "VillagerMale_3",
-	'PartnerLocation', point(141000, 168600, 8419),
-	'BallSpeedMin', 5000,
-	'BallSpeedMax', 7000,
-	'BallRPMMin', 45,
-	'BallRPMMax', 90,
-}, nil, 1135632614)
-=======
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Shanty_Ball_01', {
 	'Pos', point(178169, 157619, 8572),
 	'Angle', 184,
@@ -48097,8 +46376,6 @@ PlaceObj('BunkerInterior_BarrelPile_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1598089318)
-<<<<<<< HEAD
-=======
 PlaceObj('Scaffolding_Planks_02', {
 	'Pos', point(183991, 132546, 10193),
 	'Angle', 20988,
@@ -48129,7 +46406,6 @@ PlaceObj('StairSlab', {
 		'EditableColor3', RGBA(69, 58, 39, 255),
 	}),
 }, nil, 1169651875)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(181800, 138600, 9800),
 	'Saturation', 0,
@@ -48144,8 +46420,6 @@ PlaceObj('FloorSlab', {
 		'EditableColor3', RGBA(69, 58, 39, 255),
 	}),
 }, nil, 1266612461)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_BeerBottle_01', {
 	'Pos', point(182361, 137923, 10878),
 	'Angle', 3443,
@@ -48172,7 +46446,6 @@ PlaceObj('City_ElectricityPole_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1851300224)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(183000, 138600, 9800),
 	'Saturation', 0,
@@ -48187,8 +46460,6 @@ PlaceObj('FloorSlab', {
 		'EditableColor3', RGBA(69, 58, 39, 255),
 	}),
 }, nil, 1459330828)
-<<<<<<< HEAD
-=======
 PlaceObj('StairSlab', {
 	'Pos', point(184200, 137400, 9800),
 	'Saturation', 0,
@@ -48201,7 +46472,6 @@ PlaceObj('StairSlab', {
 		'EditableColor3', RGBA(69, 58, 39, 255),
 	}),
 }, nil, 1626290381)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(184200, 138600, 9800),
 	'Saturation', 0,
@@ -48216,8 +46486,6 @@ PlaceObj('FloorSlab', {
 		'EditableColor3', RGBA(69, 58, 39, 255),
 	}),
 }, nil, 1614314153)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_BucketPlastic_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(22, 66, 8, 255),
@@ -48258,7 +46526,6 @@ PlaceObj('Shanty_BucketPlastic_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1518475209)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoomCorner', {
 	'Pos', point(181200, 140400, 9800),
 	'Angle', 10800,
@@ -48544,8 +46811,6 @@ PlaceObj('FloorSlab', {
 	'subvariant', 2,
 	'material', "WoodScaff",
 }, nil, 1410256875)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_Locker_01', {
 	'Pos', point(181800, 142200, 9800),
 	'Angle', 10800,
@@ -48553,7 +46818,6 @@ PlaceObj('Shanty_Locker_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1608397241)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(181800, 142200, 12727),
 	'Angle', 10800,
@@ -48791,8 +47055,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Straw",
 	'dir', "East",
 }, nil, 1616761565)
-<<<<<<< HEAD
-=======
 PlaceObj('Colonial_Table_01', {
 	'Pos', point(184241, 141033, 9800),
 	'Angle', 10800,
@@ -48800,7 +47062,6 @@ PlaceObj('Colonial_Table_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1682162803)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(183000, 142200, 9800),
 	'Saturation', 0,
@@ -48971,8 +47232,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Straw",
 	'dir', "East",
 }, nil, 1771494672)
-<<<<<<< HEAD
-=======
 PlaceObj('Bunker_MetalBed_01', {
 	'Pos', point(181840, 143381, 9800),
 	'Angle', 5400,
@@ -48980,7 +47239,6 @@ PlaceObj('Bunker_MetalBed_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1892036805)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(181800, 144600, 9800),
 	'Saturation', 0,
@@ -49128,15 +47386,12 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Straw",
 	'dir', "East",
 }, nil, 1521265155)
-<<<<<<< HEAD
-=======
 PlaceObj('Prison_MetalCloset_01', {
 	'Pos', point(181593, 145744, 9800),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1630006103)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(181800, 145800, 9800),
 	'Saturation', 0,
@@ -49355,8 +47610,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Straw",
 	'dir', "East",
 }, nil, 1403046305)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_WoodenFence_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(57, 43, 28, 255),
@@ -49369,7 +47622,6 @@ PlaceObj('Shanty_WoodenFence_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1722362020)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(185400, 140400, 9800),
 	'Angle', 16200,
@@ -49532,8 +47784,6 @@ PlaceObj('GableCapRoofEdgeSlab', {
 	'subvariant', 1,
 	'material', "Straw",
 }, nil, 1467708914)
-<<<<<<< HEAD
-=======
 PlaceObj('Colonial_Table_01', {
 	'Pos', point(185433, 143246, 9800),
 	'Angle', 16200,
@@ -49541,7 +47791,6 @@ PlaceObj('Colonial_Table_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1167897806)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(186600, 140400, 9800),
 	'Angle', 16200,
@@ -49867,11 +48116,7 @@ PlaceObj('Room', {
 	'spawned_windows', {
         East = {o(1269654652),o(1868115676),o(1287711688),},
         North = {o(1842023638),o(1044572292),},
-<<<<<<< HEAD
-        South = {o(1436471181),},
-=======
         South = {o(1436471181),o(1029232333),},
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
         West = {o(1337603978),},},
 	'spawned_floors', {o(1557129056),o(1410256875),o(1152047936),o(1585689955),o(1890257601),o(1379081021),o(1052257938),o(1692663528),o(1348785859),o(1027243666),o(1186993776),o(1329601191),o(1114929329),o(1613358266),o(1696263183),o(1068813897),o(1183240127),o(1141319783),o(1167528878),o(1896110582),o(1827150594),o(1325231761),o(1044543346),o(1465387282),o(1728941132),o(1591317537),o(1461997928),o(1347223721),o(1283357370),o(1665478666),o(1773407337),o(1447849549),o(1468775736),o(1535415053),o(1184098952),o(1780078413),o(1180348170),o(1824617781),o(1609589618),o(1856657607),o(1247045008),o(1049537914),o(1605112621),o(1390550855),o(1433967624),o(1459355210),o(1434976608),o(1317020415),o(1180668218),o(1338826314),o(1702462916),o(1681997810),o(1849963169),o(1449869079),o(1613576843),o(1009464723),},
 	'spawned_walls', {
@@ -50107,8 +48352,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Straw",
 	'dir', "West",
 }, nil, 1376187828)
-<<<<<<< HEAD
-=======
 PlaceObj('TwoPointsAttach', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -50120,7 +48363,6 @@ PlaceObj('TwoPointsAttach', {
 	'curve', "Parabola",
 	'length_percents', 101,
 }, nil, 1806461226)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FlyingGrass', {
 	'Pos', point(191428, 137268, 7994),
 	'AllowedMask', 4294966497,
@@ -50309,8 +48551,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Straw",
 	'dir', "West",
 }, nil, 1337351088)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_Sofa_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(38, 4, 4, 255),
@@ -50321,7 +48561,6 @@ PlaceObj('Shanty_Sofa_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1555023912)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(190200, 140400, 9800),
 	'Angle', 16200,
@@ -50681,15 +48920,12 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Straw",
 	'dir', "West",
 }, nil, 1841409526)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_Locker_01', {
 	'Pos', point(190200, 143400, 9800),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1501856495)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(190200, 143400, 9800),
 	'Saturation', 0,
@@ -50766,15 +49002,12 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Straw",
 	'dir', "West",
 }, nil, 1061140354)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_Locker_01', {
 	'Pos', point(190200, 145800, 9800),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1437791401)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(190200, 145800, 9800),
 	'Saturation', 0,
@@ -51704,8 +49937,6 @@ PlaceObj('FloorSlab', {
 		'EditableColor3', RGBA(69, 58, 39, 255),
 	}),
 }, nil, 1546713796)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_PlasticBarrel_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(124, 130, 96, 255),
@@ -51719,7 +49950,6 @@ PlaceObj('Shanty_PlasticBarrel_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1421981183)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(185400, 148200, 9800),
 	'Saturation', 0,
@@ -52017,8 +50247,6 @@ PlaceObj('WallSlab', {
 	'material', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1583292677)
-<<<<<<< HEAD
-=======
 PlaceObj('Window_Planks_Single_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(110, 70, 19, 255),
@@ -52036,18 +50264,13 @@ PlaceObj('Window_Planks_Single_03', {
 	'subvariant', 3,
 	'height', 2,
 }, nil, 1029232333)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(187800, 148800, 10500),
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-<<<<<<< HEAD
-	'AllowedMask', 4294967279,
-=======
 	'AllowedMask', 16,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 4,
 	'material', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -52058,11 +50281,7 @@ PlaceObj('WallSlab', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'Warped', true,
-<<<<<<< HEAD
-	'AllowedMask', 4294967279,
-=======
 	'AllowedMask', 16,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'subvariant', 4,
 	'material', "Wood",
 	'forceInvulnerableBecauseOfGameRules', false,
@@ -52339,8 +50558,6 @@ PlaceObj('AL_PlayAnimVariation', {
 	'ChanceSpawn', 100,
 	'AttractGender', "Female",
 }, nil, 1288434642)
-<<<<<<< HEAD
-=======
 PlaceObj('TwoPointsAttach', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -52351,7 +50568,6 @@ PlaceObj('TwoPointsAttach', {
 	'spot_index2', 0,
 	'length_percents', 104,
 }, nil, 1152579244)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(189000, 148200, 9800),
 	'Saturation', 0,
@@ -52361,15 +50577,12 @@ PlaceObj('FloorSlab', {
 	'subvariant', 5,
 	'material', "WoodScaff",
 }, nil, 1180668218)
-<<<<<<< HEAD
-=======
 PlaceObj('Bunker_MetalBed_02', {
 	'Pos', point(189000, 148200, 9800),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1770585572)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('RoofPlaneSlab', {
 	'Pos', point(189000, 148200, 12981),
 	'Saturation', 0,
@@ -52785,8 +50998,6 @@ PlaceObj('RoofCorner', {
 	'material', "Straw",
 	'dir', "West",
 }, nil, 1325653556)
-<<<<<<< HEAD
-=======
 PlaceObj('City_ElectricityPole_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(46, 37, 37, 255),
@@ -52799,7 +51010,6 @@ PlaceObj('City_ElectricityPole_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1603208057)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Shanty_WoodenFence_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(57, 43, 28, 255),
@@ -52900,8 +51110,6 @@ PlaceObj('Shanty_WoodenFence_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1715474915)
-<<<<<<< HEAD
-=======
 PlaceObj('TwoPointsAttach', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -52957,7 +51165,6 @@ PlaceObj('TwoPointsAttach', {
 	'curve', "Parabola",
 	'length_percents', 105,
 }, nil, 1632184497)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(165000, 164400, 8400),
 	'Angle', 16200,
@@ -52991,8 +51198,6 @@ PlaceObj('FloorSlab', {
 	'subvariant', 1,
 	'material', "none",
 }, nil, 1568287856)
-<<<<<<< HEAD
-=======
 PlaceObj('AL_Football', {
 	'Entity', "EquipmentSmiley_Top",
 	'Pos', point(164784, 167287, 8317),
@@ -53018,7 +51223,6 @@ PlaceObj('AL_Football', {
 	'BallRPMMin', 45,
 	'BallRPMMax', 90,
 }, nil, 1629797886)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(165000, 166200, 8400),
 	'Saturation', 0,
@@ -54161,8 +52365,6 @@ PlaceObj('FloorSlab', {
 	'subvariant', 1,
 	'material', "none",
 }, nil, 1661923842)
-<<<<<<< HEAD
-=======
 PlaceObj('AL_Football', {
 	'Entity', "EquipmentSmiley_Top",
 	'Pos', point(177036, 166783, 8317),
@@ -54188,7 +52390,6 @@ PlaceObj('AL_Football', {
 	'BallRPMMin', 45,
 	'BallRPMMax', 90,
 }, nil, 1135632614)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(177000, 167400, 8400),
 	'Saturation', 0,
@@ -54744,8 +52945,6 @@ PlaceObj('WallSlab', {
 	'material', "Brick",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1481620530)
-<<<<<<< HEAD
-=======
 PlaceObj('TropicalPlant_Dead_07', {
 	'Pos', point(177662, 179304, 7944),
 	'Angle', 825,
@@ -54755,7 +52954,6 @@ PlaceObj('TropicalPlant_Dead_07', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1517160820)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(178200, 176400, 8400),
 	'Angle', 5400,
@@ -54815,8 +53013,6 @@ PlaceObj('SavannaPlant_04_Umbrella_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1406297568)
-<<<<<<< HEAD
-=======
 PlaceObj('TropicalPlant_Dead_03', {
 	'Pos', point(168142, 191893, 14585),
 	'Angle', 2052,
@@ -54835,7 +53031,6 @@ PlaceObj('TropicalPlant_Dead_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1182056864)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(180600, 164400, 8400),
 	'Angle', 16200,
@@ -55208,8 +53403,6 @@ PlaceObj('RoomCorner', {
 	'material', "Brick",
 	'forceInvulnerableBecauseOfGameRules', false,
 }, nil, 1839246248)
-<<<<<<< HEAD
-=======
 PlaceObj('City_ElectricityPole_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(46, 37, 37, 255),
@@ -55223,7 +53416,6 @@ PlaceObj('City_ElectricityPole_01', {
 	'AllowedMask', 782,
 	'AutoAttachMode', "Warm light A",
 }, nil, 1576273278)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(184800, 165000, 8400),
 	'Saturation', 0,
@@ -56657,8 +54849,6 @@ PlaceObj('RoofPlaneSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1332190687)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_Locker_01', {
 	'Pos', point(193800, 178200),
 	'Angle', 10800,
@@ -56666,7 +54856,6 @@ PlaceObj('Shanty_Locker_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1651065215)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FloorSlab', {
 	'Pos', point(193800, 179400, 7700),
 	'Saturation', 0,
@@ -57529,8 +55718,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1647004137)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_PlasticBarrel_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(124, 130, 96, 255),
@@ -57557,7 +55744,6 @@ PlaceObj('Shanty_PlasticBarrel_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1259808459)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('MilitaryCamp_Toilet_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(69, 58, 39, 255),
@@ -57567,8 +55753,6 @@ PlaceObj('MilitaryCamp_Toilet_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1713809075)
-<<<<<<< HEAD
-=======
 PlaceObj('Village_VoodooSacks_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(114, 114, 114, 255),
@@ -57581,7 +55765,6 @@ PlaceObj('Village_VoodooSacks_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1531768592)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(193200, 180600, 7700),
 	'Angle', 10800,
@@ -57657,8 +55840,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "North",
 }, nil, 1167941881)
-<<<<<<< HEAD
-=======
 PlaceObj('Shanty_Sack_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(101, 84, 58, 255),
@@ -57671,7 +55852,6 @@ PlaceObj('Shanty_Sack_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1121705510)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('WallSlab', {
 	'Pos', point(193200, 181800, 7700),
 	'Angle', 10800,
@@ -59895,15 +58075,12 @@ PlaceObj('CeilingSlab', {
 	'subvariant', 4,
 	'material', "WoodScaff",
 }, nil, 1710488428)
-<<<<<<< HEAD
-=======
 PlaceObj('City_ElectricityPole_Small_01', {
 	'Pos', point(196825, 135485, 12632),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 0,
 }, nil, 1256196167)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Mine_WoodenBeam_Vertical_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(79, 71, 67, 255),
@@ -60903,11 +59080,7 @@ PlaceObj('Shanty_TireHorizontal', {
 	'AllowedMask', 782,
 }, nil, 1370573383)
 PlaceObj('Shanty_TireHorizontal', {
-<<<<<<< HEAD
-	'Pos', point(202422, 134887, 13016),
-=======
 	'Pos', point(202414, 134879, 13016),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'CollectionIndex', 727,
@@ -62102,8 +60275,6 @@ PlaceObj('Mine_WoodenBeam_Assembly_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1698479088)
-<<<<<<< HEAD
-=======
 PlaceObj('TwoPointsAttach', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
@@ -62115,7 +60286,6 @@ PlaceObj('TwoPointsAttach', {
 	'curve', "Parabola",
 	'length_percents', 101,
 }, nil, 1774527321)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Mine_WoodenBeam_Assembly_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(79, 71, 67, 255),
@@ -62151,8 +60321,6 @@ PlaceObj('Mine_WoodenBeam_Assembly_02', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1865358905)
-<<<<<<< HEAD
-=======
 PlaceObj('City_ElectricityPole_01', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(46, 37, 37, 255),
@@ -62207,7 +60375,6 @@ PlaceObj('Shanty_BeerBottle_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1836213341)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Mine_WoodenBeam_Assembly_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(79, 71, 67, 255),
@@ -62220,8 +60387,6 @@ PlaceObj('Mine_WoodenBeam_Assembly_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1006819970)
-<<<<<<< HEAD
-=======
 PlaceObj('WW2_SandBag_02', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(55, 46, 31, 255),
@@ -62270,7 +60435,6 @@ PlaceObj('WW2_SandBag_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1819534739)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Mine_WoodenBeam_Assembly_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(79, 71, 67, 255),
@@ -62507,8 +60671,6 @@ PlaceObj('RoofEdgeSlab', {
 	'material', "Tin",
 	'dir', "South",
 }, nil, 1186561698)
-<<<<<<< HEAD
-=======
 PlaceObj('BunkerInterior_PropSet_03', {
 	'ColorizationPalette', "",
 	'EditableColor2', RGBA(29, 24, 12, 255),
@@ -62519,7 +60681,6 @@ PlaceObj('BunkerInterior_PropSet_03', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1537103288)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('FlyingGrass', {
 	'Pos', point(199070, 173488, 8304),
 	'AllowedMask', 4294966497,
@@ -63427,8 +61588,6 @@ PlaceObj('Mine_WoodenBeam_Assembly_04', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 782,
 }, nil, 1368763301)
-<<<<<<< HEAD
-=======
 PlaceObj('Scaffolding_Planks_01', {
 	'Pos', point(206754, 177480, 8280),
 	'Angle', 315,
@@ -63438,7 +61597,6 @@ PlaceObj('Scaffolding_Planks_01', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294967279,
 }, nil, 1120717004)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 PlaceObj('Mine_WoodenBeam_Assembly_03', {
 	'ColorizationPalette', "",
 	'EditableColor1', RGBA(79, 71, 67, 255),
@@ -63911,10 +62069,7 @@ PlaceObj('WindowVent_Planks_Small_01', {
 	'Pos', point(200400, 180600, 10500),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'Warped', true,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'CollectionIndex', 2905,
 	'AllowedMask', 782,
 	'width', 0,
@@ -63988,10 +62143,7 @@ PlaceObj('Window_Shanty_Single_02', {
 	'Pos', point(200400, 181800, 8400),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'Warped', true,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 782,
 	'subvariant', 2,
 	'material', "Shanty",
@@ -64162,10 +62314,7 @@ PlaceObj('Window_Shanty_Single_01', {
 	'Pos', point(200400, 184200, 8400),
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'Warped', true,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 782,
 	'material', "Shanty",
 	'height', 2,
@@ -64439,10 +62588,7 @@ PlaceObj('Window_Shanty_Single_01', {
 	'Angle', 5400,
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
-<<<<<<< HEAD
-=======
 	'Warped', true,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'AllowedMask', 782,
 	'material', "Shanty",
 	'height', 2,
@@ -64698,11 +62844,7 @@ PlaceObj('Mine_WoodenBeam_Assembly_04', {
 	'EditableColor1', RGBA(79, 71, 67, 255),
 	'EditableColor2', RGBA(79, 63, 50, 255),
 	'EditableColor3', RGBA(79, 63, 50, 255),
-<<<<<<< HEAD
-	'Pos', point(201479, 183664, 9440),
-=======
 	'Pos', point(201478, 183669, 9440),
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Angle', 5446,
 	'Axis', point(4042, -468, 468),
 	'Saturation', 0,
@@ -64913,8 +63055,6 @@ PlaceObj('CollectionsToHidePersistableData', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'room', o(1349654525),
 	'Roof', {o(1808149152),},
 }, nil, 1049611761)
@@ -64922,7 +63062,6 @@ PlaceObj('CollectionsToHidePersistableData', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'room', o(1058978352),
 	'West', {o(1234900848),},
 	'North', {o(1234900848),},
@@ -64940,11 +63079,8 @@ PlaceObj('CollectionsToHidePersistableData', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
 	'room', o(1170974140),
-<<<<<<< HEAD
-=======
 	'East', {o(1011916733),o(1232871578),o(1485113306),o(1848300868),},
 	'South', {o(1485113306),},
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Roof', {o(1092922223),},
 }, nil, 1071835405)
 PlaceObj('CollectionsToHidePersistableData', {
@@ -64960,8 +63096,6 @@ PlaceObj('CollectionsToHidePersistableData', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'room', o(1525123610),
 	'South', {o(1595836656),},
 	'Roof', {o(1238360497),},
@@ -64970,7 +63104,6 @@ PlaceObj('CollectionsToHidePersistableData', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'room', o(1084746167),
 	'South', {o(1711052682),},
 	'Roof', {o(1355032935),},
@@ -64980,10 +63113,7 @@ PlaceObj('CollectionsToHidePersistableData', {
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
 	'room', o(1119553618),
-<<<<<<< HEAD
-=======
 	'West', {o(1574667718),},
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'Roof', {o(1092922223),},
 }, nil, 1272821903)
 PlaceObj('CollectionsToHidePersistableData', {
@@ -65006,8 +63136,6 @@ PlaceObj('CollectionsToHidePersistableData', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
-<<<<<<< HEAD
-=======
 	'room', o(1803761645),
 	'West', {o(1653791869),},
 	'North', {o(1653791869),o(1634888275),},
@@ -65016,7 +63144,6 @@ PlaceObj('CollectionsToHidePersistableData', {
 	'Saturation', 0,
 	'Gamma', RGBA(0, 0, 128, 255),
 	'AllowedMask', 4294966497,
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 	'room', o(1731885939),
 	'West', {o(1326361021),},
 	'East', {o(1344875671),o(1310522326),},
@@ -65896,10 +64023,7 @@ p("TropicalRockAssembly_01",129343,63555,8527,7202,250,-170,-80,4091,3200,"terra
 p("TropicalRockAssembly_01",81100,69214,6451,19475,150,-392,579,4036,3200,"terrainchunk",10,0,0,59,86,10,40,60,2228309)
 p("TropicalRockAssembly_04",81286,69154,15319,114,-251,96,4087,3200,"terrainchunk",10,0,0,77,86,10,40,60,2228308)
 p("SavannaRock_08",73660,92693,654,13615,190,-1558,517,3752,"terrainchunk",10,0,0,94,100,10,40,60,2228245)
-<<<<<<< HEAD
-=======
 p("SavannaRock_06",79653,97727,3698,8176,250,-780,-1442,3753,"terrainchunk",10,0,0,19,100,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("TropicalRockAssembly_03",83449,66167,6654,5067,150,-147,-252,4086,3200,"terrainchunk",10,0,0,85,98,10,40,60,2228309)
 p("TropicalRockAssembly_01",83224,68226,6700,19551,150,-396,591,4034,3200,"terrainchunk",10,0,0,59,86,10,40,60,2228309)
 p("TropicalRockAssembly_04",84317,66649,6762,19066,150,-342,450,4057,3200,"terrainchunk",10,0,0,85,98,10,40,60,2228309)
@@ -65914,11 +64038,6 @@ p("DecBunker_ConcretePile_05",88701,70489,541,130,727,-2538,3131,3200,"terrainch
 p("DecBunker_ConcretePile_05",84728,78935,11837,130,-187,33,4092,3200,"terrainchunk",10,0,0,50,100,10,40,60,2228308)
 p("DecBunker_ConcretePile_05",89108,79002,11785,130,-119,100,4093,3200,"terrainchunk",10,0,0,50,100,10,40,60,2228308)
 p("DecBunker_ConcretePile_05",88455,81816,157,130,1204,-3054,2448,3200,"terrainchunk",10,0,0,50,100,10,40,60,2228308)
-<<<<<<< HEAD
-p("DecBunker_ConcretePile_05",89077,85381,19210,130,-193,288,4081,3200,"terrainchunk",10,0,0,50,100,10,40,60,2228308)
-p("SavannaPlant_Bush_05",97910,87830,6935,110,-235,-220,4083,3200,2097236)
-p("TropicalPlant_04_Shrub_01",77905,130963,2196,6560,170,2097157)
-=======
 p("DecBunkerFloor_03",85133,84037,8470,115,4285028678,6,-302,4084,32,2098204)
 p("DecBunker_ConcretePile_02",83505,87788,11210,89,-131,-61,4093,4,"terrainchunk",10,0,0,60,100,10,40,60,2228372)
 p("DecBunker_ConcretePile_05",89077,85381,19210,130,-193,288,4081,3200,"terrainchunk",10,0,0,50,100,10,40,60,2228308)
@@ -66229,7 +64348,6 @@ p("SavannaPlant_Grass_01",92297,127296,2794,1893,200,2097157)
 p("SavannaPlant_Grass_03",93301,128932,2950,21233,68,2097157)
 p("SavannaPlant_Grass_01",92252,130407,3000,4335,140,2097157)
 p("DecBunker_ConcretePile_05",95552,128807,16695,129,18,303,4085,"terrainchunk",10,0,0,31,56,10,40,60,2228244)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_03",98776,71376,10930,152,3200,2097220)
 p("SavannaPlant_Grass_01",99809,72364,9736,4992,152,3200,2097221)
 p("SavannaPlant_Grass_04",101202,70776,15766,149,3200,2097220)
@@ -66244,11 +64362,7 @@ p("SavannaPlant_Grass_01",104010,73110,18161,174,3200,2097220)
 p("SavannaPlant_Bush_05",105755,70910,620,110,-2973,588,2756,3200,2097236)
 p("SavannaPlant_Bush_05",105534,73702,14173,125,-40,-290,4085,3200,2097236)
 p("SavannaPlant_Grass_01",105967,73287,8397,168,3200,2097220)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_04",100122,77219,3240,149,3200,2097220)
-=======
 p("SavannaPlant_Grass_04",100146,77218,3240,149,3200,2097220)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",102187,74137,9528,2514,168,3200,2097221)
 p("SavannaPlant_Grass_02",100772,76213,11506,137,3200,2097220)
 p("TropicalPlant_Dead_01",100862,77808,3267,120,386,-880,3981,3200,2097236)
@@ -66302,13 +64416,8 @@ p("SavannaPlant_Bush_05",101791,88962,2744,101,-646,155,4041,3200,2097236)
 p("SavannaPlant_Bush_05",102463,85533,5890,110,-298,-203,4080,3200,2097236)
 p("TropicalPlant_Dead_01",103304,85472,13862,125,3200,2097220)
 p("TropicalPlant_04_Shrub_01",104962,87621,14696,170,3200,2097220)
-<<<<<<< HEAD
-p("TropicalPlant_04_Shrub_01",103917,91408,8119,200,-872,-543,3965,3200,2097236)
-p("TropicalPlant_04_Shrub_01",105977,91247,5660,170,42,-29,4096,3200,2097236)
-=======
 p("TropicalPlant_04_Shrub_01",103917,91408,8119,200,-872,-543,3965,2097172)
 p("TropicalPlant_04_Shrub_01",105977,91247,5660,170,42,-29,4096,2097172)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("TropicalRockAssembly_01",102819,97775,7210,8431,183,-85,46,4094,1157,"terrainchunk",10,0,0,13,34,42,40,60,2228501)
 p("TropicalPlant_04_Shrub_01",106064,95866,9144,170,-20,0,4096,2097172)
 p("SavannaPlant_Grass_04",108046,83734,12008,150,3200,2097220)
@@ -66340,11 +64449,7 @@ p("SavannaPlant_Grass_04",114474,87733,7709,118,3200,2097220)
 p("SavannaPlant_Bush_05",112980,89380,15081,149,3200,2097220)
 p("SavannaPlant_Grass_02",113546,89756,18905,147,3200,2097220)
 p("SavannaPlant_Bush_07",114250,89031,15021,137,3200,2097220)
-<<<<<<< HEAD
-p("TropicalPlant_04_Shrub_01",106944,93452,5660,134,-11,0,4096,3200,2097236)
-=======
 p("TropicalPlant_04_Shrub_01",106944,93452,5660,134,-11,0,4096,2097172)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("TropicalPlant_04_Shrub_01",107267,96568,10293,158,-248,-26,4088,3200,2097236)
 p("TropicalPlant_04_Shrub_02",107750,96916,5820,158,-39,-96,4094,2097172)
 p("SavannaPlant_Grass_04",111714,90163,20669,144,3200,2097220)
@@ -66626,12 +64731,9 @@ p("SavannaPlant_Grass_02",127770,97949,3168,110,2097156)
 p("SavannaPlant_AloeMarlothii_03",128672,98093,13321,112,3200,2097220)
 p("SavannaPlant_Grass_03",129981,96376,20905,173,2097156)
 p("SavannaPlant_Grass_04",129279,97716,2030,140,2097156)
-<<<<<<< HEAD
-=======
 p("DecBunkerFloor_03",98415,100756,8012,115,4285028678,31,-40,4096,32,2098204)
 p("TropicalRockAssembly_01",99050,105646,7056,14417,111,707,-246,4026,6,"terrainchunk",0,0,0,74,91,10,40,60,2228373)
 p("DecBunker_ConcretePile_02",100784,103570,6956,21159,142,2878,-753,2816,4,"terrainchunk",10,0,0,60,100,10,40,60,2228373)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_02",102276,104023,20883,161,2097156)
 p("SavannaPlant_Grass_02",105284,102235,19456,87,2097156)
 p("SavannaPlant_Grass_01",103628,102771,18513,158,2097156)
@@ -66641,12 +64743,6 @@ p("SavannaPlant_Grass_01",103782,105809,1371,121,2097156)
 p("SavannaPlant_Grass_03",105479,104212,18656,204,2097156)
 p("DecBunker_ConcretePile_04",105806,105171,7246,9330,144,-252,99,4087,"terrainchunk",10,0,0,45,100,10,40,60,2228245)
 p("SavannaPlant_Grass_04",105721,105830,1068,206,2097156)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_03",102635,107035,2268,135,2097156)
-p("SavannaPlant_Grass_02",103636,107176,1823,140,2097156)
-p("SavannaPlant_Grass_01",103939,108475,3539,76,2097156)
-p("TropicalRockAssembly_02",103536,109460,6312,4218,161,-383,-129,4076,4048,"terrainchunk",10,0,0,13,34,10,40,60,2228501)
-=======
 p("TropicalRockAssembly_01",98952,108028,6857,8623,111,308,457,4058,6,"terrainchunk",0,0,0,74,91,10,40,60,2228373)
 p("TropicalRockAssembly_01",99445,109286,6481,982,142,-1492,1485,3513,6,"terrainchunk",0,0,0,74,91,10,40,60,2228373)
 p("SavannaRockWalk_01",99000,112200,5600,16200,"terrainchunk",10,0,0,93,98,10,40,60,2228225)
@@ -66657,17 +64753,12 @@ p("SavannaPlant_Grass_03",102635,107035,2268,135,2097156)
 p("SavannaPlant_Grass_02",103636,107176,1823,140,2097156)
 p("SavannaPlant_Grass_01",103939,108475,3539,76,2097156)
 p("TropicalRockAssembly_02",103536,109449,6373,3861,118,-498,59,4065,4048,"terrainchunk",10,0,0,13,34,10,40,60,2228501)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_03",105468,106916,4255,107,2097156)
 p("SavannaPlant_Grass_04",105991,109160,19288,2097152)
 p("SavannaPlant_Grass_02",105494,110156,19439,189,2097156)
 p("TropicalPlant_04_Shrub_01",103393,110653,6175,3735,170,-319,-437,4060,2097173)
-<<<<<<< HEAD
-p("DecBunker_ConcretePile_05",105359,112183,21109,129,1888,2654,2485,3200,4048,"terrainchunk",10,0,0,31,56,10,40,60,2228564)
-=======
 p("SavannaPlant_Grass_01",102764,113517,5924,16241,158,2097157)
 p("DecBunker_ConcretePile_05",105359,112183,20946,129,2484,3150,824,4048,"terrainchunk",10,0,0,31,56,10,40,60,2228500)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_02",106951,101027,2494,141,2097156)
 p("SavannaPlant_Grass_04",107005,102248,1268,86,2097156)
 p("SavannaPlant_Grass_04",108544,100784,1400,180,2097156)
@@ -66727,13 +64818,6 @@ p("SavannaPlant_Grass_01",113573,107212,3083,134,2097156)
 p("SavannaPlant_Grass_01",113327,109186,17691,206,2097156)
 p("SavannaPlant_Bush_05",114010,110354,7076,18851,165,1026,525,3930,2097173)
 p("Shanty_SandPile_01",111548,112935,6638,11962,144,63,320,4082,2151571588,2149925478,"","terrainchunk",10,0,0,40,60,10,40,60,1075972629)
-<<<<<<< HEAD
-p("DecBunker_ConcretePile_02",104307,118451,5613,9190,129,-322,150,4080,1157,"terrainchunk",10,0,0,31,56,10,40,60,2228501)
-p("DecBunker_ConcretePile_04",105330,129228,4726,10863,144,-260,161,4084,"terrainchunk",10,0,0,45,100,10,40,60,2228245)
-p("TropicalPlant_Dead_02",108708,116153,6988,9227,95,-4058,-551,2,4048,2097429)
-p("TropicalPlant_Dead_01",108812,116075,13196,117,-160,243,4086,4048,2097428)
-p("DecBunker_ConcretePile_05",110773,117254,16695,129,18,303,4085,4048,"terrainchunk",10,0,0,31,56,10,40,60,2228500)
-=======
 p("TropicalRockAssembly_01",99195,117017,4450,17425,134,6,"terrainchunk",0,0,0,74,91,10,40,60,2228357)
 p("DecBunker_ConcretePile_02",104307,118451,5613,9190,129,-322,150,4080,1157,"terrainchunk",10,0,0,31,56,10,40,60,2228501)
 p("DecTyreTracksBrown_06",103576,126707,4976,20525,99,4290632874,49995,2965,2481,1354,55,3146781)
@@ -66750,7 +64834,6 @@ p("DecTyreTracksBrown_03",109351,125784,5320,46,1025)
 p("DecTyreTracksBrown_06",110172,125008,5408,9759,99,4290632874,49995,-203,244,4083,55,3146781)
 p("DecTyreTracksBrown_06",110453,126672,5408,10524,99,4290632874,49995,-226,217,4083,55,3146781)
 p("DecTyreTracksBrown_06",111612,124410,5408,6936,99,4290632874,49995,-103,356,4079,55,3146781)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",115543,99346,21562,125,2097156)
 p("SavannaPlant_Grass_01",116577,99312,17447,85,2097156)
 p("SavannaPlant_Grass_01",114902,100697,19807,202,2097156)
@@ -66786,10 +64869,7 @@ p("SavannaPlant_Grass_04",116879,107414,20371,89,2097156)
 p("SavannaPlant_Grass_01",118086,106964,18714,2097152)
 p("SavannaPlant_Grass_02",117070,108654,2446,168,2097156)
 p("SavannaPlant_Grass_04",118072,108971,1197,178,2097156)
-<<<<<<< HEAD
-=======
 p("TropicalRockAssembly_02",116910,112987,6380,3771,118,-520,234,4056,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecPuddle_11",118282,114248,0)
 p("SavannaPlant_Grass_01",120097,107597,18652,200,2097156)
 p("SavannaPlant_Grass_01",120145,108476,21024,61,2097156)
@@ -66959,10 +65039,7 @@ p("DecBunker_ConcretePile_04",126624,125253,9167,118,-24,-4,4095,"terrainchunk",
 p("Paintbrush",122943,128217,6236,2064,2097153)
 p("DecShantyRubbish_03",128634,126052,0)
 p("Mine_WoodenTray",129699,126162,20858,2097152)
-<<<<<<< HEAD
-=======
 p("SavannaPlant_Grass_01",65153,146037,3338,8258,146,3200,2097221)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("TropicalRockSharp_01",56987,150476,1053,8695,186,-3677,1738,485,"terrainchunk",10,0,0,9,100,10,40,60,2228245)
 p("TropicalRockSharp_01",63405,159125,4540,8507,186,2976,-1971,2008,"terrainchunk",10,0,0,9,100,10,40,60,2228245)
 p("SavannaPlant_Grass_02",64112,163410,17766,66,2097156)
@@ -67729,10 +65806,6 @@ p("SavannaPlant_Grass_02",65489,256520,6870,19811,144,3200,2097221)
 p("SavannaPlant_Grass_01",65504,257053,6964,10051,144,3200,2097221)
 p("SavannaPlant_Grass_01",65260,257972,7104,21468,170,3200,2097221)
 p("SavannaPlant_Grass_04",65106,259390,7312,15185,150,3200,2097221)
-<<<<<<< HEAD
-p("TropicalPlant_04_Shrub_02",79319,133312,2534,11514,170,2097157)
-p("TropicalPlant_04_Shrub_01",81146,134385,2534,10431,170,2097157)
-=======
 p("DecTyreTracksBrown_06",67983,132960,3343,3260,99,4290632874,49995,-86,-168,4091,3200,55,3146845)
 p("DecTyreTracksBrown_03",69904,135390,3424,4054,99,4290632874,49995,-86,-129,4093,3200,44,3146845)
 p("DecTyreTracksBrown_06",72383,137971,3529,12715,98,4290632874,49995,-202,433,4068,55,3146781)
@@ -67785,17 +65858,11 @@ p("SavannaPlant_Grass_04",71069,154526,3188,15673,119,3200,2097221)
 p("SavannaPlant_Grass_01",71963,152425,3062,2970,113,3200,2097221)
 p("SavannaPlant_Grass_04",72818,153002,3064,9554,130,3200,2097221)
 p("SavannaPlant_Grass_04",72963,152698,3046,21437,128,3200,2097221)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_02",65793,163436,3915,166,2097156)
 p("SavannaPlant_Grass_04",66822,163397,17557,78,2097156)
 p("SavannaPlant_Grass_02",69147,163578,310,200,2097156)
 p("SavannaPlant_Grass_01",70335,163284,2175,137,2097156)
 p("TropicalRockSharp_01",72018,162949,4540,10276,186,3635,-1008,1594,"terrainchunk",10,0,0,9,100,10,40,60,2228245)
-<<<<<<< HEAD
-p("TropicalPlant_04_Shrub_02",82335,135967,2532,7105,158,-17,-88,4095,2097173)
-p("TropicalRockAssembly_04",83762,137330,2580,19255,121,4287203721,-327,-36,4082,"terrainchunk",10,0,0,59,100,16,40,60,2228253)
-p("SavannaPlant_AloeMarlothii_01",90085,137632,2951,4213,101,-170,376,4075,3200,2097237)
-=======
 p("SavannaPlant_Grass_04",74460,147679,2950,15434,138,3200,2097221)
 p("SavannaPlant_Grass_04",74099,149298,2946,7282,152,3200,2097221)
 p("SavannaPlant_Grass_02",73883,151011,2966,5533,118,3200,2097221)
@@ -67830,18 +65897,10 @@ p("DecTyreTracksBrown_06",82851,142876,3732,1119,99,4290632874,49995,-1526,-1200
 p("DecTyreTracksBrown_06",85105,143439,3781,772,99,4290632874,49995,-2101,-1872,2976,55,3146781)
 p("DecTyreTracksBrown_06",87047,143868,3825,580,99,4290632874,49995,-2675,-2626,1651,55,3146781)
 p("DecBunker_ConcretePile_02",87543,145972,15698,129,-243,-62,4088,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_AloeMarlothii_01",90288,137171,2949,13489,76,-251,-53,4087,3200,2097237)
 p("SavannaRock_09",91746,135231,2737,3372,63,-1360,-1025,3725,"terrainchunk",10,0,0,85,94,10,40,60,2228245)
 p("SavannaPlant_AloeMarlothii_01",90533,137448,2949,980,132,87,1670,3738,3200,2097237)
 p("SavannaRock_02",93351,137261,2720,16982,116,-243,355,4073,"terrainchunk",10,0,0,80,92,10,40,60,2228245)
-<<<<<<< HEAD
-p("SavannaRock_08",95591,134617,2442,15511,91,-281,-422,4064,"terrainchunk",10,0,0,92,95,10,40,60,2228245)
-p("SavannaRock_02",96122,137841,3506,5773,140,-90,476,4067,"terrainchunk",10,0,0,93,99,10,40,60,2228245)
-p("SavannaRock_07",93475,139640,3080,2171,49,-3022,-558,2707,"terrainchunk",10,0,0,73,97,10,40,60,2228245)
-p("TropicalRockAssembly_01",89754,147769,3511,13616,130,4286414205,-117,-10,4094,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
-p("SavannaRockWalk_02",89400,150600,3500,5400,"terrainchunk",10,0,0,75,100,10,40,60,2228225)
-=======
 p("SavannaRock_08",95578,134615,2442,15511,91,-281,-422,4064,"terrainchunk",10,0,0,92,95,10,40,60,2228245)
 p("SavannaRock_02",96122,137841,3506,5773,140,-90,476,4067,"terrainchunk",10,0,0,93,99,10,40,60,2228245)
 p("TropicalRockAssembly_01",91684,139361,3136,19532,91,4286414205,-373,588,4036,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
@@ -67876,7 +65935,6 @@ p("TropicalRockAssembly_01",93319,158588,4362,8250,102,-77,-255,4087,"terrainchu
 p("DecTyreTracksBrown_03",90145,161472,4366,3746,113,-1415,1616,3487,51,2098197)
 p("DecTyreTracksBrown_06",92241,162627,4469,12597,99,4290632874,49995,229,-229,4083,83,3146781)
 p("DecBunker_ConcretePile_02",95481,157157,4546,12146,130,-132,-60,4093,"terrainchunk",10,0,0,50,100,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_04",65912,165131,1367,134,2097156)
 p("SavannaPlant_Grass_04",67561,165108,1756,159,2097156)
 p("SavannaPlant_Grass_04",65848,166724,19925,171,2097156)
@@ -68048,12 +66106,9 @@ p("SavannaPlant_Bush_06",79078,189557,1191,2619,176,2097157)
 p("SavannaPlant_Grass_02",79980,195342,3567,134,2097156)
 p("SavannaPlant_Grass_01",81306,196464,3615,109,2097156)
 p("SavannaPlant_Grass_04",83234,171398,19829,107,2097156)
-<<<<<<< HEAD
-=======
 p("DecTyreTracksBrown_03",88397,165585,4974,17321,113,51,2098181)
 p("DecTyreTracksBrown_03",88942,167925,5161,6351,113,51,2098181)
 p("DecTyreTracksBrown_06",89542,170108,5259,3529,98,4290632874,49995,388,507,4045,55,3146781)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_02",81948,172532,20976,96,2097156)
 p("SavannaPlant_Grass_03",82985,173146,4420,148,2097156)
 p("SavannaPlant_Grass_02",82898,174332,17644,172,2097156)
@@ -68075,9 +66130,6 @@ p("SavannaPlant_Grass_03",86452,179596,18780,189,2097156)
 p("SavannaPlant_Grass_04",89360,177980,3530,118,2097156)
 p("SavannaPlant_Grass_01",88254,178939,3844,196,2097156)
 p("SavannaPlant_Grass_04",89927,179217,19704,124,2097156)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_04",90852,179213,355,195,2097156)
-=======
 p("TropicalRockSharp_01",93962,168804,3419,10812,186,-3635,1515,1123,"terrainchunk",10,0,0,9,100,10,40,60,2228245)
 p("DecTyreTracksBrown_03",94342,164455,5161,15178,113,51,2098181)
 p("DecTyreTracksBrown_03",95026,165540,4974,16421,113,51,2098181)
@@ -68089,7 +66141,6 @@ p("SavannaPlant_Grass_04",90852,179213,355,195,2097156)
 p("DecTyreTracksBrown_03",95249,173327,5454,6549,113,51,2098181)
 p("DecTyreTracksBrown_03",95722,177179,5774,13770,107,51,2098181)
 p("DecTyreTracksBrown_03",96591,176155,6067,15570,113,51,2098181)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_04",83142,180504,17848,209,2097156)
 p("SavannaPlant_Grass_01",83532,182192,2886,209,2097156)
 p("SavannaPlant_Grass_03",85109,181006,18648,82,2097156)
@@ -68174,24 +66225,16 @@ p("SavannaPlant_Grass_01",94545,195040,3108,195,2097156)
 p("SavannaPlant_Grass_04",95611,195258,18871,106,2097156)
 p("SavannaPlant_Grass_01",97463,193789,204,106,2097156)
 p("SavannaPlant_Grass_02",97803,195041,3959,123,2097156)
-<<<<<<< HEAD
-=======
 p("DecTyreTracksBrown_06",102130,131230,5191,16874,98,4290632874,49995,-476,133,4066,55,3146781)
 p("DecTyreTracksBrown_06",101580,134866,5190,15980,98,4290632874,49995,-396,169,4073,55,3146781)
 p("TropicalRockAssembly_01",99150,136648,3856,19532,91,4286414205,-373,588,4036,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
 p("SavannaRock_09",99486,136192,3260,8249,63,-535,1680,3696,"terrainchunk",10,0,0,85,94,10,40,60,2228245)
 p("DecTyreTracksBrown_06",102117,138758,5190,15660,98,4290632874,49995,-371,179,4075,55,3146781)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Bush_06",106282,131943,5220,116,215,-124,4088,2097172)
 p("SavannaPlant_Bush_06",106216,133124,4776,4815,116,-1344,-65,3868,2097173)
 p("SavannaPlant_Grass_01",105786,134966,5397,17141,158,2097157)
 p("SavannaPlant_Grass_01",104178,138772,5397,16241,158,2097157)
 p("SavannaPlant_Grass_01",105468,137383,5397,16241,158,2097157)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_01",104257,140763,5397,18211,106,2097157)
-p("SavannaPlant_Grass_01",106483,139500,5397,11512,158,2097157)
-p("SavannaPlant_Grass_01",104842,141837,5397,20698,106,2097157)
-=======
 p("DecTyreTracksBrown_03",99143,141925,4874,21318,44,2098177)
 p("DecTyreTracksBrown_03",101036,140180,4874,19649,44,2098177)
 p("DecBunker_ConcretePile_02",102078,143170,18365,129,-575,458,4029,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
@@ -68202,7 +66245,6 @@ p("DecTyreTracksBrown_03",103291,142374,4874,5249,44,2098177)
 p("SavannaPlant_Grass_01",106483,139500,5397,11512,158,2097157)
 p("SavannaPlant_Grass_01",104842,141837,5397,20698,106,2097157)
 p("DecTyreTracksBrown_06",104566,145528,5574,875,99,4290632874,49995,-1653,-1857,3254,55,3146781)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("JungleCamp_Stake_03",106986,140724,4079,15617,-767,821,3938,2150579017,2150579017,2150579017,"",1075845649)
 p("SavannaPlant_Grass_01",106517,140859,5397,11512,158,2097157)
 p("JungleCamp_Stake_02",106966,140993,4096,1521,-643,-3864,1195,2150579017,2150579017,2150579017,"",1075845649)
@@ -68211,10 +66253,6 @@ p("JungleCamp_Stake_03",107060,140375,4127,4527,-1100,-1607,3603,2150579017,2150
 p("TropicalRockAssembly_01",107817,139352,4845,19118,116,4286414205,-203,317,4078,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
 p("SavannaPlant_Grass_01",107873,141329,5397,20698,106,2097157)
 p("SavannaPlant_Grass_01",109513,140418,5398,11512,158,2097157)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_01",112657,139964,5398,10349,158,2097157)
-p("TropicalRockAssembly_01",102203,154529,5321,19687,116,4286414205,-435,1773,3666,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
-=======
 p("DecTyreTracksBrown_03",107205,146023,4885,1115,47,2098177)
 p("DecTyreTracksBrown_06",107918,146862,7892,11336,99,4290632874,49995,-359,478,4052,65,3146781)
 p("DecTyreTracksBrown_03",109664,145960,4884,10983,47,2098177)
@@ -68224,7 +66262,6 @@ p("TropicalRockAssembly_01",114364,145081,5868,19459,91,4286414205,-866,-12,4003
 p("DecBunker_ConcretePile_04",98636,150796,4604,19405,130,-707,612,3987,"terrainchunk",10,0,0,50,100,10,40,60,2228245)
 p("TropicalRockAssembly_01",102203,154529,5321,19687,116,4286414205,-435,1773,3666,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
 p("TropicalRockAssembly_01",104546,149282,5454,845,122,4286414205,1027,-1614,3621,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("City_TornPaper_01",104664,151072,6666,13713,50,-218,98,4089,3741,2148821160,2148406961,2152362100,"",1075845909)
 p("JungleCamp_Stake_03",105694,150983,5980,15300,2150579017,2150579017,2150579017,"",1075845633)
 p("JungleCamp_Stake_03",105733,150625,5980,3662,-299,-634,4035,2150579017,2150579017,2150579017,"",1075845649)
@@ -68232,12 +66269,9 @@ p("JungleCamp_Stake_02",105720,151251,6016,2150579017,2150579017,2150579017,"",1
 p("TropicalRockSharp_01",104198,154367,6618,11629,65,1851,3214,1736,"terrainchunk",10,0,0,90,100,10,40,60,2228245)
 p("JungleCamp_Stake_03",105712,151556,5980,2150579017,2150579017,2150579017,"",1073748481)
 p("TropicalRockAssembly_01",101000,157163,4956,20677,138,-921,2324,3244,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
-<<<<<<< HEAD
-=======
 p("TropicalPlant_Dead_02",101001,160037,5265,13822,63,1735,3700,269,3200,2097237)
 p("TropicalPlant_Dead_02",101013,160233,5766,6010,63,-3941,395,1040,3200,2097237)
 p("TropicalPlant_Dead_02",101363,160780,5408,13245,95,1610,-398,3745,3200,2097237)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("TropicalRockAssembly_01",101895,161784,5264,20758,138,-711,1711,3652,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("SavannaPlant_AloeMarlothii_01",103533,156388,5548,7275,71,-208,175,4086,3200,2097237)
 p("JungleCamp_Stake_01",104444,156481,5900,11042,106,-336,-161,4079,2150579017,2150579017,2150579017,"",1075845653)
@@ -68253,23 +66287,6 @@ p("JungleCamp_Stake_03",104392,159435,5826,2150579017,2150579017,2150579017,"",1
 p("JungleCamp_Stake_01",104486,156172,5890,16567,106,-558,-19,4057,2150579017,2150579017,2150579017,"",1075845653)
 p("SavannaRock_05",103504,161761,3963,163,"terrainchunk",10,0,0,40,60,10,40,60,131077)
 p("TropicalRockAssembly_01",106285,161513,6330,18051,138,-753,420,4004,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
-<<<<<<< HEAD
-p("TropicalRockSharp_01",107520,154303,5629,15949,65,-2468,-2224,2395,"terrainchunk",10,0,0,90,100,10,40,60,2228245)
-p("TropicalRockSharp_01",107894,154389,6747,12291,65,3185,2530,480,"terrainchunk",10,0,0,90,100,10,40,60,2228245)
-p("TropicalPlant_04_Shrub_01",108813,154596,6714,6005,131,-53,-334,4082,2097173)
-p("TropicalPlant_04_Shrub_01",111457,154446,6958,13835,131,-1316,428,3855,2097173)
-p("SavannaRock_08",111738,154723,6457,6962,22,-287,289,4075,"terrainchunk",10,0,0,93,99,10,40,60,2228245)
-p("SavannaRock_08",114075,152788,7488,6962,22,-287,289,4075,"terrainchunk",10,0,0,93,99,10,40,60,2228245)
-p("SavannaRockWalk_02",113400,154200,7700,"terrainchunk",10,0,0,75,100,10,40,60,131073)
-p("SavannaRockWalk_02",114600,154200,6300,5400,"terrainchunk",10,0,0,75,100,10,40,60,2228225)
-p("SavannaRockWalk_02",114600,154200,7000,5400,"terrainchunk",10,0,0,75,100,10,40,60,2228225)
-p("TropicalRockAssembly_03",109371,159246,6996,1322,103,211,576,-2265,3363,"terrainchunk",0,0,0,85,98,10,40,60,3276821)
-p("TropicalRockAssembly_01",108379,160254,6716,19659,91,4286414205,-271,1870,3634,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
-p("TropicalRockAssembly_01",107744,163079,6652,18354,138,-474,135,4066,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
-p("SavannaRockWalk_02",113400,156600,7000,"terrainchunk",10,0,0,75,100,10,40,60,131073)
-p("SavannaRockWalk_02",113400,157800,7700,16200,"terrainchunk",10,0,0,75,100,10,40,60,2228225)
-p("SavannaRockWalk_02",114600,157800,7000,10800,"terrainchunk",10,0,0,75,100,10,40,60,2228225)
-=======
 p("DecWallLeak_01",110200,151236,11232,10800,0,-4096,0,400,2097425)
 p("TropicalRockSharp_01",107520,154303,5629,15949,65,-2468,-2224,2395,"terrainchunk",10,0,0,90,100,10,40,60,2228245)
 p("TropicalRockSharp_01",107894,154389,6747,12291,65,3185,2530,480,"terrainchunk",10,0,0,90,100,10,40,60,2228245)
@@ -68340,7 +66357,6 @@ p("DecWallDirt_03",114401,160230,11244,10799,108,-2896,2896,0,1574,2097429)
 p("DecWallRust_01",113875,160964,11244,10800,150,2896,-2896,0,3806,2097429)
 p("DecWallLeak_01",114501,161000,11244,5400,2358,2097409)
 p("DecWallDirt_03",114400,161370,11244,5399,108,638,2097413)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecWallDirt_06",116330,131950,9100,10800,-2896,0,2896,2938,2097425)
 p("DecWallLeak_04",116330,132700,7701,10800,-2896,0,2896,1286,2097425)
 p("Shanty_SandPile_05",116926,131525,6049,16200,"terrainchunk",10,0,0,0,6,10,40,60,2228225)
@@ -68351,49 +66367,27 @@ p("DecBunker_ConcretePile_04",116933,138338,5911,14608,144,-261,104,4086,"terrai
 p("DecBunkerFloor_02",119400,132070,7700,5751,164,4285680667,-3698,1244,1244,3766,2097437)
 p("DecSoclePaint_01",119826,132119,9816,7200,163,4279648776,2364,-2365,2364,2097181)
 p("Shanty_GarbagePile_01",120633,132360,6017,5211,196,-215,4085,2150182196,2148407600,"",1075841553)
-<<<<<<< HEAD
-=======
 p("DecFloatersTrashGround_02",120137,133568,6183,21015,-587,559,4014,2097169)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecWallDirt_07",121270,131950,9100,10800,-2896,0,2896,2544,2097425)
 p("WallExt_RedBrick_Wall_ExEx_01",121899,132014,6946,5400,3271,2148075809,2148075809,2150182196,"",1075845889)
 p("WallExt_RedBrick_Wall_ExEx_01",121901,132014,6265,5400,3271,2148075809,2148075809,2150182196,"",1075845889)
 p("WallExt_RedBrick_Wall_ExEx_01",121901,132014,7621,5400,3271,2148075809,2148075809,2150182196,"",1075845889)
 p("DecWallLeak_02",121270,134750,8401,10800,-2896,0,2896,3969,2097425)
-<<<<<<< HEAD
-=======
 p("DecTyreTracksBrown_03",117624,147370,6642,157,33,2098177)
 p("DecTyreTracksBrown_03",120801,142960,6641,17471,33,2098177)
 p("DecTyreTracksBrown_03",120083,145354,6641,19451,33,2098177)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("WallExt_RedBrick_Wall_ExEx_01",123096,132014,6946,5400,3271,2148075809,2148075809,2150182196,"",1075845889)
 p("WallExt_RedBrick_Wall_ExEx_01",123098,132014,6265,5400,3271,2148075809,2148075809,2150182196,"",1075845889)
 p("WallExt_RedBrick_Wall_ExEx_01",124289,132014,6253,5400,3271,2148075809,2148075809,2150182196,"",1075845889)
 p("DecShantyRubbish_02",124325,131983,0)
 p("DecBunker_ConcretePile_02",124755,131968,15930,101,"terrainchunk",10,0,0,50,100,10,40,60,2228228)
 p("Construction_WoodenPile_01",124837,133809,6244,2150391442,2152219970,2150123873,"",1073748481)
-<<<<<<< HEAD
-=======
 p("SavannaPlant_Grass_04",125167,138974,5874,18180,173,2097157)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",128894,138355,12517,107,2097156)
 p("TropicalRockAssembly_01",129037,135734,6529,5065,122,4286414205,602,-679,3994,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
 p("TropicalRockAssembly_01",130293,137138,7193,4675,122,4286414205,333,-880,3986,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
 p("SavannaPlant_Grass_02",130482,137088,7932,171,2097156)
 p("SavannaPlant_Grass_03",129459,137560,20893,156,2097156)
-<<<<<<< HEAD
-p("TropicalPlant_04_Shrub_01",129051,139770,7126,3831,131,-1204,-169,3911,2097173)
-p("TropicalPlant_Dead_01",129470,144226,7149,7225,160,-312,-76,4083,2097173)
-p("SavannaRock_08",116349,152788,6457,6962,22,-287,289,4075,"terrainchunk",10,0,0,93,99,10,40,60,2228245)
-p("SavannaRockWalk_02",117000,154200,7700,5400,"terrainchunk",10,0,0,75,100,10,40,60,2228225)
-p("SavannaRockWalk_02",117000,155400,7000,10800,"terrainchunk",10,0,0,75,100,10,40,60,2228225)
-p("SavannaRock_08",117955,155435,6291,6962,59,-287,289,4075,"terrainchunk",10,0,0,93,99,10,40,60,2228245)
-p("SavannaRockWalk_02",115800,156600,7700,16200,"terrainchunk",10,0,0,75,100,10,40,60,2228225)
-p("SavannaRockWalk_02",117000,160200,7700,5400,"terrainchunk",10,0,0,75,100,10,40,60,2228225)
-p("SavannaPlant_AloeMarlothii_03",119963,161888,7968,3227,131,-139,37,4093,2097173)
-p("TropicalRockAssembly_01",129825,155160,7094,18759,122,4286414205,-343,209,4076,"terrainchunk",0,0,0,88,100,42,40,60,2228253)
-p("SavannaPlant_AloeMarlothii_03",130432,156769,7994,1441,109,2097157)
-=======
 p("TropicalRockAssembly_01",125041,139332,6681,19452,91,4286414205,-727,182,4026,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
 p("JungleCamp_TrenchFloor_02",128340,143317,7534,17567,-471,401,4049,2148998178,"",1075841041)
 p("TropicalPlant_04_Shrub_01",129051,139770,7126,3831,131,-1204,-169,3911,2097173)
@@ -68544,7 +66538,6 @@ p("DecBunker_ConcretePile_02",124928,159764,7864,17998,105,-252,-61,4087,"terrai
 p("DecTyreTracksBrown_03",125143,162393,7990,8055,46,2098177)
 p("DecTyreTracksBrown_06",127232,157004,7856,6655,99,4290632874,49995,32,723,4031,65,3146781)
 p("DecBunker_ConcretePile_02",129024,159688,7979,10640,105,-91,-49,4094,"terrainchunk",10,0,0,44,59,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("TropicalRockSharp_01",127395,162971,7644,10709,96,2942,-1427,2466,"terrainchunk",10,0,0,19,92,10,40,60,2228245)
 p("TropicalPlant_Dead_02",129763,160953,8018,12704,71,-234,106,4088,2097173)
 p("TropicalPlant_Dead_02",130113,160693,8157,13957,71,1390,3786,713,2097173)
@@ -68561,14 +66554,10 @@ p("TropicalRockAssembly_01",106192,169682,5943,20677,138,-921,2324,3244,"terrain
 p("JungleCamp_Stake_02",106425,169503,6082,11264,2150579017,2150579017,2150579017,"",1075845633)
 p("JungleCamp_Stake_03",106415,169770,6046,4964,2150579017,2150579017,2150579017,"",1075845633)
 p("JungleCamp_Stake_03",106329,170119,6046,14863,398,-155,4073,2150579017,2150579017,2150579017,"",1075845649)
-<<<<<<< HEAD
-p("TropicalRockAssembly_04",100862,176240,6006,592,151,1613,-1055,3614,"terrainchunk",10,0,0,75,94,16,40,60,2228245)
-=======
 p("DecTyreTracksBrown_03",98364,178648,6068,4770,51,2098177)
 p("DecTyreTracksBrown_03",98764,178828,6068,4770,140,51,2098181)
 p("TropicalRockAssembly_04",100862,176240,6006,592,151,1613,-1055,3614,"terrainchunk",10,0,0,75,94,16,40,60,2228245)
 p("SavannaPlant_AloeMarlothii_03",101443,177443,6140,16120,130,-46,-114,4094,3200,2097237)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("TropicalRockAssembly_01",109507,165060,6750,18840,149,35,1415,3843,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("SavannaPlant_AloeMarlothii_03",111669,167968,6982,2316,109,-954,-785,3905,2097173)
 p("SavannaRock_05",107185,172290,4521,4206,146,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
@@ -68586,13 +66575,10 @@ p("SavannaRock_07",110602,176178,6599,17404,10,44,-153,4092,2166,"terrainchunk",
 p("SavannaRock_07",110933,176302,6616,17155,10,1072,-1239,3753,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("SavannaRock_07",112106,176184,6715,17340,10,-209,608,4045,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockAssembly_01",112728,179848,6784,10093,138,-106,-143,4092,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
-<<<<<<< HEAD
-=======
 p("DecTyreTracksBrown_06",101045,181771,6775,2895,114,4290632874,49995,-50,-131,4093,83,3146781)
 p("DecTyreTracksBrown_06",102589,183755,5067,2895,114,4290632874,49995,-50,-131,4093,83,3146781)
 p("DecTyreTracksBrown_06",105180,186778,6776,2895,114,4290632874,49995,-50,-131,4093,83,3146781)
 p("DecTyreTracksBrown_03",106067,188312,7086,15026,51,2098177)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_03",99137,189062,2907,152,2097156)
 p("SavannaPlant_Grass_03",99568,190300,18752,220,2097156)
 p("TropicalRockSharp_01",99202,190618,7786,10276,186,3635,-1008,1594,"terrainchunk",10,0,0,9,100,10,40,60,2228245)
@@ -68620,8 +66606,6 @@ p("TropicalRockSharp_02",112544,184239,2412,10854,196,2958,-1830,2163,"terrainch
 p("Scaffolding_Bridge_Wood_01",114600,180600,11200,5400,2150182196,2147880468,2148143896,"",1075845633)
 p("TropicalRockAssembly_01",111695,186460,7131,18430,138,-253,418,4066,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("TropicalRockSharp_01",113916,186524,4329,3235,150,-36,1619,3762,"terrainchunk",10,0,0,19,37,10,40,60,2228245)
-<<<<<<< HEAD
-=======
 p("DecTyreTracksBrown_06",107182,189564,6776,3430,103,4290632874,49995,-33,-114,4094,83,3146781)
 p("DecTyreTracksBrown_03",109357,192804,8439,3870,51,2098177)
 p("DecTyreTracksBrown_01",110973,191094,8351,1796,51,2098177)
@@ -68631,30 +66615,22 @@ p("DecBunker_ConcretePile_02",116845,166946,7990,17638,105,108,265,4085,"terrain
 p("TropicalRockAssembly_03",117105,169789,7594,12283,182,-47,39,4095,"terrainchunk",10,0,0,85,95,10,40,60,2228245)
 p("TropicalRockAssembly_03",118351,168481,7830,8255,182,-113,101,4093,"terrainchunk",10,0,0,85,95,10,40,60,2228245)
 p("TropicalRockAssembly_03",118492,169566,7841,5338,150,-337,138,4079,"terrainchunk",10,0,0,82,96,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("Construction_Framework_03",115767,175721,6288,2148868404,2148803380,2148014402,"",1073748481)
 p("Scaffolding_Bridge_Wood_01",115800,177000,9100,2150182196,2147880468,2148143896,"",1073748481)
 p("Construction_Framework_03",115767,177638,6288,2148868404,2148803380,2148014402,"",1073748481)
 p("Construction_Framework_03",115767,179419,6288,2148868404,2148803380,2148014402,"",1073748481)
 p("Shanty_SandPile_05",120573,179615,7723,9000,"terrainchunk",10,0,0,0,6,10,40,60,2228225)
 p("TropicalRockAssembly_01",122680,177527,7721,17870,149,-45,221,4089,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
-<<<<<<< HEAD
-=======
 p("DecTyreTracksBrown_03",124270,165320,7990,17635,46,2098177)
 p("DecTyreTracksBrown_06",123656,166875,8030,16874,98,4290632874,49995,-476,133,4066,55,3146781)
 p("SavannaPlant_Grass_01",126839,164162,7978,16258,168,2097157)
 p("DecTyreTracksBrown_03",124840,168392,7990,6132,46,2098177)
 p("DecTyreTracksBrown_06",125205,170966,8012,14695,98,4290632874,49995,-308,207,4079,55,3146781)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("TropicalRockAssembly_01",127476,166171,7978,13833,112,211,4,48,4095,"terrainchunk",0,0,0,13,34,10,40,60,34,47,11665429)
 p("TropicalRockSharp_01",128593,166406,8232,7141,96,2356,-1547,2972,"terrainchunk",10,0,0,19,92,10,40,60,2228245)
 p("TropicalRockSharp_01",129940,163946,7026,8959,96,1678,-844,3639,"terrainchunk",10,0,0,19,92,10,40,60,2228245)
 p("TropicalRockAssembly_01",128245,167984,7978,19068,112,211,387,1,4077,"terrainchunk",0,0,0,13,34,10,40,60,34,47,11665429)
 p("TropicalRockSharp_01",130998,168887,7644,6387,96,-1286,-3874,334,"terrainchunk",10,0,0,19,92,10,40,60,2228245)
-<<<<<<< HEAD
-p("Port_NavalMine_01",129273,172931,6317,2103,129,243,-1151,3923,2097173)
-p("TropicalRockAssembly_02",129511,172818,6549,7117,89,4286414205,-200,-205,4086,"terrainchunk",0,0,0,44,67,42,40,60,2228253)
-=======
 p("TropicalPlant_Dead_02",129416,170443,8020,17699,113,-154,203,4088,2097173)
 p("TropicalPlant_Dead_02",129709,170783,8071,2170,73,-535,-699,4000,2097173)
 p("DecTyreTracksBrown_06",126058,172775,8013,14527,98,4290632874,49995,-299,210,4079,55,3146781)
@@ -68665,19 +66641,12 @@ p("Port_NavalMine_01",130303,173425,7307,2722,129,-43,72,4095,2097173)
 p("TropicalRockAssembly_02",130630,174044,7988,7941,65,4286414205,45,-2,4095,"terrainchunk",0,0,0,44,67,42,40,60,2228253)
 p("DecTyreTracksBrown_06",127167,177098,8014,15832,98,4290632874,49995,-384,173,4074,55,3146781)
 p("DecTyreTracksBrown_03",127449,180096,7998,18146,51,2098177)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecBunker_ConcretePile_04",130869,176618,20562,144,-335,1051,3945,"terrainchunk",10,0,0,45,100,10,40,60,2228244)
 p("Construction_Framework_02",114807,180496,6948,1062,0,4096,0,2148868404,2148803380,2148014402,"",1075845649)
 p("Construction_Framework_03",115767,180523,5597,1550,2148868404,2148803380,2148014402,"",1073748737)
 p("Construction_Framework_03",115767,180523,8389,1550,2148868404,2148803380,2148014402,"",1073748737)
 p("TropicalRockAssembly_01",117267,187923,7543,969,161,324,-495,4053,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("TropicalRockSharp_01",120527,182540,5481,3055,150,2420,-1253,3057,"terrainchunk",10,0,0,19,37,10,40,60,2228245)
-<<<<<<< HEAD
-p("TropicalRockSharp_01",116715,189091,4591,2853,150,814,-1698,3637,"terrainchunk",10,0,0,19,37,10,40,60,2228245)
-p("TropicalRockAssembly_01",127290,185979,6538,8463,105,4287795858,-180,-404,4072,"terrainchunk",10,0,0,13,34,42,40,60,2228253)
-p("DecBunker_ConcretePile_05",127514,189883,20746,129,-132,16,4094,"terrainchunk",10,0,0,31,56,10,40,60,2228244)
-p("DecBunker_ConcretePile_05",128602,192192,7077,3362,129,535,-954,3947,"terrainchunk",10,0,0,31,56,10,40,60,2228245)
-=======
 p("DecFloatersTrash3D_02",120715,184920,7653,12030,140,4279505950,-172,-31,4092,2097181)
 p("TropicalRockSharp_01",116715,189091,4591,2853,150,814,-1698,3637,"terrainchunk",10,0,0,19,37,10,40,60,2228245)
 p("DecTyreTracksBrown_01",116533,194538,8351,12596,51,2098177)
@@ -68698,7 +66667,6 @@ p("DecBunker_ConcretePile_05",127514,189883,20746,129,-132,16,4094,"terrainchunk
 p("DecPaperPile_01",128630,192092,8374,13889,4280688158,-96,-48,4094,7,69206041)
 p("DecBunker_ConcretePile_05",128602,192192,7077,3362,129,535,-954,3947,"terrainchunk",10,0,0,31,56,10,40,60,2228245)
 p("DecShantyRubbish_02",130390,191171,7337,10807,193,4281216044,3200,60,2098253)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("TropicalRockAssembly_01",128532,195131,7906,18873,161,-189,424,4069,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("TropicalPlant_Dead_02",130443,194217,8298,16615,95,-148,480,4065,3200,2097237)
 p("SavannaPlant_Grass_03",65738,196769,18270,73,2097156)
@@ -69323,11 +67291,7 @@ p("SavannaPlant_Grass_01",82176,243182,5084,11326,162,3200,2097221)
 p("SavannaPlant_Grass_04",86371,238462,5320,12017,147,3200,2097221)
 p("SavannaPlant_Grass_02",86638,237999,5344,21375,146,3200,2097221)
 p("SavannaPlant_Grass_03",91110,230059,20750,200,2097156)
-<<<<<<< HEAD
-p("TropicalRockAssembly_04",90846,232837,6160,4424,106,276,-30,4086,3200,"terrainchunk",10,0,0,59,100,16,40,60,2228309)
-=======
 p("TropicalRockAssembly_04",90828,232837,5663,3738,106,674,375,4022,"terrainchunk",10,0,0,59,100,16,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_03",91575,231812,2721,138,2097156)
 p("SavannaPlant_Grass_03",91333,233304,20451,90,2097156)
 p("SavannaPlant_Grass_01",93072,230692,18226,190,2097156)
@@ -69339,11 +67303,7 @@ p("SavannaPlant_Grass_04",94330,230246,17535,157,2097156)
 p("SavannaPlant_Grass_03",95989,230083,4105,155,2097156)
 p("SavannaPlant_Grass_04",96186,232314,3410,2097152)
 p("SavannaPlant_Grass_01",95744,233307,21179,166,2097156)
-<<<<<<< HEAD
-p("SavannaPlant_AloeMarlothii_03",97062,229421,6194,15399,130,-54,-105,4094,3200,2097237)
-=======
 p("SavannaPlant_AloeMarlothii_03",97062,229421,4198,15899,130,88,-273,4085,3200,2097237)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",97276,230764,18046,152,2097156)
 p("SavannaPlant_Grass_02",97997,231865,2937,165,2097156)
 p("SavannaPlant_Grass_03",97209,233659,3283,2097152)
@@ -69408,10 +67368,7 @@ p("SavannaPlant_Grass_02",107226,202985,2613,202,2097156)
 p("SavannaPlant_Grass_02",108919,201781,2447,107,2097156)
 p("SavannaPlant_Grass_01",108808,202854,267,210,2097156)
 p("SavannaPlant_Grass_02",108771,204696,4304,93,2097156)
-<<<<<<< HEAD
-=======
 p("DecTyreTracksBrown_01",113515,197105,8350,14038,51,2098177)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_04",107411,205072,1940,168,2097156)
 p("SavannaPlant_Grass_03",107219,206496,18397,199,2097156)
 p("SavannaPlant_Grass_02",107207,207824,17496,161,2097156)
@@ -69524,9 +67481,6 @@ p("TropicalRockAssembly_01",109782,223102,3819,15100,161,-451,448,4046,"terrainc
 p("SavannaPlant_Grass_02",107102,225410,3414,63,2097156)
 p("SavannaRock_08",114311,222737,2841,19119,108,"terrainchunk",10,0,0,94,100,10,40,60,2228229)
 p("TropicalRockAssembly_01",112724,225600,4355,18208,161,-231,902,3988,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
-<<<<<<< HEAD
-p("DecBunker_ConcretePile_05",122058,198718,2913,129,-10,-31,4096,"terrainchunk",10,0,0,31,56,10,40,60,2228244)
-=======
 p("DecTyreTracksBrown_01",117035,197561,8349,2210,51,2098177)
 p("DecShantyRubbish_02",116370,200810,7251,18717,193,4280491543,3200,60,2098253)
 p("DecShantyRubbish_01",118012,204097,7251,18717,193,4281216044,3200,60,2098253)
@@ -69535,28 +67489,12 @@ p("DecBunker_ConcretePile_05",122058,198718,2913,129,-10,-31,4096,"terrainchunk"
 p("DecTyreTracksBrown_03",120495,200931,7956,17042,107,51,2098181)
 p("DecTyreTracksBrown_01",120728,203795,7794,5991,-177,-110,4090,51,2098193)
 p("DecTyreTracksBrown_02",121566,200835,8385,21245,-2660,-925,2973,51,2098193)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_04",115226,209585,19014,203,2097156)
 p("SavannaPlant_Grass_02",116710,210903,18499,135,2097156)
 p("SavannaPlant_Grass_03",115438,211494,18129,128,2097156)
 p("TropicalRockAssembly_01",117202,211010,6884,8819,135,-172,180,4088,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("SavannaPlant_Grass_02",116919,212846,4138,133,2097156)
 p("SavannaPlant_Grass_04",118159,212655,18329,90,2097156)
-<<<<<<< HEAD
-p("DecBunker_ConcretePile_02",121616,205231,6910,20011,129,-51,245,4088,3200,"terrainchunk",10,0,0,31,56,10,40,60,2228309)
-p("TropicalRockAssembly_02",122738,206743,6829,8139,161,-129,-10,4094,3200,"terrainchunk",10,0,0,13,34,10,40,60,2228309)
-p("TropicalRockAssembly_01",122141,208718,6759,1626,161,-338,-100,4080,3200,"terrainchunk",10,0,0,13,34,10,40,60,2228309)
-p("DecBunker_ConcretePile_05",121599,209815,6896,2915,129,-45,-100,4095,3200,"terrainchunk",10,0,0,31,56,10,40,60,2228309)
-p("TropicalRockAssembly_02",124095,200851,6992,14971,138,-483,201,4062,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
-p("TropicalRockAssembly_01",124024,202200,7028,17947,161,-510,804,3983,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
-p("TropicalRockAssembly_01",123211,204668,6835,5146,161,-319,-70,4082,3200,"terrainchunk",10,0,0,13,34,10,40,60,2228309)
-p("TropicalRockAssembly_01",123592,204531,6983,9660,161,-610,-187,4045,3200,"terrainchunk",10,0,0,13,34,10,40,60,2228309)
-p("TropicalRockAssembly_01",124651,205144,7588,11407,114,207,190,4086,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
-p("TropicalRockAssembly_01",124615,207589,7210,7592,138,-156,131,4090,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
-p("TropicalRockAssembly_01",126641,205284,7371,17304,138,291,33,4085,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
-p("TropicalRockAssembly_01",130809,204866,7536,15193,138,-739,888,3929,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
-p("TropicalRockAssembly_04",130745,205176,10248,10237,94,-982,3,3977,3200,"terrainchunk",10,0,0,40,60,10,40,60,2228309)
-=======
 p("DecTyreTracksBrown_01",120458,206804,7346,16021,94,-198,4090,51,2098193)
 p("DecBunker_ConcretePile_02",121616,205231,6910,20011,129,-51,245,4088,3200,"terrainchunk",10,0,0,31,56,10,40,60,2228309)
 p("TropicalRockAssembly_01",122141,208718,6759,1626,161,-338,-100,4080,3200,"terrainchunk",10,0,0,13,34,10,40,60,2228309)
@@ -69574,7 +67512,6 @@ p("TropicalRockAssembly_01",124615,207589,7210,7592,138,-156,131,4090,"terrainch
 p("TropicalRockAssembly_01",126641,205284,7371,17304,138,291,33,4085,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("TropicalRockAssembly_04",128605,206372,6806,6981,94,-98,-334,4081,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockAssembly_02",130206,206374,7017,17576,138,167,85,4091,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",114970,213194,20848,197,2097156)
 p("SavannaPlant_Grass_04",115015,214087,18160,175,2097156)
 p("SavannaPlant_Grass_01",115108,216181,20876,193,2097156)
@@ -71665,10 +69602,7 @@ p("SavannaPlant_Grass_01",159865,86050,18176,216,2097156)
 p("SavannaPlant_Grass_02",160305,86580,19379,86,2097156)
 p("SavannaPlant_Grass_02",161842,86639,1210,216,2097156)
 p("SavannaPlant_Grass_03",163459,86672,1289,128,2097156)
-<<<<<<< HEAD
-=======
 p("TropicalRockAssembly_01",163677,89400,8420,9024,183,152,-166,4089,1638,"terrainchunk",10,0,0,13,34,42,40,60,2228501)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",157003,90810,19859,62,2097156)
 p("SavannaPlant_Bush_06",156735,91764,20282,133,-459,-1590,3746,2097172)
 p("SavannaPlant_Bush_04",157186,93099,9359,112,340,-66,4081,2097172)
@@ -71836,11 +69770,8 @@ p("SavannaPlant_Grass_04",142906,121343,8348,8070,147,2097157)
 p("SavannaPlant_Grass_04",143722,116279,16131,120,2097156)
 p("SavannaPlant_Grass_01",144781,114810,880,124,2097156)
 p("SavannaPlant_Grass_01",146022,114849,47,108,2097156)
-<<<<<<< HEAD
-=======
 p("WeaponProp_AK47_02",147277,116454,10294,15659,-3400,1666,1560,2097169)
 p("J_AK47",146876,117312,9394,5148,3829,949,1100,2097169)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecBunkerFloor_03",143517,118895,8639,9157,230,4282396445,-222,163,4086,3200,20,2098269)
 p("DecBunkerFloor_03",144297,120170,8663,19898,250,4285219089,927,318,3976,27,2098205)
 p("TropicalRockAssembly_01",140753,123220,8011,20674,149,820,1433,3748,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
@@ -71869,10 +69800,7 @@ p("DecBunkerFloor_03",147703,106732,9149,151,4282396445,-44,109,4094,3200,20,209
 p("DecPuddle_10",150461,106523,0)
 p("DecBunker_ConcretePile_02",150197,108657,16366,107,49,39,4096,"terrainchunk",10,0,0,64,100,10,40,60,2228244)
 p("DecBunkerFloor_03",149506,111103,9437,9150,151,4282396445,-38,107,4094,3200,20,2098269)
-<<<<<<< HEAD
-=======
 p("DecPaperPile_01",152551,109304,0)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecBunker_ConcretePile_02",155384,106713,8428,107,"terrainchunk",10,0,0,64,100,10,40,60,2228228)
 p("TropicalRockAssembly_01",155341,107070,9567,1933,99,-87,70,4094,"terrainchunk",0,0,0,73,96,35,40,60,2,235,10616853)
 p("SavannaPlant_Grass_04",157199,99652,3461,144,2097156)
@@ -71901,24 +69829,16 @@ p("SavannaPlant_Grass_01",157535,106170,21288,125,2097156)
 p("JungleCamp_Stake_03",157700,104484,9644,12883,-72,-232,4088,2150579017,2150579017,2150579017,"",1075845649)
 p("SavannaPlant_Grass_02",158174,104784,8511,142,2097156)
 p("JungleCamp_Stake_01",158219,104551,12181,10800,203,0,4096,0,2150579017,2150579017,2150579017,"",1075845653)
-<<<<<<< HEAD
-=======
 p("DecTyreTracksBrown_06",160934,102589,9377,14813,98,4290632874,49995,454,-203,4065,55,3146781)
 p("DecTyreTracksBrown_06",160984,105241,9376,15116,98,4290632874,49995,-327,192,4078,55,3146781)
 p("DecTyreTracksBrown_06",162396,102417,9376,16597,98,4290632874,49995,617,-99,4048,55,3146781)
 p("DecTyreTracksBrown_06",162803,105197,9376,16597,98,4290632874,49995,617,-99,4048,55,3146781)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_04",156445,106611,1214,107,2097156)
 p("SavannaPlant_Grass_02",156298,108002,11921,163,2097156)
 p("SavannaPlant_Grass_04",156422,108947,19706,158,2097156)
 p("SavannaPlant_Grass_02",155864,110440,11149,156,2097156)
 p("SavannaPlant_Grass_03",157965,107135,13855,160,2097156)
 p("DecBunkerFloor_03",156753,114143,9149,151,4282396445,-44,109,4094,20,2098204)
-<<<<<<< HEAD
-p("DecBunker_ConcretePile_02",163724,107918,9490,7682,129,31,4,4095,"terrainchunk",10,0,0,81,94,10,40,60,2228245)
-p("MilitaryCamp_Truck_Armor",160671,114129,9292,16199,50,50,4095,3667,2148407600,2148407600,"",1075841809)
-p("DecBunker_ConcretePile_04",147500,117277,9014,14991,122,98,224,4088,"terrainchunk",10,0,0,45,100,10,40,60,2228245)
-=======
 p("DecTyreTracksBrown_06",161473,109408,9376,16907,98,4290632874,49995,-470,130,4066,55,3146781)
 p("DecBunker_ConcretePile_02",163724,107918,9490,7682,129,31,4,4095,"terrainchunk",10,0,0,81,94,10,40,60,2228245)
 p("DecTyreTracksBrown_06",160643,110717,9376,16380,98,4290632874,49995,-421,153,4071,55,3146781)
@@ -71931,7 +69851,6 @@ p("JungleCamp_GraveyardRifle_01",148077,116427,9366,16152,-473,4040,473,2097169)
 p("DecBunker_ConcretePile_04",147500,117277,9014,14991,122,98,224,4088,"terrainchunk",10,0,0,45,100,10,40,60,2228245)
 p("Farmland_ContainerCover_01",148268,116995,9665,170,208,3204711462,3291827508,3204449031,4012113,"",1073756933)
 p("MODScreen_Canvas_01",147673,118342,8921,5144,88,4282131976,-246,132,4086,2097181)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecBunkerFloor_03",150412,117441,19032,219,4285219089,746,-991,3904,27,2098204)
 p("SavannaPlant_Grass_04",148565,121032,7320,164,2097156)
 p("SavannaPlant_Grass_03",150185,119555,17224,118,2097156)
@@ -71952,11 +69871,7 @@ p("SavannaPlant_Grass_04",152561,122219,9351,139,2097156)
 p("SavannaPlant_Grass_02",153139,121210,15144,136,2097156)
 p("SavannaPlant_Grass_04",154634,120784,3412,156,2097156)
 p("DecBunker_ConcretePile_02",148794,123565,8482,7453,129,-193,138,4089,"terrainchunk",10,0,0,81,94,10,40,60,2228245)
-<<<<<<< HEAD
-p("SavannaPlant_AloeMarlothii_03",148893,125949,14617,115,113,-25,4094,2097172)
-=======
 p("SavannaPlant_AloeMarlothii_03",148891,125942,8254,14505,94,24,184,4091,2097173)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecBunkerFloor_03",150347,130561,9170,151,4282396445,-409,-6,4076,20,2098204)
 p("Farmland_Axe",151035,130402,8643,3001,2097153)
 p("TropicalPlant_Dead_02",151327,130518,8280,14428,129,-556,-1350,3826,2097173)
@@ -71968,11 +69883,8 @@ p("TropicalPlant_Dead_02",152312,130782,8492,16408,37,-528,572,4021,2097173)
 p("DecBunker_ConcretePile_02",158875,119722,9112,20884,79,1686,943,3612,"terrainchunk",10,0,0,81,94,10,40,60,2228245)
 p("DecBunker_ConcretePile_02",159358,122842,1480,79,-42,-216,4090,"terrainchunk",10,0,0,81,94,10,40,60,2228244)
 p("SavannaPlant_Grass_02",159693,122794,9010,390,135,2097157)
-<<<<<<< HEAD
-=======
 p("DecTyreTracksBrown_06",162016,115454,9376,15484,98,4290632874,49995,-352,183,4076,55,3146781)
 p("DecTyreTracksBrown_06",161863,115771,9376,15484,98,4290632874,49995,-352,183,4076,55,3146781)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecBunker_ConcretePile_02",161093,120383,18396,79,-10,40,4096,"terrainchunk",10,0,0,81,94,10,40,60,2228244)
 p("SavannaRock_01",160369,121826,8346,8038,69,395,598,4032,1738,"terrainchunk",10,0,0,93,99,10,40,60,2228501)
 p("TropicalRockAssembly_01",160933,121536,8942,19927,149,-71,-286,4085,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
@@ -72407,10 +70319,7 @@ p("SavannaPlant_Grass_04",194828,97806,17943,137,2097156)
 p("SavannaPlant_Grass_01",166421,98851,17872,214,2097156)
 p("SavannaPlant_Grass_04",167854,99524,21550,123,2097156)
 p("SavannaPlant_Grass_02",167721,102068,2104,148,2097156)
-<<<<<<< HEAD
-=======
 p("TropicalRockAssembly_01",167462,103769,9126,15901,167,-76,-100,4094,1638,"terrainchunk",10,0,0,13,34,42,40,60,2228501)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("JungleCamp_Stake_01",166336,104551,12181,10800,203,1685,-3733,0,2150579017,2150579017,2150579017,"",1075845653)
 p("Construction_Framework_03",167468,105012,9336,116,2148868404,2148803380,2148014402,"",1073748485)
 p("Construction_Framework_03",167468,106164,7929,116,2148868404,2148803380,2148014402,"",1073748485)
@@ -72430,10 +70339,7 @@ p("Construction_Framework_03",170910,105012,9336,116,2148868404,2148803380,21480
 p("SavannaPlant_Grass_04",170054,106311,4867,113,2097156)
 p("Construction_Framework_03",170974,106192,7929,116,2148868404,2148803380,2148014402,"",1073748485)
 p("SavannaPlant_Grass_04",171051,106346,4867,122,2097156)
-<<<<<<< HEAD
-=======
 p("DecBunker_ConcretePile_02",167202,109761,9449,9941,80,48,-33,4095,1638,"terrainchunk",10,0,0,31,56,10,40,60,2228501)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_04",167599,112089,4875,162,2097156)
 p("SavannaPlant_Grass_02",168819,107443,3843,143,2097156)
 p("SavannaPlant_Grass_04",169670,108555,19669,156,2097156)
@@ -72473,23 +70379,11 @@ p("SavannaPlant_Grass_01",173009,108439,21353,184,3200,2097220)
 p("SavannaPlant_Grass_04",173711,108349,7588,178,3200,2097220)
 p("SavannaPlant_Grass_01",173038,108918,2612,189,2097156)
 p("SavannaPlant_Grass_04",175483,114480,9352,15456,150,2097157)
-<<<<<<< HEAD
-=======
 p("DecBunker_ConcretePile_03",179592,109273,8575,19886,129,-460,-720,4005,1638,"terrainchunk",10,0,0,31,56,10,40,60,2228501)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",176233,113681,9348,21038,87,2097157)
 p("SavannaPlant_Grass_02",176385,114403,9350,13340,149,2097157)
 p("SavannaPlant_Grass_03",177834,113745,19576,188,2097156)
 p("SavannaPlant_Grass_01",179286,113646,999,133,2097156)
-<<<<<<< HEAD
-p("Floor_MetalScaff_02",170994,124193,9119,2151241583,2150054469,"",1073744385)
-p("Floor_MetalScaff_02",170967,126853,9102,1)
-p("Floor_MetalScaff_02",171026,128353,9102,2151241583,2150054469,"",1073744385)
-p("SavannaPlant_Grass_04",174790,115575,9362,2685,115,2097157)
-p("SavannaPlant_Grass_04",175574,116135,9358,8109,120,2097157)
-p("SavannaPlant_Grass_04",175192,116593,9364,8302,124,2097157)
-p("SavannaPlant_Grass_02",176083,118046,5941,155,2097156)
-=======
 p("DecWallRust_01",164564,121575,11932,10800,150,0,-4096,0,2637,2097429)
 p("DecWallLeak_02",164900,121236,11932,10800,0,-4096,0,2198,2097425)
 p("DecWallRust_02",165247,122502,11932,110,0,-4096,0,3381,277)
@@ -72582,7 +70476,6 @@ p("SavannaPlant_Grass_04",175192,116593,9364,8302,124,2097157)
 p("TropicalRockAssembly_01",175804,118216,9122,19927,149,-71,-286,4085,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("SavannaPlant_Grass_02",176083,118046,5941,155,2097156)
 p("DecWallRust_02",174848,122169,12426,21300,110,0,4096,0,2292,2097429)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Bush_06",177653,115214,9302,19212,94,2097157)
 p("SavannaPlant_Grass_02",177843,115023,20837,166,2097156)
 p("SavannaRock_01",177192,117231,8592,8618,129,331,610,4036,"terrainchunk",10,0,0,93,99,10,40,60,2228245)
@@ -72590,11 +70483,6 @@ p("SavannaPlant_Grass_04",177697,116846,19527,210,2097156)
 p("SavannaPlant_Grass_04",179029,116589,654,190,2097156)
 p("SavannaPlant_Grass_02",179250,114803,531,178,2097156)
 p("Floor_MetalScaff_02",173408,124251,9119,2151241583,2150054469,"",1073744385)
-<<<<<<< HEAD
-p("Floor_MetalScaff_02",173344,126829,9102,2151241583,2150054469,"",1073744385)
-p("DecBunkerFloor_03",172322,128989,9048,15586,160,4282396445,20,2098189)
-p("Floor_MetalScaff_02",173438,128332,9102,2151241583,2150054469,"",1073744385)
-=======
 p("DecWallLeak_04",173806,124085,12335,10500,0,4096,0,1134,2097425)
 p("DecBunkerFloor_02",172700,126600,7700,8911,155,4281609513,2779,1154,2779,1088,2097437)
 p("DecWallLeak_04",173806,125585,12335,10500,0,4096,0,1134,2097425)
@@ -72628,7 +70516,6 @@ p("DecWallRust_01",176010,130963,12541,11012,150,2895,-2895,126,3511,2097429)
 p("DecWallLeak_02",177499,123481,11199,7201,-2365,2365,2365,3590,2097425)
 p("DecWallDirt_07",177499,123481,11898,7201,-2365,2365,2365,3644,2097425)
 p("DecWallDirt_03",177579,124228,12675,11012,108,2895,-2895,125,1409,2097429)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("TropicalRockAssembly_04",179539,127814,9189,20575,118,-254,825,4003,"terrainchunk",10,0,0,57,91,16,40,60,2228245)
 p("SavannaPlant_Grass_04",180615,99126,20097,76,2097156)
 p("SavannaPlant_Grass_02",180494,100785,17836,141,2097156)
@@ -72752,10 +70639,6 @@ p("SavannaPlant_Flower_01",183381,114906,9222,13739,120,2097157)
 p("SavannaPlant_Grass_04",183625,115259,18837,92,2097156)
 p("SavannaPlant_Grass_03",183715,116569,17957,213,2097156)
 p("SavannaPlant_Grass_02",182770,117160,19263,133,2097156)
-<<<<<<< HEAD
-p("DecBunker_ConcretePile_02",180467,122032,9302,11187,126,-288,7,4085,"terrainchunk",10,0,0,44,59,10,40,60,2228245)
-=======
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecBunker_ConcretePile_02",182822,121466,9440,4931,126,-116,-40,4094,"terrainchunk",10,0,0,44,59,10,40,60,2228245)
 p("SavannaPlant_Grass_04",185480,115304,1626,213,2097156)
 p("SavannaPlant_Grass_02",185530,116710,3707,113,2097156)
@@ -72766,28 +70649,19 @@ p("SavannaPlant_Grass_01",187160,116453,1703,79,2097156)
 p("SavannaPlant_Grass_02",187283,118007,1820,178,2097156)
 p("SavannaPlant_Grass_04",185213,119706,21522,85,2097156)
 p("SavannaPlant_Grass_01",184457,120025,16536,143,2097156)
-<<<<<<< HEAD
-=======
 p("Construction_WoodenPile_01",184844,121966,9861,10800,3984,-949,0,2150391442,2152219970,2150123873,"",1075845649)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_03",187167,120066,17859,76,2097156)
 p("SavannaPlant_Grass_03",187144,121879,2683,123,2097156)
 p("SavannaPlant_Grass_01",185414,123185,1879,109,2097156)
 p("SavannaPlant_Grass_03",185530,124135,13796,163,2097156)
 p("Mine_WoodenBeam_Rope_04",185542,126515,9374,18116,178,100,4090,2151892815,2150776655,2154788221,"",1075845649)
-<<<<<<< HEAD
-=======
 p("Construction_WoodenPile_01",187124,122920,9418,2150391442,2152219970,2150123873,"",1073748481)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_04",187254,124453,19784,145,2097156)
 p("SavannaPlant_Grass_01",187476,123224,18657,124,2097156)
 p("DecBunker_ConcretePile_02",188050,124032,5435,126,"terrainchunk",10,0,0,44,59,10,40,60,2228228)
 p("SavannaPlant_Grass_02",187179,126345,18229,144,2097156)
 p("SavannaPlant_Grass_01",187301,127149,5892,170,2097156)
-<<<<<<< HEAD
-=======
 p("SavannaPlant_Bush_04",188008,127314,5124,170,2097156)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",188728,115429,17507,109,2097156)
 p("SavannaPlant_Grass_04",190366,116732,20658,196,2097156)
 p("SavannaPlant_Grass_03",188522,117023,4432,210,2097156)
@@ -76387,10 +74261,7 @@ p("SavannaPlant_Grass_01",260980,129175,2737,150,3200,2097220)
 p("SavannaPlant_Grass_01",260580,130970,9597,147,3200,2097220)
 p("SavannaPlant_Grass_04",261469,131016,6364,166,3200,2097220)
 p("TropicalRockAssembly_01",132856,134170,6839,2948,122,4286414205,577,-1349,3824,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
-<<<<<<< HEAD
-=======
 p("TropicalRockAssembly_01",135049,132090,7005,1268,66,4286414205,1722,-2286,2929,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",133877,134961,7450,17927,151,2097157)
 p("Shanty_GarbagePile_01",134541,133258,6774,13330,202,74,4090,2150182196,2148407600,"",1075841553)
 p("TropicalRockAssembly_01",135101,133967,7407,1181,122,4286414205,1503,-2238,3083,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
@@ -76403,17 +74274,12 @@ p("SavannaPlant_Grass_04",133976,137516,7906,16131,169,2097157)
 p("DecBunker_ConcretePile_02",139147,131521,7627,10354,107,-107,-139,4092,"terrainchunk",10,0,0,64,100,10,40,60,2228245)
 p("TropicalPlant_04_Shrub_02",131938,139507,7615,4719,131,2097157)
 p("SavannaPlant_Grass_01",131614,139826,9931,126,2097156)
-<<<<<<< HEAD
-p("DecBunker_ConcretePile_02",138661,146436,8036,972,129,229,-220,4083,"terrainchunk",10,0,0,85,94,10,40,60,2228245)
-p("JungleCamp_TrenchFloor_02",139273,131146,7574,17428,-259,194,4083,2148998178,"",1075841041)
-=======
 p("SavannaPlant_AloeMarlothii_03",131256,147385,7966,1441,109,2097157)
 p("Farmland_Saw",137836,145881,8378,5416,274,-4077,274,2097169)
 p("DecBunker_ConcretePile_02",138661,146436,8036,932,129,126,-124,4092,"terrainchunk",10,0,0,34,94,10,40,60,2228245)
 p("JungleCamp_TrenchFloor_02",139273,131146,7574,17428,-259,194,4083,2148998178,"",1075841041)
 p("Prison_LaundryPile_06",143240,136975,7894,11039,153,-21,-83,4095,2149194266,2149596242,2149596242,"","terrainchunk",10,0,0,50,100,100,40,60,1075976725)
 p("JungleCamp_TrenchFloor_02",143508,132905,7710,17761,-143,76,4092,2148998178,"",1075841041)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("AR_10_DMR",143827,136257,8546,15451,3185,-1871,1769,587,2097425)
 p("Aimpoint5000",143922,136259,8588,15451,3185,-1871,1769,587,2097425)
 p("MilitaryCamp_GrenadePile_02",144643,137698,8607,1)
@@ -76423,39 +74289,6 @@ p("M70_Grenade",144545,138227,8623,1)
 p("MAS36_RifleGrenade",144484,138372,8629,20842,2097153)
 p("MAS36_RifleGrenade",144522,138466,8631,1)
 p("MilitaryCamp_GrenadePile_01",144709,138747,8635,1)
-<<<<<<< HEAD
-p("Shanty_Kettle_01",144809,143152,8662,14287,2097153)
-p("Shanty_Kettle_01",145092,143276,8664,1)
-p("Shanty_Kettle_01",144890,143430,8662,17158,2097153)
-p("TropicalRockAssembly_01",131678,150104,7294,17140,79,4286414205,-297,423,4063,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
-p("TropicalRockAssembly_01",133888,153695,7430,20782,122,4286414205,-673,2984,2724,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
-p("TropicalPlant_Dead_02",136093,154387,7880,11151,98,-3297,-2387,450,2097173)
-p("TropicalRockAssembly_01",132234,155771,7283,16105,122,4286414205,-179,117,4090,"terrainchunk",0,0,0,81,100,42,40,60,2228253)
-p("SavannaPlant_AloeMarlothii_03",135048,161453,8022,14617,115,113,-25,4094,2097173)
-p("TropicalRockAssembly_01",134136,163304,7959,17945,149,78,94,4094,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
-p("TropicalRockAssembly_01",137401,163599,7711,6629,103,211,-61,-28,4095,"terrainchunk",0,0,0,57,91,10,40,60,3276821)
-p("DecBunker_ConcretePile_02",140386,152616,16607,129,39,44,4095,"terrainchunk",10,0,0,0,0,10,40,60,2228244)
-p("DecBunker_ConcretePile_02",144343,148718,16607,129,39,44,4095,"terrainchunk",10,0,0,0,0,10,40,60,2228244)
-p("DecBunker_ConcretePile_02",144754,150847,18016,140,27,86,4096,"terrainchunk",10,0,0,8,21,10,40,60,2228244)
-p("SavannaPlant_AloeMarlothii_03",146285,148160,8028,8299,125,2097157)
-p("DecSteps_03",145129,155599,4543,4288123784,60,2098184)
-p("DecSteps_03",143135,156628,3334,4288123784,60,2098184)
-p("DecForestMoss_01",143104,159003,8021,21235,117,4289373851,3028,2758,22,42,2098205)
-p("DecShantyRubbish_02",143980,158433,16240,96,-7,238,4089,81,2098196)
-p("SavannaPlant_Grass_01",146026,162129,8224,13034,114,2097157)
-p("SavannaPlant_Grass_02",145713,163031,8234,14777,149,2097157)
-p("TropicalPlant_Dead_02",151157,132209,8308,14796,129,-61,209,4090,2097173)
-p("SavannaPlant_Grass_02",151544,135803,6477,171,2097156)
-p("SavannaPlant_AloeMarlothii_03",153183,133801,8520,14243,113,-224,143,4087,2097173)
-p("TropicalPlant_Dead_02",154156,133660,8616,8509,90,-133,68,4093,2097173)
-p("SavannaPlant_Grass_01",154039,134303,17784,141,2097156)
-p("SavannaPlant_Grass_03",152789,135904,9686,123,2097156)
-p("SavannaPlant_Grass_04",152650,135979,18289,159,2097156)
-p("SavannaPlant_Grass_02",153488,136171,20334,141,2097156)
-p("SavannaPlant_Grass_02",152691,137079,18120,136,1279,2097412)
-p("DecBunker_ConcretePile_02",152292,139207,21334,61,297,3652,1830,"terrainchunk",10,0,0,81,94,10,40,60,2228244)
-p("SavannaPlant_Grass_03",154300,136022,9230,166,2097156)
-=======
 p("SavannaPlant_Grass_04",141751,147262,17258,178,2097156)
 p("Shanty_Kettle_01",144809,143152,8662,14287,2097153)
 p("Shanty_Kettle_01",145092,143276,8664,1)
@@ -76546,19 +74379,12 @@ p("SavannaPlant_Grass_03",154300,136022,9230,166,2097156)
 p("Bar_Cup_01",147991,141908,8949,5627,-147,-137,4091,2097169)
 p("Bar_Cup_01",148009,142139,8949,21353,0,4096,0,2097169)
 p("Shanty_Kettle_01",148410,142521,8950,8069,-71,99,4094,2097169)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("JungleCamp_CigareteSet_01",150368,144340,8426,9083,2097153)
 p("DecBunker_ConcretePile_02",149954,145436,8036,15908,129,10,60,4095,"terrainchunk",10,0,0,85,94,10,40,60,2228245)
 p("SavannaPlant_Grass_03",152903,140897,1604,166,2097156)
 p("SavannaPlant_Grass_01",154379,141155,200,163,2097156)
 p("DecBunker_ConcretePile_02",155417,139422,8486,1151,61,-592,-405,4033,"terrainchunk",10,0,0,81,94,10,40,60,2228245)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_01",155176,142193,201,143,2735,2097412)
 p("JungleCamp_Stake_03",152756,143891,10218,10259,2055,3539,152,2150579017,2150579017,2150579017,"",1075845649)
-p("SavannaPlant_Grass_03",155283,143748,18391,137,2735,2097412)
-=======
-p("JungleCamp_Stake_03",152756,143891,10218,10259,2055,3539,152,2150579017,2150579017,2150579017,"",1075845649)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",154271,145616,7622,147,2097156)
 p("SavannaPlant_Grass_02",155491,145424,3047,135,2735,2097412)
 p("SavannaPlant_Bush_06",155727,133207,4649,108,2097156)
@@ -76610,21 +74436,10 @@ p("SavannaPlant_Grass_01",163130,137381,20728,140,2097156)
 p("SavannaPlant_Bush_05",163229,137311,9445,19751,124,1730,-1756,3270,3963,2097429)
 p("SavannaPlant_Grass_02",163459,138305,21378,136,2735,2097412)
 p("DecBunker_ConcretePile_02",155985,139905,8492,7414,129,-151,56,4093,"terrainchunk",10,0,0,81,94,10,40,60,2228245)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_01",158168,140755,17731,137,2735,2097412)
-p("SavannaPlant_Grass_03",158356,140514,2990,137,2735,2097412)
-p("SavannaRockWalk_01",159000,141000,8400,10800,"terrainchunk",10,0,0,75,100,10,40,60,2228225)
-p("SavannaRock_01",158468,141561,8202,13719,66,-1350,3052,2375,"terrainchunk",10,0,0,93,99,10,40,60,2228245)
-p("SavannaPlant_Grass_04",157995,142632,19330,141,2735,2097412)
-p("SavannaPlant_Grass_04",159590,141578,7423,135,2735,2097412)
-p("SavannaPlant_Grass_04",159090,142812,3500,145,2735,2097412)
-p("SavannaPlant_Grass_02",156509,143548,3047,135,2735,2097412)
-=======
 p("SavannaRockWalk_01",159000,141000,8400,10800,"terrainchunk",10,0,0,75,100,10,40,60,2228225)
 p("SavannaRock_01",158468,141561,8202,13719,66,-1350,3052,2375,"terrainchunk",10,0,0,93,99,10,40,60,2228245)
 p("SavannaPlant_Grass_04",157995,142632,19330,141,2735,2097412)
 p("SavannaPlant_Grass_04",159090,142812,3500,145,2735,2097412)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_02",156722,144679,2972,137,2735,2097412)
 p("SavannaPlant_Grass_04",156805,145148,18139,140,2735,2097412)
 p("SavannaPlant_Grass_02",157361,145731,2196,141,2735,2097412)
@@ -76659,17 +74474,6 @@ p("SavannaPlant_Grass_02",162076,145205,18615,144,2735,2097412)
 p("SavannaPlant_Grass_01",163328,144020,14497,143,2735,2097412)
 p("SavannaPlant_Grass_04",162176,146592,12794,136,2735,2097412)
 p("SavannaPlant_Grass_04",163364,145692,12815,143,2735,2097412)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_02",155100,147961,8747,135,2735,2097412)
-p("DecBunker_ConcretePile_04",153636,154641,12611,129,-6,-121,4094,"terrainchunk",10,0,0,0,0,10,40,60,2228244)
-p("DecSteps_03",150951,158352,8542,12526,4288123784,60,2098185)
-p("DecSteps_03",152226,156330,8542,2971,4288123784,60,2098185)
-p("TropicalRockAssembly_01",156246,149171,8209,18183,91,4286414205,-155,4,4093,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
-p("SavannaPlant_Grass_03",156555,149411,4784,135,2735,2097412)
-p("SavannaPlant_Grass_01",156791,147734,3376,137,2735,2097412)
-p("SavannaPlant_Grass_02",156560,150233,4430,143,2735,2097412)
-p("TropicalRockAssembly_01",157528,149775,8285,19549,116,4286414205,48,250,4088,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
-=======
 p("DecTyreTracksBrown_06",149962,154144,8030,11426,98,4290632874,49995,-151,275,4083,55,3146781)
 p("SavannaPlant_Grass_02",155100,147961,8747,135,2735,2097412)
 p("SavannaPlant_Grass_03",155507,149601,8252,18391,137,2735,2097413)
@@ -76687,7 +74491,6 @@ p("SavannaPlant_Grass_01",156268,150128,8284,201,143,2735,2097413)
 p("SavannaPlant_Grass_02",156560,150233,4430,143,2735,2097412)
 p("TropicalRockAssembly_01",157528,149775,8285,19549,116,4286414205,48,250,4088,"terrainchunk",0,0,0,54,100,42,40,60,2228253)
 p("SavannaPlant_Grass_02",157345,150997,8318,3047,135,2735,2097413)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_03",157991,149365,164,139,2735,2097412)
 p("DecBunkerFloor_03",158302,150656,9162,151,4282396445,20,2098188)
 p("SavannaPlant_Grass_01",159120,150404,12682,136,2735,2097412)
@@ -76703,14 +74506,6 @@ p("SavannaPlant_Grass_04",162722,150034,8472,139,2735,2097412)
 p("SavannaPlant_Grass_03",162663,151272,11165,135,2735,2097412)
 p("SavannaPlant_Grass_02",160595,151843,18139,137,2735,2097412)
 p("SavannaPlant_Grass_04",162253,153063,11960,138,2735,2097412)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_01",156076,158006,7519,168,2097156)
-p("SavannaPlant_Grass_04",156707,158140,18180,173,2097156)
-p("SavannaPlant_Grass_01",156935,159273,16826,157,2097156)
-p("SavannaPlant_Grass_04",158544,157670,17258,178,2097156)
-p("SavannaPlant_Grass_01",159179,157369,9423,184,2097156)
-p("SavannaPlant_Grass_01",156222,162904,3677,147,2097156)
-=======
 p("DecTyreTracksBrown_06",155792,156548,8166,11591,99,4290632874,49995,-376,465,4052,65,3146781)
 p("DecTyreTracksBrown_06",158020,156292,9138,875,98,4290632874,49995,2155,1212,3266,55,3146781)
 p("DecTyreTracksBrown_04",158412,156025,8283,9856,51,2098177)
@@ -76719,26 +74514,12 @@ p("DecTyreTracksBrown_06",160191,158396,8166,10424,99,4290632874,49995,-290,520,
 p("DecTyreTracksBrown_06",162549,158601,8166,10781,99,4290632874,49995,-317,504,4052,65,3146781)
 p("DecTyreTracksBrown_06",163472,157837,8166,10424,99,4290632874,49995,-290,520,4052,65,3146781)
 p("MODScreen_Canvas_01",161113,163629,8647,5123,88,4282131976,2097165)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecBunkerFloor_03",163063,160186,9162,151,4282396445,20,2098188)
 p("DecBunker_ConcretePile_03",163764,161358,5392,129,"terrainchunk",10,0,0,0,0,10,40,60,2228228)
 p("TropicalRockAssembly_04",131214,167896,7972,13045,168,211,121,413,4073,"terrainchunk",0,0,0,85,98,10,40,60,3276821)
 p("TropicalRockAssembly_01",133218,167618,7978,13833,112,211,4,48,4095,"terrainchunk",0,0,0,13,34,10,40,60,34,47,11665429)
 p("TropicalRockAssembly_01",131919,169814,7927,17945,149,78,94,4094,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("TropicalRockAssembly_04",132702,168553,7972,12737,103,211,-73,6,4095,"terrainchunk",0,0,0,85,98,10,40,60,3276821)
-<<<<<<< HEAD
-p("TropicalRockAssembly_01",134838,169018,7243,18244,103,211,-422,1110,3920,"terrainchunk",0,0,0,57,91,10,40,60,3276821)
-p("TropicalRockAssembly_03",135711,166364,7545,3769,95,211,-327,-657,4029,"terrainchunk",0,0,0,85,98,10,40,60,3276821)
-p("TropicalPlant_Dead_02",136170,167312,7634,17699,113,-154,203,4088,2097173)
-p("TropicalRockAssembly_01",136354,166684,7622,18415,103,211,-316,454,4058,"terrainchunk",0,0,0,57,91,10,40,60,3276821)
-p("TropicalPlant_Dead_02",136605,167409,7685,12586,73,1537,3758,539,2097173)
-p("TropicalPlant_Dead_02",136463,167652,7685,2170,73,-535,-699,4000,2097173)
-p("TropicalRockAssembly_03",135888,169161,7507,13623,103,211,-342,181,4078,"terrainchunk",0,0,0,85,98,10,40,60,3276821)
-p("TropicalRockAssembly_01",136115,170827,7495,13625,103,211,-287,179,4082,"terrainchunk",0,0,0,57,91,10,40,60,3276821)
-p("DecBunker_ConcretePile_05",136736,171722,21286,129,1457,3590,1328,4048,"terrainchunk",10,0,0,31,56,10,40,60,2228500)
-p("ParSystem",141362,164505,12906,"Smoke",268435457)
-p("TropicalRockAssembly_01",142664,180072,10924,1958,112,211,1928,-1036,3462,"terrainchunk",0,0,0,13,34,10,40,60,34,47,11665429)
-=======
 p("SavannaPlant_AloeMarlothii_03",133011,171439,8035,8230,99,-98,-22,4094,2097173)
 p("TropicalRockAssembly_03",135711,166364,7545,3769,95,211,-327,-657,4029,"terrainchunk",0,0,0,85,98,10,40,60,3276821)
 p("TropicalRockAssembly_01",136354,166684,8120,18192,103,211,54,275,4086,"terrainchunk",0,0,0,57,91,10,40,60,3276821)
@@ -76819,7 +74600,6 @@ p("TropicalRockAssembly_01",142664,180072,10924,1958,112,211,1928,-1036,3462,"te
 p("TropicalRockAssembly_01",143912,174064,9024,18510,112,211,-1310,-629,3829,"terrainchunk",0,0,0,13,34,10,40,60,34,47,11665429)
 p("SavannaRockWalk_01",143400,174600,8400,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("SavannaRockWalk_01",144600,175800,9100,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_04",144491,176063,8390,124,2097156)
 p("SavannaPlant_Grass_03",145533,175377,11272,127,2097156)
 p("SavannaPlant_Grass_03",144206,177558,3464,124,2097156)
@@ -76917,10 +74697,6 @@ p("SavannaPlant_Grass_04",145800,193633,4055,155,2097156)
 p("SavannaPlant_Grass_01",147253,193329,3944,131,2097156)
 p("SavannaPlant_Grass_03",145911,195306,17258,212,2097156)
 p("SavannaPlant_Grass_02",146996,194969,19303,62,2097156)
-<<<<<<< HEAD
-p("DecBunker_ConcretePile_02",153348,167446,3570,129,86,-120,4093,"terrainchunk",10,0,0,0,0,10,40,60,2228244)
-p("SavannaPlant_Grass_03",155488,164080,8364,19531,139,2735,2097413)
-=======
 p("DecWallDirt_03",148799,165025,11815,10506,108,2893,-2893,175,3954,2097429)
 p("DecWallLeak_02",149306,166400,11909,10381,0,-4096,0,1106,2097425)
 p("DecWallRust_01",149524,164093,11950,10381,150,0,-4096,0,1680,2097429)
@@ -76977,7 +74753,6 @@ p("DecBunkerFloor_02",154200,169100,10500,11929,678,2856,2856,1872,2097425)
 p("DecBunkerFloor_02",154200,169300,9800,12302,4281609513,909,2824,2824,1287,2097433)
 p("DecWallLeak_02",155637,168498,11149,11096,-2893,2893,176,1033,2097425)
 p("TropicalRockAssembly_01",155176,170032,8267,15341,96,-11,-53,4095,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_04",148182,175357,2660,125,2097156)
 p("SavannaPlant_Grass_04",148519,175770,7368,129,2097156)
 p("SavannaPlant_Grass_04",148691,175881,11962,103,2097156)
@@ -77013,17 +74788,12 @@ p("SavannaPlant_Grass_01",151673,178615,18706,174,2097156)
 p("TropicalRockAssembly_04",152737,178871,8087,7464,250,"terrainchunk",10,0,0,72,94,10,40,60,2228229)
 p("SavannaPlant_Grass_02",154115,176659,8275,157,2097156)
 p("SavannaPlant_Grass_02",153995,177648,8275,157,2097156)
-<<<<<<< HEAD
-p("TropicalRockAssembly_01",154798,177564,8234,14684,250,-51,-223,4089,"terrainchunk",10,0,0,72,94,10,40,60,2228245)
-p("DecSteps_03",159314,167061,8542,16415,4288123784,60,2098185)
-=======
 p("TropicalRockAssembly_01",154798,177564,8742,14441,158,29,-519,4062,"terrainchunk",10,0,0,72,94,10,40,60,2228245)
 p("DecWallRust_02",155871,164751,11117,11095,110,-2893,2893,176,3843,2097429)
 p("DecWallRust_01",156792,165437,11006,5413,150,249,249,4080,3727,2097429)
 p("DecSteps_03",159314,167061,8542,16415,4288123784,60,2098185)
 p("DecWallRust_02",155871,168846,11119,5412,110,247,248,4081,486,2097429)
 p("DecWallRust_01",156792,168163,11007,11096,150,-2893,2893,176,14,2097429)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecSteps_02",162169,165652,8446,926,4288123784,2097161)
 p("DecForestMoss_01",163773,163967,8349,21235,117,4289373851,3028,2758,22,42,2098205)
 p("Shanty_BrickPile_12",162555,175763,8266,16200,2150182196,2151371879,"",1075841537)
@@ -77073,10 +74843,6 @@ p("TropicalPlant_04_Shrub_01",151602,195848,13889,154,-399,-31,4076,2097172)
 p("SavannaPlant_Grass_04",153404,195455,17813,72,2097156)
 p("SavannaPlant_Grass_01",153263,196442,2802,2097152)
 p("SavannaPlant_Grass_04",155193,193962,731,61,2097156)
-<<<<<<< HEAD
-p("TropicalPlant_04_Shrub_01",153626,196199,15354,180,-483,73,4067,2097172)
-=======
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",155050,195588,17817,94,2097156)
 p("TropicalRockSharp_01",158576,184815,7295,8017,198,2102,-2129,2797,"terrainchunk",10,0,0,86,100,10,40,60,2228245)
 p("TropicalRockAssembly_04",159933,180506,8887,10950,250,0,-483,4067,"terrainchunk",10,0,0,72,94,10,40,60,2228245)
@@ -77107,35 +74873,20 @@ p("SavannaPlant_Grass_01",159898,196491,4478,90,2097156)
 p("TropicalPlant_Dead_02",164917,132611,10615,13826,110,-1072,-2541,3028,1073,2097429)
 p("SavannaPlant_Grass_04",164086,134011,17446,154,2097156)
 p("SavannaPlant_Grass_02",164347,134452,2664,138,2735,2097412)
-<<<<<<< HEAD
-p("SavannaPlant_AloeMarlothii_03",166487,131269,19801,131,2097156)
-=======
 p("SavannaPlant_AloeMarlothii_03",165670,134328,9018,18062,120,2097157)
 p("SavannaPlant_AloeMarlothii_03",166487,131269,19801,131,2097156)
 p("DecWallDirt_06",166900,132119,11901,14399,-2365,-2365,2365,3931,2097425)
 p("DecWallLeak_03",167806,131318,11810,11100,0,-4096,0,968,2097425)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("TropicalRockAssembly_01",167554,132489,8960,5712,79,"terrainchunk",0,0,0,72,97,10,40,60,2228229)
 p("SavannaPlant_Grass_04",164576,135405,19746,144,2735,2097412)
 p("SavannaPlant_Grass_01",164615,137500,4912,143,2735,2097412)
 p("SavannaPlant_Grass_04",163840,138422,4094,163,2097156)
-<<<<<<< HEAD
-p("SavannaPlant_AloeMarlothii_03",166435,136287,13168,118,2097156)
-=======
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_AloeMarlothii_02",165986,138034,9014,11998,110,2097157)
 p("SavannaPlant_Grass_04",166230,138001,16085,137,2735,2097412)
 p("SavannaPlant_AloeMarlothii_01",166546,138053,9034,20306,121,2097157)
 p("SavannaPlant_AloeMarlothii_03",166859,138752,1664,101,2097156)
 p("SavannaPlant_AloeMarlothii_03",167109,137343,1664,125,2097156)
 p("SavannaPlant_Grass_04",167050,139174,14805,144,2735,2097412)
-<<<<<<< HEAD
-p("TropicalRockAssembly_01",168730,134470,8992,10746,57,"terrainchunk",0,0,0,72,97,10,40,60,2228229)
-p("Floor_MetalScaff_02",170994,131366,9119,2151241583,2150054469,"",1073744385)
-p("DecBunkerFloor_03",171945,132182,12239,160,4282396445,14,24,4095,20,2098204)
-p("SavannaPlant_AloeMarlothii_03",168260,135671,18062,120,2097156)
-p("SavannaPlant_AloeMarlothii_03",168342,137865,15249,109,1,11,4095,2097172)
-=======
 p("DecWallLeak_01",168300,132119,10502,14399,-2365,-2365,2365,1799,2097425)
 p("DecWallRust_01",168475,132119,10865,14399,150,-2365,-2365,2365,1618,2097429)
 p("DecWallDirt_03",169081,131900,11270,10800,108,2896,0,2896,1777,2097429)
@@ -77162,28 +74913,17 @@ p("AutoMechanic_Screwdriver",170094,136510,9197,17492,4096,0,0,1318,2150507040,"
 p("AutoMechanic_Hammer",170178,136579,9212,16596,103,-1654,-3348,1681,1318,2151695928,"",1075839765)
 p("AutoMechanic_Screwdriver",170360,136586,9207,9716,55,-368,-2901,2867,1318,2148406961,"",1075839765)
 p("AutoMechanic_Screwdriver",170335,136649,9207,9972,62,-213,-2901,2883,1318,2148406961,"",1075839765)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_AloeMarlothii_03",164490,139325,11591,112,-3,37,4095,2097172)
 p("SavannaPlant_Grass_02",164618,140864,10371,143,2735,2097412)
 p("SavannaPlant_Grass_04",164872,139395,12257,143,2735,2097412)
 p("SavannaPlant_Grass_04",164650,142931,1,139,2735,2097412)
 p("SavannaPlant_AloeMarlothii_03",165267,141585,1251,112,-1529,-860,3701,2097172)
 p("SavannaPlant_Grass_02",166187,140731,1957,139,2735,2097412)
-<<<<<<< HEAD
-=======
 p("TropicalRockAssembly_01",166040,142195,8843,8260,64,-99,64,4094,"terrainchunk",0,0,0,72,97,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_04",164068,144076,19416,141,2735,2097412)
 p("SavannaPlant_Grass_03",164290,146150,15295,139,2735,2097412)
 p("TropicalRockAssembly_01",168469,139761,8850,11350,104,4,-57,4095,"terrainchunk",0,0,0,72,97,10,40,60,2228245)
 p("TropicalRockAssembly_01",168445,141758,8851,8188,104,-23,-58,4095,"terrainchunk",0,0,0,72,97,10,40,60,2228245)
-<<<<<<< HEAD
-p("Floor_MetalScaff_02",173408,131424,9119,2151241583,2150054469,"",1073744385)
-p("HMMWV",172651,135446,9021,1,129)
-p("TropicalRockAssembly_01",176947,133252,9041,6558,104,"terrainchunk",0,0,0,72,97,10,40,60,2228229)
-p("TropicalRockAssembly_01",179380,131281,7734,10008,132,-65,174,4091,6,"terrainchunk",0,0,0,82,93,10,40,60,2228373)
-p("TropicalRockAssembly_01",176761,139151,8850,11350,104,4,-57,4095,"terrainchunk",0,0,0,72,97,10,40,60,2228245)
-=======
 p("DecTyreTracksBrown_06",170757,145665,8210,5926,98,4290632874,49995,122,391,4075,55,3146781)
 p("DecTyreTracksBrown_06",171421,146879,8166,5918,99,4290632874,49995,121,775,4020,65,3146781)
 p("DecBunkerFloor_02",172200,131400,9100,16679,166,2381,2097413)
@@ -77206,7 +74946,6 @@ p("TropicalRockAssembly_01",179380,131281,7734,10008,132,-65,174,4091,6,"terrain
 p("TropicalRockAssembly_01",176761,139151,8850,11350,104,4,-57,4095,"terrainchunk",0,0,0,72,97,10,40,60,2228245)
 p("DecTyreTracksBrown_06",172204,139730,8210,5926,98,4290632874,49995,122,391,4075,55,3146781)
 p("DecTyreTracksBrown_06",172746,142294,8210,5926,98,4290632874,49995,122,391,4075,55,3146781)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_03",175577,143285,15335,139,2735,2097412)
 p("SavannaPlant_Grass_01",173934,145221,18852,137,2735,2097412)
 p("SavannaPlant_Grass_04",175325,144357,11335,144,2735,2097412)
@@ -77214,11 +74953,7 @@ p("SavannaPlant_Grass_04",175676,144999,14747,140,-8,23,4095,2097172)
 p("SavannaPlant_Grass_03",174427,145526,3744,126,-5,132,4093,2097172)
 p("SavannaPlant_Grass_04",175064,146076,5844,141,2735,2097412)
 p("DecBunkerFloor_03",177872,141035,8848,12170,160,4282396445,101,53,4094,20,2098205)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_02",177326,143221,11453,125,1536,2097412)
-=======
 p("SavannaPlant_Grass_02",177324,143217,11453,125,1536,2097412)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_03",178053,143169,13805,117,1128,2097412)
 p("SavannaPlant_Grass_04",176213,144196,20539,126,2097156)
 p("SavannaPlant_Grass_04",177059,145202,10978,126,1128,2097412)
@@ -77229,12 +74964,6 @@ p("SavannaPlant_Grass_01",178737,145158,2280,131,155,688,4035,2097172)
 p("SavannaPlant_Grass_02",180086,144443,19646,131,310,-441,4060,2097172)
 p("SavannaPlant_Grass_02",178973,146802,17891,134,231,-342,4075,2097172)
 p("SavannaPlant_Grass_02",163977,149455,5483,140,2735,2097412)
-<<<<<<< HEAD
-p("DecBunker_ConcretePile_02",165561,151365,15159,129,-45,124,4093,"terrainchunk",10,0,0,0,0,10,40,60,2228244)
-p("DecBunkerFloor_03",166784,152555,9163,151,4282396445,-104,-5,4095,20,2098204)
-p("SavannaPlant_Grass_03",171799,149796,11539,144,2735,2097412)
-p("DecBunker_ConcretePile_03",169767,155998,8572,539,129,-971,-685,3919,"terrainchunk",10,0,0,0,0,10,40,60,2228245)
-=======
 p("DecShantyRubbish_02",165272,149553,8195,16240,140,-7,238,4089,81,2098197)
 p("DecBunker_ConcretePile_02",165561,151365,15159,129,-45,124,4093,"terrainchunk",10,0,0,0,0,10,40,60,2228244)
 p("DecBunkerFloor_03",166784,152555,9163,151,4282396445,-104,-5,4095,20,2098204)
@@ -77248,7 +74977,6 @@ p("DecTyreTracksBrown_03",167051,155962,8650,21024,33,2098177)
 p("DecTyreTracksBrown_06",166628,158613,8166,10619,99,4290632874,49995,-305,512,4052,65,3146781)
 p("DecBunker_ConcretePile_03",169767,155998,8572,539,129,-971,-685,3919,"terrainchunk",10,0,0,0,0,10,40,60,2228245)
 p("DecTyreTracksBrown_06",169740,158395,8210,10836,98,4290632874,49995,-125,285,4084,55,3146781)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("MODScreen_Canvas_01",169816,162266,8357,5050,69,4285610576,-187,-49,4091,2097181)
 p("Bar_CardPile_04",170030,162354,8371,1712,-68,-481,4067,2097169)
 p("MODScreen_Canvas_01",170097,163569,8356,14796,69,4281026169,-26,39,4095,2097181)
@@ -77275,12 +75003,6 @@ p("DecBunkerFloor_02",180148,148718,19920,134,4283382828,178,-619,4045,70,209820
 p("SavannaPlant_Grass_01",178188,151501,9040,20245,142,2735,2097413)
 p("DecSteps_02",179400,152279,8826,6744,4288123784,2097161)
 p("DecBunker_ConcretePile_02",178185,154968,16658,129,189,-77,4091,"terrainchunk",10,0,0,0,0,10,40,60,2228244)
-<<<<<<< HEAD
-p("DecSteps_03",173891,157283,9075,6891,4288123784,60,2098185)
-p("DecSteps_03",175147,157342,9075,6473,4288123784,60,2098185)
-p("DecSteps_03",175315,158347,9075,4737,4288123784,60,2098185)
-p("Shanty_BrickPile_09",172283,163667,8350,2907195988,2888379700,8405826,"",1073752577)
-=======
 p("DecTyreTracksBrown_03",172186,156142,8676,3440,33,2098177)
 p("DecSteps_03",173891,157283,9075,6891,4288123784,60,2098185)
 p("DecTyreTracksBrown_06",173801,158063,8210,10673,98,4290632874,49995,-119,288,4084,55,3146781)
@@ -77289,20 +75011,11 @@ p("DecSteps_03",175147,157342,9075,6473,4288123784,60,2098185)
 p("DecSteps_03",175315,158347,9075,4737,4288123784,60,2098185)
 p("Shanty_BrickPile_09",172283,163667,8350,2907195988,2888379700,8405826,"",1073752577)
 p("DecTyreTracksBrown_06",177717,157684,8166,10280,99,4290632874,49995,-280,528,4052,65,3146781)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecBunker_ConcretePile_03",176760,158741,8467,19617,95,128,166,4090,"terrainchunk",10,0,0,31,56,10,40,60,2228245)
 p("DecBunker_ConcretePile_03",177482,159364,8421,6534,129,-8,140,4093,"terrainchunk",10,0,0,0,0,10,40,60,2228245)
 p("DecBunkerFloor_03",177555,159379,6625,151,4282396445,39,178,4092,20,2098204)
 p("DecSteps_03",178878,157805,8577,15206,4288123784,60,2098185)
 p("DecSteps_03",179490,158490,9075,16415,4288123784,60,2098185)
-<<<<<<< HEAD
-p("DecBunkerFloor_03",181042,131239,6164,157,4282396445,-175,161,4089,20,2098204)
-p("DecBunker_ConcretePile_02",180282,132380,9360,126,-23,87,4095,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
-p("TropicalPlant_Dead_02",181388,137273,2331,52,4281808950,-512,-35,4064,2097180)
-p("DecBunker_ConcretePile_02",182859,135867,18264,140,195,231,4085,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
-p("DecBunker_ConcretePile_02",183490,136529,7630,1897,101,-90,179,4091,"terrainchunk",10,0,0,44,59,10,40,60,2228245)
-p("DecBunker_ConcretePile_02",180611,139365,4652,70,-163,153,4089,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
-=======
 p("Prison_LaundryPile_06",178907,162349,8354,11122,153,2149194266,2149596242,2149596242,"","terrainchunk",10,0,0,50,100,100,40,60,1075976709)
 p("DecBunkerFloor_03",181042,131239,6164,157,4282396445,-175,161,4089,20,2098204)
 p("DecBunker_ConcretePile_02",180282,132380,9360,126,-23,87,4095,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
@@ -77315,7 +75028,6 @@ p("TropicalRockAssembly_01",187147,136622,9136,19861,92,107,-128,4092,"terrainch
 p("DecBunker_ConcretePile_02",187455,136426,9189,10953,140,-68,61,4094,"terrainchunk",10,0,0,44,59,10,40,60,2228245)
 p("DecBunker_ConcretePile_02",180611,139365,4652,70,-163,153,4089,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
 p("Floor_WoodScaff_Parapet_02",181219,139822,9804,2150182196,2148274969,2150054469,"",1073748481)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecBunkerFloor_03",180842,140415,6159,109,4282396445,20,2098188)
 p("SavannaRock_07",180867,141211,8959,18472,10,1795,"terrainchunk",10,0,0,40,60,10,40,60,2228485)
 p("SavannaRock_07",181047,140957,8636,20341,14,350,-331,4067,1795,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
@@ -77497,24 +75209,17 @@ p("SavannaRock_07",188280,140304,8924,14566,14,288,270,4076,"terrainchunk",10,0,
 p("DecBunkerFloor_03",186003,143485,8798,109,4282396445,20,2098188)
 p("DecBunker_ConcretePile_02",188166,143994,11575,97,26,205,4091,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
 p("DecBunkerFloor_02",187062,145801,7636,3252,134,4283382828,5,-16,4096,70,2098205)
-<<<<<<< HEAD
-=======
 p("TropicalRockAssembly_01",188513,134006,9289,4908,94,137,-114,4092,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("TropicalRockAssembly_01",189702,134505,9342,8379,62,156,55,4092,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("TropicalRockAssembly_01",190266,136787,9309,4537,62,-203,104,4089,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("Shanty_WaterTower_Small",189000,137400,3255896584,1134131773,2905547552,12306714,"",1073756672)
 p("DecBunker_ConcretePile_02",189258,138234,7630,7849,101,"terrainchunk",10,0,0,44,59,10,40,60,2228229)
 p("SavannaPlant_Grass_03",189612,139233,9700,137,2097156)
 p("SavannaPlant_Grass_02",192110,139143,1647,138,2097156)
 p("DecBunker_ConcretePile_02",193166,132761,5435,126,5,-109,4095,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
-<<<<<<< HEAD
-p("DecWallDirt_07",195700,132100,12601,14399,-2365,-2365,2365,2608,2097425)
-=======
 p("DecTyreTracksBrown_06",193050,133565,9797,15103,98,4290632874,49995,-328,195,4078,55,3146781)
 p("DecWallDirt_07",195700,132100,12601,14399,-2365,-2365,2365,2608,2097425)
 p("DecTyreTracksBrown_06",194416,137884,9797,15103,98,4290632874,49995,-328,195,4078,55,3146781)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecWallDirt_06",195700,135700,12601,14399,-2365,-2365,2365,1974,2097425)
 p("DecWallLeak_03",196319,135700,11203,14399,-2365,-2365,2365,2818,2097425)
 p("SavannaRock_09",188539,140386,9500,3988,14,-436,4072,51,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -77564,10 +75269,7 @@ p("SavannaRock_01",190646,142990,9403,6404,18,-2527,1836,2650,"terrainchunk",10,
 p("SavannaRock_03",190627,143067,9590,20176,18,39,516,4063,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("SavannaRock_07",190697,143022,8619,14970,10,357,529,4045,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("SavannaRock_03",190537,143209,8941,5565,18,599,-538,4016,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
-<<<<<<< HEAD
-=======
 p("SavannaPlant_Grass_01",191723,141696,6764,139,2097156)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_02",192282,142321,19073,89,2097156)
 p("SavannaRock_03",190198,143521,9129,5637,12,-821,917,3906,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("SavannaRock_09",190203,143572,8999,12415,11,-1976,-514,3550,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -77618,10 +75320,7 @@ p("SavannaRock_08",190544,145277,9198,17531,10,111,-283,4084,"terrainchunk",10,0
 p("SavannaRock_01",190594,145237,8927,15220,18,-2234,-1988,2798,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("SavannaRock_01",190646,145248,9054,6404,18,-2527,1836,2650,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("SavannaPlant_Grass_03",192133,143817,4011,127,2097156)
-<<<<<<< HEAD
-=======
 p("SavannaPlant_Grass_02",191848,144595,18702,140,2097156)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaRock_08",190525,145658,8372,6652,10,285,357,4070,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("SavannaRock_08",190595,145504,9438,17531,10,111,-283,4084,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("SavannaRock_07",190467,145698,8906,19242,10,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
@@ -77645,13 +75344,10 @@ p("SavannaRock_07",190633,147320,9517,16814,10,-25,198,4091,"terrainchunk",10,0,
 p("SavannaPlant_Grass_04",190785,147222,10064,127,3200,2097220)
 p("SavannaRock_07",190770,147416,9333,18459,10,-124,712,4031,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("SavannaPlant_Grass_01",191802,145959,19176,116,2097156)
-<<<<<<< HEAD
-=======
 p("DecTyreTracksBrown_06",195528,141641,8624,15103,98,4290632874,49995,-328,195,4078,55,3146781)
 p("DecTyreTracksBrown_03",195978,143745,7654,16775,33,2098177)
 p("DecTyreTracksBrown_03",195819,146074,7654,18575,33,2098177)
 p("DecTyreTracksBrown_03",196290,147262,7654,9511,33,2098177)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaRock_06",180810,147625,8677,6423,10,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
 p("SavannaRock_07",180851,147653,9128,18221,10,1370,-345,3844,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("SavannaRock_07",180786,147820,8932,18221,10,1370,-345,3844,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
@@ -77670,10 +75366,7 @@ p("SavannaRock_09",182029,148584,9332,16404,23,37,-301,4084,992,"terrainchunk",1
 p("SavannaRock_09",182155,148584,8517,11611,14,722,-282,4021,992,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("SavannaRock_09",182217,148584,8700,11730,14,-873,-75,4001,992,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("SavannaRock_09",182180,148611,8888,14102,14,278,-455,4061,992,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
-<<<<<<< HEAD
-=======
 p("SavannaPlant_Grass_02",181716,151015,9900,142,2097156)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaRock_09",183247,148475,8555,17731,14,3001,-359,2763,1572,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("SavannaRock_07",182327,148548,9082,1249,10,2532,-1534,2831,1572,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("SavannaRock_01",182459,148559,8253,19935,24,2288,3396,81,992,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
@@ -77699,13 +75392,10 @@ p("SavannaRock_09",183986,148613,9420,20958,12,-3874,1139,682,1572,"terrainchunk
 p("SavannaRock_01",184076,148571,8787,9368,24,697,-721,3971,1572,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("SavannaRock_01",184094,148638,9228,6981,16,557,-1136,3895,1572,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("SavannaRock_09",184154,148613,9100,3588,10,-850,4002,185,1572,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
-<<<<<<< HEAD
-=======
 p("SavannaPlant_Grass_01",183956,149092,8210,6764,139,2999,2097413)
 p("SavannaPlant_Grass_01",182664,150690,8212,13665,115,2999,2097413)
 p("SavannaPlant_Grass_02",183668,151428,8132,9900,142,2999,2097413)
 p("SavannaPlant_Grass_02",184223,150669,8128,18702,140,2999,2097413)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaRock_07",184482,148404,8635,6480,14,1808,3586,801,1572,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("SavannaRock_07",184612,148433,9296,17751,10,-1978,-1748,3131,1572,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("SavannaRock_07",184660,148404,8798,2839,14,697,-933,3926,1572,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
@@ -77714,26 +75404,17 @@ p("SavannaRock_09",184420,148659,9051,18798,14,3958,941,473,1572,"terrainchunk",
 p("SavannaRock_07",184598,148548,9167,18149,10,1750,-129,3700,1572,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("SavannaRock_09",184941,148613,9096,20958,12,-3874,1139,682,1572,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
 p("SavannaRock_09",185115,148513,9248,17990,23,-458,-619,4022,1572,"terrainchunk",10,0,0,40,60,10,40,60,2228501)
-<<<<<<< HEAD
-p("DecBunkerFloor_03",187228,147599,9162,151,4282396445,20,61,4096,20,2098204)
-p("SavannaRock_09",187647,148656,7581,6542,158,827,-574,3970,3200,"terrainchunk",10,0,0,93,99,10,40,60,2228309)
-p("SavannaRock_09",187654,149099,7260,6065,158,-1732,1028,3566,3200,"terrainchunk",10,0,0,93,99,10,40,60,2228309)
-=======
 p("Shanty_Kettle_01",184337,150787,10727,9426,79,170,4091,2097169)
 p("SavannaRockWalk_01",185400,150600,7700,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("DecBunkerFloor_03",187228,147599,9162,151,4282396445,20,61,4096,20,2098204)
 p("SavannaRock_09",187647,148656,7581,6542,158,827,-574,3970,3200,"terrainchunk",10,0,0,93,99,10,40,60,2228309)
 p("SavannaRock_09",187654,149099,7260,6065,158,-1732,1028,3566,3200,"terrainchunk",10,0,0,93,99,10,40,60,2228309)
 p("DecTyreTracksBrown_06",181863,157121,8166,10280,99,4290632874,49995,-280,528,4052,65,3146781)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecBunker_ConcretePile_02",183529,157065,2205,63,232,102,4088,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
 p("DecBunker_ConcretePile_02",182556,157955,7644,5060,114,99,-351,4080,"terrainchunk",10,0,0,44,59,10,40,60,2228245)
 p("SavannaPlant_Grass_04",183294,159739,11492,103,2097156)
 p("SavannaPlant_Grass_02",183533,160113,11256,112,2097156)
-<<<<<<< HEAD
-=======
 p("DecTyreTracksBrown_06",184800,156422,8210,10332,98,4290632874,49995,-105,295,4084,55,3146781)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecBunker_ConcretePile_02",184539,158603,8464,78,90,-26,4094,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
 p("SavannaPlant_Grass_04",185456,159365,1514,113,2097156)
 p("DecBunker_ConcretePile_02",188216,156467,3965,97,288,116,4084,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
@@ -77791,12 +75472,6 @@ p("SavannaRock_07",190572,149863,8315,12214,10,"terrainchunk",10,0,0,40,60,10,40
 p("TropicalRockAssembly_01",190482,149916,7948,18989,81,775,-167,4018,"terrainchunk",10,0,0,84,100,39,40,60,179,244,10616853)
 p("SavannaRock_07",190667,149773,8056,7511,10,"terrainchunk",10,0,0,40,60,10,40,60,2228229)
 p("SavannaRock_09",190754,149525,8080,11206,18,446,-86,4070,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
-<<<<<<< HEAD
-p("DecBunker_ConcretePile_02",193116,147803,4964,97,-66,412,4074,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
-p("DecBunker_ConcretePile_02",192844,151209,7731,4296,97,27,335,4082,"terrainchunk",10,0,0,44,59,10,40,60,2228245)
-p("DecBunker_ConcretePile_02",194498,153593,17703,129,"terrainchunk",10,0,0,44,59,10,40,60,2228228)
-p("DecBunkerFloor_03",195468,152451,6623,151,4282396445,3200,20,2098252)
-=======
 p("DecTyreTracksBrown_03",191490,154807,7654,349,33,2098177)
 p("DecBunker_ConcretePile_02",193116,147803,4964,97,-66,412,4074,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
 p("DecBunker_ConcretePile_02",192844,151209,7731,4296,97,27,335,4082,"terrainchunk",10,0,0,44,59,10,40,60,2228245)
@@ -77808,17 +75483,10 @@ p("DecBunker_ConcretePile_02",194498,153593,17703,129,"terrainchunk",10,0,0,44,5
 p("DecTyreTracksBrown_03",192993,153897,7654,20149,33,2098177)
 p("DecBunkerFloor_03",195468,152451,6623,151,4282396445,3200,20,2098252)
 p("DecTyreTracksBrown_06",188946,155859,8210,10332,98,4290632874,49995,-105,295,4084,55,3146781)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Bush_06",188557,161536,7042,125,2097156)
 p("SavannaPlant_Bush_05",190110,160514,11732,108,-191,-278,4082,2097172)
 p("TropicalRockAssembly_01",189207,162007,7525,19629,122,-44,-565,4056,6,"terrainchunk",0,0,0,56,82,10,40,60,2228373)
 p("TropicalRockAssembly_01",188770,162870,7603,2417,122,6,"terrainchunk",0,0,0,56,82,10,40,60,2228357)
-<<<<<<< HEAD
-p("DecBunkerFloor_03",196426,157030,9233,145,4282396445,3200,20,2098252)
-p("DecBunker_ConcretePile_02",196515,157351,17386,129,"terrainchunk",10,0,0,44,59,10,40,60,2228228)
-p("DecBunker_ConcretePile_02",194856,159228,16645,129,7,-61,4095,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
-p("DecSteps_02",163987,166599,8618,6423,4288123784,2097161)
-=======
 p("DecTyreTracksBrown_06",196064,156206,7694,5458,98,4290632874,49995,158,405,4072,55,3146781)
 p("DecBunkerFloor_03",196426,157030,9233,145,4282396445,3200,20,2098252)
 p("DecBunker_ConcretePile_02",194856,159228,16645,129,7,-61,4095,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
@@ -77826,7 +75494,6 @@ p("DecTyreTracksBrown_06",195630,160405,7672,15844,98,4290632874,49995,-378,172,
 p("DecTyreTracksBrown_06",196258,163391,7650,5457,99,4290632874,49995,184,811,4010,65,3146781)
 p("DecSteps_02",163987,166599,8618,6423,4288123784,2097161)
 p("Shanty_BrickPile_09",167542,177146,8346,5400,2907195988,2888379700,8405826,"",1075849729)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecBunker_ConcretePile_02",175642,175113,8365,1446,149,244,-9,4088,"terrainchunk",10,0,0,44,59,10,40,60,2228245)
 p("DecBunker_ConcretePile_04",179733,175642,8346,2632,129,-176,47,4091,"terrainchunk",10,0,0,31,56,10,40,60,2228245)
 p("SavannaPlant_Bush_05",179547,179046,19257,118,2097156)
@@ -77866,12 +75533,6 @@ p("TropicalRockSharp_01",166051,189390,9405,12909,180,-2470,-3008,1275,"terrainc
 p("TropicalRockSharp_01",167360,189861,9974,18194,150,662,-78,4041,"terrainchunk",10,0,0,36,68,10,40,60,2228245)
 p("SavannaPlant_Grass_02",165994,191383,18369,174,2097156)
 p("TropicalRockAssembly_01",167787,191867,14073,18492,131,-1796,-1230,3469,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
-<<<<<<< HEAD
-p("TropicalRockSharp_01",169291,189782,9974,16201,150,-579,-112,4053,"terrainchunk",10,0,0,36,68,10,40,60,2228245)
-p("TropicalRockAssembly_04",169711,191478,13696,3203,121,2172,-71,3471,"terrainchunk",0,0,0,40,60,10,40,60,2228245)
-p("TropicalRockAssembly_04",171813,188950,12032,4965,76,1557,-377,3769,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
-p("TropicalRockAssembly_03",171057,190805,12967,7539,195,780,-432,3997,"terrainchunk",0,0,0,40,60,10,40,60,2228245)
-=======
 p("TropicalPlant_04_Shrub_01",165416,192587,15354,180,-483,73,4067,2097172)
 p("TropicalRockAssembly_01",166888,193556,14767,6983,131,468,-683,4011,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("TropicalRockSharp_01",169291,189782,9974,16201,150,-579,-112,4053,"terrainchunk",10,0,0,36,68,10,40,60,2228245)
@@ -77880,7 +75541,6 @@ p("TropicalRockAssembly_03",169579,191785,13929,10972,220,112,-267,4085,"terrain
 p("TropicalRockAssembly_04",171813,188950,12032,4965,76,1557,-377,3769,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockAssembly_03",171057,190805,12967,7539,195,780,-432,3997,"terrainchunk",0,0,0,40,60,10,40,60,2228245)
 p("TropicalRockAssembly_04",171257,191524,13386,15218,119,211,-405,-1482,3796,"terrainchunk",0,0,0,40,60,10,40,60,3276821)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("TropicalRockAssembly_01",171652,191673,13503,19908,131,-3609,-1783,752,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("TropicalRockAssembly_01",169844,193645,14711,7018,131,675,-661,3985,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("SavannaPlant_Grass_04",168285,195464,21573,66,2097156)
@@ -77952,12 +75612,8 @@ p("TropicalRockAssembly_01",179424,194462,13360,2714,152,2898,975,2724,"terrainc
 p("TropicalRockAssembly_01",178206,194812,13908,13423,128,192,-1583,3773,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("TropicalRockAssembly_01",179016,195381,13980,3890,128,2877,448,2881,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("MODScreen_Canvas_01",183740,163883,8344,16219,69,4278657900,2097165)
-<<<<<<< HEAD
-p("Shanty_BrickPile_10",186665,164999,0)
-=======
 p("Shanty_BrickPile_10",186501,164069,8344,5400,2319993428,2603167028,8402740,"",1075849729)
 p("Shanty_BrickPile_10",186665,164999,2319993428,2603167028,8402740,"",1073752576)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecBunker_ConcretePile_02",186739,165195,12502,78,-287,-5,4086,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
 p("SavannaPlant_Grass_04",187950,165107,472,134,2097156)
 p("SavannaPlant_Grass_04",186584,167183,1720,125,2097156)
@@ -77974,10 +75630,7 @@ p("SavannaPlant_Grass_04",187183,170430,9368,109,2097156)
 p("SavannaPlant_Bush_05",180375,177791,8352,11412,76,2097157)
 p("SavannaPlant_Grass_04",188016,173269,8348,17862,180,2097157)
 p("SavannaPlant_Grass_03",187734,175005,8348,18746,93,2097157)
-<<<<<<< HEAD
-=======
 p("SavannaPlant_AloeMarlothii_03",185269,176303,8346,13168,68,2097157)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",185803,179561,13115,157,2097156)
 p("SavannaPlant_Grass_02",186562,179186,20363,162,2097156)
 p("SavannaPlant_Grass_02",186753,180024,19432,160,2097156)
@@ -77989,14 +75642,6 @@ p("SavannaPlant_AloeMarlothii_01",189428,165224,8348,2120,103,2097157)
 p("SavannaPlant_AloeMarlothii_02",189568,164726,8412,19552,120,2097157)
 p("SavannaRockWalk_01",190200,165000,7700,10800,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("SavannaPlant_Grass_01",189489,166441,8954,157,2097156)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_04",189032,168030,3815,118,2097156)
-p("SavannaPlant_Grass_04",188843,169204,472,134,2097156)
-p("DecBunkerFloor_03",193403,164414,13535,149,4282396445,3200,20,2098252)
-p("DecBunker_ConcretePile_02",195671,168049,7735,18052,129,-62,-75,4094,"terrainchunk",10,0,0,44,59,10,40,60,2228245)
-p("DecBunkerFloor_03",189742,179789,1607,165,4282396445,20,2098188)
-p("TropicalRockAssembly_01",193857,174857,7679,21254,128,2078,-1479,3205,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
-=======
 p("SavannaRockWalk_01",190200,167400,7700,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalRockAssembly_01",192281,164476,7698,20167,92,139,-1686,3730,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("SavannaPlant_Grass_04",189032,168030,3815,118,2097156)
@@ -78007,17 +75652,13 @@ p("DecBunker_ConcretePile_02",195671,168049,7661,18046,129,-7,-8,4095,"terrainch
 p("DecBunkerFloor_03",189742,179789,1607,165,4282396445,20,2098188)
 p("TropicalRockAssembly_01",193022,175549,7733,14013,70,307,80,4083,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("TropicalRockAssembly_01",193803,174856,7733,687,70,-3103,2509,922,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecWallDirt_06",193199,177265,10699,623,4095,5,0,1551,2097425)
 p("DecWallDirt_07",193201,177739,12056,20976,4095,-5,0,2841,2097425)
 p("DecWallRust_02",193552,178086,10849,10799,110,0,4079,370,1239,2097429)
 p("DecWallLeak_02",193901,177739,12056,20976,4095,-5,0,1029,2097425)
 p("DecWallLeak_04",193950,177776,10821,5427,368,-368,4062,2087,2097425)
 p("DecWallRust_01",194236,177782,10794,622,150,4096,5,1,2826,2097429)
-<<<<<<< HEAD
-=======
 p("Shanty_GarbagePile_01",192928,180007,7559,10877,199,0,4091,2150182196,2148407600,"",1075841553)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecWallRust_02",193554,180201,11604,10799,110,0,-4079,370,759,2097429)
 p("DecBunkerFloor_02",193800,179905,8400,14994,145,-2862,-2071,2071,456,2097429)
 p("DecWallRust_01",194234,179289,11769,20977,150,4096,-5,1,267,2097429)
@@ -78054,13 +75695,7 @@ p("SavannaPlant_Grass_02",185570,183266,11344,157,2097156)
 p("SavannaPlant_Grass_03",186684,180490,1285,127,2097156)
 p("SavannaPlant_Grass_03",186658,181753,1830,127,2097156)
 p("SavannaPlant_Grass_03",187554,181441,5392,118,2097156)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_01",187949,181842,8126,157,2097156)
 p("SavannaPlant_Grass_01",186454,183430,14049,114,2097156)
-p("SavannaPlant_Grass_04",186971,183506,13959,150,2097156)
-=======
-p("SavannaPlant_Grass_01",186454,183430,14049,114,2097156)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_02",187906,187251,10277,155,2097156)
 p("TropicalRockAssembly_01",181830,191436,10628,2861,128,2297,380,3369,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("TropicalRockAssembly_03",183756,189415,9494,1961,195,211,2287,1091,3217,"terrainchunk",0,0,0,55,76,10,40,60,3276821)
@@ -78089,21 +75724,13 @@ p("SavannaPlant_Grass_01",186862,192754,18863,143,2097156)
 p("DecBunker_ConcretePile_04",186468,193174,10339,8452,129,805,-592,3972,"terrainchunk",10,0,0,31,56,10,40,60,2228245)
 p("TropicalRockAssembly_01",186506,193240,10004,12050,128,519,-543,4026,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("SavannaRockWalk_01",189000,180600,7700,"terrainchunk",10,0,0,40,60,10,40,60,131073)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_02",188868,181836,2210,162,2097156)
-=======
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_04",189443,181601,1022,155,2097156)
 p("SavannaRockWalk_02",189000,184200,7700,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("SavannaPlant_Grass_04",189949,182934,6865,147,2097156)
 p("SavannaPlant_Grass_04",189255,188215,8024,19865,210,2097157)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_02",189536,187521,20250,130,2097156)
-=======
 p("JungleCamp_TrenchFloor_02",189638,186415,8378,16307,111,-642,4043,2148998178,"",1075841041)
 p("SavannaPlant_Grass_02",189536,187521,20250,130,2097156)
 p("TropicalRockAssembly_01",191599,187512,8105,15019,96,117,-541,4058,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecBunkerFloor_02",193187,180235,9770,11511,145,-2880,425,2880,456,2097429)
 p("DecWallLeak_04",193950,181376,11419,5428,-368,368,4062,2737,2097425)
 p("Prison_Decoration_02",193512,182409,7700,1)
@@ -78123,10 +75750,7 @@ p("DecBunkerFloor_02",193105,185400,7700,11511,145,-2880,425,2880,456,2097429)
 p("DecWallLeak_04",193949,184624,10821,10360,2890,-2891,262,2700,2097425)
 p("DecBunkerFloor_02",193800,186095,9800,6187,145,-3252,1760,1760,456,2097429)
 p("DecBunkerFloor_02",194408,185982,8940,13355,145,-1595,-2667,2667,456,2097429)
-<<<<<<< HEAD
-=======
 p("JungleCamp_TrenchFloor_02",193521,188215,7994,17936,-309,-773,4010,2148998178,"",1075841041)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("Shanty_Carpet_01",194881,185217,7700,1)
 p("DecWallRust_01",195474,184981,10757,10360,150,2890,-2891,262,1933,2097429)
 p("DecWallRust_02",195165,185653,10633,5427,110,-369,368,4062,3626,2097429)
@@ -78191,15 +75815,9 @@ p("SavannaPlant_Grass_02",137520,204231,15788,109,3200,2097220)
 p("TropicalPlant_04_Shrub_01",139178,203201,10622,151,-103,34,4095,3200,2097236)
 p("SavannaPlant_Grass_01",138312,203895,7922,121,3200,2097220)
 p("SavannaPlant_Grass_04",138326,204706,9452,116,3200,2097220)
-<<<<<<< HEAD
-p("TropicalRockAssembly_02",131570,206505,10660,19430,138,1022,3598,1668,3200,"terrainchunk",10,0,0,13,34,10,40,60,2228309)
-p("TropicalRockAssembly_01",132087,206684,7536,13133,138,-368,911,3976,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
-p("TropicalRockAssembly_03",132049,207963,10618,10296,158,-879,635,3949,3200,"terrainchunk",10,0,0,40,60,10,40,60,2228309)
-=======
 p("TropicalRockAssembly_01",131231,204866,7782,15193,138,-739,888,3929,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("TropicalRockAssembly_01",132087,206684,7536,13133,138,-368,911,3976,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("TropicalRockAssembly_03",131649,206898,7023,7314,158,298,248,4077,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("TropicalPlant_04_Shrub_01",133666,205460,6322,120,-761,-342,4010,2097172)
 p("TropicalRockAssembly_01",133718,207620,7959,3562,138,-1745,-1088,3542,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("TropicalRockAssembly_01",134325,209393,8037,2334,161,-1743,-3526,1140,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
@@ -79644,23 +77262,16 @@ p("SavannaPlant_Bush_07",199996,141263,18906,163,22,46,4096,2097172)
 p("DecBunker_ConcretePile_02",199549,142518,8227,18327,129,956,195,3978,"terrainchunk",10,0,0,44,59,10,40,60,2228245)
 p("SavannaPlant_Grass_04",199731,142002,984,144,2097156)
 p("TropicalRockAssembly_01",197106,143702,7435,14839,162,70,31,4095,3200,"terrainchunk",10,0,0,84,100,10,40,60,2228309)
-<<<<<<< HEAD
-=======
 p("DecTyreTracksBrown_03",198336,146094,7654,11020,33,2098177)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecBunker_ConcretePile_02",199775,144082,7648,3584,129,-1,70,4095,3200,"terrainchunk",10,0,0,44,59,10,40,60,2228309)
 p("TropicalRockAssembly_01",201871,139490,8540,19217,162,1331,100,3872,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("SavannaPlant_Grass_04",201770,140735,19818,165,2097156)
 p("DecBunker_ConcretePile_02",201409,143163,7642,11671,129,3200,"terrainchunk",10,0,0,44,59,10,40,60,2228293)
 p("SavannaPlant_Grass_03",203179,140731,1570,87,2097156)
 p("SavannaPlant_Grass_04",204548,140952,187,123,2097156)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_04",204029,142162,21373,145,2097156)
-=======
 p("SavannaPlant_AloeMarlothii_03",203569,143056,1322,106,-841,891,3908,2097172)
 p("SavannaPlant_Grass_04",204029,142162,21373,145,2097156)
 p("DecTyreTracksBrown_06",201825,145590,8166,10470,99,4290632874,49995,-293,517,4052,65,3146781)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_02",205060,131444,14798,142,3200,2097220)
 p("DecWallDirt_03",205099,131900,11968,7201,108,2365,-2365,2365,943,2097429)
 p("SavannaPlant_Grass_03",205159,133074,19377,2097152)
@@ -79704,18 +77315,12 @@ p("SavannaPlant_Grass_04",207979,140912,4510,203,2097156)
 p("DecBunker_ConcretePile_02",205572,145859,7628,14245,129,"terrainchunk",10,0,0,44,59,10,40,60,2228229)
 p("SavannaPlant_Grass_03",209683,140414,1444,204,2097156)
 p("SavannaPlant_Grass_03",209204,142475,3507,86,2097156)
-<<<<<<< HEAD
-=======
 p("SavannaPlant_Flower_01",210969,139862,7983,13329,252,308,4076,2097169)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_02",211000,140799,18703,121,2097156)
 p("SavannaPlant_Grass_01",212924,140967,19517,202,2097156)
 p("SavannaPlant_Grass_04",211287,142687,20884,151,2097156)
 p("SavannaPlant_Grass_02",212763,142055,19838,216,2097156)
-<<<<<<< HEAD
-=======
 p("DecTyreTracksBrown_06",208962,144732,8210,10522,98,4290632874,49995,-111,290,4084,55,3146781)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_04",209555,146920,1398,73,2097156)
 p("SavannaPlant_Grass_03",211570,145980,4026,186,2097156)
 p("SavannaPlant_Grass_01",211563,147245,18162,219,2097156)
@@ -79723,28 +77328,16 @@ p("SavannaPlant_Grass_01",212825,145963,1206,175,2097156)
 p("DecBunker_ConcretePile_02",199724,147840,11074,129,-10,18,4095,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
 p("DecBunker_ConcretePile_02",199289,153598,15282,129,"terrainchunk",10,0,0,44,59,10,40,60,2228228)
 p("SavannaPlant_Grass_01",199499,154873,13665,115,3666,2097412)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_02",200503,155611,9900,142,3666,2097412)
 p("DecBunkerFloor_03",200910,147619,5402,151,4282396445,3200,20,2098252)
 p("DecBunkerFloor_03",201284,151347,6178,151,4282396445,3200,20,2098252)
-p("SavannaPlant_Grass_01",200791,153275,6764,139,3666,2097412)
-p("SavannaPlant_Flower_01",201468,152768,7529,13428,2097153)
-p("SavannaPlant_Grass_02",201058,154852,18702,140,3666,2097412)
-=======
-p("DecBunkerFloor_03",200910,147619,5402,151,4282396445,3200,20,2098252)
-p("DecBunkerFloor_03",201284,151347,6178,151,4282396445,3200,20,2098252)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("DecBunker_ConcretePile_02",203728,152714,7642,17386,129,"terrainchunk",10,0,0,44,59,10,40,60,2228229)
 p("SavannaPlant_Grass_04",204677,155569,18872,61,2097156)
 p("DecBunker_ConcretePile_02",197822,157402,11074,129,-10,18,4095,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
 p("TropicalRockAssembly_01",200456,156959,7435,1313,162,-279,236,4079,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
 p("SavannaPlant_Grass_03",200354,158552,15818,125,3200,2097220)
 p("DecBunker_ConcretePile_02",197343,162481,11823,116,-81,1,4095,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
-<<<<<<< HEAD
-=======
 p("SavannaPlant_Grass_01",200402,162101,8344,9423,184,2097157)
 p("Shanty_SandPile_05",201890,157587,7400,"terrainchunk",10,0,0,0,6,10,40,60,131073)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_02",202132,157600,2544,126,3200,2097220)
 p("SavannaPlant_Grass_04",201103,158318,5274,131,3200,2097220)
 p("SavannaPlant_Grass_04",202148,159462,6898,125,3200,2097220)
@@ -79763,11 +77356,7 @@ p("SavannaPlant_Grass_02",202580,162999,7492,133,3200,2097220)
 p("SavannaPlant_Grass_01",202959,161037,7650,9641,126,3200,2097221)
 p("SavannaPlant_Grass_03",204588,159747,1143,144,2097156)
 p("SavannaPlant_Grass_04",204689,162405,18670,133,3200,2097220)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_02",205131,149631,16648,142,3200,2097220)
-=======
 p("SavannaPlant_Grass_02",205131,149631,16648,142,2097156)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_02",205620,150434,3850,140,3200,2097220)
 p("SavannaPlant_Bush_07",206387,150398,7606,18906,163,22,46,4096,2097173)
 p("DecBunker_ConcretePile_02",206483,150373,14245,129,3200,"terrainchunk",10,0,0,44,59,10,40,60,2228292)
@@ -79789,11 +77378,7 @@ p("SavannaPlant_Grass_02",211466,150567,18233,85,2097156)
 p("SavannaPlant_Grass_01",212685,150462,17473,179,2097156)
 p("SavannaPlant_Grass_04",209902,152343,3393,144,2097156)
 p("SavannaPlant_Grass_02",209837,153497,20820,89,2097156)
-<<<<<<< HEAD
-p("DecBunker_ConcretePile_02",210887,151959,7659,3060,209,92,17,4094,"terrainchunk",10,0,0,44,59,10,40,60,2228245)
-=======
 p("DecBunker_ConcretePile_02",210887,151959,7576,3044,209,136,-68,4093,"terrainchunk",10,0,0,44,59,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",209690,155326,17368,73,2097156)
 p("SavannaPlant_Grass_04",211317,151910,1816,200,2097156)
 p("SavannaRock_01",211868,151955,7270,9525,50,-72,-88,4094,3200,"terrainchunk",10,0,0,84,96,10,40,60,2228309)
@@ -79845,10 +77430,6 @@ p("SavannaPlant_Grass_03",214026,135842,1679,127,2097156)
 p("SavannaPlant_Grass_03",214700,137825,18655,117,2097156)
 p("SavannaPlant_Grass_01",214293,139130,2006,188,2097156)
 p("SavannaPlant_Grass_02",216107,136335,18279,116,2097156)
-<<<<<<< HEAD
-p("DecBunker_ConcretePile_02",216156,137035,18462,130,3200,"terrainchunk",10,0,0,44,59,10,40,60,2228292)
-=======
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_04",216055,138847,2641,62,2097156)
 p("SavannaPlant_Grass_02",216129,137387,17133,179,2097156)
 p("SavannaPlant_Grass_03",217663,132767,3418,114,2097156)
@@ -79878,10 +77459,7 @@ p("SavannaPlant_Grass_04",217212,142766,2991,171,2097156)
 p("SavannaPlant_Grass_03",218935,142035,20935,68,2097156)
 p("SavannaPlant_Grass_02",220521,139596,17154,75,2097156)
 p("SavannaPlant_Grass_04",220999,140600,1215,200,2097156)
-<<<<<<< HEAD
-=======
 p("DecBunker_ConcretePile_02",219297,142485,7729,18684,130,613,76,4049,"terrainchunk",10,0,0,44,59,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_04",220669,142319,297,123,2097156)
 p("SavannaPlant_Grass_04",217845,144249,21192,141,2097156)
 p("SavannaPlant_Grass_01",218900,143680,20721,104,2097156)
@@ -79976,21 +77554,13 @@ p("SavannaPlant_Grass_01",219459,162972,7708,18622,135,3200,2097221)
 p("SavannaPlant_Grass_01",219737,163419,20752,124,3200,2097220)
 p("SavannaPlant_Grass_02",220277,162562,7613,118,3200,2097220)
 p("SavannaPlant_Grass_04",221021,163220,6228,158,3200,2097220)
-<<<<<<< HEAD
-p("DecBunker_ConcretePile_02",226866,148152,7189,172,-327,60,4082,3200,"terrainchunk",10,0,0,44,59,10,40,60,2228308)
-=======
 p("DecBunker_ConcretePile_02",226866,148152,7320,172,-372,66,4078,"terrainchunk",10,0,0,44,59,10,40,60,2228244)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",226822,148917,20782,200,2097156)
 p("SavannaPlant_Grass_01",228682,148990,19087,128,2097156)
 p("SavannaPlant_Grass_03",227499,150716,4512,135,2097156)
 p("DecBunkerFloor_03",225449,152377,7015,151,4282396445,3200,20,2098252)
 p("SavannaPlant_Grass_01",229076,153214,3873,118,2097156)
-<<<<<<< HEAD
-p("DecBunker_ConcretePile_05",228886,155519,7050,13722,150,3200,"terrainchunk",10,0,0,60,100,10,40,60,2228293)
-=======
 p("DecBunker_ConcretePile_05",228886,155519,7119,13723,150,-106,96,4093,"terrainchunk",10,0,0,60,100,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_03",228964,155599,19487,69,2097156)
 p("DecBunkerFloor_03",222969,161727,16791,165,4282396445,3200,20,2098252)
 p("SavannaPlant_Grass_02",222512,163171,8294,114,3200,2097220)
@@ -79998,26 +77568,17 @@ p("SavannaPlant_Grass_01",224515,162868,14321,122,3200,2097220)
 p("DecBunkerFloor_03",226019,158432,3599,165,4282396445,56,81,4095,3200,20,2098268)
 p("SavannaPlant_Grass_04",229084,156493,4115,197,2097156)
 p("SavannaPlant_AloeMarlothii_03",199570,164110,20852,125,3200,2097220)
-<<<<<<< HEAD
-=======
 p("TropicalRockAssembly_01",200253,169110,7638,20924,157,211,-92,-747,4026,"terrainchunk",0,0,0,13,34,10,40,60,34,47,11665429)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_04",201628,163870,14972,133,3200,2097220)
 p("SavannaPlant_Grass_02",200918,165629,17674,171,2097156)
 p("SavannaPlant_Grass_02",201663,165736,19632,132,3200,2097220)
 p("SavannaPlant_Grass_01",202726,165413,7650,4272,128,3200,2097221)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_03",202383,167174,3116,134,3200,2097220)
-p("SavannaPlant_Grass_04",203254,167809,9147,131,3200,2097220)
-p("SavannaPlant_Grass_04",204498,167920,17501,140,2097156)
-=======
 p("SavannaPlant_Grass_03",202383,167174,3116,134,2097156)
 p("SavannaPlant_Grass_04",203254,167809,9147,131,3200,2097220)
 p("SavannaPlant_AloeMarlothii_02",203321,166989,7666,11998,110,2097157)
 p("SavannaPlant_AloeMarlothii_01",203881,167008,7686,20306,121,2097157)
 p("SavannaPlant_Grass_04",204498,167920,17501,140,2097156)
 p("SavannaRock_08",201643,168903,7084,4935,73,-3638,-1469,1176,"terrainchunk",10,0,0,92,95,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_02",201913,168675,3319,134,3200,2097220)
 p("SavannaPlant_Grass_01",203652,168585,7646,1500,126,3200,2097221)
 p("SavannaRock_01",203101,169472,6022,8921,170,-89,-104,4093,"terrainchunk",10,0,0,93,99,10,40,60,2228245)
@@ -80082,23 +77643,14 @@ p("SavannaPlant_Grass_02",210802,168130,18283,157,2097156)
 p("SavannaPlant_Grass_01",209341,171066,3311,75,2097156)
 p("SavannaPlant_Bush_05",210233,170629,5920,165,2097156)
 p("SavannaPlant_Grass_04",210964,169728,20221,110,2097156)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_01",211042,170849,2588,92,2097156)
-=======
 p("SavannaPlant_Grass_01",211041,170848,2588,92,2097156)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",212749,171581,19725,173,2097156)
 p("SavannaPlant_Grass_03",206567,172526,4086,124,2097156)
 p("SavannaPlant_Grass_01",204896,174082,18510,147,2097156)
 p("DecBunker_ConcretePile_02",205178,175156,8021,20887,129,-673,1141,3875,627,"terrainchunk",10,0,0,31,56,10,40,60,2228501)
 p("TropicalRockAssembly_03",205012,175970,8032,9570,-115,-75,4093,627,"terrainchunk",10,0,0,57,91,42,40,60,2228497)
-<<<<<<< HEAD
-p("TropicalRockAssembly_01",205661,175439,7955,9776,167,-100,-69,4094,627,"terrainchunk",10,0,0,13,34,42,40,60,2228501)
-p("TropicalRockAssembly_04",205617,175570,7838,21361,118,-1540,3364,1757,627,"terrainchunk",10,0,0,57,91,16,40,60,2228501)
-=======
 p("TropicalRockAssembly_01",205661,175439,8011,9776,167,-100,-69,4094,627,"terrainchunk",10,0,0,13,34,42,40,60,2228501)
 p("TropicalRockAssembly_04",205617,175570,7894,21361,118,-1540,3364,1757,627,"terrainchunk",10,0,0,57,91,16,40,60,2228501)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_04",206794,174200,20403,203,2097156)
 p("SavannaPlant_Grass_02",206514,176002,19552,155,2097156)
 p("SavannaPlant_Grass_02",208349,172997,19669,65,2097156)
@@ -80163,13 +77715,9 @@ p("DecWallDirt_07",201598,185998,10569,10360,2890,-2891,262,3210,2097425)
 p("TropicalRockAssembly_01",204126,184770,7975,10104,110,-237,-48,4088,"terrainchunk",10,0,0,13,34,10,40,60,2228245)
 p("TropicalRockAssembly_04",204470,185423,8067,10230,108,-207,151,4087,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("DecBunker_ConcretePile_02",204001,186400,8087,7347,129,-222,-53,4089,"terrainchunk",10,0,0,31,56,10,40,60,2228245)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_04",197440,192147,17315,199,2097156)
-=======
 p("JungleCamp_TrenchFloor_02",197802,189583,7851,15364,-120,-211,4088,2148998178,"",1075841041)
 p("SavannaPlant_Grass_04",197440,192147,17315,199,2097156)
 p("TropicalRockAssembly_03",198518,191199,7882,19722,150,-109,-338,4080,"terrainchunk",10,0,0,55,76,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_04",196779,193998,19532,203,2097156)
 p("SavannaPlant_Grass_01",198044,193745,17601,116,2097156)
 p("TropicalRockAssembly_03",198386,194376,8226,19833,150,-1954,-2067,2946,3876,"terrainchunk",10,0,0,55,76,10,40,60,2228501)
@@ -80185,25 +77733,17 @@ p("DecBunker_ConcretePile_04",199981,194188,3860,129,-19,203,4091,3200,"terrainc
 p("SavannaPlant_Grass_03",200167,195534,19188,141,2097156)
 p("JungleCamp_Stake_03",200199,196600,8253,18026,1055,-380,3939,2150579017,2150579017,2150579017,"",1075845649)
 p("JungleCamp_Stake_03",200487,196384,8232,6450,137,235,4086,2150579017,2150579017,2150579017,"",1075845649)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_03",201615,193975,19957,99,2097156)
-=======
 p("DecBunker_ConcretePile_02",200852,189504,7798,18147,129,-182,-49,4091,"terrainchunk",10,0,0,44,59,10,40,60,2228245)
 p("SavannaPlant_Grass_03",201615,193975,19957,99,2097156)
 p("TropicalRockAssembly_01",201792,192847,7782,19251,92,-69,-42,4095,"terrainchunk",10,0,0,84,100,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_03",201237,194955,2401,124,2097156)
 p("DecBunker_ConcretePile_05",201770,194932,7648,9712,129,75,128,4093,3200,"terrainchunk",10,0,0,31,56,10,40,60,2228309)
 p("SavannaPlant_Grass_03",204432,193814,18607,110,2097156)
 p("SavannaPlant_Grass_02",203406,195443,17693,179,2097156)
 p("SavannaPlant_Grass_02",204976,180949,3739,80,2097156)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_04",206622,180693,20832,180,2097156)
-=======
 p("JungleCamp_Stake_01",205730,181111,9889,10800,116,0,4096,0,2150579017,2150579017,2150579017,"",1075845653)
 p("SavannaPlant_Grass_04",206622,180693,20832,180,2097156)
 p("JungleCamp_Stake_01",206147,181432,8260,11890,116,-160,-2725,3053,2150579017,2150579017,2150579017,"",1075845653)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_03",206598,182204,2676,62,2097156)
 p("SavannaPlant_Grass_01",206160,183601,2243,171,2097156)
 p("SavannaPlant_Grass_04",207796,180471,2074,117,2097156)
@@ -80255,11 +77795,7 @@ p("SavannaPlant_Grass_02",210854,195376,1813,180,2097156)
 p("SavannaPlant_Grass_03",211251,193386,19693,144,2097156)
 p("SavannaPlant_Grass_01",212849,193228,20827,217,2097156)
 p("SavannaPlant_Grass_04",212652,195366,3916,188,2097156)
-<<<<<<< HEAD
-p("SavannaPlant_Bush_05",213868,165327,3281,154,3200,2097220)
-=======
 p("SavannaPlant_Bush_05",213868,165327,3281,154,2097156)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",214143,164533,21224,131,2097156)
 p("SavannaPlant_Bush_05",213790,166180,14180,129,3200,2097220)
 p("SavannaPlant_Grass_03",214240,166191,19204,83,2097156)
@@ -80268,11 +77804,7 @@ p("SavannaPlant_Grass_03",215796,164738,57,164,2097156)
 p("SavannaPlant_Grass_03",215856,167732,690,197,2097156)
 p("SavannaPlant_Grass_03",216111,166069,3349,210,2097156)
 p("SavannaPlant_Grass_03",213144,168266,4093,155,2097156)
-<<<<<<< HEAD
-p("SavannaPlant_Bush_05",213459,168719,5813,170,3200,2097220)
-=======
 p("SavannaPlant_Bush_05",213459,168719,5813,170,2097156)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_03",213121,169857,1475,189,2097156)
 p("SavannaPlant_Grass_04",214342,169917,19414,140,2097156)
 p("SavannaPlant_Grass_04",214108,171140,19415,204,2097156)
@@ -80300,13 +77832,8 @@ p("SavannaPlant_Grass_01",214244,174495,18943,118,2097156)
 p("SavannaPlant_Grass_04",214191,175886,18483,94,2097156)
 p("SavannaPlant_Grass_04",215971,172557,19871,140,2097156)
 p("SavannaPlant_Grass_03",217021,172482,21415,133,3200,2097220)
-<<<<<<< HEAD
-p("SavannaRock_01",215491,175015,6043,3739,170,"terrainchunk",10,0,0,93,99,10,40,60,2228229)
-p("SavannaPlant_Grass_04",215853,174565,21359,2097152)
-=======
 p("SavannaPlant_Grass_04",215853,174565,21359,2097152)
 p("SavannaRock_01",215456,175127,7351,6417,148,-3022,1324,2426,"terrainchunk",10,0,0,93,99,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",214558,177447,18719,159,2097156)
 p("SavannaPlant_Grass_02",214430,179480,361,124,2097156)
 p("SavannaPlant_Grass_04",215921,176364,19435,214,2097156)
@@ -80324,20 +77851,12 @@ p("SavannaPlant_Grass_04",220522,172063,19220,170,3200,2097220)
 p("SavannaPlant_Grass_02",219249,174550,17679,132,3200,2097220)
 p("SavannaPlant_Grass_04",219471,175868,14791,126,3200,2097220)
 p("SavannaPlant_Grass_01",220935,175195,7386,174,3200,2097220)
-<<<<<<< HEAD
-p("SavannaPlant_Bush_04",220932,175761,5067,143,3200,2097220)
-=======
 p("SavannaPlant_Bush_04",220932,175761,5067,143,2097156)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",218028,176141,9178,3669,129,3200,2097221)
 p("SavannaPlant_Grass_02",218668,177201,6381,129,3200,2097220)
 p("SavannaPlant_Grass_02",217992,179476,18417,130,3200,2097220)
 p("SavannaPlant_Grass_01",218400,179493,8906,17349,130,3200,2097221)
-<<<<<<< HEAD
-p("SavannaPlant_Bush_05",219200,176433,661,146,3200,2097220)
-=======
 p("SavannaPlant_Bush_05",219200,176433,661,146,2097156)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Bush_06",221151,177058,6143,99,3200,2097220)
 p("SavannaPlant_Grass_04",220872,177248,4157,164,3200,2097220)
 p("SavannaPlant_Grass_01",219789,178494,21548,113,3200,2097220)
@@ -80353,13 +77872,8 @@ p("SavannaPlant_Grass_04",224449,164705,6075,121,3200,2097220)
 p("SavannaPlant_Grass_01",224728,164408,7190,116,3200,2097220)
 p("SavannaPlant_Grass_04",224593,165024,13069,128,3200,2097220)
 p("SavannaPlant_Grass_04",221514,169176,16807,162,3200,2097220)
-<<<<<<< HEAD
-p("SavannaPlant_Grass_02",222279,168924,7053,154,3200,2097220)
-p("SavannaPlant_Bush_04",222597,169479,10449,125,3200,2097220)
-=======
 p("SavannaPlant_Grass_02",222276,168917,7053,154,3200,2097220)
 p("SavannaPlant_Bush_04",222597,169479,10449,125,2097156)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_04",221383,170452,1781,158,3200,2097220)
 p("SavannaPlant_Grass_04",221194,171069,2113,166,3200,2097220)
 p("SavannaPlant_Grass_01",222966,170784,12087,154,3200,2097220)
@@ -80367,11 +77881,7 @@ p("SavannaPlant_Grass_01",223610,169613,1849,119,3200,2097220)
 p("SavannaPlant_Grass_04",224139,169005,9493,126,3200,2097220)
 p("SavannaPlant_Grass_02",224545,167966,4903,156,3200,2097220)
 p("SavannaPlant_Grass_04",225117,168216,19853,150,3200,2097220)
-<<<<<<< HEAD
-p("SavannaPlant_Bush_05",223529,171385,7152,130,3200,2097220)
-=======
 p("SavannaPlant_Bush_05",223529,171385,7152,130,2097156)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_03",224617,171019,504,160,3200,2097220)
 p("SavannaPlant_Grass_04",225893,164341,20181,124,3200,2097220)
 p("SavannaPlant_Grass_01",225927,164844,18235,115,3200,2097220)
@@ -80390,11 +77900,7 @@ p("SavannaPlant_Grass_01",227174,170841,7999,154,3200,2097220)
 p("SavannaPlant_Grass_01",221836,172735,17867,168,3200,2097220)
 p("SavannaPlant_Grass_04",222736,172798,11497,166,3200,2097220)
 p("SavannaPlant_Grass_04",222748,173528,12401,162,3200,2097220)
-<<<<<<< HEAD
-p("SavannaPlant_Bush_05",222737,173709,8908,175,3200,2097220)
-=======
 p("SavannaPlant_Bush_05",222737,173709,8908,175,2097156)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",222307,175914,4237,162,3200,2097220)
 p("SavannaPlant_Bush_06",222878,175987,6143,112,3200,2097220)
 p("SavannaPlant_Grass_04",224061,172163,2242,171,3200,2097220)
@@ -80689,11 +78195,7 @@ p("DecBunkerFloor_03",234606,157741,7017,151,4282396445,-190,7,4092,3200,20,2098
 p("SavannaPlant_Grass_03",236891,156872,18512,103,2097156)
 p("SavannaPlant_Grass_02",235527,158564,4299,185,2097156)
 p("SavannaPlant_Grass_02",236551,158433,18851,78,2097156)
-<<<<<<< HEAD
-p("DecBunker_ConcretePile_05",234189,161226,7046,9843,215,3200,"terrainchunk",10,0,0,60,100,10,40,60,2228293)
-=======
 p("DecBunker_ConcretePile_05",234189,161226,7046,9843,215,"terrainchunk",10,0,0,60,100,10,40,60,2228229)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_02",235544,159834,20729,131,2097156)
 p("SavannaPlant_Grass_04",236811,159858,1682,217,2097156)
 p("SavannaPlant_Grass_03",237186,161627,1482,90,2097156)
@@ -81002,16 +78504,6 @@ p("SavannaPlant_Grass_02",259688,163377,2676,135,3200,2097220)
 p("SavannaPlant_Grass_04",260379,159915,944,135,3200,2097220)
 p("SavannaPlant_Grass_04",261846,159862,12011,135,3200,2097220)
 p("SavannaPlant_Grass_04",260913,162139,13793,128,3200,2097220)
-<<<<<<< HEAD
-p("DecBunker_ConcretePile_02",232570,164250,3321,150,3200,"terrainchunk",10,0,0,60,100,10,40,60,2228292)
-p("TropicalRockAssembly_01",229721,168735,6866,8820,250,-98,44,4094,3200,"terrainchunk",10,0,0,56,84,42,40,60,2228309)
-p("DecBunker_ConcretePile_02",230201,169378,7050,8188,150,3200,"terrainchunk",10,0,0,60,100,10,40,60,2228293)
-p("SavannaRock_07",231221,171593,7164,7452,49,-821,-558,3973,3200,"terrainchunk",10,0,0,73,97,10,40,60,2228309)
-p("TropicalRockAssembly_01",231343,171555,7127,7202,250,-170,-80,4091,3200,"terrainchunk",10,0,0,56,98,42,40,60,2228309)
-p("SavannaPlant_Grass_04",231699,169476,17294,76,2097156)
-p("SavannaPlant_Grass_01",232065,171234,1954,92,2097156)
-p("TropicalRockAssembly_01",233632,167510,6866,12146,250,-105,-6,4094,3200,"terrainchunk",10,0,0,56,84,42,40,60,2228309)
-=======
 p("DecBunker_ConcretePile_02",232570,164250,3321,150,"terrainchunk",10,0,0,60,100,10,40,60,2228228)
 p("TropicalRockAssembly_01",229721,168735,6866,8820,250,-98,44,4094,"terrainchunk",10,0,0,56,84,42,40,60,2228245)
 p("DecBunker_ConcretePile_02",230201,169378,7050,8188,150,3200,"terrainchunk",10,0,0,60,100,10,40,60,2228293)
@@ -81020,22 +78512,14 @@ p("TropicalRockAssembly_01",231343,171555,7127,7202,250,-170,-80,4091,"terrainch
 p("SavannaPlant_Grass_04",231699,169476,17294,76,2097156)
 p("SavannaPlant_Grass_01",232065,171234,1954,92,2097156)
 p("TropicalRockAssembly_01",233632,167510,6866,12146,250,-105,-6,4094,"terrainchunk",10,0,0,56,84,42,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",237113,165131,1638,82,2097156)
 p("SavannaPlant_Grass_01",236759,166066,19942,169,2097156)
 p("SavannaPlant_Grass_01",236580,167776,2884,166,2097156)
 p("SavannaPlant_Grass_02",233798,169876,21124,86,2097156)
-<<<<<<< HEAD
-p("TropicalRockAssembly_01",234247,169878,7062,16114,250,-116,-85,4093,3200,"terrainchunk",10,0,0,56,84,42,40,60,2228309)
-p("SavannaPlant_Grass_02",235464,169715,4596,212,2097156)
-p("SavannaPlant_Grass_03",233634,171471,19364,80,2097156)
-p("SavannaRock_02",233607,171647,6834,1179,116,-791,-57,4018,3200,"terrainchunk",10,0,0,80,92,10,40,60,2228309)
-=======
 p("TropicalRockAssembly_01",234247,169878,7062,16114,250,-116,-85,4093,"terrainchunk",10,0,0,56,84,42,40,60,2228245)
 p("SavannaPlant_Grass_02",235464,169715,4596,212,2097156)
 p("SavannaPlant_Grass_03",233634,171471,19364,80,2097156)
 p("SavannaRock_02",233607,171647,6834,1179,116,-791,-57,4018,"terrainchunk",10,0,0,80,92,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_03",235330,171543,2746,155,2097156)
 p("DecBunker_ConcretePile_05",236476,169152,18206,151,-280,104,4085,3200,"terrainchunk",10,0,0,60,100,10,40,60,2228308)
 p("SavannaPlant_Grass_02",236622,169765,623,69,2097156)
@@ -81048,11 +78532,7 @@ p("SavannaPlant_Grass_02",232328,172485,18415,87,2097156)
 p("SavannaPlant_Grass_02",233360,173073,3185,110,2097156)
 p("SavannaPlant_Grass_01",231919,174753,18395,131,2097156)
 p("SavannaPlant_Grass_01",231951,175754,1448,97,2097156)
-<<<<<<< HEAD
-p("SavannaRock_02",232735,174445,7066,11545,140,-309,590,4041,3200,"terrainchunk",10,0,0,93,99,10,40,60,2228309)
-=======
 p("SavannaRock_02",232735,174445,7066,11545,140,-309,590,4041,"terrainchunk",10,0,0,93,99,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_AloeMarlothii_03",233210,175916,17275,124,3200,2097220)
 p("SavannaPlant_Grass_03",233346,175711,20946,189,2097156)
 p("SavannaPlant_Grass_03",230143,177551,1883,151,2097156)
@@ -81063,22 +78543,14 @@ p("SavannaPlant_Grass_02",235012,173030,20687,124,2097156)
 p("SavannaPlant_Grass_02",233742,174479,18451,80,2097156)
 p("SavannaPlant_Grass_04",235237,174625,17164,165,2097156)
 p("SavannaPlant_Grass_02",234809,175851,4228,94,2097156)
-<<<<<<< HEAD
-p("SavannaRock_08",236018,174053,6125,20544,91,3213,-2096,1436,3200,"terrainchunk",10,0,0,92,95,10,40,60,2228309)
-=======
 p("SavannaRock_08",236018,174053,6125,20544,91,3213,-2096,1436,"terrainchunk",10,0,0,92,95,10,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_01",236808,172610,20446,204,2097156)
 p("SavannaPlant_Grass_01",236512,174596,4090,217,2097156)
 p("SavannaPlant_Grass_01",236620,175752,927,220,2097156)
 p("SavannaPlant_Grass_04",233917,177548,1977,73,2097156)
 p("SavannaPlant_AloeMarlothii_03",234264,177907,15503,162,3200,2097220)
 p("SavannaPlant_AloeMarlothii_03",235273,176755,13671,119,3200,2097220)
-<<<<<<< HEAD
-p("SavannaPlant_AloeMarlothii_01",234625,177314,12297,125,3200,2097220)
-=======
 p("SavannaPlant_AloeMarlothii_01",234625,177314,12297,125,2097156)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_03",235463,177449,18183,94,2097156)
 p("SavannaPlant_Grass_03",233985,179550,18147,79,2097156)
 p("SavannaPlant_Grass_03",234952,179401,18958,203,2097156)
@@ -81094,11 +78566,7 @@ p("SavannaPlant_Grass_04",241220,166053,3288,102,2097156)
 p("SavannaPlant_Grass_01",238337,168015,20983,169,2097156)
 p("SavannaPlant_Grass_02",238351,169754,1812,165,2097156)
 p("SavannaPlant_Grass_03",238128,170920,395,107,2097156)
-<<<<<<< HEAD
-p("TropicalRockAssembly_01",238537,171272,7379,16534,217,-65,-147,4092,3200,"terrainchunk",10,0,0,56,93,42,40,60,2228309)
-=======
 p("TropicalRockAssembly_01",238536,171271,7379,16534,217,-65,-147,4092,"terrainchunk",10,0,0,56,93,42,40,60,2228245)
->>>>>>> 67f60e3d92665dc5bb44717d1c6e9e01bd04c817
 p("SavannaPlant_Grass_02",240167,169298,1123,111,2097156)
 p("SavannaPlant_Grass_03",241335,169288,19358,97,2097156)
 p("SavannaPlant_Grass_02",240076,171246,1522,62,2097156)
