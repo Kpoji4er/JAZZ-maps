@@ -27,46 +27,34 @@ GitHub:
 
 ---
 
-## Что уже сделано (автотранспорт MVP: сателлит + тактика)
+## Автотранспорт (актуально 26 июля 2026)
 
-Реализация в **JAZZ Maps**:
+**Runtime:** сателлит активен; тактический spawn **выключен** (`tactical_enabled=false`).
 
 | Файл | Назначение |
 |------|------------|
-| [`../Code/System_JAZZ_Vehicles.lua`](../Code/System_JAZZ_Vehicles.lua) | GameVar, board/exit, travel hook (safe re-wrap), hp/wrecked |
-| [`../Code/System_JAZZ_VehicleCombat.lua`](../Code/System_JAZZ_VehicleCombat.lua) | Spawn Unit, car-facing path, Pivot, Turret, HP sync |
-| `UnitData/JAZZ_CombatHMMWV.lua` + Appearance `JAZZ_HMMWV_Stub` | Шаблон боевого юнита (Equipment ArmyHeavy / FNMinimi) |
-| `metadata.lua` / `items.lua` | code + ModItems синхронизированы |
+| [`../Code/System_JAZZ_Vehicles.lua`](../Code/System_JAZZ_Vehicles.lua) | GameVar, board/exit, travel, hp/wrecked |
+| [`../Code/System_JAZZ_VehicleCombat.lua`](../Code/System_JAZZ_VehicleCombat.lua) | Dormant stub (flag/Pivot) — **устарел** vs новый дизайн |
+| UnitData / Appearance HMMWV | Loaded stub, не спавнится |
 
-Механика:
-- Сателлит: сесть / выйти, езда только по дорогам быстрее, без бензина; спавн HMMWV на M1 (`UniqueKey=M1_HMMWV`)
-- Тактика: player Unit `JAZZ_CombatHMMWV`, Move с поворотом ≤±90°, Pivot ±90°, турель; stub entity `Vehicle_PickupTruck` / `HMMWV`
-- Уничтожение → `wrecked`, сесть нельзя
-- Экипаж «за рулём», бензин, финальные анимации — **не** сделаны
+**Канон дизайна (код в игру ещё не вставлять):** [`combat-vehicle-design.md`](combat-vehicle-design.md) — OOP `JAZZ_CombatVehicle`, 2×3, ArcTurn, водитель Mechanical, турель look-at, cover, AP, план Фазы 1, тест-контракты.
 
-Документация:
-- локально: [`TZ_JAZZ_Combat_Vehicle_MVP.md`](TZ_JAZZ_Combat_Vehicle_MVP.md), оглавление [`README.md`](README.md)
-- пакет jazz: [`../../jazz/docs/technical/systems/satellite-vehicles.md`](../../jazz/docs/technical/systems/satellite-vehicles.md)
-- wiki: `../../jazz/docs/wiki/strategy-and-world.md` (секция «Транспорт»)
-- контент Эрни: [`content/quests-locations-enemies.md`](content/quests-locations-enemies.md), [`content/ernie-island-guide.md`](content/ernie-island-guide.md)
+Историческое ТЗ: [`TZ_JAZZ_Combat_Vehicle_MVP.md`](TZ_JAZZ_Combat_Vehicle_MVP.md) (superseded).  
+Suite: [`../../jazz/docs/technical/systems/satellite-vehicles.md`](../../jazz/docs/technical/systems/satellite-vehicles.md).
 
-### Runtime-тест (нужна приёмка владельца)
+### Runtime-тест сателлита
 
-1. Новая игра → M1 → сателлит → «Сесть в транспорт» → дорога на M2.
-2. Вход в сектор → появляется Unit транспорта.
-3. Move / Pivot / турель в бою.
-4. Выход на сателлит → HP; убить машину → wrecked.
-
-Пока не подтверждено в игре — считать **статический анализ**.
+1. Новая игра → M1 → «Сесть в транспорт» → дорога быстрее.
+2. Вход в сектор → **нет** боевого Unit машины.
+3. Exit / смена сектора → токен на месте.
 
 ---
 
 ## Возможные следующие задачи
 
-1. Заменить stub entity/анимации на финальный HMMWV (Jazz Assets).
-2. Экипаж / посадка мерков (если дизайн подтвердят).
-3. Ремонт wrecked, бензин, multi-tile footprint.
-4. Маркер `JAZZ_VehicleSpawn` на картах через F3 (опционально; есть fallback).
+1. Фаза 1 по [`combat-vehicle-design.md`](combat-vehicle-design.md) — класс + fuel stub + driver pick (**без** `tactical_enabled` до smoke).
+2. Entity/анимации кабины (Jazz Assets).
+3. Фаза 2: cover, турель item, confirm move UI.
 
 ---
 

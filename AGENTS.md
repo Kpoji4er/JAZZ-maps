@@ -55,7 +55,7 @@ AI-first не разрешает пропускать редактор, игро
 - Проверять deployment, входы/выходы, conflict markers, квестовые маркеры, setpieces и переходы на стратегическую карту.
 - `Code/AIMechanism.lua` сейчас не загружается metadata. Не считать его активным и не подключать без отдельного ревью поведения.
 - `Code/System_JAZZ_Vehicles.lua` — loaded: сателлитный автотранспорт (GameVar, board/exit, travel hook, hp/wrecked). Спавн HMMWV на M1 через эффект `JAZZ_SpawnSatelliteVehicle`.
-- `Code/System_JAZZ_VehicleCombat.lua` — loaded, тактический spawn **dormant** (`tactical_enabled=false`): заглушки Unit/Idle/path/pivot; на карте не спавнится. Сателлит — в `System_JAZZ_Vehicles.lua`. Документация: [docs/TZ_JAZZ_Combat_Vehicle_MVP.md](docs/TZ_JAZZ_Combat_Vehicle_MVP.md), suite `../jazz/docs/technical/systems/satellite-vehicles.md`.
+- `Code/System_JAZZ_VehicleCombat.lua` — loaded, тактический spawn **dormant** (`tactical_enabled=false`): stub flag/Pivot устарел. Сателлит — в `System_JAZZ_Vehicles.lua`. Канон дизайна/Фаза 1: [docs/combat-vehicle-design.md](docs/combat-vehicle-design.md); suite `../jazz/docs/technical/systems/satellite-vehicles.md`.
 
 ## Два контура документации
 

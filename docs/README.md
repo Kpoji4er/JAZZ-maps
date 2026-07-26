@@ -21,7 +21,8 @@ Suite-wide technical/wiki (бой, оружие, AI, общая архитект
 
 | Документ | Содержание |
 |---|---|
-| [`TZ_JAZZ_Combat_Vehicle_MVP.md`](TZ_JAZZ_Combat_Vehicle_MVP.md) | ТЗ и план MVP боевого автотранспорта |
+| [`combat-vehicle-design.md`](combat-vehicle-design.md) | **Канон:** дизайн OOP 2×3 / экипаж / турель / AP + план Фазы 1 + тесты (код в игру ещё не вставлен) |
+| [`TZ_JAZZ_Combat_Vehicle_MVP.md`](TZ_JAZZ_Combat_Vehicle_MVP.md) | Историческое ТЗ 25 июля (superseded) |
 | Suite technical | [`../../jazz/docs/technical/systems/satellite-vehicles.md`](../../jazz/docs/technical/systems/satellite-vehicles.md) |
 
 ## Корневые stubs
