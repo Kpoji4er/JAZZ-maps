@@ -4991,6 +4991,18 @@ return {
 						"LegionHeavyTroops",
 						"LegionAttackSquad_01",
 					},
+					'EnemySquadsGarrisonList', {
+						"LegionJAZZSquadT1",
+					},
+					'EnemySquadsPatroolList', {
+						"LegionAttackers_Balanced_Easy_Assault",
+					},
+					'EnemySquadsReconList', {
+						"LegionOutlook_Easy",
+					},
+					'EnemySquadsQRFList', {
+						"LegionJAZZSquadT2",
+					},
 					'Militia', true,
 					'MaxMilitia', 12,
 					'ForceConflict', true,
