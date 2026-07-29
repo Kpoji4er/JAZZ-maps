@@ -2,7 +2,7 @@ return PlaceObj('ModDef', {
 	'title', "JAZZ Maps",
 	'description', "Maps for JAZZ\n\nКарты для ДЖАЗ",
 	'image', "Mod/FhNNYd/Images/J 2.png",
-	'last_changes', "Update 1.2",
+	'last_changes', "Crocodile patrol Msg wrap fix",
 	'dependencies', {
 		PlaceObj('ModDependency', {
 			'id', "e6L4ECj",
@@ -18,7 +18,7 @@ return PlaceObj('ModDef', {
 	'id', "FhNNYd",
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
-	'version_minor', 6,
+	'version_minor', 7,
 	'version', 5129,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,

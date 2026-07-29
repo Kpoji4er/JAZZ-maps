@@ -164,15 +164,10 @@ local function JAZZ_InstallViaStaticReplace()
 			replaced = true
 		end
 	end
-	if not replaced then
-		for _, fn in ipairs(funcs) do
-			if fn == JAZZ_OnCrocodileReachSectorCenter then
-				return true
-			end
-		end
-		funcs[#funcs + 1] = JAZZ_OnCrocodileReachSectorCenter
-	end
-	return true
+	-- Only true when HotDiamonds was actually swapped out. Appending our handler
+	-- while leaving vanilla live used to return true and skip Msg wrap →
+	-- `for i = 1, nil` on remapped I19/J28 InitialSquad spawn.
+	return replaced
 end
 
 local function JAZZ_InstallViaMsgWrap()
@@ -185,9 +180,10 @@ local function JAZZ_InstallViaMsgWrap()
 end
 
 function JAZZ_InstallCrocodilePatrolFix()
-	if JAZZ_InstallViaStaticReplace() then
-		return
-	end
+	-- Surgical replace when debug.getinfo can name HotDiamonds; Msg wrap always,
+	-- because InitialSquads fire ReachSectorCenter before OnMsg.NewGame and
+	-- StaticReplace alone is unreliable without debug / when HotDiamonds is opaque.
+	JAZZ_InstallViaStaticReplace()
 	JAZZ_InstallViaMsgWrap()
 end
 
@@ -204,5 +200,10 @@ function OnMsg.NewGame()
 end
 
 function OnMsg.LoadGame()
+	JAZZ_InstallCrocodilePatrolFix()
+end
+
+-- Code load can happen after Autorun for late-enabled mods; install immediately if Msg exists.
+if type(Msg) == "function" then
 	JAZZ_InstallCrocodilePatrolFix()
 end
