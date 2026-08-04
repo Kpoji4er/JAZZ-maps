@@ -189,7 +189,7 @@
 ## Зависимости и пересечения
 
 - Squad/UnitData IDs живут в `jazz-units`; переименование ломает сектора maps.
-- Crocodile patrol: maps `System_JAZZ_CrocodilePatrol.lua` (дом I19, маршрут I18→I19→J19; **всегда** Msg wrap против vanilla HotDiamonds `for i=1,nil`) + quest `ReduceCrocodileCampStrength` (триггер M1 вместо vanilla I1).
+- Crocodile patrol: maps `System_JAZZ_CrocodilePatrol.lua` (дом I19, маршрут I18→I19→J19; export `JAZZ_UpdateCrocodilePatrolOnReachSectorCenter`) + **core** `SatelliteSquad.lua` hide-def guard против vanilla HotDiamonds `for i=1,nil` + quest `ReduceCrocodileCampStrength` (триггер M1 вместо vanilla I1).
 - Override matrix: пересечения patrol/setup — [override-matrix](../../../jazz/docs/technical/override-matrix.md); детали setpiece M1 — [`AGENT_BRIEFING.md`](../AGENT_BRIEFING.md).
 
 ## Чек-лист проверки

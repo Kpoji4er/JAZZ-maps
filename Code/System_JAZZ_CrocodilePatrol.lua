@@ -87,6 +87,10 @@ local function JAZZ_OnCrocodileReachSectorCenter(squad_id, sector_id)
 	JAZZ_CrocodilePatrolRouteUpdating = false
 end
 
+-- jazz/Code/SatelliteSquad.lua calls this before Msg("ReachSectorCenter") so remapped
+-- route still updates even when Msg wrap is lost / HotDiamonds stays registered.
+rawset(_G, "JAZZ_UpdateCrocodilePatrolOnReachSectorCenter", JAZZ_OnCrocodileReachSectorCenter)
+
 local JAZZ_CrocodileSetupScheduled = false
 
 local function JAZZ_SetupCrocodilePatrolSquadNow()
@@ -171,11 +175,12 @@ local function JAZZ_InstallViaStaticReplace()
 end
 
 local function JAZZ_InstallViaMsgWrap()
-	if Msg == JAZZ_MsgReachSectorCenterGuard then
+	if rawget(_G, "Msg") == JAZZ_MsgReachSectorCenterGuard then
 		return
 	end
-	JAZZ_OrigMsg = Msg
-	Msg = JAZZ_MsgReachSectorCenterGuard
+	JAZZ_OrigMsg = rawget(_G, "Msg") or Msg
+	-- Explicit rawset: plain `Msg =` can fail to replace engine Msg depending on load env.
+	rawset(_G, "Msg", JAZZ_MsgReachSectorCenterGuard)
 	JAZZ_CrocodileMsgWrapped = true
 end
 

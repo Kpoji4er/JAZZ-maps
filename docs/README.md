@@ -19,6 +19,12 @@ Suite-wide technical/wiki (бой, оружие, AI, общая архитект
 | [`briefs/`](briefs/) | Сессия | Брифы и чеклисты F3 по секторам |
 | [`content/ernie-island-guide.md`](content/ernie-island-guide.md) | Игрок / приёмка | Локации, квесты и ожидания по боям на Эрни |
 | [`content/quests-locations-enemies.md`](content/quests-locations-enemies.md) | Разработчик | ID секторов, квестов, squad refs, составы врагов |
+| [`content/sector-atlas.md`](content/sector-atlas.md) | Разработчик | Полный атлас A–P×1–32 + CSV; ссылка на `Images/GrandChien2.png` |
+| [`content/sector-transfer.md`](content/sector-transfer.md) | Разработчик | Трансфер vanilla → maps ID |
+| [`content/sector-sheet-vs-runtime.md`](content/sector-sheet-vs-runtime.md) | Разработчик | Сверка Google Sheet «Карта» ↔ `ModItemSector` |
+| [`content/data/`](content/data/) | Агент | CSV/JSON runtime + sheet + atlas (regen скриптами в `jazz/docs/tools/`) |
+
+Player-facing карта: suite `jazz/docs/wiki/grand-chien-map.md` и showcase `grand-chien-map` (RU/EN).
 
 ## Транспорт
 
