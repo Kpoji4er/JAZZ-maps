@@ -75212,7 +75212,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Collision', false,
 	'CollectionIndex', 686,
 	'AllowedMask', 0,
-	'ammo_template', "_50BMG_Basic",
+	'ammo_template', "JAZZ_AMMO_50BMG_Basic",
 	'target_dist', 91200,
 }, nil, 1873988111)
 PlaceObj('Shanty_TireHorizontal', {
@@ -86221,7 +86221,7 @@ PlaceObj('MachineGunEmplacement', {
 	'Collision', false,
 	'CollectionIndex', 2327,
 	'AllowedMask', 0,
-	'ammo_template', "_50BMG_Basic",
+	'ammo_template', "JAZZ_AMMO_50BMG_Basic",
 	'target_dist', 91200,
 }, nil, 1995060019)
 PlaceObj('Shanty_TireHorizontal', {

@@ -133,7 +133,7 @@
 | `TakeTheFortress` | Fort L'Eau Bleu | нет | I6, I7, J7 | Угроза outpost Легиона |
 | `ReduceFortressStrength` | How to reduce the Fort's defenses | да | — | Связка с механикой силы guardpost |
 | `RescueHerMan` | Herman is missing | нет | I5, J7 | Похищение; setpiece EncounterHerman |
-| `FortifyErnie` | Helping Ernie Village | нет | I5, I6, I6_Underground | Browning .50 для защиты I5 |
+| `FortifyErnie` | Helping Ernie Village | нет | I5, I6, I6_Underground | Browning .50 (`Jazz_Browning_MuchineGun` + `Jazz_Browning_Bench`) для защиты I5; GreasyBasil hand-in must take that pair (not `MG42`) |
 | `PierreDefeated` | Pierre | нет | I5, I7, K4, F19 | Пьер и информация о Майоре |
 | `JoseFamily` | Bastien | нет | I6, E9 | Bastien |
 | `LegionFlag` | Fooling Pierre | да | I7 | Скрытая ветка |

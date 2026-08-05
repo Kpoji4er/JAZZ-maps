@@ -27256,7 +27256,11 @@ return {
 						Comment = "Have Machine gun AND Militia",
 						Conditions = {
 							PlaceObj('UnitSquadHasItem', {
-								ItemId = "MG42",
+								ItemId = "Jazz_Browning_MuchineGun",
+								param_bindings = false,
+							}),
+							PlaceObj('UnitSquadHasItem', {
+								ItemId = "Jazz_Browning_Bench",
 								param_bindings = false,
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -27303,7 +27307,11 @@ return {
 						Comment = "Have Machine gun",
 						Conditions = {
 							PlaceObj('UnitSquadHasItem', {
-								ItemId = "MG42",
+								ItemId = "Jazz_Browning_MuchineGun",
+								param_bindings = false,
+							}),
+							PlaceObj('UnitSquadHasItem', {
+								ItemId = "Jazz_Browning_Bench",
 								param_bindings = false,
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -27353,7 +27361,12 @@ return {
 							Effects = {
 								PlaceObj('UnitTakeItem', {
 									AnySquad = true,
-									ItemId = "MG42",
+									ItemId = "Jazz_Browning_MuchineGun",
+									param_bindings = false,
+								}),
+								PlaceObj('UnitTakeItem', {
+									AnySquad = true,
+									ItemId = "Jazz_Browning_Bench",
 									param_bindings = false,
 								}),
 								PlaceObj('QuestSetVariableBool', {
@@ -28531,7 +28544,11 @@ return {
 								param_bindings = false,
 							}),
 							PlaceObj('UnitSquadHasItem', {
-								ItemId = "MG42",
+								ItemId = "Jazz_Browning_MuchineGun",
+								param_bindings = false,
+							}),
+							PlaceObj('UnitSquadHasItem', {
+								ItemId = "Jazz_Browning_Bench",
 								param_bindings = false,
 							}),
 						},

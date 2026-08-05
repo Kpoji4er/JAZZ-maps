@@ -2,7 +2,7 @@ return PlaceObj('ModDef', {
 	'title', "JAZZ Maps",
 	'description', "Maps for JAZZ\n\nКарты для ДЖАЗ",
 	'image', "Mod/FhNNYd/Images/J 2.png",
-	'last_changes', "- Camp du Crocodile: export UpdateReachSectorCenter + Msg rawset; sector atlas docs/CSV\nCrocodile patrol Msg wrap fix\n- Packaging: expand .gitignore + metadata ignore_files for Steam upload",
+	'last_changes', "- FortifyErnie MG hand-in: Jazz Browning + bench (not MG42) [discord]\n- Camp du Crocodile: export UpdateReachSectorCenter + Msg rawset; sector atlas docs/CSV\nCrocodile patrol Msg wrap fix\n- Packaging: expand .gitignore + metadata ignore_files for Steam upload",
 	'ignore_files', {
 		-- VCS / IDE / agent (tracked in git, not for Steam pack)
 		"*.git/*",
@@ -57,7 +57,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 7,
-	'version', 5131,
+	'version', 5132,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
