@@ -22,7 +22,7 @@ DefineMapData{
 		"Interactable",
 	},
 	IncludeClasses = {},
-	Lightmodel = "Wet_Farmlands_Day_Fog",
+	Lightmodel = false,
 	LuaRevision = 347926,
 	MainMenuCampaign = "HotDiamonds",
 	MainMenuRegion = "CursedForest",
