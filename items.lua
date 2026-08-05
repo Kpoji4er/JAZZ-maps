@@ -1594,6 +1594,18 @@ return {
 						"LegionAttackers_Marksmen_Hard",
 						"LegionAttackers_Marksmen_Hard",
 					},
+					'EnemySquadsGarrisonList', {
+						"LegionGlobalAI_Garrison",
+					},
+					'EnemySquadsPatroolList', {
+						"LegionGlobalAI_Patrol",
+					},
+					'EnemySquadsReconList', {
+						"LegionGlobalAI_Recon",
+					},
+					'EnemySquadsQRFList', {
+						"LegionJAZZSquadT2",
+					},
 					'Militia', true,
 					'MaxMilitia', 12,
 					'ForceConflict', true,
@@ -2338,6 +2350,18 @@ return {
 					'StrongEnemySquadsList', {
 						"LegionAttackers_Ordnance_Hard",
 						"LegionAttackers_Marksmen_Hard",
+					},
+					'EnemySquadsGarrisonList', {
+						"LegionGlobalAI_Garrison",
+					},
+					'EnemySquadsPatroolList', {
+						"LegionGlobalAI_Patrol",
+					},
+					'EnemySquadsReconList', {
+						"LegionGlobalAI_Recon",
+					},
+					'EnemySquadsQRFList', {
+						"LegionJAZZSquadT2",
 					},
 					'Militia', true,
 					'MaxMilitia', 12,
@@ -3408,6 +3432,18 @@ return {
 						"LegionAttackers_Marksmen_Hard",
 						"LegionAttackers_Ordnance_Hard",
 					},
+					'EnemySquadsGarrisonList', {
+						"LegionGlobalAI_Garrison",
+					},
+					'EnemySquadsPatroolList', {
+						"LegionGlobalAI_Patrol",
+					},
+					'EnemySquadsReconList', {
+						"LegionGlobalAI_Recon",
+					},
+					'EnemySquadsQRFList', {
+						"LegionJAZZSquadT2",
+					},
 					'Militia', true,
 					'MaxMilitia', 16,
 					'ForceConflict', true,
@@ -4077,6 +4113,32 @@ return {
 					'Passability', "Land and Water",
 					'City', "Fleatown",
 					'ShowCity', true,
+					'Guardpost', true,
+					'PatrolRespawnTime', 432000,
+					'ExtraDefenderSquads', {
+						"LegionExtraDefenders_Balanced_Easy",
+						"LegionExtraDefenders_Marksmen_Hard",
+					},
+					'EnemySquadsList', {
+						"LegionAttackers_Balanced_Easy",
+						"LegionAttackers_Marksmen_Easy",
+					},
+					'StrongEnemySquadsList', {
+						"LegionAttackers_Balanced_Hard",
+						"LegionAttackers_Marksmen_Hard",
+					},
+					'EnemySquadsGarrisonList', {
+						"LegionGlobalAI_Garrison",
+					},
+					'EnemySquadsPatroolList', {
+						"LegionGlobalAI_Patrol",
+					},
+					'EnemySquadsReconList', {
+						"LegionGlobalAI_Recon",
+					},
+					'EnemySquadsQRFList', {
+						"LegionJAZZSquadT2",
+					},
 					'Militia', true,
 					'MaxMilitia', 12,
 					'ForceConflict', true,
@@ -6656,6 +6718,18 @@ return {
 						"LegionAttackers_Marksmen_Hard",
 						"LegionAttackers_Balanced_Hard",
 					},
+					'EnemySquadsGarrisonList', {
+						"LegionGlobalAI_Garrison",
+					},
+					'EnemySquadsPatroolList', {
+						"LegionGlobalAI_Patrol",
+					},
+					'EnemySquadsReconList', {
+						"LegionGlobalAI_Recon",
+					},
+					'EnemySquadsQRFList', {
+						"LegionJAZZSquadT2",
+					},
 					'Militia', true,
 					'ForceConflict', true,
 					'InitialSquads', {
@@ -7203,6 +7277,18 @@ return {
 						"LegionAttackers_Ordnance_Hard",
 						"LegionAttackers_Ordnance_Hard",
 						"LegionAttackers_Ordnance_Hard",
+					},
+					'EnemySquadsGarrisonList', {
+						"LegionGlobalAI_Garrison",
+					},
+					'EnemySquadsPatroolList', {
+						"LegionGlobalAI_Patrol",
+					},
+					'EnemySquadsReconList', {
+						"LegionGlobalAI_Recon",
+					},
+					'EnemySquadsQRFList', {
+						"LegionJAZZSquadT2",
 					},
 					'Militia', true,
 					'MaxMilitia', 12,
@@ -8894,6 +8980,18 @@ return {
 					'StrongEnemySquadsList', {
 						"LegionAttackers_Balanced_Hard",
 						"LegionAttackers_Shock_Hard",
+					},
+					'EnemySquadsGarrisonList', {
+						"LegionGlobalAI_Garrison",
+					},
+					'EnemySquadsPatroolList', {
+						"LegionGlobalAI_Patrol",
+					},
+					'EnemySquadsReconList', {
+						"LegionGlobalAI_Recon",
+					},
+					'EnemySquadsQRFList', {
+						"LegionJAZZSquadT2",
 					},
 					'Militia', true,
 					'ForceConflict', true,
@@ -33653,6 +33751,18 @@ return {
 						"LegionAttackers_Marksmen_Hard",
 						"LegionAttackers_Marksmen_Hard",
 					},
+					'EnemySquadsGarrisonList', {
+						"LegionGlobalAI_Garrison",
+					},
+					'EnemySquadsPatroolList', {
+						"LegionGlobalAI_Patrol",
+					},
+					'EnemySquadsReconList', {
+						"LegionGlobalAI_Recon",
+					},
+					'EnemySquadsQRFList', {
+						"LegionJAZZSquadT2",
+					},
 					'Militia', true,
 					'MaxMilitia', 12,
 					'ForceConflict', true,
@@ -34167,6 +34277,18 @@ return {
 					'StrongEnemySquadsList', {
 						"LegionAttackers_Ordnance_Hard",
 						"LegionAttackers_Marksmen_Hard",
+					},
+					'EnemySquadsGarrisonList', {
+						"LegionGlobalAI_Garrison",
+					},
+					'EnemySquadsPatroolList', {
+						"LegionGlobalAI_Patrol",
+					},
+					'EnemySquadsReconList', {
+						"LegionGlobalAI_Recon",
+					},
+					'EnemySquadsQRFList', {
+						"LegionJAZZSquadT2",
 					},
 					'Militia', true,
 					'MaxMilitia', 12,
@@ -36002,6 +36124,18 @@ return {
 						"LegionAttackers_Marksmen_Hard",
 						"LegionAttackers_Ordnance_Hard",
 					},
+					'EnemySquadsGarrisonList', {
+						"LegionGlobalAI_Garrison",
+					},
+					'EnemySquadsPatroolList', {
+						"LegionGlobalAI_Patrol",
+					},
+					'EnemySquadsReconList', {
+						"LegionGlobalAI_Recon",
+					},
+					'EnemySquadsQRFList', {
+						"LegionJAZZSquadT2",
+					},
 					'Militia', true,
 					'MaxMilitia', 16,
 					'ForceConflict', true,
@@ -36756,6 +36890,32 @@ return {
 					'Passability', "Land and Water",
 					'City', "Fleatown",
 					'ShowCity', true,
+					'Guardpost', true,
+					'PatrolRespawnTime', 432000,
+					'ExtraDefenderSquads', {
+						"LegionExtraDefenders_Balanced_Easy",
+						"LegionExtraDefenders_Marksmen_Hard",
+					},
+					'EnemySquadsList', {
+						"LegionAttackers_Balanced_Easy",
+						"LegionAttackers_Marksmen_Easy",
+					},
+					'StrongEnemySquadsList', {
+						"LegionAttackers_Balanced_Hard",
+						"LegionAttackers_Marksmen_Hard",
+					},
+					'EnemySquadsGarrisonList', {
+						"LegionGlobalAI_Garrison",
+					},
+					'EnemySquadsPatroolList', {
+						"LegionGlobalAI_Patrol",
+					},
+					'EnemySquadsReconList', {
+						"LegionGlobalAI_Recon",
+					},
+					'EnemySquadsQRFList', {
+						"LegionJAZZSquadT2",
+					},
 					'Militia', true,
 					'MaxMilitia', 12,
 					'ForceConflict', true,
@@ -39750,6 +39910,18 @@ return {
 						"LegionAttackers_Marksmen_Hard",
 						"LegionAttackers_Balanced_Hard",
 					},
+					'EnemySquadsGarrisonList', {
+						"LegionGlobalAI_Garrison",
+					},
+					'EnemySquadsPatroolList', {
+						"LegionGlobalAI_Patrol",
+					},
+					'EnemySquadsReconList', {
+						"LegionGlobalAI_Recon",
+					},
+					'EnemySquadsQRFList', {
+						"LegionJAZZSquadT2",
+					},
 					'Militia', true,
 					'ForceConflict', true,
 					'InitialSquads', {
@@ -40323,6 +40495,18 @@ return {
 						"LegionAttackers_Ordnance_Hard",
 						"LegionAttackers_Ordnance_Hard",
 						"LegionAttackers_Ordnance_Hard",
+					},
+					'EnemySquadsGarrisonList', {
+						"LegionGlobalAI_Garrison",
+					},
+					'EnemySquadsPatroolList', {
+						"LegionGlobalAI_Patrol",
+					},
+					'EnemySquadsReconList', {
+						"LegionGlobalAI_Recon",
+					},
+					'EnemySquadsQRFList', {
+						"LegionJAZZSquadT2",
 					},
 					'Militia', true,
 					'MaxMilitia', 12,
@@ -42885,6 +43069,18 @@ return {
 					'StrongEnemySquadsList', {
 						"LegionAttackers_Balanced_Hard",
 						"LegionAttackers_Shock_Hard",
+					},
+					'EnemySquadsGarrisonList', {
+						"LegionGlobalAI_Garrison",
+					},
+					'EnemySquadsPatroolList', {
+						"LegionGlobalAI_Patrol",
+					},
+					'EnemySquadsReconList', {
+						"LegionGlobalAI_Recon",
+					},
+					'EnemySquadsQRFList', {
+						"LegionJAZZSquadT2",
 					},
 					'Militia', true,
 					'ForceConflict', true,
