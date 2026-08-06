@@ -5,7 +5,7 @@ DefineClass.JAZZ_Ernie_Locals_M2_SaveMyFamily_Man = {
 
 
 	object_class = "UnitData",
-	BigPortrait = "Mod/Dv3mFVN/Images/M2_Local_Man.png",
+	BigPortrait = "Mod/Dv3mFVN/NPCPortraits/Local_Man_Big.png",
 	Name = T(399751498001, --[[ModItemUnitDataCompositeDef JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Name]] "Малеко"),
 	Affiliation = "Civilian",
 	AppearancesList = {

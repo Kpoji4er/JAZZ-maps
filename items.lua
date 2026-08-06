@@ -31120,7 +31120,7 @@ return {
 				PlaceObj('ModItemConversation', {
 					AssignToGroup = "Rebel_NPC_Ghost",
 					DefaultActor = "Rebel_NPC_Ghost",
-					DefaultActorPortraitOverride = "Mod/Dv3mFVN/Images/REBELS_Ghost.png",
+					DefaultActorPortraitOverride = "Mod/Dv3mFVN/NPCPortraits/Rebels_Ghost_Big.png",
 					group = "Ernie",
 					id = "Rebels_Ghost",
 					PlaceObj('ConversationPhrase', {
@@ -54366,7 +54366,7 @@ return {
 				PlaceObj('ModItemUnitDataCompositeDef', {
 					'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Man",
 					'object_class', "UnitData",
-					'BigPortrait', "Mod/Dv3mFVN/Images/M2_Local_Man.png",
+					'BigPortrait', "Mod/Dv3mFVN/NPCPortraits/Local_Man_Big.png",
 					'Name', T(399751498001, --[[ModItemUnitDataCompositeDef JAZZ_Ernie_Locals_M2_SaveMyFamily_Man Name]] "Малеко"),
 					'Affiliation', "Civilian",
 					'AppearancesList', {
@@ -54379,7 +54379,7 @@ return {
 				PlaceObj('ModItemUnitDataCompositeDef', {
 					'Id', "JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman",
 					'object_class', "UnitData",
-					'BigPortrait', "Mod/Dv3mFVN/Images/M2_Local_Woman.png",
+					'BigPortrait', "Mod/Dv3mFVN/NPCPortraits/Local_Woman_Big.png",
 					'Name', T(356243372579, --[[ModItemUnitDataCompositeDef JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman Name]] "Кики"),
 					'Affiliation', "Civilian",
 					'AppearancesList', {
