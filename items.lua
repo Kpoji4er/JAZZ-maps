@@ -47091,7 +47091,7 @@ return {
 								Vars = set( "TCE_GraafKillMiners" ),
 							}),
 						},
-						Text = T(792209023939, --[[ModItemQuestsDef DiamondRed Text]] "Slave Master Graaf is attacking the <em>miners</em> at <em><SectorName('A2')></em>\n\nMiners Alive: <em><GetNumAliveUnitsInGroup('Miners')></em>\n"),
+						Text = T(792209023939, --[[ModItemQuestsDef DiamondRed Text]] "Slave Master Graaf is attacking the <em>miners</em> at <em><SectorName('A2')></em>\nMiners Alive: <em><GetNumAliveUnitsInGroup('Miners')></em>\n"),
 					}),
 					PlaceObj('QuestNote', {
 						HideConditions = {
@@ -47107,7 +47107,7 @@ return {
 								Vars = set( "TCE_LegionKillMiners" ),
 							}),
 						},
-						Text = T(314614756750, --[[ModItemQuestsDef DiamondRed Text]] "The Legion soldiers are attacking the <em>miners</em> at <em><SectorName('A2')></em>\n\nMiners alive: <em><GetNumAliveUnitsInGroup('Miners')></em>"),
+						Text = T(314614756750, --[[ModItemQuestsDef DiamondRed Text]] "The Legion soldiers are attacking the <em>miners</em> at <em><SectorName('A2')></em>\nMiners alive: <em><GetNumAliveUnitsInGroup('Miners')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						AddInHistory = true,
@@ -107454,7 +107454,7 @@ return {
 					Lines = {
 						PlaceObj('BanterLine', {
 							'Character', "Martha",
-							'Text', T(790945781681, --[[ModItemBanterDef Martha_01_Lynch2 Text section:Banters_Local_Ernie/Martha_01_Lynch2 voice:Martha]] "Herman told me how he helped you deal with those Legion thugs!\n\nI pretended that I believed him."),
+							'Text', T(790945781681, --[[ModItemBanterDef Martha_01_Lynch2 Text section:Banters_Local_Ernie/Martha_01_Lynch2 voice:Martha]] "Herman told me how he helped you deal with those Legion thugs!\nI pretended that I believed him."),
 							'playOnce', true,
 						}),
 					},
@@ -108699,7 +108699,7 @@ return {
 					Lines = {
 						PlaceObj('BanterLine', {
 							'Character', "Martha",
-							'Text', T(790945781681, --[[ModItemBanterDef Martha_01_Lynch2 Text section:Banters_Local_Ernie/Martha_01_Lynch2 voice:Martha]] "Herman told me how he helped you deal with those Legion thugs!\n\nI pretended that I believed him."),
+							'Text', T(790945781681, --[[ModItemBanterDef Martha_01_Lynch2 Text section:Banters_Local_Ernie/Martha_01_Lynch2 voice:Martha]] "Herman told me how he helped you deal with those Legion thugs!\nI pretended that I believed him."),
 							'playOnce', true,
 						}),
 					},
