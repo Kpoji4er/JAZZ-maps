@@ -1887,6 +1887,38 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1283063845)
 PlaceObj('UnitMarker', {
+	'Pos', point(246600, 255600, 32600),
+	'Angle', 15300,
+	'Groups', {
+		"BarrySeal_Recruit",
+	},
+	'AllowedMask', 4294966497,
+	'ID', "BarrySeal_Recruit",
+	'Routine', "Ambient",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "RebelsSavior",
+			Vars = set({
+	BarryJoined = false,
+	SuppliesDelivered = true,
+}),
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "RebelsSavior",
+			Vars = set( "BarryJoined" ),
+		}),
+	},
+	'Appearance', "ForeignMerc_01",
+	'ConflictIgnore', true,
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "Merc_BarrySeal",
+		}),
+	},
+}, nil, 2107001001)
+PlaceObj('UnitMarker', {
 	'Pos', point(241800, 241800, 32900),
 	'Angle', 10800,
 	'Groups', {

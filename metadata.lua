@@ -2,7 +2,7 @@ return PlaceObj('ModDef', {
 	'title', "JAZZ Maps",
 	'description', "Maps for JAZZ\n\nКарты для ДЖАЗ",
 	'image', "Mod/FhNNYd/Images/J 2.png",
-	'last_changes', "LOC-002: normalize quest and banter source fallbacks [skip discord]\n- Fix Ghost/Maleko/Kiki portraits after Images->NPCPortraits migrate [discord]\n- M1/J2: clear forced day Lightmodel so night/weather TOD works\n- Move GrandChien2.png to Git LFS (70MB map art) [discord]\n- Global AI outpost lists (P17/E10/D18/H19/L15/G22/K21) + GrandChien2 map art [discord]\n- FortifyErnie MG hand-in: Jazz Browning + bench (not MG42) [discord]\n- Camp du Crocodile: export UpdateReachSectorCenter + Msg rawset; sector atlas docs/CSV\nCrocodile patrol Msg wrap fix\n- Packaging: expand .gitignore + metadata ignore_files for Steam upload",
+	'last_changes', "- QUESTS-002: remap vanilla quest landmarks to maps sector grid (Wave A+B) [new game recommended]\n- QUESTS-001: repair Ernie quests, map markers and Barry Seal recruitment [new game recommended]\nLOC-002: normalize quest and banter source fallbacks [skip discord]\n- Fix Ghost/Maleko/Kiki portraits after Images->NPCPortraits migrate [discord]\n- M1/J2: clear forced day Lightmodel so night/weather TOD works\n- Move GrandChien2.png to Git LFS (70MB map art) [discord]\n- Global AI outpost lists (P17/E10/D18/H19/L15/G22/K21) + GrandChien2 map art [discord]\n- FortifyErnie MG hand-in: Jazz Browning + bench (not MG42) [discord]\n- Camp du Crocodile: export UpdateReachSectorCenter + Msg rawset; sector atlas docs/CSV\nCrocodile patrol Msg wrap fix\n- Packaging: expand .gitignore + metadata ignore_files for Steam upload",
 	'ignore_files', {
 		-- VCS / IDE / agent (tracked in git, not for Steam pack)
 		"*.git/*",
@@ -57,7 +57,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 7,
-	'version', 5137,
+	'version', 5138,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {

@@ -2175,6 +2175,7 @@ PlaceObj('UnitMarker', {
 	'Angle', 10800,
 	'Groups', {
 		"HermanShaking",
+		"Herman",
 	},
 	'AllowedMask', 4294966497,
 	'EnabledConditions', {},

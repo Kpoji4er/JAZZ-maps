@@ -7,6 +7,8 @@ DefineClass.JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman = {
 	object_class = "UnitData",
 	BigPortrait = "Mod/Dv3mFVN/NPCPortraits/Local_Woman_Big.png",
 	Name = T(356243372579, --[[ModItemUnitDataCompositeDef JAZZ_Ernie_Locals_M2_SaveMyFamily_Woman Name]] "Кики"),
+	immortal = true,
+	ImportantNPC = true,
 	Affiliation = "Civilian",
 	AppearancesList = {
 		PlaceObj('AppearanceWeight', {

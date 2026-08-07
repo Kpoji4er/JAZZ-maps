@@ -879,7 +879,7 @@ PlaceObj('UnitMarker', {
 		PlaceObj('PlayerIsInSectors', {
 			Negate = true,
 			Sectors = {
-				"M3",
+				"M4",
 			},
 		}),
 		PlaceObj('QuestIsVariableBool', {
@@ -924,7 +924,7 @@ PlaceObj('UnitMarker', {
 		PlaceObj('PlayerIsInSectors', {
 			Negate = true,
 			Sectors = {
-				"M3",
+				"M4",
 			},
 		}),
 		PlaceObj('QuestIsVariableBool', {
@@ -969,7 +969,7 @@ PlaceObj('UnitMarker', {
 		PlaceObj('PlayerIsInSectors', {
 			Negate = true,
 			Sectors = {
-				"M3",
+				"M4",
 			},
 		}),
 		PlaceObj('QuestIsVariableBool', {
@@ -1014,7 +1014,7 @@ PlaceObj('UnitMarker', {
 		PlaceObj('PlayerIsInSectors', {
 			Negate = true,
 			Sectors = {
-				"M3",
+				"M4",
 			},
 		}),
 		PlaceObj('QuestIsVariableBool', {
@@ -1059,7 +1059,7 @@ PlaceObj('UnitMarker', {
 		PlaceObj('PlayerIsInSectors', {
 			Negate = true,
 			Sectors = {
-				"M3",
+				"M4",
 			},
 		}),
 		PlaceObj('QuestIsVariableBool', {

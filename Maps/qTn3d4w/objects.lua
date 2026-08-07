@@ -2570,7 +2570,7 @@ PlaceObj('UnitMarker', {
 	'Despawn_Conditions', {
 		PlaceObj('QuestIsVariableBool', {
 			QuestId = "Jazz_Doctor_need_Help",
-			Vars = set( "AmmoTaken", "InjuredRebels_Healed", "MinesTaken" ),
+			Vars = set( "InjuredRebel2_Healed" ),
 		}),
 	},
 	'Appearance', "Heavy_Rebels_02",
@@ -2595,7 +2595,7 @@ PlaceObj('UnitMarker', {
 			},
 			'Effects', {
 				PlaceObj('QuestSetVariableBool', {
-					Prop = "InjuredRebels_Healed",
+					Prop = "InjuredRebel2_Healed",
 					QuestId = "Jazz_Doctor_need_Help",
 				}),
 				PlaceObj('PlayBanterEffect', {
@@ -3191,7 +3191,7 @@ PlaceObj('UnitMarker', {
 	'Despawn_Conditions', {
 		PlaceObj('QuestIsVariableBool', {
 			QuestId = "Jazz_Doctor_need_Help",
-			Vars = set( "AmmoTaken", "InjuredRebels_Healed", "MinesTaken" ),
+			Vars = set( "InjuredRebel3_Healed" ),
 		}),
 	},
 	'Appearance', "Heavy_Rebels_02",
@@ -3216,7 +3216,7 @@ PlaceObj('UnitMarker', {
 			},
 			'Effects', {
 				PlaceObj('QuestSetVariableBool', {
-					Prop = "InjuredRebels_Healed",
+					Prop = "InjuredRebel3_Healed",
 					QuestId = "Jazz_Doctor_need_Help",
 				}),
 				PlaceObj('PlayBanterEffect', {
@@ -3371,7 +3371,7 @@ PlaceObj('UnitMarker', {
 	'Despawn_Conditions', {
 		PlaceObj('QuestIsVariableBool', {
 			QuestId = "Jazz_Doctor_need_Help",
-			Vars = set( "AmmoTaken", "InjuredRebels_Healed", "MinesTaken" ),
+			Vars = set( "InjuredRebel1_Healed" ),
 		}),
 	},
 	'Appearance', "Heavy_Rebels_02",
@@ -3396,7 +3396,7 @@ PlaceObj('UnitMarker', {
 			},
 			'Effects', {
 				PlaceObj('QuestSetVariableBool', {
-					Prop = "InjuredRebels_Healed",
+					Prop = "InjuredRebel1_Healed",
 					QuestId = "Jazz_Doctor_need_Help",
 				}),
 				PlaceObj('PlayBanterEffect', {

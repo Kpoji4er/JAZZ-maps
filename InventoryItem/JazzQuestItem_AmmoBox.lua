@@ -6,8 +6,8 @@ DefineClass.JazzQuestItem_AmmoBox = {
 
 	comment = "Ящики с боеприпасами",
 	object_class = "InventoryItem",
-	Icon = "Mod/FhNNYd/Images/Inventory_Images/MinesBox.png",
-	SubIcon = "Mod/FhNNYd/Images/Inventory_Images/MinesBox.png",
+	Icon = "Mod/FhNNYd/Images/Inventory_Images/AmmoCrate.png",
+	SubIcon = "Mod/FhNNYd/Images/Inventory_Images/AmmoCrate.png",
 	DisplayName = T(732750682366, --[[ModItemInventoryItemCompositeDef JazzQuestItem_AmmoBox DisplayName]] "Ящики с боеприпасами и гранатами"),
 	DisplayNamePlural = T(914914835655, --[[ModItemInventoryItemCompositeDef JazzQuestItem_AmmoBox DisplayNamePlural]] "Ящики с боеприпасами и гранатами"),
 	Description = T(184516975474, --[[ModItemInventoryItemCompositeDef JazzQuestItem_AmmoBox Description]] "Боеприпасы, которые нужно доставить."),

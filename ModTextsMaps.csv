@@ -1553,7 +1553,7 @@ ID,Text,Translation,VoiceActor,Context
 407342596203,Мы счастливы?,,,ModItemConversation Ernie_LegionCamp5_Rebels KeywordT
 468486052663,Тут всё?,,RebelSergant_Immortal,ModItemConversation Ernie_LegionCamp5_Rebels Text  section:Ernie_LegionCamp5_Rebels keyword:Мы счастливы?
 403161852547,Да мы счастливы,,,ModItemConversation Ernie_LegionCamp5_Rebels KeywordT
-480799336285,"Вы очень сильно помогли нам, спасибо наемники, у нас тут затесался ваш колега по опасному бизнессу, такой же солдат удачи, думаю он с радостью пойдёт с вами, по началу бредил про какую-то несуществующую страну, под названием Арулько, но вроде отпустило. Он вроде как потерял память, но боевые навыки точно не растерял. Вон он стоит у палаток.",,RebelSergant_Immortal,ModItemConversation Ernie_LegionCamp5_Rebels Text  section:Ernie_LegionCamp5_Rebels keyword:Да мы счастливы
+480799336285,"Вы нас здорово выручили. У палаток ждёт один американец — Берриман Сил, пилот и контрабандист. Его последний рейс закончился здесь не по плану. Он ищет новую команду; думаю, вы найдёте общий язык.",,RebelSergant_Immortal,ModItemConversation Ernie_LegionCamp5_Rebels Text  section:Ernie_LegionCamp5_Rebels keyword:Да мы счастливы
 557666141230,"Ха-ха! Вот это день. Думал, мы падём под лапами этих шакалов... Вышло же иначе. Их кровь на песке - и в этом есть ваша заслуга.",,,ModItemConversation Ernie_M1_Rebel_Briefing PhraseRolloverText
 236956584170,"	Не ожидал встретить союзников, в этой мясорубке, мы не ожидали выжить в этом бою.
 	Я - <em>команданте Контимир Бурда</em> из местной ячейки партизан. Мы выслеживали Рафаля, проклятый предатель, крыса, придурок и вор, один из кучи офицеров <em>Легиона</em>. Наконец эта тварь нашла свою смерть.",,RebelSergeant_Immortal_M1,ModItemConversation Ernie_M1_Rebel_Briefing Text  section:Ernie_M1_Rebel_Briefing keyword:Greeting
@@ -2024,9 +2024,9 @@ ID,Text,Translation,VoiceActor,Context
 364886179382,One may want to take a walk around the place and <em>contemplate</em> on the poem by Edgar Allan Poe,,,ModItemQuestsDef WetlandsSideQuests Text
 696843295595,<em>Outcome:</em> <em>Lenore</em> and <em>Guy De Vere</em> should rest in peace,,,ModItemQuestsDef WetlandsSideQuests Text
 115494443900,Camp du Crocodile,,,ModItemQuestsDef Elliot DisplayName
-761350045885,"There is a ""Major"" in <em><SectorName('H14')></em>, but is he <em>The Major</em>?",,,ModItemQuestsDef Elliot Text
-828983887919,"The ""Major"" in <em><SectorName('H14')></em> is the harmless idiot <em>Elliot</em> from Arulco",,,ModItemQuestsDef Elliot Text
-226253632722,"<em>Outcome:</em> The <em>""Major""</em> in <em><SectorName('H14')></em> was killed, but was he the real Major?",,,ModItemQuestsDef Elliot Text
+761350045885,"There is a ""Major"" in <em><SectorName('P17')></em>, but is he <em>The Major</em>?",,,ModItemQuestsDef Elliot Text
+828983887919,"The ""Major"" in <em><SectorName('P17')></em> is the harmless idiot <em>Elliot</em> from Arulco",,,ModItemQuestsDef Elliot Text
+226253632722,"<em>Outcome:</em> The <em>""Major""</em> in <em><SectorName('P17')></em> was killed, but was he the real Major?",,,ModItemQuestsDef Elliot Text
 712574607433,<em>Outcome:</em> <em>Elliot</em> from Arulco paid with his life for pretending to be the Major,,,ModItemQuestsDef Elliot Text
 358731170157,<em>Outcome:</em> <em>Elliot</em> from Arulco went to jail for killing his best friend,,,ModItemQuestsDef Elliot Text
 196541382881,<em>Outcome:</em> Spared <em>Elliot</em>,,,ModItemQuestsDef Elliot Text
@@ -2037,29 +2037,29 @@ ID,Text,Translation,VoiceActor,Context
 728713112141,<em>Outcome:</em> <em>Captain Jacques Pierrot</em> is dead,,,ModItemQuestsDef SavannaSideQuest Text
 638558387543,established a <em>Port</em> in <em><SectorName('G9')></em>,,,ModItemQuestsDef SavannaSideQuest SpecialConversationMessage
 974163584784,The Refugee camp,,,ModItemQuestsDef RefugeeBlues DisplayName
-140909449468,<em>Sangoma</em> at the <em><SectorName('E9')></em> is a famous faith healer,,,ModItemQuestsDef RefugeeBlues Text
-417607577100,<em>Sangoma</em> from the <em><SectorName('E9')></em> needs <em>Metaviron</em> to heal his family and protect his faith healer reputation,,,ModItemQuestsDef RefugeeBlues Text
+140909449468,<em>Sangoma</em> at the <em><SectorName('F13')></em> is a famous faith healer,,,ModItemQuestsDef RefugeeBlues Text
+417607577100,<em>Sangoma</em> from the <em><SectorName('F13')></em> needs <em>Metaviron</em> to heal his family and protect his faith healer reputation,,,ModItemQuestsDef RefugeeBlues Text
 875225952240,There may be <em>Metaviron</em> at the <em><SectorName('H19')></em>,,,ModItemQuestsDef RefugeeBlues Text
 132204393595,<em>Outcome:</em> Saved the family of <em>Sangoma</em> and preserved his faith healer reputation,,,ModItemQuestsDef RefugeeBlues Text
 778150699797,<em>Outcome:</em> Saved the family of <em>Sangoma</em>,,,ModItemQuestsDef RefugeeBlues Text
-828618948075,<em>Operation</em>: A capable <em>Medic</em> could cure the family of <em>Sangoma</em> at the <em><SectorName('E9')></em>,,,ModItemQuestsDef RefugeeBlues Text
+828618948075,<em>Operation</em>: A capable <em>Medic</em> could cure the family of <em>Sangoma</em> at the <em><SectorName('F13')></em>,,,ModItemQuestsDef RefugeeBlues Text
 933739111483,<em>Outcome:</em> <em>Sangoma</em> is dead,,,ModItemQuestsDef RefugeeBlues Text
-258278270170,<em>Pepe</em> from the <em><SectorName('E9')></em> asked for help with his <em>TV</em> woes,,,ModItemQuestsDef RefugeeBlues Text
-775763648755,<em>Outcome:</em> Helped <em>Pepe</em> and greatly pleased the spirits at the <em><SectorName('E9')></em>,,,ModItemQuestsDef RefugeeBlues Text
+258278270170,<em>Pepe</em> from the <em><SectorName('F13')></em> asked for help with his <em>TV</em> woes,,,ModItemQuestsDef RefugeeBlues Text
+775763648755,<em>Outcome:</em> Helped <em>Pepe</em> and greatly pleased the spirits at the <em><SectorName('F13')></em>,,,ModItemQuestsDef RefugeeBlues Text
 403756776367,<em>Outcome:</em> <em>Pepe</em> is dead,,,ModItemQuestsDef RefugeeBlues Text
 383668708924,<em>Claudette</em> was kidnapped by the Legion and taken to the <em><SectorName('D9')></em>,,,ModItemQuestsDef RefugeeBlues Text
 610475885620,Time to help brave <em>Claudette</em>,,,ModItemQuestsDef RefugeeBlues Text
-426080804855,<em>Claudette</em> went back to her brother <em>Antoine</em> in the <em><SectorName('E9')></em>,,,ModItemQuestsDef RefugeeBlues Text
+426080804855,<em>Claudette</em> went back to her brother <em>Antoine</em> in the <em><SectorName('F13')></em>,,,ModItemQuestsDef RefugeeBlues Text
 569370874172,<em>Outcome:</em> <em>Claudette</em> is dead,,,ModItemQuestsDef RefugeeBlues Text
 476827429491,<em>Outcome:</em> <em>Antoine</em> is dead,,,ModItemQuestsDef RefugeeBlues Text
 765676162861,<em>Outcome:</em> <em>Antoine</em> and <em>Claudette</em> left the Refugee Camp for good,,,ModItemQuestsDef RefugeeBlues Text
-237714284402,"<em>Karen</em> in the <em><SectorName('E9')></em> insists that her <em>passport</em> is found and returned immediately, or she will call the manager!",,,ModItemQuestsDef RefugeeBlues Text
+237714284402,"<em>Karen</em> in the <em><SectorName('F13')></em> insists that her <em>passport</em> is found and returned immediately, or she will call the manager!",,,ModItemQuestsDef RefugeeBlues Text
 194915769887,<em>Lalee</em> in <em><SectorName('H19')></em> can probably provide a <em>passport</em> for <em>Karen</em>,,,ModItemQuestsDef RefugeeBlues Text
 825015158443,Found <em>Karen's passport</em>,,,ModItemQuestsDef RefugeeBlues Text
 205482708053,<em>Outcome:</em> Returned <em>Karen's passport</em>,,,ModItemQuestsDef RefugeeBlues Text
 248946579059,<em>Outcome:</em> Sent <em>Karen</em> to the great manager in the sky,,,ModItemQuestsDef RefugeeBlues Text
 582068277236,<em>Outcome:</em> <em>Karen</em> is dead,,,ModItemQuestsDef RefugeeBlues Text
-606937685269,<em>Martha and Herman</em> are stuck in the <em><SectorName('E9')></em>,,,ModItemQuestsDef RefugeeBlues Text
+606937685269,<em>Martha and Herman</em> are stuck in the <em><SectorName('F13')></em>,,,ModItemQuestsDef RefugeeBlues Text
 969489570316,<em>Outcome:</em> <em>Martha and Herman</em> are dead,,,ModItemQuestsDef RefugeeBlues Text
 906457124761,<em>Outcome:</em> Helped <em>Martha and Herman</em> with money,,,ModItemQuestsDef RefugeeBlues Text
 841841624189,<em>Outcome:</em> Employed <em>Martha and Herman</em> as mine workers,,,ModItemQuestsDef RefugeeBlues Text
@@ -2069,10 +2069,10 @@ ID,Text,Translation,VoiceActor,Context
 952242327124,provided an US passport to <em>Karen</em>,,,ModItemQuestsDef RefugeeBlues SpecialConversationMessage
 707991311263,convinced <em>Bastien</em> to stop profiteering,,,ModItemQuestsDef RefugeeBlues SpecialConversationMessage
 449194370340,The dead poachers,,,ModItemQuestsDef HunterHunted DisplayName
-304064974760,"The Poachers at the <em><SectorName('C5')></em> are having some trouble with their ""work""",,,ModItemQuestsDef HunterHunted Text
-124923999935,Someone is hunting the poachers from the <em><SectorName('C5')></em> and nailing horns on their heads,,,ModItemQuestsDef HunterHunted Text
+304064974760,"The Poachers at the <em><SectorName('D9')></em> are having some trouble with their ""work""",,,ModItemQuestsDef HunterHunted Text
+124923999935,Someone is hunting the poachers from the <em><SectorName('D9')></em> and nailing horns on their heads,,,ModItemQuestsDef HunterHunted Text
 109398933439,<em>Flay</em> is killing poachers and putting horns on the corpses,,,ModItemQuestsDef HunterHunted Text
-753155851285,<em>Hyena</em> from the <em><SectorName('C5')></em> offers a reward for tracking down and killing <em>Flay</em>,,,ModItemQuestsDef HunterHunted Text
+753155851285,<em>Hyena</em> from the <em><SectorName('D9')></em> offers a reward for tracking down and killing <em>Flay</em>,,,ModItemQuestsDef HunterHunted Text
 414478994287,There may be <em>clues</em> that lead to <em>Flay's hideout</em> across the <em>Savanna</em>,,,ModItemQuestsDef HunterHunted Text
 444244839227,<em>Flay</em> is in the <em><SectorName('C6')></em>,,,ModItemQuestsDef HunterHunted Text
 266905473743,<em>Flay</em> is in the <em><SectorName('B4')></em>,,,ModItemQuestsDef HunterHunted Text
@@ -2089,22 +2089,22 @@ ID,Text,Translation,VoiceActor,Context
 527449098437,Helping Sangoma,,,ModItemQuestsDef FaithHealing DisplayName
 431386569214,cured the family of <em>Sangoma</em>,,,ModItemQuestsDef FaithHealing SpecialConversationMessage
 349588310270,Liberating Diamond Red,,,ModItemQuestsDef DiamondRed DisplayName
-681472768157,There are rumors of terrible conditions at the <em><SectorName('A2')></em> mine,,,ModItemQuestsDef DiamondRed Text
-442011910613,The <em><SectorName('A2')></em> mine is controlled by <em>Slave Master Graaf</em> who abuses the workers,,,ModItemQuestsDef DiamondRed Text
-605587998364,Liberated the <em><SectorName('A2')></em> mine,,,ModItemQuestsDef DiamondRed Text
+681472768157,There are rumors of terrible conditions at the <em><SectorName('A4')></em> mine,,,ModItemQuestsDef DiamondRed Text
+442011910613,The <em><SectorName('A4')></em> mine is controlled by <em>Slave Master Graaf</em> who abuses the workers,,,ModItemQuestsDef DiamondRed Text
+605587998364,Liberated the <em><SectorName('A4')></em> mine,,,ModItemQuestsDef DiamondRed Text
 572667809420,<em>Slave Master Graaf</em> is defeated,,,ModItemQuestsDef DiamondRed Text
-373648402830,"Slave Master Graaf is attacking the <em>miners</em> at <em><SectorName('A2')></em>
+373648402830,"Slave Master Graaf is attacking the <em>miners</em> at <em><SectorName('A4')></em>
 
 Miners Alive: <em><GetNumAliveUnitsInGroup('Miners')></em>
 ",,,ModItemQuestsDef DiamondRed Text
-296886973599,"The Legion soldiers are attacking the <em>miners</em> at <em><SectorName('A2')></em>
+296886973599,"The Legion soldiers are attacking the <em>miners</em> at <em><SectorName('A4')></em>
 
 Miners alive: <em><GetNumAliveUnitsInGroup('Miners')></em>",,,ModItemQuestsDef DiamondRed Text
 792988128701,<em>Outcome:</em> Executed <em>Slave Master Graaf</em>,,,ModItemQuestsDef DiamondRed Text
-142791317680,<em>Outcome:</em> Installed <em>Slave Master Graaf</em> as foreman in <em><SectorName('A2')></em>,,,ModItemQuestsDef DiamondRed Text
-711368716559,<em>Outcome:</em> Banished <em>Slave Master Graaf</em> from <em><SectorName('A2')></em>,,,ModItemQuestsDef DiamondRed Text
-886738651138,<em>Outcome:</em> <em>Minimal casualties</em> among the miners in <em><SectorName('A2')></em>,,,ModItemQuestsDef DiamondRed Text
-226911658823,<em>Outcome:</em> <em>Serious casualties</em> among the miners in <em><SectorName('A2')></em>,,,ModItemQuestsDef DiamondRed Text
+142791317680,<em>Outcome:</em> Installed <em>Slave Master Graaf</em> as foreman in <em><SectorName('A4')></em>,,,ModItemQuestsDef DiamondRed Text
+711368716559,<em>Outcome:</em> Banished <em>Slave Master Graaf</em> from <em><SectorName('A4')></em>,,,ModItemQuestsDef DiamondRed Text
+886738651138,<em>Outcome:</em> <em>Minimal casualties</em> among the miners in <em><SectorName('A4')></em>,,,ModItemQuestsDef DiamondRed Text
+226911658823,<em>Outcome:</em> <em>Serious casualties</em> among the miners in <em><SectorName('A4')></em>,,,ModItemQuestsDef DiamondRed Text
 134925017517,Worker,,,ModItemQuestsDef DiamondRed ChangeName
 587704636909,Slave,,,ModItemQuestsDef DiamondRed ChangeName
 124836023855,Эндшпиль,,,ModItemQuestsDef 06_Endgame DisplayName
@@ -2183,7 +2183,9 @@ Miners alive: <em><GetNumAliveUnitsInGroup('Miners')></em>",,,ModItemQuestsDef D
 711512520142,Атака на Смотровую Площадку,,,ModItemQuestsDef JAZZ_REBELS_1_SeizeTheOutlook DisplayName
 244219612500,"Мы встретили одного из повстанцев - ""Призрака"". Он предложил нам атаковать <em>Смотровую площадку (Сектор М4)</em> вместе",,,ModItemQuestsDef JAZZ_REBELS_1_SeizeTheOutlook Text
 305448108904,Свинорез,,,ModItemQuestsDef Jazz_DeadPigs DisplayName
-492169252126,"Uno, Dos, Tres
+492169252126,"Зачистить лагерь перебежчиков в <em>секторе K6</em> и вернуться к Балумбе.
+
+Uno, Dos, Tres
 Я достану свинорез
 Ты откуда вылез, хлопчик
 Ты зачем сюда полез?
@@ -2227,7 +2229,7 @@ Quatro, Cinquo, Senco, Ses
 480404987558,"Скоро сюда прибудет крупный отряд Легиона, необходимо помочь местным с обороной",,,ModItemQuestsDef Jazz_LightHouseDefend Text
 824593567046,Прибытие Легиона,,,ModItemQuestsDef Jazz_LightHouseDefend Label
 960903332758,Неугодный доктор,,,ModItemQuestsDef Jazz_Doctor_need_Help DisplayName
-555833394027,"Нашему айболиту нужна помощь, придется заморочиться и поискать <em>медикаменты</em> ажно <em>50</em> штук, мины и боеприпасы должны быть в секторе <em>I3</em> на <em>Блок посту возле моста и в тайнике в вентилиционной шахте</em>, Также нужно поднять <em>выживших повстанцев</em>, сто процентов мы не заметили их при подъёме, коммуняки умеют в маскировку.",,,ModItemQuestsDef Jazz_Doctor_need_Help Text
+555833394027,"Собрать <em>50 Meds</em>, забрать в <em>секторе I3</em> ящик с боеприпасами у моста и ящик с минами в тайнике у разрушенного ангара, затем стабилизировать <em>трёх раненых повстанцев</em>.",,,ModItemQuestsDef Jazz_Doctor_need_Help Text
 635990528307,"Легион уже дышит в затылок, надо возвращаться и готовиться к атаке, да и доктор видимо не простой, возможно получится выпытать какой-то информации.",,,ModItemQuestsDef Jazz_Doctor_need_Help Text
 816575507215,Зачистить лагеря вокруг Виллы,,,ModItemQuestsDef Jazz_ClearTheWay DisplayName
 910800497138,Зачистить лагеря Легиона вокруг Виллы,,,ModItemQuestsDef Jazz_ClearTheWay Text
@@ -2236,19 +2238,19 @@ Quatro, Cinquo, Senco, Ses
 583544470909,Зачистить сектор L3,,,ModItemQuestsDef Jazz_ClearTheWay Text
 583544470909,Зачистить сектор L4,,,ModItemQuestsDef Jazz_ClearTheWay Text
 583544470909,Зачистить сектор L5,,,ModItemQuestsDef Jazz_ClearTheWay Text
-805716788538,Мы в спасатели нанимались,,,ModItemQuestsDef RescueTeam DisplayName
-191474319874,Приговоренный <em>Партизан</em> находится где-то на <em>пирсе</em>,,,ModItemQuestsDef RescueTeam Text
-724348814002,"<em>Спасенный</em> должен вернуться в лагерь, надо бы вернуться туда тоже.",,,ModItemQuestsDef RescueTeam Text
-995472785344,Маленькая спасательная операция,,,ModItemQuestsDef RebelsSavior DisplayName
-484530953168,Необходимо забрать из старого лагеря <em>4 Винтовки Zastava M76 и 4 Комплекта оказания мед помощи</em>.,,,ModItemQuestsDef RebelsSavior Text
+805716788538,Мы в спасатели не нанимались,,,ModItemQuestsDef RescueTeam DisplayName
+191474319874,Приговорённый повстанец находится на <em>пирсе</em>.,,,ModItemQuestsDef RescueTeam Text
+724348814002,Спасённый повстанец возвращается в лагерь. Нужно доложить сержанту.,,,ModItemQuestsDef RescueTeam Text
+995472785344,Снабжение для повстанцев,,,ModItemQuestsDef RebelsSavior DisplayName
+484530953168,Забрать из старого лагеря <em>4 винтовки Zastava M76</em> и <em>4 комплекта Medkit</em>.,,,ModItemQuestsDef RebelsSavior Text
 998362596439,Надо отдать <em>это добро партизанам</em>.,,,ModItemQuestsDef RebelsSavior Text
 554256318570,Pantagruel Dramas,,,ModItemQuestsDef YoungHearts DisplayName
-387236474693,<em>Chimurenga</em> wants to have a chat in <em><SectorName('D8')></em>,,,ModItemQuestsDef YoungHearts Text
+387236474693,<em>Chimurenga</em> wants to have a chat in <em><SectorName('E16')></em>,,,ModItemQuestsDef YoungHearts Text
 764663915741,<em>Maman</em> has feelings for the Maquis leader <em>Chimurenga</em>,,,ModItemQuestsDef YoungHearts Text
 420400454873,<em>Outcome:</em> <em>Chimurenga</em> sent into exile... Or is he?,,,ModItemQuestsDef YoungHearts Text
 793241574663,<em>Outcome:</em> Enemies with the <em>Maquis</em>,,,ModItemQuestsDef YoungHearts Text
 604423901659,<em>Outcome:</em> Friends with the <em>Maquis</em>,,,ModItemQuestsDef YoungHearts Text
-919939622456,<em>Outcome:</em> <em>Chimurenga</em> retired to <em>Le Lys Rouge</em> in <em><SectorName('D7')></em> with Maman Liliane,,,ModItemQuestsDef YoungHearts Text
+919939622456,<em>Outcome:</em> <em>Chimurenga</em> retired to <em>Le Lys Rouge</em> in <em><SectorName('E15')></em> with Maman Liliane,,,ModItemQuestsDef YoungHearts Text
 157200162164,<em>Outcome:</em> <em>Chimurenga</em> sent into exile,,,ModItemQuestsDef YoungHearts Text
 639392726654,<em>Outcome:</em> <em>Chimurenga</em> is dead,,,ModItemQuestsDef YoungHearts Text
 292757910549,Spreading the Manifesto,,,ModItemQuestsDef RebelManifesto DisplayName
@@ -2259,10 +2261,10 @@ Quatro, Cinquo, Senco, Ses
 765609098349,"<em>Outcome:</em> <em>""Maquis Manifesto""</em> pamphlets reached pretty much everyone in the Savanna",,,ModItemQuestsDef RebelManifesto Text
 880550284213,"<em>Outcome:</em> Chimurenga is satisfied, but there still may be people interested in <em>""Maquis Manifesto""</em> pamphlets",,,ModItemQuestsDef RebelManifesto Text
 838519684909,The Gold Watch,,,ModItemQuestsDef PantragruelWatch DisplayName
-349035036204,<em>Serge</em> complained that <em>Heinrich</em> doesn't let him in the bar in <em><SectorName('D8')></em>,,,ModItemQuestsDef PantragruelWatch Text
-497830098324,<em>Heinrich</em> thinks that <em>Serge</em> took his <em>golden watch</em> in <em><SectorName('D8')></em>,,,ModItemQuestsDef PantragruelWatch Text
-620794851466,<em>Heinrich's golden watch</em> turned out be in the backyard of the bar in <em><SectorName('D8')></em>,,,ModItemQuestsDef PantragruelWatch Text
-893896646814,<em>Outcome:</em> <em>Serge</em> and <em>Heinrich</em> can once again enjoy their company in the bar in <em><SectorName('D8')></em>,,,ModItemQuestsDef PantragruelWatch Text
+349035036204,<em>Serge</em> complained that <em>Heinrich</em> doesn't let him in the bar in <em><SectorName('E16')></em>,,,ModItemQuestsDef PantragruelWatch Text
+497830098324,<em>Heinrich</em> thinks that <em>Serge</em> took his <em>golden watch</em> in <em><SectorName('E16')></em>,,,ModItemQuestsDef PantragruelWatch Text
+620794851466,<em>Heinrich's golden watch</em> turned out be in the backyard of the bar in <em><SectorName('E16')></em>,,,ModItemQuestsDef PantragruelWatch Text
+893896646814,<em>Outcome:</em> <em>Serge</em> and <em>Heinrich</em> can once again enjoy their company in the bar in <em><SectorName('E16')></em>,,,ModItemQuestsDef PantragruelWatch Text
 599020106317,Rebel Reinforcements,,,ModItemQuestsDef PantagruelRebels Label
 489740623783,Enemies with the <em>Maquis</em>,,,ModItemQuestsDef PantagruelRebels SpecialConversationMessage
 331395810265,M.E.R.C.: Lost and Found,,,ModItemQuestsDef PantagruelLostAndFound DisplayName
@@ -2287,14 +2289,14 @@ Quatro, Cinquo, Senco, Ses
 721924084492,"Chimurenga agreed that the Maquis will pay for medical care in the <em>""Vulture of Hope""</em>",,,ModItemQuestsDef PantagruelClinic Text
 179692344695,"Joined the Donation Board of the <em>""Vulture of Hope""</em>",,,ModItemQuestsDef PantagruelClinic Text
 219542259586,"Trained militia that could defend the <em>""Vulture of Hope""</em>",,,ModItemQuestsDef PantagruelClinic Text
-379561393636,"<em>Outcome:</em> The <em>""Vulture of Hope""</em> in <em><SectorName('D8')></em> is now open",,,ModItemQuestsDef PantagruelClinic Text
+379561393636,"<em>Outcome:</em> The <em>""Vulture of Hope""</em> in <em><SectorName('E16')></em> is now open",,,ModItemQuestsDef PantagruelClinic Text
 173675386966,<em>Outcome:</em> <em>Tim Turtledove</em> is dead,,,ModItemQuestsDef PantagruelClinic Text
 726619777867,the <em>clinic</em> is open,,,ModItemQuestsDef PantagruelClinic SpecialConversationMessage
 302023706060,the <em>clinic</em> is open,,,ModItemQuestsDef PantagruelClinic SpecialConversationMessage
 466218933245,Maman's girls,,,ModItemQuestsDef NeverHitAGirl DisplayName
 148846418502,Maman wants revenge on the men who have <em>abused</em> girls of Le Lys Rouge: <em><BrothelAbusersKilled>/3</em> abusers killed,,,ModItemQuestsDef NeverHitAGirl Text
-612204923013,<em>Maman</em> from <em><SectorName('D7')></em> promised a <em>reward</em> for punishing the abusers,,,ModItemQuestsDef NeverHitAGirl Text
-407531468278,<em>Outcome:</em> Punished the abuser from the <em><SectorName('C5')></em>,,,ModItemQuestsDef NeverHitAGirl Text
+612204923013,<em>Maman</em> from <em><SectorName('E15')></em> promised a <em>reward</em> for punishing the abusers,,,ModItemQuestsDef NeverHitAGirl Text
+407531468278,<em>Outcome:</em> Punished the abuser from the <em><SectorName('D9')></em>,,,ModItemQuestsDef NeverHitAGirl Text
 231565465912,<em>Outcome:</em> Punished the abuser from the <em><SectorName('D6')></em>,,,ModItemQuestsDef NeverHitAGirl Text
 875806667851,<em>Outcome:</em> Punished the abuser from <em><SectorName('H19')></em>,,,ModItemQuestsDef NeverHitAGirl Text
 457127499833,Fifth Twin Inn,,,ModItemQuestsDef Manny DisplayName
@@ -2340,8 +2342,8 @@ Quatro, Cinquo, Senco, Ses
 621846460826,Virus sample: There is an outbreak at the <em><SectorName('I19')></em>,,,ModItemQuestsDef Sanatorium Text
 186070330181,Virus sample: The ground is sour at the old <em><SectorName('J18')></em>,,,ModItemQuestsDef Sanatorium Text
 189245711616,Virus sample: There is an aircraft wreckage in the <em><SectorName('H16')></em> that may contain the source of the disease,,,ModItemQuestsDef Sanatorium Text
-126005343458,Virus sample: The disease has spread beyond the river to the <em><SectorName('E9')></em>,,,ModItemQuestsDef Sanatorium Text
-366187638386,Virus sample: The disease has spread beyond the river to the <em><SectorName('E9')></em> to the <em>Shaman's family</em>,,,ModItemQuestsDef Sanatorium Text
+126005343458,Virus sample: The disease has spread beyond the river to the <em><SectorName('F13')></em>,,,ModItemQuestsDef Sanatorium Text
+366187638386,Virus sample: The disease has spread beyond the river to the <em><SectorName('F13')></em> to the <em>Shaman's family</em>,,,ModItemQuestsDef Sanatorium Text
 602924304618,Virus sample: There is an outbreak at the <em><SectorName('K14')></em>,,,ModItemQuestsDef Sanatorium Text
 481019588059,Virus sample: There is an experienced doctor at the <em><SectorName('L18')></em> who can provide valuable data,,,ModItemQuestsDef Sanatorium Text
 809380704978,Virus sample: There is a specialist who was sent to <em><SectorName('F13')></em> to gather samples,,,ModItemQuestsDef Sanatorium Text
@@ -2433,8 +2435,8 @@ Quatro, Cinquo, Senco, Ses
 830030019402,<em>Outcome:</em> The Game is over in <em><SectorName('I12')></em>,,,ModItemQuestsDef CampHope Text
 226332371092,<em>Outcome:</em> Everyone is healed in <em><SectorName('I12')></em> and the Game is played just for fun,,,ModItemQuestsDef CampHope Text
 714946731010,Middle of Nowhere,,,ModItemQuestsDef MiddleOfNowhere DisplayName
-160410274541,A group of Legion marauders threatened to kill the elderly couple in the <em><SectorName('A11')></em>,,,ModItemQuestsDef MiddleOfNowhere Text
-818914929264,Legion marauders are trying to kill the elderly couple in the <em><SectorName('A11')></em>,,,ModItemQuestsDef MiddleOfNowhere Text
+160410274541,A group of Legion marauders threatened to kill the elderly couple in the <em><SectorName('B15')></em>,,,ModItemQuestsDef MiddleOfNowhere Text
+818914929264,Legion marauders are trying to kill the elderly couple in the <em><SectorName('B15')></em>,,,ModItemQuestsDef MiddleOfNowhere Text
 319027935717,<em>Courage</em> needs to be taken for a walk,,,ModItemQuestsDef MiddleOfNowhere Text
 325229685028,There is something gleaming in the <em>dog pile</em>!,,,ModItemQuestsDef MiddleOfNowhere Text
 151067662428,<em>Outcome:</em> <em>Justine</em> is dead,,,ModItemQuestsDef MiddleOfNowhere Text
@@ -2442,30 +2444,30 @@ Quatro, Cinquo, Senco, Ses
 717094243747,<em>Outcome:</em> <em>Courage</em> is dead,,,ModItemQuestsDef MiddleOfNowhere Text
 819986069034,<em>Outcome:</em> Saved the elderly couple from the <em>Legion</em> marauders,,,ModItemQuestsDef MiddleOfNowhere Text
 582658442485,<em>Outcome:</em> A large <em>diamond</em> was found in the dog pile,,,ModItemQuestsDef MiddleOfNowhere Text
-101185730675,<em>Outcome:</em> Legion marauders have attacked and killed everyone in the <em><SectorName('A11')></em>,,,ModItemQuestsDef MiddleOfNowhere Text
+101185730675,<em>Outcome:</em> Legion marauders have attacked and killed everyone in the <em><SectorName('B15')></em>,,,ModItemQuestsDef MiddleOfNowhere Text
 392895488435,failed to protect the <em>Middle of Nowhere</em>,,,ModItemQuestsDef MiddleOfNowhere SpecialConversationMessage
 409932517102,protected the <em>Middle of Nowhere</em>,,,ModItemQuestsDef MiddleOfNowhere SpecialConversationMessage
 844368890992,Landsbach,,,ModItemQuestsDef Landsbach DisplayName
 305870942733,People keep mentioning something called <em>Diesel</em> in <em>Landsbach</em>,,,ModItemQuestsDef Landsbach Text
-945011724412,People keep mentioning something called the <em>Night Club</em> in <em><SectorName('B13')></em>,,,ModItemQuestsDef Landsbach Text
+945011724412,People keep mentioning something called the <em>Night Club</em> in <em><SectorName('A26')></em>,,,ModItemQuestsDef Landsbach Text
 691535850884,People keep mentioning something called <em>Diesel</em> in <em>Landsbach</em>,,,ModItemQuestsDef Landsbach Text
-192221394500,People keep mentioning something called the <em>Night Club</em> in <em><SectorName('B13')></em>,,,ModItemQuestsDef Landsbach Text
+192221394500,People keep mentioning something called the <em>Night Club</em> in <em><SectorName('A26')></em>,,,ModItemQuestsDef Landsbach Text
 441745743152,Someone stole <em>Siegfried's Diesel</em>,,,ModItemQuestsDef Landsbach Text
-613419542058,<em>Siegfried</em> provided a special <em>coin</em> which will guarantee access to a place called the <em>Night Club</em> in <em><SectorName('B13')></em>,,,ModItemQuestsDef Landsbach Text
-139257604227,<em>Bounce</em> will provide information if <em>The Bonecrusher</em> is defeated in the pit fight in <em><SectorName('B13')></em>,,,ModItemQuestsDef Landsbach Text
-680999839332,<em>Bounce</em> suggests challenging someone to a fight in <em><SectorName('B13')></em>,,,ModItemQuestsDef Landsbach Text
+613419542058,<em>Siegfried</em> provided a special <em>coin</em> which will guarantee access to a place called the <em>Night Club</em> in <em><SectorName('A26')></em>,,,ModItemQuestsDef Landsbach Text
+139257604227,<em>Bounce</em> will provide information if <em>The Bonecrusher</em> is defeated in the pit fight in <em><SectorName('A26')></em>,,,ModItemQuestsDef Landsbach Text
+680999839332,<em>Bounce</em> suggests challenging someone to a fight in <em><SectorName('A26')></em>,,,ModItemQuestsDef Landsbach Text
 650772810703,<em>The Bonecrusher</em> is crushed,,,ModItemQuestsDef Landsbach Text
 106709425987,<em>Bounce</em> saw a suspicious van carrying some canisters in the <em><SectorName('C11')></em>,,,ModItemQuestsDef Landsbach Text
-158695831687,<em>Mole</em> will share some information if <em>$5000</em> is placed inside the <em>tires</em> near the docks in <em><SectorName('B13')></em>,,,ModItemQuestsDef Landsbach Text
+158695831687,<em>Mole</em> will share some information if <em>$5000</em> is placed inside the <em>tires</em> near the docks in <em><SectorName('A26')></em>,,,ModItemQuestsDef Landsbach Text
 287198780188,<em>Mole</em> promised to share information about the <em>Diesel</em>,,,ModItemQuestsDef Landsbach Text
 872051962880,Some <em>Travis</em> at the <em><SectorName('C11')></em> might know something about the <em>Diesel</em>,,,ModItemQuestsDef Landsbach Text
-565765633994,<em>Siegfried</em> wants the <em>Diesel</em> brought back to him at the <em><SectorName('B12')></em> ,,,ModItemQuestsDef Landsbach Text
+565765633994,<em>Siegfried</em> wants the <em>Diesel</em> brought back to him at the <em><SectorName('A25')></em> ,,,ModItemQuestsDef Landsbach Text
 564660899254,<em>Siegfried</em> got his <em>Diesel</em> back,,,ModItemQuestsDef Landsbach Text
-630345281927,<em>Bounce</em> from <em><SectorName('B13')></em> wants to have a talk before returning the <em>Diesel</em> ,,,ModItemQuestsDef Landsbach Text
+630345281927,<em>Bounce</em> from <em><SectorName('A26')></em> wants to have a talk before returning the <em>Diesel</em> ,,,ModItemQuestsDef Landsbach Text
 105954683635,<em>Diesel</em> seems to be chemically altered in order to produce a combat abilities enhancing stimulant ,,,ModItemQuestsDef Landsbach Text
-532458002464,"<em>Siegfried</em> withdrew his soldiers, but the <em>Night Club</em> fighters must be dealt with before the <em><SectorName('B12')></em> can be taken",,,ModItemQuestsDef Landsbach Text
-569250434828,<em>Bounce</em> is waiting for support at the <em><SectorName('B12')></em> to attack <em>Siegfried</em>'s soldiers,,,ModItemQuestsDef Landsbach Text
-288074471915,<em>Bounce</em> and his goons just attacked the <em><SectorName('B12')></em> which will likely result in a bloody crossfire,,,ModItemQuestsDef Landsbach Text
+532458002464,"<em>Siegfried</em> withdrew his soldiers, but the <em>Night Club</em> fighters must be dealt with before the <em><SectorName('A25')></em> can be taken",,,ModItemQuestsDef Landsbach Text
+569250434828,<em>Bounce</em> is waiting for support at the <em><SectorName('A25')></em> to attack <em>Siegfried</em>'s soldiers,,,ModItemQuestsDef Landsbach Text
+288074471915,<em>Bounce</em> and his goons just attacked the <em><SectorName('A25')></em> which will likely result in a bloody crossfire,,,ModItemQuestsDef Landsbach Text
 293402801040,<em>Travis</em> said a <em>van</em> passed near the <em><SectorName('C11')></em> and headed west to the <em><SectorName('C10')></em>,,,ModItemQuestsDef Landsbach Text
 957907726429,Clue: There is a <em>fuel tank</em> that has tubes which lead away and disappear into the ground,,,ModItemQuestsDef Landsbach Text
 758875557117,Clue: <em>Siegfried</em>'s notes suggest he has been researching Human Growth Hormones,,,ModItemQuestsDef Landsbach Text
@@ -2477,8 +2479,8 @@ Quatro, Cinquo, Senco, Ses
 875827432124,Clue: <em>Diesel</em> seems to be a street drug with devastating side effects,,,ModItemQuestsDef Landsbach Text
 739430832923,Clue: <em>Siegfried</em> wants <em>The Bonecrusher</em> to join his elite bodyguards,,,ModItemQuestsDef Landsbach Text
 920606777847,Clue: <em>Siegfried</em>'s stolen <em>Diesel</em> was altered into something else,,,ModItemQuestsDef Landsbach Text
-620070697191,Clue: There is a fuel tank near the <em>Legion</em> outpost in <em><SectorName('D10')></em> filled with a substance which might be <em>Diesel</em>,,,ModItemQuestsDef Landsbach Text
-247905627354,Someone from <em><SectorName('B13')></em> is involved with an operation coordinated by a <em>Colonel</em>,,,ModItemQuestsDef Landsbach Text
+620070697191,Clue: There is a fuel tank near the <em>Legion</em> outpost in <em><SectorName('F23')></em> filled with a substance which might be <em>Diesel</em>,,,ModItemQuestsDef Landsbach Text
+247905627354,Someone from <em><SectorName('A26')></em> is involved with an operation coordinated by a <em>Colonel</em>,,,ModItemQuestsDef Landsbach Text
 847859251979,<em>Outcome:</em> <em>Bounce</em> is dead and <em>Night Club</em> is no longer a functioning establishment ,,,ModItemQuestsDef Landsbach Text
 645969730818,<em>Outcome:</em> <em>Siegfried</em> is defeated and no longer rules over <em>Landsbach</em>,,,ModItemQuestsDef Landsbach Text
 305640196523,<em>Outcome:</em> <em>Siegfried</em> was defeated underground in his secret <em>U-Bahn</em> complex,,,ModItemQuestsDef Landsbach Text
@@ -2498,8 +2500,8 @@ Quatro, Cinquo, Senco, Ses
 583001950756,won a fight at the <em>Night Club</em>,,,ModItemQuestsDef Landsbach SpecialConversationMessage
 728111994873,know about the <em>Night Club</em>,,,ModItemQuestsDef Landsbach SpecialConversationMessage
 412009737045,Treasure Hunting,,,ModItemQuestsDef TreasureHunting DisplayName
-357483490722,<em>Lucky Veinard</em> mentioned a hidden treasure near a tree somewhere around <em><SectorName('H7')></em>,,,ModItemQuestsDef TreasureHunting Text
-479969844781,A hidden treasure was found near a tree in <em><SectorName('H7')></em>,,,ModItemQuestsDef TreasureHunting Text
+357483490722,<em>Lucky Veinard</em> mentioned a hidden treasure near a tree somewhere around <em><SectorName('H14')></em>,,,ModItemQuestsDef TreasureHunting Text
+479969844781,A hidden treasure was found near a tree in <em><SectorName('H14')></em>,,,ModItemQuestsDef TreasureHunting Text
 253228349842,<em>Lucky Veinard</em> believes his chicken has the power of finding hidden treasures,,,ModItemQuestsDef TreasureHunting Text
 571262714153,<em>Lucky Veinard</em> mentioned a <em>three-headed beast</em> pointing at a hidden treasure somewhere around the <em><SectorName('E14')></em>,,,ModItemQuestsDef TreasureHunting Text
 791422127309,A statue of a <em>three-headed beast</em> in the <em><SectorName('E14')></em> is pointing at a possible hidden treasure,,,ModItemQuestsDef TreasureHunting Text
@@ -2517,21 +2519,21 @@ Quatro, Cinquo, Senco, Ses
 700973214496,There is a <em>diamond necklace</em> hidden in one of <em>12 luxury chairs</em> in different sectors across the Adjani valley,,,ModItemQuestsDef TheTwelveChairs Text
 682214104226,One of the <em>12 chairs</em> is in the villa at the <em><SectorName('H19')></em>,,,ModItemQuestsDef TheTwelveChairs Text
 709620508764,One of the <em>12 chairs</em> is in <em><SectorName('I9')></em>,,,ModItemQuestsDef TheTwelveChairs Text
-413289892597,One of the <em>12 chairs</em> is in <em><SectorName('A2')></em>,,,ModItemQuestsDef TheTwelveChairs Text
-437477455244,One of the <em>12 chairs</em> is in the <em><SectorName('D7')></em>,,,ModItemQuestsDef TheTwelveChairs Text
+413289892597,One of the <em>12 chairs</em> is in <em><SectorName('A4')></em>,,,ModItemQuestsDef TheTwelveChairs Text
+437477455244,One of the <em>12 chairs</em> is in the <em><SectorName('E15')></em>,,,ModItemQuestsDef TheTwelveChairs Text
 314127967757,One of the <em>12 chairs</em> is in the <em><SectorName('H12')></em>,,,ModItemQuestsDef TheTwelveChairs Text
 264078001011,One of the <em>12 chairs</em> is in <em><SectorName('I1')></em>,,,ModItemQuestsDef TheTwelveChairs Text
 157786772562,One of the <em>12 chairs</em> is in <em><SectorName('F7')></em>,,,ModItemQuestsDef TheTwelveChairs Text
-775682961472,One of the <em>12 chairs</em> is in <em><SectorName('D8')></em>,,,ModItemQuestsDef TheTwelveChairs Text
-343183897599,One of the <em>12 chairs</em> is in the <em><SectorName('C7')></em>,,,ModItemQuestsDef TheTwelveChairs Text
+775682961472,One of the <em>12 chairs</em> is in <em><SectorName('E16')></em>,,,ModItemQuestsDef TheTwelveChairs Text
+343183897599,One of the <em>12 chairs</em> is in the <em><SectorName('E15')></em>,,,ModItemQuestsDef TheTwelveChairs Text
 633031806516,One of the <em>12 chairs</em> is in the <em><SectorName('G10')></em>,,,ModItemQuestsDef TheTwelveChairs Text
-416232456547,One of the <em>12 chairs</em> is in the <em><SectorName('D10')></em>,,,ModItemQuestsDef TheTwelveChairs Text
-703461946066,One of the <em>12 chairs</em> is near the <em><SectorName('B12')></em>,,,ModItemQuestsDef TheTwelveChairs Text
+416232456547,One of the <em>12 chairs</em> is in the <em><SectorName('F23')></em>,,,ModItemQuestsDef TheTwelveChairs Text
+703461946066,One of the <em>12 chairs</em> is near the <em><SectorName('A25')></em>,,,ModItemQuestsDef TheTwelveChairs Text
 695156617677,Someone at the <em><SectorName('H19')></em> is looking for a missing trinket,,,ModItemQuestsDef TheTwelveChairs Text
 680641099779,A valuable <em>diamond necklace</em> may be in possession of <em>Lalee</em> from the <em><SectorName('H19')></em>,,,ModItemQuestsDef TheTwelveChairs Text
 812357589654,<em><NumberChairsFound> / 12 Chairs</em> checked,,,ModItemQuestsDef TheTwelveChairs Text
 950550161774,<em>Lalee</em> at the <em><SectorName('H19')></em> offers money for the <em>diamond necklace</em>,,,ModItemQuestsDef TheTwelveChairs Text
-570617137124,<em>Maman Liliane</em> from the <em><SectorName('D7')></em> may be interested in the <em>diamond necklace</em>,,,ModItemQuestsDef TheTwelveChairs Text
+570617137124,<em>Maman Liliane</em> from the <em><SectorName('E15')></em> may be interested in the <em>diamond necklace</em>,,,ModItemQuestsDef TheTwelveChairs Text
 355869999485,<em>Outcome:</em> Found Madam Lecoq's missing <em>diamond necklace</em>,,,ModItemQuestsDef TheTwelveChairs Text
 947919069492,<em>Outcome:</em> Sold the <em>diamond necklace</em> to <em>Lalee</em>,,,ModItemQuestsDef TheTwelveChairs Text
 660353528583,<em>Outcome:</em> Sold the <em>diamond necklace</em> to <em>Maman Liliane</em>,,,ModItemQuestsDef TheTwelveChairs Text
@@ -2550,14 +2552,14 @@ Quatro, Cinquo, Senco, Ses
 578422965093,<em>Jackhammer</em> is back!,,,ModItemQuestsDef TheGoodPlace Text
 416786352508,<em>Outcome:</em> <em>Jackhammer</em> is dead,,,ModItemQuestsDef TheGoodPlace Text
 689627413944,M.E.R.C.: Finding Smiley,,,ModItemQuestsDef Smiley DisplayName
-965997171182,A girl has been kidnapped from the local brothel in the <em><SectorName('D7')></em>,,,ModItemQuestsDef Smiley Text
-402936111864,A girl has been kidnapped from the local brothel in the <em><SectorName('D7')></em>,,,ModItemQuestsDef Smiley Text
-555537390669,A <em>M.E.R.C.</em> operative was spotted talking to the local Shaman in the <em><SectorName('E9')></em>,,,ModItemQuestsDef Smiley Text
-559687447286,<em>Mollie</em> was kidnapped by <em>Smiley</em> from the <em><SectorName('D7')></em>,,,ModItemQuestsDef Smiley Text
-408674223069,<em>Smiley</em> ran away with a girl from <em>Le Lys Rouge</em> in the <em><SectorName('D7')></em>,,,ModItemQuestsDef Smiley Text
-790794209952,There may be clues of Mollie's disappearing in the back rooms of <em>Le Lys Rouge</em> in <em><SectorName('D7')></em> (press <em><ShortcutButton('actionCamOverview')></em> to toggle <em>Overview</em> mode),,,ModItemQuestsDef Smiley Text
-433338585424,There may be clues about <em>Smiley</em> in the <em><SectorName('E7')></em> south of <em><SectorName('D7')></em>,,,ModItemQuestsDef Smiley Text
-741802305830,There may be clues about <em>Smiley</em> in the <em><SectorName('E9')></em>,,,ModItemQuestsDef Smiley Text
+965997171182,A girl has been kidnapped from the local brothel in the <em><SectorName('E15')></em>,,,ModItemQuestsDef Smiley Text
+402936111864,A girl has been kidnapped from the local brothel in the <em><SectorName('E15')></em>,,,ModItemQuestsDef Smiley Text
+555537390669,A <em>M.E.R.C.</em> operative was spotted talking to the local Shaman in the <em><SectorName('F13')></em>,,,ModItemQuestsDef Smiley Text
+559687447286,<em>Mollie</em> was kidnapped by <em>Smiley</em> from the <em><SectorName('E15')></em>,,,ModItemQuestsDef Smiley Text
+408674223069,<em>Smiley</em> ran away with a girl from <em>Le Lys Rouge</em> in the <em><SectorName('E15')></em>,,,ModItemQuestsDef Smiley Text
+790794209952,There may be clues of Mollie's disappearing in the back rooms of <em>Le Lys Rouge</em> in <em><SectorName('E15')></em> (press <em><ShortcutButton('actionCamOverview')></em> to toggle <em>Overview</em> mode),,,ModItemQuestsDef Smiley Text
+433338585424,There may be clues about <em>Smiley</em> in the <em><SectorName('E7')></em> south of <em><SectorName('E15')></em>,,,ModItemQuestsDef Smiley Text
+741802305830,There may be clues about <em>Smiley</em> in the <em><SectorName('F13')></em>,,,ModItemQuestsDef Smiley Text
 266252160720,There may be clues about <em>Smiley</em> in <em><SectorName('H19')></em>,,,ModItemQuestsDef Smiley Text
 979645791264,<em>Mollie</em> is in <em><SectorName('I9')></em>,,,ModItemQuestsDef Smiley Text
 287239963291,Clue: <em>Mollie</em> left the brothel willingly with <em>Smiley</em>,,,ModItemQuestsDef Smiley Text
@@ -2589,10 +2591,10 @@ Quatro, Cinquo, Senco, Ses
 816967248261,<em>Corazon Santiago</em> hired <em>M.E.R.C.</em> and sent them against the <em>Legion</em>,,,ModItemQuestsDef RescueBiff Text
 794636495357,<em>M.E.R.C.</em> had a <em>boat</em> with the <em>Adonis</em> logo on it,,,ModItemQuestsDef RescueBiff Text
 508830803906,<em>M.E.R.C.</em> wrecked their boat on the shores of Grand Chien,,,ModItemQuestsDef RescueBiff Text
-418731120730,<em>M.E.R.C.</em> was last seen at the <em>Carnival</em> celebrations in <em><SectorName('D8')></em>,,,ModItemQuestsDef RescueBiff Text
-928081089653,<em>M.E.R.C.</em> attacked the <em><SectorName('A2')></em> mine with the <em>Maquis</em> of Pantagruel,,,ModItemQuestsDef RescueBiff Text
-590287816267,Biff and his team from <em>M.E.R.C.</em> might be imprisoned at <em><SectorName('A2')></em>,,,ModItemQuestsDef RescueBiff Text
-877692485692,<em>M.E.R.C.</em> retreated from Diamond Red when their operation with the Maquis from <em><SectorName('D8')></em> failed,,,ModItemQuestsDef RescueBiff Text
+418731120730,<em>M.E.R.C.</em> was last seen at the <em>Carnival</em> celebrations in <em><SectorName('E16')></em>,,,ModItemQuestsDef RescueBiff Text
+928081089653,<em>M.E.R.C.</em> attacked the <em><SectorName('A4')></em> mine with the <em>Maquis</em> of Pantagruel,,,ModItemQuestsDef RescueBiff Text
+590287816267,Biff and his team from <em>M.E.R.C.</em> might be imprisoned at <em><SectorName('A4')></em>,,,ModItemQuestsDef RescueBiff Text
+877692485692,<em>M.E.R.C.</em> retreated from Diamond Red when their operation with the Maquis from <em><SectorName('E16')></em> failed,,,ModItemQuestsDef RescueBiff Text
 173376043256,Biff and his team may be somewhere in the <em>Highlands</em>,,,ModItemQuestsDef RescueBiff Text
 355835054059,<em>Biff Apscott</em> needs rescue at <em><SectorName('A8')></em>,,,ModItemQuestsDef RescueBiff Text
 794291364579,<em>Biff</em> needs help at <em><SectorName('A8')></em>,,,ModItemQuestsDef RescueBiff Text
@@ -2623,8 +2625,8 @@ Quatro, Cinquo, Senco, Ses
 782115594702,<em>Luc</em> wants his son <em>Pierre</em> to be spared,,,ModItemQuestsDef PierreDefeated Text
 659363947973,<em>Pierre</em> was defeated at <em><SectorName('I7')></em> ,,,ModItemQuestsDef PierreDefeated Text
 623031245401,<em>Pierre</em> was spared at <em><SectorName('I7')></em> ,,,ModItemQuestsDef PierreDefeated Text
-584812984292,<em>Pierre</em> was not found in <em><SectorName('A2')></em>,,,ModItemQuestsDef PierreDefeated Text
-847219396472,The <em>Major</em> has punished <em>Pierre</em> by sending him to be a slave in <em><SectorName('A2')></em>,,,ModItemQuestsDef PierreDefeated Text
+584812984292,<em>Pierre</em> was not found in <em><SectorName('A4')></em>,,,ModItemQuestsDef PierreDefeated Text
+847219396472,The <em>Major</em> has punished <em>Pierre</em> by sending him to be a slave in <em><SectorName('A4')></em>,,,ModItemQuestsDef PierreDefeated Text
 934256391494,The <em>Major</em> has punished <em>Pierre</em> by sending him to prison in <em><SectorName('F19')></em>,,,ModItemQuestsDef PierreDefeated Text
 687884848179,Pierre wants the Legion flag placed on <em><SectorName('K4')></em>,,,ModItemQuestsDef PierreDefeated Text
 197268689344,Raised the Legion flag on <em><SectorName('K4')></em>,,,ModItemQuestsDef PierreDefeated Text
@@ -2687,7 +2689,7 @@ Quatro, Cinquo, Senco, Ses
 327282125421,<em>Larry</em> from M.E.R.C. is in <em><SectorName('F7')></em>,,,ModItemQuestsDef Larry Text
 583546874494,<em>Larry</em> from M.E.R.C. is in <em><SectorName('F7')></em>,,,ModItemQuestsDef Larry Text
 644904210900,<em>Larry</em> took drugs during <em>Carnival</em>,,,ModItemQuestsDef Larry Text
-199527051359,<em>Larry</em> was captured by the Legion at <em><SectorName('A2')></em> and they interrogated him with more drugs,,,ModItemQuestsDef Larry Text
+199527051359,<em>Larry</em> was captured by the Legion at <em><SectorName('A4')></em> and they interrogated him with more drugs,,,ModItemQuestsDef Larry Text
 778533826234,<em>Larry</em> needs <em>Metaviron</em> to bring back his memory,,,ModItemQuestsDef Larry Text
 270751405431,"<em>Larry</em> has remembered who he is, but he still has the monkey on his back",,,ModItemQuestsDef Larry Text
 635483491216,<em>Outcome:</em> <em>Larry</em> is dead,,,ModItemQuestsDef Larry Text
@@ -2714,26 +2716,26 @@ Quatro, Cinquo, Senco, Ses
 308674594521,Diamond mines,,,ModItemQuestsDef CorazonCaptureMine DisplayName
 735176660945,<em>Adonis Corp.</em> will pay for each captured mine ,,,ModItemQuestsDef CorazonCaptureMine Text
 654924225246,The Legion is using slave labor in the <em>Diamond Red</em> mine,,,ModItemQuestsDef CorazonCaptureMine Text
-944646004601,<em><SectorName('H7')></em> is built over an archeological site,,,ModItemQuestsDef CorazonCaptureMine Text
+944646004601,<em><SectorName('H14')></em> is built over an archeological site,,,ModItemQuestsDef CorazonCaptureMine Text
 261239717759,Some of the former slaves in <em>Diamond Red</em> agreed to work as <em>paid miners</em>,,,ModItemQuestsDef CorazonCaptureMine Text
 764455200778,Additional <em>workers</em> may be hired for <em>Diamond Red</em>,,,ModItemQuestsDef CorazonCaptureMine Text
-798273813105,Hired <em>miners</em> from the Refugee Camp (low Loyalty): <em><SectorName('A2')></em> income increased,,,ModItemQuestsDef CorazonCaptureMine Text
-334014238695,Hired <em>miners</em> from the Refugee Camp (high Loyalty): <em><SectorName('A2')></em> income greatly increased,,,ModItemQuestsDef CorazonCaptureMine Text
-750553851042,Hired <em>miners</em> from Fleatown (low Loyalty): <em><SectorName('A2')></em> income increased,,,ModItemQuestsDef CorazonCaptureMine Text
-371355245706,Hired <em>miners</em> from Fleatown (high Loyalty): <em><SectorName('A2')></em> income greatly increased,,,ModItemQuestsDef CorazonCaptureMine Text
-879681605383,Hired <em>Slave Master Graaf</em> as foreman: <em><SectorName('A2')></em> income greatly increased,,,ModItemQuestsDef CorazonCaptureMine Text
-704959784482,Hired <em>Martha</em> and <em>Herman</em> as workers: <em><SectorName('H7')></em> income increased,,,ModItemQuestsDef CorazonCaptureMine Text
+798273813105,Hired <em>miners</em> from the Refugee Camp (low Loyalty): <em><SectorName('A4')></em> income increased,,,ModItemQuestsDef CorazonCaptureMine Text
+334014238695,Hired <em>miners</em> from the Refugee Camp (high Loyalty): <em><SectorName('A4')></em> income greatly increased,,,ModItemQuestsDef CorazonCaptureMine Text
+750553851042,Hired <em>miners</em> from Fleatown (low Loyalty): <em><SectorName('A4')></em> income increased,,,ModItemQuestsDef CorazonCaptureMine Text
+371355245706,Hired <em>miners</em> from Fleatown (high Loyalty): <em><SectorName('A4')></em> income greatly increased,,,ModItemQuestsDef CorazonCaptureMine Text
+879681605383,Hired <em>Slave Master Graaf</em> as foreman: <em><SectorName('A4')></em> income greatly increased,,,ModItemQuestsDef CorazonCaptureMine Text
+704959784482,Hired <em>Martha</em> and <em>Herman</em> as workers: <em><SectorName('H14')></em> income increased,,,ModItemQuestsDef CorazonCaptureMine Text
 676018799925,<em>Legion impostors</em> killed: <em><SectorName('K10')></em> income slightly increased,,,ModItemQuestsDef CorazonCaptureMine Text
 882967405015,<em>Fournier</em> intimidated: <em><SectorName('K10')></em> income slightly increased,,,ModItemQuestsDef CorazonCaptureMine Text
 535891751276,<em>Fournier</em> is dead: <em><SectorName('K10')></em> income slightly decreased,,,ModItemQuestsDef CorazonCaptureMine Text
 984175004115,<em>Operation</em>: <em>Prospect for diamonds</em> may increase the income of the <em><SectorName('K10')></em> mine,,,ModItemQuestsDef CorazonCaptureMine Text
 752093346663,Prospecting done: <em><SectorName('K10')></em> income greatly increased,,,ModItemQuestsDef CorazonCaptureMine Text
 501144615485,Partnership with <em>Boss Blaubert</em>: <em>all mines</em> income slightly increased,,,ModItemQuestsDef CorazonCaptureMine Text
-245816903468,The <em><SectorName('A2')></em> mine is depleted,,,ModItemQuestsDef CorazonCaptureMine Text
-618677444173,The <em><SectorName('B12')></em> is depleted,,,ModItemQuestsDef CorazonCaptureMine Text
-249526664703,The <em><SectorName('C7')></em> is depleted,,,ModItemQuestsDef CorazonCaptureMine Text
+245816903468,The <em><SectorName('A4')></em> mine is depleted,,,ModItemQuestsDef CorazonCaptureMine Text
+618677444173,The <em><SectorName('A25')></em> is depleted,,,ModItemQuestsDef CorazonCaptureMine Text
+249526664703,The <em><SectorName('E15')></em> is depleted,,,ModItemQuestsDef CorazonCaptureMine Text
 577578825673,The <em><SectorName('D18')></em> mine is depleted,,,ModItemQuestsDef CorazonCaptureMine Text
-952336328946,The <em><SectorName('H7')></em> is depleted,,,ModItemQuestsDef CorazonCaptureMine Text
+952336328946,The <em><SectorName('H14')></em> is depleted,,,ModItemQuestsDef CorazonCaptureMine Text
 250302410908,The <em><SectorName('I18')></em> is depleted,,,ModItemQuestsDef CorazonCaptureMine Text
 629392124745,The <em><SectorName('K10')></em> mine is depleted,,,ModItemQuestsDef CorazonCaptureMine Text
 757648558194,<em>Outcome:</em> The partnership with <em>Adonis</em> is over,,,ModItemQuestsDef CorazonCaptureMine Text
@@ -2914,7 +2916,6 @@ Quatro, Cinquo, Senco, Ses
 443476251653,<em>Outcome:</em> Defeated <em>Pierre</em> and took control of <em><SectorName('I7')></em>,,,ModItemQuestsDef TakeTheFortress Text
 426282402523,Herman is missing,,,ModItemQuestsDef RescueHerMan DisplayName
 723192132008,<em>Martha</em> is looking for her husband who was kidnapped by the <em>Legion</em>,,,ModItemQuestsDef RescueHerMan Text
-706580608154,<em>Martha</em> is looking for her husband who was kidnapped by the <em>Legion</em> and was last seen on the <em><SectorName('M7')></em>,,,ModItemQuestsDef RescueHerMan Text
 956422433160,<em>Herman</em> snitched on his neighbor <em>Tinhay</em> who was then executed by the Legion,,,ModItemQuestsDef RescueHerMan Text
 150226461771,Rescued <em>Herman</em> and he promised a reward once he returns to the <em><SectorName('I5')></em>,,,ModItemQuestsDef RescueHerMan Text
 764642319165,Herman will return to the <em><SectorName('I5')></em> once it is safe,,,ModItemQuestsDef RescueHerMan Text
@@ -2936,10 +2937,10 @@ Quatro, Cinquo, Senco, Ses
 773878606053,<em>Outcome:</em> Tricked Bastien's family and turned them against him,,,ModItemQuestsDef JoseFamily Text
 202914304432,<em>Outcome:</em> Disarmed Bastien's family,,,ModItemQuestsDef JoseFamily Text
 924430268458,<em>Bastien</em> has disappeared,,,ModItemQuestsDef JoseFamily Text
-927872117801,Bastien is in the <em><SectorName('E9')></em>,,,ModItemQuestsDef JoseFamily Text
-420499955778,Bastien is in the <em><SectorName('E9')></em>,,,ModItemQuestsDef JoseFamily Text
-251740631217,<em>Outcome:</em> Forced Bastien to help the people in the <em><SectorName('E9')></em>,,,ModItemQuestsDef JoseFamily Text
-926170296609,<em>Outcome:</em> Took part in Bastien's shady deals in the <em><SectorName('E9')></em>,,,ModItemQuestsDef JoseFamily Text
+927872117801,Bastien is in the <em><SectorName('F13')></em>,,,ModItemQuestsDef JoseFamily Text
+420499955778,Bastien is in the <em><SectorName('F13')></em>,,,ModItemQuestsDef JoseFamily Text
+251740631217,<em>Outcome:</em> Forced Bastien to help the people in the <em><SectorName('F13')></em>,,,ModItemQuestsDef JoseFamily Text
+926170296609,<em>Outcome:</em> Took part in Bastien's shady deals in the <em><SectorName('F13')></em>,,,ModItemQuestsDef JoseFamily Text
 806420751393,<em>Outcome:</em> Killed <em>Bastien</em>,,,ModItemQuestsDef JoseFamily Text
 197382987239,Helping Ernie Village,,,ModItemQuestsDef FortifyErnie DisplayName
 809144720392,Basil needs a Browning .50 cal. <em>machine gun</em> to protect the <em><SectorName('I5')></em>,,,ModItemQuestsDef FortifyErnie Text
@@ -3176,3 +3177,15 @@ Quatro, Cinquo, Senco, Ses
 766081933537,Легион больше не получает взрывчатку от <em>Диди</em>,,,ModItemGuardpostObjective EmeraldCoast DescriptionCompleted
 469611849036,Разберитесь с <em>Бастьеном</em> и его семьей,,,ModItemGuardpostObjective Bastien Description
 412367823038,<em>Бандиты Бастьена</em> больше не будут помогать своим дружкам из Легиона,,,ModItemGuardpostObjective Bastien DescriptionCompleted
+890000000000795,"Мы набросали примерный план лагеря в <em>секторе L3</em>. Там есть скрытая позиция, охранение и проход, которым можно воспользоваться ночью.
+По остальным стоянкам Легиона данных нет — придётся провести разведку самостоятельно.",,RebelSergeant_Immortal_M1,ModItemConversation Ernie_M1_Rebel_Briefing Text  section:Ernie_M1_Rebel_Briefing
+890000000013000,Зачистить бункер,,,ModItemQuestsDef Jazz_Alkatraz DisplayName
+890000000013001,Зачистить бункер в <em>подземном секторе L6</em>.,,,ModItemQuestsDef Jazz_Alkatraz Text
+890000000013002,Вернуться к сержанту в <em>сектор L1</em> и доложить о зачистке.,,,ModItemQuestsDef Jazz_Alkatraz Text
+890000000013003,Бункер снова под контролем повстанцев.,,,ModItemQuestsDef Jazz_Alkatraz Text
+890000000013004,<em>Martha</em> is looking for her husband who was kidnapped by the <em>Legion</em> and was last seen on the <em><SectorName('J7')></em>,,,ModItemQuestsDef RescueHerMan Text
+890000000013005,"Сержант сказал, это вы доставили винтовки. Хороший знак. В моём деле люди чаще теряют груз, деньги или голову — иногда всё сразу.",,Merc_BarrySeal,ModItemConversation BarrySeal_Recruit Text  section:BarrySeal_Recruit keyword:Greeting
+890000000013006,Пойдёшь с нами?,,,ModItemConversation BarrySeal_Recruit KeywordT
+890000000013007,"Почему бы и нет? Самолёта у меня больше нет, груз сгорел, а сидеть без дела я не умею. Оставьте место в отряде — маршрут обсудим по дороге.",,Merc_BarrySeal,ModItemConversation BarrySeal_Recruit Text  section:BarrySeal_Recruit keyword:Пойдёшь с нами?
+890000000013008,Не сейчас,,,ModItemConversation BarrySeal_Recruit KeywordT
+890000000013009,Как скажете. Я пока здесь.,,Merc_BarrySeal,ModItemConversation BarrySeal_Recruit Text  section:BarrySeal_Recruit keyword:Не сейчас

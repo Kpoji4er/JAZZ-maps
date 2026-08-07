@@ -1755,6 +1755,142 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 5,
 }, nil, 1772539259)
 PlaceObj('UnitMarker', {
+	'Pos', point(71400, 154200, 16100),
+	'Angle', 5400,
+	'Groups', {
+		"DeadPigs_Reinforcements",
+	},
+	'AllowedMask', 4294966497,
+	'ID', "DeadPigs_Reinforcements_1",
+	'Routine', "Ambient",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_DeadPigs",
+			Vars = set({
+	Accepted = true,
+	PigsDead = false,
+}),
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_DeadPigs",
+			Vars = set( "PigsDead" ),
+		}),
+	},
+	'Appearance', "Thug_Recon",
+	'Side', "ally",
+	'AlwaysSpawn', true,
+	'ConflictIgnore', true,
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugCutter",
+		}),
+	},
+}, nil, 2107001002)
+PlaceObj('UnitMarker', {
+	'Pos', point(72600, 155400, 16100),
+	'Angle', 5400,
+	'Groups', {
+		"DeadPigs_Reinforcements",
+	},
+	'AllowedMask', 4294966497,
+	'ID', "DeadPigs_Reinforcements_2",
+	'Routine', "Ambient",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_DeadPigs",
+			Vars = set({
+	Accepted = true,
+	PigsDead = false,
+}),
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_DeadPigs",
+			Vars = set( "PigsDead" ),
+		}),
+	},
+	'Appearance', "Thug_Recon_1",
+	'Side', "ally",
+	'AlwaysSpawn', true,
+	'ConflictIgnore', true,
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugCutter",
+		}),
+	},
+}, nil, 2107001003)
+PlaceObj('UnitMarker', {
+	'Pos', point(73800, 154200, 16100),
+	'Angle', 5400,
+	'Groups', {
+		"DeadPigs_Reinforcements",
+	},
+	'AllowedMask', 4294966497,
+	'ID', "DeadPigs_Reinforcements_3",
+	'Routine', "Ambient",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_DeadPigs",
+			Vars = set({
+	Accepted = true,
+	PigsDead = false,
+}),
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_DeadPigs",
+			Vars = set( "PigsDead" ),
+		}),
+	},
+	'Appearance', "Thug_Soldier",
+	'Side', "ally",
+	'AlwaysSpawn', true,
+	'ConflictIgnore', true,
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugGoon_Stronger",
+		}),
+	},
+}, nil, 2107001004)
+PlaceObj('UnitMarker', {
+	'Pos', point(75000, 155400, 16100),
+	'Angle', 5400,
+	'Groups', {
+		"DeadPigs_Reinforcements",
+	},
+	'AllowedMask', 4294966497,
+	'ID', "DeadPigs_Reinforcements_4",
+	'Routine', "Ambient",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_DeadPigs",
+			Vars = set({
+	Accepted = true,
+	PigsDead = false,
+}),
+		}),
+	},
+	'Despawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_DeadPigs",
+			Vars = set( "PigsDead" ),
+		}),
+	},
+	'Appearance', "Thug_Marksman",
+	'Side', "ally",
+	'AlwaysSpawn', true,
+	'ConflictIgnore', true,
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "ThugSniper",
+		}),
+	},
+}, nil, 2107001005)
+PlaceObj('UnitMarker', {
 	'Pos', point(89400, 139800),
 	'Angle', 5400,
 	'Groups', {
