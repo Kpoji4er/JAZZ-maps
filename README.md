@@ -29,6 +29,21 @@
 
 Для поддерживаемой конфигурации нужны последняя опубликованная [`JA3_CommonLib`](https://gitlab.com/injto4ka/ja3_commonlib) и все четыре пакета JAZZ. Metadata `jazz-maps` пока не объявляет все фактические зависимости, хотя карты и квестовые данные содержат прямые ссылки на ресурсы `jazz-units`. Неполная установка не поддерживается.
 
+## Скачать для игры (без git)
+
+Сателлитная карта `Images/GrandChien2.png` (~70 MB) в репозитории лежит в **Git LFS**. Обычный GitHub ZIP из кнопки Code / `archive/…/main.zip` отдаёт **пустой pointer** → чёрная sat-карта. Игрокам git не нужен.
+
+**Ссылка для Discord / ручной установки** (rolling release, LFS уже внутри):
+
+https://github.com/Kpoji4er/JAZZ-maps/releases/download/playable/jazz-maps-playable.zip
+
+Обновляется workflow `Publish playable zip` на каждый push в `main`. Распаковать в `Mods/jazz-maps` (или как у вас названа папка пакета `FhNNYd`).
+
+Steam / полный suite release — тоже нормальный путь.  
+`archive/refs/heads/main.zip` — **не использовать**.
+
+Проверка у разработчиков: из `jazz` → `python docs/tools/_check_grandchien_map_lfs.py`.
+
 ## Разработка
 
 Карты, `mapdata.lua`, `objects.lua`, grids и patches изменяются через Map Editor. Массовое ручное форматирование или редактирование этих generated-файлов запрещено. Для изменения существующей карты другого пакета используется Map Patch с явной dependency от владельца карты.
