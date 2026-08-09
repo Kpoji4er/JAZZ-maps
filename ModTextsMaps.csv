@@ -3189,3 +3189,9 @@ Quatro, Cinquo, Senco, Ses
 890000000013007,"Почему бы и нет? Самолёта у меня больше нет, груз сгорел, а сидеть без дела я не умею. Оставьте место в отряде — маршрут обсудим по дороге.",,Merc_BarrySeal,ModItemConversation BarrySeal_Recruit Text  section:BarrySeal_Recruit keyword:Пойдёшь с нами?
 890000000013008,Не сейчас,,,ModItemConversation BarrySeal_Recruit KeywordT
 890000000013009,Как скажете. Я пока здесь.,,Merc_BarrySeal,ModItemConversation BarrySeal_Recruit Text  section:BarrySeal_Recruit keyword:Не сейчас
+890000000013100,Контратака на виллу,,,ModItemQuestsDef Jazz_VillaCounterAttack DisplayName
+890000000013101,"Легион идёт на виллу Коразон. Приготовьтесь к обороне — уйти из сектора нельзя.",,,ModItemQuestsDef Jazz_VillaCounterAttack Text
+890000000013102,Контратака на виллу отбита.,,,ModItemQuestsDef Jazz_VillaCounterAttack Text
+890000000013103,Guests,,,ModItemConversation FlagHill_Emma_1 KeywordT
+890000000013104,Тихо. У нас гости.,,CorazonSantiago,ModItemConversation FlagHill_Emma_1 Text section:FlagHill_Emma_1 keyword:Guests
+890000000013105,"Легион снова идёт на виллу — с лагерей и со стороны Эрни. У вас пара часов, чтобы занять позиции. Уйти отсюда сейчас нельзя.",,Emma,ModItemConversation FlagHill_Emma_1 Text section:FlagHill_Emma_1 keyword:Guests

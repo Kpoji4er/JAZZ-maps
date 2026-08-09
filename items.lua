@@ -5095,12 +5095,11 @@ return {
 					'InitialSquads', {
 						"FortressPierre",
 						"FortressDefenders",
-						"LegionFortressDefenders",
 						"LegionAttackers_Ordnance_Easy",
 					},
 					'CustomConflictDescr', "I7_TheFortress_Initial",
-					'MinFlareCarriers', 5,
-					'MaxFlareCarriers', 9,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', {
 						East = false,
@@ -5257,6 +5256,8 @@ return {
 					'display_name', T(549697085851, "Bunker FB45-68"),
 					'discovered', false,
 					'ForceConflict', true,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'Intel', false,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
@@ -5288,6 +5289,8 @@ return {
 					'MaxMilitia', 12,
 					'MilitiaTrainingCost', 2000,
 					'InterestingSector', true,
+									'MinFlareCarriers', 12,
+									'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
@@ -5344,7 +5347,7 @@ return {
 						"LegionExtraSquadFireArms",
 					},
 					'InterestingSector', true,
-					'MinFlareCarriers', 8,
+					'MinFlareCarriers', 12,
 					'MaxFlareCarriers', 15,
 					'RAndRAllowed', true,
 					'RepairShop', true,
@@ -5478,6 +5481,8 @@ return {
 					'Map', "JgXTaSC",
 					'modId', "FhNNYd",
 					'display_name', T(608872900457, "Дорога на маяк"),
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'InitialSquads', {
 						"LegionDefenders_Entrenched_Easy",
 						"LegionDefenders_Entrenched_Easy",
@@ -5514,8 +5519,8 @@ return {
 						"LegionAttackers_Balanced_Easy",
 						"LegionAttackers_Balanced_Easy",
 					},
-					'MinFlareCarriers', 5,
-					'MaxFlareCarriers', 12,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
@@ -5557,8 +5562,8 @@ return {
 						"LegionDefenders_Mobile_Easy",
 					},
 					'InterestingSector', true,
-					'MinFlareCarriers', 4,
-					'MaxFlareCarriers', 12,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
@@ -6314,8 +6319,9 @@ return {
 					'modId', "FhNNYd",
 					'display_name', T(468789385226, "Emerald Coast"),
 					'TerrainType', "Jungle",
+									'MinFlareCarriers', 12,
 					'WeatherZone', "Erny",
-					'MaxFlareCarriers', 5,
+					'MaxFlareCarriers', 15,
 					'Events', {
 						PlaceObj('SE_OnEnterMapVisual', {
 							'Conditions', {
@@ -6371,8 +6377,8 @@ return {
 					'StickySide', true,
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
-					'MinFlareCarriers', 7,
-					'MaxFlareCarriers', 11,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
@@ -6414,8 +6420,8 @@ return {
 						"LegionDefenders_Shooters_Easy",
 						"LegionDefenders_Balanced_Easy",
 					},
-					'MinFlareCarriers', 7,
-					'MaxFlareCarriers', 11,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set( "East", "North", "South", "West" ),
 					'BlockTravel', set({
@@ -6441,7 +6447,7 @@ return {
 					'modId', "FhNNYd",
 					'display_name', T(348743958741, "Дорога в Эрни"),
 					'TerrainType', "Jungle",
-					'MinFlareCarriers', 6,
+					'MinFlareCarriers', 12,
 					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -6911,8 +6917,8 @@ return {
 					'TerrainType', "Jungle",
 					'City', "ErnieVillage",
 					'ShowCity', true,
-					'MinFlareCarriers', 2,
-					'MaxFlareCarriers', 7,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
@@ -6941,8 +6947,8 @@ return {
 						"JAZZ_Legion_VillaAttackers_K5",
 					},
 					'InterestingSector', true,
-					'MinFlareCarriers', 5,
-					'MaxFlareCarriers', 11,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = false,
@@ -6982,8 +6988,8 @@ return {
 					'ForceConflict', true,
 					'CustomConflictDescr', "InitialConflict",
 					'Intel', false,
-					'MinFlareCarriers', 2,
-					'MaxFlareCarriers', 5,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = false,
@@ -7022,8 +7028,8 @@ return {
 						"JAZZ_Legion_SentrySquad_AroundVilla",
 						"JAZZ_Legion_VillaAttackers_K3",
 					},
-					'MinFlareCarriers', 4,
-					'MaxFlareCarriers', 10,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
@@ -7403,8 +7409,8 @@ return {
 					'Passability', "Land and Water",
 					'City', "ErnieVillage",
 					'ShowCity', true,
-					'MinFlareCarriers', 4,
-					'MaxFlareCarriers', 9,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
@@ -7436,8 +7442,8 @@ return {
 						"LegionExtraSquadMelee_T2",
 					},
 					'InterestingSector', true,
-					'MinFlareCarriers', 5,
-					'MaxFlareCarriers', 11,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = false,
@@ -7467,6 +7473,8 @@ return {
 					'modId', "FhNNYd",
 					'GroundSector', "L6",
 					'display_name', T(362916261613, "Бункер партизан"),
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'InitialSquads', {
 						"LegionExtraSquadFireArms_T2",
 						"LegionRaidSquad_01",
@@ -7499,8 +7507,8 @@ return {
 						"JAZZ_Legion_SentrySquad_AroundVilla",
 						"JAZZ_Legion_VillaAttackers_L5",
 					},
-					'MinFlareCarriers', 6,
-					'MaxFlareCarriers', 9,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
@@ -7530,8 +7538,8 @@ return {
 						"JAZZ_Legion_SentrySquad_AroundVilla",
 						"JAZZ_Legion_VillaAttackers_L4",
 					},
-					'MinFlareCarriers', 5,
-					'MaxFlareCarriers', 11,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = false,
@@ -7561,6 +7569,8 @@ return {
 					'modId', "FhNNYd",
 					'display_name', T(890190423953, "Походный лагерь Легиона"),
 					'TerrainType', "Jungle",
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'InitialSquads', {
 						"JAZZ_Legion_VillaAttackers_L3",
 						"JAZZ_Legion_SentrySquad_AroundVilla",
@@ -7602,7 +7612,7 @@ return {
 						"LegionExtraSquadMelee_T2",
 						"LegionRaidSquad_01",
 					},
-					'MinFlareCarriers', 5,
+					'MinFlareCarriers', 12,
 					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -7644,8 +7654,8 @@ return {
 						"LegionJAZZSquadT2",
 						"LegionExtraSquadFireArms",
 					},
-					'MinFlareCarriers', 3,
-					'MaxFlareCarriers', 13,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'RAndRAllowed', true,
 					'RepairShop', true,
 					'bidirectionalRoadApply', true,
@@ -7813,7 +7823,7 @@ return {
 						"LegionAttackers_Marksmen_Easy",
 						"LegionHeavyTroops_Gunners",
 					},
-					'MinFlareCarriers', 6,
+					'MinFlareCarriers', 12,
 					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -7844,6 +7854,8 @@ return {
 					'TerrainType', "Jungle",
 					'WeatherZone', "Erny",
 					'ForceConflict', true,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'InitialSquads', {
 						"LegionAttackers_JazzBalanced_Easy_Assault",
 						"LegionExtraSquadFireArms_T2",
@@ -7892,8 +7904,8 @@ return {
 					'InitialSquads', {
 						"LegionOutlook_Easy",
 					},
-					'MinFlareCarriers', 3,
-					'MaxFlareCarriers', 7,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set( "East", "North", "West" ),
 					'bidirectionalBlockApply', true,
@@ -7923,8 +7935,8 @@ return {
 					'TerrainType', "Jungle",
 					'ForceConflict', true,
 					'InterestingSector', true,
-					'MinFlareCarriers', 15,
-					'MaxFlareCarriers', 29,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
@@ -7954,8 +7966,8 @@ return {
 					'TerrainType', "Jungle",
 					'WeatherZone', "Erny",
 					'ForceConflict', true,
-					'MinFlareCarriers', 6,
-					'MaxFlareCarriers', 12,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
@@ -7989,8 +8001,8 @@ return {
 					'WeatherZone', "Erny",
 					'ForceConflict', true,
 					'CustomConflictDescr', "InitialConflict",
-					'MinFlareCarriers', 3,
-					'MaxFlareCarriers', 10,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
@@ -9392,6 +9404,10 @@ return {
 		PlaceObj('ModItemCode', {
 			'name', "System_JAZZ_VehicleCombat",
 			'CodeFileName', "Code/System_JAZZ_VehicleCombat.lua",
+		}),
+		PlaceObj('ModItemCode', {
+			'name', "System_VillaCounterAttack",
+			'CodeFileName', "Code/System_VillaCounterAttack.lua",
 		}),
 		PlaceObj('ModItemFolder', {
 			'name', "UI",
@@ -19501,6 +19517,12 @@ return {
 						Effects = {
 							PlaceObj('PhraseSetEnabled', {
 								Conversation = "FlagHill_Emma_1",
+								PhraseId = "Guests",
+								param_bindings = false,
+							}),
+
+							PlaceObj('PhraseSetEnabled', {
+								Conversation = "FlagHill_Emma_1",
 								Enabled = false,
 								PhraseId = "WeCanHandleThem",
 								param_bindings = false,
@@ -19711,6 +19733,8 @@ return {
 						PhraseRolloverText = "",
 						ShowPhraseRollover = false,
 						StoryBranchIcon = "conversation_action",
+						GoTo = "Guests",
+						PlayGoToPhrase = true,
 						id = "Redirect",
 						param_bindings = false,
 					}),
@@ -20149,7 +20173,53 @@ return {
 						id = "ErnieIsland",
 						param_bindings = false,
 					}),
+					
 					PlaceObj('ConversationPhrase', {
+						AutoRemove = true,
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Given",
+								QuestId = "Jazz_VillaCounterAttack",
+							}),
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "NotStarted",
+								QuestId = "Jazz_VillaCounterAttack",
+								Set = false,
+							}),
+							PlaceObj('SectorEnterConflict', {
+								disable_travel = true,
+								lock_conflict = true,
+								sector_id = "K4",
+								descr_id = "InitialConflict",
+							}),
+							PlaceObj('ExecuteCode', {
+								FuncCode = "Jazz_VillaCounterAttack_Start()",
+							}),
+							PlaceObj('QuestSetVariableTimer', {
+								Prop = "PrepTimer",
+								QuestId = "Jazz_VillaCounterAttack",
+								TimeAmount = 2,
+								Timescale = "h",
+							}),
+						},
+						GoTo = "<end conversation>",
+						Keyword = "Guests",
+						KeywordT = T(890000000013103, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "Guests"),
+						Lines = {
+							PlaceObj('ConversationLine', {
+								Character = "CorazonSantiago",
+								Text = T(890000000013104, --[[ModItemConversation FlagHill_Emma_1 Text voice:CorazonSantiago section:FlagHill_Emma_1 keyword:Guests]] "Тихо. У нас гости."),
+							}),
+							PlaceObj('ConversationLine', {
+								Character = "Emma",
+								Text = T(890000000013105, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Guests]] "Легион снова идёт на виллу — с лагерей и со стороны Эрни. У вас пара часов, чтобы занять позиции. Уйти отсюда сейчас нельзя."),
+							}),
+						},
+						Enabled = false,
+						id = "Guests",
+					}),
+
+PlaceObj('ConversationPhrase', {
 						Conditions = {
 							PlaceObj('QuestIsVariableBool', {
 								QuestId = "02_LiberateErnie",
@@ -37812,8 +37882,8 @@ return {
 						"LegionDefenders_Mobile_Easy",
 					},
 					'InterestingSector', true,
-					'MinFlareCarriers', 4,
-					'MaxFlareCarriers', 12,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
@@ -38209,8 +38279,8 @@ return {
 						"LegionAttackers_Balanced_Easy",
 						"LegionAttackers_Balanced_Easy",
 					},
-					'MinFlareCarriers', 5,
-					'MaxFlareCarriers', 12,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
@@ -38280,6 +38350,8 @@ return {
 					'Map', "JgXTaSC",
 					'modId', "FhNNYd",
 					'display_name', T(608872900457, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I4]] "Дорога на маяк"),
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'InitialSquads', {
 						"LegionDefenders_Entrenched_Easy",
 						"LegionDefenders_Entrenched_Easy",
@@ -38318,7 +38390,7 @@ return {
 						"LegionExtraSquadFireArms",
 					},
 					'InterestingSector', true,
-					'MinFlareCarriers', 8,
+					'MinFlareCarriers', 12,
 					'MaxFlareCarriers', 15,
 					'RAndRAllowed', true,
 					'RepairShop', true,
@@ -38454,6 +38526,8 @@ return {
 					'MaxMilitia', 12,
 					'MilitiaTrainingCost', 2000,
 					'InterestingSector', true,
+									'MinFlareCarriers', 12,
+									'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
@@ -38494,6 +38568,8 @@ return {
 					'display_name', T(890000000001538, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for I6_Underground]] "Bunker FB45-68"),
 					'discovered', false,
 					'ForceConflict', true,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'Intel', false,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
@@ -38559,12 +38635,11 @@ return {
 					'InitialSquads', {
 						"FortressPierre",
 						"FortressDefenders",
-						"LegionFortressDefenders",
 						"LegionAttackers_Ordnance_Easy",
 					},
 					'CustomConflictDescr', "I7_TheFortress_Initial",
-					'MinFlareCarriers', 5,
-					'MaxFlareCarriers', 9,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', {
 						East = false,
@@ -39577,7 +39652,7 @@ return {
 					'modId', "FhNNYd",
 					'display_name', T(348743958741, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J4]] "Дорога в Эрни"),
 					'TerrainType', "Jungle",
-					'MinFlareCarriers', 6,
+					'MinFlareCarriers', 12,
 					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -39615,8 +39690,8 @@ return {
 						"LegionDefenders_Shooters_Easy",
 						"LegionDefenders_Balanced_Easy",
 					},
-					'MinFlareCarriers', 7,
-					'MaxFlareCarriers', 11,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set( "East", "North", "South", "West" ),
 					'BlockTravel', set({
@@ -39638,8 +39713,8 @@ return {
 					'StickySide', true,
 					'TerrainType', "Jungle",
 					'WeatherZone', "SouthJungle",
-					'MinFlareCarriers', 7,
-					'MaxFlareCarriers', 11,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
@@ -39664,8 +39739,9 @@ return {
 					'modId', "FhNNYd",
 					'display_name', T(890000000001523, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for J7]] "Emerald Coast"),
 					'TerrainType', "Jungle",
+									'MinFlareCarriers', 12,
 					'WeatherZone', "Erny",
-					'MaxFlareCarriers', 5,
+					'MaxFlareCarriers', 15,
 					'Events', {
 						PlaceObj('SE_OnEnterMapVisual', {
 							'Conditions', {
@@ -40345,8 +40421,8 @@ return {
 						"JAZZ_Legion_SentrySquad_AroundVilla",
 						"JAZZ_Legion_VillaAttackers_K3",
 					},
-					'MinFlareCarriers', 4,
-					'MaxFlareCarriers', 10,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
@@ -40421,8 +40497,8 @@ return {
 					'ForceConflict', true,
 					'CustomConflictDescr', "InitialConflict",
 					'Intel', false,
-					'MinFlareCarriers', 2,
-					'MaxFlareCarriers', 5,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = false,
@@ -40455,8 +40531,8 @@ return {
 						"JAZZ_Legion_VillaAttackers_K5",
 					},
 					'InterestingSector', true,
-					'MinFlareCarriers', 5,
-					'MaxFlareCarriers', 11,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = false,
@@ -40484,8 +40560,8 @@ return {
 					'TerrainType', "Jungle",
 					'City', "ErnieVillage",
 					'ShowCity', true,
-					'MinFlareCarriers', 2,
-					'MaxFlareCarriers', 7,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
@@ -40560,8 +40636,8 @@ return {
 						"LegionJAZZSquadT2",
 						"LegionExtraSquadFireArms",
 					},
-					'MinFlareCarriers', 3,
-					'MaxFlareCarriers', 13,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'RAndRAllowed', true,
 					'RepairShop', true,
 					'bidirectionalRoadApply', true,
@@ -40873,7 +40949,7 @@ return {
 						"LegionExtraSquadMelee_T2",
 						"LegionRaidSquad_01",
 					},
-					'MinFlareCarriers', 5,
+					'MinFlareCarriers', 12,
 					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -41054,6 +41130,8 @@ return {
 					'modId', "FhNNYd",
 					'display_name', T(890190423953, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L3]] "Походный лагерь Легиона"),
 					'TerrainType', "Jungle",
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'InitialSquads', {
 						"JAZZ_Legion_VillaAttackers_L3",
 						"JAZZ_Legion_SentrySquad_AroundVilla",
@@ -41131,8 +41209,8 @@ return {
 						"JAZZ_Legion_SentrySquad_AroundVilla",
 						"JAZZ_Legion_VillaAttackers_L4",
 					},
-					'MinFlareCarriers', 5,
-					'MaxFlareCarriers', 11,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = false,
@@ -41162,8 +41240,8 @@ return {
 						"JAZZ_Legion_SentrySquad_AroundVilla",
 						"JAZZ_Legion_VillaAttackers_L5",
 					},
-					'MinFlareCarriers', 6,
-					'MaxFlareCarriers', 9,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
@@ -41192,8 +41270,8 @@ return {
 						"LegionExtraSquadMelee_T2",
 					},
 					'InterestingSector', true,
-					'MinFlareCarriers', 5,
-					'MaxFlareCarriers', 11,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = false,
@@ -41217,6 +41295,8 @@ return {
 					'modId', "FhNNYd",
 					'GroundSector', "L6",
 					'display_name', T(362916261613, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L6_Underground]] "Бункер партизан"),
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'InitialSquads', {
 						"LegionExtraSquadFireArms_T2",
 						"LegionRaidSquad_01",
@@ -41240,8 +41320,8 @@ return {
 					'Passability', "Land and Water",
 					'City', "ErnieVillage",
 					'ShowCity', true,
-					'MinFlareCarriers', 4,
-					'MaxFlareCarriers', 9,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
@@ -41289,8 +41369,8 @@ return {
 					'WeatherZone', "Erny",
 					'ForceConflict', true,
 					'CustomConflictDescr', "InitialConflict",
-					'MinFlareCarriers', 3,
-					'MaxFlareCarriers', 10,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
@@ -41488,8 +41568,8 @@ return {
 					'TerrainType', "Jungle",
 					'WeatherZone', "Erny",
 					'ForceConflict', true,
-					'MinFlareCarriers', 6,
-					'MaxFlareCarriers', 12,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
@@ -41627,8 +41707,8 @@ return {
 					'TerrainType', "Jungle",
 					'ForceConflict', true,
 					'InterestingSector', true,
-					'MinFlareCarriers', 15,
-					'MaxFlareCarriers', 29,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
@@ -41710,8 +41790,8 @@ return {
 					'InitialSquads', {
 						"LegionOutlook_Easy",
 					},
-					'MinFlareCarriers', 3,
-					'MaxFlareCarriers', 7,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set( "East", "North", "West" ),
 					'bidirectionalBlockApply', true,
@@ -41734,6 +41814,8 @@ return {
 					'TerrainType', "Jungle",
 					'WeatherZone', "Erny",
 					'ForceConflict', true,
+					'MinFlareCarriers', 12,
+					'MaxFlareCarriers', 15,
 					'InitialSquads', {
 						"LegionAttackers_JazzBalanced_Easy_Assault",
 						"LegionExtraSquadFireArms_T2",
@@ -41767,7 +41849,7 @@ return {
 						"LegionAttackers_Marksmen_Easy",
 						"LegionHeavyTroops_Gunners",
 					},
-					'MinFlareCarriers', 6,
+					'MinFlareCarriers', 12,
 					'MaxFlareCarriers', 15,
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -96490,7 +96572,190 @@ return {
 				id = "FortifyErnie",
 				param_bindings = {},
 			}),
+			
 			PlaceObj('ModItemQuestsDef', {
+				Author = "JAZZ",
+				DevNotes = "JAZZ-QUESTS-003 Flag Hill villa counterattack",
+				DisplayName = T(890000000013100, --[[ModItemQuestsDef Jazz_VillaCounterAttack DisplayName]] "Контратака на виллу"),
+				NoteDefs = {
+					PlaceObj('QuestNote', {
+						Badges = {
+							PlaceObj('QuestBadgePlacement', {
+								Sector = "K4",
+							}),
+						},
+						Text = T(890000000013101, --[[ModItemQuestsDef Jazz_VillaCounterAttack Text]] "Легион идёт на виллу Коразон. Приготовьтесь к обороне — уйти из сектора нельзя."),
+					}),
+					PlaceObj('QuestNote', {
+						CompletionConditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_VillaCounterAttack",
+								Vars = set( "Completed" ),
+							}),
+						},
+						ShowOnRead = true,
+						Text = T(890000000013102, --[[ModItemQuestsDef Jazz_VillaCounterAttack Text]] "Контратака на виллу отбита."),
+					}),
+				},
+				QuestGroup = "Ernie Island",
+				TCEs = {
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_VillaCounterAttack",
+								Vars = set({
+	Given = true,
+	Completed = false,
+	Failed = false,
+	Wave2Spawn = false,
+}),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"K4",
+								},
+							}),
+							PlaceObj('CombatIsActive', {}),
+							PlaceObj('CombatTurn', {
+								Amount = 3,
+								Condition = ">=",
+							}),
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_VillaCounterAttack",
+								Vars = set( "SiegeCombat" ),
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Wave2Spawn",
+								QuestId = "Jazz_VillaCounterAttack",
+							}),
+							PlaceObj('ExecuteCode', {
+								FuncCode = "Jazz_VillaCounterAttack_OnWave2()",
+							}),
+							PlaceObj('GroupAlert', {
+								TargetUnit = "VillaSiege_Wave2",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Wave2",
+						QuestId = "Jazz_VillaCounterAttack",
+						requiredSectors = {
+							"K4",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_VillaCounterAttack",
+								Vars = set({
+	Given = true,
+	Completed = false,
+	SiegeCombat = false,
+}),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"K4",
+								},
+							}),
+							PlaceObj('CombatIsActive', {}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "SiegeCombat",
+								QuestId = "Jazz_VillaCounterAttack",
+							}),
+							PlaceObj('ExecuteCode', {
+								FuncCode = "Jazz_VillaCounterAttack_PushAdvanceToEmma()",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_SiegeCombatStarted",
+						QuestId = "Jazz_VillaCounterAttack",
+						requiredSectors = {
+							"K4",
+						},
+					}),
+					PlaceObj('TriggeredConditionalEvent', {
+						Conditions = {
+							PlaceObj('QuestIsVariableBool', {
+								QuestId = "Jazz_VillaCounterAttack",
+								Vars = set({
+	Given = true,
+	Completed = false,
+	Failed = false,
+	Wave2Spawn = true,
+}),
+							}),
+							PlaceObj('PlayerIsInSectors', {
+								Sectors = {
+									"K4",
+								},
+							}),
+							PlaceObj('CombatIsActive', {
+								Negate = true,
+							}),
+							PlaceObj('GroupIsDead', {
+								Group = "VillaSiege_Wave2",
+							}),
+						},
+						Effects = {
+							PlaceObj('QuestSetVariableBool', {
+								Prop = "Completed",
+								QuestId = "Jazz_VillaCounterAttack",
+							}),
+							PlaceObj('SectorEnterConflict', {
+								conflict_mode = false,
+								sector_id = "K4",
+							}),
+						},
+						Once = true,
+						ParamId = "TCE_Won",
+						QuestId = "Jazz_VillaCounterAttack",
+						requiredSectors = {
+							"K4",
+						},
+					}),
+				},
+				Variables = {
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Wave2",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_SiegeCombatStarted",
+					}),
+					PlaceObj('QuestVarTCEState', {
+						Name = "TCE_Won",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Completed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Given",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Failed",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "NotStarted",
+						Value = true,
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "Wave2Spawn",
+					}),
+					PlaceObj('QuestVarBool', {
+						Name = "SiegeCombat",
+					}),
+					PlaceObj('QuestVarNum', {
+						Name = "PrepTimer",
+					}),
+				},
+				group = "Ernie",
+				id = "Jazz_VillaCounterAttack",
+			}),
+
+PlaceObj('ModItemQuestsDef', {
 				Author = "Boyan",
 				Chapter = "Intro",
 				Hidden = true,

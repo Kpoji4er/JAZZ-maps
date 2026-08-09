@@ -86,11 +86,11 @@
 | I5 | Деревня Эрни | Главный хаб; ForceConflict; setpieces `ErnieReturn_FirstEnter`, `PierreLucTalk` | `LegionErnieVillage`, `LegionExtraSquadFireArms` | — |
 | I6 | Жестянка | Связан с liberate / fortify | — | — |
 | I6_Underground | Бункер FB45-68 | Underground I6; ForceConflict | — | — |
-| I7 | Форт Ло-Блё | Guardpost; ForceConflict; цель `TakeTheFortress` | `FortressPierre`, `FortressDefenders`, `LegionFortressDefenders`, `LegionAttackers_Ordnance_Easy` | Patrol: Assault_Easy, `LegionJAZZSquadT1`, Melee_T2; Strong: `LegionJAZZSquadT2`, Heavy, AttackSquad_01; Extra: Balanced_Easy, FireArms_T2 |
+| I7 | Форт Ло-Блё | Guardpost; ForceConflict; цель `TakeTheFortress` | Target: `FortressPierre` + `FortressDefenders` (~48). `LegionFortressDefenders` removed; Ordnance drop planned | Patrol: Assault_Easy, `LegionJAZZSquadT1`, Melee_T2; Strong: `LegionJAZZSquadT2`, Heavy, AttackSquad_01; Extra: Balanced_Easy, FireArms_T2 |
 | J4 | Дорога в Эрни | Переход | — | — |
 | J5 | Фермы Эрни | City ErnieVillage | FireArms, 2×Shooters_Easy, Balanced_Easy | — |
 | J7 | Изумрудный берег | Label Ernie; `EncounterHerman` / RescueHerMan; враги на карте (не InitialSquads); music Ernie_* | — | — |
-| K4 | Флаговый холм | Label Ernie; ForceConflict | — | — |
+| K4 | Флаговый холм | Label Ernie; ForceConflict; `Jazz_VillaCounterAttack` | — | — |
 | K5 | Походный лагерь Легиона | Вилла / rescue rebels | `JAZZ_Legion_SentrySquad_AroundVilla`, `JAZZ_Legion_VillaAttackers_K5` | — |
 | K6 | Запасной лагерь контрабандистов | City ErnieVillage | — | — |
 | L1 | База партизан | City Rebels_Ernie; квест MeetTheRebels | `LegionRaidSquad_01`, Heavy, `LegionJAZZSquadT2`, FireArms | — |
@@ -111,8 +111,10 @@
 | `LegionErnieVillage` | Гарнизон I5 | Много assault/pillager/crusher, marksmen, gunners (~десятки бойцов суммарно по слотам) |
 | `LegionOutlook_Easy` | M4 смотровая | ~30: 2× Grenadier, 1× Pyro, Marksman/Ambusher, Roughneck/Crusher, 1× Gunner (без T3 SkullCrusher) |
 | `LegionAttackers_JazzBalanced_Easy_Assault` | M5 | Крупный штурмовой пакет (лидеры, assault, gunners, grenadiers) |
-| `JAZZ_Legion_SentrySquad_AroundVilla` | K5/L5 охрана | Flankers/scouts + front T1 + optional gunner |
-| `JAZZ_Legion_VillaAttackers_K5` / `_L5` | Атакующие у виллы | Captain/Headsman + pillagers/raiders + gunner; L5 тяжелее (mortarman) |
+| `JAZZ_Legion_SentrySquad_AroundVilla` | K3/K5/L3/L4/L5 охрана | **base 10** camp guard |
+| `JAZZ_Legion_VillaAttackers_K3`…`_L5` | Осада | movable → K4; wipe = skip |
+| `JAZZ_Legion_VillaAttackers_Ernie` | Колонна Эрни | base 30 always |
+| `Jazz_VillaCounterAttack` | K4 siege | Guests → marches; AdvanceTo Emma; Wave2 turn 3+ |
 | `FortressDefenders` | I7 | Sniper, gunners, pillager, grenadier, captain, rocketeer |
 | `LegionJAZZSquadT1` / `T2` | Патруль/strong I7 и L1 | Смешанные JAZZ_Legion tiers + bombard на T1 |
 | `LegionExtraSquadFireArms` / `_T2` | Доборы | Front/flanker/assault firearms packs |
