@@ -143,7 +143,7 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1288481629)
 PlaceObj('UnitMarker', {
-	'Pos', point(61800, 78600, 19600),
+	'Pos', point(99000, 60600, 19600),
 	'Angle', 10800,
 	'Groups', {
 		"Legion_Shooters",
@@ -193,23 +193,6 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1636492997)
 PlaceObj('UnitMarker', {
-	'Pos', point(72600, 83400, 23800),
-	'Angle', 10800,
-	'Groups', {
-		"Legion_Shooters",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'RoutineArea', "Legion_Shooters_Ambient",
-	'Appearance', "Legion_Marksman",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FlankerT2_Skirmisher",
-		}),
-	},
-}, nil, 1395444420)
-PlaceObj('UnitMarker', {
 	'Pos', point(67800, 97800, 19600),
 	'Angle', 5400,
 	'Groups', {
@@ -236,6 +219,23 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 24,
 	'AreaHeight', 36,
 }, nil, 1796292646)
+PlaceObj('UnitMarker', {
+	'Pos', point(72600, 107400, 19600),
+	'Angle', 10800,
+	'Groups', {
+		"Legion_Shooters",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "Ambient",
+	'RoutineArea', "Legion_Shooters_Ambient",
+	'Appearance', "Legion_Heavy",
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_GunnerT1_Gunner",
+		}),
+	},
+}, nil, 1180634458)
 PlaceObj('UnitMarker', {
 	'Pos', point(77400, 103800, 23100),
 	'Angle', 10800,
@@ -269,23 +269,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1141711261)
-PlaceObj('UnitMarker', {
-	'Pos', point(77400, 109800, 19600),
-	'Angle', 10800,
-	'Groups', {
-		"Legion_Shooters",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'RoutineArea', "Legion_Shooters_Ambient",
-	'Appearance', "Legion_Heavy",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_GunnerT1_Gunner",
-		}),
-	},
-}, nil, 1180634458)
 PlaceObj('UnitMarker', {
 	'Pos', point(73800, 129000),
 	'Angle', 10800,
@@ -353,23 +336,6 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 20,
 	'AreaHeight', 20,
 }, nil, 1501595276)
-PlaceObj('UnitMarker', {
-	'Pos', point(124200, 109800),
-	'Angle', 10800,
-	'Groups', {
-		"AL_Defender_Closer_1",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'RoutineArea', "Legion_Talking_4",
-	'Appearance', "LegionScout_Stronger_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FlankerT2_Scout",
-		}),
-	},
-}, nil, 1747230031)
 PlaceObj('UnitMarker', {
 	'Pos', point(123000, 114600),
 	'Angle', 10800,
@@ -500,7 +466,7 @@ PlaceObj('UnitMarker', {
 PlaceObj('GridMarker', {
 	'Pos', point(96600, 153000, 17500),
 	'Groups', {
-		"SecondCampSpawn",
+		"FirstCampSpawn",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Logic",
@@ -545,26 +511,6 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 20,
 	'AreaHeight', 20,
 }, nil, 1623794609)
-PlaceObj('UnitMarker', {
-	'Pos', point(101400, 150600),
-	'Angle', 10800,
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'RoutineArea', "Legion_Talking",
-	'Spawn_Conditions', {
-		PlaceObj('UnitIsAroundMarkerOfGroup', {
-			MarkerGroup = "FirstCampSpawn",
-			TargetUnit = "any merc",
-		}),
-	},
-	'Appearance', "LegionGrenadir_Stronger_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT2_Pyro",
-		}),
-	},
-}, nil, 1633493853)
 PlaceObj('ContainerMarker', {
 	'Pos', point(99000, 154200),
 	'CollectionIndex', 257,
@@ -657,26 +603,6 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1120825144)
 PlaceObj('UnitMarker', {
-	'Pos', point(108600, 151800),
-	'Angle', 10800,
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'RoutineArea', "Legion_Talking",
-	'Spawn_Conditions', {
-		PlaceObj('UnitIsAroundMarkerOfGroup', {
-			MarkerGroup = "FirstCampSpawn",
-			TargetUnit = "any merc",
-		}),
-	},
-	'Appearance', "Legion_Recon02",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
-		}),
-	},
-}, nil, 1252587279)
-PlaceObj('UnitMarker', {
 	'Pos', point(111000, 150600),
 	'Angle', 10800,
 	'AllowedMask', 4294966497,
@@ -738,26 +664,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1514723484)
-PlaceObj('UnitMarker', {
-	'Pos', point(111000, 168600),
-	'Angle', 10800,
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'RoutineArea', "Legion_Talking",
-	'Spawn_Conditions', {
-		PlaceObj('UnitIsAroundMarkerOfGroup', {
-			MarkerGroup = "FirstCampSpawn",
-			TargetUnit = "any merc",
-		}),
-	},
-	'Appearance', "Legion_Recon02",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
-		}),
-	},
-}, nil, 1730982213)
 PlaceObj('UnitMarker', {
 	'Pos', point(112200, 171000),
 	'Angle', 10800,
@@ -890,80 +796,14 @@ PlaceObj('UnitMarker', {
 	'AllowedMask', 4294966497,
 	'Routine', "Patrol",
 	'RoutineArea', "AL_Defender",
-	'Appearance', "LegionSniper_Stronger",
+	'Appearance', "LegionGunner_Stronger_alt_2",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FrontT2_Ambusher",
+			'UnitDataDefId', "JAZZ_Legion_GunnerT2_GMPG",
 		}),
 	},
 }, nil, 1228182893)
-PlaceObj('UnitMarker', {
-	'Pos', point(190200, 112200),
-	'Angle', 10800,
-	'AllowedMask', 4294966497,
-	'Routine', "Patrol",
-	'RoutineArea', "AL_Defender",
-	'Appearance', "LegionRaider_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
-		}),
-	},
-}, nil, 1194414154)
-PlaceObj('UnitMarker', {
-	'Pos', point(190200, 113400),
-	'Angle', 10800,
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'Appearance', "LegionGunner_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_GunnerT1_Gunner",
-		}),
-	},
-}, nil, 1616035001)
-PlaceObj('UnitMarker', {
-	'Pos', point(195000, 113400),
-	'Angle', 10800,
-	'AllowedMask', 4294966497,
-	'TriggerConditions', {
-		PlaceObj('UnitIsAroundMarkerOfGroup', {
-			MarkerGroup = "Bridge",
-			TargetUnit = "any merc",
-		}),
-	},
-	'Routine', "Ambient",
-	'Appearance', "Legion_Marksman02",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
-		}),
-	},
-}, nil, 1192952676)
-PlaceObj('UnitMarker', {
-	'Pos', point(196200, 114600),
-	'Angle', 10800,
-	'AllowedMask', 4294966497,
-	'TriggerConditions', {
-		PlaceObj('UnitIsAroundMarkerOfGroup', {
-			MarkerGroup = "Bridge",
-			TargetUnit = "any merc",
-		}),
-	},
-	'Routine', "Patrol",
-	'RoutineArea', "AL_Defender",
-	'Appearance', "Legion_Demolishion",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
-		}),
-	},
-}, nil, 1206690595)
 PlaceObj('UnitMarker', {
 	'Pos', point(184200, 119400),
 	'Angle', 10800,
@@ -1150,46 +990,6 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1040186855)
 PlaceObj('UnitMarker', {
-	'Pos', point(197400, 115800),
-	'Angle', 10800,
-	'AllowedMask', 4294966497,
-	'TriggerConditions', {
-		PlaceObj('UnitIsAroundMarkerOfGroup', {
-			MarkerGroup = "Bridge",
-			TargetUnit = "any merc",
-		}),
-	},
-	'Routine', "Patrol",
-	'RoutineArea', "AL_Defender",
-	'Appearance', "LegionGrenadir",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
-		}),
-	},
-}, nil, 1000223775)
-PlaceObj('UnitMarker', {
-	'Pos', point(197400, 117000),
-	'Angle', 10800,
-	'AllowedMask', 4294966497,
-	'TriggerConditions', {
-		PlaceObj('UnitIsAroundMarkerOfGroup', {
-			MarkerGroup = "Bridge",
-			TargetUnit = "any merc",
-		}),
-	},
-	'Routine', "Patrol",
-	'RoutineArea', "AL_Defender",
-	'Appearance', "LegionGrenadir_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
-		}),
-	},
-}, nil, 1391153219)
-PlaceObj('UnitMarker', {
 	'Pos', point(211800, 123000),
 	'Angle', 5400,
 	'Groups', {
@@ -1213,9 +1013,9 @@ PlaceObj('UnitMarker', {
 	},
 }, nil, 1056483834)
 PlaceObj('GridMarker', {
-	'Pos', point(133800, 135000, 14700),
+	'Pos', point(135000, 135000, 14700),
 	'Groups', {
-		"Bridge",
+		"SecondCampSpawn",
 	},
 	'AllowedMask', 4294966497,
 	'Type', "Logic",
@@ -1262,23 +1062,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1157149622)
-PlaceObj('UnitMarker', {
-	'Pos', point(151800, 161400),
-	'Angle', 10800,
-	'Groups', {
-		"AL_Defender_Closer_1",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'RoutineArea', "Legion_Talking_3",
-	'Appearance', "Legion_Soldier05",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
-		}),
-	},
-}, nil, 1430373240)
 PlaceObj('GridMarker', {
 	'Pos', point(157800, 153000, 14000),
 	'Groups', {
@@ -1334,29 +1117,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1643570624)
-PlaceObj('UnitMarker', {
-	'Pos', point(189000, 166200),
-	'Angle', 10800,
-	'Groups', {
-		"Legion_Talking_5",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'RoutineArea', "Legion_Talking_5",
-	'Spawn_Conditions', {
-		PlaceObj('UnitIsAroundMarkerOfGroup', {
-			MarkerGroup = "FirstCampSpawn",
-			TargetUnit = "any merc",
-		}),
-	},
-	'Appearance', "Legion_Shaman",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_LeaderT1_Sergeant",
-		}),
-	},
-}, nil, 1759080306)
 PlaceObj('GridMarker', {
 	'Pos', point(196200, 166200),
 	'Angle', 10800,
@@ -1425,29 +1185,6 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 18,
 }, nil, 1143543475)
 PlaceObj('UnitMarker', {
-	'Pos', point(203400, 136200),
-	'Angle', 10800,
-	'Groups', {
-		"Bridge",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "Legion_Talking_3",
-	'Spawn_Conditions', {
-		PlaceObj('UnitIsAroundMarkerOfGroup', {
-			MarkerGroup = "Bridge",
-			TargetUnit = "any merc",
-		}),
-	},
-	'Appearance', "LegionRanger_Stronger_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FlankerT2_Skirmisher",
-		}),
-	},
-}, nil, 1812690265)
-PlaceObj('UnitMarker', {
 	'Pos', point(204600, 142200),
 	'Angle', 10800,
 	'Groups', {
@@ -1493,52 +1230,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1722749382)
-PlaceObj('UnitMarker', {
-	'Pos', point(207000, 142200),
-	'Angle', 10800,
-	'Groups', {
-		"Bridge",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "Legion_Talking_3",
-	'Spawn_Conditions', {
-		PlaceObj('UnitIsAroundMarkerOfGroup', {
-			MarkerGroup = "Bridge",
-			TargetUnit = "any merc",
-		}),
-	},
-	'Appearance', "LegionGunner_Stronger_alt_2",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_GunnerT2_GMPG",
-		}),
-	},
-}, nil, 1614904693)
-PlaceObj('UnitMarker', {
-	'Pos', point(207000, 145800),
-	'Angle', 10800,
-	'Groups', {
-		"Bridge",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "AdvanceTo",
-	'RoutineArea', "Legion_Talking_3",
-	'Spawn_Conditions', {
-		PlaceObj('UnitIsAroundMarkerOfGroup', {
-			MarkerGroup = "Bridge",
-			TargetUnit = "any merc",
-		}),
-	},
-	'Appearance', "LegionRaidLeader_alt",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_LeaderT1_Sergeant",
-		}),
-	},
-}, nil, 1071213434)
 PlaceObj('ExitZoneInteractable', {
 	'Pos', point(209914, 143343, 16223),
 	'Groups', {
@@ -1556,29 +1247,6 @@ PlaceObj('GridMarker', {
 	'AreaWidth', 5,
 	'AreaHeight', 5,
 }, nil, 1198620269)
-PlaceObj('UnitMarker', {
-	'Pos', point(203400, 162600),
-	'Angle', 10800,
-	'Groups', {
-		"Legion_Talking_5",
-	},
-	'AllowedMask', 4294966497,
-	'Routine', "Ambient",
-	'RoutineArea', "Legion_Talking_3",
-	'Spawn_Conditions', {
-		PlaceObj('UnitIsAroundMarkerOfGroup', {
-			MarkerGroup = "Bridge",
-			TargetUnit = "any merc",
-		}),
-	},
-	'Appearance', "Legion_Stormer",
-	'Side', "enemy1",
-	'UnitDataSpawnDefs', {
-		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Crusher",
-		}),
-	},
-}, nil, 1312282356)
 PlaceObj('UnitMarker', {
 	'Pos', point(197400, 169800),
 	'Angle', 10800,
@@ -48084,7 +47752,7 @@ p("TropicalPlant_04_Shrub_02",125948,62418,446,2097152)
 p("TropicalPlant_07_Sapling_02",125791,64233,4787,2097152)
 p("TropicalRockSharpWalk_01",129000,59400,17500,10800,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalRockSharp_01",67540,67530,19954,7741,217,1674,804,3650,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
-p("TropicalRockSharp_01",71436,70498,21930,10348,250,-1469,1392,3560,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
+p("TropicalRockSharp_01",71462,70543,21930,10348,250,-1469,1392,3560,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharpWalk_01",66600,75000,21700,10800,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
 p("TropicalRockSharp_01",68662,78801,20289,6803,132,2156,-2254,2654,"terrainchunk",10,0,0,40,60,10,40,60,2228245)
 p("TropicalRockSharpWalk_01",69000,78600,22400,5400,"terrainchunk",10,0,0,40,60,10,40,60,2228225)
@@ -48979,7 +48647,7 @@ p("TropicalPlant_Grass_03",126000,108000,18426,200,2097156)
 p("TropicalPlant_Grass_02",125000,109000,7726,202,2097156)
 p("TropicalPlant_07_Sapling_02",125645,109802,5321,134,2097156)
 p("TropicalPlant_Grass_01",125760,110388,7831,96,2097156)
-p("TropicalPlant_Grass_03",126000,109000,19192,190,2097156)
+p("TropicalPlant_Grass_03",126008,109006,19192,190,2097156)
 p("TropicalPlant_04_Sapling_03",126672,109918,2932,97,2097156)
 p("TropicalPlant_05_Shrub_01",122979,113267,18011,102,2097156)
 p("TropicalPlant_Grass_01",125621,111730,4742,95,2097156)
@@ -69005,7 +68673,7 @@ p("TropicalPlant_Grass_04",203000,141000,15346,104,2097156)
 p("TropicalPlant_Grass_04",204000,140000,12320,96,2097156)
 p("TropicalPlant_Grass_04",204000,141000,21276,103,2097156)
 p("TropicalPlant_Grass_04",203000,142000,12964,97,2097156)
-p("TropicalPlant_Grass_03",203701,141941,5837,194,2097156)
+p("TropicalPlant_Grass_03",203687,141942,5837,194,2097156)
 p("TropicalPlant_Grass_04",203000,143000,9240,95,2097156)
 p("TropicalPlant_Grass_04",204000,142000,14657,98,2097156)
 p("TropicalPlant_Grass_04",204000,143000,10047,95,2097156)
