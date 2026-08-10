@@ -5095,7 +5095,10 @@ return {
 					'InitialSquads', {
 						"FortressPierre",
 						"FortressDefenders",
-						"LegionAttackers_Ordnance_Easy",
+					
+					
+					
+					
 					},
 					'CustomConflictDescr', "I7_TheFortress_Initial",
 					'MinFlareCarriers', 12,
@@ -5344,7 +5347,9 @@ return {
 					'ForceConflict', true,
 					'InitialSquads', {
 						"LegionErnieVillage",
-						"LegionExtraSquadFireArms",
+					
+					
+					
 					},
 					'InterestingSector', true,
 					'MinFlareCarriers', 12,
@@ -5484,8 +5489,12 @@ return {
 					'MinFlareCarriers', 12,
 					'MaxFlareCarriers', 15,
 					'InitialSquads', {
-						"LegionDefenders_Entrenched_Easy",
-						"LegionDefenders_Entrenched_Easy",
+						"LegionErnie_Medium_Road_A",
+						"LegionExtra_Ernie_Mixed",
+					
+					
+					
+					
 					},
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -5515,9 +5524,12 @@ return {
 					'display_name', T(701345923840, "Дорога к маяку"),
 					'TerrainType', "Jungle",
 					'InitialSquads', {
-						"LegionAttackers_Balanced_Easy",
-						"LegionAttackers_Balanced_Easy",
-						"LegionAttackers_Balanced_Easy",
+						"LegionErnie_Medium_Road_A",
+						"LegionExtra_Ernie_Flankers",
+					
+					
+					
+					
 					},
 					'MinFlareCarriers', 12,
 					'MaxFlareCarriers', 15,
@@ -5555,11 +5567,12 @@ return {
 					'ShowCity', true,
 					'Hospital', true,
 					'InitialSquads', {
-						"LegionAttackers_Marksmen_Easy",
-						"LegionAttackers_Marksmen_Easy",
-						"LegionAttackers_Balanced_Easy",
-						"LegionAttackers_Balanced_Easy",
-						"LegionDefenders_Mobile_Easy",
+						"LegionErnie_I2_Lighthouse",
+						"LegionExtra_Ernie_Veterans",
+					
+					
+					
+					
 					},
 					'InterestingSector', true,
 					'MinFlareCarriers', 12,
@@ -6415,10 +6428,9 @@ return {
 					'MaxMilitia', 20,
 					'MilitiaTrainingCost', 600,
 					'InitialSquads', {
-						"LegionExtraSquadFireArms",
-						"LegionDefenders_Shooters_Easy",
-						"LegionDefenders_Shooters_Easy",
-						"LegionDefenders_Balanced_Easy",
+						"LegionDefenders_Shooters_Easy_Ernie",
+					
+					
 					},
 					'MinFlareCarriers', 12,
 					'MaxFlareCarriers', 15,
@@ -7438,8 +7450,12 @@ return {
 					'Militia', true,
 					'MaxMilitia', 12,
 					'InitialSquads', {
-						"Legion_Patrol_1",
-						"LegionExtraSquadMelee_T2",
+						"LegionErnie_Medium_Forest_A",
+						"LegionExtra_Ernie_Flankers",
+					
+					
+					
+					
 					},
 					'InterestingSector', true,
 					'MinFlareCarriers', 12,
@@ -7476,10 +7492,12 @@ return {
 					'MinFlareCarriers', 12,
 					'MaxFlareCarriers', 15,
 					'InitialSquads', {
-						"LegionExtraSquadFireArms_T2",
-						"LegionRaidSquad_01",
-						"LegionExtraSquadMeleeV2",
-						"LegionRaidSquad_01",
+						"LegionErnie_Medium_Bunker_AB",
+						"LegionExtra_Ernie_Grenadiers",
+					
+					
+					
+					
 					},
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
@@ -7608,9 +7626,12 @@ return {
 					'WeatherZone', "CursedForest",
 					'City', "Rebels_Ernie",
 					'InitialSquads', {
-						"LegionExtraSquadMeleeV2",
-						"LegionExtraSquadMelee_T2",
-						"LegionRaidSquad_01",
+						"LegionErnie_Medium_Forest_A",
+						"LegionExtra_Ernie_Melee",
+					
+					
+					
+					
 					},
 					'MinFlareCarriers', 12,
 					'MaxFlareCarriers', 15,
@@ -7649,10 +7670,11 @@ return {
 					'City', "Rebels_Ernie",
 					'ShowCity', true,
 					'InitialSquads', {
-						"LegionRaidSquad_01",
-						"LegionHeavyTroops",
-						"LegionJAZZSquadT2",
-						"LegionExtraSquadFireArms",
+						"LegionErnie_Large_Outpost_B",
+					
+					
+					
+					
 					},
 					'MinFlareCarriers', 12,
 					'MaxFlareCarriers', 15,
@@ -7818,10 +7840,12 @@ return {
 					'TerrainType', "Jungle",
 					'WeatherZone', "Erny",
 					'InitialSquads', {
-						"LegionExtraSquadFireArms_T2",
-						"LegionExtraSquadFireArms_T2",
-						"LegionAttackers_Marksmen_Easy",
-						"LegionHeavyTroops_Gunners",
+						"LegionErnie_Medium_Port_A",
+						"LegionExtra_Ernie_Gunners",
+					
+					
+					
+					
 					},
 					'MinFlareCarriers', 12,
 					'MaxFlareCarriers', 15,
@@ -7857,8 +7881,12 @@ return {
 					'MinFlareCarriers', 12,
 					'MaxFlareCarriers', 15,
 					'InitialSquads', {
-						"LegionAttackers_JazzBalanced_Easy_Assault",
-						"LegionExtraSquadFireArms_T2",
+						"LegionErnie_Medium_Coast_A",
+						"LegionExtra_Ernie_Mixed",
+					
+					
+					
+					
 					},
 					'bidirectionalRoadApply', true,
 					'Roads', set({
@@ -7903,6 +7931,11 @@ return {
 					'ForceConflict', true,
 					'InitialSquads', {
 						"LegionOutlook_Easy",
+						"LegionExtra_Ernie_Marksmen",
+					
+					
+					
+					
 					},
 					'MinFlareCarriers', 12,
 					'MaxFlareCarriers', 15,
