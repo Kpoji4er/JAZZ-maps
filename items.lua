@@ -7064,6 +7064,7 @@ return {
 					'modId', "FhNNYd",
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'image', "Mod/FhNNYd/Images/Maps_Images/K2.jpg",
 				}),
 			}),
 			}),
@@ -40143,6 +40144,7 @@ PlaceObj('ConversationPhrase', {
 					'modId', "FhNNYd",
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
+					'image', "Mod/FhNNYd/Images/Maps_Images/K2.jpg",
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "K20",
