@@ -1,6 +1,6 @@
 # Атлас секторов Grand Chien (jazz-maps)
 
-Расширенная кампания `HotDiamonds`: сетка **A–P × 1–32** (`sector_bottomright = P32`), старт **`M1`**, сателлит [`Images/GrandChien2.png`](../../Images/GrandChien2.png) (`map_file = Mod/FhNNYd/Images/GrandChien2.png`). Underground: `Images/BigMap_Under_1.png`.
+Расширенная кампания `HotDiamonds`: сетка **A–P × 1–32** (`sector_bottomright = P32`), старт **`M1`**, сателлит [`GrandChien2.png`](../../../../jazz-maps/Images/GrandChien2.png) (`map_file = Mod/FhNNYd/Images/GrandChien2.png`). Underground: `Images/BigMap_Under_1.png`.
 
 Снимок runtime: **245** `ModItemSector` (surface 227, underground 18) из `items.lua` — без обхода `Maps/`.
 
@@ -173,7 +173,7 @@
 | `J28` | Wetlands | Болота со входом в метро | `SQASJXH` | J28 Болота с входом в метро |
 | `J29` | Лагерь надежды | Лагерь надежды | `dRrFReT` | J29 Лагерь надежды |
 | `J31` |  | Филер | `updJS3E` |  |
-| `K2` |  |  | `GoDqhMQ` | Море |
+| `K2` | Старая ретрансляционная башня | Старая ретрансляционная башня | `GoDqhMQ` | Море |
 | `K3` | Походный лагерь Легиона | Походный лагерь Легиона 1 | `Vgwwieh` | K3 Походный Лагерь Легиона 1 |
 | `K4` | Flag Hill | Флаговый холм | `gsSMikN` | K4 Флаговый холм |
 | `K5` | Походный лагерь Легиона | Походный лагерь Легиона 5 | `YWtYj6q` | K5 Походный Лагерь Легиона 5 |
@@ -297,4 +297,4 @@
 
 - [Трансфер](sector-transfer.md)
 - [Сверка sheet ↔ runtime](sector-sheet-vs-runtime.md)
-- [Квесты / локации / враги](quests-locations-enemies.md)
+- [Квесты / локации / враги](../../../../jazz-maps/docs/content/quests-locations-enemies.md)

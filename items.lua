@@ -7055,6 +7055,7 @@ return {
 				}),
 			}),
 			PlaceObj('ModItemSector', {
+				'comment', "Старая ретрансляционная башня",
 				'mapName', "GoDqhMQ",
 				'campaignId', "HotDiamonds",
 				'sectorId', "K2",
@@ -7062,6 +7063,7 @@ return {
 					'Id', "K2",
 					'Map', "GoDqhMQ",
 					'modId', "FhNNYd",
+					'display_name', T(890000000020156, "Старая ретрансляционная башня"),
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'image', "Mod/FhNNYd/Images/Maps_Images/K2.jpg",
@@ -40142,6 +40144,7 @@ PlaceObj('ConversationPhrase', {
 					'Id', "K2",
 					'Map', "GoDqhMQ",
 					'modId', "FhNNYd",
+					'display_name', T(890000000020156, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K2]] "Старая ретрансляционная башня"),
 					'bidirectionalRoadApply', true,
 					'bidirectionalBlockApply', true,
 					'image', "Mod/FhNNYd/Images/Maps_Images/K2.jpg",
