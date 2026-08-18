@@ -220,7 +220,7 @@ PlaceObj('GridMarker', {
 	'AreaHeight', 36,
 }, nil, 1796292646)
 PlaceObj('UnitMarker', {
-	'Pos', point(72600, 107400, 19600),
+	'Pos', point(72600, 107400, 18900),
 	'Angle', 10800,
 	'Groups', {
 		"Legion_Shooters",
