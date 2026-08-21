@@ -2,7 +2,7 @@ return PlaceObj('ModDef', {
 	'title', "JAZZ Maps",
 	'description', "Maps for JAZZ\n\nКарты для ДЖАЗ",
 	'image', "Mod/FhNNYd/Images/J 2.png",
-	'last_changes', "- M3 waterfall: lower Legion Gunner UnitMarker Z onto terrain (was floating) [no new game]\n- K2: Старая ретрансляционная башня / Old Relay Tower [no new game]\n- K2: replace empty sea stub with authored coastal map + satellite image [no new game]\n- fix: sync HotDiamonds Ernie Init to UNITS-007 ModItem (stop ghost [0] squads) [new game]\n- UNITS-007: Ernie overflow InitialSquads rewire (M4-M6/I2-I4/L1-L2/L6/I7) [new game]\n- QUESTS-003: Flag Hill villa counterattack (move Attackers, Ernie30, Wave2) [new game recommended]\n- Ernie island: night flare carriers normalized to 12-15 [no new game]\n- Ernie M3: soft-nerf waterfall garrison and spawn waves [no new game]\n- QUESTS-002: remap vanilla quest landmarks to maps sector grid (Wave A+B) [new game recommended]\n- QUESTS-001: repair Ernie quests, map markers and Barry Seal recruitment [new game recommended]\nLOC-002: normalize quest and banter source fallbacks [skip discord]\n- Fix Ghost/Maleko/Kiki portraits after Images->NPCPortraits migrate [discord]\n- M1/J2: clear forced day Lightmodel so night/weather TOD works\n- Move GrandChien2.png to Git LFS (70MB map art) [discord]\n- Global AI outpost lists (P17/E10/D18/H19/L15/G22/K21) + GrandChien2 map art [discord]\n- FortifyErnie MG hand-in: Jazz Browning + bench (not MG42) [discord]\n- Camp du Crocodile: export UpdateReachSectorCenter + Msg rawset; sector atlas docs/CSV\nCrocodile patrol Msg wrap fix\n- Packaging: expand .gitignore + metadata ignore_files for Steam upload",
+	'last_changes', "- M4 Outlook: clear leftover Sniper GridMarker names so class names show [no new game]\n- M3 waterfall: lower Legion Gunner UnitMarker Z onto terrain (was floating) [no new game]\n- K2: Старая ретрансляционная башня / Old Relay Tower [no new game]\n- K2: replace empty sea stub with authored coastal map + satellite image [no new game]\n- fix: sync HotDiamonds Ernie Init to UNITS-007 ModItem (stop ghost [0] squads) [new game]\n- UNITS-007: Ernie overflow InitialSquads rewire (M4-M6/I2-I4/L1-L2/L6/I7) [new game]\n- QUESTS-003: Flag Hill villa counterattack (move Attackers, Ernie30, Wave2) [new game recommended]\n- Ernie island: night flare carriers normalized to 12-15 [no new game]\n- Ernie M3: soft-nerf waterfall garrison and spawn waves [no new game]\n- QUESTS-002: remap vanilla quest landmarks to maps sector grid (Wave A+B) [new game recommended]\n- QUESTS-001: repair Ernie quests, map markers and Barry Seal recruitment [new game recommended]\nLOC-002: normalize quest and banter source fallbacks [skip discord]\n- Fix Ghost/Maleko/Kiki portraits after Images->NPCPortraits migrate [discord]\n- M1/J2: clear forced day Lightmodel so night/weather TOD works\n- Move GrandChien2.png to Git LFS (70MB map art) [discord]\n- Global AI outpost lists (P17/E10/D18/H19/L15/G22/K21) + GrandChien2 map art [discord]\n- FortifyErnie MG hand-in: Jazz Browning + bench (not MG42) [discord]\n- Camp du Crocodile: export UpdateReachSectorCenter + Msg rawset; sector atlas docs/CSV\nCrocodile patrol Msg wrap fix\n- Packaging: expand .gitignore + metadata ignore_files for Steam upload",
 	'ignore_files', {
 		"*.git/*",
 		"*.svn/*",
@@ -54,7 +54,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 7,
-	'version', 5146,
+	'version', 5147,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {

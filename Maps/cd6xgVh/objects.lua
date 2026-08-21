@@ -775,7 +775,6 @@ PlaceObj('GridMarker', {
 	'Type', "DefenderPriority",
 	'Trigger', "always",
 	'Routine', "Patrol",
-	'Name', T(152613376937, "Sniper\n"),
 	'Archetypes', {
 		"Marksman",
 	},
@@ -810,7 +809,6 @@ PlaceObj('GridMarker', {
 	'Type', "DefenderPriority",
 	'Trigger', "always",
 	'Routine', "StandStill",
-	'Name', T(152613376937, "Sniper\n"),
 	'Archetypes', {
 		"Heavy",
 		"Artillery",
@@ -1194,7 +1192,6 @@ PlaceObj('GridMarker', {
 	'Type', "DefenderPriority",
 	'Trigger', "always",
 	'Routine', "Patrol",
-	'Name', T(152613376937, "Sniper\n"),
 	'Archetypes', {
 		"Marksman",
 		"Soldier",
@@ -1601,7 +1598,6 @@ PlaceObj('GridMarker', {
 	'Type', "DefenderPriority",
 	'Trigger', "always",
 	'Routine', "Patrol",
-	'Name', T(152613376937, "Sniper\n"),
 	'Archetypes', {
 		"Marksman",
 	},
