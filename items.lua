@@ -7630,11 +7630,6 @@ return {
 					'City', "Rebels_Ernie",
 					'InitialSquads', {
 						"LegionErnie_Medium_Forest_A",
-						"LegionExtra_Ernie_Melee",
-					
-					
-					
-					
 					},
 					'MinFlareCarriers', 12,
 					'MaxFlareCarriers', 15,
@@ -40972,7 +40967,6 @@ PlaceObj('ConversationPhrase', {
 					'City', "Rebels_Ernie",
 					'InitialSquads', {
 						"LegionErnie_Medium_Forest_A",
-						"LegionExtra_Ernie_Melee",
 					},
 					'MinFlareCarriers', 12,
 					'MaxFlareCarriers', 15,
