@@ -2,7 +2,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"SmallContainer_Exceptional",
+			"Jazz_Random_Ammo_Drop_T1",
 		},
 		handle = 194297856,
 		map = "XnkxuED",
@@ -13,7 +13,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"LargeContainer_Exceptional",
+			"Bunker_Shotgun",
 		},
 		handle = 269795328,
 		map = "XnkxuED",
@@ -24,7 +24,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"SmallContainer_Exceptional",
+			"Bunker_MP40_add_ammo",
 		},
 		handle = 461938688,
 		map = "XnkxuED",

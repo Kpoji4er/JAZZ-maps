@@ -25,7 +25,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"LargeContainer_Exceptional_4",
+			"Jazz_Random_Ammo_Drop_T1",
 		},
 		handle = 8970240,
 		map = "GoDqhMQ",
@@ -37,9 +37,8 @@
 		Groups = false,
 		LootTableIds = {
 			"Container_Explosives_TNT",
-			"Container_Explosives_Detonators_Remote",
-			"Container_Explosives_PETN",
-			"Container_Explosives_C4",
+			"Container_Explosives_VariedUtility",
+			"Container_PipeBomb_BlackPowder",
 		},
 		handle = 409542656,
 		map = "GoDqhMQ",
@@ -50,7 +49,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"IntelSecretStash",
+			"ErnieSecretStash1",
 		},
 		handle = 445923328,
 		map = "GoDqhMQ",

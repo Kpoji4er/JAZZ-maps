@@ -3936,7 +3936,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(604728008938, "CHEST"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "LargeContainer_Exceptional",
+			'LootTableId', "Bunker_Shotgun",
 		}),
 	},
 }, nil, 269795328)
@@ -3949,7 +3949,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(710145438390, "CONTAINER"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "SmallContainer_Exceptional",
+			'LootTableId', "Bunker_MP40_add_ammo",
 		}),
 	},
 }, nil, 461938688)
@@ -4000,7 +4000,7 @@ PlaceObj('ContainerMarker', {
 	'DisplayName', T(710145438390, "CONTAINER"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "SmallContainer_Exceptional",
+			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
 		}),
 	},
 }, nil, 194297856)

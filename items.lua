@@ -7062,6 +7062,7 @@ return {
 				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
 					'Id', "K2",
 					'Map', "GoDqhMQ",
+					'MapTier', 10,
 					'modId', "FhNNYd",
 					'display_name', T(890000000020156, "Старая ретрансляционная башня"),
 					'bidirectionalRoadApply', true,
@@ -7489,6 +7490,7 @@ return {
 				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
 					'Id', "L6_Underground",
 					'Map', "XnkxuED",
+					'MapTier', 10,
 					'modId', "FhNNYd",
 					'GroundSector', "L6",
 					'display_name', T(362916261613, "Бункер партизан"),
@@ -40138,6 +40140,7 @@ PlaceObj('ConversationPhrase', {
 				PlaceObj('SatelliteSector', {
 					'Id', "K2",
 					'Map', "GoDqhMQ",
+					'MapTier', 10,
 					'modId', "FhNNYd",
 					'display_name', T(890000000020156, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for K2]] "Старая ретрансляционная башня"),
 					'bidirectionalRoadApply', true,
@@ -41311,6 +41314,7 @@ PlaceObj('ConversationPhrase', {
 				PlaceObj('SatelliteSector', {
 					'Id', "L6_Underground",
 					'Map', "XnkxuED",
+					'MapTier', 10,
 					'modId', "FhNNYd",
 					'GroundSector', "L6",
 					'display_name', T(362916261613, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for L6_Underground]] "Бункер партизан"),

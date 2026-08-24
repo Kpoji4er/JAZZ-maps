@@ -2120,11 +2120,11 @@ PlaceObj('UnitMarker', {
 	'Pos', point(121800, 69000, 11900),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
-	'Appearance', "LegionSniper_Stronger_Elite",
+	'Appearance', "LegionSharpShooter",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FrontT3_Sniper",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
 		}),
 	},
 }, nil, 1804195099)
@@ -2240,11 +2240,11 @@ PlaceObj('UnitMarker', {
 	'Pos', point(138600, 45000, 9100),
 	'Angle', 5400,
 	'AllowedMask', 4294966497,
-	'Appearance', "LegionManiac_Stronger_Elite",
+	'Appearance', "Legion_Soldier02",
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_AssaultT3_Punisher",
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
 		}),
 	},
 }, nil, 1838071058)
@@ -2283,7 +2283,7 @@ PlaceObj('UnitMarker', {
 	'Side', "enemy1",
 	'UnitDataSpawnDefs', {
 		PlaceObj('UnitDataSpawnData', {
-			'UnitDataDefId', "JAZZ_Legion_FrontT2_Raider",
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
 		}),
 	},
 }, nil, 1589495646)
@@ -2591,7 +2591,7 @@ PlaceObj('ContainerIntelMarker', {
 	'DisplayName', T(654287758819, "SECRET STASH"),
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "IntelSecretStash",
+			'LootTableId', "ErnieSecretStash1",
 		}),
 	},
 }, nil, 445923328)
@@ -2687,10 +2687,10 @@ PlaceObj('ContainerMarker', {
 	'lockpickDifficulty', "Hard",
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'ItemId', "JazzArmorPlates_Titan3",
+			'ItemId', "JazzArmorPlates_Scrap",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'ItemId', "JazzArmorPlates_Steel4",
+			'ItemId', "JazzArmorPlates_Kevlar",
 		}),
 	},
 }, nil, 698892288)
@@ -2705,14 +2705,10 @@ PlaceObj('ContainerMarker', {
 			'LootTableId', "Container_Explosives_TNT",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'ItemId', "C4",
-			'LootTableId', "Container_Explosives_Detonators_Remote",
+			'LootTableId', "Container_Explosives_VariedUtility",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Container_Explosives_PETN",
-		}),
-		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Container_Explosives_C4",
+			'LootTableId', "Container_PipeBomb_BlackPowder",
 		}),
 	},
 }, nil, 409542656)
@@ -2732,10 +2728,10 @@ PlaceObj('ContainerMarker', {
 	'lockpickDifficulty', "Medium",
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'ItemId', "AR15",
+			'ItemId', "MP40",
 		}),
 		PlaceObj('ConditionalLoot', {
-			'ItemId', "ArcticWarfare",
+			'ItemId', "Gewehr98",
 		}),
 	},
 }, nil, 254394368)
@@ -2873,7 +2869,7 @@ PlaceObj('ContainerMarker', {
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
 			'ItemId', "Molotov",
-			'LootTableId', "LargeContainer_Exceptional_4",
+			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
 		}),
 	},
 }, nil, 8970240)
@@ -2919,7 +2915,6 @@ PlaceObj('ContainerMarker', {
 	'AllowedMask', 4294966497,
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'ItemId', "MetaviraShot",
 			'LootTableId', "MedsDrop",
 		}),
 	},
