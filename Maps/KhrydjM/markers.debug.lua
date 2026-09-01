@@ -2,7 +2,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Diamonds_Loot",
+			"Jazz_Random_Ammo_Drop_T1",
 		},
 		handle = 328622080,
 		map = "KhrydjM",
@@ -13,7 +13,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Drop_12gauge_Breacher",
+			"Drop_12gauge_Buckshot",
 		},
 		handle = 370417664,
 		map = "KhrydjM",
@@ -35,7 +35,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"DiamondRed_IntelStash",
+			"ErnieSecretStash1",
 		},
 		handle = 475250688,
 		map = "KhrydjM",
