@@ -2,7 +2,7 @@
 
 DefineMapData{
 	AssetsRevision = 65899,
-	AtmosphericParticles = "Jungle_Mist",
+	AtmosphericParticles = "",
 	CameraFovX = false,
 	CameraLookAt = false,
 	CameraPos = false,

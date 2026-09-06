@@ -107540,6 +107540,24 @@ PlaceObj('ModItemQuestsDef', {
 			}),
 		}),
 		PlaceObj('ModItemLootDef', {
+			Comment = "ernie remake of vanilla leftover",
+			group = "MapContainers",
+			id = "Diamonds_Loot",
+			PlaceObj('LootEntryLootDef', {
+				guaranteed = true,
+				loot_def = "Jazz_Random_Ammo_Drop_T1",
+			}),
+		}),
+		PlaceObj('ModItemLootDef', {
+			Comment = "ernie remake of vanilla leftover",
+			group = "MapContainers",
+			id = "DiamondRed_IntelStash",
+			PlaceObj('LootEntryLootDef', {
+				guaranteed = true,
+				loot_def = "ErnieSecretStash1",
+			}),
+		}),
+		PlaceObj('ModItemLootDef', {
 			Comment = "container",
 			group = "MapContainers",
 			id = "JazzMapContainer_M2_LootGraves",

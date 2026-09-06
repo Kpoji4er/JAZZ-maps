@@ -1100,6 +1100,7 @@ PlaceObj('UnitMarker', {
 	},
 	'TriggerEffects', {
 		PlaceObj('GroupSetBehaviorAdvanceTo', {
+			MarkerGroup = "Rebels_Camp_LegionCamp5",
 			MarkerType = "Logic",
 			Running = true,
 			TargetUnit = "Rebel_Hostage",

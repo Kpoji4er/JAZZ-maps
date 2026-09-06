@@ -289,7 +289,10 @@ PlaceObj('ContainerIntelMarker', {
 	'AllowedMask', 4294966497,
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "ErnieSecretStash1",
+			'LootTableId', "DiamondRed_IntelStash",
+		}),
+		PlaceObj('ConditionalLoot', {
+			'LootTableId', "DiamondRed_IntelStash",
 		}),
 	},
 }, nil, 475250688)
@@ -316,7 +319,7 @@ PlaceObj('ContainerMarker', {
 	'AllowedMask', 4294966497,
 	'ItemSpawners', {
 		PlaceObj('ConditionalLoot', {
-			'LootTableId', "Jazz_Random_Ammo_Drop_T1",
+			'LootTableId', "Diamonds_Loot",
 		}),
 	},
 }, nil, 328622080)

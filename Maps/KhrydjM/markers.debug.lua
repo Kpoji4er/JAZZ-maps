@@ -2,7 +2,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"Jazz_Random_Ammo_Drop_T1",
+			"Diamonds_Loot",
 		},
 		handle = 328622080,
 		map = "KhrydjM",
@@ -35,7 +35,7 @@
 	{
 		Groups = false,
 		LootTableIds = {
-			"ErnieSecretStash1",
+			"DiamondRed_IntelStash",
 		},
 		handle = 475250688,
 		map = "KhrydjM",
