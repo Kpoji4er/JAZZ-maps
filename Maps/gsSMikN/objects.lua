@@ -2563,17 +2563,6 @@ PlaceObj('ExitZoneInteractable', {
 	'AllowedMask', 4294966497,
 	'entity', "TravelMarker_06",
 }, nil, 1760053883)
-, nil, 1661783716)
-, nil, 1250286084)
-, nil, 1243871818)
-, nil, 1774739277)
-, nil, 1307801348)
-, nil, 1255599676)
-, nil, 1611451284)
-, nil, 1434356733)
-, nil, 1292128590)
-, nil, 1422750371)
-, nil, 1659383212)
 PlaceObj('ContainerMarker', {
 	'Pos', point(90600, 113400, 7000),
 	'CollectionIndex', 2300,
@@ -2606,9 +2595,6 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 2932736)
-, nil, 1862623350)
-, nil, 1315501847)
-, nil, 1749138926)
 PlaceObj('WaypointMarker', {
 	'Pos', point(107400, 130200, 14700),
 	'Angle', 5400,
@@ -2659,7 +2645,6 @@ PlaceObj('UnitMarker', {
 		"Distracted",
 	},
 }, nil, 1272076020)
-, nil, 1635877710)
 PlaceObj('UnitMarker', {
 	'Pos', point(115800, 130200, 15400),
 	'Groups', {
@@ -3064,12 +3049,6 @@ PlaceObj('WaypointMarker', {
 	'AllowedMask', 4294966497,
 	'ID', "15",
 }, nil, 1315380556)
-, nil, 1593460736)
-, nil, 1099125012)
-, nil, 1631199364)
-, nil, 1805950085)
-, nil, 1525230540)
-, nil, 1321829224)
 PlaceObj('UnitMarker', {
 	'Pos', point(93000, 174600),
 	'Groups', {
@@ -3247,7 +3226,6 @@ PlaceObj('UnitMarker', {
 		}),
 	},
 }, nil, 1756350796)
-, nil, 1218854635)
 PlaceObj('UnitMarker', {
 	'Pos', point(94200, 185400),
 	'Groups', {
@@ -4481,7 +4459,6 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 653246464)
-, nil, 1857568852)
 PlaceObj('ContainerMarker', {
 	'Pos', point(147000, 107400),
 	'Angle', 10800,
@@ -4509,11 +4486,6 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 518234112)
-, nil, 1829960649)
-, nil, 1807430776)
-, nil, 1498083381)
-, nil, 1003424728)
-, nil, 1191419216)
 PlaceObj('UnitMarker', {
 	'Pos', point(160200, 117000),
 	'Angle', 10800,
@@ -4778,8 +4750,6 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 1491400324)
-, nil, 1211026438)
-, nil, 1351251830)
 PlaceObj('ContainerMarker', {
 	'Pos', point(155400, 148200, 9100),
 	'Angle', 5400,
@@ -4796,7 +4766,6 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 271302656)
-, nil, 1750463986)
 PlaceObj('UnitMarker', {
 	'Pos', point(132600, 172200, 18900),
 	'Angle', 16200,
@@ -4883,7 +4852,6 @@ PlaceObj('UnitMarker', {
 		"Distracted",
 	},
 }, nil, 1749554425)
-, nil, 1601032639)
 PlaceObj('ContainerMarker', {
 	'Pos', point(143285, 165793),
 	'Angle', 16200,
@@ -4915,7 +4883,6 @@ PlaceObj('ContainerMarker', {
 		}),
 	},
 }, nil, 1840564509)
-, nil, 1263121263)
 PlaceObj('ContainerMarker', {
 	'Pos', point(139800, 174600),
 	'Angle', 5400,
@@ -5575,14 +5542,6 @@ PlaceObj('HerbMarker', {
 	'CollectionIndex', 2573,
 	'AllowedMask', 4294966497,
 }, nil, 1122254255)
-, nil, 1018171116)
-, nil, 1635930250)
-, nil, 1364025854)
-, nil, 1429197765)
-, nil, 1337526389)
-, nil, 1663057829)
-, nil, 1881228059)
-, nil, 1460241574)
 PlaceObj('WaypointMarker', {
 	'Pos', point(201000, 141000),
 	'Groups', {
@@ -85241,12 +85200,561 @@ PlaceObj('CollectionsToHidePersistableData', {
 	'South', {o(1097736022),o(1212180244),o(1330735849),o(1733966393),o(1554627192),o(1161330766),o(1816544147),o(1001106376),o(1739691253),o(1190858199),o(1559200975),o(1787687505),},
 }, nil, 1736636295)
 
-
 -- objects without Lua object
 --PlaceAndInit(pos_x, pos_y, ..., mask)
 --The ... are zero or more parameters, e.g. axis, angle, scale, color modifier, group, game/enum flags etc.
 --Parameters which have the default value for this parameter are skipped.
 --The mask parameter has bits set for each parameter actually supplied to the function.
+PlaceObj('UnitMarker', {
+	'Pos', point(60600, 121800, 7000),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
+		}),
+	},
+}, nil, 1900000000)
+PlaceObj('UnitMarker', {
+	'Pos', point(64200, 118200, 7000),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
+		}),
+	},
+}, nil, 1900000001)
+PlaceObj('UnitMarker', {
+	'Pos', point(65400, 118200, 7000),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
+		}),
+	},
+}, nil, 1900000002)
+PlaceObj('UnitMarker', {
+	'Pos', point(61800, 120600, 7000),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT2_ShockTrooper",
+		}),
+	},
+}, nil, 1900000003)
+PlaceObj('UnitMarker', {
+	'Pos', point(63000, 119400, 7000),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Raider",
+		}),
+	},
+}, nil, 1900000004)
+PlaceObj('UnitMarker', {
+	'Pos', point(61800, 121800, 7000),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Ambusher",
+		}),
+	},
+}, nil, 1900000005)
+PlaceObj('UnitMarker', {
+	'Pos', point(93000, 94200, 7700),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_GunnerT1_Gunner",
+		}),
+	},
+}, nil, 1900000006)
+PlaceObj('UnitMarker', {
+	'Pos', point(94200, 93000, 7700),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
+		}),
+	},
+}, nil, 1900000007)
+PlaceObj('UnitMarker', {
+	'Pos', point(93000, 95400, 7700),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
+		}),
+	},
+}, nil, 1900000008)
+PlaceObj('UnitMarker', {
+	'Pos', point(94200, 95400, 7700),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Bonemaker",
+		}),
+	},
+}, nil, 1900000009)
+PlaceObj('UnitMarker', {
+	'Pos', point(95400, 94200, 7700),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
+		}),
+	},
+}, nil, 1900000010)
+PlaceObj('UnitMarker', {
+	'Pos', point(108600, 115800, 7700),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
+		}),
+	},
+}, nil, 1900000011)
+PlaceObj('UnitMarker', {
+	'Pos', point(109800, 117000, 7700),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
+		}),
+	},
+}, nil, 1900000012)
+PlaceObj('UnitMarker', {
+	'Pos', point(111000, 117000, 7700),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT2_ShockTrooper",
+		}),
+	},
+}, nil, 1900000013)
+PlaceObj('UnitMarker', {
+	'Pos', point(117000, 118200, 7700),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Raider",
+		}),
+	},
+}, nil, 1900000014)
+PlaceObj('UnitMarker', {
+	'Pos', point(87000, 166200, 9100),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Ambusher",
+		}),
+	},
+}, nil, 1900000015)
+PlaceObj('UnitMarker', {
+	'Pos', point(87000, 167400, 9100),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_GunnerT1_Gunner",
+		}),
+	},
+}, nil, 1900000016)
+PlaceObj('UnitMarker', {
+	'Pos', point(89400, 167400, 9100),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Grenadier",
+		}),
+	},
+}, nil, 1900000017)
+PlaceObj('UnitMarker', {
+	'Pos', point(84600, 172200, 9100),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FlankerT1_Warden",
+		}),
+	},
+}, nil, 1900000018)
+PlaceObj('UnitMarker', {
+	'Pos', point(84600, 177000, 9100),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Bonemaker",
+		}),
+	},
+}, nil, 1900000019)
+PlaceObj('UnitMarker', {
+	'Pos', point(87000, 172200, 9100),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT1_Roughneck",
+		}),
+	},
+}, nil, 1900000020)
+PlaceObj('UnitMarker', {
+	'Pos', point(94200, 183000, 9100),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Marauder",
+		}),
+	},
+}, nil, 1900000021)
+PlaceObj('UnitMarker', {
+	'Pos', point(142200, 108600, 7000),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT1_Rifleman",
+		}),
+	},
+}, nil, 1900000022)
+PlaceObj('UnitMarker', {
+	'Pos', point(153000, 100200, 7000),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_AssaultT2_ShockTrooper",
+		}),
+	},
+}, nil, 1900000023)
+PlaceObj('UnitMarker', {
+	'Pos', point(151800, 101400, 7000),
+	'Groups', {
+		"VillaSiege_Wave2",
+		"Legion",
+	},
+	'AllowedMask', 4294966497,
+	'Routine', "AdvanceTo",
+	'RoutineArea', "EmmaAndCorazon",
+	'Spawn_Conditions', {
+		PlaceObj('QuestIsVariableBool', {
+			QuestId = "Jazz_VillaCounterAttack",
+			Vars = set( "Wave2Spawn" ),
+		}),
+	},
+	'Side', "enemy1",
+	'UnitDataSpawnDefs', {
+		PlaceObj('UnitDataSpawnData', {
+			'UnitDataDefId', "JAZZ_Legion_FrontT2_Raider",
+		}),
+	},
+}, nil, 1900000024)
 LoadPersistFlagTables({8388608,16384,1048576,4096,256,18014398509481984,36028797018963968,1152921504606846976,2147483648,4294967296,2305843009213693952,4611686018427387904},{16384,524288,1048576,8,32,16,8388608,65536})
 local p = PlaceAndInit_v5
 
@@ -98315,554 +98823,3 @@ p("TropicalRockSharp_01",-126,235163,10207,9780,157,-324,-600,4038,3200,2097237)
 p("World_Mountain_Horizon_03",-50054,325315,13095,9051,90,"TerrainJungleForest_Floor_01_mesh.mtl",10,0,0,28,64,10,40,60,2228229)
 p("World_Mountain_Horizon_04",-24516,313107,11206,19121,90,-311,-825,3999,"TerrainJungleForest_Floor_01_mesh.mtl",10,0,0,28,64,10,40,60,2228245)
 LoadPersistFlagTables()
-
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_AssaultT1_Roughneck",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000000,
-	Pos = point(60600, 121800, 7000),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_FrontT1_Marauder",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000001,
-	Pos = point(64200, 118200, 7000),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_FrontT1_Rifleman",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000002,
-	Pos = point(65400, 118200, 7000),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_AssaultT2_ShockTrooper",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000003,
-	Pos = point(61800, 120600, 7000),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_FrontT2_Raider",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000004,
-	Pos = point(63000, 119400, 7000),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_FrontT2_Ambusher",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000005,
-	Pos = point(61800, 121800, 7000),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_GunnerT1_Gunner",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000006,
-	Pos = point(93000, 94200, 7700),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_AssaultT1_Grenadier",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000007,
-	Pos = point(94200, 93000, 7700),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_FlankerT1_Warden",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000008,
-	Pos = point(93000, 95400, 7700),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_FrontT1_Bonemaker",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000009,
-	Pos = point(94200, 95400, 7700),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_AssaultT1_Roughneck",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000010,
-	Pos = point(95400, 94200, 7700),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_FrontT1_Marauder",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000011,
-	Pos = point(108600, 115800, 7700),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_FrontT1_Rifleman",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000012,
-	Pos = point(109800, 117000, 7700),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_AssaultT2_ShockTrooper",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000013,
-	Pos = point(111000, 117000, 7700),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_FrontT2_Raider",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000014,
-	Pos = point(117000, 118200, 7700),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_FrontT2_Ambusher",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000015,
-	Pos = point(87000, 166200, 9100),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_GunnerT1_Gunner",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000016,
-	Pos = point(87000, 167400, 9100),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_AssaultT1_Grenadier",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000017,
-	Pos = point(89400, 167400, 9100),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_FlankerT1_Warden",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000018,
-	Pos = point(84600, 172200, 9100),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_FrontT1_Bonemaker",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000019,
-	Pos = point(84600, 177000, 9100),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_AssaultT1_Roughneck",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000020,
-	Pos = point(87000, 172200, 9100),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_FrontT1_Marauder",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000021,
-	Pos = point(94200, 183000, 9100),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_FrontT1_Rifleman",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000022,
-	Pos = point(142200, 108600, 7000),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_AssaultT2_ShockTrooper",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000023,
-	Pos = point(153000, 100200, 7000),
-}),
-PlaceObj('UnitMarker', {
-	Groups = {
-		"VillaSiege_Wave2",
-		"Legion",
-	},
-	Routine = "AdvanceTo",
-	RoutineArea = "EmmaAndCorazon",
-	Side = "enemy1",
-	UnitDataSpawnDefs = {
-		PlaceObj('UnitDataSpawnDef', {
-			'UnitDef', "JAZZ_Legion_FrontT2_Raider",
-		}),
-	},
-	Spawn_Conditions = {
-		PlaceObj('QuestIsVariableBool', {
-			QuestId = "Jazz_VillaCounterAttack",
-			Vars = set( "Wave2Spawn" ),
-		}),
-	},
-	handle = 1900000024,
-	Pos = point(151800, 101400, 7000),
-}),
