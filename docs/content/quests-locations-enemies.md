@@ -135,7 +135,7 @@
 | `TakeTheFortress` | Fort L'Eau Bleu | нет | I6, I7, J7 | Угроза outpost Легиона |
 | `ReduceFortressStrength` | How to reduce the Fort's defenses | да | — | Связка с механикой силы guardpost |
 | `RescueHerMan` | Herman is missing | нет | I5, J7 | Похищение; setpiece EncounterHerman |
-| `FortifyErnie` | Helping Ernie Village | нет | I5, I6, I6_Underground | Browning .50 (`Jazz_Browning_MuchineGun` + `Jazz_Browning_Bench`) для защиты I5; GreasyBasil hand-in must take that pair (not `MG42`) |
+| `FortifyErnie` | Helping Ernie Village | нет | I5, I6, I6_Underground | Browning .50 (`Jazz_Browning_MuchineGun` + `Jazz_Browning_Bench`, `MiscItem`, без `SubIcon`) для защиты I5; GreasyBasil hand-in must take that pair (not `MG42`) |
 | `PierreDefeated` | Pierre | нет | I5, I7, K4, F19 | Пьер и информация о Майоре |
 | `JoseFamily` | Bastien | нет | I6, E9 | Bastien |
 | `LegionFlag` | Fooling Pierre | да | I7 | Скрытая ветка |
@@ -150,7 +150,7 @@
 |---|---|---|---|
 | `JAZZ_REBELS_0_MeetTheRebels` | Повстанцы | L1 | Встреча с лидером |
 | `JAZZ_REBELS_1_SeizeTheOutlook` | Атака на Смотровую Площадку | M4 | Захват M4 |
-| `Jazz_Doctor_need_Help` | Неугодный доктор | I2, I3 | Медикаменты / мины / боеприпасы |
+| `Jazz_Doctor_need_Help` | Неугодный доктор | I2, I3 | Медикаменты / мины / боеприпасы (`JazzQuestItem_AmmoBox` / `JazzQuestItem_MinesBox` = `QuestItem`, иконка ящика только в `Icon`) |
 | `JAZZ_Ernie_Locals_M2_SaveMyFamily` | Спасти Кики | M1, M3 | Локальные NPC UnitData |
 | `Jazz_ClearTheWay` | Зачистить лагеря вокруг Виллы | K3–K5, L3–L5 | Зачистка периметра виллы |
 | `RescueTeam` | Мы в спасатели нанимались | K5 | Приговорённый партизан на пирсе |
@@ -169,7 +169,7 @@
 
 **Региональные группы:** Savanah (`RefugeeBlues`, `HunterHunted`, `DiamondRed`, …), Pantagruel, Jungle (`Sanatorium`, `Beast`, `Hermit`, …), Wetlands (`Elliot`, `Lenore`, crocodile camp helpers), Highlands (`Landsbach`, …), Farmlands (`TwinManors_copy`, …), Port Cacao, Other (MERC rescues, treasure, …).
 
-**Guardposts с патрулями (примеры):** B28 Орлиное гнездо, D18 Кам-Гран-При, D28 Разлом, E10 Кам-Саван, G22 Кам-Шьен-Саваж, I7 Форт Ло-Блё и др.
+**Guardposts с патрулями (примеры):** B28 Орлиное гнездо, D18 Кам-Гран-При, D28 Разлом, E10 Кам-Саван, G22 Кам-Шьен-Саваж, I7 Форт Ло-Блё, L15 Кам-Ла-Барьер, K21 Кам-Бьян-Шьен, P17 Камп Де Крокодиль. `TargetSectors` после remap указывают на maps-локации (не vanilla B12/F7/G10). I7 по-прежнему бьёт в города, включая E16 (центр Понтагрюэля).
 
 **Скрытые helper-квесты силы лагерей:** `Reduce*CampStrength` (Fortress, Crocodile, Barrier, BienChien, Savanna, Crossroads, River, Major).
 

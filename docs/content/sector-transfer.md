@@ -30,6 +30,14 @@ Machine-readable: [`data/sector-transfer.csv`](data/sector-transfer.csv).
 | `I2` | `M4` | Смотровая площадка | `ok` | sheet | vanilla I2 ≠ maps I2 (доктор) |
 | `I3` | `M7` | Изумрудный берег (пляж с минами) | `missing_moditem` | sheet | sheet → M7 (заглушка); runtime Emerald Coast = J7 |
 | `I1` | `M1` | Старт кампании (зона высадки) | `ok` | suite-docs | suite: InitialSector M1; sheet I1→K4 is Flag Hill. This row is start remap, not Flag Hill. |
+| `H14` | `P17` | Камп Де Крокодиль | `ok` | suite-docs | crocodile camp; not mine H7→H14 |
+| `D10` | `D18` | Аванпост Гран-При (runtime) | `ok` | suite-docs | sheet F23 missing; live Camp Grand Prix = D18 |
+| `F7` | `E10` | Кам-Саван | `ok` | suite-docs | vanilla F7 ≠ maps F7 |
+| `G10` | `L15` | Кам-Ла-Барьер | `ok` | suite-docs | vanilla G10 ≠ maps G10 Ла-Палисад |
+| `E16` | `G22` | Кам-Шьен-Саваж | `ok` | suite-docs | vanilla E16 ≠ maps E16 центр Понтагрюэля |
+| `F19` | `K21` | Кам-Бьян-Шьен | `ok` | suite-docs | vanilla F19 ≠ maps F19 берег в джунглях |
+
+Полная таблица (окраины, Иль-Мора, бензоколонка, Шале, Вассерграб, Grimer): `jazz/docs/technical/maps/sector-transfer.md`.
 
 ## Статусы
 

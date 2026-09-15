@@ -2339,7 +2339,7 @@ Quatro, Cinquo, Senco, Ses
 417983924222,The <em>infection</em> at the <em><SectorName('H12')></em> is out of control and someone has been experimenting on the patients,,,ModItemQuestsDef Sanatorium Text
 261268108725,<em>Dr. Kronenberg</em> has been infecting patients with <em>Red Rabies</em> in order to cure herself of the disease,,,ModItemQuestsDef Sanatorium Text
 688841563804,Dr. Kronenberg needs <em>Red Rabies</em> samples to produce a cure for the virus: <em><Samples> sample(s)</em> found,,,ModItemQuestsDef Sanatorium Text
-621846460826,Virus sample: There is an outbreak at the <em><SectorName('I19')></em>,,,ModItemQuestsDef Sanatorium Text
+621846460826,Virus sample: There is an outbreak at the <em><SectorName('H32')></em>,,,ModItemQuestsDef Sanatorium Text
 186070330181,Virus sample: The ground is sour at the old <em><SectorName('J18')></em>,,,ModItemQuestsDef Sanatorium Text
 189245711616,Virus sample: There is an aircraft wreckage in the <em><SectorName('H16')></em> that may contain the source of the disease,,,ModItemQuestsDef Sanatorium Text
 126005343458,Virus sample: The disease has spread beyond the river to the <em><SectorName('F13')></em>,,,ModItemQuestsDef Sanatorium Text
@@ -2457,10 +2457,10 @@ Quatro, Cinquo, Senco, Ses
 139257604227,<em>Bounce</em> will provide information if <em>The Bonecrusher</em> is defeated in the pit fight in <em><SectorName('A26')></em>,,,ModItemQuestsDef Landsbach Text
 680999839332,<em>Bounce</em> suggests challenging someone to a fight in <em><SectorName('A26')></em>,,,ModItemQuestsDef Landsbach Text
 650772810703,<em>The Bonecrusher</em> is crushed,,,ModItemQuestsDef Landsbach Text
-106709425987,<em>Bounce</em> saw a suspicious van carrying some canisters in the <em><SectorName('C11')></em>,,,ModItemQuestsDef Landsbach Text
+106709425987,<em>Bounce</em> saw a suspicious van carrying some canisters in the <em><SectorName('C14')></em>,,,ModItemQuestsDef Landsbach Text
 158695831687,<em>Mole</em> will share some information if <em>$5000</em> is placed inside the <em>tires</em> near the docks in <em><SectorName('A26')></em>,,,ModItemQuestsDef Landsbach Text
 287198780188,<em>Mole</em> promised to share information about the <em>Diesel</em>,,,ModItemQuestsDef Landsbach Text
-872051962880,Some <em>Travis</em> at the <em><SectorName('C11')></em> might know something about the <em>Diesel</em>,,,ModItemQuestsDef Landsbach Text
+872051962880,Some <em>Travis</em> at the <em><SectorName('C14')></em> might know something about the <em>Diesel</em>,,,ModItemQuestsDef Landsbach Text
 565765633994,<em>Siegfried</em> wants the <em>Diesel</em> brought back to him at the <em><SectorName('A25')></em> ,,,ModItemQuestsDef Landsbach Text
 564660899254,<em>Siegfried</em> got his <em>Diesel</em> back,,,ModItemQuestsDef Landsbach Text
 630345281927,<em>Bounce</em> from <em><SectorName('A26')></em> wants to have a talk before returning the <em>Diesel</em> ,,,ModItemQuestsDef Landsbach Text
@@ -2468,7 +2468,7 @@ Quatro, Cinquo, Senco, Ses
 532458002464,"<em>Siegfried</em> withdrew his soldiers, but the <em>Night Club</em> fighters must be dealt with before the <em><SectorName('A25')></em> can be taken",,,ModItemQuestsDef Landsbach Text
 569250434828,<em>Bounce</em> is waiting for support at the <em><SectorName('A25')></em> to attack <em>Siegfried</em>'s soldiers,,,ModItemQuestsDef Landsbach Text
 288074471915,<em>Bounce</em> and his goons just attacked the <em><SectorName('A25')></em> which will likely result in a bloody crossfire,,,ModItemQuestsDef Landsbach Text
-293402801040,<em>Travis</em> said a <em>van</em> passed near the <em><SectorName('C11')></em> and headed west to the <em><SectorName('C10')></em>,,,ModItemQuestsDef Landsbach Text
+293402801040,<em>Travis</em> said a <em>van</em> passed near the <em><SectorName('C14')></em> and headed west to the <em><SectorName('C10')></em>,,,ModItemQuestsDef Landsbach Text
 957907726429,Clue: There is a <em>fuel tank</em> that has tubes which lead away and disappear into the ground,,,ModItemQuestsDef Landsbach Text
 758875557117,Clue: <em>Siegfried</em>'s notes suggest he has been researching Human Growth Hormones,,,ModItemQuestsDef Landsbach Text
 606061978953,"Clue: Someone is using <em>Diesel</em> to create a ""new mixture""",,,ModItemQuestsDef Landsbach Text
@@ -2479,7 +2479,7 @@ Quatro, Cinquo, Senco, Ses
 875827432124,Clue: <em>Diesel</em> seems to be a street drug with devastating side effects,,,ModItemQuestsDef Landsbach Text
 739430832923,Clue: <em>Siegfried</em> wants <em>The Bonecrusher</em> to join his elite bodyguards,,,ModItemQuestsDef Landsbach Text
 920606777847,Clue: <em>Siegfried</em>'s stolen <em>Diesel</em> was altered into something else,,,ModItemQuestsDef Landsbach Text
-620070697191,Clue: There is a fuel tank near the <em>Legion</em> outpost in <em><SectorName('F23')></em> filled with a substance which might be <em>Diesel</em>,,,ModItemQuestsDef Landsbach Text
+620070697191,Clue: There is a fuel tank near the <em>Legion</em> outpost in <em><SectorName('D18')></em> filled with a substance which might be <em>Diesel</em>,,,ModItemQuestsDef Landsbach Text
 247905627354,Someone from <em><SectorName('A26')></em> is involved with an operation coordinated by a <em>Colonel</em>,,,ModItemQuestsDef Landsbach Text
 847859251979,<em>Outcome:</em> <em>Bounce</em> is dead and <em>Night Club</em> is no longer a functioning establishment ,,,ModItemQuestsDef Landsbach Text
 645969730818,<em>Outcome:</em> <em>Siegfried</em> is defeated and no longer rules over <em>Landsbach</em>,,,ModItemQuestsDef Landsbach Text
@@ -2522,12 +2522,12 @@ Quatro, Cinquo, Senco, Ses
 413289892597,One of the <em>12 chairs</em> is in <em><SectorName('A4')></em>,,,ModItemQuestsDef TheTwelveChairs Text
 437477455244,One of the <em>12 chairs</em> is in the <em><SectorName('E15')></em>,,,ModItemQuestsDef TheTwelveChairs Text
 314127967757,One of the <em>12 chairs</em> is in the <em><SectorName('H12')></em>,,,ModItemQuestsDef TheTwelveChairs Text
-264078001011,One of the <em>12 chairs</em> is in <em><SectorName('I1')></em>,,,ModItemQuestsDef TheTwelveChairs Text
-157786772562,One of the <em>12 chairs</em> is in <em><SectorName('F7')></em>,,,ModItemQuestsDef TheTwelveChairs Text
+264078001011,One of the <em>12 chairs</em> is in <em><SectorName('K4')></em>,,,ModItemQuestsDef TheTwelveChairs Text
+157786772562,One of the <em>12 chairs</em> is in <em><SectorName('E10')></em>,,,ModItemQuestsDef TheTwelveChairs Text
 775682961472,One of the <em>12 chairs</em> is in <em><SectorName('E16')></em>,,,ModItemQuestsDef TheTwelveChairs Text
 343183897599,One of the <em>12 chairs</em> is in the <em><SectorName('E15')></em>,,,ModItemQuestsDef TheTwelveChairs Text
-633031806516,One of the <em>12 chairs</em> is in the <em><SectorName('G10')></em>,,,ModItemQuestsDef TheTwelveChairs Text
-416232456547,One of the <em>12 chairs</em> is in the <em><SectorName('F23')></em>,,,ModItemQuestsDef TheTwelveChairs Text
+633031806516,One of the <em>12 chairs</em> is in the <em><SectorName('L15')></em>,,,ModItemQuestsDef TheTwelveChairs Text
+416232456547,One of the <em>12 chairs</em> is in the <em><SectorName('D18')></em>,,,ModItemQuestsDef TheTwelveChairs Text
 703461946066,One of the <em>12 chairs</em> is near the <em><SectorName('A25')></em>,,,ModItemQuestsDef TheTwelveChairs Text
 695156617677,Someone at the <em><SectorName('H19')></em> is looking for a missing trinket,,,ModItemQuestsDef TheTwelveChairs Text
 680641099779,A valuable <em>diamond necklace</em> may be in possession of <em>Lalee</em> from the <em><SectorName('H19')></em>,,,ModItemQuestsDef TheTwelveChairs Text
@@ -2627,7 +2627,7 @@ Quatro, Cinquo, Senco, Ses
 623031245401,<em>Pierre</em> was spared at <em><SectorName('I7')></em> ,,,ModItemQuestsDef PierreDefeated Text
 584812984292,<em>Pierre</em> was not found in <em><SectorName('A4')></em>,,,ModItemQuestsDef PierreDefeated Text
 847219396472,The <em>Major</em> has punished <em>Pierre</em> by sending him to be a slave in <em><SectorName('A4')></em>,,,ModItemQuestsDef PierreDefeated Text
-934256391494,The <em>Major</em> has punished <em>Pierre</em> by sending him to prison in <em><SectorName('F19')></em>,,,ModItemQuestsDef PierreDefeated Text
+934256391494,The <em>Major</em> has punished <em>Pierre</em> by sending him to prison in <em><SectorName('K21')></em>,,,ModItemQuestsDef PierreDefeated Text
 687884848179,Pierre wants the Legion flag placed on <em><SectorName('K4')></em>,,,ModItemQuestsDef PierreDefeated Text
 197268689344,Raised the Legion flag on <em><SectorName('K4')></em>,,,ModItemQuestsDef PierreDefeated Text
 407286873252,Raising the <em>Legion flag</em> didn't convince <em>Pierre</em>,,,ModItemQuestsDef PierreDefeated Text
@@ -2686,8 +2686,8 @@ Quatro, Cinquo, Senco, Ses
 892112768207,released <em>Luigi</em> from jail,,,ModItemQuestsDef Luigi SpecialConversationMessage
 245971955403,let <em>Jackhammer</em> go,,,ModItemQuestsDef Luigi SpecialConversationMessage
 287202667692,M.E.R.C.: Finding Larry,,,ModItemQuestsDef Larry DisplayName
-327282125421,<em>Larry</em> from M.E.R.C. is in <em><SectorName('F7')></em>,,,ModItemQuestsDef Larry Text
-583546874494,<em>Larry</em> from M.E.R.C. is in <em><SectorName('F7')></em>,,,ModItemQuestsDef Larry Text
+327282125421,<em>Larry</em> from M.E.R.C. is in <em><SectorName('E10')></em>,,,ModItemQuestsDef Larry Text
+583546874494,<em>Larry</em> from M.E.R.C. is in <em><SectorName('E10')></em>,,,ModItemQuestsDef Larry Text
 644904210900,<em>Larry</em> took drugs during <em>Carnival</em>,,,ModItemQuestsDef Larry Text
 199527051359,<em>Larry</em> was captured by the Legion at <em><SectorName('A4')></em> and they interrogated him with more drugs,,,ModItemQuestsDef Larry Text
 778533826234,<em>Larry</em> needs <em>Metaviron</em> to bring back his memory,,,ModItemQuestsDef Larry Text
@@ -2736,7 +2736,7 @@ Quatro, Cinquo, Senco, Ses
 249526664703,The <em><SectorName('E15')></em> is depleted,,,ModItemQuestsDef CorazonCaptureMine Text
 577578825673,The <em><SectorName('D18')></em> mine is depleted,,,ModItemQuestsDef CorazonCaptureMine Text
 952336328946,The <em><SectorName('H14')></em> is depleted,,,ModItemQuestsDef CorazonCaptureMine Text
-250302410908,The <em><SectorName('I18')></em> is depleted,,,ModItemQuestsDef CorazonCaptureMine Text
+250302410908,The <em><SectorName('H31')></em> is depleted,,,ModItemQuestsDef CorazonCaptureMine Text
 629392124745,The <em><SectorName('K10')></em> mine is depleted,,,ModItemQuestsDef CorazonCaptureMine Text
 757648558194,<em>Outcome:</em> The partnership with <em>Adonis</em> is over,,,ModItemQuestsDef CorazonCaptureMine Text
 760347501481,<em>Outcome:</em> <em>Emma</em> will provide additional funding through government sympathizers for all captured <em>diamond mines</em>,,,ModItemQuestsDef CorazonCaptureMine Text
@@ -2817,7 +2817,7 @@ Quatro, Cinquo, Senco, Ses
 449500495373,finished off the tea party survivor,,,ModItemQuestsDef CursedForestSideQuests SpecialConversationMessage
 680820793836,Vegena,,,ModItemQuestsDef CursedForestSideQuests ChangeName
 647808423990,Petta and the hyenas,,,ModItemQuestsDef ChienSauvage DisplayName
-858111959565,There is an eco activist imprisoned at <em><SectorName('E16')></em> whom the Legion means to throw into the hyena fighting pit,,,ModItemQuestsDef ChienSauvage Text
+858111959565,There is an eco activist imprisoned at <em><SectorName('G22')></em> whom the Legion means to throw into the hyena fighting pit,,,ModItemQuestsDef ChienSauvage Text
 884143731552,Petta let the <em>hyenas</em> out,,,ModItemQuestsDef ChienSauvage Text
 455796897360,The <em>hyenas</em> in Camp Chien Sauvage had to die,,,ModItemQuestsDef ChienSauvage Text
 987242968729,<em>Outcome:</em> <em>Petta</em> couldn't be saved,,,ModItemQuestsDef ChienSauvage Text
@@ -2901,15 +2901,15 @@ Quatro, Cinquo, Senco, Ses
 995319950975,<em>Outcome:</em> <em>Teddy</em> the Teddy Bear killer was put to rest,,,ModItemQuestsDef Ted_copy Text
 540196714249,killed <em>Ted</em> the teddy bear maniac,,,ModItemQuestsDef Ted_copy SpecialConversationMessage
 355951259941,Grimer Hamlet,,,ModItemQuestsDef GrimerHamlet_copy DisplayName
-296618143436,There is a virulent disease outbreak in the <em><SectorName('I19')></em>,,,ModItemQuestsDef GrimerHamlet_copy Text
-234834978879,There are still some <em>Infected</em> in the houses of <em><SectorName('I19')></em>,,,ModItemQuestsDef GrimerHamlet_copy Text
-935392577230,All trapped civilians in the <em><SectorName('I19')></em> have been <em>saved</em>,,,ModItemQuestsDef GrimerHamlet_copy Text
-506338622134,The Infected in <em><SectorName('I19')></em> have all broken free!,,,ModItemQuestsDef GrimerHamlet_copy Text
-374622059945,Monday from the <em><SectorName('I19')></em> wants his Infected ex-girlfriend <em>Bella</em> and her lovers killed,,,ModItemQuestsDef GrimerHamlet_copy Text
+296618143436,There is a virulent disease outbreak in the <em><SectorName('H32')></em>,,,ModItemQuestsDef GrimerHamlet_copy Text
+234834978879,There are still some <em>Infected</em> in the houses of <em><SectorName('H32')></em>,,,ModItemQuestsDef GrimerHamlet_copy Text
+935392577230,All trapped civilians in the <em><SectorName('H32')></em> have been <em>saved</em>,,,ModItemQuestsDef GrimerHamlet_copy Text
+506338622134,The Infected in <em><SectorName('H32')></em> have all broken free!,,,ModItemQuestsDef GrimerHamlet_copy Text
+374622059945,Monday from the <em><SectorName('H32')></em> wants his Infected ex-girlfriend <em>Bella</em> and her lovers killed,,,ModItemQuestsDef GrimerHamlet_copy Text
 828975379182,<em>Bella</em> is dead,,,ModItemQuestsDef GrimerHamlet_copy Text
-472642259879,<em>Outcome:</em> There is finally some peace and quiet in <em><SectorName('I19')></em>,,,ModItemQuestsDef GrimerHamlet_copy Text
-349187275730,<em>Outcome:</em> Time for <em>party</em> in the <em><SectorName('I19')></em>!,,,ModItemQuestsDef GrimerHamlet_copy Text
-714830943923,<em>Outcome:</em> The outbreak in the <em><SectorName('I19')></em> got out of control,,,ModItemQuestsDef GrimerHamlet_copy Text
+472642259879,<em>Outcome:</em> There is finally some peace and quiet in <em><SectorName('H32')></em>,,,ModItemQuestsDef GrimerHamlet_copy Text
+349187275730,<em>Outcome:</em> Time for <em>party</em> in the <em><SectorName('H32')></em>!,,,ModItemQuestsDef GrimerHamlet_copy Text
+714830943923,<em>Outcome:</em> The outbreak in the <em><SectorName('H32')></em> got out of control,,,ModItemQuestsDef GrimerHamlet_copy Text
 550394816519,Fort L'Eau Bleu,,,ModItemQuestsDef TakeTheFortress DisplayName
 637512037943,The <em>Legion Outpost</em> on <em>Ernie Island</em> is threatening the <em>nearby village</em>,,,ModItemQuestsDef TakeTheFortress Text
 881242259615,The defense of <em><SectorName('I7')></em> can be weakened by completing its Outpost objectives,,,ModItemQuestsDef TakeTheFortress Text

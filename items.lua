@@ -931,7 +931,7 @@ return {
 							'Conditions', {
 								PlaceObj('SectorCheckOwner', {
 									owner = "any enemy",
-									sector_id = "A2",
+									sector_id = "A4",
 								}),
 							},
 							'Effects', {
@@ -958,7 +958,7 @@ return {
 							'Conditions', {
 								PlaceObj('SectorCheckOwner', {
 									owner = "any enemy",
-									sector_id = "A2",
+									sector_id = "A4",
 								}),
 								PlaceObj('QuestIsVariableBool', {
 									QuestId = "DiamondRed",
@@ -1004,6 +1004,64 @@ return {
 					'MusicConflict', "SpecificDump_Conflict",
 					'MusicExploration', "SpecificDump_Exploration",
 					'combatTaskGenerate', "afterFirstConflict",
+				}),
+			}),
+			PlaceObj('ModItemSector', {
+				'comment', "Затерянный водоём (ванильный B10)",
+				'mapName', "B-10 - Wasteland",
+				'campaignId', "HotDiamonds",
+				'sectorId', "A5",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "A5",
+					'Map', "B-10 - Wasteland",
+					'MapTier', 40,
+					'modId', "FhNNYd",
+					'display_name', T(109599909548, "Highlands"),
+					'TerrainType', "Highlands",
+					'WeatherZone', "Highlands",
+					'bidirectionalRoadApply', true,
+					'Roads', set({
+	South = true,
+	West = true,
+}),
+					'bidirectionalBlockApply', true,
+					'BlockTravel', {
+						East = true,
+						North = true,
+						South = false,
+						West = false,
+					},
+					'image', "UI/SatelliteView/SectorImages/B10",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Wasteland_Conflict",
+					'MusicExploration', "Wasteland_Exploration",
+					'combatTaskAmount', 2,
+				}),
+			}),
+			PlaceObj('ModItemSector', {
+				'comment', "Затерянный водоём, бывший B10U",
+				'mapName', "B-10U - Lost Basin",
+				'campaignId', "HotDiamonds",
+				'sectorId', "A5_Underground",
+				'SatelliteSectorObj', PlaceObj('SatelliteSector', {
+					'Id', "A5_Underground",
+					'Map', "B-10U - Lost Basin",
+					'MapTier', 40,
+					'Label1', "Dungeon",
+					'modId', "FhNNYd",
+					'RunLoyaltyLogic', false,
+					'GroundSector', "A5",
+					'display_name', T(973030525390, "Lost Basin"),
+					'discovered', false,
+					'Intel', false,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
+					'BlockTravel', set( "East" ),
+					'image', "UI/SatelliteView/SectorImages/B10U",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Underground_Conflict",
+					'MusicExploration', "Underground_Exploration",
+					'combatTaskAmount', 2,
 				}),
 			}),
 			PlaceObj('ModItemSector', {
@@ -1068,12 +1126,12 @@ return {
 					'Guardpost', true,
 					'PatrolRespawnTime', 288000,
 					'TargetSectors', {
-						"E16",
-						"F19",
+						"G22",
+						"K21",
 						"D18",
-						"D17",
-						"B13",
-						"B12",
+						"F28",
+						"A26",
+						"A25",
 					},
 					'ExtraDefenderSquads', {
 						"LegionExtraDefenders_Shock_Hard",
@@ -2064,8 +2122,8 @@ return {
 					'Guardpost', true,
 					'PatrolRespawnTime', 432000,
 					'TargetSectors', {
-						"C11",
-						"G27",
+						"C14",
+						"G25",
 						"O16",
 						"N13",
 						"N12",
@@ -2852,7 +2910,7 @@ return {
 						"K15",
 						"A4",
 						"E15",
-						"D10",
+						"D18",
 						"I25",
 					},
 					'ExtraDefenderSquads', {
@@ -2922,12 +2980,12 @@ return {
 					'display_name', T(342048825717, "Savanna"),
 					'WeatherZone', "SavannahNorth",
 					'TargetSectors', {
-						"D6",
-						"D7",
-						"E6",
-						"A2",
+						"E14",
+						"E15",
+						"E11",
+						"A4",
 						"A3",
-						"B3",
+						"C6",
 					},
 					'EnemySquadsList', {
 						"LegionRaidSquad",
@@ -3342,24 +3400,24 @@ return {
 							},
 							'Effects', {
 								PlaceObj('SectorSquadDespawn', {
-									sector_id = "E9",
+									sector_id = "F13",
 								}),
 								PlaceObj('SectorEnterConflict', {
 									descr_id = "E9_BetrayalFight",
 									disable_travel = true,
 									lock_conflict = true,
-									sector_id = "E9",
+									sector_id = "F13",
 									spawn_mode = "attack",
 								}),
 								PlaceObj('SectorEnableAutoDeploy', {
 									deploy = false,
-									sector_id = "E9",
+									sector_id = "F13",
 								}),
 								PlaceObj('ConditionalEffect', {
 									'Conditions', {
 										PlaceObj('SectorCheckOwner', {
 											owner = "enemy1",
-											sector_id = "E9",
+											sector_id = "F13",
 										}),
 									},
 									'Effects', {
@@ -3906,7 +3964,7 @@ return {
 					'InitialSpawn', true,
 					'TargetSectors', {
 						"E15",
-						"G27",
+						"G25",
 						"K21",
 						"I25",
 						"P19",
@@ -7762,9 +7820,9 @@ return {
 					'TargetSectors', {
 						"J13",
 						"J14",
-						"F13",
+						"G25",
 						"K15",
-						"A2",
+						"A4",
 						"P17",
 						"O16",
 					},
@@ -7838,7 +7896,7 @@ return {
 									Vars = set( "BoatExploded" ),
 								}),
 								PlaceObj('SectorIsInConflict', {
-									sector_id = "G10",
+									sector_id = "L15",
 								}),
 							},
 							'SequentialEffects', true,
@@ -9731,8 +9789,8 @@ return {
 						"O16",
 						"I18",
 						"I19",
-						"F13",
-						"G10",
+						"G25",
+						"L15",
 					},
 					'ExtraDefenderSquads', {
 						"LegionExtraDefenders_Shock_Hard",
@@ -14411,7 +14469,7 @@ return {
 					Conditions = {
 						PlaceObj('PlayerIsInSectors', {
 							Sectors = {
-								"F19",
+								"K21",
 							},
 							param_bindings = false,
 						}),
@@ -16051,7 +16109,7 @@ return {
 								}),
 								PlaceObj('SectorGrantIntel', {
 									param_bindings = false,
-									sector_id = "F19",
+									sector_id = "K21",
 								}),
 								PlaceObj('SectorGrantIntel', {
 									param_bindings = false,
@@ -16211,7 +16269,7 @@ return {
 								}),
 								PlaceObj('SectorGrantIntel', {
 									param_bindings = false,
-									sector_id = "F19",
+									sector_id = "K21",
 								}),
 								PlaceObj('SectorGrantIntel', {
 									param_bindings = false,
@@ -33054,7 +33112,7 @@ return {
 							'Conditions', {
 								PlaceObj('SectorCheckOwner', {
 									owner = "any enemy",
-									sector_id = "A2",
+									sector_id = "A4",
 								}),
 							},
 							'Effects', {
@@ -33081,7 +33139,7 @@ return {
 							'Conditions', {
 								PlaceObj('SectorCheckOwner', {
 									owner = "any enemy",
-									sector_id = "A2",
+									sector_id = "A4",
 								}),
 								PlaceObj('QuestIsVariableBool', {
 									QuestId = "DiamondRed",
@@ -33130,21 +33188,49 @@ return {
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "A5",
-					'Label1', "Blocked",
-					'display_name', T(313384678015, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A5]] "Gargantuan Mountains"),
-					'Side', "neutral",
-					'StickySide', true,
+					'Map', "B-10 - Wasteland",
+					'MapTier', 40,
+					'modId', "FhNNYd",
+					'display_name', T(109599909548, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A5]] "Highlands"),
 					'TerrainType', "Highlands",
-					'Passability', "Blocked",
-					'Intel', false,
-					'BlockTravel', set({
-	East = false,
-	South = false,
-	West = false,
+					'WeatherZone', "Highlands",
+					'bidirectionalRoadApply', true,
+					'Roads', set({
+	South = true,
+	West = true,
 }),
+					'bidirectionalBlockApply', true,
+					'BlockTravel', {
+						East = true,
+						North = true,
+						South = false,
+						West = false,
+					},
+					'image', "UI/SatelliteView/SectorImages/B10",
 					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Cursed_Conflict",
-					'MusicExploration', "Cursed_Exploration",
+					'MusicConflict', "Wasteland_Conflict",
+					'MusicExploration', "Wasteland_Exploration",
+					'combatTaskAmount', 2,
+				}),
+				PlaceObj('SatelliteSector', {
+					'Id', "A5_Underground",
+					'Map', "B-10U - Lost Basin",
+					'MapTier', 40,
+					'Label1', "Dungeon",
+					'modId', "FhNNYd",
+					'RunLoyaltyLogic', false,
+					'GroundSector', "A5",
+					'display_name', T(973030525390, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for A5_Underground]] "Lost Basin"),
+					'discovered', false,
+					'Intel', false,
+					'bidirectionalRoadApply', true,
+					'bidirectionalBlockApply', true,
+					'BlockTravel', set( "East" ),
+					'image', "UI/SatelliteView/SectorImages/B10U",
+					'MusicCombat', "Battle_Normal",
+					'MusicConflict', "Underground_Conflict",
+					'MusicExploration', "Underground_Exploration",
+					'combatTaskAmount', 2,
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "A6",
@@ -33229,23 +33315,6 @@ return {
 					'MusicCombat', "Battle_Normal",
 					'MusicConflict', "Wasteland_Conflict",
 					'MusicExploration', "Wasteland_Exploration",
-				}),
-				PlaceObj('SatelliteSector', {
-					'Id', "B10_Underground",
-					'Map', "B-10U - Lost Basin",
-					'MapTier', 40,
-					'Label1', "Dungeon",
-					'RunLoyaltyLogic', false,
-					'GroundSector', "B10",
-					'display_name', T(973030525390, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for B10_Underground]] "Lost Basin"),
-					'discovered', false,
-					'Intel', false,
-					'BlockTravel', set( "East" ),
-					'image', "UI/SatelliteView/SectorImages/B10U",
-					'MusicCombat', "Battle_Normal",
-					'MusicConflict', "Underground_Conflict",
-					'MusicExploration', "Underground_Exploration",
-					'combatTaskAmount', 2,
 				}),
 				PlaceObj('SatelliteSector', {
 					'Id', "B11",
@@ -33529,12 +33598,12 @@ return {
 					'Guardpost', true,
 					'PatrolRespawnTime', 288000,
 					'TargetSectors', {
-						"E16",
-						"F19",
+						"G22",
+						"K21",
 						"D18",
-						"D17",
-						"B13",
-						"B12",
+						"F28",
+						"A26",
+						"A25",
 					},
 					'ExtraDefenderSquads', {
 						"LegionExtraDefenders_Shock_Hard",
@@ -34689,8 +34758,8 @@ return {
 					'Guardpost', true,
 					'PatrolRespawnTime', 432000,
 					'TargetSectors', {
-						"C11",
-						"G27",
+						"C14",
+						"G25",
 						"O16",
 						"N13",
 						"N12",
@@ -35247,7 +35316,7 @@ return {
 						"K15",
 						"A4",
 						"E15",
-						"D10",
+						"D18",
 						"I25",
 					},
 					'ExtraDefenderSquads', {
@@ -35857,12 +35926,12 @@ return {
 					'display_name', T(342048825717, --[[ModItemCampaignPreset HotDiamonds display_name Sector name for E9]] "Savanna"),
 					'WeatherZone', "SavannahNorth",
 					'TargetSectors', {
-						"D6",
-						"D7",
-						"E6",
-						"A2",
+						"E14",
+						"E15",
+						"E11",
+						"A4",
 						"A3",
-						"B3",
+						"C6",
 					},
 					'EnemySquadsList', {
 						"LegionRaidSquad",
@@ -36046,24 +36115,24 @@ return {
 							},
 							'Effects', {
 								PlaceObj('SectorSquadDespawn', {
-									sector_id = "E9",
+									sector_id = "F13",
 								}),
 								PlaceObj('SectorEnterConflict', {
 									descr_id = "E9_BetrayalFight",
 									disable_travel = true,
 									lock_conflict = true,
-									sector_id = "E9",
+									sector_id = "F13",
 									spawn_mode = "attack",
 								}),
 								PlaceObj('SectorEnableAutoDeploy', {
 									deploy = false,
-									sector_id = "E9",
+									sector_id = "F13",
 								}),
 								PlaceObj('ConditionalEffect', {
 									'Conditions', {
 										PlaceObj('SectorCheckOwner', {
 											owner = "enemy1",
-											sector_id = "E9",
+											sector_id = "F13",
 										}),
 									},
 									'Effects', {
@@ -37102,7 +37171,7 @@ return {
 					'InitialSpawn', true,
 					'TargetSectors', {
 						"E15",
-						"G27",
+						"G25",
 						"K21",
 						"I25",
 						"P19",
@@ -41249,9 +41318,9 @@ return {
 					'TargetSectors', {
 						"J13",
 						"J14",
-						"F13",
+						"G25",
 						"K15",
-						"A2",
+						"A4",
 						"P17",
 						"O16",
 					},
@@ -41325,7 +41394,7 @@ return {
 									Vars = set( "BoatExploded" ),
 								}),
 								PlaceObj('SectorIsInConflict', {
-									sector_id = "G10",
+									sector_id = "L15",
 								}),
 							},
 							'SequentialEffects', true,
@@ -43950,8 +44019,8 @@ return {
 						"O16",
 						"I18",
 						"I19",
-						"F13",
-						"G10",
+						"G25",
+						"L15",
 					},
 					'ExtraDefenderSquads', {
 						"LegionExtraDefenders_Shock_Hard",
@@ -44826,7 +44895,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"F19",
+									"K21",
 								},
 							}),
 							PlaceObj('SectorIsInConflict', {}),
@@ -44912,14 +44981,14 @@ return {
 						ParamId = "TCE_KingChickenIntercept",
 						QuestId = "CampBienChien",
 						requiredSectors = {
-							"F19",
+							"K21",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"F19",
+									"K21",
 								},
 							}),
 							PlaceObj('CombatIsActive', {
@@ -44948,7 +45017,7 @@ return {
 						ParamId = "TCE_KingChickenConversation",
 						QuestId = "CampBienChien",
 						requiredSectors = {
-							"F19",
+							"K21",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -45002,11 +45071,11 @@ return {
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('SectorCheckOwner', {
-								sector_id = "F19",
+								sector_id = "K21",
 							}),
 							PlaceObj('PlayerSquadPresentInSectors', {
 								Negate = true,
-								Sector = "F19",
+								Sector = "K21",
 							}),
 						},
 						Effects = {
@@ -47583,23 +47652,23 @@ return {
 						Effects = {
 							PlaceObj('SectorModifyEnemySquads', {
 								count = -2,
-								sector_id = "G10",
+								sector_id = "L15",
 							}),
 							PlaceObj('SectorModifyEnemySquads', {
 								count = -2,
-								sector_id = "F7",
+								sector_id = "E10",
 							}),
 							PlaceObj('SectorModifyEnemySquads', {
 								count = -2,
-								sector_id = "F23",
+								sector_id = "D18",
 							}),
 							PlaceObj('SectorModifyEnemySquads', {
 								count = -2,
-								sector_id = "F19",
+								sector_id = "K21",
 							}),
 							PlaceObj('SectorModifyEnemySquads', {
 								count = -2,
-								sector_id = "E16",
+								sector_id = "G22",
 							}),
 							PlaceObj('SectorModifyEnemySquads', {
 								count = -2,
@@ -49580,7 +49649,7 @@ return {
 							PlaceObj('ConditionalEffect', {
 								'Conditions', {
 									PlaceObj('SectorCheckOwner', {
-										sector_id = "F19",
+										sector_id = "K21",
 									}),
 								},
 								'Effects', {
@@ -49608,7 +49677,7 @@ return {
 							PlaceObj('ConditionalEffect', {
 								'Conditions', {
 									PlaceObj('SectorCheckOwner', {
-										sector_id = "F23",
+										sector_id = "D18",
 									}),
 								},
 								'Effects', {
@@ -49636,7 +49705,7 @@ return {
 							PlaceObj('ConditionalEffect', {
 								'Conditions', {
 									PlaceObj('SectorCheckOwner', {
-										sector_id = "E16",
+										sector_id = "G22",
 									}),
 								},
 								'Effects', {
@@ -49647,20 +49716,7 @@ return {
 									}),
 								},
 							}),
-							PlaceObj('ConditionalEffect', {
-								'Conditions', {
-									PlaceObj('SectorCheckOwner', {
-										sector_id = "F7",
-									}),
-								},
-								'Effects', {
-									PlaceObj('QuestSetVariableNum', {
-										Amount = 5,
-										Prop = "Reputation",
-										QuestId = "05_TakeDownMajor",
-									}),
-								},
-							}),
+
 						},
 						Once = true,
 						ParamId = "TCE_Reputation_OutpostsTaken",
@@ -50121,7 +50177,7 @@ return {
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('SectorCheckOwner', {
-								sector_id = "F19",
+								sector_id = "K21",
 							}),
 							PlaceObj('QuestIsVariableBool', {
 								QuestId = "PierreDefeated",
@@ -50311,7 +50367,7 @@ return {
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('SectorCheckOwner', {
-								sector_id = "E16",
+								sector_id = "G22",
 							}),
 							PlaceObj('QuestIsVariableBool', {
 								QuestId = "PantagruelDramas",
@@ -50436,7 +50492,7 @@ return {
 							}),
 							PlaceObj('SectorCheckOwner', {
 								Negate = true,
-								sector_id = "F19",
+								sector_id = "K21",
 							}),
 							PlaceObj('QuestIsVariableBool', {
 								QuestId = "PierreDefeated",
@@ -53281,7 +53337,7 @@ return {
 									"AdonisAttackers_ShockAttack_Hard",
 									"AdonisAttackers_SpecOps_Hard",
 								},
-								sector_id = "F7",
+								sector_id = "E10",
 							}),
 							PlaceObj('SectorReplaceEnemySquadList', {
 								EnemySquadsList = {
@@ -53298,7 +53354,7 @@ return {
 									"AdonisAttackers_ShockAttack_Hard",
 									"AdonisAttackers_SpecOps_Hard",
 								},
-								sector_id = "F23",
+								sector_id = "D18",
 							}),
 							PlaceObj('SectorReplaceEnemySquadList', {
 								EnemySquadsList = {
@@ -53316,7 +53372,7 @@ return {
 									"AdonisAttackers_ShockAttack_Hard",
 									"AdonisAttackers_SpecOps_Hard",
 								},
-								sector_id = "G10",
+								sector_id = "L15",
 							}),
 							PlaceObj('SectorReplaceEnemySquadList', {
 								EnemySquadsList = {
@@ -53352,7 +53408,7 @@ return {
 									"ArmyAttackers_Shock_Hard",
 									"ArmyAttackers_Siege_Hard",
 								},
-								sector_id = "F19",
+								sector_id = "K21",
 							}),
 							PlaceObj('SectorReplaceEnemySquadList', {
 								EnemySquadsList = {
@@ -53370,7 +53426,7 @@ return {
 									"ArmyAttackers_Shock_Hard",
 									"ArmyAttackers_Siege_Hard",
 								},
-								sector_id = "E16",
+								sector_id = "G22",
 							}),
 							PlaceObj('ModifySatelliteAggro', {
 								Halt = true,
@@ -60266,18 +60322,18 @@ return {
 										Squad = "SavannaCampDefendersLuredOut",
 										custom_quest_id = "LuredOutSquad",
 										effect_target_sector_ids = {
-											"E6",
+											"E9",
 										},
-										source_sector_id = "F7",
+										source_sector_id = "E10",
 									}),
 									PlaceObj('QuestSetVariableText', {
 										Prop = "LureActivitySectorId",
 										QuestId = "ReduceSavannaCampStrength",
-										Text = "E6",
+										Text = "E9",
 									}),
 								},
 								operation = "BaitOutSavannaCamp",
-								sector_id = "E6",
+								sector_id = "E9",
 							}),
 							PlaceObj('SectorEnableCustomOperation', {
 								EffectsOnSuccess = {
@@ -60288,18 +60344,18 @@ return {
 										Squad = "SavannaCampDefendersLuredOut",
 										custom_quest_id = "LuredOutSquad",
 										effect_target_sector_ids = {
-											"E7",
+											"E11",
 										},
-										source_sector_id = "F7",
+										source_sector_id = "E10",
 									}),
 									PlaceObj('QuestSetVariableText', {
 										Prop = "LureActivitySectorId",
 										QuestId = "ReduceSavannaCampStrength",
-										Text = "E7",
+										Text = "E11",
 									}),
 								},
 								operation = "BaitOutSavannaCamp",
-								sector_id = "E7",
+								sector_id = "E11",
 							}),
 							PlaceObj('SectorEnableCustomOperation', {
 								EffectsOnSuccess = {
@@ -60312,7 +60368,7 @@ return {
 										effect_target_sector_ids = {
 											"E8",
 										},
-										source_sector_id = "F7",
+										source_sector_id = "E10",
 									}),
 									PlaceObj('QuestSetVariableText', {
 										Prop = "LureActivitySectorId",
@@ -60334,7 +60390,7 @@ return {
 										effect_target_sector_ids = {
 											"F8",
 										},
-										source_sector_id = "F7",
+										source_sector_id = "E10",
 									}),
 									PlaceObj('QuestSetVariableText', {
 										Prop = "LureActivitySectorId",
@@ -60367,11 +60423,11 @@ return {
 						Effects = {
 							PlaceObj('SectorRemoveCustomOperation', {
 								operation = "BaitOutSavannaCamp",
-								sector_id = "E6",
+								sector_id = "E9",
 							}),
 							PlaceObj('SectorRemoveCustomOperation', {
 								operation = "BaitOutSavannaCamp",
-								sector_id = "E7",
+								sector_id = "E11",
 							}),
 							PlaceObj('SectorRemoveCustomOperation', {
 								operation = "BaitOutSavannaCamp",
@@ -60414,7 +60470,7 @@ return {
 								Vars = set( "WaterWellSquadPresent" ),
 							}),
 							PlaceObj('PlayerSquadPresentInSectors', {
-								Sector = "G6",
+								Sector = "G13",
 							}),
 							PlaceObj('BanterHasPlayed', {
 								Banters = {
@@ -60440,7 +60496,7 @@ return {
 							PlaceObj('SectorEnterConflict', {
 								descr_id = "G6_WaterWell",
 								no_exploration_resolve = true,
-								sector_id = "G6",
+								sector_id = "G13",
 							}),
 						},
 						Once = true,
@@ -60458,7 +60514,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"G6",
+									"G13",
 								},
 							}),
 							PlaceObj('GuardpostObjectiveDone', {
@@ -60484,14 +60540,14 @@ return {
 						ParamId = "TCE_LegionDialog",
 						QuestId = "ReduceSavannaCampStrength",
 						requiredSectors = {
-							"G6",
+							"G13",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"G6",
+									"G13",
 								},
 							}),
 							PlaceObj('GroupIsDead', {
@@ -60505,7 +60561,7 @@ return {
 						Effects = {
 							PlaceObj('SectorEnterConflict', {
 								conflict_mode = false,
-								sector_id = "G6",
+								sector_id = "G13",
 							}),
 							PlaceObj('CompleteGuardpostObjective', {
 								GuardpostObjective = "WaterWell",
@@ -60515,7 +60571,7 @@ return {
 						ParamId = "TCE_WaterWellSoldiers",
 						QuestId = "ReduceSavannaCampStrength",
 						requiredSectors = {
-							"G6",
+							"G13",
 						},
 					}),
 				},
@@ -61145,7 +61201,7 @@ return {
 										Vars = set( "GasStationSoldiersPresent" ),
 									}),
 									PlaceObj('PlayerSquadPresentInSectors', {
-										Sector = "C11",
+										Sector = "C14",
 									}),
 									PlaceObj('BanterHasPlayed', {
 										Banters = {
@@ -61221,11 +61277,11 @@ return {
 								Conditions = {
 									PlaceObj('PlayerIsInSectors', {
 										Sectors = {
-											"B9",
+											"C12",
 										},
 									}),
 									PlaceObj('SectorHasIntel', {
-										sector_id = "B9",
+										sector_id = "C12",
 									}),
 								},
 							}),
@@ -61251,7 +61307,7 @@ return {
 						},
 						Effects = {
 							PlaceObj('SectorSetRepairShopOperation', {
-								sector_id = "B9",
+								sector_id = "C12",
 							}),
 							PlaceObj('ConditionalEffect', {
 								'Conditions', {
@@ -61902,11 +61958,11 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"G10",
+									"L15",
 								},
 							}),
 							PlaceObj('SectorIsInConflict', {
-								sector_id = "G10",
+								sector_id = "L15",
 							}),
 							PlaceObj('QuestIsVariableBool', {
 								QuestId = "ReduceBarrierCampStrength",
@@ -61923,7 +61979,7 @@ return {
 						ParamId = "TCE_ApplyPoison",
 						QuestId = "ReduceBarrierCampStrength",
 						requiredSectors = {
-							"G10",
+							"L15",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -62945,7 +63001,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Monday",
-								Sector = "I19",
+								Sector = "H32",
 							}),
 						},
 						CompletionConditions = {
@@ -62970,7 +63026,7 @@ return {
 								Vars = set( "MangelSamples" ),
 							}),
 						},
-						Text = T(370192000479, --[[ModItemQuestsDef Sanatorium Text]] "Virus sample: There is an outbreak at the <em><SectorName('I19')></em>"),
+						Text = T(370192000479, --[[ModItemQuestsDef Sanatorium Text]] "Virus sample: There is an outbreak at the <em><SectorName('H32')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -68945,7 +69001,7 @@ return {
 								Vars = set( "BouncePartners" ),
 							}),
 						},
-						Text = T(269233311219, --[[ModItemQuestsDef Landsbach Text]] "<em>Bounce</em> saw a suspicious van carrying some canisters in the <em><SectorName('C11')></em>"),
+						Text = T(269233311219, --[[ModItemQuestsDef Landsbach Text]] "<em>Bounce</em> saw a suspicious van carrying some canisters in the <em><SectorName('C14')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -68996,7 +69052,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Travis",
-								Sector = "C11",
+								Sector = "C14",
 							}),
 						},
 						HideConditions = {
@@ -69013,7 +69069,7 @@ return {
 								Vars = set( "Travis" ),
 							}),
 						},
-						Text = T(890382442445, --[[ModItemQuestsDef Landsbach Text]] "Some <em>Travis</em> at the <em><SectorName('C11')></em> might know something about the <em>Diesel</em>"),
+						Text = T(890382442445, --[[ModItemQuestsDef Landsbach Text]] "Some <em>Travis</em> at the <em><SectorName('C14')></em> might know something about the <em>Diesel</em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -69185,7 +69241,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "C11",
+								Sector = "C14",
 							}),
 							PlaceObj('QuestBadgePlacement', {
 								Sector = "C10",
@@ -69205,7 +69261,7 @@ return {
 								Vars = set( "TravisDirection" ),
 							}),
 						},
-						Text = T(276170568742, --[[ModItemQuestsDef Landsbach Text]] "<em>Travis</em> said a <em>van</em> passed near the <em><SectorName('C11')></em> and headed west to the <em><SectorName('C10')></em>"),
+						Text = T(276170568742, --[[ModItemQuestsDef Landsbach Text]] "<em>Travis</em> said a <em>van</em> passed near the <em><SectorName('C14')></em> and headed west to the <em><SectorName('C10')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						HideConditions = {
@@ -69398,7 +69454,7 @@ return {
 								},
 							}),
 						},
-						Text = T(246815615046, --[[ModItemQuestsDef Landsbach Text]] "Clue: There is a fuel tank near the <em>Legion</em> outpost in <em><SectorName('F23')></em> filled with a substance which might be <em>Diesel</em>"),
+						Text = T(246815615046, --[[ModItemQuestsDef Landsbach Text]] "Clue: There is a fuel tank near the <em>Legion</em> outpost in <em><SectorName('D18')></em> filled with a substance which might be <em>Diesel</em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -70792,7 +70848,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"C11",
+									"C14",
 								},
 							}),
 						},
@@ -70810,7 +70866,7 @@ return {
 						ParamId = "TCE_TravisDead",
 						QuestId = "Landsbach",
 						requiredSectors = {
-							"C11",
+							"C14",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -73629,13 +73685,13 @@ return {
 								},
 							}),
 						},
-						Text = T(121327795376, --[[ModItemQuestsDef TheTwelveChairs Text]] "One of the <em>12 chairs</em> is in <em><SectorName('I1')></em>"),
+						Text = T(121327795376, --[[ModItemQuestsDef TheTwelveChairs Text]] "One of the <em>12 chairs</em> is in <em><SectorName('K4')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "12Chairs_ChairMarker",
-								Sector = "F7",
+								Sector = "E10",
 							}),
 						},
 						CompletionConditions = {
@@ -73643,7 +73699,7 @@ return {
 								Conditions = {
 									PlaceObj('PlayerIsInSectors', {
 										Sectors = {
-											"F7",
+											"E10",
 										},
 									}),
 									PlaceObj('CheckOR', {
@@ -73677,7 +73733,7 @@ return {
 								Conditions = {
 									PlaceObj('PlayerIsInSectors', {
 										Sectors = {
-											"F7",
+											"E10",
 										},
 									}),
 									PlaceObj('QuestIsVariableBool', {
@@ -73687,7 +73743,7 @@ return {
 								},
 							}),
 						},
-						Text = T(682041004459, --[[ModItemQuestsDef TheTwelveChairs Text]] "One of the <em>12 chairs</em> is in <em><SectorName('F7')></em>"),
+						Text = T(682041004459, --[[ModItemQuestsDef TheTwelveChairs Text]] "One of the <em>12 chairs</em> is in <em><SectorName('E10')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -73809,7 +73865,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "12Chairs_ChairMarker",
-								Sector = "G10",
+								Sector = "L15",
 							}),
 						},
 						CompletionConditions = {
@@ -73817,7 +73873,7 @@ return {
 								Conditions = {
 									PlaceObj('PlayerIsInSectors', {
 										Sectors = {
-											"G10",
+											"L15",
 										},
 									}),
 									PlaceObj('CheckOR', {
@@ -73851,7 +73907,7 @@ return {
 								Conditions = {
 									PlaceObj('PlayerIsInSectors', {
 										Sectors = {
-											"G10",
+											"L15",
 										},
 									}),
 									PlaceObj('QuestIsVariableBool', {
@@ -73861,13 +73917,13 @@ return {
 								},
 							}),
 						},
-						Text = T(380897600453, --[[ModItemQuestsDef TheTwelveChairs Text]] "One of the <em>12 chairs</em> is in the <em><SectorName('G10')></em>"),
+						Text = T(380897600453, --[[ModItemQuestsDef TheTwelveChairs Text]] "One of the <em>12 chairs</em> is in the <em><SectorName('L15')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "12Chairs_ChairMarker",
-								Sector = "F23",
+								Sector = "D18",
 							}),
 						},
 						CompletionConditions = {
@@ -73875,7 +73931,7 @@ return {
 								Conditions = {
 									PlaceObj('PlayerIsInSectors', {
 										Sectors = {
-											"F23",
+											"D18",
 										},
 									}),
 									PlaceObj('CheckOR', {
@@ -73909,7 +73965,7 @@ return {
 								Conditions = {
 									PlaceObj('PlayerIsInSectors', {
 										Sectors = {
-											"F23",
+											"D18",
 										},
 									}),
 									PlaceObj('QuestIsVariableBool', {
@@ -73919,7 +73975,7 @@ return {
 								},
 							}),
 						},
-						Text = T(811687140536, --[[ModItemQuestsDef TheTwelveChairs Text]] "One of the <em>12 chairs</em> is in the <em><SectorName('F23')></em>"),
+						Text = T(811687140536, --[[ModItemQuestsDef TheTwelveChairs Text]] "One of the <em>12 chairs</em> is in the <em><SectorName('D18')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -78305,7 +78361,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Pierre",
-								Sector = "F19",
+								Sector = "K21",
 							}),
 						},
 						HideConditions = {
@@ -78325,7 +78381,7 @@ return {
 								Conditions = {
 									PlaceObj('PlayerIsInSectors', {
 										Sectors = {
-											"F19",
+											"K21",
 										},
 									}),
 									PlaceObj('QuestIsVariableBool', {
@@ -78336,7 +78392,7 @@ return {
 								},
 							}),
 						},
-						Text = T(355808788998, --[[ModItemQuestsDef PierreDefeated Text]] "The <em>Major</em> has punished <em>Pierre</em> by sending him to prison in <em><SectorName('F19')></em>"),
+						Text = T(355808788998, --[[ModItemQuestsDef PierreDefeated Text]] "The <em>Major</em> has punished <em>Pierre</em> by sending him to prison in <em><SectorName('K21')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -78936,7 +78992,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"F19",
+									"K21",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -78959,14 +79015,14 @@ return {
 						ParamId = "TCE_PierreNotBoss",
 						QuestId = "PierreDefeated",
 						requiredSectors = {
-							"F19",
+							"K21",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"F19",
+									"K21",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -79007,7 +79063,7 @@ return {
 						ParamId = "TCE_PierreDisarm",
 						QuestId = "PierreDefeated",
 						requiredSectors = {
-							"F19",
+							"K21",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -81583,7 +81639,7 @@ return {
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "F7",
+								Sector = "E10",
 							}),
 						},
 						HideConditions = {
@@ -81607,13 +81663,13 @@ return {
 }),
 							}),
 						},
-						Text = T(895984647808, --[[ModItemQuestsDef Larry Text]] "<em>Larry</em> from M.E.R.C. is in <em><SectorName('F7')></em>"),
+						Text = T(895984647808, --[[ModItemQuestsDef Larry Text]] "<em>Larry</em> from M.E.R.C. is in <em><SectorName('E10')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "LarryNPC",
-								Sector = "F7",
+								Sector = "E10",
 							}),
 						},
 						HideConditions = {
@@ -81637,7 +81693,7 @@ return {
 }),
 							}),
 						},
-						Text = T(855271225964, --[[ModItemQuestsDef Larry Text]] "<em>Larry</em> from M.E.R.C. is in <em><SectorName('F7')></em>"),
+						Text = T(855271225964, --[[ModItemQuestsDef Larry Text]] "<em>Larry</em> from M.E.R.C. is in <em><SectorName('E10')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						CompletionConditions = {
@@ -81675,7 +81731,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "LarryNPC",
-								Sector = "F7",
+								Sector = "E10",
 							}),
 						},
 						HideConditions = {
@@ -84383,21 +84439,21 @@ return {
 						AddInHistory = true,
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "I18",
+								Sector = "H31",
 							}),
 						},
 						CompletionConditions = {
 							PlaceObj('SectorHasDepletedMine', {
-								sector_id = "I18",
+								sector_id = "H31",
 							}),
 						},
 						Idx = 28,
 						ShowConditions = {
 							PlaceObj('SectorHasDepletedMine', {
-								sector_id = "I18",
+								sector_id = "H31",
 							}),
 						},
-						Text = T(151319122645, --[[ModItemQuestsDef CorazonCaptureMine Text]] "The <em><SectorName('I18')></em> is depleted"),
+						Text = T(151319122645, --[[ModItemQuestsDef CorazonCaptureMine Text]] "The <em><SectorName('H31')></em> is depleted"),
 					}),
 					PlaceObj('QuestNote', {
 						AddInHistory = true,
@@ -84591,7 +84647,7 @@ return {
 							}),
 							PlaceObj('SectorModifyMineProperties', {
 								DailyIncome = 105,
-								sector_id = "I18",
+								sector_id = "H31",
 							}),
 							PlaceObj('SectorModifyMineProperties', {
 								DailyIncome = 105,
@@ -90148,7 +90204,7 @@ return {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Peta",
 								QuestId = "ChienSauvage",
-								Sector = "E16",
+								Sector = "G22",
 							}),
 						},
 						CompletionConditions = {
@@ -90165,7 +90221,7 @@ return {
 								Vars = set( "Given" ),
 							}),
 						},
-						Text = T(253960439295, --[[ModItemQuestsDef ChienSauvage Text]] "There is an eco activist imprisoned at <em><SectorName('E16')></em> whom the Legion means to throw into the hyena fighting pit"),
+						Text = T(253960439295, --[[ModItemQuestsDef ChienSauvage Text]] "There is an eco activist imprisoned at <em><SectorName('G22')></em> whom the Legion means to throw into the hyena fighting pit"),
 					}),
 					PlaceObj('QuestNote', {
 						CompletionConditions = {
@@ -90277,7 +90333,7 @@ return {
 							PlaceObj('PlayerIsInSectors', {
 								QuestId = "ChienSauvage",
 								Sectors = {
-									"E16",
+									"G22",
 								},
 							}),
 							PlaceObj('UnitIsAroundOtherUnit', {
@@ -90337,7 +90393,7 @@ return {
 						ParamId = "TCE_PetaApproachBanters",
 						QuestId = "ChienSauvage",
 						requiredSectors = {
-							"E16",
+							"G22",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -90345,7 +90401,7 @@ return {
 							PlaceObj('PlayerIsInSectors', {
 								QuestId = "ChienSauvage",
 								Sectors = {
-									"E16",
+									"G22",
 								},
 							}),
 						},
@@ -90359,7 +90415,7 @@ return {
 						ParamId = "TCE_LegionSetGroup",
 						QuestId = "ChienSauvage",
 						requiredSectors = {
-							"E16",
+							"G22",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -90367,7 +90423,7 @@ return {
 							PlaceObj('PlayerIsInSectors', {
 								QuestId = "ChienSauvage",
 								Sectors = {
-									"E16",
+									"G22",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -90386,7 +90442,7 @@ return {
 						ParamId = "TCE_PetaLeftToDie",
 						QuestId = "ChienSauvage",
 						requiredSectors = {
-							"E16",
+							"G22",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -90452,7 +90508,7 @@ return {
 							PlaceObj('PlayerIsInSectors', {
 								QuestId = "ChienSauvage",
 								Sectors = {
-									"E16",
+									"G22",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -90510,7 +90566,7 @@ return {
 						ParamId = "TCE_PetaReleased",
 						QuestId = "ChienSauvage",
 						requiredSectors = {
-							"E16",
+							"G22",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -90518,7 +90574,7 @@ return {
 							PlaceObj('PlayerIsInSectors', {
 								QuestId = "ChienSauvage",
 								Sectors = {
-									"E16",
+									"G22",
 								},
 							}),
 							PlaceObj('QuestIsVariableBool', {
@@ -90558,7 +90614,7 @@ return {
 						ParamId = "TCE_PetaLetHyenasOut",
 						QuestId = "ChienSauvage",
 						requiredSectors = {
-							"E16",
+							"G22",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -90566,7 +90622,7 @@ return {
 							PlaceObj('PlayerIsInSectors', {
 								QuestId = "ChienSauvage",
 								Sectors = {
-									"E16",
+									"G22",
 								},
 							}),
 							PlaceObj('UnitCanGoToPos', {
@@ -90592,7 +90648,7 @@ return {
 						ParamId = "TCE_MainHyenasAggressive",
 						QuestId = "ChienSauvage",
 						requiredSectors = {
-							"E16",
+							"G22",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -90600,7 +90656,7 @@ return {
 							PlaceObj('PlayerIsInSectors', {
 								QuestId = "ChienSauvage",
 								Sectors = {
-									"E16",
+									"G22",
 								},
 							}),
 							PlaceObj('GroupIsDead', {
@@ -90618,7 +90674,7 @@ return {
 						ParamId = "TCE_ClearLegion",
 						QuestId = "ChienSauvage",
 						requiredSectors = {
-							"E16",
+							"G22",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -90626,7 +90682,7 @@ return {
 							PlaceObj('PlayerIsInSectors', {
 								QuestId = "ChienSauvage",
 								Sectors = {
-									"E16",
+									"G22",
 								},
 							}),
 							PlaceObj('GroupIsDead', {
@@ -90644,7 +90700,7 @@ return {
 						ParamId = "TCE_HyenasDead",
 						QuestId = "ChienSauvage",
 						requiredSectors = {
-							"E16",
+							"G22",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -90652,7 +90708,7 @@ return {
 							PlaceObj('PlayerIsInSectors', {
 								QuestId = "ChienSauvage",
 								Sectors = {
-									"E16",
+									"G22",
 								},
 							}),
 							PlaceObj('UnitIsAroundOtherUnit', {
@@ -90690,7 +90746,7 @@ return {
 						ParamId = "TCE_PetaLeave",
 						QuestId = "ChienSauvage",
 						requiredSectors = {
-							"E16",
+							"G22",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -90701,7 +90757,7 @@ return {
 							}),
 							PlaceObj('SectorCheckOwner', {
 								QuestId = "ChienSauvage",
-								sector_id = "E16",
+								sector_id = "G22",
 							}),
 							PlaceObj('CheckIsPersistentUnitDead', {
 								Negate = true,
@@ -94533,7 +94589,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Monday",
-								Sector = "I19",
+								Sector = "H32",
 							}),
 						},
 						CompletionConditions = {
@@ -94568,12 +94624,12 @@ return {
 								},
 							}),
 						},
-						Text = T(296618143436, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "There is a virulent disease outbreak in the <em><SectorName('I19')></em>"),
+						Text = T(296618143436, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "There is a virulent disease outbreak in the <em><SectorName('H32')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
-								Sector = "I19",
+								Sector = "H32",
 							}),
 						},
 						HideConditions = {
@@ -94607,13 +94663,13 @@ return {
 								},
 							}),
 						},
-						Text = T(234834978879, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "There are still some <em>Infected</em> in the houses of <em><SectorName('I19')></em>"),
+						Text = T(234834978879, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "There are still some <em>Infected</em> in the houses of <em><SectorName('H32')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Monday",
-								Sector = "I19",
+								Sector = "H32",
 							}),
 						},
 						CompletionConditions = {
@@ -94629,7 +94685,7 @@ return {
 								Vars = set( "PeopleSaved" ),
 							}),
 						},
-						Text = T(935392577230, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "All trapped civilians in the <em><SectorName('I19')></em> have been <em>saved</em>"),
+						Text = T(935392577230, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "All trapped civilians in the <em><SectorName('H32')></em> have been <em>saved</em>"),
 					}),
 					PlaceObj('QuestNote', {
 						HideConditions = {
@@ -94648,17 +94704,17 @@ return {
 							PlaceObj('SectorIsInConflict', {}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"I19",
+									"H32",
 								},
 							}),
 						},
-						Text = T(506338622134, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "The Infected in <em><SectorName('I19')></em> have all broken free!"),
+						Text = T(506338622134, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "The Infected in <em><SectorName('H32')></em> have all broken free!"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "GrimerLovers",
-								Sector = "I19",
+								Sector = "H32",
 							}),
 						},
 						CompletionConditions = {
@@ -94674,7 +94730,7 @@ return {
 								Vars = set( "BellaQuest" ),
 							}),
 						},
-						Text = T(374622059945, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "Monday from the <em><SectorName('I19')></em> wants his Infected ex-girlfriend <em>Bella</em> and her lovers killed"),
+						Text = T(374622059945, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "Monday from the <em><SectorName('H32')></em> wants his Infected ex-girlfriend <em>Bella</em> and her lovers killed"),
 					}),
 					PlaceObj('QuestNote', {
 						CompletionConditions = {
@@ -94696,7 +94752,7 @@ return {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Monday",
-								Sector = "I19",
+								Sector = "H32",
 							}),
 						},
 						CompletionConditions = {
@@ -94715,13 +94771,13 @@ return {
 								Negate = true,
 							}),
 						},
-						Text = T(472642259879, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "<em>Outcome:</em> There is finally some peace and quiet in <em><SectorName('I19')></em>"),
+						Text = T(472642259879, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "<em>Outcome:</em> There is finally some peace and quiet in <em><SectorName('H32')></em>"),
 					}),
 					PlaceObj('QuestNote', {
 						Badges = {
 							PlaceObj('QuestBadgePlacement', {
 								BadgeUnit = "Monday",
-								Sector = "I19",
+								Sector = "H32",
 							}),
 						},
 						CompletionConditions = {
@@ -94742,7 +94798,7 @@ return {
 								Vars = set( "Completed" ),
 							}),
 						},
-						Text = T(349187275730, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "<em>Outcome:</em> Time for <em>party</em> in the <em><SectorName('I19')></em>!"),
+						Text = T(349187275730, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "<em>Outcome:</em> Time for <em>party</em> in the <em><SectorName('H32')></em>!"),
 					}),
 					PlaceObj('QuestNote', {
 						CompletionConditions = {
@@ -94758,7 +94814,7 @@ return {
 								Vars = set( "Failed" ),
 							}),
 						},
-						Text = T(714830943923, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "<em>Outcome:</em> The outbreak in the <em><SectorName('I19')></em> got out of control"),
+						Text = T(714830943923, --[[ModItemQuestsDef GrimerHamlet_copy Text]] "<em>Outcome:</em> The outbreak in the <em><SectorName('H32')></em> got out of control"),
 					}),
 				},
 				QuestGroup = "Farmlands",
@@ -94767,7 +94823,7 @@ return {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"I19",
+									"H32",
 								},
 							}),
 							PlaceObj('GroupIsDead', {
@@ -94792,14 +94848,14 @@ return {
 						ParamId = "TCE_InfectedKilled",
 						QuestId = "GrimerHamlet",
 						requiredSectors = {
-							"I19",
+							"H32",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"I19",
+									"H32",
 								},
 							}),
 							PlaceObj('QuestIsVariableNum', {
@@ -94823,14 +94879,14 @@ return {
 						ParamId = "TCE_UnlockAllHouses",
 						QuestId = "GrimerHamlet",
 						requiredSectors = {
-							"I19",
+							"H32",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"I19",
+									"H32",
 								},
 							}),
 							PlaceObj('UnitIsAroundOtherUnit', {
@@ -94852,14 +94908,14 @@ return {
 						ParamId = "TCE_LoversEnemy",
 						QuestId = "GrimerHamlet",
 						requiredSectors = {
-							"I19",
+							"H32",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
 						Conditions = {
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"I19",
+									"H32",
 								},
 							}),
 							PlaceObj('GroupIsDead', {
@@ -94879,7 +94935,7 @@ return {
 						ParamId = "TCE_LoversKilled",
 						QuestId = "GrimerHamlet",
 						requiredSectors = {
-							"I19",
+							"H32",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -94957,7 +95013,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"I19",
+									"H32",
 								},
 							}),
 							PlaceObj('CheckIsPersistentUnitDead', {
@@ -94973,20 +95029,20 @@ return {
 								QuestId = "GrimerHamlet",
 							}),
 							PlaceObj('SectorSetRAndROperation', {
-								sector_id = "I19",
+								sector_id = "H32",
 							}),
 							PlaceObj('MusicSetSectorPlaylist', {
 								MusicCombat = "Battle_Normal",
 								MusicConflict = "Village_Conflict",
 								MusicExploration = "Village_Complete",
-								SectorID = "I19",
+								SectorID = "H32",
 							}),
 						},
 						Once = true,
 						ParamId = "TCE_CompleteQuest",
 						QuestId = "GrimerHamlet",
 						requiredSectors = {
-							"I19",
+							"H32",
 						},
 					}),
 					PlaceObj('TriggeredConditionalEvent', {
@@ -95003,7 +95059,7 @@ return {
 							}),
 							PlaceObj('PlayerIsInSectors', {
 								Sectors = {
-									"I19",
+									"H32",
 								},
 							}),
 							PlaceObj('QuestIsVariableNum', {
@@ -95029,7 +95085,7 @@ return {
 						ParamId = "TCE_Fail",
 						QuestId = "GrimerHamlet",
 						requiredSectors = {
-							"I19",
+							"H32",
 						},
 					}),
 				},
@@ -106380,7 +106436,7 @@ return {
 										sector_id = "F13",
 									}),
 									PlaceObj('SectorCheckOwner', {
-										sector_id = "G10",
+										sector_id = "L15",
 									}),
 									PlaceObj('SectorCheckOwner', {
 										sector_id = "N12",
@@ -106392,7 +106448,7 @@ return {
 										sector_id = "D11",
 									}),
 									PlaceObj('SectorCheckOwner', {
-										sector_id = "F13",
+										sector_id = "G25",
 									}),
 									PlaceObj('SectorCheckOwner', {
 										sector_id = "A26",
@@ -108301,51 +108357,55 @@ return {
 	PlaceObj('ModItemInventoryItemCompositeDef', {
 		'Group', "Quest - Items",
 		'Id', "Jazz_Browning_MuchineGun",
-		'object_class', "InventoryItem",
+		'object_class', "MiscItem",
 		'Repairable', false,
 		'Icon', "UI/Icons/Weapons/M2Browning",
-		'SubIcon', "UI/Icons/Weapons/M2Browning",
 		'DisplayName', T(126002992863, --[[ModItemInventoryItemCompositeDef Jazz_Browning_MuchineGun DisplayName]] "Браунинг .50"),
 		'DisplayNamePlural', T(861955157003, --[[ModItemInventoryItemCompositeDef Jazz_Browning_MuchineGun DisplayNamePlural]] "Браунинги .50"),
 		'Description', T(349426689660, --[[ModItemInventoryItemCompositeDef Jazz_Browning_MuchineGun Description]] "Пулемёт Браунинг калибра 12.7х99, С РУК НЕ СТРЕЛЯТЬ!!!"),
 		'AdditionalHint', T(773306762695, --[[ModItemInventoryItemCompositeDef Jazz_Browning_MuchineGun AdditionalHint]] "Без Триноги."),
 		'LargeItem', 1,
+		'CanAppearInShop', false,
+		'RestockWeight', 0,
 	}),
 	PlaceObj('ModItemInventoryItemCompositeDef', {
 		'Group', "Quest - Items",
 		'Id', "Jazz_Browning_Bench",
-		'object_class', "InventoryItem",
+		'object_class', "MiscItem",
 		'Icon', "UI/Icons/Weapons/M2Browning",
-		'SubIcon', "UI/Icons/Weapons/M2Browning",
 		'DisplayName', T(842567173624, --[[ModItemInventoryItemCompositeDef Jazz_Browning_Bench DisplayName]] "Тринога для пулемёта Браунинг .50"),
 		'DisplayNamePlural', T(204691184640, --[[ModItemInventoryItemCompositeDef Jazz_Browning_Bench DisplayNamePlural]] "Триноги для пулемёта Браунинг .50"),
 		'Description', T(374492121427, --[[ModItemInventoryItemCompositeDef Jazz_Browning_Bench Description]] "Станок для установки крупнокалиберного пулемёта Браунинг"),
 		'AdditionalHint', T(729018809211, --[[ModItemInventoryItemCompositeDef Jazz_Browning_Bench AdditionalHint]] "Большая, тяжелая хреновина"),
 		'LargeItem', 1,
+		'CanAppearInShop', false,
+		'RestockWeight', 0,
 	}),
 	PlaceObj('ModItemInventoryItemCompositeDef', {
 		'Group', "Quest - Items",
 		'Id', "JazzQuestItem_AmmoBox",
 		'comment', "Ящики с боеприпасами",
-		'object_class', "InventoryItem",
+		'object_class', "QuestItem",
 		'Icon', "Mod/FhNNYd/Images/Inventory_Images/AmmoCrate.png",
-		'SubIcon', "Mod/FhNNYd/Images/Inventory_Images/AmmoCrate.png",
 		'DisplayName', T(732750682366, --[[ModItemInventoryItemCompositeDef JazzQuestItem_AmmoBox DisplayName]] "Ящики с боеприпасами и гранатами"),
 		'DisplayNamePlural', T(914914835655, --[[ModItemInventoryItemCompositeDef JazzQuestItem_AmmoBox DisplayNamePlural]] "Ящики с боеприпасами и гранатами"),
 		'Description', T(184516975474, --[[ModItemInventoryItemCompositeDef JazzQuestItem_AmmoBox Description]] "Боеприпасы, которые нужно доставить."),
 		'LargeItem', 1,
+		'CanAppearInShop', false,
+		'RestockWeight', 0,
 	}),
 	PlaceObj('ModItemInventoryItemCompositeDef', {
 		'Group', "Quest - Items",
 		'Id', "JazzQuestItem_MinesBox",
 		'comment', "Ящик с минами",
-		'object_class', "InventoryItem",
+		'object_class', "QuestItem",
 		'Icon', "Mod/FhNNYd/Images/Inventory_Images/MinesBox.png",
-		'SubIcon', "Mod/FhNNYd/Images/Inventory_Images/MinesBox.png",
 		'DisplayName', T(872338951889, --[[ModItemInventoryItemCompositeDef JazzQuestItem_MinesBox DisplayName]] "Ящики с минами"),
 		'DisplayNamePlural', T(372768478709, --[[ModItemInventoryItemCompositeDef JazzQuestItem_MinesBox DisplayNamePlural]] "Ящики с минами"),
 		'Description', T(230383098782, --[[ModItemInventoryItemCompositeDef JazzQuestItem_MinesBox Description]] "ОСТОРОЖНО, НЕ РОНЯТЬ, НЕ ТРЯСТИ!!!"),
 		'LargeItem', 1,
+		'CanAppearInShop', false,
+		'RestockWeight', 0,
 	}),
 	PlaceObj('ModItemFolder', {
 		'name', "Quest Banters",
