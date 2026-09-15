@@ -33,13 +33,14 @@
 
 Сателлитная карта `Images/GrandChien2.png` (~70 MB) в репозитории лежит в **Git LFS**. Обычный GitHub ZIP из кнопки Code / `archive/…/main.zip` отдаёт **пустой pointer** → чёрная sat-карта. Игрокам git не нужен.
 
-**Ссылка для Discord / ручной установки** (rolling release, LFS уже внутри):
+**Основной путь — Steam Workshop** (из РФ без VPN): https://steamcommunity.com/sharedfiles/filedetails/?id=3322285655
+
+GitHub ZIP для ручной установки (LFS уже внутри; с РФ часто только с VPN):
 
 https://github.com/Kpoji4er/JAZZ-maps/releases/download/playable/jazz-maps-playable.zip
 
 Обновляется workflow `Publish playable zip` на каждый push в `main`. Распаковать в `Mods/jazz-maps` (или как у вас названа папка пакета `FhNNYd`).
 
-Steam / полный suite release — тоже нормальный путь.  
 `archive/refs/heads/main.zip` — **не использовать**.
 
 Проверка у разработчиков: из `jazz` → `python docs/tools/_check_grandchien_map_lfs.py`.

@@ -17,6 +17,8 @@ local ERNIE_CUSTOM = "VillaAttackers_Ernie"
 local QUEST_ID = "Jazz_VillaCounterAttack"
 local TARGET = "K4"
 
+GameVar("gv_JAZZ_VillaDepartureWaits", function() return {} end)
+
 local function lEnsureTables()
 	if type(rawget(_G, "g_JAZZ_VillaAttackSquadIds")) ~= "table" then
 		rawset(_G, "g_JAZZ_VillaAttackSquadIds", {})
@@ -61,7 +63,117 @@ local function lRouteToK4(squad)
 	if squad.CurrentSector == TARGET then
 		return
 	end
+	-- Preserve an existing march when Start is repeated or a save is loaded.
+	if squad.route and squad.route[1] and #squad.route[1] > 0 then
+		return
+	end
 	procall(SendSatelliteSquadOnRoute, squad, TARGET)
+end
+
+local function lRestoreAttackTags()
+	-- These caches are not save variables; rebuild from persisted squad data.
+	rawset(_G, "g_JAZZ_VillaAttackSquadIds", {})
+	rawset(_G, "g_JAZZ_VillaAttackDefs", {})
+	for id, squad in pairs(gv_Squads or empty_table) do
+		if squad.Side == "enemy1" or squad.Side == "enemy2" then
+			if squad.enemy_squad_def == ERNIE_DEF then
+				lTagSquad(id, ERNIE_CUSTOM, ERNIE_DEF)
+			else
+				for _, wave in ipairs(CAMP_WAVES) do
+					if squad.enemy_squad_def == wave.def then
+						lTagSquad(id, wave.custom, wave.def)
+					end
+				end
+			end
+		end
+	end
+end
+
+local function lHasEnemiesAtVilla()
+	if #(GetSectorSquadsFromSide(TARGET, "enemy1", "enemy2") or empty_table) > 0 then
+		return true
+	end
+	for _, unit in ipairs(gv_CurrentSectorId == TARGET and g_Units or empty_table) do
+		if IsKindOf(unit, "Unit") and not unit:IsDead() and unit.team
+			and (unit.team.side == "enemy1" or unit.team.side == "enemy2") then
+			return true
+		end
+	end
+	return false
+end
+
+local function lRemoveLegacyPrepConflict()
+	local q = gv_Quests and gv_Quests[QUEST_ID]
+	local sector = gv_Sectors and gv_Sectors[TARGET]
+	local conflict = sector and sector.conflict
+	if not q or not q.Given or q.Completed or q.Failed or q.SiegeCombat
+		or not conflict or conflict.descr_id ~= "InitialConflict"
+		or conflict.player_attacking or not sector.ForceConflict
+		or (gv_CurrentSectorId == TARGET and g_Combat) or lHasEnemiesAtVilla() then
+		return
+	end
+	-- This is cancellation of the old empty prep lock, not a combat victory.
+	sector.conflict = false
+	sector.ForceConflict = false
+	table.remove_value(g_ConflictSectors, TARGET)
+	if not AnyNonWaitingConflict() then
+		ResumeCampaignTime("SatelliteConflict")
+	end
+	UpdateEntranceAreasVisibility()
+	ObjModified(sector)
+	ObjModified("gv_SatelliteView")
+	ObjModified(Game)
+end
+
+local function lUpdateDepartureWaits()
+	local q = gv_Quests and gv_Quests[QUEST_ID]
+	local active = q and q.Given and not q.Completed and not q.Failed
+	-- Arrival must not open a gap before the native conflict/deployment takes over.
+	local sector = gv_Sectors and gv_Sectors[TARGET]
+	local incoming = active and (lHasEnemiesAtVilla() or (sector and sector.conflict)
+		or (gv_CurrentSectorId == TARGET and g_Combat)) or false
+	if active then
+		for id in pairs(g_JAZZ_VillaAttackSquadIds or empty_table) do
+			local squad = gv_Squads and gv_Squads[id]
+			local route = squad and squad.route
+			local last = route and route[#route]
+			if squad and #(squad.units or empty_table) > 0 and last and last[#last] == TARGET then
+				incoming = true
+				break
+			end
+		end
+	end
+	local ids = {}
+	for id in pairs(gv_Squads or empty_table) do ids[#ids + 1] = id end
+	table.sort(ids)
+	for _, id in ipairs(ids) do
+		local squad = gv_Squads[id]
+		local owned = gv_JAZZ_VillaDepartureWaits[id]
+		local hold = incoming and squad.CurrentSector == TARGET
+			and (squad.Side == "player1" or squad.Side == "player2") and not squad.Retreat
+		if owned and squad.wait_in_sector ~= owned.applied then
+			-- Respect another system replacing or cancelling our wait.
+			gv_JAZZ_VillaDepartureWaits[id] = nil
+			owned = false
+		end
+		if hold then
+			if not owned then
+				owned = { previous = squad.wait_in_sector or false }
+				gv_JAZZ_VillaDepartureWaits[id] = owned
+			end
+			-- A renewable native wait: no fixed two-hour deadline for the siege.
+			owned.applied = math.max(Game.CampaignTime + 24 * const.Scale.h, owned.previous or 0)
+			SatelliteSquadWaitInSector(squad, owned.applied)
+		elseif owned then
+			local previous = owned.previous
+			if previous and previous <= Game.CampaignTime then previous = false end
+			SatelliteSquadWaitInSector(squad, previous)
+			gv_JAZZ_VillaDepartureWaits[id] = nil
+		end
+	end
+	for id in pairs(gv_JAZZ_VillaDepartureWaits) do
+		if not gv_Squads[id] then gv_JAZZ_VillaDepartureWaits[id] = nil end
+	end
 end
 
 local function lPickErnieSource()
@@ -83,10 +195,19 @@ end
 
 --- Start satellite marches after Emma «guests» interrupt.
 function Jazz_VillaCounterAttack_Start()
-	lEnsureTables()
+	local q = gv_Quests and gv_Quests[QUEST_ID]
+	if not q or not q.Given or q.Completed or q.Failed then
+		return
+	end
+	lRestoreAttackTags()
+	if q.SiegeCombat then
+		return
+	end
 	for _, wave in ipairs(CAMP_WAVES) do
-		if lSectorIsEnemy(wave.sector) then
-			local squad = lFindAttackSquadOnSector(wave.sector, wave.def)
+		local saved_id = gv_CustomQuestIdToSquadId and gv_CustomQuestIdToSquadId[wave.custom]
+		local saved_squad = saved_id and gv_Squads[saved_id]
+		if saved_squad or lSectorIsEnemy(wave.sector) then
+			local squad = saved_squad or lFindAttackSquadOnSector(wave.sector, wave.def)
 			if squad then
 				lTagSquad(squad.UniqueId, wave.custom, wave.def)
 				lRouteToK4(squad)
@@ -94,8 +215,10 @@ function Jazz_VillaCounterAttack_Start()
 		end
 	end
 
-	local source = lPickErnieSource()
-	local squad_id = GenerateEnemySquad(ERNIE_DEF, source, "VillaCounterAttack")
+	local squad_id = gv_CustomQuestIdToSquadId and gv_CustomQuestIdToSquadId[ERNIE_CUSTOM]
+	if not squad_id then
+		squad_id = GenerateEnemySquad(ERNIE_DEF, lPickErnieSource(), "VillaCounterAttack")
+	end
 	if squad_id then
 		lTagSquad(squad_id, ERNIE_CUSTOM, ERNIE_DEF)
 		local squad = gv_Squads[squad_id]
@@ -104,13 +227,8 @@ function Jazz_VillaCounterAttack_Start()
 		end
 	end
 
-	-- Prep lock: conflict + no travel while waiting for columns.
-	local sector = gv_Sectors and gv_Sectors[TARGET]
-	if sector and ForceEnterConflictEffect then
-		procall(ForceEnterConflictEffect, sector, "defend", true, true, "InitialConflict", "force")
-	elseif sector then
-		sector.ForceConflict = true
-	end
+	lRemoveLegacyPrepConflict()
+	lUpdateDepartureWaits()
 end
 
 local function lEmmaMarkerHandle()
@@ -237,6 +355,7 @@ local function lSiegeActive()
 end
 
 function OnMsg.CombatStart()
+	lUpdateDepartureWaits()
 	if gv_CurrentSectorId == TARGET and lSiegeActive() then
 		Jazz_VillaCounterAttack_PushAdvanceToEmma()
 	end
@@ -249,6 +368,7 @@ function OnMsg.DeploymentModeDone()
 end
 
 function OnMsg.SquadEnterSector(squad_id, sector_id)
+	lUpdateDepartureWaits()
 	if sector_id ~= TARGET or not lSiegeActive() then
 		return
 	end
@@ -265,4 +385,23 @@ function OnMsg.EnterSector(game_start, load_game)
 	if gv_CurrentSectorId == TARGET and lSiegeActive() then
 		DelayedCall(500, Jazz_VillaCounterAttack_PushAdvanceToEmma)
 	end
+end
+
+function OnMsg.LoadGame()
+	if lSiegeActive() then
+		Jazz_VillaCounterAttack_Start()
+	end
+	lUpdateDepartureWaits()
+end
+
+function OnMsg.SatelliteViewOpened()
+	lUpdateDepartureWaits()
+end
+
+function OnMsg.SatelliteTick()
+	lUpdateDepartureWaits()
+end
+
+function OnMsg.CombatEnd()
+	lUpdateDepartureWaits()
 end

@@ -19934,7 +19934,7 @@ return {
 					Parameters = {
 						PlaceObj('PresetParamNumber', {
 							'Name', "Reward_Money",
-							'Value', 2000,
+							'Value', 40000,
 							'Tag', "<Reward_Money>",
 						}),
 					},
@@ -20095,7 +20095,7 @@ return {
 							AutoRemove = true,
 							Effects = {
 								PlaceObj('PlayerGrantMoney', {
-									Amount = 2000,
+									Amount = 40000,
 									param_bindings = {
 										Amount = "Reward_Money",
 									},
@@ -20146,7 +20146,7 @@ return {
 									param_bindings = false,
 								}),
 							},
-							PhraseRolloverText = T(153443670599, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Accept $2000"),
+							PhraseRolloverText = T(761915400107, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Принять $40 000"),
 							PlayGoToPhrase = true,
 							StoryBranchIcon = "conversation_action",
 							id = "Thankyou",
@@ -20158,7 +20158,7 @@ return {
 							GoTo = "WeveHadWarmerWelcomes.Thatsnotnecessary2",
 							Keyword = "That's not necessary",
 							KeywordT = T(610507031100, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "That's not necessary"),
-							PhraseRolloverText = T(476973554424, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Refuse $2000"),
+							PhraseRolloverText = T(761915400108, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Отказаться от $40 000"),
 							PlayGoToPhrase = true,
 							StoryBranchIcon = "conversation_action",
 							id = "Thatsnotnecessary",
@@ -20194,7 +20194,7 @@ return {
 							},
 							Effects = {
 								PlaceObj('PlayerGrantMoney', {
-									Amount = 2000,
+									Amount = 40000,
 									param_bindings = {
 										Amount = "Reward_Money",
 									},
@@ -20240,7 +20240,7 @@ return {
 									param_bindings = false,
 								}),
 							},
-							PhraseRolloverText = T(148723557614, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Accept $2000 and request more"),
+							PhraseRolloverText = T(761915400109, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Принять $40 000 и попросить больше"),
 							PlayGoToPhrase = true,
 							StoryBranchIcon = "conversation_action",
 							id = "Youcandobetterthanthat",
@@ -20263,7 +20263,7 @@ return {
 									param_bindings = false,
 								}),
 								PlaceObj('PlayerGrantMoney', {
-									Amount = 2000,
+									Amount = 40000,
 									param_bindings = {
 										Amount = "Reward_Money",
 									},
@@ -20314,7 +20314,7 @@ return {
 									param_bindings = false,
 								}),
 							},
-							PhraseRolloverText = T(246952293895, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Accept $2000 and request more"),
+							PhraseRolloverText = T(761915400109, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Принять $40 000 и попросить больше"),
 							PlayGoToPhrase = true,
 							StoryBranchIcon = "conversation_action",
 							id = "Youcandobetterthanthat2",
@@ -20376,7 +20376,7 @@ return {
 									param_bindings = false,
 								}),
 							},
-							PhraseRolloverText = T(265154709855, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Refuse $2000"),
+							PhraseRolloverText = T(761915400108, --[[ModItemConversation FlagHill_Emma_1 PhraseRolloverText]] "Отказаться от $40 000"),
 							PlayGoToPhrase = true,
 							StoryBranchIcon = "conversation_action",
 							id = "Thatsnotnecessary2",
@@ -21057,38 +21057,23 @@ return {
 								Set = false,
 								param_bindings = false,
 							}),
-							PlaceObj('SectorEnterConflict', {
-								descr_id = "InitialConflict",
-								disable_travel = true,
-								lock_conflict = true,
-								param_bindings = false,
-								sector_id = "K4",
-							}),
 							PlaceObj('ExecuteCode', {
-								FuncCode = "Jazz_VillaCounterAttack_Start()",
-								param_bindings = false,
-							}),
-							PlaceObj('QuestSetVariableTimer', {
-								Prop = "PrepTimer",
-								QuestId = "Jazz_VillaCounterAttack",
-								TimeAmount = 2,
-								param_bindings = false,
+								SaveAsText = true,
+								FuncCode = "Mods.FhNNYd.env.Jazz_VillaCounterAttack_Start()",
 							}),
 						},
 						Enabled = false,
 						GoTo = "<end conversation>",
 						Keyword = "Guests",
-						KeywordT = T(890000000013103, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "Guests"),
+						KeywordT = T(761915400104, --[[ModItemConversation FlagHill_Emma_1 KeywordT]] "Гости"),
 						Lines = {
 							PlaceObj('ConversationLine', {
 								Character = "CorazonSantiago",
-								Text = T(890000000013104, --[[ModItemConversation FlagHill_Emma_1 Text voice:CorazonSantiago section:FlagHill_Emma_1 keyword:Guests]] "Тихо. У нас гости."),
-								param_bindings = false,
+								Text = T(761915400105, --[[ModItemConversation FlagHill_Emma_1 Text voice:CorazonSantiago section:FlagHill_Emma_1 keyword:Guests]] "Тихо. У нас гости."),
 							}),
 							PlaceObj('ConversationLine', {
 								Character = "Emma",
-								Text = T(890000000013105, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Guests]] "Легион снова идёт на виллу — с лагерей и со стороны Эрни. У вас пара часов, чтобы занять позиции. Уйти отсюда сейчас нельзя."),
-								param_bindings = false,
+								Text = T(761915400106, --[[ModItemConversation FlagHill_Emma_1 Text voice:Emma section:FlagHill_Emma_1 keyword:Guests]] "Легион снова идёт на виллу — с лагерей и со стороны Эрни. Займите позиции до подхода противника. Уйти отсюда сейчас нельзя."),
 							}),
 						},
 						id = "Guests",
@@ -97251,7 +97236,7 @@ return {
 			PlaceObj('ModItemQuestsDef', {
 				Author = "JAZZ",
 				DevNotes = "JAZZ-QUESTS-003 Flag Hill villa counterattack",
-				DisplayName = T(890000000013100, --[[ModItemQuestsDef Jazz_VillaCounterAttack DisplayName]] "Контратака на виллу"),
+				DisplayName = T(761915400101, --[[ModItemQuestsDef Jazz_VillaCounterAttack DisplayName]] "Контратака на виллу"),
 				NoteDefs = {
 					PlaceObj('QuestNote', {
 						Badges = {
@@ -97259,7 +97244,7 @@ return {
 								Sector = "K4",
 							}),
 						},
-						Text = T(890000000013101, --[[ModItemQuestsDef Jazz_VillaCounterAttack Text]] "Легион идёт на виллу Коразон. Приготовьтесь к обороне — уйти из сектора нельзя."),
+						Text = T(761915400102, --[[ModItemQuestsDef Jazz_VillaCounterAttack Text]] "Легион идёт на виллу Коразон. Приготовьтесь к обороне — уйти из сектора нельзя."),
 					}),
 					PlaceObj('QuestNote', {
 						CompletionConditions = {
@@ -97269,7 +97254,7 @@ return {
 							}),
 						},
 						ShowOnRead = true,
-						Text = T(890000000013102, --[[ModItemQuestsDef Jazz_VillaCounterAttack Text]] "Контратака на виллу отбита."),
+						Text = T(761915400103, --[[ModItemQuestsDef Jazz_VillaCounterAttack Text]] "Контратака на виллу отбита."),
 					}),
 				},
 				QuestGroup = "Ernie Island",
@@ -97306,7 +97291,8 @@ return {
 								QuestId = "Jazz_VillaCounterAttack",
 							}),
 							PlaceObj('ExecuteCode', {
-								FuncCode = "Jazz_VillaCounterAttack_OnWave2()",
+								SaveAsText = true,
+								FuncCode = "Mods.FhNNYd.env.Jazz_VillaCounterAttack_OnWave2()",
 							}),
 							PlaceObj('GroupAlert', {
 								TargetUnit = "VillaSiege_Wave2",
@@ -97342,7 +97328,8 @@ return {
 								QuestId = "Jazz_VillaCounterAttack",
 							}),
 							PlaceObj('ExecuteCode', {
-								FuncCode = "Jazz_VillaCounterAttack_PushAdvanceToEmma()",
+								SaveAsText = true,
+								FuncCode = "Mods.FhNNYd.env.Jazz_VillaCounterAttack_PushAdvanceToEmma()",
 							}),
 						},
 						Once = true,

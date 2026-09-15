@@ -33,6 +33,7 @@ Player-facing карта: suite `jazz/docs/wiki/grand-chien-map.md` и showcase 
 | [`combat-vehicle-design.md`](combat-vehicle-design.md) | **Канон:** дизайн OOP 2×3 / экипаж / турель / AP + план Фазы 1 + тесты (код в игру ещё не вставлен) |
 | [`TZ_JAZZ_Combat_Vehicle_MVP.md`](TZ_JAZZ_Combat_Vehicle_MVP.md) | Историческое ТЗ 25 июля (superseded) |
 | Suite technical | [`../../jazz/docs/technical/systems/satellite-vehicles.md`](../../jazz/docs/technical/systems/satellite-vehicles.md) |
+| Suite design draft | [`../../jazz/docs/design/army-presence-and-travel.md`](../../jazz/docs/design/army-presence-and-travel.md) — армейские базы по регионам, закрытые сектора до Flip, ЖД/вертолёт/самолёт через shortcut (не spec) |
 
 ## Корневые stubs
 
