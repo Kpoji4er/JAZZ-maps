@@ -2,7 +2,7 @@ return PlaceObj('ModDef', {
 	'title', "JAZZ Maps",
 	'description', "Maps for JAZZ\n\nКарты для ДЖАЗ",
 	'image', "Mod/FhNNYd/Images/J 2.png",
-	'last_changes', "- Outpost TargetSectors leftover F7/G10/F19/E16 remap to E10/L15/K21/G22 [new game]\n- A5 / A5_Underground: ванильные B-10 Wasteland и Lost Basin (не карта мода sVQSE5) [new game]\n- Лотки торговцев: ванильные stall-бантеры и Vendor Loot на живые JAZZ_AMMO_*; бартеры I5 — 7.62×39 FMJ и картечь 12g [new game recommended]\n- Новые карты секторов: B8, B10 и материковые заготовки (G/H/I/J/K/L/M/N/O/P) [new game]\n- K4 Flag Hill: sector loads again (purge leftover commas in objects.lua) [no new game]\n- K5: atmosphere like L5 (no Jungle_Mist); night/weather TOD stays [no new game]\n- K5: hostage AdvanceTo Rebels_Camp_LegionCamp5 [no new game]\n- L6 leftover markers: Diamonds_Loot / DiamondRed_IntelStash remap to island loot [new game]\n- L6 surface: Diamond Red leftover crates → island-tier loot [new game]\n- K2 / L6 bunker: cut mainland exceptional loot to island tier [new game]\n- L2: снять Extra Melee с Init проходного сектора [new game]\n- M4 Outlook: clear leftover Sniper GridMarker names so class names show [no new game]\n- M3 waterfall: lower Legion Gunner UnitMarker Z onto terrain (was floating) [no new game]\n- K2: Старая ретрансляционная башня / Old Relay Tower [no new game]\n- K2: replace empty sea stub with authored coastal map + satellite image [no new game]\n- fix: sync HotDiamonds Ernie Init to UNITS-007 ModItem (stop ghost [0] squads) [new game]\n- UNITS-007: Ernie overflow InitialSquads rewire (M4-M6/I2-I4/L1-L2/L6/I7) [new game]\n- QUESTS-003: Flag Hill villa counterattack (move Attackers, Ernie30, Wave2) [new game recommended]\n- Ernie island: night flare carriers normalized to 12-15 [no new game]\n- Ernie M3: soft-nerf waterfall garrison and spawn waves [no new game]\n- QUESTS-002: remap vanilla quest landmarks to maps sector grid (Wave A+B) [new game recommended]\n- QUESTS-001: repair Ernie quests, map markers and Barry Seal recruitment [new game recommended]\nLOC-002: normalize quest and banter source fallbacks [skip discord]\n- Fix Ghost/Maleko/Kiki portraits after Images->NPCPortraits migrate [discord]\n- M1/J2: clear forced day Lightmodel so night/weather TOD works\n- Move GrandChien2.png to Git LFS (70MB map art) [discord]\n- Global AI outpost lists (P17/E10/D18/H19/L15/G22/K21) + GrandChien2 map art [discord]\n- FortifyErnie MG hand-in: Jazz Browning + bench (not MG42) [discord]\n- Camp du Crocodile: export UpdateReachSectorCenter + Msg rawset; sector atlas docs/CSV\nCrocodile patrol Msg wrap fix\n- Packaging: expand .gitignore + metadata ignore_files for Steam upload",
+	'last_changes', "- A21 / A21_Underground / A22 / M18: копии ванильных A6, A6U, A7, G16 на fVoG4zR / UFYsMp / gmeyzDK / qdVPuVK [new game]\n- A5 / A5_Underground: копии ванильных B-10 Wasteland и Lost Basin в Maps/WfHkNqA и Maps/WfHkNqU [new game]\n- Outpost TargetSectors leftover F7/G10/F19/E16 remap to E10/L15/K21/G22 [new game]\n- A5 / A5_Underground: ванильные B-10 Wasteland и Lost Basin (не карта мода sVQSE5) [new game]\n- Лотки торговцев: ванильные stall-бантеры и Vendor Loot на живые JAZZ_AMMO_*; бартеры I5 — 7.62×39 FMJ и картечь 12g [new game recommended]\n- Новые карты секторов: B8, B10 и материковые заготовки (G/H/I/J/K/L/M/N/O/P) [new game]\n- K4 Flag Hill: sector loads again (purge leftover commas in objects.lua) [no new game]\n- K5: atmosphere like L5 (no Jungle_Mist); night/weather TOD stays [no new game]\n- K5: hostage AdvanceTo Rebels_Camp_LegionCamp5 [no new game]\n- L6 leftover markers: Diamonds_Loot / DiamondRed_IntelStash remap to island loot [new game]\n- L6 surface: Diamond Red leftover crates → island-tier loot [new game]\n- K2 / L6 bunker: cut mainland exceptional loot to island tier [new game]\n- L2: снять Extra Melee с Init проходного сектора [new game]\n- M4 Outlook: clear leftover Sniper GridMarker names so class names show [no new game]\n- M3 waterfall: lower Legion Gunner UnitMarker Z onto terrain (was floating) [no new game]\n- K2: Старая ретрансляционная башня / Old Relay Tower [no new game]\n- K2: replace empty sea stub with authored coastal map + satellite image [no new game]\n- fix: sync HotDiamonds Ernie Init to UNITS-007 ModItem (stop ghost [0] squads) [new game]\n- UNITS-007: Ernie overflow InitialSquads rewire (M4-M6/I2-I4/L1-L2/L6/I7) [new game]\n- QUESTS-003: Flag Hill villa counterattack (move Attackers, Ernie30, Wave2) [new game recommended]\n- Ernie island: night flare carriers normalized to 12-15 [no new game]\n- Ernie M3: soft-nerf waterfall garrison and spawn waves [no new game]\n- QUESTS-002: remap vanilla quest landmarks to maps sector grid (Wave A+B) [new game recommended]\n- QUESTS-001: repair Ernie quests, map markers and Barry Seal recruitment [new game recommended]\nLOC-002: normalize quest and banter source fallbacks [skip discord]\n- Fix Ghost/Maleko/Kiki portraits after Images->NPCPortraits migrate [discord]\n- M1/J2: clear forced day Lightmodel so night/weather TOD works\n- Move GrandChien2.png to Git LFS (70MB map art) [discord]\n- Global AI outpost lists (P17/E10/D18/H19/L15/G22/K21) + GrandChien2 map art [discord]\n- FortifyErnie MG hand-in: Jazz Browning + bench (not MG42) [discord]\n- Camp du Crocodile: export UpdateReachSectorCenter + Msg rawset; sector atlas docs/CSV\nCrocodile patrol Msg wrap fix\n- Packaging: expand .gitignore + metadata ignore_files for Steam upload",
 	'ignore_files', {
 		"*.git/*",
 		"*.svn/*",
@@ -54,7 +54,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 7,
-	'version', 5180,
+	'version', 5186,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
@@ -75,8 +75,8 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1789482716,
-	'code_hash', 4519181805824796089,
+	'saved', 1789494771,
+	'code_hash', -7896955133792707365,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
@@ -345,6 +345,26 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_A22",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_A21",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_A21_Underground",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_A16",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_A15",
 			'ClassDisplayName', "Satellite sector",
 		}),
@@ -365,17 +385,17 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_A4",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_A5",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
 			'Id', "HotDiamonds_A5_Underground",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
-			'Id', "HotDiamonds_A4",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -1401,6 +1421,11 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
 			'Id', "HotDiamonds_M22",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_M18",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {

@@ -8,6 +8,7 @@
 - В спецификации указывать владельца `jazz-maps` и конкретную карту/сектор/patch как exclusive resource.
 - Для общей работы использовать `../jazz/.agents/skills/work-on-jazz-mod/SKILL.md`.
 - Для editor-generated данных использовать `../jazz/.agents/skills/sync-jazz-generated-data/SKILL.md`.
+- Для красных/жёлтых пометок Mod Editor — `../jazz/.agents/skills/diagnose-jazz-mod-editor/SKILL.md` (агент не видит живой Ged).
 - Текущее реализованное состояние документировать в `../jazz/docs/technical/`; целевое — только в активной спецификации. `docs/wiki` сейчас не ведётся.
 
 ## Владение и ограничения

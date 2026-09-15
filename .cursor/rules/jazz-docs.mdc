@@ -10,6 +10,7 @@ alwaysApply: true
 - `../jazz/.agents/skills/work-on-jazz-mod/SKILL.md`
 - `../jazz/.agents/skills/sync-jazz-generated-data/SKILL.md`
 - `../jazz/.agents/skills/document-jazz-systems/SKILL.md`
+- `../jazz/.agents/skills/diagnose-jazz-mod-editor/SKILL.md` — красные/жёлтые пометки Mod Editor; агент не видит живой Ged
 
 Два suite-контура: `jazz/docs/technical/` (истина для разработки) и `jazz/docs/wiki/` (для игрока).
 
