@@ -5243,7 +5243,8 @@ PlaceObj('CustomInteractable', {
 			'Conditions', {},
 			'Effects', {
 				PlaceObj('UnitGrantItem', {
-					LootTableId = "Drop_762WP_HP",
+					Amount = 40,
+					ItemId = "JAZZ_AMMO_762x39_FMJ",
 				}),
 				PlaceObj('UnitTakeItem', {
 					Amount = 100,
@@ -5299,7 +5300,8 @@ PlaceObj('CustomInteractable', {
 					Amount = 100,
 				}),
 				PlaceObj('UnitGrantItem', {
-					LootTableId = "Drop_12gauge_Varied_Legion",
+					Amount = 30,
+					ItemId = "JAZZ_AMMO_12gauge_Buckshot",
 				}),
 				PlaceObj('CustomCodeEffect', {
 					custom_code = 'PlayBanter("Purchased", {SelectedObj})',

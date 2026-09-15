@@ -2,7 +2,7 @@ return PlaceObj('ModDef', {
 	'title', "JAZZ Maps",
 	'description', "Maps for JAZZ\n\nКарты для ДЖАЗ",
 	'image', "Mod/FhNNYd/Images/J 2.png",
-	'last_changes', "- K4 Flag Hill: sector loads again (purge leftover commas in objects.lua) [no new game]\n- K5: atmosphere like L5 (no Jungle_Mist); night/weather TOD stays [no new game]\n- K5: hostage AdvanceTo Rebels_Camp_LegionCamp5 [no new game]\n- L6 leftover markers: Diamonds_Loot / DiamondRed_IntelStash remap to island loot [new game]\n- L6 surface: Diamond Red leftover crates → island-tier loot [new game]\n- K2 / L6 bunker: cut mainland exceptional loot to island tier [new game]\n- L2: снять Extra Melee с Init проходного сектора [new game]\n- M4 Outlook: clear leftover Sniper GridMarker names so class names show [no new game]\n- M3 waterfall: lower Legion Gunner UnitMarker Z onto terrain (was floating) [no new game]\n- K2: Старая ретрансляционная башня / Old Relay Tower [no new game]\n- K2: replace empty sea stub with authored coastal map + satellite image [no new game]\n- fix: sync HotDiamonds Ernie Init to UNITS-007 ModItem (stop ghost [0] squads) [new game]\n- UNITS-007: Ernie overflow InitialSquads rewire (M4-M6/I2-I4/L1-L2/L6/I7) [new game]\n- QUESTS-003: Flag Hill villa counterattack (move Attackers, Ernie30, Wave2) [new game recommended]\n- Ernie island: night flare carriers normalized to 12-15 [no new game]\n- Ernie M3: soft-nerf waterfall garrison and spawn waves [no new game]\n- QUESTS-002: remap vanilla quest landmarks to maps sector grid (Wave A+B) [new game recommended]\n- QUESTS-001: repair Ernie quests, map markers and Barry Seal recruitment [new game recommended]\nLOC-002: normalize quest and banter source fallbacks [skip discord]\n- Fix Ghost/Maleko/Kiki portraits after Images->NPCPortraits migrate [discord]\n- M1/J2: clear forced day Lightmodel so night/weather TOD works\n- Move GrandChien2.png to Git LFS (70MB map art) [discord]\n- Global AI outpost lists (P17/E10/D18/H19/L15/G22/K21) + GrandChien2 map art [discord]\n- FortifyErnie MG hand-in: Jazz Browning + bench (not MG42) [discord]\n- Camp du Crocodile: export UpdateReachSectorCenter + Msg rawset; sector atlas docs/CSV\nCrocodile patrol Msg wrap fix\n- Packaging: expand .gitignore + metadata ignore_files for Steam upload",
+	'last_changes', "- Лотки торговцев: ванильные stall-бантеры и Vendor Loot на живые JAZZ_AMMO_*; бартеры I5 — 7.62×39 FMJ и картечь 12g [new game recommended]\n- Новые карты секторов: B8, B10 и материковые заготовки (G/H/I/J/K/L/M/N/O/P) [new game]\n- K4 Flag Hill: sector loads again (purge leftover commas in objects.lua) [no new game]\n- K5: atmosphere like L5 (no Jungle_Mist); night/weather TOD stays [no new game]\n- K5: hostage AdvanceTo Rebels_Camp_LegionCamp5 [no new game]\n- L6 leftover markers: Diamonds_Loot / DiamondRed_IntelStash remap to island loot [new game]\n- L6 surface: Diamond Red leftover crates → island-tier loot [new game]\n- K2 / L6 bunker: cut mainland exceptional loot to island tier [new game]\n- L2: снять Extra Melee с Init проходного сектора [new game]\n- M4 Outlook: clear leftover Sniper GridMarker names so class names show [no new game]\n- M3 waterfall: lower Legion Gunner UnitMarker Z onto terrain (was floating) [no new game]\n- K2: Старая ретрансляционная башня / Old Relay Tower [no new game]\n- K2: replace empty sea stub with authored coastal map + satellite image [no new game]\n- fix: sync HotDiamonds Ernie Init to UNITS-007 ModItem (stop ghost [0] squads) [new game]\n- UNITS-007: Ernie overflow InitialSquads rewire (M4-M6/I2-I4/L1-L2/L6/I7) [new game]\n- QUESTS-003: Flag Hill villa counterattack (move Attackers, Ernie30, Wave2) [new game recommended]\n- Ernie island: night flare carriers normalized to 12-15 [no new game]\n- Ernie M3: soft-nerf waterfall garrison and spawn waves [no new game]\n- QUESTS-002: remap vanilla quest landmarks to maps sector grid (Wave A+B) [new game recommended]\n- QUESTS-001: repair Ernie quests, map markers and Barry Seal recruitment [new game recommended]\nLOC-002: normalize quest and banter source fallbacks [skip discord]\n- Fix Ghost/Maleko/Kiki portraits after Images->NPCPortraits migrate [discord]\n- M1/J2: clear forced day Lightmodel so night/weather TOD works\n- Move GrandChien2.png to Git LFS (70MB map art) [discord]\n- Global AI outpost lists (P17/E10/D18/H19/L15/G22/K21) + GrandChien2 map art [discord]\n- FortifyErnie MG hand-in: Jazz Browning + bench (not MG42) [discord]\n- Camp du Crocodile: export UpdateReachSectorCenter + Msg rawset; sector atlas docs/CSV\nCrocodile patrol Msg wrap fix\n- Packaging: expand .gitignore + metadata ignore_files for Steam upload",
 	'ignore_files', {
 		"*.git/*",
 		"*.svn/*",
@@ -54,7 +54,7 @@ return PlaceObj('ModDef', {
 	'author', "Doctor_Leevsy",
 	'version_major', 1,
 	'version_minor', 7,
-	'version', 5153,
+	'version', 5179,
 	'lua_revision', 233360,
 	'saved_with_revision', 366685,
 	'code', {
@@ -75,8 +75,8 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1786293863,
-	'code_hash', 4868953807628163619,
+	'saved', 1789482716,
+	'code_hash', 4519181805824796089,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "BanterDef",
@@ -117,6 +117,206 @@ return PlaceObj('ModDef', {
 			'Class', "BanterDef",
 			'Id', "Stall_Barter_762x39PS",
 			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "D6_Meds",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "GrannyShop_AK",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "GrannyShop_Grenades",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "GrannyShop_Kevlar",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "GrannyShop_Sniper",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "H8_Stall_Magazine",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "I18_CombineItems",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "L20_Meds",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "L20_Molotov",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "L20_Sharpeners",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "PoacherStall_Ammo",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "PoacherStall_Masks",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "PoacherStall_Rifles",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Sanatorium_Meds",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Stall_AK47",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Stall_Ammo",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Stall_AmmoFosse",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Stall_Auto5",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Stall_Explosives",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Stall_Gunpowder",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Stall_HiPower",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Stall_Knives",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Stall_Magazine",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Stall_Meds",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Stall_Molotov",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Stall_Scrap",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Stall_Snipers",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "BanterDef",
+			'Id', "Stall_Uzi",
+			'ClassDisplayName', "Banter",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "Vendor_Ammo",
+			'ClassDisplayName', "LootDef",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "FleatownMarket_Ammo",
+			'ClassDisplayName', "LootDef",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "FleatownMarket_Pistol",
+			'ClassDisplayName', "LootDef",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "FleatownMarket_SMG",
+			'ClassDisplayName', "LootDef",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "FleatownMarket_Shotgun",
+			'ClassDisplayName', "LootDef",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "FosseNoire_Ammo",
+			'ClassDisplayName', "LootDef",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "IlleMorat_Gunpowder",
+			'ClassDisplayName', "LootDef",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "PoacherCamp_Ammo",
+			'ClassDisplayName', "LootDef",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "PoacherCamp_Rifle",
+			'ClassDisplayName', "LootDef",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "PortCacao_AssaultRifle",
+			'ClassDisplayName', "LootDef",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "PortCacao_Shotgun",
+			'ClassDisplayName', "LootDef",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "LootDef",
+			'Id', "SmugglerPort_AssaultRifle",
+			'ClassDisplayName', "LootDef",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
@@ -206,6 +406,16 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
 			'Id', "HotDiamonds_B11",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_B10",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_B8",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -550,12 +760,22 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_G24",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_G23",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
 			'Id', "HotDiamonds_G22",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_G20",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -630,12 +850,17 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
-			'Id', "HotDiamonds_H23",
+			'Id', "HotDiamonds_H25",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
-			'Id', "HotDiamonds_H23_Underground",
+			'Id', "HotDiamonds_H24",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_H23",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -700,7 +925,17 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_I30",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_I28",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_I26",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -716,11 +951,6 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
 			'Id', "HotDiamonds_I23",
-			'ClassDisplayName', "Satellite sector",
-		}),
-		PlaceObj('ModResourcePreset', {
-			'Class', "ModItemSector",
-			'Id', "HotDiamonds_I23_Underground",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -855,6 +1085,16 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_J22",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_J22_Underground",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_J21",
 			'ClassDisplayName', "Satellite sector",
 		}),
@@ -985,6 +1225,11 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_K20",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_K15",
 			'ClassDisplayName', "Satellite sector",
 		}),
@@ -1025,7 +1270,27 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_L29",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_L28",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_L27",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_L26",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_L25",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -1120,12 +1385,12 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
-			'Id', "HotDiamonds_N22",
+			'Id', "HotDiamonds_M28",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
-			'Id', "HotDiamonds_L27",
+			'Id', "HotDiamonds_M22",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -1210,6 +1475,11 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_N21",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_N16",
 			'ClassDisplayName', "Satellite sector",
 		}),
@@ -1230,7 +1500,32 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_O27",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_O26",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_O25",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_O24",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_O23",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_O23_Underground",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -1295,6 +1590,16 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
+			'Id', "HotDiamonds_P30",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_P28",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
 			'Id', "HotDiamonds_P26",
 			'ClassDisplayName', "Satellite sector",
 		}),
@@ -1321,6 +1626,11 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
 			'Id', "HotDiamonds_P15_Underground",
+			'ClassDisplayName', "Satellite sector",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "ModItemSector",
+			'Id', "HotDiamonds_P12",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
@@ -1675,12 +1985,6 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "QuestsDef",
-			'Id', "Jazz_VillaCounterAttack",
-			'ClassDisplayName', "Quests",
-		}),
-
-		PlaceObj('ModResourcePreset', {
-			'Class', "QuestsDef",
 			'Id', "RescueTeam",
 			'ClassDisplayName', "QuestsEditor",
 		}),
@@ -1987,6 +2291,11 @@ return PlaceObj('ModDef', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "QuestsDef",
 			'Id', "FortifyErnie",
+			'ClassDisplayName', "QuestsEditor",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "QuestsDef",
+			'Id', "Jazz_VillaCounterAttack",
 			'ClassDisplayName', "QuestsEditor",
 		}),
 		PlaceObj('ModResourcePreset', {
