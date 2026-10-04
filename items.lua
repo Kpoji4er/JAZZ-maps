@@ -521,6 +521,7 @@ return {
 			PlaceObj('LootEntryUpgradedWeapon', {
 				guaranteed = true,
 				upgrades = {
+					"JAZZ_Dovetail_SVD",
 					"JAZZ_NightScope_NSPU",
 				},
 				weapon = "DragunovSVD",
@@ -546,6 +547,7 @@ return {
 			PlaceObj('LootEntryUpgradedWeapon', {
 				guaranteed = true,
 				upgrades = {
+					"JAZZ_FNFAL_TacHandguard",
 					"JAZZ_CombatScope_ACOG",
 					"JAZZ_StockHeavy",
 				},
@@ -559,6 +561,7 @@ return {
 			PlaceObj('LootEntryUpgradedWeapon', {
 				guaranteed = true,
 				upgrades = {
+					"JAZZ_Rail_M14",
 					"JAZZ_MagNormalFine_M14",
 					"JAZZ_GrenadeLauncher_M14",
 					"JAZZ_CombatScope_2x",
